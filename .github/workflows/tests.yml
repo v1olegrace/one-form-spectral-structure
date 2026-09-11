@@ -1,0 +1,67 @@
+name: tests
+
+# NOTE: this workflow has NOT been executed in the development environment,
+# which has no CI runner. It is reported as UNVERIFIED_IN_ENVIRONMENT in
+# FINAL_REPORT.md and must not be scored as passing until it runs green.
+
+on:
+  push:
+    branches: [main, 'remediation/**']
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Test suite
+        run: python -m pytest tests -q
+
+      - name: Numerical reproducibility (no network)
+        run: python make.py numerics
+
+      - name: Audit ledgers rebuild cleanly
+        run: python make.py audit
+
+      - name: Fail if generated or cache artifacts are tracked
+        run: |
+          if git ls-files | grep -E '(^tmp/|chrome_profile|__pycache__|\.pytest_cache|^output/html/|^output/pdf/)'; then
+            echo "Generated/cache artifacts are tracked in version control"; exit 1
+          fi
+
+  paper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install pytest
+
+      - name: LaTeX structural validation
+        run: python -m pytest tests/test_latex_structure.py tests/test_bibliography.py -q
+
+      - name: Install TeX Live
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends texlive-latex-recommended \
+            texlive-latex-extra texlive-science latexmk
+
+      - name: Build paper
+        run: cd paper && latexmk -pdf -interaction=nonstopmode paper.tex
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: paper
+          path: paper/paper.pdf

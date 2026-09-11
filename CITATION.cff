@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Spectral structure of approximate one-form symmetry breaking"
+abstract: >-
+  Conditional on a positive Stieltjes representation of the gauge-invariant
+  static response, the reduced one-form symmetry-breaking profile is the
+  Laplace transform of a positive measure whose support edge is the lowest
+  charged threshold. Includes an adversarial priority audit, a per-claim
+  novelty matrix, and an adversarial falsification suite.
+authors:
+  - name: "See repository history"
+date-released: "2026-09-11"
+license: MIT
+keywords:
+  - generalized global symmetries
+  - one-form symmetry
+  - static potential
+  - Laplace transform
+  - moment problem
+  - weak gravity conjecture
