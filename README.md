@@ -38,7 +38,7 @@ reproducibility/
   interval_bounds.py     the only module that says "certified"
   laplace_geometry.py    benchmark identities
   extended_analysis.py   sampled hierarchies, Mellin bridge, figures
-tests/          pytest suite (43 tests)
+tests/          pytest suite (44 tests)
 data/           forensics, literature audit, claims matrix, theorem status
 scripts/        literature harvester, bibliography and audit builders
 ```
@@ -49,7 +49,7 @@ scripts/        literature harvester, bibliography and audit builders
 pip install -r requirements.txt
 python make.py check      # report available external tools
 python make.py numerics   # regenerate all numerical results and figures
-python make.py test       # 43 tests
+python make.py test       # 44 tests
 python make.py pdf        # requires a LaTeX toolchain (absent here; exits 2)
 ```
 

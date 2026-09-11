@@ -1,6 +1,6 @@
 # Final Remediation Report
 
-Branch `remediation/priority-audit` · 6 commits · 86 files changed
+Branch `remediation/priority-audit` · 8 commits · 86 files changed
 (+4526 / −120) · 2026-09-11
 
 ---
@@ -57,7 +57,7 @@ formal content.
 | 9 bibliography | academic sources only; identifiers; provenance | `paper/references.bib`; `tests/test_bibliography.py` (7 tests) |
 | 10 paper | English LaTeX, restrained, conditional abstract | `paper/paper.tex` + `appendix.tex`; 10 structural/honesty tests |
 | 11 numerics | model zoo incl. signed and tiny-weight; interval subset | 79 numerical checks across three scripts; **A–H, J, K done; I partial; L, M, N not implemented** |
-| 12 testing | `make test` passes | 43 tests, exit 0 |
+| 12 testing | `make test` passes | 44 tests, exit 0 |
 | 13 red team | no unresolved FATAL | `RED_TEAM_REPORT.md`: 4 FATAL all resolved |
 | 14 QA | this report | below |
 
@@ -150,7 +150,7 @@ Bellazzini et al. 2020, Baker–Graves-Morris.
 ## 9. Numerical validation
 
 79 checks: `extended_analysis.py` 52 · `falsification_suite.py` 17 (0 FATAL,
-0 FAIL) · `interval_bounds.py` 10 certified, 0 failures. Plus 43 pytest tests.
+0 FAIL) · `interval_bounds.py` 10 certified, 0 failures. Plus 44 pytest tests.
 
 Coverage of the requested battery A–N, stated exactly:
 
