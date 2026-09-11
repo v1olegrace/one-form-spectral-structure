@@ -15,7 +15,7 @@ execute:
   enabled: false
 ---
 
-<p class="meta-line">Versão científica auditada · física matemática e teoria quântica de campos · estado da literatura verificado até 10 de setembro de 2026</p>
+<p class="meta-line">Revisão matemática ampliada em 11 de setembro de 2026 · física matemática e teoria quântica de campos · levantamento bibliográfico original de 10 de setembro de 2026</p>
 
 <div class="leadbox">
 <div class="box-title">Legenda epistemológica obrigatória</div>
@@ -96,7 +96,7 @@ $$
 c_n\equiv\int_{s_0}^{\infty}\frac{d\mu(s)}{s^{n+1}},\qquad n\ge n_{\min}.
 $$
 
-<p><span class="tag t">T</span>Se $d\mu$ é adimensional, então $[c_n]=M^{-2n}$. Mais geralmente, qualquer dimensão comum de $d\mu$ cancela na razão $c_n/c_{n+1}$; esse cancelamento será a origem do no-go para uma desigualdade que também dependa da intensidade do acoplamento.</p>
+<p><span class="tag t">T</span>Em geral, $[c_n]=[d\mu]M^{-2n-2}$. Para o correlator de corrente com $d\mu=\rho_J(s)ds$ e $\rho_J$ adimensional, $[d\mu]=M^2$ e $[c_n]=M^{-2n}$; para uma medida adimensional, $[c_n]=M^{-2n-2}$. Mais geralmente, qualquer dimensão comum de $d\mu$ cancela na razão $c_n/c_{n+1}$; esse cancelamento será a origem do no-go para uma desigualdade que também dependa da intensidade do acoplamento.</p>
 
 ## Positividade setorial: teorema exato e obstrução
 
@@ -143,6 +143,29 @@ $$
 
 <p><span class="tag t">T</span>Para a simetria elétrica de 1-forma, existe uma tensão estrutural: se ela é exata, estados eletricamente carregados dinâmicos que terminam linhas de Wilson estão ausentes; se tais estados existem, a simetria é quebrada e o Teorema 1 não se aplica sem um controle explícito do termo de vazamento. Logo, a mesma partícula cujo gap se deseja limitar remove a hipótese usada para provar a positividade setorial exata.</p>
 
+
+### Refinamento: preparação do estado e vazamento quantitativo
+
+<p><span class="tag t">T</span><strong>Proposição 2a.</strong> A perda de sinal para estados gerais não implica perda de sinal para toda preparação. Para um estado normalizado inteiramente no setor, $P|\psi\rangle=|\psi\rangle$, mesmo sem $[S,P]=0$,</p>
+
+$$
+2\operatorname{Im}\langle\psi|PT|\psi\rangle
+=2[1-\operatorname{Re}\langle\psi|S|\psi\rangle]\ge0.
+$$
+
+<p><span class="tag t">T</span>A última desigualdade segue de $|\langle\psi|S|\psi\rangle|\le1$. Para $P|\psi\rangle=0$, o lado esquerdo é zero. Por convexidade, qualquer matriz densidade que comute com $P$ também dá valor não negativo. O contraexemplo anterior usa coerência entre os setores. Essa distinção é essencial antes de interpretar a obstrução em uma QFT com regras de superseleção.</p>
+
+<p><span class="tag t">T</span>Para um estado inicialmente no setor, $\langle S^\dagger PS-P\rangle=-\|(1-P)S\psi\|^2$: o corte projetado sozinho não é todo o lado absortivo, embora o sinal permaneça não negativo. O Teorema 1 continua sendo suficiente para a igualdade setorial exata, e a Proposição 2a impede concluir, apenas da quebra, que todo estado físico viola positividade.</p>
+
+<p><span class="tag t">T</span><strong>Proposição 2b.</strong> Para qualquer estado normalizado,</p>
+
+$$
+2\operatorname{Im}\langle PT\rangle\ge-\|S^\dagger PS-P\|
+=-\|[P,S]\|\ge-1.
+$$
+
+<p><span class="tag t">T</span>A igualdade das normas usa $S^\dagger PS-P=S^\dagger(PS-SP)$ e invariância unitária da norma. A última desigualdade decorre de a diferença entre dois projetores ortogonais ter norma no máximo um. Um limite dinâmico $\|[P,S]\|\le\epsilon$ melhora imediatamente a cota para $-\epsilon$. Sem calcular esse comutador na teoria considerada, o parâmetro de quebra continua desconhecido.</p>
+
 ## Teoremas de gap para momentos positivos
 
 ### Limite por razão de momentos
@@ -184,7 +207,7 @@ $$
 
 <div class="theorembox">
 <div class="box-title"><span class="tag t">T</span>Teorema 4 — positividade de Hankel e limite matricial</div>
-<p>Sob as hipóteses do Teorema 3, $H_0\succeq0$, $H_1\succeq0$ e</p>
+<p>Sob as hipóteses do Teorema 3 e com todos os momentos $c_n,\ldots,c_{n+2K+1}$ finitos, $H_0\succeq0$, $H_1\succeq0$ e</p>
 $$
 H_0-s_0H_1\succeq0.
 $$
@@ -226,10 +249,10 @@ $$
 $$
 d\mu_1=f\,d\mu,\qquad d\mu_2=(1-f)d\mu
 $$
-<p>é uma decomposição positiva com os mesmos momentos totais, mas com pesos e ínfimos de suporte setoriais variáveis.</p>
+<p>é uma decomposição positiva com os mesmos momentos totais. Os pesos variam com $f$; os ínfimos de suporte também podem variar quando a medida total tem suporte apropriado. Uma medida de um único átomo não permite mover a borda de duas parcelas não nulas.</p>
 </div>
 
-<p><span class="tag t">T</span><strong>Demonstração.</strong> Positividade decorre de $0\le f\le1$ e a soma é identicamente $d\mu$. Escolher $f$ como indicador de subconjuntos diferentes move o primeiro ponto do suporte de cada parcela sem alterar $d\mu$ nem qualquer $c_n$ total. □</p>
+<p><span class="tag t">T</span><strong>Demonstração.</strong> Positividade decorre de $0\le f\le1$ e a soma é identicamente $d\mu$. Escolher $f$ como indicador de subconjuntos com bordas diferentes pode mover o início do suporte de cada parcela sem alterar $d\mu$ nem qualquer $c_n$ total; mesmo num único átomo, o peso setorial permanece não identificável. □</p>
 
 <p><span class="tag t">T</span>O resultado persiste mesmo quando o problema de Stieltjes total é determinado unicamente por uma sequência infinita de momentos: unicidade da medida total não é unicidade de seus rótulos ocultos. Uma reconstrução de cargas exige observáveis tagged independentes, regras de seleção ou conhecimento microscópico adicional.</p>
 
@@ -237,7 +260,7 @@ $$
 
 <div class="warningbox">
 <div class="box-title"><span class="tag t">T</span>Teorema 6 — positividade espectral isolada não implica WGC</div>
-<p>Na classe de todas as medidas positivas não nulas em $(0,\infty)$ com os momentos exigidos finitos, nenhuma condição que seja consequência universal apenas dessa positividade — incluindo positividade de Hankel/localizadores sem escala externa fixada — pode implicar um limite universal $M\le Cg|q|M_{\rm Pl}$ com $C$ finito. Se as condições também são homogêneas sob $d\mu\mapsto Z,d\mu$, a normalização espectral não pode fornecer o fator $g|q|$.</p>
+<p>Na classe de todas as medidas positivas não nulas em $(0,\infty)$ com os momentos exigidos finitos, nenhuma condição que seja consequência universal apenas dessa positividade — incluindo positividade de Hankel/localizadores sem escala externa fixada — pode implicar um limite universal $M\le Cg|q|M_{\rm Pl}$ com $C$ finito. Se as condições também são homogêneas sob $d\mu\mapsto Z\,d\mu$, a normalização espectral não pode fornecer o fator $g|q|$.</p>
 </div>
 
 <p><span class="tag t">T</span><strong>Demonstração por contraexemplo.</strong> Para $Z>0$ e qualquer $M>0$, a medida</p>
@@ -248,7 +271,7 @@ $$
 
 <p><span class="tag t">T</span>é positiva e gera $c_n=Z/M^{2n+2}$, $R_n=M^2$ e matrizes de Hankel positivas semidefinidas de posto um; todas as matrizes localizadoras são positivas para $s_0\le M^2$. O parâmetro $Z$ pode conter qualquer fator $g^2q^2$, mas cancela em todas as razões. Escolher $M/(g|q|M_{\rm Pl})>C$ preserva todas as condições de positividade e viola o limite proposto. □</p>
 
-<p><span class="tag t">T</span>O no-go não afirma que a WGC seja falsa. Ele prova que o antecedente lógico é insuficiente: para obter uma desigualdade envolvendo $g$, $q$ e $M_{\rm Pl}$ é necessário adicionar pelo menos uma condição não homogênea que conecte o peso ou o suporte espectral à gravidade e ao acoplamento de gauge.</p>
+<p><span class="tag t">T</span>O no-go não afirma que a WGC seja falsa. Ele prova que o antecedente lógico é insuficiente: para obter uma desigualdade envolvendo $g$, $q$ e $M_{\rm Pl}$ é necessário adicionar uma condição independente que conecte o suporte ou a normalização espectral à gravidade e ao acoplamento de gauge. Uma condição diretamente sobre o suporte pode ser invariante por reescala do peso; o ponto essencial é que ela não decorre da positividade isolada.</p>
 
 <p><span class="tag h">H</span>Candidatos a essa informação extra incluem: quebra forte da simetria generalizada abaixo de $M_{\rm Pl}$ com norma definida; condição de extremalidade e possibilidade de decaimento de buracos negros; completude da rede de cargas; dualidade; supersimetria; ou hipóteses UV sobre Reggeização. Cada candidato é fisicamente substantivo e não pode ser rebatizado como consequência de positividade [5,6,13–15].</p>
 
@@ -265,7 +288,7 @@ i\!\int d^4x\,e^{ip\cdot x}\langle0|Tj_\mu(x)j_\nu(0)|0\rangle
 =(p_\mu p_\nu-p^2\eta_{\mu\nu})\Pi(p^2),
 $$
 
-<p><span class="tag t">T</span>e, após uma subtração, a representação de Källén–Lehmann [16,17]</p>
+<p><span class="tag t">T</span>e, quando o comportamento UV permite uma subtração, a representação de Källén–Lehmann [16,17]</p>
 
 $$
 \Pi(p^2)-\Pi(0)
@@ -334,6 +357,39 @@ $$
 ![<span class="tag e">E</span> **Figura 2.** Hierarquia de limites matriciais para o mesmo benchmark. A monotonicidade decorre do Teorema 4; os valores são resultados numéricos reproduzíveis.](../output/figures/localizing_bound_convergence.png){fig-alt="Gráfico do limite localizador normalizado pelo limiar, caindo de 2,33 para aproximadamente 1,05 conforme a ordem cresce de zero a cinco." width=88%}
 
 <p><span class="tag h">H</span>O ganho matricial mostra por que uma análise baseada em apenas duas derivadas da amplitude desperdiça informação. Na prática, ordens altas também amplificam erro numérico e correlações entre Wilson coefficients; a ordem ótima deve ser selecionada por regularização e cobertura, não apenas por tightness nominal.</p>
+
+
+## Extensão radial: limites operacionais e informação que permanece ausente
+
+<p><span class="tag t">T</span>O módulo complementar <em>Geometria espectral da quebra de simetria de 1-forma</em> deriva, em resposta linear e sob uma representação de Stieltjes positiva explícita do kernel estático, a identidade $\Phi(r)=\delta(r)/r^2=\int e^{-rx}d\nu(x)$. A identidade vale exatamente sob essa hipótese; o benchmark de QED que a calibra é calculado na ordem dominante do gauging.</p>
+
+<p><span class="tag t">T</span>A derivada logarítmica $\Gamma=-\partial_r\log\Phi$ satisfaz $\Gamma=\langle x\rangle_r$, $\Gamma'=-\operatorname{Var}_r(x)$ e converge à borda efetiva. Para evitar derivadas de ordem alta, amostre $b_j=\Phi(r+jh)$, forme $(C_a)_{ij}=b_{i+j+a}$ e use</p>
+
+$$
+M_*\le-\frac1h\log\lambda_{\max}(C_1,C_0).
+$$
+
+<p><span class="tag t">T</span>O transporte $y=e^{-hx}$ torna esse um problema de momentos em intervalo compacto. Aumentar a ordem melhora o limite nominal; envelopes simultâneos dos erros de amostragem dão uma versão robusta. As provas, tratamento de posto finito, amostragem e propagação de erros são apresentados nos Teoremas F–G do módulo.</p>
+
+<p><span class="tag t">T</span>Na ordem dominante do acoplamento, os momentos usados neste artigo são recuperados do perfil radial por</p>
+
+$$
+c_n=\frac{1}{g_R^2\Gamma_E(2n+2)}\int_0^\infty r^{2n-1}\delta(r)dr,
+\qquad n\ge1.
+$$
+
+<p><span class="tag t">T</span>Essa ponte de Mellin decorre de Tonelli e da integral gama, quando os momentos são finitos. Ela relaciona observáveis radiais e coeficientes de baixa energia sem introduzir uma escala gravitacional.</p>
+
+<p><span class="tag t">T</span><strong>Limitação física adicional.</strong> O corte de uma volta de Dirac começa em $4m^2$, mas o correlator completo da QED possui cortes de três fótons começando em $s=0$ [22]. A recuperação assintótica retorna a borda efetivamente acoplada, e não necessariamente um limiar carregado. Uma componente positiva de peso arbitrariamente pequeno pode esconder uma borda inferior numa janela de precisão finita; o Teorema H do módulo demonstra essa impossibilidade de inferência bilateral uniforme.</p>
+
+<p><span class="tag t">T</span>Uma implicação gravitacional pode ser fechada apenas com hipóteses adicionais quantitativas: quebra observada de pelo menos $\eta$, cauda pesada limitada por $\tau$, erro de aproximação limitado por $\varepsilon$, e condição independente de espécies $N\Lambda^2\le\kappa M_{\rm Pl}^2$. Para espécies leves de Dirac com $m_i\le\Lambda$ e $\eta>\tau+\varepsilon$, o módulo demonstra</p>
+
+$$
+\max_i\frac{g_R|q_i|M_{\rm Pl}}{m_i}\ge
+\sqrt{\frac{6\pi^2(\eta-\tau-\varepsilon)}\kappa}.
+$$
+
+<p><span class="tag t">T</span>A dedução algébrica é válida sob essas condições; a validade física dos orçamentos de erro e da condição de espécies é independente e não foi provada para uma completude UV neste trabalho. Em particular, quebra de ordem um não autoriza extrapolar uma aproximação perturbativa sem controle.</p>
 
 ## Forças de longo alcance e gravidade em quatro dimensões
 
@@ -527,7 +583,7 @@ $$
 
 <p><span class="tag t">T</span>Uma medida espectral positiva determina bounds de gap por ratios e por generalized eigenvalues de matrizes localizadoras. O limiar pertence ao observável: no correlator vetorial de Dirac ele é $4m^2$, não $m^2$. Momentos totais não recuperam labels setoriais, e positividade homogênea não pode limitar $m/(g|q|M_{\rm Pl})$.</p>
 
-<p><span class="tag c">C</span>A rota plausível para conectar espectroscopia EFT e gravidade quântica requer três certificados independentes: positividade infrared-safe, resolução setorial com vazamento quantificado e um ingrediente gravitacional não homogêneo. Essa conjectura é falsificável pelas métricas e testes definidos acima.</p>
+<p><span class="tag c">C</span>A rota plausível para conectar espectroscopia EFT e gravidade quântica requer três certificados independentes: positividade infrared-safe, resolução setorial com vazamento quantificado e um ingrediente gravitacional independente. Essa conjectura é falsificável pelas métricas e testes definidos acima.</p>
 
 <p><span class="tag o">O</span>O resultado publicável não é uma prova da WGC; é uma fronteira rigorosa entre o que positivity bounds demonstram, o que generalized symmetries organizam e qual nova física precisa ser acrescentada para alcançar uma afirmação de quantum gravity.</p>
 
@@ -593,11 +649,11 @@ s_0\le
 {v^TH_1^{\rm obs}v-\eta_1}.
 $$
 
-<p><span class="tag t">T</span>Minimizar o último quociente fornece um limite robusto. Se nenhum vetor mantém denominador positivo, os dados não identificam um limite finito com o orçamento de erro declarado; reportar o valor nominal de $\lambda_{\min}$ seria estatisticamente injustificado.</p>
+<p><span class="tag t">T</span>Minimizar o último quociente fornece um limite robusto. Se nenhum vetor mantém denominador positivo, este procedimento não fornece um limite finito com o orçamento de erro declarado; isso não prova impossibilidade para todo outro método. A positividade do denominador é um requisito para reportar o limite robusto, e normas matriciais exigem previamente uma base com unidades compatíveis.</p>
 
 ### A.5 Casos extremos {.unnumbered}
 
-<p><span class="tag t">T</span><strong>Medida delta:</strong> todos os ratios e bounds matriciais igualam exatamente $M^2$; a hierarquia satura já em $K=0$. <strong>Dois polos:</strong> $R_n$ é uma média aritmética das massas quadradas com pesos positivos proporcionais a $Z_i/M_i^{2n+4}$ e converge ao polo mais leve acoplado. <strong>Estado desacoplado:</strong> um estado com resíduo zero não pertence ao suporte da medida e não pode ser limitado. <strong>Continuum sem gap:</strong> se $s_0=0$, momentos IR podem divergir e o teorema não entrega um gap positivo.</p>
+<p><span class="tag t">T</span><strong>Medida delta:</strong> todos os ratios igualam exatamente $M^2$; a hierarquia satura em $K=0$. Em ordens maiores as matrizes têm posto um, e o feixe deve ser restrito ao subespaço sem núcleo; não é um problema positivo definido de dimensão crescente. <strong>Dois polos:</strong> $R_n$ é uma média aritmética das massas quadradas com pesos positivos proporcionais a $Z_i/M_i^{2n+4}$ e converge ao polo mais leve acoplado. <strong>Estado desacoplado:</strong> um estado com resíduo zero não pertence ao suporte da medida e não pode ser limitado. <strong>Continuum sem gap:</strong> se $s_0=0$, momentos IR podem divergir e o teorema não entrega um gap positivo.</p>
 
 <p><span class="tag t">T</span><strong>Limite gravitacional de desacoplamento:</strong> $M_{\rm Pl}\to\infty$ a $g,m$ fixos remove efeitos gravitacionais, mas não altera a positividade do correlator de corrente. Uma suposta derivação em que o mesmo ratio passa a impor $m\le g|q|M_{\rm Pl}$ torna-se trivial nesse limite e, por isso, não testa a origem gravitacional da desigualdade.</p>
 
@@ -634,11 +690,14 @@ $$
 ```text
 python -m pip install -r reproducibility/requirements.txt
 python reproducibility/analysis.py
+python reproducibility/laplace_geometry.py
+python reproducibility/extended_analysis.py
+python reproducibility/build_papers.py
 ```
 
 <p><span class="tag e">E</span>O script grava <code>dirac_moment_ratios.csv</code>, <code>localizing_bounds.csv</code>, <code>uncertainty_summary.json</code> e <code>verification_checks.json</code> em <code>output/data/</code>, além das Figuras 1–2 em <code>output/figures/</code>. A execução retorna código diferente de zero se qualquer teste booleano falhar.</p>
 
-<p><span class="tag e">E</span>Hashes SHA-256 da versão auditada: <code>analysis.py = 8C16F56B263870F0B0769420DF103AFD0AB51153AFF72E7EC8AE394F23D35A38</code>; <code>requirements.txt = 7D065CF20EF27261A820C1A4CDE7505403BD9730E83EDF2C78991468D1EE4732</code>; <code>verification_checks.json = E17EF82386DD6784E1D7829907029FD53ADF3A1712E4726F1589D893BF713F98</code>; <code>uncertainty_summary.json = F35C2E76EE6E01925FA63A3AA0E433DD2D4FA621FB74DD70EBC1B847C15BD8EA</code>.</p>
+<p><span class="tag e">E</span>Versões atuais e resultados dos testes ampliados estão em <code>output/data/extended_verification.json</code>; hashes do pacote científico corrente são regenerados em <code>output/data/revision_manifest.json</code>. As tabelas do módulo são geradas dos dados, evitando transcrição manual.</p>
 
 <p><span class="tag h">H</span>Para extensões com dados reais, o arquivo de provenance deve registrar versão dos dados, unidade de cada coefficient, matriz de covariância, subtrações IR, basis de operadores, regularização das generalized eigenvalues, critérios de exclusão e todas as escolhas adaptativas.</p>
 
@@ -649,10 +708,10 @@ python reproducibility/analysis.py
 | Consistência algébrica dos projetores | <span class="tag t">T</span> PASS | Teoremas 1–2 e contraexemplo exato. |
 | Consistência dimensional | <span class="tag t">T</span> PASS | $[R_n]=M^2$; ratio WGC adimensional somente após escala externa. |
 | Casos limite | <span class="tag t">T</span> PASS | Delta, dois polos, estado desacoplado, gap zero e $M_{\rm Pl}\to\infty$. |
-| Threshold físico | <span class="tag t">T</span> PASS condicional | $s_0=4m^2$ somente no benchmark de par sem bound state mais leve. |
+| Threshold físico | <span class="tag t">T</span> PASS condicional | $s_0=4m^2$ somente no benchmark de uma volta; o correlator completo requer outra análise. |
 | Positividade setorial quebrada | <span class="tag c">C</span> ABERTA | Construir POVM e limitar $\Delta_P$ em uma QFT concreta. |
 | Controle IR gravitacional | <span class="tag c">C</span> ABERTO | Implementar amplitudes stripped e smearing admissível no observável tagged. |
-| Inferência WGC | <span class="tag t">T</span> NO-GO sob hipóteses atuais | Adicionar condição não homogênea e testá-la fora da amostra de calibração. |
+| Inferência WGC | <span class="tag t">T</span> NO-GO sob hipóteses atuais | Adicionar condição gravitacional independente e testá-la fora da amostra de calibração. |
 | Reprodutibilidade numérica | <span class="tag e">E</span> PASS | Script determinístico, seed, versões, hashes e outputs tabulares. |
 | Validade estatística | <span class="tag e">E</span> PASS no benchmark | Coverage e poder calibrados para duas medições; extensão multivariada pendente. |
 | Revisão externa | <span class="tag o">O</span> PENDENTE | Submeter provas, definição de novidade e implementação de QFT a peer review independente. |
@@ -713,7 +772,9 @@ python reproducibility/analysis.py
 
 </div>
 
-<p><span class="tag e">E</span><strong>Confiança das referências:</strong> alta para títulos, autores, versões, periódicos e DOIs explicitamente exibidos nas fontes primárias consultadas. Os preprints de 2025–2026 sem journal reference confirmado foram deliberadamente citados apenas pelo arXiv; seu status editorial pode mudar.</p>
+<p>[22] M. Beneke e P. Ruiz-Femenía, “Threshold singularities, dispersion relations and fixed-order perturbative calculations”, <em>JHEP</em> 08 (2016) 145. [Texto primário, nota 1](https://arxiv.org/pdf/1606.02434).</p>
+
+<p><span class="tag e">E</span><strong>Confiança das referências:</strong> A revisão atual verificou a fonte [22] e as fontes específicas do módulo ampliado; o levantamento de [1–21] abaixo é o registro da auditoria anterior e não foi repetido integralmente nesta revisão.  alta para títulos, autores, versões, periódicos e DOIs explicitamente exibidos nas fontes primárias consultadas. Os preprints de 2025–2026 sem journal reference confirmado foram deliberadamente citados apenas pelo arXiv; seu status editorial pode mudar.</p>
 
 <div class="source-audit">
 <p><span class="tag e">E</span><strong>Fontes locais fornecidas e auditadas:</strong> <em>Artigo Sobre Teoria de Tudo.pdf</em>; <em>Symmetry-Resolved Positivity.pdf</em>; <em>Resumo Executivo (1).pdf</em>; e quinze cópias idênticas do texto “Symmetry-Resolved Positivity and the Quantum-Gravity Spectrum”. Acesso local em 10 set. 2026.</p>

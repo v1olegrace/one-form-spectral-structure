@@ -1,0 +1,126 @@
+{
+  "dps": 60,
+  "results": [
+    {
+      "test": "J signed measure -- gate",
+      "status": "PASS",
+      "detail": "gate correctly refused (G1 violated: a_3(r=1.0) = -0.471518 <= 0)",
+      "prediction": "gate fires; first negative moment at n=3; det H_0<0 at K=1",
+      "observed": "first negative moment at n=3"
+    },
+    {
+      "test": "J signed measure -- det H_0",
+      "status": "PASS",
+      "detail": "det H_0(K=1) = -0.18394",
+      "prediction": "det < 0",
+      "observed": "-0.18394"
+    },
+    {
+      "test": "J signed measure -- screening insufficient",
+      "status": "PASS",
+      "detail": "Phi>0 and -Phi'>0 both hold, so a screening-only test is fooled; only complete monotonicity at higher order detects the violation",
+      "prediction": "screening check passes (is insufficient)",
+      "observed": "True"
+    },
+    {
+      "test": "H tiny weight -- continuum masquerades at small r",
+      "status": "PASS",
+      "detail": "Gamma(10) = 3.1363626, sits at the continuum edge 3, not at M_*=2",
+      "prediction": "Gamma ~ 3 for r << 22.76, -> 2 only for r >> 22.76",
+      "observed": "3.1363626"
+    },
+    {
+      "test": "H tiny weight -- true edge recovered past crossover",
+      "status": "PASS",
+      "detail": "Gamma(70) = 2.0 -> M_* = 2",
+      "prediction": "Gamma ~ 3 for r << 22.76, -> 2 only for r >> 22.76",
+      "observed": "2.0"
+    },
+    {
+      "test": "H tiny weight -- upper bound never violated",
+      "status": "PASS",
+      "detail": "Gamma(r) >= M_* holds at every tested radius (Theorem C is safe; it is the *informativeness*, not the validity, that degrades)",
+      "prediction": "no violation",
+      "observed": "none"
+    },
+    {
+      "test": "H tiny weight -- finite-K hierarchy stalls at the wrong edge",
+      "status": "PASS",
+      "detail": "B_K(r=3) descends 3.375 -> 3.10785, still far above M_*=2: finite-K resolution is weight-dependent. This is a LIMITATION OF THE METHOD, consistent with Theorem C (B_K >= M_*) and with Theorem H (no uniform lower bound without minimum weight).",
+      "prediction": "B_K stalls near the continuum edge 3, monotone, never below 2",
+      "observed": "B_0=3.375, B_4=3.10785"
+    },
+    {
+      "test": "A single atom exact",
+      "status": "PASS",
+      "detail": "Gamma = 3.0 (exact M = 3)",
+      "prediction": "exactly 3",
+      "observed": "3.0"
+    },
+    {
+      "test": "B two atoms resolved at K=1",
+      "status": "PASS",
+      "detail": "B_1 = 2.0 (exact lower atom = 2)",
+      "prediction": "exactly 2",
+      "observed": "2.0"
+    },
+    {
+      "test": "C separated atom -- exponential convergence",
+      "status": "PASS",
+      "detail": "(Gamma(6)-2)/(Gamma(12)-2) = 431167.0; predicted ~e^{2*6}=162755.0 for gap d=2",
+      "prediction": "ratio ~ e^{d*(r2-r1)} = e^12",
+      "observed": "431167.0"
+    },
+    {
+      "test": "D edge exponent D_dirac",
+      "status": "PASS",
+      "detail": "r(Gamma-M_*) -> 1.4981007, predicted p = 1.5",
+      "prediction": "p = 1.5",
+      "observed": "1.4981007"
+    },
+    {
+      "test": "D edge exponent E_scalar",
+      "status": "PASS",
+      "detail": "r(Gamma-M_*) -> 2.4904075, predicted p = 2.5",
+      "prediction": "p = 2.5",
+      "observed": "2.4904075"
+    },
+    {
+      "test": "K gapless continuum -> 0",
+      "status": "PASS",
+      "detail": "Gamma(10,100,1000) = 0.0909091, 0.00990099, 0.000999001 -> 0. A massless cut in the full correlator therefore destroys the matter threshold reading; H2 (s_*>0) is a genuine restriction.",
+      "prediction": "Gamma -> 0",
+      "observed": "0.000999001"
+    },
+    {
+      "test": "F multi-species lowest threshold",
+      "status": "PASS",
+      "detail": "Gamma -> 2.0124791; lightest species M_*=2 dominates the IR",
+      "prediction": "-> 2",
+      "observed": "2.0124791"
+    },
+    {
+      "test": "G near-degenerate resolved",
+      "status": "PASS",
+      "detail": "B_1 = 2.0 (atoms at 2.00 and 2.02)",
+      "prediction": "2.00",
+      "observed": "2.0"
+    },
+    {
+      "test": "I wide dynamic range -- precision requirement measured",
+      "status": "PASS",
+      "detail": "At r=1 the two atoms are separated by e^{-198}: lambda_min(H_0) collapses to 0.0 at 60 dps (numerically singular) but is 8.01776e-77 at 200 dps. The pencil needs roughly 86 digits here; float64 has 16. Reporting a high-order Hankel bound from double precision is therefore unsound, and the code must detect the collapse rather than return the resulting garbage eigenvalue.",
+      "prediction": "singular at 60 dps, resolved at 200 dps",
+      "observed": "lambda_min: 0.0 (60 dps) -> 8.01776e-77 (200 dps)"
+    },
+    {
+      "test": "I wide dynamic range -- conditioning at a balanced radius",
+      "status": "PASS",
+      "detail": "at r=0.02 both atoms contribute and cond(H_0) = 7.78046e+8; the pencil is usable. Radius selection is part of the method.",
+      "prediction": "finite condition number",
+      "observed": "7.78046e+8"
+    }
+  ],
+  "n_fatal": 0,
+  "n_failed": 0
+}
