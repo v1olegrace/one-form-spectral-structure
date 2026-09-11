@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LxPD3loJo1rfHNhnBRRLdZSu1eM</id>
+  <title>arXiv Query: search_query=all:optimal OR all:rates OR all:for OR all:recovering OR all:the OR all:smallest OR all:decay OR all:rate&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:46:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:optimal+OR+(all:rates+OR+(all:for+OR+(all:recovering+OR+(all:the+OR+(all:smallest+OR+(all:decay+OR+all:rate))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>694241</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.14748v2</id>
+    <title>Probing the position-dependent optical energy fluence rate in three-dimensional scattering samples</title>
+    <updated>2024-09-19T18:37:11Z</updated>
+    <link href="https://arxiv.org/abs/2401.14748v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.14748v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The accurate determination of the position-dependent energy fluence rate of scattered light (which is proportional to the energy density) is crucial to the understanding of transport in anisotropically scattering and absorbing samples, such as biological tissue, seawater, atmospheric turbulent layers, and light-emitting diodes. While Monte Carlo simulations are precise, their long computation time is not desirable. Common analytical approximations to the radiative transfer equation (RTE) fail to predict light transport and could even give unphysical results. Therefore, we experimentally probe the position-dependent energy fluence rate of light inside scattering samples where the widely used P1 and P3 approximations to the RTE fail. The samples are three-dimensional (3D) aqueous suspensions of anisotropically scattering and both absorbing and non-absorbing spherical scatterers, namely, microspheres (r = 0.5 um) with and without absorbing dye. To probe the energy fluence rate, we detect the emission of quantum-dot reporter particles that are excited by the incident light and that are contained in a thin capillary. By scanning the capillary through the sample, we access the position dependence. We present a comprehensive discussion of experimental limitations and of both random and systematic errors. Our observations agree well with the Monte Carlo simulations and the P3 approximation of the RTE with a correction for forward scattering. In contrast, the P1 and the P3 approximations deviate increasingly from our observations, ultimately even predicting unphysical negative energies.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-26T10:12:32Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Phys. Rev. A 110, 033520 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Ozan Akdemir</name>
+    </author>
+    <author>
+      <name>Minh Duy Truong</name>
+    </author>
+    <author>
+      <name>Alfredo Rates</name>
+    </author>
+    <author>
+      <name>Ad Lagendijk</name>
+    </author>
+    <author>
+      <name>Willem L. Vos</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.110.033520</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.110.033520" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.06372v3</id>
+    <title>Decay rates for the damped wave equation with finite regularity damping</title>
+    <updated>2021-06-16T19:12:33Z</updated>
+    <link href="https://arxiv.org/abs/1910.06372v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.06372v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Decay rates for the energy of solutions of the damped wave equation on the torus are studied. In particular, damping invariant in one direction and equal to a sum of squares of nonnegative functions with a particular number of derivatives of regularity is considered. For such damping energy decays at rate $1/t^{2/3}$. If additional regularity is assumed the decay rate improves. When such a damping is smooth the energy decays at $1/t^{4/5-δ}$. The proof uses a positive commutator argument and relies on a pseudodifferential calculus for low regularity symbols.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-14T18:27:44Z</published>
+    <arxiv:comment>44 pages. There are substantial updates from the previous version. The decay rate now depends on the regularity of the damping and the decay rate for smooth damping is improved</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Perry Kleinhenz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0703816v1</id>
+    <title>Rate of Decay of Stable Periodic Solutions of Duffing Equations</title>
+    <updated>2007-03-27T20:37:03Z</updated>
+    <link href="https://arxiv.org/abs/math/0703816v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0703816v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we consider the second-order equations of Duffing type. Bounds for the derivative of the restoring force are given that ensure the existence and uniqueness of a periodic solution. Furthermore, the stability of the unique periodic solution is analyzed; the sharp rate of exponential decay is determined for a solution that is near to the unique periodic solution.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-03-27T20:37:03Z</published>
+    <arxiv:comment>Key words: Periodic solution; Stability; Rate of decay</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Hongbin Chen</name>
+    </author>
+    <author>
+      <name>Yi Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.02493v1</id>
+    <title>Tight Bounds on the Optimal UL Sum-Rate of MU RIS-aided Wireless Systems</title>
+    <updated>2021-10-06T04:16:30Z</updated>
+    <link href="https://arxiv.org/abs/2110.02493v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.02493v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The objective of this paper is to develop simple techniques to bound the optimal uplink sum-rate of multi-user RIS-aided wireless systems. Specifically, we develop a novel technique called \textit{channel separation} which provides a new understanding as to how the RIS phases affect the sum-rate. Leveraging channel separation, we derive upper and lower bounds on the optimal sum-rate. In addition, we propose a low-complexity alternating optimization algorithm to obtain near-optimal sum-rate results. Numerical results demonstrate the tightness of the bounds and show that the alternating optimization approach delivers sum-rate values similar to the results of a full numerical optimization procedure. Furthermore, in practical scenarios where hardware limitations cause the RIS phases to be quantized, our lower bound can still be applied and shows that the sum-rate is robust to quantization, even with low resolution.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-06T04:16:30Z</published>
+    <arxiv:comment>reconfigurable intelligent surface, intelligent reflecting surface, RIS, optimal sum rate tight bound, optimal sum rate</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Ikram Singh</name>
+    </author>
+    <author>
+      <name>Peter J. Smith</name>
+    </author>
+    <author>
+      <name>Pawel A. Dmochowski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.08087v2</id>
+    <title>Precise Estimate of Charged Higgsino/Wino Decay Rate</title>
+    <updated>2024-03-28T11:54:56Z</updated>
+    <link href="https://arxiv.org/abs/2312.08087v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.08087v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Higgsinos and Winos in the supersymmetric Standard Model are prime candidates for dark matter due to their weakly interacting nature. The mass differences between their charged components (charginos) and neutral components (neutralinos) become degenerate when other superparticles are heavy, resulting in long-lived charginos. In the case of the Winos, the mass difference is approximately 160 MeV across a wide range of the parameter space. Consequently, the chargino decays into the lightest neutralino, emitting a single charged pion. For Higgsinos, however, mass differences ranging from O(0.1) GeV to O(1) GeV are possible, leading to a variety of decay channels. In this paper, we extend our previous analysis of Wino decay to the chargino with a larger mass difference. We emphasize characterizing its decay signatures through leptonic and hadronic modes. By utilizing the latest experimental data, we perform a comprehensive study of the decay rate calculations incorporating these hadronic modes to determine the impact on the predicted chargino lifetime. Additionally, we conduct next-to-leading order (NLO) calculations for the leptonic decay modes. Our NLO results can be applied to the case of more general fermionic electroweak multiplets, e.g., quintuplet dark matter.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-13T12:03:28Z</published>
+    <arxiv:comment>69 pages, 20 figures, Data of decay rates is available at https://member.ipmu.jp/satoshi.shirai/Chargino_Decay/</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP03(2024)012</arxiv:journal_ref>
+    <author>
+      <name>Masahiro Ibe</name>
+    </author>
+    <author>
+      <name>Yuhei Nakayama</name>
+    </author>
+    <author>
+      <name>Satoshi Shirai</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP03(2024)012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP03(2024)012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.07831v2</id>
+    <title>Optimal Linear Decay Learning Rate Schedules and Further Refinements</title>
+    <updated>2024-10-29T22:57:44Z</updated>
+    <link href="https://arxiv.org/abs/2310.07831v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.07831v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Learning rate schedules used in practice bear little resemblance to those recommended by theory. We close much of this theory/practice gap, and as a consequence are able to derive new problem-adaptive learning rate schedules. Our main technical contribution is a refined analysis of learning rate schedules for a wide class of optimization algorithms (including SGD). When considering only worst-case analysis, our theory predicts that the optimal choice is the linear decay schedule where the step-size is set proportional to 1 - t/T, where t is the current iteration and T is the total number of steps. To go beyond this worst-case analysis, we use the observed gradient norms to derive schedules refined for any particular task. These refined schedules exhibit learning rate warm-up and rapid learning rate annealing near the end of training. Ours is the first systematic approach to automatically yield both of these properties. We perform the most comprehensive evaluation of learning rate schedules to date, evaluating across 10 diverse deep learning problems, a series of LLMs, and a suite of logistic regression problems. We validate that overall, the linear-decay schedule outperforms all commonly used default schedules including cosine annealing. Our adaptive schedule refinement method gives further improvements.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-11T19:16:35Z</published>
+    <arxiv:comment>An earlier preprint of this work appeared under the title When, Why and How Much? Adaptive Learning Rate Scheduling by Refinement</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Aaron Defazio</name>
+    </author>
+    <author>
+      <name>Ashok Cutkosky</name>
+    </author>
+    <author>
+      <name>Harsh Mehta</name>
+    </author>
+    <author>
+      <name>Konstantin Mishchenko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.01267v2</id>
+    <title>Optimal convergence rates in stochastic homogenization in a balanced random environment</title>
+    <updated>2023-04-13T23:42:21Z</updated>
+    <link href="https://arxiv.org/abs/2301.01267v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.01267v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider random walks in a uniformly elliptic, balanced, i.i.d. random environment in the integer lattice $Z^d$ for $d\geq 2$ and the corresponding problem of stochastic homogenization of non-divergence form difference operators. We first derive a quantitative law of large numbers for the invariant measure, which is nearly optimal. A mixing property of the field of the invariant measure is then achieved. We next obtain rates of convergence for the homogenization of the Dirichlet problem for non-divergence form operators, which are generically optimal for $d\geq 3$ and nearly optimal when $d=2$. Furthermore, we establish the existence, stationarity and uniqueness properties of the corrector problem for all dimensions $d\ge 2$. Afterwards, we quantify the ergodicity of the environmental process for both the continuous-time and discrete-time random walks, and as a consequence, we get explicit convergence rates for the quenched central limit theorem of the balanced random walk.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-03T18:20:02Z</published>
+    <arxiv:comment>The quantitative stochastic homogenization of the non-divergence form operators are improved: optimal (and nearly optimal) rates are obtained for dimensions $d\ge 3$ (and $d=2$ resp.). Correctors are constructed for all dimensions using "local correctors"</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Probability Theory and Related Fields (2025)</arxiv:journal_ref>
+    <author>
+      <name>Xiaoqin Guo</name>
+    </author>
+    <author>
+      <name>Hung V. Tran</name>
+    </author>
+    <arxiv:doi>10.1007/s00440-025-01409-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00440-025-01409-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.04609v1</id>
+    <title>Layer-Specific Adaptive Learning Rates for Deep Networks</title>
+    <updated>2015-10-15T16:31:46Z</updated>
+    <link href="https://arxiv.org/abs/1510.04609v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.04609v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The increasing complexity of deep learning architectures is resulting in training time requiring weeks or even months. This slow training is due in part to vanishing gradients, in which the gradients used by back-propagation are extremely large for weights connecting deep layers (layers near the output layer), and extremely small for shallow layers (near the input layer); this results in slow learning in the shallow layers. Additionally, it has also been shown that in highly non-convex problems, such as deep neural networks, there is a proliferation of high-error low curvature saddle points, which slows down learning dramatically. In this paper, we attempt to overcome the two above problems by proposing an optimization method for training deep neural networks which uses learning rates which are both specific to each layer in the network and adaptive to the curvature of the function, increasing the learning rate at low curvature points. This enables us to speed up learning in the shallow layers of the network and quickly escape high-error low curvature saddle points. We test our method on standard image classification datasets such as MNIST, CIFAR10 and ImageNet, and demonstrate that our method increases accuracy as well as reduces the required training time over standard algorithms.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-15T16:31:46Z</published>
+    <arxiv:comment>ICMLA 2015, deep learning, adaptive learning rates for training, layer specific learning rate</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bharat Singh</name>
+    </author>
+    <author>
+      <name>Soham De</name>
+    </author>
+    <author>
+      <name>Yangmuzi Zhang</name>
+    </author>
+    <author>
+      <name>Thomas Goldstein</name>
+    </author>
+    <author>
+      <name>Gavin Taylor</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.7634v2</id>
+    <title>Existence, uniqueness and decay rates for evolution equations on trees</title>
+    <updated>2014-03-24T15:05:08Z</updated>
+    <link href="https://arxiv.org/abs/1309.7634v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.7634v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study evolution equations governed by an averaging operator on a directed tree, showing existence and uniqueness of solutions. In addition we find conditions of the initial condition that allows us to find the asymptotic decay rate of the solutions as $t\to \infty$. It turns out that this decay rate is not uniform, it strongly depends on how the initial condition goes to zero as one goes down in the tree.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-29T18:07:04Z</published>
+    <arxiv:comment>11 pages. Keywords: Evolution equations, averaging operators, decay estimates. arXiv admin note: text overlap with arXiv:1303.6521</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Portugaliae Mathematica, Vol. 71, Fasc. 1, 2014, 63-77</arxiv:journal_ref>
+    <author>
+      <name>Leandro M. Del Pezzo</name>
+    </author>
+    <author>
+      <name>Carolina A. Mosquera</name>
+    </author>
+    <author>
+      <name>Julio D. Rossi</name>
+    </author>
+    <arxiv:doi>10.4171/PM/1941</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/PM/1941" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.08290v3</id>
+    <title>The corrector in stochastic homogenization: optimal rates, stochastic integrability, and fluctuations</title>
+    <updated>2016-05-04T22:14:58Z</updated>
+    <link href="https://arxiv.org/abs/1510.08290v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.08290v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider uniformly elliptic coefficient fields that are randomly distributed according to a stationary ensemble of a finite range of dependence. We show that the gradient and flux $(\nablaφ,a(\nabla φ+e))$ of the corrector $φ$, when spatially averaged over a scale $R\gg 1$ decay like the CLT scaling $R^{-\frac{d}{2}}$. We establish this optimal rate on the level of sub-Gaussian bounds in terms of the stochastic integrability, and also establish a suboptimal rate on the level of optimal Gaussian bounds in terms of the stochastic integrability. The proof unravels and exploits the self-averaging property of the associated semi-group, which provides a natural and convenient disintegration of scales, and culminates in a propagator estimate with strong stochastic integrability. As an application, we characterize the fluctuations of the homogenization commutator, and prove sharp bounds on the spatial growth of the corrector, a quantitative two-scale expansion, and several other estimates of interest in homogenization.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-28T12:46:57Z</published>
+    <arxiv:comment>114 pages. Revised version with some new results: optimal scaling with nearly-optimal stochastic integrability on top of nearly-optimal scaling with optimal stochastic integrability, CLT for the homogenization commutator, and several estimates on growth of the extended corrector, semi-group estimates, and systematic errors</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Antoine Gloria</name>
+    </author>
+    <author>
+      <name>Felix Otto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0312101v3</id>
+    <title>The Cosmic Coalescence Rates for Double Neutron Star Binaries</title>
+    <updated>2004-08-11T00:59:19Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0312101v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0312101v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This manuscript is an updated version of Kalogera et al. (2004) published in ApJ Letters to correct our calculation of the Galactic DNS in-spiral rate. The details of the original erratum submitted to ApJ Letters are given in page 6 of this manuscript.
+  We report on the newly increased event rates due to the recent discovery of the highly relativistic binary pulsar J0737--3039 (Burgay et al. 2003). Using a rigorous statistical method, we present the calculations reported by Burgay et al., which produce a in-spiral rate for Galactic double neutron star (DNS) systems that is higher by a factor of 5-7 compared to estimates made prior to the new discovery. Our method takes into account known pulsar-survey selection effects and biases due to small-number statistics. This rate increase has dramatic implications for gravitational wave detectors. For the initial Laser Interferometer Gravitational-Wave Observatory (LIGO) detectors, the most probable detection rates for DNS in-spirals are one event per 10-630 yr; at 95% confidence, we obtain rates up to one per 3 yr. For the advanced LIGO detectors, the most probable rates are 10-500 events per year. These predictions, for the first time, bring the expectations for DNS detections by the initial LIGO detectors to the astrophysically relevant regime. We also use our models to predict that the large-scale Parkes Multibeam pulsar survey with acceleration searches could detect an average of four binary pulsars similar to those known at present.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-12-03T21:03:37Z</published>
+    <arxiv:comment>5 pages, 2 figures, 1 table, accepted for ApJL. Rates revised downwards by a factor of ~2; Relative rate increase due to J0737-3039 remains unaffected</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Astrophys.J. 601 (2004) L179-L182; Erratum-ibid. 614 (2004) L137</arxiv:journal_ref>
+    <author>
+      <name>V. Kalogera</name>
+    </author>
+    <author>
+      <name>C. Kim</name>
+    </author>
+    <author>
+      <name>D. R. Lorimer</name>
+    </author>
+    <author>
+      <name>M. Burgay</name>
+    </author>
+    <author>
+      <name>N. D'Amico</name>
+    </author>
+    <author>
+      <name>A. Possenti</name>
+    </author>
+    <author>
+      <name>R. N. Manchester</name>
+    </author>
+    <author>
+      <name>A. G. Lyne</name>
+    </author>
+    <author>
+      <name>B. C. Joshi</name>
+    </author>
+    <author>
+      <name>M. A. McLaughlin</name>
+    </author>
+    <author>
+      <name>M. Kramer</name>
+    </author>
+    <author>
+      <name>J. M. Sarkissian</name>
+    </author>
+    <author>
+      <name>F. Camilo</name>
+    </author>
+    <arxiv:doi>10.1086/425868</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1086/425868" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.13570v3</id>
+    <title>Minimax Rates of Estimation for Optimal Transport Map between Infinite-Dimensional Spaces</title>
+    <updated>2025-12-16T08:37:15Z</updated>
+    <link href="https://arxiv.org/abs/2505.13570v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.13570v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the estimation of an optimal transport map between probability measures on an infinite-dimensional space and reveal its minimax optimal rate. Optimal transport theory defines distances within a space of probability measures, utilizing an optimal transport map as its key component. Estimating the optimal transport map from samples finds several applications, such as simulating dynamics between probability measures and functional data analysis. However, some transport maps on infinite-dimensional spaces require exponential-order data for estimation, which undermines their applicability. In this paper, we investigate the estimation of an optimal transport map between infinite-dimensional spaces, focusing on optimal transport maps characterized by the notion of $γ$-smoothness. Consequently, we show that the order of the minimax risk is polynomial rate in the sample size even in the infinite-dimensional setup. We also develop an estimator whose estimation error matches the minimax optimal rate. With these results, we obtain a class of reasonably estimable optimal transport maps on infinite-dimensional spaces and a method for their estimation. Our experiments validate the theory and practical utility of our approach with application to functional data analysis.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-19T13:00:29Z</published>
+    <arxiv:comment>Added proof of convergence rate for the neural network estimator</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Donlapark Ponnoprat</name>
+    </author>
+    <author>
+      <name>Masaaki Imaizumi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.16329v2</id>
+    <title>High-Dimensional Private Linear Regression with Optimal Rates</title>
+    <updated>2026-04-26T14:33:57Z</updated>
+    <link href="https://arxiv.org/abs/2505.16329v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.16329v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Differentially private (DP) linear regression has received significant attention in the recent theoretical literature, with several approaches proposed to improve error rates. Our work considers the popular high-dimensional regime with random data, where the number of training samples $n$ and the input dimension $d$ grow at a proportional rate $d / n \to γ$, and it studies a family of one-pass DP gradient descent (DP-GD) algorithms satisfying $ρ^2 / 2$ zero concentrated DP. In this setting, we establish a deterministic equivalent for the DP-GD trajectory in terms of a system of ordinary differential equations. This allows to analyze the effect of gradient clipping constants that are smaller than the typical norm of the per-sample gradients - a setup shown to improve performance in practice. For well-conditioned data, we show that DP-GD, upon properly choosing clipping constant and learning rate, achieves the non-asymptotic risk of $O(γ+ γ^2 / ρ^2)$, and we establish that this rate is minimax optimal. Then, we consider the ill-conditioned case where the data covariance spectrum follows a power-law distribution, and we show that the risk displays a power-like scaling law in $γ$, highlighting the change in the exponent as a function of the privacy parameter $ρ$. Overall, our analysis demonstrates the benefits of practical algorithmic design choices, including aggressive gradient clipping and decaying learning rate schedules.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-22T07:34:27Z</published>
+    <arxiv:comment>Updated version of "Better Rates for Private Linear Regression in the Proportional Regime via Aggressive Clipping"</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Simone Bombari</name>
+    </author>
+    <author>
+      <name>Jialei Luo</name>
+    </author>
+    <author>
+      <name>Inbar Seroussi</name>
+    </author>
+    <author>
+      <name>Marco Mondelli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.00752v2</id>
+    <title>Decay properties of smooth axially symmetric D-solutions to the steady Navier-Stokes equations</title>
+    <updated>2016-11-28T03:13:10Z</updated>
+    <link href="https://arxiv.org/abs/1511.00752v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.00752v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the decay properties of smooth axially symmetric D-solutions to the steady Navier-Stokes equations. The achievements of this paper are two folds. One is improved decay rates of $u_þ$ and $\na {\bf u}$, especially we show that $|u_þ(r,z)|\leq c\left(\f{\log r}{r}\right)^{\f 12}$ for any smooth axially symmetric D-solutions to the Navier-Stokes equations. These improvement are based on improved weighted estimates of $\om_þ$, integral representations of ${\bf u}$ in terms of $\bm{\om}=\textit{curl }{\bf u}$ and $A_p$ weight for singular integral operators, which yields good decay estimates for $(\na u_r, \na u_z)$ and $(\om_r, \om_{z})$, where $\bm{\om}= \om_r {\bf e}_r + \om_þ {\bf e}_þ+ \om_z {\bf e}_z$. Another is the first decay rate estimates in the $Oz$-direction for smooth axially symmetric flows without swirl. We do not need any small assumptions on the forcing term.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-03T01:36:39Z</published>
+    <arxiv:comment>We improved the decay rates. 22 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Shangkun Weng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.1786v3</id>
+    <title>Decay rate estimations for linear quadratic optimal regulators</title>
+    <updated>2013-09-10T14:15:33Z</updated>
+    <link href="https://arxiv.org/abs/1201.1786v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.1786v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $u(t)=-Fx(t)$ be the optimal control of the open-loop system $x'(t)=Ax(t)+Bu(t)$ in a linear quadratic optimization problem. By using different complex variable arguments, we give several lower and upper estimates of the exponential decay rate of the closed-loop system $x'(t)=(A-BF)x(t)$. Main attention is given to the case of a skew-Hermitian matrix $A$.
+  Given an operator $A$, for a class of cases, we find a matrix $B$ that provides an almost optimal decay rate.
+  We show how our results can be applied to the problem of optimizing the decay rate for a large finite collection of control systems $(A, B_j)$, $j=1, \dots, N$, and illustrate this on an example of a concrete mechanical system. At the end of the article, we pose several questions concerning the decay rates in the context of linear quadratic optimization and in a more general context of the pole placement problem.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-09T14:46:23Z</published>
+    <arxiv:comment>25 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <arxiv:journal_ref>Linear Algebra Appl. 439 (2013), no. 11, 3332-3358</arxiv:journal_ref>
+    <author>
+      <name>Daniel Estévez</name>
+    </author>
+    <author>
+      <name>Dmitry Yakubovich</name>
+    </author>
+    <arxiv:doi>10.1016/j.laa.2013.08.030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.laa.2013.08.030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.02456v2</id>
+    <title>Rate Optimal Binary Linear Locally Repairable Codes with Small Availability</title>
+    <updated>2017-09-14T06:56:46Z</updated>
+    <link href="https://arxiv.org/abs/1701.02456v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.02456v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A locally repairable code with availability has the property that every code symbol can be recovered from multiple, disjoint subsets of other symbols of small size. In particular, a code symbol is said to have $(r,t)$-availability if it can be recovered from $t$ disjoint subsets, each of size at most $r$. A code with availability is said to be 'rate-optimal', if its rate is maximum among the class of codes with given locality, availability, and alphabet size.
+  This paper focuses on rate-optimal binary, linear codes with small availability, and makes four contributions. First, it establishes tight upper bounds on the rate of binary linear codes with $(r,2)$ and $(2,3)$ availability. Second, it establishes a uniqueness result for binary rate-optimal codes, showing that for certain classes of binary linear codes with $(r,2)$ and $(2,3)$-availability, any rate optimal code must be a direct sum of shorter rate optimal codes. Third, it presents novel upper bounds on the rates of binary linear codes with $(2,t)$ and $(r,3)$-availability. In particular, the main contribution here is a new method for bounding the number of cosets of the dual of a code with availability, using its covering properties. Finally, it presents a class of locally repairable linear codes associated with convex polyhedra, focusing on the codes associated with the Platonic solids. It demonstrates that these codes are locally repairable with $t = 2$, and that the codes associated with (geometric) dual polyhedra are (coding theoretic) duals of each other.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-10T07:29:37Z</published>
+    <arxiv:comment>Shorter version of the paper was presented at ISIT 2017. The updated second version contains a new section on rate upper bounds for binary linear codes with (2,t) and (r,3)-availability</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Swanand Kadhe</name>
+    </author>
+    <author>
+      <name>Robert Calderbank</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.04313v1</id>
+    <title>Optimal rates for finite mixture estimation</title>
+    <updated>2015-07-15T18:20:17Z</updated>
+    <link href="https://arxiv.org/abs/1507.04313v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.04313v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the rates of estimation of finite mixing distributions, that is, the parameters of the mixture. We prove that under some regularity and strong identifiability conditions, around a given mixing distribution with $m_0$ components, the optimal local minimax rate of estimation of a mixing distribution with $m$ components is $n^{-1/(4(m-m_0) + 2)}$. This corrects a previous paper by Chen (1995) in The Annals of Statistics.
+  By contrast, it turns out that there are estimators with a (non-uniform) pointwise rate of estimation of $n^{-1/2}$ for all mixing distributions with a finite number of components.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-15T18:20:17Z</published>
+    <arxiv:comment>48 pages, 1 figure, submitted to The Annals of Statistics, as a main article (30 pages) and the appendices (19 pages) as supplemental material. Part of the material appears in an earlier version appears as arXiv:1504.03506, but without any result on pointwise rates, any figure, much less bibliography and explanations, and overall different presentation</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Philippe Heinrich</name>
+    </author>
+    <author>
+      <name>Jonas Kahn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.12747v2</id>
+    <title>Optimal decay rates to the contact wave for 1-D compressible Navier-Stokes equations</title>
+    <updated>2025-09-11T04:35:23Z</updated>
+    <link href="https://arxiv.org/abs/2310.12747v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.12747v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the decay rates of the contact wave in one-dimensional Navier-Stokes equations. We study two cases of perturbations, with and without zero mass condition, i.e., the integration of initial perturbations is zero and non-zero, respectively. For the case without zero mass condition, we obtain the optimal decay rate $(1+t)^{-\frac{1}{2}}$ for the perturbation in $L^\infty$ norm, which provides a positive answer to the conjecture in \cite{HMX}. We applied the anti-derivative method, introducing the diffusion wave to carry the initial excess mass, diagonalizing the integrated system, and estimating the energy of perturbation in the diagonalized system. Precisely, due to the presence of diffusion waves, the decay rates for errors of perturbed system are too poor to get the optimal decay rate. We find the dissipation structural in the diagonalized system, see \cref{ds}. This observation makes us able to fully utilize the fact that the sign of the derivative of the contact wave is invariant and to control the terms with poor decay rates in energy estimates. For the case with zero mass condition, there are also terms with poor decay rates. In this case, note that there is a cancellation in the linearly degenerate field so that the terms with poor decay rates will not appear in the second equation of the diagonalized system. Thanks to this cancellation and a Poincaré type of estimate obtained by a critical inequality introduced by \cite{HLM}, we get the decay rate of $\ln^{\frac{1}{2}} (2+t)$ for $L^2$ norm of anti-derivatives of perturbation and $(1+t)^{-\frac{1}{2}}\ln^{\frac{1}{2}}(2+t)$ for the $L^2$ norm of perturbation itself, the decay rates are optimal, which is consistent with the results obtained by using pointwise estimate in \cite{XZ} for the system with artificial viscosity.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-19T13:51:28Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Lingjun Liu</name>
+    </author>
+    <author>
+      <name>Shu Wang</name>
+    </author>
+    <author>
+      <name>Lingda Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.07906v3</id>
+    <title>Glueball Decay Rates in the Witten-Sakai-Sugimoto Model</title>
+    <updated>2016-04-22T15:18:49Z</updated>
+    <link href="https://arxiv.org/abs/1501.07906v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.07906v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We revisit and extend previous calculations of glueball decay rates in the Sakai-Sugimoto model, a holographic top-down approach for QCD with chiral quarks based on D8 probe branes in Witten's holographic model of nonsupersymmetric Yang-Mills theory. The rates for decays into two pions, two vector mesons, four pions, and the strongly suppressed decay into four pi0 are worked out quantitatively, using a range of the 't Hooft coupling which closely reproduces the decay rate of rho and omega mesons and also leads to a gluon condensate consistent with QCD sum rule calculations. The lowest holographic glueball, which arises from a rather exotic polarization of gravitons in the supergravity background, turns out to have a significantly lower mass and larger width than the two widely discussed glueball candidates f0(1500) and f0(1710). The lowest nonexotic and predominantly dilatonic scalar mode, which has a mass of 1487 MeV in the Witten-Sakai-Sugimoto model, instead provides a narrow glueball state, and we conjecture that only this nonexotic mode should be identified with a scalar glueball component of f0(1500) or f0(1710). Moreover the decay pattern of the tensor glueball is determined, which is found to have a comparatively broad total width when its mass is adjusted to around or above 2 GeV.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-30T20:36:29Z</published>
+    <arxiv:comment>38 pages, 5 figures, 9 tables; v2: minor corrections (numerical data in tables 3, 5, and 7 on excited scalar glueballs), 2 footnotes and 2 references added; v3: corrections in table 9 (extrapolations of tensor glueball decay to masses above 2 GeV)</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 91, 106002 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Frederic Brünner</name>
+    </author>
+    <author>
+      <name>Denis Parganlija</name>
+    </author>
+    <author>
+      <name>Anton Rebhan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.91.106002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.91.106002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.06167v1</id>
+    <title>Optimal Time Decay Rate for the Compressible Viscoelastic Equations in Critical Spaces</title>
+    <updated>2015-02-22T02:40:40Z</updated>
+    <link href="https://arxiv.org/abs/1502.06167v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.06167v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we are concerned with the convergence rates of the global strong solution to constant equilibrium state for the compressible viscoelastic fluids in the whole space. We combine both analysis about Green's matrix method and energy estimate method to get optimal time decay rate in critical Besov space framework. Our result imply the optimal $L^{2}$-time decay rate and only need the initial data to be small in critical Besov space which have very low regularity compared with traditional Sobolev space.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-22T02:40:40Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Junxiong Jia</name>
+    </author>
+    <author>
+      <name>Jigen Peng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.4610v1</id>
+    <title>On the Achievable Rates of Pairwise Multiway Relay Channels</title>
+    <updated>2014-06-18T05:51:11Z</updated>
+    <link href="https://arxiv.org/abs/1406.4610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.4610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study the effect of users' transmission ordering on the common rate and sum rate of pairwise multiway relay channels (MWRCs) with functional-decode-forward strategy. To this end, we first develop a graphical model for the data transmission in a pairwise MWRC. Using this model, we then find the optimal orderings that achieve the maximum common rate and sum rate of the system. The achieved maximum common and sum rate are also found. Moreover, we show that the performance gap between optimal orderings and a random ordering vanishes when SNR increases. Computer simulations are presented for better illustration of the results.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-18T05:51:11Z</published>
+    <arxiv:comment>Extended version of "On the Achievable Rates of Pairwise Multiway Relay Channels" accepted for ISIT 2014</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Reza Rafie Borujeny</name>
+    </author>
+    <author>
+      <name>Moslem Noori</name>
+    </author>
+    <author>
+      <name>Masoud Ardakani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08895v3</id>
+    <title>Optimal rates of decay for operator semigroups on Hilbert spaces</title>
+    <updated>2019-01-31T23:50:20Z</updated>
+    <link href="https://arxiv.org/abs/1709.08895v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.08895v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate rates of decay for $C_0$-semigroups on Hilbert spaces under assumptions on the resolvent growth of the semigroup generator. Our main results show that one obtains the best possible estimate on the rate of decay, that is to say an upper bound which is also known to be a lower bound, under a comparatively mild assumption on the growth behaviour. This extends several statements obtained by Batty, Chill and Tomilov (J. Eur. Math. Soc., vol. 18(4), pp. 853-929, 2016). In fact, for a large class of semigroups our condition is not only sufficient but also necessary for this optimal estimate to hold. Even without this assumption we obtain a new quantified asymptotic result which in many cases of interest gives a sharper estimate for the rate of decay than was previously available, and for semigroups of normal operators we are able to describe the asymptotic behaviour exactly. We illustrate the strength of our theoretical results by using them to obtain sharp estimates on the rate of energy decay for a wave equation subject to viscoelastic damping at the boundary.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-26T09:01:15Z</published>
+    <arxiv:comment>25 pages. To appear in Advances in Mathematics</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Advances in Mathematics 346 (2019), pp. 359-388</arxiv:journal_ref>
+    <author>
+      <name>Jan Rozendaal</name>
+    </author>
+    <author>
+      <name>David Seifert</name>
+    </author>
+    <author>
+      <name>Reinhard Stahn</name>
+    </author>
+    <arxiv:doi>10.1016/j.aim.2019.02.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aim.2019.02.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.12012v1</id>
+    <title>Optimal decay rate of solutions for nonlinear Klein-Gordon systems of critical type</title>
+    <updated>2020-02-27T10:07:12Z</updated>
+    <link href="https://arxiv.org/abs/2002.12012v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.12012v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the decay rate of solutions to nonlinear Klein-Gordon systems with a critical type nonlinearity. We will specify the optimal decay rate for a specific class of Klein-Gordon systems containing the dissipative nonlinearites. It will turn out that the decay rate which is previously found in some models is optimal.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-27T10:07:12Z</published>
+    <arxiv:comment>8 pages, no figure</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Satoshi Masaki</name>
+    </author>
+    <author>
+      <name>Koki Sugiyama</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.28515v2</id>
+    <title>Lower Your Rates: On Claims of a Binary Black Hole Merger-Rate Crisis</title>
+    <updated>2026-08-26T21:01:16Z</updated>
+    <link href="https://arxiv.org/abs/2606.28515v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.28515v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies have argued that isolated binary evolution simulations generically overestimate the observed local binary black hole (BBH) merger rate, even after adopting observationally motivated variations in the metallicity-dependent cosmic star-formation history, and have interpreted this as motivation for drastic revisions to binary stellar evolution models. We revisit these claims using a compilation of 1490 simulated BBH merger rates from 57 isolated binary-evolution studies, compared to constraints from the LIGO--Virgo--KAGRA Collaboration through GWTC-5. While $\sim$80% of compiled submodels find rates above the GWTC-5 interval, a substantial subset reproduces or underestimates the observed rate. The literature spans several orders of magnitude, reflecting strong sensitivity to assumptions about natal kicks, common-envelope evolution, mass transfer, angular-momentum loss, remnant formation, stellar winds, initial conditions, and star-formation history. Using 2543 pairwise BBH submodel variations constructed to isolate single physical assumptions, we identify which choices most strongly impact the simulated BBH merger rate. Low BBH merger rates are not uniquely associated with strong natal kicks or reduced low-metallicity star formation. Multiple physically motivated assumptions can independently reduce simulated rates to values consistent with observations. We further show that simulated rates cluster into `simulation silos': frameworks producing apparent consensus within a code that does not generalize beyond it. Our results indicate that claims of a universal BBH merger-rate crisis are strongly model dependent, and underscore the importance of exploring the full parameter space across multiple population-synthesis frameworks before concluding that isolated binary evolution is in tension with gravitational-wave observations.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-26T18:10:18Z</published>
+    <arxiv:comment>online table and interactive plots available at https://floorbroekgaarden.github.io/lower-your-rates/</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Floor S. Broekgaarden</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.03104v1</id>
+    <title>The Optimal Decay Rate of Strong Solution for the Compressible Nematic Liquid Crystal Equations with Large Initial Data</title>
+    <updated>2021-06-06T12:33:12Z</updated>
+    <link href="https://arxiv.org/abs/2106.03104v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.03104v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is devoted to establishing the optimal decay rate of the global large solution to compressible nematic liquid crystal equations when the initial perturbation is large and belongs to $L^1(\mathbb R^3)\cap H^2(\mathbb R^3)$. More precisely, we show that the first and second order spatial derivatives of large solution $(ρ-1, u, \nabla d)(t)$ converges to zero at the $L^2-$rate $(1+t)^{-\frac54}$ and $L^2-$rate $(1+t)^{-\frac74}$ respectively, which are optimal in the sense that they coincide with the decay rates of solution to the heat equation. Thus, we establish optimal decay rate for the second order derivative of global large solution studied in [12,18] since the compressible nematic liquid crystal flow becomes the compressible Navier-Stokes equations when the director is a constant vector. It is worth noticing that there is no decay loss for the highest-order spatial derivative of solution although the associated initial perturbation is large. Moreover, we also establish the lower bound of decay rates of $(ρ-1, u, \nabla d)(t)$ itself and its spatial derivative, which coincide with the upper one. Therefore, the decay rates of global large solution $\nabla^2(ρ-1,u,\nabla d)(t)$ $(k=0,1,2)$ are actually optimal.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-06T12:33:12Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Jincheng Gao</name>
+    </author>
+    <author>
+      <name>Zhengzhen Wei</name>
+    </author>
+    <author>
+      <name>Zheng-an Yao</name>
+    </author>
+  </entry>
+</feed>

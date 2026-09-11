@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g8TnM4mAqBqhhTy1/bM5jiTHD/A</id>
+  <title>arXiv Query: search_query=all:Prony OR all:method OR all:exponential OR all:fitting OR all:noise OR all:sensitivity&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:44:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Prony+OR+(all:method+OR+(all:exponential+OR+(all:fitting+OR+(all:noise+OR+all:sensitivity))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1022670</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0703092v1</id>
+    <title>Is the Universe Noise-Sensitive?</title>
+    <updated>2007-03-09T10:31:25Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0703092v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0703092v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The dichotomy between noise-stable and (completely) noise-sensitive stochastic models is of recent interest in probability theory. Of particular interest is the study of lattice models coming from statistical physics. The Fourier transform of noise-sensitive lattice models is concentrated on high eigenvalues and is described by "large" stochastic geometric objects. Noise sensitivity occurs quite surprisingly in various models like critical percolation, and is forced by certain symmetry conditions.
+  It appears that basic models from high-energy physics are noise stable; This is the impression from the basic mathematical frameworks used for describing them, and also from the description in terms of particles and interactions involving a small number of particles.
+  More general stochastic models with noise-sensitive components will not make a difference in measurements involving particles and their interactions, but may provide additional modeling power to proceed where current models are insufficient.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-03-09T10:31:25Z</published>
+    <arxiv:comment>A "noise-sensitivity manifesto", 4 pages, remarks welcomed</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Gil Kalai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.07706v1</id>
+    <title>On the Prony Series Representation of Stretched Exponential Relaxation</title>
+    <updated>2018-03-21T00:53:09Z</updated>
+    <link href="https://arxiv.org/abs/1803.07706v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.07706v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stretched exponential relaxation is a ubiquitous feature of homogeneous glasses. The stretched exponential decay function can be derived from the diffusion-trap model, which predicts certain critical values of the fractional stretching exponent. In practical implementations of glass relaxation models, it is computationally convenient to represent the stretched exponential function as a Prony series of simple exponentials. Here, we perform a comprehensive mathematical analysis of the Prony series approximation of the stretched exponential relaxation, including optimized coefficients for certain critical values of the exponent. The fitting quality of the Prony series is analyzed as a function of the number of terms in the series. With a sufficient number of terms, the Prony series can accurately capture the time evolution of the stretched exponential function, including its "fat tail" at long times. However, it is unable to capture the divergence of the first-derivative of the stretched exponential function in the limit of zero time. We also present a frequency-domain analysis of the Prony series representation of the stretched exponential function and discuss its physical implications for the modeling of glass relaxation behavior.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-21T00:53:09Z</published>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>John C. Mauro</name>
+    </author>
+    <author>
+      <name>Yihong Z. Mauro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1008.0667v2</id>
+    <title>Noise and Bell's inequality</title>
+    <updated>2010-08-13T19:23:18Z</updated>
+    <link href="https://arxiv.org/abs/1008.0667v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1008.0667v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>From the beginning of quantum mechanics, there has been a discussion about the concept of reality, as exemplified by the EPR paradox. To many, the idea of the paradox and the possibility of local hidden variables was dismissed by the Bell inequality. Yet, there remains considerable evidence that this inequality can be violated even by classical systems, so that experiments showing quantum behavior and the violation of the inequality must be questioned. Here, we demonstrate that classical optical polarization experiments based upon noise in the system can be shown to violate the Bell inequality.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-08-03T22:35:34Z</published>
+    <arxiv:comment>Fluctuation and Noise Letters, in press</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Fluctuation and Noise Letters 9 (2010 December) 423-426</arxiv:journal_ref>
+    <author>
+      <name>David K. Ferry</name>
+    </author>
+    <author>
+      <name>Laszlo B. Kish</name>
+    </author>
+    <arxiv:doi>10.1142/S0219477510000320</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219477510000320" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.2545v4</id>
+    <title>Noise based logic: why noise? A comparative study of the necessity of randomness out of orthogonality</title>
+    <updated>2012-06-29T09:21:18Z</updated>
+    <link href="https://arxiv.org/abs/1204.2545v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.2545v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although noise-based logic shows potential advantages of reduced power dissipation and the ability of large parallel operations with low hardware and time complexity the question still persist: is randomness really needed out of orthogonality? In this Letter, after some general thermodynamical considerations, we show relevant examples where we compare the computational complexity of logic systems based on orthogonal noise and sinusoidal signals, respectively. The conclusion is that in certain special-purpose applications noise-based logic is exponentially better than its sinusoidal version: its computational complexity can be exponentially smaller to perform the same task.</summary>
+    <category term="cs.OH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-11T15:10:17Z</published>
+    <arxiv:comment>corrected mistyped author's order in arxiv abstract page; accepted for publication in Fluctuation and Noise Letters</arxiv:comment>
+    <arxiv:primary_category term="cs.OH"/>
+    <arxiv:journal_ref>Fluctuation and Noise Letters 11 (2012) 1250021</arxiv:journal_ref>
+    <author>
+      <name>He Wen</name>
+    </author>
+    <author>
+      <name>Laszlo B. Kish</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.03430v1</id>
+    <title>Quantum and Classical Frontiers of Noise</title>
+    <updated>2016-12-11T16:08:16Z</updated>
+    <link href="https://arxiv.org/abs/1612.03430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.03430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is an introduction to the eleven works of the special issue on Quantum and Classical Frontiers of Noise. The weather, and its butterfly effect, is the typical example that explain why many natural phenomena are, in fact, not predictable with certainty. Noise in classical or quantum phenomena, understood as the difference between the empirical output of an experiment and its statistical prediction, is a measure of such uncertainty. One of the great contributions of noise appeared in 1905 when Einstein showed how the noisy (Brownian) motion of a dust particle seen in a microscope provided uncontroversial evidences on the existence of the (unseen) atoms. The aim of this special issue is to provoke discussions on how noise can help us to better understand (the reality behind) classical and quantum theories, and the frontier between them.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-11T16:08:16Z</published>
+    <arxiv:comment>Preface to the Special Issue on Quantum and Classical Frontiers of Noise</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Fluctuations and Noise Letters Vol. 15, No. 3 (2016) 1602001</arxiv:journal_ref>
+    <author>
+      <name>X. Oriols</name>
+    </author>
+    <arxiv:doi>10.1142/S0219477516020016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219477516020016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.2652v2</id>
+    <title>Instantaneous noise-based logic</title>
+    <updated>2010-06-21T01:22:10Z</updated>
+    <link href="https://arxiv.org/abs/1004.2652v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.2652v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show two universal, Boolean, deterministic logic schemes based on binary noise timefunctions that can be realized without time-averaging units. The first scheme is based on a new bipolar random telegraph wave scheme and the second one makes use of the recent noise-based logic which is conjectured to be the brain's method of logic operations [Physics Letters A 373 (2009) 2338-2342]. Error propagation and error removal issues are also addressed.</summary>
+    <category term="cs.OH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-13T20:30:52Z</published>
+    <arxiv:comment>Accepted for publication in Fluctuation and Noise Letters (December 2010 issue)</arxiv:comment>
+    <arxiv:primary_category term="cs.OH"/>
+    <arxiv:journal_ref>Fluctuation and Noise Letters 9 (2010) pp. 323-330</arxiv:journal_ref>
+    <author>
+      <name>Laszlo B. Kish</name>
+    </author>
+    <author>
+      <name>Sunil Khatri</name>
+    </author>
+    <author>
+      <name>Ferdinand Peper</name>
+    </author>
+    <arxiv:doi>10.1142/S0219477510000253</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219477510000253" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.15494v3</id>
+    <title>Simple Cracking of (Noise-Based) Dynamic Watermarking in Smart Grids</title>
+    <updated>2025-04-20T20:44:52Z</updated>
+    <link href="https://arxiv.org/abs/2406.15494v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.15494v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Previous research employing a conceptual approach with a digital twin has demonstrated that (noise-based) dynamic watermarking is incapable of providing unconditional security in smart electrical grid systems. However, the implementation of digital twins can be prohibitively costly or infeasible due to limited available data on critical infrastructure. In this study, we first analyze the spectral properties of dynamic watermarking and its associated protocol. Subsequently, we present a straightforward attack inspired by the digital twin method, which extracts and utilizes the grid noises and completely breaches the security of dynamic watermarking without requiring knowledge of the private watermarking signal. The attacker can fully expose the grid while evading detection by the controller. Our findings indicate that in the absence of secure and authenticated communications, dynamic watermarking offers neither conditional nor unconditional security. Conversely, when communication lines, sensors, and communicators are equipped with tamper-resistant and secure/authenticated links, dynamic watermarking becomes redundant for grid security.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-18T23:24:22Z</published>
+    <arxiv:comment>Published in Fluctuation and Noise Letters</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>Fluctuation and Noise Letters, Vol. 23, No. 06, 2450059 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Mehmet Yildirim</name>
+    </author>
+    <author>
+      <name>Nasir Kenarangui</name>
+    </author>
+    <author>
+      <name>Robert Balog</name>
+    </author>
+    <author>
+      <name>Laszlo B. Kish</name>
+    </author>
+    <author>
+      <name>Chanan Singh</name>
+    </author>
+    <arxiv:doi>10.1142/S0219477524500597</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219477524500597" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.07838v1</id>
+    <title>Decoherence and noise in open quantum system dynamics</title>
+    <updated>2016-05-25T11:52:34Z</updated>
+    <link href="https://arxiv.org/abs/1605.07838v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.07838v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the description of quantum noise within the framework of the standard Copenhagen interpretation of quantum mechanics applied to a composite system environment setting. Averaging over the environmental degrees of freedom leads to a stochastic quantum dynamics, described by equations complying with the constraints arising from the statistical structure of quantum mechanics. Simple examples are considered in the framework of open system dynamics described within a master equation approach, pointing in particular to the appearance of the phenomenon of decoherence and to the relevance of quantum correlation functions of the environment in the determination of the action of quantum noise.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-25T11:52:34Z</published>
+    <arxiv:comment>9 pages, 1 figure, to appear on Special Issue of Fluctuation and Noise Letters</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Fluct. Noise Lett., 15, 1640003 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Bassano Vacchini</name>
+    </author>
+    <arxiv:doi>10.1142/S0219477516400034</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219477516400034" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.17794v1</id>
+    <title>Noise Dynamics in the Quantum Regime</title>
+    <updated>2023-11-29T16:39:58Z</updated>
+    <link href="https://arxiv.org/abs/2311.17794v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.17794v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A time-dependent bias voltage on a tunnel junction generates a time-dependent modulation of its current fluctuations, and in particular of its variance. This translates into an excitation at frequency $\tilde{f}$ generating correlations between current fluctuating at any frequency $f$ and at frequency $\pm$ $\tilde{f} -f$. We report the measurement of such a correlation in the fully quantum regime, i.e. when both frequencies are much greater than $k_BT/h$ with $T$ the temperature. Such a correlator, usually referred to as the noise susceptibility, is involved in corrections to the measurements of higher-order moments and in the squeezing of noise.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-29T16:39:58Z</published>
+    <arxiv:comment>4 pages, 4 figures, to be published in the 2023 International Conference on Noise and Fluctuations (ICNF) proceedings</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>2023 International Conference on Noise and Fluctuations (ICNF)</arxiv:journal_ref>
+    <author>
+      <name>Clovis Farley</name>
+    </author>
+    <author>
+      <name>Edouard Pinsolle</name>
+    </author>
+    <author>
+      <name>Bertrand Reulet</name>
+    </author>
+    <arxiv:doi>10.1109/ICNF57520.2023.10472766</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICNF57520.2023.10472766" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0501499v1</id>
+    <title>Stokes' Drift and Hypersensitive Response with Dichotomous Markov Noise</title>
+    <updated>2005-01-20T17:44:46Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0501499v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0501499v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Stochastic Stokes' drift and hypersensitive transport driven by dichotomous noise are theoretically investigated. Explicit mathematical expressions for the asymptotic probability density and drift velocity are derived including the situation in which particles cross unstable fixed points. The results are confirmed by numerical simulations.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-01-20T17:44:46Z</published>
+    <arxiv:comment>28 pages, 6 figures, submitted to Fluct. Noise Lett</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Fluctuations and Noise Letters 5, L397-L415 (2005).</arxiv:journal_ref>
+    <author>
+      <name>I. Bena</name>
+    </author>
+    <author>
+      <name>R. Kawai</name>
+    </author>
+    <author>
+      <name>C. Van den Broeck</name>
+    </author>
+    <author>
+      <name>Katja Lindenberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.06875v1</id>
+    <title>Universal Prony fitting decomposition for optimized hierarchical quantum master equations</title>
+    <updated>2022-04-14T10:55:39Z</updated>
+    <link href="https://arxiv.org/abs/2204.06875v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.06875v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we propose the Prony fitting decomposition (PFD) as an accurate and efficient exponential series method, applicable to arbitrary interacting bath correlation functions. The resulting hierarchical equations of motion (HEOM) formalism is greatly optimized, especially in extremely low temperature regimes that would be inaccessible with other methods. For demonstration, we calibrate the present PFD against the celebrated Padé spectrum decomposition method, followed by converged HEOM evaluations on the single-impurity Anderson model system.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-14T10:55:39Z</published>
+    <arxiv:comment>4 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Zi-Hao Chen</name>
+    </author>
+    <author>
+      <name>Yao Wang</name>
+    </author>
+    <author>
+      <name>Xiao Zheng</name>
+    </author>
+    <author>
+      <name>Rui-Xue Xu</name>
+    </author>
+    <author>
+      <name>YiJing Yan</name>
+    </author>
+    <arxiv:doi>10.1063/5.0095961</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0095961" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.03651v1</id>
+    <title>Modifications of Prony's Method for the Recovery and Sparse Approximation of Generalized Exponential Sums</title>
+    <updated>2020-01-10T20:15:03Z</updated>
+    <link href="https://arxiv.org/abs/2001.03651v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.03651v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this survey we describe some modifications of Prony's method. In particular, we consider the recovery of general expansions into eigenfunctions of linear differential operators of first order and show, how these expansions can be recovered from function samples using generalized shift operators. We derive an ESPRIT-like algorithm for the generalized recovery method and show, that this approach can be directly used to reconstruct classical exponential sums from non-equispaced data. Furthermore, we derive a modification of Prony's method for sparse approximation with exponential sums which leads to a non-linear least-squares problem.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-10T20:15:03Z</published>
+    <arxiv:comment>27 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Ingeborg Keller</name>
+    </author>
+    <author>
+      <name>Gerlind Plonka</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.03510v1</id>
+    <title>Generalized rational Prony and Bernoulli methods</title>
+    <updated>2025-10-03T20:50:19Z</updated>
+    <link href="https://arxiv.org/abs/2510.03510v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.03510v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The generalized operator-based Prony method is an important tool for describing signals which can be written as finite linear combinations of eigenfunctions of certain linear operators. On the other hand, Bernoulli's algorithm and its generalizations can be used to recover the parameters of rational functions belonging to finite-dimensional subspaces of $H_2$ Hardy-Hilbert spaces. In this work, we discuss several results related to these methods. We discuss a rational variant of the generalized operator-based Prony method and show that in fact, any Prony problem can be treated this way. This realization establishes the connection between Prony and Bernoulli methods and allows us to address some well-known numerical pitfalls. Several numerical experiments are provided to showcase the usefulness of the introduced methods. These include problems related to the identification of time-delayed linear systems and parameter recovery problems in reproducing kernel Hilbert spaces.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-03T20:50:19Z</published>
+    <arxiv:comment>Submitted to the journal IOP Inverse Problems for consideration</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Tamás Dózsa</name>
+    </author>
+    <author>
+      <name>Matthias Voigt</name>
+    </author>
+    <author>
+      <name>Zoltán Szabó</name>
+    </author>
+    <author>
+      <name>József Bokor</name>
+    </author>
+    <author>
+      <name>Péter Kovács</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0210498v1</id>
+    <title>Shot noise for entangled and spin-polarized electrons</title>
+    <updated>2002-10-22T16:54:45Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0210498v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0210498v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We review our recent contributions on shot noise for entangled electrons and spin-polarized currents in novel mesoscopic geometries. We first discuss some of our recent proposals for electron entanglers involving a superconductor coupled to a double dot in the Coulomb blockade regime, a superconductor tunnel-coupled to Luttinger-liquid leads, and a triple-dot setup coupled to Fermi leads. We calculate current and shot noise for spin-polarized currents and entangled/unentangled electron pairs in a beam-splitter geometry with a \textit{local} Rashba spin-orbit (s-o) interaction in the incoming leads. We find \textit{continuous} bunching and antibunching behaviors for the \textit{entangled} pairs -- triplet and singlet -- as a function of the Rashba rotation angle. In addition, we find that unentangled triplets and the entangled one exhibit distinct shot noise. Shot noise for spin-polarized currents shows sizable oscillations as a function of the Rashba phase. This happens only for electrons injected perpendicular to the Rashba rotation axis; spin-polarized carriers along the Rashba axis are noiseless. We find an additional spin rotation for electrons with energies near the crossing of the bands where s-o induced interband coupling is relevant. This gives rise to an additional modulation of the noise for both electron pairs and spin-polarized currents. Finally, we briefly discuss shot noise for a double dot near the Kondo regime.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-22T16:54:45Z</published>
+    <arxiv:comment>35 Kluwer pages, 12 figures - to appear in an upcoming NATO SERIES volume on noise</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>NATO Science Series, "Quantum Noise in Mesoscopic Physics", vol. 97, pp 241-274, Kluwer, 2003, The Netherlands</arxiv:journal_ref>
+    <author>
+      <name>J. C. Egues</name>
+    </author>
+    <author>
+      <name>P. Recher</name>
+    </author>
+    <author>
+      <name>D. S. Saraga</name>
+    </author>
+    <author>
+      <name>V. N. Golovach</name>
+    </author>
+    <author>
+      <name>G. Burkard</name>
+    </author>
+    <author>
+      <name>E. V. Sukhorukov</name>
+    </author>
+    <author>
+      <name>D. Loss</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.0818v1</id>
+    <title>Analysis of an attenuator artifact in an experimental attack by Gunn-Allison-Abbott against the Kirchhoff-law-Johnson-noise (KLJN) secure key exchange system</title>
+    <updated>2014-11-04T07:56:36Z</updated>
+    <link href="https://arxiv.org/abs/1411.0818v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.0818v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A recent paper by Gunn-Allison-Abbott (GAA) [L.J. Gunn et al., Scientific Reports 4 (2014) 6461] argued that the Kirchhoff-law-Johnson-noise (KLJN) secure key exchange system could experience a severe information leak. Here we refute their results and demonstrate that GAA's arguments ensue from a serious design flaw in their system. Specifically, an attenuator broke the single Kirchhoff-loop into two coupled loops, which is an incorrect operation since the single loop is essential for the security in the KLJN system, and hence GAA's asserted information leak is trivial. Another consequence is that a fully defended KLJN system would not be able to function due to its built-in current-comparison defense against active (invasive) attacks. In this paper we crack GAA's scheme via an elementary current comparison attack which yields negligible error probability for Eve even without averaging over the correlation time of the noise.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-04T07:56:36Z</published>
+    <arxiv:comment>Accepted for publication in Fluctuation and Noise Letters, on November 3, 2014</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>Fluct. Noise Lett. 14 (2015) 1550011</arxiv:journal_ref>
+    <author>
+      <name>Laszlo B. Kish</name>
+    </author>
+    <author>
+      <name>Zoltan Gingl</name>
+    </author>
+    <author>
+      <name>Robert Mingesz</name>
+    </author>
+    <author>
+      <name>Gergely Vadai</name>
+    </author>
+    <author>
+      <name>Janusz Smulko</name>
+    </author>
+    <author>
+      <name>Claes-Goran Granqvist</name>
+    </author>
+    <arxiv:doi>10.1142/S021947751550011X</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S021947751550011X" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.02529v2</id>
+    <title>Bridging the Prediction Error Method and Subspace Identification: A Weighted Null Space Fitting Method</title>
+    <updated>2026-07-07T14:35:30Z</updated>
+    <link href="https://arxiv.org/abs/2510.02529v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.02529v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Subspace identification methods (SIMs) have proven to be very useful and numerically robust for building state-space models. While most SIMs are consistent, few if any can achieve the efficiency of the maximum likelihood estimate (MLE). Conversely, the prediction error method (PEM) with a quadratic criteria is equivalent to MLE, but it comes with non-convex optimization problems and requires good initialization points. This contribution proposes a weighted null space fitting (WNSF) approach for estimating state-space models, combining some key advantages of the two aforementioned mainstream approaches. It starts with a least-squares estimate of a high-order ARX model, and then a multi-step least-squares procedure reduces the model to a state-space model on canoncial form. It is demonstrated through statistical analysis that when a canonical parameterization is admissible, the proposed method is consistent and asymptotically efficient, thereby making progress on the long-standing open problem about the existence of an asymptotically efficient SIM. Numerical and practical examples are provided to illustrate that the proposed method performs favorable in comparison with SIMs.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-02T19:58:25Z</published>
+    <arxiv:comment>This work has been merged into the manuscript, "Weighted Null Space Fitting (WNSF): A Link Between the Prediction Error Method and Subspace Identification" [arXiv:2411.00506]</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Jiabao He</name>
+    </author>
+    <author>
+      <name>S. Joe Qin</name>
+    </author>
+    <author>
+      <name>Håkan Hjalmarsson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.10695v2</id>
+    <title>Prony methods for extracting excited states</title>
+    <updated>2019-03-05T20:45:28Z</updated>
+    <link href="https://arxiv.org/abs/1902.10695v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.10695v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose an algebraic method for extracting excited states from lattice gauge theory correlation functions. Instead of fitting to a sum of decaying exponentials, we adopt a variant of Prony's method to obtain $M$ energies (exponential decay rates) by finding the roots of an $M^{\rm th}$ order polynomial, and then solving for the amplitudes linearly. The resulting states tend to have overlapping error ellipses, making identification of states ambiguous. This is especially problematic at large Euclidean times where the signal to noise may be low, as well as when many states are extracted. We propose a variation of K-means clustering to identify each extracted state.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-27T18:59:58Z</published>
+    <arxiv:comment>7 pages, 9 figures, Lattice 2018 proceedings</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Kimmy K. Cushman</name>
+    </author>
+    <author>
+      <name>George T. Fleming</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0505722v1</id>
+    <title>Fractional charge in the noise of Luttinger liquid systems</title>
+    <updated>2005-05-30T13:24:10Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0505722v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0505722v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The current noise of a voltage biased interacting quantum wire adiabatically connected to metallic leads is computed in presence of an impurity in the wire. We find that in the weak backscattering limit the Fano factor characterizing the ratio between shot noise and backscattering current crucially depends on the noise frequency relative to the ballistic frequency v_F/gL, where v_F is the Fermi velocity, g the Luttinger liquid interaction parameter, and L the length of the wire. In contrast to chiral Luttinger liquids, the noise is not only due to the Poissonian backscattering of fractionally charged quasiparticles at the impurity, but also depends on Andreev-type reflections of plasmons at the contacts, so that the frequency dependence of the noise needs to be analyzed to extract the fractional charge e*=e g of the bulk excitations. We show that the frequencies needed to see interaction effects in the Fano factor are within experimental reach.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-05-30T13:24:10Z</published>
+    <arxiv:comment>9 pages, 4 figures, conference proceedings of Fluctuations and Noise 2005, Austin, Texas</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Fluctuations and Noise in Materials II, edited by P. Svedlindh, D. Popovic, and M.B.Weissmann, Proceedings of SPIE Vol. 5843 (SPIE, Bellingham, WA, 2005)</arxiv:journal_ref>
+    <author>
+      <name>B. Trauzettel</name>
+    </author>
+    <author>
+      <name>I. Safi</name>
+    </author>
+    <author>
+      <name>F. Dolcini</name>
+    </author>
+    <author>
+      <name>H. Grabert</name>
+    </author>
+    <arxiv:doi>10.1117/12.609352</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1117/12.609352" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.01272v1</id>
+    <title>A prony method variant which surpasses the Adaptive LMS filter in the output signal's representation of input</title>
+    <updated>2024-09-02T14:10:26Z</updated>
+    <link href="https://arxiv.org/abs/2409.01272v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.01272v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Prony method for approximating signals comprising sinusoidal/exponential components is known through the pioneering work of Prony in his seminal dissertation in the year 1795. However, the Prony method saw the light of real world application only upon the advent of the computational era, which made feasible the extensive numerical intricacies and labor which the method demands inherently. The Adaptive LMS Filter which has been the most pervasive method for signal filtration and approximation since its inception in 1965 does not provide a consistently assured level of highly precise results as the extended experiment in this work proves. As a remedy this study improvises upon the Prony method by observing that a better (more precise) computational approximation can be obtained under the premise that adjustment can be made for computational error , in the autoregressive model setup in the initial step of the Prony computation itself. This adjustment is in proportion to the deviation of the coefficients in the same autoregressive model. The results obtained by this improvisation live up to the expectations of obtaining consistency and higher value in the precision of the output (recovered signal) approximations as shown in this current work and as compared with the results obtained using the Adaptive LMS Filter.</summary>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-02T14:10:26Z</published>
+    <arxiv:primary_category term="cs.MS"/>
+    <author>
+      <name>Parthasarathy Srinivasan</name>
+    </author>
+    <arxiv:doi>10.5121/sipij.2024.15401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5121/sipij.2024.15401" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.22096v1</id>
+    <title>Noise-Robust Frequency Estimation via Overlapped Sampling-Intervals Zero-Crossing Fitting</title>
+    <updated>2026-07-24T08:47:06Z</updated>
+    <link href="https://arxiv.org/abs/2607.22096v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.22096v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The trade-off between noise averaging and temporal resolution fundamentally limits conventional zero-crossing frequency estimators under dynamic and noisy conditions. This paper presents an overlapped sampling-intervals zero-crossing fitting method (OS-ZFM), which introduces a structured overlapping regression framework that decouples noise averaging from temporal update rate. The method adopts a deterministic closed-form formulation, enabling a unified bias-variance analysis to characterize the statistical behavior of the estimator and clarify the role of structured data reuse. Numerical results under intensity and background noise at a signal-to-noise ratio (SNR) of 10 dB show that OS-ZFM reduces median estimation error by more than 60\% compared to conventional zero-crossing fitting methods at the same temporal resolution. It further achieves up to 90\% reduction relative to basic zero-crossing detection and consistently yields lower estimation errors than Hilbert-transform-based estimators. Experimental validation utilizing impact-induced transient motion measured by laser Doppler interferometry demonstrates that OS-ZFM reconstructs smooth and physically consistent trajectories with improved temporal fidelity. Owing to its low computational complexity and deterministic formulation, the proposed method enables accurate real-time frequency and acceleration tracking in resource-constrained measurement systems.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-24T08:47:06Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <arxiv:journal_ref>P. Youplao, N. Pornsuwancharoen and Y. Fujii, "Noise-Robust Frequency Estimation via Overlapped Sampling-Intervals Zero-Crossing Fitting," IEEE Trans. Instrum. Meas., vol. 75, pp. 6509210-6509210, 2026, Art no. 6509210</arxiv:journal_ref>
+    <author>
+      <name>Phichai Youplao</name>
+    </author>
+    <author>
+      <name>Nithiroth Pornsuwancharoen</name>
+    </author>
+    <author>
+      <name>Yusaku Fujii</name>
+    </author>
+    <arxiv:doi>10.1109/TIM.2026.3693432</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIM.2026.3693432" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.0015v1</id>
+    <title>Is the regime with shot noise suppression by a factor 1/3 achievable in semiconductor devices with mesoscopic dimensions?</title>
+    <updated>2013-02-28T21:08:37Z</updated>
+    <link href="https://arxiv.org/abs/1303.0015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.0015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss the possibility of diffusive conduction and thus of suppression of shot noise by a factor 1/3 in mesoscopic semiconductor devices with two-dimensional and one-dimensional potential disorder, for which existing experimental results do not provide a conclusive result. On the basis of our numerical analysis, we conclude that it is quite difficult to achieve diffusive transport over a reasonably wide parameter range, unless the device dimensions are increased up to the macroscopic scale. In addition, in the case of one-dimensional disorder, some mechanism capable of mode-mixing has to be present in order to reach or even approach the diffusive regime.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-28T21:08:37Z</published>
+    <arxiv:comment>7 pages, 6 figures, published in Fluctuation and Noise Letters</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>P. Marconcini, M. Macucci, D. Logoteta, M. Totaro, "Is the regime with shot noise suppression by a factor 1/3 achievable in semiconductor devices with mesoscopic dimensions?", Fluct. Noise Lett. 11, 1240012 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Paolo Marconcini</name>
+    </author>
+    <author>
+      <name>Massimo Macucci</name>
+    </author>
+    <author>
+      <name>Demetrio Logoteta</name>
+    </author>
+    <author>
+      <name>Massimo Totaro</name>
+    </author>
+    <arxiv:doi>10.1142/S0219477512400123</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219477512400123" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.07891v1</id>
+    <title>A New Algorithm to Fit Exponential Decays</title>
+    <updated>2017-11-21T16:35:45Z</updated>
+    <link href="https://arxiv.org/abs/1711.07891v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.07891v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper deals with some nonlinear problems which exponential and biexponential decays are involved in. A proof of the quasiconvexity of the error function in some of these problems of optimization is presented. This proof is restricted to fitting observations by means of exponentials having the form $f (t) = λ_1 \exp(kt) + λ_2.$ Based on its quasiconvexity, we propose an algorithm to estimate the best approximation to each of these decays. Besides, this algorithm does not require an initial guess.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-21T16:35:45Z</published>
+    <arxiv:comment>In this preprint a new algorithm, with no initial guess required, to fix exponential decays can be found. Enclosed you can find a couple of real applications illustrating the good performance of this algorithm. The algorithm behaves so robustly, that it has a wide range of applications. We are currently studying the reasons for that robust behaviour</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Juan Antonio Fernández Torvisco</name>
+    </author>
+    <author>
+      <name>Mariano Rodríguez-Arias Fernández</name>
+    </author>
+    <author>
+      <name>Javier Cabello Sánchez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.08778v2</id>
+    <title>The Generalized Operator Based Prony Method</title>
+    <updated>2020-02-18T08:27:56Z</updated>
+    <link href="https://arxiv.org/abs/1901.08778v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.08778v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The generalized Prony method introduced by Peter &amp; Plonka (2013) is a reconstruction technique for a large variety of sparse signal models that can be represented as sparse expansions into eigenfunctions of a linear operator $A$. However, this procedure requires the evaluation of higher powers of the linear operator $A$ that are often expensive to provide.
+  In this paper we propose two important extensions of the generalized Prony method that simplify the acquisition of the needed samples essentially and at the same time can improve the numerical stability of the method. The first extension regards the change of operators from $A$ to $\varphi(A)$, where $\varphi$ is an analytic function, while $A$ and $\varphi(A)$ possess the same set of eigenfunctions. The goal is now to choose $\varphi$ such that the powers of $\varphi(A)$ are much simpler to evaluate than the powers of $A$. The second extension concerns the choice of the sampling functionals. We show, how new sets of different sampling functionals $F_{k}$ can be applied with the goal to reduce the needed number of powers of the operator $A$ (resp. $\varphi(A)$) in the sampling scheme and to simplify the acquisition process for the recovery method.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-25T08:28:05Z</published>
+    <arxiv:comment>31 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Constructive Approximation 52 (2020), 247-282</arxiv:journal_ref>
+    <author>
+      <name>Kilian Stampfer</name>
+    </author>
+    <author>
+      <name>Gerlind Plonka</name>
+    </author>
+    <arxiv:doi>10.1007/s00365-020-09501-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00365-020-09501-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0210269v1</id>
+    <title>Shot Noise of Mesoscopic NS Structures: The Role of Andreev Reflection</title>
+    <updated>2002-10-11T15:58:55Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0210269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0210269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Electronic properties of mesoscopic systems made of normal metal in contact with normal and superconducting reservoirs are determined by Andreev Reflection. We address both experimentally and theoretically how Andreev Reflection manifests itself in shot noise experiments and what physics can be deduced from such measurements. We report high frequency measurements in which Andreev Reflection affects the distribution statistics of the electronic excitations, resulting in a shift of the classical-to-quantum regime or equilibrium-to-shot noise crossovers. We also demonstrate that the effective charge carried by paired electrons contains more information: its deviation from 2e is related to correlations among pairs. This is exemplified by the measurement of phase dependent noise in an Andreev Interferometer. The use of full counting statistics allows us to understand how the correlations occur, and its application to the case of the Andreev Interferometer exhibits a very good agreement between theory and experiment.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-11T15:58:55Z</published>
+    <arxiv:comment>19 pages, 7 figures, for "Quantum Noise", edited by Yu. V. Nazarov and Ya. M. Blanter (Kluwer)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Quantum Noise in Mesoscopic Physics, 73-91. Y.V. Nazarov (ed.), Kluwer Academic Publishers (2003)</arxiv:journal_ref>
+    <author>
+      <name>B. Reulet</name>
+    </author>
+    <author>
+      <name>D. E. Prober</name>
+    </author>
+    <author>
+      <name>W. Belzig</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.2497v2</id>
+    <title>Exponential sensitivity of noise-driven switching in genetic networks</title>
+    <updated>2008-09-02T21:27:06Z</updated>
+    <link href="https://arxiv.org/abs/0711.2497v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.2497v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Cells are known to utilize biochemical noise to probabilistically switch between distinct gene expression states. We demonstrate that such noise-driven switching is dominated by tails of probability distributions and is therefore exponentially sensitive to changes in physiological parameters such as transcription and translation rates. However, provided mRNA lifetimes are short, switching can still be accurately simulated using protein-only models of gene expression. Exponential sensitivity limits the robustness of noise-driven switching, suggesting cells may use other mechanisms in order to switch reliably.</summary>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.CB" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-15T20:04:50Z</published>
+    <arxiv:comment>5 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.MN"/>
+    <arxiv:journal_ref>Physical Biology 5, 026005 (2008)</arxiv:journal_ref>
+    <author>
+      <name>Pankaj Mehta</name>
+    </author>
+    <author>
+      <name>Ranjan Mukhopadhyay</name>
+    </author>
+    <author>
+      <name>Ned S. Wingreen</name>
+    </author>
+    <arxiv:doi>10.1088/1478-3975/5/2/026005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1478-3975/5/2/026005" title="doi"/>
+  </entry>
+</feed>

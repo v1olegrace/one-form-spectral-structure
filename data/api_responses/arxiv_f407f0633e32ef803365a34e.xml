@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/H0ZH6VZIhQKf0WUd9yvAHIOaVNs</id>
+  <title>arXiv Query: search_query=all:dispersion OR all:relation OR all:for OR all:the OR all:heavy OR all:quark OR all:static OR all:potential&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:39:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:dispersion+OR+(all:relation+OR+(all:for+OR+(all:the+OR+(all:heavy+OR+(all:quark+OR+(all:static+OR+all:potential))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>798371</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9710446v1</id>
+    <title>Dispersion Quark Model of Heavy Meson Decays</title>
+    <updated>1997-10-23T08:49:15Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9710446v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9710446v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss applications of the dispersion quark model to exclusive semileptonic decays of heavy mesons. The transition form factors in this relativistic formulation of the quark model are given by double spectral representations through the wave functions of the initial and final mesons both in the scattering and the decay regions. An important feature of the model is that the form factors have the correct behavior in accordance with QCD in the case of meson decays induced by heavy parent quark transition both to heavy and light daughter quarks. We demonstrate that the dispersion quark model gives results compatible with the lattice calculations at large $q^2$ and thus provides reliable form factors in the whole decay region.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-10-23T08:49:15Z</published>
+    <arxiv:comment>Contributed to the IV Interbnational Conference on Progress in Heavy Quark Physics, Rostock, Germany, 20-22 September 1997, revtex, 3 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Dmitri Melikhov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0510111v1</id>
+    <title>Non-perturbatively determined relativistic heavy quark action</title>
+    <updated>2005-10-27T01:32:50Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0510111v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0510111v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Preliminary results are presented in a step scaling determination of the coefficients in the relativistic heavy quark action. By matching finite volume, heavy-heavy and heavy-light meson masses, we attempt to determine the four parameters ($m$, $ζ$, $c_B$ and $c_E$) in the on-shell-improved, heavy quark action. In this report we carry out one step in this program by matching two physically equivalent systems. The first is a fully relativistic calculation using a $24^3\times 48$, $1/a=5.4$ GeV lattice with both the heavy and light quarks treated as domain wall fermions. The second calculation uses at $16^3\times 32$, $1/a=3.6$ GeV lattice, a domain-wall light quark and a heavy quark computed with the relativistic heavy quark action. The four parameters in this heavy quark effective action are then varied to reproduce the mass spectrum from the first calculation. These calculations are carried out in the quenched approximation for a heavy quark mass approximately that of the charmed quark.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-10-27T01:32:50Z</published>
+    <arxiv:comment>6 pages, 2 figures, talk given at Lattice 2005 (Heavy Quark Physics)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2005 (2005) 225</arxiv:journal_ref>
+    <author>
+      <name>Huey-Wen Lin</name>
+    </author>
+    <author>
+      <name>Norman H. Christ</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/9710062v1</id>
+    <title>Differences between heavy and light quarks</title>
+    <updated>1997-10-27T23:37:54Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/9710062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/9710062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The quark Dyson-Schwinger equation shows that there are distinct differences between light and heavy quarks. The dynamical mass function of the light quarks is characterised by a sharp increase below 1 GeV, whereas the mass function of the heavy quarks is approximately constant in this infrared region. As a consequence, the heavy-meson masses increase linearly with the current-quark masses, whereas the light pseudoscalar meson masses are proportional to the square root of the current-quark masses.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-10-27T23:37:54Z</published>
+    <arxiv:comment>4 pages, 3 figures, Contribution to the IVth International Workshop on Progress in Heavy Quark Physics, 20-22 Sept. 1997, Rostock</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>P. Maris</name>
+    </author>
+    <author>
+      <name>C. D. Roberts</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.15461v2</id>
+    <title>Transverse Momentum Distributions of Heavy Hadrons and Polarized Heavy Quarks</title>
+    <updated>2023-10-04T19:27:29Z</updated>
+    <link href="https://arxiv.org/abs/2305.15461v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.15461v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We initiate the study of transverse momentum-dependent (TMD) fragmentation functions for heavy quarks, demonstrate their factorization in terms of novel nonperturbative matrix elements in heavy-quark effective theory (HQET), and prove new TMD sum rules that arise from heavy-quark spin symmetry. We discuss the phenomenology of heavy-quark TMD FFs at $B$ factories and find that the Collins effect, in contrast to claims in the literature, is not parametrically suppressed by the heavy-quark mass. We further calculate all TMD parton distribution functions for the production of heavy quarks from polarized gluons within the nucleon and use our results to demonstrate the potential of the future EIC to resolve TMD heavy-quark fragmentation in semi-inclusive DIS, complementing the planned EIC program to use heavy quarks as probes of gluon distributions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-24T18:00:00Z</published>
+    <arxiv:comment>42 pages + references, 7 figures; v2: corrected matching for heavy-quark Boer-Mulders function, journal version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Rebecca von Kuk</name>
+    </author>
+    <author>
+      <name>Johannes K. L. Michel</name>
+    </author>
+    <author>
+      <name>Zhiquan Sun</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP09(2023)205</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP09(2023)205" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0011061v1</id>
+    <title>On the short distance nonperturbative corrections in heavy quark expansion</title>
+    <updated>2000-11-14T08:51:23Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0011061v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0011061v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the corrections due to renormalons to the heavy hadron decay width.The renormalons contribution estimated in terms of finite gluon mass based on the assumption that the gluon mass represents the short distance nonperturbative effects in the standard OPE (and hence in the heavy quark expansion). We found that the corrections are about 10% of the leading decay rate. We point out the implications for the assumption of quark-hadron duality in heavy quark expansion.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-11-14T08:51:23Z</published>
+    <arxiv:comment>4 pages, epscrc2 style, LATTICE 2000 (Heavy Quark Physics), Version to appear in Nucl. Phys. B (PS)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Nucl.Phys.Proc.Suppl. 94 (2001) 333-336</arxiv:journal_ref>
+    <author>
+      <name>S. Arunagiri</name>
+      <arxiv:affiliation>U. Madras</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/S0920-5632(01)00956-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0920-5632(01)00956-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0205330v1</id>
+    <title>Heavy Quark Production in Heavy Ion Colliders</title>
+    <updated>2002-05-30T00:19:00Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0205330v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0205330v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe updated calculations of $Q \bar Q$ production in $pp$ and $π^- p$ interactions. We compare these results to total cross section data and discuss how the baseline cross sections extrapolate to heavy ion collider energies. We touch upon the differences between leading and next-to-leading order heavy quark production. Finally, we discuss the implications of our calculations for quarkonium production. Our discussion here focuses on bottom quarks.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-05-30T00:19:00Z</published>
+    <arxiv:comment>10 pages, uses special included style file, 4 eps figures, for proceedings of the Budapest'02 Workshop on Quark and Hadron Dynamics</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Heavy Ion Phys. 18 (2003) 11-20</arxiv:journal_ref>
+    <author>
+      <name>R. Vogt</name>
+      <arxiv:affiliation>UC Davis and LBNL</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1556/APH.18.2003.1.2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1556/APH.18.2003.1.2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.4011v1</id>
+    <title>The Symmetries of the Three Heavy Quark Bound State and the Singlet Static Energy</title>
+    <updated>2013-01-17T08:49:36Z</updated>
+    <link href="https://arxiv.org/abs/1301.4011v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.4011v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Potential non-relativistic QCD provides a convenient framework to study the three heavy-quark system. We have studied its symmetries under exchange of the heavy quarks and determined the leading ultrasoft contributions to the singlet static potential and to the singlet static energy. Specializing to an equilateral geometry, we have solved the renormalization group equations in order to resum the leading ultrasoft logarithms for the singlet static potential, which is thus known at NNLL accuracy.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-17T08:49:36Z</published>
+    <arxiv:comment>6 pages; conference proceedings: Xth Quark Confinement and the Hadron Spectrum, October 8-12, 2012, Munich, Germany</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>PoS Confinement X (2013) 160</arxiv:journal_ref>
+    <author>
+      <name>Felix Karbstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-ex/0104014v1</id>
+    <title>Heavy-Ion Physics at the LHC</title>
+    <updated>2001-04-18T21:11:14Z</updated>
+    <link href="https://arxiv.org/abs/nucl-ex/0104014v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-ex/0104014v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This White Paper on Heavy Ion Physics at the LHC was presented at the Town Meeting at Brookhaven National Laboratory, Jan. 21-23, 2001, and made available to NSAC to aid in the long range planning process.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-04-18T21:11:14Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>LHC-US Heavy Ion Collaboration</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0301138v2</id>
+    <title>Heavy Quarks: Effective Theories, Lattice and Models</title>
+    <updated>2003-08-29T16:20:51Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0301138v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0301138v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Heavy-light mesons, heavy quarkonium and doubly heavy baryons are briefly discussed. Effective field theories (EFTs) of QCD based on the heavy quark mass expansion 1/m_Q provide a unified framework to describe all three systems. They produce a number of model-independent results and simplify non-perturbative (lattice) calculations. Nevertheless, models are still very useful to obtain inexpensive estimates of many observables.
+ It is emphasized that certain models can be accommodated in the EFT framework, like non-relativistic potential models for heavy quarkonium. It is also outlined how to build a suitable EFT for doubly heavy baryons which might also accommodate existing models for these systems. Finally, a few lattice calculations which are badly needed as inputs for EFTs are pointed out.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-01-17T16:57:46Z</published>
+    <arxiv:comment>12 pages, Summary Talk of the Heavy Quark Session at the 5th International Conference on Quark Confinement and the Hadron Spectrum, Gargnano, Brescia, Italy, 10-14 Sep 2002. References updated</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Joan Soto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ex/9802018v1</id>
+    <title>Heavy Quarks at the Tevatron: Top &amp; Bottom</title>
+    <updated>1998-02-20T02:31:33Z</updated>
+    <link href="https://arxiv.org/abs/hep-ex/9802018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ex/9802018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We review the status of heavy quark physics at the Fermilab Tevatron collider by summarizing recent top quark and B physics results from CDF and DO. In particular, we discuss the measurement of the top quark mass and top production cross section as well as B meson lifetimes and time dependent B0 B0= mixing results.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-02-20T02:31:33Z</published>
+    <arxiv:comment>To appear in the Proceedings of IVth International Workshop on Progress in Heavy Quark Physics, Rostock, Germany, September 1997. 10 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>M. Paulini</name>
+      <arxiv:affiliation>representing the CDF and D0 Collaboration</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0810.2905v1</id>
+    <title>Light and heavy baryon masses: the 1/N_c expansion and the quark model</title>
+    <updated>2008-10-16T14:30:19Z</updated>
+    <link href="https://arxiv.org/abs/0810.2905v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0810.2905v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We establish a connection between the quark model and the 1/N_c expansion mass formulas used in the description of baryon resonances. We show that a remarkable compatibility exists between the two methods in the light and heavy baryon sectors. In particular, the band number used to classify baryons in the 1/N_c expansion is explained by the quark model and the mass formulas for both approaches are consistent.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-10-16T14:30:19Z</published>
+    <arxiv:comment>To appear in the proceedings of Few-Quark States and the Continuum, BLED WORKSHOPS IN PHYSICS, vol. 9, no. 1</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Proceedings of the Mini-Workshop « Few-Quark states and the continuum », Bled, Slovenia, September 15-22, 2008, pp. 9-25.</arxiv:journal_ref>
+    <author>
+      <name>F. Buisseret</name>
+    </author>
+    <author>
+      <name>C. Semay</name>
+    </author>
+    <author>
+      <name>Fl. Stancu</name>
+    </author>
+    <author>
+      <name>N. Matagne</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9612371v1</id>
+    <title>Heavy Quark Physics on the Lattice</title>
+    <updated>1996-12-16T11:06:05Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9612371v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9612371v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We illustrate the current status of heavy quark physics on the lattice. Special emphasis is paid to the question of systematic uncertainties and to the connection of lattice computations to continuum physics. Latest results are presented and discussed with respect to the progress in methods, statistical accuracy and reliability.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-12-16T11:06:05Z</published>
+    <arxiv:comment>14 pages, latex and 4 postscript figures. Invited talk at HEAVY QUARK PHYSICS AT FIXED TARGET, St. Goar, Oct. 3rd, 1996</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Stephan Güsken</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.10326v3</id>
+    <title>Dynamic scaling and quenching for heavy quark in the linear expanding medium</title>
+    <updated>2025-12-23T21:55:27Z</updated>
+    <link href="https://arxiv.org/abs/2411.10326v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.10326v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that scaling is a good approximation for the energy loss of the heavy quark propagating through linear expanding quark-gluon plasma (QGP), the effective quenching parameter does not depend on quark mass.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-15T16:28:06Z</published>
+    <arxiv:comment>16 pages, 2 tables 4 figures. We streamline our discussion of the mass dependence of heavy quark jet energy loss</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Boris Blok</name>
+      <arxiv:affiliation>Technion</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chang Wu</name>
+      <arxiv:affiliation>Technion</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0309086v1</id>
+    <title>Progress in automated perturbation theory for heavy quark physics</title>
+    <updated>2003-09-15T16:24:05Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0309086v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0309086v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We review our perturbative techniques for improved heavy quark actions. A new procedure for computing improvement coefficients is suggested, where the continuum limit of a lattice-regularized theory provides the matching conditions.We also use a gauge-invariant infrared regulator that is well suited to higher-order calculations in lattice gauge theory. We report on preliminary tests of our method, as well as a possible way to reduce systematic errors in these calculations.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-09-15T16:24:05Z</published>
+    <arxiv:comment>3 pages, 2 figures, Lattice 2003 (Heavy Quark)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Matthew Nobes</name>
+    </author>
+    <author>
+      <name>Howard Trottier</name>
+    </author>
+    <arxiv:doi>10.1016/S0920-5632(03)02580-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0920-5632(03)02580-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9606451v1</id>
+    <title>Recent Results in the NJL model with heavy quarks</title>
+    <updated>1996-06-27T10:37:28Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9606451v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9606451v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the interplay of chiral and heavy quark symmetries by using the NJL quark model. Heavy quarks with finite masses m(Q) as well as the limit m(Q) to infinity are studied. We found large corrections to the heavy mass scaling law for the pseudoscalar decay constant. The influence of external momenta on the shape parameters of the Isgur-Wise form factor is discussed.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-06-27T10:37:28Z</published>
+    <arxiv:comment>5 pages LaTeX, 1 postscript figure, procsla.sty included. To appear in the conference proceedings of the 3rd German-Russian Workshop on Heavy Quark Physics, Dubna, May 1996</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Thorsten Feldmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.6314v1</id>
+    <title>On static quark anti-quark potential at non-zero temperature</title>
+    <updated>2012-10-23T18:03:32Z</updated>
+    <link href="https://arxiv.org/abs/1210.6314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.6314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study Wilson loops at non-zero temperature and extract the static quark potential from them. The extracted potentials are larger than the singlet free energies and do not show screening for $T&lt;190$ MeV.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-23T18:03:32Z</published>
+    <arxiv:comment>Contribution to the proceedings of Quark Matter 2012, 4 pages, uses elsarticle</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>A. Bazavov</name>
+    </author>
+    <author>
+      <name>P. Petreczky</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysa.2013.02.085</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2013.02.085" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9811377v1</id>
+    <title>Duality-Violating 1/m_Q Effects in Heavy Quark Decay</title>
+    <updated>1998-11-17T22:52:31Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9811377v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9811377v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I identify a source of Λ_{QCD}/m_Q corrections to the assumption of quark-hadron duality in the application of heavy quark methods to inclusive heavy quark decays. These corrections could substantially affect the accuracy of such methods in practical applications and in particular compromise their utility for the extraction of the Cabibbo-Kobayashi-Maskawa matrix element V_{cb}.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-11-17T22:52:31Z</published>
+    <arxiv:comment>16 pages, 5 figures, an abbreviated version of hep-ph/9809279, the original JLAB-THY-98-03 ``Duality in Inclusive Semileptonic Heavy Quark Decay"</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett.B448:111-118,1999</arxiv:journal_ref>
+    <author>
+      <name>Nathan Isgur</name>
+    </author>
+    <arxiv:doi>10.1016/S0370-2693(98)01592-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0370-2693(98)01592-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9702411v2</id>
+    <title>The analytic structure of heavy quark propagators</title>
+    <updated>1997-09-29T01:00:24Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9702411v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9702411v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The renormalised quark Dyson-Schwinger equation is studied in the limit of the renormalised current heavy quark mass m_R --&gt; infinity. We are particularly interested in the analytic pole structure of the heavy quark propagator in the complex momentum plane. Approximations in which the quark-gluon vertex is modelled by either the bare vertex or the Ball-Chiu Ansatz, and the Landau gauge gluon propagator takes either a gaussian form or a gaussian form with an ultraviolet asymptotic tail are used.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-02-25T03:17:04Z</published>
+    <arxiv:comment>21 pages Latex and 5 postscript figures. The original version of this paper has been considerably extended to include a formalism dealing with the renormalised heavy quark Dyson-Schwinger equation and uses a more realistic Ansatz for the gluon propagator.</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev. D57 (1998) 276-286</arxiv:journal_ref>
+    <author>
+      <name>C. J. Burden</name>
+      <arxiv:affiliation>Australian National University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.57.276</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.57.276" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.2876v2</id>
+    <title>The static potential in {\cal N}=4 supersymmetric Yang-Mills at weak coupling</title>
+    <updated>2007-10-28T08:57:32Z</updated>
+    <link href="https://arxiv.org/abs/0709.2876v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.2876v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We compute the static potential associated to the locally 1/2 BPS Wilson loop in ${\cal N}$=4 supersymmetric Yang-Mills theory with ${\cal O}(λ^2/r)$ accuracy. We also resum the leading logarithms, of ${\cal O}(λ^{n+1}\ln^nλ/r)$, and show the structure of the renormalization group equation at next-to-leading order in the multipole expansion. In order to obtain these results it is crucial the use of an effective theory for the ultrasoft degrees of freedom. We develop this theory up to next-to-leading order in the multipole expansion. Using the same formalism we also compute the leading logarithms, of ${\cal O}(λ^{n+3}\ln^nλ/r)$, of the static potential associated to an ordinary Wilson loop in the same theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-18T16:42:11Z</published>
+    <arxiv:comment>6 pages, 1 figure. Two references added, misprints corrected. Computation of the static potential associated to the ordinary static Wilson loop incorporated</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D77:021701,2008</arxiv:journal_ref>
+    <author>
+      <name>Antonio Pineda</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.77.021701</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.77.021701" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0403016v1</id>
+    <title>News from Lattice QCD on Heavy Quark Potentials and Spectral Functions of Heavy Quark States</title>
+    <updated>2004-03-16T09:50:05Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0403016v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0403016v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss recent lattice results on in-medium properties of hadrons and focus on thermal properties of heavy quark bound states. We will clarify the relation between heavy quark free energies and potentials used to analyze the melting of heavy quark bound states. Furthermore, we present calculations of meson spectral functions which indicate that the charmonium ground states, J/psi and eta_c, persist in the quark gluon plasma as well defined resonances with no significant change of their zero temperature masses at least up to T ~ 1.5 T_c. We also briefly comment on the current status of lattice calculations at non-vanishing baryon number density.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-03-16T09:50:05Z</published>
+    <arxiv:comment>Plenary talk at the 17th International Conference on Ultra Relativistic Nucleus-Nucleus Collisions (Quark Matter 2004), Oakland, California, 11-17 Jan 2004. Submitted to J.Phys.G</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>J.Phys. G30 (2004) S887-S894</arxiv:journal_ref>
+    <author>
+      <name>Frithjof Karsch</name>
+    </author>
+    <arxiv:doi>10.1088/0954-3899/30/8/030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0954-3899/30/8/030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0005020v6</id>
+    <title>Heavy quark potential in the static limit of QCD</title>
+    <updated>2001-05-23T07:36:12Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0005020v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0005020v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Following the procedure and motivations developed by Richardson, Buchmuller and Tye, we derive the potential of static quarks consistent with both the three-loop running of QCD coupling constant under the two-loop perturbative matching of V and MS-bar schemes and the confinement regime at long distances. Implications for the heavy quark masses as well as the quarkonium spectra and leptonic widths are discussed.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-05-03T11:42:09Z</published>
+    <arxiv:comment>33 pages, ReVTeX file, 8 eps-figures, 6 tables; references and Comments added, version to appear in Physical Review D</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D64:054009,2001</arxiv:journal_ref>
+    <author>
+      <name>V. V. Kiselev</name>
+    </author>
+    <author>
+      <name>A. E. Kovalsky</name>
+    </author>
+    <author>
+      <name>A. I. Onishchenko</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.64.054009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.64.054009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.09327v1</id>
+    <title>Long and short distance behavior of the imaginary part of the heavy-quark potential</title>
+    <updated>2022-01-23T17:39:43Z</updated>
+    <link href="https://arxiv.org/abs/2201.09327v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.09327v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The imaginary part of the effective heavy-quark potential is related to the total in-medium decay width of heavy quark-antiquark bound states. We extract the static limit of this quantity using classical-statistical simulations of real-time Yang-Mills dynamics by measuring the temporal decay of Wilson loops. By performing the simulations on finer and larger lattices, we are able to show that the nonperturbative results follow the same form as the perturbative ones. For large quark-antiquark separations, we quantify the magnitude of the non-perturbative long-range corrections to the imaginary part of the heavy-quark potential. We present our results for a wide range of temperatures, lattice spacings, and lattice volumes. We also extract approximations for the short-distance behavior of the classical potential.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-23T17:39:43Z</published>
+    <arxiv:comment>Talk given at the Virtual Tribute to Quark Confinement and the Hadron Spectrum (vConf21), Stavanger, Norway, August 2nd - 6th, 2021</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>EPJ Web of Conferences 258, 04008 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Kirill Boguslavski</name>
+    </author>
+    <author>
+      <name>Babak Kasmaei</name>
+    </author>
+    <author>
+      <name>Michael Strickland</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/202225804008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/202225804008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9608337v1</id>
+    <title>Constituent Quark Model Approach to Heavy Baryon Transitions</title>
+    <updated>1996-08-15T16:28:24Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9608337v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9608337v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I discuss the structure of current-induced bottom baryon to charm baryon transitions, and the structure of pion and photon transitions between heavy charm or bottom baryons in the Heavy Quark Symmetry (HQS) limit as $m_Q\rightarrow\infty$. By doing a spin-parity analysis I derive a general formula which allows one to enumerate the independent HQS amplitudes in the three types of transitions. I go on to show that use of the constituent quark model for the light-side diquark transitions leads to a considerable reduction in the number of independent amplitudes derived in the HQS limit. The discussion includes the ground state $s$-wave as well as the $p$-wave heavy baryons.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-08-15T16:28:24Z</published>
+    <arxiv:comment>Invited talk given at the III German-Russian Workshop on Heavy Quark Physics, Dubna, Russia, May 20-22, 1996, to appear in the Proceedings. 6 pages and 1 figure</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>J. G. Körner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9804275v2</id>
+    <title>Heavy quark expansion in beauty and its decays</title>
+    <updated>1998-04-18T17:36:45Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9804275v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9804275v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I give an introduction to the QCD-based theory of the heavy flavor hadrons and their weak decays. Trying to remain at the next-to-elementary level and skip technicalities, I concentrate on the qualitative description of the most important applications and physical meaning of the theoretical statements. The numerical results of the dedicated theoretical analyses of extracting V_cb are given and the possibilities to determine V_ub in future are discussed. At the same time I describe in simple language subtle peculiarities distinguishing actual QCD of heavy quarks from naive quantum mechanical treatment often applied to heavy flavor hadrons. These subtleties are often mistreated. Particular attention is paid to the concept of the heavy quark mass and its evaluation, to the kinetic operator and the question of the 1/m_Q corrections to inclusive widths of heavy flavor hadrons. I argue that the properly defined b quark mass is known with a good accuracy from the \bar{b} b threshold cross section.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-04-12T10:36:50Z</published>
+    <arxiv:comment>90 pages. Lectures given at ``Heavy Flavour Physics: A Probe of Nature's Grand Design'' (International School of Physics "Enrico Fermi"), Varenna, July 7-18 1997. To appear in the Proceedings, IOS press, Amsterdam. Changes: A few references corrected or added; the applicability of the short-distance expansion in the b pair production is formulated more accurately</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Heavy Flavour Physics: A Probe of Nature's Grand Design, Proc. Intern. School of Physics ``Enrico Fermi'', Course CXXXVII, Varenna, July 7-18 1997, I. Bigi and L. Moroni, Eds. (IOS Press, Amsterdam, 1998) p.329.</arxiv:journal_ref>
+    <author>
+      <name>Nikolai Uraltsev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0901.2260v1</id>
+    <title>The heavy quark-antiquark potential from lattice and perturbative QCD</title>
+    <updated>2009-01-15T13:31:46Z</updated>
+    <link href="https://arxiv.org/abs/0901.2260v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0901.2260v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The heavy quark-antiquark potential in perturbative QCD is subject to ambiguities. We show how to derive a well-defined and stable short-distance potential that can be matched to results from lattice QCD simulations at intermediate distances. The static potential as well as the order 1/m potential are discussed.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-01-15T13:31:46Z</published>
+    <arxiv:comment>2 pages, 2 figures, Proceedings of the 8th Conference on Quark Confinement and the Hadron Spectrum, September 1-6, 2008, Mainz, Germany</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>PoS Confinement8:168,2008</arxiv:journal_ref>
+    <author>
+      <name>Alexander Laschka</name>
+    </author>
+    <author>
+      <name>Norbert Kaiser</name>
+    </author>
+    <author>
+      <name>Wolfram Weise</name>
+    </author>
+  </entry>
+</feed>

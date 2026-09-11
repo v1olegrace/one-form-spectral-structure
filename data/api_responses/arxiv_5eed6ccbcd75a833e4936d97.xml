@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aRYr/w3TiQBCggJySbT/dHkvuFQ</id>
+  <title>arXiv Query: search_query=all:noisy OR all:moment OR all:problem OR all:perturbation OR all:of OR all:the OR all:moment OR all:matrix OR all:error OR all:bounds&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:52:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:noisy+OR+(all:moment+OR+(all:problem+OR+(all:perturbation+OR+(all:of+OR+(all:the+OR+(all:moment+OR+(all:matrix+OR+(all:error+OR+all:bounds))))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1041181</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4567v1</id>
+    <title>On degenerate Hamburger moment problem and extensions of positive semidefinite Hankel block matrices</title>
+    <updated>2008-12-24T19:22:41Z</updated>
+    <link href="https://arxiv.org/abs/0812.4567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we consider two related objects: singular positive semidefinite Hankel block--matrices and associated degenerate truncated matrix Hamburger moment problems. The description of all solutions of a degenerate matrix Hamburger moment problem is given in terms of a linear fractional transformation. The case of interest is the Hamburger moment problem whose Hankel block--matrix admits a positive semidefinite Hankel extension.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-24T19:22:41Z</published>
+    <arxiv:comment>The corrected version of the paper "On degenerate Hamburger moment problem and extensions of nonnegative Hankel block matrices", Integral Equations Operator Theory 25 (1996), no. 3, 253--276</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Bolotnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.02646v1</id>
+    <title>Moment-Based Ensemble Control</title>
+    <updated>2020-09-06T05:14:07Z</updated>
+    <link href="https://arxiv.org/abs/2009.02646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.02646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Controlling a large population, in the limit, a continuum, of structurally identical dynamical systems with parametric variations is a pervasive task in diverse applications in science and engineering. However, the severely underactuated nature and the inability to avail comprehensive state feedback information of such ensemble systems raise significant challenges in analysis and design of ensemble systems. In this paper, we propose a moment-based ensemble control framework, which incorporates and expands the method of moments in probability theory to control theory. In particular, we establish an equivalence between ensemble systems and their moment systems in terms of control and their controllability properties by extending the Hausdorff moment problem from the perspectives of differential geometry and dynamical systems. The developments enable the design of moment-feedback control laws for closing the loop in ensemble systems using the aggregated type of measurements. The feasibility of this closed-loop control design procedure is validated both mathematically and numerically.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-06T05:14:07Z</published>
+    <arxiv:comment>Keywords: Ensemble systems, Hausdorff moment problem, Aggregated measurements, Aggregated feedback</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Vignesh Narayanan</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Jr-Shin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.03592v2</id>
+    <title>Tracial moment problems on hypercubes</title>
+    <updated>2019-04-09T08:53:07Z</updated>
+    <link href="https://arxiv.org/abs/1904.03592v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.03592v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we introduce the "tracial $K$-moment problem" and the "sequential matrix-valued $K$-moment problem" and show the equivalence of the solvability of these problems. Using a Haviland's theorem for matrix polynomials, we solve these $K$-moment problems for the case where $K$ is the hypercube $[-1,1]^n$.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-07T06:37:19Z</published>
+    <arxiv:comment>13 pages, equivalence of the solvability of two kinds of K-moment problems was established, main results improved</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Cong Trinh Le</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.00825v2</id>
+    <title>A general fibre theorem for moment problems and some applications</title>
+    <updated>2015-07-08T15:18:06Z</updated>
+    <link href="https://arxiv.org/abs/1502.00825v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.00825v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fibre theorem \cite{schm2003} for the moment problem on closed semi-algebraic subsets of $\R^d$ is generalized to finitely generated real unital algebras. As an application two new theorems on the rational multidimensional moment problem are proved. Another application is a characterization of moment functionals on the polynomial algebra $\R[x_1,\dots,x_d]$ in terms of extensions. Finally, the fibre theorem and the extension theorem are used to reprove basic results on the complex moment problem due to Stochel and Szafraniec \cite{stochelsz} and Bisgaard \cite{bisgaard}.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-03T12:04:45Z</published>
+    <arxiv:comment>The paper is based on the previous paper by the author arXiv:1406.0282 "A characterization of moment sequences by extensions"</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Konrad Schmüdgen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.08544v2</id>
+    <title>Moment of Untruth: Dealing with Negative Queries in Video Moment Retrieval</title>
+    <updated>2025-02-13T15:04:42Z</updated>
+    <link href="https://arxiv.org/abs/2502.08544v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.08544v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Video Moment Retrieval is a common task to evaluate the performance of visual-language models - it involves localising start and end times of moments in videos from query sentences. The current task formulation assumes that the queried moment is present in the video, resulting in false positive moment predictions when irrelevant query sentences are provided. In this paper we propose the task of Negative-Aware Video Moment Retrieval (NA-VMR), which considers both moment retrieval accuracy and negative query rejection accuracy. We make the distinction between In-Domain and Out-of-Domain negative queries and provide new evaluation benchmarks for two popular video moment retrieval datasets: QVHighlights and Charades-STA. We analyse the ability of current SOTA video moment retrieval approaches to adapt to Negative-Aware Video Moment Retrieval and propose UniVTG-NA, an adaptation of UniVTG designed to tackle NA-VMR. UniVTG-NA achieves high negative rejection accuracy (avg. $98.4\%$) scores while retaining moment retrieval scores to within $3.87\%$ Recall@1. Dataset splits and code are available at https://github.com/keflanagan/MomentofUntruth</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-12T16:28:21Z</published>
+    <arxiv:comment>16 pages, 9 figures. Accepted at WACV 2025. Paper webpage: https://keflanagan.github.io/Moment-of-Untruth</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kevin Flanagan</name>
+    </author>
+    <author>
+      <name>Dima Damen</name>
+    </author>
+    <author>
+      <name>Michael Wray</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.02623v1</id>
+    <title>Retrieving Any Relevant Moments: Benchmark and Models for Generalized Moment Retrieval</title>
+    <updated>2026-05-04T14:14:06Z</updated>
+    <link href="https://arxiv.org/abs/2605.02623v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.02623v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Video Moment Retrieval (VMR) aims to localize temporal segments in videos that correspond to a natural language query, but typically assumes only a single matching moment for each query. This assumption does not always hold in real-world scenarios, where queries may correspond to multiple or no moments. Thus, we formulate Generalized Moment Retrieval (GMR), a unified setting that requires retrieving the complete set of relevant moments or predicting an empty set. To enable systematic study of GMR, we introduce Soccer-GMR, a large-scale benchmark built on challenging soccer videos that reflect general GMR scenarios, with realistic negative and positive queries. The benchmark is constructed via a duration-flexible semi-automated pipeline with human verification, enabling scalable data generation while maintaining high annotation quality. We further design a unified evaluation protocol with complementary metrics tailored for null-set rejection, positive-query localization, and end-to-end GMR performance. Finally, we establish strong baselines across two modeling paradigms: a lightweight plug-and-play GMR adapter for discriminative VMR models, and a GMR-tailored GRPO reward for fine-tuning multimodal large language models (MLLMs). Extensive experiments show consistent gains across all metrics and expose key limitations of current methods, positioning GMR as a more realistic and challenging benchmark for video-language understanding.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-04T14:14:06Z</published>
+    <arxiv:comment>Code and dataset: https://github.com/dymm9977/generalized-moment-retrieval. Keywords: video moment retrieval, temporal grounding, benchmark, multi-modal learning</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yiming Ding</name>
+    </author>
+    <author>
+      <name>Siyu Cao</name>
+    </author>
+    <author>
+      <name>Luyuan Jiao</name>
+    </author>
+    <author>
+      <name>Yixuan Li</name>
+    </author>
+    <author>
+      <name>Zitong Wang</name>
+    </author>
+    <author>
+      <name>Zhiyong Liu</name>
+    </author>
+    <author>
+      <name>Lu Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.0075v2</id>
+    <title>Moment equations of neutrinos in supernova</title>
+    <updated>2009-06-23T19:19:32Z</updated>
+    <link href="https://arxiv.org/abs/0904.0075v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.0075v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We derive a series of moment equations describing the motion and flavor transformation of neutrinos in supernova. We find a particular series of moments of neutrino density matrix in supernova. The emission angle distribution of neutrinos is described by this series of moments. We expand the equation of neutrinos using these moments and obtain moment equations. We find that these moments have very good property of convergence and the infinite series of equations can be truncated to equations with a small set of moments. Using a small set of moment equations the required computational power is reduced by about two orders of magnitude compared to that in multi-angle simulation. The study on non-linear flavor transformation of neutrinos is substantially simplified using these equations. Two flavor system of neutrinos is also considered and new equations describing the flavor polarization vectors of neutrinos are found.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-01T06:51:48Z</published>
+    <arxiv:comment>22 pages, 4 figures; discussions added to clarify the derivation of moment equations, numerical parts revised</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Wei Liao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.07064v6</id>
+    <title>Piecewise SOS-Convex Moment Optimization and Applications via Exact Semi-Definite Programs</title>
+    <updated>2024-07-02T10:49:58Z</updated>
+    <link href="https://arxiv.org/abs/2402.07064v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.07064v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents exact Semi-Definite Program (SDP) reformulations for infinite-dimensional moment optimization problems involving a new class of piecewise Sum-of-Squares (SOS)-convex functions and projected spectrahedral support sets. These reformulations show that solving a single SDP finds the optimal value and an optimal probability measure of the original moment problem. This is done by establishing an SOS representation for the non-negativity of a piecewise SOS-convex function over a projected spectrahedron. Finally, as an application and a proof-of-concept illustration, the paper presents numerical results for the Newsvendor and revenue maximization problems with higher-order moments by solving their equivalent SDP reformulations. These reformulations promise a flexible and efficient approach to solving these models. The main novelty of the present work in relation to the recent research lies in finding the solution to moment problems, for the first time, with piecewise SOS-convex functions from their numerically tractable exact SDP reformulations.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-10T23:13:17Z</published>
+    <arxiv:comment>Moment Optimization; Sum-of-Squares Convex Polynomials; Piecewise Functions; Generalized Moment Problems; Semi-Definite Programming</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <arxiv:journal_ref>EJCO_100094 (2024): EURO Journal on Computational Optimization</arxiv:journal_ref>
+    <author>
+      <name>Queenie Yingkun Huang</name>
+    </author>
+    <author>
+      <name>Vaithilingam Jeyakumar</name>
+    </author>
+    <author>
+      <name>Guoyin Li</name>
+    </author>
+    <arxiv:doi>10.1016/j.ejco.2024.100094</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ejco.2024.100094" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.01299v2</id>
+    <title>Almost sure and moment convergence for triangular Pólya urns</title>
+    <updated>2024-03-21T08:35:04Z</updated>
+    <link href="https://arxiv.org/abs/2402.01299v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.01299v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider triangular Pólya urns and show under very weak conditions a general strong limit theorem of the form $X_{ni}/a_{ni}\to \mathcal{X}_i$ a.s., where $X_{ni}$ is the number of balls of colour $i$ after $n$ draws; the constants $a_{ni}$ are explicit and of the form $n^α\log^γn$; the limit is a.s. positive, and may be either deterministic or random, but is in general unknown.
+  The result extends to urns with subtractions under weak conditions, but a counterexample shows that some conditions are needed.
+  For balanced urns we also prove moment convergence in the main results if the replacements have the corresponding moments.
+  The proofs are based on studying the corresponding continuous-time urn using martingale methods, and showing corresponding results there. We assume for convenience that all replacements have finite second moments.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-02T10:41:46Z</published>
+    <arxiv:comment>84 pages. Version 2 contains new results on moment convergence, and also reduces the moment assumptions in the main theorems</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Svante Janson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.3437v3</id>
+    <title>A cutting surface algorithm for semi-infinite convex programming with an application to moment robust optimization</title>
+    <updated>2014-08-13T15:08:56Z</updated>
+    <link href="https://arxiv.org/abs/1306.3437v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.3437v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present and analyze a central cutting surface algorithm for general semi-infinite convex optimization problems, and use it to develop a novel algorithm for distributionally robust optimization problems in which the uncertainty set consists of probability distributions with given bounds on their moments. Moments of arbitrary order, as well as non-polynomial moments can be included in the formulation. We show that this gives rise to a hierarchy of optimization problems with decreasing levels of risk-aversion, with classic robust optimization at one end of the spectrum, and stochastic programming at the other. Although our primary motivation is to solve distributionally robust optimization problems with moment uncertainty, the cutting surface method for general semi-infinite convex programs is also of independent interest. The proposed method is applicable to problems with non-differentiable semi-infinite constraints indexed by an infinite-dimensional index set. Examples comparing the cutting surface algorithm to the central cutting plane algorithm of Kortanek and No demonstrate the potential of our algorithm even in the solution of traditional semi-infinite convex programming problems whose constraints are differentiable and are indexed by an index set of low dimension. After the rate of convergence analysis of the cutting surface algorithm, we extend the authors' moment matching scenario generation algorithm to a probabilistic algorithm that finds optimal probability distributions subject to moment constraints. The combination of this distribution optimization method and the central cutting surface algorithm yields a solution to a family of distributionally robust optimization problems that are considerably more general than the ones proposed to date.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-14T16:01:59Z</published>
+    <arxiv:comment>Accepted in SIAM Journal on Optimization. 28 pages, 2 figures. Keywords: semi-infinite programming, robust optimization, distributionally robust optimization, stochastic programming, moment matching, column generation, cutting surface methods, cutting plane methods, moment problem</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Sanjay Mehrotra</name>
+    </author>
+    <author>
+      <name>David Papp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0212044v3</id>
+    <title>Toric ideals, real toric varieties, and the algebraic moment map</title>
+    <updated>2008-04-18T18:05:27Z</updated>
+    <link href="https://arxiv.org/abs/math/0212044v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0212044v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This is a tutorial on some aspects of toric varieties related to their potential use in geometric modeling. We discuss projective toric varieties and their ideals, as well as real toric varieties and the algebraic moment map. In particular, we explain the relation between linear precision and the algebraic moment map. This builds on the introduction to toric varieties by David Cox: What is a Toric Variety? at http://www.cs.amherst.edu/~dac/lectures/tutorial.ps</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-12-03T17:41:40Z</published>
+    <arxiv:comment>Corrected the discussion in the published version about the moment map, and changed the title from "Toric ideals, real toric varieties, and the moment map". This should be the definitive version</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>in Topics in Algebraic Geometry and Geometric Modeling, Contemp. Math., 334, 2003., pp.225-240</arxiv:journal_ref>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.0627v2</id>
+    <title>The atomic electric dipole moment induced by the nuclear electric dipole moment; the magnetic moment effect</title>
+    <updated>2011-03-02T22:27:51Z</updated>
+    <link href="https://arxiv.org/abs/1012.0627v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.0627v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have considered a mechanism for inducing a time-reversal violating electric dipole moment (EDM) in atoms through the interaction of a nuclear EDM (d_N) with the hyperfine interaction, the "magnetic moment effect". We have derived the operator for this interaction and presented analytical formulas for the matrix elements between atomic states. Induced EDMs in the diamagnetic atoms 129Xe, 171Yb, 199Hg, 211Rn, and 225Ra have been calculated numerically. From the experimental limits on the atomic EDMs of 129Xe and 199Hg, we have placed the following constraints on the nuclear EDMs, |d_N(129Xe)|&lt; 1.1 * 10^{-21} |e|cm and |d_N(199Hg)|&lt; 2.8 * 10^{-24} |e|cm.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-03T02:46:52Z</published>
+    <arxiv:comment>8 pages 1) Some typos are corrected. 2) A comparison of contributions to the atomic EDM due to the nuclear EDM and the nuclear Schiff moment is added</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>S. G. Porsev</name>
+    </author>
+    <author>
+      <name>J. S. M. Ginges</name>
+    </author>
+    <author>
+      <name>V. V. Flambaum</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.83.042507</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.83.042507" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0405664v2</id>
+    <title>Microscopic origin of local moments in a zinc-doped high-$T_{c}$ superconductor</title>
+    <updated>2004-12-30T03:40:26Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0405664v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0405664v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The formation of a local moment around a zinc impurity in the high-$T_{c}$ cuprate superconductors is studied within the framework of the bosonic resonating-valence-bond (RVB) description of the $t-J$ model. A topological origin of the local moment has been shown based on the phase string effect in the bosonic RVB theory. It is found that such an $S=1/2$ moment distributes near the zinc in a form of staggered magnetic moments at the copper sites. The corresponding magnetic properties, including NMR spin relaxation rate, uniform spin susceptibility, and dynamic spin susceptibility, etc., calculated based on the theory, are consistent with the experimental measurements. Our work suggests that the zinc substitution in the cuprates provide an important experimental evidence for the RVB nature of local physics in the original (zinc free) state.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-05-28T06:13:42Z</published>
+    <arxiv:comment>The topological reason of local moment formation is given. One figure is added</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 71, 184507 (2005)</arxiv:journal_ref>
+    <author>
+      <name>X. L. Qi</name>
+    </author>
+    <author>
+      <name>Z. Y. Weng</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.71.184507</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.71.184507" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.23727v2</id>
+    <title>Certifying Quantum Optimization and Circuit Cutting by Using Quantum-Classical Moment Duality</title>
+    <updated>2026-08-04T07:32:23Z</updated>
+    <link href="https://arxiv.org/abs/2606.23727v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.23727v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We establish a direct quantum--classical duality based on the degree-$2$ Sum-of-Squares (SoS) semidefinite programming cone: the matrix of two-qubit Pauli-$Z$ correlation functions obtained from \textbf{any} quantum state $ρ$ is automatically a feasible point of the classical Goemans--Williamson (GW) relaxation. This observation provides a universal safety net for variational quantum optimization algorithms: applying GW random hyperplane rounding to the quantum-driven moment matrix yields a certified expected cut value bounded below by $α_{\text{GW}} \langle \mathcal{H} \rangle_ρ$, which holds for every state generated by variational algorithms such as the Quantum Alternating Operator Ansatz (QAOA) or the Variational Quantum Power Method (VQPM), regardless of convergence quality.
+  We further show that the same moment matrix reveals the tensor-product structure of the underlying unitary circuit, enabling a polynomial-time, correlation-based circuit cutting procedure with rigorous error bounds. The framework is validated numerically on Max-Cut instances for variational algorithms and on random states for circuit cutting, demonstrating that two-point correlation data are sufficient to locate near-optimal bipartitions while theoretical error bounds hold in practice.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-19T12:48:36Z</published>
+    <arxiv:comment>submitted; feedback welcome! simulation code is available at https://github.com/adaskin/quantum-moment-certification</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Ammar Daskin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.2901v4</id>
+    <title>Random matrices: Localization of the eigenvalues and the necessity of four moments</title>
+    <updated>2011-08-12T21:08:07Z</updated>
+    <link href="https://arxiv.org/abs/1005.2901v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.2901v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider the eigenvalues $λ_i(M_n)$ (in increasing order) of a random Hermitian matrix $M_n$ whose upper-triangular entries are independent with mean zero and variance one, and are exponentially decaying. By Wigner's semicircular law, one expects that $λ_i(M_n)$ concentrates around $γ_i \sqrt n$, where $\int_{-\infty}^{γ_i} ρ_{sc} (x) dx = \frac{i}{n}$ and $ρ_{sc}$ is the semicircular function.
+  In this paper, we show that if the entries have vanishing third moment, then for all $1\le i \le n$
+  $$\E |λ_i(M_n)-\sqrt{n} γ_i|^2 = O(\min(n^{-c} \min(i,n+1-i)^{-2/3} n^{2/3}, n^{1/3+\eps})) ,$$ for some absolute constant $c&gt;0$ and any absolute constant $\eps&gt;0$. In particular, for the eigenvalues in the bulk ($\min \{i, n-i\}=Θ(n)$), $$\E |λ_i(M_n)-\sqrt{n} γ_i|^2 = O(n^{-c}). $$
+  \noindent A similar result is achieved for the rate of convergence.
+  As a corollary, we show that the four moment condition in the Four Moment Theorem is necessary, in the sense that if one allows the fourth moment to change (while keeping the first three moments fixed), then the \emph{mean} of $λ_i(M_n)$ changes by an amount comparable to $n^{-1/2}$ on the average. We make a precise conjecture about how the expectation of the eigenvalues vary with the fourth moment.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-17T12:28:23Z</published>
+    <arxiv:comment>19 pages, one figure, to appear, Acta Math. Vietnamica. A conjectured asymptotic for the dependence on the fourth moment has been added</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Terence Tao</name>
+    </author>
+    <author>
+      <name>Van Vu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.08854v2</id>
+    <title>Moments of Clarity: Streamlining Latent Spaces in Machine Learning using Moment Pooling</title>
+    <updated>2024-10-17T16:23:42Z</updated>
+    <link href="https://arxiv.org/abs/2403.08854v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.08854v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many machine learning applications involve learning a latent representation of data, which is often high-dimensional and difficult to directly interpret. In this work, we propose "Moment Pooling", a natural extension of Deep Sets networks which drastically decrease latent space dimensionality of these networks while maintaining or even improving performance. Moment Pooling generalizes the summation in Deep Sets to arbitrary multivariate moments, which enables the model to achieve a much higher effective latent dimensionality for a fixed latent dimension. We demonstrate Moment Pooling on the collider physics task of quark/gluon jet classification by extending Energy Flow Networks (EFNs) to Moment EFNs. We find that Moment EFNs with latent dimensions as small as 1 perform similarly to ordinary EFNs with higher latent dimension. This small latent dimension allows for the internal representation to be directly visualized and interpreted, which in turn enables the learned internal jet representation to be extracted in closed form.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-13T18:00:01Z</published>
+    <arxiv:comment>15+7 pages, 14 figures, 7 tables. Code available at https://github.com/athiso/moment and https://github.com/rikab/MomentAnalysis; v2: Updated to match journal version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Rikab Gambhir</name>
+    </author>
+    <author>
+      <name>Athis Osathapan</name>
+    </author>
+    <author>
+      <name>Jesse Thaler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.7614v6</id>
+    <title>Inference on causal and structural parameters using many moment inequalities</title>
+    <updated>2018-10-18T18:06:19Z</updated>
+    <link href="https://arxiv.org/abs/1312.7614v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.7614v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper considers the problem of testing many moment inequalities where the number of moment inequalities, denoted by $p$, is possibly much larger than the sample size $n$. There is a variety of economic applications where solving this problem allows to carry out inference on causal and structural parameters, a notable example is the market structure model of Ciliberto and Tamer (2009) where $p=2^{m+1}$ with $m$ being the number of firms that could possibly enter the market. We consider the test statistic given by the maximum of $p$ Studentized (or $t$-type) inequality-specific statistics, and analyze various ways to compute critical values for the test statistic. Specifically, we consider critical values based upon (i) the union bound combined with a moderate deviation inequality for self-normalized sums, (ii) the multiplier and empirical bootstraps, and (iii) two-step and three-step variants of (i) and (ii) by incorporating the selection of uninformative inequalities that are far from being binding and a novel selection of weakly informative inequalities that are potentially binding but do not provide first order information. We prove validity of these methods, showing that under mild conditions, they lead to tests with the error in size decreasing polynomially in $n$ while allowing for $p$ being much larger than $n$, indeed $p$ can be of order $\exp (n^{c})$ for some $c &gt; 0$. Importantly, all these results hold without any restriction on the correlation structure between $p$ Studentized statistics, and also hold uniformly with respect to suitably large classes of underlying distributions. Moreover, in the online supplement, we show validity of a test based on the block multiplier bootstrap in the case of dependent data under some general mixing conditions.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-30T02:46:52Z</published>
+    <arxiv:comment>This paper was previously circulated under the title "Testing many moment inequalities"</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Victor Chernozhukov</name>
+    </author>
+    <author>
+      <name>Denis Chetverikov</name>
+    </author>
+    <author>
+      <name>Kengo Kato</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0007294v2</id>
+    <title>Some higher moments of deep inelastic structure functions at next-to-next-to leading order of perturbative QCD</title>
+    <updated>2001-03-13T11:32:24Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0007294v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0007294v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present the analytic next-to-next-to-leading QCD calculation of some higher moments of deep inelastic structure functions in the leading twist approximation. We give results for the moments $N$=1,3,5,7,9,11,13 of the structure function $F_3$. Similarly we present the moments $N$=10,12 for the flavour singlet and $N$=12,14 for the non-singlet structure functions $F_2$ and $F_L$. We have calculated both the three-loop anomalous dimensions of the corresponding operators and the three-loop coefficient functions of the moments of these structure functions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-07-26T13:27:46Z</published>
+    <arxiv:comment>29 pages LaTeX2e, Added N=14 non-singlet moment</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Nucl.Phys. B604 (2001) 281-311</arxiv:journal_ref>
+    <author>
+      <name>A. Retey</name>
+    </author>
+    <author>
+      <name>J. A. M. Vermaseren</name>
+    </author>
+    <arxiv:doi>10.1016/S0550-3213(01)00149-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0550-3213(01)00149-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.4357v2</id>
+    <title>On non-parallelism of spin and magnetic moment of proton</title>
+    <updated>2011-06-17T18:10:22Z</updated>
+    <link href="https://arxiv.org/abs/1105.4357v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.4357v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The nonrelativistic quark model predicts that the spin and the magnetic moment of proton are not parallel. Based on, the modifications are outlined that sound crucial for the analysis of the data out of scattering off the protons.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-22T17:56:51Z</published>
+    <arxiv:comment>6 pages. no fig. v2: the domain of validity of spin-magnetic moment proportionality relation is clarified</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Amir H. Fatollahi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.08190v2</id>
+    <title>Scalar curvature as moment map in generalized Kahler geometry</title>
+    <updated>2018-11-24T09:28:07Z</updated>
+    <link href="https://arxiv.org/abs/1612.08190v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.08190v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is known that the scalar curvature arises as the moment map in Kahler geometry. In pursuit of this analogy, we introduce the notion of a moment map in generalized Kahler geometry which gives the definition of a generalized scalar curvature on a generalized Kahler manifold. From the viewpoint of the moment map, we obtain the generalized Ricci form which is a representative of the first Chern class of the anticanonical line bundle. It turns out that infinitesimal deformations of generalized Kahler structures with constant generalized scalar curvature are finite dimensional on a compact manifold. Explicit descriptions of the generalized Ricci form and the generalized scalar curvature are given on a generalized Kahler manifold of type $(0,0)$. Poisson structures constructed from a Kahler action of $T^m$ on a Kahler-Einstein manifold give intriguing deformations of generalized Kahler-Einstein structures. In particular, the anticanical divisor consists of three lines on $C P^2$ in general position yields nontrivial examples of generalized Kahler-Einsein structures</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-24T14:52:18Z</published>
+    <arxiv:comment>to appear in JSG, More commentary on the framework of the moment map, a brief explanation about the generalized Hamiltonian</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>J. Symplectic Geom. 18 (2020), no. 1, 147-190</arxiv:journal_ref>
+    <author>
+      <name>Ryushi Goto</name>
+    </author>
+    <arxiv:doi>10.4310/JSG.2020.v18.n1.a4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4310/JSG.2020.v18.n1.a4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.11356v2</id>
+    <title>The Sixth Moment of Random Determinants</title>
+    <updated>2023-02-27T03:27:05Z</updated>
+    <link href="https://arxiv.org/abs/2206.11356v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.11356v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we determine the sixth moment of the determinant of an asymmetric $n \times n$ random matrix where the entries are drawn independently from an arbitrary distribution $Ω$ with mean $0$. Furthermore, we derive the asymptotic behavior of the sixth moment of the determinant as the size of the matrix tends to infinity.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-22T20:05:43Z</published>
+    <arxiv:comment>This update contains several additional results, namely a generating function for $f_6(n)$, a simpler formula for $f_6(n)$, the asymptotic behavior of $f_6(n)$ as $n$ goes to infinity, and a generalization of these results to the case when $Ω$ has a nonzero third moment</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Dominik Beck</name>
+    </author>
+    <author>
+      <name>Zelin Lv</name>
+    </author>
+    <author>
+      <name>Aaron Potechin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0505048v3</id>
+    <title>Electric Quadrupole Moment of a Hydrogenlike Ion in $s$ and $p_{1/2}$ States</title>
+    <updated>2006-01-30T21:10:28Z</updated>
+    <link href="https://arxiv.org/abs/physics/0505048v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0505048v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Relativistic formulas for the electric quadrupole moment of a hydrogenlike atom, induced by the hyperfine interaction, are derived for $ns_{1/2}$ and $np_{1/2}$ states. Both the magnetic dipole and electric quadrupole hyperfine interactions are taken into account. The formulas are valid for ions with arbitrary nuclear charge and spin. The induced quadrupole moment is compared with the nuclear quadrupole moment for a wide range of hydrogenlike ions.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-05-06T17:30:49Z</published>
+    <arxiv:comment>The values for the total quadrupole moment have been corrected for states with F=I-1/2. 8 pages, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Y.S. Kozhedub, V.M. Shabaev, Nucl. Instr. and Meth. in Phys. Res. B 235, 76-80, (2005)</arxiv:journal_ref>
+    <author>
+      <name>Y. S. Kozhedub</name>
+    </author>
+    <author>
+      <name>V. M. Shabaev</name>
+    </author>
+    <arxiv:doi>10.1016/j.nimb.2005.03.149</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nimb.2005.03.149" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.01911v2</id>
+    <title>Higher moments of the pair correlation function for Sato-Tate sequences</title>
+    <updated>2023-06-22T20:40:20Z</updated>
+    <link href="https://arxiv.org/abs/2206.01911v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.01911v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In \cite{BS}, Balasubramanyam and the second named author derived the first moment of the pair correlation function for Hecke angles lying in small subintervals of $[0,1]$ upon averaging over large families of Hecke newforms of weight $k$ with respect to $Γ_0(N)$. The goal of this article is to study higher moments of this pair correlation function. For an integer $r \geq 2$, we present bounds for its $r$-th power moments. We apply these bounds to record lower order error terms in the computation of the second and third moments. As a result, one can obtain the convergence of the second and third moments of this pair correlation function for suitably small intervals, and under appropriate growth conditions for the size of the families of Hecke newforms.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-04T04:41:21Z</published>
+    <arxiv:comment>This is a significantly revised version incorporating a study of the $r$-th power moments of the above-mentioned pair correlation function for all integers $r \geq 2$. The previous version only discussed the second moment. 47 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Jewel Mahajan</name>
+    </author>
+    <author>
+      <name>Kaneenika Sinha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.11342v3</id>
+    <title>Tuning Pre-trained Model via Moment Probing</title>
+    <updated>2023-10-02T14:57:11Z</updated>
+    <link href="https://arxiv.org/abs/2307.11342v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.11342v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, efficient fine-tuning of large-scale pre-trained models has attracted increasing research interests, where linear probing (LP) as a fundamental module is involved in exploiting the final representations for task-dependent classification. However, most of the existing methods focus on how to effectively introduce a few of learnable parameters, and little work pays attention to the commonly used LP module. In this paper, we propose a novel Moment Probing (MP) method to further explore the potential of LP. Distinguished from LP which builds a linear classification head based on the mean of final features (e.g., word tokens for ViT) or classification tokens, our MP performs a linear classifier on feature distribution, which provides the stronger representation ability by exploiting richer statistical information inherent in features. Specifically, we represent feature distribution by its characteristic function, which is efficiently approximated by using first- and second-order moments of features. Furthermore, we propose a multi-head convolutional cross-covariance (MHC$^3$) to compute second-order moments in an efficient and effective manner. By considering that MP could affect feature learning, we introduce a partially shared module to learn two recalibrating parameters (PSRP) for backbones based on MP, namely MP$_{+}$. Extensive experiments on ten benchmarks using various models show that our MP significantly outperforms LP and is competitive with counterparts at less training cost, while our MP$_{+}$ achieves state-of-the-art performance.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-21T04:15:02Z</published>
+    <arxiv:comment>Accepted to ICCV 2023; Project Page: https://github.com/mingzeG/Moment-Probing</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mingze Gao</name>
+    </author>
+    <author>
+      <name>Qilong Wang</name>
+    </author>
+    <author>
+      <name>Zhenyi Lin</name>
+    </author>
+    <author>
+      <name>Pengfei Zhu</name>
+    </author>
+    <author>
+      <name>Qinghua Hu</name>
+    </author>
+    <author>
+      <name>Jingbo Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0103224v2</id>
+    <title>Enhancement of Radiatively Induced Magnetic Moment Form-Factors of Muon: an Effective Lagrangian Approach</title>
+    <updated>2001-04-15T14:02:18Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0103224v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0103224v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Using an effective lagrangian approach, we identify a class of models in which the loop-induced magnetic moment form-factors of muon are enhanced by possibly large factors (Λ^2_F/Λ^2)(m_τ/m_μ)\ln(m_τ^2/Λ^2) or (Λ^2_F/Λ^2)\ln(m_μ^2/Λ^2), where Λis the scale of new physics and Λ_F is the Fermi scale. These follow from left- and right-chirality mixing dimension-8 operators which for relatively small Λ, as required to explain the new (g_μ-2) measurement, dominate over dimension-6 operators. Thus significant enhancement of new physics contributions to (g_μ-2) and, in the presence of intergenerational couplings, also to the μ\to eγdecay rate is possible. We discuss the compatibility of the (g_μ-2) and μ\to eγexperimental data in this case and comment on the enhancement of the electron anomalous magnetic moment. An explicit model is presented to illustrate the general results.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-03-20T19:39:14Z</published>
+    <arxiv:comment>Discussion on the enhancement of electron anomalous magnetic moment included. New references added</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett. B508 (2001) 51-57</arxiv:journal_ref>
+    <author>
+      <name>Martti Raidal</name>
+    </author>
+    <arxiv:doi>10.1016/S0370-2693(01)00504-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0370-2693(01)00504-4" title="doi"/>
+  </entry>
+</feed>

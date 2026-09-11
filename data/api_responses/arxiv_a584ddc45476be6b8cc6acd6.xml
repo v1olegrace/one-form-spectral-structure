@@ -1,0 +1,778 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1b3PapgGaLUYgiJtvVK0JOBGaeY</id>
+  <title>arXiv Query: search_query=all:completely OR all:monotone OR all:functions OR all:Bernstein OR all:Widder OR all:representation&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:42:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:completely+OR+(all:monotone+OR+(all:functions+OR+(all:Bernstein+OR+(all:Widder+OR+all:representation))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>900115</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.17670v3</id>
+    <title>Completely and logarithmically completely monotone functions</title>
+    <updated>2025-10-01T11:20:51Z</updated>
+    <link href="https://arxiv.org/abs/2411.17670v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.17670v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We simplify the proof of some widely used theoretical theorems, extending their applicability, while correcting some erroneous results. We also generalize key results and present new results that contribute to the development of the theory. Furthermore, we use the results obtained to investigate the monotonicity properties of some specific functions related to the Gamma function. Finally, we formulate an open problem related to the psi function.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-26T18:30:22Z</published>
+    <arxiv:comment>27 pages (accepted version, corrected some errors in version 2, and given new results, changed the title to Completely monotone functions in general and some applications )</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Journal of Mathematical Analysis and Applications, 15 February 2026, Volume 554, Issue 2</arxiv:journal_ref>
+    <author>
+      <name>V. E. Sándor Szabó</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmaa.2025.129984</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmaa.2025.129984" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.0900v1</id>
+    <title>Completely monotone functions - a digest</title>
+    <updated>2012-11-02T14:31:59Z</updated>
+    <link href="https://arxiv.org/abs/1211.0900v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.0900v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work has a purpose to collect selected facts about the completely monotone (CM) functions that can be found in books and papers devoted to different areas of mathematics. We opted for lesser known ones, and for those which may help determining whether or not a given function is completely monotone. In particular, we emphasize the role of representation of a CM function as the Laplace transform of a measure, and we present and discuss a little known connection with log-convexity. Some of presented methods are illustrated by several examples involving Gamma and related functions.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-02T14:31:59Z</published>
+    <arxiv:comment>To appear in: K. Alladi, G.V. Milovanovic and M. Th. Rassias (Eds.): "Analytic Number Theory, Approximation Theory and Special Functions", Special Volume dedicated to Professor Hari M. Srivastava, Springer</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Analytic Number Theory, Approximation Theory, and Special Functions-in honor of Hari M. Srivastava, Springer 2014, 347-364</arxiv:journal_ref>
+    <author>
+      <name>Milan Merkle</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.08345v2</id>
+    <title>Complete monotonicity and bernstein properties of functions are characterized by their restriction on N</title>
+    <updated>2016-02-16T16:10:30Z</updated>
+    <link href="https://arxiv.org/abs/1511.08345v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.08345v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give several new characterizations of completely monotone functions and Bernstein functions via two approaches: the first one is driven algebraically via elementary preserving mappings and the second one is developed in terms of the behavior of their restriction on the set of non-negative integers. We give a complete answer to the following question: Can we affirm that a function is completely monotone (resp. a Bernstein function) if we know that the sequence formed by its restriction on the integers is completely monotone (resp. alternating)? This approach constitutes a kind of converse of Hausdorff's moment characterization theorem in the context of completely monotone sequences.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-26T10:31:03Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Rafik Aguech</name>
+    </author>
+    <author>
+      <name>Wissem Jedidi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.5538v1</id>
+    <title>Generating functions for the Bernstein polynomials: A unified approach to deriving identities for the Bernstein basis functions</title>
+    <updated>2010-12-21T10:01:40Z</updated>
+    <link href="https://arxiv.org/abs/1012.5538v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.5538v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main aim of this paper is to provide a unified approach to deriving identities for the Bernstein polynomials using a novel generating function. We derive various functional equations and differential equations using this generating function. Using these equations, we give new proofs both for a recursive definition of the Bernstein basis functions and for derivatives of the nth degree Bernstein polynomials. We also find some new identities and properties for the Bernstein basis functions. Furthermore, we discuss analytic representations for the generalized Bernstein polynomials through the binomial or Newton distribution and Poisson distribution with mean and variance. Using this novel generating function, we also derive an identity which represents a pointwise orthogonality relation for the Bernstein basis functions. Finally, by using the mean and the variance, we generalize Szasz-Mirakjan type basis functions.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-21T10:01:40Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Generating Functions For The Bernstein Type Polynomials: A New Approach To Deriving Identities And Applications For The Polynomials, Hacettepe Journal Of Mathematics And Statistics 2014</arxiv:journal_ref>
+    <author>
+      <name>Yilmaz Simsek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.3057v1</id>
+    <title>Trace inequalities for completely monotone functions and Bernstein functions</title>
+    <updated>2011-09-14T12:14:26Z</updated>
+    <link href="https://arxiv.org/abs/1109.3057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.3057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a matrix trace inequality for completely monotone functions and for Bernstein functions. As special cases we obtain non-trivial trace inequalities for the power function x-&gt;x^q, which for certain values of q complement McCarthy's trace inequality and for others strenghten it.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-14T12:14:26Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Linear Algebra Appl. 437(2), 601-611 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Koenraad M. R. Audenaert</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.09868v1</id>
+    <title>Determinacy Witnesses in the Completely Monotone--Stieltjes--Bernstein Hierarchy</title>
+    <updated>2026-07-10T18:01:41Z</updated>
+    <link href="https://arxiv.org/abs/2607.09868v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.09868v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Membership problems in the completely monotone--Stieltjes--Bernstein hierarchy often become explicit after passage to a determinate representation. We organize that passage as a witness calculus. For the Laplace, Stieltjes, and Hausdorff transforms used here, W f denotes the unique admissible signed representing datum; a certificate either proves its positivity or exhibits an obstruction. A concrete dictionary for completely monotone, logarithmically completely monotone, Bernstein, complete Bernstein, and Stieltjes functions and for Hausdorff moment sequences is combined with transport rules for products, shifts, sampling, and Bernstein increments.
+  The applications are consequences of this common calculation. A triple-product identity for a digamma bridge controls ordinary Bernstein and logarithmic complete monotonicity ranges for gamma ratios and gives the strict power cutoff in Szabo's problem. For integer gamma quotients, the inverse Laplace density is a damped Jacobi polynomial, so classical zero geometry decides broad parameter regions. Boundary signs distinguish Bernstein from complete Bernstein behavior and separate completely monotone functions from the Stieltjes class. On the discrete side, signed atoms and finite differences settle interpolation and coefficient questions. The Ramanujan integral and a fractional Volterra symbol provide positive recognition examples. Across the applications, the workflow is the same: normalize the class question, compute or transport its witness, and decide one explicit sign problem. Every exclusion is accompanied by an exact certificate.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-10T18:01:41Z</published>
+    <arxiv:comment>33 pages, 35 references, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Domingos S. P. Salazar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.2456v3</id>
+    <title>Polynomial representations and categorifications of Fock Space</title>
+    <updated>2012-08-29T20:36:36Z</updated>
+    <link href="https://arxiv.org/abs/1101.2456v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.2456v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rings of symmetric polynomials form an inverse system whose limit, the ring of symmetric functions, is the model for the bosonic Fock space representation of the affine Lie algebra. We categorify this construction by considering an inverse limit of categories of polynomial representation of general linear groups. We show that this limit naturally carries an action of the affine Lie algebra (in the sense of Rouquier), thereby obtaining a famiy of categorifications of the bosonic Fock space representation.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-12T21:12:55Z</published>
+    <arxiv:comment>32 pages, to appear in Algebras and Representation Theory</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Algebras and Representation Theory 16 (2013), no.5, 1273-1311</arxiv:journal_ref>
+    <author>
+      <name>Jiuzu Hong</name>
+    </author>
+    <author>
+      <name>Oded Yacobi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.02129v2</id>
+    <title>Hirschman-Widder densities</title>
+    <updated>2022-04-09T02:01:15Z</updated>
+    <link href="https://arxiv.org/abs/2101.02129v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.02129v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hirschman and Widder introduced a class of Pólya frequency functions given by linear combinations of one-sided exponential functions. The members of this class are probability densities, and the class is closed under convolution but not under pointwise multiplication. We show that, generically, a polynomial function of such a density is a Pólya frequency function only if the polynomial is a homothety, and also identify a subclass for which each positive-integer power is a Pólya frequency function. We further demonstrate connections between the Maclaurin coefficients, the moments of these densities, and the recovery of the density from finitely many moments, via Schur polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-06T16:47:48Z</published>
+    <arxiv:comment>32 pages, no figures. Numerous small additions, including Proposition 2.9, as well as Section 3 and other remarks connecting Hirschman-Widder densities to orbital integrals. Final version, to appear in Applied and Computational Harmonic Analysis</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Applied and Computational Harmonic Analysis 60 (2022), 396-425</arxiv:journal_ref>
+    <author>
+      <name>Alexander Belton</name>
+    </author>
+    <author>
+      <name>Dominique Guillot</name>
+    </author>
+    <author>
+      <name>Apoorva Khare</name>
+    </author>
+    <author>
+      <name>Mihai Putinar</name>
+    </author>
+    <arxiv:doi>10.1016/j.acha.2022.04.002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.acha.2022.04.002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.0795v4</id>
+    <title>Finite-Dimensional Representations of Hyper Loop Algebras Over Non-Algebraically Closed Fields</title>
+    <updated>2008-09-18T16:33:12Z</updated>
+    <link href="https://arxiv.org/abs/0711.0795v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.0795v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study finite-dimensional representations of hyper loop algebras over non-algebraically closed fields. The main results concern the classification of the irreducible representations, the construction of the Weyl modules, base change, tensor products of irreducible and Weyl modules, and the block decomposition of the underlying abelian category. Several results are interestingly related to the study of irreducible representations of polynomial algebras and Galois theory.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-06T03:42:55Z</published>
+    <arxiv:comment>final version, to appear in "Algebras and Representation Theory"</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Algebras and Representation Theory 13 (2010), no. 3, 271-301</arxiv:journal_ref>
+    <author>
+      <name>Dijana Jakelic</name>
+    </author>
+    <author>
+      <name>Adriano Moura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.09852v2</id>
+    <title>C/2014 UN271 (Bernardinelli-Bernstein): the nearly spherical cow of comets</title>
+    <updated>2021-09-22T14:21:07Z</updated>
+    <link href="https://arxiv.org/abs/2109.09852v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.09852v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>C/2014 UN271 (Bernardinelli-Bernstein) is a comet incoming from the Oort cloud which is remarkable in having the brightest (and presumably largest) nucleus of any well-measured comet, and having been discovered at heliocentric distance $r_h\approx29$ au farther than any Oort-cloud member. We describe the properties that can be inferred from images recorded until the first reports of activity in June 2021. The orbit has $i=95^\circ,$ with perihelion of 10.97 au to be reached in 2031, and previous aphelion at $40,400\pm260$ au. Backwards integration of the orbit under a standard Galactic tidal model and known stellar encounters suggests this is a pristine new comet, with a perihelion of $q\approx18$ au on its previous perihelion passage 3.5 Myr ago. The photometric data show an unresolved nucleus with absolute magnitude $H_r=8.0,$ colors that are typical of comet nuclei or Damocloids, and no secular trend as it traversed the range 34--23 au. For $r$-band geometric albedo $p_r,$ this implies a diameter of $150 (p_r/0.04)^{-0.5}$ km. There is strong evidence of brightness fluctuations at $\pm0.2$ mag level, but no rotation period can be discerned. A coma consistent with a ``stationary' $1/ρ$ surface-brightness distribution grew in scattering cross-section at an exponential rate from $A f ρ\approx1$ m to $\approx150$ m as the comet approached from 28 to 20 au. The activity is consistent with a simple model of sublimation of a surface species in radiative equilibrium with the Sun. The inferred enthalpy of sublimation matches those of $CO_2$ and $NH_3$. More-volatile species -- $N_2,$ $CH_4,$ and $CO$ -- must be far less abundant on the sublimating surfaces.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-20T21:35:33Z</published>
+    <arxiv:comment>19 pages, submitted to ApJ Letters</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Pedro H. Bernardinelli</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gary M. Bernstein</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Benjamin T. Montet</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Robert Weryk</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Richard Wainscoat</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Aguena</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Allam</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Andrade-Oliveira</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Annis</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Avila</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Bertin</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Brooks</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. L. Burke</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Carnero Rosell</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Carrasco Kind</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Carretero</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Cawthon</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Conselice</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Costanzi</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. N. da Costa</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. E. S. Pereira</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. De Vicente</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. T. Diehl</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Everett</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>I. Ferrero</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. Flaugher</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Frieman</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. García-Bellido</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Gaztanaga</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. W. Gerdes</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Gruen</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. A. Gruendl</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Gschwend</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Gutierrez</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. R. Hinton</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. L. Hollowood</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Honscheid</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. J. James</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Kuehn</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. Kuropatkin</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>O. Lahav</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. A. G. Maia</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. L. Marshall</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Menanteau</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Miquel</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Morgan</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. L. C. Ogando</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Paz-Chinchón</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Pieres</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. A. Plazas Malagón</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Rodriguez-Monroy</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. K. Romer</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Roodman</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Sanchez</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Schubnell</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Serrano</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>I. Sevilla-Noarbe</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Smith</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Soares-Santos</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Suchyta</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. E. C. Swanson</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Tarle</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. To</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. A. Troxel</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. N. Varga</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. R. Walker</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Zhang</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/ac32d3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/ac32d3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0402188v5</id>
+    <title>Structures and Representations of Generalized Path Algebras</title>
+    <updated>2006-06-09T13:18:12Z</updated>
+    <link href="https://arxiv.org/abs/math/0402188v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0402188v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is shown that an algebra $Λ$ can be lifted with nilpotent Jacobson radical $r = r(Λ)$ and has a generalized matrix unit $\{e_{ii}\}_I$ with each $\bar e_{ii} $ in the center of $\bar Λ= Λ/r$ iff $Λ$ is isomorphic to a generalized path algebra with weak relations. Representations of the generalized path algebras are given. As a corollary, $Λ$ is a finite algebra with non-zero unity element over perfect field $k$ (e.g. a field with characteristic zero or a finite field) iff $Λ$ is isomorphic to a generalized path algebra $k (D, Ω, ρ)$ of finite directed graph with weak relations and $dim {\} Ω&lt; \infty $; $Λ$ is a generalized elementary algebra which can be lifted with nilpotent Jacobson radical and has a complete set of pairwise orthogonal idempotents iff $Λ$ is isomorphic to a path algebra with relations.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-02-12T00:13:43Z</published>
+    <arxiv:comment>19 pages. To appear in Algebras and Representation Theory</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <arxiv:journal_ref>Algebras and Representation Theory 10 (2007), 117-134</arxiv:journal_ref>
+    <author>
+      <name>Shouchuan Zhang</name>
+    </author>
+    <author>
+      <name>Yao-Zhong Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.04753v4</id>
+    <title>Loewner Theory for Bernstein functions I: evolution families and differential equations</title>
+    <updated>2023-03-28T16:26:32Z</updated>
+    <link href="https://arxiv.org/abs/2206.04753v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.04753v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One-parameter semigroups of holomorphic functions appear naturally in various applications of Complex Analysis, and in particular, in the theory of (temporally) homogeneous Markov processes. A suitable analogue of one-parameter semigroups in the inhomogeneous setting is the notion of a (reverse) evolution family. In this paper we study evolution families formed by Bernstein functions, which play the role of Laplace exponents for inhomogeneous continuous-state branching processes. In particular, we characterize all Herglotz vector fields that generate such evolution families and give a complex-analytic proof of a qualitative description equivalent to Silverstein's representation formula for the infinitesimal generators of one-parameter semigroups of Bernstein functions. We also establish several sufficient conditions for families of holomorphic self-maps, satisfying the algebraic part in the definition of an evolution family, to be absolutely continuous and hence to be described as solutions to the generalized Loewner - Kufarev differential equation. Most of these results are then applied in the sequel paper [https://doi.org/10.48550/arXiv.2211.12442] to study continuous-state branching processes.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-09T20:22:12Z</published>
+    <arxiv:comment>A reference to the sequel preprint "Loewner Theory for Bernstein functions II" is added in the abstract. Ver.2: References [19] and [32] have been updated and a small error on page 22 (the very end of the proof of Theorem 3) has been corrected Ver.3: the grant info has been updated</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Pavel Gumenyuk</name>
+    </author>
+    <author>
+      <name>Takahiro Hasebe</name>
+    </author>
+    <author>
+      <name>José-Luis Pérez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.4027v1</id>
+    <title>More supplements to a class of logarithmically completely monotonic functions associated with the gamma function</title>
+    <updated>2009-04-26T14:04:11Z</updated>
+    <link href="https://arxiv.org/abs/0904.4027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.4027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this article, a necessary and sufficient condition and a necessary condition are established for a function involving the gamma function to be logarithmically completely monotonic on $(0,\infty)$. As applications of the necessary and sufficient condition, some inequalities for bounding the psi and polygamma functions and the ratio of two gamma functions are derived.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-26T14:04:11Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Senlin Guo, Feng Qi, and H. M. Srivastava, A class of logarithmically completely monotonic functions related to the gamma function with applications, Integral Transforms and Special Functions 23 (2012), no. 8, 557--566</arxiv:journal_ref>
+    <author>
+      <name>Senlin Guo</name>
+    </author>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <arxiv:doi>10.1080/10652469.2011.611331</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10652469.2011.611331" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.02493v4</id>
+    <title>Clifford theory for glider representations</title>
+    <updated>2016-10-17T13:15:34Z</updated>
+    <link href="https://arxiv.org/abs/1603.02493v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.02493v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Classical Clifford theory studies the decomposition of simple $G$-modules into simple $H$-modules for some normal subgroup $H \triangleleft G$. In this paper we deal with chains of normal subgroups $1 \triangleleft G_1 \triangleleft \cdots \triangleleft G_d =G$, which allow to consider fragments and in particular glider representations. These are given by a descending chain of vector spaces over some field $K$ and relate different representations of the groups appearing in the chain. Picking some normal subgroup $H \triangleleft G$ one obtains a normal subchain and one can construct an induced fragment structure. Moreover, a notion of irreducibility of fragments is introduced, which completes the list of ingredients to perform a Clifford theory.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-08T12:02:48Z</published>
+    <arxiv:comment>15 pages. There was an erratum at the beginning of section 4. This could be omitted without further consequences to the results in the paper. To appear in Algebras and Representation Theory</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Algebras and Representation Theory, Volume 19, No. 3, June 2016</arxiv:journal_ref>
+    <author>
+      <name>Frederik Caenepeel</name>
+    </author>
+    <author>
+      <name>Fred Van Oystaeyen</name>
+    </author>
+    <arxiv:doi>10.1007/s10468-016-9628-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10468-016-9628-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.1048v1</id>
+    <title>Bounds for the ratio of two gamma functions--From Wendel's and related inequalities to logarithmically completely monotonic functions</title>
+    <updated>2009-04-07T04:03:28Z</updated>
+    <link href="https://arxiv.org/abs/0904.1048v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.1048v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this expository and survey paper, along one of main lines of bounding the ratio of two gamma functions, we look back and analyse some inequalities, several complete monotonicity of functions involving ratios of two gamma or $q$-gamma functions, and necessary and sufficient conditions for functions involving ratios of two gamma or $q$-gamma functions to be logarithmically completely monotonic.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-07T04:03:28Z</published>
+    <arxiv:comment>22 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Feng Qi and Qiu-Ming Luo, Bounds for the ratio of two gamma functions---From Wendel's and related inequalities to logarithmically completely monotonic functions, Banach Journal of Mathematical Analysis 6 (2012), no. 2, 132--158</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.5123v1</id>
+    <title>Some logarithmically completely monotonic functions related to the gamma function</title>
+    <updated>2009-03-30T04:02:52Z</updated>
+    <link href="https://arxiv.org/abs/0903.5123v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.5123v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this article, logarithmically complete monotonicity properties of some functions such as $\frac1{[Γ(x+1)]^{1/x}}$, $\frac{[{Γ(x+α+1)}]^{1/(x+α)}}{[{Γ(x+1)}]^{1/x}}$, $\frac{[Γ(x+1)]^{1/x}}{(x+1)^α}$ and $\frac{[Γ(x+1)]^{1/x}}{x^α}$ defined in $(-1,\infty)$ or $(0,\infty)$ for given real number $α\in\tr$ are obtained, some known results are recovered, extended and generalized. Moreover, some basic properties of the logarithmically completely monotonic functions are established.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-30T04:02:52Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Feng Qi and Bai-Ni Guo, Some logarithmically completely monotonic functions related to the gamma function, Journal of the Korean Mathematical Society 47 (2010), no. 6, 1283--1297</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Bai-Ni Guo</name>
+    </author>
+    <arxiv:doi>10.4134/JKMS.2010.47.6.1283</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4134/JKMS.2010.47.6.1283" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.6430v1</id>
+    <title>Some Bernstein functions and integral representations concerning harmonic and geometric means</title>
+    <updated>2013-01-28T02:57:25Z</updated>
+    <link href="https://arxiv.org/abs/1301.6430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.6430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is general knowledge that the harmonic mean $H(x,y)=\frac2{\frac1x+\frac1y}$ and that the geometric mean $G(x,y)=\sqrt{xy}\,$, where $x$ and $y$ are two positive numbers. In the paper, the authors show by several approaches that the harmonic mean $H_{x,y}(t)=H(x+t,y+t)$ and the geometric mean $G_{x,y}(t)=G(x+t,y+t)$ are all Bernstein functions of $t\in(-\min\{x,y\},\infty)$ and establish integral representations of the means $H_{x,y}(t)$ and $G_{x,y}(t)$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-28T02:57:25Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Feng Qi, Xiao-Jing Zhang, and Wen-Hui Li, The harmonic and geometric means are Bernstein functions, Boletin de la Sociedad Matematica Mexicana, Tercera Serie 23 (2017), no. 2, 713--736</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Xiao-Jing Zhang</name>
+    </author>
+    <author>
+      <name>Wen-Hui Li</name>
+    </author>
+    <arxiv:doi>10.1007/s40590-016-0085-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s40590-016-0085-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.0140v4</id>
+    <title>Representations of hom-Lie algebras</title>
+    <updated>2012-11-11T02:11:28Z</updated>
+    <link href="https://arxiv.org/abs/1005.0140v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.0140v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study representations of hom-Lie algebras. In particular, the adjoint representation and the trivial representation of hom-Lie algebras are studied in detail. Derivations, deformations, central extensions and derivation extensions of hom-Lie algebras are also studied as an application.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-02T13:29:20Z</published>
+    <arxiv:comment>16 pages, multiplicative and regular hom-Lie algebras are used, Algebra and Representation Theory, 15 (6) (2012), 1081-1098</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Algebra and Representation Theory, 15 (6) (2012), 1081-1098</arxiv:journal_ref>
+    <author>
+      <name>Yunhe Sheng</name>
+    </author>
+    <arxiv:doi>10.1007/s10468-011-9280-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10468-011-9280-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.08931v3</id>
+    <title>Exponential sum approximations of finite completely monotonic functions</title>
+    <updated>2023-07-22T09:31:02Z</updated>
+    <link href="https://arxiv.org/abs/2301.08931v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.08931v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bernstein's theorem (also called Hausdorff--Bernstein--Widder theorem) enables the integral representation of a completely monotonic function. We introduce a finite completely monotonic function, which is a completely monotonic function with a finite positive integral interval of the integral representation. We consider the exponential sum approximation of a finite completely monotonic function based on the Gaussian quadrature with a variable transformation. If the variable transformation is analytic on an open Bernstein ellipse, the maximum absolute error decreases at least geometrically with respect to the number of exponential functions. The maximization of the decreasing rate of the error bound can be achieved by using a variable transformation represented by Jacobi's delta amplitude function (also called dn function). The error curve is expanded by introducing basis functions, which are eigenfunctions of a fourth order differential operator, satisfy orthogonality conditions, and have the interlacing property of zeros by Kellogg's theorem.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-21T10:00:54Z</published>
+    <arxiv:comment>49 pages, 9 figures, 2 tables, modified the discussion section</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Yohei M. Koyama</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.01462v2</id>
+    <title>Monotonicity Properties and functional inequalities for the Volterra and incomplete Volterra functions</title>
+    <updated>2018-06-01T05:26:33Z</updated>
+    <link href="https://arxiv.org/abs/1805.01462v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.01462v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we prove some monotonicity, log--convexity and log--concavity properties for the Volterra and incomplete Volterra functions. Moreover, as consequences of these results, we present some functional inequalities (like Turán type inequalities) as well as we determined sharp upper and lower bounds for the normalized incomplete Volterra functions in terms of weighted power means.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-03T11:33:10Z</published>
+    <arxiv:comment>Submitted to Integral Transforms and Special Functions. In this version acknowledgement is added and some references are corrected</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Integral Transforms and Special Functions. 29:11 (2018) 875-892</arxiv:journal_ref>
+    <author>
+      <name>Khaled Mehrez</name>
+    </author>
+    <author>
+      <name>Sergei M. Sitnik</name>
+    </author>
+    <arxiv:doi>10.1080/10652469.2018.1512107</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10652469.2018.1512107" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.1430v1</id>
+    <title>A class of completely monotonic functions involving divided differences of the psi and polygamma functions and some applications</title>
+    <updated>2009-03-08T14:07:19Z</updated>
+    <link href="https://arxiv.org/abs/0903.1430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.1430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A class of functions involving the divided differences of the psi function and the polygamma functions and originating from Kershaw's double inequality are proved to be completely monotonic. As applications of these results, the monotonicity and convexity of a function involving ratio of two gamma functions and originating from establishment of the best upper and lower bounds in Kershaw's double inequality are derived, two sharp double inequalities involving ratios of double factorials are recovered, the probability integral or error function is estimated, a double inequality for ratio of the volumes of the unit balls in $\mathbb{R}^{n-1}$ and $\mathbb{R}^n$ respectively is deduced, and a symmetrical upper and lower bounds for the gamma function in terms of the psi function is generalized.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-08T14:07:19Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Bai-Ni Guo and Feng Qi, A class of completely monotonic functions involving divided differences of the psi and tri-gamma functions and some applications, Journal of the Korean Mathematical Society 48 (2011), no. 3, 655--667</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Bai-Ni Guo</name>
+    </author>
+    <arxiv:doi>10.4134/JKMS.2011.48.3.655</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4134/JKMS.2011.48.3.655" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0704.3686v2</id>
+    <title>Improving Estimates of Monotone Functions by Rearrangement</title>
+    <updated>2010-11-03T13:56:53Z</updated>
+    <link href="https://arxiv.org/abs/0704.3686v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0704.3686v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Suppose that a target function is monotonic, namely, weakly increasing, and an original estimate of the target function is available, which is not weakly increasing. Many common estimation methods used in statistics produce such estimates. We show that these estimates can always be improved with no harm using rearrangement techniques: The rearrangement methods, univariate and multivariate, transform the original estimate to a monotonic estimate, and the resulting estimate is closer to the true curve in common metrics than the original estimate. We illustrate the results with a computational example and an empirical example dealing with age-height growth charts.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-04-27T14:49:17Z</published>
+    <arxiv:comment>31 pages, 8 figures, low resolution figures. This paper has been withdraw by the authors because it has been replaced by "Improving Point and Interval Estimates of Monotone Functions by Rearrangement," arXiv:0806.4730</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Victor Chernozhukov</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ivan Fernandez-Val</name>
+      <arxiv:affiliation>Boston University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alfred Galichon</name>
+      <arxiv:affiliation>Harvard University</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.05490v1</id>
+    <title>Monotone Boolean Functions, Feasibility/Infeasibility, LP-type problems and MaxCon</title>
+    <updated>2020-05-11T23:51:15Z</updated>
+    <link href="https://arxiv.org/abs/2005.05490v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.05490v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper outlines connections between Monotone Boolean Functions, LP-Type problems and the Maximum Consensus Problem. The latter refers to a particular type of robust fitting characterisation, popular in Computer Vision (MaxCon). Indeed, this is our main motivation but we believe the results of the study of these connections are more widely applicable to LP-type problems (at least 'thresholded versions', as we describe), and perhaps even more widely. We illustrate, with examples from Computer Vision, how the resulting perspectives suggest new algorithms. Indeed, we focus, in the experimental part, on how the Influence (a property of Boolean Functions that takes on a special form if the function is Monotone) can guide a search for the MaxCon solution.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-11T23:51:15Z</published>
+    <arxiv:comment>Parts under conference review, work in progress. Keywords: Monotone Boolean Functions, Consensus Maximisation, LP-Type Problem, Computer Vision, Robust Fitting, Matroid, Simplicial Complex, Independence Systems</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>David Suter</name>
+    </author>
+    <author>
+      <name>Ruwan Tennakoon</name>
+    </author>
+    <author>
+      <name>Erchuan Zhang</name>
+    </author>
+    <author>
+      <name>Tat-Jun Chin</name>
+    </author>
+    <author>
+      <name>Alireza Bab-Hadiashar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.10097v1</id>
+    <title>Deterministic Partially Dynamic Single Source Shortest Paths in Weighted Graphs</title>
+    <updated>2017-05-29T10:05:29Z</updated>
+    <link href="https://arxiv.org/abs/1705.10097v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.10097v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we consider the decremental single-source shortest paths (SSSP) problem, where given a graph $G$ and a source node $s$ the goal is to maintain shortest distances between $s$ and all other nodes in $G$ under a sequence of online adversarial edge deletions. In their seminal work, Even and Shiloach [JACM 1981] presented an exact solution to the problem in unweighted graphs with only $O(mn)$ total update time over all edge deletions. Their classic algorithm was the state of the art for the decremental SSSP problem for three decades, even when approximate shortest paths are allowed.
+  A series of results showed how to improve upon $O(mn)$ if approximation is allowed, culminating in a recent breakthrough of Henzinger, Krinninger and Nanongkai [FOCS 14], who presented a $(1+ε)$-approximate algorithm for undirected weighted graphs whose total update time is near linear: $O(m^{1+o(1)}\log(W))$, where $W$ is the ratio of the heaviest to the lightest edge weight in the graph. In this paper they posed as a major open problem the question of derandomizing their result.
+  Until very recently, all known improvements over the Even-Shiloach algorithm were randomized and required the assumption of a non-adaptive adversary. In STOC 2016, Bernstein and Chechik showed the first \emph{deterministic} algorithm to go beyond $O(mn)$ total update time: the algorithm is also $(1+ε)$-approximate, and has total update time $\tilde{O}(n^2)$. In SODA 2017, the same authors presented an algorithm with total update time $\tilde{O}(mn^{3/4})$. However, both algorithms are restricted to undirected, unweighted graphs. We present the \emph{first} deterministic algorithm for \emph{weighted} undirected graphs to go beyond the $O(mn)$ bound. The total update time is $\tilde{O}(n^2 \log(W))$.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-29T10:05:29Z</published>
+    <arxiv:primary_category term="cs.DS"/>
+    <author>
+      <name>Aaron Bernstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.11577v1</id>
+    <title>Newton series representation of completely monotone functions</title>
+    <updated>2025-10-13T16:22:01Z</updated>
+    <link href="https://arxiv.org/abs/2510.11577v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.11577v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that every completely monotone function defined on a right-unbounded open interval admits a Newton series expansion at every point of that interval. This result can be viewed as an analog of Bernstein's little theorem for absolutely monotone functions. As an application, we use it to study principal indefinite sums, which are constructed via a broad generalization of Bohr-Mollerup's theorem.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-13T16:22:01Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Thomas Lamby</name>
+    </author>
+    <author>
+      <name>Jean-Luc Marichal</name>
+    </author>
+    <author>
+      <name>Naïm Zenaïdi</name>
+    </author>
+  </entry>
+</feed>

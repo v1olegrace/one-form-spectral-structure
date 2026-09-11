@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OQ7eo4Tj4QOx6khl7No8d+RyJpw</id>
+  <title>arXiv Query: search_query=all:Prony OR all:method OR all:matrix OR all:pencil OR all:exponential OR all:parameter OR all:estimation&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:50:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Prony+OR+(all:method+OR+(all:matrix+OR+(all:pencil+OR+(all:exponential+OR+(all:parameter+OR+all:estimation)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1312145</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.17841v1</id>
+    <title>Truly Sub-Nyquist Method Based Matrix Pencil and CRT with Super Resolution</title>
+    <updated>2024-10-23T13:06:42Z</updated>
+    <link href="https://arxiv.org/abs/2410.17841v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.17841v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emergence of ultra-wideband (UWB) and high-throughput signals has necessitated advancements in data sampling technologies1. Sub-Nyquist sampling methods, such as the modulated wideband converter (MWC) and compressed auto-correlation spectrum sensing (CCS), address the limitations of traditional analog-to-digital converters (ADCs) by capturing signals below the Nyquist rate. However, these methods face challenges like spectral leakage and complex hardware requirements. This paper proposes a novel super-resolution generalized eigenvalue method that integrates the matrix pencil method with the Chinese Remainder Theorem (CRT) to enhance signal processing capabilities within a true sub-Nyquist framework3. This approach aims to improve frequency resolution and accuracy in high-frequency signal extraction, with potential applications in telecommunications, radar, and medical imaging.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-23T13:06:42Z</published>
+    <arxiv:comment>Sub-nyquist sampling, Matrix pencil method, CRT, Super resolution</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Huiguang Zhang</name>
+    </author>
+    <author>
+      <name>Baoguo Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.10472v1</id>
+    <title>On the generalised eigenvalue method and its relation to Prony and generalised pencil of function methods</title>
+    <updated>2020-04-22T10:05:33Z</updated>
+    <link href="https://arxiv.org/abs/2004.10472v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.10472v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss the relation of three methods to determine energy levels in lattice QCD simulations: the generalised eigenvalue, the Prony and the generalised pencil of function methods. All three can be understood as special cases of a generalised eigenvalue problem. We show analytically that the leading corrections to an energy $E_l$ in all three methods due to unresolved states decay asymptotically exponentially like $\exp(-(E_{n}-E_l)t)$. Using synthetic data we show that these corrections behave as expected also in practice. We propose a novel combination of the generalised eigenvalue and the Prony method, denoted as GEVM/PGEVM, which helps to increase the energy gap $E_{n}-E_l$. We illustrate its usage and performance using lattice QCD examples.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-22T10:05:33Z</published>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Matthias Fischer</name>
+    </author>
+    <author>
+      <name>Bartosz Kostrzewa</name>
+    </author>
+    <author>
+      <name>Johann Ostmeyer</name>
+    </author>
+    <author>
+      <name>Konstantin Ottnad</name>
+    </author>
+    <author>
+      <name>Martin Ueding</name>
+    </author>
+    <author>
+      <name>Carsten Urbach</name>
+    </author>
+    <arxiv:doi>10.1140/epja/s10050-020-00205-w</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epja/s10050-020-00205-w" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.11430v1</id>
+    <title>Parallel Prony's method with multivariate matrix pencil approach and its numerical aspect</title>
+    <updated>2020-12-21T15:35:42Z</updated>
+    <link href="https://arxiv.org/abs/2012.11430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.11430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prony's method is a standard tool exploited for solving many imaging and data analysis problems that result in parameter identification in sparse exponential sums $$f(k)=\sum_{j=1}^{T}c_{j}e^{-2πi\langle t_{j},k\rangle},\quad k\in \mathbb{Z}^{d},$$ where the parameters are pairwise different $\{ t_{j}\}_{j=1}^{M}\subset [0,1)^{d}$, and $\{ c_{j}\}_{j=1}^{M}\subset \mathbb{C}\setminus \{ 0\}$ are nonzero. The focus of our investigation is on a Prony's method variant based on a multivariate matrix pencil approach. The method constructs matrices $S_{1}$, \ldots , $S_{d}$ from the sampling values, and their simultaneous diagonalization yields the parameters $\{ t_{j}\}_{j=1}^{M}$. The parameters $\{ c_{j}\}_{j=1}^{M}$ are computed as the solution of an linear least squares problem, where the matrix of the problem is determined by $\{ t_{j}\}_{j=1}^{M}$. Since the method involves independent generation and manipulation of certain number of matrices, there is intrinsic capacity for parallelization of the whole computation process on several levels. Hence, we propose parallel version of the Prony's method in order to increase its efficiency. The tasks concerning generation of matrices is divided among GPU's block of threads and CPU, where heavier load is put on the GPU. From the algorithmic point of view, the CPU is dedicated to the more complex tasks. With careful choice of algorithms solving the subtasks, the load between CPU and GPU is balanced. Besides the parallelization techniques, we are also concerned with some numerical issues, and we provide detailed numerical analysis of the method in case of noisy input data. Finally, we performed a set of numerical tests which confirm superior efficiency of the parallel algorithm and consistency of the forward error with the results of numerical analysis.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-21T15:35:42Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Nela Bosner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.14337v2</id>
+    <title>PENCIL: Long Thoughts with Short Memory</title>
+    <updated>2025-07-06T22:23:16Z</updated>
+    <link href="https://arxiv.org/abs/2503.14337v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.14337v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While state-of-the-art LLMs have demonstrated great promise of using long Chains-of-Thought (CoT) to boost reasoning, scaling it up to more challenging problems at test-time is fundamentally limited by suboptimal memory usage -- intermediate computations accumulate indefinitely in context even when no longer needed for future thoughts. We introduce PENCIL, which incorporates a novel reduction mechanism into the autoregressive generation process that recursively cleans up intermediate thoughts based on patterns learned from training. By iteratively generating and erasing thoughts, PENCIL can think deeper to solve harder problems using shorter context and less compute. Empirically, we observe PENCIL is significantly more effective and efficient than CoT. For example, we demonstrate PENCIL with a small 25M-parameter transformer and 2048 context length solves Einstein's puzzle -- a task that challenges much larger models like GPT-4. Theoretically, we prove PENCIL can perform universal efficient computation by simulating any Turing machines with optimal time and space complexity, and thus can solve arbitrary computable tasks that are otherwise intractable for vanilla CoT.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-18T15:14:14Z</published>
+    <arxiv:comment>Accepted to ICML 2025. Codes in https://github.com/chr26195/PENCIL</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chenxiao Yang</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+    <author>
+      <name>David McAllester</name>
+    </author>
+    <author>
+      <name>Zhiyuan Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.07706v1</id>
+    <title>On the Prony Series Representation of Stretched Exponential Relaxation</title>
+    <updated>2018-03-21T00:53:09Z</updated>
+    <link href="https://arxiv.org/abs/1803.07706v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.07706v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stretched exponential relaxation is a ubiquitous feature of homogeneous glasses. The stretched exponential decay function can be derived from the diffusion-trap model, which predicts certain critical values of the fractional stretching exponent. In practical implementations of glass relaxation models, it is computationally convenient to represent the stretched exponential function as a Prony series of simple exponentials. Here, we perform a comprehensive mathematical analysis of the Prony series approximation of the stretched exponential relaxation, including optimized coefficients for certain critical values of the exponent. The fitting quality of the Prony series is analyzed as a function of the number of terms in the series. With a sufficient number of terms, the Prony series can accurately capture the time evolution of the stretched exponential function, including its "fat tail" at long times. However, it is unable to capture the divergence of the first-derivative of the stretched exponential function in the limit of zero time. We also present a frequency-domain analysis of the Prony series representation of the stretched exponential function and discuss its physical implications for the modeling of glass relaxation behavior.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-21T00:53:09Z</published>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>John C. Mauro</name>
+    </author>
+    <author>
+      <name>Yihong Z. Mauro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.04097v2</id>
+    <title>The eigenvector variety of a matrix pencil</title>
+    <updated>2017-05-01T13:54:49Z</updated>
+    <link href="https://arxiv.org/abs/1703.04097v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.04097v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $k$ be a field and $n,a,b$ natural numbers. A matrix pencil $P$ is given by $n$ matrices of the same size with coefficients in $k$, say by $(b\times a)$-matrices, or, equivalently, by $n$ linear transformations $α_i\:k^a \to k^b$ with $1=1,\dots,n$. We say that $P$ is reduced provided the intersection of the kernels of the linear transformations $α_i$ is zero. If $P$ is a reduced matrix pencil, a vector $v\in k^a$ will be called an eigenvector of $P$ provided the subspace $\langle α_1(v),\dots,α_n(v) \rangle$ of $k^b$ generated by the elements $α_1(v),\dots,α_n(v)$ is $1$-dimensional. Eigenvectors are called equivalent provided they are scalar multiples of each other. The set $ε(P)$ of equivalence classes of eigenvectors of $P$ is a Zariski closed subset of the projective space $\Bbb P(k^a)$, thus a projective variety. We call it the eigenvector variety of $P$. The aim of this note is to show that any projective variety arises as an eigenvector variety of some reduced matrix pencil.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-12T10:44:23Z</published>
+    <arxiv:comment>The presentation has been polished. We have added the remark that any projective variety can be realized by using matrix pencils of square matrices</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Claus Michael Ringel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.10285v3</id>
+    <title>Projected Estimation for Large-dimensional Matrix Factor Models</title>
+    <updated>2020-12-03T11:23:19Z</updated>
+    <link href="https://arxiv.org/abs/2003.10285v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.10285v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this study, we propose a projection estimation method for large-dimensional matrix factor models with cross-sectionally spiked eigenvalues. By projecting the observation matrix onto the row or column factor space, we simplify factor analysis for matrix series to that for a lower-dimensional tensor. This method also reduces the magnitudes of the idiosyncratic error components, thereby increasing the signal-to-noise ratio, because the projection matrix linearly filters the idiosyncratic error matrix. We theoretically prove that the projected estimators of the factor loading matrices achieve faster convergence rates than existing estimators under similar conditions. Asymptotic distributions of the projected estimators are also presented. A novel iterative procedure is given to specify the pair of row and column factor numbers. Extensive numerical studies verify the empirical performance of the projection method. Two real examples in finance and macroeconomics reveal factor patterns across rows and columns, which coincides with financial, economic, or geographical interpretations.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-23T14:07:28Z</published>
+    <arxiv:comment>This is a revised version of the original paper "Two-stage Projected Estimation for Large-dimensional Matrix Factor Models"</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Long Yu</name>
+    </author>
+    <author>
+      <name>Yong He</name>
+    </author>
+    <author>
+      <name>Xin-bing Kong</name>
+    </author>
+    <author>
+      <name>Xinsheng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.01667v2</id>
+    <title>Computing the matrix fractional power with the double exponential formula</title>
+    <updated>2021-04-10T04:18:59Z</updated>
+    <link href="https://arxiv.org/abs/2012.01667v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.01667v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two quadrature-based algorithms for computing the matrix fractional power $A^α$ are presented in this paper. These algorithms are based on the double exponential (DE) formula, which is well-known for its effectiveness in computing improper integrals as well as in treating nearly arbitrary endpoint singularities. The DE formula transforms a given integral into another integral that is suited for the trapezoidal rule; in this process, the integral interval is transformed to the infinite interval. Therefore, it is necessary to truncate the infinite interval into an appropriate finite interval. In this paper, a truncation method, which is based on a truncation error analysis specialized to the computation of $A^α$, is proposed. Then, two algorithms are presented -- one computes $A^α$ with a fixed number of abscissas, and the other computes $A^α$ adaptively. Subsequently, the convergence rate of the DE formula for Hermitian positive definite matrices is analyzed. The convergence rate analysis shows that the DE formula converges faster than the Gaussian quadrature when $A$ is ill-conditioned and $α$ is a non-unit fraction. Numerical results show that our algorithms achieved the required accuracy and were faster than other algorithms in several situations.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-03T02:57:10Z</published>
+    <arxiv:comment>The title of the manuscript was changed. The former title is "Computing the matrix fractional power based on the double exponential formula"</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Electron. T. Numer. Ana., 54 (2021) 558-580</arxiv:journal_ref>
+    <author>
+      <name>Fuminori Tatsuoka</name>
+    </author>
+    <author>
+      <name>Tomohiro Sogabe</name>
+    </author>
+    <author>
+      <name>Yuto Miyatake</name>
+    </author>
+    <author>
+      <name>Tomoya Kemmochi</name>
+    </author>
+    <author>
+      <name>Shao-Liang Zhang</name>
+    </author>
+    <arxiv:doi>10.1553/etna_vol54s558</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1553/etna_vol54s558" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.3634v1</id>
+    <title>Polynomial two-parameter eigenvalue problems and matrix pencil methods for stability of delay-differential equations</title>
+    <updated>2008-09-22T06:22:20Z</updated>
+    <link href="https://arxiv.org/abs/0809.3634v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.3634v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Several recent methods used to analyze asymptotic stability of delay-differential equations (DDEs) involve determining the eigenvalues of a matrix, a matrix pencil or a matrix polynomial constructed by Kronecker products. Despite some similarities between the different types of these so-called matrix pencil methods, the general ideas used as well as the proofs differ considerably. Moreover, the available theory hardly reveals the relations between the different methods.
+  In this work, a different derivation of various matrix pencil methods is presented using a unifying framework of a new type of eigenvalue problem: the polynomial two-parameter eigenvalue problem, of which the quadratic two-parameter eigenvalue problem is a special case. This framework makes it possible to establish relations between various seemingly different methods and provides further insight in the theory of matrix pencil methods.
+  We also recognize a few new matrix pencil variants to determine DDE stability.
+  Finally, the recognition of the new types of eigenvalue problem opens a door to efficient computation of DDE stability.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-22T06:22:20Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Elias Jarlebring</name>
+    </author>
+    <author>
+      <name>Michiel E. Hochstenbach</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.02617v1</id>
+    <title>Snapshot Averaged Matrix Pencil Method (SAM) For Direction of Arrival Estimation</title>
+    <updated>2023-05-04T07:48:12Z</updated>
+    <link href="https://arxiv.org/abs/2305.02617v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.02617v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The estimation of the direction of electromagnetic (EM) waves from a radio source using electrically short antennas is one of the challenging problems in the field of radio astronomy. In this paper we have developed an algorithm which performs better in direction and polarization estimations than the existing algorithms. Our proposed algorithm Snapshot Averaged Matrix Pencil Method (SAM) is a modification to the existing Matrix Pencil Method (MPM) based Direction of Arrival (DoA) algorithm. In general, MPM estimates DoA of the incoherent EM waves in the spectra using unitary transformations and least square method (LSM). Our proposed SAM modification is made in context to the proposed Space Electric and Magnetic Sensor (SEAMS) mission to study the radio universe below 16 MHz. SAM introduces a snapshot averaging method to improve the incoherent frequency estimation improving the accuracy of estimation. It can also detect polarization to differentiate between Right Hand Circular Polarlization (RHCP), Right Hand Elliptical Polarlization (RHEP), Left Hand Circular Polarlization (LHCP), Left Hand Elliptical Polarlization (LHEP) and Linear Polarlization (LP). This paper discusses the formalism of SAM and shows the initial results of a scaled version of a DoA experiment at a resonant frequency of ~72 MHz.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-04T07:48:12Z</published>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Harsha A. Tanti</name>
+    </author>
+    <author>
+      <name>Abhirup Datta</name>
+    </author>
+    <author>
+      <name>S. Ananthakrishnan</name>
+    </author>
+    <arxiv:doi>10.1007/s10686-023-09897-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10686-023-09897-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.01183v4</id>
+    <title>Projection method for eigenvalue problems of linear nonsquare matrix pencils</title>
+    <updated>2021-04-13T14:41:14Z</updated>
+    <link href="https://arxiv.org/abs/2007.01183v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.01183v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Eigensolvers involving complex moments can determine all the eigenvalues in a given region in the complex plane and the corresponding eigenvectors of a regular linear matrix pencil. The complex moment acts as a filter for extracting eigencomponents of interest from random vectors or matrices. This study extends a projection method for regular eigenproblems to the singular nonsquare case, thus replacing the standard matrix inverse in the resolvent with the pseudoinverse. The extended method involves complex moments given by the contour integrals of generalized resolvents associated with nonsquare matrices. We establish conditions such that the method gives all finite eigenvalues in a prescribed region in the complex plane. In numerical computations, the contour integrals are approximated using numerical quadratures. The primary cost lies in the solutions of linear least squares problems that arise from quadrature points, and they can be readily parallelized in practice. Numerical experiments on large matrix pencils illustrate this method. The new method is more robust and efficient than previous methods, and based on experimental results, it is conjectured to be more efficient in parallelized settings. Notably, the proposed method does not fail in cases involving pairs of extremely close eigenvalues, and it overcomes the issue of problem size.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-02T15:15:19Z</published>
+    <arxiv:comment>21 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>SIAM Journal on Matrix Analysis and Applications, Volume 42, Number 3, pp. 1381-1400, September 20, 2021</arxiv:journal_ref>
+    <author>
+      <name>Keiichi Morikuni</name>
+    </author>
+    <arxiv:doi>10.1137/20M1377886</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/20M1377886" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.1588v2</id>
+    <title>Evaluating Matrix Functions by Resummations on Graphs: the Method of Path-Sums</title>
+    <updated>2012-02-27T10:15:57Z</updated>
+    <link href="https://arxiv.org/abs/1112.1588v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.1588v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the method of path-sums which is a tool for exactly evaluating a function of a discrete matrix with possibly non-commuting entries, based on the closed-form resummation of infinite families of terms in the corresponding Taylor series. If the matrix is finite, our approach yields the exact result in a finite number of steps. We achieve this by combining a mapping between matrix powers and walks on a weighted directed graph with a universal graph-theoretic result on the structure of such walks. We present path-sum expressions for a matrix raised to a complex power, the matrix exponential, matrix inverse, and matrix logarithm. We show that the quasideterminants of a matrix can be naturally formulated in terms of a path-sum, and present examples of the application of the path-sum method. We show that obtaining the inversion height of a matrix inverse and of quasideterminants is an NP-complete problem.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-07T15:04:34Z</published>
+    <arxiv:comment>23 pages, light version submitted to SIAM Journal on Matrix Analysis and Applications (SIMAX). A separate paper with the graph theoretic results is available at: arXiv:1202.5523v1. Results for matrices over division rings will be published separately as well</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>SIAM. J. Matrix Anal. &amp; Appl., 34(2), 445-469, 2013</arxiv:journal_ref>
+    <author>
+      <name>P. -L. Giscard</name>
+    </author>
+    <author>
+      <name>S. J. Thwaite</name>
+    </author>
+    <author>
+      <name>D. Jaksch</name>
+    </author>
+    <arxiv:doi>10.1137/120862880</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/120862880" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.02485v2</id>
+    <title>A Randomized Multivariate Matrix Pencil Method for Superresolution Microscopy</title>
+    <updated>2018-05-16T07:28:21Z</updated>
+    <link href="https://arxiv.org/abs/1805.02485v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.02485v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The matrix pencil method is an eigenvalue based approach for the parameter identification of sparse exponential sums. We derive a reconstruction algorithm for multivariate exponential sums that is based on simultaneous diagonalization. Randomization is used and quantified to reduce the simultaneous diagonalization to the eigendecomposition of a single random matrix. To verify feasibility, the algorithm is applied to synthetic and experimental fluorescence microscopy data.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-07T12:53:09Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Martin Ehler</name>
+    </author>
+    <author>
+      <name>Stefan Kunis</name>
+    </author>
+    <author>
+      <name>Thomas Peter</name>
+    </author>
+    <author>
+      <name>Christian Richter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.15270v1</id>
+    <title>Generalized Matrix-Pencil Approach to Estimation of Complex Exponentials with Gapped Data</title>
+    <updated>2022-10-27T08:55:27Z</updated>
+    <link href="https://arxiv.org/abs/2210.15270v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.15270v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A generalized matrix-pencil approach is proposed for the estimation of complex exponential components with segmented signal samples, which is very efficient and provides super-resolution estimations. It is applicable to the signals sampled segmentally with the same sampling frequency and direction of arrival (DOA) estimation with distributed arrays within which array elements are placed uniformly with the same inter-element spacing.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-27T08:55:27Z</published>
+    <arxiv:comment>5 pages, 6 Figures</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Jianping Wang</name>
+    </author>
+    <author>
+      <name>Alexander Yarovoy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.1627v1</id>
+    <title>Fault Tolerant Matrix Pencil Method for Direction of Arrival Estimation</title>
+    <updated>2011-10-07T16:06:56Z</updated>
+    <link href="https://arxiv.org/abs/1110.1627v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.1627v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continuing to estimate the Direction-of-arrival (DOA) of the signals impinging on the antenna array, even when a few elements of the underlying Uniform Linear Antenna Array (ULA) fail to work will be of practical interest in RADAR, SONAR and Wireless Radio Communication Systems. This paper proposes a new technique to estimate the DOAs when a few elements are malfunctioning. The technique combines Singular Value Thresholding (SVT) based Matrix Completion (MC) procedure with the Direct Data Domain (D^3) based Matrix Pencil (MP) Method. When the element failure is observed, first, the MC is performed to recover the missing data from failed elements, and then the MP method is used to estimate the DOAs. We also, propose a very simple technique to detect the location of elements failed, which is required to perform MC procedure. We provide simulation studies to demonstrate the performance and usefulness of the proposed technique. The results indicate a better performance, of the proposed DOA estimation scheme under different antenna failure scenarios.</summary>
+    <category term="cs.OH" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-07T16:06:56Z</published>
+    <arxiv:comment>13 pages, 3 figures, Signal and image processing:An international Journal 2011</arxiv:comment>
+    <arxiv:primary_category term="cs.OH"/>
+    <arxiv:journal_ref>Signal &amp; Image Processing : An International Journal (SIPIJ) Vol.2, No.3, September 2011</arxiv:journal_ref>
+    <author>
+      <name>T. Yerriswamy</name>
+    </author>
+    <author>
+      <name>S. N. Jagadeesha</name>
+    </author>
+    <arxiv:doi>10.5121/sipij.2011.2306</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5121/sipij.2011.2306" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.19666v1</id>
+    <title>Weierstrass structure and eigenvalue placement of regular matrix pencils under low rank perturbations</title>
+    <updated>2024-02-09T00:50:26Z</updated>
+    <link href="https://arxiv.org/abs/2403.19666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.19666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We solve the problem of determining the Weierstrass structure of a regular matrix pencil obtained by a low rank perturbation of another regular matrix pencil. We apply the result to find necessary and sufficient conditions for the existence of a low rank perturbation such that the perturbed pencil has prescribed eigenvalues and algebraic multiplicities. The results hold over fields with sufficient number of elements.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-09T00:50:26Z</published>
+    <arxiv:comment>17 pages. arXiv admin note: text overlap with arXiv:1907.10657</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <arxiv:journal_ref>SIAM J. MATRIX ANAL. APPL. Vol. 40 (2019) No. 2, pp. 440--453</arxiv:journal_ref>
+    <author>
+      <name>Itziar Baragaña</name>
+    </author>
+    <author>
+      <name>Alicia Roca</name>
+    </author>
+    <arxiv:doi>10.1137/18M1200245</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/18M1200245" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.02125v3</id>
+    <title>Multiscale matrix pencils for separable reconstruction problems</title>
+    <updated>2023-06-09T20:23:59Z</updated>
+    <link href="https://arxiv.org/abs/2008.02125v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.02125v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The nonlinear inverse problem of exponential data fitting is separable since the fitting function is a linear combination of parameterized exponential functions, thus allowing to solve for the linear coefficients separately from the nonlinear parameters. The matrix pencil method, which reformulates the problem statement into a generalized eigenvalue problem for the nonlinear parameters and a structured linear system for the linear parameters, is generally considered as the more stable method to solve the problem computationally. In Section 2 the matrix pencil associated with the classical complex exponential fitting or sparse interpolation problem is summarized and the concepts of dilation and translation are introduced to obtain matrix pencils at different scales.
+  Exponential analysis was earlier generalized to the use of several polynomial basis functions and some operator eigenfunctions. However, in most generalizations a computational scheme in terms of an eigenvalue problem is lacking. In the subsequent Sections 3--6 the matrix pencil formulation, including the dilation and translation paradigm, is generalized to more functions. Each of these periodic, polynomial or special function classes needs a tailored approach, where optimal use is made of the properties of the parameterized elementary or special function used in the sparse interpolation problem under consideration. With each generalization a structured linear matrix pencil is associated, immediately leading to a computational scheme for the nonlinear and linear parameters, respectively from a generalized eigenvalue problem and one or more structured linear systems.
+  Finally, in Section 7 we illustrate the new methods.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-05T13:32:49Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Annie Cuyt</name>
+    </author>
+    <author>
+      <name>Wen-shin Lee</name>
+    </author>
+    <arxiv:doi>10.1007/s11075-023-01564-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11075-023-01564-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.03510v1</id>
+    <title>Generalized rational Prony and Bernoulli methods</title>
+    <updated>2025-10-03T20:50:19Z</updated>
+    <link href="https://arxiv.org/abs/2510.03510v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.03510v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The generalized operator-based Prony method is an important tool for describing signals which can be written as finite linear combinations of eigenfunctions of certain linear operators. On the other hand, Bernoulli's algorithm and its generalizations can be used to recover the parameters of rational functions belonging to finite-dimensional subspaces of $H_2$ Hardy-Hilbert spaces. In this work, we discuss several results related to these methods. We discuss a rational variant of the generalized operator-based Prony method and show that in fact, any Prony problem can be treated this way. This realization establishes the connection between Prony and Bernoulli methods and allows us to address some well-known numerical pitfalls. Several numerical experiments are provided to showcase the usefulness of the introduced methods. These include problems related to the identification of time-delayed linear systems and parameter recovery problems in reproducing kernel Hilbert spaces.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-03T20:50:19Z</published>
+    <arxiv:comment>Submitted to the journal IOP Inverse Problems for consideration</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Tamás Dózsa</name>
+    </author>
+    <author>
+      <name>Matthias Voigt</name>
+    </author>
+    <author>
+      <name>Zoltán Szabó</name>
+    </author>
+    <author>
+      <name>József Bokor</name>
+    </author>
+    <author>
+      <name>Péter Kovács</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.2409v3</id>
+    <title>Information amplification via postselection: A parameter estimation perspective</title>
+    <updated>2013-10-24T09:02:37Z</updated>
+    <link href="https://arxiv.org/abs/1306.2409v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.2409v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is known that weak measurement can significantly amplify the mean of measurement results, sometimes out of the range limited in usual quantum measurement. This fact, as actively demonstrated recently in both theory and experiment, implies the possibility to estimate a very small parameter using the weak measurement technique. But does the weak measurement really bring about the increase of "information" for parameter estimation? This paper clarifies that, in a general situation, the answer is NO; more precisely, the weak measurement cannot further decrease the lower bound of the estimation error, i.e. the so-called Cramér-Rao bound, which is proportional to the inverse of the quantum Fisher information.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-11T02:34:58Z</published>
+    <arxiv:comment>This is the journal published version to the preprint arXiv:1306.2409: "Does the post-selection amplify the information for parameter estimation?"</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 88, 042116 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Saki Tanaka</name>
+    </author>
+    <author>
+      <name>Naoki Yamamoto</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.88.042116</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.88.042116" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.04343v3</id>
+    <title>Phase transitions in spiked matrix estimation: information-theoretic analysis</title>
+    <updated>2019-06-24T09:44:37Z</updated>
+    <link href="https://arxiv.org/abs/1806.04343v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.04343v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study here the so-called spiked Wigner and Wishart models, where one observes a low-rank matrix perturbed by some Gaussian noise. These models encompass many classical statistical tasks such as sparse PCA, submatrix localization, community detection or Gaussian mixture clustering. The goal of these notes is to present in a unified manner recent results (as well as new developments) on the information-theoretic limits of these spiked matrix models. We compute the minimal mean squared error for the estimation of the low-rank signal and compare it to the performance of spectral estimators and message passing algorithms. Phase transition phenomena are observed: depending on the noise level it is either impossible, easy (i.e. using polynomial-time estimators) or hard (information-theoretically possible, but no efficient algorithm is known to succeed) to recover the signal.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-12T05:56:46Z</published>
+    <arxiv:comment>These notes present in a unified manner recent results (as well as new developments) on the information-theoretic limits in spiked matrix estimation</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Léo Miolane</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.17879v1</id>
+    <title>On the Two-parameter Matrix pencil Problem</title>
+    <updated>2024-06-25T18:38:22Z</updated>
+    <link href="https://arxiv.org/abs/2406.17879v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.17879v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The multiparameter matrix pencil problem (MPP) is a generalization of the one-parameter MPP: given a set of $m\times n$ complex matrices $A_0,\ldots, A_r$, with $m\ge n+r-1$, it is required to find all complex scalars $λ_0,\ldots,λ_r$, not all zero, such that the matrix pencil $A(λ)=\sum_{i=0}^rλ_iA_i$ loses column rank and the corresponding nonzero complex vector $x$ such that $A(λ)x=0$. This problem is related to the well-known multiparameter eigenvalue problem except that there is only one pencil and, crucially, the matrices are not necessarily square. In this paper, we give a full solution to the two-parameter MPP. Firstly, an inflation process is implemented to show that the two-parameter MPP is equivalent to a set of three $m^2\times n^2$ simultaneous one-parameter MPPs. These problems are given in terms of Kronecker commutator operators (involving the original matrices) which exhibit several symmetries. These symmetries are analysed and are then used to deflate the dimensions of the one-parameter MPPs to $\frac{m(m-1)}{2}\times\frac{n(n+1)}{2}$ thus simplifying their numerical solution. In the case that $m=n+1$ it is shown that the two-parameter MPP has at least one solution and generically $\frac{n(n+1)}{2}$ solutions and furthermore that, under a rank assumption, the Kronecker determinant operators satisfy a commutativity property. This is then used to show that the two-parameter MPP is equivalent to a set of three simultaneous eigenvalue problems. A general solution algorithm is presented and numerical examples are given to outline the procedure of the proposed algorithm.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-25T18:38:22Z</published>
+    <arxiv:comment>23 pages, accepted in SIMAX</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>S. K. Gungah</name>
+    </author>
+    <author>
+      <name>F. F. Alsubaie</name>
+    </author>
+    <author>
+      <name>I. M. Jaimoukha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.14709v3</id>
+    <title>Robust Quantitative Susceptibility Mapping via Approximate Message Passing with Parameter Estimation</title>
+    <updated>2023-05-30T21:37:57Z</updated>
+    <link href="https://arxiv.org/abs/2207.14709v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.14709v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Purpose: For quantitative susceptibility mapping (QSM), the lack of ground-truth in clinical settings makes it challenging to determine suitable parameters for the dipole inversion. We propose a probabilistic Bayesian approach for QSM with built-in parameter estimation, and incorporate the nonlinear formulation of the dipole inversion to achieve a robust recovery of the susceptibility maps.
+  Theory: From a Bayesian perspective, the image wavelet coefficients are approximately sparse and modelled by the Laplace distribution. The measurement noise is modelled by a Gaussian-mixture distribution with two components, where the second component is used to model the noise outliers. Through probabilistic inference, the susceptibility map and distribution parameters can be jointly recovered using approximate message passing (AMP).
+  Methods: We compare our proposed AMP with built-in parameter estimation (AMP-PE) to the state-of-the-art L1-QSM, FANSI and MEDI approaches on the simulated and in vivo datasets, and perform experiments to explore the optimal settings of AMP-PE. Reproducible code is available at https://github.com/EmoryCN2L/QSM_AMP_PE
+  Results: On the simulated Sim2Snr1 dataset, AMP-PE achieved the lowest NRMSE, DFCM and the highest SSIM, while MEDI achieved the lowest HFEN. On the in vivo datasets, AMP-PE is robust and successfully recovers the susceptibility maps using the estimated parameters, whereas L1-QSM, FANSI and MEDI typically require additional visual fine-tuning to select or double-check working parameters.
+  Conclusion: AMP-PE provides automatic and adaptive parameter estimation for QSM and avoids the subjectivity from the visual fine-tuning step, making it an excellent choice for the clinical setting.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-29T14:38:03Z</published>
+    <arxiv:comment>Keywords: Approximate message passing, Compressive sensing, Outlier modelling, Parameter estimation, Quantitative susceptibility mapping</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Shuai Huang</name>
+    </author>
+    <author>
+      <name>James J. Lah</name>
+    </author>
+    <author>
+      <name>Jason W. Allen</name>
+    </author>
+    <author>
+      <name>Deqiang Qiu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.03651v1</id>
+    <title>Modifications of Prony's Method for the Recovery and Sparse Approximation of Generalized Exponential Sums</title>
+    <updated>2020-01-10T20:15:03Z</updated>
+    <link href="https://arxiv.org/abs/2001.03651v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.03651v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this survey we describe some modifications of Prony's method. In particular, we consider the recovery of general expansions into eigenfunctions of linear differential operators of first order and show, how these expansions can be recovered from function samples using generalized shift operators. We derive an ESPRIT-like algorithm for the generalized recovery method and show, that this approach can be directly used to reconstruct classical exponential sums from non-equispaced data. Furthermore, we derive a modification of Prony's method for sparse approximation with exponential sums which leads to a non-linear least-squares problem.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-10T20:15:03Z</published>
+    <arxiv:comment>27 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Ingeborg Keller</name>
+    </author>
+    <author>
+      <name>Gerlind Plonka</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.17047v2</id>
+    <title>Structure-Aware Matrix Pencil Method</title>
+    <updated>2025-09-29T10:59:43Z</updated>
+    <link href="https://arxiv.org/abs/2502.17047v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.17047v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We address the problem of detecting the number of complex exponentials and estimating their parameters from a noisy signal using the Matrix Pencil (MP) method. We introduce the MP modes and present their informative spectral structure. We show theoretically that these modes can be divided into signal and noise modes, where the signal modes exhibit a perturbed Vandermonde structure. Leveraging this structure, we propose a new MP algorithm, termed the SAMP algorithm, which has two novel components: (i) a robust, theoretically grounded model-order detection method, and (ii) an efficient estimation of the signal amplitudes. We show empirically that SAMP significantly outperforms the standard MP method in challenging conditions, with closely-spaced frequencies and low Signal-to-Noise Ratio (SNR) values, approaching the Cramer-Rao lower bound (CRB) for a broad SNR range. Additionally, compared with prevalent information-based criteria, we show that SAMP achieves comparable or better results with lower computational time, and lower sensitivity to noise model mismatch.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-24T10:57:15Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Yehonatan-Itay Segman</name>
+    </author>
+    <author>
+      <name>Alon Amar</name>
+    </author>
+    <author>
+      <name>Ronen Talmon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.7095v1</id>
+    <title>Parameter estimation of monomial-exponential sums</title>
+    <updated>2013-10-26T10:40:38Z</updated>
+    <link href="https://arxiv.org/abs/1310.7095v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.7095v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a numerical method, based upon matrix-pencils, for the identification of parameters and coefficients of a monomial-exponential sum. We note that this method can be considered an extension of the numerical methods for the parameter estimation of exponential sums. The application of the method is applied to several examples, some already present in the literature and others, to our knowledge, never considered before.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-26T10:40:38Z</published>
+    <arxiv:comment>13 pages, 2 figures - submitted -</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Electronic Transactions on Numerical Analysis 41 (2014), 249-261</arxiv:journal_ref>
+    <author>
+      <name>Luisa Fermo</name>
+    </author>
+    <author>
+      <name>Cornelis Van der Mee</name>
+    </author>
+    <author>
+      <name>Sebastiano Seatzu</name>
+    </author>
+  </entry>
+</feed>

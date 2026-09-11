@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cHWo5f8wMMRnkIQ6dVY/3RezrcY</id>
+  <title>arXiv Query: search_query=all:Pade OR all:approximants OR all:Stieltjes OR all:series OR all:convergence OR all:bounds&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:44:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Pade+OR+(all:approximants+OR+(all:Stieltjes+OR+(all:series+OR+(all:convergence+OR+all:bounds))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>637902</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.10093v1</id>
+    <title>Conjectures on Convergence and Scalar Curvature</title>
+    <updated>2021-03-18T08:57:36Z</updated>
+    <link href="https://arxiv.org/abs/2103.10093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.10093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Here we survey the compactness and geometric stability conjectures formulated by the participants at the 2018 IAS Emerging Topics Workshop on {\em Scalar Curvature and Convergence}. We have tried to survey all the progress towards these conjectures as well as related examples, although it is impossible to cover everything. We focus primarily on sequences of compact Riemannian manifolds with nonnegative scalar curvature and their limit spaces. Christina Sormani is grateful to have had the opportunity to write up our ideas and has done her best to credit everyone involved within the paper even though she is the only author listed above. In truth we are a team of over thirty people working together and apart on these deep questions and we welcome everyone who is interested in these conjectures to join us.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-18T08:57:36Z</published>
+    <arxiv:comment>Please email us any comments or corrections. 57 pages, 20 figures, IAS Emerging Topics on Scalar Curvature and Convergence</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Chapter for Perspectives in Scalar Curvature edited by Gromov and Lawson, World Scientific (2023)</arxiv:journal_ref>
+    <author>
+      <name>Christina Sormani</name>
+    </author>
+    <author>
+      <name>Participants at the IAS Emerging Topics Workshop on Scalar Curvature</name>
+    </author>
+    <author>
+      <name> Convergence</name>
+    </author>
+    <arxiv:doi>10.1142/12644</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/12644" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.0326v4</id>
+    <title>Bounds for the Stieltjes Transform and the Density of States of Wigner Matrices</title>
+    <updated>2014-12-04T12:54:46Z</updated>
+    <link href="https://arxiv.org/abs/1311.0326v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.0326v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider ensembles of Wigner matrices, whose entries are (up to the symmetry constraints) independent and identically distributed random variables. We show the convergence of the Stieltjes transform towards the Stieltjes transform of the semicircle law on optimal scales and with the optimal rate. Our bounds improve previous results, in particular from [22,10], by removing the logarithmic corrections. As applications, we establish the convergence of the eigenvalue counting functions with the rate $(\log N)/N$ and the rigidity of the eigenvalues of Wigner matrices on the same scale. These bounds improve the results of [22,10,23].</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-02T01:03:20Z</published>
+    <arxiv:comment>New title, former title "Optimal Bounds on the Stieltjes Transform of Wigner Matrices". Updated references</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Claudio Cacciapuoti</name>
+    </author>
+    <author>
+      <name>Anna Maltsev</name>
+    </author>
+    <author>
+      <name>Benjamin Schlein</name>
+    </author>
+    <arxiv:doi>10.1007/s00440-014-0586-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00440-014-0586-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0708.1245v1</id>
+    <title>Pade approximants of random Stieltjes series</title>
+    <updated>2007-08-09T10:57:04Z</updated>
+    <link href="https://arxiv.org/abs/0708.1245v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0708.1245v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider the random continued fraction S(t) := 1/(s_1 + t/(s_2 + t/(s_3 + &gt;...))) where the s_n are independent random variables with the same gamma distribution. For every realisation of the sequence, S(t) defines a Stieltjes function. We study the convergence of the finite truncations of the continued fraction or, equivalently, of the diagonal Pade approximants of the function S(t). By using the Dyson--Schmidt method for an equivalent one-dimensional disordered system, and the results of Marklof et al. (2005), we obtain explicit formulae (in terms of modified Bessel functions) for the almost-sure rate of convergence of these approximants, and for the almost-sure distribution of their poles.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-08-09T10:57:04Z</published>
+    <arxiv:comment>To appear in Proc Roy Soc</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Jens Marklof</name>
+    </author>
+    <author>
+      <name>Yves Tourigny</name>
+    </author>
+    <author>
+      <name>Lech Wolowski</name>
+    </author>
+    <arxiv:doi>10.1098/rspa.2007.0014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1098/rspa.2007.0014" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.3689v2</id>
+    <title>Two Point Pade Approximants and Duality</title>
+    <updated>2013-08-13T20:39:33Z</updated>
+    <link href="https://arxiv.org/abs/1307.3689v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.3689v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose the use of two point Pade approximants to find expressions valid uniformly in coupling constant for theories with both weak and strong coupling expansions. In particular, one can use these approximants in models with a strong/weak duality, when the symmetries do not determine exact expressions for some quantity.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-14T02:20:28Z</published>
+    <arxiv:comment>11 pages, 5 figures; fixed references, typos and corrected the sloppy version of the convergence theorem we quoted with up to date references on Pade convergence</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Tom Banks</name>
+    </author>
+    <author>
+      <name>T. J. Torres</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.03344v1</id>
+    <title>Factorial Series Representation of Stieltjes Series Converging Factors</title>
+    <updated>2024-06-01T11:13:49Z</updated>
+    <link href="https://arxiv.org/abs/2407.03344v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.03344v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The practical usefulness of Levin-type nonlinear sequence transformations as numerical tools for the summation of divergent series or for the convergence acceleration of slowly converging series, is nowadays beyond dispute. Weniger's transformation, in particular, is able to accomplish spectacular results when used to overcome resummation problems, often outperforming better known resummation techniques, the most known being Padé approximants. However, our understanding of its theoretical features is still far from being satisfactory and particularly bad as far as the decoding of factorially divergent series is concerned.
+  Stieltjes series represent a class of power series of fundamental interest in mathematical physics. In the present paper, it is shown how the Stieltjes series converging factor of any order is expressible as an inverse factorial series, whose terms can be analytically retrieved through a simple recursive algorithm. A few examples of applications of our algorithm are presented, in order to show its effectiveness and implementation ease. We believe the results presented here could constitute an important, preliminary step for the development of a general convergence theory of Weniger's transformation on Stieltjes series. A rather ambitious project, but worthy of being pursued in the future.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-01T11:13:49Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Riccardo Borghi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.2922v2</id>
+    <title>On nonstandard Pade approximants suitable for effective properties of two-phase composite materials</title>
+    <updated>2010-02-25T02:41:48Z</updated>
+    <link href="https://arxiv.org/abs/1002.2922v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.2922v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper investigates existence of the nonstandard Pade approximants introduced by Cherkaev and Zhang in J. Comp. Phys. 2009 for approximating the spectral function of composites from effective properties at different frequencies. The spectral functions contain microstructure information. Since this reconstruction problem is ill-posed [9], the well-performed Pade approach is noteworthy and requires further investigations. In this paper, we validate the assumption that the effective dielectric component of interest can be approximated by Pade approximants whose denominator has nonzero power one term. We refer to this as the nonstandard Pade approximant, in contrast to the standard approximants with nonzero constant terms. For composites whose spectral function assumes infinitely many different values, the proof is carried by using classic results for Stieltjes functions. For those with spectral functions having only finitely many different values, we prove the results by utilizing a special product decomposition of the coefficient matrix of the Pade system. The results in this paper can be considered as an extension of the Pade theory for Stieltjes functions whose spectral function take infinitely many different values to those taking only finitely many values. In the literature, the latter is usually excluded from the definition of Stieltjes functions because they correspond to rational functions, hence convergence of their Pade approximants is trivial. However, from an inverse problem point of view, our main concern is the existence of the nonstandard Pade approximants, rather than their convergence. The results in this paper provide a mathematical foundation for applying the Pade approach for reconstructing the spectral functions of composites whose microstructure is not a priori known.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-15T17:38:11Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Miao-jung Yvonne Ou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.04114v1</id>
+    <title>Log-convex and Stieltjes moment sequences</title>
+    <updated>2016-12-13T12:05:08Z</updated>
+    <link href="https://arxiv.org/abs/1612.04114v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.04114v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that Stieltjes moment sequences are infinitely log-convex, which parallels a famous result that (finite) Pólya frequency sequences are infinitely log-concave. We introduce the concept of $q$-Stieltjes moment sequences of polynomials and show that many well-known polynomials in combinatorics are such sequences. We provide a criterion for linear transformations and convolutions preserving Stieltjes moment sequences. Many well-known combinatorial sequences are shown to be Stieltjes moment sequences in a unified approach and therefore infinitely log-convex, which in particular settles a conjecture of Chen and Xia about the infinite log-convexity of the Schröder numbers. We also list some interesting problems and conjectures about the log-convexity and the Stieltjes moment property of the (generalized) Apéry numbers.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-13T12:05:08Z</published>
+    <arxiv:comment>For Conjecture 5.2, Prof. Sokal recently reminded us of his conjecture only for A_n, and B_n don't form a Stieltjes monment sequence</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>published in Advances in Applied Mathematics 2016 (81) 115-127</arxiv:journal_ref>
+    <author>
+      <name>Yi Wang</name>
+    </author>
+    <author>
+      <name>Bao-Xuan Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.06687v1</id>
+    <title>Asymptotic Convergence of Weniger's $δ$-Transformation for a Class of Superfactorially Divergent Stieltjes Series</title>
+    <updated>2026-04-29T15:54:00Z</updated>
+    <link href="https://arxiv.org/abs/2605.06687v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.06687v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The resummation of superfactorially divergent series represents a significant computational challenge in mathematical physics. In the present paper the resummation of a specific class of Stieltjes series characterized by a moment sequence growing as $(2n)!$ will be addressed. Despite the fact that Carleman's condition is satisfied for these series, the convergence rate of Padé approximants is severely hindered by the logarithmic divergence of the associated Carleman series. Weniger's $δ$ transformation is proposed as a highly efficient alternative resummation tool. By employing recently established results on the converging factors of superfactorially divergent Stieltjes series, an exact integral representation for the truncation error is obtained. This representation enables the rigorous derivation of the leading-order asymptotic behavior of the transformation error, as well as the estimation of the related convergence rate, for real positive arguments. Numerical experiments strongly support the theoretical findings, suggesting that the $δ$ transformation offers a robust and computationally efficient framework for decoding this class of wildly divergent expansions</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-29T15:54:00Z</published>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Riccardo Borghi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/9503062v1</id>
+    <title>Series Analysis of Tricritical Behavior: Mean-Field Model and Slicewise Pade Approximants</title>
+    <updated>1995-03-12T13:47:07Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/9503062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/9503062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A mean-field model is proposed as a test case for tricritical series analyses methods. Derivation of the 50th order series for the magnetization is reported. As the first application this series is analyzed by the traditional slicewise Pade approximant method popular in earlier studies of tricriticality.</summary>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-03-12T13:47:07Z</published>
+    <arxiv:comment>22 pages in plain TeX; 7 PostScript figs available by e-mail</arxiv:comment>
+    <arxiv:primary_category term="cond-mat"/>
+    <arxiv:journal_ref>J. Phys. A 28, 2445-2456 (1995)</arxiv:journal_ref>
+    <author>
+      <name>Joan Adler</name>
+    </author>
+    <author>
+      <name>Vladimir Privman</name>
+    </author>
+    <arxiv:doi>10.1088/0305-4470/28/9/008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0305-4470/28/9/008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0509181v2</id>
+    <title>Series representation; Pade' approximants and critical behavior in QCD at nonzero T and $mu_B$</title>
+    <updated>2005-11-16T16:13:24Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0509181v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0509181v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the analytic continuation beyond $μ/T \simeq 1$ in QCD at nonzero T and $μ$ by use of the Pade' approximants. The slope of the critical line obtained in this way increases at large $μ$ with respect to the second order Taylor result.In the hot phase Pade' and Taylor approximants coincide, suggesting a very large, and possibly infinite, radius of convergence of the Taylor series in this thermodynamic region.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-09-29T20:03:17Z</published>
+    <arxiv:comment>6 pages, 4 figures; contributed talk at Lattice 2005, Non-zero temperature and density</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2005 (2005) 168</arxiv:journal_ref>
+    <author>
+      <name>M. P. Lombardo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.00404v2</id>
+    <title>Self-Similarly Corrected Pade Approximants for the Indeterminate Problem</title>
+    <updated>2016-09-26T12:11:10Z</updated>
+    <link href="https://arxiv.org/abs/1510.00404v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.00404v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A method is suggested for treating the well-known deficiency in the use of Pade approximants that are well suited for approximating rational functions, but confront problems in approximating irrational functions. We develop the approach of self-similarly corrected Pade approximants, making it possible to essentially increase the class of functions treated by these approximants. The method works well even in those cases, where the standard Pade approximants are not applicable, resulting in divergent sequences. Numerical convergence of our method is demonstrated by several physical examples.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-29T10:02:02Z</published>
+    <arxiv:comment>Latex file, 33 pages, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="math.GM"/>
+    <arxiv:journal_ref>Eur. Phys. J. Plus 131 (2016) 340</arxiv:journal_ref>
+    <author>
+      <name>Simon Gluzman</name>
+    </author>
+    <author>
+      <name>Vyacheslav I. Yukalov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.07456v1</id>
+    <title>Full indefinite Stieltjes moment problem and Padé approximants</title>
+    <updated>2020-02-18T09:53:35Z</updated>
+    <link href="https://arxiv.org/abs/2002.07456v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.07456v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Full indefinite Stieltjes moment problem is studied via the step-by-step Schur algorithm. Naturally associated with indefinite Stieltjes moment problem are generalized Stieltjes continued fraction and a system of difference equations, which, in turn, lead to factorization of resolvent matrices of indefinite Stieltjes moment problem. A criterion for such a problem to be indeterminate in terms of continued fraction is found and a complete description of its solutions is given in the indeterminate case. Explicit formulae for diagonal and sub-diagonal Padé approximants for formal power series corresponding to indefinite Stieltjes moment problem and convergence results for Padé approximants are presented.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-18T09:53:35Z</published>
+    <arxiv:comment>29 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>V. Derkach</name>
+    </author>
+    <author>
+      <name>I. Kovalyov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.3362v1</id>
+    <title>A pointwise ergodic theorem for Fuchsian groups</title>
+    <updated>2010-10-16T15:31:07Z</updated>
+    <link href="https://arxiv.org/abs/1010.3362v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.3362v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use Series' Markovian coding for words in Fuchsian groups and the Bowen-Series coding of limit sets to prove an ergodic theorem for Cesaro averages of spherical averages in a Fuchsian group.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-16T15:31:07Z</published>
+    <arxiv:comment>16 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>Alexander I. Bufetov</name>
+      <arxiv:affiliation>Rice University and the Steklov Institute</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Caroline Series</name>
+      <arxiv:affiliation>Warwick University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1017/S0305004111000247</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S0305004111000247" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0609094v1</id>
+    <title>Pade and Hermite-Pade approximation and orthogonality</title>
+    <updated>2006-09-04T10:18:54Z</updated>
+    <link href="https://arxiv.org/abs/math/0609094v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0609094v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give a short introduction to Pade approximation (rational approximation to a function with close contact at one point) and to Hermite-Pade approximation (simultaneous rational approximation to several functions with close contact at one point) and show how orthogonality plays a crucial role. We give some insight into how logarithmic potential theory helps in describing the asymptotic behavior and the convergence properties of Pade and Hermite-Pade approximation.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-04T10:18:54Z</published>
+    <arxiv:comment>31 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Surveys in Approximation Theory 2 (2006), 61-91</arxiv:journal_ref>
+    <author>
+      <name>Walter Van Assche</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9509312v1</id>
+    <title>Pade Approximants, Borel Transforms and Renormalons: the Bjorken Sum Rule as a Case Study</title>
+    <updated>1995-09-17T16:21:00Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9509312v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9509312v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove that Pade approximants yield increasingly accurate predictions of higher-order coefficients in QCD perturbation series whose high-order behaviour is governed by a renormalon. We also prove that this convergence is accelerated if the perturbative series is Borel transformed. We apply Pade approximants and Borel transforms to the known perturbative coefficients for the Bjorken sum rule. The Pade approximants reduce considerably the renormalization-scale dependence of the perturbative correction to the Bjorken sum rule. We argue that the known perturbative series is already dominated by an infra-red renormalon, whose residue we extract and compare with QCD sum-rule estimates of higher-twist effects. We use the experimental data on the Bjorken sum rule to extract $α_s(M_Z^2) = 0.116_{-0.006}^{+0.004}$, including theoretical errors due to the finite order of available perturbative QCD calculations, renormalization-scale dependence and higher-twist effects.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-09-17T16:21:00Z</published>
+    <arxiv:comment>13 pages (latex) + 4 ps figures uuencoded in a self-unpacking file</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett.B366:268-275,1996</arxiv:journal_ref>
+    <author>
+      <name>John Ellis</name>
+    </author>
+    <author>
+      <name>Einan Gardi</name>
+    </author>
+    <author>
+      <name>Marek Karliner</name>
+    </author>
+    <author>
+      <name>Mark A. Samuel</name>
+    </author>
+    <arxiv:doi>10.1016/0370-2693(95)01326-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/0370-2693(95)01326-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.5694v1</id>
+    <title>A new algorithm for computing Pade approximants</title>
+    <updated>2011-12-24T03:18:56Z</updated>
+    <link href="https://arxiv.org/abs/1112.5694v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.5694v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In paper a new definition of reduced Pade approximant and algorithm for its computing is proposed. Our approach is based on the investigation of the kernel structure of the Toeplitz matrix. It is shown that the reduced Pade approximant always has nice properties which classical Pade approximant possesses only in the normal case. The new algorithm allows us to avoid Froissart doublets appearance induced by computer roundoff in the non-normal Pade table.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-24T03:18:56Z</published>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Adukov V. M.</name>
+    </author>
+    <author>
+      <name>Ibryaeva O. L</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0603190v2</id>
+    <title>Large-Nc QCD and Pade Approximant Theory</title>
+    <updated>2006-09-04T10:43:33Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0603190v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0603190v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the large-Nc limit of QCD, the chiral expansion of the vacuum polarization at low energies determines the whole function at any arbitrarily large (but finite) energy. This result is an immediate consequence of the Theory of Pade Approximants to Stieltjes functions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-03-23T10:28:11Z</published>
+    <arxiv:comment>7 pages, 2 figures. Few comments added. Version published in journal</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D74:054013,2006</arxiv:journal_ref>
+    <author>
+      <name>Santiago Peris</name>
+      <arxiv:affiliation>UAB/IFAE</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.74.054013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.74.054013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.5319v1</id>
+    <title>Pade Approximants of the Green Function in Spherically Symmetric Spacetimes</title>
+    <updated>2009-03-31T18:39:06Z</updated>
+    <link href="https://arxiv.org/abs/0903.5319v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.5319v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the scalar Green function for spherically symmetric spacetimes expressed as a coordinate series expansion in the separation of the points. We calculate the series expansion of the function $V(x,x')$ appearing in the Hadamard parametrix of the scalar Green function to very high order. This expansion is then used to investigate the convergence properties of the series and to estimate its radius of convergence. Using the method of Pade approximants, we show that the series can be extended beyond its radius of convergence to within a short distance of the normal neighborhood boundary.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-31T18:39:06Z</published>
+    <arxiv:comment>19 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D79:124044,2009</arxiv:journal_ref>
+    <author>
+      <name>Marc Casals</name>
+    </author>
+    <author>
+      <name>Sam Dolan</name>
+    </author>
+    <author>
+      <name>Adrian Ottewill</name>
+    </author>
+    <author>
+      <name>Barry Wardell</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.79.124044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.79.124044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.6863v1</id>
+    <title>The diagonal slice of Schottky space</title>
+    <updated>2014-09-24T09:06:21Z</updated>
+    <link href="https://arxiv.org/abs/1409.6863v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.6863v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An irreducible representation of the free group on two generators X,Y into SL(2,C) is determined up to conjugation by the traces of X,Y and XY. We study the diagonal slice of representations for which X,Y and XY have equal trace. Using the three-fold symmetry and Keen-Series pleating rays we locate those groups which are free and discrete, in which case the resulting hyperbolic manifold is a genus-2 handlebody.
+  We also compute the Bowditch set, consisting of those representations for which no primitive elements in the group generated by X,Y are parabolic or elliptic, and at most finitely many have trace with absolute value at most 2. In contrast to the quasifuchsian punctured torus groups originally studied by Bowditch, computer graphics show that this set is significantly different from the discreteness locus.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-24T09:06:21Z</published>
+    <arxiv:comment>44 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <arxiv:journal_ref>Algebr. Geom. Topol. 17 (2017) 2239-2282</arxiv:journal_ref>
+    <author>
+      <name>Caroline Series</name>
+    </author>
+    <author>
+      <name>Ser Peow Tan</name>
+    </author>
+    <author>
+      <name>Yasushi Yamashita</name>
+    </author>
+    <arxiv:doi>10.2140/agt.2017.17.2239</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/agt.2017.17.2239" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.11743v2</id>
+    <title>Convergence of spherical averages for actions of Fuchsian Groups</title>
+    <updated>2021-03-09T12:18:53Z</updated>
+    <link href="https://arxiv.org/abs/1805.11743v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.11743v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pointwise convergence of spherical averages is proved for a measure-preserving action of a Fuchsian group. The proof is based on a new variant of the Bowen-Series symbolic coding for Fuchsian groups that, developing a method introduced by Wroten, simultaneously encodes all possible shortest paths representing a given group element. The resulting coding is self-inverse, giving a reversible Markov chain to which methods previously introduced by the first author for the case of free groups may be applied.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-29T23:38:48Z</published>
+    <arxiv:comment>71 pages, 14 figures; a new proof for the result on the structure of thickened paths (see Sections 3 and 4), many minor improvements and clarifications</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>Alexander I. Bufetov</name>
+    </author>
+    <author>
+      <name>Alexey Klimenko</name>
+    </author>
+    <author>
+      <name>Caroline Series</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.2103v1</id>
+    <title>First order non-homogeneous q-difference equation for Stieltjes function characterizing q-orthogonal polynomials</title>
+    <updated>2012-05-09T21:03:03Z</updated>
+    <link href="https://arxiv.org/abs/1205.2103v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.2103v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we give a characterization of some classical q-orthogonal polynomials in terms of a difference property of the associated Stieltjes function, i.e this function solves a first order non-homogeneous q-difference equation. The solutions of the aforementioned q-difference equation (given in terms of hypergeometric series) for some canonical cases, namely, q-Charlier, q-Kravchuk, q-Meixner and q-Hahn are worked out.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-09T21:03:03Z</published>
+    <arxiv:comment>A characterization of some q-classical polynomials (orthogonal with respect to some q-distributions) given in terms of a difference property of the associated Stieltjes function is presented. Explicit expressions for the associated Stieltjes functions (for some canonical cases) in the q-falling factorial basis are given in terms of hypergeometric functions</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>J. Arvesú</name>
+    </author>
+    <author>
+      <name>A. Soria-Lorente</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0905.1111v2</id>
+    <title>Series representations for the Stieltjes constants</title>
+    <updated>2009-09-13T22:45:52Z</updated>
+    <link href="https://arxiv.org/abs/0905.1111v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0905.1111v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Stieltjes constants γ_k(a) appear as the coefficients in the regular part of the Laurent expansion of the Hurwitz zeta function ζ(s,a) about s=1. We present series representations of these constants of interest to theoretical and computational analytic number theory. A particular result gives an addition formula for the Stieltjes constants. As a byproduct, expressions for derivatives of all orders of the Stieltjes coefficients are given. Many other results are obtained, including instances of an exponentially fast converging series representation for γ_k=γ_k(1). Some extensions are briefly described, as well as the relevance to expansions of Dirichlet L functions.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-05-07T19:36:53Z</published>
+    <arxiv:comment>37 pages, no figures New material added at end, including Corollary 6</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Mark W. Coffey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.5753v3</id>
+    <title>Robust Pade approximants may have spurious poles</title>
+    <updated>2014-09-01T13:06:16Z</updated>
+    <link href="https://arxiv.org/abs/1309.5753v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.5753v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that robust Pade approximants may have spurious poles and may not converge pointwise</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-23T10:20:48Z</published>
+    <arxiv:comment>Changed the title</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Walter F. Mascarenhas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0610326v1</id>
+    <title>Holography, Pade Approximants and Deconstruction</title>
+    <updated>2006-10-25T16:10:35Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0610326v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0610326v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the relation between holographic calculations in 5D and the Migdal approach to correlation functions in large N theories. The latter employs Pade approximation to extrapolate short distance correlation functions to large distances. We make the Migdal/5D relation more precise by quantifying the correspondence between Pade approximation and the background and boundary conditions in 5D. We also establish a connection between the Migdal approach and the models of deconstructed dimensions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-10-25T16:10:35Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP 0702:086,2007</arxiv:journal_ref>
+    <author>
+      <name>Adam Falkowski</name>
+    </author>
+    <author>
+      <name>Manuel Perez-Victoria</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2007/02/086</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2007/02/086" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9510214v1</id>
+    <title>Compact Jacobi matrices: from Stieltjes to Krein and M(a,b)</title>
+    <updated>1995-10-09T00:00:00Z</updated>
+    <link href="https://arxiv.org/abs/math/9510214v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9510214v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In a note at the end of his paper {\it Recherches sur les fractions continues}, Stieltjes gave a necessary and sufficient condition when a continued fraction is represented by a meromorphic function. This result is related to the study of compact Jacobi matrices. We indicate how this notion was developped and used since Stieltjes, with special attention to the results by M. G. Krein. We also pay attention to the perturbation of a constant Jacobi matrix by a compact Jacobi matrix, work which basically started with Blumenthal in 1889 and which now is known as the theory for the class $M(a,b)$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-10-09T00:00:00Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Ann. Fac. Sci. Toulouse, numéro special Stieltjes (1996), 195-215</arxiv:journal_ref>
+    <author>
+      <name>Walter Van Assche</name>
+    </author>
+  </entry>
+</feed>

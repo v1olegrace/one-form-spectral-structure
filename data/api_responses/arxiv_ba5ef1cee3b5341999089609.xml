@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JT3++JPRUZe90Rc8XodjnZYQhew</id>
+  <title>arXiv Query: search_query=all:pseudospectrum OR all:Hankel OR all:pencil OR all:conditioning OR all:generalized OR all:eigenvalue&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:52:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:pseudospectrum+OR+(all:Hankel+OR+(all:pencil+OR+(all:conditioning+OR+(all:generalized+OR+all:eigenvalue))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1188306</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1209.6543v1</id>
+    <title>On the universality of the distribution of the generalized eigenvalues of a pencil of Hankel random matrices</title>
+    <updated>2012-09-28T15:20:37Z</updated>
+    <link href="https://arxiv.org/abs/1209.6543v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.6543v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Universality properties of the distribution of the generalized eigenvalues of a pencil of random Hankel matrices, arising in the solution of the exponential interpolation problem of a complex discrete stationary process, are proved under the assumption that every finite set of random variables of the process have a multivariate spherical distribution. An integral representation of the condensed density of the generalized eigenvalues is also derived. The asymptotic behavior of this function turns out to depend only on stationarity and not on the specific distribution of the process.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-28T15:20:37Z</published>
+    <arxiv:comment>20 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Random Matrices: Theory and Applications, vol.2, n.1, pp.1-14, 2013</arxiv:journal_ref>
+    <author>
+      <name>Piero Barone</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.18401v2</id>
+    <title>Condition pseudospectrum of operator pencils on non-archimedean Banach spaces</title>
+    <updated>2025-01-22T15:52:06Z</updated>
+    <link href="https://arxiv.org/abs/2305.18401v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.18401v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper deals with the condition pseudospectrum and essential condition pseudospectrum of operator pencils on n.a Banach spaces. We give a characterization of the condition pseudospectrum of operator pencils on n.a Banach spaces, the relation between the condition pseudospectrum of $(A,B)$ and the usual spectrum in a n.a valued field is investigated. Finally, we give a characterization of the essential spectrum of $(A,B)$ where $A\neq B$ by means of n.a completely continuous operators and we give some examples.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-28T15:09:52Z</published>
+    <arxiv:comment>There are many results, so all the results of the paper are false</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jawad Ettayb</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0801.3352v2</id>
+    <title>On the condensed density of the generalized eigenvalues of pencils of Hankel Gaussian random matrices and applications</title>
+    <updated>2010-09-07T08:53:36Z</updated>
+    <link href="https://arxiv.org/abs/0801.3352v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0801.3352v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pencils of Hankel matrices whose elements have a joint Gaussian distribution with nonzero mean and not identical covariance are considered. An approximation to the distribution of the squared modulus of their determinant is computed which allows to get a closed form approximation of the condensed density of the generalized eigenvalues of the pencils. Implications of this result for solving several moments problems are discussed and some numerical examples are provided.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-01-22T16:29:20Z</published>
+    <arxiv:comment>30 pages, 16 figures, better approximations provided</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <arxiv:journal_ref>Journal of Multivariate Analysis 111 (2012) 160-173</arxiv:journal_ref>
+    <author>
+      <name>Piero Barone</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmva.2012.05.009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmva.2012.05.009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.14337v2</id>
+    <title>PENCIL: Long Thoughts with Short Memory</title>
+    <updated>2025-07-06T22:23:16Z</updated>
+    <link href="https://arxiv.org/abs/2503.14337v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.14337v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While state-of-the-art LLMs have demonstrated great promise of using long Chains-of-Thought (CoT) to boost reasoning, scaling it up to more challenging problems at test-time is fundamentally limited by suboptimal memory usage -- intermediate computations accumulate indefinitely in context even when no longer needed for future thoughts. We introduce PENCIL, which incorporates a novel reduction mechanism into the autoregressive generation process that recursively cleans up intermediate thoughts based on patterns learned from training. By iteratively generating and erasing thoughts, PENCIL can think deeper to solve harder problems using shorter context and less compute. Empirically, we observe PENCIL is significantly more effective and efficient than CoT. For example, we demonstrate PENCIL with a small 25M-parameter transformer and 2048 context length solves Einstein's puzzle -- a task that challenges much larger models like GPT-4. Theoretically, we prove PENCIL can perform universal efficient computation by simulating any Turing machines with optimal time and space complexity, and thus can solve arbitrary computable tasks that are otherwise intractable for vanilla CoT.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-18T15:14:14Z</published>
+    <arxiv:comment>Accepted to ICML 2025. Codes in https://github.com/chr26195/PENCIL</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chenxiao Yang</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+    <author>
+      <name>David McAllester</name>
+    </author>
+    <author>
+      <name>Zhiyuan Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.16372v2</id>
+    <title>Pseudospectrum and (in)stability of black hole total transmission modes</title>
+    <updated>2026-06-08T07:46:36Z</updated>
+    <link href="https://arxiv.org/abs/2512.16372v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.16372v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Total transmission modes (TTMs) are modes with complex frequencies that propagate across a black hole spacetime without reflection. Recently, it is found that suitably tailored time-dependent scattering can excite these complex modes and suppress the reflected signal for the entire duration of the process, a phenomenon referred to as virtual absorption. Motivated by this, we present a study of the spectrum stability of TTMs using pseudospectrum and condition numbers. We focus on perturbations of $d$-dimensional Tangherlini black holes and recast the TTM problem as a generalized eigenvalue problem by utilizing the Eddington-Finkelstein coordinates. The results show that TTMs are generically spectrally unstable, with sensitivity increasing for higher overtones, in close analogy with quasinormal modes. A notable exception is the purely imaginary TTM in the positive imaginary axis in higher dimensions. Its pseudospectrum contours are nearly concentric, and its condition number is orders of magnitude smaller than those of the overtones, indicating enhanced spectral stability. As the spacetime dimension decreases, the condition number grows and becomes much larger in four dimensions in both the energy norm and the $L^2$ norm, suggesting possible spectral instability, although a definitive cross-dimensional conclusion is limited by the lack of a uniform physically preferred norm. Additionally, we confirm that purely imaginary TTMs occur for gravitational vector perturbations, whereas genuinely complex TTM families appear only in sufficiently high dimensions, $d \geqslant 8$, extending earlier claims that placed the onset at $d \geqslant 10$.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-18T10:11:41Z</published>
+    <arxiv:comment>revtex4, 13 pages, 4 figures; title changed, expanded discussion of the four-dimensional case, norm dependence, pseudospectrum convergence, and related issues; accepted by PRD</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D 113 (2026) 12, 124042</arxiv:journal_ref>
+    <author>
+      <name>Yu-Sen Zhou</name>
+    </author>
+    <author>
+      <name>Ming-Fei Ji</name>
+    </author>
+    <author>
+      <name>Liang-Bi Wu</name>
+    </author>
+    <author>
+      <name>Li-Ming Cao</name>
+    </author>
+    <arxiv:doi>10.1103/plvy-f3mf</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/plvy-f3mf" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.08129v6</id>
+    <title>Eigenvalue and pseudospectrum processes generated by nonnormal Toeplitz matrices with rank 1 perturbations</title>
+    <updated>2025-12-06T06:09:35Z</updated>
+    <link href="https://arxiv.org/abs/2401.08129v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.08129v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce two kinds of matrix-valued dynamical processes generated by nonnormal Toeplitz matrices with the additive rank 1 perturbations $δJ$, where $δ\in {\mathbb{C}}$ and $J$ is the all-ones matrix. For each process, first we report the complicated motion of the numerically obtained eigenvalues. Then we derive the specific equation which determines the motion of non-zero simple eigenvalues and clarifies the time-dependence of degeneracy of the zero-eigenvalue $λ_0=0$. Comparison with the solutions of this equation, it is concluded that the numerically observed non-zero eigenvalues distributing around $λ_0$ are the exact eigenvalues not of the original system, but of the system perturbed by uncontrolled rounding errors of computer. The complex domain in which the eigenvalues of randomly perturbed system are distributed is identified with the pseudospectrum including $λ_0$ of the original system with $δJ$. We characterize the pseudospectrum processes using the symbol curves of the corresponding nonnormal Toeplitz operators without $δJ$. We report new phenomena in our second model such that at each time the outermost closed simple curve cut out from the symbol curve is realized as the exact eigenvalues, but the inner part of symbol curve is reduced in size and embedded in the pseudospectrum including $λ_0$. Such separation of exact simple eigenvalues and a degenerated eigenvalue associated with pseudospectrum will be meaningful for numerical analysis, since the former is stable and robust, but the latter is highly sensitive and unstable with respective to perturbations. The present study will be related to the pseudospectra approaches to non-Hermitian systems developed in quantum physics</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-16T05:45:49Z</published>
+    <arxiv:comment>v6: LaTeX, two-column, 17 pages, 9 figures, the final version for publication</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>International Journal of Mathematics for Industry (2025) 2550013 (20 pages)</arxiv:journal_ref>
+    <author>
+      <name>Saori Morimoto</name>
+    </author>
+    <author>
+      <name>Makoto Katori</name>
+    </author>
+    <author>
+      <name>Tomoyuki Shirai</name>
+    </author>
+    <arxiv:doi>10.1142/S2661335225500133</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S2661335225500133" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.13118v2</id>
+    <title>Analysis of eigenvalue condition numbers for a class of randomized numerical methods for singular matrix pencils</title>
+    <updated>2024-01-11T08:45:27Z</updated>
+    <link href="https://arxiv.org/abs/2305.13118v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.13118v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The numerical solution of the generalized eigenvalue problem for a singular matrix pencil is challenging due to the discontinuity of its eigenvalues. Classically, such problems are addressed by first extracting the regular part through the staircase form and then applying a standard solver, such as the QZ algorithm, to that regular part. Recently, several novel approaches have been proposed to transform the singular pencil into a regular pencil by relatively simple randomized modifications. In this work, we analyze three such methods by Hochstenbach, Mehl, and Plestenjak that modify, project, or augment the pencil using random matrices. All three methods rely on the normal rank and do not alter the finite eigenvalues of the original pencil. We show that the eigenvalue condition numbers of the transformed pencils are unlikely to be much larger than the $δ$-weak eigenvalue condition numbers, introduced by Lotz and Noferini, of the original pencil. This not only indicates favorable numerical stability but also reconfirms that these condition numbers are a reliable criterion for detecting simple finite eigenvalues. We also provide evidence that, from a numerical stability perspective, the use of complex instead of real random matrices is preferable even for real singular matrix pencils and real eigenvalues. As a side result, we provide sharp left tail bounds for a product of two independent random variables distributed with the generalized beta distribution of the first kind or Kumaraswamy distribution.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-22T15:17:36Z</published>
+    <arxiv:comment>26 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>BIT Numer. Math. 64, 32 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Daniel Kressner</name>
+    </author>
+    <author>
+      <name>Bor Plestenjak</name>
+    </author>
+    <arxiv:doi>10.1007/s10543-024-01033-w</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10543-024-01033-w" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.0063v2</id>
+    <title>A remark on the reproducing kernel thesis for Hankel operators</title>
+    <updated>2012-01-11T23:24:04Z</updated>
+    <link href="https://arxiv.org/abs/1201.0063v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.0063v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a simple proof of the so called reproducing kernel thesis for Hankel operators</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-30T05:05:39Z</published>
+    <arxiv:comment>8 pages. The proof now covers the case of vectorial Hankel operators. Added the discussion about the connection with the generalized embedding theorems and with the Carleson embedding theorem</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergei Treil</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.17841v1</id>
+    <title>Truly Sub-Nyquist Method Based Matrix Pencil and CRT with Super Resolution</title>
+    <updated>2024-10-23T13:06:42Z</updated>
+    <link href="https://arxiv.org/abs/2410.17841v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.17841v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emergence of ultra-wideband (UWB) and high-throughput signals has necessitated advancements in data sampling technologies1. Sub-Nyquist sampling methods, such as the modulated wideband converter (MWC) and compressed auto-correlation spectrum sensing (CCS), address the limitations of traditional analog-to-digital converters (ADCs) by capturing signals below the Nyquist rate. However, these methods face challenges like spectral leakage and complex hardware requirements. This paper proposes a novel super-resolution generalized eigenvalue method that integrates the matrix pencil method with the Chinese Remainder Theorem (CRT) to enhance signal processing capabilities within a true sub-Nyquist framework3. This approach aims to improve frequency resolution and accuracy in high-frequency signal extraction, with potential applications in telecommunications, radar, and medical imaging.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-23T13:06:42Z</published>
+    <arxiv:comment>Sub-nyquist sampling, Matrix pencil method, CRT, Super resolution</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Huiguang Zhang</name>
+    </author>
+    <author>
+      <name>Baoguo Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.05993v2</id>
+    <title>Hankel continued fractions and Hankel determinants for $q$-deformed metallic numbers</title>
+    <updated>2026-01-17T09:21:16Z</updated>
+    <link href="https://arxiv.org/abs/2502.05993v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.05993v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fix $n$ a positive integer. Take the $n$-th metallic number $φ_n=\frac{n+\sqrt{n^2+4}}{2}$ (e.g. $φ_1$ is the golden number) and let $Φ_n(q)$ be its $q$-deformation in the sense of S. Morier-Genoud and V. Ovsienko. This is an algebraic continued fraction which admits an expansion into a Taylor series around $q=0$, with integral coefficients. By using the notion of Hankel continued fraction introduced by the first author in 2016 we determine explicitly the first $n+2$ sequences of shifted Hankel determinants of $Φ_n$ and show that they satisfy the following properties:
+  1) They are periodic and consist of $-1,0,1$ only.
+  2) They satisfy a three-term Gale-Robinson recurrence, i.e. they form discrete integrable dynamical systems.
+  3) They are all completely determined by the first sequence.
+  This article thus validates a conjecture formulated by V. Ovsienko and the second author in a recent paper and establishes new connections between $q$-deformations of real numbers and sequences of Catalan or Motzkin numbers.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-09T18:54:27Z</published>
+    <arxiv:comment>51 pages, 5 figures. Version 2 improvements: new theorem on the periodicity modulo a prime of the Hankel determinants, bibliography updates and minor corrections</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Guo-Niu Han</name>
+    </author>
+    <author>
+      <name>Emmanuel Pedon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.04080v1</id>
+    <title>Perturbation analysis for the linear operator equation using pseudospectrum and condition pseudospectrum</title>
+    <updated>2020-01-13T06:33:23Z</updated>
+    <link href="https://arxiv.org/abs/2001.04080v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.04080v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we consider the linear operator equation in a Banach space. The relative perturbation of the solution x corresponding to the perturbation of y, the perturbation of A and the perturbation of both A, y are characterized from the pseudospectrum and the condition pseudospectrum of A. Certain examples are given to illustrate the results. A relation between the pseudospectrum and the condition pseudospectrum of an operator are established. The distance to instability and the distance to singularity of an operator are also found from the condition pseudospectrum of the operator.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-13T06:33:23Z</published>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Krishna Kumar. G</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.31647v2</id>
+    <title>Order-Moment Transport and Hankel Determinants in Special-Function Inequalities</title>
+    <updated>2026-07-01T18:46:35Z</updated>
+    <link href="https://arxiv.org/abs/2606.31647v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.31647v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scalar inequalities in an order parameter often arise as the $2\times2$ shadow of a stronger Hankel determinant statement. We record a moment-representation criterion: positive exponential and Mellin order representations, together with gamma-normalized completely monotone averages, generate totally nonnegative Hankel kernels, with strictness controlled by the support of the representing measure. The criterion packages the classical total-positivity mechanism as a recognition calculus for special-function inequalities, turning the order parameter into a moment exponent after the correct normalization.
+  The applications include three named determinant lifts. First, we prove the positive Jackson $q$-gamma Hankel conjecture of Karp--Vishnyakova--Zhang: for $0&lt;q&lt;1$, the kernel $(x,y)\mapstoΓ_q(x+y)$ is $\mathrm{STP}_\infty$. This is an atomic Mellin-moment instance of the general criterion; the reciprocal sign-regularity problem for $1/Γ_q$ is separate and is not addressed here. Second, we answer Yang's continuous half-gamma Mills-ratio log-convexity question and strengthen it to strict total positivity, hence to all higher Hankel Turan determinants. Third, we treat Tricomi rays and the one-dimensional Coulomb regularization as all-minor Hankel determinant hierarchies. For the Coulomb regularization, the $2\times2$ minor gives the scalar log-convexity question recorded by Baricz--Pogany, and the full theorem supplies the corresponding all-minor strengthening.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-30T13:29:14Z</published>
+    <arxiv:comment>v016 adds the Jackson q-gamma application proving the positive Hankel-kernel conjecture of Karp--Vishnyakova--Zhang; the earlier JMAA-submitted v014 did not contain this section</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Domingos S. P. Salazar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.10365v3</id>
+    <title>Structured pseudospectrum and structured condition pseudospectrum of non-archimedean matrices</title>
+    <updated>2025-01-22T15:54:14Z</updated>
+    <link href="https://arxiv.org/abs/2211.10365v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.10365v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, the structured pseudospectrum of non-archimedean matrices and structured pseudospectrum of non-archimedean matrix pencils are introduced. Many results are proved about them and we give a few examples.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-11T21:41:04Z</published>
+    <arxiv:comment>There are many errors in the main results so the paper is false</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <author>
+      <name>Jawad Ettayb</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4567v1</id>
+    <title>On degenerate Hamburger moment problem and extensions of positive semidefinite Hankel block matrices</title>
+    <updated>2008-12-24T19:22:41Z</updated>
+    <link href="https://arxiv.org/abs/0812.4567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we consider two related objects: singular positive semidefinite Hankel block--matrices and associated degenerate truncated matrix Hamburger moment problems. The description of all solutions of a degenerate matrix Hamburger moment problem is given in terms of a linear fractional transformation. The case of interest is the Hamburger moment problem whose Hankel block--matrix admits a positive semidefinite Hankel extension.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-24T19:22:41Z</published>
+    <arxiv:comment>The corrected version of the paper "On degenerate Hamburger moment problem and extensions of nonnegative Hankel block matrices", Integral Equations Operator Theory 25 (1996), no. 3, 253--276</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Bolotnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.13192v3</id>
+    <title>Recovery of rational functions via Hankel pencil method and sensitivities of the poles</title>
+    <updated>2025-09-19T11:42:24Z</updated>
+    <link href="https://arxiv.org/abs/2406.13192v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.13192v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we introduce a new approach for the recovery of rational functions. The concept we propose is based on using the exponential structure of the Fourier coefficients of rational functions and the reconstruction of this exponential structure in the frequency domain. We choose ESPRIT as a method for the exponential recovery. The matrix pencil structure of this approach is the reason for its selection, as it makes our method suitable for the sensitivity analysis. According to our method, poles located inside and outside the unit circle are reconstructed independently as eigenvalues of some special Hankel matrix pencils. Furthermore, we derived formulas for sensitivities of poles of rational functions in case of unstructured and structured perturbations. Finally, we consider several numerical experiments and, using sensitivities, explain the recovery errors for poles.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-19T03:49:31Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Nadiia Derevianko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0402438v1</id>
+    <title>Perturbation of eigenvalues of matrix pencils and optimal assignment problem</title>
+    <updated>2004-02-26T17:06:13Z</updated>
+    <link href="https://arxiv.org/abs/math/0402438v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0402438v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider a matrix pencil whose coefficients depend on a positive parameter $ε$, and have asymptotic equivalents of the form $aε^A$ when $ε$ goes to zero, where the leading coefficient $a$ is complex, and the leading exponent $A$ is real. We show that the asymptotic equivalent of every eigenvalue of the pencil can be determined generically from the asymptotic equivalents of the coefficients of the pencil. The generic leading exponents of the eigenvalues are the "eigenvalues" of a min-plus matrix pencil. The leading coefficients of the eigenvalues are the eigenvalues of auxiliary matrix pencils, constructed from certain optimal assignment problems.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-02-26T17:06:13Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>C. R. Acad. Sci. Paris, Ser. I 339 (2004), pages 103--108.</arxiv:journal_ref>
+    <author>
+      <name>Marianne Akian</name>
+    </author>
+    <author>
+      <name>Ravindra Bapat</name>
+    </author>
+    <author>
+      <name>Stephane Gaubert</name>
+    </author>
+    <arxiv:doi>10.1016/j.crma.2004.05.001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.crma.2004.05.001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.01950v1</id>
+    <title>Uniform convergence of Hankel transforms</title>
+    <updated>2018-12-05T12:17:22Z</updated>
+    <link href="https://arxiv.org/abs/1812.01950v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.01950v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate necessary and/or sufficient conditions for the pointwise and uniform convergence of the weighted Hankel transforms $$\mathcal{L}^α_{ν,μ}f(r) = r^μ\int_0^\infty (rt)^νf(t) j_α(rt)\, dt, \quad α\geq -1/2, \quad r\geq 0, $$ where $ν,μ\in \mathbb{R}$ are such that $0\leq μ+ν\leq α+3/2$. We subdivide these transforms into two classes in such a way that the uniform convergence criteria is remarkably different on each class. In more detail, we have the transforms satisfying $μ+ν=0$ (such as the classical Hankel transform), that generalize the cosine transform, and those satisfying $0&lt;μ+ν\leq α+3/2$, generalizing the sine transform.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-05T12:17:22Z</published>
+    <arxiv:comment>1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>A. Debernardi, Uniform convergence of Hankel transforms, J. Math. Anal. Appl. 468 (2018), 1179-1206</arxiv:journal_ref>
+    <author>
+      <name>A. Debernardi</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmaa.2018.09.001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmaa.2018.09.001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.07912v1</id>
+    <title>Asymptotic Behaviour of Linear eigenvalue statistics of Hankel matrices</title>
+    <updated>2021-04-16T06:28:17Z</updated>
+    <link href="https://arxiv.org/abs/2104.07912v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.07912v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study linear eigenvalue statistics of band Hankel matrices with Brownian motion entries. We prove that, the centred, normalized linear eigenvalue statistics of band Hankel matrices obey a central limit theorem (CLT) type result. We also discuss the convergence of linear eigenvalue statistics of band Hankel matrices with independent entries for odd power monomials. Our method is based on trace formula, moment method and some results of process convergence.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-16T06:28:17Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Kiran Kumar A. S.</name>
+    </author>
+    <author>
+      <name>Shambhu Nath Maurya</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15740v1</id>
+    <title>Hankel low-rank matrix approximation for gravitational-wave data analysis</title>
+    <updated>2026-03-16T18:00:02Z</updated>
+    <link href="https://arxiv.org/abs/2603.15740v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15740v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Next-generation gravitational-wave (GW) detectors, such as the Laser Interferometer Space Antenna (LISA), will observe vast numbers of overlapping signals. Disentangling these signals from instrumental noise and from one another constitutes a significant data analysis challenge. We explore a denoising technique based on embedding time series into Hankel matrices: a superposition of $n$ (damped) sinusoids corresponds to a matrix of rank $2n$. Thus, the problem of signal extraction is reduced to a structured low-rank approximation problem. Using synthetic data tailored to GW applications, we benchmark three Hankel-based algorithms: ESPRIT, Cadzow iterations, and iteratively reweighted least squares (IRLS). Our test scenarios include isolated and multi-component monochromatic signals, the resolution of sources with closely spaced frequencies, and the recovery of black hole quasinormal modes (QNM). All three algorithms achieve near-optimal performance consistent with Fisher matrix bounds, evidenced by an inverse-square scaling of the mismatch with the signal-to-noise ratio. Furthermore, a proof-of-concept application to numerical relativity waveforms validates the ability of these algorithms to extract QNM frequencies from ringdown signals. Hankel low-rank approximation therefore offers a transparent, computationally efficient avenue for preprocessing GW time series.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-16T18:00:02Z</published>
+    <arxiv:comment>17 pages, 5 figures; for associated implementation, see https://github.com/CosmoVlad/lisa-hankel/tree/main/pipelines</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Nicholas Geissler</name>
+    </author>
+    <author>
+      <name>Vladimir Strokov</name>
+    </author>
+    <author>
+      <name>Christian Kümmerle</name>
+    </author>
+    <author>
+      <name>Sergey Kushnarev</name>
+    </author>
+    <author>
+      <name>Emanuele Berti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.1035v1</id>
+    <title>A generalized eigenvalue algorithm for tridiagonal matrix pencils based on a nonautonomous discrete integrable system</title>
+    <updated>2013-03-05T13:50:29Z</updated>
+    <link href="https://arxiv.org/abs/1303.1035v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.1035v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A generalized eigenvalue algorithm for tridiagonal matrix pencils is presented. The algorithm appears as the time evolution equation of a nonautonomous discrete integrable system associated with a polynomial sequence which has some orthogonality on the support set of the zeros of the characteristic polynomial for a tridiagonal matrix pencil. The convergence of the algorithm is discussed by using the solution to the initial value problem for the corresponding discrete integrable system.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-05T13:50:29Z</published>
+    <arxiv:comment>24 pages, 2 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>J. Comput. Appl. Math. 300 (2016) 134-154</arxiv:journal_ref>
+    <author>
+      <name>Kazuki Maeda</name>
+    </author>
+    <author>
+      <name>Satoshi Tsujimoto</name>
+    </author>
+    <arxiv:doi>10.1016/j.cam.2015.12.032</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cam.2015.12.032" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.08252v1</id>
+    <title>A non-Gaussian limit for linear eigenvalue statistics of Hankel matrices</title>
+    <updated>2022-09-17T05:12:49Z</updated>
+    <link href="https://arxiv.org/abs/2209.08252v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.08252v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article focuses on linear eigenvalue statistics of Hankel matrices with independent entries. Using the convergence of moments we show that the linear eigenvalue statistics of Hankel matrices for odd degree monomials with degree greater than or equal to three does not converge in distribution to a Gaussian random variable. This result is a departure from the known results, Liu, Sun and Wang (2012), Kumar and Maurya (2022), of linear eigenvalue statistics of Hankel matrices for even degree monomial test functions, where the limits were Gaussian random variables.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-17T05:12:49Z</published>
+    <arxiv:comment>22 Pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Kiran Kumar A. S.</name>
+    </author>
+    <author>
+      <name>Shambhu Nath Maurya</name>
+    </author>
+    <author>
+      <name>Koushik Saha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.03998v2</id>
+    <title>Left (right) pseudospectrum and left (right) condition pseudospectrum of bounded linear operators on ultrametric Banach spaces</title>
+    <updated>2025-01-22T15:55:36Z</updated>
+    <link href="https://arxiv.org/abs/2306.03998v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.03998v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note, we introduce and study the left (right) pseudospectrum and left (right) condition pseudospectrum of bounded linear operators on ultrametric Banach spaces. We prove some results about them.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-06T20:20:42Z</published>
+    <arxiv:comment>There are many erors of the main results so paper is false</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Jawad Ettayb</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.3634v1</id>
+    <title>Polynomial two-parameter eigenvalue problems and matrix pencil methods for stability of delay-differential equations</title>
+    <updated>2008-09-22T06:22:20Z</updated>
+    <link href="https://arxiv.org/abs/0809.3634v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.3634v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Several recent methods used to analyze asymptotic stability of delay-differential equations (DDEs) involve determining the eigenvalues of a matrix, a matrix pencil or a matrix polynomial constructed by Kronecker products. Despite some similarities between the different types of these so-called matrix pencil methods, the general ideas used as well as the proofs differ considerably. Moreover, the available theory hardly reveals the relations between the different methods.
+  In this work, a different derivation of various matrix pencil methods is presented using a unifying framework of a new type of eigenvalue problem: the polynomial two-parameter eigenvalue problem, of which the quadratic two-parameter eigenvalue problem is a special case. This framework makes it possible to establish relations between various seemingly different methods and provides further insight in the theory of matrix pencil methods.
+  We also recognize a few new matrix pencil variants to determine DDE stability.
+  Finally, the recognition of the new types of eigenvalue problem opens a door to efficient computation of DDE stability.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-22T06:22:20Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Elias Jarlebring</name>
+    </author>
+    <author>
+      <name>Michiel E. Hochstenbach</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.3191v1</id>
+    <title>Limit Distributions of Eigenvalues for Random Block Toeplitz and Hankel Matrices</title>
+    <updated>2010-10-15T15:08:05Z</updated>
+    <link href="https://arxiv.org/abs/1010.3191v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.3191v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Block Toeplitz and Hankel matrices arise in many aspects of applications. In this paper, we will research the distributions of eigenvalues for some models and get the semicircle law. Firstly we will give trace formulae of block Toeplitz and Hankel matrix. Then we will prove that the almost sure limit $γ_{_T}^{(m)}$ $(γ_{_H}^{(m)})$ of eigenvalue distributions of random block Toeplitz (Hankel) matrices exist and give the moments of the limit distributions where $m$ is the order of the blocks. Then we will prove the existence of almost sure limit of eigenvalue distributions of random block Toeplitz and Hankel band matrices and give the moments of the limit distributions. Finally we will prove that $γ_{_T}^{(m)}$ $(γ_{_H}^{(m)})$ converges weakly to the semicircle law as $m\ra\iy$.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-15T15:08:05Z</published>
+    <arxiv:comment>26 pages, 1 figure, accepted by Journal of Theoretical Probability</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Yi-Ting Li</name>
+    </author>
+    <author>
+      <name>Dang-Zheng Liu</name>
+    </author>
+    <author>
+      <name>Zheng-Dong Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.0852v1</id>
+    <title>Computing the smallest eigenvalue of large ill-conditioned Hankel matrices</title>
+    <updated>2009-02-05T06:40:37Z</updated>
+    <link href="https://arxiv.org/abs/0902.0852v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.0852v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper presents a parallel algorithm for finding the smallest eigenvalue of a particular form of ill-conditioned Hankel matrix, which requires the use of extremely high precision arithmetic. Surprisingly, we find that commonly-used approaches that are designed for high efficiency are actually less efficient than a direct approach under these conditions. We then develop a parallel implementation of the algorithm that takes into account the unusually high cost of individual arithmetic operations. Our approach combines message passing and shared memory, achieving near-perfect scalability and high tolerance for network latency. We are thus able to find solutions for much larger matrices than has been previously possible, with the potential for extending this work to systems with greater levels of parallelism.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-05T06:40:37Z</published>
+    <arxiv:comment>13 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Niall Emmart</name>
+    </author>
+    <author>
+      <name>Charles C. Weems</name>
+    </author>
+    <author>
+      <name>Yang Chen</name>
+    </author>
+  </entry>
+</feed>

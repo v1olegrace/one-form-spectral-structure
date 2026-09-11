@@ -1,0 +1,1172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TTSPn40+Ymm0/wF4jNUnDQw4K/E</id>
+  <title>arXiv Query: search_query=all:minimax OR all:rate OR all:estimation OR all:of OR all:support OR all:boundary OR all:deconvolution&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:46:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:minimax+OR+(all:rate+OR+(all:estimation+OR+(all:of+OR+(all:support+OR+(all:boundary+OR+all:deconvolution)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>784261</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.08313v1</id>
+    <title>MiniMax-01: Scaling Foundation Models with Lightning Attention</title>
+    <updated>2025-01-14T18:50:05Z</updated>
+    <link href="https://arxiv.org/abs/2501.08313v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.08313v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce MiniMax-01 series, including MiniMax-Text-01 and MiniMax-VL-01, which are comparable to top-tier models while offering superior capabilities in processing longer contexts. The core lies in lightning attention and its efficient scaling. To maximize computational capacity, we integrate it with Mixture of Experts (MoE), creating a model with 32 experts and 456 billion total parameters, of which 45.9 billion are activated for each token. We develop an optimized parallel strategy and highly efficient computation-communication overlap techniques for MoE and lightning attention. This approach enables us to conduct efficient training and inference on models with hundreds of billions of parameters across contexts spanning millions of tokens. The context window of MiniMax-Text-01 can reach up to 1 million tokens during training and extrapolate to 4 million tokens during inference at an affordable cost. Our vision-language model, MiniMax-VL-01 is built through continued training with 512 billion vision-language tokens. Experiments on both standard and in-house benchmarks show that our models match the performance of state-of-the-art models like GPT-4o and Claude-3.5-Sonnet while offering 20-32 times longer context window. We publicly release MiniMax-01 at https://github.com/MiniMax-AI.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-14T18:50:05Z</published>
+    <arxiv:comment>A technical report from MiniMax. The authors are listed in alphabetical order. We open-sourced our MiniMax-01 at https://github.com/MiniMax-AI</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name> MiniMax</name>
+    </author>
+    <author>
+      <name>Aonian Li</name>
+    </author>
+    <author>
+      <name>Bangwei Gong</name>
+    </author>
+    <author>
+      <name>Bo Yang</name>
+    </author>
+    <author>
+      <name>Boji Shan</name>
+    </author>
+    <author>
+      <name>Chang Liu</name>
+    </author>
+    <author>
+      <name>Cheng Zhu</name>
+    </author>
+    <author>
+      <name>Chunhao Zhang</name>
+    </author>
+    <author>
+      <name>Congchao Guo</name>
+    </author>
+    <author>
+      <name>Da Chen</name>
+    </author>
+    <author>
+      <name>Dong Li</name>
+    </author>
+    <author>
+      <name>Enwei Jiao</name>
+    </author>
+    <author>
+      <name>Gengxin Li</name>
+    </author>
+    <author>
+      <name>Guojun Zhang</name>
+    </author>
+    <author>
+      <name>Haohai Sun</name>
+    </author>
+    <author>
+      <name>Houze Dong</name>
+    </author>
+    <author>
+      <name>Jiadai Zhu</name>
+    </author>
+    <author>
+      <name>Jiaqi Zhuang</name>
+    </author>
+    <author>
+      <name>Jiayuan Song</name>
+    </author>
+    <author>
+      <name>Jin Zhu</name>
+    </author>
+    <author>
+      <name>Jingtao Han</name>
+    </author>
+    <author>
+      <name>Jingyang Li</name>
+    </author>
+    <author>
+      <name>Junbin Xie</name>
+    </author>
+    <author>
+      <name>Junhao Xu</name>
+    </author>
+    <author>
+      <name>Junjie Yan</name>
+    </author>
+    <author>
+      <name>Kaishun Zhang</name>
+    </author>
+    <author>
+      <name>Kecheng Xiao</name>
+    </author>
+    <author>
+      <name>Kexi Kang</name>
+    </author>
+    <author>
+      <name>Le Han</name>
+    </author>
+    <author>
+      <name>Leyang Wang</name>
+    </author>
+    <author>
+      <name>Lianfei Yu</name>
+    </author>
+    <author>
+      <name>Liheng Feng</name>
+    </author>
+    <author>
+      <name>Lin Zheng</name>
+    </author>
+    <author>
+      <name>Linbo Chai</name>
+    </author>
+    <author>
+      <name>Long Xing</name>
+    </author>
+    <author>
+      <name>Meizhi Ju</name>
+    </author>
+    <author>
+      <name>Mingyuan Chi</name>
+    </author>
+    <author>
+      <name>Mozhi Zhang</name>
+    </author>
+    <author>
+      <name>Peikai Huang</name>
+    </author>
+    <author>
+      <name>Pengcheng Niu</name>
+    </author>
+    <author>
+      <name>Pengfei Li</name>
+    </author>
+    <author>
+      <name>Pengyu Zhao</name>
+    </author>
+    <author>
+      <name>Qi Yang</name>
+    </author>
+    <author>
+      <name>Qidi Xu</name>
+    </author>
+    <author>
+      <name>Qiexiang Wang</name>
+    </author>
+    <author>
+      <name>Qin Wang</name>
+    </author>
+    <author>
+      <name>Qiuhui Li</name>
+    </author>
+    <author>
+      <name>Ruitao Leng</name>
+    </author>
+    <author>
+      <name>Shengmin Shi</name>
+    </author>
+    <author>
+      <name>Shuqi Yu</name>
+    </author>
+    <author>
+      <name>Sichen Li</name>
+    </author>
+    <author>
+      <name>Songquan Zhu</name>
+    </author>
+    <author>
+      <name>Tao Huang</name>
+    </author>
+    <author>
+      <name>Tianrun Liang</name>
+    </author>
+    <author>
+      <name>Weigao Sun</name>
+    </author>
+    <author>
+      <name>Weixuan Sun</name>
+    </author>
+    <author>
+      <name>Weiyu Cheng</name>
+    </author>
+    <author>
+      <name>Wenkai Li</name>
+    </author>
+    <author>
+      <name>Xiangjun Song</name>
+    </author>
+    <author>
+      <name>Xiao Su</name>
+    </author>
+    <author>
+      <name>Xiaodong Han</name>
+    </author>
+    <author>
+      <name>Xinjie Zhang</name>
+    </author>
+    <author>
+      <name>Xinzhu Hou</name>
+    </author>
+    <author>
+      <name>Xu Min</name>
+    </author>
+    <author>
+      <name>Xun Zou</name>
+    </author>
+    <author>
+      <name>Xuyang Shen</name>
+    </author>
+    <author>
+      <name>Yan Gong</name>
+    </author>
+    <author>
+      <name>Yingjie Zhu</name>
+    </author>
+    <author>
+      <name>Yipeng Zhou</name>
+    </author>
+    <author>
+      <name>Yiran Zhong</name>
+    </author>
+    <author>
+      <name>Yongyi Hu</name>
+    </author>
+    <author>
+      <name>Yuanxiang Fan</name>
+    </author>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Yufeng Yang</name>
+    </author>
+    <author>
+      <name>Yuhao Li</name>
+    </author>
+    <author>
+      <name>Yunan Huang</name>
+    </author>
+    <author>
+      <name>Yunji Li</name>
+    </author>
+    <author>
+      <name>Yunpeng Huang</name>
+    </author>
+    <author>
+      <name>Yunzhi Xu</name>
+    </author>
+    <author>
+      <name>Yuxin Mao</name>
+    </author>
+    <author>
+      <name>Zehan Li</name>
+    </author>
+    <author>
+      <name>Zekang Li</name>
+    </author>
+    <author>
+      <name>Zewei Tao</name>
+    </author>
+    <author>
+      <name>Zewen Ying</name>
+    </author>
+    <author>
+      <name>Zhaoyang Cong</name>
+    </author>
+    <author>
+      <name>Zhen Qin</name>
+    </author>
+    <author>
+      <name>Zhenhua Fan</name>
+    </author>
+    <author>
+      <name>Zhihang Yu</name>
+    </author>
+    <author>
+      <name>Zhuo Jiang</name>
+    </author>
+    <author>
+      <name>Zijia Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.13585v1</id>
+    <title>MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention</title>
+    <updated>2025-06-16T15:08:02Z</updated>
+    <link href="https://arxiv.org/abs/2506.13585v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.13585v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce MiniMax-M1, the world's first open-weight, large-scale hybrid-attention reasoning model. MiniMax-M1 is powered by a hybrid Mixture-of-Experts (MoE) architecture combined with a lightning attention mechanism. The model is developed based on our previous MiniMax-Text-01 model, which contains a total of 456 billion parameters with 45.9 billion parameters activated per token. The M1 model natively supports a context length of 1 million tokens, 8x the context size of DeepSeek R1. Furthermore, the lightning attention mechanism in MiniMax-M1 enables efficient scaling of test-time compute. These properties make M1 particularly suitable for complex tasks that require processing long inputs and thinking extensively. MiniMax-M1 is trained using large-scale reinforcement learning (RL) on diverse problems including sandbox-based, real-world software engineering environments. In addition to M1's inherent efficiency advantage for RL training, we propose CISPO, a novel RL algorithm to further enhance RL efficiency. CISPO clips importance sampling weights rather than token updates, outperforming other competitive RL variants. Combining hybrid-attention and CISPO enables MiniMax-M1's full RL training on 512 H800 GPUs to complete in only three weeks, with a rental cost of just $534,700. We release two versions of MiniMax-M1 models with 40K and 80K thinking budgets respectively, where the 40K model represents an intermediate phase of the 80K training. Experiments on standard benchmarks show that our models are comparable or superior to strong open-weight models such as the original DeepSeek-R1 and Qwen3-235B, with particular strengths in complex software engineering, tool utilization, and long-context tasks. We publicly release MiniMax-M1 at https://github.com/MiniMax-AI/MiniMax-M1.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-16T15:08:02Z</published>
+    <arxiv:comment>A technical report from MiniMax. The authors are listed in alphabetical order. We open-source our MiniMax-M1 at https://github.com/MiniMax-AI/MiniMax-M1</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name> MiniMax</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Aili Chen</name>
+    </author>
+    <author>
+      <name>Aonian Li</name>
+    </author>
+    <author>
+      <name>Bangwei Gong</name>
+    </author>
+    <author>
+      <name>Binyang Jiang</name>
+    </author>
+    <author>
+      <name>Bo Fei</name>
+    </author>
+    <author>
+      <name>Bo Yang</name>
+    </author>
+    <author>
+      <name>Boji Shan</name>
+    </author>
+    <author>
+      <name>Changqing Yu</name>
+    </author>
+    <author>
+      <name>Chao Wang</name>
+    </author>
+    <author>
+      <name>Cheng Zhu</name>
+    </author>
+    <author>
+      <name>Chengjun Xiao</name>
+    </author>
+    <author>
+      <name>Chengyu Du</name>
+    </author>
+    <author>
+      <name>Chi Zhang</name>
+    </author>
+    <author>
+      <name>Chu Qiao</name>
+    </author>
+    <author>
+      <name>Chunhao Zhang</name>
+    </author>
+    <author>
+      <name>Chunhui Du</name>
+    </author>
+    <author>
+      <name>Congchao Guo</name>
+    </author>
+    <author>
+      <name>Da Chen</name>
+    </author>
+    <author>
+      <name>Deming Ding</name>
+    </author>
+    <author>
+      <name>Dianjun Sun</name>
+    </author>
+    <author>
+      <name>Dong Li</name>
+    </author>
+    <author>
+      <name>Enwei Jiao</name>
+    </author>
+    <author>
+      <name>Haigang Zhou</name>
+    </author>
+    <author>
+      <name>Haimo Zhang</name>
+    </author>
+    <author>
+      <name>Han Ding</name>
+    </author>
+    <author>
+      <name>Haohai Sun</name>
+    </author>
+    <author>
+      <name>Haoyu Feng</name>
+    </author>
+    <author>
+      <name>Huaiguang Cai</name>
+    </author>
+    <author>
+      <name>Haichao Zhu</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+    <author>
+      <name>Jiaqi Zhuang</name>
+    </author>
+    <author>
+      <name>Jiaren Cai</name>
+    </author>
+    <author>
+      <name>Jiayuan Song</name>
+    </author>
+    <author>
+      <name>Jin Zhu</name>
+    </author>
+    <author>
+      <name>Jingyang Li</name>
+    </author>
+    <author>
+      <name>Jinhao Tian</name>
+    </author>
+    <author>
+      <name>Jinli Liu</name>
+    </author>
+    <author>
+      <name>Junhao Xu</name>
+    </author>
+    <author>
+      <name>Junjie Yan</name>
+    </author>
+    <author>
+      <name>Junteng Liu</name>
+    </author>
+    <author>
+      <name>Junxian He</name>
+    </author>
+    <author>
+      <name>Kaiyi Feng</name>
+    </author>
+    <author>
+      <name>Ke Yang</name>
+    </author>
+    <author>
+      <name>Kecheng Xiao</name>
+    </author>
+    <author>
+      <name>Le Han</name>
+    </author>
+    <author>
+      <name>Leyang Wang</name>
+    </author>
+    <author>
+      <name>Lianfei Yu</name>
+    </author>
+    <author>
+      <name>Liheng Feng</name>
+    </author>
+    <author>
+      <name>Lin Li</name>
+    </author>
+    <author>
+      <name>Lin Zheng</name>
+    </author>
+    <author>
+      <name>Linge Du</name>
+    </author>
+    <author>
+      <name>Lingyu Yang</name>
+    </author>
+    <author>
+      <name>Lunbin Zeng</name>
+    </author>
+    <author>
+      <name>Minghui Yu</name>
+    </author>
+    <author>
+      <name>Mingliang Tao</name>
+    </author>
+    <author>
+      <name>Mingyuan Chi</name>
+    </author>
+    <author>
+      <name>Mozhi Zhang</name>
+    </author>
+    <author>
+      <name>Mujie Lin</name>
+    </author>
+    <author>
+      <name>Nan Hu</name>
+    </author>
+    <author>
+      <name>Nongyu Di</name>
+    </author>
+    <author>
+      <name>Peng Gao</name>
+    </author>
+    <author>
+      <name>Pengfei Li</name>
+    </author>
+    <author>
+      <name>Pengyu Zhao</name>
+    </author>
+    <author>
+      <name>Qibing Ren</name>
+    </author>
+    <author>
+      <name>Qidi Xu</name>
+    </author>
+    <author>
+      <name>Qile Li</name>
+    </author>
+    <author>
+      <name>Qin Wang</name>
+    </author>
+    <author>
+      <name>Rong Tian</name>
+    </author>
+    <author>
+      <name>Ruitao Leng</name>
+    </author>
+    <author>
+      <name>Shaoxiang Chen</name>
+    </author>
+    <author>
+      <name>Shaoyu Chen</name>
+    </author>
+    <author>
+      <name>Shengmin Shi</name>
+    </author>
+    <author>
+      <name>Shitong Weng</name>
+    </author>
+    <author>
+      <name>Shuchang Guan</name>
+    </author>
+    <author>
+      <name>Shuqi Yu</name>
+    </author>
+    <author>
+      <name>Sichen Li</name>
+    </author>
+    <author>
+      <name>Songquan Zhu</name>
+    </author>
+    <author>
+      <name>Tengfei Li</name>
+    </author>
+    <author>
+      <name>Tianchi Cai</name>
+    </author>
+    <author>
+      <name>Tianrun Liang</name>
+    </author>
+    <author>
+      <name>Weiyu Cheng</name>
+    </author>
+    <author>
+      <name>Weize Kong</name>
+    </author>
+    <author>
+      <name>Wenkai Li</name>
+    </author>
+    <author>
+      <name>Xiancai Chen</name>
+    </author>
+    <author>
+      <name>Xiangjun Song</name>
+    </author>
+    <author>
+      <name>Xiao Luo</name>
+    </author>
+    <author>
+      <name>Xiao Su</name>
+    </author>
+    <author>
+      <name>Xiaobo Li</name>
+    </author>
+    <author>
+      <name>Xiaodong Han</name>
+    </author>
+    <author>
+      <name>Xinzhu Hou</name>
+    </author>
+    <author>
+      <name>Xuan Lu</name>
+    </author>
+    <author>
+      <name>Xun Zou</name>
+    </author>
+    <author>
+      <name>Xuyang Shen</name>
+    </author>
+    <author>
+      <name>Yan Gong</name>
+    </author>
+    <author>
+      <name>Yan Ma</name>
+    </author>
+    <author>
+      <name>Yang Wang</name>
+    </author>
+    <author>
+      <name>Yiqi Shi</name>
+    </author>
+    <author>
+      <name>Yiran Zhong</name>
+    </author>
+    <author>
+      <name>Yonghong Duan</name>
+    </author>
+    <author>
+      <name>Yongxiang Fu</name>
+    </author>
+    <author>
+      <name>Yongyi Hu</name>
+    </author>
+    <author>
+      <name>Yu Gao</name>
+    </author>
+    <author>
+      <name>Yuanxiang Fan</name>
+    </author>
+    <author>
+      <name>Yufeng Yang</name>
+    </author>
+    <author>
+      <name>Yuhao Li</name>
+    </author>
+    <author>
+      <name>Yulin Hu</name>
+    </author>
+    <author>
+      <name>Yunan Huang</name>
+    </author>
+    <author>
+      <name>Yunji Li</name>
+    </author>
+    <author>
+      <name>Yunzhi Xu</name>
+    </author>
+    <author>
+      <name>Yuxin Mao</name>
+    </author>
+    <author>
+      <name>Yuxuan Shi</name>
+    </author>
+    <author>
+      <name>Yuze Wenren</name>
+    </author>
+    <author>
+      <name>Zehan Li</name>
+    </author>
+    <author>
+      <name>Zelin Li</name>
+    </author>
+    <author>
+      <name>Zhanxu Tian</name>
+    </author>
+    <author>
+      <name>Zhengmao Zhu</name>
+    </author>
+    <author>
+      <name>Zhenhua Fan</name>
+    </author>
+    <author>
+      <name>Zhenzhen Wu</name>
+    </author>
+    <author>
+      <name>Zhichao Xu</name>
+    </author>
+    <author>
+      <name>Zhihang Yu</name>
+    </author>
+    <author>
+      <name>Zhiheng Lyu</name>
+    </author>
+    <author>
+      <name>Zhuo Jiang</name>
+    </author>
+    <author>
+      <name>Zibo Gao</name>
+    </author>
+    <author>
+      <name>Zijia Wu</name>
+    </author>
+    <author>
+      <name>Zijian Song</name>
+    </author>
+    <author>
+      <name>Zijun Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.07448v2</id>
+    <title>Minimax state estimates for abstract Neumann problems</title>
+    <updated>2017-12-24T22:31:10Z</updated>
+    <link href="https://arxiv.org/abs/1710.07448v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.07448v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The paper presents analytic expressions of minimax (worst-case) estimates for solutions of linear abstract Neumann problems in Hilbert space with uncertain (not necessarily bounded!) inputs and boundary conditions given incomplete observations with stochastic noise. The latter is assumed to have uncertain but bounded correlation operator. It is demonstrated that the minimax estimate is asymptotically exact under mild assumptions on observations and bounding sets. A relationship between the proposed estimates and a robust pseudo-inversion of compact operators is revealed. This relationship is demonstrated on an academic numerical example: homogeneous Neumann problem for Poisson equation in two spatial dimensions.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-20T08:21:14Z</published>
+    <arxiv:comment>accepted for publication in Minimax Theory and Applications</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <arxiv:journal_ref>Minimax Theory and its Applications, Volume 3 (2018), No. 1</arxiv:journal_ref>
+    <author>
+      <name>Alexander Nakonechnyi</name>
+    </author>
+    <author>
+      <name>Sergiy Zhuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.01853v3</id>
+    <title>Minimax Statistical Estimation under Wasserstein Contamination</title>
+    <updated>2025-11-21T17:03:29Z</updated>
+    <link href="https://arxiv.org/abs/2308.01853v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.01853v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contaminations are a key concern in modern statistical learning, as small but systematic perturbations of all datapoints can substantially alter estimation results. Here, we study Wasserstein-$r$ contaminations ($r\ge 1$) in an $\ell_q$ norm ($q\in [1,\infty]$), in which each observation may undergo an adversarial perturbation with bounded cost, complementing the classical Huber model, corresponding to total variation norm, where only a fraction of observations is arbitrarily corrupted. We study both independent and joint (coordinated) contaminations and develop a minimax theory under $\ell_q^r$ losses.
+  Our analysis encompasses several fundamental problems: location estimation, linear regression, and pointwise nonparametric density estimation. For joint contaminations in location estimation and for prediction in linear regression, we obtain the exact minimax risk, identify least favorable contaminations, and show that the sample mean and least squares predictor are respectively minimax optimal. For location estimation under independent contaminations, we give sharp upper and lower bounds, including exact minimaxity in the Euclidean Wasserstein contamination case, when $q=r=2$. For pointwise density estimation in any dimension, we derive the optimal rate, showing that it is achieved by kernel density estimation with a bandwidth that is possibly larger than the classical one.
+  Our proofs leverage powerful tools from optimal transport developed over the last 20 years, including the dynamic Benamou-Brenier formulation. Taken together, our results suggest that in contrast to the Huber contamination model, for norm-based Wasserstein contaminations, classical estimators may be nearly optimally robust.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-03T16:19:40Z</published>
+    <arxiv:comment>A revision, including a changed title. This version extends the results to more general perturbations and loss functions, while also obtaining a new optimal rate for density estimation. Some of the techniques described in the original submission (ambiguity set minimax lower bounds, Bayes lower bounds) are not required anymore and have thus been removed</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Patrick Chao</name>
+    </author>
+    <author>
+      <name>Edgar Dobriban</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.13570v3</id>
+    <title>Minimax Rates of Estimation for Optimal Transport Map between Infinite-Dimensional Spaces</title>
+    <updated>2025-12-16T08:37:15Z</updated>
+    <link href="https://arxiv.org/abs/2505.13570v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.13570v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the estimation of an optimal transport map between probability measures on an infinite-dimensional space and reveal its minimax optimal rate. Optimal transport theory defines distances within a space of probability measures, utilizing an optimal transport map as its key component. Estimating the optimal transport map from samples finds several applications, such as simulating dynamics between probability measures and functional data analysis. However, some transport maps on infinite-dimensional spaces require exponential-order data for estimation, which undermines their applicability. In this paper, we investigate the estimation of an optimal transport map between infinite-dimensional spaces, focusing on optimal transport maps characterized by the notion of $γ$-smoothness. Consequently, we show that the order of the minimax risk is polynomial rate in the sample size even in the infinite-dimensional setup. We also develop an estimator whose estimation error matches the minimax optimal rate. With these results, we obtain a class of reasonably estimable optimal transport maps on infinite-dimensional spaces and a method for their estimation. Our experiments validate the theory and practical utility of our approach with application to functional data analysis.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-19T13:00:29Z</published>
+    <arxiv:comment>Added proof of convergence rate for the neural network estimator</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Donlapark Ponnoprat</name>
+    </author>
+    <author>
+      <name>Masaaki Imaizumi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1107.1404v3</id>
+    <title>Multiscale Methods for Shape Constraints in Deconvolution: Confidence Statements for Qualitative Features</title>
+    <updated>2012-12-17T07:26:27Z</updated>
+    <link href="https://arxiv.org/abs/1107.1404v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.1404v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive multiscale statistics for deconvolution in order to detect qualitative features of the unknown density. An important example covered within this framework is to test for local monotonicity on all scales simultaneously. We investigate the moderately ill-posed setting, where the Fourier transform of the error density in the deconvolution model is of polynomial decay. For multiscale testing, we consider a calibration, motivated by the modulus of continuity of Brownian motion. We investigate the performance of our results from both the theoretical and simulation based point of view. A major consequence of our work is that the detection of qualitative features of a density in a deconvolution problem is a doable task although the minimax rates for pointwise estimation are very slow.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-07T14:33:54Z</published>
+    <arxiv:comment>55 pages, 5 figures, This is a revised version of a previous paper with the title: "Multiscale Methods for Shape Constraints in Deconvolution"</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Johannes Schmidt-Hieber</name>
+    </author>
+    <author>
+      <name>Axel Munk</name>
+    </author>
+    <author>
+      <name>Lutz Duembgen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.00649v1</id>
+    <title>Multilingual Word Error Rate Estimation: e-WER3</title>
+    <updated>2023-04-02T23:08:11Z</updated>
+    <link href="https://arxiv.org/abs/2304.00649v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.00649v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The success of the multilingual automatic speech recognition systems empowered many voice-driven applications. However, measuring the performance of such systems remains a major challenge, due to its dependency on manually transcribed speech data in both mono- and multilingual scenarios. In this paper, we propose a novel multilingual framework -- eWER3 -- jointly trained on acoustic and lexical representation to estimate word error rate. We demonstrate the effectiveness of eWER3 to (i) predict WER without using any internal states from the ASR and (ii) use the multilingual shared latent space to push the performance of the close-related languages. We show our proposed multilingual model outperforms the previous monolingual word error rate estimation method (eWER2) by an absolute 9\% increase in Pearson correlation coefficient (PCC), with better overall estimation between the predicted and reference WER.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-02T23:08:11Z</published>
+    <arxiv:comment>Accepted in ICASSP, Multilingual WER estimation, End-to-End systems, multilingual model, automatic word error rate estimation</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shammur Absar Chowdhury</name>
+    </author>
+    <author>
+      <name>Ahmed Ali</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.03135v2</id>
+    <title>Minimax Boundary Estimation and Estimation with Boundary</title>
+    <updated>2023-03-10T15:00:54Z</updated>
+    <link href="https://arxiv.org/abs/2108.03135v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.03135v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive non-asymptotic minimax bounds for the Hausdorff estimation of $d$-dimensional submanifolds $M \subset \mathbb{R}^D$ with (possibly) non-empty boundary $\partial M$. The model reunites and extends the most prevalent $\mathcal{C}^2$-type set estimation models: manifolds without boundary, and full-dimensional domains. We consider both the estimation of the manifold $M$ itself and that of its boundary $\partial M$ if non-empty. Given $n$ samples, the minimax rates are of order $O\bigl((\log n/n)^{2/d}\bigr)$ if $\partial M = \emptyset$ and $O\bigl((\log n/n)^{2/(d+1)}\bigr)$ if $\partial M \neq \emptyset$, up to logarithmic factors. In the process, we develop a Voronoi-based procedure that allows to identify enough points $O\bigl((\log n/n)^{2/(d+1)}\bigr)$-close to $\partial M$ for reconstructing it.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-06T14:07:29Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Eddie Aamari</name>
+    </author>
+    <author>
+      <name>Catherine Aaron</name>
+    </author>
+    <author>
+      <name>Clément Levrard</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.1660v3</id>
+    <title>Minimax theory of estimation of linear functionals of the deconvolution density with or without sparsity</title>
+    <updated>2015-05-15T21:09:16Z</updated>
+    <link href="https://arxiv.org/abs/1411.1660v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.1660v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The present paper considers a problem of estimating a linear functional $Φ=\int_{-\infty}^\infty \varphi(x) f(x)dx$ of an unknown deconvolution density $f$ on the basis of i.i.d. observations $Y_i = θ_i + ξ_i$ where $ξ_i$ has a known pdf $g$ and $f$ is the pdf of $θ_i$. Although various aspects and particular cases of this problem have been treated by a number of authors, there are still many gaps. In particular, there are no minimax lower bounds for an estimator of $Φ$ for an arbitrary function $\varphi$. The general upper risk bounds cover only the case when the Fourier transform of $\varphi$ exists. Moreover, no theory exists for estimating $Φ$ when vector of observations is sparse. In addition, until now, the related problem of estimation of functionals $Φ_n = n^{-1} \sum_{i=1}^n \varphi(θ_i)$ in indirect observations have been treated as a separate problem with no connection to estimation of $Φ$. The objective of the present paper is to fill in the gaps and develop the general minimax theory of estimation of $Φ$ and $Φ_n$. We offer a general approach to estimation of $Φ$ (and $Φ_n$) and provide the upper and the minimax lower risk bounds in the case when function $\varphi$ is square integrable. Furthermore, we extend the theory to the case when Fourier transform of $\varphi$ does not exist and $Φ$ can be presented as a linear functional of the Fourier transform of $f$ and its derivatives. Finally, we generalize our results to handle the situation when vector $θ$ is sparse. As a direct application of the proposed theory, we obtain multiple new results and automatically recover existing ones for a variety of problems such as estimation of the $(2M+1)$-th absolute moment or a generalized moment of the deconvolution density, estimation of the mixing cdf or estimation of the mixing pdf with classical and Berkson errors.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-06T16:48:21Z</published>
+    <arxiv:comment>40 pages</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Marianna Pensky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.02457v3</id>
+    <title>GDA-AM: On the effectiveness of solving minimax optimization via Anderson Acceleration</title>
+    <updated>2022-06-29T18:27:22Z</updated>
+    <link href="https://arxiv.org/abs/2110.02457v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.02457v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many modern machine learning algorithms such as generative adversarial networks (GANs) and adversarial training can be formulated as minimax optimization. Gradient descent ascent (GDA) is the most commonly used algorithm due to its simplicity. However, GDA can converge to non-optimal minimax points. We propose a new minimax optimization framework, GDA-AM, that views the GDAdynamics as a fixed-point iteration and solves it using Anderson Mixing to con-verge to the local minimax. It addresses the diverging issue of simultaneous GDAand accelerates the convergence of alternating GDA. We show theoretically that the algorithm can achieve global convergence for bilinear problems under mild conditions. We also empirically show that GDA-AMsolves a variety of minimax problems and improves GAN training on several datasets</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-06T02:08:54Z</published>
+    <arxiv:comment>31 Pages, ICLR, minimax, Anderson Acceleration</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Huan He</name>
+    </author>
+    <author>
+      <name>Shifan Zhao</name>
+    </author>
+    <author>
+      <name>Yuanzhe Xi</name>
+    </author>
+    <author>
+      <name>Joyce C Ho</name>
+    </author>
+    <author>
+      <name>Yousef Saad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.09306v1</id>
+    <title>Minimax Optimal rates of convergence in the shuffled regression, unlinked regression, and deconvolution under vanishing noise</title>
+    <updated>2024-04-14T17:08:43Z</updated>
+    <link href="https://arxiv.org/abs/2404.09306v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.09306v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Shuffled regression and unlinked regression represent intriguing challenges that have garnered considerable attention in many fields, including but not limited to ecological regression, multi-target tracking problems, image denoising, etc. However, a notable gap exists in the existing literature, particularly in vanishing noise, i.e., how the rate of estimation of the underlying signal scales with the error variance. This paper aims to bridge this gap by delving into the monotone function estimation problem under vanishing noise variance, i.e., we allow the error variance to go to $0$ as the number of observations increases. Our investigation reveals that, asymptotically, the shuffled regression problem exhibits a comparatively simpler nature than the unlinked regression; if the error variance is smaller than a threshold, then the minimax risk of the shuffled regression is smaller than that of the unlinked regression. On the other hand, the minimax estimation error is of the same order in the two problems if the noise level is larger than that threshold. Our analysis is quite general in that we do not assume any smoothness of the underlying monotone link function. Because these problems are related to deconvolution, we also provide bounds for deconvolution in a similar context. Through this exploration, we contribute to understanding the intricate relationships between these statistical problems and shed light on their behaviors when subjected to the nuanced constraint of vanishing noise.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-14T17:08:43Z</published>
+    <arxiv:comment>57 pages, 1 figure with 8 subfigures</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Cecile Durot</name>
+    </author>
+    <author>
+      <name>Debarghya Mukherjee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.07098v5</id>
+    <title>A Cubic Regularization Approach for Finding Local Minimax Points in Nonconvex Minimax Optimization</title>
+    <updated>2023-02-19T22:00:35Z</updated>
+    <link href="https://arxiv.org/abs/2110.07098v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.07098v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gradient descent-ascent (GDA) is a widely used algorithm for minimax optimization. However, GDA has been proved to converge to stationary points for nonconvex minimax optimization, which are suboptimal compared with local minimax points. In this work, we develop cubic regularization (CR) type algorithms that globally converge to local minimax points in nonconvex-strongly-concave minimax optimization. We first show that local minimax points are equivalent to second-order stationary points of a certain envelope function. Then, inspired by the classic cubic regularization algorithm, we propose an algorithm named Cubic-LocalMinimax for finding local minimax points, and provide a comprehensive convergence analysis by leveraging its intrinsic potential function. Specifically, we establish the global convergence of Cubic-LocalMinimax to a local minimax point at a sublinear convergence rate and characterize its iteration complexity. Also, we propose a GDA-based solver for solving the cubic subproblem involved in Cubic-LocalMinimax up to certain pre-defined accuracy, and analyze the overall gradient and Hessian-vector product computation complexities of such an inexact Cubic-LocalMinimax algorithm. Moreover, we propose a stochastic variant of Cubic-LocalMinimax for large-scale minimax optimization, and characterize its sample complexity under stochastic sub-sampling. Experimental results demonstrate faster convergence of our stochastic Cubic-LocalMinimax than some existing algorithms.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-14T00:36:44Z</published>
+    <arxiv:comment>43 pages, 9 figures. Text overlap with arXiv:2102.04653. The original title is "Escaping Saddle Points in Nonconvex Minimax Optimization via Cubic-Regularized Gradient Descent-Ascent"</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Ziyi Chen</name>
+    </author>
+    <author>
+      <name>Zhengyang Hu</name>
+    </author>
+    <author>
+      <name>Qunwei Li</name>
+    </author>
+    <author>
+      <name>Zhe Wang</name>
+    </author>
+    <author>
+      <name>Yi Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9609375v1</id>
+    <title>Analysis of Charged-Particle/Photon Observables in Hadronic Multiparticle Production</title>
+    <updated>1996-09-16T19:15:20Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9609375v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9609375v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In order to analyze data on joint charged-particle/photon distributions from an experimental search (T-864, MiniMax) for disoriented chiral condensate (DCC) at the Fermilab Tevatron collider, we have identified robust observables, ratios of normalized bivariate factorial moments, with many desirable properties. These include insensitivity to many efficiency corrections and the details of the modeling of the primary pion production, and sensitivity to the production of DCC, as opposed to the generic, binomial-distribution partition of pions into charged and neutral species. The relevant formalism is developed and tested in Monte-Carlo simulations of the MiniMax experimental conditions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-09-16T19:15:20Z</published>
+    <arxiv:comment>Latex, 35 pages, no figures. Submitted to Physical Review D. PostScript file at http://fnmine.fnal.gov:80/</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D55:5667-5680,1997</arxiv:journal_ref>
+    <author>
+      <name> MiniMax Collaboration</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.55.5667</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.55.5667" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.06809v1</id>
+    <title>Minimax Linear Estimation at a Boundary Point</title>
+    <updated>2017-10-18T16:11:13Z</updated>
+    <link href="https://arxiv.org/abs/1710.06809v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.06809v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper characterizes the minimax linear estimator of the value of an unknown function at a boundary point of its domain in a Gaussian white noise model under the restriction that the first-order derivative of the unknown function is Lipschitz continuous (the second-order Hölder class). The result is then applied to construct the minimax optimal estimator for the regression discontinuity design model, where the parameter of interest involves function values at boundary points.</summary>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-18T16:11:13Z</published>
+    <arxiv:primary_category term="econ.EM"/>
+    <author>
+      <name>Wayne Yuan Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.00837v4</id>
+    <title>Minimax rates for heterogeneous causal effect estimation</title>
+    <updated>2023-12-23T02:41:20Z</updated>
+    <link href="https://arxiv.org/abs/2203.00837v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.00837v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Estimation of heterogeneous causal effects - i.e., how effects of policies and treatments vary across subjects - is a fundamental task in causal inference. Many methods for estimating conditional average treatment effects (CATEs) have been proposed in recent years, but questions surrounding optimality have remained largely unanswered. In particular, a minimax theory of optimality has yet to be developed, with the minimax rate of convergence and construction of rate-optimal estimators remaining open problems. In this paper we derive the minimax rate for CATE estimation, in a Holder-smooth nonparametric model, and present a new local polynomial estimator, giving high-level conditions under which it is minimax optimal. Our minimax lower bound is derived via a localized version of the method of fuzzy hypotheses, combining lower bound constructions for nonparametric regression and functional estimation. Our proposed estimator can be viewed as a local polynomial R-Learner, based on a localized modification of higher-order influence function methods. The minimax rate we find exhibits several interesting features, including a non-standard elbow phenomenon and an unusual interpolation between nonparametric regression and functional estimation rates. The latter quantifies how the CATE, as an estimand, can be viewed as a regression/functional hybrid.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-02T03:13:37Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Edward H. Kennedy</name>
+    </author>
+    <author>
+      <name>Sivaraman Balakrishnan</name>
+    </author>
+    <author>
+      <name>James M. Robins</name>
+    </author>
+    <author>
+      <name>Larry Wasserman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.03621v1</id>
+    <title>Triple Motion Estimation and Frame Interpolation based on Adaptive Threshold for Frame Rate Up-Conversion</title>
+    <updated>2022-03-05T04:39:42Z</updated>
+    <link href="https://arxiv.org/abs/2203.03621v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.03621v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose a novel motion-compensated frame rate up-conversion (MC-FRUC) algorithm. The proposed algorithm creates interpolated frames by first estimating motion vectors using unilateral (jointing forward and backward) and bilateral motion estimation. Then motion vectors are combined based on adaptive threshold, in order to creates high-quality interpolated frames and reduce block artifacts. Since motion-compensated frame interpolation along unilateral motion trajectories yields holes, a new algorithm is introduced to resolve this problem. The experimental results show that the quality of the interpolated frames using the proposed algorithm is much higher than the existing algorithms.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-05T04:39:42Z</published>
+    <arxiv:comment>Frame rate up-conversion, frame interpolation, motion estimation, motion compensation</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Hanieh Naderi</name>
+    </author>
+    <author>
+      <name>Mohammad Rahmati</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.09858v1</id>
+    <title>Support sufficiency as action-sufficient compression: a single-cycle rate-regret formulation</title>
+    <updated>2026-05-28T14:59:41Z</updated>
+    <link href="https://arxiv.org/abs/2606.09858v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.09858v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robust decision-making requires compression. A system that forms a rich support state cannot usually preserve its full structure at the point of action. It must retain only those distinctions needed to act, verify, abstain, or defer under the current consequence geometry. This paper formalizes support sufficiency as action-sufficient compression. Let $H$ denote a full support state, $\mathcal{A}$ a finite action set, and $Z$ a consequence geometry specifying payoff structure. For fixed $Z$, the coarsest exactly action-sufficient compression is the quotient of support space by policy equivalence. Two support states may be merged exactly when they require the same optimal action. This clarifies why content-only and scalar-confidence-only arbitration fail whenever their induced partitions cross action boundaries. Approximate sufficiency is then defined by bounded expected policy regret. In the finite single-cycle setting, this yields a rate-regret problem with source $H$, reproduction alphabet $\mathcal{A}$, and distortion given by consequence-sensitive regret. The optimal stochastic action channel inherits the standard rate-distortion Gibbs form, applied here to support states with regret distortion. The contribution is interpretive: action adequacy is distinguished from reconstruction fidelity, information-bottleneck prediction, and rational inattention. Robust single-cycle arbitration does not require preserving all support, but it does require preserving the distinctions that consequence geometry makes action-relevant.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T14:59:41Z</published>
+    <arxiv:comment>22 pages. Submitted to Journal of Mathematical Psychology. Formal single-cycle model of action-sufficient support compression and rate-regret sufficiency</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Mark Walsh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.4461v5</id>
+    <title>Nonparametric Regression Estimation Based on Spatially Inhomogeneous Data: Minimax Global Convergence Rates and Adaptivity</title>
+    <updated>2012-10-26T15:15:33Z</updated>
+    <link href="https://arxiv.org/abs/1106.4461v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.4461v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the nonparametric regression estimation problem of recovering an unknown response function f on the basis of spatially inhomogeneous data when the design points follow a known compactly supported density g with a finite number of well separated zeros. In particular, we consider two different cases: when g has zeros of a polynomial order and when g has zeros of an exponential order. These two cases correspond to moderate and severe data losses, respectively. We obtain asymptotic minimax lower bounds for the global risk of an estimator of f and construct adaptive wavelet nonlinear thresholding estimators of f which attain those minimax convergence rates (up to a logarithmic factor in the case of a zero of a polynomial order), over a wide range of Besov balls.
+  The spatially inhomogeneous ill-posed problem that we investigate is inherently more difficult than spatially homogeneous problems like, e.g., deconvolution. In particular, due to spatial irregularity, assessment of minimax global convergence rates is a much harder task than the derivation of minimax local convergence rates studied recently in the literature. Furthermore, the resulting estimators exhibit very different behavior and minimax global convergence rates in comparison with the solution of spatially homogeneous ill-posed problems. For example, unlike in deconvolution problem, the minimax global convergence rates are greatly influenced not only by the extent of data loss but also by the degree of spatial homogeneity of f. Specifically, even if 1/g is not integrable, one can recover f as well as in the case of an equispaced design (in terms of minimax global convergence rates) when it is homogeneous enough since the estimator is "borrowing strength" in the areas where f is adequately sampled.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-22T14:24:34Z</published>
+    <arxiv:comment>45 pages</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Anestis Antoniadis</name>
+    </author>
+    <author>
+      <name>Marianna Pensky</name>
+    </author>
+    <author>
+      <name>Theofanis Sapatinas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00167v3</id>
+    <title>Approximating Nash Equilibrium Via Multilinear Minimax</title>
+    <updated>2023-12-29T04:10:40Z</updated>
+    <link href="https://arxiv.org/abs/1605.00167v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.00167v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nash equilibrium} (NE) can be stated as a formal theorem on a multilinear form, free of game theory terminology. On the other hand, inspired by this formalism, we state and prove a {\it multilinear minimax theorem}, a generalization of von Neumann's bilinear minimax theorem. As in the bilinear case, the proof is based on relating the underlying optimizations to a primal-dual pair of linear programming problems, albeit more complicated LPs. The theorem together with its proof is of independent interest. Next, we use the theorem to associate to a multilinear form in NE a {\it multilinear minimax relaxation} (MMR), where the primal-dual pair of solutions induce an approximate equilibrium point that provides a nontrivial upper bound on a convex combination of {\it expected payoffs} in any NE solution. In fact we show any positive probability vector associated to the players induces a corresponding {\it diagonally-scaled} MMR approximate equilibrium with its associated upper bound. By virtue of the proof of the multilinear minimax theorem, MMR solution can be computed in polynomial-time. On the other hand, it is known that even in bimatrix games NE is {\it PPAD-complete}, a complexity class in NP not known to be in P. The quality of MMR solution and the efficiency of solving the underlying LPs are the subject of further investigation. However, as shown in a separate article, for a large set of test problems in bimatrix games, not only the MMR payoffs for both players are better than any NE payoffs, so is the computing time of MMR in contrast with that of Lemke-Howsen algorithm. In large size problems the latter algorithm even fails to produce a Nash equilibrium. In summary, solving MMR provides a worthy approximation even if Nash equilibrium is shown to be computable in polynomial-time.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-30T21:07:16Z</published>
+    <arxiv:comment>Error in correct relationship between minimax and maximin. superseded by arXiv:1809.01717v3</arxiv:comment>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Bahman Kalantari</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.15051v2</id>
+    <title>Robust Estimation Under Heterogeneous Corruption Rates</title>
+    <updated>2025-09-30T18:17:37Z</updated>
+    <link href="https://arxiv.org/abs/2508.15051v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.15051v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of robust estimation under heterogeneous corruption rates, where each sample may be independently corrupted with a known but non-identical probability. This setting arises naturally in distributed and federated learning, crowdsourcing, and sensor networks, yet existing robust estimators typically assume uniform or worst-case corruption, ignoring structural heterogeneity. For mean estimation for multivariate bounded distributions and univariate gaussian distributions, we give tight minimax rates for all heterogeneous corruption patterns. For multivariate gaussian mean estimation and linear regression, we establish the minimax rate for squared error up to a factor of $\sqrt{d}$, where $d$ is the dimension. Roughly, our findings suggest that samples beyond a certain corruption threshold may be discarded by the optimal estimators -- this threshold is determined by the empirical distribution of the corruption rates given.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-20T20:29:33Z</published>
+    <arxiv:comment>NeurIPS 2025, fixed PAC minimax definition</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Syomantak Chaudhuri</name>
+    </author>
+    <author>
+      <name>Jerry Li</name>
+    </author>
+    <author>
+      <name>Thomas A. Courtade</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.05201v1</id>
+    <title>Multiscale inference for multivariate deconvolution</title>
+    <updated>2016-11-16T10:10:47Z</updated>
+    <link href="https://arxiv.org/abs/1611.05201v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.05201v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we provide new methodology for inference of the geometric features of a multivariate density in deconvolution. Our approach is based on multiscale tests to detect significant directional derivatives of the unknown density at arbitrary points in arbitrary directions. The multiscale method is used to identify regions of monotonicity and to construct a general procedure for the detection of modes of the multivariate density. Moreover, as an important application a significance test for the presence of a local maximum at a pre-specified point is proposed. The performance of the new methods is investigated from a theoretical point of view and the finite sample properties are illustrated by means of a small simulation study.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-16T10:10:47Z</published>
+    <arxiv:comment>Keywords and Phrases: deconvolution, modes, multivariate density, multiple tests, Gaussian approximation AMS Subject Classification: 62G07, 62G10, 62G20</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Konstantin Eckle</name>
+    </author>
+    <author>
+      <name>Nicolai Bissantz</name>
+    </author>
+    <author>
+      <name>Holger Dette</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.05335v2</id>
+    <title>$M$-estimation and deconvolution in a diffusion model with application to biosensor transdermal blood alcohol monitoring</title>
+    <updated>2023-02-23T00:33:50Z</updated>
+    <link href="https://arxiv.org/abs/2002.05335v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.05335v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop $M$-estimation and deconvolution methodology with the goal of making well-founded statistical inference on an individual's blood alcohol level based on noisy measurements of their skin alcohol content. We first apply our results to a nonlinear least squares estimator of the key parameter that specifies the blood/skin alcohol relation in a diffusion model, and establish its existence, consistency, and asymptotic normality. To make inference on the unknown underlying blood alchohol curve, we develop a basis space deconvolution approach with regulazation, and determine the asymptotic distribution of the error process, thus allowing us to compute uniform confidence bands on the curve. Simulation studies show agreement between the performance of our curve estimators and their asymptotic distributions at low noise levels, and we apply our methods to a real skin alcohol data set collected via a transdermal biosensor.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-13T04:20:23Z</published>
+    <arxiv:comment>46 pages, 13 figures. This version adds a deconvolution method using a basis space approach with regularization in order to make inference on the true underlying blood alcohol curve, a subsequent derivation of the asymptotic error process and evaluations of the resulting theoretical uniform confidence bands via simulations</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Maria Allayioti</name>
+    </author>
+    <author>
+      <name>Jay Bartroff</name>
+    </author>
+    <author>
+      <name>Haoxing Liu</name>
+    </author>
+    <author>
+      <name>Larry Goldstein</name>
+    </author>
+    <author>
+      <name>Susan Luczak</name>
+    </author>
+    <author>
+      <name>Gary Rosen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.0274v1</id>
+    <title>Multichannel Deconvolution with Long-Range Dependence: A Minimax Study</title>
+    <updated>2013-05-01T20:01:20Z</updated>
+    <link href="https://arxiv.org/abs/1305.0274v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.0274v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of estimating the unknown response function in the multichannel deconvolution model with long-range dependent Gaussian errors. We do not limit our consideration to a specific type of long-range dependence rather we assume that the errors should satisfy a general assumption in terms of the smallest and larger eigenvalues of their covariance matrices. We derive minimax lower bounds for the quadratic risk in the proposed multichannel deconvolution model when the response function is assumed to belong to a Besov ball and the blurring function is assumed to possess some smoothness properties, including both regular-smooth and super-smooth convolutions. Furthermore, we propose an adaptive wavelet estimator of the response function that is asymptotically optimal (in the minimax sense), or near-optimal within a logarithmic factor, in a wide range of Besov balls. It is shown that the optimal convergence rates depend on the balance between the smoothness parameter of the response function, the kernel parameters of the blurring function, the long memory parameters of the errors, and how the total number of observations is distributed among the total number of channels. Some examples of inverse problems in mathematical physics where one needs to recover initial or boundary conditions on the basis of observations from a noisy solution of a partial differential equation are used to illustrate the application of the theory we developed. The optimal convergence rates and the adaptive estimators we consider extend the ones studied by Pensky and Sapatinas (2009, 2010) for independent and identically distributed Gaussian errors to the case of long-range dependent Gaussian errors.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-01T20:01:20Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <arxiv:journal_ref>Journal of Statistical Planning and Inference, Vol. 148, 1-19 (2014). (Invited Paper)</arxiv:journal_ref>
+    <author>
+      <name>Rida Benhaddou</name>
+    </author>
+    <author>
+      <name>Rafal Kulik</name>
+    </author>
+    <author>
+      <name>Marianna Pensky</name>
+    </author>
+    <author>
+      <name>Theofanis Sapatinas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.02491v1</id>
+    <title>Density Deconvolution with Non-Standard Error Distributions: Rates of Convergence and Adaptive Estimation</title>
+    <updated>2021-01-07T11:20:46Z</updated>
+    <link href="https://arxiv.org/abs/2101.02491v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.02491v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is a typical standard assumption in the density deconvolution problem that the characteristic function of the measurement error distribution is non-zero on the real line. While this condition is assumed in the majority of existing works on the topic, there are many problem instances of interest where it is violated. In this paper we focus on non--standard settings where the characteristic function of the measurement errors has zeros, and study how zeros multiplicity affects the estimation accuracy. For a prototypical problem of this type we demonstrate that the best achievable estimation accuracy is determined by the multiplicity of zeros, the rate of decay of the error characteristic function, as well as by the smoothness and the tail behavior of the estimated density. We derive lower bounds on the minimax risk and develop optimal in the minimax sense estimators. In addition, we consider the problem of adaptive estimation and propose a data-driven estimator that automatically adapts to unknown smoothness and tail behavior of the density to be estimated.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-07T11:20:46Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Alexander Goldenshluger</name>
+    </author>
+    <author>
+      <name>Taeho Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.07948v1</id>
+    <title>Bandwidth selection in deconvolution kernel distribution estimators defined by stochastic approximation method with Laplace errors</title>
+    <updated>2016-06-25T18:22:48Z</updated>
+    <link href="https://arxiv.org/abs/1606.07948v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.07948v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we consider the kernel estimators of a distribution function defined by the stochastic approximation algorithm when the observation are contamined by measurement errors. It is well known that this estimators depends heavily on the choice of a smoothing parameter called the bandwidth. We propose a specific second generation plug-in method of the deconvolution kernel distribution estimators defined by the stochastic approximation algorithm. We show that, using the proposed bandwidth selection and the stepsize which minimize the MISE (Mean Integrated Squared Error), the proposed estimator will be better than the classical one for small sample setting when the error variance is controlled by the noise to signal ratio. We corroborate these theoretical results through simulations and a real dataset.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-25T18:22:48Z</published>
+    <arxiv:comment>to appear in Journal of Japan Statistical Society. arXiv admin note: text overlap with arXiv:1606.06988</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Yousri Slaoui</name>
+    </author>
+  </entry>
+</feed>

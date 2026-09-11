@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wAX7UWjXdFKKbQLdDbq3ih03e+g</id>
+  <title>arXiv Query: search_query=all:continued OR all:fraction OR all:Stieltjes OR all:moment OR all:problem OR all:quadrature OR all:bounds&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:44:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:continued+OR+(all:fraction+OR+(all:Stieltjes+OR+(all:moment+OR+(all:problem+OR+(all:quadrature+OR+all:bounds)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>935499</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1311.0326v4</id>
+    <title>Bounds for the Stieltjes Transform and the Density of States of Wigner Matrices</title>
+    <updated>2014-12-04T12:54:46Z</updated>
+    <link href="https://arxiv.org/abs/1311.0326v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.0326v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider ensembles of Wigner matrices, whose entries are (up to the symmetry constraints) independent and identically distributed random variables. We show the convergence of the Stieltjes transform towards the Stieltjes transform of the semicircle law on optimal scales and with the optimal rate. Our bounds improve previous results, in particular from [22,10], by removing the logarithmic corrections. As applications, we establish the convergence of the eigenvalue counting functions with the rate $(\log N)/N$ and the rigidity of the eigenvalues of Wigner matrices on the same scale. These bounds improve the results of [22,10,23].</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-02T01:03:20Z</published>
+    <arxiv:comment>New title, former title "Optimal Bounds on the Stieltjes Transform of Wigner Matrices". Updated references</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Claudio Cacciapuoti</name>
+    </author>
+    <author>
+      <name>Anna Maltsev</name>
+    </author>
+    <author>
+      <name>Benjamin Schlein</name>
+    </author>
+    <arxiv:doi>10.1007/s00440-014-0586-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00440-014-0586-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.04114v1</id>
+    <title>Log-convex and Stieltjes moment sequences</title>
+    <updated>2016-12-13T12:05:08Z</updated>
+    <link href="https://arxiv.org/abs/1612.04114v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.04114v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that Stieltjes moment sequences are infinitely log-convex, which parallels a famous result that (finite) Pólya frequency sequences are infinitely log-concave. We introduce the concept of $q$-Stieltjes moment sequences of polynomials and show that many well-known polynomials in combinatorics are such sequences. We provide a criterion for linear transformations and convolutions preserving Stieltjes moment sequences. Many well-known combinatorial sequences are shown to be Stieltjes moment sequences in a unified approach and therefore infinitely log-convex, which in particular settles a conjecture of Chen and Xia about the infinite log-convexity of the Schröder numbers. We also list some interesting problems and conjectures about the log-convexity and the Stieltjes moment property of the (generalized) Apéry numbers.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-13T12:05:08Z</published>
+    <arxiv:comment>For Conjecture 5.2, Prof. Sokal recently reminded us of his conjecture only for A_n, and B_n don't form a Stieltjes monment sequence</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>published in Advances in Applied Mathematics 2016 (81) 115-127</arxiv:journal_ref>
+    <author>
+      <name>Yi Wang</name>
+    </author>
+    <author>
+      <name>Bao-Xuan Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9307220v1</id>
+    <title>The impact of Stieltjes' work on continued fractions and orthogonal polynomials</title>
+    <updated>1993-07-09T00:00:00Z</updated>
+    <link href="https://arxiv.org/abs/math/9307220v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9307220v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Stieltjes' work on continued fractions and the orthogonal polynomials related to continued fraction expansions is summarized and an attempt is made to describe the influence of Stieltjes' ideas and work in research done after his death, with an emphasis on the theory of orthogonal polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-07-09T00:00:00Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>in "Thomas Jan Stieltjes Oeuvres Complètes - Collected Papers", G. van Dijk, ed., Springer, 1993, pp. 5-37</arxiv:journal_ref>
+    <author>
+      <name>Walter Van Assche</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.00068v2</id>
+    <title>On the complete solution of the general quintic using Rogers-Ramanujan continued fraction</title>
+    <updated>2022-05-18T19:28:40Z</updated>
+    <link href="https://arxiv.org/abs/1510.00068v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.00068v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article we give solution of the general quintic equation by means of the Rogers-Ramanujan continued fraction. More precisely we express a root of the quintic as a known algebraic function of the Rogers-Ramanujan continued fraction.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-30T22:55:08Z</published>
+    <arxiv:comment>Quintic Equation, Rogers-Ramanujan Continued Fraction</arxiv:comment>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Nikos Bagis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.6023v2</id>
+    <title>On a General Sextic Equation Solved by the Rogers Ramanujan Continued Fraction</title>
+    <updated>2012-09-16T05:24:35Z</updated>
+    <link href="https://arxiv.org/abs/1111.6023v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.6023v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article we solve a general class of sextic equations. The solution follows if we consider the $j$-invariant and relate it with the polynomial equation's coefficients. The form of the solution is a relation of Rogers-Ramanujan continued fraction. The inverse technique can also be used for the evaluation of the Rogers-Ramanujan continued fraction, in which the equation is not now the depressed equation but another quite more simplified equation.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-22T09:05:15Z</published>
+    <arxiv:comment>23 pages, Rogers Ramanujan Continued Fraction, Sextic Equation</arxiv:comment>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Nikos Bagis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.07456v1</id>
+    <title>Full indefinite Stieltjes moment problem and Padé approximants</title>
+    <updated>2020-02-18T09:53:35Z</updated>
+    <link href="https://arxiv.org/abs/2002.07456v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.07456v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Full indefinite Stieltjes moment problem is studied via the step-by-step Schur algorithm. Naturally associated with indefinite Stieltjes moment problem are generalized Stieltjes continued fraction and a system of difference equations, which, in turn, lead to factorization of resolvent matrices of indefinite Stieltjes moment problem. A criterion for such a problem to be indeterminate in terms of continued fraction is found and a complete description of its solutions is given in the indeterminate case. Explicit formulae for diagonal and sub-diagonal Padé approximants for formal power series corresponding to indefinite Stieltjes moment problem and convergence results for Padé approximants are presented.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-18T09:53:35Z</published>
+    <arxiv:comment>29 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>V. Derkach</name>
+    </author>
+    <author>
+      <name>I. Kovalyov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.00121v4</id>
+    <title>Continued fractions over non-Euclidean imaginary quadratic rings</title>
+    <updated>2022-07-09T13:50:10Z</updated>
+    <link href="https://arxiv.org/abs/1908.00121v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.00121v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose and study a generalized continued fraction algorithm that can be executed in an arbitrary imaginary quadratic field, the novelty being a non-restriction to the five Euclidean cases. Many hallmark properties of classical continued fractions are shown to be retained, including exponential convergence, best-of-the-second-kind approximation quality (up to a constant), periodicity of quadratic irrational expansions, and polynomial time complexity.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-31T22:19:02Z</published>
+    <arxiv:comment>Algorithm 2 (a subroutine for Algorithm 1, which is the main continued fraction algorithm) has been added in version 4. This gives the continued fraction algorithm polynomial complexity as stated in Theorem 4.6</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Daniel E. Martin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.05860v1</id>
+    <title>Multidimensional moment problem and Stieltjes transform</title>
+    <updated>2025-01-10T10:57:52Z</updated>
+    <link href="https://arxiv.org/abs/2501.05860v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.05860v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The truncated multidimensional moment problem is studied in terms of the Stieltjes transform as the interpolation problem. A step-by-step algorithm is constructed for the multidimensional moment problem and the set of solutions is found in terms of continued fractions.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-10T10:57:52Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Ivan Kovalyov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.03371v1</id>
+    <title>Schur algorithm for Stieltjes indefinite moment problem</title>
+    <updated>2016-06-10T15:42:59Z</updated>
+    <link href="https://arxiv.org/abs/1606.03371v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.03371v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nondegenerate truncated indefinite Stieltjes moment problem in the class $\mathbf{N}_κ^{k}$ of generalized Stieltjes functions is considered. To describe the set of solutions of this problem we apply the Schur step-by-step algorythm, which leads to the expansion of these solutions in generalized Stieltjes continuous fractions studied recently in \cite{DK15}. Explicit formula for the resolvent matrix in terms of generalized Stieltjes polynomials is found.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-10T15:42:59Z</published>
+    <arxiv:comment>27 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Derkach</name>
+    </author>
+    <author>
+      <name>Ivan Kovalyov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.12131v1</id>
+    <title>Continued-fraction characterization of Stieltjes moment sequences with support in $[ξ, \infty)$</title>
+    <updated>2024-04-18T12:33:17Z</updated>
+    <link href="https://arxiv.org/abs/2404.12131v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.12131v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a continued-fraction characterization of Stieltjes moment sequences for which there exists a representing measure with support in $[ξ, \infty)$. The proof is elementary.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-18T12:33:17Z</published>
+    <arxiv:comment>LaTeX2e, 10 pages. arXiv admin note: text overlap with arXiv:1903.12455</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Alan D. Sokal</name>
+    </author>
+    <author>
+      <name>James Walrad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.14924v2</id>
+    <title>Stieltjes moment properties and continued fractions from combinatorial triangles</title>
+    <updated>2021-06-01T14:06:19Z</updated>
+    <link href="https://arxiv.org/abs/2007.14924v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.14924v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many combinatorial numbers can be placed in the following generalized triangular array $[T_{n,k}]_{n,k\ge 0}$ satisfying the recurrence relation: \begin{equation*} T_{n,k}=λ(a_0n+a_1k+a_2)T_{n-1,k}+(b_0n+b_1k+b_2)T_{n-1,k-1}+\frac{d(da_1-b_1)}λ(n-k+1)T_{n-1,k-2} \end{equation*} with $T_{0,0}=1$ and $T_{n,k}=0$ unless $0\le k\le n$ for suitable $a_0,a_1,a_2,b_0,b_1,b_2,d$ and $λ$. For $n\geq0$, denote by $T_n(q)$ the generating function of the $n$-th row. In this paper, we develop various criteria for $\textbf{x}$-Stieltjes moment property and $3$-$\textbf{x}$-log-convexity of $T_n(q)$ based on the Jacobi continued fraction expression of $\sum_{n\geq0}T_n(q)t^n$, where $\textbf{x}$ is a set of indeterminates consisting of $q$ and those parameters occurring in the recurrence relation. With the help of a criterion of Wang and Zhu [Adv. in Appl. Math. (2016)], we show that the corresponding linear transformation of $T_{n,k}$ preserves Stieltjes moment properties of sequences. Finally, we present some related examples including factorial numbers, Whitney numbers, Stirling permutations, minimax trees and peak statistics.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-29T16:00:16Z</published>
+    <arxiv:comment>Advances in Applied Mathematics, 130 (2021) 102232, 33pp</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Bao-Xuan Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.05200v2</id>
+    <title>Continued Fractions and $q$-Series Generating Functions for the Generalized Sum-of-Divisors Functions</title>
+    <updated>2017-05-04T18:35:52Z</updated>
+    <link href="https://arxiv.org/abs/1704.05200v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.05200v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct new continued fraction expansions of Jacobi-type J-fractions in $z$ whose power series expansions generate the ratio of the $q$-Pochhamer symbols, $(a; q)_n / (b; q)_n$, for all integers $n \geq 0$ and where $a,b,q \in \mathbb{C}$ are non-zero and defined such that $|q| &lt; 1$ and $|b/a| &lt; |z| &lt; 1$. If we set the parameters $(a, b) := (q, q^2)$ in these generalized series expansions, then we have a corresponding J-fraction enumerating the sequence of terms $(1-q) / (1-q^{n+1})$ over all integers $n \geq 0$. Thus we are able to define new $q$-series expansions which correspond to the Lambert series generating the divisor function, $d(n)$, when we set $z \mapsto q$ in our new J-fraction expansions. By repeated differentiation with respect to $z$, we also use these generating functions to formulate new $q$-series expansions of the generating functions for the sums-of-divisors functions, $σ_α(n)$, when $α\in \mathbb{Z}^{+}$. To expand the new $q$-series generating functions for these special arithmetic functions we define a generalized classes of so-termed Stirling-number-like "$q$-coefficients", or Stirling $q$-coefficients, whose properties, relations to elementary symmetric polynomials, and relations to the convergents to our infinite J-fractions are also explored within the results proved in the article.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-18T04:33:23Z</published>
+    <arxiv:comment>Keywords: divisor function; sum of divisors function; continued fraction; J-fraction. MSC Subject Class (2010): 11J70; 11Y65; 40A30; 11B65; 11A25</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>J. Number Theory 180 (2017), 579--605</arxiv:journal_ref>
+    <author>
+      <name>Maxie D. Schmidt</name>
+    </author>
+    <arxiv:doi>10.1016/j.jnt.2017.05.023</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jnt.2017.05.023" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1107.2393v2</id>
+    <title>Generalizations of Ramanujans Continued fractions</title>
+    <updated>2012-08-07T07:37:54Z</updated>
+    <link href="https://arxiv.org/abs/1107.2393v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.2393v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article we continue a previous work in which we have generalized the Rogers Ramanujan continued fraction (RR) introducing what we call, the Ramanujan-Quantities (RQ). We use the Mathematica package to give several modular equations for certain cases of Ramanujan Quantities-(RQ). We also give the modular equations of degree 2 and 3 for the evaluation of the first derivative of Rogers-Ramanujan continued fraction. More precicely for certain classes of (RQ)'s we show how we can find the corresponding continued fraction expansions-S, in which we are able to evaluate with numerical methods some lower degree modular equations of this fraction and its derivatives. A systematicaly method for evaluating theoriticaly certain (RQ)'s (not for all) and their derivatives, with functions used by Ramanujan himself, is presented. We give applications and several results.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-13T04:02:36Z</published>
+    <arxiv:comment>31 pages, Ramanujan, Continued fractions</arxiv:comment>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Nikos Bagis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.05724v1</id>
+    <title>The Resolvent Matrix of the Truncated Hausdorff Matrix Moment Problem via New Dyukarev-Stieltjes Parameters and Extremal Solutions via Continued Fractions</title>
+    <updated>2016-10-18T18:00:21Z</updated>
+    <link href="https://arxiv.org/abs/1610.05724v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.05724v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We obtain a new multiplicative decomposition of the resolvent matrix of the truncated Hausdorff matrix moment (THMM) problem in the case of an odd and even number of moments via new Dyukarev-Stieltjes matrix (DSM) parameters. Explicit interrelations between new DSM parameters and orthogonal matrix polynomials on a finite interval $[a,b]$, as well as the Schur complements of the block Hankel matrices constructed through the moments of the THMM problem are given. Additionally, the extremal solutions of the THMM problem are represented via matrix continued fractions in terms of the DSM parameters.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-18T18:00:21Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Abdon E. Choque-Rivero</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.2031v1</id>
+    <title>The strong matrix Stieltjes moment problem</title>
+    <updated>2011-06-10T12:19:07Z</updated>
+    <link href="https://arxiv.org/abs/1106.2031v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.2031v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the strong matrix Stieltjes moment problem. We obtain necessary and sufficient conditions for its solvability. An analytic description of all solutions of the moment problem is derived. Necessary and sufficient conditions for the determinateness of the moment problem are given.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-10T12:19:07Z</published>
+    <arxiv:comment>21 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>A. E. Choque Rivero</name>
+    </author>
+    <author>
+      <name>S. M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9510214v1</id>
+    <title>Compact Jacobi matrices: from Stieltjes to Krein and M(a,b)</title>
+    <updated>1995-10-09T00:00:00Z</updated>
+    <link href="https://arxiv.org/abs/math/9510214v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9510214v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In a note at the end of his paper {\it Recherches sur les fractions continues}, Stieltjes gave a necessary and sufficient condition when a continued fraction is represented by a meromorphic function. This result is related to the study of compact Jacobi matrices. We indicate how this notion was developped and used since Stieltjes, with special attention to the results by M. G. Krein. We also pay attention to the perturbation of a constant Jacobi matrix by a compact Jacobi matrix, work which basically started with Blumenthal in 1889 and which now is known as the theory for the class $M(a,b)$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-10-09T00:00:00Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Ann. Fac. Sci. Toulouse, numéro special Stieltjes (1996), 195-215</arxiv:journal_ref>
+    <author>
+      <name>Walter Van Assche</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.1277v1</id>
+    <title>The generalized lognormal distribution and the Stieltjes moment problem</title>
+    <updated>2013-01-07T17:37:50Z</updated>
+    <link href="https://arxiv.org/abs/1301.1277v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.1277v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies a Stieltjes-type moment problem defined by the generalized lognormal distribution, a heavy-tailed distribution with applications in economics, finance and related fields. It arises as the distribution of the exponential of a random variable following a generalized error distribution, and hence figures prominently in the EGARCH model of asset price volatility. Compared to the classical lognormal distribution it has an additional shape parameter. It emerges that moment (in)determinacy depends on the value of this parameter: for some values, the distribution does not have finite moments of all orders, hence the moment problem is not of interest in these cases. For other values, the distribution has moments of all orders, yet it is moment-indeterminate. Finally, a limiting case is supported on a bounded interval, and hence determined by its moments. For those generalized lognormal distributions that are moment-indeterminate Stieltjes classes of moment-equivalent distributions are presented.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-07T17:37:50Z</published>
+    <arxiv:comment>12 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Journal of Theoretical Probability, 2014, Vol. 27, No. 4, 1167-1177</arxiv:journal_ref>
+    <author>
+      <name>Christian Kleiber</name>
+    </author>
+    <arxiv:doi>10.1007/s10959-013-0477-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10959-013-0477-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.15612v1</id>
+    <title>Dual opposing quadrature-PT symmetry</title>
+    <updated>2024-05-24T14:57:31Z</updated>
+    <link href="https://arxiv.org/abs/2405.15612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.15612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our recent research on type-I quadrature parity-time (PT) symmetry, utilizing an open twin-beam system, not only enables observing genuine quantum photonic PT symmetry amid phase-sensitive amplification (PSA) and loss in the presence of Langevin noise but also reveals additional classical-to-quantum (C2Q) transitions in quadrature and relative-intensity noise fluctuations. In contrast to the previous setup, our exploration of an alternative system assuming no loss involves a type-II PSA-only scheme. This scheme facilitates dual opposing quadrature PT symmetry, offering a comprehensive and complementary comprehension of C2Q transitions and anti-Hermiticity-enhanced quantum sensing. Furthermore, our investigation into the correlation with the Einstein-Podolsky-Rosen criteria uncovers previously unexplored connections between PT symmetry and nonclassicality, as well as quantum entanglement within the continuous-variable framework.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-24T14:57:31Z</published>
+    <arxiv:comment>This is type-II quadrature PT symmetry, compared to type-I quadrature PT symmetry (arXiv:2301.05511)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>iScience 28 (1), 111655 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Wencong Wang</name>
+    </author>
+    <author>
+      <name>Jacob Kokinda</name>
+    </author>
+    <author>
+      <name>Jiazhen Li</name>
+    </author>
+    <author>
+      <name>Qing Gu</name>
+    </author>
+    <author>
+      <name>Dongmei Liu</name>
+    </author>
+    <author>
+      <name>Jianming Wen</name>
+    </author>
+    <arxiv:doi>10.1016/j.isci.2024.111655</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.isci.2024.111655" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.6681v2</id>
+    <title>On Salem numbers, expansive polynomials and Stieltjes continued fractions</title>
+    <updated>2015-07-22T19:00:55Z</updated>
+    <link href="https://arxiv.org/abs/1402.6681v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.6681v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A converse method to the Construction of Salem (1945) of convergent families of Salem numbers is investigated in terms of an association between Salem polynomials and Hurwitz quotients via expansive polynomials of small Mahler measure. This association makes use of Bertin-Boyd's Theorem A (1995) of interlacing of conjugates on the unit circle; in this context, a Salem number $β$ is produced and coded by an m-tuple of positive rational numbers characterizing the (SITZ) Stieltjes continued fraction of the corresponding Hurwitz quotient (alternant). The subset of Stieltjes continued fractions over a Salem polynomial having simple roots, not cancelling at $\pm 1$, coming from monic expansive polynomials of constant term equal to their Mahler measure, has a semigroup structure. The sets of corresponding generalized Garsia numbers inherit this semi-group structure.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-26T20:45:44Z</published>
+    <arxiv:comment>35 pages, Journal de Th{é}orie des nombres de Bordeaux, Soumission</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Journal de Th{é}orie des Nombres de Bordeaux, Universit{é} Bordeaux 1, 2015, pp.00-00</arxiv:journal_ref>
+    <author>
+      <name>Christelle Guichard</name>
+    </author>
+    <author>
+      <name>Jean-Louis Verger-Gaugry</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.02779v3</id>
+    <title>Multi-phase Quadrature domains and a related minimization problem</title>
+    <updated>2015-12-19T16:44:44Z</updated>
+    <link href="https://arxiv.org/abs/1511.02779v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.02779v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we introduce the multi-phase version of the so-called Quadrature Domains (QD), which refers to a generalized type of mean value property for harmonic functions. The well-established and developed theory of one-phase QD was recently generalized to a two-phase version, by one of the current authors (in collaboration). Here we introduce the concept of the multi-phase version of the problem, and prove existence as well as several properties of such solutions. In particular, we discuss possibilities of multi-junction points.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-09T17:37:20Z</published>
+    <arxiv:comment>26 pages, 2 figures, Quadrature domains, free boundaries</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Avetik Arakelyan</name>
+    </author>
+    <author>
+      <name>Henrik Shahgholian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.06268v4</id>
+    <title>Product formulas for the $5$-division points on the Tate normal form and the Rogers-Ramanujan continued fraction</title>
+    <updated>2018-06-11T09:54:22Z</updated>
+    <link href="https://arxiv.org/abs/1612.06268v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.06268v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Explicit formulas are proved for the $5$-torsion points on the Tate normal form $E_5$ of an elliptic curve having $(X,Y)=(0,0)$ as a point of order $5$. These formulas express the coordinates of points in $E_5[5] - \langle(0,0)\rangle$ as products of linear fractional quantities in terms of $5$-th roots of unity and a parameter $u$, where the parameter $b$ which defines the curve $E_5$ is given as $b=(\varepsilon^5 u^5- \varepsilon^{-5})/(u^5+1)$ and $\varepsilon = (-1+\sqrt{5})/2$. If $r(τ)$ is the Rogers-Ramanujan continued fraction and $b=r^5(τ)$, then the coordinates of points of order $5$ in $E_5[5] - \langle(0,0)\rangle$ are shown to be products of linear fractional expressions in $r(5τ)$ with coefficients in $\mathbb{Q}(ζ_5)$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-19T17:06:49Z</published>
+    <arxiv:comment>19 pages; the paper now discusses the connection with the Rogers-Ramanujan continued fraction; in version 4 several formulas in version 3 have been corrected</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Journal of Number Theory 200 (2019), 380-396</arxiv:journal_ref>
+    <author>
+      <name>Patrick Morton</name>
+    </author>
+    <arxiv:doi>10.1016/j.jnt.2018.12.013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jnt.2018.12.013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1011.3521v1</id>
+    <title>Parametric Evaluations of the Rogers Ramanujan Continued Fraction</title>
+    <updated>2010-11-15T21:05:16Z</updated>
+    <link href="https://arxiv.org/abs/1011.3521v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1011.3521v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article with the help of the inverse function of the singular moduli we evaluate the Rogers Ranmanujan continued fraction and his first derivative.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-11-15T21:05:16Z</published>
+    <arxiv:comment>Ramanujan; Continued Fractions;Elliptic Functions</arxiv:comment>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Nikos Bagis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.11653v1</id>
+    <title>Continued fraction expansions of Herglotz-Nevanlinna functions and generalized indefinite strings of Stieltjes type</title>
+    <updated>2020-03-25T21:45:01Z</updated>
+    <link href="https://arxiv.org/abs/2003.11653v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.11653v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We employ some results about continued fraction expansions of Herglotz-Nevanlinna functions to characterize the spectral data of generalized indefinite strings of Stieltjes type. In particular, this solves the corresponding inverse spectral problem through explicit formulas.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-25T21:45:01Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Bull. Lond. Math. Soc. 54 (2022), no. 2, 737-759</arxiv:journal_ref>
+    <author>
+      <name>Jonathan Eckhardt</name>
+    </author>
+    <arxiv:doi>10.1112/blms.12598</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/blms.12598" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.07148v1</id>
+    <title>Solution to the Stieltjes moment problem in Gelfand-Shilov spaces</title>
+    <updated>2019-05-17T07:49:28Z</updated>
+    <link href="https://arxiv.org/abs/1905.07148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.07148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We characterize the surjectivity and the existence of a continuous linear right inverse of the Stieltjes moment mapping on Gelfand-Shilov spaces, both of Beurling and Roumieu type, in terms of their defining weight sequence. As a corollary, we obtain some new results about the Borel-Ritt problem in spaces of ultraholomorphic functions on the upper half-plane.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-17T07:49:28Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Andreas Debrouwere</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.1909v4</id>
+    <title>Asymptotics and Sequential Closures of Continued Fractions and Generalizations</title>
+    <updated>2009-01-09T21:00:57Z</updated>
+    <link href="https://arxiv.org/abs/0709.1909v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.1909v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Given a sequence of complex square matrices, $a_n$, consider the sequence of their partial products, defined by $p_n=p_{n-1}a_{n}$. What can be said about the asymptotics as $n\to\infty$ of the sequence $f(p_n)$, where $f$ is a continuous function? A special case of our most general result addresses this question under the assumption that the matrices $a_n$ are an $l_1$ perturbation of a sequence of matrices with bounded partial products. We apply our theory to investigate the asymptotics of the approximants of continued fractions. In particular, when a continued fraction is $l_1$ limit 1-periodic of elliptic or loxodromic type, we show that its sequence of approximants tends to a circle in $\hat{\mathbb{C}}$, or to a finite set of points lying on a circle. Our main theorem on such continued fractions unifies the treatment of the loxodromic and elliptic cases, which are convergent and divergent, respectively. When an approximating sequence tends to a circle, we obtain statistical information about the limiting distribution of the approximants. When the circle is the real line, the points are shown to have a Cauchy distribution with parameters given in terms of modifications of the original continued fraction. As an example of the general theory, a detailed study of a $q$-continued fraction in five complex variables is provided. The most general theorem in the paper holds in the context of Banach algebras. The theory is also applied to $(r,s)$-matrix continued fractions and recurrence sequences of Poincaré type and compared with closely related literature.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-12T15:31:58Z</published>
+    <arxiv:comment>Revised Version: intermediate version loaded by mistake earlier. 52 pages, 3 figures, final version may be slightly different. Keywords: Limit Periodic Continued Fractions, $q$-Continued Fractions, Continued Fractions, Poincaré-type Recurrences, $q$-series, Infinite Products, Asymptotics, sequential closures, Ramanujan, Cauchy Distribution</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Douglas Bowman</name>
+    </author>
+    <author>
+      <name>James Mc Laughlin</name>
+    </author>
+  </entry>
+</feed>

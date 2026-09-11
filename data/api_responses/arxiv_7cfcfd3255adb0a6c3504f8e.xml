@@ -1,0 +1,566 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UKEBCj1EBgm+LPy/Br8bh4u4tEM</id>
+  <title>arXiv Query: search_query=all:inverse OR all:Laplace OR all:transform OR all:exponential OR all:sum OR all:ill-posedness&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:44:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:inverse+OR+(all:Laplace+OR+(all:transform+OR+(all:exponential+OR+(all:sum+OR+all:ill-posedness))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>387168</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1403.3313v1</id>
+    <title>Inverse Laplace Transform for Bi-Complex Variables</title>
+    <updated>2014-03-13T16:09:23Z</updated>
+    <link href="https://arxiv.org/abs/1403.3313v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.3313v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we examine the existence of bicomplexied inverse Laplacetransform as an extension of its complexied inverse version within theregion of convergence of bicomplex Laplace transform. In this course weuse the idempotent representation of bicomplex-valued functions as pro-jections on the auxiliary complex spaces of the components of bicomplexnumbers along two orthogonal,idempotent hyperbolic directions.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-13T16:09:23Z</published>
+    <arxiv:comment>To appear in Mathematical Inverse Problems, Asia Pacific Journal of Mathematics</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Mathematical Inverse Problems, vol 1, no 1, 2014</arxiv:journal_ref>
+    <author>
+      <name>Abhijit Banerjee</name>
+    </author>
+    <author>
+      <name>Sanjib Kumar Datta</name>
+    </author>
+    <author>
+      <name>Md. Azizul Hoque</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.7655v2</id>
+    <title>Inversion of the star transform</title>
+    <updated>2014-05-06T21:56:10Z</updated>
+    <link href="https://arxiv.org/abs/1401.7655v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.7655v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define the star transform as a generalization of the broken ray transform introduced by us in previous work. The advantages of using the star transform include the possibility to reconstruct the absorption and the scattering coefficients of the medium separately and simultaneously (from the same data) and the possibility to utilize scattered radiation which, in the case of the conventional X-ray tomography, is discarded. In this paper, we derive the star transform from physical principles, discuss its mathematical properties and analyze numerical stability of inversion. In particular, it is shown that stable inversion of the star transform can be obtained only for configurations involving odd number of rays. Several computationally-efficient inversion algorithms are derived and tested numerically.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-29T20:43:32Z</published>
+    <arxiv:comment>Accepted to Inverse Problems in this form</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Inverse Problems 30, 105001 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Fan Zhao</name>
+    </author>
+    <author>
+      <name>John C. Schotland</name>
+    </author>
+    <author>
+      <name>Vadim A. Markel</name>
+    </author>
+    <arxiv:doi>10.1088/0266-5611/30/10/105001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0266-5611/30/10/105001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.4183v1</id>
+    <title>Inversion formulas for the broken-ray Radon transform</title>
+    <updated>2010-07-23T18:03:36Z</updated>
+    <link href="https://arxiv.org/abs/1007.4183v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.4183v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the inverse problem of the broken ray transform (sometimes also referred to as the V-line transform). Explicit image reconstruction formulas are derived and tested numerically. The obtained formulas are generalizations of the filtered backprojection formula of the conventional Radon transform. The advantages of the broken ray transform include the possibility to reconstruct the absorption and the scattering coefficients of the medium simultaneously and the possibility to utilize scattered radiation which, in the case of the conventional X-ray tomography, is typically discarded.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-23T18:03:36Z</published>
+    <arxiv:comment>To be submitted to Inverse Problems</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Inverse Problems 27, 025002 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Lucia Florescu</name>
+    </author>
+    <author>
+      <name>Vadim A. Markel</name>
+    </author>
+    <author>
+      <name>John C. Schotland</name>
+    </author>
+    <arxiv:doi>10.1088/0266-5611/27/2/025002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0266-5611/27/2/025002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.00258v1</id>
+    <title>Laplace Sum Rules in Quantum ChromoDynamics</title>
+    <updated>2023-09-01T05:26:49Z</updated>
+    <link href="https://arxiv.org/abs/2309.00258v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.00258v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We shortly review some applications of the (inverse) Laplace (LSR) transform sum rules in Quantum ChromoDynamics (QCD) for extracting the fundamental QCD parameters (coupling constant $α_s$, quark and gluon condensates) and the hadron properties (masses and decay constants). Links of LSR to some other forms of QCD spectral sum rules are also discussed. As prototype examples, we discuss in detail the $ρ$ and $π$ meson sum rules.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-01T05:26:49Z</published>
+    <arxiv:comment>22 pages, 11 figures, Invited review to be published as a Chapter of the book : The Laplace Transform and its Applications, edited by Nova Science Publishers, New-York. arXiv admin note: text overlap with arXiv:2211.14536</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Stephan Narison</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.03545v3</id>
+    <title>Inverse Laplace transform based on Widder's method for Tsallis exponential</title>
+    <updated>2024-12-02T05:55:17Z</updated>
+    <link href="https://arxiv.org/abs/2205.03545v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.03545v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A generalization of the Laplace transform based on the generalized Tsallis $q$-exponential is given in the present work for a new type of kernel. We also define the inverse transform for this generalized transform based on the complex integration method. We prove identities corresponding to the Laplace transform and inverse transform like the $q$-convolution theorem, the action of generalized derivative and generalized integration on the Laplace transform. We then derive a $q$-generalization of the inverse Laplace transform based on the Post-Widder's method which bypasses the necessity for a complex contour integration. We demonstrate the usefulness of this in computing the Laplace and inverse Laplace transform of some elementary functions. Finally we use the Post-Widder's method based inverse Laplace transform to compute the density of states from the partition function for the case of a generalized classical ideal gas and linear harmonic oscillator in $D$-dimensions.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-07T04:16:10Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>S. S. Naina Mohammed</name>
+    </author>
+    <author>
+      <name>K. Jeevanandham</name>
+    </author>
+    <author>
+      <name>A. Basherrudin Mahmud Ahmed</name>
+    </author>
+    <author>
+      <name>Md. Manirul Ali</name>
+    </author>
+    <author>
+      <name>R. Chandrashekar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.07208v1</id>
+    <title>Analysis of the Ill-Conditioning of the Discrete Inverse Laplace transform in Monte Carlo Simulations of Quantum Many-Body Systems</title>
+    <updated>2026-09-07T08:27:47Z</updated>
+    <link href="https://arxiv.org/abs/2609.07208v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.07208v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Analytic continuation of imaginary-time quantum Monte Carlo data to real-frequency spectra requires the inversion of a severely ill-posed two-sided Laplace transform and arises naturally in quantum many-body calculations of dynamic properties. In this work, we distinguish the intrinsic ill-posedness of the continuous inverse two-sided Laplace problem from the conditioning of its finite-dimensional discretization. For equidistant sampling and reconstruction grids, we express the discrete problem via a diagonally scaled monomial Vandermonde matrix with exponentially distributed nodes. Imposing the physical detailed-balance symmetry transforms the discretization into a diagonally scaled Chebyshev-Vandermonde system. Exploiting these structures, we derive explicit lower and upper bounds on the condition numbers in terms of the physical and discretization parameters. For the unconstrained discretization, our bounds reveal super-exponential growth of the condition number with the reconstruction dimension, which cannot be removed by increasing the number of imaginary-time samples alone. Detailed-balance substantially improves the conditioning, especially in the practically relevant pre-asymptotic regime, although the asymptotic super-exponential dependence remains. In both cases, our bounds identify a low-dimensional regime in which the super-exponential contribution is suppressed and stable reconstruction remains feasible. These results provide a mathematical explanation for the effectiveness of low-dimensional spectral representations and detailed-balance in analytic continuation. While they do not remove the fundamental ill-posedness, they substantially mitigate the ill-conditioning of its finite-dimensional discretization, delay the onset of its catastrophic super-exponential growth and thereby enlarge the range of numerically accessible reconstructions.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-07T08:27:47Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Phil-Alexander Hofmann</name>
+    </author>
+    <author>
+      <name>Thomas Chuna</name>
+    </author>
+    <author>
+      <name>Tobias Dornheim</name>
+    </author>
+    <author>
+      <name>Michael Hecht</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.04348v2</id>
+    <title>An Eigenfunction Approach to Conversion of the Laplace Transform of Point Masses on the Real Line to the Fourier Domain</title>
+    <updated>2025-05-23T04:53:26Z</updated>
+    <link href="https://arxiv.org/abs/2402.04348v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.04348v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by applications in magnetic resonance relaxometry, we consider the following problem: Given samples of a function $t\mapsto \sum_{k=1}^K A_k\exp(-tλ_k)$, where $K\ge 2$ is an integer, $A_k\in\mathbb{R}$, $λ_k&gt;0$ for $k=1,\cdots, K$, determine $K$, $A_k$'s and $λ_k$'s. Unlike the case in which the $λ_k$'s are purely imaginary, this problem is notoriously ill-posed. Our goal is to show that this problem can be transformed into an equivalent one in which the $λ_k$'s are replaced by $iλ_k$. We show that this may be accomplished by approximation in terms of Hermite functions, and using the fact that these functions are eigenfunctions of the Fourier transform. We present a preliminary numerical exploration of parameter extraction from this formalism, including the effect of noise. We do not claim to have eliminated the inherent ill-posedness of the original problem, as reflected in the numerical results.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-06T19:31:34Z</published>
+    <arxiv:comment>Original title:Inversion of the Laplace Transform of Point Masses,</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Available online Applied and computational harmonic analysis, 2025</arxiv:journal_ref>
+    <author>
+      <name>Michael McKenna</name>
+    </author>
+    <author>
+      <name>Hrushikesh N. Mhaskar</name>
+    </author>
+    <author>
+      <name>Richard G. Spencer</name>
+    </author>
+    <arxiv:doi>10.1016/j.acha.2025.101776</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.acha.2025.101776" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.08600v1</id>
+    <title>Ill-posedness of time-dependent inverse problems in Lebesgue-Bochner spaces</title>
+    <updated>2023-10-06T21:22:04Z</updated>
+    <link href="https://arxiv.org/abs/2310.08600v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.08600v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider time-dependent inverse problems in a mathematical setting using Lebesgue-Bochner spaces. Such problems arise when one aims to recover parameters from given observations where the parameters or the data depend on time. There are various important applications being subject of current research that belong to this class of problems. Typically inverse problems are ill-posed in the sense that already small noise in the data causes tremendous errors in the solution. In this article we present two different concepts of ill-posedness: temporally (pointwise) ill-posedness and uniform ill-posedness with respect to the Lebesgue-Bochner setting. We investigate the two concepts by means of a typical setting consisting of a time-depending observation operator composed by a compact operator. Furthermore we develop regularization methods that are adapted to the respective class of ill-posedness.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-06T21:22:04Z</published>
+    <arxiv:comment>21 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Martin Burger</name>
+    </author>
+    <author>
+      <name>Thomas Schuster</name>
+    </author>
+    <author>
+      <name>Anne Wald</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.08190v1</id>
+    <title>On Hilbert's sum type inequalities</title>
+    <updated>2020-02-18T04:08:00Z</updated>
+    <link href="https://arxiv.org/abs/2002.08190v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.08190v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main purpose of the present article is to give some new Hilbert's sum type inequalities, which in special cases yield the classical Hilbert's inequalities. Our results provide some new estimates to these types of inequalities.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-18T04:08:00Z</published>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Chang-Jian Zhao</name>
+    </author>
+    <author>
+      <name>Wing Sum Cheung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.08057v1</id>
+    <title>Regularization of the inverse Laplace transform by Mollification</title>
+    <updated>2023-04-17T08:18:03Z</updated>
+    <link href="https://arxiv.org/abs/2304.08057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.08057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the inverse Laplace transform. We first derive a new global logarithmic stability estimate that shows that the inversion is severely ill-posed. Then we propose a regularization method to compute the inverse Laplace transform using the concept of mollification. Taking into account the exponential instability we derive a criterion for selection of the regularization parameter. We show that by taking the optimal value of this parameter we improve significantly the convergence of the method. Finally, making use of the holomorphic extension of the Laplace transform, we suggest a new PDEs based numerical method for the computation of the solution. The effectiveness of the proposed regularization method is demonstrated through several numerical examples.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-17T08:18:03Z</published>
+    <arxiv:comment>22 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Pierre Maréchal</name>
+    </author>
+    <author>
+      <name>Faouzi Triki</name>
+    </author>
+    <author>
+      <name>Walter C. Simo Tao Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.10810v1</id>
+    <title>On the inversion of the Laplace transform (In Memory of Dimitris Gatzouras)</title>
+    <updated>2022-05-22T13:02:25Z</updated>
+    <link href="https://arxiv.org/abs/2205.10810v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.10810v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Laplace transform is a useful and powerful analytic tool with applications to several areas of applied mathematics, including differential equations, probability and statistics. Similarly to the inversion of the Fourier transform, inversion formulae for the Laplace transform are of central importance; such formulae are old and well-known (Fourier-Mellin or Bromwich integral, Post-Widder inversion). The present work is motivated from an elementary statistical problem, namely, the unbiased estimation of a parametric function of the scale in the basic model of a random sample from exponential distribution. The form of the uniformly minimum variance unbiased estimator of a parametric function $h(λ)$, as well as its variance, are obtained as series in Laguerre polynomials and the corresponding Fourier coefficients, and a particular application of this result yields a novel inversion formula for the Laplace transform.
+  MSC: Primary 44A10, 62F10.
+  Key words and phrases: Exponential Distribution, Unbiased Estimation; Fourier-Laguerre Series; Inverse Laplace Transform; Laguerre Polynomials.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-22T13:02:25Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Nickos Papadatos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.06495v3</id>
+    <title>A note on convergence of solutions of total variation regularized linear inverse problems</title>
+    <updated>2018-03-26T12:08:57Z</updated>
+    <link href="https://arxiv.org/abs/1711.06495v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.06495v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a recent paper by A. Chambolle et al. [Geometric properties of solutions to the total variation denoising problem. Inverse Problems 33, 2017] it was proven that if the subgradient of the total variation at the noise free data is not empty, the level-sets of the total variation denoised solutions converge to the level-sets of the noise free data with respect to the Hausdorff distance. The condition on the subgradient corresponds to the source condition introduced by Burger and Osher [Convergence rates of convex variational regularization. Inverse Problems 20, 2004], who proved convergence rates results with respect to the Bregman distance under this condition. We generalize the result of Chambolle et al. to total variation regularization of general linear inverse problems under such a source condition. As particular applications we present denoising in bounded and unbounded, convex and non convex domains, deblurring and inversion of the circular Radon transform. In all these examples the convergence result applies. Moreover, we illustrate the convergence behavior through numerical examples.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-17T11:10:42Z</published>
+    <arxiv:comment>26 pages, 3 Figures, to appear in Inverse Problems</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <arxiv:journal_ref>Inverse Problems, 34(5):055011, 2018</arxiv:journal_ref>
+    <author>
+      <name>José A. Iglesias</name>
+    </author>
+    <author>
+      <name>Gwenael Mercier</name>
+    </author>
+    <author>
+      <name>Otmar Scherzer</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6420/aab92a</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6420/aab92a" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0211247v1</id>
+    <title>Inverse spectral problems for Sturm-Liouville operators with singular potentials</title>
+    <updated>2002-11-17T06:26:00Z</updated>
+    <link href="https://arxiv.org/abs/math/0211247v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0211247v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The inverse spectral problem is solved for the class of Sturm-Liouville operators with singular real-valued potentials from the space $W^{-1}_2(0,1)$. The potential is recovered via the eigenvalues and the corresponding norming constants. The reconstruction algorithm is presented and its stability proved. Also, the set of all possible spectral data is explicitly described and the isospectral sets are characterized.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-11-17T06:26:00Z</published>
+    <arxiv:comment>Submitted to Inverse Problems</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Inverse Problems 19 (2003), no. 3, 665-684</arxiv:journal_ref>
+    <author>
+      <name>R. O. Hryniv</name>
+    </author>
+    <author>
+      <name>Ya. V. Mykytyuk</name>
+    </author>
+    <arxiv:doi>10.1088/0266-5611/19/3/312</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0266-5611/19/3/312" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0312093v1</id>
+    <title>Inverse Problems in Magnetohydrodynamics: Theoretical and Experimental Aspects</title>
+    <updated>2003-12-15T15:02:49Z</updated>
+    <link href="https://arxiv.org/abs/physics/0312093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0312093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider inverse problems related to the velocity reconstruction in electrically conducting fluids from externally measured magnetic fields. The underlying theory is presented in the framework of the integral equation approach to homogeneous dynamos in finite domains, which can be cast into a linear inverse problem in case that the magnetic Reynolds number is not too large. Some mathematical problems of the inversion, including the uniqueness problem in the sphere and a paradigmatic isospectrality problem for mean-field dynamos, are touched upon. For practical purposes, the inversion is carried out with the help of Tikhonov regularization using a quadratic functional of the velocity field as penalty function. For the first time, we present results of an experiment in which the three-dimensional velocity field of a propellor driven flow in a liquid metal is reconstructed by a contactless inductive measuring technique.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-12-15T15:02:49Z</published>
+    <arxiv:comment>8 pages, submitted to "Inverse Problems in Engineering"</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <arxiv:journal_ref>Inverse Problems in Science and Engineering 14 (2006), 411-422</arxiv:journal_ref>
+    <author>
+      <name>Frank Stefani</name>
+    </author>
+    <author>
+      <name>Thomas Gundrum</name>
+    </author>
+    <author>
+      <name>Gunter Gerbeth</name>
+    </author>
+    <author>
+      <name>Uwe Guenther</name>
+    </author>
+    <author>
+      <name>Mingtian Xu</name>
+    </author>
+    <arxiv:doi>10.1080/17415970600573791</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/17415970600573791" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.4754v3</id>
+    <title>Review of Inverse Laplace Transform Algorithms for Laplace-Space Numerical Approaches</title>
+    <updated>2012-07-20T21:11:58Z</updated>
+    <link href="https://arxiv.org/abs/1204.4754v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.4754v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A boundary element method (BEM) simulation is used to compare the efficiency of numerical inverse Laplace transform strategies, considering general requirements of Laplace-space numerical approaches. The two-dimensional BEM solution is used to solve the Laplace-transformed diffusion equation, producing a time-domain solution after a numerical Laplace transform inversion. Motivated by the needs of numerical methods posed in Laplace-transformed space, we compare five inverse Laplace transform algorithms and discuss implementation techniques to minimize the number of Laplace-space function evaluations. We investigate the ability to calculate a sequence of time domain values using the fewest Laplace-space model evaluations. We find Fourier-series based inversion algorithms work for common time behaviors, are the most robust with respect to free parameters, and allow for straightforward image function evaluation re-use across at least a log cycle of time.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-20T22:02:13Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Numerical Algorithms, 63(2):339-355 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Kristopher L. Kuhlman</name>
+    </author>
+    <arxiv:doi>10.1007/s11075-012-9625-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11075-012-9625-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.03872v1</id>
+    <title>Inverse Laplace Transformation Analysis of Stretched Exponential Relaxation</title>
+    <updated>2021-09-08T18:45:14Z</updated>
+    <link href="https://arxiv.org/abs/2109.03872v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.03872v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the effectiveness of the Inverse Laplace Transform (ILT) analysis method to extract the distribution of relaxation rates from nuclear magnetic resonance data with stretched exponential relaxation. Stretched-relaxation is a hallmark of a distribution of relaxation rates, and an analytical expression exists for this distribution for the case of a spin-1/2 nucleus. We compare this theoretical distribution with those extracted via the ILT method for several values of the stretching exponent and at different levels of experimental noise. The ILT accurately captures the distributions for $β\lesssim 0.7$, and for signal to noise ratios greater than $\sim 40$; however the ILT distributions tend to introduce artificial oscillatory components. We further use the ILT approach to analyze stretched relaxation for spin $I&gt;1/2$ and find that the distributions are accurately captured by the theoretical expression for $I=1/2$. Our results provide a solid foundation to interpret distributions of relaxation rates for general spin $I$ in terms of stretched exponential fits.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-08T18:45:14Z</published>
+    <arxiv:comment>10 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>J. Magn. Reson. 331, 107050 (2021)</arxiv:journal_ref>
+    <author>
+      <name>H. Choi</name>
+    </author>
+    <author>
+      <name>I. Vinograd</name>
+    </author>
+    <author>
+      <name>C. Chaffey</name>
+    </author>
+    <author>
+      <name>N. J. Curro</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmr.2021.107050</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmr.2021.107050" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.06093v1</id>
+    <title>A tensor-train multidimensional inverse Laplace transform</title>
+    <updated>2026-06-04T12:30:01Z</updated>
+    <link href="https://arxiv.org/abs/2606.06093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.06093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Laplace transforms and their numerical inverses arise throughout applied mathematics, physics, finance, and probability theory. Numerical inversion, however, quickly becomes intractable in high dimensions because the number of quadrature evaluations grows exponentially with dimension. We develop a tensor train (TT) formulation of the multidimensional inverse Laplace transform. The method constructs a TT approximation of the transformed function on the complex quadrature grid and then performs the inversion through a sequence of tensor contractions. Under suitable low-rank assumptions, this reduces the computational cost from exponential to polynomial in the dimension, provided that the relevant bond dimensions remain bounded. The method has only a small number of tunable parameters and admits error estimations. We demonstrate its performance in numerical experiments, benchmarked against Monte Carlo estimates and exact references, for multivariate normal-inverse Gaussian, Wishart, and correlated Gamma-type distributions.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-04T12:30:01Z</published>
+    <arxiv:comment>21 pages, 19 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Martin Mikkelsen</name>
+    </author>
+    <author>
+      <name>Michael Kastoryano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.4027v1</id>
+    <title>3He NMR in porous media: Inverse Laplace transformation</title>
+    <updated>2010-09-21T09:33:05Z</updated>
+    <link href="https://arxiv.org/abs/1009.4027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.4027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the first time the inverse Laplace transform was applied for analysis of 3He relaxation in porous media. It was shown that inverse Laplace transform gives new information about these systems. The uniform-penalty algorithm has been performed to obtain the 3He relaxation times distribution in pores of clay sample. It is possible to obtain pores' sizes distribution by using applicable model. Keywords: inverse Laplace transform, uniform-penalty algorithm, liquid 3He, 3He, He3, He-3, helium-3, pulse nuclear magnetic resonance, clay, porous media.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-21T09:33:05Z</published>
+    <arxiv:comment>5 pages, 5 figures, docx</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Magnetic Resonance in Solids - Electronic Journal, Volume 11, No. 2, pages 33-37 (2009)</arxiv:journal_ref>
+    <author>
+      <name>R. R. Gazizulin</name>
+    </author>
+    <author>
+      <name>A. V. Klochkov</name>
+    </author>
+    <author>
+      <name>V. V. Kuzmin</name>
+    </author>
+    <author>
+      <name>K. R. Safiullin</name>
+    </author>
+    <author>
+      <name>M. S. Tagirov</name>
+    </author>
+    <author>
+      <name>A. N. Yudin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.02655v2</id>
+    <title>Analytical calculation of the inverse nabla Laplace transform</title>
+    <updated>2019-10-11T21:43:55Z</updated>
+    <link href="https://arxiv.org/abs/1909.02655v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.02655v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The inversion of nabla Laplace transform, corresponding to a causal sequence, is considered. Two classical methods, i.e., residual calculation method and partial fraction method are developed to perform the inverse nabla Laplace transform. For the first method, two alternative formulae are proposed when adopting the poles inside or outside of the contour, respectively. For the second method, a table on the transform pairs of those popular functions is carefully established. Besides illustrating the effectiveness of the developed methods with two illustrative examples, the applicability are further discussed in the fractional order case.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-23T04:27:48Z</published>
+    <arxiv:primary_category term="math.GM"/>
+    <arxiv:journal_ref>2020 Chinese Control And Decision Conference (CCDC)</arxiv:journal_ref>
+    <author>
+      <name>Yiheng Wei</name>
+    </author>
+    <author>
+      <name>YangQuan Chen</name>
+    </author>
+    <author>
+      <name>Yuquan Chen</name>
+    </author>
+    <author>
+      <name>Yong Wang</name>
+    </author>
+    <arxiv:doi>10.1109/CCDC49329.2020.9164572</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CCDC49329.2020.9164572" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.05212v2</id>
+    <title>A Matrix Exponential Generalization of the Laplace Transform of Poisson Shot Noise</title>
+    <updated>2024-10-26T13:16:21Z</updated>
+    <link href="https://arxiv.org/abs/2406.05212v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.05212v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a generalization of the Laplace transform of Poisson shot noise defined as an integral transform with respect to a matrix exponential. We denote this as the matrix Laplace transform and establish that it is in general a matrix function extension of the scalar Laplace transform. We show that the matrix Laplace transform of Poisson shot noise admits an expression analogous to that implied by Campbell's theorem. We demonstrate the utility of this generalization of Campbell's theorem in two important applications: the characterization of a Poisson shot noise process and the derivation of the complementary CDF (CCDF) and meta-distribution of signal-to-interference-and-noise (SINR) models in Poisson networks. In the former application, we demonstrate how the higher order moments of Poisson shot noise may be obtained directly from the elements of its matrix Laplace transform. We further show how the CCDF of this object may be bounded using a summation of the first row of its matrix Laplace transform. For the latter application, we show how the CCDF of SINR models with phase-type distributed desired signal power may be obtained via an expectation of the matrix Laplace transform of the interference and noise, analogous to the canonical case of SINR models with Rayleigh fading. Additionally, when the power of the desired signal is exponentially distributed, we establish that the meta-distribution may be obtained in terms of the limit of a sequence expressed in terms of the matrix Laplace transform of a related Poisson shot noise process.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-07T18:52:58Z</published>
+    <arxiv:comment>40 pages, submitted to IEEE Transactions on Information Theory</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Nicholas R. Olson</name>
+    </author>
+    <author>
+      <name>Jeffrey G. Andrews</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.05603v1</id>
+    <title>On the inverse transform of Laplace transforms that contain (products of) the parabolic cylinder function</title>
+    <updated>2015-05-21T05:00:57Z</updated>
+    <link href="https://arxiv.org/abs/1505.05603v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.05603v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Laplace transforms of the transition probability density and distribution functions for the Ornstein-Uhlenbeck process contain the product of two parabolic cylinder functions, namely D_{v}(x)D_{v}(y) and D_{v}(x)D_{v-1}(y), respectively. The inverse transforms of these products have as yet not been documented. However, the transition density and distribution functions can be obtained by alternatively applying Doob's transform to the Kolmogorov equation and casting the problem in terms of Brownian motion. Linking the resulting transition density and distribution functions to their Laplace transforms then specifies the inverse transforms to the aforementioned products of parabolic cylinder functions. These two results, the recurrence relation of the parabolic cylinder function and the properties of the Laplace transform then enable the calculation of inverse transforms also for countless other combinations in the orders of the parabolic cylinder functions such as D_{v}(x)D_{v-2}(y), D_{v+1}(x)D_{v-1}(y) and D_{v}(x)D_{v-3}(y).</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-21T05:00:57Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Integral Transforms and Special Functions, 26:11,859-871,2015</arxiv:journal_ref>
+    <author>
+      <name>Dirk Veestraeten</name>
+    </author>
+    <arxiv:doi>10.1080/10652469.2015.1063628</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10652469.2015.1063628" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.08163v3</id>
+    <title>Ill-posedness of the Boltzmann-BGK model in the exponential class</title>
+    <updated>2026-03-04T05:37:22Z</updated>
+    <link href="https://arxiv.org/abs/2408.08163v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.08163v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>BGK (Bhatnagar-Gross-Krook) model is a relaxation-type model of the Boltzmann equation, which is popularly used in place of the Boltzmann equation in physics and engineering. In this paper, we address the ill-posedness problem for the BGK model, in which the solution instantly escapes the initial solution space. For this, we propose two ill-posedness scenarios, namely, the homogeneous and the inhomogeneous ill-posedness mechanisms. In the former case, we find a class of spatially homogeneous solutions to the BGK model, where removing the small velocity part of the initial data triggers ill-posedness by increasing temperature. For the latter, we construct a spatially inhomogeneous solution to the BGK model such that the local temperature constructed from the solution has a polynomial growth in spatial variable. These ill-posedness properties for the BGK model pose a stark contrast with the Boltzmann equation for which the solution map is, at least for a finite time, stable in the corresponding solution spaces.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-15T13:58:14Z</published>
+    <arxiv:comment>Revised version, 83 pages, 1 figures, accepted in Arch. Rational Mech. Anal</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Donghyun Lee</name>
+    </author>
+    <author>
+      <name>Sungbin Park</name>
+    </author>
+    <author>
+      <name>Seok-Bae Yun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.08306v1</id>
+    <title>Optimized numerical inverse Laplace transformation</title>
+    <updated>2021-12-15T17:55:06Z</updated>
+    <link href="https://arxiv.org/abs/2112.08306v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.08306v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Among the numerical inverse Laplace transformation (NILT) methods, those that belong to the Abate-Whitt framework (AWF) are considered to be the most efficient ones currently. It is a characteristic feature of the AWF NILT procedures that they are independent of the transform function and the time point of interest.
+  In this work we propose an NILT procedure that goes beyond this limitation and optimize the accuracy of the NILT utilizing also the transform function and the time point of interest.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-15T17:55:06Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Illes Horvath</name>
+    </author>
+    <author>
+      <name>Andras Meszaros</name>
+    </author>
+    <author>
+      <name>Miklos Telek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.0388v2</id>
+    <title>Inverse Laplace transform on the lattice spacing</title>
+    <updated>2013-01-31T11:22:33Z</updated>
+    <link href="https://arxiv.org/abs/1210.0388v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.0388v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inverse Laplace transform on the lattice spacing is introduced as a computational framework of the extrapolation of the strong coupling expansion to the scaling region. We apply the transform to the two-dimensional non-linear O(N) model at N&gt;=3 and show that the approximation of the continuum limit of the susceptibility agrees with the existing theoretical and Monte Carlo data.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-01T13:18:34Z</published>
+    <arxiv:comment>4 pages, 3 figures, version to be published in chi. phys. lett</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Hirofumi Yamada</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.04857v1</id>
+    <title>Sharp well-posedness results of the Benjamin-Ono equation in $H^{s}(\mathbb{T},\mathbb{R})$ and qualitative properties of its solution</title>
+    <updated>2020-04-09T23:44:52Z</updated>
+    <link href="https://arxiv.org/abs/2004.04857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.04857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that the Benjamin--Ono equation on the torus is globally in time well-posed in the Sobolev space $H^{s}(\mathbb{T},\mathbb{R})$ for any $s &gt; - 1/2$ and ill-posed for $s \le - 1/2$. Hence the critical Sobolev exponent $s_c=-1/2$ of the Benjamin--Ono equation is the threshold for well-posedness on the torus. The obtained solutions are almost periodic in time. Furthermore, we prove that the traveling wave solutions of the Benjamin-Ono equation on the torus are orbitally stable in $H^{s}(\mathbb{T},\mathbb{R})$ for any $ s &gt; - 1/2$. Novel conservation laws and a nonlinear Fourier transform on $H^{s}(\mathbb{T},\mathbb{R})$ with $s &gt; - 1/2$ are key ingredients into the proofs of these results.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-09T23:44:52Z</published>
+    <arxiv:comment>The paper is a greatly extended version of arXiv:1909.07314. In particular, we have included the result on ill-posedness of the Benjamin-Ono equation in $H^{-1/2}$ and added an appendix on the restriction of the Birkhoff map to the scale of Sobolev space $H^s$, $s&gt;0$, and another one on a sharper form of ill-posedness of the Benjamin-Ono equation in $H^{s}_{r}$ with $s&lt;-1/2$</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>P. Gérard</name>
+    </author>
+    <author>
+      <name>T. Kappeler</name>
+    </author>
+    <author>
+      <name>P. Topalov</name>
+    </author>
+  </entry>
+</feed>

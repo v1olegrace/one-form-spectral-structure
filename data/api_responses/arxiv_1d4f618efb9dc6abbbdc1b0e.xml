@@ -1,0 +1,668 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OXMix9GnO2XgbrIH7wTG4OqseYc</id>
+  <title>arXiv Query: search_query=all:exponential OR all:analysis OR all:finite OR all:precision OR all:arithmetic OR all:limitations&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:46:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:exponential+OR+(all:analysis+OR+(all:finite+OR+(all:precision+OR+(all:arithmetic+OR+all:limitations))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1261797</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0706.3841v1</id>
+    <title>Arithmetic lattices and weak spectral geometry</title>
+    <updated>2007-06-26T19:16:13Z</updated>
+    <link href="https://arxiv.org/abs/0706.3841v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0706.3841v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This note is an expansion of three lectures given at the workshop "Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces" held at Kyoto University in December of 2006 and will appear in the proceedings for this workshop.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-06-26T19:16:13Z</published>
+    <arxiv:comment>To appear in workshop proceedings for "Topology, Complex Analysis and Arithmetic of Hyperbolic Spaces". Comments welcome</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>Topology, complex analysis, and arithmetic of hyperbolic spaces, RIMS 2007 (1571), 59-81</arxiv:journal_ref>
+    <author>
+      <name>D. B. McReynolds</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.12614v1</id>
+    <title>Mixed-precision finite element kernels and assembly: Rounding error analysis and hardware acceleration</title>
+    <updated>2024-10-16T14:32:10Z</updated>
+    <link href="https://arxiv.org/abs/2410.12614v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.12614v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we develop the first fine-grained rounding error analysis of finite element (FE) cell kernels and assembly. The theory includes mixed-precision implementations and accounts for hardware-acceleration via matrix multiplication units, thus providing theoretical guidance for designing reduced- and mixed-precision FE algorithms on CPUs and GPUs. Guided by this analysis, we introduce hardware-accelerated mixed-precision implementation strategies which are provably robust to low-precision computations. Indeed, these algorithms are accurate to the lower-precision unit roundoff with an error constant that is independent from: the conditioning of FE basis function evaluations, the ill-posedness of the cell, the polynomial degree, and the number of quadrature nodes. Consequently, we present the first AMX-accelerated FE kernel implementations on Intel Sapphire Rapids CPUs. Numerical experiments demonstrate that the proposed mixed- (single/half-) precision algorithms are up to 60 times faster than their double precision equivalent while being orders of magnitude more accurate than their fully half-precision counterparts.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-16T14:32:10Z</published>
+    <arxiv:comment>Keywords: Mixed precision, finite element method, finite element kernel and assembly, rounding error analysis, hardware acceleration, matrix units, Intel AMX</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>M. Croci</name>
+    </author>
+    <author>
+      <name>G. N. Wells</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.20101v1</id>
+    <title>Exponential sums twisted by general arithmetic functions</title>
+    <updated>2024-12-28T09:56:50Z</updated>
+    <link href="https://arxiv.org/abs/2412.20101v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.20101v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine exponential sums of the form $\sum_{n \le X} w(n) e^{2πiαn^k}$, for $k=1,2$, where $α$ satisfies a generalized Diophantine approximation and where $w$ are different arithmetic functions that might be multiplicative, additive, or neither. A strategy is shown on how to bound these sums for a wide class of functions $w$ belonging within the same ecosystem. Using this new technology we are able to improve current results on minor arcs that have recently appeared in the literature of the Hardy-Littlewood circle method. Lastly, we show how a bound on $\sum_{n \le X} |μ(n)| e^{2πiαn}$ can be used to study partitions asymptotics over squarefree parts and explain their connection to the zeros of the Riemann zeta-function.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-28T09:56:50Z</published>
+    <arxiv:comment>Pages: 34, Figures: 8, Keywords: exponential sums, arithmetic functions, weights associated to partitions, Hardy-Littlewood circle method, zeros of the Riemann zeta-function, explicit formulae, Weyl's bound</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Anji Dong</name>
+    </author>
+    <author>
+      <name>Nicolas Robles</name>
+    </author>
+    <author>
+      <name>Alexandru Zaharescu</name>
+    </author>
+    <author>
+      <name>Dirk Zeindler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.01688v1</id>
+    <title>The precision of the arithmetic mean, geometric mean and percentiles for citation data: An experimental simulation modelling approach</title>
+    <updated>2015-12-05T17:12:06Z</updated>
+    <link href="https://arxiv.org/abs/1512.01688v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.01688v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When comparing the citation impact of nations, departments or other groups of researchers within individual fields, three approaches have been proposed: arithmetic means, geometric means, and percentage in the top X%. This article compares the precision of these statistics using 97 trillion experimentally simulated citation counts from 6875 sets of different parameters (although all having the same scale parameter) based upon the discretised lognormal distribution with limits from 1000 repetitions for each parameter set. The results show that the geometric mean is the most precise, closely followed by the percentage of a country's articles in the top 50% most cited articles for a field, year and document type. Thus the geometric mean citation count is recommended for future citation-based comparisons between nations. The percentage of a country's articles in the top 1% most cited is a particularly imprecise indicator and is not recommended for international comparisons based on individual fields. Moreover, whereas standard confidence interval formulae for the geometric mean appear to be accurate, confidence interval formulae are less accurate and consistent for percentile indicators. These recommendations assume that the scale parameters of the samples are the same but the choice of indicator is complex and partly conceptual if they are not.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-05T17:12:06Z</published>
+    <arxiv:comment>Thelwall, M. (in press). The precision of the arithmetic mean, geometric mean and percentiles for citation data: An experimental simulation modelling approach. Journal of Informetrics</arxiv:comment>
+    <arxiv:primary_category term="cs.DL"/>
+    <author>
+      <name>Mike Thelwall</name>
+    </author>
+    <arxiv:doi>10.1016/j.joi.2015.12.001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.joi.2015.12.001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.09313v2</id>
+    <title>Efficient, arbitrarily high precision hardware logarithmic arithmetic for linear algebra</title>
+    <updated>2020-05-14T17:09:54Z</updated>
+    <link href="https://arxiv.org/abs/2004.09313v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.09313v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The logarithmic number system (LNS) is arguably not broadly used due to exponential circuit overheads for summation tables relative to arithmetic precision. Methods to reduce this overhead have been proposed, yet still yield designs with high chip area and power requirements. Use remains limited to lower precision or high multiply/add ratio cases, while much of linear algebra (near 1:1 multiply/add ratio) does not qualify. We present a dual-base approximate logarithmic arithmetic comparable to floating point in use, yet unlike LNS it is easily fully pipelined, extendable to arbitrary precision with $O(n^2)$ overhead, and energy efficient at a 1:1 multiply/add ratio. Compared to float32 or float64 vector inner product with FMA, our design is respectively 2.3x and 4.6x more energy efficient in 7 nm CMOS. It depends on exp and log evaluation 5.4x and 3.2x more energy efficient, at 0.23x and 0.37x the chip area for equivalent accuracy versus standard hyperbolic CORDIC using shift-and-add and approximated ODE integration in the style of Revol and Yakoubsohn. This technique is a novel design alternative for low power, high precision hardened linear algebra in computer vision, graphics and machine learning applications.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-17T00:18:18Z</published>
+    <arxiv:comment>8 pages, to be published in Proceedings of the 27th IEEE Symposium on Computer Arithmetic (ARITH-2020)</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Jeff Johnson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.07004v2</id>
+    <title>Counting points of schemes over finite rings and counting representations of arithmetic lattices</title>
+    <updated>2015-08-14T12:02:46Z</updated>
+    <link href="https://arxiv.org/abs/1502.07004v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.07004v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We relate the singularities of a scheme $X$ to the asymptotics of the number of points of $X$ over finite rings. This gives a partial answer to a question of Mustata. We use this result to count representations of arithmetic lattices. More precisely, if $Γ$ is an arithmetic lattice whose $\mathbb{Q}$-rank is greater than one, let $r_n(Γ)$ be the number of irreducible $n$-dimensional representations of $Γ$ up to isomorphism. We prove that there is a constant $C$ (for example, $C=746$ suffices) such that $r_n(Γ)=O(n^C)$ for every such $Γ$. This answers a question of Larsen and Lubotzky.</summary>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-24T23:23:45Z</published>
+    <arxiv:comment>version 2: The prove of the main theorem was simplified and a result on arithmetic algebraic geometry was added. 29 pages</arxiv:comment>
+    <arxiv:primary_category term="math.GR"/>
+    <arxiv:journal_ref>Duke Math. J. 167, no. 14 (2018), 2721-2743</arxiv:journal_ref>
+    <author>
+      <name>Avraham Aizenbud</name>
+    </author>
+    <author>
+      <name>Nir Avni</name>
+    </author>
+    <arxiv:doi>10.1215/00127094-2018-0021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1215/00127094-2018-0021" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.09854v1</id>
+    <title>Towards semi-classical analysis for sub-elliptic operators</title>
+    <updated>2021-11-18T18:30:47Z</updated>
+    <link href="https://arxiv.org/abs/2111.09854v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.09854v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss the recent developments of semi-classical and micro-local analysis in the context of nilpotent Lie groups and for sub-elliptic operators. In particular, we give an overview of pseudo-differential calculi recently defined on nilpotent Lie groups as well as of the notion of quantum limits in the Euclidean and nilpotent cases.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-18T18:30:47Z</published>
+    <arxiv:comment>This paper summarises the main ideas discussed by the author to the Bruno Pini Mathematical Analysis Seminar of the University of Bologna in May 2021</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Bruni Pini Mathematical Analysis Seminar 2021</arxiv:journal_ref>
+    <author>
+      <name>Veronique Fischer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.07851v2</id>
+    <title>Counting Salem numbers of arithmetic hyperbolic 3-orbifolds</title>
+    <updated>2020-08-03T15:14:17Z</updated>
+    <link href="https://arxiv.org/abs/2001.07851v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.07851v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is known that the lengths of closed geodesics of an arithmetic hyperbolic orbifold are related to Salem numbers. We initiate a quantitative study of this phenomenon. We show that any non-compact arithmetic $3$-dimensional orbifold defines $c Q^{1/2} + O(Q^{1/4})$ square-rootable Salem numbers of degree $4$ which are less than or equal to $Q$. This quantity can be compared to the total number of such Salem numbers, which is shown to be asymptotic to $\frac{4}{3}Q^{3/2}+O(Q)$. Assuming the gap conjecture of Marklof, we can extend these results to compact arithmetic $3$-orbifolds. As an application, we obtain lower bounds for the strong exponential growth of mean multiplicities in the geodesic spectrum of non-compact even dimensional arithmetic orbifolds. Previously, such lower bounds had only been obtained in dimensions $2$ and $3$.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-22T02:15:20Z</published>
+    <arxiv:comment>We have added a new result (Proposition 2), which gives lower bounds for the strong exponential growth of mean multiplicities in the geodesic spectrum of non-compact even dimensional arithmetic orbifolds</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Mikhail Belolipetsky</name>
+    </author>
+    <author>
+      <name>Matilde Lalín</name>
+    </author>
+    <author>
+      <name>Plinio G. P. Murillo</name>
+    </author>
+    <author>
+      <name>Lola Thompson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.14144v1</id>
+    <title>Interpreting Arithmetic Mechanism in Large Language Models through Comparative Neuron Analysis</title>
+    <updated>2024-09-21T13:46:54Z</updated>
+    <link href="https://arxiv.org/abs/2409.14144v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.14144v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We find arithmetic ability resides within a limited number of attention heads, with each head specializing in distinct operations. To delve into the reason, we introduce the Comparative Neuron Analysis (CNA) method, which identifies an internal logic chain consisting of four distinct stages from input to prediction: feature enhancing with shallow FFN neurons, feature transferring by shallow attention layers, feature predicting by arithmetic heads, and prediction enhancing among deep FFN neurons. Moreover, we identify the human-interpretable FFN neurons within both feature-enhancing and feature-predicting stages. These findings lead us to investigate the mechanism of LoRA, revealing that it enhances prediction probabilities by amplifying the coefficient scores of FFN neurons related to predictions. Finally, we apply our method in model pruning for arithmetic tasks and model editing for reducing gender bias. Code is on https://github.com/zepingyu0512/arithmetic-mechanism.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-21T13:46:54Z</published>
+    <arxiv:comment>Accepted by EMNLP 2024 main. Mechanistic interpretability for arithmetic tasks in large language models</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zeping Yu</name>
+    </author>
+    <author>
+      <name>Sophia Ananiadou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0306115v1</id>
+    <title>D0 Regional Analysis Center Concepts</title>
+    <updated>2003-06-19T19:58:07Z</updated>
+    <link href="https://arxiv.org/abs/cs/0306115v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0306115v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The D0 experiment is facing many exciting challenges providing a computing environment for its worldwide collaboration. Transparent access to data for processing and analysis has been enabled through deployment of its SAM system to collaborating sites and additional functionality will be provided soon with SAMGrid components. In order to maximize access to global storage, computational and intellectual resources, and to enable the system to scale to the large demands soon to be realized, several strategic sites have been identified as Regional Analysis Centers (RAC's). These sites play an expanded role within the system. The philosophy and function of these centers is discussed and details of their composition and operation are outlined. The plan for future additional centers is also addressed.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-06-19T19:58:07Z</published>
+    <arxiv:comment>Talk from the 2003 Computing in High Energy and Nuclear Physics (CHEP03), La Jolla, Ca, USA, March 2003, 5 pages, LaTeX, 3 eps figures. PSN THAT01</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <arxiv:journal_ref>ECONF C0303241:TUAT003,2003</arxiv:journal_ref>
+    <author>
+      <name>L. Lueking</name>
+    </author>
+    <author>
+      <name>representing the D0 Remote Analysis Task Force</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.06392v3</id>
+    <title>Linear combinations of primitive elements of a finite field</title>
+    <updated>2018-08-31T01:34:16Z</updated>
+    <link href="https://arxiv.org/abs/1711.06392v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.06392v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine linear sums of primitive roots and their inverses in finite fields. In particular, we refine a result by Li and Han, and show that every $p&gt; 13$ has a pair of primitive roots $a$ and $b$ such that $a+ b$ and $a^{-1} + b^{-1}$ are also primitive roots mod $p$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-17T04:02:15Z</published>
+    <arxiv:comment>19 pages; to appear in Finite Fields Appl</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Finite Fields and Their Applications Volume 51, May 2018</arxiv:journal_ref>
+    <author>
+      <name>Stephen Cohen</name>
+    </author>
+    <author>
+      <name>Tomás Oliveira e Silva</name>
+    </author>
+    <author>
+      <name>Nicole Sutherland</name>
+    </author>
+    <author>
+      <name>Tim Trudgian</name>
+    </author>
+    <arxiv:doi>10.1016/j.ffa.2018.02.009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ffa.2018.02.009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9710007v3</id>
+    <title>Inequalities for semistable families of arithmetic varieties</title>
+    <updated>1998-03-03T07:56:27Z</updated>
+    <link href="https://arxiv.org/abs/alg-geom/9710007v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/alg-geom/9710007v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we will consider a generalization of Bogomolov's inequality and Cornalba-Harris-Bost's inequality to semistable families of arithmetic varieties under the idea that geometric semistability implies a certain kind of arithmetic positivity. The first one is an arithmetic analogue of the relative Bogomolov's inequality proved by the second author. We also establish the arithmetic Riemann-Roch formulae for stable curves over regular arithmetic varieties and generically finite morphisms of arithmetic varieties.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-10-07T03:36:41Z</published>
+    <arxiv:comment>Version 3.0 (75 pages), the new version of the paper titled "Relative Bogomolov's inequality in the arithmetic case"</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Shu Kawaguchi</name>
+    </author>
+    <author>
+      <name>Atsushi Moriwaki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.00033v1</id>
+    <title>Lynx2030 Science Analysis Group: Final Report</title>
+    <updated>2026-08-28T18:00:21Z</updated>
+    <link href="https://arxiv.org/abs/2609.00033v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.00033v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Lynx2030 Science Analysis Group (SAG) was convened to reassess the scientific goals and technical drivers of the Lynx mission concept amid a rapidly evolving astrophysics landscape. Building on the original Lynx Concept Study, the SAG examined how recent discoveries, emerging facilities, and advances in instrumentation influence the scientific opportunities for a next-generation flagship X-ray observatory. Through focused working groups, the SAG investigated the scientific impact of enhanced capabilities: (i) improved angular resolution, (ii) broader bandpass coverage, (iii) an enhanced microcalorimeter, (iv) new capabilities and observing modes, and (v) larger fields of view. Across a broad range of topics, from the formation of the first black holes and the evolution of galaxies to the baryon cycle, compact objects, stellar explosions, multi-messenger astrophysics, and the dynamic high-energy Universe, the SAG finds that the scientific motivation for a Lynx-class observatory remains compelling and, in many areas, has significantly strengthened over the past decade, prominently through JWST's discovery of the "Little Red Dots", likely massive accreting black holes in infant galaxies whose nature is fundamentally an X-ray question. This report shows that modest extensions beyond the original Lynx design reference mission can unlock transformative science while preserving the observatory's core architecture. Powerful current and future facilities such as Roman, Rubin, JWST, SKA, ngVLA, LISA, and NewAthena highlight the unique role a high-angular-resolution, high-throughput X-ray observatory would play in the multi-wavelength and multi-messenger ecosystem of the 2030s and beyond. The findings of the Lynx2030 SAG confirm Lynx's central vision: an unprecedented view of the hot and energetic Universe, enabling discoveries that will define high-energy astrophysics in the coming decades.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-28T18:00:21Z</published>
+    <arxiv:comment>White paper based on the Final Report by NASA's Lynx2030 Science Analysis Group</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name> Lynx2030 Science Analysis Group</name>
+    </author>
+    <author>
+      <name>Simon R. Bandler</name>
+    </author>
+    <author>
+      <name>Laura W. Brenneman</name>
+    </author>
+    <author>
+      <name>Nico Cappelluti</name>
+    </author>
+    <author>
+      <name>Daniel Castro</name>
+    </author>
+    <author>
+      <name>Steven R. Ehlert</name>
+    </author>
+    <author>
+      <name>W. Peter Maksym</name>
+    </author>
+    <author>
+      <name>Fabio Pacucci</name>
+    </author>
+    <author>
+      <name>Scott W. Randall</name>
+    </author>
+    <author>
+      <name>Grant R. Tremblay</name>
+    </author>
+    <author>
+      <name>John ZuHone</name>
+    </author>
+    <author>
+      <name>Steven W. Allen</name>
+    </author>
+    <author>
+      <name>Antara R. Basu-Zych</name>
+    </author>
+    <author>
+      <name>Akos Bogdan</name>
+    </author>
+    <author>
+      <name>Joel N. Bregman</name>
+    </author>
+    <author>
+      <name>Tamta Burduli</name>
+    </author>
+    <author>
+      <name>Thomas Connor</name>
+    </author>
+    <author>
+      <name>Sanskriti Das</name>
+    </author>
+    <author>
+      <name>Casey DeRoo</name>
+    </author>
+    <author>
+      <name>Stephen DiKerby</name>
+    </author>
+    <author>
+      <name>Paul A. Draghis</name>
+    </author>
+    <author>
+      <name>Martin Elvis</name>
+    </author>
+    <author>
+      <name>Giuseppina Fabbiano</name>
+    </author>
+    <author>
+      <name>Ralf K. Heilmann</name>
+    </author>
+    <author>
+      <name>Jimmy A. Irwin</name>
+    </author>
+    <author>
+      <name>Amruta Jaodand</name>
+    </author>
+    <author>
+      <name>Margarita Karovska</name>
+    </author>
+    <author>
+      <name>Vinay L. Kashyap</name>
+    </author>
+    <author>
+      <name>Anthony A. Kerr</name>
+    </author>
+    <author>
+      <name>Caroline Kilbourne</name>
+    </author>
+    <author>
+      <name>Ralph Kraft</name>
+    </author>
+    <author>
+      <name>Jiangtao Li</name>
+    </author>
+    <author>
+      <name>Labani Mallick</name>
+    </author>
+    <author>
+      <name>Herman L. Marshall</name>
+    </author>
+    <author>
+      <name>Michael L. McCollough</name>
+    </author>
+    <author>
+      <name>Anna Ogorzałek</name>
+    </author>
+    <author>
+      <name>Frederik Paerels</name>
+    </author>
+    <author>
+      <name>Daniel Patnaude</name>
+    </author>
+    <author>
+      <name>Paul Plucinsky</name>
+    </author>
+    <author>
+      <name>David Pooley</name>
+    </author>
+    <author>
+      <name>Frederick S. Porter</name>
+    </author>
+    <author>
+      <name>Daniele Rogantini</name>
+    </author>
+    <author>
+      <name>Roger Romani</name>
+    </author>
+    <author>
+      <name>Helen R. Russell</name>
+    </author>
+    <author>
+      <name>Kazuhiro Sakai</name>
+    </author>
+    <author>
+      <name>Mark Schattenburg</name>
+    </author>
+    <author>
+      <name>Dan A. Schwartz</name>
+    </author>
+    <author>
+      <name>Malgorzata Sobolewska</name>
+    </author>
+    <author>
+      <name>Paolo Soffitta</name>
+    </author>
+    <author>
+      <name>Alexey Vikhlinin</name>
+    </author>
+    <author>
+      <name>Daniel R. Wilkins</name>
+    </author>
+    <author>
+      <name>Scott Wolk</name>
+    </author>
+    <author>
+      <name>Ka-Wah Wong</name>
+    </author>
+    <author>
+      <name>Irina Zhuravleva</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.1448v3</id>
+    <title>Algebraic methods for parameterized codes and invariants of vanishing ideals over finite fields</title>
+    <updated>2010-09-24T19:26:40Z</updated>
+    <link href="https://arxiv.org/abs/1001.1448v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.1448v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let K be a finite field with q elements and let X be a subset of a projective space P^{s-1}, over the field K, which is parameterized by Laurent monomials. Let I(X) be the vanishing ideal of X. Some of the main contributions of this paper are in determining the structure of I(X) and some of their invariants. It is shown that I(X) is a lattice ideal. We introduce the notion of a parameterized code arising from X and present algebraic methods to compute and study its dimension, length and minimum distance. For a parameterized code arising from a connected graph we are able to compute its length and to make our results more precise. If the graph is non-bipartite, we show an upper bound for the minimum distance. We also study the underlying geometric structure of X.</summary>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-09T20:39:35Z</published>
+    <arxiv:comment>Finite Fields Appl., to appear</arxiv:comment>
+    <arxiv:primary_category term="math.AC"/>
+    <arxiv:journal_ref>Finite Fields Appl. 17 (2011), no. 1, 81-104</arxiv:journal_ref>
+    <author>
+      <name>C. Renteria</name>
+    </author>
+    <author>
+      <name>A. Simis</name>
+    </author>
+    <author>
+      <name>R. H. Villarreal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.10707v3</id>
+    <title>Cusp types of arithmetic hyperbolic manifolds</title>
+    <updated>2025-09-15T20:42:03Z</updated>
+    <link href="https://arxiv.org/abs/2410.10707v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.10707v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We establish necessary and sufficient conditions for determining when a flat manifold can occur as a cusp cross-section within a given commensurability class of cusped arithmetic hyperbolic manifolds. This reduces the problem of identifying which commensurability classes of arithmetic hyperbolic manifolds can contain a specific flat manifold as a cusp cross-section to a question involving rational representations of the flat manifold's holonomy group. More generally we show that the holonomy representation provides an obstruction on the quasi-arithmetic manifolds containing a given flat manifold as a cusp cross-section. As applications, we prove that a flat manifold $M$ with a holonomy group of odd order appears as a cusp cross-section in every commensurability class of arithmetic hyperbolic manifolds if and only if $b_1(M)\geq 3$. We also provide examples of flat manifolds that arise as cusp cross-sections in a unique commensurability class of arithmetic hyperbolic manifolds and exhibit examples of pairs of flat manifolds that can never appear as cusp cross-sections in the same quasi-arithmetic hyperbolic manifold.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T16:45:25Z</published>
+    <arxiv:comment>Our results hold in one direction for quasi-arithmetic manifolds as well as arithmetic ones - the paper was updated to include this and a few minor edits</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Duncan McCoy</name>
+    </author>
+    <author>
+      <name>Connor Sell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.2922v2</id>
+    <title>Natural Number Arithmetic in the Theory of Finite Sets</title>
+    <updated>2008-08-08T10:47:06Z</updated>
+    <link href="https://arxiv.org/abs/0711.2922v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.2922v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe a theory of finite sets, and investigate the analogue of Dedekind's theory of natural number systems (simply infinite systems) in this theory. Unlike the infinitary case, in our theory, natural number systems come in differing lengths and with different closure properties. We give examples of natural number systems incomparable in length; we define hierarchies of natural number systems closed under increasingly powerful functions; and we describe a method by which to construct natural number systems with given closure properties. These natural number systems form natural models for various systems of weak arithmetic.</summary>
+    <category term="math.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-19T13:29:18Z</published>
+    <arxiv:comment>53 pages; second version; section 6 added; section 12 revised; material added on connection with bounded arithmetic</arxiv:comment>
+    <arxiv:primary_category term="math.LO"/>
+    <author>
+      <name>J. P. Mayberry</name>
+    </author>
+    <author>
+      <name>Richard Pettigrew</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.01496v3</id>
+    <title>Issues with rounding in the GCC implementation of the ISO 18037:2008 standard fixed-point arithmetic</title>
+    <updated>2020-04-30T09:58:03Z</updated>
+    <link href="https://arxiv.org/abs/2001.01496v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.01496v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe various issues caused by the lack of round-to-nearest mode in the \textit{gcc} compiler implementation of the fixed-point arithmetic data types and operations. We demonstrate that round-to-nearest is not performed in the conversion of constants, conversion from one numerical type to a less precise type and results of multiplications. Furthermore, we show that mixed-precision operations in fixed-point arithmetic lose precision on arguments, even before carrying out arithmetic operations. The ISO 18037:2008 standard was created to standardize C language extensions, including fixed-point arithmetic, for embedded systems. Embedded systems are usually based on ARM processors, of which approximately 100 billion have been manufactured by now. Therefore, the observations about numerical issues that we discuss in this paper can be rather dangerous and are important to address, given the wide ranging type of applications that these embedded systems are running.</summary>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-06T11:37:04Z</published>
+    <arxiv:comment>To appear in the proceedings of the 27th IEEE Symposium on Computer Arithmetic</arxiv:comment>
+    <arxiv:primary_category term="cs.MS"/>
+    <author>
+      <name>Mantas Mikaitis</name>
+    </author>
+    <arxiv:doi>10.1109/ARITH48897.2020.00028</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ARITH48897.2020.00028" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.11290v3</id>
+    <title>Dynamics on the number of prime divisors for additive arithmetic semigroups</title>
+    <updated>2022-03-09T10:45:47Z</updated>
+    <link href="https://arxiv.org/abs/2109.11290v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.11290v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 2020, Bergelson and Richter gave a dynamical generalization of the classical Prime Number Theorem, which has been generalized by Loyd in a disjoint form with the Erdős-Kac Theorem. These generalizations reveal the rich ergodic properties of the number of prime divisors of integers. In this article, we show a new generalization of Bergelson and Richter's Theorem in a disjoint form with the distribution of the largest prime factors of integers. Then following Bergelson and Richter's techniques, we will show the analogues of all of these results for the arithmetic semigroups arising from finite fields as well.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-23T10:54:23Z</published>
+    <arxiv:comment>19 pages. To appear in Finite Fields and Their Applications</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Finite Fields and Their Applications 81 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Biao Wang</name>
+    </author>
+    <arxiv:doi>10.1016/j.ffa.2022.102029</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ffa.2022.102029" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.12066v1</id>
+    <title>Finite-Precision Implementation of Arithmetic Coding Based Distribution Matchers</title>
+    <updated>2019-07-28T10:47:18Z</updated>
+    <link href="https://arxiv.org/abs/1907.12066v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.12066v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A distribution matcher (DM) encodes a binary input data sequence into a sequence of symbols with a desired target probability distribution. Several DMs, including shell mapping and constant-composition distribution matcher (CCDM), have been successfully employed for signal shaping, e.g., in optical-fiber or 5G. The CCDM, like many other DMs, is typically implemented by arithmetic coding (AC). In this work we implement AC based DMs using finite-precision arithmetic (FPA). An analysis of the implementation shows that FPA results in a rate-loss that shrinks exponentially with the number of precision bits. Moreover, a relationship between the CCDM rate and the number of precision bits is derived.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-28T10:47:18Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Marcin Pikus</name>
+    </author>
+    <author>
+      <name>Wen Xu</name>
+    </author>
+    <author>
+      <name>Gerhard Kramer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.04647v1</id>
+    <title>Estimation of the directional parameter of the offset exponential and normal distributions in three-dimensional space using the sample mean</title>
+    <updated>2015-04-29T18:10:37Z</updated>
+    <link href="https://arxiv.org/abs/1505.04647v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.04647v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The directional precision of the sample mean estimator was calculated analytically for the offset exponential and normal distributions in three-dimensional space both for a finite sample and for limiting cases. It was shown that the spherical projection of the sample mean of the shifted exponential distribution has connections with modified Bessel functions and with hypergeometric functions. It was shown explicitly how the distribution of the sample mean of the exponential pdf converges near the mode to the normal distribution. Approximation formulae for the distribution of the sample mean of the shifted exponential distribution and for its directional precision and for the precision of the estimation of the direction of shift of the normal distribution were obtained.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-29T18:10:37Z</published>
+    <arxiv:comment>30 pages, 1 figure. Diploma thesis submitted at the Independent University of Moscow. Keywords: exponential distribution, normal distribution, gaussian distribution, directional statistics, angular precision, direction estimator, offset distribution, 3d, three-dimensional, multidimensional</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <author>
+      <name>Yaroslav Nikitenko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0811.0600v2</id>
+    <title>Asymptotic analysis and diffusion limit of the Persistent Turning Walker Model</title>
+    <updated>2009-09-28T06:46:03Z</updated>
+    <link href="https://arxiv.org/abs/0811.0600v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0811.0600v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Persistent Turning Walker Model (PTWM) was introduced by Gautrais et al in Mathematical Biology for the modelling of fish motion. It involves a nonlinear pathwise functional of a non-elliptic hypo-elliptic diffusion. This diffusion solves a kinetic Fokker-Planck equation based on an Ornstein-Uhlenbeck Gaussian process. The long time "diffusive" behavior of this model was recently studied by Degond &amp; Motsch using partial differential equations techniques. This model is however intrinsically probabilistic. In the present paper, we show how the long time diffusive behavior of this model can be essentially recovered and extended by using appropriate tools from stochastic analysis. The approach can be adapted to many other kinetic "probabilistic" models.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-11-04T20:39:22Z</published>
+    <arxiv:comment>Accepted for publication in Asymptotic Analysis</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Asymptotic Analysis 67, 17-31 (2010)</arxiv:journal_ref>
+    <author>
+      <name>Patrick Cattiaux</name>
+      <arxiv:affiliation>IMT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Djalil Chafai</name>
+      <arxiv:affiliation>IMT, UPTE, LAMA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sébastien Motsch</name>
+      <arxiv:affiliation>IMT</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.3233/ASY-2009-0969</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3233/ASY-2009-0969" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1102.5335v1</id>
+    <title>Block Companion Singer Cycles, Primitive Recursive Vector Sequences, and Coprime Polynomial Pairs over Finite Fields</title>
+    <updated>2011-02-25T20:46:18Z</updated>
+    <link href="https://arxiv.org/abs/1102.5335v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.5335v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss a conjecture concerning the enumeration of nonsingular matrices over a finite field that are block companion and whose order is the maximum possible in the corresponding general linear group. A special case is proved using some recent results on the probability that a pair of polynomials with coefficients in a finite field is coprime. Connection with an older problem of Niederreiter about the number of splitting subspaces of a given dimension are outlined and an asymptotic version of the conjectural formula is established. Some applications to the enumeration of nonsingular Toeplitz matrices of a given size over a finite field are also discussed.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-25T20:46:18Z</published>
+    <arxiv:comment>12 pages; to appear in: Finite Fields and Their Applications</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>Finite Fields Appl. 17 (2011), no. 5, 461-472</arxiv:journal_ref>
+    <author>
+      <name>Sudhir R. Ghorpade</name>
+    </author>
+    <author>
+      <name>Samrith Ram</name>
+    </author>
+    <arxiv:doi>10.1016/j.ffa.2011.02.008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ffa.2011.02.008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.22646v1</id>
+    <title>Finite key analysis of experimentally realized practical COW-QKD protocol</title>
+    <updated>2026-02-26T05:57:24Z</updated>
+    <link href="https://arxiv.org/abs/2602.22646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.22646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An experimental implementation of the Coherent One-Way Quantum Key Distribution (COW-QKD) protocol is reported under realistic conditions, and a clean and easy-to-use framework for performing finite key analysis of the COW-QKD protocol is provided by extending a set of existing results. The framework provided here is used to perform finite key rate analysis of the COW-QKD protocol with respect to the actual parameters used in the experimental realization reported here. The system is kept running for several hours with different experimental parameters and stable secure key rates between 1.2 to 1.6 kbps are observed. In addition, QBER, phase error rate and secure key rate are obtained under finite key analysis, and it is shown that COW-QKD is secure for medium-range transmissions (up-to ~ 156 (171) km of optical fiber with 0.2 dB loss per km if detector efficiency is 0.1 (0.2) and other parameters are same as those used in this experiment).</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-26T05:57:24Z</published>
+    <arxiv:comment>Finite key analysis of the COW-QKD protocol is performed to obtain realistic security bounds</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Neha Pathania</name>
+    </author>
+    <author>
+      <name>Sandeep Mishra</name>
+    </author>
+    <author>
+      <name>Anirban Pathak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.08001v2</id>
+    <title>Counting solutions of special linear equations over finite fields</title>
+    <updated>2020-09-27T23:20:27Z</updated>
+    <link href="https://arxiv.org/abs/2004.08001v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.08001v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $q$ be a prime power, let $\mathbb F_q$ be the finite field with $q$ elements and let $d_1, \ldots, d_k$ be positive integers. In this note we explore the number of solutions $(z_1, \ldots, z_k)\in\overline{\mathbb F}_q^k$ of the equation \begin{equation*}L_1(x_1)+\cdots+L_k(x_k)=b,\end{equation*} with the restrictions $z_i\in \mathbb F_{q^{d_i}}$, where each $L_i(x)$ is a non zero polynomial of the form $\sum_{j=0}^{m_i}a_{ij}x^{q^j}\in \mathbb F_q[x]$ and $b\in \overline{\mathbb F}_q$. We characterize the elements $b$ for which the equation above has a solution and, in affirmative case, we determine the exact number of solutions. As an application of our main result, we obtain the cardinality of the sumset $$\sum_{i=1}^k\mathbb F_{q^{d_i}}:=\{α_1+\cdots+α_k\,|\, α_i\in \mathbb F_{q^{d_i}}\}.$$ Our approach also allows us to solve another interesting problem, regarding the existence and number of elements in $\mathbb F_{q^n}$ with prescribed traces over intermediate $\mathbb F_q$-extensions of $\mathbb F_{q^n}$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-17T00:00:08Z</published>
+    <arxiv:comment>8 pages; to appear in Finite Fields and Their Applications</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Finite Fields Appl. 68: 101759 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Lucas Reis</name>
+    </author>
+    <arxiv:doi>10.1016/j.ffa.2020.101759</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ffa.2020.101759" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.0951v2</id>
+    <title>Arithmetic geometry of algebraic curves and their moduli space</title>
+    <updated>2014-09-21T06:11:00Z</updated>
+    <link href="https://arxiv.org/abs/1409.0951v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.0951v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We review the following subjects: 1. Basic theory on algebraic curves and their moduli space, 2. Schottky uniformization theory of Riemann surfaces, and its extension called arithmetic uniformization theory, 3. Application to these theories to the arithmetic of the moduli space of algebraic curves, especially to automorphic forms on this space.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-03T05:21:01Z</published>
+    <arxiv:comment>This is a lecture note on the arithmetic geometry of algebraic curves and their moduli space</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Takashi Ichikawa</name>
+    </author>
+  </entry>
+</feed>

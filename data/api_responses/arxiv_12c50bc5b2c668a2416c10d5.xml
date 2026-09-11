@@ -1,0 +1,740 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qyAnlWhr2To3ib/1U/L6NujDpKE</id>
+  <title>arXiv Query: search_query=all:numerical OR all:stability OR all:of OR all:the OR all:Hausdorff OR all:moment OR all:problem&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:46:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:numerical+OR+(all:stability+OR+(all:of+OR+(all:the+OR+(all:Hausdorff+OR+(all:moment+OR+all:problem)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>865038</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.15406v1</id>
+    <title>Conditional Stability and Numerical Reconstruction of a Parabolic Inverse Source Problem Using Carleman Estimates</title>
+    <updated>2025-08-21T09:54:50Z</updated>
+    <link href="https://arxiv.org/abs/2508.15406v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.15406v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we develop a new numerical approach for recovering a spatially dependent source component in a standard parabolic equation from partial interior measurements. We establish novel conditional Lipschitz stability and Hölder stability for the inverse problem with and without boundary conditions, respectively, using suitable Carleman estimates. Then we propose a numerical approach for solving the inverse problem using conforming finite element approximations in both time and space. Moreover, by utilizing the conditional stability estimates, we prove rigorous error bounds on the discrete approximation. We present several numerical experiments to illustrate the effectiveness of the approach.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-21T09:54:50Z</published>
+    <arxiv:comment>inverse source problem, Carleman estimate, stability estimate, finite element method, error estimate</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Tianhao Hu</name>
+    </author>
+    <author>
+      <name>Xinchi Huang</name>
+    </author>
+    <author>
+      <name>Bangti Jin</name>
+    </author>
+    <author>
+      <name>Qimeng Quan</name>
+    </author>
+    <author>
+      <name>Zhi Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.02646v1</id>
+    <title>Moment-Based Ensemble Control</title>
+    <updated>2020-09-06T05:14:07Z</updated>
+    <link href="https://arxiv.org/abs/2009.02646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.02646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Controlling a large population, in the limit, a continuum, of structurally identical dynamical systems with parametric variations is a pervasive task in diverse applications in science and engineering. However, the severely underactuated nature and the inability to avail comprehensive state feedback information of such ensemble systems raise significant challenges in analysis and design of ensemble systems. In this paper, we propose a moment-based ensemble control framework, which incorporates and expands the method of moments in probability theory to control theory. In particular, we establish an equivalence between ensemble systems and their moment systems in terms of control and their controllability properties by extending the Hausdorff moment problem from the perspectives of differential geometry and dynamical systems. The developments enable the design of moment-feedback control laws for closing the loop in ensemble systems using the aggregated type of measurements. The feasibility of this closed-loop control design procedure is validated both mathematically and numerically.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-06T05:14:07Z</published>
+    <arxiv:comment>Keywords: Ensemble systems, Hausdorff moment problem, Aggregated measurements, Aggregated feedback</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Vignesh Narayanan</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Jr-Shin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.04127v1</id>
+    <title>Open questions asked to analysis and numerics concerning the Hausdorff moment problem</title>
+    <updated>2022-06-08T18:48:45Z</updated>
+    <link href="https://arxiv.org/abs/2206.04127v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.04127v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We address facts and open questions concerning the degree of ill-posedness of the composite Hausdorff moment problem aimed at the recovery of a function $x \in L^2(0,1)$ from elements of the infinite dimensional sequence space $\ell^2$ that characterize moments applied to the antiderivative of $x$. This degree, unknown by now, results from the decay rate of the singular values of the associated compact forward operator $A$, which is the composition of the compact simple integration operator mapping in $L^2(0,1)$ and the non-compact Hausdorff moment operator $B^{(H)}$ mapping from $L^2(0,1)$ to $\ell^2$. There is a seeming contradiction between (a) numerical computations, which show (even for large $n$) an exponential decay of the singular values for $n$-dimensional matrices obtained by discretizing the operator $A$, and \linebreak (b) a strongly limited smoothness of the well-known kernel $k$ of the Hilbert-Schmidt operator $A^*A$. Fact (a) suggests severe ill-posedness of the infinite dimensional Hausdorff moment problem, whereas fact (b) lets us expect the opposite, because exponential ill-posedness occurs in common just for $C^\infty$-kernels $k$. We recall arguments for the possible occurrence of a polynomial decay of the singular values of $A$, even if the numerics seems to be against it, and discuss some issues in the numerical approximation of non-compact operators.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-08T18:48:45Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>EURASIAN JOURNAL OF MATHEMATICAL AND COMPUTER APPLICATIONS 10(1), pp. 40--0, 2022</arxiv:journal_ref>
+    <author>
+      <name>Daniel Gerth</name>
+    </author>
+    <author>
+      <name>Bernd Hofmann</name>
+    </author>
+    <arxiv:doi>10.32523/2306-6172-2022-10-1-40-50</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.32523/2306-6172-2022-10-1-40-50" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0706.0433v2</id>
+    <title>Numerical Clifford Analysis for Nonlinear Schrodinger Problem</title>
+    <updated>2007-12-04T01:10:59Z</updated>
+    <link href="https://arxiv.org/abs/0706.0433v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0706.0433v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The aim of this work is to study the numerical solution of the nonlinear Schrodinger problem using a combination between Witt basis and finite difference approximations. We construct a discrete fundamental solution for the non-stationary Schrodinger operator and we show the convergence of the numerical scheme. Numerical examples are given at the end of the paper.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-06-04T13:23:18Z</published>
+    <arxiv:comment>This article has 6 figures. This article has benn accepted for publication in the Journal of Numerical Methods for Partial Differential Equations</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Numerical Methods for Partial Differential Equations, Vol. 24, no.4, 2008, 1181 - 1202</arxiv:journal_ref>
+    <author>
+      <name>P. Cerejeiras</name>
+    </author>
+    <author>
+      <name>N. Faustino</name>
+    </author>
+    <author>
+      <name>N. Vieira</name>
+    </author>
+    <arxiv:doi>10.1002/num.20312</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/num.20312" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.09914v1</id>
+    <title>Quantitative Stability and Numerical Resolution of the Moment Measure Problem</title>
+    <updated>2026-04-10T21:17:20Z</updated>
+    <link href="https://arxiv.org/abs/2604.09914v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.09914v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The moment measure problem consists in finding a convex function $ψ$ whose moment measure, i.e., the pushforward by $\nabla ψ$ of the measure with density $e^{-ψ(\,\cdot\,)}$, is prescribed. It is highly non-linear and less understood than the related optimal transport problem. We establish a quantitative stability estimate for this problem. This estimate validates, as well as leads us to introduce, an approach to the numerical resolution of the moment measure problem inspired by semi-discrete optimal transport, consisting in approximating the prescribed measure by a finitely supported one. We describe a Newton method for solving the discrete problem thus obtained, and perform numerical experiments, studying the experimental rates of convergence of the approximation beyond the predictions of the stability estimate.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-10T21:17:20Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Guillaume Bonnet</name>
+    </author>
+    <author>
+      <name>Yanir A. Rubinstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.3395v1</id>
+    <title>Dynamical Systems and Numerical Analysis: the Study of Measures generated by Uncountable I.F.S</title>
+    <updated>2010-05-19T10:00:59Z</updated>
+    <link href="https://arxiv.org/abs/1005.3395v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.3395v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Measures generated by Iterated Function Systems composed of uncountably many one--dimensional affine maps are studied. We present numerical techniques as well as rigorous results that establish whether these measures are absolutely or singular continuous.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-19T10:00:59Z</published>
+    <arxiv:comment>to appear in Numerical Algorithms</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <arxiv:journal_ref>Numerical Algorithms, 55 (2010) 321--335</arxiv:journal_ref>
+    <author>
+      <name>Giorgio Mantica</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.3692v3</id>
+    <title>On a nonlinear partial differential algebraic system arising in technical textile industry: Analysis and numerics</title>
+    <updated>2015-03-18T14:19:11Z</updated>
+    <link href="https://arxiv.org/abs/1203.3692v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.3692v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we explore a numerical scheme for a nonlinear fourth order system of partial differential algebraic equations that describes the dynamics of slender inextensible elastica as they arise in the technical textile industry. Applying a semi-discretization in time, the resulting sequence of nonlinear elliptic systems with the algebraic constraint for the local length preservation is reformulated as constrained optimization problems in a Hilbert space setting that admit a solution at each time level. Stability and convergence of the scheme are proved. The numerical realization is based on a finite element discretization in space. The simulation results confirm the analytically predicted properties of the scheme.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-16T12:57:36Z</published>
+    <arxiv:comment>Abstract and introduction are partially rewritten. The numerical study in Section 4 is completely rewritten</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>IMA Journal of Numerical Analysis 2015</arxiv:journal_ref>
+    <author>
+      <name>Martin Grothaus</name>
+    </author>
+    <author>
+      <name>Nicole Marheineke</name>
+    </author>
+    <arxiv:doi>10.1093/imanum/drv056</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/imanum/drv056" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.10057v3</id>
+    <title>A linear Galerkin numerical method for a quasilinear subdiffusion equation</title>
+    <updated>2022-11-29T06:10:46Z</updated>
+    <link href="https://arxiv.org/abs/2107.10057v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.10057v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We couple the L1 discretization for Caputo derivative in time with spectral Galerkin method in space to devise a scheme that solves quasilinear subdiffusion equations. Both the diffusivity and the source are allowed to be nonlinear functions of the solution. We prove method's stability and convergence with spectral accuracy in space. The temporal order depends on solution's regularity in time. Further, we support our results with numerical simulations that utilize parallelism for spatial discretization. Moreover, as a side result we find asymptotic exact values of error constants along with their remainders for discretizations of Caputo derivative and fractional integrals. These constants are the smallest possible which improves the previously established results from the literature.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-21T12:56:57Z</published>
+    <arxiv:comment>This is the accepted version of the manuscript published in Applied Numerical Mathematics</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Applied Numerical Mathematics 185 (2023), 203-220</arxiv:journal_ref>
+    <author>
+      <name>Łukasz Płociniczak</name>
+    </author>
+    <arxiv:doi>10.1016/j.apnum.2022.11.020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.apnum.2022.11.020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.06569v2</id>
+    <title>Numerical evaluation of two and three parameter Mittag-Leffler functions</title>
+    <updated>2015-05-21T13:11:18Z</updated>
+    <link href="https://arxiv.org/abs/1503.06569v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.06569v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Mittag-Leffler (ML) function plays a fundamental role in fractional calculus but very few methods are available for its numerical evaluation. In this work we present a method for the efficient computation of the ML function based on the numerical inversion of its Laplace transform (LT): an optimal parabolic contour is selected on the basis of the distance and the strength of the singularities of the LT, with the aim of minimizing the computational effort and reduce the propagation of errors. Numerical experiments are presented to show accuracy and efficiency of the proposed approach. The application to the three parameter ML (also known as Prabhakar) function is also presented.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-23T09:22:59Z</published>
+    <arxiv:comment>Accepted for publication in SIAM Journal on Numerical Analysis</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>SIAM Journal of Numerical Analysis, 2015, 53(3), 1350-1369</arxiv:journal_ref>
+    <author>
+      <name>Roberto Garrappa</name>
+    </author>
+    <arxiv:doi>10.1137/140971191</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/140971191" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.07264v1</id>
+    <title>Convergence of a Semi-Discrete Numerical Method for a Class of Nonlocal Nonlinear Wave Equations</title>
+    <updated>2018-05-18T15:02:26Z</updated>
+    <link href="https://arxiv.org/abs/1805.07264v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.07264v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we prove the convergence of a semi-discrete numerical method applied to a general class of nonlocal nonlinear wave equations where the nonlocality is introduced through the convolution operator in space. The most important characteristic of the numerical method is that it is directly applied to the nonlocal equation by introducing the discrete convolution operator. Starting from the continuous Cauchy problem defined on the real line, we first construct the discrete Cauchy problem on a uniform grid of the real line. Thus the semi-discretization in space of the continuous problem gives rise to an infinite system of ordinary differential equations in time. We show that the initial-value problem for this system is well-posed. We prove that solutions of the discrete problem converge uniformly to those of the continuous one as the mesh size goes to zero and that they are second-order convergent in space. We then consider a truncation of the infinite domain to a finite one. We prove that the solution of the truncated problem approximates the solution of the continuous problem when the truncated domain is sufficiently large. Finally, we present some numerical experiments that confirm numerically both the expected convergence rate of the semi-discrete scheme and the ability of the method to capture finite-time blow-up of solutions for various convolution kernels.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-18T15:02:26Z</published>
+    <arxiv:comment>29 pages, to appear in ESAIM: Mathematical Modelling and Numerical Analysis</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>ESAIM: Mathematical Modelling and Numerical Analysis 52, 803-826 (2018)</arxiv:journal_ref>
+    <author>
+      <name>H. A. Erbay</name>
+    </author>
+    <author>
+      <name>S. Erbay</name>
+    </author>
+    <author>
+      <name>A. Erkip</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.02278v2</id>
+    <title>Positivity-Preserving Analysis of Numerical Schemes for Ideal Magnetohydrodynamics</title>
+    <updated>2018-05-16T04:19:31Z</updated>
+    <link href="https://arxiv.org/abs/1802.02278v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.02278v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Numerical schemes provably preserving the positivity of density and pressure are highly desirable for MHD, but the rigorous positivity-preserving (PP) analysis remains challenging. The difficulties mainly arise from the intrinsic complexity of the MHD equations as well as the indeterminate relation between the PP property and the divergence-free condition on magnetic field. We present the first rigorous PP analysis of conservative schemes with Lax-Friedrichs (LF) flux for ideal MHD. The significant innovation is the discovery of theoretical connection between PP property and a discrete divergence-free (DDF) condition. This connection is established through the generalized LF splitting properties, which are alternatives of the usually-expected LF splitting property that does not hold for ideal MHD. The generalized LF splitting properties involve a number of admissible states strongly coupled by DDF condition, making their derivation very difficult. We derive these properties via a novel equivalent form of the admissible state set and an important inequality skillfully constructed by technical estimates. Rigorous PP analysis is presented for finite volume and discontinuous Galerkin schemes with LF flux on uniform Cartesian meshes. In 1D case, PP property is proved for the first-order scheme with proper numerical viscosity, and also for arbitrarily high-order schemes under conditions accessible by a PP limiter. In 2D case, we show that the DDF condition is necessary and crucial for achieving PP property. It is observed that even slightly violating the proposed DDF condition may cause failure to preserve the positivity of pressure. We prove that the 2D LF type scheme with proper numerical viscosity preserves the positivity and DDF condition. Sufficient conditions are derived for 2D PP high-order schemes, and extension to 3D is discussed. Numerical examples confirm the theoretical findings.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-07T01:24:32Z</published>
+    <arxiv:comment>Accepted for publication in SIAM Journal on Numerical Analysis</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>SIAM Journal on Numerical Analysis, 56(4), 2124-2147, 2018</arxiv:journal_ref>
+    <author>
+      <name>Kailiang Wu</name>
+    </author>
+    <arxiv:doi>10.1137/18M1168017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/18M1168017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0307023v1</id>
+    <title>Numerical analysis of solitary waves interaction in nonlinear medium</title>
+    <updated>2003-07-14T15:45:04Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0307023v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0307023v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Using numerical modeling investigated interaction of solitary waves (solitons) of the regularized long wave equation. For reception the stable model of the nonlinear medium are used methods of the linear prediction and progressive approximation. By modeling was determined that depending on ratio of velocities of the solitons and the form of highest derivatives balance is possible self-organization of the medium nonequilibrium state as formation of shock waves and stable on the form solitary waves, created as a result of full or partial mutual penetration of the solitons. Is possible also aggregation of the solitons in third wave. The shock waves can pass into other possible resonance state as a wave front with stable amplitude, which precedes developing in singularity negative front.</summary>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-07-14T15:45:04Z</published>
+    <arxiv:comment>7 pages, 4 figures, LaTeX</arxiv:comment>
+    <arxiv:primary_category term="nlin.PS"/>
+    <author>
+      <name>Yu. A. Bunyak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.2967v1</id>
+    <title>On the multilinear Hausdorff problem of moments</title>
+    <updated>2012-03-13T22:09:42Z</updated>
+    <link href="https://arxiv.org/abs/1203.2967v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.2967v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a multi-index sequence $μ_{\mathbf{k}}$, $\mathbf{k} = (k_1,..., k_n) \in \mathbb{N}_0^n$, necessary and sufficient conditions are given for the existence of a regular Borel polymeasure $γ$ on the unit interval $I= [0,1]$ such that $μ_{\mathbf{k}} = \int_{I^n} t_1^{k_1}\otimes ... \otimes t_n^{k_n} γ$. This problem will be called the weak multilinear Hausdorff problem of moments for $μ_{\mathbf{k}}$. Comparison with classical results will allow us to relate the weak multilinear Hausdorff problem with the multivariate Hausdorff problem. A solution to the strong multilinear Hausdorff problem of moments will be provided by exhibiting necessary and sufficient conditions for the existence of a Radon measure $μ$ on $[0,1]$ such that $L_μ(f_1,..., f_n) = \int_{I} f_1(t) ... f_n(t) μ(dt)$ where $L_μ$ is the $n$-linear moment functional on the space of continuous functions on the unit interval defined by the sequence $μ_{\mathbf{k}}$. Finally the previous results will be used to provide a characterization of a class of weakly harmonizable stochastic processes with bimeasures supported on compact sets.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-13T22:09:42Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>A. Ibort</name>
+    </author>
+    <author>
+      <name>P. Linares</name>
+    </author>
+    <author>
+      <name>J. G. Llavona</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4567v1</id>
+    <title>On degenerate Hamburger moment problem and extensions of positive semidefinite Hankel block matrices</title>
+    <updated>2008-12-24T19:22:41Z</updated>
+    <link href="https://arxiv.org/abs/0812.4567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we consider two related objects: singular positive semidefinite Hankel block--matrices and associated degenerate truncated matrix Hamburger moment problems. The description of all solutions of a degenerate matrix Hamburger moment problem is given in terms of a linear fractional transformation. The case of interest is the Hamburger moment problem whose Hankel block--matrix admits a positive semidefinite Hankel extension.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-24T19:22:41Z</published>
+    <arxiv:comment>The corrected version of the paper "On degenerate Hamburger moment problem and extensions of nonnegative Hankel block matrices", Integral Equations Operator Theory 25 (1996), no. 3, 253--276</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Bolotnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.01262v1</id>
+    <title>A semi-discrete numerical scheme for nonlocally regularized KdV-type equations</title>
+    <updated>2022-02-02T19:49:32Z</updated>
+    <link href="https://arxiv.org/abs/2202.01262v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.01262v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A general class of KdV-type wave equations regularized with a convolution-type nonlocality in space is considered. The class differs from the class of the nonlinear nonlocal unidirectional wave equations previously studied by the addition of a linear convolution term involving third-order derivative. To solve the Cauchy problem we propose a semi-discrete numerical method based on a uniform spatial discretization, that is an extension of a previously published work of the present authors. We prove uniform convergence of the numerical method as the mesh size goes to zero. We also prove that the localization error resulting from localization to a finite domain is significantly less than a given threshold if the finite domain is large enough. To illustrate the theoretical results, some numerical experiments are carried out for the Rosenau-KdV equation, the Rosenau-BBM-KdV equation and a convolution-type integro-differential equation. The experiments conducted for three particular choices of the kernel function confirm the error estimates that we provide.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-02T19:49:32Z</published>
+    <arxiv:comment>16 pages, 4 figures, 1 table, to appear in the journal Applied Numerical Mathematics. arXiv admin note: text overlap with arXiv:1909.10917</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Applied Numerical Mathematics 175, 29-39 (2022)</arxiv:journal_ref>
+    <author>
+      <name>H. A. Erbay</name>
+    </author>
+    <author>
+      <name>S. Erbay</name>
+    </author>
+    <author>
+      <name>A. Erkip</name>
+    </author>
+    <arxiv:doi>10.1016/j.apnum.2022.02.003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.apnum.2022.02.003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.13686v1</id>
+    <title>A new pair of transformations and applications to generalized informational inequalities and Hausdorff moment problem</title>
+    <updated>2025-03-17T19:49:13Z</updated>
+    <link href="https://arxiv.org/abs/2503.13686v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.13686v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a pair of transformations, which are mutually inverse, acting on rather general classes of probability densities in R. These transformations have the property of interchanging the main informational measures such as p-moments, Shannon and Rényi entropies, and Fisher information. We thus apply them in order to establish extensions and generalizations of the Stam and moment-entropy inequalities in a mirrored domain of the entropic indexes. Moreover, with the aid of the two transformations we establish formal solutions to the Hausdorff entropic moment problem by connecting them with the solutions of the standard Hausdorff problem. In addition, we introduce a Fisher-like moment problem and relate it to the standard Hausdorff moment problem.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-17T19:49:13Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Razvan Gabriel Iagar</name>
+    </author>
+    <author>
+      <name>David Puertas-Centeno</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.12622v2</id>
+    <title>Hausdorff Moment Transforms and Their Performance</title>
+    <updated>2023-05-11T01:52:00Z</updated>
+    <link href="https://arxiv.org/abs/2212.12622v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.12622v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Various methods have been proposed to approximate a solution to the truncated Hausdorff moment problem. In this paper, we establish a method of comparison for the performance of the approximations. Three ways of producing random moment sequences are discussed and applied. Also, some of the approximations have been rewritten as linear transforms, and detailed accuracy requirements are analyzed. Our finding shows that the performance of the approximations differs significantly in their convergence properties, accuracy, and numerical complexity and that the decay type of the moment sequence strongly affects the accuracy requirement.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-24T00:41:58Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Prob. Eng. Inf. Sci. 39 (2025) 579-604</arxiv:journal_ref>
+    <author>
+      <name>Xinyun Wang</name>
+    </author>
+    <author>
+      <name>Martin Haenggi</name>
+    </author>
+    <arxiv:doi>10.1017/S0269964825000063</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S0269964825000063" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0705.1235v3</id>
+    <title>Statistical minimax approach of the Hausdorff moment problem</title>
+    <updated>2009-04-23T06:10:22Z</updated>
+    <link href="https://arxiv.org/abs/0705.1235v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0705.1235v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The purpose of this paper is to study the problem of estimating a compactly supported density of probability from noisy observations of its moments. In fact, we provide a statistical approach to the famous Hausdorff classical moment problem. We prove an upper bound and a lower bound on the rate of convergence of the mean squared error showing that the considered estimator attains minimax rate over the corresponding smoothness classes.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-05-09T13:07:54Z</published>
+    <arxiv:comment>21 pages</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <arxiv:journal_ref>Inverse Problems (2008) 24 045018</arxiv:journal_ref>
+    <author>
+      <name>Thanh Mai Pham Ngoc</name>
+      <arxiv:affiliation>PMA</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0266-5611/24/4/045018</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0266-5611/24/4/045018" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.09396v6</id>
+    <title>An Application of Hausdorff Moment Problem</title>
+    <updated>2023-05-21T04:38:31Z</updated>
+    <link href="https://arxiv.org/abs/2303.09396v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.09396v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we apply Hausdorff moment problem to prove a necessary and sufficient condition for a complex sequence to be positive. Then we apply it to a subclass of genus $0$ entire functions $f(z)$ to obtain an infinite family of necessary and sufficient conditions for $f(z)$ to have only negative roots, which in turn to give infinite many necessary and sufficient conditions for the Riemann hypothesis and the generalized Riemann hypothesis with a primitive Dirichlet character.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-12T10:57:24Z</published>
+    <arxiv:comment>12 pages. arXiv admin note: text overlap with arXiv:0906.4604</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Ruiming Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05833v2</id>
+    <title>Multi-messenger Observations of a Binary Neutron Star Merger</title>
+    <updated>2017-10-24T12:03:18Z</updated>
+    <link href="https://arxiv.org/abs/1710.05833v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.05833v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^{+8}_{-8}$ Mpc and with component masses consistent with neutron stars. The component masses were later measured to be in the range 0.86 to 2.26 Msun. An extensive observing campaign was launched across the electromagnetic spectrum leading to the discovery of a bright optical transient (SSS17a, now with the IAU identification of AT 2017gfo) in NGC 4993 (at $\sim$40 Mpc) less than 11 hours after the merger by the One-Meter, Two Hemisphere (1M2H) team using the 1 m Swope Telescope. The optical transient was independently detected by multiple teams within an hour. Subsequent observations targeted the object and its environment. Early ultraviolet observations revealed a blue transient that faded within 48 hours. Optical and infrared observations showed a redward evolution over $\sim$10 days. Following early non-detections, X-ray and radio emission were discovered at the transient's position $\sim$9 and $\sim$16 days, respectively, after the merger. Both the X-ray and radio emission likely arise from a physical process that is distinct from the one that generates the UV/optical/near-infrared emission. No ultra-high-energy gamma-rays and no neutrino candidates consistent with the source were found in follow-up searches. (Abridged)</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-16T16:57:18Z</published>
+    <arxiv:comment>This is a reproduction of the article published in the Astrophysical Journal Letters, under the terms of the Creative Commons Attribution 3.0 licence</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>ApJL, 848:L12, 2017</arxiv:journal_ref>
+    <author>
+      <name> LIGO Scientific Collaboration</name>
+    </author>
+    <author>
+      <name> Virgo Collaboration</name>
+    </author>
+    <author>
+      <name>Fermi GBM</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> INTEGRAL</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IceCube Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AstroSat Cadmium Zinc Telluride Imager Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IPN Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Insight-Hxmt Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>ANTARES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Swift Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AGILE Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The 1M2H Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Dark Energy Camera GW-EM Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>the DES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The DLT40 Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> GRAWITA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>GRAvitational Wave Inaf TeAm</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Fermi Large Area Telescope Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ATCA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australia Telescope Compact Array</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ASKAP</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australian SKA Pathfinder</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Las Cumbres Observatory Group</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> OzGrav</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> DWF</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> AST3</name>
+    </author>
+    <author>
+      <name>CAASTRO Collaborations</name>
+    </author>
+    <author>
+      <name>The VINROUGE Collaboration</name>
+    </author>
+    <author>
+      <name>MASTER Collaboration</name>
+    </author>
+    <author>
+      <name> J-GEM</name>
+    </author>
+    <author>
+      <name> GROWTH</name>
+    </author>
+    <author>
+      <name> JAGWAR</name>
+    </author>
+    <author>
+      <name>Caltech- NRAO</name>
+    </author>
+    <author>
+      <name> TTU-NRAO</name>
+    </author>
+    <author>
+      <name>NuSTAR Collaborations</name>
+    </author>
+    <author>
+      <name> Pan-STARRS</name>
+    </author>
+    <author>
+      <name>The MAXI Team</name>
+    </author>
+    <author>
+      <name>TZAC Consortium</name>
+    </author>
+    <author>
+      <name>KU Collaboration</name>
+    </author>
+    <author>
+      <name>Nordic Optical Telescope</name>
+    </author>
+    <author>
+      <name> ePESSTO</name>
+    </author>
+    <author>
+      <name> GROND</name>
+    </author>
+    <author>
+      <name>Texas Tech University</name>
+    </author>
+    <author>
+      <name>SALT Group</name>
+    </author>
+    <author>
+      <name> TOROS</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Transient Robotic Observatory of the South Collaboration</name>
+    </author>
+    <author>
+      <name>The BOOTES Collaboration</name>
+    </author>
+    <author>
+      <name> MWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Murchison Widefield Array</name>
+    </author>
+    <author>
+      <name>The CALET Collaboration</name>
+    </author>
+    <author>
+      <name>IKI-GW Follow-up Collaboration</name>
+    </author>
+    <author>
+      <name>H. E. S. S. Collaboration</name>
+    </author>
+    <author>
+      <name>LOFAR Collaboration</name>
+    </author>
+    <author>
+      <name> LWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Long Wavelength Array</name>
+    </author>
+    <author>
+      <name>HAWC Collaboration</name>
+    </author>
+    <author>
+      <name>The Pierre Auger Collaboration</name>
+    </author>
+    <author>
+      <name>ALMA Collaboration</name>
+    </author>
+    <author>
+      <name>Euro VLBI Team</name>
+    </author>
+    <author>
+      <name>Pi of the Sky Collaboration</name>
+    </author>
+    <author>
+      <name>The Chandra Team at McGill University</name>
+    </author>
+    <author>
+      <name> DFN</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Desert Fireball Network</name>
+    </author>
+    <author>
+      <name> ATLAS</name>
+    </author>
+    <author>
+      <name>High Time Resolution Universe Survey</name>
+    </author>
+    <author>
+      <name> RIMAS</name>
+    </author>
+    <author>
+      <name> RATIR</name>
+    </author>
+    <author>
+      <name>SKA South Africa/MeerKAT</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/aa91c9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/aa91c9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.00825v2</id>
+    <title>A general fibre theorem for moment problems and some applications</title>
+    <updated>2015-07-08T15:18:06Z</updated>
+    <link href="https://arxiv.org/abs/1502.00825v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.00825v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fibre theorem \cite{schm2003} for the moment problem on closed semi-algebraic subsets of $\R^d$ is generalized to finitely generated real unital algebras. As an application two new theorems on the rational multidimensional moment problem are proved. Another application is a characterization of moment functionals on the polynomial algebra $\R[x_1,\dots,x_d]$ in terms of extensions. Finally, the fibre theorem and the extension theorem are used to reprove basic results on the complex moment problem due to Stochel and Szafraniec \cite{stochelsz} and Bisgaard \cite{bisgaard}.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-03T12:04:45Z</published>
+    <arxiv:comment>The paper is based on the previous paper by the author arXiv:1406.0282 "A characterization of moment sequences by extensions"</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Konrad Schmüdgen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0907.1670v2</id>
+    <title>Stability for an inverse problem for a two speed hyperbolic pde in one space dimension</title>
+    <updated>2009-11-17T10:15:58Z</updated>
+    <link href="https://arxiv.org/abs/0907.1670v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0907.1670v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove stability for a coefficient determination problem for a two velocity 2x2 system of hyperbolic PDEs in one space dimension.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-07-09T20:30:42Z</published>
+    <arxiv:comment>Revised Version. Give more detail and correct the proof of Proposition 4 regarding the existence and regularity of the forward problem. No changes to the proof of the stability of the inverse problem. To appear in Inverse Problems</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name> Rakesh</name>
+      <arxiv:affiliation>University of Delaware</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Paul Sacks</name>
+      <arxiv:affiliation>Iowa State University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0266-5611/26/2/025005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0266-5611/26/2/025005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.10654v2</id>
+    <title>New Direct Numerical Methods for Some Multidimensional Problems of the Calculus of Variations</title>
+    <updated>2019-03-01T10:13:31Z</updated>
+    <link href="https://arxiv.org/abs/1809.10654v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.10654v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we develop a new approach to the design of direct numerical methods for multidimensional problems of the calculus of variations. The approach is based on a transformation of the problem with the use of a new class of Sobolev-like spaces that is studied in the article. This transformation allows one to analytically compute the direction of steepest descent of the main functional of the calculus of variations with respect to a certain inner product, and, in turn, to construct new direct numerical methods for multidimensional problems of the calculus of variations. In the end of the paper we point out how the approach developed in the article can be extended to the case of problems with more general boundary conditions, problems for functionals depending on higher order derivatives, and problems with isoperimetric and/or pointwise constraints.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-27T17:30:24Z</published>
+    <arxiv:comment>This is a slightly edited version of Accepted Manuscript of an article published by Taylor &amp; Francis in Numerical Functional Analysis and Optimization on 06/10/2017</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <arxiv:journal_ref>Numerical Functional Analysis and Optimization, 39: 4 (2018) 467-490</arxiv:journal_ref>
+    <author>
+      <name>M. V. Dolgopolik</name>
+    </author>
+    <arxiv:doi>10.1080/01630563.2017.1378231</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/01630563.2017.1378231" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.5502v3</id>
+    <title>The stability of strong viscous contact discontinuity to a free boundary problem for compressible Navier-Stokes equations</title>
+    <updated>2014-10-08T11:14:46Z</updated>
+    <link href="https://arxiv.org/abs/1407.5502v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.5502v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is concerned with nonlinear stability of viscous contact discontinuity to a free boundary problem for the one-dimensional full compressible Navier-Stokes equations in half space $[0,\infty)$. For the case when the local stability of the contact discontinuities was first studied by [1],later generalized by [2], local stability of weak viscous contact discontinuity is well-established by [4-8], but for the global stability of the impermeable gas with big oscillation ends $(|θ_+-θ_-|&gt;1) $, fewer results have been obtained excluding zero dissipation [9] or $γ\to 1$ gas see [10]. Our main purpose is to deduce the corresponding nonlinear stability result with the two different ends to temperature by exploiting the elementary energy method. As a first step towards this goal, we will show in this paper that with a certain class of big perturbation which can allow $|θ_--θ_+|&gt;1$, the global stability result holds.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-21T14:14:28Z</published>
+    <arxiv:comment>This paper was finished after our work that is "The stability of strong viscous contact discontinuity to an inflow problem for compressible navier-stokes equations"</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Tingting Zheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.00116v1</id>
+    <title>Hausdorff moment sequences induced by rational functions</title>
+    <updated>2019-03-01T00:57:29Z</updated>
+    <link href="https://arxiv.org/abs/1903.00116v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.00116v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the Hausdorff moment problem for a class of sequences, namely $(r(n))_{n\in\mathbb Z_+},$ where $r$ is a rational function in the complex plane. We obtain a necessary condition for such sequence to be a Hausdorff moment sequence. We found an interesting connection between Hausdorff moment problem for this class of sequences with finite divided differences and convolution of complex exponential functions. We provide a sufficient condition on the zeros and poles of a rational function $r$ so that $(r(n))_{n\in\mathbb Z_+}$ is a Hausdorff moment sequence. G. Misra asked whether the module tensor product of a subnormal module with the Hardy module over the polynomial ring is again a subnormal module or not. Using our necessary condition we answer the question of G. Misra in negative. Finally, we obtain a characterization of all real polynomials $p$ of degree up to $4$ and a certain class of real polynomials of degree $5$ for which the sequence $(1/p(n))_{n\in\mathbb Z_+}$ is a Hausdorff moment sequence.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-01T00:57:29Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Md. Ramiz Reza</name>
+    </author>
+    <author>
+      <name>Genkai Zhang</name>
+    </author>
+  </entry>
+</feed>

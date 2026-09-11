@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1D7rdvxtVs+oQ0koOpO3IaQh6To</id>
+  <title>arXiv Query: search_query=all:positivity OR all:bounds OR all:effective OR all:field OR all:theory OR all:dispersion OR all:moments&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:45:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:positivity+OR+(all:bounds+OR+(all:effective+OR+(all:field+OR+(all:theory+OR+(all:dispersion+OR+all:moments)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1824365</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9707234v2</id>
+    <title>Variational Approach to Quantum Field Theory: Gaussian Approximation and the Perturbative Expansion around It</title>
+    <updated>1997-08-21T09:31:53Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9707234v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9707234v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The functional Schrodinger picture formulation of quantum field theory and the variational Gaussian approximation method based on the formulation are briefly reviewed. After presenting recent attempts to improve the variational approximation, we introduce a new systematic method based on the background field method, which enables one to compute the order-by-order correction terms to the Gaussian approximation of the effective action.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-07-29T07:42:59Z</published>
+    <arxiv:comment>To appear in the proceedings of APCTP-ICTP Joint International Conference '97 on "Recent Developments in Nonperturbative Quantum Field Theory". new references are added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Jae Hyung Yee</name>
+      <arxiv:affiliation>Yonsei Univ.</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.02879v2</id>
+    <title>Positivity Bounds on Higgs-Portal Dark Matter</title>
+    <updated>2023-06-05T12:06:02Z</updated>
+    <link href="https://arxiv.org/abs/2302.02879v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.02879v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the positivity bounds for WIMP scalar dark matter with effective Higgs-portal couplings up to dimension-8 operators. Taking the superposed states for Standard Model Higgs and scalar dark matter, we show that the part of the parameter space for the effective couplings, otherwise unconstrained by phenomenological bounds, is ruled out by the positivity bounds on the dimension-8 derivative operators. We find that dark matter relic density, direct and indirect detection and LHC constraints are complementary to the positivity bounds in constraining the effective Higgs-portal couplings. In the effective theory obtained from massive graviton or radion, there appears a correlation between dimension-8 operators and other effective Higgs-portal couplings for which the strong constraint from direct detection can be evaded. Nailing down the parameter space mainly by relic density, direct detection and positivity bounds, we find that there are observable cosmic ray signals coming from the dark matter annihilations into a pair of Higgs bosons, $WW$ or $ZZ$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-06T15:46:35Z</published>
+    <arxiv:comment>31 pages, 6 figures, v2: one-loop corrections to the positivity bounds added, version to be published in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Seong-Sik Kim</name>
+    </author>
+    <author>
+      <name>Hyun Min Lee</name>
+    </author>
+    <author>
+      <name>Kimiko Yamashita</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP06(2023)124</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP06(2023)124" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9607351v1</id>
+    <title>Dispersion Relations and Effective Field Theory</title>
+    <updated>1996-07-17T14:29:00Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9607351v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9607351v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The techniques of dispersion relations match very well with those of effective field theory. I describe the techniques for using dispersion relations effectively, and give some pedagogical examples to illustrate the range of applications.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-07-17T14:29:00Z</published>
+    <arxiv:comment>21 pages, Latex, Lecture presented at the International School on Effective Field Theories, Almunecar, Spain, June 1995. Admin note: two figures not supplied</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>John F. Donoghue</name>
+      <arxiv:affiliation>Univ. of Massachusetts, Amherst</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/0406024v1</id>
+    <title>Field theory Lagrangian approach to nuclear structure</title>
+    <updated>2004-06-09T12:37:33Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/0406024v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/0406024v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that in the search of a unified mean field description of finite nuclei and of nuclear and neutron matter even at high densities, the relativistic nuclear model derived from effective field theory and density functional theory methods constitutes a competitive framework. The model predicts a soft equation of state, owing to the additional meson interaction terms, consistently with the results of the microscopic Dirac-Brueckner-Hartree-Fock theory and recent experimental observations from heavy ion collisions. In finite systems, after inclusion of the pairing correlations, the model is able to describe both stable and exotic nuclei. We address two examples at the limits of the nuclear landscape. On the one hand, we analyze the giant halo effect and the isoscalar giant monopole resonance in very neutron-rich Zr isotopes. On the other hand, we discuss the structure of superheavy nuclei with double shell closures.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-06-09T12:37:33Z</published>
+    <arxiv:comment>50 pages, 14 figures. Submitted to NOVA Science Publishers (NY) volume "Progress in Field Theory Research"</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Contribution to "Focus on Quantum Field Theory", edited by O. Kovras (Nova Science Publishers, New York, 2005)</arxiv:journal_ref>
+    <author>
+      <name>Tapas Sil</name>
+    </author>
+    <author>
+      <name>S. K. Patra</name>
+    </author>
+    <author>
+      <name>B. K. Sharma</name>
+    </author>
+    <author>
+      <name>M. Centelles</name>
+    </author>
+    <author>
+      <name>X. Vinas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.08382v1</id>
+    <title>Conditionally positive definite kernels in Hilbert $C^*$-modules</title>
+    <updated>2016-11-25T08:35:02Z</updated>
+    <link href="https://arxiv.org/abs/1611.08382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.08382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the notion of conditionally positive definite in the context of Hilbert $C^*$-modules and present a characterization of the conditionally positive definiteness in terms of the usual positive definiteness. We give a Kolmogorov type representation of conditionally positive definite kernels in Hilbert $C^*$-modules. As a consequence, we show that a $C^*$-metric space $(S, d)$ is $C^*$-isometric to a subset of a Hilbert $C^*$-module if and only if $K(s,t)=-d(s,t)^2$ is a conditionally positive definite kernel. We also present a characterization of the order $K'\leq K$ between conditionally positive definite kernels.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-25T08:35:02Z</published>
+    <arxiv:comment>14 pages, to appear in Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <arxiv:journal_ref>Positivity 21 (2017), no. 3, 1161--1172</arxiv:journal_ref>
+    <author>
+      <name>Mohammad Sal Moslehian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.0857v4</id>
+    <title>Effective Field Theory for Supercooled Liquids</title>
+    <updated>2014-07-23T22:26:14Z</updated>
+    <link href="https://arxiv.org/abs/1212.0857v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.0857v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Starting from a microscopic model of liquids, we construct an effective theory of an overlap field through duplication of the system and coarse-graining. We then propose a recipe to extract a relaxation time and two characteristic length scales of a supercooled liquid from this effective field theory. Appealing to the Ginzburg-Landau-Wilson paradigm near the putative critical point, we further conclude that this effective field theory resides within the Ising universality class.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-04T21:00:00Z</published>
+    <arxiv:comment>This paper has been withdrawn as the identification of the two-point correlation length of the effective field theory with the length envisioned by Adam and Gibbs was incorrect and the misidentification invalidates the construction of the theory</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Sho Yaida</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.1562v2</id>
+    <title>Initial Conditions in the Effective Field Theory of Inflation</title>
+    <updated>2011-12-30T18:57:51Z</updated>
+    <link href="https://arxiv.org/abs/1109.1562v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.1562v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many different models of inflation give rise to the same effective field theory of the inflaton. While effective field theories in flat space provide little information about UV physics, we propose that in inflationary backgrounds a large amount of information can be encoded by the initial conditions of the effective theory. We identify conditions under which this information remains available at late times, e.g. through observation of non-Gaussianities, and introduce a simple model of initial conditions where these conditions are satisfied.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-07T20:01:02Z</published>
+    <arxiv:comment>12 pages, 2 figures. Extended overview of effective field theory, improved discussion of thermal freeze-out scenario</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Ross O'Connell</name>
+    </author>
+    <author>
+      <name>R. Holman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.5893v2</id>
+    <title>Fast evaluation of far-field signals for time-domain wave propagation</title>
+    <updated>2023-04-30T01:38:23Z</updated>
+    <link href="https://arxiv.org/abs/1409.5893v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.5893v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Time-domain simulation of wave phenomena on a finite computational domain often requires a fictitious outer boundary. An important practical issue is the specification of appropriate boundary conditions on this boundary, often conditions of complete transparency. Attention to this issue has been paid elsewhere, and here we consider a different, although related, issue: far-field signal recovery. Namely, from smooth data recorded on the outer boundary we wish to recover the far-field signal which would reach arbitrarily large distances. These signals encode information about interior scatterers and often correspond to actual measurements. This article expresses far-field signal recovery in terms of time-domain convolutions, each between a solution multipole moment recorded at the boundary and a sum-of-exponentials kernel. Each exponential corresponds to a pole term in the Laplace transform of the kernel, a finite sum of simple poles. Greengard, Hagstrom, and Jiang have derived the large-$\ell$ (spherical-harmonic index) asymptotic expansion for the pole residues, and their analysis shows that, when expressed in terms of the exact sum-of-exponentials, large-$\ell$ signal recovery is plagued by cancellation errors. Nevertheless, through an alternative integral representation of the kernel and its subsequent approximation by a {\em smaller} number of exponential terms (kernel compression), we are able to alleviate these errors and achieve accurate signal recovery. We empirically examine scaling relations between the parameters which determine a compressed kernel, and perform numerical tests of signal "teleportation" from one radial value $r_1$ to another $r_2$, including the case $r_2=\infty$. We conclude with a brief discussion on application to other hyperbolic equations posed on non-flat geometries where waves undergo backscatter.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-20T15:03:51Z</published>
+    <arxiv:comment>19 pages, 11 figures, 1 table, uses svjour3. Version 2 corrects minor typos, including some that appear in the published version</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>J Sci Comput 64, 647-669 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Scott E. Field</name>
+    </author>
+    <author>
+      <name>Stephen R. Lau</name>
+    </author>
+    <arxiv:doi>10.1007/s10915-015-9995-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10915-015-9995-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/9905009v1</id>
+    <title>The Two-Nucleon Sector with Effective Field Theory</title>
+    <updated>1999-05-04T23:10:54Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/9905009v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/9905009v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I present the results obtained for several observables in the two-nucleon sector using effective field theory with KSW power-counting and dimensional regularization. In addition to the phase shifts for nucleon-nucleon scattering, several deuteron observables are discussed, including electromagnetic form factors, polarizabilities, gamma+d -&gt; gamma+d Compton scattering, and n+p -&gt; d+gamma. A detailed comparison between the effective field theory with pions, the theory without pions, and effective range theory is made.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-05-04T23:10:54Z</published>
+    <arxiv:comment>26 pages, 17 figures, latex, Talk Presented at the Workshop on Nuclear Physics with Effective Field Theory, INT Feb. 25-26, 1999</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>Martin J. Savage</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/9904023v2</id>
+    <title>Convergence Issues in Nucleon-Nucleon Effective Field Theory</title>
+    <updated>1999-04-10T20:01:17Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/9904023v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/9904023v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The origin of the breakdown scale in an effective field theory treatment of nuclear forces is investigated. Different organizational schemes used in the nonperturbative calculation of nucleon-nucleon scattering seem to break down for different physical reasons. It is argued that the same physics is actually responsible, namely strong two-pion exchange as also observed in the pion scalar form factor. The prospect of extending the applicability of the effective field theory beyond this breakdown point is discussed.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-04-09T19:04:33Z</published>
+    <arxiv:comment>15 pages, 10 figures, LaTeX, uses sprocl.sty. Contribution to the proceedings of the INT "Workshop on Nuclear Physics with Effective Field Theory: 1999"</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>James V. Steele</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0604089v3</id>
+    <title>Space-time transformation properties of inter-charge forces and dipole radiation: Breakdown of the classical field concept in relativistic electrodynamics</title>
+    <updated>2008-04-04T13:02:38Z</updated>
+    <link href="https://arxiv.org/abs/physics/0604089v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0604089v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A detailed study is made of the space-time transformation properties of intercharge forces and the associated electric and magnetic force fields, both in classical electrodynamics and in a recently developed relativistic classical electrodynamical theory. Important differences are found and serious errors are found in the traditional treatment of special-relativistic effects in classical electromagnetism. Fields associated with radiation processes are also considered and classical and quantum mechanical predictions are compared. An important, though trivial, mathematical error in the derivation of the retarded Liénard-Wiechert retarded potentials is pointed out. It is also shown why electric and magnetic fields produced by moving source charges or current distributions are not `classical fields', and that they do not, in general, constitute an antisymmetic second-rank tensor, as is usually assumed.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-04-11T11:21:14Z</published>
+    <arxiv:comment>58 pages, 3 figures. Latest version has errors corrected, improved text and one less figure. v3 length transformation discussion corrected, typos removed and references updated</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>J. H. Field</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.22734v1</id>
+    <title>Radiation outer boundary conditions and near-to-far field signal transformations for the Bardeen-Press equation</title>
+    <updated>2026-04-24T17:29:36Z</updated>
+    <link href="https://arxiv.org/abs/2604.22734v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.22734v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several theoretical and astrophysical problems - including gravitational-wave modeling for extreme mass-ratio inspirals - require accurate time-domain solutions of the spin-weight $s=-2$ Teukolsky equation in Boyer-Lindquist coordinates. Because such simulations are performed on finite computational domains, they typically introduce an artificial outer boundary where nontrivial boundary conditions must be imposed. If these conditions are inaccurate, then spurious reflections and slowly-growing unphysical modes may corrupt long-time evolutions. We develop and implement exact radiation outer boundary conditions for the Bardeen-Press equation (a harmonic moment of the $a=0$ Teukolsky equation), making the artificial boundary transparent at any finite radius. We also construct near-to-far field teleportation kernels that map field data recorded at finite radius $r_1$ to the data reaching $r_2 &gt; r_1$. The possible choice $r_2 = \infty$ corresponds to asymptotic waveform evaluation, that is propagation of the data to future null infinity. We show that both boundary and teleportation kernels are well approximated by exponential sums, with associated error bounds. Implemented in a time-domain solver, our kernel-based boundary conditions eliminate unphysical late-time growth and give the correct late-time decay rates, affording efficient long-duration simulations for waveform modeling and related blackhole perturbation calculations.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-24T17:29:36Z</published>
+    <arxiv:comment>26 pages, 8 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Som Dev Bishoyi</name>
+    </author>
+    <author>
+      <name>Scott E. Field</name>
+    </author>
+    <author>
+      <name>Stephen R. Lau</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0704.1574v3</id>
+    <title>Retarded electric and magnetic fields of a moving charge: Feynman's derivation of Liénard-Wiechert potentials revisited</title>
+    <updated>2015-06-04T13:22:48Z</updated>
+    <link href="https://arxiv.org/abs/0704.1574v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0704.1574v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retarded electromagnetic potentials are derived from Maxwell's equations and the Lorenz condition. The difference found between these potentials and the conventional Liénard-Wiechert ones is explained by neglect, for the latter, of the motion-dependence of the effective charge density. The corresponding retarded fields of a point-like charge in arbitary motion are compared with those given by the formulae of Heaviside, Feynman, Jefimenko and other authors. The fields of an accelerated charge given by the Feynman are the same as those derived from the Liénard-Wiechert potentials but not those given by the Jefimenko formulae. A mathematical error concerning partial space and time derivatives in the derivation of the Jefimenko equations is pointed out.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-04-12T12:39:38Z</published>
+    <arxiv:comment>39 pages, 6 figures. v2 has 2 new figures, improved text, typos corrected and updated references. v3 minor text revisions, some conclusions rectified, references updated</arxiv:comment>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>J. H. Field</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.00445v2</id>
+    <title>Relativistic Corrections to Nonrelativistic Effective Field Theories</title>
+    <updated>2018-06-13T12:20:19Z</updated>
+    <link href="https://arxiv.org/abs/1712.00445v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.00445v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we develop a formalism for studying the nonrelativistic limit of relativistic field theories in a systematic way. By introducing a simple, nonlocal field redefinition, we transform a given relativistic theory, describing a real, self-interacting scalar field, into an equivalent theory, describing a complex scalar field that encodes at each time both the original field and its conjugate momentum. Our low-energy effective theory incorporates relativistic corrections to the kinetic energy as well as the backreaction of fast-oscillating terms on the behavior of the dominant, slowly varying component of the field. Possible applications of our new approach include axion dark matter, though the methods developed here should be applicable to the low-energy limits of other field theories as well.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-01T18:59:11Z</published>
+    <arxiv:comment>31pp. References added, and 3 appendices added, showing (a) how to implement the field redefinition as a canonical transformation, (b) how to develop the effective field theory using a local field redefinition, and (c) how to use a further field redefinition to compare our results with those of Mukaida, Takimoto, and Yamada</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 98, 016011 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Mohammad Hossein Namjoo</name>
+    </author>
+    <author>
+      <name>Alan H. Guth</name>
+    </author>
+    <author>
+      <name>David I. Kaiser</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.98.016011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.98.016011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/9906077v1</id>
+    <title>Nucleon-Nucleon Scattering in Effective Field Theory</title>
+    <updated>1999-06-25T02:57:58Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/9906077v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/9906077v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I outline the effective field theory (EFT) calculation of nucleon-nucleon scattering which was recently carried out to next-to-next-to-leading order (NNLO) by Noam Shoresh and myself. In this calculation only potential pion contributions are included. These are the leading contributions from pions. A toy model was also considered in which potential pions are the only pion effects. The effective range expansion (ERE), which is valid for low energies, is used to derive matching conditions on some of the EFT couplings. Renormalization group flow analysis is used to fix the rest of the couplings leaving no free parameters at NNLO.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-06-25T02:57:58Z</published>
+    <arxiv:comment>22 pages, 8 figures, latex, Talk Presented at the Workshop on Nuclear Physics with Effective Field Theory, INT Feb. 25-26, 1999</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>G. Rupak</name>
+    </author>
+    <author>
+      <name>N. Shoresh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/9804040v1</id>
+    <title>Regularization and the potential of effective field theory in nucleon-nucleon scattering</title>
+    <updated>1998-04-20T16:16:56Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/9804040v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/9804040v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper examines the role that regularization plays in the definition of the potential used in effective field theory (EFT) treatments of the nucleon-nucleon interaction. I consider $NN$ scattering in $S$-wave channels at momenta well below the pion mass. In these channels (quasi-)bound states are present at energies well below the scale $m_π^2/M$ expected from naturalness arguments. I ask whether, in the presence of such a shallow bound state, there is a regularization scheme which leads to an EFT potential that is both useful and systematic. In general, if a low-lying bound state is present then cutoff regularization leads to an EFT potential which is useful but not systematic, and dimensional regularization with minimal subtraction leads to one which is systematic but not useful. The recently-proposed technique of dimensional regularization with power-law divergence subtraction allows the definition of an EFT potential which is both useful and systematic.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-04-20T16:16:56Z</published>
+    <arxiv:comment>17 pages, 2 figures, LaTeX, uses sprocl.sty. Contribution to proceedings of "Workshop on Nuclear Physics with Effective Field Theory"</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>D. R. Phillips</name>
+      <arxiv:affiliation>University of Maryland</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.08426v1</id>
+    <title>K3 en route From Geometry to Conformal Field Theory</title>
+    <updated>2015-03-29T12:51:18Z</updated>
+    <link href="https://arxiv.org/abs/1503.08426v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.08426v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To pave the way for the journey from geometry to conformal field theory (CFT), these notes present the background for some basic CFT constructions from Calabi-Yau geometry. Topics include the complex and Kaehler geometry of Calabi-Yau manifolds and their classification in low dimensions.
+  I furthermore discuss CFT constructions for the simplest known examples that are based in Calabi-Yau geometry, namely for the toroidal superconformal field theories and their Z2-orbifolds.
+  En route from geometry to CFT, I offer a discussion of K3 surfaces as the simplest class of Calabi-Yau manifolds where non-linear sigma model constructions bear mysteries to the very day.
+  The elliptic genus in CFT and in geometry is recalled as an instructional piece of evidence in favor of a deep connection between geometry and conformal field theory.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-29T12:51:18Z</published>
+    <arxiv:comment>39 pages, no figures; lecture notes for the author's contribution to the 2013 Summer School "Geometric, Algebraic and Topological Methods for Quantum Field Theory" in Villa de Leyva, Colombia</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <arxiv:journal_ref>in: Geometric, algebraic and topological methods of quantum field theory, 75-110, World Sci. Publ., Hackensack, NJ, 2017</arxiv:journal_ref>
+    <author>
+      <name>Katrin Wendland</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0409103v2</id>
+    <title>Derivation of the Lorentz Force Law, the Magnetic Field Concept and the Faraday-Lenz Law using an Invariant Formulation of the Lorentz Transformation</title>
+    <updated>2005-08-19T09:29:07Z</updated>
+    <link href="https://arxiv.org/abs/physics/0409103v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0409103v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is demonstrated how the right hand sides of the Lorentz Transformation equations may be written, in a Lorentz invariant manner, as 4--vector scalar products. This implies the existence of invariant length intervals analogous to invariant proper time intervals. This formalism, making essential use of the 4-vector electromagnetic potential concept, provides a short derivation of the Lorentz force law of classical electrodynamics, the conventional definition of the magnetic field, in terms of spatial derivatives of the 4--vector potential and the Faraday-Lenz Law. An important distinction between the physical meanings of the space-time and energy-momentum 4--vectors is pointed out.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ed-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-09-20T17:34:09Z</published>
+    <arxiv:comment>15 pages, no tables 1 figure. Revised and extended version of physics/0307133 Some typos removed and minor text improvements in this version</arxiv:comment>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <arxiv:journal_ref>Phys. Scripta 73 (2006) 639-647</arxiv:journal_ref>
+    <author>
+      <name>J. H. Field</name>
+    </author>
+    <arxiv:doi>10.1088/0031-8949/73/6/018</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0031-8949/73/6/018" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.06630v2</id>
+    <title>Comment on "Measuring propagation speed of Coulomb fields" [R. de Sangro {\it et al.} Eur. Phys. J.C (2015) 75:137]</title>
+    <updated>2016-02-18T11:36:09Z</updated>
+    <link href="https://arxiv.org/abs/1506.06630v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.06630v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Some remarks are made on the theoretical interpretation of recent experimental results on the propagation speed of electromagnetic force fields.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-12T10:55:20Z</published>
+    <arxiv:comment>3 pages, no figures, no tables,V2 bullet point conclusions added</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>J. H. Field</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0201266v1</id>
+    <title>Effective Field Theories of QCD</title>
+    <updated>2002-01-29T12:45:22Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0201266v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0201266v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  These are the proceedings of the workshop on ``Effective Field Theories of QCD'' held at the Physikzentrum Bad Honnef of the Deutsche Physikalische Gesellschaft, Bad Honnef, Germany from November 26 to 30, 2001. The workshop concentrated on Chiral Perturbation Theory in its various settings, its relations with lattice QCD and dispersion theory and the use of effective field theories in systems with one, two or more nucleons as well as at high baryon densities. Included are a short contribution per talk and a listing of some review papers on the subject.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-01-29T12:45:22Z</published>
+    <arxiv:comment>58 pp, LaTeX2e, 2 figs, miniproceedings of the meeting on ``Effective Field Theories of QCD'', Bad Honnef, Germany, Nov.26-30, 2001</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Johan Bijnens</name>
+    </author>
+    <author>
+      <name>Ulf-G. Meißner</name>
+    </author>
+    <author>
+      <name>Andreas Wirzba</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.05664v2</id>
+    <title>Effective Field Theory with Nambu-Goldstone Modes</title>
+    <updated>2020-01-25T19:54:12Z</updated>
+    <link href="https://arxiv.org/abs/1804.05664v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.05664v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>These lectures provide an introduction to the low-energy dynamics of Nambu-Goldstone fields, associated with some spontaneous (or dynamical) symmetry breaking, using the powerful methods of effective field theory. The generic symmetry properties of these massless modes are described in detail and two very relevant phenomenological applications are worked out: chiral perturbation theory, the low-energy effective theory of QCD, and the (non-linear) electroweak effective theory. The similarities and differences between these two effective theories are emphasized, and their current status is reviewed. Special attention is given to the short-distance dynamical information encoded in the low-energy couplings of the effective Lagrangians. The successful methods developed in QCD could help us to uncover fingerprints of new physics scales from future measurements of the electroweak effective theory couplings.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-16T13:37:01Z</published>
+    <arxiv:comment>Lectures given at the 2017 Les Houches Summer School on "Effective Field Theory in Particle Physics and Cosmology" (Les Houches, France, 3-28 July 2017). Two references added and some typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Antonio Pich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0307133v1</id>
+    <title>Derivation of the Lorentz Force Law and the Magnetic Field Concept using an Invariant Formulation of the Lorentz Transformation</title>
+    <updated>2003-07-28T13:02:26Z</updated>
+    <link href="https://arxiv.org/abs/physics/0307133v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0307133v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is demonstrated how the right hand sides of the Lorentz Transformation equations may be written, in a Lorentz invariant manner, as 4--vector scalar products. The formalism is shown to provide a short derivation, in which the 4--vector electromagnetic potential plays a crucial role, of the Lorentz force law of classical electrodynamics, and the conventional definition of the magnetic field in terms spatial derivatives of the 4--vector potential. The time component of the relativistic generalisation of the Lorentz force law is discussed. An important physical distinction between the space-time and energy-momentum 4--vectors is also pointed out.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ed-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-07-28T13:02:26Z</published>
+    <arxiv:comment>12 pages, no tables, no figures</arxiv:comment>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>J. H. Field</name>
+      <arxiv:affiliation>Département de Physique Nucléaire et Corpusculaire Université de Genève</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9904509v1</id>
+    <title>Power Counting For and Symmetries of the Effective Field Theory For NN Interactions</title>
+    <updated>1999-04-30T22:23:35Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9904509v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9904509v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The appropriate power counting for the effective field theory of NN interactions is reviewed. It is more subtle than in most effective field theories since in the limit that the S-wave NN scattering lengths go to infinity it is governed by a nontrivial fixed point. The leading two body terms in the effective field theory for nucleon self interactions are scale invariant and invariant under Wigner SU(4) spin-isospin symmetry in this limit. Higher body terms with no derivatives (i.e., three and four body terms) are automatically invariant under Wigner symmetry.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-04-30T22:23:35Z</published>
+    <arxiv:comment>11 pages, Talk Presented at the Workshop on Nuclear Physics with Effective Field Theory, INT Feb. 25-26, 1999</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Mark B. Wise</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.25006v1</id>
+    <title>Very effective algebraic and hermitian K-theory of the cyclic group of order two</title>
+    <updated>2025-09-29T16:29:23Z</updated>
+    <link href="https://arxiv.org/abs/2509.25006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.25006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compute the $2$-completed integral motivic homology, effective algebraic K-theory, and very effective hermitian K-theory of the geometric classifying space of the cyclic group of order two over algebraically closed fields, the real numbers, and finite fields.</summary>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-29T16:29:23Z</published>
+    <arxiv:comment>35 pages, 37 figures. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.KT"/>
+    <author>
+      <name>Prerna Dhankhar</name>
+    </author>
+    <author>
+      <name>Rebecca Field</name>
+    </author>
+    <author>
+      <name>Arjun Nigam</name>
+    </author>
+    <author>
+      <name>J. D. Quigley</name>
+    </author>
+    <author>
+      <name>Albert Jinghui Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/9804010v1</id>
+    <title>Nuclear Scales</title>
+    <updated>1998-04-06T22:21:33Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/9804010v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/9804010v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Nuclear scales are discussed from the nuclear physics viewpoint. The conventional nuclear potential is characterized as a black box that interpolates nucleon-nucleon (NN) data, while being constrained by the best possible theoretical input. The latter consists of the longer-range parts of the NN force (e.g., OPEP, TPEP, the $π$-$γ$ force), which can be calculated using chiral perturbation theory and gauged using modern phase-shift analyses. The shorter-range parts of the force are effectively parameterized by moments of the interaction that are independent of the details of the force model, in analogy to chiral perturbation theory. Results of GFMC calculations in light nuclei are interpreted in terms of fundamental scales, which are in good agreement with expectations from chiral effective field theories. Problems with spin-orbit-type observables are noted.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-04-06T22:21:33Z</published>
+    <arxiv:comment>16 pages, latex, 7 figures -- Proceedings of "Workshop on Nuclear Physics with Effective Field Theory" -- sprocl.sty and epsfig.sty required</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>"Nuclear Physics with Effective Field Theory", ed. by R. Seki, U. van Kolck, and M.J. Savage, (World Scientific, Singapore, 1998), p. 145.</arxiv:journal_ref>
+    <author>
+      <name>J. L. Friar</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,821 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/u/LEjddTWF3MRCa1CyUD16GfPjo</id>
+  <title>arXiv Query: search_query=all:recovering OR all:the OR all:smallest OR all:exponent OR all:from OR all:sampled OR all:exponential OR all:sums&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:44:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:recovering+OR+(all:the+OR+(all:smallest+OR+(all:exponent+OR+(all:from+OR+(all:sampled+OR+(all:exponential+OR+all:sums))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1611565</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.17239v2</id>
+    <title>Optimal structured approximation of Fourier subspaces, Toeplitz matrices, and exponential sums</title>
+    <updated>2026-07-13T19:05:45Z</updated>
+    <link href="https://arxiv.org/abs/2511.17239v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.17239v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies three structured approximation problems: (1) Recovering the range of a Fourier matrix from a single observation, (2) Recovering a corrupted low-rank Toeplitz/Hankel matrix, and (3) Recovering a finite exponential sum from noisy samples. All three problems are computationally challenging because their structural constraints are difficult to enforce directly. We show that all three tasks can be solved efficiently and optimally by applying the Gradient-MUSIC algorithm for spectral estimation. To provide an example, for a rank-$r$ Toeplitz matrix $T\in {\mathbb C}^{n\times n}$ that satisfies a regularity assumption and is corrupted by an arbitrary $E\in {\mathbb C}^{n\times n}$ such that $\|E\|_2\leq αn$, our algorithm outputs a Toeplitz matrix $T_\sharp$ of rank exactly $r$ such that $\|T-T_\sharp\|_2 \leq C \|E\|_2$, where $C,α&gt;0$ are absolute constants. This performance guarantee is minimax optimal in $n$, $r$, and $\|E\|_2$. For the other two structured approximation problems, we also provide algorithms that are minimax optimal in the number of samples, rank/sparsity, and noise level. At the heart of this paper is a quantitative transference principle which shows how to convert computational methods and theory for spectral estimation into corresponding methods and theory for the other three problems.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-21T13:33:39Z</published>
+    <arxiv:comment>41 pages; numerous improvements, new material on exponential sums</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Albert Fannjiang</name>
+    </author>
+    <author>
+      <name>Weilin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.08469v4</id>
+    <title>Bounds on trilinear and quadrilinear exponential sums</title>
+    <updated>2017-02-09T14:06:36Z</updated>
+    <link href="https://arxiv.org/abs/1604.08469v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.08469v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use an estimate of Aksoy Yazici, Murphy, Rudnev and Shkredov (2016) on the number of solutions of certain equations involving products and differences of sets in prime finite fields to give an explicit upper bound on trilinear exponential sums which improves the previous bound of Bourgain and Garaev (2009). We also obtain explicit bounds for quadrilinear exponential sums.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-28T15:34:11Z</published>
+    <arxiv:comment>31 pages. Accepted in Journal d'Analyse Mathematique. The introduction, bibliography and Section 2.1 have been extended to include a historical overview and ancestry of the results presented in this paper. Theorem 1.9, a further application of the exponential sums bounds, was added in Section 1.4 and proved in Section 4.4. We report recent progress in Section 1.5</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Giorgis Petridis</name>
+    </author>
+    <author>
+      <name>Igor E. Shparlinski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.20101v1</id>
+    <title>Exponential sums twisted by general arithmetic functions</title>
+    <updated>2024-12-28T09:56:50Z</updated>
+    <link href="https://arxiv.org/abs/2412.20101v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.20101v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine exponential sums of the form $\sum_{n \le X} w(n) e^{2πiαn^k}$, for $k=1,2$, where $α$ satisfies a generalized Diophantine approximation and where $w$ are different arithmetic functions that might be multiplicative, additive, or neither. A strategy is shown on how to bound these sums for a wide class of functions $w$ belonging within the same ecosystem. Using this new technology we are able to improve current results on minor arcs that have recently appeared in the literature of the Hardy-Littlewood circle method. Lastly, we show how a bound on $\sum_{n \le X} |μ(n)| e^{2πiαn}$ can be used to study partitions asymptotics over squarefree parts and explain their connection to the zeros of the Riemann zeta-function.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-28T09:56:50Z</published>
+    <arxiv:comment>Pages: 34, Figures: 8, Keywords: exponential sums, arithmetic functions, weights associated to partitions, Hardy-Littlewood circle method, zeros of the Riemann zeta-function, explicit formulae, Weyl's bound</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Anji Dong</name>
+    </author>
+    <author>
+      <name>Nicolas Robles</name>
+    </author>
+    <author>
+      <name>Alexandru Zaharescu</name>
+    </author>
+    <author>
+      <name>Dirk Zeindler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.2014v3</id>
+    <title>The L^1-norm of exponential sums in Z^d</title>
+    <updated>2011-10-19T11:06:33Z</updated>
+    <link href="https://arxiv.org/abs/1110.2014v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.2014v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let A be a finite set of integers and F_A its exponential sum. McGehee, Pigno &amp; Smith and Konyagin have independently proved that the L^1-norm of F_A is at least c log|A| for some absolute constant c. The lower bound has the correct order of magnitude and was first conjectured by Littlewood. In this paper we present lower bounds on the L^1-norm of exponential sums of sets in the d-dimensional grid Z^d. We show that the L^1-norm of F_A is considerably larger than log|A| when A is a subset of Z^d with multidimensional structure. We furthermore prove similar lower bounds for sets in Z, which in a technical sense are multidimensional and discuss their connection to an inverse result on the theorem of McGehee, Pigno &amp; Smith and Konyagin.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-10T11:54:55Z</published>
+    <arxiv:comment>13 pages. Section 5 has been modified. Conjecture 5.1 has been changed and is now called a question. The logarithmic lower bound on the L^1-norm of exponential sums of random sets in {1,...,N}^2 (Corollary 1.2 of version 1) is very weak and has been removed</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>Math. Proc. Cambridge Philos. Soc. 154 (3), 2013</arxiv:journal_ref>
+    <author>
+      <name>Giorgis Petridis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.08252v3</id>
+    <title>Attaining the exponent $5/4$ for the sum-product problem in finite fields</title>
+    <updated>2021-04-02T14:59:44Z</updated>
+    <link href="https://arxiv.org/abs/2103.08252v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.08252v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We improve the exponent in the finite field sum-product problem from $11/9$ to $5/4$, improving the results of Rudnev, Shakan and Shkredov. That is, we show that if $A\subset \mathbb{F}_p$ has cardinality $|A|\ll p^{1/2}$ then
+  \[
+  \max\{|A\pm A|,|AA|\} \gtrsim |A|^\frac54
+  \]
+and
+  \[
+  \max\{|A\pm A|,|A/A|\}\gtrsim |A|^\frac54\,. \]</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-15T10:05:36Z</published>
+    <arxiv:comment>11 pages, v3 improves the exponent from 21/17 to 5/4</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Ali Mohammadi</name>
+    </author>
+    <author>
+      <name>Sophie Stevens</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.06726v2</id>
+    <title>Exponential Sums by Irrationality Exponent</title>
+    <updated>2025-04-18T05:23:41Z</updated>
+    <link href="https://arxiv.org/abs/2504.06726v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.06726v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we give an asymptotic bound for the exponential sum of the Möbius function $\sum_{n \le x} μ(n) e(αn)$ for a fixed irrational number $α\in\mathbb{R}$. This exponential sum was originally studied by Davenport and he obtained an asymptotic bound of $x(\log x)^{-A}$ for any $A\ge0$. Our bound depends on the irrationality exponent $η$ of $α$. If $η\le 5/2$, we obtain a bound of $x^{4/5 + \varepsilon}$ and, when $η\ge 5/2$, our bound is $x^{(2η-1)/2η+ \varepsilon}$. This result extends a result of Murty and Sankaranarayanan, who obtained the same bound in the case $η= 2$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-09T09:31:12Z</published>
+    <arxiv:comment>5 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Byungchul Cha</name>
+    </author>
+    <author>
+      <name>Dong Han Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.1080v3</id>
+    <title>Nonlinear Sampling and Lebesgue's Integral Sums</title>
+    <updated>2010-09-13T07:48:51Z</updated>
+    <link href="https://arxiv.org/abs/1009.1080v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.1080v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider nonlinear, or "event-dependent", sampling, i.e. such that the sampling instances {tk} depend on the function being sampled. The use of such sampling in the construction of Lebesgue's integral sums is noted and discussed as regards physical measurement and also possible nonlinearity of singular systems. Though the limit of the sums, i.e. Lebesgue's integral, is linear with regard to the function being integrated, these sums are nonlinear in the sense of the sampling. A relevant method of frequency detection not using any clock, and using the nonlinear sampling, is considered. The mathematics and the realization arguments essentially complete each other.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-06T16:04:39Z</published>
+    <arxiv:comment>This is a continuation of my research of the classification of singular systems as linear and nonlinear (see IEEE CAS MAG, III, 2009 for switched systems, and here in the ArXiv) to sampling systems. The noted nonlinearity of Lebesgue's approximating sums, and an application of the "psy-transform", introduced by me earlier, to signal analysis are the examples. 5 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <author>
+      <name>Emanuel Gluskin</name>
+    </author>
+    <arxiv:doi>10.1109/EEEI.2010.5662115</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/EEEI.2010.5662115" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.2016v3</id>
+    <title>Invariance of Lyapunov exponents and Lyapunov dimension for regular and irregular linearizations</title>
+    <updated>2016-02-16T22:07:35Z</updated>
+    <link href="https://arxiv.org/abs/1410.2016v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.2016v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nowadays the Lyapunov exponents and Lyapunov dimension have become so widespread and common that they are often used without references to the rigorous definitions or pioneering works. It may lead to a confusion since there are at least two well-known definitions, which are used in computations: the upper bounds of the exponential growth rate of the norms of linearized system solutions (Lyapunov characteristic exponents, LCEs) and the upper bounds of the exponential growth rate of the singular values of the fundamental matrix of linearized system (Lyapunov exponents, LEs). In this work the relation between Lyapunov exponents and Lyapunov characteristic exponents is discussed. The invariance of Lyapunov exponents for regular and irregular linearizations under the change of coordinates is demonstrated.</summary>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-08T08:28:11Z</published>
+    <arxiv:comment>Keywords: chaos, Lyapunov exponent, Lyapunov characteristic exponent, Lyapunov dimension of attractor, time-varying linearization, regular and non regular linearization, time reparametrization, change of coordinates, Perron effect of Lyapunov exponent sign reversal</arxiv:comment>
+    <arxiv:primary_category term="nlin.CD"/>
+    <arxiv:journal_ref>Nonlinear Dynamics, 2016</arxiv:journal_ref>
+    <author>
+      <name>N. V. Kuznetsov</name>
+    </author>
+    <author>
+      <name>T. A. Alexeeva</name>
+    </author>
+    <author>
+      <name>G. A. Leonov</name>
+    </author>
+    <arxiv:doi>10.1007/s11071-016-2678-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11071-016-2678-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.13774v1</id>
+    <title>Jamming of Elastoviscoplastic fluids in Elastic Turbulence</title>
+    <updated>2025-03-17T23:38:45Z</updated>
+    <link href="https://arxiv.org/abs/2503.13774v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.13774v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Elastoviscoplastic (EVP) fluid flows are driven by a non-trivial interplay between the elastic, viscous, and plastic properties, which under certain conditions can transition the otherwise laminar flow into complex flow instabilities with rich space-time-dependent dynamics. We discover that under elastic turbulence regimes, EVP fluids undergo dynamic jamming triggered by localised polymer stress deformations that facilitate the formation of solid regions trapped in local low-stress energy wells. Below the jamming transition $φ&lt;φ_J$, the solid volume fraction $φ$ scales with $\sqrt{Bi}$, where $Bi$ is the Bingham number characterizing the ratio of yield to viscous stresses, in direct agreement with theoretical approximations based on the laminar solution. The onset of this new dynamic jamming transition $φ\geqφ_J$ is marked by a clear deviation from the scaling $φ\sim \sqrt{Bi}$, scaling as $φ\sim \exp{Bi}$. We show that this instability-induced jamming transition -- analogous to that in dense suspensions -- leads to slow, minimally diffusive, and rigid-like flows with finite deformability, highlighting a novel phase-change in elastic turbulence regimes of complex fluids.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-17T23:38:45Z</published>
+    <arxiv:comment>Submitted to Journal of Fluid Mechanics</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>Journal of Fluid Mechanics 1017, R1 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Christopher S. From</name>
+    </author>
+    <author>
+      <name>Vedad Dzanic</name>
+    </author>
+    <author>
+      <name>Vahid Niasar</name>
+    </author>
+    <author>
+      <name>Emilie Sauret</name>
+    </author>
+    <arxiv:doi>10.1017/jfm.2025.10458</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/jfm.2025.10458" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.06076v1</id>
+    <title>Recovering a variable exponent</title>
+    <updated>2020-02-14T15:30:15Z</updated>
+    <link href="https://arxiv.org/abs/2002.06076v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.06076v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an inverse problem of recovering the non-linearity in the one dimensional variable exponent $p(x)$-Laplace equation from the Dirichlet-to-Neumann map. The variable exponent can be recovered up to the natural obstruction of rearrangements. The main technique is using a Müntz-Szász theorem after reducing the problem to determining a function from its $L^p$-norms.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-14T15:30:15Z</published>
+    <arxiv:comment>20 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Doc. Math. 26, 713-731 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Tommi Brander</name>
+    </author>
+    <author>
+      <name>Jarkko Siltakoski</name>
+    </author>
+    <arxiv:doi>10.25537/dm.2021v26.713-731</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.25537/dm.2021v26.713-731" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.12962v2</id>
+    <title>Conserving elastic turbulence numerically using artificial diffusivity</title>
+    <updated>2022-06-20T20:07:33Z</updated>
+    <link href="https://arxiv.org/abs/2203.12962v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.12962v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To simulate elastic turbulence, where viscoelasticity dominates, numerical solvers introduce an artificial stress diffusivity term to handle the steep polymer stress gradients that ensue. This has recently been shown [Gupta &amp; Vincenzi, J. Fluid Mech. 870, 405-418 (2019); Dzanic, From &amp; Sauret, J. Fluid Mech. 937, A31 (2022)] to introduce unphysical artifacts with a detrimental impact on simulations. In this Letter, we propose that artificial diffusion is limited to regions where stress gradients are steep instead of seeking the zero-diffusivity limit. Through the cellular forcing and four-roll mill problem, we demonstrate that this modified artificial diffusivity is devoid of unphysical artifacts, allowing all features of elastic turbulence to be retained. Results are found to conform with direct simulations, reducing the impact of artificial diffusivity from a qualitative scale to a quantitative scale while only requiring a fraction of the numerical resolution.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-24T09:59:57Z</published>
+    <arxiv:comment>To be published in Phys. Rev. E Letters</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>Vedad Dzanic</name>
+    </author>
+    <author>
+      <name>Christopher S. From</name>
+    </author>
+    <author>
+      <name>Emilie Sauret</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.106.L013101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.106.L013101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.05638v7</id>
+    <title>Smallest Suffixient Sets: Effectiveness, Resilience, and Calculation</title>
+    <updated>2026-07-27T07:54:59Z</updated>
+    <link href="https://arxiv.org/abs/2506.05638v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.05638v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A suffixient set is a novel combinatorial object that captures the essential information of repetitive strings in a way that, provided with a random access mechanism, supports various forms of pattern matching. In this paper, we study the size $χ$ of the smallest suffixient set as a repetitiveness measure.
+  First, we study its sensitivity to various string operations. We show that $χ$ cannot increase by more than 2 after appending or prepending a character to the string. As a consequence, we are able to give simple linear-time online algorithms to compute smallest suffixient sets. We also show that, although reversing the string can increase $χ$ by an arbitrary $O(n)$ value, it always holds $χ(T)/χ(T^R)\le 2$. We also prove lower and upper bounds for the additive or multiplicative increase of $χ$ after applying arbitrary edit operations, or rotating the text. In particular, we show that the additive increase can be as large as $Ω(\sqrt{n})$ for all those operations.
+  Secondly, we place $χ$ among known repetitiveness measures. In particular, we show $χ\le 2r$ (where $r$ is the number of runs in the Burrows-Wheeler Transform of the string), that there are string families where $χ=o(v)$ (where $v$ is the size of the smallest lexicographic parse of the string), and that $χ$ is uncomparable to almost all reachable measures based on copy-paste mechanisms. In passing, we give precise bounds for $χ$ for some relevant string families, for example $χ\le σ+2$ on episturmian words over alphabets of size $σ$ (e.g., $χ\le 4$ on Fibonacci strings, for which we precisely characterize the only two smallest suffixient sets).</summary>
+    <category term="cs.FL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-05T23:58:03Z</published>
+    <arxiv:comment>Extended version of 'Smallest suffixient sets as a repetitiveness measure'(https://doi.org/10.1007/978-3-032-05228-5_18)</arxiv:comment>
+    <arxiv:primary_category term="cs.FL"/>
+    <author>
+      <name>Hiroto Fujimaru</name>
+    </author>
+    <author>
+      <name>Gonzalo Navarro</name>
+    </author>
+    <author>
+      <name>Giuseppe Romana</name>
+    </author>
+    <author>
+      <name>Cristian Urbina</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.12901v3</id>
+    <title>Error exponents of quantum state discrimination with composite correlated hypotheses</title>
+    <updated>2026-09-02T15:00:32Z</updated>
+    <link href="https://arxiv.org/abs/2508.12901v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.12901v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the error exponents in quantum hypothesis testing between two sets of quantum states, extending the analysis beyond the independent and identically distributed case to encompass composite correlated hypotheses. In particular, we introduce and compare two natural extensions of the quantum Hoeffding divergence and anti-divergence to sets of quantum states, establishing their equivalence or quantitative relations. In the error exponent regime, we generalize the quantum Hoeffding bound to stable sequences of convex, compact sets of quantum states, demonstrating that the optimal Type-I error exponent, under an exponential constraint on the Type-II error, is precisely characterized by the regularized quantum Hoeffding divergence between the sets. In the strong converse exponent regime, we establish a general lower bound on the exponent in terms of the regularized quantum Hoeffding anti-divergence, and we prove a matching upper bound when the null hypothesis is a singleton, under additional assumptions. The generality of these results enables applications in various contexts, including (i) refining the generalized quantum Stein's lemma by [Fang, Fawzi &amp; Fawzi, 2024]; (ii) exhibiting counterexamples to the continuity of the regularized Petz Renyi divergence and Hoeffding divergence; (iii) obtaining error exponents for adversarial channel discrimination and resource detection problems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-18T13:04:06Z</published>
+    <arxiv:comment>v2: strengthen error exponent to limit superior, add upper bound to strong converse exponent, add more applications; v3: close to published version</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>IEEE Transactions on Information Theory ( Volume: 72, Issue: 6, June 2026)</arxiv:journal_ref>
+    <author>
+      <name>Kun Fang</name>
+    </author>
+    <author>
+      <name>Masahito Hayashi</name>
+    </author>
+    <arxiv:doi>10.1109/TIT.2026.3684314</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIT.2026.3684314" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.14190v2</id>
+    <title>Congruences for two-color partitions with odd smallest part</title>
+    <updated>2026-03-07T17:47:27Z</updated>
+    <link href="https://arxiv.org/abs/2410.14190v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.14190v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a fixed positive integer $k$, let $C(k,n)$ denote the number of two-color partitions of $n$ with odd smallest part and restrictions on even parts, and let $C_k(q)$ be its generating function. We show that $C(1,n)\equiv d(2n-1)\pmod{4}$ and obtain congruences modulo $2$ and $4$ for $C(k,n)$ when $k=2,3$. Using $q$-series methods we derive closed formulas for $C_k(q)$ in terms of eta-quotients and formulate Ramanujan-type congruences for the limiting sequence arising from $\lim_{k\to\infty} C_k(q)$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-18T05:49:22Z</published>
+    <arxiv:comment>20 pages, submitted. This a replacement for the earlier version ''On two color partitions with odd smallest part"</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>George E. Andrews</name>
+    </author>
+    <author>
+      <name>Mohamed El Bachraoui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.1739v1</id>
+    <title>Recovering the Water-Wave Profile from Pressure Measurements</title>
+    <updated>2011-12-08T00:34:32Z</updated>
+    <link href="https://arxiv.org/abs/1112.1739v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.1739v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A new method is proposed to recover the water-wave surface elevation from pressure data obtained at the bottom of the fluid. The new method requires the numerical solution of a nonlocal nonlinear equation relating the pressure and the surface elevation which is obtained from the Euler formulation of the water-wave problem without approximation. From this new equation, a variety of different asymptotic formulas are derived. The nonlocal equation and the asymptotic formulas are compared with both numerical data and physical experiments. The solvability properties of the nonlocal equation are rigorously analyzed using the Implicit Function Theorem.</summary>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-08T00:34:32Z</published>
+    <arxiv:comment>24 pages, 7 figures, Expanded version of "Recovering the water-wave surface from pressure measurements", Published in the 10th International Conference on Mathematical and Numerical Aspects of Waves (Refereed Proceedings, WAVES 2011, Vancouver July 25-29, 2011</arxiv:comment>
+    <arxiv:primary_category term="nlin.PS"/>
+    <author>
+      <name>Katie Oliveras</name>
+    </author>
+    <author>
+      <name>Vishal Vasan</name>
+    </author>
+    <author>
+      <name>Bernard Deconinck</name>
+    </author>
+    <author>
+      <name>Diane Henderson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0601633v3</id>
+    <title>Sums and differences along Hamiltonian cycles</title>
+    <updated>2006-02-14T12:42:16Z</updated>
+    <link href="https://arxiv.org/abs/math/0601633v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0601633v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Given a finite abelian group $G$, consider the complete graph on the set of all elements of $G$. Find a Hamiltonian cycle in this graph and for each pair of consecutive vertices along the cycle compute their sum. What are the smallest and the largest possible number of sums that can emerge in this way? What is the expected number of sums if the cycle is chosen randomly? How the answers change if an orientation is given to the cycle and differences (instead of sums) are computed? We give complete solutions to some of these problems and establish reasonably sharp estimates for the rest.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-01-26T09:02:12Z</published>
+    <arxiv:comment>Largest possible number of sums along a Hamiltonian cycle ($σ_{max}$) determined completely for all finite abelian groups</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Vsevolod F. Lev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.16403v2</id>
+    <title>Recovering Process Variables from Industrial Network Traffic via Search-Based Optimization</title>
+    <updated>2026-09-06T01:36:32Z</updated>
+    <link href="https://arxiv.org/abs/2608.16403v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.16403v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Process variables (PVs) provide the process evidence needed for process-aware security monitoring in industrial cyber-physical systems (CPSs). However, existing supervisory infrastructures expose only the subset of PV values recorded by historians, leaving many additional runtime PV values unobserved. To address this incomplete process visibility, we study the problem of recovering PV fields and their semantics directly from raw industrial network traffic through protocol reverse engineering (PRE). In this setting, existing PRE methods face two practical challenges: PV-carrying communication is mixed with heterogeneous runtime traffic, and PV-carrying payloads are often long and deployment-specific. Mixed runtime traffic obscures the PV-carrying communication paths, while long payloads create a vast segmentation space in which early segmentation errors can propagate and corrupt the recovery of later fields under sequential inference. In this paper, we formulate the recovery of PV fields from raw network traffic as a search-based optimization problem. Our key insight is that non-sequentially identifying correct segmentations in such a vast segmentation space can be cast as an optimization problem and addressed by searching for near-optimal solutions. We propose PVParser to approach this goal. PVParser first reduces the search space by identifying the PV-carrying payloads from network traffic via a periodic pattern detection mechanism. It then employs a modified Monte Carlo Tree Search to explore near-optimal segmentations, reducing error propagation from incorrect early boundary decisions. Experiments on three representative industrial CPS datasets demonstrate that PVParser achieves high accuracy and F1-score in PV-carrying payload localization and PV field inference, outperforming six state-of-the-art PRE approaches by a significant margin.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-17T11:00:05Z</published>
+    <arxiv:comment>This is the full version of the paper 'Recovering Process Variables from Industrial Network Traffic via Search-Based Optimization' published at CCS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Chuan Sheng</name>
+    </author>
+    <author>
+      <name>Shan Jiang</name>
+    </author>
+    <author>
+      <name>Jianming Zhao</name>
+    </author>
+    <author>
+      <name>Yu Yao</name>
+    </author>
+    <arxiv:doi>10.1145/3830454.3846584</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3830454.3846584" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05833v2</id>
+    <title>Multi-messenger Observations of a Binary Neutron Star Merger</title>
+    <updated>2017-10-24T12:03:18Z</updated>
+    <link href="https://arxiv.org/abs/1710.05833v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.05833v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^{+8}_{-8}$ Mpc and with component masses consistent with neutron stars. The component masses were later measured to be in the range 0.86 to 2.26 Msun. An extensive observing campaign was launched across the electromagnetic spectrum leading to the discovery of a bright optical transient (SSS17a, now with the IAU identification of AT 2017gfo) in NGC 4993 (at $\sim$40 Mpc) less than 11 hours after the merger by the One-Meter, Two Hemisphere (1M2H) team using the 1 m Swope Telescope. The optical transient was independently detected by multiple teams within an hour. Subsequent observations targeted the object and its environment. Early ultraviolet observations revealed a blue transient that faded within 48 hours. Optical and infrared observations showed a redward evolution over $\sim$10 days. Following early non-detections, X-ray and radio emission were discovered at the transient's position $\sim$9 and $\sim$16 days, respectively, after the merger. Both the X-ray and radio emission likely arise from a physical process that is distinct from the one that generates the UV/optical/near-infrared emission. No ultra-high-energy gamma-rays and no neutrino candidates consistent with the source were found in follow-up searches. (Abridged)</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-16T16:57:18Z</published>
+    <arxiv:comment>This is a reproduction of the article published in the Astrophysical Journal Letters, under the terms of the Creative Commons Attribution 3.0 licence</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>ApJL, 848:L12, 2017</arxiv:journal_ref>
+    <author>
+      <name> LIGO Scientific Collaboration</name>
+    </author>
+    <author>
+      <name> Virgo Collaboration</name>
+    </author>
+    <author>
+      <name>Fermi GBM</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> INTEGRAL</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IceCube Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AstroSat Cadmium Zinc Telluride Imager Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IPN Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Insight-Hxmt Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>ANTARES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Swift Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AGILE Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The 1M2H Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Dark Energy Camera GW-EM Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>the DES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The DLT40 Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> GRAWITA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>GRAvitational Wave Inaf TeAm</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Fermi Large Area Telescope Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ATCA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australia Telescope Compact Array</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ASKAP</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australian SKA Pathfinder</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Las Cumbres Observatory Group</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> OzGrav</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> DWF</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> AST3</name>
+    </author>
+    <author>
+      <name>CAASTRO Collaborations</name>
+    </author>
+    <author>
+      <name>The VINROUGE Collaboration</name>
+    </author>
+    <author>
+      <name>MASTER Collaboration</name>
+    </author>
+    <author>
+      <name> J-GEM</name>
+    </author>
+    <author>
+      <name> GROWTH</name>
+    </author>
+    <author>
+      <name> JAGWAR</name>
+    </author>
+    <author>
+      <name>Caltech- NRAO</name>
+    </author>
+    <author>
+      <name> TTU-NRAO</name>
+    </author>
+    <author>
+      <name>NuSTAR Collaborations</name>
+    </author>
+    <author>
+      <name> Pan-STARRS</name>
+    </author>
+    <author>
+      <name>The MAXI Team</name>
+    </author>
+    <author>
+      <name>TZAC Consortium</name>
+    </author>
+    <author>
+      <name>KU Collaboration</name>
+    </author>
+    <author>
+      <name>Nordic Optical Telescope</name>
+    </author>
+    <author>
+      <name> ePESSTO</name>
+    </author>
+    <author>
+      <name> GROND</name>
+    </author>
+    <author>
+      <name>Texas Tech University</name>
+    </author>
+    <author>
+      <name>SALT Group</name>
+    </author>
+    <author>
+      <name> TOROS</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Transient Robotic Observatory of the South Collaboration</name>
+    </author>
+    <author>
+      <name>The BOOTES Collaboration</name>
+    </author>
+    <author>
+      <name> MWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Murchison Widefield Array</name>
+    </author>
+    <author>
+      <name>The CALET Collaboration</name>
+    </author>
+    <author>
+      <name>IKI-GW Follow-up Collaboration</name>
+    </author>
+    <author>
+      <name>H. E. S. S. Collaboration</name>
+    </author>
+    <author>
+      <name>LOFAR Collaboration</name>
+    </author>
+    <author>
+      <name> LWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Long Wavelength Array</name>
+    </author>
+    <author>
+      <name>HAWC Collaboration</name>
+    </author>
+    <author>
+      <name>The Pierre Auger Collaboration</name>
+    </author>
+    <author>
+      <name>ALMA Collaboration</name>
+    </author>
+    <author>
+      <name>Euro VLBI Team</name>
+    </author>
+    <author>
+      <name>Pi of the Sky Collaboration</name>
+    </author>
+    <author>
+      <name>The Chandra Team at McGill University</name>
+    </author>
+    <author>
+      <name> DFN</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Desert Fireball Network</name>
+    </author>
+    <author>
+      <name> ATLAS</name>
+    </author>
+    <author>
+      <name>High Time Resolution Universe Survey</name>
+    </author>
+    <author>
+      <name> RIMAS</name>
+    </author>
+    <author>
+      <name> RATIR</name>
+    </author>
+    <author>
+      <name>SKA South Africa/MeerKAT</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/aa91c9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/aa91c9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.02112v1</id>
+    <title>Recovering the Unbiased Scene Graphs from the Biased Ones</title>
+    <updated>2021-07-05T16:10:41Z</updated>
+    <link href="https://arxiv.org/abs/2107.02112v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.02112v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given input images, scene graph generation (SGG) aims to produce comprehensive, graphical representations describing visual relationships among salient objects. Recently, more efforts have been paid to the long tail problem in SGG; however, the imbalance in the fraction of missing labels of different classes, or reporting bias, exacerbating the long tail is rarely considered and cannot be solved by the existing debiasing methods. In this paper we show that, due to the missing labels, SGG can be viewed as a "Learning from Positive and Unlabeled data" (PU learning) problem, where the reporting bias can be removed by recovering the unbiased probabilities from the biased ones by utilizing label frequencies, i.e., the per-class fraction of labeled, positive examples in all the positive examples. To obtain accurate label frequency estimates, we propose Dynamic Label Frequency Estimation (DLFE) to take advantage of training-time data augmentation and average over multiple training iterations to introduce more valid examples. Extensive experiments show that DLFE is more effective in estimating label frequencies than a naive variant of the traditional estimate, and DLFE significantly alleviates the long tail and achieves state-of-the-art debiasing performance on the VG dataset. We also show qualitatively that SGG models with DLFE produce prominently more balanced and unbiased scene graphs.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-05T16:10:41Z</published>
+    <arxiv:comment>Accepted by ACMMM 2021. Source code will be available at https://github.com/coldmanck/recovering-unbiased-scene-graphs</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Meng-Jiun Chiou</name>
+    </author>
+    <author>
+      <name>Henghui Ding</name>
+    </author>
+    <author>
+      <name>Hanshu Yan</name>
+    </author>
+    <author>
+      <name>Changhu Wang</name>
+    </author>
+    <author>
+      <name>Roger Zimmermann</name>
+    </author>
+    <author>
+      <name>Jiashi Feng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.08818v1</id>
+    <title>FlexMoRE: A Flexible Mixture of Rank-heterogeneous Experts for Efficient Federatedly-trained Large Language Models</title>
+    <updated>2026-02-09T15:54:29Z</updated>
+    <link href="https://arxiv.org/abs/2602.08818v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.08818v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in mixture-of-experts architectures have shown that individual experts models can be trained federatedly, i.e., in isolation from other experts by using a common base model to facilitate coordination. However, we hypothesize that full-sized experts may not be necessary for all domains and that instead low-rank adapters may be sufficient. Here, we introduce FlexMoRE, a Flexible Mixture of Rank-heterogenous Experts, which may be either full-sized experts or adapters of a suitable rank. We systematically investigate the trade-off between expert rank and downstream task performance by evaluating $6$ experts with ranks $2^0$ to $2^{14}$ resulting in experiments covering 150 mixtures (96 with 2 experts, 54 with 7 experts) that are evaluated across $120$ tasks. For our experiments, we build on FlexOlmo and turn its pre-trained experts into low-rank versions. Our regression analysis from expert rank to downstream task performance reveals that the best-performing rank is substantially higher for reasoning-heavy benchmarks than for knowledge-heavy benchmarks. These findings on rank sensitivity come with direct implications for memory efficiency: Using optimal ranks, FlexMoRE yields improved downstream task performance (average score $47.18$) compared to the baseline FlexOlmo-style mixture of full-sized experts (average score $45.46$) at less than one third the parameters ($10.75$B for FlexMoRE vs. $33.27$B for FlexOlmo). All code will be made available.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-09T15:54:29Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Annemette Brok Pirchert</name>
+    </author>
+    <author>
+      <name>Jacob Nielsen</name>
+    </author>
+    <author>
+      <name>Mogens Henrik From</name>
+    </author>
+    <author>
+      <name>Lukas Galke Poech</name>
+    </author>
+    <author>
+      <name>Peter Schneider-Kamp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.1243v4</id>
+    <title>On Patterson's Conjecture: Sums of Quartic Exponential Sums</title>
+    <updated>2014-07-25T19:57:49Z</updated>
+    <link href="https://arxiv.org/abs/1305.1243v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.1243v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give more evidence for Patterson's conjecture on sums of exponential sums, by getting an asymptotic for a sum of quartic exponential sums over $\Q[i].$ Previously, the strongest evidence of Patterson's conjecture over a number field is the paper of Livné and Patterson \cite{LP} on sums of cubic exponential sums over $\Q[ω], ω^3=1.$
+  The key ideas in getting such an asymptotic are a Kuznetsov-like trace formula for metaplectic forms over a quartic cover of $GL_2,$ and an identity on exponential sums relating Kloosterman sums and quartic exponential sums. To synthesize the spectral theory and the exponential sum identity, there is need for a good amount of analytic number theory.
+  An unexpected aspect of the asymptotic of the sums of exponential sums is that there can be a secondary main term additional to the main term which is not predicted in Patterson's original paper \cite{P}.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-06T16:54:15Z</published>
+    <arxiv:comment>45 pages. Submitted. Cleaned up notation and made revisions</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>P. Edward Herman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.01289v1</id>
+    <title>The boundedness of commutators of sublinear operators on Herz Triebel-Lizorkin spaces with variable exponent</title>
+    <updated>2022-10-04T00:23:26Z</updated>
+    <link href="https://arxiv.org/abs/2210.01289v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.01289v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, the authors first discuss the characterization of Herz Triebel-Lizorkin spaces with variable exponent via two families of operators. By this characterization, the authors prove that the Lipschitz commutators of sublinear operators is bounded from Herz spaces with variable exponent to Herz Triebel-Lizorkin spaces with variable exponent. As an application, the corresponding boundedness estimates for the commutators of maximal operator, Riesz potential operator and Calderón-Zygmund operator are established.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-04T00:23:26Z</published>
+    <arxiv:comment>commutator; sublinear operator; Lipschitz spaces; Herz Triebel-Lizorkin spaces; variable exponent</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Chenglong Fang</name>
+    </author>
+    <author>
+      <name>Yingying Wei</name>
+    </author>
+    <author>
+      <name>Jing Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.13322v1</id>
+    <title>Polynomial-free unisolvence of polyharmonic splines with odd exponent by random sampling</title>
+    <updated>2024-01-24T09:33:18Z</updated>
+    <link href="https://arxiv.org/abs/2401.13322v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.13322v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a recent paper almost sure unisolvence of RBF interpolation at random points with no polynomial addition was proved, for Thin-Plate Splines and Radial Powers with noninteger exponent. The proving technique left unsolved the case of odd exponents. In this short note we prove almost sure polynomial-free unisolvence in such instances, by a deeper analysis of the interpolation matrix determinant and fundamental properties of analytic functions.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-24T09:33:18Z</published>
+    <arxiv:comment>Keywords: multivariate interpolation, Radial Basis Functions, polyharmonic splines, odd integer exponent, unisolvence, analytic functions</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Alvise Sommariva</name>
+    </author>
+    <author>
+      <name>Marco Vianello</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0912.1929v1</id>
+    <title>Twisted exponential sums of polynomials in one variable</title>
+    <updated>2009-12-10T07:49:32Z</updated>
+    <link href="https://arxiv.org/abs/0912.1929v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.1929v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The twisted $T$-adic exponential sum associated to a polynomial in one variable is studied. An explicit arithmetic polygon in terms of the highest two exponents of the polynomial is proved to be a lower bound of the Newton polygon of the $C$-function of the twisted T-adic exponential sum. This bound gives lower bounds for the Newton polygon of the $L$-function of twisted $p$-power order exponential sums.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-10T07:49:32Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Chunlei Liu</name>
+    </author>
+    <author>
+      <name>Wenxin Liu</name>
+    </author>
+    <arxiv:doi>10.1007/s11425-010-3144-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11425-010-3144-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0108100v1</id>
+    <title>New insights on the Draco dwarf spheroidal galaxy from SDSS: a larger radius and no tidal tails</title>
+    <updated>2001-08-06T20:29:28Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0108100v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0108100v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We have investigated the spatial extent and structure of the Draco dwarf spheroidal galaxy using deep wide-field multicolor CCD photometry from the Sloan Digital Sky Survey (SDSS). Our study covers an area of 27 square degrees around the center of the Draco dwarf. We show that the spatial distribution of Draco's red giants, red horizontal branch stars and subgiants down to i=21.7 mag does not provide evidence for the existence of tidally induced tails or a halo of unbound stars. The radial profile can be fit by King models as well as by a generalized exponential. The core radius and the limiting (or tidal) radius along the major axis are 7.7' and 40.1', respectively, making Draco 40% larger than previously measured. Down to our magnitude limit tidal effects can only exist at a level of 10^-3 of the central surface density of Draco or below. The regular structure of Draco found from the new data argues against it being a portion of an unbound tidal stream and lends support to the assumption of dynamical equilibrium. We estimate Draco's total mass to be 2.2 - 3.5 times 10^7 solar masses. We obtain an overall mass-to-light ratio of 146+-42 or 92+-28 solar masses depending on the details of the mass and luminosity estimates. In summary, our results strengthen the case for a strongly dark matter dominated, bound stellar system. (Abstract strongly abridged).</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-08-06T20:29:28Z</published>
+    <arxiv:comment>30 pages, 11 figures (in part with degraded resolution). Accepted for publication in the Astronomical Journal</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Astron.J. 122 (2001) 2538-2553</arxiv:journal_ref>
+    <author>
+      <name>Michael Odenkirchen</name>
+      <arxiv:affiliation>MPIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eva K. Grebel</name>
+      <arxiv:affiliation>MPIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Harbeck</name>
+      <arxiv:affiliation>MPIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Walter Dehnen</name>
+      <arxiv:affiliation>MPIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hans-Walter Rix</name>
+      <arxiv:affiliation>MPIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>et 18 alii from the SDSS collaboration</name>
+    </author>
+    <arxiv:doi>10.1086/323715</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1086/323715" title="doi"/>
+  </entry>
+</feed>

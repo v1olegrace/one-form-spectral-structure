@@ -1,0 +1,702 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WjD5f0Qy1/AC43nQjv9G146w4bM</id>
+  <title>arXiv Query: search_query=all:finite OR all:window OR all:nonidentifiability OR all:Laplace OR all:transform OR all:truncated OR all:data&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:finite+OR+(all:window+OR+(all:nonidentifiability+OR+(all:Laplace+OR+(all:transform+OR+(all:truncated+OR+all:data)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1076126</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1907.02664v2</id>
+    <title>Data Encoding for Byzantine-Resilient Distributed Optimization</title>
+    <updated>2020-11-04T05:57:11Z</updated>
+    <link href="https://arxiv.org/abs/1907.02664v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.02664v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study distributed optimization in the presence of Byzantine adversaries, where both data and computation are distributed among $m$ worker machines, $t$ of which may be corrupt. The compromised nodes may collaboratively and arbitrarily deviate from their pre-specified programs, and a designated (master) node iteratively computes the model/parameter vector for generalized linear models. In this work, we primarily focus on two iterative algorithms: Proximal Gradient Descent (PGD) and Coordinate Descent (CD). Gradient descent (GD) is a special case of these algorithms. PGD is typically used in the data-parallel setting, where data is partitioned across different samples, whereas, CD is used in the model-parallelism setting, where data is partitioned across the parameter space.
+  In this paper, we propose a method based on data encoding and error correction over real numbers to combat adversarial attacks. We can tolerate up to $t\leq \lfloor\frac{m-1}{2}\rfloor$ corrupt worker nodes, which is information-theoretically optimal. We give deterministic guarantees, and our method does not assume any probability distribution on the data. We develop a {\em sparse} encoding scheme which enables computationally efficient data encoding and decoding. We demonstrate a trade-off between the corruption threshold and the resource requirements (storage, computational, and communication complexity). As an example, for $t\leq\frac{m}{3}$, our scheme incurs only a {\em constant} overhead on these resources, over that required by the plain distributed PGD/CD algorithms which provide no adversarial protection. To the best of our knowledge, ours is the first paper that makes CD secure against adversarial attacks.
+  Our encoding scheme extends efficiently to the data streaming model and for stochastic gradient descent (SGD). We also give experimental results to show the efficacy of our proposed schemes.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-05T03:31:43Z</published>
+    <arxiv:comment>38 pages, Accepted for publication in the IEEE Transactions on Information Theory</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Deepesh Data</name>
+    </author>
+    <author>
+      <name>Linqi Song</name>
+    </author>
+    <author>
+      <name>Suhas Diggavi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.07866v1</id>
+    <title>Byzantine-Resilient SGD in High Dimensions on Heterogeneous Data</title>
+    <updated>2020-05-16T04:15:27Z</updated>
+    <link href="https://arxiv.org/abs/2005.07866v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.07866v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study distributed stochastic gradient descent (SGD) in the master-worker architecture under Byzantine attacks. We consider the heterogeneous data model, where different workers may have different local datasets, and we do not make any probabilistic assumptions on data generation. At the core of our algorithm, we use the polynomial-time outlier-filtering procedure for robust mean estimation proposed by Steinhardt et al. (ITCS 2018) to filter-out corrupt gradients. In order to be able to apply their filtering procedure in our {\em heterogeneous} data setting where workers compute {\em stochastic} gradients, we derive a new matrix concentration result, which may be of independent interest.
+  We provide convergence analyses for smooth strongly-convex and non-convex objectives. We derive our results under the bounded variance assumption on local stochastic gradients and a {\em deterministic} condition on datasets, namely, gradient dissimilarity; and for both these quantities, we provide concrete bounds in the statistical heterogeneous data model. We give a trade-off between the mini-batch size for stochastic gradients and the approximation error. Our algorithm can tolerate up to $\frac{1}{4}$ fraction Byzantine workers. It can find approximate optimal parameters in the strongly-convex setting exponentially fast and reach to an approximate stationary point in the non-convex setting with a linear speed, thus, matching the convergence rates of vanilla SGD in the Byzantine-free setting.
+  We also propose and analyze a Byzantine-resilient SGD algorithm with gradient compression, where workers send $k$ random coordinates of their gradients. Under mild conditions, we show a $\frac{d}{k}$-factor saving in communication bits as well as decoding complexity over our compression-free algorithm without affecting its convergence rate (order-wise) and the approximation error.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-16T04:15:27Z</published>
+    <arxiv:comment>57 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Deepesh Data</name>
+    </author>
+    <author>
+      <name>Suhas Diggavi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.5626v1</id>
+    <title>Constraints on dark energy from H II starburst galaxy apparent magnitude versus redshift data</title>
+    <updated>2011-10-25T19:44:22Z</updated>
+    <link href="https://arxiv.org/abs/1110.5626v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.5626v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we use H II starburst galaxy apparent magnitude versus redshift data from Siegel et al. (2005) to constrain dark energy cosmological model parameters. These constraints are generally consistent with those derived using other data sets, but are not as restrictive as the tightest currently available constraints.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-25T19:44:22Z</published>
+    <arxiv:comment>18 pages, 6 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Data Mania</name>
+    </author>
+    <author>
+      <name>Bharat Ratra</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2012.07.011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2012.07.011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.21391v1</id>
+    <title>TerraGen: A Unified Multi-Task Layout Generation Framework for Remote Sensing Data Augmentation</title>
+    <updated>2025-10-24T12:29:12Z</updated>
+    <link href="https://arxiv.org/abs/2510.21391v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.21391v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Remote sensing vision tasks require extensive labeled data across multiple, interconnected domains. However, current generative data augmentation frameworks are task-isolated, i.e., each vision task requires training an independent generative model, and ignores the modeling of geographical information and spatial constraints. To address these issues, we propose \textbf{TerraGen}, a unified layout-to-image generation framework that enables flexible, spatially controllable synthesis of remote sensing imagery for various high-level vision tasks, e.g., detection, segmentation, and extraction. Specifically, TerraGen introduces a geographic-spatial layout encoder that unifies bounding box and segmentation mask inputs, combined with a multi-scale injection scheme and mask-weighted loss to explicitly encode spatial constraints, from global structures to fine details. Also, we construct the first large-scale multi-task remote sensing layout generation dataset containing 45k images and establish a standardized evaluation protocol for this task. Experimental results show that our TerraGen can achieve the best generation image quality across diverse tasks. Additionally, TerraGen can be used as a universal data-augmentation generator, enhancing downstream task performance significantly and demonstrating robust cross-task generalisation in both full-data and few-shot scenarios.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-24T12:29:12Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Datao Tang</name>
+    </author>
+    <author>
+      <name>Hao Wang</name>
+    </author>
+    <author>
+      <name>Yudeng Xin</name>
+    </author>
+    <author>
+      <name>Hui Qiao</name>
+    </author>
+    <author>
+      <name>Dongsheng Jiang</name>
+    </author>
+    <author>
+      <name>Yin Li</name>
+    </author>
+    <author>
+      <name>Zhiheng Yu</name>
+    </author>
+    <author>
+      <name>Xiangyong Cao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.15497v3</id>
+    <title>AeroGen: Enhancing Remote Sensing Object Detection with Diffusion-Driven Data Generation</title>
+    <updated>2025-02-24T15:22:40Z</updated>
+    <link href="https://arxiv.org/abs/2411.15497v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.15497v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Remote sensing image object detection (RSIOD) aims to identify and locate specific objects within satellite or aerial imagery. However, there is a scarcity of labeled data in current RSIOD datasets, which significantly limits the performance of current detection algorithms. Although existing techniques, e.g., data augmentation and semi-supervised learning, can mitigate this scarcity issue to some extent, they are heavily dependent on high-quality labeled data and perform worse in rare object classes. To address this issue, this paper proposes a layout-controllable diffusion generative model (i.e. AeroGen) tailored for RSIOD. To our knowledge, AeroGen is the first model to simultaneously support horizontal and rotated bounding box condition generation, thus enabling the generation of high-quality synthetic images that meet specific layout and object category requirements. Additionally, we propose an end-to-end data augmentation framework that integrates a diversity-conditioned generator and a filtering mechanism to enhance both the diversity and quality of generated data. Experimental results demonstrate that the synthetic data produced by our method are of high quality and diversity. Furthermore, the synthetic RSIOD data can significantly improve the detection performance of existing RSIOD models, i.e., the mAP metrics on DIOR, DIOR-R, and HRSC datasets are improved by 3.7%, 4.3%, and 2.43%, respectively. The code is available at https://github.com/Sonettoo/AeroGen.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-23T09:04:33Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Datao Tang</name>
+    </author>
+    <author>
+      <name>Xiangyong Cao</name>
+    </author>
+    <author>
+      <name>Xuan Wu</name>
+    </author>
+    <author>
+      <name>Jialin Li</name>
+    </author>
+    <author>
+      <name>Jing Yao</name>
+    </author>
+    <author>
+      <name>Xueru Bai</name>
+    </author>
+    <author>
+      <name>Dongsheng Jiang</name>
+    </author>
+    <author>
+      <name>Yin Li</name>
+    </author>
+    <author>
+      <name>Deyu Meng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.16064v1</id>
+    <title>A 20 Gbps Data Transmitting ASIC with PAM4 for Particle Physics Experiments</title>
+    <updated>2020-10-30T04:24:49Z</updated>
+    <link href="https://arxiv.org/abs/2010.16064v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.16064v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the design principle and test results of a data transmitting ASIC, GBS20, for particle physics experiments. The goal of GBS20 will be an ASIC that employs two serializers each from the 10.24 Gbps lpGBT SerDes, sharing the PLL also from lpGBT. A PAM4 encoder plus a VCSEL driver will be implemented in the same die to use the same clock system, eliminating the need of CDRs in the PAM4 encoder. This way the transmitter module, GBT20, developed using the GBS20 ASIC, will have the exact lpGBT data interface and transmission protocol, with an output up to 20.48 Gbps over one fiber. With PAM4 embedded FPGAs at the receiving end, GBT20 will halve the fibers needed in a system and better use the input bandwidth of the FPGA. A prototype, GBS20v0 is fabricated using a commercial 65 nm CMOS technology. This prototype has two serializers and a PAM4 encoder sharing the lpGBT PLL, but no user data input. An internal PRBS generator provides data to the serializers. GBS20v0 is tested barely up to 20.48 Gbps. With lessons learned from this prototype, we are designing the second prototype, GBS20v1, that will have 16 user data input channels each at 1.28 Gbps. We present the design concept of the GBS20 ASIC and the GBT20 module, the preliminary test results, and lessons learned from GBS20v0 and the design of GBS20v1 which will be not only a test chip but also a user chip with 16 input data channels.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-30T04:24:49Z</published>
+    <arxiv:comment>3 pages, 3 figures,22nd IEEE Real Time Conference</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Li Zhang</name>
+      <arxiv:affiliation>Southern Methodist University</arxiv:affiliation>
+      <arxiv:affiliation>Central China Normal University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Datao Gong</name>
+      <arxiv:affiliation>Southern Methodist University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Suen Hou</name>
+      <arxiv:affiliation>Academia Sinica, Nangang</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Guanming Huang</name>
+      <arxiv:affiliation>Central China Normal University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xing Huang</name>
+      <arxiv:affiliation>Central China Normal University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Chonghan Liu</name>
+      <arxiv:affiliation>Southern Methodist University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Tiankuan Liu</name>
+      <arxiv:affiliation>Southern Methodist University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hanhan Sun</name>
+      <arxiv:affiliation>Southern Methodist University</arxiv:affiliation>
+      <arxiv:affiliation>Central China Normal University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Quan Sun</name>
+      <arxiv:affiliation>Fermi National Accelerator Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xiangming Sun</name>
+      <arxiv:affiliation>Central China Normal University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+      <arxiv:affiliation>Southern Methodist University</arxiv:affiliation>
+      <arxiv:affiliation>Central China Normal University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jingbo Ye</name>
+      <arxiv:affiliation>Southern Methodist University</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.11773v2</id>
+    <title>Small Data Explainer -- The impact of small data methods in everyday life</title>
+    <updated>2026-08-11T21:27:34Z</updated>
+    <link href="https://arxiv.org/abs/2507.11773v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.11773v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emergence of breakthrough artificial intelligence (AI) techniques has led to a renewed focus on how small data settings, i.e., settings with limited information, can benefit from such developments. This includes societal issues such as how best to include under-represented groups in data-driven policy and decision making, or the health benefits of assistive technologies. We provide a conceptual overview, clarify the relationship between small data and big data, and identify common themes from exemplary case studies and application areas. Potential solutions are described in a more detailed technical overview of current data analysis and modelling techniques, highlighting contributions from different disciplines, such as knowledge-driven modelling from statistics and data-driven modelling from computer science. By linking application settings, conceptual contributions and specific techniques, we highlight what is already feasible and suggest what an agenda for fully leveraging small data might look like.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-15T22:24:17Z</published>
+    <arxiv:comment>Written in collaboration with the Royal Society, contributing to the Disability Technology report (https://royalsociety.org/news-resources/projects/disability-data-assistive-technology/)</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Maren Hackenberg</name>
+    </author>
+    <author>
+      <name>Sophia G. Connor</name>
+    </author>
+    <author>
+      <name>Fabian Kabus</name>
+    </author>
+    <author>
+      <name>June Brawner</name>
+    </author>
+    <author>
+      <name>Ella Markham</name>
+    </author>
+    <author>
+      <name>Mahi Hardalupas</name>
+    </author>
+    <author>
+      <name>Areeq Chowdhury</name>
+    </author>
+    <author>
+      <name>Rolf Backofen</name>
+    </author>
+    <author>
+      <name>Anna Köttgen</name>
+    </author>
+    <author>
+      <name>Angelika Rohde</name>
+    </author>
+    <author>
+      <name>Nadine Binder</name>
+    </author>
+    <author>
+      <name>Harald Binder</name>
+    </author>
+    <author>
+      <name>the Collaborative Research Center 1597 Small Data</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.03866v1</id>
+    <title>Stability Estimates for Truncated Fourier and Laplace Transforms</title>
+    <updated>2016-05-12T15:52:11Z</updated>
+    <link href="https://arxiv.org/abs/1605.03866v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.03866v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove sharp stability estimates for the Truncated Laplace Transform and Truncated Fourier Transform. The argument combines an approach recently introduced by Alaifari, Pierce and the second author for the truncated Hilbert transform with classical results of Bertero, Grünbaum, Landau, Pollak and Slepian. In particular, we prove there is a universal constant $c &gt;0$ such that for all $f \in L^2(\mathbb{R})$ with compact support in $[-1,1]$ normalized to $\|f\|_{L^2[-1,1]} = 1$ $$ \int_{-1}^{1}{|\widehat{f}(ξ)|^2dξ} \gtrsim \left(c\left\|f_x \right\|_{L^2[-1,1]} \right)^{- c\left\|f_x \right\|_{L^2[-1,1]}}$$ The inequality is sharp in the sense that there is an infinite sequence of orthonormal counterexamples if $c$ is chosen too small. The question whether and to which extent similar inequalities hold for generic families of integral operators remains open.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-12T15:52:11Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Roy R. Lederman</name>
+    </author>
+    <author>
+      <name>Stefan Steinerberger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.07828v4</id>
+    <title>Vecchia-Laplace approximations of generalized Gaussian processes for big non-Gaussian spatial data</title>
+    <updated>2020-06-04T20:18:45Z</updated>
+    <link href="https://arxiv.org/abs/1906.07828v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.07828v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generalized Gaussian processes (GGPs) are highly flexible models that combine latent GPs with potentially non-Gaussian likelihoods from the exponential family. GGPs can be used in a variety of settings, including GP classification, nonparametric count regression, modeling non-Gaussian spatial data, and analyzing point patterns. However, inference for GGPs can be analytically intractable, and large datasets pose computational challenges due to the inversion of the GP covariance matrix. We propose a Vecchia-Laplace approximation for GGPs, which combines a Laplace approximation to the non-Gaussian likelihood with a computationally efficient Vecchia approximation to the GP, resulting in a simple, general, scalable, and accurate methodology. We provide numerical studies and comparisons on simulated and real spatial data. Our methods are implemented in a freely available R package.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-18T21:58:30Z</published>
+    <arxiv:comment>26 pages, 10 figures, code available at https://github.com/katzfuss-group/GPvecchia-Laplace</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <arxiv:journal_ref>Computational Statistics &amp; Data Analysis (2021), 153, 107081</arxiv:journal_ref>
+    <author>
+      <name>Daniel Zilber</name>
+    </author>
+    <author>
+      <name>Matthias Katzfuss</name>
+    </author>
+    <arxiv:doi>10.1016/j.csda.2020.107081</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.csda.2020.107081" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.04348v2</id>
+    <title>An Eigenfunction Approach to Conversion of the Laplace Transform of Point Masses on the Real Line to the Fourier Domain</title>
+    <updated>2025-05-23T04:53:26Z</updated>
+    <link href="https://arxiv.org/abs/2402.04348v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.04348v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by applications in magnetic resonance relaxometry, we consider the following problem: Given samples of a function $t\mapsto \sum_{k=1}^K A_k\exp(-tλ_k)$, where $K\ge 2$ is an integer, $A_k\in\mathbb{R}$, $λ_k&gt;0$ for $k=1,\cdots, K$, determine $K$, $A_k$'s and $λ_k$'s. Unlike the case in which the $λ_k$'s are purely imaginary, this problem is notoriously ill-posed. Our goal is to show that this problem can be transformed into an equivalent one in which the $λ_k$'s are replaced by $iλ_k$. We show that this may be accomplished by approximation in terms of Hermite functions, and using the fact that these functions are eigenfunctions of the Fourier transform. We present a preliminary numerical exploration of parameter extraction from this formalism, including the effect of noise. We do not claim to have eliminated the inherent ill-posedness of the original problem, as reflected in the numerical results.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-06T19:31:34Z</published>
+    <arxiv:comment>Original title:Inversion of the Laplace Transform of Point Masses,</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Available online Applied and computational harmonic analysis, 2025</arxiv:journal_ref>
+    <author>
+      <name>Michael McKenna</name>
+    </author>
+    <author>
+      <name>Hrushikesh N. Mhaskar</name>
+    </author>
+    <author>
+      <name>Richard G. Spencer</name>
+    </author>
+    <arxiv:doi>10.1016/j.acha.2025.101776</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.acha.2025.101776" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.09298v2</id>
+    <title>Expected Window Mean-Payoff</title>
+    <updated>2019-12-05T20:24:26Z</updated>
+    <link href="https://arxiv.org/abs/1812.09298v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.09298v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the window mean-payoff objective, given an infinite path, instead of considering a long run average, we consider the minimum payoff that can be ensured at every position of the path over a finite window that slides over the entire path. Chatterjee et al. studied the problem to decide if in a two-player game, Player 1 has a strategy to ensure a window mean-payoff of at least 0.
+  In this work, we consider a function that given a path returns the supremum value of the window mean-payoff that can be ensured over the path and we show how to compute its expected value in Markov chains and Markov decision processes. We consider two variants of the function: Fixed window mean-payoff in which a fixed window length $l_{max}$ is provided; and Bounded window mean-payoff in which we compute the maximum possible value of the window mean-payoff over all possible window lengths. Further, for both variants, we consider (i) a direct version of the problem where for each path, the payoff that can be ensured from its very beginning and (ii) a non-direct version that is the prefix independent counterpart of the direct version of the problem.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-21T18:19:00Z</published>
+    <arxiv:comment>Replaced PP-hardness of direct fixed window objective with PSPACE-hardness, added alternative definition of window mean-payoff</arxiv:comment>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Benjamin Bordais</name>
+    </author>
+    <author>
+      <name>Shibashis Guha</name>
+    </author>
+    <author>
+      <name>Jean-François Raskin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11088v3</id>
+    <title>Pulsations change the structures of massive stars before explosion: interpreting SN 2023ixf and SN 2024ggi</title>
+    <updated>2026-01-28T08:55:35Z</updated>
+    <link href="https://arxiv.org/abs/2508.11088v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11088v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Massive red supergiants (RSGs) are known to become hydrodynamically unstable before they explode. Still, the vast majority of supernova (SN) models assume RSG progenitors in hydrostatic equilibrium. Here, we follow the hydrodynamic evolution of RSGs with different masses and the development of radial envelope pulsations. Pulsations significantly alter the observable pre- and post-SN properties, and their importance increases substantially as a function of initial mass. We demonstrate that inferring core masses, let alone initial masses, from a single pre-SN luminosity and effective temperature of high-mass RSGs is inadvisable, as these can vary by an order of magnitude during the pulsation. We find that pulsations can naturally lead to "early-excess" emission in SN light curves and to variations in early photospheric velocities, which can help break degeneracies in type-II SNe. We compare to SN 2023ixf and SN 2024ggi, for which pulsating RSG progenitors were reported. We demonstrate that the pre- and post-SN characteristics of SN 2023ixf agree very well with our exploding pulsating RSG model and exhibit meaningful differences from hydrostatic models. The data coverage is insufficient to break all degeneracies. We find insufficient evidence for the claimed pulsation period of the SN 2024ggi progenitor, as it matches Spitzer's orbital period. This study underscores the importance of hydrodynamical pre-SN stellar models, in particular for massive stars from $\gtrsim 15\,\rm{M}_{\odot}$. It implies an important shift in our understanding of the last stages of massive star evolution, the interpretation of pre-SN properties, the connection between SNe and their progenitors, and the missing RSG problem.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-14T21:57:10Z</published>
+    <arxiv:comment>Accept for publication in ApJ Letters. This work is the follow-up of a companion paper (Bronner, Laplace et al. 2025, arXiv:2508.11077)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Eva Laplace</name>
+    </author>
+    <author>
+      <name>Vincent A. Bronner</name>
+    </author>
+    <author>
+      <name>Fabian R. N. Schneider</name>
+    </author>
+    <author>
+      <name>Philipp Podsiadlowski</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/ae3d2e</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/ae3d2e" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.02431v1</id>
+    <title>Multivariable Geometric Laplace Transform and Fault Detection in Distributed-Converter Lines</title>
+    <updated>2026-09-02T10:50:31Z</updated>
+    <link href="https://arxiv.org/abs/2609.02431v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.02431v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Monitoring a DC line with many distributed power converters is a genuinely spatio-temporal problem: the information about a localized fault travels along the whole conductor and reaches a few measurement points mixed with the dynamics of the line itself. This paper develops a two-dimensional geometric Laplace transform (t,x) -&gt; (s_t,s_x) over a commutative subalgebra of the geometric algebra Cl(4,0), isomorphic to Segre's bicomplex numbers, in which two bivectors B_t and B_x act as independent imaginary units for the temporal and the spatial phase. Because the two phases live in algebraically distinguishable planes, a fault at position x_f leaves a transformed residual that factorizes as F_f(s_t) e^{-s_x x_f}: its temporal nature stays in the first factor and its location can be read as a geometric argument of the second. On this representation we build a transmission-line model of the converter line and its space-time dispersion relation, a distributed control by admittance shaping, including an exact treatment of discrete converter sites (spatial sampling, aliasing, and a per-converter droop realization that is exact on the sub-Nyquist band), and a fault diagnosis chain that detects, localizes and classifies injection-loss, shunt, sensor and local-controller faults, extends to multiple simultaneous faults with automatic order selection, and distinguishes the outage of a plant from a cable defect. As an integral object the transform is known in bicomplex analysis, and with a single independent variable it reduces to the complex Laplace transform; the contribution lies in its geometric embedding and in its operational use for fault diagnosis in distributed-converter networks. All results are reproduced by an accompanying open implementation.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-02T10:50:31Z</published>
+    <arxiv:comment>56 pages, 13 figures, 5 tables. Code and data available at https://github.com/fmarrabal/geo-laplace-distributed-converters</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Francisco Manuel Arrabal-Campos</name>
+      <arxiv:affiliation>Department of Engineering, University of Almeria, Spain</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Francisco G. Montoya</name>
+      <arxiv:affiliation>Department of Engineering, University of Almeria, Spain</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Santiago Sánchez-Acevedo</name>
+      <arxiv:affiliation>SINTEF, Norway</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Raymundo E. Torres-Olguin</name>
+      <arxiv:affiliation>SINTEF, Norway</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alfredo Alcayde</name>
+      <arxiv:affiliation>Department of Engineering, University of Almeria, Spain</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.3055v1</id>
+    <title>IVOA Recommendation: Spectrum Data Model 1.1</title>
+    <updated>2012-04-13T17:19:51Z</updated>
+    <link href="https://arxiv.org/abs/1204.3055v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.3055v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a data model describing the structure of spectrophotometric datasets with spectral and temporal coordinates and associated metadata. This data model may be used to represent spectra, time series data, segments of SED (Spectral Energy Distributions) and other spectral or temporal associations.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-13T17:19:51Z</published>
+    <arxiv:comment>http://www.ivoa.net</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Jonathan McDowell</name>
+    </author>
+    <author>
+      <name>Doug Tody</name>
+    </author>
+    <author>
+      <name>Tamas Budavari</name>
+    </author>
+    <author>
+      <name>Markus Dolensky</name>
+    </author>
+    <author>
+      <name>Inga Kamp</name>
+    </author>
+    <author>
+      <name>Kelly McCusker</name>
+    </author>
+    <author>
+      <name>Pavlos Protopapas</name>
+    </author>
+    <author>
+      <name>Arnold Rots</name>
+    </author>
+    <author>
+      <name>Randy Thompson</name>
+    </author>
+    <author>
+      <name>Frank Valdes</name>
+    </author>
+    <author>
+      <name>Petr Skoda</name>
+    </author>
+    <author>
+      <name>Bruno Rino</name>
+    </author>
+    <author>
+      <name>Sebastien Derriere</name>
+    </author>
+    <author>
+      <name>Jesus Salgado</name>
+    </author>
+    <author>
+      <name>Omar Laurino</name>
+    </author>
+    <author>
+      <name>the IVOA Data Access Layer</name>
+    </author>
+    <author>
+      <name>Data Model Working Groups</name>
+    </author>
+    <arxiv:doi>10.5479/ADS/bib/2011ivoa.spec.1120M</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5479/ADS/bib/2011ivoa.spec.1120M" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.00258v1</id>
+    <title>Laplace Sum Rules in Quantum ChromoDynamics</title>
+    <updated>2023-09-01T05:26:49Z</updated>
+    <link href="https://arxiv.org/abs/2309.00258v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.00258v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We shortly review some applications of the (inverse) Laplace (LSR) transform sum rules in Quantum ChromoDynamics (QCD) for extracting the fundamental QCD parameters (coupling constant $α_s$, quark and gluon condensates) and the hadron properties (masses and decay constants). Links of LSR to some other forms of QCD spectral sum rules are also discussed. As prototype examples, we discuss in detail the $ρ$ and $π$ meson sum rules.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-01T05:26:49Z</published>
+    <arxiv:comment>22 pages, 11 figures, Invited review to be published as a Chapter of the book : The Laplace Transform and its Applications, edited by Nova Science Publishers, New-York. arXiv admin note: text overlap with arXiv:2211.14536</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Stephan Narison</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.12647v1</id>
+    <title>Truncated Laplace and Gaussian mechanisms of RDP</title>
+    <updated>2023-09-22T06:37:45Z</updated>
+    <link href="https://arxiv.org/abs/2309.12647v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.12647v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Laplace mechanism and the Gaussian mechanism are primary mechanisms in differential privacy, widely applicable to many scenarios involving numerical data. However, due to the infinite-range random variables they generate, the Laplace and Gaussian mechanisms may return values that are semantically impossible, such as negative numbers. To address this issue, we have designed the truncated Laplace mechanism and Gaussian mechanism. For a given truncation interval [a, b], the truncated Gaussian mechanism ensures the same Renyi Differential Privacy (RDP) as the untruncated mechanism, regardless of the values chosen for the truncation interval [a, b]. Similarly, the truncated Laplace mechanism, for specified interval [a, b], maintains the same RDP as the untruncated mechanism. We provide the RDP expressions for each of them. We believe that our study can further enhance the utility of differential privacy in specific applications.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-22T06:37:45Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jie Fu</name>
+    </author>
+    <author>
+      <name>Zhiyu Sun</name>
+    </author>
+    <author>
+      <name>Haitao Liu</name>
+    </author>
+    <author>
+      <name>Zhili Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.01231v2</id>
+    <title>Asymmetric truncated Toeplitz operators on finite-dimensional spaces II</title>
+    <updated>2016-12-09T20:03:36Z</updated>
+    <link href="https://arxiv.org/abs/1611.01231v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.01231v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we present some consequences of the description of matrix representations of asymmetric truncated Toeplitz operators acting between finite-dimensional model spaces. In particular, we prove that these operators can be characterized using modified compressed shifts or the notion of shift invariance. We also describe rank-one asymmetric truncated Toeplitz operators acting between finite-dimensional model spaces. This paper is a sequel to the paper of J. Jurasik and B. Łanucha "Asymmetric truncated Toeplitz operators on finite-dimensional spaces".</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-04T00:38:54Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Asymmetric Truncated Toeplitz Operators of Rank One. Comput. Methods Funct. Theory 18, 259-267 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Bartosz Łanucha</name>
+    </author>
+    <arxiv:doi>10.1007/s40315-017-0219-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s40315-017-0219-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.14250v1</id>
+    <title>On Two Distinct Sources of Nonidentifiability in Latent Position Random Graph Models</title>
+    <updated>2020-03-31T14:41:02Z</updated>
+    <link href="https://arxiv.org/abs/2003.14250v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.14250v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two separate and distinct sources of nonidentifiability arise naturally in the context of latent position random graph models, though neither are unique to this setting. In this paper we define and examine these two nonidentifiabilities, dubbed subspace nonidentifiability and model-based nonidentifiability, in the context of random graph inference. We give examples where each type of nonidentifiability comes into play, and we show how in certain settings one need worry about one or the other type of nonidentifiability. Then, we characterize the limit for model-based nonidentifiability both with and without subspace nonidentifiability. We further obtain additional limiting results for covariances and $U$-statistics of stochastic block models and generalized random dot product graphs.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-31T14:41:02Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Joshua Agterberg</name>
+    </author>
+    <author>
+      <name>Minh Tang</name>
+    </author>
+    <author>
+      <name>Carey E. Priebe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11077v2</id>
+    <title>Explosions of pulsating red supergiants: a natural pathway for the diversity of Type II-P/L supernovae</title>
+    <updated>2025-08-20T09:58:51Z</updated>
+    <link href="https://arxiv.org/abs/2508.11077v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11077v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Red supergiants (RSGs), which are progenitors of hydrogen-rich Type II supernovae (SNe), have been known to pulsate from both observations and theory. The pulsations can be present at core collapse and affect the resulting SN. However, SN light curve models of such RSGs commonly use hydrostatic progenitor models and ignore pulsations. Here, we model the final stages of a 15 solar-mass RSG and self-consistently follow the hydrodynamical evolution. We find the growth of large amplitude radial pulsations in the envelope. After a transient phase where the envelope restructures, the pulsations settle to a steady and periodic oscillation with a period of 817 days. We show that they are driven by the $κγ$-mechanism, which is an interplay between changing opacities and the release of recombination energy of hydrogen and helium. This leads to complex and non-coherent expansion and contraction in different parts of the envelope, which greatly affect the SN progenitor properties, including its location in the Hertzsprung-Russell diagram. We simulate SN explosions of this model at different pulsations phases. Explosions in the compressed state result in a flat light curve (Type II-P). In contrast, the SN light curve in the expanded state declines rapidly, reminiscent of a Type II-L SN. For cases in between, we find light curves with various decline rates. Features in the SN light curves are directly connected to features in the density profiles. These are in turn linked to the envelope ionization structure, which is the driving mechanism of the pulsations. We predict that some of the observed diversity in Type II SN light curves can be explained by RSG pulsations. For more massive RSGs, we expect stronger pulsations that might even lead to dynamical mass ejections of the envelope and to an increased diversity in SN light curves.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-14T21:23:59Z</published>
+    <arxiv:comment>Resubmitted to A&amp;A after positive referee report, movies available at https://doi.org/10.5281/zenodo.16876815 ; the companion paper on comparisons with observations can also be found on arXiv arXiv:2508.11077 (Laplace, Bronner et al.)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>A&amp;A 703, A61 (2025)</arxiv:journal_ref>
+    <author>
+      <name>V. A. Bronner</name>
+    </author>
+    <author>
+      <name>E. Laplace</name>
+    </author>
+    <author>
+      <name>F. R. N. Schneider</name>
+    </author>
+    <author>
+      <name>Ph. Podsiadlowski</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202554642</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202554642" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.06392v3</id>
+    <title>Linear combinations of primitive elements of a finite field</title>
+    <updated>2018-08-31T01:34:16Z</updated>
+    <link href="https://arxiv.org/abs/1711.06392v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.06392v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine linear sums of primitive roots and their inverses in finite fields. In particular, we refine a result by Li and Han, and show that every $p&gt; 13$ has a pair of primitive roots $a$ and $b$ such that $a+ b$ and $a^{-1} + b^{-1}$ are also primitive roots mod $p$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-17T04:02:15Z</published>
+    <arxiv:comment>19 pages; to appear in Finite Fields Appl</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Finite Fields and Their Applications Volume 51, May 2018</arxiv:journal_ref>
+    <author>
+      <name>Stephen Cohen</name>
+    </author>
+    <author>
+      <name>Tomás Oliveira e Silva</name>
+    </author>
+    <author>
+      <name>Nicole Sutherland</name>
+    </author>
+    <author>
+      <name>Tim Trudgian</name>
+    </author>
+    <arxiv:doi>10.1016/j.ffa.2018.02.009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ffa.2018.02.009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.0306v2</id>
+    <title>Some Notes on the Use of the Windowed Fourier Transform for Spectral Analysis of Discretely Sampled Data</title>
+    <updated>2013-05-22T15:21:09Z</updated>
+    <link href="https://arxiv.org/abs/1303.0306v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.0306v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The properties of the Gabor and Morlet transforms are examined with respect to the Fourier analysis of discretely sampled data. Forward and inverse transform pairs based on a fixed window with uniform sampling of the frequency axis can satisfy numerically the energy and reconstruction theorems; however, transform pairs based on a variable window or nonuniform frequency sampling in general do not. Instead of selecting the shape of the window as some function of the central frequency, we propose constructing a single window with unit energy from an arbitrary set of windows which is applied over the entire frequency axis. By virtue of using a fixed window with uniform frequency sampling, such a transform satisfies the energy and reconstruction theorems. The shape of the window can be tailored to meet the requirements of the investigator in terms of time/frequency resolution. The algorithm extends naturally to the case of nonuniform signal sampling without modification beyond identification of the Nyquist interval.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-01T21:41:52Z</published>
+    <arxiv:comment>24 pages, 12 figures, 6 tables. Section added, minor revision, final version, to appear in Axioms</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <arxiv:journal_ref>Axioms 2013, 2(3), 286-310</arxiv:journal_ref>
+    <author>
+      <name>Robert W. Johnson</name>
+    </author>
+    <arxiv:doi>10.3390/axioms2030286</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/axioms2030286" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.10200v1</id>
+    <title>An Automated Window Selection Procedure For DFT Based Detection Schemes To Reduce Windowing SNR Loss</title>
+    <updated>2017-10-27T15:31:40Z</updated>
+    <link href="https://arxiv.org/abs/1710.10200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.10200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The classical spectrum analysis methods utilize window functions to reduce the masking effect of a strong spectral component over weaker components. The main cost of side-lobe reduction is the reduction of signal-to-noise ratio (SNR) level of the output spectrum. We present a single snapshot method which optimizes the selection of most suitable window function among a finite set of candidate windows, say rectangle, Hamming, Blackman windows, for each spectral bin. The main goal is to utilize different window functions at each spectral output depending on the interference level encountered at that spectral bin so as to reduce the SNR loss associated with the windowing operation. Stated differently, the windows with strong interference suppression capabilities are utilized only when a sufficiently powerful interferer is corrupting the spectral bin of interest is present, i.e. only when this window is needed. The achieved reduction in the windowing SNR loss can be important for the detection of low SNR targets.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-27T15:31:40Z</published>
+    <arxiv:comment>Keywords: Spectral Analysis, Window Function, Pulse-Doppler Radar, Target Detection. A Matlab implementation is available at http://users.metu.edu.tr/ccandan/pub.htm</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Cagatay Candan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.13041v2</id>
+    <title>Byzantine-Resilient High-Dimensional Federated Learning</title>
+    <updated>2020-08-16T21:24:14Z</updated>
+    <link href="https://arxiv.org/abs/2006.13041v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.13041v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study stochastic gradient descent (SGD) with local iterations in the presence of malicious/Byzantine clients, motivated by the federated learning. The clients, instead of communicating with the central server in every iteration, maintain their local models, which they update by taking several SGD iterations based on their own datasets and then communicate the net update with the server, thereby achieving communication-efficiency. Furthermore, only a subset of clients communicate with the server, and this subset may be different at different synchronization times. The Byzantine clients may collaborate and send arbitrary vectors to the server to disrupt the learning process. To combat the adversary, we employ an efficient high-dimensional robust mean estimation algorithm from Steinhardt et al.~\cite[ITCS 2018]{Resilience_SCV18} at the server to filter-out corrupt vectors; and to analyze the outlier-filtering procedure, we develop a novel matrix concentration result that may be of independent interest.
+  We provide convergence analyses for strongly-convex and non-convex smooth objectives in the heterogeneous data setting, where different clients may have different local datasets, and we do not make any probabilistic assumptions on data generation. We believe that ours is the first Byzantine-resilient algorithm and analysis with local iterations. We derive our convergence results under minimal assumptions of bounded variance for SGD and bounded gradient dissimilarity (which captures heterogeneity among local datasets). We also extend our results to the case when clients compute full-batch gradients.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-22T03:54:36Z</published>
+    <arxiv:comment>33 pages; title change; improved bound on the approximation error by the factor of H</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Deepesh Data</name>
+    </author>
+    <author>
+      <name>Suhas Diggavi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.4347v1</id>
+    <title>Control System Design Using Finite Laplace Transform Theory</title>
+    <updated>2011-01-23T08:46:57Z</updated>
+    <link href="https://arxiv.org/abs/1101.4347v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.4347v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Laplace transform theory violates a very fundamental requirement of all engineering systems. We show that this theory assumes that all signals must exist over infinite time interval. Since in engineering this infinite time assumption is not meaningful and feasible, this paper presents a design for linear control systems using the well known theory of Finite Laplace transform (FLT). The major contributions of this paper can be listed as: (a) A design principle for linear control systems using FLT, (b) A numerical inversion method for the FLT with examples, (c) A proof that the FLT does not satisfy the convolution theorem as normally required in engineering design and analysis, and (d) An observation that the FLT is conceptually similar to the analog equivalent of the Finite Impulse Response (FIR) digital filter.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-23T08:46:57Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Subhendu Das</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.06828v2</id>
+    <title>Robust principal graphs for data approximation</title>
+    <updated>2016-11-24T11:24:10Z</updated>
+    <link href="https://arxiv.org/abs/1603.06828v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.06828v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Revealing hidden geometry and topology in noisy data sets is a challenging task. Elastic principal graph is a computationally efficient and flexible data approximator based on embedding a graph into the data space and minimizing the energy functional penalizing the deviation of graph nodes both from data points and from pluri-harmonic configuration (generalization of linearity). The structure of principal graph is learned from data by application of a topological grammar which in the simplest case leads to the construction of principal curves or trees. In order to more efficiently cope with noise and outliers, here we suggest using a trimmed data approximation term to increase the robustness of the method. The modification of the method that we suggest does not affect either computational efficiency or general convergence properties of the original elastic graph method. The trimmed elastic energy functional remains a Lyapunov function for the optimization algorithm. On several examples of complex data distributions we demonstrate how the robust principal graphs learn the global data structure and show the advantage of using the trimmed data approximation term for the construction of principal graphs and other popular data approximators.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-22T15:24:41Z</published>
+    <arxiv:comment>A talk given at ECDA2015 (European Conference on Data Analysis, September 2nd to 4th 2015, University of Essex, Colchester, UK), to be published in Archives of Data Science</arxiv:comment>
+    <arxiv:primary_category term="cs.DS"/>
+    <arxiv:journal_ref>Archives of Data Science, Series A, Vol. 2, No. 1, 2017</arxiv:journal_ref>
+    <author>
+      <name>A. N. Gorban</name>
+    </author>
+    <author>
+      <name>E. M. Mirkes</name>
+    </author>
+    <author>
+      <name>A. Zinovyev</name>
+    </author>
+    <arxiv:doi>10.5445/KSP/1000058749/11</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5445/KSP/1000058749/11" title="doi"/>
+  </entry>
+</feed>

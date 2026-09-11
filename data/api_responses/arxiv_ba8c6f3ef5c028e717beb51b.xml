@@ -1,0 +1,632 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/e+Avjfq9OI85Jye5n1Y5nHdvKeE</id>
+  <title>arXiv Query: search_query=all:QCD OR all:sum OR all:rules OR all:lowest OR all:resonance OR all:mass OR all:bound OR all:moments&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:45:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:QCD+OR+(all:sum+OR+(all:rules+OR+(all:lowest+OR+(all:resonance+OR+(all:mass+OR+(all:bound+OR+all:moments))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>768599</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2605.04001v2</id>
+    <title>QCD sum rules: Borel parameter vs. Euclidean time</title>
+    <updated>2026-06-16T14:52:22Z</updated>
+    <link href="https://arxiv.org/abs/2605.04001v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.04001v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore a modification of QCD sum rules where, instead of Borel transforms of current correlators, one considers the correlators in coordinate space as functions of Euclidean time. Taking the nucleon channel as an example, we derive such Euclidean time sum rules and compare them with the traditional Borel sum rules. We show that a rough estimate of nucleon mass and residue is also possible working in coordinate space, but such sum rules are much more affected by the uncertainties in power corrections and continuum contribution than the Borel ones: the fiducial interval is practically absent.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-05T17:21:49Z</published>
+    <arxiv:comment>12 pages, 5 figures; a discussion of Gaussian sum rules added</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>A. V. Smilga</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.06750v3</id>
+    <title>Masses of Open-Flavour Heavy-Light Hybrids from QCD Sum-Rules</title>
+    <updated>2017-05-26T17:51:21Z</updated>
+    <link href="https://arxiv.org/abs/1609.06750v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.06750v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use QCD Laplace sum-rules to predict masses of open-flavour heavy-light hybrids where one of the hybrid's constituent quarks is a charm or bottom and the other is an up, down, or strange. We compute leading-order, diagonal correlation functions of several hybrid interpolating currents, taking into account QCD condensates up to dimension-six, and extract hybrid mass predictions for all $J^P\in\{0^{\pm},\,1^{\pm}\}$, as well as explore possible mixing effects with conventional quark-antiquark mesons. Within theoretical uncertainties, our results are consistent with a degeneracy between the heavy-nonstrange and heavy-strange hybrids in all $J^P$ channels. We find a similar mass hierarchy of $1^+$, $1^{-}$, and $0^+$ states (a $1^{+}$ state lighter than essentially degenerate $1^{-}$ and $0^{+}$ states) in both the charm and bottom sectors, and discuss an interpretation for the $0^-$ states. If conventional meson mixing is present the effect is an increase in the hybrid mass prediction, and we estimate an upper bound on this effect.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-21T20:59:55Z</published>
+    <arxiv:comment>24 pages, 8 figures. Mass predictions updated from previous version to reflect corrected sign error in sum rule analysis. Mixing analysis and examination of higher weight sum-rules added. To be published in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP 1705 (2017) 149</arxiv:journal_ref>
+    <author>
+      <name>J. Ho</name>
+    </author>
+    <author>
+      <name>D. Harnett</name>
+    </author>
+    <author>
+      <name>T. G. Steele</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP05(2017)149</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP05(2017)149" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9801415v1</id>
+    <title>QCD Sum-Rule Consistency of Lowest-Lying Quark Scalar Resonances</title>
+    <updated>1998-01-26T23:08:38Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9801415v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9801415v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate lowest-lying scalar meson properties predicted from QCD Laplace sum rules based upon isovector and isoscalar non-strange $\bar{q}q$ currents. The hadronic content of these sum rules incorporates deviations from the narrow resonance approximation anticipated from physical resonance widths. The field theoretical content of these sum rules incorporates purely-perturbative QCD contributions to three-loop order, the direct single-instanton contribution in the instanton liquid model, and leading contributions from QCD-vacuum condensates. In the isovector channel, the results we obtain are compatible with a$_0$(1450) being the lowest-lying $q\bar{q}$ resonance, and are indicative of a non-$q\bar{q}$ interpretation for a$_0$(980). In the isoscalar channel, the results we obtain are compatible with the lowest lying $q\bar{q}$ resonance being f$_0$(980) or a state somewhat lighter than f$_0$(980) whose width is less than half of its mass. The dilaton scenario for such a narrower $σ$-resonance is discussed in detail, and is found compatible with sum rule predictions for the resonance coupling only if the anomalous gluon-field portion of $Θ_μ^μ$ dominates the matrix element $&lt;σ|Θ_μ^μ|0&gt;$. A linear sigma-model interpretation of the lowest-lying resonance's coupling, when compared to the coupling predicted by sum rules, is indicative of a renormalization-group invariant light-quark mass between 4 and 6 MeV.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-01-26T23:08:38Z</published>
+    <arxiv:comment>Latex, 40 pages, 17 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Nucl.Phys. A633 (1998) 279-311</arxiv:journal_ref>
+    <author>
+      <name>V. Elias</name>
+    </author>
+    <author>
+      <name>A. H. Fariborz</name>
+    </author>
+    <author>
+      <name>Fang Shi</name>
+    </author>
+    <author>
+      <name>T. G. Steele</name>
+    </author>
+    <arxiv:doi>10.1016/S0375-9474(98)00119-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0375-9474(98)00119-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9801214v1</id>
+    <title>Mass of the Lowest Scalar (0++) Glueball in the QCD Sum Rules</title>
+    <updated>1998-01-05T04:57:11Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9801214v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9801214v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The mass of the lowest scalar glueball is discussed by using QCD sum rules. We find that the glueball mass is sensitive to the choice of moments and slightly depends on the radiative corrections. With the help of suitable moments and stability criteria, we get the scalar glueball mass: $1710\pm110$ MeV without radiative corrections and $1580\pm150$ MeV with radiative corrections.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-01-05T04:57:11Z</published>
+    <arxiv:comment>11 pages, Latex, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Tao Huang</name>
+    </author>
+    <author>
+      <name>Ai-lin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9503234v1</id>
+    <title>QCD SPECTRAL SUM RULES FOR HEAVY FLAVOURS</title>
+    <updated>1995-03-04T17:07:49Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9503234v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9503234v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent developments in the uses of QCD spectral sum rules (QSSR) for heavy flavours are summarized and updated. QSSR results are compared with the existing data and with the ones from alternative approaches.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-03-04T17:07:49Z</published>
+    <arxiv:comment>22 pages on Latex files. Talk given at the Cracow Epiphany Conference on Heavy Quarks in honour of the 60th birthday of Kacper Zalewski (to appear in Acta physica Polonica). This is an updated version of the CERN-TH.7277/94 (talk given by the Author at the Rencontre de Moriond, Meribel(1994) and of the CERN-TH.7444/94 (talk given by the Author at the QCD94 Conference, Montpellier (1994)) An extended version of this review will by published in: Recent Developments of QCD spectral sum rules by World Scientific Company.</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Acta Phys.Polon.B26:687-710,1995</arxiv:journal_ref>
+    <author>
+      <name>Stephan Narison</name>
+      <arxiv:affiliation>LPM-Université de Montpellier II-France</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0209022v1</id>
+    <title>Charm and bottom quark masses from QCD moment sum rules</title>
+    <updated>2002-09-03T10:51:43Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0209022v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0209022v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this work the charm and bottom quark masses are determined from QCD moment sum rules for the charmonium and upsilon systems. In our analysis we include both the results from non-relativistic QCD and perturbation theory at next-next-to-leading order. For the pole masses we obtain $M_c=1.75\pm 0.15$ GeV and $M_b=4.98\pm 0.125$ GeV. Using the potential-subtracted mass in intermediate steps of the calculation the MS-masses are determined to $m_c(m_c) = 1.19 \pm 0.11$ GeV and $m_b(m_b) = 4.24 \pm 0.10$ GeV.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-09-03T10:51:43Z</published>
+    <arxiv:comment>4 pages, 2 figures, talk given at the High-Energy Physics International Conference in QCD, Montpellier, France, 2-9 July 2002</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Nucl.Phys.Proc.Suppl.121:213-216,2003</arxiv:journal_ref>
+    <author>
+      <name>Markus Eidemuller</name>
+    </author>
+    <arxiv:doi>10.1016/S0920-5632(03)01849-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0920-5632(03)01849-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0210103v2</id>
+    <title>Gluon condensate and c-quark mass in pseudoscalar sum rules at 3-loop order</title>
+    <updated>2003-02-03T08:29:00Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0210103v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0210103v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Charmonium sum rules for pseudoscalar 0^{-+} state eta_c(1S) are analyzed within perturbative QCD and Operator Product Expansion. The perturbative part of the pseudoscalar correlator is considered at alpha_s^2 order and the contribution of the gluon condensate &lt;G^2&gt; is taken into account with alpha_s correction. The OPE series includes the operators of dimension D=6,8 computed both in the instanton and factorization model. The method of moments in MS-bar scheme allows to establish acceptable values of the charm quark mass and gluon condensate, using the experimental mass of eta_c. In result of the analisys the charm quark mass is found to be m_c(m_c)=1.26+-0.02 GeV independently of the condensate value. The sensitivity of the results to various approximations for the massive 3-loop pseudoscalar correlator is discussed.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-07T14:40:59Z</published>
+    <arxiv:comment>19 pages, 1 latex + 5 eps files. v2: Operators of dimension D=8 included; the condensate restriction relaxed; c-quark mass is found m_c(m_c)=1.26+-0.02 GeV independently of other sum rules and condensate value. To appear in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP0301:081,2003</arxiv:journal_ref>
+    <author>
+      <name>K. Zyablyuk</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2003/01/081</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2003/01/081" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.1959v1</id>
+    <title>SVZ sum rules : 30 + 1 years later</title>
+    <updated>2010-10-10T19:41:29Z</updated>
+    <link href="https://arxiv.org/abs/1010.1959v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.1959v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For this exceptional 25th anniversary of the QCD-Montpellier series of conferences initiated in 85 with the name "Non-perturbative methods", we take the opportunuity to celebrate the 30 + 1 years of the discovery of the SVZ (also called ITEP, QCD or QCD spectral) sum rules by M.A. Shifman, A.I. Vainshtein and V.I. Zakahrov in 79 [1]. In this talk, I have the duty to present the status of the method. I shall (can) not enumerate the vast area of successful applications of sum rules in hadron physics but I shall focus on the historical evolution of field and its new developments. More detailed related discussions and more complete references can be found in the textbooks [2,3].</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-10T19:41:29Z</published>
+    <arxiv:comment>8 pages, 1 figure, 4 tables, talk given at QCD 10 (15th international QCD-Montpellier conference) for the celebration of the 25th anniversary of the QCD series of Montpellier conference and of the 30+1 years discovery of the SVZ sum rules</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Nucl.Phys.Proc.Suppl.207-208:315-322,2010</arxiv:journal_ref>
+    <author>
+      <name>Stephan Narison</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysbps.2010.10.078</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysbps.2010.10.078" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9807391v1</id>
+    <title>Determination of the scalar glueball mass in QCD sum rules</title>
+    <updated>1998-07-16T00:48:45Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9807391v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9807391v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The $0^{++}$ glueball mass is analyzed in the QCD sum rules. We show that in order to determine the $0^{++}$ glueball mass by using the QCD sum rules method, it is necessary to clarify the following three ingredients: (1) to choose the appropriate moment with acceptable parameters which satisfy all of the criteria; (2) to take account into the radiative corrections; (3) to estimate an additional contribution to the glueball mass from the lowest lying ${\bar q}q$ resonance. We conclude that it is the key point to choose suitable moments to determine the $0^{++}$ glueball mass, the radiative corrections do not affect it sensitively and the composite resonance have a little effect on it.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-07-16T00:48:45Z</published>
+    <arxiv:comment>11 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev. D59 (1999) 034026</arxiv:journal_ref>
+    <author>
+      <name>Tao Huang</name>
+    </author>
+    <author>
+      <name>HongYing Jin</name>
+    </author>
+    <author>
+      <name>Ailin Zhang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.59.034026</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.59.034026" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9708466v2</id>
+    <title>QCD Sum Rules and the Lowest-Lying I=0 Scalar Resonance</title>
+    <updated>1997-10-21T00:46:16Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9708466v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9708466v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A QCD Laplace sum rule framework is employed to investigate the relationship between the mass and the decay width of the sigma, the lowest-lying isoscalar resonance in the spin-zero meson channel. Our analysis differs from prior analyses, not only by incorporating finite-width departures from the narrow resonance approximation, but also through the inclusion of direct-instanton contributions and three-loop-order perturbative effects. Assuming that the sigma is the dominant subcontinuum resonance in this channel, the least upper bound we obtain for the sigma-mass is shown to increase with the sigma-width, and suggests that a sigma lighter than 800 MeV should have a total width substantially smaller than its mass.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-08-26T18:18:48Z</published>
+    <arxiv:comment>8 pages, LaTeX, 4 figures, to appear in the proceedings of MRST 97, few typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>V. Elias</name>
+    </author>
+    <author>
+      <name>A. H. Fariborz</name>
+    </author>
+    <author>
+      <name>Fang Shi</name>
+    </author>
+    <author>
+      <name>T. G. Steele</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0107194v2</id>
+    <title>Kinematic sum rules for trace anomalies</title>
+    <updated>2001-12-06T14:09:44Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0107194v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0107194v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I derive a procedure to generate sum rules for the trace anomalies a and a'. Linear combinations of Delta a = a_UV-a_IR and Delta a' = a'_UV-a'_IR are expressed as multiple flow integrals of the two-, three- and four-point functions of the trace of the stress tensor. Eliminating Delta a', universal flow invariants are obtained, in particular sum rules for Delta a. The formulas hold in the most general renormalizable quantum field theory (unitary or not), interpolating between UV and IR conformal fixed points. I discuss the relevance of these sum rules for the issue of the irreversibility of the RG flow. The procedure can be generalized to derive sum rules for the trace anomaly c.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-07-23T14:09:14Z</published>
+    <arxiv:comment>21 pages; published version: added discussion about scheme independence and generalization to sum rules for c</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0111:033,2001</arxiv:journal_ref>
+    <author>
+      <name>D. Anselmi</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2001/11/033</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2001/11/033" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.4230v2</id>
+    <title>Study of H-dibaryon mass in Lattice QCD</title>
+    <updated>2012-12-20T06:50:22Z</updated>
+    <link href="https://arxiv.org/abs/1212.4230v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.4230v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>After a brief review of discovery of the H-dibaryon in lattice QCD, effect of the flavor SU(3) symmetry breaking on the H-dibaryon is studied by basing on the baryon-baryon (BB) interactions extracted from QCD on the lattice. The Schrodinger equation for Lambda Lambda - N Xi -Sigma Sigma coupled-channel is solved with the physical baryon masses and the potentials obtained from QCD at the flavor SU(3) limit. A resonant H-dibaryon is found between Lambda Lambda and N Xi thresholds in this treatment.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-18T05:04:58Z</published>
+    <arxiv:comment>Two references are included in this 2nd version. 5 pages, 4 figures, 2 tables, Proceedings of the 30th International Symposium on Lattice Field Theory, June 24-29, 2012, Cairns, Australia</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Takashi Inoue</name>
+    </author>
+    <author>
+      <name>for HAL QCD Collaboration</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9810259v1</id>
+    <title>Bottom quark mass from QCD sum rules for the Upsilon system</title>
+    <updated>1998-10-06T11:11:20Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9810259v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9810259v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The talk presents an update of the bottom quark mass determination from QCD moment sum rules for the Upsilon system by the authors. Employing the MS_bar scheme, we find m_b(m_b) = 4.19 +- 0.06 GeV. The differences to our previous analysis will be discussed and we comment on the determination of the pole mass for the bottom quark.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-10-06T11:11:20Z</published>
+    <arxiv:comment>4 pages, 1 figure, Invited talk at the Euroconference QCD'98, Montpellier, July 1998</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Nucl.Phys.Proc.Suppl.74:300-303,1999</arxiv:journal_ref>
+    <author>
+      <name>M. Jamin</name>
+    </author>
+    <author>
+      <name>A. Pich</name>
+    </author>
+    <arxiv:doi>10.1016/S0920-5632(99)00182-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0920-5632(99)00182-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.5098v1</id>
+    <title>Bound H-dibaryon from Full QCD Simulations on the Lattice</title>
+    <updated>2011-11-22T05:31:43Z</updated>
+    <link href="https://arxiv.org/abs/1111.5098v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.5098v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using a new method recently proposed by the HAL QCD collaboration to study hadron interactions in lattice QCD, we investigate a possibility for an existence of the H-dibaryon in the flavor SU(3) symmetric world. A potential for the flavor-singlet baryon-baryon channel is derived from the Nambu-Bethe-Salpeter wave function, and the elusive H-dibaryon is shown to be a bound state, with the binding energy of 20--50 MeV for the pseudo-scalar meson masses in the range that 469--1171 MeV.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-22T05:31:43Z</published>
+    <arxiv:comment>7 pages, 3 figures, Talk presented at the XXIX International Symposium on Lattice Field Theory (Lattice 2011), July 10-16, 2011, Squaw Valley, Lake Tahoe, California, USA</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Takashi Inoue</name>
+    </author>
+    <author>
+      <name>for HAL QCD Collaboration</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/9510051v3</id>
+    <title>QCD Sum Rules for Skeptics</title>
+    <updated>1996-11-04T17:59:32Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/9510051v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/9510051v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A new Monte-Carlo based uncertainty analysis is introduced to quantitatively determine the predictive ability of QCD sum rules. A comprehensive analysis of ground state rho-meson and nucleon spectral properties is performed. Many of the findings contradict the conventional wisdom of both practitioners and skeptics alike. Associations between the phenomenological fit parameters are particularly interesting as they reveal how the sum rules resolve the spectral properties. The use of derivative sum rules for the determination of rho-meson spectral properties is shown to be a very unfavorable approach. Most prior nucleon sum rule analyses are based on a sum rule which is found to be invalid; the results are suspect, and should be reevaluated. The ``Ioffe formula'', argued by many to qualitatively encapsulate a description of the nucleon mass in terms of the chiral symmetry breaking order parameter is misleading at best. QCD Sum Rules are found to be self-consistent without contributions from direct instantons. This implies that instanton effects are adequately accounted for in the nonperturbative vacuum condensates. This in-depth examination of QCD sum rule self consistency paints a favorable picture for further quantitative refinements of the QCD sum rule approach.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-10-24T18:09:30Z</published>
+    <arxiv:comment>70 page RevTeX Manuscript with 40 embedded figures. Revised manuscript accepted for publication. Recent estimates of QCD vacuum condensates are used in the analysis. This and related papers may also be obtained from http://www.phys.washington.edu/~derek/Publications.html</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Annals Phys.254:328-396,1997</arxiv:journal_ref>
+    <author>
+      <name>Derek B. Leinweber</name>
+      <arxiv:affiliation>U. Washington</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1006/aphy.1996.5641</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1006/aphy.1996.5641" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.5352v1</id>
+    <title>Central and tensor Lambda-nucleon potentials from lattice QCD</title>
+    <updated>2010-05-28T18:12:01Z</updated>
+    <link href="https://arxiv.org/abs/1005.5352v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.5352v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present our latest study of Lambda-Nucleon (LN) interaction by using lattice QCD, following up on our report at LATTICE 2008. We have calculated not only the scattering lengths but also the central and tensor potentials, which are obtained from the Bethe-Salpeter (BS) amplitude measured in lattice QCD. For these calculations, we employ two different types of gauge configurations: (i) 2+1 flavor full QCD configurations generated by the PACS-CS collaboration at $β=1.9$ ($a=0.0907(13)$ fm) on a $32^3\times 64$ lattice, whose spatial volume is (2.90 fm)$^3$, with the quark masses corresponding to $(m_π,m_K)\approx (301,592)$, $(414,637)$, $(570,724)$ and $(699,787)$ (in units of MeV). (ii) Quenched QCD configurations at $β=5.7$ ($a=0.1416(9)$ fm) on a $32^3\times48$ lattice, whose spatial volume is (4.5 fm)$^3$, with the quark masses corresponding to $(m_π,m_K)\approx (512,606)$, $(464, 586)$ and $(407,565)$. The following qualitative features are found: The LN potential has a relatively strong (weak) repulsive core in the $^1S_0$ ($^3S_1$) channel at short distance, while the potential has slight attractive region at medium distance. The tensor potential is found to be weaker than the $NN$ case. These results hold in both full and quenched QCD. The energy of the ground state on the finite lattice volume is calculated: In both spin channels, energy shift due to the finite volume, from which we extract the scattering length via the Lüscher's formula, is found to be negative at all values of quark masses, suggesting that the LN interaction is attractive. We have also discussed the quark mass dependences of the potentials and the scattering lengths.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-28T18:12:01Z</published>
+    <arxiv:comment>8 pages, presented at The XXVII International Symposium on Lattice Field Theory (Lattice2009), July 26-31 2009, Peking University, Beijing, China</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2009:152,2009</arxiv:journal_ref>
+    <author>
+      <name>H. Nemura</name>
+    </author>
+    <author>
+      <name>for HAL QCD</name>
+    </author>
+    <author>
+      <name>PACS-CS Collaboration</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0610012v1</id>
+    <title>Tevatron-for-LHC Report of the QCD Working Group</title>
+    <updated>2006-10-01T22:10:54Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0610012v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0610012v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The experiments at Run 2 of the Tevatron have each accumulated over 1 inverse femtobarn of high-transverse momentum data. Such a dataset allows for the first precision (i.e. comparisons between theory and experiment at the few percent level) tests of QCD at a hadron collider. While the Large Hadron Collider has been designed as a discovery machine, basic QCD analyses will still need to be performed to understand the working environment. The Tevatron-for-LHC workshop was conceived as a communication link to pass on the expertise of the Tevatron and to test new analysis ideas coming from the LHC community. The TeV4LHC QCD Working Group focussed on important aspects of QCD at hadron colliders: jet definitions, extraction and use of Parton Distribution Functions, the underlying event, Monte Carlo tunes, and diffractive physics. This report summarizes some of the results achieved during this workshop.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-10-01T22:10:54Z</published>
+    <arxiv:comment>156 pages, Tevatron-for-LHC Conference Report of the QCD Working Group</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name> TeV4LHC QCD Working Group</name>
+    </author>
+    <author>
+      <name>M. Albrow</name>
+    </author>
+    <author>
+      <name>M. Begel</name>
+    </author>
+    <author>
+      <name>D. Bourilkov</name>
+    </author>
+    <author>
+      <name>M. Campanelli</name>
+    </author>
+    <author>
+      <name>F. Chlebana</name>
+    </author>
+    <author>
+      <name>A. De Roeck</name>
+    </author>
+    <author>
+      <name>J. R. Dittmann</name>
+    </author>
+    <author>
+      <name>S. D. Ellis</name>
+    </author>
+    <author>
+      <name>B. Field</name>
+    </author>
+    <author>
+      <name>R. Field</name>
+    </author>
+    <author>
+      <name>M. Gallinaro</name>
+    </author>
+    <author>
+      <name>W. Giele</name>
+    </author>
+    <author>
+      <name>K. Goulianos</name>
+    </author>
+    <author>
+      <name>R. C. Group</name>
+    </author>
+    <author>
+      <name>K. Hatakeyama</name>
+    </author>
+    <author>
+      <name>Z. Hubacek</name>
+    </author>
+    <author>
+      <name>J. Huston</name>
+    </author>
+    <author>
+      <name>W. Kilgore</name>
+    </author>
+    <author>
+      <name>T. Kluge</name>
+    </author>
+    <author>
+      <name>S. W. Lee</name>
+    </author>
+    <author>
+      <name>A. Moraes</name>
+    </author>
+    <author>
+      <name>S. Mrenna</name>
+    </author>
+    <author>
+      <name>F. Olness</name>
+    </author>
+    <author>
+      <name>J. Proudfoot</name>
+    </author>
+    <author>
+      <name>K. Rabbertz</name>
+    </author>
+    <author>
+      <name>C. Royon</name>
+    </author>
+    <author>
+      <name>T. Sjostrand</name>
+    </author>
+    <author>
+      <name>P. Skands</name>
+    </author>
+    <author>
+      <name>J. Smith</name>
+    </author>
+    <author>
+      <name>W. K. Tung</name>
+    </author>
+    <author>
+      <name>M. R. Whalley</name>
+    </author>
+    <author>
+      <name>M. Wobisch</name>
+    </author>
+    <author>
+      <name>M. Zielinski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0703295v1</id>
+    <title>Light scalar mesons as tetraquarks within QCD Sum Rules</title>
+    <updated>2007-03-28T04:25:50Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0703295v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0703295v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We examine the interpretation of the light scalar meson nonet as tetraquark states using QCD sum rules. With the interpolating current for the tetraquark states composed of scalar diquark and scalar antidiquark, first, we construct the QCD sum rules by means of the operator product expansion up to the operators of dimension 8 and show that there is no evidence of the coupling of the tetraquark states to the light scalar meson nonet. In order to have a stable sum rule, we propose a "good" interpolating current for the tetraquarks based on chirality arguments which includes scalar and pseudoscalar diquark--antidiquarks with equal weights. In particular, for the lowest tetraquark $σ$--meson, we perform detail analysis of the QCD sum rule and obtain mass for the $σ(600)$ around 780 MeV.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-03-28T04:25:50Z</published>
+    <arxiv:comment>4 pages, 1 figure, Talk at the Yukawa International Seminar (YKIS) 2006, "New frontiers in QCD", Kyoto, Japan</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Prog.Theor.Phys.Suppl.168:190-193,2007</arxiv:journal_ref>
+    <author>
+      <name>Hee-Jung Lee</name>
+    </author>
+    <arxiv:doi>10.1143/PTPS.168.190</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1143/PTPS.168.190" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0207237v2</id>
+    <title>QCD moment sum rules for Coulomb systems: the charm and bottom quark masses</title>
+    <updated>2003-05-05T12:59:43Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0207237v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0207237v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this work the charm and bottom quark masses are determined from QCD moment sum rules for the charmonium and upsilon systems. To illustrate the special character of these sum rules when applied to Coulomb systems we first set up and study the behaviour of the sum rules in quantum mechanics. In our analysis we include both the results from nonrelativistic QCD and perturbation theory at next-next-to-leading order. The moments are evaluated at different values of q^2 which correspond to different relative influence among the theoretical contributions. In the numerical analysis we obtain the masses by choosing central values for all input parameters. The error is estimated from a variation of these parameters. First, the analysis is performed in the pole mass scheme. Second, we employ the potential-subtracted mass in intermediate steps of the calculation to then infer the quark masses in the MS-scheme. Our final results for the pole- and MS-masses are: M_c = 1.75 \pm 0.15 GeV, m_c(m_c) = 1.19 \pm 0.11 GeV, M_b = 4.98 \pm 0.125 GeV and m_b(m_b) = 4.24 \pm 0.10 GeV.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-07-19T09:28:27Z</published>
+    <arxiv:comment>55 pages, 12 figures. References added, discussions extended. To appear in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D67:113002,2003</arxiv:journal_ref>
+    <author>
+      <name>Markus Eidemuller</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.67.113002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.67.113002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.04871v4</id>
+    <title>Nuclear physics from QCD on lattice</title>
+    <updated>2016-01-20T10:18:03Z</updated>
+    <link href="https://arxiv.org/abs/1511.04871v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.04871v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have presented a strategy to study nuclei and nuclear matters from first principles, namely, from QCD. We first compute nucleon-nucleon potentials numerically in lattice QCD, and then use them to investigate properties of nuclei and nuclear matter by various methods developed in nuclear physics. As a demonstration that this strategy works, mass and structure of ^4^He, ^16^O and ^40^Ca, and equation of state of nuclear matters are determined with the lattice QCD induced two-nucleon potentials in a heavy quark region as an input. We have found that these nuclei and the symmetric nuclear matter are bound at one quark mass corresponding to the pseudo-scalar meson (pion) mass of 469 MeV (the octet baryon (nucleon) mass of 1161 MeV). The obtained binding energy per nucleon has a uniform mass-number A dependence which is consistent to the Bethe-Weizsacker mass formula qualitatively. The present study demonstrates that our strategy works well to investigate various properties of atomic nuclei and nuclear matter starting from QCD, without depending on models or experimental information about the nuclear force.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-16T09:02:48Z</published>
+    <arxiv:comment>Typos are corrected, 20 pages, 15 figures, proceedings of the 8th International Workshop on Chiral Dynamics, 29 June - 3 July 2015, Pisa, Italy</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Takashi Inoue</name>
+    </author>
+    <author>
+      <name>for HAL QCD Collaboration</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0912.1446v2</id>
+    <title>Twist Three Distribution e(x) : Sum Rules and Equation of Motion Relations</title>
+    <updated>2010-03-04T03:54:19Z</updated>
+    <link href="https://arxiv.org/abs/0912.1446v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.1446v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the twist three distribution function $e(x)$ in light-front Hamiltonian perturbation theory. In light-front gauge, by eliminating the constrained field, we find a mass term, an intrinsic transverse momentum dependent term and a 'genuine twist three' quark-gluon interaction term in the operator. The equation of motion relation, moment relation and the sum rules are satisfied for a quark at one loop. We compare the results with other model calculations.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-08T09:32:34Z</published>
+    <arxiv:comment>genuine twist three part added, conclusions on sum rules and equation of motion unchanged</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett.B687:180-183,2010</arxiv:journal_ref>
+    <author>
+      <name>Asmita Mukherjee</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2010.03.023</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2010.03.023" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.1620v1</id>
+    <title>Bound H-dibaryon in the Flavor SU(3) Limit from a Full QCD Simulation on the Lattice</title>
+    <updated>2011-09-08T03:27:12Z</updated>
+    <link href="https://arxiv.org/abs/1109.1620v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.1620v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existence of the H-dibaryon in the flavor SU(3) symmetric limit is studied by full QCD simulations on the lattice, in the approach recently developed for the baryon-baryon (BB) interactions. Potential of the flavor-singlet BB channel is derived from the Nambu-Bethe-Salpeter wave function, and a bound H-dibaryon is discovered from it, with the binding energy of 20--50 MeV for the pseudo-scalar meson mass of 469--1171 MeV.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-08T03:27:12Z</published>
+    <arxiv:comment>3 pages, 2 figures, talk presented at the 19th Particles &amp; Nuclei International Conference (PANIC 2011), Massachusetts Institute of Technology, Cambridge, MA, USA, July 24-29, 2011</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Takashi Inoue</name>
+    </author>
+    <author>
+      <name>for HAL QCD Collaboration</name>
+    </author>
+    <arxiv:doi>10.1063/1.3700547</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.3700547" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.03689v1</id>
+    <title>Searching for fully-heavy tetraquark states in QCD moment sum rules</title>
+    <updated>2022-12-07T15:04:29Z</updated>
+    <link href="https://arxiv.org/abs/2212.03689v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.03689v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this talk, we briefly report the investigations of the mass spectra for the $cc\bar c\bar c, bb\bar b\bar b$, $bc\bar b\bar c$ and $cc\bar b\bar b$ tetraquark states by using the QCD moment sum rule method. The calculations for the fully-charm $cc\bar c\bar c$ tetraquarks have been successfully predicted the existence of di-$J/ψ$ resonances including $X(6900)$ in LHCb's observation. The quantum numbers for these resonance structures are also suggested. More efforts are still needed in both theoretical and experimental aspects to study the properties of these fully-heavy tetraquark states. They may be observed at facilities such as LHCb, CMS and RHIC in the future.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-07T15:04:29Z</published>
+    <arxiv:comment>Presentation at QCD 21: the 24th International Conference on Quantum Chromodynamics, held at Montpellier in July 5-9, 2021</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Nucl.Part.Phys.Proc. 318-323 (2022) 73-77</arxiv:journal_ref>
+    <author>
+      <name>Wei Chen</name>
+    </author>
+    <author>
+      <name>Qi-Nan Wang</name>
+    </author>
+    <author>
+      <name>Zi-Yan Yang</name>
+    </author>
+    <author>
+      <name>Hua-Xing Chen</name>
+    </author>
+    <author>
+      <name>Xiang Liu</name>
+    </author>
+    <author>
+      <name>T. G. Steele</name>
+    </author>
+    <author>
+      <name>Shi-Lin Zhu</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysbps.2022.09.016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysbps.2022.09.016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.00279v1</id>
+    <title>The lowest hidden charmed tetraquark state from QCD sum rules</title>
+    <updated>2015-01-16T00:33:53Z</updated>
+    <link href="https://arxiv.org/abs/1502.00279v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.00279v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we study the $S\bar{S}$ type scalar tetraquark state $cq\bar{c}\bar{q}$ in details with the QCD sum rules by calculating the contributions of the vacuum condensates up to dimension-10 in the operator product expansion, and obtain the value $M_{Z_c}=\left(3.82^{+0.08}_{-0.08}\right)\,\rm{GeV}$, which is the lowest mass for the hidden charmed tetraquark states from the QCD sum rules. Furthermore, we calculate the hadronic coupling constants $G_{Z_cη_cπ}$ and $G_{Z_cDD}$ with the three-point QCD sum rules, then study the strong decays $ Z_c\to η_cπ\, ,\, DD$, and observe that the total width $Γ_{Z_c}\approx 21\,\rm{MeV}$. The present predictions can be confronted with the experimental data in the futures at the BESIII, LHCb and Belle-II.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-16T00:33:53Z</published>
+    <arxiv:comment>15 pages, 8 figures. arXiv admin note: substantial text overlap with arXiv:1312.1537, arXiv:1312.2652</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Mod.Phys.Lett.A29(2014)1450207</arxiv:journal_ref>
+    <author>
+      <name>Zhi-Gang Wang</name>
+    </author>
+    <arxiv:doi>10.1142/S0217732314502071</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217732314502071" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9908318v1</id>
+    <title>The field strength correlator from QCD sum rules</title>
+    <updated>1999-08-10T15:23:45Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9908318v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9908318v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The gauge invariant two-point correlator for the gluon field strength tensor in analysed by means of the QCD sum rule method. To this end, we make use of a relation of this correlator to a two-point function for a quark-gluon hybrid in the limit of the quark mass going to infinity. From the sum rules a relation between the gluon correlation length and the gluon condensate is obtained.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-08-10T15:23:45Z</published>
+    <arxiv:comment>5 pages, 1 figure, QCD Euroconference</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Nucl.Phys.Proc.Suppl.86:421-425,2000</arxiv:journal_ref>
+    <author>
+      <name>M. Eidemuller</name>
+    </author>
+    <author>
+      <name>H. G. Dosch</name>
+    </author>
+    <author>
+      <name>M. Jamin</name>
+    </author>
+    <arxiv:doi>10.1016/S0920-5632(00)00598-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0920-5632(00)00598-3" title="doi"/>
+  </entry>
+</feed>

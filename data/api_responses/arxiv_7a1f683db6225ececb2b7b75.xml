@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BAda4yOYv7NncoOZAFWQjazOIys</id>
+  <title>arXiv Query: search_query=all:multi-exponential OR all:decay OR all:fitting OR all:resolution OR all:limit OR all:ill-posed&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:43:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:multi-exponential+OR+(all:decay+OR+(all:fitting+OR+(all:resolution+OR+(all:limit+OR+all:ill-posed))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>711862</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1205.5323v1</id>
+    <title>Methods of Solving Ill-Posed Problems</title>
+    <updated>2012-05-24T03:24:12Z</updated>
+    <link href="https://arxiv.org/abs/1205.5323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.5323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many physical problems can be formulated as operator equations of the form Au = f. If these operator equations are ill-posed, we then resort to finding the approximate solutions numerically. Ill-posed problems can be found in the fields of mathematical analysis, mathematical physics, geophysics, medicine, tomography, technology and ecology. The theory of ill-posed problems was developed in the 1960's by several mathematicians, mostly Soviet and American. In this report we review the methods of solving ill-posed problems and recent developments in this field. We review the variational regularization method, the method of quasi-solution, iterative regularization method and the dynamical systems method. We focus mainly on the dynamical systems method as it is found that the dynamical systems method is more efficient than the regularization procedure.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-24T03:24:12Z</published>
+    <arxiv:comment>Suresh Srinivasamurthy MS Report titled Methods of solving Ill-Posed Problems Submitted in Spring 2004 Mathematics Department Kansas State University</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Suresh B. Srinivasamurthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.14441v1</id>
+    <title>On iterative methods for solving ill-posed problems modeled by PDE's</title>
+    <updated>2020-11-29T20:52:34Z</updated>
+    <link href="https://arxiv.org/abs/2011.14441v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.14441v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the iterative methods proposed by Maz'ya and Kozlov (see [KM1], [KM2]) for solving ill-posed inverse problems modeled by partial differential equations. We consider linear evolutionary problems of elliptic, hyperbolic and parabolic types. Each iteration of the analyzed methods consists in the solution of a well posed problem (boundary value problem or initial value problem respectively). The iterations are described as powers of affine operators, as in [KM2]. We give alternative convergence proofs for the algorithms by using spectral theory and the fact that the linear parts of these affine operators are non-expansive with additional functional analytical properties (see [Le1,2]). Also problems with noisy data are considered and estimates for the convergence rate are obtained under a priori regularity assumptions on the problem data.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-29T20:52:34Z</published>
+    <arxiv:comment>14 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Journal of Inverse and Ill-Posed Problems 9 (2001), no. 1, 13-29</arxiv:journal_ref>
+    <author>
+      <name>J. Baumeister</name>
+    </author>
+    <author>
+      <name>A. Leitao</name>
+    </author>
+    <arxiv:doi>10.1515/jiip.2001.9.1.13</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1515/jiip.2001.9.1.13" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.04571v3</id>
+    <title>A simple algorithm to find the L-curve corner in the regularisation of ill-posed inverse problems</title>
+    <updated>2020-09-24T10:56:42Z</updated>
+    <link href="https://arxiv.org/abs/1608.04571v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.04571v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a simple algorithm to locate the "corner" of an L-curve, a function often used to select the regularisation parameter for the solution of ill-posed inverse problems. The algorithm involves the Menger curvature of a circumcircle and the golden section search method. It efficiently finds the regularisation parameter value corresponding to the maximum positive curvature region of the L-curve. The algorithm is applied to some commonly available test problems and compared to the typical way of locating the l-curve corner by means of its analytical curvature. The application of the algorithm to the data processing of an electrical resistance tomography experiment on thin conductive films is also reported.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-16T12:32:47Z</published>
+    <arxiv:comment>11 pages, 6 figures. Keywords: inverse problem, ill-posed problem, regularization parameter, L-curve, golden section search, Menger curvature, electrical resistance tomography</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>IOP SciNotes, 1 (2020) 025004</arxiv:journal_ref>
+    <author>
+      <name>Alessandro Cultrera</name>
+    </author>
+    <author>
+      <name>Luca Callegaro</name>
+    </author>
+    <arxiv:doi>10.1088/2633-1357/abad0d</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2633-1357/abad0d" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.05430v3</id>
+    <title>A mathematical theory of computational resolution limit in one dimension</title>
+    <updated>2021-01-09T16:16:56Z</updated>
+    <link href="https://arxiv.org/abs/1912.05430v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.05430v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given an image generated by the convolution of point sources with a band-limited function, the deconvolution problem is to reconstruct the source number, positions, and amplitudes. This problem arises from many important applications in imaging and signal processing. It is well-known that it is impossible to resolve the sources when they are close enough in practice. Rayleigh investigated this problem and formulated a resolution limit, the so-called Rayleigh limit, for the case of two sources with identical amplitudes. On the other hand, many numerical experiments demonstrate that a stable recovery of the sources is possible even if the sources are separated below the Rayleigh limit. In this paper, a mathematical theory for the deconvolution problem in one dimension is developed. The theory addresses the issue when one can recover the source number exactly from noisy data. The key is a new concept "computational resolution limit" which is defined to be the minimum separation distance between the sources such that exact recovery of the source number is possible. This new resolution limit is determined by the signal-to-noise ratio and the sparsity of sources, in addition to the cutoff frequency of the image. Quantitative bounds for this limit is derived, which reveal the importance of the sparsity as well as the signal-to-noise ratio to the recovery problem. The stability for recovering the source positions is also analyzed under a condition on their separation distances. Moreover, a singular-value-thresholding algorithm is proposed to recover the source number of a cluster of closely spaced point sources and to verify our theoretical results on the computational resolution limit. The results are based on a multipole expansion method and a non-linear approximation theory in Vandermonde space.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-06T04:59:59Z</published>
+    <arxiv:comment>super-resolution, resolution limit, deconvolution, non-linear approximation</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Ping Liu</name>
+    </author>
+    <author>
+      <name>Hai Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0208243v7</id>
+    <title>Measurement of the Flux of Ultrahigh Energy Cosmic Rays from Monocular Observations by the High Resolution Fly's Eye Experiment</title>
+    <updated>2003-10-14T16:41:38Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0208243v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0208243v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We have measured the cosmic ray spectrum above 10^17.2 eV using the two air fluorescence detectors of the High Resolution Fly's Eye observatory operating in monocular mode. We describe the detector, photo-tube and atmospheric calibrations, as well as the analysis techniques for the two detectors. We fit the spectrum to a model consisting of galactic and extra-galactic sources.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-08-12T21:52:00Z</published>
+    <arxiv:comment>4 pages, 4 figures. Uses 10pt.rtx, amsmath.sty, aps.rtx, revsymb.sty, revtex4.cls</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.92:151101,2004</arxiv:journal_ref>
+    <author>
+      <name>The High Resolution Fly's Eye Collaboration</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.92.151101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.92.151101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0407622v3</id>
+    <title>A Study of the Composition of Ultra High Energy Cosmic Rays Using the High Resolution Fly's Eye</title>
+    <updated>2004-11-24T21:30:19Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0407622v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0407622v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The composition of Ultra High Energy Cosmic Rays (UHECR) is measured with the High Resolution Fly's Eye cosmic ray observatory (HiRes) data using the Xmax technique. Data were collected in stereo between 1999 November and 2001 September. The data are reconstructed with well-determined geometry. Measurements of the atmospheric transmission are incorporated in the reconstruction. The detector resolution is found to be 30 g cm^-2 in Xmax and 13% in Energy. The Xmax elongation rate between 10^18.0 eV and 10^19.4 eV is measured to be 54.5 +/- 6.5 (stat) +/- 4.5 (sys) g cm^-2 per decade. This is compared to predictions using the QGSJet01 and SIBYLL 2.1 hadronic interaction models for both protons and iron nuclei. CORSIKA-generated Extensive Air Showers (EAS) are incorporated directly into a detailed detector Monte Carlo program. The elongation rate and the Xmax distribution widths are consistent with a constant or slowly changing and predominantly light composition. A simple model containing only protons and iron nuclei is compared to QGSJet and SIBYLL. The best agreement between the model and the data is at 80% protons for QGSJet and 60% protons for SIBYLL.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-07-29T22:07:33Z</published>
+    <arxiv:comment>52 pages, 27 figures. Revised Fig. 10 caption, improved Fig. 23, resubmitted to ApJ. (Previously revised to address referee's comments.) (Originally 37 pages, 13 figures. Submitted to ApJ)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Astrophys.J.622:910-926,2005</arxiv:journal_ref>
+    <author>
+      <name>The High Resolution Fly's Eye Collaboration</name>
+      <arxiv:affiliation>HiRes</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1086/427931</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1086/427931" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.16919v3</id>
+    <title>Spatial decay of multi-solitons of the generalized Korteweg-de Vries and nonlinear Schr{ö}dinger equations</title>
+    <updated>2022-05-20T07:36:28Z</updated>
+    <link href="https://arxiv.org/abs/2203.16919v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.16919v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study pointwise spatial decay of multi-solitons of the generalized Korteweg-de Vries equations. We obtain that, uniformly in time, these solutions and their derivatives decay exponentially in space on the left of and in the solitons region, and prove rapid decay on the right of the solitons. We also prove the corresponding result for multi-solitons of the nonlinear Schr{ö}dinger equations, that is, exponential decay in the solitons region and rapid decay outside.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-31T09:43:07Z</published>
+    <arxiv:comment>Added the corresponding result for spatial decay of multi-solitons of the nonlinear Schr{ö}dinger equation (Theorem 1.8)</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Raphaël Côte</name>
+      <arxiv:affiliation>IRMA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xavier Friederich</name>
+      <arxiv:affiliation>IRMA</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.08562v2</id>
+    <title>Minimax Goodness-of-Fit Testing in Ill-Posed Inverse Problems with Partially Unknown Operators</title>
+    <updated>2015-06-19T12:22:15Z</updated>
+    <link href="https://arxiv.org/abs/1503.08562v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.08562v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a Gaussian sequence model that contains ill-posed inverse problems as special cases. We assume that the associated operator is partially unknown in the sense that its singular functions are known and the corresponding singular values are unknown but observed with Gaussian noise. For the considered model, we study the minimax goodness-of-fit testing problem. Working with certain ellipsoids in the space of squared-summable sequences of real numbers, with a ball of positive radius removed, we obtain lower and upper bounds for the minimax separation radius in the non-asymptotic framework, i.e., for fixed values of the involved noise levels. Examples of mildly and severely ill-posed inverse problems with ellipsoids of ordinary-smooth and super-smooth sequences are examined in detail and minimax rates of goodness-of-fit testing are obtained for illustrative purposes.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-30T07:01:35Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Clément Marteau</name>
+      <arxiv:affiliation>IMT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Theofanis Sapatinas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0801.0314v1</id>
+    <title>High-time Resolution Astrophysics and Pulsars</title>
+    <updated>2008-01-01T21:02:46Z</updated>
+    <link href="https://arxiv.org/abs/0801.0314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0801.0314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The discovery of pulsars in 1968 heralded an era where the temporal characteristics of detectors had to be reassessed. Up to this point detector integration times would normally be measured in minutes rather seconds and definitely not on sub-second time scales. At the start of the 21st century pulsar observations are still pushing the limits of detector telescope capabilities. Flux variations on times scales less than 1 nsec have been observed during giant radio pulses. Pulsar studies over the next 10 to 20 years will require instruments with time resolutions down to microseconds and below, high-quantum quantum efficiency, reasonable energy resolution and sensitive to circular and linear polarisation of stochastic signals. This chapter is review of temporally resolved optical observations of pulsars. It concludes with estimates of the observability of pulsars with both existing telescopes and into the ELT era.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-01-01T21:02:46Z</published>
+    <arxiv:comment>Review; 21 pages, 5 figures, 86 references. Book chapter to appear in: D.Phelan, O.Ryan &amp; A.Shearer, eds.: High Time Resolution Astrophysics (Astrophysics and Space Science Library, Springer, 2007). The original publication will be available at http://www.springerlink.com</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>High Time Resolution Astrophysics, Astrophysics and Space Science Library, Vol. 351. Edited by D. Phelan, O. Ryan, and A. Shearer. Berlin: Springer, 2008</arxiv:journal_ref>
+    <author>
+      <name>Andy Shearer</name>
+    </author>
+    <arxiv:doi>10.1007/978-1-4020-6518-7_1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-1-4020-6518-7_1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.00339v1</id>
+    <title>Regularization of ill-posed point neuron models</title>
+    <updated>2017-03-01T15:17:00Z</updated>
+    <link href="https://arxiv.org/abs/1703.00339v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.00339v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Point neuron models with a Heaviside firing rate function can be ill-posed. That is, the initial-condition-to-solution map might become discontinuous in finite time. If a Lipschitz continuous, but steep, firing rate function is employed, then standard ODE theory implies that such models are well-posed and can thus, approximately, be solved with finite precision arithmetic. We investigate whether the solution of this well-posed model converges to a solution of the ill-posed limit problem as the steepness parameter, of the firing rate function, tends to infinity. Our argument employs the Arzelà-Ascoli theorem and also yields the existence of a solution of the limit problem. However, we only obtain convergence of a subsequence of the regularized solutions. This is consistent with the fact that we show that models with a Heaviside firing rate function can have several solutions. Our analysis assumes that the Lebesgue measure of the time the limit function, provided by the Arzelà-Ascoli theorem, equals the threshold value for firing, is zero. If this assumption does not hold, we argue that the regularized solutions may not converge to a solution of the limit problem with a Heaviside firing function.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-01T15:17:00Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Bjørn Fredrik Nielsen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.2003v1</id>
+    <title>On rate optimality for ill-posed inverse problems in econometrics</title>
+    <updated>2007-09-13T07:31:19Z</updated>
+    <link href="https://arxiv.org/abs/0709.2003v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.2003v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we clarify the relations between the existing sets of regularity conditions for convergence rates of nonparametric indirect regression (NPIR) and nonparametric instrumental variables (NPIV) regression models. We establish minimax risk lower bounds in mean integrated squared error loss for the NPIR and the NPIV models under two basic regularity conditions that allow for both mildly ill-posed and severely ill-posed cases. We show that both a simple projection estimator for the NPIR model, and a sieve minimum distance estimator for the NPIV model, can achieve the minimax risk lower bounds, and are rate-optimal uniformly over a large class of structure functions, allowing for mildly ill-posed and severely ill-posed cases.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-13T07:31:19Z</published>
+    <arxiv:comment>27 pages</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Xiaohong Chen</name>
+    </author>
+    <author>
+      <name>Markus Reiss</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.10963v1</id>
+    <title>The detection of acute kidney injury with hyperpolarized 13C Urea and multi-exponential fitting</title>
+    <updated>2019-10-24T07:54:48Z</updated>
+    <link href="https://arxiv.org/abs/1910.10963v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.10963v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Purpose: To assess the utility of Laplacian fitting to describe the differences in hyperpolarized 13C urea T2 relaxation in ischemic and healthy rodent kidneys. Theory and Methods: Six rats with unilateral renal ischemia were investigated. 13C urea T2 mapping was undertaken with a radial fast spin echo method, with subsequent post-processing performed with regularised Laplacian fitting. Results: Simulations showed that Laplacian fitting was stable down to a signal to noise ratio of 20. In vivo results showed a significant increase in the mono- and decrease in bi-exponential pools in IRI kidneys, in comparison to healthy (14+-10% vs 4+-2%, 85+-10% vs 95+-3%, p&lt;0.05). Conclusion: We demonstrate, for the first time, the differences in multi-exponential behaviour of 13C,15N2-urea between the healthy and ischemic rodent kidney. The distribution of relaxation pools were found to be both visually and numerically significantly different. The ability to improve the information level in hyperpolarized MR, by utilizing the relaxation contrast mechanisms is an appealing option, that can easily be adopted in large animals and even in clinical studies in the near future.</summary>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-24T07:54:48Z</published>
+    <arxiv:comment>14 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.med-ph"/>
+    <author>
+      <name>James T Grist</name>
+    </author>
+    <author>
+      <name>Christian Østergaard Mariager</name>
+    </author>
+    <author>
+      <name>Haiyun Qi</name>
+    </author>
+    <author>
+      <name>Per Mose Nielsen</name>
+    </author>
+    <author>
+      <name>Christoffer Laustsen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.16137v1</id>
+    <title>Continuous Adaptive Cross Approximation for Ill-posed Problems with Chebfun</title>
+    <updated>2020-07-31T15:35:43Z</updated>
+    <link href="https://arxiv.org/abs/2007.16137v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.16137v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The analysis of linear ill-posed problems often is carried out in function spaces using tools from functional analysis. However, the numerical solution of these problems typically is computed by first discretizing the problem and then applying tools from (finite-dimensional) linear algebra. The present paper explores the feasibility of applying the Chebfun package to solve ill-posed problems. This approach allows a user to work with functions instead of matrices. The solution process therefore is much closer to the analysis of ill-posed problems than standard linear algebra-based solution methods.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-31T15:35:43Z</published>
+    <arxiv:comment>20 pages; submitted</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Abdulaziz Alqahtani</name>
+    </author>
+    <author>
+      <name>Thomas Mach</name>
+    </author>
+    <author>
+      <name>Lothar Reichel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.20067v2</id>
+    <title>N-Dimensional Gaussians for Fitting of High Dimensional Functions</title>
+    <updated>2024-05-31T08:11:24Z</updated>
+    <link href="https://arxiv.org/abs/2405.20067v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.20067v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the wake of many new ML-inspired approaches for reconstructing and representing high-quality 3D content, recent hybrid and explicitly learned representations exhibit promising performance and quality characteristics. However, their scaling to higher dimensions is challenging, e.g. when accounting for dynamic content with respect to additional parameters such as material properties, illumination, or time. In this paper, we tackle these challenges for an explicit representations based on Gaussian mixture models. With our solutions, we arrive at efficient fitting of compact N-dimensional Gaussian mixtures and enable efficient evaluation at render time: For fast fitting and evaluation, we introduce a high-dimensional culling scheme that efficiently bounds N-D Gaussians, inspired by Locality Sensitive Hashing. For adaptive refinement yet compact representation, we introduce a loss-adaptive density control scheme that incrementally guides the use of additional capacity towards missing details. With these tools we can for the first time represent complex appearance that depends on many input dimensions beyond position or viewing angle within a compact, explicit representation optimized in minutes and rendered in milliseconds.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-30T13:56:58Z</published>
+    <arxiv:comment>https://www.sdiolatz.info/ndg-fitting/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Stavros Diolatzis</name>
+    </author>
+    <author>
+      <name>Tobias Zirr</name>
+    </author>
+    <author>
+      <name>Alexandr Kuznetsov</name>
+    </author>
+    <author>
+      <name>Georgios Kopanas</name>
+    </author>
+    <author>
+      <name>Anton Kaplanyan</name>
+    </author>
+    <arxiv:doi>10.1145/3641519.3657502</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3641519.3657502" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0708.3336v1</id>
+    <title>Far-field fluorescence microscopy beyond the diffraction limit: Fluorescence imaging with ultrahigh resolution</title>
+    <updated>2007-08-24T13:05:19Z</updated>
+    <link href="https://arxiv.org/abs/0708.3336v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0708.3336v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Fluorescence microscopy is an important and extensively utilised tool for imaging biological systems. However, the image resolution that can be obtained has a limit as defined through the laws of diffraction. Demand for improved resolution has stimulated research into developing methods to image beyond the diffraction limit based on far-field fluorescence microscopy techniques. Rapid progress is being made in this area of science with methods emerging that enable fluorescence imaging in the far-field to possess a resolution well beyond the diffraction limit. This review outlines developments in far-field fluorescence methods which enable ultrahigh resolution imaging and application of these techniques to biology. Future possible trends and directions in far-field fluorescence imaging with ultrahigh resolution are also outlined.</summary>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-08-24T13:05:19Z</published>
+    <arxiv:comment>27 pages, 2 figures, 2 tables, review of devlopments in super resolution fluorescence microscopy</arxiv:comment>
+    <arxiv:primary_category term="physics.bio-ph"/>
+    <author>
+      <name>James H. Rice</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.01582v1</id>
+    <title>Study on the Resolution of Large-Eddy Simulations for Supersonic Jet Flows</title>
+    <updated>2023-01-04T12:58:33Z</updated>
+    <link href="https://arxiv.org/abs/2301.01582v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.01582v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The present study is concerned with large-eddy simulations (LES) of supersonic jet flows. The work addresses, in particular, the simulation of a perfectly expanded free jet flow with an exit Mach number of 1.4 and an exit temperature equal to the ambient temperature. Calculations are performed using a nodal discontinuous Galerkin method. The present effort studies the effects of mesh and polynomial refinement on the solution. The present calculations consider computational meshes and polynomial orders such that the number of degrees of freedom (DOFs) in the solution ranges from 50 to 410 million. Mean velocity results and root mean square (RMS) values of velocity fluctuations indicate a better agreement with experimental data as the resolution is increased. The generated data provide a good understanding of the effects of increasing the discretization refinement for LES calculations of jet flows. The present results can guide future simulations of similar flow configurations.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-04T12:58:33Z</published>
+    <arxiv:comment>AIAA paper - LES resolution study supersonic jets</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <arxiv:journal_ref>D. F. Abreu and Carlos Junqueira-Junior and E. T. Dauricio and J. L. F. Azevedo. "Study on the Resolution of Large-Eddy Simulations for Supersonic Jet Flows," AIAA 2022-3327. AIAA AVIATION 2022 Forum. June 2022</arxiv:journal_ref>
+    <author>
+      <name>D. F. Abreu</name>
+    </author>
+    <author>
+      <name>C. Junqueira-Junior</name>
+    </author>
+    <author>
+      <name>E. T. Dauricio</name>
+    </author>
+    <author>
+      <name>J. L. F. Azevedo</name>
+    </author>
+    <arxiv:doi>10.2514/6.2022-3327</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2514/6.2022-3327" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0409325v1</id>
+    <title>Global convergence for ill-posed equations with monotone operators: the dynamical systems method</title>
+    <updated>2004-09-18T23:48:13Z</updated>
+    <link href="https://arxiv.org/abs/math/0409325v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0409325v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Consider an operator equation $F(u)=0$ in a real Hilbert space.
+ Let us call this equation ill-posed if the operator
+ $F'(u)$ is not boundedly invertible, and well-posed otherwise.
+ If $F$ is monotone $C^2_{loc}(H)$ operator, then we construct a Cauchy problem, which has the following properties:
+ 1) it has a global solution for an arbitrary initial data,
+ 2) this solution tends to a limit as time tends to infinity,
+ 3) the limit is the minimum norm solution to the equation $F(u)=0$.
+  Example of applications to linear ill-posed operator equation is given.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-09-18T23:48:13Z</published>
+    <arxiv:primary_category term="math.DS"/>
+    <arxiv:journal_ref>J.Phys A, 36, (2003), L249-L254</arxiv:journal_ref>
+    <author>
+      <name>A. G. Ramm</name>
+    </author>
+    <arxiv:doi>10.1088/0305-4470/36/16/102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0305-4470/36/16/102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.04970v2</id>
+    <title>Risk Estimators for Choosing Regularization Parameters in Ill-Posed Problems - Properties and Limitations</title>
+    <updated>2017-10-10T21:25:54Z</updated>
+    <link href="https://arxiv.org/abs/1701.04970v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.04970v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper discusses the properties of certain risk estimators recently proposed to choose regularization parameters in ill-posed problems. A simple approach is Stein's unbiased risk estimator (SURE), which estimates the risk in the data space, while a recent modification (GSURE) estimates the risk in the space of the unknown variable. It seems intuitive that the latter is more appropriate for ill-posed problems, since the properties in the data space do not tell much about the quality of the reconstruction. We provide theoretical studies of both estimators for linear Tikhonov regularization in a finite dimensional setting and estimate the quality of the risk estimators, which also leads to asymptotic convergence results as the dimension of the problem tends to infinity. Unlike previous papers, who studied image processing problems with a very low degree of ill-posedness, we are interested in the behavior of the risk estimators for increasing ill-posedness. Interestingly, our theoretical results indicate that the quality of the GSURE risk can deteriorate asymptotically for ill-posed problems, which is confirmed by a detailed numerical study. The latter shows that in many cases the GSURE estimator leads to extremely small regularization parameters, which obviously cannot stabilize the reconstruction. Similar but less severe issues with respect to robustness also appear for the SURE estimator, which in comparison to the rather conservative discrepancy principle leads to the conclusion that regularization parameter choice based on unbiased risk estimation is not a reliable procedure for ill-posed problems. A similar numerical study for sparsity regularization demonstrates that the same issue appears in nonlinear variational regularization approaches.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-18T06:55:51Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Felix Lucka</name>
+    </author>
+    <author>
+      <name>Katharina Proksch</name>
+    </author>
+    <author>
+      <name>Christoph Brune</name>
+    </author>
+    <author>
+      <name>Nicolai Bissantz</name>
+    </author>
+    <author>
+      <name>Martin Burger</name>
+    </author>
+    <author>
+      <name>Holger Dette</name>
+    </author>
+    <author>
+      <name>Frank Wübbeling</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.03936v3</id>
+    <title>On Regularizing Effects of MINRES and MR-II for Large-Scale Symmetric Discrete Ill-Posed Problems</title>
+    <updated>2016-01-19T09:25:16Z</updated>
+    <link href="https://arxiv.org/abs/1503.03936v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.03936v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For large scale symmetric discrete ill-posed problems, MINRES and MR-II are often used iterative regularization solvers. We call a regularized solution best possible if it is at least as accurate as the best regularized solution obtained by the truncated singular value decomposition (TSVD) method. In this paper, we analyze their regularizing effects and establish the following results: (i) the filtered SVD expression are derived for the regularized solutions by MINRES; (ii) a hybrid MINRES that uses explicit regularization within projected problems is needed to compute a best possible regularized solution to a given ill-posed problem; (iii) the $k$th iterate by MINRES is more accurate than the $(k-1)$th iterate by MR-II until the semi-convergence of MINRES, but MR-II has globally better regularizing effects than MINRES; (iv) bounds are obtained for the 2-norm distance between an underlying $k$-dimensional Krylov subspace and the $k$-dimensional dominant eigenspace. They show that MR-II has better regularizing effects for severely and moderately ill-posed problems than for mildly ill-posed problems, and a hybrid MR-II is needed to get a best possible regularized solution for mildly ill-posed problems; (v) bounds are derived for the entries generated by the symmetric Lanczos process that MR-II is based on, showing how fast they decay. Numerical experiments confirm our assertions. Stronger than our theory, the regularizing effects of MR-II are experimentally shown to be good enough to obtain best possible regularized solutions for severely and moderately ill-posed problems.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-13T02:29:19Z</published>
+    <arxiv:comment>25 pages, 11 figures. arXiv admin note: text overlap with arXiv:1503.01864</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Journal of Computational and Applied Mathematics, 320 (2017): 145-163</arxiv:journal_ref>
+    <author>
+      <name>Yi Huang</name>
+    </author>
+    <author>
+      <name>Zhongxiao Jia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ex/0609059v2</id>
+    <title>An Improved Limit on Invisible Decays of Positronium</title>
+    <updated>2006-10-05T10:03:06Z</updated>
+    <link href="https://arxiv.org/abs/hep-ex/0609059v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ex/0609059v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The results of a new search for positronium decays into invisible final states are reported. Convincing detection of this decay mode would be a strong evid ence for new physics beyond the Standard Model (SM): for example the existence of extra--dimensions, of milli-charged particles, of new light gauge bosons or of mirror particles. Mirror matter could be a relevant dark matter candidate.
+  In this paper the setup and the results of a new experiment are presented. In a collected sample of about $(6.31\pm0.28) \times 10^6$ orthopositronium decay s, no evidence for invisible decays in an energy window [0,80] keV was found and an upper limit on the branching ratio of orthopositronium \invdecay could be set: $\binvdecay&lt;4.2\times 10^{-7}$ (90% C.L.)
+  Our results provide a limit on the photon mirror-photon mixing strength $ε\leq 1.55\times 10^{-7}$ (90% C.L.) and rule out particles lighter than the electron mass with a fraction $Q_x \leq 3.4 \times 10^{-5}$ of the electron charge. Furthermore, upper limits on the branching ratios for the decay of parapositronium $Br(p-Ps\to invisible)\leq 4.3 \times 10^{-7}$ (90% C.L.) and the direct annihilation $Br(e^+e^-\to invisible)\leq 2.1 \times 10^{-8}$ (90% C.L.) could be set.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-29T09:30:37Z</published>
+    <arxiv:comment>17 pages, 7 figures, added references, fixed limit on millicharged particles and changed two plots accordingly</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>Phys.Rev.D75:032004,2007</arxiv:journal_ref>
+    <author>
+      <name>A. Badertscher</name>
+    </author>
+    <author>
+      <name>P. Crivelli</name>
+    </author>
+    <author>
+      <name>W. Fetscher</name>
+    </author>
+    <author>
+      <name>U. Gendotti</name>
+    </author>
+    <author>
+      <name>S. Gninenko</name>
+    </author>
+    <author>
+      <name>V. Postoev</name>
+    </author>
+    <author>
+      <name>A. Rubbia</name>
+    </author>
+    <author>
+      <name>V. Samoylenko</name>
+    </author>
+    <author>
+      <name>D. Sillou</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.75.032004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.75.032004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.0366v1</id>
+    <title>On a new notion of the solution to an ill-posed problem</title>
+    <updated>2010-01-03T12:54:30Z</updated>
+    <link href="https://arxiv.org/abs/1001.0366v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.0366v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A new understanding of the notion of the stable solution to ill-posed problems is proposed. The new notion is more realistic than the old one and better fits the practical computational needs. A method for constructing stable solutions in the new sense is proposed and justified. The basic point is: in the traditional definition of the stable solution to an ill-posed problem $Au=f$, where $A$ is a linear or nonlinear operator in a Hilbert space $H$, it is assumed that the noisy data $\{f_δ, δ\}$ are given, $||f-f_δ||\leq δ$, and a stable solution $u_\d:=R_\d f_\d$ is defined by the relation $\lim_{\d\to 0}||R_\d f_\d-y||=0$, where $y$ solves the equation $Au=f$, i.e., $Ay=f$. In this definition $y$ and $f$ are unknown. Any $f\in B(f_\d,\d)$ can be the exact data, where $B(f_\d,\d):=\{f: ||f-f_δ||\leq δ\}$.The new notion of the stable solution excludes the unknown $y$ and $f$ from the definition of the solution.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-03T12:54:30Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>A. G. Ramm</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.1853v4</id>
+    <title>Minimax signal detection in ill-posed inverse problems</title>
+    <updated>2012-09-25T05:23:43Z</updated>
+    <link href="https://arxiv.org/abs/1001.1853v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.1853v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ill-posed inverse problems arise in various scientific fields. We consider the signal detection problem for mildly, severely and extremely ill-posed inverse problems with $l^q$-ellipsoids (bodies), $q\in(0,2]$, for Sobolev, analytic and generalized analytic classes of functions under the Gaussian white noise model. We study both rate and sharp asymptotics for the error probabilities in the minimax setup. By construction, the derived tests are, often, nonadaptive. Minimax rate-optimal adaptive tests of rather simple structure are also constructed.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-12T11:23:40Z</published>
+    <arxiv:comment>Published in at http://dx.doi.org/10.1214/12-AOS1011 the Annals of Statistics (http://www.imstat.org/aos/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <arxiv:journal_ref>Annals of Statistics 2012, Vol. 40, No. 3, 1524-1549</arxiv:journal_ref>
+    <author>
+      <name>Yuri I. Ingster</name>
+    </author>
+    <author>
+      <name>Theofanis Sapatinas</name>
+    </author>
+    <author>
+      <name>Irina A. Suslina</name>
+    </author>
+    <arxiv:doi>10.1214/12-AOS1011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/12-AOS1011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.05871v1</id>
+    <title>Regularization of linear ill-posed problems involving multiplication operators</title>
+    <updated>2019-08-16T07:12:36Z</updated>
+    <link href="https://arxiv.org/abs/1908.05871v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.05871v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study regularization of ill-posed equations involving multiplication operators when the multiplier function is positive almost everywhere and zero is an accumulation point of the range of this function. Such equations naturally arise from equations based on non-compact self-adjoint operators in Hilbert space, after applying unitary transformations arising out of the spectral theorem. For classical regularization theory, when noisy observations are given and the noise is deterministic and bounded, then non-compactness of the ill-posed equations is a minor issue. However, for statistical ill-posed equations with non-compact operators less is known if the data are blurred by white noise. We develop a regularization theory with emphasis on this case. In this context, we highlight several aspects, in particular we discuss the intrinsic degree of ill-posedness in terms of rearrangements of the multiplier function. Moreover, we address the required modifications of classical regularization schemes in order to be used for non-compact statistical problems, and we also introduce the concept of the effective ill-posedness of the operator equation under white noise. This study is concluded with prototypical examples for such equations, as these are deconvolution equations and certain final value problems in evolution equations.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-16T07:12:36Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Peter Mathé</name>
+    </author>
+    <author>
+      <name>M. Thamban Nair</name>
+    </author>
+    <author>
+      <name>Bernd Hofmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.00988v2</id>
+    <title>Fitting Higgs Data with Nonlinear Effective Theory</title>
+    <updated>2016-05-06T14:48:27Z</updated>
+    <link href="https://arxiv.org/abs/1511.00988v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.00988v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a recent paper we showed that the electroweak chiral Lagrangian at leading order is equivalent to the conventional $κ$ formalism used by ATLAS and CMS to test Higgs anomalous couplings. Here we apply this fact to fit the latest Higgs data. The new aspect of our analysis is a systematic interpretation of the fit parameters within an EFT. Concentrating on the processes of Higgs production and decay that have been measured so far, six parameters turn out to be relevant: $c_V$, $c_t$, $c_b$, $c_τ$, $c_{γγ}$, $c_{gg}$. A global Bayesian fit is then performed with the result: $c_{V} = 0.98 \pm 0.09$, $c_{t} = 1.34 \pm 0.19$, $c_{b} = 0.78 \pm 0.18$, $c_τ = 0.92 \pm 0.14$, $c_{γγ} = -0.24 \pm 0.37$, $c_{gg} = -0.30 \pm 0.17$. Additionally, we show how this leading-order parametrization can be generalized to next-to-leading order, thus improving the $κ$ formalism systematically. The differences with a linear EFT analysis including operators of dimension six are also discussed. One of the main conclusions of our analysis is that since the conventional $κ$ formalism can be properly justified within a QFT framework, it should continue to play a central role in analyzing and interpreting Higgs data.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-03T17:07:31Z</published>
+    <arxiv:comment>23 pages, 22 figures; extended discussion of fitting procedure</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>G. Buchalla</name>
+    </author>
+    <author>
+      <name>O. Cata</name>
+    </author>
+    <author>
+      <name>A. Celis</name>
+    </author>
+    <author>
+      <name>C. Krause</name>
+    </author>
+    <arxiv:doi>10.1140/epjc/s10052-016-4086-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjc/s10052-016-4086-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.17592v1</id>
+    <title>Well-posed Questions for Ill-posed Inverse Problems: a Note in Memory of Pierre Sabatier</title>
+    <updated>2025-04-24T14:21:53Z</updated>
+    <link href="https://arxiv.org/abs/2504.17592v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.17592v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Professor Pierre Sabatier contributed much to the study of inverse problems in theory and practice. Two of these contributions were a focus on theory that actually supports practice, and the identification of well-posed aspects of inverse problems that may quite ill-posed. This paper illustrates these two themes in the context of Electrical Impedance Tomography (EIT), which is both very ill-posed and very practical. We show that for a highly constrained version of this inverse problem, in which a small elliptical inclusion in a homogeneous background is to be identified, optimization of the experimental design (that is, electrode locations) vastly improves the stability of the solution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-24T14:21:53Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Gaoming Chen</name>
+    </author>
+    <author>
+      <name>Fadil Santosa</name>
+    </author>
+    <author>
+      <name>William W. Symes</name>
+    </author>
+  </entry>
+</feed>

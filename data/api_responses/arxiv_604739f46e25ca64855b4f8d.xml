@@ -1,0 +1,808 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LjQb1wKdChvUyKo0wE1KV9cCDbs</id>
+  <title>arXiv Query: search_query=all:weak OR all:gravity OR all:conjecture OR all:tower OR all:species OR all:scale OR all:spectrum&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:46:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:weak+OR+(all:gravity+OR+(all:conjecture+OR+(all:tower+OR+(all:species+OR+(all:scale+OR+all:spectrum)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>720525</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1808.05958v3</id>
+    <title>Tensionless Strings and the Weak Gravity Conjecture</title>
+    <updated>2018-10-23T11:56:25Z</updated>
+    <link href="https://arxiv.org/abs/1808.05958v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.05958v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We test various conjectures about quantum gravity for six-dimensional string compactifications in the framework of F-theory. Starting with a gauge theory coupled to gravity, we analyze the limit in Kähler moduli space where the gauge coupling tends to zero while gravity is kept dynamical. We show that such a limit must be located at infinite distance in the moduli space. As expected, the low-energy effective theory breaks down in this limit due to a tower of charged particles becoming massless. These are the excitations of an asymptotically tensionless string, which is shown to coincide with a critical heterotic string compactified to six dimensions. For a more quantitative analysis, we focus on a $U(1)$ gauge symmetry and use a chain of dualities and mirror symmetry to determine the elliptic genus of the nearly tensionless string, which is given in terms of certain meromorphic weak Jacobi forms. Their modular properties in turn allow us to determine the mass-to-charge ratios of certain string excitations near the tensionless limit. We then provide evidence that the tower of asymptotically massless charged states satisfies the (sub-)Lattice Weak Gravity Conjecture, the Completeness Conjecture, and the Swampland Distance Conjecture. Quite remarkably, we find that the number theoretic properties of the elliptic genus conspire with the balance of gravitational and scalar forces of extremal black holes, such as to produce a narrowly tuned charge spectrum of superextremal states. As a byproduct, we show how to compute elliptic genera of both critical and non-critical strings, when refined by Mordell-Weil $U(1)$ symmetries in F-theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-17T18:00:02Z</published>
+    <arxiv:comment>81 pages, 5 figures; v2: Improved discussion of weak gravity conjecture bound, refs added; v3: Typos corrected, published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Seung-Joo Lee</name>
+    </author>
+    <author>
+      <name>Wolfgang Lerche</name>
+    </author>
+    <author>
+      <name>Timo Weigand</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP10(2018)164</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP10(2018)164" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.16156v2</id>
+    <title>Axion species scale and axion weak gravity conjecture-like bound</title>
+    <updated>2024-11-13T23:17:54Z</updated>
+    <link href="https://arxiv.org/abs/2407.16156v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.16156v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As a cutoff scale of quantum gravity, the species scale can be defined by the scale at which the perturbativity of the non-renormalizable gravitational interaction begins to break down. Since it is determined by the number of species in the effective field theory, we can find the close connection to the distance conjecture, which predicts the lowering of the cutoff at the asymptotic limit of the moduli space caused by the descent of a tower of states from UV. Meanwhile, the same kind of the cutoff scale can be obtained from any non-renormalizable interaction, in particular the interaction between the axion and the gauge field through the $θF\wedge F$ term. Demanding this `axion species scale' not to exceed the gravitational species scale, we obtain the bound $(8π^2/g^2)f \lesssim M_{\rm Pl}$. This is quite similar to the axion weak gravity conjecture bound, but can be applied to any gauge as well as the string interactions which are relevant to towers of states. We also investigate the implications of the (axion) species scale and the axion weak gravity conjecture-like bound by considering the Peccei-Quinn charge reduction of black hole through the interaction between black hole and the string or wormhole.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-23T03:54:35Z</published>
+    <arxiv:comment>22 pages, version published in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 11 (2024) 082</arxiv:journal_ref>
+    <author>
+      <name>Min-Seok Seo</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP11(2024)082</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP11(2024)082" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.17432v3</id>
+    <title>Localized Towers on the Composite Magnetic Monopole and the Weak Gravity Conjecture$=$Distance Conjecture Connection in Effective Field Theories</title>
+    <updated>2026-07-03T06:29:15Z</updated>
+    <link href="https://arxiv.org/abs/2506.17432v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.17432v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the energy spectrum of the composite magnetic monopole (CMM) in the model originally constructed in arXiv:1608.06951 to examine how the applicability of the weak gravity conjecture (WGC) propagates to lower energy scales in the effective field theory (EFT) framework. This is motivated by the WGC$=$distance conjecture (DC) connection suggested in the literature. Assuming that the limits of the model parameters correspond to the boundaries of the moduli space in a UV theory, we showed that the parameter dependence of the energy spectrum of the CMM is broadly in accord with the prediction of the WGC$=$DC connection. However, unlike the original DC, the low-energy excitations of the CMM are localized on the CMM. This leads us to propose an extension of the DC to include the localized tower of excited states. We discuss the implications of this extension of the DC to the swampland constraints on EFTs.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-20T18:53:31Z</published>
+    <arxiv:comment>v1: 1+17 pages, 2 figures v2: The title slightly expanded. Explanations added to make our standpoint and goal clearer v3: 1+20 pages. Remarks on the tower of closed magnetic flux tube excitations added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Moreshwar Pathak</name>
+    </author>
+    <author>
+      <name>Kazuyuki Furuuchi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.06287v1</id>
+    <title>A proof of the weak gravity conjecture</title>
+    <updated>2017-05-17T18:00:04Z</updated>
+    <link href="https://arxiv.org/abs/1705.06287v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.06287v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The weak gravity conjecture suggests that, in a self-consistent theory of quantum gravity, the strength of gravity is bounded from above by the strengths of the various gauge forces in the theory. In particular, this intriguing conjecture asserts that in a theory describing a U(1) gauge field coupled consistently to gravity, there must exist a particle whose proper mass is bounded (in Planck units) by its charge: $m/m_{\text{P}}&lt;q$. This beautiful and remarkably compact conjecture has attracted the attention of physicists and mathematicians over the last decade. It should be emphasized, however, that despite the fact that there are numerous examples from field theory and string theory that support the conjecture, we still lack a general proof of its validity. In the present Letter we prove that the weak gravity conjecture (and, in particular, the mass-charge upper bound $m/m_{\text{P}}&lt;q$) can be inferred directly from Bekenstein's generalized second law of thermodynamics, a law which is widely believed to reflect a fundamental aspect of the elusive theory of quantum gravity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-17T18:00:04Z</published>
+    <arxiv:comment>7 pages. This essay is awarded 4th Prize in the 2017 Essay Competition of the Gravity Research Foundation</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>International Journal of Modern Physics D 26, 1742004 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Shahar Hod</name>
+    </author>
+    <arxiv:doi>10.1142/S0218271817420044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0218271817420044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.04287v1</id>
+    <title>A Tower Weak Gravity Conjecture from Infrared Consistency</title>
+    <updated>2018-02-12T19:00:14Z</updated>
+    <link href="https://arxiv.org/abs/1802.04287v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.04287v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze infrared consistency conditions of 3D and 4D effective field theories with massive scalars or fermions charged under multiple $U(1)$ gauge fields. At low energies, one can integrate out the massive particles and thus obtain a one-loop effective action for the gauge fields. In the regime where charge-independent contributions to higher-derivative terms in the action are sufficiently small, it is then possible to derive constraints on the charge-to-mass ratios of the massive particles from requiring that photons propagate causally and have an analytic S-matrix. We thus find that the theories need to contain bifundamentals and satisfy a version of the weak gravity conjecture known as the convex-hull condition. Demanding self-consistency of the constraints under Kaluza-Klein compactification, we furthermore show that, for scalars, they imply a stronger version of the weak gravity conjecture in which the charge-to-mass ratios of an infinite tower of particles are bounded from below. We find that the tower must again include bifundamentals but does not necessarily have to occupy a charge (sub-)lattice.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-12T19:00:14Z</published>
+    <arxiv:comment>52 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Stefano Andriolo</name>
+    </author>
+    <author>
+      <name>Daniel Junghans</name>
+    </author>
+    <author>
+      <name>Toshifumi Noumi</name>
+    </author>
+    <author>
+      <name>Gary Shiu</name>
+    </author>
+    <arxiv:doi>10.1002/prop.201800020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/prop.201800020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.05311v1</id>
+    <title>Axion Experiments to Algebraic Geometry: Testing Quantum Gravity via the Weak Gravity Conjecture</title>
+    <updated>2016-05-17T19:57:48Z</updated>
+    <link href="https://arxiv.org/abs/1605.05311v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.05311v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Common features of known quantum gravity theories may hint at the general nature of quantum gravity. The absence of continuous global symmetries is one such feature. This inspired the Weak Gravity Conjecture, which bounds masses of charged particles. We propose the Lattice Weak Gravity Conjecture, which further requires the existence of an infinite tower of particles of all possible charges under both abelian and nonabelian gauge groups and directly implies a cutoff for quantum field theory. It holds in a wide variety of string theory examples and has testable consequences for the real world and for pure mathematics. We sketch some implications of these ideas for models of inflation, for the QCD axion (and LIGO), for conformal field theory, and for algebraic geometry.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-17T19:57:48Z</published>
+    <arxiv:comment>Awarded fifth place in the 2016 Gravity Research Foundation Essay Contest; slightly revised for arxiv</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Ben Heidenreich</name>
+    </author>
+    <author>
+      <name>Matthew Reece</name>
+    </author>
+    <author>
+      <name>Tom Rudelius</name>
+    </author>
+    <arxiv:doi>10.1142/S0218271816430057</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0218271816430057" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0606011v4</id>
+    <title>A Weak Gravity Conjecture for Scalar Field Theories</title>
+    <updated>2007-06-27T07:48:55Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0606011v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0606011v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that the recently proposed weak gravity conjecture\cite{AMNV0601} can be extended to a class of scalar field theories. Taking gravity into account, we find an upper bound on the gravity interaction strength, expressed in terms of scalar coupling parameters. This conjecture is supported by some two-dimensional models and noncommutative field theories.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-06-01T13:08:23Z</published>
+    <arxiv:comment>version published in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0705:026,2007</arxiv:journal_ref>
+    <author>
+      <name>Miao Li</name>
+    </author>
+    <author>
+      <name>Wei Song</name>
+    </author>
+    <author>
+      <name>Yushu Song</name>
+    </author>
+    <author>
+      <name>Tower Wang</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2007/05/026</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2007/05/026" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.10796v3</id>
+    <title>IR/UV Mixing, Towers of Species and Swampland Conjectures</title>
+    <updated>2022-03-04T14:55:51Z</updated>
+    <link href="https://arxiv.org/abs/2112.10796v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.10796v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By applying the Covariant Entropy Bound (CEB) to an EFT in a box of size $1/Λ_{\text{IR}}$ one obtains that the UV and IR cut-offs of the EFT are necessarily correlated. We argue that in a theory of Quantum Gravity (QG) one should identify the UV cutoff with the `species scale', and give a general algorithm to calculate it in the case of multiple towers becoming light. One then obtains an upper bound on the characteristic mass scale of the tower in terms of the IR cut-off, given by $M_{\text{tower}}\lesssim (Λ_{\text{IR}})^{2α_D}$ in Planck units, with $α_D=(D-2+p)/2p(D-1)$, where $p$ depends on the density of states. Identifying the IR cut-off with a (non-vanishing) curvature in AdS one reproduces the statement of the AdS Distance Conjecture (ADC), also giving an explicit lower bound for the $α$ exponent. In particular, we find that the CEB implies $α\geq1/2$ in any dimension if there is a single KK tower, both in AdS and dS vacua. However values $α&lt;1/2$ are allowed if the particle tower is multiple or has a string component. We also consider the CKN constraint coming from avoiding gravitational collapse which further requires in general $α\geq 1/D$ for the lightest tower. We analyse the case of the DGKT-CFI class of Type IIA orientifold models and show it has both particle and string towers below the species scale, so that a careful analysis of how the ADC is defined is needed. We find that this class of models obey but do not saturate the CEB. The UV/IR constraints found apply to both AdS and dS vacua. We comment on possible applications of these ideas to the dS Swampland conjecture as well as to the observed dS phase of the universe.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-20T19:00:05Z</published>
+    <arxiv:comment>19 pages, 4 figures. v2: minor corrections, references added. v3: minor corrections and comments added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Alberto Castellano</name>
+    </author>
+    <author>
+      <name>Alvaro Herráez</name>
+    </author>
+    <author>
+      <name>Luis E. Ibáñez</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP08(2022)217</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP08(2022)217" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.00009v2</id>
+    <title>The Asymptotic Weak Gravity Conjecture for Open Strings</title>
+    <updated>2022-11-10T11:07:23Z</updated>
+    <link href="https://arxiv.org/abs/2208.00009v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.00009v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the asymptotic Tower Weak Gravity Conjecture in weak coupling limits of open string theories with minimal supersymmetry in four dimensions, focusing for definiteness on gauge theories realized on 7-branes in F-theory. Contrary to expectations, we find that not all weak coupling limits contain an obvious candidate for a tower of states marginally satisfying the super-extremality bound. The weak coupling limits are classified geometrically in the framework of EFT string limits and their generalizations. We find three different classes of weak coupling limits, whose physics is characterized by the ratio of the magnetic weak gravity scale and the species scale. The four-dimensional Tower Weak Gravity Conjecture is satisfied by the (non-BPS) excitations of the weakly coupled EFT string only in emergent string limits, where the EFT string can be identified with a critical (heterotic) string. All other weak coupling limits lead to a decompactification either to an in general strongly coupled gauge theory coupled to gravity or to a defect gauge theory decoupling from the gravitational bulk, in agreement with the absence of an obvious candidate for a marginally super-extremal tower of states.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-29T18:00:00Z</published>
+    <arxiv:comment>v2: added references, improved discussion, JHEP accepted v1: 64 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Cesar Fierro Cota</name>
+    </author>
+    <author>
+      <name>Alessandro Mininno</name>
+    </author>
+    <author>
+      <name>Timo Weigand</name>
+    </author>
+    <author>
+      <name>Max Wiesner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.10489v3</id>
+    <title>Species Entropy and Thermodynamics</title>
+    <updated>2023-10-11T15:25:16Z</updated>
+    <link href="https://arxiv.org/abs/2305.10489v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.10489v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyse particle species and the species scale in quantum gravity from a thermodynamic perspective. In close analogy to black hole thermodynamics, we propose that particle species own an entropy and a temperature, which is determined by the species scale. This is identical to the Bekenstein-Hawking entropy of a corresponding minimal black hole and agrees with the number of species in a given tower of states. Through the species entropy, we find that certain entropy bounds are connected to recent swampland constraints. Moreover, the concept of species entropy and temperature allow us to formulate the laws of species thermodynamics, which are argued to govern the variations of moduli in string theory. They can be viewed as general rules that imply certain swampland conjectures, and vice versa.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-17T18:00:16Z</published>
+    <arxiv:comment>31 pages; v2: minor modifications, typos fixed, refs added; v3: section 3.3 removed, additional clarifications on species thermodynamics added, published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Niccolò Cribiori</name>
+    </author>
+    <author>
+      <name>Dieter Lust</name>
+    </author>
+    <author>
+      <name>Carmine Montella</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.05866v1</id>
+    <title>Generalized Symmetry Breaking Scales and Weak Gravity Conjectures</title>
+    <updated>2022-02-11T19:13:57Z</updated>
+    <link href="https://arxiv.org/abs/2202.05866v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.05866v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the notion of approximate global symmetries in quantum field theory and quantum gravity. We show that a variety of conjectures about quantum gravity, including the weak gravity conjecture, the distance conjecture, and the magnetic and axion versions of the weak gravity conjecture can be motivated by the assumption that generalized global symmetries should be strongly broken within the context of low-energy effective field theory, i.e. at a characteristic scale less than the Planck scale where quantum gravity effects become important. For example, the assumption that the electric one-form symmetry of Maxwell theory should be strongly broken below the Planck scale implies the weak gravity conjecture. Similarly, the violation of generalized non-invertible symmetries is closely tied to analogs of this conjecture for non-abelian gauge theory. This reasoning enables us to unify these conjectures with the absence of global symmetries in quantum gravity.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-11T19:13:57Z</published>
+    <arxiv:comment>44 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Clay Cordova</name>
+    </author>
+    <author>
+      <name>Kantaro Ohmori</name>
+    </author>
+    <author>
+      <name>Tom Rudelius</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP11(2022)154</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP11(2022)154" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.04602v1</id>
+    <title>Kaluza-Klein tower thresholds and scheme dependence of the species scale</title>
+    <updated>2026-07-06T02:11:15Z</updated>
+    <link href="https://arxiv.org/abs/2607.04602v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.04602v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We revisit the species scale in quantum gravity from the viewpoint of effective field theory (EFT). Two characterizations are commonly used: one defines it as the energy at which the perturbative description of quantum gravity breaks down, as inferred from the one-loop correction to the graviton propagator; the other identifies it with the suppression scale of higher-derivative operators in the gravitational effective action. We clarify the relation between these characterizations by analyzing the cutoff-scheme dependence of the one-loop tower contribution. For a large number of species, the leading tower-enhanced local correction is regulator dependent and should be interpreted as EFT matching data, while the subleading logarithmic contribution is universal within the class of proper-time cutoff profiles considered here. As a concrete application, we compute the full four-derivative one-loop corrections from Kaluza-Klein towers. Our results separate regulator-stable logarithmic data from scheme-dependent local threshold contributions, providing a controlled EFT interpretation of the relation between perturbative-breakdown and higher-derivative definitions of the species scale and explaining why their coefficient-level identification is not regulator independent.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-06T02:11:15Z</published>
+    <arxiv:comment>52 pages, 2 figures, ancillary file included</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Yuri Michinobu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.14126v1</id>
+    <title>Weak gravity (and other conjectures) with broken supersymmetry</title>
+    <updated>2020-03-31T11:59:07Z</updated>
+    <link href="https://arxiv.org/abs/2003.14126v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.14126v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the weak gravity conjecture in non-supersymmetric string theory setups. Precisely, those are type I string theory with supersymmetry broken à la Scherk-Schwarz and open strings on D branes wrapped around magnetized tori in type II string theory. We compute long-range interactions between identical branes at one-loop and compare them to the weak gravity conjecture for higher-degree forms. In our examples, SUSY breaking generates interactions between branes, which are not anymore BPS, in such a way that the weak gravity conjecture is verified. In type I with the Scherk-Schwarz mechanism, the tension of the branes is reduced by one-loop quantum effects, so that there are long-range repulsive forces. The correlation of the non-vanishing brane potential with the presence of a running modulus and of possible D branes bound states nicely connects to other swampland conjectures. For magnetized branes in type II strings, we check that non-BPS branes experience a long-range repulsion whenever the open string spectrum is tachyon-free. Ultimately, the role of stringy objects in the discussion makes it compelling to further understand swampland conjectures in strings with broken SUSY, let alone their phenomenological relevance.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-31T11:59:07Z</published>
+    <arxiv:comment>Contribution to the proceedings for Corfu Summer Institute 2019 "School and Workshops on Elementary Particle Physics and Gravity" (CORFU2019) 31 August - 25 September 2019 Corfu, Greece</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Quentin Bonnefoy</name>
+    </author>
+    <author>
+      <name>Emilian Dudas</name>
+    </author>
+    <author>
+      <name>Severin Lüst</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.16297v4</id>
+    <title>Ghost Problem, Spectrum Identities and Various Constraints on Brane-localized Gravity</title>
+    <updated>2024-06-09T23:54:15Z</updated>
+    <link href="https://arxiv.org/abs/2310.16297v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.16297v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the brane-localized interactions, including DGP gravity and higher derivative (HD) gravity localized on the brane. We derive the effective action on the brane, which suggests the brane-localized HD gravity suffers the ghost problem generally. Besides, we obtain novel algebraic identities of the mass spectrum, which reveal the global nature and can characterize the phase transformation of the mass spectrum. We get a powerful ghost-free condition from the spectrum identities, which rules out one type of brane-localized HD gravity. We further prove the mass spectrum is real and non-negative $m^2\ge 0$ under the ghost-free condition.
+  Furthermore, we discuss various constraints on parameters of brane-localized gravity in AdS/BCFT and wedge holography, respectively. They include the ghost-free condition of Kaluza-Klein and brane-bending modes, the positive definiteness of boundary central charges, and entanglement entropy. The ghost-free condition imposes strict constraint, which requires non-negative couplings for pure DGP gravity and Gauss-Bonnet gravity on the brane. It also rules out one class of brane-localized HD gravity. Thus, such HD gravity should be understood as a low-energy effective theory on the brane under the ghost energy scale. Finally, we briefly discuss the applications of our results.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-25T02:11:30Z</published>
+    <arxiv:comment>57 pages, 7 figures, prove novel spectrum identities and analytical ghost-free conditions for brane-localized gravity, revision published in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP06(2024)043</arxiv:journal_ref>
+    <author>
+      <name>Rong-Xin Miao</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP06(2024)043</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP06(2024)043" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.02335v1</id>
+    <title>A short overview on the Black Hole-Tower Correspondence and Species Thermodynamics</title>
+    <updated>2025-06-03T00:13:34Z</updated>
+    <link href="https://arxiv.org/abs/2506.02335v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.02335v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The breakdown of gravitational effective field theories is intimately connected to the emergence of infinite towers of light states near infinite-distance limits in field space. In string theory, up to duality frame, such towers arise from Kaluza-Klein or weakly-coupled critical string oscillator modes. Motivated by the Black Hole-String Correspondence, we review a broader mechanism whereby black holes undergo a transition into a tower of light states, governed by the Quantum Gravity cutoff -- known as the Species Scale. Building on these developments, the Black Hole-Tower correspondence aims to provide a unified thermodynamic framework that describes black hole entropy in terms of the spectrum of the lightest degrees of freedom across various perturbative regimes of quantum gravity theories. In those regimes, thermodynamic consistency of such transition imposes stringent constraints on the spectrum, in agreement with string theory predictions. This defines the basis of the so-called Species Thermodynamics.
+  In this review, we emphasize these recent advances and synthesize their implications, offering an overview of how the outlined correspondence, the species scale and related thermodynamic principles enhance our understanding of black hole entropy within the effective field theory framework.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-03T00:13:34Z</published>
+    <arxiv:comment>24 pages, 3 figures. Contribution to the Proceedings of the Corfu Summer Institute 2024 "School and Workshops on Elementary Particle Physics and Gravity" (CORFU2024) 12 - 26 May, and 25 August - 27 September, 2024 Corfu, Greece</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Alvaro Herráez</name>
+    </author>
+    <author>
+      <name>Dieter Lüst</name>
+    </author>
+    <author>
+      <name>Joaquin Masias</name>
+    </author>
+    <author>
+      <name>Carmine Montella</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.04619v2</id>
+    <title>The Minimal Weak Gravity Conjecture</title>
+    <updated>2024-05-16T20:25:18Z</updated>
+    <link href="https://arxiv.org/abs/2312.04619v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.04619v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine the minimal constraints imposed by the Weak Gravity Conjecture (WGC) on the particle spectrum of a quantum gravity theory. Towers of super-extremal states have previously been argued to be required for consistency of the WGC under circle reduction. At the same time, there exist classes of theories where no tower of super-extremal particle states below the black hole threshold has been established with current techniques. We resolve this tension by arguing for the existence of a minimal radius for circle reductions of generic quantum gravity theories. Below this threshold, the notion of a circle compactification breaks down, bypassing the need for a tower of super-extremal states to satisfy the WGC after circle reduction. Based on this we propose that if a theory satisfies the WGC at the particle level below the black hole threshold, these states are sufficient for consistency under dimensional reduction, even in absence of a tower of super-extremal particles. Apart from general arguments, we provide independent evidence for this main result in F-, M- and string theory compactifications. According to the Emergent String Conjecture the only exception to the appearance of a minimal radius arises in asymptotically weak-coupling limits for heterotic strings, which aligns with the appearance of a weakly coupled super-extremal tower of particle states. This observation motivates a Minimal Weak Gravity Conjecture which states that towers of super-extremal particles occur if and only if they are required by consistency of the WGC under dimensional reduction.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-07T19:00:00Z</published>
+    <arxiv:comment>v2: 62 (55+appendix) pages, JHEP version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Cesar Fierro Cota</name>
+    </author>
+    <author>
+      <name>Alessandro Mininno</name>
+    </author>
+    <author>
+      <name>Timo Weigand</name>
+    </author>
+    <author>
+      <name>Max Wiesner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.16450v2</id>
+    <title>Entropy Bounds and the Species Scale Distance Conjecture</title>
+    <updated>2024-01-10T08:04:41Z</updated>
+    <link href="https://arxiv.org/abs/2306.16450v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.16450v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Swampland Distance Conjecture (SDC) states that, as we move towards an infinite distance point in moduli space, a tower of states becomes exponentially light with the geodesic distance in any consistent theory of Quantum Gravity. Although this fact has been tested in large sets of examples, it is fair to say that a bottom-up justification that explains both the geodesic requirement and the exponential behavior has been missing so far. In the present paper we address this issue by making use of the Covariant Entropy Bound as applied to the EFT. When applied to backgrounds of the Dynamical Cobordism type in theories with a moduli space, we are able to recover these main features of the SDC. Moreover, this naturally leads to universal lower and upper bounds on the 'decay rate' parameter $λ_{\text{sp}}$ of the species scale, that we propose as a convex hull condition under the name of Species Scale Distance Conjecture (SSDC). This is in contrast to already proposed universal bounds, that apply to the SDC parameter of the lightest tower. We also extend the analysis to the case in which asymptotically exponential potentials are present, finding a nice interplay with the asymptotic de Sitter conjecture. To test the SSDC, we study the convex hull that encodes the (asymptotic) moduli dependence of the species scale. In this way, we show that the SSDC is the strongest bound on the species scale exponential rate which is preserved under dimensional reduction and we verify it in M-theory toroidal compactifications.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-28T18:00:01Z</published>
+    <arxiv:comment>v2: minor changes and typos corrected. 54 pages + Appendix, 17 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>José Calderón-Infante</name>
+    </author>
+    <author>
+      <name>Alberto Castellano</name>
+    </author>
+    <author>
+      <name>Alvaro Herráez</name>
+    </author>
+    <author>
+      <name>Luis E. Ibáñez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.01868v2</id>
+    <title>The Weak Gravity Conjecture and Emergence from an Ultraviolet Cutoff</title>
+    <updated>2018-04-20T17:00:02Z</updated>
+    <link href="https://arxiv.org/abs/1712.01868v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.01868v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study ultraviolet cutoffs associated with the Weak Gravity Conjecture (WGC) and Sublattice Weak Gravity Conjecture (sLWGC). There is a magnetic WGC cutoff at the energy scale $e G_N^{-1/2}$ with an associated sLWGC tower of charged particles. A more fundamental cutoff is the scale at which gravity becomes strong and field theory breaks down entirely. By clarifying the nature of the sLWGC for nonabelian gauge groups we derive a parametric upper bound on this strong gravity scale for arbitrary gauge theories. Intriguingly, we show that in theories approximately saturating the sLWGC, the scales at which loop corrections from the tower of charged particles to the gauge boson and graviton propagators become important are parametrically identical. This suggests a picture in which gauge fields emerge from the quantum gravity scale by integrating out a tower of charged matter fields. We derive a converse statement: if a gauge theory becomes strongly coupled at or below the quantum gravity scale, the WGC follows. We sketch some phenomenological consequences of the UV cutoffs we derive.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-05T19:03:16Z</published>
+    <arxiv:comment>50 pages, 5 figures. v2: references added, clarified remarks about Higgsing</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Ben Heidenreich</name>
+    </author>
+    <author>
+      <name>Matthew Reece</name>
+    </author>
+    <author>
+      <name>Tom Rudelius</name>
+    </author>
+    <arxiv:doi>10.1140/epjc/s10052-018-5811-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjc/s10052-018-5811-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.13095v3</id>
+    <title>The GRAVITY Young Stellar Object survey -- IX. Spatially resolved kinematics of hot hydrogen gas in the star/disk interaction region of T Tauri stars</title>
+    <updated>2022-11-23T11:44:23Z</updated>
+    <link href="https://arxiv.org/abs/2210.13095v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.13095v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Aims: We aim to spatially and spectrally resolve the Br-gamma hydrogen emission line with the methods of interferometry in order to examine the kinematics of the hydrogen gas emission region in the inner accretion disk of a sample of solar-like young stellar objects. The goal is to identify trends and categories among the sources of our sample and to discuss whether or not they can be tied to different origin mechanisms associated with Br-gamma emission in T Tauri stars, chiefly and most prominently magnetospheric accretion.
+  Methods: We observed a sample of seven T Tauri stars for the first time with VLTI GRAVITY, recording spectra and spectrally dispersed interferometric quantities across the Br-gamma line in the NIR K-band. We use them to extract the size of the Br-gamma emission region and the photocenter shifts. To assist in the interpretation, we also make use of radiative transfer models of magnetospheric accretion to establish a baseline of expected interferometric signatures if accretion is the primary driver of Br-gamma emission.
+  Results: From among our sample, we find that five of the seven T~Tauri stars show an emission region with a half-flux radius in the range broadly expected for magnetospheric truncation. Two of the five objects also show Br-gamma emission primarily originating from within the corotation radius, while two other objects exhibit extended emission on a scale beyond 10 R$_*$, one of them even beyond the K~band continuum half-flux radius of 11.3 R$_*$.
+  Conclusions: We find strong evidence to suggest that for the two weakest accretors in the sample, magnetospheric accretion is the primary driver of Br-gamma radiation. The results for the remaining sources imply either partial or strong contributions coming from spatially extended emission components in the form of outflows, such as stellar or disk winds.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-24T10:26:58Z</published>
+    <arxiv:comment>Version corresponds to the one in A&amp;A production. The author list has been amended with "GRAVITY Collaboration" as first entry in keeping with the convention established for papers published by the GRAVITY consortium in recent years</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>A&amp;A 669, A59 (2023)</arxiv:journal_ref>
+    <author>
+      <name> GRAVITY Collaboration</name>
+    </author>
+    <author>
+      <name>J. A. Wojtczak</name>
+      <arxiv:affiliation>I. Physikalisches Institut, Universität zu Köln, Köln, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. Labadie</name>
+      <arxiv:affiliation>I. Physikalisches Institut, Universität zu Köln, Köln, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Perraut</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. Tessore</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Soulain</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. Ganci</name>
+      <arxiv:affiliation>I. Physikalisches Institut, Universität zu Köln, Köln, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Bouvier</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Dougados</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Alécian</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. Nowacki</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Cozzo</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+      <arxiv:affiliation>Dipartimento di Fisica &amp; Chimica, Università di Palermo, Palermo, Italy</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. Brandner</name>
+      <arxiv:affiliation>Max Planck Institute for Astronomy, Heidelberg, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Caratti o Garatti</name>
+      <arxiv:affiliation>Max Planck Institute for Astronomy, Heidelberg, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Dublin Institute for Advanced Studies, Dublin, Ireland</arxiv:affiliation>
+      <arxiv:affiliation>INAF - Osservatorio Astronomico di Capodimonte, Napoli, Italy</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. Garcia</name>
+      <arxiv:affiliation>CENTRA, Centro de Astrofísica e Gravitação, Instituto Superior Técnico, Lisboa, Portugal</arxiv:affiliation>
+      <arxiv:affiliation>Universidade do Porto, Faculdade de Engenharia, Porto, Portugal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Garcia Lopez</name>
+      <arxiv:affiliation>Max Planck Institute for Astronomy, Heidelberg, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Dublin Institute for Advanced Studies, Dublin, Ireland</arxiv:affiliation>
+      <arxiv:affiliation>School of Physics, University College Dublin, Belfield, Ireland</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Sanchez-Bermudez</name>
+      <arxiv:affiliation>Max Planck Institute for Astronomy, Heidelberg, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Instituto de Astronomía, Universidad Nacional Autónoma de México, Ciudad de México, Mexico</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Amorim</name>
+      <arxiv:affiliation>CENTRA, Centro de Astrofísica e Gravitação, Instituto Superior Técnico, Lisboa, Portugal</arxiv:affiliation>
+      <arxiv:affiliation>Universidade de Lisboa, Faculdade de Ciências, Campo Grande, Lisboa, Portugal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Benisty</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. -P. Berger</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Bourdarot</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. Caselli</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Clénet</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Universités, UPMC Univ. Paris 06, Univ. Paris Diderot, Sorbonne Paris Cité, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. T. de Zeeuw</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Sterrewacht Leiden, Leiden University, Leiden, The Netherlands</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Davies</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Drescher</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Duvert</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Eckart</name>
+      <arxiv:affiliation>I. Physikalisches Institut, Universität zu Köln, Köln, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Max-Planck-Institute for Radio Astronomy, Bonn, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Eisenhauer</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Eupen</name>
+      <arxiv:affiliation>I. Physikalisches Institut, Universität zu Köln, Köln, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. M. Föster-Schreiber</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Gendron</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Universités, UPMC Univ. Paris 06, Univ. Paris Diderot, Sorbonne Paris Cité, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Gillessen</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Grant</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Grellmann</name>
+      <arxiv:affiliation>I. Physikalisches Institut, Universität zu Köln, Köln, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Heißel</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Universités, UPMC Univ. Paris 06, Univ. Paris Diderot, Sorbonne Paris Cité, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Th. Henning</name>
+      <arxiv:affiliation>Max Planck Institute for Astronomy, Heidelberg, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Hippler</name>
+      <arxiv:affiliation>Max Planck Institute for Astronomy, Heidelberg, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Horrobin</name>
+      <arxiv:affiliation>I. Physikalisches Institut, Universität zu Köln, Köln, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Z. Hubert</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. Jocou</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. Kervella</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Universités, UPMC Univ. Paris 06, Univ. Paris Diderot, Sorbonne Paris Cité, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Labour</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Universités, UPMC Univ. Paris 06, Univ. Paris Diderot, Sorbonne Paris Cité, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. Lapeyrère</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Universités, UPMC Univ. Paris 06, Univ. Paris Diderot, Sorbonne Paris Cité, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. -B. Le Bouquin</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. Léna</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Universités, UPMC Univ. Paris 06, Univ. Paris Diderot, Sorbonne Paris Cité, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Lutz</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Mang</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Ott</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Paumard</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Universités, UPMC Univ. Paris 06, Univ. Paris Diderot, Sorbonne Paris Cité, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Perrin</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Universités, UPMC Univ. Paris 06, Univ. Paris Diderot, Sorbonne Paris Cité, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Scheithauer</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Universités, UPMC Univ. Paris 06, Univ. Paris Diderot, Sorbonne Paris Cité, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Shangguan</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Shimizu</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Spezzano</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>O. Straub</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Straubmeier</name>
+      <arxiv:affiliation>I. Physikalisches Institut, Universität zu Köln, Köln, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Sturm</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. van Dishoeck</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Sterrewacht Leiden, Leiden University, Leiden, The Netherlands</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Vincent</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, PSL Research University, CNRS, Sorbonne Universités, UPMC Univ. Paris 06, Univ. Paris Diderot, Sorbonne Paris Cité, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Widmann</name>
+      <arxiv:affiliation>Max Planck Institute for Extraterrestrial Physics, Garching bei München, Germany</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202244675</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202244675" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.4987v2</id>
+    <title>A tower condition characterizing normality</title>
+    <updated>2014-01-27T11:33:57Z</updated>
+    <link href="https://arxiv.org/abs/1310.4987v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.4987v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define left relative H-separable tower of rings and continue a study of these begun by Sugano. It is proven that a progenerator extension has right depth two if and only if the ring extension together with its right endomorphism ring is a left relative H-separable tower. In particular, this applies to twisted or ordinary Frobenius extensions with surjective Frobenius homomorphism. For example, normality for Hopf subalgebras of finite-dimensional Hopf algebras is also characterized in terms of this tower condition.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-18T12:16:58Z</published>
+    <arxiv:comment>19 pages. Added a module condition characterizing H-separable extension, a Frobenius extension condition so that left and right tower conditions are equivalent, and a going up and down proposition between the tower conditions here and in http://arxiv.org/abs/0707.3756</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <author>
+      <name>Lars Kadison</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.03525v1</id>
+    <title>The weak gravity conjecture in perturbative strings</title>
+    <updated>2026-05-05T09:01:47Z</updated>
+    <link href="https://arxiv.org/abs/2605.03525v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.03525v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note we give a summary of [arXiv:2401.14449] in which we proposed a proof of the weak gravity conjecture in perturbative string theory. While the WGC is well established, checked in many examples, and many of the ingredients we use have previously appeared in the literature, a comprehensive proof from the top-down was still missing. The present work focuses on the bosonic string as a proof of concept, while the generalization to superstring cases is to appear in a forthcoming paper. This note is based heavily on [arXiv:2401.14449] and on a talk given at the Corfu2025 Workshop on Quantum Gravity and Strings.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-05T09:01:47Z</published>
+    <arxiv:comment>10 pages, 3 figures, Contribution to the proceedings of Corfu Summer Institute 2025 "School and Workshops on Elementary Particle Physics and Gravity" (CORFU2025), 27 April - 28 September, 2025, Corfu, Greece</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Matteo Lotito</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.08309v1</id>
+    <title>The Weak Gravity Conjecture and BPS Particles</title>
+    <updated>2021-08-18T18:00:00Z</updated>
+    <link href="https://arxiv.org/abs/2108.08309v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.08309v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by the Weak Gravity Conjecture, we uncover an intricate interplay between black holes, BPS particle counting, and Calabi-Yau geometry in five dimensions. In particular, we point out that extremal BPS black holes exist only in certain directions in the charge lattice, and we argue that these directions fill out a cone that is dual to the cone of effective divisors of the Calabi-Yau threefold. The tower and sublattice versions of the Weak Gravity Conjecture require an infinite tower of BPS particles in these directions, and therefore imply purely geometric conjectures requiring the existence of infinite towers towers of holomorphic curves in every direction within the dual of the cone of effective divisors. We verify these geometric conjectures in a number of examples by computing Gopakumar-Vafa invariants.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-18T18:00:00Z</published>
+    <arxiv:comment>91 pages, 22 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Fortschr. Phys. 2021, 2100125</arxiv:journal_ref>
+    <author>
+      <name>Murad Alim</name>
+    </author>
+    <author>
+      <name>Ben Heidenreich</name>
+    </author>
+    <author>
+      <name>Tom Rudelius</name>
+    </author>
+    <arxiv:doi>10.1002/prop.202100125</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/prop.202100125" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.04594v3</id>
+    <title>On Convexity of Charged Operators in CFTs and the Weak Gravity Conjecture</title>
+    <updated>2021-10-05T12:28:12Z</updated>
+    <link href="https://arxiv.org/abs/2108.04594v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.04594v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Weak Gravity Conjecture is typically stated as a bound on the mass-to-charge ratio of a particle in the theory. Alternatively, it has been proposed that its natural formulation is in terms of the existence of a particle which is self-repulsive under all long-range forces. We propose a closely related, but distinct, formulation, which is that it should correspond to a particle with non-negative self-binding energy. This formulation is particularly interesting in anti-de Sitter space, because it has a simple conformal field theory (CFT) dual formulation: let $Δ(q)$ be the dimension of the lowest-dimension operator with charge $q$ under some global $U(1)$ symmetry, then $Δ(q)$ must be a convex function of $q$. This formulation avoids any reference to holographic dual forces or even to locality in spacetime, and so we make a wild leap, and conjecture that such convexity of the spectrum of charges holds for any (unitary) conformal field theory, not just those that have weakly coupled and weakly curved duals. This Charge Convexity Conjecture, and its natural generalization to larger global symmetry groups, can be tested in various examples where anomalous dimensions can be computed, by perturbation theory, $1/N$ expansions and semi-classical methods. In all examples that we tested we find that the conjecture holds. We do not yet understand from the CFT point of view why this is true.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-10T11:13:26Z</published>
+    <arxiv:comment>30 pages; v2: corrected discussion of scalar mesons in Banks-Zaks fixed points and added references. v3: Modified the conjecture to hold for d&gt;2 dimensions</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Ofer Aharony</name>
+    </author>
+    <author>
+      <name>Eran Palti</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.104.126005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.104.126005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.09232v4</id>
+    <title>Anomaly-free scale symmetry and gravity</title>
+    <updated>2023-05-03T13:27:34Z</updated>
+    <link href="https://arxiv.org/abs/2201.09232v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.09232v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this Letter, we address the question of whether the conformal invariance can be considered as a global symmetry of a theory of fundamental interactions. To describe Nature, this theory must contain a mechanism of spontaneous breaking of the scale symmetry. Besides that, the fundamental theory must include gravity, whereas all known extensions of the conformal invariance to the curved space-time suffer from the Weyl anomaly. We show that conformal symmetry can be made free from the quantum anomaly only in the flat space. The presence of gravity would reduce the global symmetry group of the fundamental theory to the scale invariance only. We discuss how the effective Lagrangian respecting the scale symmetry can be used for the description of particle phenomenology and cosmology.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-23T11:50:10Z</published>
+    <arxiv:comment>An error in the generic solution for anomaly-free Weyl transformation is corrected. The updated conclusion is that gravity reduces conformal symmetry to the scale symmetry</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Mikhail Shaposhnikov</name>
+    </author>
+    <author>
+      <name>Anna Tokareva</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2023.137898</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2023.137898" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.11383v2</id>
+    <title>The Weak Gravity Conjecture and Axion Strings</title>
+    <updated>2021-08-31T19:24:00Z</updated>
+    <link href="https://arxiv.org/abs/2108.11383v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.11383v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Strong (sublattice or tower) formulations of the Weak Gravity Conjecture (WGC) imply that, if a weakly coupled gauge theory exists, a tower of charged particles drives the theory to strong coupling at an ultraviolet scale well below the Planck scale. This tower can consist of low-spin states, as in Kaluza-Klein theory, or high-spin states, as with weakly-coupled strings. We provide a suggestive bottom-up argument based on the mild $p$-form WGC that, for any gauge theory coupled to a fundamental axion through a $θF \wedge F$ term, the tower is a stringy one. The charge-carrying string states at or below the WGC scale $g M_\mathrm{Pl}$ are simply axion strings for $θ$, with charged modes arising from anomaly inflow. Kaluza-Klein theories evade this conclusion and postpone the appearance of high-spin states to higher energies because they lack a $θF \wedge F$ term. For abelian Kaluza-Klein theories, modified arguments based on additional abelian groups that interact with the Kaluza-Klein gauge group sometimes pinpoint a mass scale for charged strings. These arguments reinforce the Emergent String and Distant Axionic String Conjectures. We emphasize the unproven assumptions and weak points of the arguments, which provide interesting targets for further work. In particular, a sharp characterization of when gauge fields admit $θF \wedge F$ couplings and when they do not would be immensely useful for particle phenomenology and for clarifying the implications of the Weak Gravity Conjecture.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-25T18:00:00Z</published>
+    <arxiv:comment>21 pages, v2: minor changes</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Ben Heidenreich</name>
+    </author>
+    <author>
+      <name>Matthew Reece</name>
+    </author>
+    <author>
+      <name>Tom Rudelius</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP11(2021)004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP11(2021)004" title="doi"/>
+  </entry>
+</feed>

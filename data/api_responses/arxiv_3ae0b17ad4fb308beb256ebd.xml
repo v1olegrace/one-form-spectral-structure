@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PJVvP2DVTJU2y4bucXugiQE4wUk</id>
+  <title>arXiv Query: search_query=all:large OR all:deviations OR all:Legendre OR all:transform OR all:cumulant OR all:generating OR all:function&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:52:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:large+OR+(all:deviations+OR+(all:Legendre+OR+(all:transform+OR+(all:cumulant+OR+(all:generating+OR+all:function)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1728493</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1311.0649v2</id>
+    <title>Some large deviations in Kingman's coalescent</title>
+    <updated>2014-06-22T13:35:47Z</updated>
+    <link href="https://arxiv.org/abs/1311.0649v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.0649v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Kingman's coalescent is a random tree that arises from classical population genetic models such as the Moran model. The individuals alive in these models correspond to the leaves in the tree and the following two laws of large numbers concerning the structure of the tree-top are well-known: (i) The (shortest) distance, denoted by $T_n$, from the tree-top to the level when there are $n$ lines in the tree satisfies $nT_n \xrightarrow{n\to\infty} 2$ almost surely; (ii) At time $T_n$, the population is naturally partitioned in exactly $n$ families where individuals belong to the same family if they have a common ancestor at time $T_n$ in the past. If $F_{i,n}$ denotes the size of the $i$th family, then $n(F_{1,n}^2 + \cdots + F_{n,n}^2) \xrightarrow{n\to \infty}2$ almost surely. For both laws of large numbers we prove corresponding large deviations results. For (i), the rate of the large deviations is $n$ and we can give the rate function explicitly. For (ii), the rate is $n$ for downwards deviations and $\sqrt n$ for upwards deviations. For both cases we give the exact rate function.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-04T11:14:18Z</published>
+    <arxiv:comment>14 pages, 3 figures. Replaced with revised version. Using a connection to self-normalized large deviations in Theorem 2 the exact rate function could be computed</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Andrej Depperschmidt</name>
+    </author>
+    <author>
+      <name>Peter Pfaffelhuber</name>
+    </author>
+    <author>
+      <name>Annika Scheuringer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.02829v2</id>
+    <title>Legendre Transformation under Micro Canonical Ensemble</title>
+    <updated>2026-09-09T11:12:23Z</updated>
+    <link href="https://arxiv.org/abs/2404.02829v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.02829v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Legendre transformation is a crucial tool in theoretical physics, known for its symmetry, especially when applied to multivariate functions. In statistical mechanics, ensembles represent the central focus. Leveraging the dimensionless aspect of Legendre transformation, this paper explores the transformation process from the entropy characteristic function of microcanonical ensembles to the analogous definition of partition function transformation. Additionally, it derives characteristic functions, partition functions, and establishes their interrelations, along with deriving corresponding thermodynamic formulas for various ensembles. This streamlined approach sheds light on the fundamental principles of statistical mechanics and underscores the symmetry inherent in Legendre transformation.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-03T16:03:59Z</published>
+    <arxiv:comment>This preprint is being withdrawn because the derivation connecting partition functions with Legendre transformations is not valid as presented and does not establish the claimed equivalence of ensembles</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Jingxu Wu</name>
+    </author>
+    <author>
+      <name>Chenjia Li</name>
+    </author>
+    <author>
+      <name>Zhenzhou Lei</name>
+    </author>
+    <author>
+      <name>Tuerdi Wumaier</name>
+    </author>
+    <author>
+      <name>Congyu Li</name>
+    </author>
+    <author>
+      <name>Yan Wang</name>
+    </author>
+    <author>
+      <name>Zekun Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.15618v1</id>
+    <title>Lecture notes on large deviations in non-equilibrium diffusive systems</title>
+    <updated>2025-05-21T15:08:28Z</updated>
+    <link href="https://arxiv.org/abs/2505.15618v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.15618v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>These notes are a written version of lectures given in the 2024 Les Houches Summer School on {\it Large deviations and applications}. They are are based on a series of works published over the last 25 years on steady properties of non-equilibrium systems in contact with several heat baths at different temperatures or several reservoirs of particles at different densities. After recalling some classical tools to study non-equilibrium steady states, such as the use of tilted matrices, the Fluctuation theorem, the determination of transport coefficients, the Einstein relations or fluctuating hydrodynamics, they describe some of the basic ideas of the macroscopic fluctuation theory allowing to determine the large deviation functions of the density and of the current of diffusive systems.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-21T15:08:28Z</published>
+    <arxiv:comment>Lecture notes of the 2024 Les Houches Summer School on Large deviations and applications</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>SciPost Phys. Lect. Notes 106 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Bernard Derrida</name>
+    </author>
+    <arxiv:doi>10.21468/SciPostPhysLectNotes.106</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21468/SciPostPhysLectNotes.106" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.02803v2</id>
+    <title>Square Series Generating Function Transformations</title>
+    <updated>2017-03-29T21:04:44Z</updated>
+    <link href="https://arxiv.org/abs/1609.02803v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.02803v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct new integral representations for transformations of the ordinary generating function for a sequence, $\langle f_n \rangle$, into the form of a generating function that enumerates the corresponding "square series" generating function for the sequence, $\langle q^{n^2} f_n \rangle$, at an initially fixed non-zero $q \in \mathbb{C}$. The new results proved in the article are given by integral-based transformations of ordinary generating function series expanded in terms of the Stirling numbers of the second kind. We then employ known integral representations for the gamma and double factorial functions in the construction of these square series transformation integrals. The results proved in the article lead to new applications and integral representations for special function series, sequence generating functions, and other related applications. A summary Mathematica notebook providing derivations of key results and applications to specific series is provided online as a supplemental reference to readers.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-09T14:09:59Z</published>
+    <arxiv:comment>Keywords: Square series, generating function, series transformation, integral transformation, gamma function, double factorial, Stirling number of the second kind, Jacobi theta function, Ramanujan theta function</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Journal of Inequalities and Special Functions V.8 (2017), Issue 2, Article 11</arxiv:journal_ref>
+    <author>
+      <name>Maxie D. Schmidt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.04030v4</id>
+    <title>Large Deviations Principle for Isoperimetry and Its Equivalence to Nonlinear Log-Sobolev Inequalities</title>
+    <updated>2026-02-16T16:11:52Z</updated>
+    <link href="https://arxiv.org/abs/2510.04030v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.04030v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The isoperimetric problem is a classic topic in geometric measure theory, yet critical questions regarding the characterization of optimal solutions -- even asymptotically optimal ones -- remain largely unresolved. In this paper, we investigate the large deviations asymptotics for the isoperimetric problem on the product Riemannian manifold $M^{n}$ endowed with the product probability measure $ν^{\otimes n}$, where $(M,ν)$ is a weighted Riemannian manifold with nonnegative Bakry--Émery--Ricci curvature. We establish an exact characterization of the large deviations asymptotics of the isoperimetric profile, which reveals a precise equivalence between this asymptotic isoperimetric inequality and the nonlinear log-Sobolev inequality. It is observed that conditional typical sets, a fundamental concept from information theory, form an asymptotically optimal solution to the isoperimetric problem. This class of subsets further yields an upper bound on the isoperimetric profile in the central limit regime. Although our results are stated for product spaces, they imply certain isoperimetric inequalities for non-product spaces, e.g., they can be used to recover the weaker equivalence established by Ledoux and Bobkov for arbitrary non-product spaces or used to establish quantitative relations among the optimal constants in isoperimetric, concentration and transport inequalities for product or non-product spaces. Our results provide a rigorous justification from the perspective of nonlinear log-Sobolev inequalities for why isoperimetric minimizers behave fundamentally differently across spaces with distinct geometric structures. Our proof idea is a new framework which integrates tools from information theory, optimal transport, and geometric measure theory.</summary>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-05T04:33:02Z</published>
+    <arxiv:comment>A complete characterization of large deviations principle for isoperimetry is given</arxiv:comment>
+    <arxiv:primary_category term="math.MG"/>
+    <author>
+      <name>Lei Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.8531v3</id>
+    <title>Convergence of large deviation estimators</title>
+    <updated>2015-10-29T10:11:32Z</updated>
+    <link href="https://arxiv.org/abs/1409.8531v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.8531v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the convergence of statistical estimators used in the estimation of large deviation functions describing the fluctuations of equilibrium, nonequilibrium, and manmade stochastic systems. We give conditions for the convergence of these estimators with sample size, based on the boundedness or unboundedness of the quantity sampled, and discuss how statistical errors should be defined in different parts of the convergence region. Our results shed light on previous reports of 'phase transitions' in the statistics of free energy estimators and establish a general framework for reliably estimating large deviation functions from simulation and experimental data and identifying parameter regions where this estimation converges.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-30T13:06:05Z</published>
+    <arxiv:comment>13 pages, 6 figures. v2: corrections focusing the paper on large deviations; v3: minor corrections, close to published version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. E 92, 052104, 2015</arxiv:journal_ref>
+    <author>
+      <name>Christian M. Rohwer</name>
+    </author>
+    <author>
+      <name>Florian Angeletti</name>
+    </author>
+    <author>
+      <name>Hugo Touchette</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.92.052104</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.92.052104" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.11860v3</id>
+    <title>Non-equilibrium large deviations and parabolic-hyperbolic PDE with irregular drift</title>
+    <updated>2022-03-15T16:04:28Z</updated>
+    <link href="https://arxiv.org/abs/1910.11860v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.11860v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large deviations of conservative interacting particle systems, such as the zero range process, about their hydrodynamic limit and their respective rate functions lead to the analysis of the skeleton equation; a degenerate parabolic-hyperbolic PDE with irregular drift. We develop a robust well-posedness theory for such PDEs in energy-critical spaces based on concepts of renormalized solutions and the equation's kinetic form. We establish these properties by proving that renormalized solutions are equivalent to classical weak solutions, extending concepts of [DiPerna, Lions; Ann. Math., 1989], [Ambrosio; Invent. Math., 2004] to the nonlinear setting.
+  The relevance of the results toward large deviations in interacting particle systems is demonstrated by applications to the identification of l.s.c. envelopes of restricted rate functions, to zero noise large deviations for conservative (singular) SPDE, and to the $Γ$-convergence of rate functions. The first of these solves a long-standing open problem in the large deviations for zero range processes. The second makes rigorous an informal link between the non-equilibrium statistical mechanics approaches of macroscopic fluctuation theory and fluctuating hydrodynamics.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-25T17:40:01Z</published>
+    <arxiv:comment>This work is a heavily extended and strengthened version of the original submission, which includes a new section on the consequences for large deviations of particle systems</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Benjamin Fehrman</name>
+    </author>
+    <author>
+      <name>Benjamin Gess</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09322v3</id>
+    <title>Breakdown of the Finite-Time and -Population Scalings of the Large Deviation Function in the Large-Size Limit of a Contact Process</title>
+    <updated>2018-08-02T22:38:46Z</updated>
+    <link href="https://arxiv.org/abs/1709.09322v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.09322v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a recent study, the finite-time ($t$) and -population size ($N_c$) scalings in the evaluation of a large deviation function (LDF) estimator were analyzed by means of the cloning algorithm. These scalings provide valuable information about the convergence of the LDF estimator in the infinite-$t$ and infinite-$N_c$ limits. For the cases analyzed in that study, the scalings of the systematic errors of the estimator were found to behave as $t^{-1}$ and $N_c^{-1}$ in the large-$t$ and large-$N_c$ asymptotics. Moreover, it was shown how this convergence speed can be used in order to extract an asymptotic limit which resulted to render a better LDF estimation in comparison to the standard estimator. However, the validity of these scaling laws and thus, the convergence of the estimator was proved only in systems for which the number of sites $L$ (where the dynamics occurs) was small. In this paper, the analysis is extended to a wider range of system sizes $L$. We show how the introduction of the exponents $γ_{t}$ and $γ_{N_c}$ allows to characterize the behavior of the LDF estimator for any system size. From these generalized $t^{-γ_{t}}$- and $N_{c}^{-γ_{N_c}}$- scalings, we verify that in the large-$L$ limit the $t^{-1}$- and $N_c^{-1}$-scalings are no longer valid. Moreover, as the convergence of the estimator relies on the positivity of these exponents, we show how for some cases $γ_{N_c}$ can be negative implying that the estimation provided by the cloning algorithm is no longer reliable.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-27T03:45:11Z</published>
+    <arxiv:comment>previously submitted as "Large Deviations of the Activity in the Contact Process: Finite-Time and Finite-$N_c$ Scalings in the Large-$L$ Limit"</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Esteban Guevara Hidalgo J. Stat. Mech. (2018) 083211</arxiv:journal_ref>
+    <author>
+      <name>Esteban Guevara Hidalgo</name>
+    </author>
+    <arxiv:doi>10.1088/1742-5468/aad6b2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-5468/aad6b2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.14084v2</id>
+    <title>High-dimensional random landscapes: from typical to large deviations</title>
+    <updated>2025-08-09T13:57:30Z</updated>
+    <link href="https://arxiv.org/abs/2502.14084v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.14084v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In these notes we discuss tools and concepts that emerge when studying high-dimensional random landscapes, i.e., random functions on high-dimensional spaces. As an illustrative example, we consider an inference problem in two forms: low-rank matrix estimation (Case 1) and low-rank tensor estimation (Case 2). We show how to map the inference problem onto the optimization problem of a high-dimensional landscape, which exhibits distinct geometrical properties in the two cases. We discuss methods for characterizing typical realizations of these landscapes and their optimization through local dynamics. We conclude by highlighting connections between the landscape problem and Large Deviation Theory.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-19T20:17:49Z</published>
+    <arxiv:comment>v2 of the notes for a course at the Les Houches school "Theory of Large Deviations and Applications". Comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Valentina Ros</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.1506v2</id>
+    <title>On the asymptotic of likelihood ratios for self-normalized large deviations</title>
+    <updated>2008-01-30T13:25:56Z</updated>
+    <link href="https://arxiv.org/abs/0709.1506v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.1506v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Motivated by multiple statistical hypothesis testing, we obtain the limit of likelihood ratio of large deviations for self-normalized random variables, specifically, the ratio of $P(\sqrt{n}(\bar X +d/n) \ge x_n V)$ to $P(\sqrt{n}\bar X \ge x_n V)$, as $n\toi$, where $\bar X$ and $V$ are the sample mean and standard deviation of iid $X_1, ..., X_n$, respectively, $d&gt;0$ is a constant and $x_n \toi$. We show that the limit can have a simple form $e^{d/z_0}$, where $z_0$ is the unique maximizer of $z f(x)$ with $f$ the density of $X_i$. The result is applied to derive the minimum sample size per test in order to control the error rate of multiple testing at a target level, when real signals are different from noise signals only by a small shift.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-10T23:07:49Z</published>
+    <arxiv:comment>typos on pages 1, 3 and 8 of the same type: missing or extra \sqrt{n} in the expressions of probabilities of large deviations</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Zhiyi Chi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.03933v2</id>
+    <title>A Short Note on Integral Transformations and Conversion Formulas for Sequence Generating Functions</title>
+    <updated>2019-05-18T17:53:14Z</updated>
+    <link href="https://arxiv.org/abs/1809.03933v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.03933v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The purpose of this note is to provide an expository introduction to some more curious integral formulas and transformations involving generating functions. We seek to generalize these results and integral representations which effectively provide a mechanism for converting between a sequence's ordinary and exponential generating function (OGF and EGF, respectively) and vice versa. The Laplace transform provides an integral formula for the EGF-to-OGF transformation, where the reverse OGF-to-EGF operation requires more careful integration techniques. We prove two variants of the OGF-to-EGF transformation integrals from the Hankel loop contour for the reciprocal gamma function and from Fourier series expansions of integral representations for the Hadamard product of two generating functions, respectively. We also suggest several generalizations of these integral formulas and provide new examples along the way.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-11T14:37:35Z</published>
+    <arxiv:comment>Keywords: Generating function; series transformation; gamma function; Hankel contour. MSC: 05A15; 30E20; 31B10; and 11B73. Updated version is the draft that will be published in the Axioms special issue Mathematical Analysis and Applications II</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Maxie D. Schmidt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.10942v2</id>
+    <title>Lecture notes on Legendre polynomials: their origin and main properties</title>
+    <updated>2025-03-03T20:22:32Z</updated>
+    <link href="https://arxiv.org/abs/2210.10942v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.10942v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is well-known that separation of variables in 2nd order partial differential equations (PDEs) for physical problems with spherical symmetry usually leads to Cauchy's differential equation for the radial coordinate and Legendre's differential equation for the polar angle $θ$. For eigenvalues of the form $\,n\,(n+1)$, $n \ge 0\,$ being an integer, Legendre's equation admits certain polynomials $P_n(\cosθ)$ as solutions, which form a complete set of continuous orthogonal functions for all $θ\in [0,π]$. This allows us to take the polynomials $P_n(x)$, where $x = \cosθ$, as a basis for the Fourier-Legendre series expansion of any function $f(x)$ continuous by parts over $\,x \in [-1,1]$. These lecture notes correspond to the end of my course on Mathematical Methods for Physics, when I did derive the differential equations and solutions for physical problems with spherical symmetry. For those interested in Number Theory, I have included an application of shifted Legendre polynomials in \emph{irrationality proofs}, following a method introduced by Beukers to show that $ζ{(2)}$ and $ζ{(3)}$ are irrational numbers.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-20T00:49:25Z</published>
+    <arxiv:comment>In this first revision I've implemented a few corrections in the text. This paper has been adopted in some courses on Legendre polynomials and their physical applications. It may also be useful for those interested in shifted Legendre polynomials and their application on irrationality proofs</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>F. M. S. Lima</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.05722v1</id>
+    <title>Generating Functions for Lacunary Legendre and Legendre-like Polynomials</title>
+    <updated>2020-02-13T12:04:32Z</updated>
+    <link href="https://arxiv.org/abs/2002.05722v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.05722v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The use of operational methods of different nature is shown to be a fairly powerful tool to study different problems regarding the theory of Legendre and Legendre-like polynomials. We show how the use of the well known integral representations linking Hermite and Legendre like polynomials and of operational technique allow the derivation of new properties regarding the generating functions, repeated derivatives of irrational functions and so on. We finally extend the method of the integral transform to functions with more than one variable and derive new expansion criteria of a given function in terms of Legendre polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-13T12:04:32Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>S. Licciardi</name>
+    </author>
+    <author>
+      <name>G. Dattoli</name>
+    </author>
+    <author>
+      <name>R. M. Pidatell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.5142v1</id>
+    <title>Large deviations for zeros of $P(φ)_2$ random polynomials</title>
+    <updated>2010-09-27T02:26:42Z</updated>
+    <link href="https://arxiv.org/abs/1009.5142v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.5142v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend results of Zeitouni-Zelditch on large deviations principles for zeros of Gaussian random polynomials $s$ in one complex variable to certain non-Gaussian ensembles that we call $P(φ)_2$ random polynomials. The probability measures are of the form $e^{- S(f)} df$ where the actions $S(f)$ are finite dimensional analgoues of those of $P(φ)_2$ quantum field theory. The speed and rate function are the same as in the associated Gaussian case. As a corollary, we prove that the expected distribution of zeros in the $P(φ)_2$ ensembles tends to the same equilibrium measure as in the Gaussian case.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-27T02:26:42Z</published>
+    <arxiv:comment>This is a continuation of the article Large deviations of empirical zero point measures on Riemann surfaces, I: $g = 0$ by O. Zeitouni, S. Zelditch (to appear in IMRN) and is not self-contained</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>J. Stat. Phys. 143 (2011), no. 4, 619-635</arxiv:journal_ref>
+    <author>
+      <name>Renjie Feng</name>
+    </author>
+    <author>
+      <name>Steve Zelditch</name>
+    </author>
+    <arxiv:doi>10.1007/s10955-011-0206-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10955-011-0206-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0702573v1</id>
+    <title>Large deviation estimates of the crossing probability for pinned Gaussian processes</title>
+    <updated>2007-02-20T11:05:06Z</updated>
+    <link href="https://arxiv.org/abs/math/0702573v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0702573v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The paper deals with the asymptotic behavior of the bridge of a Gaussian process conditioned to stay in $n$ fixed points at $n$ fixed past instants. In particular, functional large deviation results are stated for small time. Several examples are considered: integrated or not fractional Brownian motion, $m$-fold integrated Brownian motion. As an application, the asymptotic behavior of the exit probability is studied and used for the practical purpose of the numerical computation, via Monte Carlo methods, of the hitting probability up to a given time.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-02-20T11:05:06Z</published>
+    <arxiv:comment>33 pages. Keywords: conditioned Gaussian processes; reproducing kernel Hilbert spaces; large deviations; exit time probabilities; Monte Carlo methods</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Advances in Applied Probability, 40, 424-453, 2008</arxiv:journal_ref>
+    <author>
+      <name>L. Caramellino</name>
+    </author>
+    <author>
+      <name>B. Pacchiarotti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.20577v2</id>
+    <title>A note on the Artstein-Avidan-Milman's generalized Legendre transforms</title>
+    <updated>2025-12-05T06:44:11Z</updated>
+    <link href="https://arxiv.org/abs/2507.20577v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.20577v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artstein-Avidan and Milman [Annals of mathematics (2009), (169):661-674] characterized invertible reverse-ordering transforms on the space of lower semi-continuous extended real-valued convex functions as affine deformations of the ordinary Legendre transform. In this work, we first prove that all those generalized Legendre transforms on functions correspond to the ordinary Legendre transform on dually corresponding affine-deformed functions: In short, generalized convex conjugates are ordinary convex conjugates of dually affine-deformed functions. Second, we explain how these generalized Legendre transforms can be derived from the dual Hessian structures of information geometry.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-28T07:21:57Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Frank Nielsen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/0207037v2</id>
+    <title>Correlation Functions and Cumulants in Elliptic Flow Analysis</title>
+    <updated>2002-08-22T21:15:42Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/0207037v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/0207037v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider various methods of flow analysis in heavy ion collisions and compare experimental data on corresponding observables to the predictions of our saturation model proposed earlier. We demonstrate that, due to the nature of the standard flow analysis, azimuthal distribution of particles with respect to reaction plane determined from the second order harmonics should always be proportional to $\cos 2(φ-Ψ_R)$ independent of the physical origin of particle correlations (flow or non-flow). The amplitude of this distribution is always physical and proportional to $v_2$. Two-particle correlations analysis is therefore a more reliable way of extracting the shape of physical azimuthal anisotropy. We demonstrate that two-particle correlation functions generated in our minijet model of particle production are in good agreement with the data reported by PHENIX. We discuss the role of non-flow correlations in the cumulant flow analysis and demonstrate using a simple example that if the flow is weak, higher order cumulants analysis does not significantly reduce the contribution of non-flow correlations to elliptic flow observable $v_2$ in RHIC data.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-07-15T18:32:41Z</published>
+    <arxiv:comment>18 pages, 1 figure; v2: IR safety and v2(pT) from 4th order cumulant discussions added</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Nucl.Phys. A717 (2003) 249-267</arxiv:journal_ref>
+    <author>
+      <name>Yuri V. Kovchegov</name>
+      <arxiv:affiliation>University of Washington</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kirill L. Tuchin</name>
+      <arxiv:affiliation>University of Washington</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/S0375-9474(03)00609-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0375-9474(03)00609-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.00462v2</id>
+    <title>A robust generalization of the Legendre transform for QFT</title>
+    <updated>2017-05-31T05:15:34Z</updated>
+    <link href="https://arxiv.org/abs/1612.00462v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.00462v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although perturbative quantum field theory is highly successful, it possesses a number of well-known analytic problems, from ultraviolet and infrared divergencies to the divergence of the perturbative expansion itself. As a consequence, it has been difficult, for example, to prove with full rigor that the Legendre transform of the quantum effective action is the generating functional of connected graphs. Here, we give a rigorous proof of this central fact. To this end, we show that the Legendre transform can be re-defined purely combinatorially and that it ultimately reduces to a simple homological relation, the Euler characteristic for tree graphs. This result suggests that, similarly, also the quantum field theoretic path integral, being a Fourier transform, may be reducible to an underlying purely algebraic structure.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-01T21:00:24Z</published>
+    <arxiv:comment>13 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Journal of Physics A: Mathematical and Theoretical, Volume 50, Number 22, 2017</arxiv:journal_ref>
+    <author>
+      <name>David M. Jackson</name>
+    </author>
+    <author>
+      <name>Achim Kempf</name>
+    </author>
+    <author>
+      <name>Alejandro H. Morales</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8121/aa6abb</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8121/aa6abb" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0502068v2</id>
+    <title>Legendre transformation and lifting of multi-vectors</title>
+    <updated>2005-02-21T18:16:52Z</updated>
+    <link href="https://arxiv.org/abs/math/0502068v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0502068v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper has three objectives. First to recall the link between the classical Legendre-Fenschel transformation and a useful isomorphism between 1-jets of functions on a vector bundle and on its dual. As a particular consequence we obtain the classical isomorphism between the cotangent bundle of the tangent bundle $T^*TM$ and the tangent bundle of the cotangent bundle $TT^*M$ of any manifold $M.$ Secondly we show how to use this last isomorphism to construct the lifting of any contravariant tensor field on a manifold $M$ to the tangent bundle $TM$ which generalizes the classical lifting of vector fields. We also show that, in the antisymmetric case, this lifting respects the Schouten bracket. This gives a new proof of a recent result of Crainic and Moerdijk. Finally we give an application to the study of the stability of singular points of Poisson manifold and Lie algebroids.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-02-03T11:14:54Z</published>
+    <arxiv:comment>This paper has been withdrawn by the author because he has learned that an important part of the results had already been published by J. Grabowski and P. Urbanski (see for example: DG/9710007,9710013,9909174 and ref. herein) A more specific paper on the Legendre transformation is in preparation. Also the last paragraph of our paper will be added to DG/0501168</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Jean-Paul Dufour</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9910212v2</id>
+    <title>On the generalized Legendre transform and monopole metrics</title>
+    <updated>2000-03-23T03:37:41Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9910212v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9910212v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the generalized Legendre transform construction the Kaehler potential is related to a particular function. Here, the form of this function appropriate to the monopole metric is calculated from the known twistor theory of monopoles.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-10-27T03:34:38Z</published>
+    <arxiv:comment>10 pages, v2: typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP0002:042,2000</arxiv:journal_ref>
+    <author>
+      <name>C. J. Houghton</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2000/02/042</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2000/02/042" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.04338v2</id>
+    <title>Numerical Aspects of Large Deviations</title>
+    <updated>2025-06-05T16:29:17Z</updated>
+    <link href="https://arxiv.org/abs/2412.04338v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.04338v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An introduction to numerical large-deviation sampling is provided. First, direct biasing with a known distribution is explained. As simple example, the Bernoulli experiment is used throughout the text. Next, Markov chain Monte Carlo (MCMC) simulations are introduced. In particular, the Metropolis-Hastings algorithm is explained. As first implementation of MCMC, sampling of the plain Bernoulli model is shown. Next, an exponential bias is used for the same model, which allows one to obtain the tails of the distribution of a measurable quantity. This approach is generalized to MCMC simulations, where the states are vectors of $U(0,1)$ random entries. This allows one to use the exponential or any other bias to access the large-deviation properties of rather arbitrary random processes. Finally, some recent research applications to study more complex models are discussed.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-05T16:56:51Z</published>
+    <arxiv:comment>Lectures notes for lectures given at 2024 Les Houches Summer School on "Large deviations and applications". For C Codes see DARE (Oldenburg University research data repository) at doi.org/10.57782/HXEGVF. Revised version V02 contains now detailed overview over paper, section on needed numerical resources and overview over other approaches, plus small changes</arxiv:comment>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <arxiv:journal_ref>SciPost Phys. Lect. Notes 100 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Alexander K. Hartmann</name>
+    </author>
+    <arxiv:doi>10.21468/SciPostPhysLectNotes.100</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21468/SciPostPhysLectNotes.100" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.0039v1</id>
+    <title>Determination of electron-hole correlation length in CdSe quantum dots using explicitly correlated two-particle cumulant</title>
+    <updated>2014-05-31T00:56:39Z</updated>
+    <link href="https://arxiv.org/abs/1406.0039v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.0039v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electron-hole correlation length serves as an intrinsic length scale for analyzing excitonic interactions in semiconductor nanoparticles. In this work, the derivation of electron-hole correlation length using the two-particle reduced density is presented. The correlation length was obtained by first calculating the electron-hole cumulant from the pair density,and then transforming the cumulant into intracular coordinates, and finally then imposing exact sum-rule conditions on the radial integral of the cumulant. The excitonic wave function for the calculation was obtained variationally using the electron-hole explicitly correlated Hartree-Fock method. As a consequence, both the pair density and the cumulant were explicit functions of the electron-hole separation distance. The use of explicitly correlated wave function and the integral sum-rule condition are the two key features of this derivation. The method was applied to a series of CdSe quantum dots with diameters 1-20 nm and the effect of dot size on the correlation length was analyzed.</summary>
+    <category term="physics.atm-clus" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-05-31T00:56:39Z</published>
+    <arxiv:comment>keywords: explicitly correlated, Gaussian-type geminal, electron-hole correlation, reduced density matrix, cumulant, transition density matrix</arxiv:comment>
+    <arxiv:primary_category term="physics.atm-clus"/>
+    <author>
+      <name>Christopher J. Blanton</name>
+    </author>
+    <author>
+      <name>Arindam Chakraborty</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.06672v2</id>
+    <title>The Upsilon function of L-space knots is a Legendre transform</title>
+    <updated>2015-06-24T14:33:35Z</updated>
+    <link href="https://arxiv.org/abs/1505.06672v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.06672v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given an L-space knot we show that its Upsilon function is the Legendre transform of a counting function equivalent to the d-invariants of its large surgeries. The unknotting obstruction obtained for the Upsilon function is, in the case of L-space knots, contained in the d-invariants of large surgeries. Generalizations apply for connected sums of L-space knots, which imply that the slice obstruction provided by Upsilon on the subgroup of concordance generated by L-space knots is no finer than that provided by the d-invariants.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-25T15:54:18Z</published>
+    <arxiv:comment>version 2: 13 pages. Question 1.5 asked in the first version is answered negatively</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Maciej Borodzik</name>
+    </author>
+    <author>
+      <name>Matthew Hedden</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.17667v1</id>
+    <title>Understanding the Hamiltonian Function through the Geometry of Partial Legendre Transforms</title>
+    <updated>2023-10-24T16:37:44Z</updated>
+    <link href="https://arxiv.org/abs/2310.17667v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.17667v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The relationship between the Hamiltonian and Lagrangean functions in analytical mechanics is a type of duality. The two functions, while distinct, are both descriptive functions encoding the behavior of the same dynamical system. One difference is that the Lagrangean naturally appears as one investigates the fundamental equation of classical dynamics. It is not that way for the Hamiltonian. The Hamiltonian comes after Lagrange's equations have been fully formed, most commonly through a Legendre transform of the Lagrangean function. We revisit the Legendre transform approach and offer a more refined geometrical interpretation than what is commonly shown.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-24T16:37:44Z</published>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>John E. Hurtado</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.11529v1</id>
+    <title>Error Analysis of Truncation Legendre Method for Solving Numerical Differentiation</title>
+    <updated>2025-06-13T07:30:24Z</updated>
+    <link href="https://arxiv.org/abs/2506.11529v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.11529v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of numerical differentiation of functions from weighted Wiener classes. We construct and analyze a truncation Legendre method to recover arbitrary order derivatives. The main focus is on obtaining error estimates in integral and uniform metrics. Unlike previous studies, which predominantly focused on first-order derivatives and specific functional spaces, we conduct a comprehensive analysis across a wide spectrum of function regularity parameters and various metrics for measuring errors. We establish precise error bounds for the truncation method in the metrics of C and L_q for 2 less than or equal to q less than or equal to infinity, and determine optimal truncation parameters as functions of the error level and smoothness parameters. Our results demonstrate that the truncation method achieves optimal convergence rates on weighted Wiener classes, requiring an optimal number of perturbed Fourier-Legendre coefficients for effective derivative recovery.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-13T07:30:24Z</published>
+    <arxiv:comment>25 pages, 4 sections. Extends previous results on Legendre-based numerical differentiation to arbitrary derivative orders and L_q metrics</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Maksym Kyselov</name>
+    </author>
+  </entry>
+</feed>

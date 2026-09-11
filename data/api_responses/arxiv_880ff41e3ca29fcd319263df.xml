@@ -1,0 +1,781 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YflaogrwJYrcSDGKFPERlmlAE/o</id>
+  <title>arXiv Query: search_query=all:reflection OR all:positivity OR all:constraints OR all:on OR all:the OR all:static OR all:potential&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:39:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:reflection+OR+(all:positivity+OR+(all:constraints+OR+(all:on+OR+(all:the+OR+(all:static+OR+all:potential)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>766087</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1611.08382v1</id>
+    <title>Conditionally positive definite kernels in Hilbert $C^*$-modules</title>
+    <updated>2016-11-25T08:35:02Z</updated>
+    <link href="https://arxiv.org/abs/1611.08382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.08382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the notion of conditionally positive definite in the context of Hilbert $C^*$-modules and present a characterization of the conditionally positive definiteness in terms of the usual positive definiteness. We give a Kolmogorov type representation of conditionally positive definite kernels in Hilbert $C^*$-modules. As a consequence, we show that a $C^*$-metric space $(S, d)$ is $C^*$-isometric to a subset of a Hilbert $C^*$-module if and only if $K(s,t)=-d(s,t)^2$ is a conditionally positive definite kernel. We also present a characterization of the order $K'\leq K$ between conditionally positive definite kernels.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-25T08:35:02Z</published>
+    <arxiv:comment>14 pages, to appear in Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <arxiv:journal_ref>Positivity 21 (2017), no. 3, 1161--1172</arxiv:journal_ref>
+    <author>
+      <name>Mohammad Sal Moslehian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.09037v1</id>
+    <title>Reflection Positivity---A Representation Theoretic Perspective</title>
+    <updated>2018-02-25T16:42:11Z</updated>
+    <link href="https://arxiv.org/abs/1802.09037v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.09037v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Refection Positivity is a central theme at the crossroads of Lie group representations, euclidean and abstract harmonic analysis, constructive quantum field theory, and stochastic processes. This book provides the first presentation of the representation theoretic aspects of Refection Positivity and discusses its connections to those different fields on a level suitable for doctoral students and researchers in related fields.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-25T16:42:11Z</published>
+    <arxiv:comment>This is a preliminary version of a book on Reflection Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Karl-Hermann Neeb</name>
+    </author>
+    <author>
+      <name>Gestur Olafsson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.2876v2</id>
+    <title>The static potential in {\cal N}=4 supersymmetric Yang-Mills at weak coupling</title>
+    <updated>2007-10-28T08:57:32Z</updated>
+    <link href="https://arxiv.org/abs/0709.2876v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.2876v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We compute the static potential associated to the locally 1/2 BPS Wilson loop in ${\cal N}$=4 supersymmetric Yang-Mills theory with ${\cal O}(λ^2/r)$ accuracy. We also resum the leading logarithms, of ${\cal O}(λ^{n+1}\ln^nλ/r)$, and show the structure of the renormalization group equation at next-to-leading order in the multipole expansion. In order to obtain these results it is crucial the use of an effective theory for the ultrasoft degrees of freedom. We develop this theory up to next-to-leading order in the multipole expansion. Using the same formalism we also compute the leading logarithms, of ${\cal O}(λ^{n+3}\ln^nλ/r)$, of the static potential associated to an ordinary Wilson loop in the same theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-18T16:42:11Z</published>
+    <arxiv:comment>6 pages, 1 figure. Two references added, misprints corrected. Computation of the static potential associated to the ordinary static Wilson loop incorporated</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D77:021701,2008</arxiv:journal_ref>
+    <author>
+      <name>Antonio Pineda</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.77.021701</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.77.021701" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.10558v1</id>
+    <title>FP-Predictor - False Positive Prediction for Static Analysis Reports</title>
+    <updated>2026-03-11T09:05:39Z</updated>
+    <link href="https://arxiv.org/abs/2603.10558v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.10558v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Static Application Security Testing (SAST) tools play a vital role in modern software development by automatically detecting potential vulnerabilities in source code. However, their effectiveness is often limited by a high rate of false positives, which wastes developer's effort and undermines trust in automated analysis. This work presents a Graph Convolutional Network (GCN) model designed to predict SAST reports as true and false positive. The model leverages Code Property Graphs (CPGs) constructed from static analysis results to capture both, structural and semantic relationships within code. Trained on the CamBenchCAP dataset, the model achieved an accuracy of 100% on the test set using an 80/20 train-test split. Evaluation on the CryptoAPI-Bench benchmark further demonstrated the model's practical applicability, reaching an overall accuracy of up to 96.6%. A detailed qualitative inspection revealed that many cases marked as misclassifications corresponded to genuine security weaknesses, indicating that the model effectively reflects conservative, security-aware reasoning. Identified limitations include incomplete control-flow representation due to missing interprocedural connections. Future work will focus on integrating call graphs, applying graph explainability techniques, and extending training data across multiple SAST tools to improve generalization and interpretability.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-11T09:05:39Z</published>
+    <arxiv:comment>Accepted at STATIC 26 (ICSE 2026 workshop)</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Tom Ohlmer</name>
+    </author>
+    <author>
+      <name>Michael Schlichtig</name>
+    </author>
+    <author>
+      <name>Eric Bodden</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.05874v3</id>
+    <title>Positivity in the sky</title>
+    <updated>2020-07-27T11:17:13Z</updated>
+    <link href="https://arxiv.org/abs/1904.05874v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.05874v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Positivity bounds - the consequences of requiring a unitary, causal, local UV completion - place strong restrictions on theories of dark energy and/or modified gravity. We derive and investigate such bounds for Horndeski scalar-tensor theories and for the first time pair these bounds with a cosmological parameter estimation analysis, using CMB, redshift space distortion, matter power spectrum and BAO measurements from the Planck, SDSS/BOSS and 6dF surveys. Using positivity bounds as theoretical priors, we show that their inclusion in the parameter estimation significantly improves the constraints on dark energy/modified gravity parameters. Considering as an example a specific class of models, which are particularly well-suited to illustrate the constraining power of positivity bounds, we find that these bounds eliminate over 60% of the previously allowed parameter space. We also discuss how combining positivity requirements with additional theoretical priors has the potential to further tighten these constraints: for instance also requiring a subluminal speed of gravitational waves eliminates all but 1% of the previously allowed parameter space.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-11T17:59:30Z</published>
+    <arxiv:comment>10 pages, v3: added additional subleading corrections to the computation of positivity bounds (which only very mildly affect overall constraints)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>Phys. Rev. D 101, 021502 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Scott Melville</name>
+    </author>
+    <author>
+      <name>Johannes Noller</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.101.021502</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.101.021502" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.04273v2</id>
+    <title>Robust Reflection Removal with Reflection-free Flash-only Cues</title>
+    <updated>2021-03-30T03:46:30Z</updated>
+    <link href="https://arxiv.org/abs/2103.04273v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.04273v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a simple yet effective reflection-free cue for robust reflection removal from a pair of flash and ambient (no-flash) images. The reflection-free cue exploits a flash-only image obtained by subtracting the ambient image from the corresponding flash image in raw data space. The flash-only image is equivalent to an image taken in a dark environment with only a flash on. We observe that this flash-only image is visually reflection-free, and thus it can provide robust cues to infer the reflection in the ambient image. Since the flash-only image usually has artifacts, we further propose a dedicated model that not only utilizes the reflection-free cue but also avoids introducing artifacts, which helps accurately estimate reflection and transmission. Our experiments on real-world images with various types of reflection demonstrate the effectiveness of our model with reflection-free flash-only cues: our model outperforms state-of-the-art reflection removal approaches by more than 5.23dB in PSNR, 0.04 in SSIM, and 0.068 in LPIPS. Our source code and dataset are publicly available at {github.com/ChenyangLEI/flash-reflection-removal}.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-07T05:27:43Z</published>
+    <arxiv:comment>Accepted to CVPR2021, code: https://github.com/ChenyangLEI/flash-reflection-removal</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chenyang Lei</name>
+    </author>
+    <author>
+      <name>Qifeng Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.02603v2</id>
+    <title>Analytic three-loop static potential</title>
+    <updated>2016-11-14T15:25:59Z</updated>
+    <link href="https://arxiv.org/abs/1608.02603v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.02603v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present analytic results for the three-loop static potential of two heavy quarks. The analytic calculation of the missing ingredients is outlined and results for the singlet and octet potential are provided.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-08T20:04:38Z</published>
+    <arxiv:comment>8 pages, 1 figure, v2: minor changes, references added, appendix with general octet potential added, corresponds to published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 94, 054029 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Roman N. Lee</name>
+    </author>
+    <author>
+      <name>Alexander V. Smirnov</name>
+    </author>
+    <author>
+      <name>Vladimir A. Smirnov</name>
+    </author>
+    <author>
+      <name>Matthias Steinhauser</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.94.054029</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.94.054029" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05833v2</id>
+    <title>Multi-messenger Observations of a Binary Neutron Star Merger</title>
+    <updated>2017-10-24T12:03:18Z</updated>
+    <link href="https://arxiv.org/abs/1710.05833v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.05833v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^{+8}_{-8}$ Mpc and with component masses consistent with neutron stars. The component masses were later measured to be in the range 0.86 to 2.26 Msun. An extensive observing campaign was launched across the electromagnetic spectrum leading to the discovery of a bright optical transient (SSS17a, now with the IAU identification of AT 2017gfo) in NGC 4993 (at $\sim$40 Mpc) less than 11 hours after the merger by the One-Meter, Two Hemisphere (1M2H) team using the 1 m Swope Telescope. The optical transient was independently detected by multiple teams within an hour. Subsequent observations targeted the object and its environment. Early ultraviolet observations revealed a blue transient that faded within 48 hours. Optical and infrared observations showed a redward evolution over $\sim$10 days. Following early non-detections, X-ray and radio emission were discovered at the transient's position $\sim$9 and $\sim$16 days, respectively, after the merger. Both the X-ray and radio emission likely arise from a physical process that is distinct from the one that generates the UV/optical/near-infrared emission. No ultra-high-energy gamma-rays and no neutrino candidates consistent with the source were found in follow-up searches. (Abridged)</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-16T16:57:18Z</published>
+    <arxiv:comment>This is a reproduction of the article published in the Astrophysical Journal Letters, under the terms of the Creative Commons Attribution 3.0 licence</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>ApJL, 848:L12, 2017</arxiv:journal_ref>
+    <author>
+      <name> LIGO Scientific Collaboration</name>
+    </author>
+    <author>
+      <name> Virgo Collaboration</name>
+    </author>
+    <author>
+      <name>Fermi GBM</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> INTEGRAL</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IceCube Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AstroSat Cadmium Zinc Telluride Imager Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IPN Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Insight-Hxmt Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>ANTARES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Swift Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AGILE Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The 1M2H Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Dark Energy Camera GW-EM Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>the DES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The DLT40 Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> GRAWITA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>GRAvitational Wave Inaf TeAm</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Fermi Large Area Telescope Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ATCA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australia Telescope Compact Array</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ASKAP</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australian SKA Pathfinder</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Las Cumbres Observatory Group</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> OzGrav</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> DWF</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> AST3</name>
+    </author>
+    <author>
+      <name>CAASTRO Collaborations</name>
+    </author>
+    <author>
+      <name>The VINROUGE Collaboration</name>
+    </author>
+    <author>
+      <name>MASTER Collaboration</name>
+    </author>
+    <author>
+      <name> J-GEM</name>
+    </author>
+    <author>
+      <name> GROWTH</name>
+    </author>
+    <author>
+      <name> JAGWAR</name>
+    </author>
+    <author>
+      <name>Caltech- NRAO</name>
+    </author>
+    <author>
+      <name> TTU-NRAO</name>
+    </author>
+    <author>
+      <name>NuSTAR Collaborations</name>
+    </author>
+    <author>
+      <name> Pan-STARRS</name>
+    </author>
+    <author>
+      <name>The MAXI Team</name>
+    </author>
+    <author>
+      <name>TZAC Consortium</name>
+    </author>
+    <author>
+      <name>KU Collaboration</name>
+    </author>
+    <author>
+      <name>Nordic Optical Telescope</name>
+    </author>
+    <author>
+      <name> ePESSTO</name>
+    </author>
+    <author>
+      <name> GROND</name>
+    </author>
+    <author>
+      <name>Texas Tech University</name>
+    </author>
+    <author>
+      <name>SALT Group</name>
+    </author>
+    <author>
+      <name> TOROS</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Transient Robotic Observatory of the South Collaboration</name>
+    </author>
+    <author>
+      <name>The BOOTES Collaboration</name>
+    </author>
+    <author>
+      <name> MWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Murchison Widefield Array</name>
+    </author>
+    <author>
+      <name>The CALET Collaboration</name>
+    </author>
+    <author>
+      <name>IKI-GW Follow-up Collaboration</name>
+    </author>
+    <author>
+      <name>H. E. S. S. Collaboration</name>
+    </author>
+    <author>
+      <name>LOFAR Collaboration</name>
+    </author>
+    <author>
+      <name> LWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Long Wavelength Array</name>
+    </author>
+    <author>
+      <name>HAWC Collaboration</name>
+    </author>
+    <author>
+      <name>The Pierre Auger Collaboration</name>
+    </author>
+    <author>
+      <name>ALMA Collaboration</name>
+    </author>
+    <author>
+      <name>Euro VLBI Team</name>
+    </author>
+    <author>
+      <name>Pi of the Sky Collaboration</name>
+    </author>
+    <author>
+      <name>The Chandra Team at McGill University</name>
+    </author>
+    <author>
+      <name> DFN</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Desert Fireball Network</name>
+    </author>
+    <author>
+      <name> ATLAS</name>
+    </author>
+    <author>
+      <name>High Time Resolution Universe Survey</name>
+    </author>
+    <author>
+      <name> RIMAS</name>
+    </author>
+    <author>
+      <name> RATIR</name>
+    </author>
+    <author>
+      <name>SKA South Africa/MeerKAT</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/aa91c9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/aa91c9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0502073v3</id>
+    <title>Dwell times for transmission and reflection</title>
+    <updated>2005-07-14T04:54:57Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0502073v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0502073v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  As was shown in quant-ph/0405028, the state of a tunneling particle can be uniquely presented as a coherent superposition of two states to describe alternative sub-processes, transmission and reflection. In this paper, on the basis of the stationary wave functions for these sub-processes, we give new definitions of the dwell times for transmission and reflection. In the case of rectangular potential barriers the dwell times are obtained explicitly. In contrast with the well-known Büttiker's dwell-time, our dwell time for transmission increases exponentially, for the under-barrier tunneling, with increasing the barrier's width. By our approach the well-known Hartman effect is rather an artifact resulted from an improper interpretation of the wave-packet tunneling and experimental data, but not a real physical effect accompanying the tunneling phenomenon.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-02-14T12:25:01Z</published>
+    <arxiv:comment>Revtex, 4 pages, 5 eps-figures; the dwell time for reflection is revised</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>N. L. Chuprikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.05343v1</id>
+    <title>Ripple: Reflection Analysis for Android Apps in Incomplete Information Environments</title>
+    <updated>2016-12-16T02:55:02Z</updated>
+    <link href="https://arxiv.org/abs/1612.05343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.05343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite its widespread use in Android apps, reflection poses graving problems for static security analysis. Currently, string inference is applied to handle reflection, resulting in significantly missed security vulnerabilities. In this paper, we bring forward the ubiquity of incomplete information environments (IIEs) for Android apps, where some critical data-flows are missing during static analysis, and the need for resolving reflective calls under IIEs. We present Ripple, the first IIE-aware static reflection analysis for Android apps that resolves reflective calls more soundly than string inference. Validation with 17 popular Android apps from Google Play demonstrates the effectiveness of Ripple in discovering reflective targets with a low false positive rate. As a result, Ripple enables FlowDroid, a taint analysis for Android apps, to find hundreds of sensitive data leakages that would otherwise be missed. As a fundamental analysis, Ripple will be valuable for many security analysis clients, since more program behaviors can now be analyzed under IIEs.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-16T02:55:02Z</published>
+    <arxiv:comment>This is an extended version of Yifei Zhang, Tian Tan, Yue Li and Jingling Xue, Ripple: Reflection Analysis for Android Apps in Incomplete Information Environments, CODASPY '17</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yifei Zhang</name>
+    </author>
+    <author>
+      <name>Tian Tan</name>
+    </author>
+    <author>
+      <name>Yue Li</name>
+    </author>
+    <author>
+      <name>Jingling Xue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0603667v2</id>
+    <title>A characterization of finitely generated reflection subgroups of Coxeter groups orthogonal to a reflection</title>
+    <updated>2012-01-17T02:58:11Z</updated>
+    <link href="https://arxiv.org/abs/math/0603667v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0603667v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a reflection $r$ in a Coxeter group $W$ (possibly of infinite rank), we consider the subgroup of $W$ generated by the reflections in $W$ having (-1)-eigenvectors orthogonal to the (-1)-eigenvector of $r$. In this paper, we determine completely when this subgroup is finitely generated, by using preceding results on centralizers of reflections. This result provides a new and naturally constructed example of a family of non-finitely generated subgroups of finitely generated groups.</summary>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-03-28T17:44:12Z</published>
+    <arxiv:comment>21 pages; previously entitled "On reflections in Coxeter groups commuting with a reflection" (v2) presentation improved</arxiv:comment>
+    <arxiv:primary_category term="math.GR"/>
+    <author>
+      <name>Koji Nuida</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.3264v2</id>
+    <title>A new dynamical reflection algebra and related quantum integrable systems</title>
+    <updated>2020-09-23T19:21:23Z</updated>
+    <link href="https://arxiv.org/abs/1106.3264v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.3264v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new dynamical reflection algebra, distinct from the previous dynamical boundary algebra and semi-dynamical reflection algebra. The associated Yang-Baxter equations, coactions, fusions, and commuting traces are derived. Explicit examples are given and quantum integrable Hamiltonians are constructed. They exhibit features similar to the Ruijsenaars-Schneider Hamiltonians.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-16T16:13:51Z</published>
+    <arxiv:comment>16 pages v2: signs in the classical reflection algebra corrected</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Lett Math Phys (2012) 101:85--101</arxiv:journal_ref>
+    <author>
+      <name>J. Avan</name>
+    </author>
+    <author>
+      <name>E. Ragoucy</name>
+    </author>
+    <arxiv:doi>10.1007/s11005-012-0548-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11005-012-0548-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0402403v2</id>
+    <title>Reflection subgroups of Euclidean reflection groups</title>
+    <updated>2005-07-05T05:58:26Z</updated>
+    <link href="https://arxiv.org/abs/math/0402403v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0402403v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we classify reflection subgroups of Euclidean Coxeter groups.</summary>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-02-25T06:15:09Z</published>
+    <arxiv:comment>22 pages; v.2: updated according to referee's comments. Section about finite reflection subgroups added. To appear in Sb. Math</arxiv:comment>
+    <arxiv:primary_category term="math.MG"/>
+    <arxiv:journal_ref>Sb. Math. 196 (2005), 1349-1369</arxiv:journal_ref>
+    <author>
+      <name>Anna Felikson</name>
+    </author>
+    <author>
+      <name>Pavel Tumarkin</name>
+    </author>
+    <arxiv:doi>10.1070/SM2005v196n09ABEH003646</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1070/SM2005v196n09ABEH003646" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.04375v1</id>
+    <title>Value Reflection: Motivation, Examples and The Role of Technology</title>
+    <updated>2023-05-07T20:37:12Z</updated>
+    <link href="https://arxiv.org/abs/2305.04375v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.04375v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Findings from existing research provide possible evidence that values are an important construct that should be part of the self-reflection process. However, many questions about value reflection remain unexplored. As such, this position paper aims to provide an overview of relevant research and frameworks, example studies on value reflection pursued by the authors, and design aspects that might both improve value reflection processes and provide a brief mapping of where and how technology could be of help.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-07T20:37:12Z</published>
+    <arxiv:comment>5 pages, 1 figure, ACM CHI 2023 Workshop: Integrating Individual and Social Contexts into Self-Reflection Technologies</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Ken Jen Lee</name>
+    </author>
+    <author>
+      <name>Edith Law</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.07880v1</id>
+    <title>Reflection Positivity Then and Now</title>
+    <updated>2018-02-21T14:23:49Z</updated>
+    <link href="https://arxiv.org/abs/1802.07880v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.07880v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We review the discovery of reflection positivity. We also explain a new geometric approach and proof of the reflection positivity property.</summary>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-21T14:23:49Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="math.HO"/>
+    <author>
+      <name>Arthur Jaffe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.1885v2</id>
+    <title>Reflection and refraction in Robert Grosseteste's De Lineis, Angulis et Figuris</title>
+    <updated>2013-09-20T08:13:42Z</updated>
+    <link href="https://arxiv.org/abs/1302.1885v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.1885v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In his scientific treatise entitled De Lineis, Angulis et Figuris, seu Fractionibus et Reflexionibus Radiorum, Robert Grosseteste is discussing some qualitative geometric rules about reflection and refraction. However, he is also discussing about the power of reflected and refracted light. The reading of these discussions is quite interesting, and what Grosseteste is telling seems well-posed, when compared with the Fresnel reflectance.</summary>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-06T15:36:07Z</published>
+    <arxiv:comment>Robert Grosseteste, Reflection, Refraction, Reflectance, Layout after revision of misprints</arxiv:comment>
+    <arxiv:primary_category term="physics.hist-ph"/>
+    <arxiv:journal_ref>THE INTERNATIONAL JOURNAL OF SCIENCES, 2013, Volume 2, Issue 9, pp. 101-107</arxiv:journal_ref>
+    <author>
+      <name>Amelia Carolina Sparavigna</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.3832v1</id>
+    <title>Wedge reflection positivity</title>
+    <updated>2010-09-20T14:32:12Z</updated>
+    <link href="https://arxiv.org/abs/1009.3832v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.3832v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show there is a positivity property for Wightman functions which is analogous to the reflection positivity for the euclidean ones. The role of euclidean time reflections is played here by the wedge reflections, which change the sign of the time and one of the spatial coordinates.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-20T14:32:12Z</published>
+    <arxiv:comment>8 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>H. Casini</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/44/43/435202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/44/43/435202" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0609124v2</id>
+    <title>Positive energy theorem implies constraints on static steller models</title>
+    <updated>2006-11-21T01:26:17Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0609124v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0609124v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Using the positive energy theorem, we derive some constraints on static steller models in asymptotically flat spacetimes in a general setting without imposing spherical symmetry. We show that there exist no regular solutions under certain conditions on the equation of state. As the contraposition, we obtain some constraints on the pressure and adiabatic index.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-27T06:29:14Z</published>
+    <arxiv:comment>7 pages, final version accepted for publication in Prog. Theore. Phys</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Prog.Theor.Phys.116:1159-1164,2007</arxiv:journal_ref>
+    <author>
+      <name>Tetsuya Shiromizu</name>
+    </author>
+    <author>
+      <name>Hirotaka Yoshino</name>
+    </author>
+    <arxiv:doi>10.1143/PTP.116.1159</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1143/PTP.116.1159" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.17521v2</id>
+    <title>Recent Advances in Large Langauge Model Benchmarks against Data Contamination: From Static to Dynamic Evaluation</title>
+    <updated>2025-09-29T23:26:23Z</updated>
+    <link href="https://arxiv.org/abs/2502.17521v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.17521v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data contamination has received increasing attention in the era of large language models (LLMs) due to their reliance on vast Internet-derived training corpora. To mitigate the risk of potential data contamination, LLM benchmarking has undergone a transformation from static to dynamic benchmarking. In this work, we conduct an in-depth analysis of existing static to dynamic benchmarking methods aimed at reducing data contamination risks. We first examine methods that enhance static benchmarks and identify their inherent limitations. We then highlight a critical gap-the lack of standardized criteria for evaluating dynamic benchmarks. Based on this observation, we propose a series of optimal design principles for dynamic benchmarking and analyze the limitations of existing dynamic benchmarks. This survey provides a concise yet comprehensive overview of recent advancements in data contamination research, offering valuable insights and a clear guide for future research efforts. We maintain a GitHub repository to continuously collect both static and dynamic benchmarking methods for LLMs. The repository can be found at this link.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-23T08:18:37Z</published>
+    <arxiv:comment>Github Link: https://github.com/SeekingDream/Static-to-Dynamic-LLMEval</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Simin Chen</name>
+    </author>
+    <author>
+      <name>Yiming Chen</name>
+    </author>
+    <author>
+      <name>Zexin Li</name>
+    </author>
+    <author>
+      <name>Yifan Jiang</name>
+    </author>
+    <author>
+      <name>Zhongwei Wan</name>
+    </author>
+    <author>
+      <name>Yixin He</name>
+    </author>
+    <author>
+      <name>Dezhi Ran</name>
+    </author>
+    <author>
+      <name>Tianle Gu</name>
+    </author>
+    <author>
+      <name>Haizhou Li</name>
+    </author>
+    <author>
+      <name>Tao Xie</name>
+    </author>
+    <author>
+      <name>Baishakhi Ray</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.07126v1</id>
+    <title>Reflection Positive Doubles</title>
+    <updated>2016-07-25T01:33:04Z</updated>
+    <link href="https://arxiv.org/abs/1607.07126v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.07126v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Here we introduce reflection positive doubles, a general framework for reflection positivity, covering a wide variety of systems in statistical physics and quantum field theory. These systems may be bosonic, fermionic, or parafermionic in nature. Within the framework of reflection positive doubles, we give necessary and sufficient conditions for reflection positivity. We use a reflection-invariant cone to implement our construction. Our characterization allows for a direct interpretation in terms of coupling constants, making it easy to check in concrete situations. We illustrate our methods with numerous examples.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-25T01:33:04Z</published>
+    <arxiv:comment>53 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Funct. Anal. 272 (2017), 3506-3557</arxiv:journal_ref>
+    <author>
+      <name>Arthur Jaffe</name>
+    </author>
+    <author>
+      <name>Bas Janssens</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0505324v2</id>
+    <title>Hodge metrics and positivity of direct images</title>
+    <updated>2005-11-19T16:00:11Z</updated>
+    <link href="https://arxiv.org/abs/math/0505324v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0505324v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Building on Fujita-Griffiths method of computing metrics on Hodge bundles, we show that the direct image of an adjoint semi-ample line bundle by a projective submersion has a continuous metric with Griffiths semi-positive curvature. This shows that for every holomorphic semi-ample vector bundle $E$ on a complex manifold, and every positive integer $k$, the vector bundle $S^kE\otimes\det E$ has a continuous metric with Griffiths semi-positive curvature. If $E$ is ample on a projective manifold, the metric can be made smooth and Griffiths positive.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-05-16T12:36:36Z</published>
+    <arxiv:comment>revised and expanded version of "A positivity property of ample vector bundles"</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <arxiv:journal_ref>journal für die reine und angewandte Mathematik (Crelles Journal), de Gruyter, 2007, 2007 (606), pp.167-178</arxiv:journal_ref>
+    <author>
+      <name>Christophe Mourougane</name>
+      <arxiv:affiliation>IMJ</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shigeharu Takayama</name>
+    </author>
+    <arxiv:doi>10.1515/CRELLE.2007.039</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1515/CRELLE.2007.039" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.6145v2</id>
+    <title>Andreev reflection in rotating superfluid $^3$He-B</title>
+    <updated>2014-10-16T15:46:13Z</updated>
+    <link href="https://arxiv.org/abs/1408.6145v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1408.6145v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Andreev reflection of quasiparticle excitations from quantized line vortices is reviewed in the isotropic B phase of superfluid $^3$He in the temperature regime of ballistic quasiparticle transport at $T \leq 0.20\,T_\mathrm{c}$. The reflection from an array of rectilinear vortices in solid-body rotation is measured with a quasiparticle beam illuminating the array mainly in the orientation along the rotation axis. The result is in agreement with the calculated Andreev reflection. The Andreev signal is also used to analyze the spin down of the superfluid component after a sudden impulsive stop of rotation from an equilibrium vortex state. In a measuring setup where the rotating cylinder has a rough bottom surface, annihilation of the vortices proceeds via a leading rapid turbulent burst followed by a trailing slow laminar decay from which the mutual friction dissipation can be determined. In contrast to currently accepted theory, mutual friction is found to have a finite value in the zero temperature limit: $α(T \rightarrow 0) = (5 \pm 0.5) \cdot 10^{-4}$.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-08-26T15:09:52Z</published>
+    <arxiv:comment>14 pages, 10 figures, overview of Andreev reflection measurements in a rotating cylinder</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <arxiv:journal_ref>JETP vol. 146, No. 6 (2014)</arxiv:journal_ref>
+    <author>
+      <name>V. B. Eltsov</name>
+    </author>
+    <author>
+      <name>J. J. Hosio</name>
+    </author>
+    <author>
+      <name>M. Krusius</name>
+    </author>
+    <author>
+      <name>J. T. Mäkinen</name>
+    </author>
+    <arxiv:doi>10.1134/S1063776114120115</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/S1063776114120115" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.01777v11</id>
+    <title>Penalty Method for Obliquely Reflected Diffusions</title>
+    <updated>2021-08-06T08:36:51Z</updated>
+    <link href="https://arxiv.org/abs/1509.01777v11" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.01777v11" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Take a multidimensional normally or obliquely reflected diffusion in a smooth domain. Approximate it by solutions of stochastic differential equations without reflection using the penalty method. That is, we approximate the reflection term with an additional drift term. In the existing literature, usually a specific approximating sequence is provided in order to prove existence of a reflected diffusion. In this article, we provide general sufficient conditions on the approximating coefficients.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-06T07:19:40Z</published>
+    <arxiv:comment>30 pages. Keywords: reflected diffusion, reflected Brownian motion, stochastic differential equation, oblique reflection, weak convergence, penalty method</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Andrey Sarantsev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.03887v2</id>
+    <title>A Hierarchical Tree-based approach for creating Configurable and Static Deep Research Agent (Static-DRA)</title>
+    <updated>2025-12-04T05:41:20Z</updated>
+    <link href="https://arxiv.org/abs/2512.03887v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.03887v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The advancement in Large Language Models has driven the creation of complex agentic systems, such as Deep Research Agents (DRAs), to overcome the limitations of static Retrieval Augmented Generation (RAG) pipelines in handling complex, multi-turn research tasks. This paper introduces the Static Deep Research Agent (Static-DRA), a novel solution built upon a configurable and hierarchical Tree-based static workflow.
+  The core contribution is the integration of two user-tunable parameters, Depth and Breadth, which provide granular control over the research intensity. This design allows end-users to consciously balance the desired quality and comprehensiveness of the research report against the associated computational cost of Large Language Model (LLM) interactions. The agent's architecture, comprising Supervisor, Independent, and Worker agents, facilitates effective multi-hop information retrieval and parallel sub-topic investigation.
+  We evaluate the Static-DRA against the established DeepResearch Bench using the RACE (Reference-based Adaptive Criteria-driven Evaluation) framework. Configured with a depth of 2 and a breadth of 5, and powered by the gemini-2.5-pro model, the agent achieved an overall score of 34.72. Our experiments validate that increasing the configured Depth and Breadth parameters results in a more in-depth research process and a correspondingly higher evaluation score. The Static-DRA offers a pragmatic and resource-aware solution, empowering users with transparent control over the deep research process. The entire source code, outputs and benchmark results are open-sourced at https://github.com/SauravP97/Static-Deep-Research/</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-03T15:37:13Z</published>
+    <arxiv:comment>16 pages, 6 figures, 4 tables. Code available at: https://github.com/SauravP97/Static-Deep-Research</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Saurav Prateek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.12180v3</id>
+    <title>Riccati Equation for Static Spaces and its Applications</title>
+    <updated>2025-04-19T12:38:26Z</updated>
+    <link href="https://arxiv.org/abs/2408.12180v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.12180v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we derive a Riccati-type equation applicable to (sub-)static Einstein spaces and examine its various applications. Specifically, within the framework of conformally compactifiable manifolds, we prove a splitting theorem for the Riemannian universal covering. Furthermore, we demonstrate two distinct methods by which the Riccati equation can establish the connectivity of the conformal boundary under the static Einstein equation. Additionally, for compact static triples possessing positive scalar curvature, we establish the compactness of the universal covering.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-22T07:54:34Z</published>
+    <arxiv:comment>A new theorem added: we use an integral formula to prove that $H^1(M)=0$ for static triple with positive scalar curvature</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Zhixin Wang</name>
+    </author>
+  </entry>
+</feed>

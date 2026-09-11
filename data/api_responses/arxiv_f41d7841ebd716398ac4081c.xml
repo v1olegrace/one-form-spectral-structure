@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/i/qUq9XMa/KskBS+LvNXlu8cgUE</id>
+  <title>arXiv Query: search_query=all:Tauberian OR all:theorem OR all:Laplace OR all:transform OR all:Karamata OR all:regular OR all:variation&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Tauberian+OR+(all:theorem+OR+(all:Laplace+OR+(all:transform+OR+(all:Karamata+OR+(all:regular+OR+all:variation)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>518840</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1711.07892v1</id>
+    <title>A quantified Tauberian theorem for Laplace-Stieltjes transform</title>
+    <updated>2017-11-21T16:35:59Z</updated>
+    <link href="https://arxiv.org/abs/1711.07892v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.07892v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a quantified Tauberian theorem involving Laplace-Stieltjes transform which is motivated by the work of Ingham and Karamata. For this, we consider functions which are locally of bounded variation and, therefore, get a generalisation of some results of Batty and Duyckaerts. We show that our theorem can be applied to special Dirichlet series.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-21T16:35:59Z</published>
+    <arxiv:comment>13 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Markus Hartlapp</name>
+    </author>
+    <arxiv:doi>10.1007/s00013-018-1164-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00013-018-1164-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.03809v1</id>
+    <title>A general quantified Ingham-Karamata Tauberian theorem</title>
+    <updated>2024-11-06T10:14:02Z</updated>
+    <link href="https://arxiv.org/abs/2411.03809v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.03809v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide a general quantified Ingham-Karamata Tauberian theorem with a flexible one-sided Tauberian condition under several types of boundary behavior for the Laplace transform. Our results in particular improve a theorem by Stahn, removing a vexing restriction on the growth of the Laplace transform. Improving existing optimality results, we also show that the obtained quantified rate is optimal in almost all cases.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-06T10:14:02Z</published>
+    <arxiv:comment>58 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Gregory Debruyne</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0312104v1</id>
+    <title>A Tauberian Theorem for Laplace Transforms with Pseudofunction Boundary Behavior</title>
+    <updated>2003-12-04T14:45:00Z</updated>
+    <link href="https://arxiv.org/abs/math/0312104v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0312104v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The prime number theorem provided the chief impulse for complex Tauberian theory, in which the boundary behavior of a transform in the complex plane plays a crucial role. We consider Laplace transforms of bounded functions. Our Tauberian theorem does not allow first-order poles on the imaginary axis, but any milder singularities, characterized by pseudofunction boundary behavior, are permissible. In this context we obtain a useful Tauberian theorem by exploiting Newman's `contour method'.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-12-04T14:45:00Z</published>
+    <arxiv:comment>11 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Jaap Korevaar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.7269v1</id>
+    <title>New proof of Tauberian theorem of Laplace Transform and Prime Number Theorem</title>
+    <updated>2014-02-28T15:04:04Z</updated>
+    <link href="https://arxiv.org/abs/1402.7269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.7269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give here a new proof of a Tauberian Theorem of complex Laplace transform using the Theory of measure and theory of function with bounded variations. However we deduce the simple proof of Prime Number Theorem.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-28T15:04:04Z</published>
+    <arxiv:comment>in French</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Lahoucine Elaissaoui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.2491v2</id>
+    <title>The Prime Number Theorem via Karamata's proof of the Landau-Ingham Tauberian theorem</title>
+    <updated>2015-01-19T11:41:46Z</updated>
+    <link href="https://arxiv.org/abs/1311.2491v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.2491v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is an exposition, in 12 pages including all prerequisites and a generalization, of Karamata's little known elementary proof of the Landau-Ingham Tauberian theorem, a result in real analysis from which the Prime Number Theorem follows in a few lines. We believe this to be the most transparent of the elementary proofs of the PNT.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-11T16:44:57Z</published>
+    <arxiv:comment>Latex2e, 17 pages, no figures. Proof of Theorem 2.4 has been improved, otherwise minor changes. To appear in L'Enseignement Mathematique</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>L'Enseign. Math. 61, 45-69 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Michael Mueger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.00902v2</id>
+    <title>A multidimensional Tauberian theorem for Laplace transforms of ultradistributions</title>
+    <updated>2019-12-08T18:17:02Z</updated>
+    <link href="https://arxiv.org/abs/1902.00902v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.00902v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We obtain a multidimensional Tauberian theorem for Laplace transforms of Gelfand-Shilov ultradistributions. The result is derived from a Laplace transform characterization of bounded sets in spaces of ultradistributions with supports in a convex acute cone of $\mathbb{R}^{n}$, also established here.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-03T14:26:52Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Integral Transforms Spec. Funct. 31 (2020), 395-411</arxiv:journal_ref>
+    <author>
+      <name>Lenny Neyt</name>
+    </author>
+    <author>
+      <name>Jasson Vindas</name>
+    </author>
+    <arxiv:doi>10.1080/10652469.2019.1699556</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10652469.2019.1699556" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.13075v2</id>
+    <title>A continuity theorem for generalised signed measures with an application to Karamata's Tauberian theorem</title>
+    <updated>2023-03-29T22:40:12Z</updated>
+    <link href="https://arxiv.org/abs/2205.13075v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.13075v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Laplace transforms of positive measures on $\mathbb{R}_{+}$ converge if and only if their distribution functions converge at continuity points of the limiting measure. We extend this classical continuity theorem to the case of generalised signed Radon measures. The result for the signed case requires some additional conditions, which follow from recent results on vague convergence of signed Radon measures. As an application, we introduce a novel Tauberian condition for generalised signed Radon measures that extends Karamata's Tauberian theorem.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-25T22:57:17Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Martin Herdegen</name>
+    </author>
+    <author>
+      <name>Gechun Liang</name>
+    </author>
+    <author>
+      <name>Osian Shelley</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.00667v3</id>
+    <title>Optimal Tauberian constant in Ingham's theorem for Laplace transforms</title>
+    <updated>2018-07-09T22:31:42Z</updated>
+    <link href="https://arxiv.org/abs/1705.00667v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.00667v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is well known that there is an absolute constant $\mathfrak{C}&gt;0$ such that if the Laplace transform $G(s)=\int_{0}^{\infty}ρ(x)e^{-s x}\:\mathrm{d}x$ of a bounded function $ρ$ has analytic continuation through every point of the segment $(-iλ,iλ)$ of the imaginary axis, then $$ \limsup_{x\to\infty} \left|\int_{0}^{x}ρ(u)\:\mathrm{d}u - G(0)\right|\leq \frac{ \mathfrak{C}}λ \: \limsup_{x\to\infty} |ρ(x)|. $$ The best known value of the constant $\mathfrak{C}$ was so far $\mathfrak{C}=2$. In this article we show that the inequality holds with $\mathfrak{C}=π/2$ and that this value is best possible. We also sharpen Tauberian constants in finite forms of other related complex Tauberian theorems for Laplace transforms.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-01T19:00:12Z</published>
+    <arxiv:comment>22 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Israel J. Math. 228 (2018), 557-586</arxiv:journal_ref>
+    <author>
+      <name>Gregory Debruyne</name>
+    </author>
+    <author>
+      <name>Jasson Vindas</name>
+    </author>
+    <arxiv:doi>10.1007/s11856-018-1758-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11856-018-1758-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.15547v2</id>
+    <title>On a space of functions with entire Laplace transforms and its connection with the optimality of the Ingham-Karamata theorem</title>
+    <updated>2025-05-20T15:31:08Z</updated>
+    <link href="https://arxiv.org/abs/2407.15547v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.15547v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study approximation properties of the Fréchet space of all continuously differentiable functions $τ$ such that $τ'(x)=o(1)$ and such that their Laplace transforms admit entire extensions to $\mathbb{C}$. As an application, these approximation results are combined with the open mapping theorem to show the optimality theorem for the Ingham-Karamata Tauberian theorem.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-22T11:14:31Z</published>
+    <arxiv:comment>11 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Complex Anal. Oper. Theory 19 (2025), Article 85</arxiv:journal_ref>
+    <author>
+      <name>Morgan Callewaert</name>
+    </author>
+    <author>
+      <name>Lenny Neyt</name>
+    </author>
+    <author>
+      <name>Jasson Vindas</name>
+    </author>
+    <arxiv:doi>10.1007/s11785-025-01704-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11785-025-01704-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.05069v2</id>
+    <title>Complex Tauberian theorems for Laplace transforms with local pseudofunction boundary behavior</title>
+    <updated>2016-11-11T17:39:50Z</updated>
+    <link href="https://arxiv.org/abs/1604.05069v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.05069v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide several Tauberian theorems for Laplace transforms with local pseudofunction boundary behavior. Our results generalize and improve various known versions of the Ingham-Fatou-Riesz theorem and the Wiener-Ikehara theorem. Using local pseudofunction boundary behavior enables us to relax boundary requirements to a minimum. Furthermore, we allow possible null sets of boundary singularities and remove unnecessary uniformity conditions occurring in earlier works; to this end, we obtain a useful characterization of local pseudofunctions. Most of our results are proved under one-sided Tauberian hypotheses; in this context, we also establish new boundedness theorems for Laplace transforms with pseudomeasure boundary behavior. As an application, we refine various results related to the Katznelson-Tzafriri theorem for power series.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-18T10:19:51Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>J. Anal. Math. 138 (2019), 799-833</arxiv:journal_ref>
+    <author>
+      <name>Gregory Debruyne</name>
+    </author>
+    <author>
+      <name>Jasson Vindas</name>
+    </author>
+    <arxiv:doi>10.1007/s11854-019-0045-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11854-019-0045-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.18859v9</id>
+    <title>A Tauberian characterization of the Riemann hypothesis through the floor function</title>
+    <updated>2024-12-16T17:28:40Z</updated>
+    <link href="https://arxiv.org/abs/2407.18859v9" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.18859v9" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new Tauberian framework through the theory of "regular arithmetic functions". This allows us to establish a characterization of the Riemann hypothesis by linking the floor function to the distribution of nontrivial zeros of the Riemann zeta function. We thereby obtain a novel Tauberian equivalence of the Riemann hypothesis, extending classical Tauberian theorems beyond their traditional confinement to the prime number theorem. We further uncover connections to combinatorial number theory and set the groundwork for a "combinatorial Tauberian theory", highlighting the broader applicability of regular arithmetic functions.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-26T16:47:54Z</published>
+    <arxiv:comment>36 pages. Major revisions: revised title and abstract to focus on Tauberian-floor function approach; restructured introduction with RAF framework; added combinatorial applications; streamlined presentation (reduced from 44 to 36 pages). All essential results preserved</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Benoit Cloitre</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.5090v2</id>
+    <title>Multidimensional Tauberian theorems for wavelet and non-wavelet transforms</title>
+    <updated>2011-04-26T12:19:28Z</updated>
+    <link href="https://arxiv.org/abs/1012.5090v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.5090v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study several Tauberian properties of regularizing transforms of tempered distributions with values in Banach spaces, that is, transforms of the form $M^{\mathbf{f}}_φ(x,y)=(\mathbf{f}\astφ_{y})(x)$, where the kernel $φ$ is a test function and $φ_{y}(\cdot)=y^{-n}φ(\cdot/y)$. If the zeroth moment of $φ$ vanishes, it is a wavelet type transform; otherwise, we say it is a non-wavelet type transform.
+  The first aim of this work is to show that the scaling (weak) asymptotic properties of distributions are \emph{completely} determined by boundary asymptotics of the regularizing transform plus natural Tauberian hypotheses. Our second goal is to characterize the spaces of Banach space-valued tempered distributions in terms of the transform $M^{\mathbf{f}}_φ(x,y)$. We investigate conditions which ensure that a distribution that a priori takes values in locally convex space actually takes values in a narrower Banach space. Special attention is paid to find the \emph{optimal} class of kernels $φ$ for which these Tauberian results hold.
+  We give various applications of our Tauberian theory in the pointwise and (micro-)local regularity analysis of Banach space-valued distributions, and develop a number of techniques which are specially useful when applied to scalar-valued functions and distributions. Among such applications, we obtain the full weak-asymptotic series expansion of the family of Riemann-type distributions $R_β(x)=\sum_{n=1}^{\infty}e^{iπxn^{2}}/n^{2β}$, $β\in\mathbb{C}$, at every rational point. We also apply the results to regularity theory within generalized function algebras, to the stabilization of solutions for a class of Cauchy problems, and to Tauberian theorems for the Laplace transform.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-22T20:40:13Z</published>
+    <arxiv:comment>100 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Stevan Pilipović</name>
+    </author>
+    <author>
+      <name>Jasson Vindas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.4291v1</id>
+    <title>Multidimensional Tauberian theorems for vector-valued distributions</title>
+    <updated>2013-04-15T23:21:04Z</updated>
+    <link href="https://arxiv.org/abs/1304.4291v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.4291v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove several Tauberian theorems for regularizing transforms of vector-valued distributions. The regularizing transform of $f$ is given by the integral transform $M^{f}_{\varphi}(x,y)=(f\ast\varphi_{y})(x),$ $(x,y)\in\mathbb{R}^{n}\times\mathbb{R}_{+}$, with kernel $\varphi_{y}(t)=y^{-n}\varphi(t/y)$. We apply our results to the analysis of asymptotic stability for a class of Cauchy problems, Tauberian theorems for the Laplace transform, the comparison of quasiasymptotics in distribution spaces, and we give a necessary and sufficient condition for the existence of the trace of a distribution on $\left\{x_0\right\}\times \mathbb R^m$. In addition, we present a new proof of Littlewood's Tauberian theorem.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-15T23:21:04Z</published>
+    <arxiv:comment>28 pages. arXiv admin note: substantial text overlap with arXiv:1012.5090</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Publ. Inst. Math. (Beograd) 95 (2014), 1-28</arxiv:journal_ref>
+    <author>
+      <name>Stevan Pilipovic</name>
+    </author>
+    <author>
+      <name>Jasson Vindas</name>
+    </author>
+    <arxiv:doi>10.2298/PIM1409001P</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2298/PIM1409001P" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.1408v1</id>
+    <title>Distributional versions of Littlewood's Tauberian theorem</title>
+    <updated>2012-01-06T13:07:46Z</updated>
+    <link href="https://arxiv.org/abs/1201.1408v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.1408v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide several general versions of Littlewood's Tauberian theorem. These versions are applicable to Laplace transforms of Schwartz distributions. We apply these Tauberian results to deduce a number of Tauberian theorems for power series where Cesàro summability follows from Abel summability. We also use our general results to give a new simple proof of the classical Littlewood one-sided Tauberian theorem for power series.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-06T13:07:46Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Czechoslovak Math. J 63 (2013), 403-420</arxiv:journal_ref>
+    <author>
+      <name>Ricardo Estrada</name>
+    </author>
+    <author>
+      <name>Jasson Vindas</name>
+    </author>
+    <arxiv:doi>10.1007/s10587-013-0025-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10587-013-0025-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.02440v1</id>
+    <title>Wiener Tauberian theorem for hypergeometric transforms</title>
+    <updated>2015-09-08T16:49:02Z</updated>
+    <link href="https://arxiv.org/abs/1509.02440v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.02440v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a genuine analogue of Wiener Tauberian theorem for hypergeometric transforms. As an application we prove analogue of Furstenberg theorem on Harmonic functions.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-08T16:49:02Z</published>
+    <arxiv:comment>15 pages, Continuation of arXiv:1508.06199</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sanjoy Pusti</name>
+    </author>
+    <author>
+      <name>Amit Samanta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0506122v1</id>
+    <title>Nonlinear problems with boundary blow-up: a Karamata regular variation theory approach</title>
+    <updated>2005-06-07T20:18:19Z</updated>
+    <link href="https://arxiv.org/abs/math/0506122v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0506122v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the uniqueness and expansion properties of the positive solution of the logistic equation $Δu+au=b(x)f(u)$ in a smooth bounded domain $Ω$, subject to the singular boundary condition $u=+\infty$ on $\partialΩ$. The absorption term $f$ is a positive function satisfying the Keller--Osserman condition and such that the mapping $f(u)/u$ is increasing on $(0,+\infty)$. We assume that $b$ is non-negative, while the values of the real parameter $a$ are related to an appropriate semilinear eigenvalue problem. Our analysis is based on the Karamata regular variation theory.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-06-07T20:18:19Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Florica Corina Cirstea</name>
+      <arxiv:affiliation>ANU CANBERRA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vicentiu Radulescu</name>
+      <arxiv:affiliation>UCV</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.13019v1</id>
+    <title>An elementary Tauberian proof of the Prime Number Theorem</title>
+    <updated>2024-04-19T17:27:29Z</updated>
+    <link href="https://arxiv.org/abs/2404.13019v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.13019v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a simple Tauberian proof of the Prime Number Theorem using only elementary real analysis. Hence, the analytic continuation of Riemann's zeta function $ζ$ and its non-vanishing value on the whole line $\{z\in {\mathbb C};\,{\mathrm{Re}\,} z=1\}$ are no more required. This is achieved by showing a strong extension for Laplace transforms on the real line of Wiener--Ikehara's theorem on Dirichlet's series, where the Tauberian assumption is reduced to a local boundary behavior around the pole.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-19T17:27:29Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Philippe Angot</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.04160v2</id>
+    <title>A Wiener Tauberian theorem for operators and functions</title>
+    <updated>2020-12-17T06:57:19Z</updated>
+    <link href="https://arxiv.org/abs/2005.04160v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.04160v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove variants of Wiener's Tauberian theorem in the framework of quantum harmonic analysis, i.e. for convolutions between an absolutely integrable function and a trace class operator, or of two trace class operators. Our results include Wiener's Tauberian theorem as a special case. Applications of our Tauberian theorems are related to localization operators, Toeplitz operators, isomorphism theorems between Bargmann-Fock spaces and quantization schemes with consequences for Shubin's pseudodifferential operator calculus and Born-Jordan quantization. Based on the links between localization operators and Tauberian theorems we note that the analogue of Pitt's Tauberian theorem in our setting implies compactness results for Toeplitz operators in terms of the Berezin transform. In addition, we extend the results on Toeplitz operators to other reproducing kernel Hilbert spaces induced by the short-time Fourier transform, known as Gabor spaces. Finally, we establish the equivalence of Wiener's Tauberian theorem and the condition in the characterization of compactness of localization operators due to Fernández and Galbis.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-08T16:58:25Z</published>
+    <arxiv:comment>39 pages v2) Accepted for publication in Journal of Functional Analysis. Smaller changes and references added based on helpful feedback from referee</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Franz Luef</name>
+    </author>
+    <author>
+      <name>Eirik Skrettingland</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.17655v1</id>
+    <title>The prime number theorem through one-sided Tauberian theorems</title>
+    <updated>2024-03-26T12:37:28Z</updated>
+    <link href="https://arxiv.org/abs/2403.17655v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.17655v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this expository article we provide an elegant proof of the one-sided Ingham-Karamata Tauberian theorem. As an application, we present a short deduction of the prime number theorem.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-26T12:37:28Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Gregory Debruyne</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.5686v3</id>
+    <title>Abelian and Tauberian theorems for integrals</title>
+    <updated>2013-01-23T19:31:59Z</updated>
+    <link href="https://arxiv.org/abs/1212.5686v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.5686v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A new method of obtaining Abelian and Tauberian theorems for the integral of the form $\int\limits_0^\infty K(\frac{t}{r}) dμ(t)$ is proposed. It is based on the use of limit sets of the measures. A version of Azarin's sets is constructed for Radon's measures on the ray $(0,\infty)$. Abelian theorems of a new type are proved in which asymptotic behavior of the integral is described in terms of these limit sets. Using these theorems together with an improved version of the well-known Carleman's theorem on analytic continuation, a substantial improvement of the second Wiener Tauberian theorem is obtained. Reference: 25 units. Keywords: proximate order of Valiron, Radon's measures, Azarin's limit set of measure, Azarin's regular measure, Tauberian theorem of Wiener.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-22T12:46:48Z</published>
+    <arxiv:comment>73 pages, in Russian</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>A. F. Grishin</name>
+    </author>
+    <author>
+      <name>I. V. Poedintseva</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0712.3410v1</id>
+    <title>Tauberian theorems and large deviations</title>
+    <updated>2007-12-20T13:29:13Z</updated>
+    <link href="https://arxiv.org/abs/0712.3410v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0712.3410v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The link between Tauberian theorems and large deviations is surveyed, with particular reference to regular variation.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-12-20T13:29:13Z</published>
+    <arxiv:comment>To appear in a Special Volume of Stochastics: An International Journal of Probability and Stochastic Processes (http://www.informaworld.com/openurl?genre=journal%26issn=1744-2508) edited by N.H. Bingham and I.V. Evstigneev which will be reprinted as Volume 57 of the IMS Lecture Notes Monograph Series (http://imstat.org/publications/lecnotes.htm)</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>N. H. Bingham</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.07511v1</id>
+    <title>Quaternionic slice regular functions and quaternionic Laplace transforms</title>
+    <updated>2020-06-12T23:38:38Z</updated>
+    <link href="https://arxiv.org/abs/2006.07511v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.07511v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The functions studied in the paper are quaternion-valued functions of a quaternionic variable. It is show that the left slice regular functions and right slice regular functions are related by a particular involution. The relation between left slice regular functions, right slice regular functions and intrinsic regular functions is revealed. The classical Laplace transform can be naturally generalized to quaternions in two different ways, which transform a quaternion-valued function of a real variable to a left or right slice regular quaternion-valued function of a quaternionic variable. The usual properties of the classical Laplace transforms are generalized to quaternionic Laplace transforms.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-12T23:38:38Z</published>
+    <arxiv:comment>19 gages</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Gang Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.04348v2</id>
+    <title>An Eigenfunction Approach to Conversion of the Laplace Transform of Point Masses on the Real Line to the Fourier Domain</title>
+    <updated>2025-05-23T04:53:26Z</updated>
+    <link href="https://arxiv.org/abs/2402.04348v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.04348v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by applications in magnetic resonance relaxometry, we consider the following problem: Given samples of a function $t\mapsto \sum_{k=1}^K A_k\exp(-tλ_k)$, where $K\ge 2$ is an integer, $A_k\in\mathbb{R}$, $λ_k&gt;0$ for $k=1,\cdots, K$, determine $K$, $A_k$'s and $λ_k$'s. Unlike the case in which the $λ_k$'s are purely imaginary, this problem is notoriously ill-posed. Our goal is to show that this problem can be transformed into an equivalent one in which the $λ_k$'s are replaced by $iλ_k$. We show that this may be accomplished by approximation in terms of Hermite functions, and using the fact that these functions are eigenfunctions of the Fourier transform. We present a preliminary numerical exploration of parameter extraction from this formalism, including the effect of noise. We do not claim to have eliminated the inherent ill-posedness of the original problem, as reflected in the numerical results.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-06T19:31:34Z</published>
+    <arxiv:comment>Original title:Inversion of the Laplace Transform of Point Masses,</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Available online Applied and computational harmonic analysis, 2025</arxiv:journal_ref>
+    <author>
+      <name>Michael McKenna</name>
+    </author>
+    <author>
+      <name>Hrushikesh N. Mhaskar</name>
+    </author>
+    <author>
+      <name>Richard G. Spencer</name>
+    </author>
+    <arxiv:doi>10.1016/j.acha.2025.101776</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.acha.2025.101776" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0907.4534v2</id>
+    <title>A Tauberian theorem for Ingham summation method</title>
+    <updated>2010-05-28T05:55:48Z</updated>
+    <link href="https://arxiv.org/abs/0907.4534v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0907.4534v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The aim of this work is to prove a Tauberian theorem for the Ingham summability method. The Tauberian theorem we prove is then applied to analyze asymptotics of mean values of multiplicative functions on natural numbers.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-07-27T01:32:14Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Acta Arithmetica, 148 (2011), 31-54</arxiv:journal_ref>
+    <author>
+      <name>Vytas Zacharovas</name>
+    </author>
+    <arxiv:doi>10.4064/aa148-1-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4064/aa148-1-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.12854v1</id>
+    <title>A nonstandard approach to Karamata uniform convergence theorem</title>
+    <updated>2022-10-17T13:22:06Z</updated>
+    <link href="https://arxiv.org/abs/2211.12854v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.12854v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A nonstandard proof of a generalization of Karamata uniform convergence theorem for slowly varying functions is presented. Properties of a related operator $\mathcal{L}$ and its connection with slowly varying functions are discussed.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-17T13:22:06Z</published>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Žarko Mijajlović</name>
+    </author>
+    <author>
+      <name>Danijela Branković</name>
+    </author>
+  </entry>
+</feed>

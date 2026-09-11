@@ -1,0 +1,1004 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WKNWxaUy2mYfbJips5uemwHgUao</id>
+  <title>arXiv Query: search_query=all:spectral OR all:representation OR all:of OR all:the OR all:photon OR all:propagator OR all:positivity&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:39:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spectral+OR+(all:representation+OR+(all:of+OR+(all:the+OR+(all:photon+OR+(all:propagator+OR+all:positivity)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>695135</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6015v1</id>
+    <title>The spectral function of a first order elliptic system</title>
+    <updated>2012-08-30T06:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1208.6015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of squares of Euclidean norms of eigenfunctions evaluated at a given point of the manifold, with summation carried out over all eigenvalues between zero and a positive lambda) and the counting function (number of eigenvalues between zero and a positive lambda). We derive explicit two-term asymptotic formulae for all three. For the propagator "asymptotic" is understood as asymptotic in terms of smoothness, whereas for the spectral and counting functions "asymptotic" is understood as asymptotic with respect to lambda tending to plus infinity.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-30T06:55:33Z</published>
+    <arxiv:comment>This preprint is "part a" (proper subset) of preprint arXiv:1204.6567. Preprint arXiv:1204.6567 is being split into two parts on the recommendation of the referee of Journal of Spectral Theory. "Part b" will appear as a separate preprint under the title "Spectral theoretic characterization of the massless Dirac operator"</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2013, vol. 3, p. 317-360</arxiv:journal_ref>
+    <author>
+      <name>Olga Chervova</name>
+    </author>
+    <author>
+      <name>Robert J. Downes</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.08382v1</id>
+    <title>Conditionally positive definite kernels in Hilbert $C^*$-modules</title>
+    <updated>2016-11-25T08:35:02Z</updated>
+    <link href="https://arxiv.org/abs/1611.08382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.08382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the notion of conditionally positive definite in the context of Hilbert $C^*$-modules and present a characterization of the conditionally positive definiteness in terms of the usual positive definiteness. We give a Kolmogorov type representation of conditionally positive definite kernels in Hilbert $C^*$-modules. As a consequence, we show that a $C^*$-metric space $(S, d)$ is $C^*$-isometric to a subset of a Hilbert $C^*$-module if and only if $K(s,t)=-d(s,t)^2$ is a conditionally positive definite kernel. We also present a characterization of the order $K'\leq K$ between conditionally positive definite kernels.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-25T08:35:02Z</published>
+    <arxiv:comment>14 pages, to appear in Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <arxiv:journal_ref>Positivity 21 (2017), no. 3, 1161--1172</arxiv:journal_ref>
+    <author>
+      <name>Mohammad Sal Moslehian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14334v4</id>
+    <title>Invariant subspaces of elliptic systems II: spectral theory</title>
+    <updated>2022-02-08T09:57:39Z</updated>
+    <link href="https://arxiv.org/abs/2103.14334v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14334v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider an elliptic self-adjoint pseudodifferential operator $A$ acting on $m$-columns of half-densities on a closed manifold $M$, whose principal symbol is assumed to have simple eigenvalues. We show that the spectrum of $A$ decomposes, up to an error with superpolynomial decay, into $m$ distinct series, each associated with one of the eigenvalues of the principal symbol of $A$. These spectral results are then applied to the study of propagation of singularities in hyperbolic systems. The key technical ingredient is the use of the carefully devised pseudodifferential projections introduced in the first part of this work, which decompose $L^2(M)$ into almost-orthogonal almost-invariant subspaces under the action of both $A$ and the hyperbolic evolution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T08:56:53Z</published>
+    <arxiv:comment>Minor edits, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, vol. 12 (2022), p. 301-338</arxiv:journal_ref>
+    <author>
+      <name>Matteo Capoferri</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0997v3</id>
+    <title>Spectral asymptotics for Robin problems with a discontinuous coefficient</title>
+    <updated>2011-01-27T13:41:51Z</updated>
+    <link href="https://arxiv.org/abs/1009.0997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral behavior of the difference between the resolvents of two realizations $\tilde A_1$ and $\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_1$ and $b_2$ are in $L_\infty$, the s-numbers $s_j$ of $(\tilde A_1 -λ)^{-1}-(\tilde A_2 -λ)^{-1}$ satisfy $s_j j^{3/(n-1)}\le C$ for all $j$; this improves a recent result for $A=-Δ$ by Behrndt et al., that $\sum_js_j ^p&lt;\infty$ for $p&gt;(n-1)/3$. A sharper estimate is obtained when $b_1$ and $b_2$ are in $C^ε$ for some $ε&gt;0$, with jumps at a smooth hypersurface, namely that $s_j j^{3/(n-1)}\to c$ for $j\to \infty$, with a constant $c$ defined from the principal symbol of $A$ and $b_2-b_1$.
+  As an auxiliary result we show that the usual principal spectral asymptotic estimate for pseudodifferential operators of negative order on a closed manifold extends to products of pseudodifferential operators interspersed with piecewise continuous functions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-06T09:28:34Z</published>
+    <arxiv:comment>20 pages, notation simplified. To appear in J. Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>J. Spectral Theory 1 (2011), 155-177</arxiv:journal_ref>
+    <author>
+      <name>Gerd Grubb</name>
+    </author>
+    <arxiv:doi>10.4171/JST/7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.2456v3</id>
+    <title>Polynomial representations and categorifications of Fock Space</title>
+    <updated>2012-08-29T20:36:36Z</updated>
+    <link href="https://arxiv.org/abs/1101.2456v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.2456v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rings of symmetric polynomials form an inverse system whose limit, the ring of symmetric functions, is the model for the bosonic Fock space representation of the affine Lie algebra. We categorify this construction by considering an inverse limit of categories of polynomial representation of general linear groups. We show that this limit naturally carries an action of the affine Lie algebra (in the sense of Rouquier), thereby obtaining a famiy of categorifications of the bosonic Fock space representation.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-12T21:12:55Z</published>
+    <arxiv:comment>32 pages, to appear in Algebras and Representation Theory</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Algebras and Representation Theory 16 (2013), no.5, 1273-1311</arxiv:journal_ref>
+    <author>
+      <name>Jiuzu Hong</name>
+    </author>
+    <author>
+      <name>Oded Yacobi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.09037v1</id>
+    <title>Reflection Positivity---A Representation Theoretic Perspective</title>
+    <updated>2018-02-25T16:42:11Z</updated>
+    <link href="https://arxiv.org/abs/1802.09037v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.09037v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Refection Positivity is a central theme at the crossroads of Lie group representations, euclidean and abstract harmonic analysis, constructive quantum field theory, and stochastic processes. This book provides the first presentation of the representation theoretic aspects of Refection Positivity and discusses its connections to those different fields on a level suitable for doctoral students and researchers in related fields.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-25T16:42:11Z</published>
+    <arxiv:comment>This is a preliminary version of a book on Reflection Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Karl-Hermann Neeb</name>
+    </author>
+    <author>
+      <name>Gestur Olafsson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.0795v4</id>
+    <title>Finite-Dimensional Representations of Hyper Loop Algebras Over Non-Algebraically Closed Fields</title>
+    <updated>2008-09-18T16:33:12Z</updated>
+    <link href="https://arxiv.org/abs/0711.0795v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.0795v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study finite-dimensional representations of hyper loop algebras over non-algebraically closed fields. The main results concern the classification of the irreducible representations, the construction of the Weyl modules, base change, tensor products of irreducible and Weyl modules, and the block decomposition of the underlying abelian category. Several results are interestingly related to the study of irreducible representations of polynomial algebras and Galois theory.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-06T03:42:55Z</published>
+    <arxiv:comment>final version, to appear in "Algebras and Representation Theory"</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Algebras and Representation Theory 13 (2010), no. 3, 271-301</arxiv:journal_ref>
+    <author>
+      <name>Dijana Jakelic</name>
+    </author>
+    <author>
+      <name>Adriano Moura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.0040v1</id>
+    <title>An Overview of the Anomalous Soft Photons in Hadron Production</title>
+    <updated>2014-03-31T21:13:09Z</updated>
+    <link href="https://arxiv.org/abs/1404.0040v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.0040v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Productions of soft photon with low transverse momenta in high-energy hadron-hadron collisions and $e^+$-$e^-$ annihilations indicate that they are consistently produced in excess of what are predicted by electromagnetic bremsstrahlung when hadrons (mostly mesons) are produced, but they agree with electromagnetic bremsstrahlung predictions in the absence of hadron production. These excess soft photons are called anomalous soft photons. The occurrence of anomalous soft photons in association with hadron production reveals the presence of additional QED soft photon sources in QCD hadron production. Many different models have been proposed to explain the anomalous soft production. We shall examine specifically a quantum field theory of simultaneous meson and soft photon production in QCDxQED in which the meson production arises from the oscillation of color charge densities of the quarks of the underlying vacuum in a flux tube. As a quark carries both a color charge and an electric charge, the oscillation of the color charge densities will be accompanied by the oscillation of electric charge densities, which will in turn lead to the simultaneous production of anomalous soft photons during the meson production process.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-31T21:13:09Z</published>
+    <arxiv:comment>16 pages, 2 figures, invited talk presented at International Conference on the Structure and the Interactions of the Photon including the 20th International Workshop on Photon-Photon Collisions and the International Workshop on High Energy Photon Linear Colliders 20-24 May 2013, Paris, France, to be published in Proceedings of Science</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Pos Photon, 192, 002 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Cheuk-Yin Wong</name>
+    </author>
+    <arxiv:doi>10.22323/1.192.0002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22323/1.192.0002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0402188v5</id>
+    <title>Structures and Representations of Generalized Path Algebras</title>
+    <updated>2006-06-09T13:18:12Z</updated>
+    <link href="https://arxiv.org/abs/math/0402188v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0402188v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is shown that an algebra $Λ$ can be lifted with nilpotent Jacobson radical $r = r(Λ)$ and has a generalized matrix unit $\{e_{ii}\}_I$ with each $\bar e_{ii} $ in the center of $\bar Λ= Λ/r$ iff $Λ$ is isomorphic to a generalized path algebra with weak relations. Representations of the generalized path algebras are given. As a corollary, $Λ$ is a finite algebra with non-zero unity element over perfect field $k$ (e.g. a field with characteristic zero or a finite field) iff $Λ$ is isomorphic to a generalized path algebra $k (D, Ω, ρ)$ of finite directed graph with weak relations and $dim {\} Ω&lt; \infty $; $Λ$ is a generalized elementary algebra which can be lifted with nilpotent Jacobson radical and has a complete set of pairwise orthogonal idempotents iff $Λ$ is isomorphic to a path algebra with relations.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-02-12T00:13:43Z</published>
+    <arxiv:comment>19 pages. To appear in Algebras and Representation Theory</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <arxiv:journal_ref>Algebras and Representation Theory 10 (2007), 117-134</arxiv:journal_ref>
+    <author>
+      <name>Shouchuan Zhang</name>
+    </author>
+    <author>
+      <name>Yao-Zhong Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.0140v4</id>
+    <title>Representations of hom-Lie algebras</title>
+    <updated>2012-11-11T02:11:28Z</updated>
+    <link href="https://arxiv.org/abs/1005.0140v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.0140v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study representations of hom-Lie algebras. In particular, the adjoint representation and the trivial representation of hom-Lie algebras are studied in detail. Derivations, deformations, central extensions and derivation extensions of hom-Lie algebras are also studied as an application.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-02T13:29:20Z</published>
+    <arxiv:comment>16 pages, multiplicative and regular hom-Lie algebras are used, Algebra and Representation Theory, 15 (6) (2012), 1081-1098</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Algebra and Representation Theory, 15 (6) (2012), 1081-1098</arxiv:journal_ref>
+    <author>
+      <name>Yunhe Sheng</name>
+    </author>
+    <arxiv:doi>10.1007/s10468-011-9280-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10468-011-9280-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.02493v4</id>
+    <title>Clifford theory for glider representations</title>
+    <updated>2016-10-17T13:15:34Z</updated>
+    <link href="https://arxiv.org/abs/1603.02493v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.02493v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Classical Clifford theory studies the decomposition of simple $G$-modules into simple $H$-modules for some normal subgroup $H \triangleleft G$. In this paper we deal with chains of normal subgroups $1 \triangleleft G_1 \triangleleft \cdots \triangleleft G_d =G$, which allow to consider fragments and in particular glider representations. These are given by a descending chain of vector spaces over some field $K$ and relate different representations of the groups appearing in the chain. Picking some normal subgroup $H \triangleleft G$ one obtains a normal subchain and one can construct an induced fragment structure. Moreover, a notion of irreducibility of fragments is introduced, which completes the list of ingredients to perform a Clifford theory.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-08T12:02:48Z</published>
+    <arxiv:comment>15 pages. There was an erratum at the beginning of section 4. This could be omitted without further consequences to the results in the paper. To appear in Algebras and Representation Theory</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Algebras and Representation Theory, Volume 19, No. 3, June 2016</arxiv:journal_ref>
+    <author>
+      <name>Frederik Caenepeel</name>
+    </author>
+    <author>
+      <name>Fred Van Oystaeyen</name>
+    </author>
+    <arxiv:doi>10.1007/s10468-016-9628-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10468-016-9628-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.00755v3</id>
+    <title>Disintegration of positive isometric group representations on $\mathrm{L}^p$-spaces</title>
+    <updated>2017-04-27T20:31:02Z</updated>
+    <link href="https://arxiv.org/abs/1502.00755v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.00755v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $G$ be a Polish locally compact group acting on a Polish space $X$ with a $G$-invariant probability measure $μ$. We factorize the integral with respect to $μ$ in terms of the integrals with respect to the ergodic measures on $X$, and show that $\mathrm{L}^p(X,μ)$ ($1\leq p&lt;\infty$) is $G$-equivariantly isometrically lattice isomorphic to an $\mathrm{L}^p$-direct integral of the spaces $\mathrm{L}^{p}(X,λ)$, where $λ$ ranges over the ergodic measures on $X$. This yields a disintegration of the canonical representation of $G$ as isometric lattice automorphisms of $\mathrm{L}^p(X,μ)$ as an $\mathrm{L}^p$-direct integral of order indecomposable representations.
+  If $(X^\prime,μ^\prime)$ is a probability space, and, for some $1\leq q&lt;\infty$, $G$ acts in a strongly continuous manner on $\mathrm{L}^q(X^\prime,μ^\prime)$ as isometric lattice automorphisms that leave the constants fixed, then $G$ acts on $\mathrm{L}^{p}(X^{\prime},μ^{\prime})$ in a similar fashion for all $1\leq p&lt;\infty$. Moreover, there exists an alternative model in which these representations originate from a continuous action of $G$ on a compact Hausdorff space. If $(X^\prime,μ^\prime)$ is separable, the representation of $G$ on $\mathrm{L}^p(X^\prime,μ^\prime)$ can then be disintegrated into order indecomposable representations.
+  The notions of $\mathrm{L}^p$-direct integrals of Banach spaces and representations that are developed extend those in the literature.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-03T06:29:27Z</published>
+    <arxiv:comment>Section on future perspectives added. 35 pages. To appear in Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Positivity 21 (2017), 673-710</arxiv:journal_ref>
+    <author>
+      <name>Marcel de Jeu</name>
+    </author>
+    <author>
+      <name>Jan Rozendaal</name>
+    </author>
+    <arxiv:doi>10.1007/s11117-017-0499-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11117-017-0499-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.09235v1</id>
+    <title>Spectral Representations of the Wiener-Hopf Operator for the sinc Kernel and some Related Operators</title>
+    <updated>2020-02-21T11:37:10Z</updated>
+    <link href="https://arxiv.org/abs/2002.09235v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.09235v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral representation of the Wiener-Hopf operator K with kernel $1/π$ sinc is given determining explicitly the Hilbert space isomorphism, which transforms K into the multiplication operator by the identity on $L^2(0,1)$. Several related integral operators are studied. A close relationship of K to the finite Hilbert transformation is revealed yielding the spectral representation of the latter. This is of particular interest as it concerns a general feature of self-adjoint Wiener-Hopf operators [15].</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-21T11:37:10Z</published>
+    <arxiv:comment>Keywords: Wiener-Hopf operators, Toeplitz operators, finite Hilbert transformations, generalized eigenfunctions expansion, spectral representation</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Domenico P. L. Castrigiano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.20049v4</id>
+    <title>Photon quantum mechanics with a position observable</title>
+    <updated>2026-07-16T14:38:50Z</updated>
+    <link href="https://arxiv.org/abs/2510.20049v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.20049v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We second quantize an explicitly Lorentz invariant lagrangian density and derive a theory of photon quantum mechanics. The one photon Hilbert space is the vector space of normalizable positive frequency four-potentials. Observables are described by the Poincare operators augmented with a photon position operator. It is found that the probability amplitude to observe a photon in a bounded region of space, defined as the projection of the four-potential onto the basis of position eigenvectors, equals the inverse Fourier transform of the probability amplitude for a plane wave. A continuity equation that describes photon propagation in free space and an optical circuit is derived.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-22T21:58:12Z</published>
+    <arxiv:comment>Replacement of Photon Quantum Mechanics and Covariant Photon Current. The treatment is covariant and the discussion of the position observable is new</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Margaret Hawton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ex/0010041v1</id>
+    <title>Comparison of Deep Inelastic Electron-Photon Scattering Data with the Herwig and Phojet Monte Carlo Models</title>
+    <updated>2000-10-17T11:50:23Z</updated>
+    <link href="https://arxiv.org/abs/hep-ex/0010041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ex/0010041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Deep inelastic electron-photon scattering is studied in the Q**2 range from 1.2 to 30 GeV**2 using the LEP1 data taken with the ALEPH, L3 and OPAL detectors at centre-of-mass energies close to the mass of the Z boson. Distributions of the measured hadronic final state are corrected to the hadron level and compared to the predictions of the HERWIG and PHOJET Monte Carlo models. For large regions in most of the distributions studied the results of the different experiments agree with one another. However, significant differences are found between the data and the models. Therefore the combined LEP data serve as an important input to improve on the Monte Carlo models.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-10-17T11:50:23Z</published>
+    <arxiv:comment>38 pages, 25 figures, Submitted to Eur. Phys. J. C</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name> ALEPH Collaboration</name>
+    </author>
+    <author>
+      <name> L3 Collaboration</name>
+    </author>
+    <author>
+      <name> OPAL Collaboration</name>
+    </author>
+    <author>
+      <name> LEP Two Photon Working Group</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.02314v2</id>
+    <title>A Characterization for Spectral and Trace Positivity of Matrix Words</title>
+    <updated>2026-08-06T14:27:38Z</updated>
+    <link href="https://arxiv.org/abs/2605.02314v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.02314v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we provide a complete structural characterization of which words in noncommuting matrix variables and their formal transposes universally evaluate to matrices with nonnegative eigenvalues or nonnegative trace, regardless of the dimension or entries of the substituted matrices. Crucially, we establish that in this pure monomial setting, both spectral and trace positivity exhibit an exact rigidity phenomenon analogous to Hermitian-square representations. This contrasts sharply with the broader polynomial setting, where tracial rigidity is known to fail even for approximation. Furthermore, we establish that this structural rigidity extends seamlessly to the complex and infinite-dimensional domains. We show that the exact same purely combinatorial conditions completely characterize matrix words evaluated over complex matrices, bounded operators on arbitrary Hilbert spaces, and positive tracial states on $C^*$-algebras and von Neumann algebras.
+  As one application of our main theorems, we fully resolve open questions initially posed by Lieb and Pierce, and later conjectured by Hillar and Johnson, concerning the underlying algebraic structure of the summands in Bessis-Moussa-Villani (BMV) trace polynomials from quantum statistical mechanics. We achieve these results by establishing a surprising connection to graph theory, leading to a matrix analogue of the positive graph conjecture posed by Camarena, Csóka, Hubai, Lippner, and Lovász.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-04T08:13:43Z</published>
+    <arxiv:comment>This version is a considerable extension of the previous one, as it now also considers universal trace positivity and fully answers open questions originally posed by Lieb and Pierce. 42 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Frederik Garbe</name>
+    </author>
+    <author>
+      <name>Fan Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.05856v1</id>
+    <title>Multi-Point Detection of the Powerful Gamma Ray Burst GRB221009A Propagation through the Heliosphere on October 9, 2022</title>
+    <updated>2023-09-11T22:40:01Z</updated>
+    <link href="https://arxiv.org/abs/2309.05856v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.05856v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the results of processing the effects of the powerful Gamma Ray Burst GRB221009A captured by the charged particle detectors (electrostatic analyzers and solid-state detectors) onboard spacecraft at different points in the heliosphere on October 9, 2022. To follow the GRB221009A propagation through the heliosphere we used the electron and proton flux measurements from solar missions Solar Orbiter and STEREO-A; Earth magnetosphere and the solar wind missions THEMIS and Wind; meteorological satellites POES15, POES19, MetOp3; and MAVEN - a NASA mission orbiting Mars. GRB221009A had a structure of four bursts: less intense Pulse 1 - the triggering impulse - was detected by gamma-ray observatories at 131659 UT (near the Earth); the most intense Pulses 2 and 3 were detected on board all the spacecraft from the list, and Pulse 4 detected in more than 500 s after Pulse 1. Due to their different scientific objectives, the spacecraft, which data was used in this study, were separated by more than 1 AU (Solar Orbiter and MAVEN). This enabled tracking GRB221009A as it was propagating across the heliosphere. STEREO-A was the first to register Pulse 2 and 3 of the GRB, almost 100 seconds before their detection by spacecraft in the vicinity of Earth. MAVEN detected GRB221009A Pulses 2, 3, and 4 at the orbit of Mars about 237 seconds after their detection near Earth. By processing the time delays observed we show that the source location of the GRB221009A was at RA 288.5 degrees, Dec 18.5 degrees (J2000) with an error cone of 2 degrees</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-11T22:40:01Z</published>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Andrii Voshchepynets</name>
+    </author>
+    <author>
+      <name>Oleksiy Agapitov</name>
+    </author>
+    <author>
+      <name>Lynn Wilson</name>
+    </author>
+    <author>
+      <name>Vassilis Angelopoulos</name>
+    </author>
+    <author>
+      <name>Samer T. Alnussirat</name>
+    </author>
+    <author>
+      <name>Michael Balikhin</name>
+    </author>
+    <author>
+      <name>Myroslava Hlebena</name>
+    </author>
+    <author>
+      <name>Ihor Korol</name>
+    </author>
+    <author>
+      <name>Davin Larson</name>
+    </author>
+    <author>
+      <name>David Mitchell</name>
+    </author>
+    <author>
+      <name>Christopher Owen</name>
+    </author>
+    <author>
+      <name>Ali Rahmati</name>
+    </author>
+    <author>
+      <name>Department of System Analysis</name>
+    </author>
+    <author>
+      <name>Optimization Theory</name>
+    </author>
+    <author>
+      <name>Uzhhorod National University</name>
+    </author>
+    <author>
+      <name> Uzhhorod</name>
+    </author>
+    <author>
+      <name> Ukraine</name>
+    </author>
+    <author>
+      <name>Space Sciences Laboratory</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>University of California Berkeley Berkeley</name>
+    </author>
+    <author>
+      <name>CA 94720</name>
+    </author>
+    <author>
+      <name> Astronomy</name>
+    </author>
+    <author>
+      <name>Space Physics Department</name>
+    </author>
+    <author>
+      <name>National Taras Shevchenko University of Kyiv</name>
+    </author>
+    <author>
+      <name> Kyiv</name>
+    </author>
+    <author>
+      <name> Ukraine</name>
+    </author>
+    <author>
+      <name>Goddard Space Flight Center</name>
+    </author>
+    <author>
+      <name>National Aeronautics</name>
+    </author>
+    <author>
+      <name>Space Administration</name>
+    </author>
+    <author>
+      <name> Greenbelt</name>
+    </author>
+    <author>
+      <name> MD</name>
+    </author>
+    <author>
+      <name>Department of Earth</name>
+    </author>
+    <author>
+      <name> Planetary</name>
+    </author>
+    <author>
+      <name>Space Sciences</name>
+    </author>
+    <author>
+      <name>University of California Los Angeles</name>
+    </author>
+    <author>
+      <name>Los Angeles</name>
+    </author>
+    <author>
+      <name> CA}</name>
+    </author>
+    <author>
+      <name>University of Sheffield</name>
+    </author>
+    <author>
+      <name> Sheffield</name>
+    </author>
+    <author>
+      <name> UK</name>
+    </author>
+    <author>
+      <name>Department of Algebra</name>
+    </author>
+    <author>
+      <name>Differential Equation</name>
+    </author>
+    <author>
+      <name>Uzhhorod National University</name>
+    </author>
+    <author>
+      <name> Uzhhorod</name>
+    </author>
+    <author>
+      <name> Ukraine</name>
+    </author>
+    <author>
+      <name>Department of Mathematical Analysis</name>
+    </author>
+    <author>
+      <name>The John Paul II Catholic University of Lublin</name>
+    </author>
+    <author>
+      <name> Lublin</name>
+    </author>
+    <author>
+      <name> Poland}</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05833v2</id>
+    <title>Multi-messenger Observations of a Binary Neutron Star Merger</title>
+    <updated>2017-10-24T12:03:18Z</updated>
+    <link href="https://arxiv.org/abs/1710.05833v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.05833v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^{+8}_{-8}$ Mpc and with component masses consistent with neutron stars. The component masses were later measured to be in the range 0.86 to 2.26 Msun. An extensive observing campaign was launched across the electromagnetic spectrum leading to the discovery of a bright optical transient (SSS17a, now with the IAU identification of AT 2017gfo) in NGC 4993 (at $\sim$40 Mpc) less than 11 hours after the merger by the One-Meter, Two Hemisphere (1M2H) team using the 1 m Swope Telescope. The optical transient was independently detected by multiple teams within an hour. Subsequent observations targeted the object and its environment. Early ultraviolet observations revealed a blue transient that faded within 48 hours. Optical and infrared observations showed a redward evolution over $\sim$10 days. Following early non-detections, X-ray and radio emission were discovered at the transient's position $\sim$9 and $\sim$16 days, respectively, after the merger. Both the X-ray and radio emission likely arise from a physical process that is distinct from the one that generates the UV/optical/near-infrared emission. No ultra-high-energy gamma-rays and no neutrino candidates consistent with the source were found in follow-up searches. (Abridged)</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-16T16:57:18Z</published>
+    <arxiv:comment>This is a reproduction of the article published in the Astrophysical Journal Letters, under the terms of the Creative Commons Attribution 3.0 licence</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>ApJL, 848:L12, 2017</arxiv:journal_ref>
+    <author>
+      <name> LIGO Scientific Collaboration</name>
+    </author>
+    <author>
+      <name> Virgo Collaboration</name>
+    </author>
+    <author>
+      <name>Fermi GBM</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> INTEGRAL</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IceCube Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AstroSat Cadmium Zinc Telluride Imager Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IPN Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Insight-Hxmt Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>ANTARES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Swift Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AGILE Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The 1M2H Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Dark Energy Camera GW-EM Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>the DES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The DLT40 Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> GRAWITA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>GRAvitational Wave Inaf TeAm</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Fermi Large Area Telescope Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ATCA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australia Telescope Compact Array</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ASKAP</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australian SKA Pathfinder</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Las Cumbres Observatory Group</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> OzGrav</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> DWF</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> AST3</name>
+    </author>
+    <author>
+      <name>CAASTRO Collaborations</name>
+    </author>
+    <author>
+      <name>The VINROUGE Collaboration</name>
+    </author>
+    <author>
+      <name>MASTER Collaboration</name>
+    </author>
+    <author>
+      <name> J-GEM</name>
+    </author>
+    <author>
+      <name> GROWTH</name>
+    </author>
+    <author>
+      <name> JAGWAR</name>
+    </author>
+    <author>
+      <name>Caltech- NRAO</name>
+    </author>
+    <author>
+      <name> TTU-NRAO</name>
+    </author>
+    <author>
+      <name>NuSTAR Collaborations</name>
+    </author>
+    <author>
+      <name> Pan-STARRS</name>
+    </author>
+    <author>
+      <name>The MAXI Team</name>
+    </author>
+    <author>
+      <name>TZAC Consortium</name>
+    </author>
+    <author>
+      <name>KU Collaboration</name>
+    </author>
+    <author>
+      <name>Nordic Optical Telescope</name>
+    </author>
+    <author>
+      <name> ePESSTO</name>
+    </author>
+    <author>
+      <name> GROND</name>
+    </author>
+    <author>
+      <name>Texas Tech University</name>
+    </author>
+    <author>
+      <name>SALT Group</name>
+    </author>
+    <author>
+      <name> TOROS</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Transient Robotic Observatory of the South Collaboration</name>
+    </author>
+    <author>
+      <name>The BOOTES Collaboration</name>
+    </author>
+    <author>
+      <name> MWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Murchison Widefield Array</name>
+    </author>
+    <author>
+      <name>The CALET Collaboration</name>
+    </author>
+    <author>
+      <name>IKI-GW Follow-up Collaboration</name>
+    </author>
+    <author>
+      <name>H. E. S. S. Collaboration</name>
+    </author>
+    <author>
+      <name>LOFAR Collaboration</name>
+    </author>
+    <author>
+      <name> LWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Long Wavelength Array</name>
+    </author>
+    <author>
+      <name>HAWC Collaboration</name>
+    </author>
+    <author>
+      <name>The Pierre Auger Collaboration</name>
+    </author>
+    <author>
+      <name>ALMA Collaboration</name>
+    </author>
+    <author>
+      <name>Euro VLBI Team</name>
+    </author>
+    <author>
+      <name>Pi of the Sky Collaboration</name>
+    </author>
+    <author>
+      <name>The Chandra Team at McGill University</name>
+    </author>
+    <author>
+      <name> DFN</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Desert Fireball Network</name>
+    </author>
+    <author>
+      <name> ATLAS</name>
+    </author>
+    <author>
+      <name>High Time Resolution Universe Survey</name>
+    </author>
+    <author>
+      <name> RIMAS</name>
+    </author>
+    <author>
+      <name> RATIR</name>
+    </author>
+    <author>
+      <name>SKA South Africa/MeerKAT</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/aa91c9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/aa91c9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.06337v3</id>
+    <title>Mixing of fermions and spectral representation of propagator</title>
+    <updated>2016-03-13T04:26:05Z</updated>
+    <link href="https://arxiv.org/abs/1501.06337v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.06337v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop the spectral representation of propagator for $n$ mixing fermion fields in the case of $\mathsf{P}$-parity violation. The approach based on the eigenvalue problem for inverse matrix propagator makes possible to build the system of orthogonal projectors and to represent the matrix propagator as a sum of poles with positive and negative energies. The procedure of multiplicative renormalization in terms of spectral representation is investigated and the renormalization matrices are obtained in a closed form without the use of perturbation theory. Since in theory with $\mathsf{P}$-parity violation the standard spin projectors do not commute with the dressed propagator, they should be modified. The developed approach allows us to build the modified (dressed) spin projectors for a single fermion and for a system of fermions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-26T11:25:00Z</published>
+    <arxiv:comment>22 pages, this is refreshed and extended version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Int.J.Mod.Phys. A31 (2016) 1650031</arxiv:journal_ref>
+    <author>
+      <name>A. E. Kaloshin</name>
+    </author>
+    <author>
+      <name>V. P. Lomov</name>
+    </author>
+    <arxiv:doi>10.1142/S0217751X16500317</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217751X16500317" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1104.0662v2</id>
+    <title>Positivity in Quantum Cluster Algebras and Flags of Valued Quiver Representations</title>
+    <updated>2011-04-05T06:47:50Z</updated>
+    <link href="https://arxiv.org/abs/1104.0662v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1104.0662v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we give a direct proof of the positivity conjecture for adapted quantum cluster variables. Moreover, our process allows one to explicitly compute formulas for all adapted cluster monomials and certain ordered products of adapted cluster monomials. In particular, we describe all cluster monomials in cluster algebras and quantum cluster algebras of rank 2. One may obtain similar formulas for all finite type cluster monomials.
+  The above results are achieved by computing explicit set-theoretic decompositions of Grassmannians of subrepresentations in adapted valued quiver representations into a disjoint union of products of standard vector space Grassmannians. We actually prove a more general result which should be of independent interest: we compute these decompositions for arbitrary flags of subrepresentations in adapted valued quiver representations.
+  This implies the existence of counting polynomials for the number of points in these sets over different finite fields. Using this we extend the results of \cite{rupel} to quantum cluster algebras $\Acal_q(Q,\bfd)$, where $q$ is an indeterminate.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-04-04T19:46:29Z</published>
+    <arxiv:comment>This paper has been withdrawn because the author's claim of positivity may be false and needs to be investigated further</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Dylan Rupel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.04940v1</id>
+    <title>The Galactic Chemical Evolution of phosphorus observed with IGRINS</title>
+    <updated>2022-10-10T18:16:50Z</updated>
+    <link href="https://arxiv.org/abs/2210.04940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.04940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Phosphorus (P) is considered to be one of the key elements for life, making it an important element to look for in the abundance analysis of spectra of stellar systems. Yet, there exists only a handful of spectroscopic studies to estimate the P abundances and investigate its trend across a range of metallicities. We have observed full HK band spectra at a spectral resolving power of R=45,000 with IGRINS instrument. Abundances are determined using SME in combination with 1D MARCS stellar atmosphere models. The investigated sample of stars have reliable stellar parameters estimated using optical FIES spectra (GILD; Jönsson et al. in prep.). In order to determine the P abundances from the 16482.92 Angstrom P line, we take special care of the CO($ν=7-4$) blend. We determine the C, N, O abundances from atomic carbon and a range of non-blended molecular lines (CO, CN, OH) which are aplenty in the H band region of K giant stars, assuring an appropriate modelling of the blending CO($ν=7-4$) line. We present [P/Fe] vs [Fe/H] trend for 38 K giant stars in the metallicity range of -1.2 dex $&lt;$ [Fe/H] $&lt;$ 0.4 dex. We find that our trend matches well with the compiled literature sample of prominently dwarf stars and limited number of giant stars. Our trend is found to be higher by $\sim$ 0.05 - 0.1 dex compared to the theoretical chemical evolution trend in Cescutti et al. 2012 resulting from core collapse supernova (type II) of massive stars with the P yields from Kobayashi et al. (2006) arbitrarily increased by a factor of 2.75. Thus the enhancement factor might need to be $\sim$ 0.05 - 0.1 dex higher to match our trend. We also find an empirically determined primary behaviour for phosphorus. Furthermore, the phosphorus abundance is found to be elevated by $\sim$ 0.6 - 0.9 dex in two metal poor s-enriched stars compared to the theoretical chemical evolution trend.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-10T18:16:50Z</published>
+    <arxiv:comment>13 pages, 9 figures, accepted for publication in Astronomy and Astrophysics</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>A&amp;A 668, A88 (2022)</arxiv:journal_ref>
+    <author>
+      <name>G. Nandakumar</name>
+    </author>
+    <author>
+      <name>N. Ryde</name>
+    </author>
+    <author>
+      <name>M. Montelius</name>
+    </author>
+    <author>
+      <name>B. Thorsbro</name>
+    </author>
+    <author>
+      <name>H. Jönsson</name>
+    </author>
+    <author>
+      <name>G. Mace</name>
+    </author>
+    <author>
+      <name>Lund Observatory</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>Theoretical Physics</name>
+    </author>
+    <author>
+      <name>Lund University</name>
+    </author>
+    <author>
+      <name>Box 43</name>
+    </author>
+    <author>
+      <name>SE-221 00 Lund</name>
+    </author>
+    <author>
+      <name> Sweden</name>
+    </author>
+    <author>
+      <name>Kapteyn Astronomical Institute</name>
+    </author>
+    <author>
+      <name>University of Groningen</name>
+    </author>
+    <author>
+      <name>Landleven 12</name>
+    </author>
+    <author>
+      <name>NL-9747 AD Groningen</name>
+    </author>
+    <author>
+      <name>the Netherlands</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>School of Science</name>
+    </author>
+    <author>
+      <name>The University of Tokyo</name>
+    </author>
+    <author>
+      <name>7-3-1 Hongo</name>
+    </author>
+    <author>
+      <name> Bunkyo-ku</name>
+    </author>
+    <author>
+      <name>Tokyo 113-0033</name>
+    </author>
+    <author>
+      <name> Japan</name>
+    </author>
+    <author>
+      <name>Materials Science</name>
+    </author>
+    <author>
+      <name>Applied Mathematics</name>
+    </author>
+    <author>
+      <name>Malmö University</name>
+    </author>
+    <author>
+      <name>SE-205 06 Malmö</name>
+    </author>
+    <author>
+      <name> Sweden</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>McDonald Observatory</name>
+    </author>
+    <author>
+      <name>The University of Texas</name>
+    </author>
+    <author>
+      <name> Austin</name>
+    </author>
+    <author>
+      <name>TX 78712</name>
+    </author>
+    <author>
+      <name> USA</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202244724</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202244724" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.03791v3</id>
+    <title>Spectral and scattering theory of one-dimensional coupled photonic crystals</title>
+    <updated>2021-04-14T12:19:01Z</updated>
+    <link href="https://arxiv.org/abs/1904.03791v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.03791v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the spectral and scattering theory of light transmission in a system consisting of two asymptotically periodic waveguides, also known as one-dimensional photonic crystals, coupled by a junction. Using analyticity techniques and commutator methods in a two-Hilbert spaces setting, we determine the nature of the spectrum and prove the existence and completeness of the wave operators of the system.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-08T01:20:53Z</published>
+    <arxiv:comment>31 pages, 1 figure. Keywords: Spectral theory, scattering theory, Maxwell operators, commutator methods. [v3] revised version to appear in Reviews in Mathematical Physics</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Giuseppe De Nittis</name>
+    </author>
+    <author>
+      <name>Massimo Moscolari</name>
+    </author>
+    <author>
+      <name>Serge Richard</name>
+    </author>
+    <author>
+      <name>Rafael Tiedra de Aldecoa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.07287v1</id>
+    <title>Representations of Leibniz Algebras</title>
+    <updated>2015-02-25T18:28:07Z</updated>
+    <link href="https://arxiv.org/abs/1502.07287v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.07287v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we prove that every irreducible representation of a Leibniz algebra can be obtained from irreducible representations of the semisimple Lie algebra from the Levi decomposition. We also prove that - in general - for (semi)simple Leibniz algebras it is not true that a representation can be decomposed to a direct sum of irreducible components.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-25T18:28:07Z</published>
+    <arxiv:comment>to appear Algebras and Representation Theory 2015</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Fialowski Alice</name>
+    </author>
+    <author>
+      <name>Mihálka Éva Zsuzsanna</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.12593v1</id>
+    <title>Compact QED: the photon propagator, confinement and positivity violation for the pure gauge theory</title>
+    <updated>2022-11-22T21:37:06Z</updated>
+    <link href="https://arxiv.org/abs/2211.12593v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.12593v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The lattice Landau gauge photon propagator for the pure gauge theory is revisited using large lattices. For the confined case we show that it has an associated linearly growing potential, it has a mass gap, that is related to the presence of monopoles, and its spectral function violates positivity. In the deconfined phase, our simulations suggest that a free field theory is recovered in the thermodynamic limit.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-22T21:37:06Z</published>
+    <arxiv:comment>7 pages, 6 figures, talk given at the XVth Quark confinement and the Hadron spectrum conference, August 1st - 6th, 2022, Stavanger, Norway</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Orlando Oliveira</name>
+    </author>
+    <author>
+      <name>Lee C. Loveridge</name>
+    </author>
+    <author>
+      <name>Paulo J. Silva</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/202227402004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/202227402004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ex/0107024v1</id>
+    <title>Detection of phi--&gt;f0(980) photon, phi--&gt;a0(980) photon into five photons final state with KLOE at DAFNE</title>
+    <updated>2001-07-10T23:32:26Z</updated>
+    <link href="https://arxiv.org/abs/hep-ex/0107024v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ex/0107024v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The KLOE detector at DAFNE, the Frascati phi-factory, has collected about 30 pb^-1 by the end of 2000, corresponding to about 90 millions of phi(1020) mesons produced. The five photon final state has been exploited to study the rare decays of phi into f0(980) photon and a0(980) photon, with statistical accuracy never reached before. The preliminary results for these branching ratios, from a data sample of 17 pb^-1, are the following: BR(phi--&gt;f0(980) photon)=(23.7 +- 0.6 (stat.) times 10^-5, BR(phi--&gt; a0(980) photon)=(5.8 +- 0.5 (stat.)) times 10^-5. The systematic error is expected to be less than 10%, a precise evaluation is going on. For the ratio of the branching ratios of phi--&gt; f0 photon to phi--&gt; a0 photon we find 4.1 +- 0.4 (stat.).</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-07-10T23:32:26Z</published>
+    <arxiv:comment>Contributed paper to Lepton Photon 2001, Rome, July 23-28</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name> The KLOE Collaboration</name>
+    </author>
+  </entry>
+</feed>

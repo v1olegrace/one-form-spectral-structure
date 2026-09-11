@@ -1,0 +1,1254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BC2zwo8hXq9YNburUl2YcXLNSBQ</id>
+  <title>arXiv Query: search_query=all:history OR all:of OR all:vacuum OR all:polarization OR all:coordinate OR all:space OR all:potential&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:52:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:history+OR+(all:of+OR+(all:vacuum+OR+(all:polarization+OR+(all:coordinate+OR+(all:space+OR+all:potential)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>908458</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.17647v1</id>
+    <title>A Brief History of Space VLBI</title>
+    <updated>2023-06-30T13:34:32Z</updated>
+    <link href="https://arxiv.org/abs/2306.17647v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.17647v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Space Very Long Baseline Interferometry is a radio astronomy technique distinguished by a record-high angular resolution reaching single-digit microseconds of arc. The paper provides a brief account of the history of developments of this technique over the period 1960s-2020s.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-30T13:34:32Z</published>
+    <arxiv:comment>To appear in the Proceedings of the IEEE "History of Electrotechnology Conference", Florence, Italy, 2023. arXiv admin note: substantial text overlap with arXiv:1810.01230</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <arxiv:journal_ref>A Brief History of Space VLBI," 2023 8th IEEE History of Electrotechnology Conference (HISTELCON), Florence, Italy, 2023, pp. 171-174</arxiv:journal_ref>
+    <author>
+      <name>Leonid I. Gurvits</name>
+    </author>
+    <arxiv:doi>10.1109/HISTELCON56357.2023.10365962</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/HISTELCON56357.2023.10365962" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.05856v1</id>
+    <title>Multi-Point Detection of the Powerful Gamma Ray Burst GRB221009A Propagation through the Heliosphere on October 9, 2022</title>
+    <updated>2023-09-11T22:40:01Z</updated>
+    <link href="https://arxiv.org/abs/2309.05856v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.05856v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the results of processing the effects of the powerful Gamma Ray Burst GRB221009A captured by the charged particle detectors (electrostatic analyzers and solid-state detectors) onboard spacecraft at different points in the heliosphere on October 9, 2022. To follow the GRB221009A propagation through the heliosphere we used the electron and proton flux measurements from solar missions Solar Orbiter and STEREO-A; Earth magnetosphere and the solar wind missions THEMIS and Wind; meteorological satellites POES15, POES19, MetOp3; and MAVEN - a NASA mission orbiting Mars. GRB221009A had a structure of four bursts: less intense Pulse 1 - the triggering impulse - was detected by gamma-ray observatories at 131659 UT (near the Earth); the most intense Pulses 2 and 3 were detected on board all the spacecraft from the list, and Pulse 4 detected in more than 500 s after Pulse 1. Due to their different scientific objectives, the spacecraft, which data was used in this study, were separated by more than 1 AU (Solar Orbiter and MAVEN). This enabled tracking GRB221009A as it was propagating across the heliosphere. STEREO-A was the first to register Pulse 2 and 3 of the GRB, almost 100 seconds before their detection by spacecraft in the vicinity of Earth. MAVEN detected GRB221009A Pulses 2, 3, and 4 at the orbit of Mars about 237 seconds after their detection near Earth. By processing the time delays observed we show that the source location of the GRB221009A was at RA 288.5 degrees, Dec 18.5 degrees (J2000) with an error cone of 2 degrees</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-11T22:40:01Z</published>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Andrii Voshchepynets</name>
+    </author>
+    <author>
+      <name>Oleksiy Agapitov</name>
+    </author>
+    <author>
+      <name>Lynn Wilson</name>
+    </author>
+    <author>
+      <name>Vassilis Angelopoulos</name>
+    </author>
+    <author>
+      <name>Samer T. Alnussirat</name>
+    </author>
+    <author>
+      <name>Michael Balikhin</name>
+    </author>
+    <author>
+      <name>Myroslava Hlebena</name>
+    </author>
+    <author>
+      <name>Ihor Korol</name>
+    </author>
+    <author>
+      <name>Davin Larson</name>
+    </author>
+    <author>
+      <name>David Mitchell</name>
+    </author>
+    <author>
+      <name>Christopher Owen</name>
+    </author>
+    <author>
+      <name>Ali Rahmati</name>
+    </author>
+    <author>
+      <name>Department of System Analysis</name>
+    </author>
+    <author>
+      <name>Optimization Theory</name>
+    </author>
+    <author>
+      <name>Uzhhorod National University</name>
+    </author>
+    <author>
+      <name> Uzhhorod</name>
+    </author>
+    <author>
+      <name> Ukraine</name>
+    </author>
+    <author>
+      <name>Space Sciences Laboratory</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>University of California Berkeley Berkeley</name>
+    </author>
+    <author>
+      <name>CA 94720</name>
+    </author>
+    <author>
+      <name> Astronomy</name>
+    </author>
+    <author>
+      <name>Space Physics Department</name>
+    </author>
+    <author>
+      <name>National Taras Shevchenko University of Kyiv</name>
+    </author>
+    <author>
+      <name> Kyiv</name>
+    </author>
+    <author>
+      <name> Ukraine</name>
+    </author>
+    <author>
+      <name>Goddard Space Flight Center</name>
+    </author>
+    <author>
+      <name>National Aeronautics</name>
+    </author>
+    <author>
+      <name>Space Administration</name>
+    </author>
+    <author>
+      <name> Greenbelt</name>
+    </author>
+    <author>
+      <name> MD</name>
+    </author>
+    <author>
+      <name>Department of Earth</name>
+    </author>
+    <author>
+      <name> Planetary</name>
+    </author>
+    <author>
+      <name>Space Sciences</name>
+    </author>
+    <author>
+      <name>University of California Los Angeles</name>
+    </author>
+    <author>
+      <name>Los Angeles</name>
+    </author>
+    <author>
+      <name> CA}</name>
+    </author>
+    <author>
+      <name>University of Sheffield</name>
+    </author>
+    <author>
+      <name> Sheffield</name>
+    </author>
+    <author>
+      <name> UK</name>
+    </author>
+    <author>
+      <name>Department of Algebra</name>
+    </author>
+    <author>
+      <name>Differential Equation</name>
+    </author>
+    <author>
+      <name>Uzhhorod National University</name>
+    </author>
+    <author>
+      <name> Uzhhorod</name>
+    </author>
+    <author>
+      <name> Ukraine</name>
+    </author>
+    <author>
+      <name>Department of Mathematical Analysis</name>
+    </author>
+    <author>
+      <name>The John Paul II Catholic University of Lublin</name>
+    </author>
+    <author>
+      <name> Lublin</name>
+    </author>
+    <author>
+      <name> Poland}</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0804.4433v1</id>
+    <title>SPACE: the SPectroscopic All-sky Cosmic Explorer</title>
+    <updated>2008-04-28T15:53:54Z</updated>
+    <link href="https://arxiv.org/abs/0804.4433v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.4433v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe the scientific motivations, the mission concept and the instrumentation of SPACE, a class-M mission proposed for concept study at the first call of the ESA Cosmic-Vision 2015-2025 planning cycle. SPACE aims to produce the largest three-dimensional evolutionary map of the Universe over the past 10 billion years by taking near-IR spectra and measuring redshifts for more than half a billion galaxies at 0&lt;z&lt;2 down to AB~23 over 3πsr of the sky. In addition, SPACE will also target a smaller sky field, performing a deep spectroscopic survey of millions of galaxies to AB~26 and at 2&lt;z&lt;10+. These goals are unreachable with ground-based observations due to the ~500 times higher sky background. To achieve the main science objectives, SPACE will use a 1.5m diameter Ritchey-Chretien telescope equipped with a set of arrays of Digital Micro-mirror Devices (DMDs) covering a total field of view of 0.4 deg2, and will perform large-multiplexing multi-object spectroscopy (e.g. ~6000 targets per pointing) at a spectral resolution of R~400 as well as diffraction-limited imaging with continuous coverage from 0.8mum to 1.8mum.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-28T15:53:54Z</published>
+    <arxiv:comment>27 pages, Experimental Astronomy, in press. The SPACE team complete list is available at http://urania.bo.astro.it/cimatti/space . The article with full resolution figures is available at http://urania.bo.astro.it/cimatti/space/publications.htm</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Exper.Astron.23:39-66,2009</arxiv:journal_ref>
+    <author>
+      <name>A. Cimatti</name>
+    </author>
+    <author>
+      <name>M. Robberto</name>
+    </author>
+    <author>
+      <name>C. M. Baugh</name>
+    </author>
+    <author>
+      <name>S. V. W. Beckwith</name>
+    </author>
+    <author>
+      <name>R. Content</name>
+    </author>
+    <author>
+      <name>E. Daddi</name>
+    </author>
+    <author>
+      <name>G. De Lucia</name>
+    </author>
+    <author>
+      <name>B. Garilli</name>
+    </author>
+    <author>
+      <name>L. Guzzo</name>
+    </author>
+    <author>
+      <name>G. Kauffmann</name>
+    </author>
+    <author>
+      <name>M. Lehnert</name>
+    </author>
+    <author>
+      <name>D. Maccagni</name>
+    </author>
+    <author>
+      <name>A. Martinez-Sansigre</name>
+    </author>
+    <author>
+      <name>F. Pasian</name>
+    </author>
+    <author>
+      <name>I. N. Reid</name>
+    </author>
+    <author>
+      <name>P. Rosati</name>
+    </author>
+    <author>
+      <name>R. Salvaterra</name>
+    </author>
+    <author>
+      <name>M. Stiavelli</name>
+    </author>
+    <author>
+      <name>Y. Wang</name>
+    </author>
+    <author>
+      <name>M. Zapatero Osorio</name>
+    </author>
+    <author>
+      <name>the SPACE team</name>
+    </author>
+    <arxiv:doi>10.1007/s10686-008-9096-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10686-008-9096-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.0625v1</id>
+    <title>On the history of the isomorphism problem of dynamical systems with special regard to von Neumann's contribution</title>
+    <updated>2011-10-04T10:01:31Z</updated>
+    <link href="https://arxiv.org/abs/1110.0625v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.0625v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper reviews some major episodes in the history of the spatial isomorphism problem of dynamical systems theory (ergodic theory). In particular, by analysing, both systematically and in historical context, a hitherto unpublished letter written in 1941 by John von Neumann to Stanislaw Ulam, this paper clarifies von Neumann's contribution to discovering the relationship between spatial isomorphism and spectral isomorphism. The main message of the paper is that von Neumann's argument described in his letter to Ulam is the very first proof that spatial isomorphism and spectral isomorphism are not equivalent because spectral isomorphism is weaker than spatial isomorphism: von Neumann shows that spectrally isomorphic ergodic dynamical systems with mixed spectra need not be spatially isomorphic.</summary>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-04T10:01:31Z</published>
+    <arxiv:comment>Forthcoming in: Archive for History of Exact Sciences. The final publication will be available at http://www.springer.com/mathematics/history+of+mathematics/journal/407</arxiv:comment>
+    <arxiv:primary_category term="math.HO"/>
+    <author>
+      <name>Miklos Redei</name>
+    </author>
+    <author>
+      <name>Charlotte Werndl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.04759v1</id>
+    <title>International Coordination and Support for SmallSat-enabled Space Weather Activities</title>
+    <updated>2020-11-09T21:00:34Z</updated>
+    <link href="https://arxiv.org/abs/2011.04759v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.04759v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advances in space weather science and small satellite (SmallSat) technology have proceeded in parallel over the past two decades, but better communication and coordination is needed among the respective worldwide communities contributing to this rapid progress. We identify six areas where improved international coordination is especially desirable, including: (1) orbital debris mitigation; (2) spectrum management; (3) export control regulations; (4) access to timely and low-cost launch opportunities; (5) inclusive data policies; and (6) education. We argue the need for internationally coordinated policies and programs to promote the use of SmallSats for space weather research and forecasting while realizing maximum scientific and technical advances through the integration of these two increasingly important endeavors.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-09T21:00:34Z</published>
+    <arxiv:comment>Commentary submitted to Space Weather; accepted and in press</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <arxiv:journal_ref>Space Weather, Vol. 18, Issue 12, e2020SW002568 (6pp); 2020 November 25</arxiv:journal_ref>
+    <author>
+      <name>Teresa Nieves-Chinchilla</name>
+    </author>
+    <author>
+      <name>Bhavya Lal</name>
+    </author>
+    <author>
+      <name>Robert Robinson</name>
+    </author>
+    <author>
+      <name>Amir Caspi</name>
+    </author>
+    <author>
+      <name>David R. Jackson</name>
+    </author>
+    <author>
+      <name>Therese Moretto Jørgensen</name>
+    </author>
+    <author>
+      <name>James Spann</name>
+    </author>
+    <arxiv:doi>10.1029/2020SW002568</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1029/2020SW002568" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.0439v1</id>
+    <title>Coordinate-space approach to vacuum polarization</title>
+    <updated>2014-02-03T17:19:00Z</updated>
+    <link href="https://arxiv.org/abs/1402.0439v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.0439v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The vacuum-polarization correction for bound electrons or muons is examined. The objective is to formulate a framework for calculating the correction from bound-state quantum electrodynamics entirely in coordinate space, including the Uehling potential which is usually isolated and treated separately. Pauli-Villars regularization is applied to the coordinate-space calculation and the most singular terms are shown to be eliminated, leaving the physical correction after charge renormalization. The conventional derivation of the Uehling potential in momentum space is reviewed and compared to the coordinate-space derivation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-03T17:19:00Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Physical Review A 89, 042121, 10 p. (2014)</arxiv:journal_ref>
+    <author>
+      <name>Paul Indelicato</name>
+    </author>
+    <author>
+      <name>Peter J. Mohr</name>
+    </author>
+    <author>
+      <name>J. Sapirstein</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.89.042121</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.89.042121" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.02331v3</id>
+    <title>History entanglement entropy</title>
+    <updated>2021-02-13T11:49:16Z</updated>
+    <link href="https://arxiv.org/abs/2009.02331v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.02331v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A formalism is proposed to describe entangled quantum histories, and their entanglement entropy. We define a history vector, living in a tensor space with basis elements corresponding to the allowed histories, i.e. histories with nonvanishing amplitudes. The amplitudes are the components of the history vector, and contain the dynamical information. Probabilities of measurement sequences, and resulting collapse, are given by generalized Born rules: they are all expressed by means of projections and scalar products involving the history vector. Entangled history states are introduced, and a history density matrix is defined in terms of ensembles of history vectors. The corresponding history entropies (and history entanglement entropies for composite systems) are explicitly computed in two examples taken from quantum computation circuits.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-04T18:00:01Z</published>
+    <arxiv:comment>20 pages, 2 figures, v3: matches version to be published. Improvements in Sect 4, Sect 5 expanded with a criterion for history entanglement, added in Sect 6 a discussion on how to distinguish pure and mixed history states, and on the reduced history density operator</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Leonardo Castellani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.30626v1</id>
+    <title>Advancing Heliophysics and Space Weather Modeling through Open Science</title>
+    <updated>2026-05-28T22:24:02Z</updated>
+    <link href="https://arxiv.org/abs/2605.30626v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.30626v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a community-wide effort to develop a strategy and action plan to advance heliophysics and space weather modeling through open science. While open science has the potential to enhance the quality and pace of scientific discovery, its application to scientific modeling requires more careful consideration regarding open data and open software guidelines, as scientific models differ significantly from data analysis software. We gathered feedback from modeling teams worldwide through a living survey and discussion sessions at the 2024 Open Science Workshop in College Park, USA, and at the 2025 COSPAR ISWAT Working Meeting in Cape Canaveral, USA. We complement these findings with lessons learned from almost 25 years of experience at the Community Coordinated Modeling Center in enabling open use of models. We identify key roadblocks in current open science practices and guidelines and offer recommendations for future progress across four overlapping themes: open use of models and simulation results, open validation, open development, and open collaboration. An essential outcome of the discussion is the need for model developers and model users to speak with a united voice and promote the role of models in future open science efforts. We introduce a new cross-domain community initiative called the Heliophysics Open Modeling Environment (HOME), which will be integrated as an overarching activity within COSPAR ISWAT. HOME will serve as a platform for modelers and model users to work together, facilitate community modeling, improve the scientific return on modeling investment, and advance understanding, modeling, and forecasting in heliophysics and space weather.</summary>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T22:24:02Z</published>
+    <arxiv:comment>Accepted for publication in Space Weather</arxiv:comment>
+    <arxiv:primary_category term="physics.space-ph"/>
+    <arxiv:journal_ref>Space Weather, 24(6), e2025SW004922</arxiv:journal_ref>
+    <author>
+      <name>C. Corti</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>University of Hawaii at Manoa, Physics and Astronomy Department, USA</arxiv:affiliation>
+      <arxiv:affiliation>Universities Space Research Association, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. M. Kuznetsova</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. A. Reiss</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>Universities Space Research Association, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Yue</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>The Catholic University of America, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Karpen</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. N. Arge</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Bacchini</name>
+      <arxiv:affiliation>KU Leuven, Centre for Mathematical Plasma Astrophysics, Belgium</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Bard</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Bruinsma</name>
+      <arxiv:affiliation>CNES, Space Geodesy Office, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. M. Caplan</name>
+      <arxiv:affiliation>Predictive Science Inc., USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. K. S. Daldorff</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>The Catholic University of America, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. J. Deka</name>
+      <arxiv:affiliation>KU Leuven, Centre for Mathematical Plasma Astrophysics, Belgium</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. R. DeVore</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>The Catholic University of America, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Elvidge</name>
+      <arxiv:affiliation>University of Birmingham, School of Engineering, UK</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. Ganushkina</name>
+      <arxiv:affiliation>University of Michigan Ann Arbor, Department of Climate and Space Sciences and Engineering, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. D. Huba</name>
+      <arxiv:affiliation>Syntek Technologies, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. V. Jackson</name>
+      <arxiv:affiliation>University of California San Diego, Department of Astronomy and Astrophysics, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. Jordanova</name>
+      <arxiv:affiliation>Los Alamos National Laboratory, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. A. Linker</name>
+      <arxiv:affiliation>Predictive Science Inc., USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. Liu</name>
+      <arxiv:affiliation>University Corporation for Atmospheric Research, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. G. Luhmann</name>
+      <arxiv:affiliation>University of California Berkeley, Space Sciences Laboratory, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Markidis</name>
+      <arxiv:affiliation>KTH Royal Institute of Technology, Sweden</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. Mayank</name>
+      <arxiv:affiliation>University Corporation for Atmospheric Research, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. Merkin</name>
+      <arxiv:affiliation>Johns Hopkins University Applied Physics Laboratory, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. Moens</name>
+      <arxiv:affiliation>KU Leuven, Centre for Mathematical Plasma Astrophysics, Belgium</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Odstrcil</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>George Mason University, Department of Physics and Astronomy, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. A. Omelchenko</name>
+      <arxiv:affiliation>Space Science Institute, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Palmroth</name>
+      <arxiv:affiliation>University of Helsinki, Department of Physics, Finland</arxiv:affiliation>
+      <arxiv:affiliation>Finnish Meteorological Institute, pace and Earth Observation Centre, FFinland</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Poedts</name>
+      <arxiv:affiliation>KU Leuven, Centre for Mathematical Plasma Astrophysics, Belgium</arxiv:affiliation>
+      <arxiv:affiliation>Maria Curie-Skłodowska University, Poland</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. J. Ridley</name>
+      <arxiv:affiliation>University of Michigan Ann Arbor, Department of Climate and Space Sciences and Engineering, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Shou</name>
+      <arxiv:affiliation>University of Michigan Ann Arbor, Department of Climate and Space Sciences and Engineering, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. Tenishev</name>
+      <arxiv:affiliation>NASA Marshall Space Flight Center, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. R. Themens</name>
+      <arxiv:affiliation>University of Birmingham, School of Engineering, UK</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Toth</name>
+      <arxiv:affiliation>University of Michigan Ann Arbor, Department of Climate and Space Sciences and Engineering, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. Wang</name>
+      <arxiv:affiliation>University Corporation for Atmospheric Research, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. -P. Wilhelm</name>
+      <arxiv:affiliation>KU Leuven, Centre for Mathematical Plasma Astrophysics, Belgium</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. A. Young</name>
+      <arxiv:affiliation>University of New Hampshire, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. Cecconi</name>
+      <arxiv:affiliation>Université PSL, Observatoire de Paris, LIRA, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. -Y. Chou</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. De Zeeuw</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>The Catholic University of America, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. L. Delzanno</name>
+      <arxiv:affiliation>Los Alamos National Laboratory, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Didigu</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. El Alaoui</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>The Catholic University of America, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Fung</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Green</name>
+      <arxiv:affiliation>Space Hazards Applications, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Z. Huang</name>
+      <arxiv:affiliation>University of Michigan Ann Arbor, Department of Climate and Space Sciences and Engineering, USA</arxiv:affiliation>
+      <arxiv:affiliation>University of Science and Technology of China, School of Earth and Space Sciences, China</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. K. Jian</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. J. Landwer</name>
+      <arxiv:affiliation>University of Colorado, CIRES, USA</arxiv:affiliation>
+      <arxiv:affiliation>NOAA, Space Weather Prediction Center, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Lesko</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. MacNeice</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Masson</name>
+      <arxiv:affiliation>European Space Agency, European Space Astronomy Centre, Spain</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. L. Mays</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. M. Mehta</name>
+      <arxiv:affiliation>West Virginia University, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. S. Miesch</name>
+      <arxiv:affiliation>University of Colorado, CIRES, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Palmerio</name>
+      <arxiv:affiliation>Predictive Science Inc., USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Petrenko</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Provornikova</name>
+      <arxiv:affiliation>Johns Hopkins University Applied Physics Laboratory, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. Rastätter</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. Rusaitis</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>The Catholic University of America, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. Sachdeva</name>
+      <arxiv:affiliation>University of Michigan Ann Arbor, Department of Climate and Space Sciences and Engineering, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Samara</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>The Catholic University of America, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Sur</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>The Catholic University of America, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Taktakishvili</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>The Catholic University of America, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Topper</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Tsui</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Verbeke</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>Universities Space Research Association, USA</arxiv:affiliation>
+      <arxiv:affiliation>KU Leuven, Centre for Mathematical Plasma Astrophysics, Belgium</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Wang</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>The Catholic University of America, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Wiegand</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Wiltberger</name>
+      <arxiv:affiliation>University Corporation for Atmospheric Research, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Zheng</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. M. Bisi</name>
+      <arxiv:affiliation>RAL Space, United Kingdom Research and Innovation, Science &amp; Technology Facilities Council, UK</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. K. Georgoulis</name>
+      <arxiv:affiliation>Johns Hopkins Applied Physics Laboratory, USA</arxiv:affiliation>
+      <arxiv:affiliation>RCAAM of the Academy of Athens, Greece</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Kodikara</name>
+      <arxiv:affiliation>German Aerospace Center, Institute for Solar-Terrestrial Physics, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Pulkkinen</name>
+      <arxiv:affiliation>University of Michigan Ann Arbor, Department of Climate and Space Sciences and Engineering, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Chartier</name>
+      <arxiv:affiliation>Johns Hopkins University Applied Physics Laboratory, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. da Silva</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Faturahman</name>
+      <arxiv:affiliation>National Research and Innovation Agency, Research Center for Space, Indonesia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Garcia-Sage</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Kondrashov</name>
+      <arxiv:affiliation>University of California Los Angeles, Department of Atmospheric and Oceanic Sciences, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. E. Ledvina</name>
+      <arxiv:affiliation>University of Alaska Fairbanks, Geophysical Institute, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. Liu</name>
+      <arxiv:affiliation>University of Michigan Ann Arbor, Department of Climate and Space Sciences and Engineering, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Pandey</name>
+      <arxiv:affiliation>Texas Christian University, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Resnick</name>
+      <arxiv:affiliation>NASA Goddard Space Flight Center, Heliophysics Science Division, USA</arxiv:affiliation>
+      <arxiv:affiliation>ASRC Federal, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Shi</name>
+      <arxiv:affiliation>Auburn University, Department of Physics, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. S. Weigel</name>
+      <arxiv:affiliation>George Mason University, Department of Physics and Astronomy, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Whitman</name>
+      <arxiv:affiliation>KBR, USA</arxiv:affiliation>
+      <arxiv:affiliation>NASA Johnson Space Flight Center, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>I. Zakharenkova</name>
+      <arxiv:affiliation>University Corporation for Atmospheric Research, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Zhang</name>
+      <arxiv:affiliation>University of California Los Angeles, Department of Earth, Planetary, and Space Sciences, USA</arxiv:affiliation>
+      <arxiv:affiliation>Embry-Riddle Aeronautical University, Department of Physical Sciences, USA. Mostafa El Alaoui sadly passed away during the preparation of this paper, Shing Fung retired from NASA in May 2026</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1029/2025SW004922</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1029/2025SW004922" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.10635v1</id>
+    <title>Widening Perspectives: The Intellectual and Social Benefits of Astrobiology, Big History, and the Exploration of Space</title>
+    <updated>2019-06-15T01:06:22Z</updated>
+    <link href="https://arxiv.org/abs/1906.10635v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.10635v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Astrobiology is the field of science devoted to searching for life elsewhere in the Universe. It is inherently interdisciplinary, integrating results from multiple fields of science, and in this respect has strong synergies with 'big history'. I argue that big history and astrobiology are both acting to widen human perspectives in intellectually and socially beneficial directions, especially by enhancing public awareness of cosmic and evolutionary worldviews. I will further argue that these perspectives have important implications for the social and political organisation of humanity, including the eventual political unification of our planet. Astrobiology and big history are also concerned with the future of humanity, and I will argue that this future will be culturally and intellectually enriched if it includes the exploration of the universe around us.</summary>
+    <category term="physics.pop-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-15T01:06:22Z</published>
+    <arxiv:comment>Published in the Journal of Big History, Vol III(3), pp. 205 - 224, 2019</arxiv:comment>
+    <arxiv:primary_category term="physics.pop-ph"/>
+    <arxiv:journal_ref>Journal of Big History, Vol III(3), pp. 205 - 224, 2019</arxiv:journal_ref>
+    <author>
+      <name>Ian Crawford</name>
+    </author>
+    <arxiv:doi>10.22339/jbh.v3i3.3312</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22339/jbh.v3i3.3312" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.11667v1</id>
+    <title>A One-Dimensional Energy Balance Model Parameterization for the Formation of CO2 Ice on the Surfaces of Eccentric Extrasolar Planets</title>
+    <updated>2025-01-20T18:48:29Z</updated>
+    <link href="https://arxiv.org/abs/2501.11667v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.11667v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Eccentric planets may spend a significant portion of their orbits at large distances from their host stars, where low temperatures can cause atmospheric CO2 to condense out onto the surface, similar to the polar ice caps on Mars. The radiative effects on the climates of these planets throughout their orbits would depend on the wavelength-dependent albedo of surface CO2 ice that may accumulate at or near apoastron and vary according to the spectral energy distribution of the host star. To explore these possible effects, we incorporated a CO2 ice-albedo parameterization into a one-dimensional energy balance climate model. With the inclusion of this parameterization, our simulations demonstrated that F-dwarf planets require 29% more orbit-averaged flux to thaw out of global water ice cover compared with simulations that solely use a traditional pure water ice-albedo parameterization. When no eccentricity is assumed, and host stars are varied, F-dwarf planets with higher bond albedos relative to their M-dwarf planet counterparts require 30% more orbit-averaged flux to exit a water snowball state. Additionally, the intense heat experienced at periastron aids eccentric planets in exiting a snowball state with a smaller increase in instellation compared with planets on circular orbits; this enables eccentric planets to exhibit warmer conditions along a broad range of instellation. This study emphasizes the significance of incorporating an albedo parameterization for the formation of CO2 ice into climate models to accurately assess the habitability of eccentric planets, as we show that, even at moderate eccentricities, planets with Earth-like atmospheres can reach surface temperatures cold enough for the condensation of CO2 onto their surfaces, as can planets receiving low amounts of instellation on circular orbits.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-20T18:48:29Z</published>
+    <arxiv:comment>18 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <arxiv:journal_ref>Astrobiology 2025</arxiv:journal_ref>
+    <author>
+      <name>Vidya Venkatesan</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aomawa L. Shields</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Russell Deitrick</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric T. Wolf</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew Rushby</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Department of Physics</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Astronomy</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>University of California</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Irvine</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name> California</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name> USA</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>School of Earth</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ocean Sciences</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>University of Victoria</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Victoria</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Canada</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Laboratory for Atmospheric</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Space Physics</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>University of Colorado Boulder</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Boulder</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Colorado</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name> USA</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sellers Exoplanet Environment Collaboration</name>
+      <arxiv:affiliation>SEEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>NASA Goddard Space Flight Center</name>
+    </author>
+    <author>
+      <name> Greenbelt</name>
+    </author>
+    <author>
+      <name> Maryland</name>
+    </author>
+    <author>
+      <name> USA</name>
+    </author>
+    <author>
+      <name>Blue Marble Space Institute of Science</name>
+    </author>
+    <author>
+      <name> Seattle</name>
+    </author>
+    <author>
+      <name> Washington</name>
+    </author>
+    <author>
+      <name> USA</name>
+    </author>
+    <author>
+      <name>Department of Earth</name>
+    </author>
+    <author>
+      <name>Planetary Sciences</name>
+    </author>
+    <author>
+      <name>Birkbeck University of London</name>
+    </author>
+    <author>
+      <name> London</name>
+    </author>
+    <author>
+      <name>United Kingdom</name>
+    </author>
+    <arxiv:doi>10.1089/ast.2023.0103</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1089/ast.2023.0103" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.12376v1</id>
+    <title>Rotational Curves of the Milky Way Galaxy and Andromeda Galaxy in Light of Vacuum Polarization around Eicheon</title>
+    <updated>2023-09-21T09:40:54Z</updated>
+    <link href="https://arxiv.org/abs/2309.12376v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.12376v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Eicheon properties are discussed. It is shown that the eicheon surface allows setting a boundary condition for the vacuum polarization and obtaining a solution describing the dark matter tail in the Milky Way Galaxy. That is, the dark matter in the Milky Way Galaxy is explained as the F-type of vacuum polarization, which could be treated as dark radiation. The model presented is spherically symmetric, but a surface density of a baryonic galaxy disk is taken into account approximately by smearing the disk over a sphere. This allows the reproduction of the large distance shape of the Milky Way Galaxy rotational curve. Andromeda Galaxy's rotational curve is also discussed.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-21T09:40:54Z</published>
+    <arxiv:comment>This paper is an extended version of "Dark Matter in the Milky Way Galaxy as the F-Type of Vacuum Polarization.'' from the Proceedings of the 2nd Electronic Conference on Universe, 16 February--2 March 2023</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Universe 2023, 9(9), 424</arxiv:journal_ref>
+    <author>
+      <name>Sergey L. Cherkas</name>
+    </author>
+    <author>
+      <name>Vladimir L. Kalashnikov</name>
+    </author>
+    <arxiv:doi>10.3390/universe9090424</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/universe9090424" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.01506v1</id>
+    <title>Whistler instability stimulated by the suprathermal electrons present in space plasmas</title>
+    <updated>2019-10-02T14:04:38Z</updated>
+    <link href="https://arxiv.org/abs/1910.01506v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.01506v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the absence of efficient collisions, deviations from thermal equilibrium of plasma particle distributions are controlled by the self-generated instabilities. The whistler instability is a notorious example, usually responsible for the regulation of electron temperature anisotropy $A = T_{\perp}/T_\parallel&gt;$ (with $\perp, \parallel$ respective to the magnetic field direction) observed in space plasmas, e.g., solar wind and planetary magnetospheres. Suprathermal electrons present in these environments change the plasma dispersion and stability properties, with expected consequences on the kinetic instabilities and the resulting fluctuations, which, in turn, scatter the electrons and reduce their anisotropy. In order to capture these mutual effects we use a quasilinear kinetic approach and PIC simulations, which provide a comprehensive characterization of the whistler instability under the influence of suprathermal electrons. Analysis is performed for a large variety of plasma conditions, ranging from low-beta plasmas encountered in outer corona or planetary magnetospheres to a high-beta solar wind characteristic to large heliospheric distances. Enhanced by the suprathermal electrons, whistler fluctuations stimulate the relaxation of temperature anisotropy, and this influence of suprathermals increases with plasma beta parameter.</summary>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-02T14:04:38Z</published>
+    <arxiv:comment>accepted for publications at Astrophysics and Space Science</arxiv:comment>
+    <arxiv:primary_category term="physics.space-ph"/>
+    <arxiv:journal_ref>Astrophysics and Space Science (2019)</arxiv:journal_ref>
+    <author>
+      <name>M. Lazar</name>
+    </author>
+    <author>
+      <name>R. A. Lopez</name>
+    </author>
+    <author>
+      <name>S. M. Shaaban</name>
+    </author>
+    <author>
+      <name>S. Poedts</name>
+    </author>
+    <author>
+      <name>H. Fichtner</name>
+    </author>
+    <arxiv:doi>10.1007/s10509-019-3661-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10509-019-3661-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.02985v1</id>
+    <title>Verification of Space Weather Forecasts issued by the Met Office Space Weather Operations Centre</title>
+    <updated>2018-04-06T16:29:02Z</updated>
+    <link href="https://arxiv.org/abs/1804.02985v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.02985v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Met Office Space Weather Operations Centre was founded in 2014 and part of its remit is a daily Space Weather Technical Forecast to help the UK build resilience to space weather impacts; guidance includes four day geo-magnetic storm forecasts (GMSF) and X-ray flare forecasts (XRFF). It is crucial for forecasters, users, modelers and stakeholders to understand the strengths and weaknesses of these forecasts; therefore, it is important to verify against the most reliable truth data source available. The present study contains verification results for XRFFs using GOES-15 satellite data and GMSF using planetary K-index (Kp) values from the GFZ Helmholtz Centre. To assess the value of the verification results it is helpful to compare them against a reference forecast and the frequency of occurrence during a rolling prediction period is used for this purpose. Analysis of the rolling 12-month performance over a 19-month period suggests that both the XRFF and GMSF struggle to provide a better prediction than the reference. However, a relative operating characteristic and reliability analysis of the full 19-month period reveals that although the GMSF and XRFF possess discriminatory skill, events tend to be over-forecast.</summary>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-06T16:29:02Z</published>
+    <arxiv:comment>Published in Space Weather. 21 pages, 8 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.space-ph"/>
+    <arxiv:journal_ref>Space Weather, 15, 1383-1395 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Michael A. Sharpe</name>
+    </author>
+    <author>
+      <name>Sophie A. Murray</name>
+    </author>
+    <arxiv:doi>10.1002/2017SW001683</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/2017SW001683" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.0847v2</id>
+    <title>Is dark matter an illusion created by the gravitational polarization of the quantum vacuum?</title>
+    <updated>2011-11-08T20:43:48Z</updated>
+    <link href="https://arxiv.org/abs/1106.0847v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.0847v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Assuming that a particle and its antiparticle have the gravitational charge of the opposite sign, the physical vacuum may be considered as a fluid of virtual gravitational dipoles. Following this hypothesis, we present the first indications that dark matter may not exist and that the phenomena for which it was invoked might be explained by the gravitational polarization of the quantum vacuum by the known baryonic matter.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-04T18:31:49Z</published>
+    <arxiv:comment>We have added an Appendix in order to show that the gravitational polarization of the quantum vacuum allows the understanding of the universality of the central surface density of galaxy dark matter haloes, the cored dark matter haloes in dwarf spheroidal galaxies, the non-existence of dark disks in spiral galaxies and distribution of dark matter after collision of clusters of galaxies</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Astrophys.Space Sci.334:215-218,2011</arxiv:journal_ref>
+    <author>
+      <name>Dragan Slavkov Hajdukovic</name>
+    </author>
+    <arxiv:doi>10.1007/s10509-011-0744-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10509-011-0744-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.19816v1</id>
+    <title>From terrestrial weather to space weather through the history of scintillation</title>
+    <updated>2024-12-13T00:31:23Z</updated>
+    <link href="https://arxiv.org/abs/2412.19816v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.19816v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent observations of interplanetary scintillation (IPS) at radio frequencies have proved to be a powerful tool for probing the solar environment from the ground. But how far back does this tradition really extend? Our survey of the literature to date has revealed a long history of scintillating observations, beginning with the oral traditions of Indigenous peoples from around the globe, encompassing the works of the Ancient Greeks and Renaissance scholars, and continuing right through into modern optics, astronomy and space science. We outline here the major steps that humanity has taken along this journey, using scintillation as a tool for predicting first terrestrial, and then space weather without ever having to leave the ground.</summary>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-13T00:31:23Z</published>
+    <arxiv:comment>4 pages, 1 figure. Submitted for publication in proceedings of IAU Symposium 390: A Multi-Point view of the Sun: Advances in Solar Observations and in Space Weather Understanding. From a talk given at the XXXII IAU General Assembly, Cape Town</arxiv:comment>
+    <arxiv:primary_category term="physics.space-ph"/>
+    <author>
+      <name>Emily F. Kerrison</name>
+    </author>
+    <author>
+      <name>Ron D. Ekers</name>
+    </author>
+    <author>
+      <name>John Morgan</name>
+    </author>
+    <author>
+      <name>Rajan Chhetri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.04313v1</id>
+    <title>Episodes from the history of infinitesimals</title>
+    <updated>2025-03-06T10:58:17Z</updated>
+    <link href="https://arxiv.org/abs/2503.04313v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.04313v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Infinitesimals have seen ups and downs in their tumultuous history. In the 18th century, d'Alembert set the tone by describing infinitesimals as chimeras. Some adversaries of infinitesimals, including Moigno and Connes, picked up on the term. We highlight the work of Cauchy, Noël, Poisson and Riemann. We also chronicle reactions by Moigno, Lamarle and Cantor, and signal the start of a revival with Peano.</summary>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-06T10:58:17Z</published>
+    <arxiv:comment>17 pages. To appear in British Journal for the History of Mathematics</arxiv:comment>
+    <arxiv:primary_category term="math.HO"/>
+    <author>
+      <name>Mikhail G. Katz</name>
+    </author>
+    <arxiv:doi>10.1080/26375451.2025.2474811</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/26375451.2025.2474811" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.0323v1</id>
+    <title>Modeling Scattering Polarization for Probing Solar Magnetism</title>
+    <updated>2011-05-02T13:35:22Z</updated>
+    <link href="https://arxiv.org/abs/1105.0323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.0323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper considers the problem of modeling the light polarization that emerges from an astrophysical plasma composed of atoms whose excitation state is significantly influenced by the anisotropy of the incident radiation field. In particular, it highlights how radiative transfer simulations in three-dimensional models of the quiet solar atmosphere may help us to probe its thermal and magnetic structure, from the near equilibrium photosphere to the highly non-equilibrium upper chromosphere. The paper finishes with predictions concerning the amplitudes and magnetic sensitivities of the linear polarization signals produced by scattering processes in two transition region lines, which should encourage us to develop UV polarimeters for sounding rockets and space telescopes with the aim of opening up a new diagnostic window in astrophysics.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-02T13:35:22Z</published>
+    <arxiv:comment>Invited Review in workshop Solar Polarization 6; 12 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Solar Polarization 6, eds. J. Kuhn et al., ASP Conf. Series Vol. 437, pages 83-98, (2011)</arxiv:journal_ref>
+    <author>
+      <name>Javier Trujillo Bueno</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.04021v1</id>
+    <title>Space Weather Observations, Modeling, and Alerts in Support of Human Exploration of Mars</title>
+    <updated>2022-11-08T05:52:38Z</updated>
+    <link href="https://arxiv.org/abs/2211.04021v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.04021v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Space weather observations and modeling at Mars have begun but they must be significantly increased to support the future of Human Exploration on the Red Planet. A comprehensive space weather understanding of a planet without a global magnetosphere and a thin atmosphere is very different from our situation at Earth so there is substantial fundamental research remaining. It is expected that the development of suitable models will lead to a comprehensive operational Mars space weather alert (MSWA) system that would provide rapid dissemination of information to Earth controllers, astronauts in transit, and those in the exploration zone (EZ) on the surface by producing alerts that are delivered rapidly and are actionable. To illustrate the importance of such a system, we use a magnetohydrodynamic code to model an extreme Carrington-type coronal mass ejection (CME) event at Mars. The results show a significant induced surface field of nearly 3000 nT on the dayside that could radically affect unprotected electrical systems that would dramatically impact human survival on Mars. Other associated problems include coronal mass ejection (CME) shock-driven acceleration of solar energetic particles producing large doses of ionizing radiation at the Martian surface. In summary, along with working more closely with international partners, the next Heliophysics Decadal Survey must include a new initiative to meet expected demands for space weather forecasting in support of humans living and working on the surface of Mars. It will require significant effort to coordinate NASA and the international community contributions.</summary>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-08T05:52:38Z</published>
+    <arxiv:comment>14 pages, 3 figures, 1 table; to appear in Frontiers in Astronomy and Space Sciences</arxiv:comment>
+    <arxiv:primary_category term="physics.space-ph"/>
+    <arxiv:journal_ref>Front. Astron. Space Sci. 9:1023305 (2022)</arxiv:journal_ref>
+    <author>
+      <name>James L. Green</name>
+    </author>
+    <author>
+      <name>Chuanfei Dong</name>
+    </author>
+    <author>
+      <name>Michael Hesse</name>
+    </author>
+    <author>
+      <name>C. Alex Young</name>
+    </author>
+    <author>
+      <name>Vladimir Airapetian</name>
+    </author>
+    <arxiv:doi>10.3389/fspas.2022.1023305</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3389/fspas.2022.1023305" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.03624v3</id>
+    <title>History operators in quantum mechanics</title>
+    <updated>2019-10-30T17:43:57Z</updated>
+    <link href="https://arxiv.org/abs/1810.03624v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.03624v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is convenient to describe a quantum system at all times by means of a "history operator" $C$, encoding measurements and unitary time evolution between measurements. These operators naturally arise when computing the probability of measurement sequences, and generalize the "sum over position histories " of the Feynman path-integral. As we argue in the present note, this description has some computational advantages over the usual state vector description, and may help to clarify some issues regarding nonlocality of quantum correlations and collapse. A measurement on a system described by $C$ modifies the history operator, $C \rightarrow PC$, where $P$ is the projector corresponding to the measurement. We refer to this modification as "history operator collapse". Thus $C$ keeps track of the succession of measurements on a system, and contains all histories compatible with the results of these measurements. The collapse modifies the history content of $C$, and therefore modifies also the past (relative to the measurement), but never in a way to violate causality. Probabilities of outcomes are obtained as $Tr(C^\dagger P C)/Tr(C^\dagger C)$. A similar formula yields probabilities for intermediate measurements, and reproduces the result of the two-vector formalism in the case of given initial and final states. We apply the history operator formalism to a few examples: entangler circuit, Mach-Zehnder interferometer, teleportation circuit, three-box experiment. Not surprisingly, the propagation of coordinate eigenstates $|q\rangle$ is described by a history operator $C$ containing the Feynman path-integral.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-08T18:00:08Z</published>
+    <arxiv:comment>18 pages, 3 figures, LaTeX; V2: added section on three-box experiment, expanded section on history operators, added subsection on history amplitudes, added ref.s. V3: added ref., corrected typos and improved notation, matches version to be published in Int. Jou. of Quantum Information</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Leonardo Castellani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.00914v2</id>
+    <title>A Changing Dichotomy: The Conception of the "Macroscopic" and "Microscopic" Worlds in the History of Physics</title>
+    <updated>2020-02-10T19:53:09Z</updated>
+    <link href="https://arxiv.org/abs/1912.00914v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.00914v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This short essay traces the conceptual history of micro- and macroscopicity in the context of physical science. By focusing on three distinct episodes spanning five centuries, we show the scientific and philosophical meanings of this antonym pair, despite never being far from "the small" and "the large," have been evolving as the frontier of science advances. We analyze the intellectual and material impetus for these movements, and conclude that this conceptual history reflects the changing interaction between the natural world and humankind.</summary>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.pop-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-02T16:42:08Z</published>
+    <arxiv:comment>The winning entry of the 2019 History of Physics Essay Contest organized by the Forum for History of Physics (FHP) of the American Physical Society (APS)</arxiv:comment>
+    <arxiv:primary_category term="physics.hist-ph"/>
+    <author>
+      <name>Zhixin Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.09861v1</id>
+    <title>The importance of ensemble techniques for operational space weather forecasting</title>
+    <updated>2018-06-26T09:18:46Z</updated>
+    <link href="https://arxiv.org/abs/1806.09861v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.09861v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The space weather community has begun to use frontier methods such as data assimilation, machine learning, and ensemble modeling to advance current operational forecasting efforts. This was highlighted by a multi-disciplinary session at the 2017 American Geophysical Union Meeting, 'Frontier Solar-Terrestrial Science Enabled by the Combination of Data-Driven Techniques and Physics-Based Understanding', with considerable discussion surrounding ensemble techniques. Here ensemble methods are described in detail; using a set of predictions to improve on a single-model output, for example taking a simple average of multiple models, or using more complex techniques for data assimilation. They have been used extensively in fields such as numerical weather prediction and data science, for both improving model accuracy and providing a measure of model uncertainty. Researchers in the space weather community have found them to be similarly useful, and some examples of success stories are highlighted in this commentary. Future developments are also encouraged to transition these basic research efforts to operational forecasting as well as providing prediction errors to aid end-user understanding.</summary>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-26T09:18:46Z</published>
+    <arxiv:comment>Accepted for publication as invited Commentary in Space Weather. 10 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.space-ph"/>
+    <arxiv:journal_ref>Space Weather, 16, 777-783 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Sophie A. Murray</name>
+    </author>
+    <arxiv:doi>10.1029/2018SW001861</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1029/2018SW001861" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9704007v1</id>
+    <title>Static, massive fields and vacuum polarization potential in Rindler space</title>
+    <updated>1997-04-03T07:25:51Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9704007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9704007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In Rindler space, we determine in terms of special functions the expression of the static, massive scalar or vector field generated by a point source. We find also an explicit integral expression of the induced electrostatic potential resulting from the vacuum polarization due to an electric charge at rest in the Rindler coordinates. For a weak acceleration, we give then an approximate expression in the Fermi coordinates associated with the uniformly accelerated observer.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-04-03T07:25:51Z</published>
+    <arxiv:comment>11 pages, latex, no figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Int.J.Mod.Phys. D7 (1998) 61-72</arxiv:journal_ref>
+    <author>
+      <name>B. Linet</name>
+    </author>
+    <arxiv:doi>10.1142/S0218271898000061</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0218271898000061" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.05028v2</id>
+    <title>Two-loop Vertices with Vacuum Polarization Insertion</title>
+    <updated>2024-01-23T14:39:02Z</updated>
+    <link href="https://arxiv.org/abs/2308.05028v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.05028v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the analytic evaluation of the second-order corrections to the massive form factors, due to two-loop vertex diagrams with a vacuum polarization insertion, with exact dependence on the external and internal fermion masses, and on the squared momentum transfer. We consider vector, axial-vector, scalar and pseudoscalar interactions between the external fermion and the external field. After renormalization, the finite expressions of the form factors are expressed in terms of polylogarithms up to weight three.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-09T15:52:12Z</published>
+    <arxiv:comment>20 pages, 3 figures, 2 ancillary files. v2: results.m ancillary file updated (constants in the expression "canonicalMasters" simplified, residual logarithms in the renormalisedFormFactorsGPLS converted to GPLS), final version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Ahmed, T., Crisanti, G., Gasparotto, F. et al. Two-loop vertices with vacuum polarization insertion. J. High Energ. Phys. 2024, 10 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Taushif Ahmed</name>
+    </author>
+    <author>
+      <name>Giulio Crisanti</name>
+    </author>
+    <author>
+      <name>Federico Gasparotto</name>
+    </author>
+    <author>
+      <name>Syed Mehedi Hasan</name>
+    </author>
+    <author>
+      <name>Pierpaolo Mastrolia</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP01(2024)010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP01(2024)010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0607106v1</id>
+    <title>The History of Barbilian's Metrization Procedure</title>
+    <updated>2006-07-05T02:37:16Z</updated>
+    <link href="https://arxiv.org/abs/math/0607106v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0607106v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Barbilian spaces are metric spaces with a metric induced by a special procedure of metrization which is inspired by the study of the models of non-Euclidean geometry. In the present material we discuss the history of Barbilian spaces and the evolution of the theory. We point out that some of the current references to the work done in Barbilian spaces refer to Barbilian's contribution from 1934, while his construction has been largely extended in four works published in Romanian in 1959-1962.</summary>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-07-05T02:37:16Z</published>
+    <arxiv:comment>The present document is an updated version of the material presented on April 17, 2005, in the AMS Special Session on History of Mathematics, AMS Sectional Conference # 1007, abstract # 1007-01-39, Santa Barbara, California. A different material on the same theme, entitled "Barbilian Spaces: The History of a Geometric Idea", will appear in Historia Mathematica</arxiv:comment>
+    <arxiv:primary_category term="math.HO"/>
+    <author>
+      <name>Wladimir G. Boskoff</name>
+    </author>
+    <author>
+      <name>Bogdan D. Suceava</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.3970v1</id>
+    <title>An Overview of the SPACE Mission Proposal</title>
+    <updated>2007-10-22T15:16:18Z</updated>
+    <link href="https://arxiv.org/abs/0710.3970v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.3970v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  SPACE (SPectroscopic All-sky Cosmic Explorer) is a class-M mission proposed to ESA for the Cosmic Vision 2015-2025 call and recently promoted to the next assessment study phase. SPACE will produce the first all-sky spectroscopic survey of the Universe, taking spectra of more than 500 million galaxies over a wide range of redshifts. SPACE will operate in slit mode (MEMS) at R~400 between 0.8 and 1.8micron down to AB~23, providing redshifts to an accuracy of Delta z~0.001, regardless on the presence of bright emission lines, together with the most relevant physical and evolutionary properties. The catalog of spectroscopic redshift will allow to place the ultimate constraints on the Baryon Acoustic Oscillations and the nature of Dark Energy. By obtaining the first 3-D all-sky map of the Universe at z~2 and beyond, SPACE will trace the growth rate of cosmic structures, the large scale structure of luminous baryons and its cosmic evolution. Besides the all-sky survey, SPACE will carry out a deep extragalactic survey over an area of ~10 sq. deg., enabling a most powerful supernova search program, and a galactic plane survey in integral field mode. Approximately 30% of the time will be open. Due to its versatility, SPACE is a ``self-sufficient'' observatory which can attack and solve the most compelling questions on the nature of the Dark Energy without complementary data from the Earth or space. Its unique wide-field capabilities in the near-IR make SPACE the ideal complement to JWST, ALMA, and the future 25-50 m telescopes.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-22T15:16:18Z</published>
+    <arxiv:comment>4 pages, Venice 2007 Conf. Proc., to appear on Il Nuovo Cimento</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Nuovo Cim.B122:1467-1471,2007</arxiv:journal_ref>
+    <author>
+      <name>M. Robberto</name>
+    </author>
+    <author>
+      <name>A. Cimatti</name>
+    </author>
+    <author>
+      <name>the SPACE Science Team</name>
+    </author>
+    <arxiv:doi>10.1393/ncb/i2008-10496-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1393/ncb/i2008-10496-7" title="doi"/>
+  </entry>
+</feed>

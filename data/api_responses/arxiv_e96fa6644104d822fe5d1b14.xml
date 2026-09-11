@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7ofNAKA3+iM/g0+i0tFx/hqloro</id>
+  <title>arXiv Query: search_query=all:extreme OR all:zeros OR all:orthogonal OR all:polynomials OR all:smallest OR all:zero OR all:support OR all:endpoint&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:extreme+OR+(all:zeros+OR+(all:orthogonal+OR+(all:polynomials+OR+(all:smallest+OR+(all:zero+OR+(all:support+OR+all:endpoint))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>520051</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/math/0512358v2</id>
+    <title>Discrete Painlevé equations for recurrence coefficients of orthogonal polynomials</title>
+    <updated>2006-01-16T11:40:36Z</updated>
+    <link href="https://arxiv.org/abs/math/0512358v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0512358v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give four examples of families of orthogonal polynomials for which the coefficients in the recurrence relation satisfy a discrete Painlevé equation. The first example deals with Freud weights $|x|^ρ\exp(-|x|^m)$ on the real line, and we repeat Freud's derivation and analysis for the cases $m=2,4,6$. The Freud equations for the recurrence coefficients when $m=4$ corresponds to the discrete Painlevé I equation. The second example deals with orthogonal polynomials on the unit circle for the weight $\exp(λ\cos θ)$. These orthogonal polynomials are important in the theory of random unitary matrices. Periwal and Shevitz have shown that the recurrence coefficients satisfy the discrete Painlevé II equation. The third example deals with discrete orthogonal polynomials on the positive integers. We show that the recurrence coefficients of generalized Charlier polynomials can be obtained from a solution of the discrete Painlevé II equation. The fourth example deals with orthogonal polynomials on $\pm q^n$. We consider the discrete $q$-Hermite I polynomials and some discrete $q$-Freud polynomials for which the recurrence ceofficients satisfy a $q$-deformation of discrete Painlevé I.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-12-15T11:34:33Z</published>
+    <arxiv:comment>33 pages, 3 figures, submitted for the proceedings of the International Conference on Difference Equations, Special Functions, and Applications, Munich, Germany, July 2005. Revision includes an extra section on $q$-orthogonal polynomials</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Difference Equations, Special Functions and Orthogonal Polynomials (Eds. S. Elaydi et al.), World Scientific, 2007, pp. 687-725</arxiv:journal_ref>
+    <author>
+      <name>Walter Van Assche</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.10766v1</id>
+    <title>Orthogonal polynomials and Möbius transformations</title>
+    <updated>2019-04-15T20:05:29Z</updated>
+    <link href="https://arxiv.org/abs/1904.10766v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.10766v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given an orthogonal polynomial sequence on the real line, another sequence of polynomials can be found by composing these polynomials with a general Möbius transformation. In this work, we study the properties of such Möbius-transformed polynomials. We show that they satisfy an orthogonality relation in given curve of the complex plane with respect to a varying weight function and that they also enjoy several properties common to the orthogonal polynomial sequences on the real line --- e.g. a three-term recurrence relation, Christoffel-Darboux type identities, their zeros are simple, lie on the support of orthogonality and have the interlacing property, etc. Moreover, we also show that the Möbius-transformed polynomials obtained from classical orthogonal polynomials also satisfy a second-order differential equation, a Rodrigues' type formula and generating functions. As an application, we show that Hermite, Laguerre, Jacobi, Bessel and Romanovski polynomials are all related to each other by a suitable Möbius transformation. New orthogonality relations for Bessel and Romanovski polynomials are also presented.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-15T20:05:29Z</published>
+    <arxiv:comment>Keywords: Orthogonal polynomials, Möbius transformations, varying weight functions, classical orthogonal polynomials, Bessel polynomials, Romanovski polynomials</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>R. S. Vieira</name>
+    </author>
+    <author>
+      <name>V. Botta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0411391v1</id>
+    <title>Fine Structure of the Zeros of Orthogonal Polynomials, I. A Tale of Two Pictures</title>
+    <updated>2004-11-17T18:24:12Z</updated>
+    <link href="https://arxiv.org/abs/math/0411391v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0411391v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Mhaskar-Saff found a kind of universal behavior for the bulk structure of the zeros of orthogonal polynomials for large $n$. Motivated by two plots, we look at the finer structure for the case of random Verblunsky coefficients and for what we call the BLS condition: $α_n = Cb^n + O((bΔ)^n)$. In the former case, we describe results of Stoiciu. In the latter case, we prove asymptotically equal spacing for the bulk of zeros.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-11-17T18:24:12Z</published>
+    <arxiv:comment>Keywords: orthogonal polynomials, Jacobi matrices, CMV matrices</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Barry Simon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.11178v2</id>
+    <title>Zeros of random orthogonal polynomials with complex Gaussian coefficients</title>
+    <updated>2018-02-08T20:40:46Z</updated>
+    <link href="https://arxiv.org/abs/1711.11178v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.11178v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $\{f_j\}_{j=0}^n$ be a sequence of orthonormal polynomials where the orthogonality relation is satisfied on either the real line or on the unit circle. We study zero distribution of random linear combinations of the form $$P_n(z)=\sum_{j=0}^nη_jf_j(z),$$ where $η_0,\dots,η_n$ are complex-valued i.i.d.~standard Gaussian random variables. Using the Christoffel-Darboux formula, the density function for the expected number of zeros of $P_n$ in these cases takes a very simple shape. From these expressions, under the mere assumption that the orthogonal polynomials are from the Nevai class, we give the limiting value of the density function away from their respective sets where the orthogonality holds. In the case when $\{f_j\}$ are orthogonal polynomials on the unit circle, the density function shows that the expected number of zeros of $P_n$ are clustering near the unit circle. To quantify this phenomenon, we give a result that estimates the expected number of complex zeros of $P_n$ in shrinking neighborhoods of compact subsets of the unit circle.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-30T01:36:39Z</published>
+    <arxiv:comment>This work combines arXiv:1605.06836 with arXiv:1608.02805 by the author to extend the results given therein to allow for a wider class of orthogonal polynomials. The work also provides some analogs of the results for random polynomials spanned by OPUC with real-valued i.i.d. standard Gaussian coefficients given in arXiv:1711.07852 by M. Yattselev and the author</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Aaron Yeager</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0306286v1</id>
+    <title>On extreme zeros of classical orthogonal polynomials</title>
+    <updated>2003-06-19T11:28:11Z</updated>
+    <link href="https://arxiv.org/abs/math/0306286v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0306286v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Let $x_1$ and $x_k$ be the least and the largest zeros of the Laguerre or Jacobi polynomial of degree $k.$ We shall establish sharp inequalities of the form $x_1 &lt;A, x_k &gt;B,$ which are uniform in all the parameters involved. Together with inequalities in the opposite direction, recently obtained by the author, this locates the extreme zeros of classical orthogonal polynomials with the relative precision, roughly speaking, $O(k^{-2/3}).$</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-06-19T11:28:11Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Ilia Krasikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.03037v1</id>
+    <title>Exploring the zeros of real self-reciprocal polynomials by Chebyshev polynomials</title>
+    <updated>2017-08-29T16:34:23Z</updated>
+    <link href="https://arxiv.org/abs/1709.03037v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.03037v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we present some classes of real self-reciprocal polynomials with at most two zeros outside the unit circle which are connected with a Chebyshev quasi-orthogonal polynomials of order one. We investigated the distribution, simplicity and monotonicity of their zeros around the unit circle and real line.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-29T16:34:23Z</published>
+    <arxiv:comment>11 pages; Paper presented at 14th International Symposium on Orthogonal Polynomials, Special Functions and Applications (OPSFA 2017)</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vanessa Botta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.07788v2</id>
+    <title>Extreme zeros in a sequence of para-orthogonal polynomials and bounds for the support of the measure</title>
+    <updated>2015-10-24T12:22:38Z</updated>
+    <link href="https://arxiv.org/abs/1505.07788v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.07788v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a non-trivial Borel measure $μ$ on the unit circle $\mathbb T$, the corresponding reproducing (or Christoffel-Darboux) kernels with one of the variables fixed at $z=1$ constitute a family of so-called para-orthogonal polynomials, whose zeros belong to $\mathbb T$. With a proper normalization they satisfy a three-term recurrence relation determined by two sequence of real coefficients, $\{c_n\}$ and $\{d_n\}$, where $\{d_n\}$ is additionally a positive chain sequence. Coefficients $(c_n,d_n)$ provide a parametrization of a family of measures related to $μ$ by addition of a mass point at $z=1$.
+  In this paper we estimate the location of the extreme zeros (those closest to $z=1$) of the para-orthogonal polynomials from the $(c_n,d_n)$-parametrization of the measure, and use this information to establish sufficient conditions for the existence of a gap in the support of $μ$ at $z=1$. These results are easily reformulated in order to find gaps in the support of $μ$ at any other $z\in \mathbb T$.
+  We provide also some examples showing that the bounds are tight and illustrating their computational applications.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-28T18:24:02Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>A. Martinez-Finkelshtein</name>
+    </author>
+    <author>
+      <name>A. Sri Ranga</name>
+    </author>
+    <author>
+      <name>Daniel O. Veronese</name>
+    </author>
+    <arxiv:doi>10.1090/mcom/3210</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1090/mcom/3210" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.01940v1</id>
+    <title>Polynomials with symmetric zeros</title>
+    <updated>2019-04-01T23:31:44Z</updated>
+    <link href="https://arxiv.org/abs/1904.01940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.01940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Polynomials whose zeros are symmetric either to the real line or to the unit circle are very important in mathematics and physics. We can classify them into three main classes: the self-conjugate polynomials, whose zeros are symmetric to the real line; the self-inversive polynomials, whose zeros are symmetric to the unit circle; and the self-reciprocal polynomials, whose zeros are symmetric by an inversion with respect to the unit circle followed by a reflection in the real line. Real self-reciprocal polynomials are simultaneously self-conjugate and self-inversive so that their zeros are symmetric to both the real line and the unit circle. In this survey, we present a short review of these polynomials, focusing on the distribution of their zeros.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-01T23:31:44Z</published>
+    <arxiv:comment>Keywords: Self-inversive polynomials, self-reciprocal polynomials, Pisot and Salem polynomials, Möbius transformations, knot theory, Bethe equations</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>R. S. Vieira</name>
+    </author>
+    <arxiv:doi>10.5772/intechopen.82728</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5772/intechopen.82728" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.12707v4</id>
+    <title>Multiple orthogonal polynomials: Pearson equations and Christoffel formulas</title>
+    <updated>2022-10-13T22:31:44Z</updated>
+    <link href="https://arxiv.org/abs/2106.12707v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.12707v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multiple orthogonal polynomials with respect to two weights on the step-line are considered. A connection between different dual spectral matrices, one banded (recursion matrix) and one Hessenberg, respectively, and the Gauss-Borel factorization of the moment matrix is given. It is shown a hidden freedom exhibited by the spectral system related to the multiple orthogonal polynomials. Pearson equations are discussed, a Laguerre-Freud matrix is considered, and differential equations for type I and II multiple orthogonal polynomials, as well as for the corresponding linear forms are given. The Jacobi-Piñeiro multiple orthogonal polynomials of type I and type II are used as an illustrating case and the corresponding differential relations are presented. A permuting Christoffel transformation is discussed, finding the connection between the different families of multiple orthogonal polynomials. The Jacobi-Piñeiro case provides a convenient illustration of these symmetries, giving linear relations between different polynomials with shifted and permuted parameters. We also present the general theory for the perturbation of each weight by a different polynomial or rational function aka called Christoffel and Geronimus transformations. The connections formulas between the type II multiple orthogonal polynomials, the type I linear forms, as well as the vector Stieltjes-Markov vector functions is also presented. We illustrate these findings by analyzing the special case of modification by an even polynomial.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-24T00:53:26Z</published>
+    <arxiv:comment>Revised version, completely new section on general Christoffel and Geronimus for multiple orthogonal polynomials on the stepline</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Analysis and Mathematical Physics volume 12, Article number: 129 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Amilcar Branquinho</name>
+    </author>
+    <author>
+      <name>Ana Foulquié-Moreno</name>
+    </author>
+    <author>
+      <name>Manuel Mañas</name>
+    </author>
+    <arxiv:doi>10.1007/s13324-022-00734-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s13324-022-00734-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.1218v1</id>
+    <title>Bounds for extreme zeros of some classical orthogonal polynomials</title>
+    <updated>2011-11-04T19:18:05Z</updated>
+    <link href="https://arxiv.org/abs/1111.1218v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.1218v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive upper bounds for the smallest zero and lower bounds for the largest zero of Laguerre, Jacobi and Gegenbauer polynomials. Our approach uses mixed three term recurrence relations satisfied by polynomials corresponding to different parameter(s) within the same classical family. We prove that interlacing properties of the zeros impose restrictions on the possible location of common zeros of the polynomials involved and deduce strict bounds for the extreme zeros of polynomials belonging to each of these three classical families. We show numerically that the bounds generated by our method improve known lower (upper) bounds for the largest (smallest) zeros of polynomials in these families, notably in the case of Jacobi and Gegenbauer polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-04T19:18:05Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>K. Driver</name>
+    </author>
+    <author>
+      <name>K. Jordaan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.10125v2</id>
+    <title>Asymptotic zero distribution of random orthogonal polynomials</title>
+    <updated>2018-03-22T17:39:16Z</updated>
+    <link href="https://arxiv.org/abs/1801.10125v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.10125v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider random polynomials of the form $H_n(z)=\sum_{j=0}^nξ_jq_j(z)$ where the $\{ξ_j\}$ are i.i.d non-degenerate complex random variables, and the $\{q_j(z)\}$ are orthonormal polynomials with respect to a compactly supported measure $τ$ satisfying the Bernstein-Markov property on a regular compact set $K \subset \mathbb{C}$. We show that if $\mathbb{P}(|ξ_0|&gt;e^{|z|})=o(|z|^{-1})$, then the normalized counting measure of the zeros of $H_n$ converges weakly in probability to the equilibrium measure of $K.$ This is the best possible result, in the sense that the roots of $G_n(z)=\sum_{j=0}^nξ_jz^j$ fail to converge in probability to the appropriate equilibrium measure when the above condition on the $ξ_j$ is not satisfied. In addition, we give a multivariable version of this result.
+  We also consider random polynomials of the form $\sum_{k=0}^nξ_kf_{n,k}z^k$, where the coefficients $f_{n,k}$ are complex constants satisfying certain conditions, and the random variables $\{ξ_k\}$ satisfy $\mathbb{E} \log(1 + |ξ_0|) &lt; \infty$. In this case, we establish almost sure convergence of the normalized counting measure of the zeros to an appropriate limiting measure. Again, this is the best possible result in the same sense as above.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-30T18:23:00Z</published>
+    <arxiv:comment>34 pages. The title has been changed from `Universality for zeros of random polynomials'. Edits have been made throughout the paper, chiefly in the introduction, and in the proofs of Lemma 5.5/Theorem 5.6 and Corollary 6.8. Remark 5.4 and Corollary 6.6 have been added</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Thomas Bloom</name>
+    </author>
+    <author>
+      <name>Duncan Dauvergne</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.09931v2</id>
+    <title>Bounds for extreme zeros of Meixner-Pollaczek polynomials</title>
+    <updated>2024-12-07T18:31:19Z</updated>
+    <link href="https://arxiv.org/abs/2312.09931v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.09931v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we consider connection formulae for orthogonal polynomials in the context of Christoffel transformations for the case where a weight function, not necessarily even, is multiplied by an even function $c_{2k}(x),k\in N_0$, to determine new lower bounds for the largest zero and upper bounds for the smallest zero of a Meixner-Pollaczek polynomial. When $p_n$ is orthogonal with respect to a weight $w(x)$ and $g_{n-m}$ is orthogonal with respect to the weight $c_{2k}(x)w(x)$, we show that $k\in\{0,1,\dots,m\}$ is a necessary and sufficient condition for existence of a connection formula involving a polynomial $G_{m-1}$ of degree $(m-1)$, such that the $(n-1)$ zeros of $G_{m-1}g_{n-m}$ and the $n$ zeros of $p_n$ interlace. We analyse the new inner bounds for the extreme zeros of Meixner-Pollaczek polynomials to determine which bounds are the sharpest. We also briefly discuss bounds for the zeros of Pseudo-Jacobi polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-15T16:40:53Z</published>
+    <arxiv:comment>12 pages, 0 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>AS Jooste</name>
+    </author>
+    <author>
+      <name>K. Jordaan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1006.3932v1</id>
+    <title>Density of Complex Zeros of a System of Real Random Polynomials</title>
+    <updated>2010-06-20T13:29:06Z</updated>
+    <link href="https://arxiv.org/abs/1006.3932v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.3932v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the density of complex zeros of a system of real random SO($m+1$) polynomials in several variables. We show that the density of complex zeros of this random polynomial system with real coefficients rapidly approaches the density of complex zeros in the complex coefficients case. We also show that the behavior the scaled density of complex zeros near $\mathbb{R}^m$ of the system of real random polynomials is different in the $m\geq 2$ case than in the $m=1$ case: the density goes to infinity instead of tending linearly to zero.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-20T13:29:06Z</published>
+    <arxiv:comment>25 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Macdonald, Brian. Density of Complex Zeros of a System of Real Random Polynomials. Journal of Statistical Physics: Volume 136, Issue 5 (2009), Page 807-833</arxiv:journal_ref>
+    <author>
+      <name>Brian Macdonald</name>
+    </author>
+    <arxiv:doi>10.1007/s10955-009-9810-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10955-009-9810-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0604074v2</id>
+    <title>Asymptotics and zeros of Sobolev orthogonal polynomials on unbounded supports</title>
+    <updated>2007-06-15T12:19:00Z</updated>
+    <link href="https://arxiv.org/abs/math/0604074v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0604074v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we present a survey about analytic properties of polynomials orthogonal with respect to a weighted Sobolev inner product such that the vector of measures has an unbounded support. In particular, we are focused in the study of the asymptotic behaviour of such polynomials as well as in the distribution of their zeros. Some open problems as well as some new directions for a future research are formulated.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-04-04T14:24:06Z</published>
+    <arxiv:comment>Changed content; 34 pages, 41 references</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Francisco Marcellan</name>
+    </author>
+    <author>
+      <name>Juan Jose Moreno-Balcazar</name>
+    </author>
+    <arxiv:doi>10.1007/s10440-006-9073-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10440-006-9073-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9908147v1</id>
+    <title>Finding differential equations for symmetric generalized ultraspherical polynomials by using inversion methods</title>
+    <updated>1999-08-27T20:05:46Z</updated>
+    <link href="https://arxiv.org/abs/math/9908147v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9908147v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We find all spectral type differential equations satisfied by the symmetric generalized ultraspherical polynomials which are orthogonal on the interval [-1,1] with respect to the classical symmetric weight function for the Jacobi polynomials together with equal mass points at both ends of the interval of orthogonality.
+  In order to find explicit formulas for the coefficients of these differential equations we have to solve systems of equations involving derivatives of the classical Jacobi polynomials. These systems of equations have a unique solution which is given explicitly. This is a consequence of the Jacobi inversion formula.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-08-27T20:05:46Z</published>
+    <arxiv:comment>10 pages, published in Proceedings of the International Workshop on Orthogonal Polynomials in Mathematical Physics (Leganes, 1996), Universidad Carlos III Madrid (Leganes, 1997), 103-111. See also : http://dulcinea.uc3m.es/users/workshop/proceedings.html</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Proceedings of the International Workshop on Orthogonal Polynomials in Mathematical Physics (Leganés, 1996), Universidad Carlos III Madrid, Leganés, 1997, 103-111.</arxiv:journal_ref>
+    <author>
+      <name>J. Koekoek</name>
+    </author>
+    <author>
+      <name>R. Koekoek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/0203058v2</id>
+    <title>Zeros of polynomials orthogonal on several intervals</title>
+    <updated>2002-04-30T08:48:15Z</updated>
+    <link href="https://arxiv.org/abs/math-ph/0203058v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math-ph/0203058v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  First a formula for the number of zeros of the orthogonal polynomial in the intervals is presented. Then a criteria about the appearance of a zero in a gap is given. Finally a necessary and sufficient condition is derived such that the zeros of the orthogonal polynomials have given accumulation points in the gaps. As a consequence it follows that every point from the gaps is an accumulation point of the zeros of the orthogonal polynomials, if the harmonic measures of the intervals are linearly independent over the rationals. If the harmonic measures are rational then there is a finite number of accumulation points only.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-03-28T10:44:00Z</published>
+    <arxiv:comment>21pages, revised and extended version, slight corrections also</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Franz Peherstorfer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.15122v1</id>
+    <title>Zeros of Multiple Orthogonal Polynomials: Location and Interlacing</title>
+    <updated>2025-03-19T11:31:14Z</updated>
+    <link href="https://arxiv.org/abs/2503.15122v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.15122v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove a criterion on the possible locations of zeros of type I and type II multiple orthogonal polynomials in terms of normality of degree $1$ Christoffel transforms. We provide another criterion in terms of degree $2$ Christoffel transforms for establishing zero interlacing of the neighbouring multiple orthogonal polynomials of type I and type II.
+  We apply these criteria to establish zero location and interlacing of type I multiple orthogonal polynomials for Nikishin systems. Additionally, we recover the known results on zero location and interlacing for type I multiple orthogonal polynomials for Angelesco systems, as well as for type II multiple orthogonal polynomials for Angelesco and AT systems.
+  Finally, we demonstrate that normality of the higher order Christoffel transforms is naturally related to the zeros of the Wronskians of consecutive orthogonal polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-19T11:31:14Z</published>
+    <arxiv:comment>19 pages. Any feedback or missing references will be highly appreciated</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Rostyslav Kozhan</name>
+    </author>
+    <author>
+      <name>Marcus Vaktnäs</name>
+    </author>
+    <arxiv:doi>10.1112/blms.70281</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/blms.70281" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/0402002v1</id>
+    <title>Orthogonal polynomials, special functions and mathematical physics</title>
+    <updated>2004-02-02T14:10:37Z</updated>
+    <link href="https://arxiv.org/abs/math-ph/0402002v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math-ph/0402002v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the 6th Int. Symposium on OPSFA there were several communications dealing with concrete applications of orthogonal polynomials to experimental and theoretical physics, chemistry, biology and statistics. Here I make suggestions concerning the use of powerful apparatus of orthogonal polynomials and special functions in several lines of research in mathematical physics</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-02-02T14:10:37Z</published>
+    <arxiv:comment>LaTeX, 4 pages, Comunication presented to the 6th International Symposium on Orthogonal Polynomials, Special Functions and their Applications, Rome, June 2001 (late submission to arxiv.org)</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Comp. Appl. Math. 153 (2003) 543-545</arxiv:journal_ref>
+    <author>
+      <name>M. Lorente</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.08950v4</id>
+    <title>Discrete orthogonality relations for multi-indexed Laguerre and Jacobi polynomials</title>
+    <updated>2024-05-21T11:12:41Z</updated>
+    <link href="https://arxiv.org/abs/1907.08950v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.08950v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The discrete orthogonality relations hold for all the orthogonal polynomials obeying three term recurrence relations. We show that they also hold for multi-indexed Laguerre and Jacobi polynomials, which are new orthogonal polynomials obtained by deforming these classical orthogonal polynomials. The discrete orthogonality relations could be considered as more encompassing characterisation of orthogonal polynomials than the three term recurrence relations. As the multi-indexed orthogonal polynomials start at a positive degree $\ell_{\mathcal D}\ge1$, the three term recurrence relations are broken. The extra $\ell_{\mathcal D}$ `lower degree polynomials', which are necessary for the discrete orthogonality relations, are identified. The corresponding Christoffel numbers are determined. The main results are obtained by the blow-up analysis of the second order differential operators governing the multi-indexed orthogonal polynomials around the zeros of these polynomials at a degree $\ell_{\mathcal D}+\mathcal{N}$. %changed The discrete orthogonality relations are shown to hold for another group of `new' orthogonal polynomials called Krein-Adler polynomials based on the Hermite, Laguerre and Jacobi polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-21T10:15:23Z</published>
+    <arxiv:comment>30 pages, no figures. Conjecture 3.1 in Version 1 has been proved and now presented as Theorem 3.1. Several new theorems, corollaries, and a new section 5 on Krein-Adler orthogonal polynomials added. A short note added after Section 6. Some notations and presentation improved. References updated</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>J. Math. Phys. 62, 013509 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Choon-Lin Ho</name>
+    </author>
+    <author>
+      <name>Ryu Sasaki</name>
+    </author>
+    <arxiv:doi>10.1063/5.0006440</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0006440" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0401299v1</id>
+    <title>Turan inequalities and zeros of orthogonal polynomials</title>
+    <updated>2004-01-22T16:25:09Z</updated>
+    <link href="https://arxiv.org/abs/math/0401299v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0401299v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We use Turan type inequalities to give new non-asymptotic bounds on the extreme zeros of orthogonal polynomials in terms of the coefficients of their three term recurrence. Most of our results deal with symmetric polynomials satisfying the three term recurrence $p_{k+1}=x p_k-c_k p_{k-1},$ with a nondecreasing sequence $\{c_k\}$. As a special case they include a non-asymptotic version of Mate, Nevai and Totik result on the largest zeros of orthogonal polynomials with $c_k=k^δ (1+ o(k^{-2/3})).$</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-01-22T16:25:09Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Ilia Krasikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.22451v3</id>
+    <title>Zeros of Polynomials in Derivatives of Automorphic $L$-functions</title>
+    <updated>2026-09-03T00:55:23Z</updated>
+    <link href="https://arxiv.org/abs/2512.22451v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.22451v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $\mathfrak{F}_m$ be the set of all cuspidal automorphic representations of $\mathrm{GL}_m(\mathbb{A}_{\mathbb{Q}})$, and let $F(s,\boldsymbolπ)$ be a polynomial in the derivatives of $L$-functions associated with representations $π\in \cup_{m=1}^{\infty} \mathfrak{F}_m$. We establish an asymptotic formula for the number of nontrivial zeros of $F(s,\boldsymbolπ)$ with $0 &lt; \operatorname{Im}(s) &lt; T$. We explicitly determine the main term of this formula in terms of the dimensions, the arithmetic conductors, and the orders of differentiation of the component $L$-functions. Furthermore, we show that, under certain conditions, almost all nontrivial zeros of $F(s,\boldsymbolπ)$ lie near the critical line $\operatorname{Re}(s)=1/2$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-27T03:40:38Z</published>
+    <arxiv:comment>31 pages, 1 figure, Revised version incorporating corrections and clarifications; main conclusions unchanged</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Dong, A., Wattanawanichkul, N. and Zaharescu, A. (2026), Zeros of polynomials in derivatives of automorphic L-functions. Mathematika, 72: e70120</arxiv:journal_ref>
+    <author>
+      <name>Anji Dong</name>
+    </author>
+    <author>
+      <name>Nawapan Wattanawanichkul</name>
+    </author>
+    <author>
+      <name>Alexandru Zaharescu</name>
+    </author>
+    <arxiv:doi>10.1112/mtk.70120</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/mtk.70120" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.09432v1</id>
+    <title>Convergence Rates of Exceptional Zeros of Exceptional Orthogonal Polynomials</title>
+    <updated>2020-09-20T14:05:20Z</updated>
+    <link href="https://arxiv.org/abs/2009.09432v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.09432v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the zeros of exceptional orthogonal polynomials (XOP). Exceptional orthogonal polynomials were originally discovered as eigenfunctions of second order differential operators that exist outside the classical Bochner-Brenke classification due to the fact that XOP sequences omit polynomials of certain degrees. This omission causes several properties of the classical orthogonal polynomial sequences to not extend to the XOP sequences. One such property is the restriction of the zeros to the convex hull of the support of the measure of orthogonality. In the XOP case, the zeros that exist outside the classical intervals are called exceptional zeros and they often converge to easily identifiable limit points as the degree becomes large. We deduce the exact rate of convergence and verify that certain estimates that previously appeared in the literature are sharp.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-20T14:05:20Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Brian Simanek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.12518v1</id>
+    <title>Zero distribution of orthogonal polynomials on a $q$-lattice</title>
+    <updated>2019-10-28T09:30:17Z</updated>
+    <link href="https://arxiv.org/abs/1910.12518v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.12518v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give the asymptotic behavior of the zeros of orthogonal polynomials, after appropriate scaling, for which the orthogonality measure is supported on the $q$-lattice $\{q^k, k=0,1,2,3,\ldots\}$, where $0 &lt; q &lt; 1$. The asymptotic distribution of the zeros is given by the radial part of the equilibrium measure of an extremal problem in logarithmic potential theory for circular symmetric measures with a constraint imposed by the $q$-lattice.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-28T09:30:17Z</published>
+    <arxiv:comment>24 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Constructive Approximation, 2020 (online first)</arxiv:journal_ref>
+    <author>
+      <name>Walter Van Assche</name>
+    </author>
+    <author>
+      <name>Quinten Van Baelen</name>
+    </author>
+    <arxiv:doi>10.1007/s00365-020-09513-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00365-020-09513-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.04908v3</id>
+    <title>Asymptotics of matrix orthogonal polynomials on the real line</title>
+    <updated>2026-04-20T16:56:40Z</updated>
+    <link href="https://arxiv.org/abs/2508.04908v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.04908v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we are interested in matrix valued orthogonal polynomials on the real line with respect to exponential weights. We obtain strong asymptotics as the degree tends to infinity in different regions of the complex plane, as well as asymptotic behavior of recurrence coefficients and norms. The main tools are the Riemann-Hilbert formulation and the Deift-Zhou method of steepest descent, adapted to the matrix case. A central role is played by the matrix Szegő function, an object that has independent interest.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-06T22:17:06Z</published>
+    <arxiv:comment>41 pages, 7 figures. Extra material on orthonormal matrix orthogonal polynomials and limit zero distribution added in Section 2 and Section 4</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Alfredo Deaño</name>
+    </author>
+    <author>
+      <name>Pablo Román</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.04231v2</id>
+    <title>How to count the number of zeros that a polynomial has on the unit circle?</title>
+    <updated>2020-09-14T16:12:32Z</updated>
+    <link href="https://arxiv.org/abs/1902.04231v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.04231v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The classical problem of counting the number of real zeros of a real polynomial was solved a long time ago by Sturm. The analogous problem of counting the number of zeros that a polynomial has on the unit circle is, however, still an open problem. In this paper, we show that the second problem can be reduced to the first one through the use of a suitable pair of Möbius transformations - often called Cayley transformations - that have the property of mapping the unit circle onto the real line and vice versa. Although the method applies to arbitrary complex polynomials, we discuss in detail several classes of polynomials with symmetric zeros as, for instance, the cases of self-conjugate, self-adjoint, self-inversive, self-reciprocal and skew-reciprocal polynomials. Finally, an application of this method to Salem polynomials and to polynomials with small Mahler measure is also discussed.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-12T04:03:07Z</published>
+    <arxiv:comment>Final version. Keywords: Self-inversive polynomials, Self-reciprocal polynomials, Salem polynomials, Sturm theorem, Möbius transformations, Cayley transformations</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Journal of Computational and Applied Mathematics, Volume 384, 1 March 2021, 113169 (Available online 27 August 2020)</arxiv:journal_ref>
+    <author>
+      <name>R. S. Vieira</name>
+    </author>
+    <arxiv:doi>10.1016/j.cam.2020.113169</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cam.2020.113169" title="doi"/>
+  </entry>
+</feed>

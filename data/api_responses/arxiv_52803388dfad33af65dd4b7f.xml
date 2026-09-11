@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6QOCUd8EnyUJNhP1YdiWMO5nHsY</id>
+  <title>arXiv Query: search_query=all:Stieltjes OR all:function OR all:complete OR all:monotonicity OR all:characterization&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:43:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Stieltjes+OR+(all:function+OR+(all:complete+OR+(all:monotonicity+OR+all:characterization)))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>863730</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1205.2103v1</id>
+    <title>First order non-homogeneous q-difference equation for Stieltjes function characterizing q-orthogonal polynomials</title>
+    <updated>2012-05-09T21:03:03Z</updated>
+    <link href="https://arxiv.org/abs/1205.2103v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.2103v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we give a characterization of some classical q-orthogonal polynomials in terms of a difference property of the associated Stieltjes function, i.e this function solves a first order non-homogeneous q-difference equation. The solutions of the aforementioned q-difference equation (given in terms of hypergeometric series) for some canonical cases, namely, q-Charlier, q-Kravchuk, q-Meixner and q-Hahn are worked out.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-09T21:03:03Z</published>
+    <arxiv:comment>A characterization of some q-classical polynomials (orthogonal with respect to some q-distributions) given in terms of a difference property of the associated Stieltjes function is presented. Explicit expressions for the associated Stieltjes functions (for some canonical cases) in the q-falling factorial basis are given in terms of hypergeometric functions</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>J. Arvesú</name>
+    </author>
+    <author>
+      <name>A. Soria-Lorente</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.2520v1</id>
+    <title>Two new proofs of the complete monotonicity of a function involving the psi function</title>
+    <updated>2009-02-15T06:25:19Z</updated>
+    <link href="https://arxiv.org/abs/0902.2520v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.2520v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the present paper, we give two new proofs for the necessary and sufficient condition $α\le1$ such that the function $x^α[\ln x-ψ(x)]$ is completely monotonic on $(0,\infty)$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-15T06:25:19Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Bai-Ni Guo and Feng Qi, Two new proofs of the complete monotonicity of a function involving the psi function, Bulletin of the Korean Mathematical Society 47 (2010), no. 1, 103--111</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Bai-Ni Guo</name>
+    </author>
+    <arxiv:doi>10.4134/BKMS.2010.47.1.103</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4134/BKMS.2010.47.1.103" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.1101v3</id>
+    <title>Complete monotonicity of a function involving a ratio of gamma functions and applications</title>
+    <updated>2011-01-25T01:40:31Z</updated>
+    <link href="https://arxiv.org/abs/0904.1101v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.1101v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the paper, necessary and sufficient conditions are presented for a function involving a ratio of gamma functions to be logarithmically completely monotonic. This extends and generalizes the main result in [\emph{Inequalities and monotonicity for the ratio of gamma functions}, Taiwanese J. Math. \textbf{7} (2003), no.~2, 239\nobreakdash--247.] and others. As applications, several inequalities involving the volume of the unit ball in $\mathbb{R}^n$ are derived, which refine, generalize and extend some known inequalities.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-07T10:11:52Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Feng Qi, Chun-Fu Wei, and Bai-Ni Guo, Complete monotonicity of a function involving the ratio of gamma functions and applications, Banach Journal of Mathematical Analysis 6 (2012), no. 1, 35--44</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Bai-Ni Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0905.2732v1</id>
+    <title>Complete monotonicity of some functions involving polygamma functions</title>
+    <updated>2009-05-17T12:01:25Z</updated>
+    <link href="https://arxiv.org/abs/0905.2732v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0905.2732v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the present paper, we establish necessary and sufficient conditions for the functions $x^α\bigl\lvertψ^{(i)}(x+β)\bigr\lvert$ and $α\bigl\lvertψ^{(i)}(x+β)\bigr\lvert-x\bigl\lvertψ^{(i+1)}(x+β)\bigr\lvert$ respectively to be monotonic and completely monotonic on $(0,\infty)$, where $i\in\mathbb{N}$, $α&gt;0$ and $β\ge0$ are scalars, and $ψ^{(i)}(x)$ are polygamma functions.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-05-17T12:01:25Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Feng Qi, Senlin Guo and Bai-Ni Guo, Complete monotonicity of some functions involving polygamma functions, Journal of Computational and Applied Mathematics 233 (2010), no. 9, 2149--2160</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Senlin Guo</name>
+    </author>
+    <author>
+      <name>Bai-Ni Guo</name>
+    </author>
+    <arxiv:doi>10.1016/j.cam.2009.09.044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cam.2009.09.044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.09868v1</id>
+    <title>Determinacy Witnesses in the Completely Monotone--Stieltjes--Bernstein Hierarchy</title>
+    <updated>2026-07-10T18:01:41Z</updated>
+    <link href="https://arxiv.org/abs/2607.09868v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.09868v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Membership problems in the completely monotone--Stieltjes--Bernstein hierarchy often become explicit after passage to a determinate representation. We organize that passage as a witness calculus. For the Laplace, Stieltjes, and Hausdorff transforms used here, W f denotes the unique admissible signed representing datum; a certificate either proves its positivity or exhibits an obstruction. A concrete dictionary for completely monotone, logarithmically completely monotone, Bernstein, complete Bernstein, and Stieltjes functions and for Hausdorff moment sequences is combined with transport rules for products, shifts, sampling, and Bernstein increments.
+  The applications are consequences of this common calculation. A triple-product identity for a digamma bridge controls ordinary Bernstein and logarithmic complete monotonicity ranges for gamma ratios and gives the strict power cutoff in Szabo's problem. For integer gamma quotients, the inverse Laplace density is a damped Jacobi polynomial, so classical zero geometry decides broad parameter regions. Boundary signs distinguish Bernstein from complete Bernstein behavior and separate completely monotone functions from the Stieltjes class. On the discrete side, signed atoms and finite differences settle interpolation and coefficient questions. The Ramanujan integral and a fractional Volterra symbol provide positive recognition examples. Across the applications, the workflow is the same: normalize the class question, compute or transport its witness, and decide one explicit sign problem. Every exclusion is accompanied by an exact certificate.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-10T18:01:41Z</published>
+    <arxiv:comment>33 pages, 35 references, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Domingos S. P. Salazar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.04114v1</id>
+    <title>Log-convex and Stieltjes moment sequences</title>
+    <updated>2016-12-13T12:05:08Z</updated>
+    <link href="https://arxiv.org/abs/1612.04114v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.04114v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that Stieltjes moment sequences are infinitely log-convex, which parallels a famous result that (finite) Pólya frequency sequences are infinitely log-concave. We introduce the concept of $q$-Stieltjes moment sequences of polynomials and show that many well-known polynomials in combinatorics are such sequences. We provide a criterion for linear transformations and convolutions preserving Stieltjes moment sequences. Many well-known combinatorial sequences are shown to be Stieltjes moment sequences in a unified approach and therefore infinitely log-convex, which in particular settles a conjecture of Chen and Xia about the infinite log-convexity of the Schröder numbers. We also list some interesting problems and conjectures about the log-convexity and the Stieltjes moment property of the (generalized) Apéry numbers.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-13T12:05:08Z</published>
+    <arxiv:comment>For Conjecture 5.2, Prof. Sokal recently reminded us of his conjecture only for A_n, and B_n don't form a Stieltjes monment sequence</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>published in Advances in Applied Mathematics 2016 (81) 115-127</arxiv:journal_ref>
+    <author>
+      <name>Yi Wang</name>
+    </author>
+    <author>
+      <name>Bao-Xuan Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.0326v4</id>
+    <title>Bounds for the Stieltjes Transform and the Density of States of Wigner Matrices</title>
+    <updated>2014-12-04T12:54:46Z</updated>
+    <link href="https://arxiv.org/abs/1311.0326v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.0326v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider ensembles of Wigner matrices, whose entries are (up to the symmetry constraints) independent and identically distributed random variables. We show the convergence of the Stieltjes transform towards the Stieltjes transform of the semicircle law on optimal scales and with the optimal rate. Our bounds improve previous results, in particular from [22,10], by removing the logarithmic corrections. As applications, we establish the convergence of the eigenvalue counting functions with the rate $(\log N)/N$ and the rigidity of the eigenvalues of Wigner matrices on the same scale. These bounds improve the results of [22,10,23].</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-02T01:03:20Z</published>
+    <arxiv:comment>New title, former title "Optimal Bounds on the Stieltjes Transform of Wigner Matrices". Updated references</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Claudio Cacciapuoti</name>
+    </author>
+    <author>
+      <name>Anna Maltsev</name>
+    </author>
+    <author>
+      <name>Benjamin Schlein</name>
+    </author>
+    <arxiv:doi>10.1007/s00440-014-0586-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00440-014-0586-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.1104v2</id>
+    <title>Uniqueness of nontrivially complete monotonicity for a class of functions involving polygamma functions</title>
+    <updated>2010-01-26T08:45:35Z</updated>
+    <link href="https://arxiv.org/abs/0904.1104v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.1104v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For $m,n\in\mathbb{N}$, let $f_{m,n}(x)=\bigr[ψ^{(m)}(x)\bigl]^2+ψ^{(n)}(x)$ on $(0,\infty)$. In the present paper, we prove using two methods that, among all $f_{m,n}(x)$ for $m,n\in\mathbb{N}$, only $f_{1,2}(x)$ is nontrivially completely monotonic on $(0,\infty)$. Accurately, the functions $f_{1,2}(x)$ and $f_{m,2n-1}(x)$ are completely monotonic on $(0,\infty)$, but the functions $f_{m,2n}(x)$ for $(m,n)\ne(1,1)$ are not monotonic and does not keep the same sign on $(0,\infty)$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-07T10:34:01Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>B.-N. Guo, F. Qi and H. M. Srivastava, Some uniqueness results for the non-trivially complete monotonicity of a class of functions involving the polygamma and related functions, Integral Transforms Spec. Funct. 21 (2010), no. 11, 849--858</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Bai-Ni Guo</name>
+    </author>
+    <arxiv:doi>10.1080/10652461003748112</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10652461003748112" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.05267v1</id>
+    <title>Stieltjes functions of finite order and hyperbolic monotonicity</title>
+    <updated>2016-04-18T17:58:17Z</updated>
+    <link href="https://arxiv.org/abs/1604.05267v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.05267v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A class of Stieltjes functions of finite type is introduced. These satisfy Widder's conditions on the successive derivatives up to some finite order, and are not necessarily smooth. We show that such functions have a unique integral representation, along some generic kernel which is a truncated Laurent series approximating the standard Stieltjes kernel. We then obtain a two-to-one correspondence, via the logarithmic derivative, between these functions and a subclass of hyperbolically monotone functions of finite type. This correspondence generalizes a representation of HCM functions in terms of two Stieltjes transforms earlier obtained by the first author.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-18T17:58:17Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Lennart Bondesson</name>
+    </author>
+    <author>
+      <name>Thomas Simon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.27101v1</id>
+    <title>Approximating Feynman integrals using complete monotonicity and Stieltjes properties</title>
+    <updated>2026-06-25T14:36:31Z</updated>
+    <link href="https://arxiv.org/abs/2606.27101v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.27101v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present two novel approaches for the numerical evaluation of Feynman integrals based on their universal analytic properties related to positivity, namely complete monotonicity (CM) and Stieltjes properties. Building on recent results, we exploit the fact that scalar Feynman integrals in the Euclidean region are completely monotonic functions, meaning that all their derivatives have a fixed sign. Building on this observation, the CM bootstrap allows one to reconstruct integrals from differential equations without explicit boundary data, yielding rigorous bounds. The second method is based on a refinement of CM. We prove that Feynman integrals, within a certain range of parameters, are not only CM but in fact Stieltjes functions. This enables the use of Padé approximants with provable convergence properties in the cut complex plane, providing an efficient method for analytic continuation and fast numerical evaluation. We illustrate the method with simple examples such as the massive bubble integral and discuss applications to multi-loop integrals, including the 20-loop banana integral. Finally, we comment on a number of extensions of these novel avenues for computing Feynman integrals.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-25T14:36:31Z</published>
+    <arxiv:comment>8 pages, 3 figures, presented at Loops and Legs 2026</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Sara Ditsch</name>
+    </author>
+    <author>
+      <name>Johannes M. Henn</name>
+    </author>
+    <author>
+      <name>Prashanth Raman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.18499v3</id>
+    <title>Approximating Feynman Integrals Using Complete Monotonicity and Stieltjes Properties</title>
+    <updated>2026-03-25T15:14:52Z</updated>
+    <link href="https://arxiv.org/abs/2512.18499v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.18499v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce two novel numerical approaches for computing Feynman integrals based on their complete monotonicity (CM) and Stieltjes properties. The first method uses that scalar Feynman integrals are CM, meaning that all their derivatives have a fixed sign, in the Euclidean kinematic region. This imposes strong constraints on the function space. Simultaneously, these integrals obey systems of linear differential equations with respect to kinematic parameters. By imposing that the solutions to these differential equations satisfy complete monotonicity across the Euclidean region, we develop an efficient and highly constraining numerical bootstrap method. We provide a proof of principle of the power of our approach by applying it to a class of multi-loop Feynman integrals with internal masses. The second method is based on a refinement of CM. We prove that Feynman integrals, within a certain range of parameters, such as dimension and propagator exponents, are not only CM but in fact Stieltjes functions. The latter can be described efficiently by Padé approximants that are known to converge in the cut complex plane. This means that these representations are valid also in analytically continued kinematics, such as physical scattering regions. These insights allow us to obtain rational approximations to Feynman integrals from minimal information, such as a Taylor expansion about a soft limit. We demonstrate the effectiveness of this method by applying it to a 20-loop banana-type Feynman integral. Finally, we comment on a number of extensions of these novel avenues for computing Feynman integrals.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-20T20:36:06Z</published>
+    <arxiv:comment>v3: version accepted for publication in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Sara Ditsch</name>
+    </author>
+    <author>
+      <name>Johannes M. Henn</name>
+    </author>
+    <author>
+      <name>Prashanth Raman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.1581v2</id>
+    <title>Complete characterization of Hadamard powers preserving Loewner positivity, monotonicity, and convexity</title>
+    <updated>2014-10-06T20:04:53Z</updated>
+    <link href="https://arxiv.org/abs/1311.1581v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.1581v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Entrywise powers of symmetric matrices preserving positivity, monotonicity or convexity with respect to the Loewner ordering arise in various applications, and have received much attention recently in the literature. Following FitzGerald and Horn [J. Math. Anal. Appl., 1977], it is well-known that there exists a critical exponent beyond which all entrywise powers preserve positive definiteness. Similar phase transition phenomena have also recently been shown by Hiai (2009) to occur for monotonicity and convexity. In this paper, we complete the characterization of all the entrywise powers below and above the critical exponents that are positive, monotone, or convex on the cone of positive semidefinite matrices. We then extend the original problem by fully classifying the positive, monotone, or convex powers in a more general setting where additional rank constraints are imposed on the matrices. We also classify the entrywise powers that are super/sub-additive with respect to the Loewner ordering. Finally, we extend all the previous characterizations to matrices with negative entries. Our analysis consequently allows us to answer a question raised by Bhatia and Elsner (2007) regarding the smallest dimension for which even extensions of the power functions do not preserve Loewner positivity.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-07T05:33:09Z</published>
+    <arxiv:comment>19 pages; LaTeX; added complete classification of powers preserving sub-additivity</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Journal of Mathematical Analysis and Applications 425 (2015), no. 1, 489-507</arxiv:journal_ref>
+    <author>
+      <name>Dominique Guillot</name>
+    </author>
+    <author>
+      <name>Apoorva Khare</name>
+    </author>
+    <author>
+      <name>Bala Rajaratnam</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmaa.2014.12.048</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmaa.2014.12.048" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.07191v1</id>
+    <title>Cauchy-Stieltjes kernels families and free multiplicative convolution</title>
+    <updated>2020-04-15T16:35:48Z</updated>
+    <link href="https://arxiv.org/abs/2004.07191v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.07191v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we determine the effect of the free multiplicative convolution on the pseudo-variance function of a Cauchy-Stieltjes kernel family. We then use the machinery of variance functions to establish some limit theorems related to this type of convolution and involving the free additive convolution and the boolean additive convolution.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-15T16:35:48Z</published>
+    <arxiv:comment>We determine the effect of the free multiplicative convolution on the pseudo-variance function of a Cauchy-Stieltjes kernel family</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Abdelhamid Hassairi</name>
+    </author>
+    <author>
+      <name>Raouf Fakhfakh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.2358v2</id>
+    <title>An integral representation, complete monotonicity, and inequalities of Cauchy numbers of the second kind</title>
+    <updated>2014-05-21T22:47:00Z</updated>
+    <link href="https://arxiv.org/abs/1402.2358v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.2358v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the paper, the author establishes an integral representation for Cauchy numbers of the second kind, finds the complete monotonicity, minimality, and logarithmic convexity of Cauchy numbers of the second kind, and presents some inequalities for determinants and products of Cauchy numbers of the second kind.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-11T03:31:36Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Feng Qi, An integral representation, complete monotonicity, and inequalities of Cauchy numbers of the second kind, Journal of Number Theory 144 (2014), 244--255</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <arxiv:doi>10.1016/j.jnt.2014.05.009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jnt.2014.05.009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.0065v2</id>
+    <title>Real-variables characterization of generalized Stieltjes functions</title>
+    <updated>2009-05-06T13:44:13Z</updated>
+    <link href="https://arxiv.org/abs/0902.0065v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.0065v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We obtain a characterization of generalized Stieltjes functions of any order λ&gt; 0 in terms of inequalities for their derivatives on (0,\infty). When λ=1, this provides a new and simple proof of a characterization of Stieltjes functions first obtained by Widder in 1938.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-01-31T13:09:03Z</published>
+    <arxiv:comment>LaTeX2e, 9 pages. Version 2 contains some improvements in the exposition suggested by a referee. To be published in Expositiones Mathematicae</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Expo. Math. 28, 179-185 (2010)</arxiv:journal_ref>
+    <author>
+      <name>Alan D. Sokal</name>
+    </author>
+    <arxiv:doi>10.1016/j.exmath.2009.06.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.exmath.2009.06.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.08345v2</id>
+    <title>Complete monotonicity and bernstein properties of functions are characterized by their restriction on N</title>
+    <updated>2016-02-16T16:10:30Z</updated>
+    <link href="https://arxiv.org/abs/1511.08345v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.08345v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give several new characterizations of completely monotone functions and Bernstein functions via two approaches: the first one is driven algebraically via elementary preserving mappings and the second one is developed in terms of the behavior of their restriction on the set of non-negative integers. We give a complete answer to the following question: Can we affirm that a function is completely monotone (resp. a Bernstein function) if we know that the sequence formed by its restriction on the integers is completely monotone (resp. alternating)? This approach constitutes a kind of converse of Hausdorff's moment characterization theorem in the context of completely monotone sequences.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-26T10:31:03Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Rafik Aguech</name>
+    </author>
+    <author>
+      <name>Wissem Jedidi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.09960v1</id>
+    <title>Logarithmically complete monotonicity of reciprocal arctan function</title>
+    <updated>2021-12-18T16:23:57Z</updated>
+    <link href="https://arxiv.org/abs/2112.09960v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.09960v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the conjecture stated in F. Qi and R. Agarwal, \textit{On complete monotonicity for several classes of functions related to ratios of gamma functions}, J. Inequal. Appl. (2019), 1-42, that the function $1/\arctan$ is logarithmically completely monotonic on $(0,\infty)$, but not a Stieltjes transform.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-18T16:23:57Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Jovanović</name>
+    </author>
+    <author>
+      <name>Milanka Treml</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.02493v2</id>
+    <title>Applications of the Stieltjes and Laplace transform representations of the hypergeometric functions</title>
+    <updated>2017-06-22T01:26:16Z</updated>
+    <link href="https://arxiv.org/abs/1705.02493v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.02493v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In our previous work we found sufficient conditions to be imposed on the parameters of the generalized hypergeometric function in order that it be completely monotonic or of Stieltjes class. In this paper we collect a number of consequences of these properties. In particular, we find new integral representations of the generalized hypergeometric functions, evaluate a number of integrals of their products, compute the jump and the average value of the the generalized hypergeometric function over the branch cut, establish new inequalities for this function in the half plane Re(z)&lt;1. Furthermore, we discuss integral representations of absolutely monotonic functions and present a curious formula for a finite sum of products of gamma ratios as an integral of Meijer's G function.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-06T15:05:45Z</published>
+    <arxiv:comment>New simplified formula for the average value of the generalized hypergeometric function on the cut has been found in terms of Meijer's G function; it has been included in Theorem 3. Alternative proof of Theorem 3 is presented in a remark below it. 21 page, nofigures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>D. B. Karp</name>
+    </author>
+    <author>
+      <name>E. G. Prilepkina</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9510214v1</id>
+    <title>Compact Jacobi matrices: from Stieltjes to Krein and M(a,b)</title>
+    <updated>1995-10-09T00:00:00Z</updated>
+    <link href="https://arxiv.org/abs/math/9510214v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9510214v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In a note at the end of his paper {\it Recherches sur les fractions continues}, Stieltjes gave a necessary and sufficient condition when a continued fraction is represented by a meromorphic function. This result is related to the study of compact Jacobi matrices. We indicate how this notion was developped and used since Stieltjes, with special attention to the results by M. G. Krein. We also pay attention to the perturbation of a constant Jacobi matrix by a compact Jacobi matrix, work which basically started with Blumenthal in 1889 and which now is known as the theory for the class $M(a,b)$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-10-09T00:00:00Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Ann. Fac. Sci. Toulouse, numéro special Stieltjes (1996), 195-215</arxiv:journal_ref>
+    <author>
+      <name>Walter Van Assche</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.2519v2</id>
+    <title>Proofs for a monotonicity result of a function involving the psi and exponential functions</title>
+    <updated>2011-01-19T14:19:12Z</updated>
+    <link href="https://arxiv.org/abs/0902.2519v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.2519v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the note, two alternative proofs are provided for a monotonicity result that the function $ψ(x)+\ln\bigl(e^{1/x}-1\bigr)$ is strictly increasing on $(0,\infty)$, where $ψ(x)$ is the psi function.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-15T03:43:13Z</published>
+    <arxiv:comment>5 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Wen-Hui Li, Feng Qi, and Bai-Ni Guo, On proofs for monotonicity of a function involving the psi and exponential functions, Analysis (Munich) 33 (2013), no. 1, 45--50</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Bai-Ni Guo</name>
+    </author>
+    <arxiv:doi>10.1524/anly.2012.1175</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1524/anly.2012.1175" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.1496v1</id>
+    <title>Two monotonic functions involving gamma function and volume of unit ball</title>
+    <updated>2010-01-10T10:36:20Z</updated>
+    <link href="https://arxiv.org/abs/1001.1496v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.1496v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In present paper, we prove the monotonicity of two functions involving the gamma function $Γ(x)$ and relating to the $n$-dimensional volume of the unit ball $\mathbb{B}^n$ in $\mathbb{R}^n$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-10T10:36:20Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Bai-Ni Guo and Feng Qi, Monotonicity of functions connected with the gamma function and the volume of the unit ball, Integral Transforms and Special Functions 23 (2012), no. 9, 701--708</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Bai-Ni Guo</name>
+    </author>
+    <arxiv:doi>10.1080/10652469.2011.627511</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10652469.2011.627511" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.00606v1</id>
+    <title>On generalized Stieltjes functions</title>
+    <updated>2017-06-02T09:43:24Z</updated>
+    <link href="https://arxiv.org/abs/1706.00606v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.00606v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is shown that a function $f$ is a generalized Stieltjes function of order $λ&gt;0$ if and only if $x^{1-λ}(x^{λ-1+k}f(x))^{(k)}$ is completely monotonic for all $k\geq 0$, thereby complementing a result due to Sokal. Furthermore, a characterization of those completely monotonic functions $f$ for which $x^{1-λ}(x^{λ-1+k}f(x))^{(k)}$ is completely monotonic for all $k\leq n$ is obtained in terms of properties of the representing measure of $f$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-02T09:43:24Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Stamatis Koumandos</name>
+    </author>
+    <author>
+      <name>Henrik L. Pedersen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.09485v7</id>
+    <title>A flow approach to the monotonicity of shape functionals</title>
+    <updated>2026-02-15T18:35:54Z</updated>
+    <link href="https://arxiv.org/abs/2502.09485v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.09485v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a geometric flow framework to investigate two classical shape functionals: the torsional rigidity and the first Dirichlet eigenvalue of the Laplacian. First, by constructing novel deformation paths governed by height-stretching flows, leg-stretching flows, and angle-bisector flows, we prove new monotonicity properties for these functionals under deformations of triangles and rhombuses. These results also lead to new and simpler proofs of some known results, without using the Steiner symmetrization argument. Second, we introduce a mean curvature flow approach to the Saint-Venant inequality, providing a new geometric proof for smooth convex domains. We establish a weak monotonicity property along the flow and characterize the equality case, which leads to the discovery of an intriguing new functional whose extremal properties suggest a further conjecture. Third, by discovering a gradient norm inequality for the sides of rectangles, we prove monotonicity and rigidity results of the torsional rigidity on rectangles.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-13T16:47:06Z</published>
+    <arxiv:comment>Compared to the previous version, several new related results are added, such as monotonicity along angle-bisector flows and extremal properties of $Q(\cdot)$</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Yong Huang</name>
+    </author>
+    <author>
+      <name>Qinfeng Li</name>
+    </author>
+    <author>
+      <name>Shuangquan Xie</name>
+    </author>
+    <author>
+      <name>Hang Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.05247v3</id>
+    <title>The Fundamental Theorem of Calculus for Lebesgue-Stieltjes integrals involving non-monotonic derivators</title>
+    <updated>2026-06-29T14:15:20Z</updated>
+    <link href="https://arxiv.org/abs/2509.05247v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.05247v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we extend the concept of the Stieltjes derivative to encompass left-continuous derivators with bounded variation, thereby relaxing the monotonicity constraint. This generalization necessitates a refined definition of the Stieltjes derivative applicable across the entire domain, accommodating derivators that may change sign. We establish a generalized Fundamental Theorem of Calculus for the Lebesgue-Stieltjes integral in this broader context, presenting both "almost-everywhere" and "everywhere" versions. The latter requires a specific condition relating the derivator to its variation function, which we prove to be optimal through a density theorem. Our framework bridges the gap between Stieltjes differential equations and measure differential equations, offering a tool for modeling complex systems with non-monotonic dynamics.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-05T16:59:52Z</published>
+    <arxiv:comment>40 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Lamiae Maia</name>
+    </author>
+    <author>
+      <name>F. Adrián F. Tojo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.5123v1</id>
+    <title>Some logarithmically completely monotonic functions related to the gamma function</title>
+    <updated>2009-03-30T04:02:52Z</updated>
+    <link href="https://arxiv.org/abs/0903.5123v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.5123v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this article, logarithmically complete monotonicity properties of some functions such as $\frac1{[Γ(x+1)]^{1/x}}$, $\frac{[{Γ(x+α+1)}]^{1/(x+α)}}{[{Γ(x+1)}]^{1/x}}$, $\frac{[Γ(x+1)]^{1/x}}{(x+1)^α}$ and $\frac{[Γ(x+1)]^{1/x}}{x^α}$ defined in $(-1,\infty)$ or $(0,\infty)$ for given real number $α\in\tr$ are obtained, some known results are recovered, extended and generalized. Moreover, some basic properties of the logarithmically completely monotonic functions are established.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-30T04:02:52Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Feng Qi and Bai-Ni Guo, Some logarithmically completely monotonic functions related to the gamma function, Journal of the Korean Mathematical Society 47 (2010), no. 6, 1283--1297</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Bai-Ni Guo</name>
+    </author>
+    <arxiv:doi>10.4134/JKMS.2010.47.6.1283</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4134/JKMS.2010.47.6.1283" title="doi"/>
+  </entry>
+</feed>

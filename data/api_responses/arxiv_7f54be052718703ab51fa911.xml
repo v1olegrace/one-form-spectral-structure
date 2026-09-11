@@ -1,0 +1,1201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3/tSDLTmvYxL3g+cP81C6h3f7ac</id>
+  <title>arXiv Query: search_query=all:minimax OR all:support OR all:estimation OR all:mixture OR all:model OR all:separation&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:minimax+OR+(all:support+OR+(all:estimation+OR+(all:mixture+OR+(all:model+OR+all:separation))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1559195</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.08313v1</id>
+    <title>MiniMax-01: Scaling Foundation Models with Lightning Attention</title>
+    <updated>2025-01-14T18:50:05Z</updated>
+    <link href="https://arxiv.org/abs/2501.08313v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.08313v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce MiniMax-01 series, including MiniMax-Text-01 and MiniMax-VL-01, which are comparable to top-tier models while offering superior capabilities in processing longer contexts. The core lies in lightning attention and its efficient scaling. To maximize computational capacity, we integrate it with Mixture of Experts (MoE), creating a model with 32 experts and 456 billion total parameters, of which 45.9 billion are activated for each token. We develop an optimized parallel strategy and highly efficient computation-communication overlap techniques for MoE and lightning attention. This approach enables us to conduct efficient training and inference on models with hundreds of billions of parameters across contexts spanning millions of tokens. The context window of MiniMax-Text-01 can reach up to 1 million tokens during training and extrapolate to 4 million tokens during inference at an affordable cost. Our vision-language model, MiniMax-VL-01 is built through continued training with 512 billion vision-language tokens. Experiments on both standard and in-house benchmarks show that our models match the performance of state-of-the-art models like GPT-4o and Claude-3.5-Sonnet while offering 20-32 times longer context window. We publicly release MiniMax-01 at https://github.com/MiniMax-AI.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-14T18:50:05Z</published>
+    <arxiv:comment>A technical report from MiniMax. The authors are listed in alphabetical order. We open-sourced our MiniMax-01 at https://github.com/MiniMax-AI</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name> MiniMax</name>
+    </author>
+    <author>
+      <name>Aonian Li</name>
+    </author>
+    <author>
+      <name>Bangwei Gong</name>
+    </author>
+    <author>
+      <name>Bo Yang</name>
+    </author>
+    <author>
+      <name>Boji Shan</name>
+    </author>
+    <author>
+      <name>Chang Liu</name>
+    </author>
+    <author>
+      <name>Cheng Zhu</name>
+    </author>
+    <author>
+      <name>Chunhao Zhang</name>
+    </author>
+    <author>
+      <name>Congchao Guo</name>
+    </author>
+    <author>
+      <name>Da Chen</name>
+    </author>
+    <author>
+      <name>Dong Li</name>
+    </author>
+    <author>
+      <name>Enwei Jiao</name>
+    </author>
+    <author>
+      <name>Gengxin Li</name>
+    </author>
+    <author>
+      <name>Guojun Zhang</name>
+    </author>
+    <author>
+      <name>Haohai Sun</name>
+    </author>
+    <author>
+      <name>Houze Dong</name>
+    </author>
+    <author>
+      <name>Jiadai Zhu</name>
+    </author>
+    <author>
+      <name>Jiaqi Zhuang</name>
+    </author>
+    <author>
+      <name>Jiayuan Song</name>
+    </author>
+    <author>
+      <name>Jin Zhu</name>
+    </author>
+    <author>
+      <name>Jingtao Han</name>
+    </author>
+    <author>
+      <name>Jingyang Li</name>
+    </author>
+    <author>
+      <name>Junbin Xie</name>
+    </author>
+    <author>
+      <name>Junhao Xu</name>
+    </author>
+    <author>
+      <name>Junjie Yan</name>
+    </author>
+    <author>
+      <name>Kaishun Zhang</name>
+    </author>
+    <author>
+      <name>Kecheng Xiao</name>
+    </author>
+    <author>
+      <name>Kexi Kang</name>
+    </author>
+    <author>
+      <name>Le Han</name>
+    </author>
+    <author>
+      <name>Leyang Wang</name>
+    </author>
+    <author>
+      <name>Lianfei Yu</name>
+    </author>
+    <author>
+      <name>Liheng Feng</name>
+    </author>
+    <author>
+      <name>Lin Zheng</name>
+    </author>
+    <author>
+      <name>Linbo Chai</name>
+    </author>
+    <author>
+      <name>Long Xing</name>
+    </author>
+    <author>
+      <name>Meizhi Ju</name>
+    </author>
+    <author>
+      <name>Mingyuan Chi</name>
+    </author>
+    <author>
+      <name>Mozhi Zhang</name>
+    </author>
+    <author>
+      <name>Peikai Huang</name>
+    </author>
+    <author>
+      <name>Pengcheng Niu</name>
+    </author>
+    <author>
+      <name>Pengfei Li</name>
+    </author>
+    <author>
+      <name>Pengyu Zhao</name>
+    </author>
+    <author>
+      <name>Qi Yang</name>
+    </author>
+    <author>
+      <name>Qidi Xu</name>
+    </author>
+    <author>
+      <name>Qiexiang Wang</name>
+    </author>
+    <author>
+      <name>Qin Wang</name>
+    </author>
+    <author>
+      <name>Qiuhui Li</name>
+    </author>
+    <author>
+      <name>Ruitao Leng</name>
+    </author>
+    <author>
+      <name>Shengmin Shi</name>
+    </author>
+    <author>
+      <name>Shuqi Yu</name>
+    </author>
+    <author>
+      <name>Sichen Li</name>
+    </author>
+    <author>
+      <name>Songquan Zhu</name>
+    </author>
+    <author>
+      <name>Tao Huang</name>
+    </author>
+    <author>
+      <name>Tianrun Liang</name>
+    </author>
+    <author>
+      <name>Weigao Sun</name>
+    </author>
+    <author>
+      <name>Weixuan Sun</name>
+    </author>
+    <author>
+      <name>Weiyu Cheng</name>
+    </author>
+    <author>
+      <name>Wenkai Li</name>
+    </author>
+    <author>
+      <name>Xiangjun Song</name>
+    </author>
+    <author>
+      <name>Xiao Su</name>
+    </author>
+    <author>
+      <name>Xiaodong Han</name>
+    </author>
+    <author>
+      <name>Xinjie Zhang</name>
+    </author>
+    <author>
+      <name>Xinzhu Hou</name>
+    </author>
+    <author>
+      <name>Xu Min</name>
+    </author>
+    <author>
+      <name>Xun Zou</name>
+    </author>
+    <author>
+      <name>Xuyang Shen</name>
+    </author>
+    <author>
+      <name>Yan Gong</name>
+    </author>
+    <author>
+      <name>Yingjie Zhu</name>
+    </author>
+    <author>
+      <name>Yipeng Zhou</name>
+    </author>
+    <author>
+      <name>Yiran Zhong</name>
+    </author>
+    <author>
+      <name>Yongyi Hu</name>
+    </author>
+    <author>
+      <name>Yuanxiang Fan</name>
+    </author>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Yufeng Yang</name>
+    </author>
+    <author>
+      <name>Yuhao Li</name>
+    </author>
+    <author>
+      <name>Yunan Huang</name>
+    </author>
+    <author>
+      <name>Yunji Li</name>
+    </author>
+    <author>
+      <name>Yunpeng Huang</name>
+    </author>
+    <author>
+      <name>Yunzhi Xu</name>
+    </author>
+    <author>
+      <name>Yuxin Mao</name>
+    </author>
+    <author>
+      <name>Zehan Li</name>
+    </author>
+    <author>
+      <name>Zekang Li</name>
+    </author>
+    <author>
+      <name>Zewei Tao</name>
+    </author>
+    <author>
+      <name>Zewen Ying</name>
+    </author>
+    <author>
+      <name>Zhaoyang Cong</name>
+    </author>
+    <author>
+      <name>Zhen Qin</name>
+    </author>
+    <author>
+      <name>Zhenhua Fan</name>
+    </author>
+    <author>
+      <name>Zhihang Yu</name>
+    </author>
+    <author>
+      <name>Zhuo Jiang</name>
+    </author>
+    <author>
+      <name>Zijia Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.13585v1</id>
+    <title>MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention</title>
+    <updated>2025-06-16T15:08:02Z</updated>
+    <link href="https://arxiv.org/abs/2506.13585v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.13585v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce MiniMax-M1, the world's first open-weight, large-scale hybrid-attention reasoning model. MiniMax-M1 is powered by a hybrid Mixture-of-Experts (MoE) architecture combined with a lightning attention mechanism. The model is developed based on our previous MiniMax-Text-01 model, which contains a total of 456 billion parameters with 45.9 billion parameters activated per token. The M1 model natively supports a context length of 1 million tokens, 8x the context size of DeepSeek R1. Furthermore, the lightning attention mechanism in MiniMax-M1 enables efficient scaling of test-time compute. These properties make M1 particularly suitable for complex tasks that require processing long inputs and thinking extensively. MiniMax-M1 is trained using large-scale reinforcement learning (RL) on diverse problems including sandbox-based, real-world software engineering environments. In addition to M1's inherent efficiency advantage for RL training, we propose CISPO, a novel RL algorithm to further enhance RL efficiency. CISPO clips importance sampling weights rather than token updates, outperforming other competitive RL variants. Combining hybrid-attention and CISPO enables MiniMax-M1's full RL training on 512 H800 GPUs to complete in only three weeks, with a rental cost of just $534,700. We release two versions of MiniMax-M1 models with 40K and 80K thinking budgets respectively, where the 40K model represents an intermediate phase of the 80K training. Experiments on standard benchmarks show that our models are comparable or superior to strong open-weight models such as the original DeepSeek-R1 and Qwen3-235B, with particular strengths in complex software engineering, tool utilization, and long-context tasks. We publicly release MiniMax-M1 at https://github.com/MiniMax-AI/MiniMax-M1.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-16T15:08:02Z</published>
+    <arxiv:comment>A technical report from MiniMax. The authors are listed in alphabetical order. We open-source our MiniMax-M1 at https://github.com/MiniMax-AI/MiniMax-M1</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name> MiniMax</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Aili Chen</name>
+    </author>
+    <author>
+      <name>Aonian Li</name>
+    </author>
+    <author>
+      <name>Bangwei Gong</name>
+    </author>
+    <author>
+      <name>Binyang Jiang</name>
+    </author>
+    <author>
+      <name>Bo Fei</name>
+    </author>
+    <author>
+      <name>Bo Yang</name>
+    </author>
+    <author>
+      <name>Boji Shan</name>
+    </author>
+    <author>
+      <name>Changqing Yu</name>
+    </author>
+    <author>
+      <name>Chao Wang</name>
+    </author>
+    <author>
+      <name>Cheng Zhu</name>
+    </author>
+    <author>
+      <name>Chengjun Xiao</name>
+    </author>
+    <author>
+      <name>Chengyu Du</name>
+    </author>
+    <author>
+      <name>Chi Zhang</name>
+    </author>
+    <author>
+      <name>Chu Qiao</name>
+    </author>
+    <author>
+      <name>Chunhao Zhang</name>
+    </author>
+    <author>
+      <name>Chunhui Du</name>
+    </author>
+    <author>
+      <name>Congchao Guo</name>
+    </author>
+    <author>
+      <name>Da Chen</name>
+    </author>
+    <author>
+      <name>Deming Ding</name>
+    </author>
+    <author>
+      <name>Dianjun Sun</name>
+    </author>
+    <author>
+      <name>Dong Li</name>
+    </author>
+    <author>
+      <name>Enwei Jiao</name>
+    </author>
+    <author>
+      <name>Haigang Zhou</name>
+    </author>
+    <author>
+      <name>Haimo Zhang</name>
+    </author>
+    <author>
+      <name>Han Ding</name>
+    </author>
+    <author>
+      <name>Haohai Sun</name>
+    </author>
+    <author>
+      <name>Haoyu Feng</name>
+    </author>
+    <author>
+      <name>Huaiguang Cai</name>
+    </author>
+    <author>
+      <name>Haichao Zhu</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+    <author>
+      <name>Jiaqi Zhuang</name>
+    </author>
+    <author>
+      <name>Jiaren Cai</name>
+    </author>
+    <author>
+      <name>Jiayuan Song</name>
+    </author>
+    <author>
+      <name>Jin Zhu</name>
+    </author>
+    <author>
+      <name>Jingyang Li</name>
+    </author>
+    <author>
+      <name>Jinhao Tian</name>
+    </author>
+    <author>
+      <name>Jinli Liu</name>
+    </author>
+    <author>
+      <name>Junhao Xu</name>
+    </author>
+    <author>
+      <name>Junjie Yan</name>
+    </author>
+    <author>
+      <name>Junteng Liu</name>
+    </author>
+    <author>
+      <name>Junxian He</name>
+    </author>
+    <author>
+      <name>Kaiyi Feng</name>
+    </author>
+    <author>
+      <name>Ke Yang</name>
+    </author>
+    <author>
+      <name>Kecheng Xiao</name>
+    </author>
+    <author>
+      <name>Le Han</name>
+    </author>
+    <author>
+      <name>Leyang Wang</name>
+    </author>
+    <author>
+      <name>Lianfei Yu</name>
+    </author>
+    <author>
+      <name>Liheng Feng</name>
+    </author>
+    <author>
+      <name>Lin Li</name>
+    </author>
+    <author>
+      <name>Lin Zheng</name>
+    </author>
+    <author>
+      <name>Linge Du</name>
+    </author>
+    <author>
+      <name>Lingyu Yang</name>
+    </author>
+    <author>
+      <name>Lunbin Zeng</name>
+    </author>
+    <author>
+      <name>Minghui Yu</name>
+    </author>
+    <author>
+      <name>Mingliang Tao</name>
+    </author>
+    <author>
+      <name>Mingyuan Chi</name>
+    </author>
+    <author>
+      <name>Mozhi Zhang</name>
+    </author>
+    <author>
+      <name>Mujie Lin</name>
+    </author>
+    <author>
+      <name>Nan Hu</name>
+    </author>
+    <author>
+      <name>Nongyu Di</name>
+    </author>
+    <author>
+      <name>Peng Gao</name>
+    </author>
+    <author>
+      <name>Pengfei Li</name>
+    </author>
+    <author>
+      <name>Pengyu Zhao</name>
+    </author>
+    <author>
+      <name>Qibing Ren</name>
+    </author>
+    <author>
+      <name>Qidi Xu</name>
+    </author>
+    <author>
+      <name>Qile Li</name>
+    </author>
+    <author>
+      <name>Qin Wang</name>
+    </author>
+    <author>
+      <name>Rong Tian</name>
+    </author>
+    <author>
+      <name>Ruitao Leng</name>
+    </author>
+    <author>
+      <name>Shaoxiang Chen</name>
+    </author>
+    <author>
+      <name>Shaoyu Chen</name>
+    </author>
+    <author>
+      <name>Shengmin Shi</name>
+    </author>
+    <author>
+      <name>Shitong Weng</name>
+    </author>
+    <author>
+      <name>Shuchang Guan</name>
+    </author>
+    <author>
+      <name>Shuqi Yu</name>
+    </author>
+    <author>
+      <name>Sichen Li</name>
+    </author>
+    <author>
+      <name>Songquan Zhu</name>
+    </author>
+    <author>
+      <name>Tengfei Li</name>
+    </author>
+    <author>
+      <name>Tianchi Cai</name>
+    </author>
+    <author>
+      <name>Tianrun Liang</name>
+    </author>
+    <author>
+      <name>Weiyu Cheng</name>
+    </author>
+    <author>
+      <name>Weize Kong</name>
+    </author>
+    <author>
+      <name>Wenkai Li</name>
+    </author>
+    <author>
+      <name>Xiancai Chen</name>
+    </author>
+    <author>
+      <name>Xiangjun Song</name>
+    </author>
+    <author>
+      <name>Xiao Luo</name>
+    </author>
+    <author>
+      <name>Xiao Su</name>
+    </author>
+    <author>
+      <name>Xiaobo Li</name>
+    </author>
+    <author>
+      <name>Xiaodong Han</name>
+    </author>
+    <author>
+      <name>Xinzhu Hou</name>
+    </author>
+    <author>
+      <name>Xuan Lu</name>
+    </author>
+    <author>
+      <name>Xun Zou</name>
+    </author>
+    <author>
+      <name>Xuyang Shen</name>
+    </author>
+    <author>
+      <name>Yan Gong</name>
+    </author>
+    <author>
+      <name>Yan Ma</name>
+    </author>
+    <author>
+      <name>Yang Wang</name>
+    </author>
+    <author>
+      <name>Yiqi Shi</name>
+    </author>
+    <author>
+      <name>Yiran Zhong</name>
+    </author>
+    <author>
+      <name>Yonghong Duan</name>
+    </author>
+    <author>
+      <name>Yongxiang Fu</name>
+    </author>
+    <author>
+      <name>Yongyi Hu</name>
+    </author>
+    <author>
+      <name>Yu Gao</name>
+    </author>
+    <author>
+      <name>Yuanxiang Fan</name>
+    </author>
+    <author>
+      <name>Yufeng Yang</name>
+    </author>
+    <author>
+      <name>Yuhao Li</name>
+    </author>
+    <author>
+      <name>Yulin Hu</name>
+    </author>
+    <author>
+      <name>Yunan Huang</name>
+    </author>
+    <author>
+      <name>Yunji Li</name>
+    </author>
+    <author>
+      <name>Yunzhi Xu</name>
+    </author>
+    <author>
+      <name>Yuxin Mao</name>
+    </author>
+    <author>
+      <name>Yuxuan Shi</name>
+    </author>
+    <author>
+      <name>Yuze Wenren</name>
+    </author>
+    <author>
+      <name>Zehan Li</name>
+    </author>
+    <author>
+      <name>Zelin Li</name>
+    </author>
+    <author>
+      <name>Zhanxu Tian</name>
+    </author>
+    <author>
+      <name>Zhengmao Zhu</name>
+    </author>
+    <author>
+      <name>Zhenhua Fan</name>
+    </author>
+    <author>
+      <name>Zhenzhen Wu</name>
+    </author>
+    <author>
+      <name>Zhichao Xu</name>
+    </author>
+    <author>
+      <name>Zhihang Yu</name>
+    </author>
+    <author>
+      <name>Zhiheng Lyu</name>
+    </author>
+    <author>
+      <name>Zhuo Jiang</name>
+    </author>
+    <author>
+      <name>Zibo Gao</name>
+    </author>
+    <author>
+      <name>Zijia Wu</name>
+    </author>
+    <author>
+      <name>Zijian Song</name>
+    </author>
+    <author>
+      <name>Zijun Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.07448v2</id>
+    <title>Minimax state estimates for abstract Neumann problems</title>
+    <updated>2017-12-24T22:31:10Z</updated>
+    <link href="https://arxiv.org/abs/1710.07448v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.07448v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The paper presents analytic expressions of minimax (worst-case) estimates for solutions of linear abstract Neumann problems in Hilbert space with uncertain (not necessarily bounded!) inputs and boundary conditions given incomplete observations with stochastic noise. The latter is assumed to have uncertain but bounded correlation operator. It is demonstrated that the minimax estimate is asymptotically exact under mild assumptions on observations and bounding sets. A relationship between the proposed estimates and a robust pseudo-inversion of compact operators is revealed. This relationship is demonstrated on an academic numerical example: homogeneous Neumann problem for Poisson equation in two spatial dimensions.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-20T08:21:14Z</published>
+    <arxiv:comment>accepted for publication in Minimax Theory and Applications</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <arxiv:journal_ref>Minimax Theory and its Applications, Volume 3 (2018), No. 1</arxiv:journal_ref>
+    <author>
+      <name>Alexander Nakonechnyi</name>
+    </author>
+    <author>
+      <name>Sergiy Zhuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.03391v1</id>
+    <title>Multivariate Density Estimation with Deep Neural Mixture Models</title>
+    <updated>2020-12-06T23:03:48Z</updated>
+    <link href="https://arxiv.org/abs/2012.03391v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.03391v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Albeit worryingly underrated in the recent literature on machine learning in general (and, on deep learning in particular), multivariate density estimation is a fundamental task in many applications, at least implicitly, and still an open issue. With a few exceptions, deep neural networks (DNNs) have seldom been applied to density estimation, mostly due to the unsupervised nature of the estimation task, and (especially) due to the need for constrained training algorithms that ended up realizing proper probabilistic models that satisfy Kolmogorov's axioms. Moreover, in spite of the well-known improvement in terms of modeling capabilities yielded by mixture models over plain single-density statistical estimators, no proper mixtures of multivariate DNN-based component densities have been investigated so far. The paper fills this gap by extending our previous work on Neural Mixture Densities (NMMs) to multivariate DNN mixtures. A maximum-likelihood (ML) algorithm for estimating Deep NMMs (DNMMs) is handed out, which satisfies numerically a combination of hard and soft constraints aimed at ensuring satisfaction of Kolmogorov's axioms. The class of probability density functions that can be modeled to any degree of precision via DNMMs is formally defined. A procedure for the automatic selection of the DNMM architecture, as well as of the hyperparameters for its ML training algorithm, is presented (exploiting the probabilistic nature of the DNMM). Experimental results on univariate and multivariate data are reported on, corroborating the effectiveness of the approach and its superiority to the most popular statistical estimation techniques.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-06T23:03:48Z</published>
+    <arxiv:comment>Extended journal version of E. Trentin, "Maximum-Likelihood Estimation of Neural Mixture Densities: Model, Algorithm, and Preliminary Experimental Evaluation". In Proc. of ANNPR 2018: 178-189, Springer, 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Edmondo Trentin</name>
+      <arxiv:affiliation>DIISM, University of Siena, Italy</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.01853v3</id>
+    <title>Minimax Statistical Estimation under Wasserstein Contamination</title>
+    <updated>2025-11-21T17:03:29Z</updated>
+    <link href="https://arxiv.org/abs/2308.01853v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.01853v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contaminations are a key concern in modern statistical learning, as small but systematic perturbations of all datapoints can substantially alter estimation results. Here, we study Wasserstein-$r$ contaminations ($r\ge 1$) in an $\ell_q$ norm ($q\in [1,\infty]$), in which each observation may undergo an adversarial perturbation with bounded cost, complementing the classical Huber model, corresponding to total variation norm, where only a fraction of observations is arbitrarily corrupted. We study both independent and joint (coordinated) contaminations and develop a minimax theory under $\ell_q^r$ losses.
+  Our analysis encompasses several fundamental problems: location estimation, linear regression, and pointwise nonparametric density estimation. For joint contaminations in location estimation and for prediction in linear regression, we obtain the exact minimax risk, identify least favorable contaminations, and show that the sample mean and least squares predictor are respectively minimax optimal. For location estimation under independent contaminations, we give sharp upper and lower bounds, including exact minimaxity in the Euclidean Wasserstein contamination case, when $q=r=2$. For pointwise density estimation in any dimension, we derive the optimal rate, showing that it is achieved by kernel density estimation with a bandwidth that is possibly larger than the classical one.
+  Our proofs leverage powerful tools from optimal transport developed over the last 20 years, including the dynamic Benamou-Brenier formulation. Taken together, our results suggest that in contrast to the Huber contamination model, for norm-based Wasserstein contaminations, classical estimators may be nearly optimally robust.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-03T16:19:40Z</published>
+    <arxiv:comment>A revision, including a changed title. This version extends the results to more general perturbations and loss functions, while also obtaining a new optimal rate for density estimation. Some of the techniques described in the original submission (ambiguity set minimax lower bounds, Bayes lower bounds) are not required anymore and have thus been removed</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Patrick Chao</name>
+    </author>
+    <author>
+      <name>Edgar Dobriban</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.11940v2</id>
+    <title>Support Recovery in Mixture Models with Sparse Parameters</title>
+    <updated>2022-09-10T10:24:47Z</updated>
+    <link href="https://arxiv.org/abs/2202.11940v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.11940v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixture models are widely used to fit complex and multimodal datasets. In this paper we study mixtures with high dimensional sparse latent parameter vectors and consider the problem of support recovery of those vectors. While parameter learning in mixture models is well-studied, the sparsity constraint remains relatively unexplored. Sparsity of parameter vectors is a natural constraint in variety of settings, and support recovery is a major step towards parameter estimation. We provide efficient algorithms for support recovery that have a logarithmic sample complexity dependence on the dimensionality of the latent space. Our algorithms are quite general, namely they are applicable to 1) mixtures of many different canonical distributions including Uniform, Poisson, Laplace, Gaussians, etc. 2) Mixtures of linear regressions and linear classifiers with Gaussian covariates under different assumptions on the unknown parameters. In most of these settings, our results are the first guarantees on the problem while in the rest, our results provide improvements on existing works.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-24T07:44:23Z</published>
+    <arxiv:comment>55 pages, Shorter version titled "On Learning Mixture Models with Sparse Parameters " accepted at AISTATS 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Arya Mazumdar</name>
+    </author>
+    <author>
+      <name>Soumyabrata Pal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.08200v1</id>
+    <title>Mixtures of Experts Models</title>
+    <updated>2018-06-21T12:30:12Z</updated>
+    <link href="https://arxiv.org/abs/1806.08200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.08200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixtures of experts models provide a framework in which covariates may be included in mixture models. This is achieved by modelling the parameters of the mixture model as functions of the concomitant covariates. Given their mixture model foundation, mixtures of experts models possess a diverse range of analytic uses, from clustering observations to capturing parameter heterogeneity in cross-sectional data. This chapter focuses on delineating the mixture of experts modelling framework and demonstrates the utility and flexibility of mixtures of experts models as an analytic tool.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-21T12:30:12Z</published>
+    <arxiv:comment>A chapter prepared for the forthcoming Handbook of Mixture Analysis</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Isobel Claire Gormley</name>
+    </author>
+    <author>
+      <name>Sylvia Frühwirth-Schnatter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.02457v3</id>
+    <title>GDA-AM: On the effectiveness of solving minimax optimization via Anderson Acceleration</title>
+    <updated>2022-06-29T18:27:22Z</updated>
+    <link href="https://arxiv.org/abs/2110.02457v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.02457v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many modern machine learning algorithms such as generative adversarial networks (GANs) and adversarial training can be formulated as minimax optimization. Gradient descent ascent (GDA) is the most commonly used algorithm due to its simplicity. However, GDA can converge to non-optimal minimax points. We propose a new minimax optimization framework, GDA-AM, that views the GDAdynamics as a fixed-point iteration and solves it using Anderson Mixing to con-verge to the local minimax. It addresses the diverging issue of simultaneous GDAand accelerates the convergence of alternating GDA. We show theoretically that the algorithm can achieve global convergence for bilinear problems under mild conditions. We also empirically show that GDA-AMsolves a variety of minimax problems and improves GAN training on several datasets</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-06T02:08:54Z</published>
+    <arxiv:comment>31 Pages, ICLR, minimax, Anderson Acceleration</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Huan He</name>
+    </author>
+    <author>
+      <name>Shifan Zhao</name>
+    </author>
+    <author>
+      <name>Yuanzhe Xi</name>
+    </author>
+    <author>
+      <name>Joyce C Ho</name>
+    </author>
+    <author>
+      <name>Yousef Saad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.03506v1</id>
+    <title>Minimax rates for finite mixture estimation</title>
+    <updated>2015-04-14T12:03:27Z</updated>
+    <link href="https://arxiv.org/abs/1504.03506v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.03506v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that under some regularity and strong identifiability conditions, around a mixing distribution with $m_0$ components, the optimal local minimax rate of estimation of a mixture with $m$ components is $n^{-1/(4(m-m_0) + 2)}$. This corrects a previous paper by Chen (1995) in The Annals of Statistics.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-14T12:03:27Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Philippe Heinrich</name>
+    </author>
+    <author>
+      <name>Jonas Kahn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.05818v2</id>
+    <title>Optimal estimation of high-dimensional location Gaussian mixtures</title>
+    <updated>2021-07-26T00:49:14Z</updated>
+    <link href="https://arxiv.org/abs/2002.05818v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.05818v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the optimal rate of estimation in a finite Gaussian location mixture model in high dimensions without separation conditions. We assume that the number of components $k$ is bounded and that the centers lie in a ball of bounded radius, while allowing the dimension $d$ to be as large as the sample size $n$. Extending the one-dimensional result of Heinrich and Kahn \cite{HK2015}, we show that the minimax rate of estimating the mixing distribution in Wasserstein distance is $Θ((d/n)^{1/4} + n^{-1/(4k-2)})$, achieved by an estimator computable in time $O(nd^2+n^{5/4})$. Furthermore, we show that the mixture density can be estimated at the optimal parametric rate $Θ(\sqrt{d/n})$ in Hellinger distance and provide a computationally efficient algorithm to achieve this rate in the special case of $k=2$.
+  Both the theoretical and methodological development rely on a careful application of the method of moments. Central to our results is the observation that the information geometry of finite Gaussian mixtures is characterized by the moment tensors of the mixing distribution, whose low-rank structure can be exploited to obtain a sharp local entropy bound.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-14T00:11:54Z</published>
+    <arxiv:comment>Adds Theorems 4.7 and 4.8 on computationally efficient density estimation</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Natalie Doss</name>
+    </author>
+    <author>
+      <name>Yihong Wu</name>
+    </author>
+    <author>
+      <name>Pengkun Yang</name>
+    </author>
+    <author>
+      <name>Harrison H. Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9609375v1</id>
+    <title>Analysis of Charged-Particle/Photon Observables in Hadronic Multiparticle Production</title>
+    <updated>1996-09-16T19:15:20Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9609375v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9609375v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In order to analyze data on joint charged-particle/photon distributions from an experimental search (T-864, MiniMax) for disoriented chiral condensate (DCC) at the Fermilab Tevatron collider, we have identified robust observables, ratios of normalized bivariate factorial moments, with many desirable properties. These include insensitivity to many efficiency corrections and the details of the modeling of the primary pion production, and sensitivity to the production of DCC, as opposed to the generic, binomial-distribution partition of pions into charged and neutral species. The relevant formalism is developed and tested in Monte-Carlo simulations of the MiniMax experimental conditions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-09-16T19:15:20Z</published>
+    <arxiv:comment>Latex, 35 pages, no figures. Submitted to Physical Review D. PostScript file at http://fnmine.fnal.gov:80/</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D55:5667-5680,1997</arxiv:journal_ref>
+    <author>
+      <name> MiniMax Collaboration</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.55.5667</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.55.5667" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.4565v4</id>
+    <title>Minimax bounds for estimation of normal mixtures</title>
+    <updated>2014-10-21T11:10:48Z</updated>
+    <link href="https://arxiv.org/abs/1112.4565v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.4565v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper deals with minimax rates of convergence for estimation of density functions on the real line. The densities are assumed to be location mixtures of normals, a global regularity requirement that creates subtle difficulties for the application of standard minimax lower bound methods. Using novel Fourier and Hermite polynomial techniques, we determine the minimax optimal rate - slightly larger than the parametric rate - under squared error loss. For Hellinger loss, we provide a minimax lower bound using ideas modified from the squared error loss case.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-20T04:19:42Z</published>
+    <arxiv:comment>Published in at http://dx.doi.org/10.3150/13-BEJ542 the Bernoulli (http://isi.cbs.nl/bernoulli/) by the International Statistical Institute/Bernoulli Society (http://isi.cbs.nl/BS/bshome.htm)</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <arxiv:journal_ref>Bernoulli 2014, Vol. 20, No. 4, 1802-1818</arxiv:journal_ref>
+    <author>
+      <name>Arlene K. H. Kim</name>
+    </author>
+    <arxiv:doi>10.3150/13-BEJ542</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3150/13-BEJ542" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00167v3</id>
+    <title>Approximating Nash Equilibrium Via Multilinear Minimax</title>
+    <updated>2023-12-29T04:10:40Z</updated>
+    <link href="https://arxiv.org/abs/1605.00167v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.00167v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nash equilibrium} (NE) can be stated as a formal theorem on a multilinear form, free of game theory terminology. On the other hand, inspired by this formalism, we state and prove a {\it multilinear minimax theorem}, a generalization of von Neumann's bilinear minimax theorem. As in the bilinear case, the proof is based on relating the underlying optimizations to a primal-dual pair of linear programming problems, albeit more complicated LPs. The theorem together with its proof is of independent interest. Next, we use the theorem to associate to a multilinear form in NE a {\it multilinear minimax relaxation} (MMR), where the primal-dual pair of solutions induce an approximate equilibrium point that provides a nontrivial upper bound on a convex combination of {\it expected payoffs} in any NE solution. In fact we show any positive probability vector associated to the players induces a corresponding {\it diagonally-scaled} MMR approximate equilibrium with its associated upper bound. By virtue of the proof of the multilinear minimax theorem, MMR solution can be computed in polynomial-time. On the other hand, it is known that even in bimatrix games NE is {\it PPAD-complete}, a complexity class in NP not known to be in P. The quality of MMR solution and the efficiency of solving the underlying LPs are the subject of further investigation. However, as shown in a separate article, for a large set of test problems in bimatrix games, not only the MMR payoffs for both players are better than any NE payoffs, so is the computing time of MMR in contrast with that of Lemke-Howsen algorithm. In large size problems the latter algorithm even fails to produce a Nash equilibrium. In summary, solving MMR provides a worthy approximation even if Nash equilibrium is shown to be computable in polynomial-time.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-30T21:07:16Z</published>
+    <arxiv:comment>Error in correct relationship between minimax and maximin. superseded by arXiv:1809.01717v3</arxiv:comment>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Bahman Kalantari</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.2035v1</id>
+    <title>Minimax Theory for High-dimensional Gaussian Mixtures with Sparse Mean Separation</title>
+    <updated>2013-06-09T16:28:56Z</updated>
+    <link href="https://arxiv.org/abs/1306.2035v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.2035v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While several papers have investigated computationally and statistically efficient methods for learning Gaussian mixtures, precise minimax bounds for their statistical performance as well as fundamental limits in high-dimensional settings are not well-understood. In this paper, we provide precise information theoretic bounds on the clustering accuracy and sample complexity of learning a mixture of two isotropic Gaussians in high dimensions under small mean separation. If there is a sparse subset of relevant dimensions that determine the mean separation, then the sample complexity only depends on the number of relevant dimensions and mean separation, and can be achieved by a simple computationally efficient procedure. Our results provide the first step of a theoretical basis for recent methods that combine feature selection and clustering.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-09T16:28:56Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Martin Azizyan</name>
+    </author>
+    <author>
+      <name>Aarti Singh</name>
+    </author>
+    <author>
+      <name>Larry Wasserman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.07098v5</id>
+    <title>A Cubic Regularization Approach for Finding Local Minimax Points in Nonconvex Minimax Optimization</title>
+    <updated>2023-02-19T22:00:35Z</updated>
+    <link href="https://arxiv.org/abs/2110.07098v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.07098v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gradient descent-ascent (GDA) is a widely used algorithm for minimax optimization. However, GDA has been proved to converge to stationary points for nonconvex minimax optimization, which are suboptimal compared with local minimax points. In this work, we develop cubic regularization (CR) type algorithms that globally converge to local minimax points in nonconvex-strongly-concave minimax optimization. We first show that local minimax points are equivalent to second-order stationary points of a certain envelope function. Then, inspired by the classic cubic regularization algorithm, we propose an algorithm named Cubic-LocalMinimax for finding local minimax points, and provide a comprehensive convergence analysis by leveraging its intrinsic potential function. Specifically, we establish the global convergence of Cubic-LocalMinimax to a local minimax point at a sublinear convergence rate and characterize its iteration complexity. Also, we propose a GDA-based solver for solving the cubic subproblem involved in Cubic-LocalMinimax up to certain pre-defined accuracy, and analyze the overall gradient and Hessian-vector product computation complexities of such an inexact Cubic-LocalMinimax algorithm. Moreover, we propose a stochastic variant of Cubic-LocalMinimax for large-scale minimax optimization, and characterize its sample complexity under stochastic sub-sampling. Experimental results demonstrate faster convergence of our stochastic Cubic-LocalMinimax than some existing algorithms.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-14T00:36:44Z</published>
+    <arxiv:comment>43 pages, 9 figures. Text overlap with arXiv:2102.04653. The original title is "Escaping Saddle Points in Nonconvex Minimax Optimization via Cubic-Regularized Gradient Descent-Ascent"</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Ziyi Chen</name>
+    </author>
+    <author>
+      <name>Zhengyang Hu</name>
+    </author>
+    <author>
+      <name>Qunwei Li</name>
+    </author>
+    <author>
+      <name>Zhe Wang</name>
+    </author>
+    <author>
+      <name>Yi Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.09885v1</id>
+    <title>Model Selection for Mixture Models - Perspectives and Strategies</title>
+    <updated>2018-12-24T10:45:09Z</updated>
+    <link href="https://arxiv.org/abs/1812.09885v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.09885v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Determining the number G of components in a finite mixture distribution is an important and difficult inference issue. This is a most important question, because statistical inference about the resulting model is highly sensitive to the value of G. Selecting an erroneous value of G may produce a poor density estimate. This is also a most difficult question from a theoretical perspective as it relates to unidentifiability issues of the mixture model. This is further a most relevant question from a practical viewpoint since the meaning of the number of components G is strongly related to the modelling purpose of a mixture distribution. We distinguish in this chapter between selecting G as a density estimation problem in Section 2 and selecting G in a model-based clustering framework in Section 3. Both sections discuss frequentist as well as Bayesian approaches. We present here some of the Bayesian solutions to the different interpretations of picking the "right" number of components in a mixture, before concluding on the ill-posed nature of the question.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-24T10:45:09Z</published>
+    <arxiv:comment>This is a preprint of a chapter in Handbook of Mixture Analysis (2018), edited by Gilles Celeux, Sylvia Fruewirth-Schnatter, and Christian P. Robert</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Gilles Celeux</name>
+      <arxiv:affiliation>INRIA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sylvia Fruewirth-Schnatter</name>
+      <arxiv:affiliation>WU</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christian P. Robert</name>
+      <arxiv:affiliation>PSL</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.06644v2</id>
+    <title>On The Identifiability of Mixture Models from Grouped Samples</title>
+    <updated>2022-04-02T20:00:40Z</updated>
+    <link href="https://arxiv.org/abs/1502.06644v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.06644v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Finite mixture models are statistical models which appear in many problems in statistics and machine learning. In such models it is assumed that data are drawn from random probability measures, called mixture components, which are themselves drawn from a probability measure P over probability measures. When estimating mixture models, it is common to make assumptions on the mixture components, such as parametric assumptions. In this paper, we make no assumption on the mixture components, and instead assume that observations from the mixture model are grouped, such that observations in the same group are known to be drawn from the same component. We show that any mixture of m probability measures can be uniquely identified provided there are 2m-1 observations per group. Moreover we show that, for any m, there exists a mixture of m probability measures that cannot be uniquely identified when groups have 2m-2 observations. Our results hold for any sample space with more than one element.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-23T22:24:26Z</published>
+    <arxiv:comment>The work was subsumed and expanded upon in our Annals of Statistics publication "An Operator Theoretic Approach to Nonparametric Mixture Models."</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Robert A. Vandermeulen</name>
+    </author>
+    <author>
+      <name>Clayton D. Scott</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00939v1</id>
+    <title>Improving Minimax Estimation Rates for Contaminated Mixture of Multinomial Logistic Experts via Expert Heterogeneity</title>
+    <updated>2026-01-31T23:45:50Z</updated>
+    <link href="https://arxiv.org/abs/2602.00939v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00939v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contaminated mixture of experts (MoE) is motivated by transfer learning methods where a pre-trained model, acting as a frozen expert, is integrated with an adapter model, functioning as a trainable expert, in order to learn a new task. Despite recent efforts to analyze the convergence behavior of parameter estimation in this model, there are still two unresolved problems in the literature. First, the contaminated MoE model has been studied solely in regression settings, while its theoretical foundation in classification settings remains absent. Second, previous works on MoE models for classification capture pointwise convergence rates for parameter estimation without any guaranty of minimax optimality. In this work, we close these gaps by performing, for the first time, the convergence analysis of a contaminated mixture of multinomial logistic experts with homogeneous and heterogeneous structures, respectively. In each regime, we characterize uniform convergence rates for estimating parameters under challenging settings where ground-truth parameters vary with the sample size. Furthermore, we also establish corresponding minimax lower bounds to ensure that these rates are minimax optimal. Notably, our theories offer an important insight into the design of contaminated MoE, that is, expert heterogeneity yields faster parameter estimation rates and, therefore, is more sample-efficient than expert homogeneity.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T23:45:50Z</published>
+    <arxiv:comment>Fanqi Yan, Dung Le contributed equally to this work. 41 pages, 3 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Fanqi Yan</name>
+    </author>
+    <author>
+      <name>Dung Le</name>
+    </author>
+    <author>
+      <name>Trang Pham</name>
+    </author>
+    <author>
+      <name>Huy Nguyen</name>
+    </author>
+    <author>
+      <name>Nhat Ho</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1203.3342v1</id>
+    <title>Minimax estimation for mixtures of Wishart distributions</title>
+    <updated>2012-03-15T12:18:41Z</updated>
+    <link href="https://arxiv.org/abs/1203.3342v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.3342v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The space of positive definite symmetric matrices has been studied extensively as a means of understanding dependence in multivariate data along with the accompanying problems in statistical inference. Many books and papers have been written on this subject, and more recently there has been considerable interest in high-dimensional random matrices with particular emphasis on the distribution of certain eigenvalues. With the availability of modern data acquisition capabilities, smoothing or nonparametric techniques are required that go beyond those applicable only to data arising in Euclidean spaces. Accordingly, we present a Fourier method of minimax Wishart mixture density estimation on the space of positive definite symmetric matrices.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-15T12:18:41Z</published>
+    <arxiv:comment>Published in at http://dx.doi.org/10.1214/11-AOS951 the Annals of Statistics (http://www.imstat.org/aos/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <arxiv:journal_ref>Annals of Statistics 2011, Vol. 39, No. 6, 3417-3440</arxiv:journal_ref>
+    <author>
+      <name>L. R. Haff</name>
+    </author>
+    <author>
+      <name>P. T. Kim</name>
+    </author>
+    <author>
+      <name>J. -Y. Koo</name>
+    </author>
+    <author>
+      <name>D. St. P. Richards</name>
+    </author>
+    <arxiv:doi>10.1214/11-AOS951</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/11-AOS951" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.4825v2</id>
+    <title>Learning subgaussian classes : Upper and minimax bounds</title>
+    <updated>2016-09-17T09:42:53Z</updated>
+    <link href="https://arxiv.org/abs/1305.4825v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.4825v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We obtain sharp oracle inequalities for the empirical risk minimization procedure in the regression model under the assumption that the target Y and the model F are subgaussian. The bound we obtain is sharp in the minimax sense if F is convex. Moreover, under mild assumptions on F, the error rate of ERM remains optimal even if the procedure is allowed to perform with constant probability. A part of our analysis is a new proof of minimax results for the gaussian regression model.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-21T14:02:51Z</published>
+    <arxiv:comment>learning theory, empirical process, minimax rates, Topics in Learning Theory - Societe Mathematique de France, (S. Boucheron and N. Vayatis Eds.). 2016</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Guillaume Lecué</name>
+    </author>
+    <author>
+      <name>Shahar Mendelson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.05478v1</id>
+    <title>Interplay of minimax estimation and minimax support recovery under sparsity</title>
+    <updated>2018-10-12T12:32:00Z</updated>
+    <link href="https://arxiv.org/abs/1810.05478v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.05478v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study a new notion of scaled minimaxity for sparse estimation in high-dimensional linear regression model. We present more optimistic lower bounds than the one given by the classical minimax theory and hence improve on existing results. We recover sharp results for the global minimaxity as a consequence of our study. Fixing the scale of the signal-to-noise ratio, we prove that the estimation error can be much smaller than the global minimax error. We construct a new optimal estimator for the scaled minimax sparse estimation. An optimal adaptive procedure is also described.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-12T12:32:00Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Mohamed Ndaoud</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.12258v2</id>
+    <title>Understanding Expert Structures on Minimax Parameter Estimation in Contaminated Mixture of Experts</title>
+    <updated>2025-03-06T02:46:29Z</updated>
+    <link href="https://arxiv.org/abs/2410.12258v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.12258v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We conduct the convergence analysis of parameter estimation in the contaminated mixture of experts. This model is motivated from the prompt learning problem where ones utilize prompts, which can be formulated as experts, to fine-tune a large-scale pre-trained model for learning downstream tasks. There are two fundamental challenges emerging from the analysis: (i) the proportion in the mixture of the pre-trained model and the prompt may converge to zero during the training, leading to the prompt vanishing issue; (ii) the algebraic interaction among parameters of the pre-trained model and the prompt can occur via some partial differential equations and decelerate the prompt learning. In response, we introduce a distinguishability condition to control the previous parameter interaction. Additionally, we also investigate various types of expert structure to understand their effects on the convergence behavior of parameter estimation. In each scenario, we provide comprehensive convergence rates of parameter estimation along with the corresponding minimax lower bounds. Finally, we run several numerical experiments to empirically justify our theoretical findings.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-16T05:52:51Z</published>
+    <arxiv:comment>Fanqi Yan, Huy Nguyen, and Dung Le contributed equally to this work. Accepted to AISTATS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fanqi Yan</name>
+    </author>
+    <author>
+      <name>Huy Nguyen</name>
+    </author>
+    <author>
+      <name>Dung Le</name>
+    </author>
+    <author>
+      <name>Pedram Akbarian</name>
+    </author>
+    <author>
+      <name>Nhat Ho</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.11101v2</id>
+    <title>Mixture Models in Astronomy</title>
+    <updated>2019-01-28T19:09:06Z</updated>
+    <link href="https://arxiv.org/abs/1711.11101v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.11101v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixture models combine multiple components into a single probability density function. They are a natural statistical model for many situations in astronomy, such as surveys containing multiple types of objects, cluster analysis in various data spaces, and complicated distribution functions. This chapter in the CRC Handbook of Mixture Analysis is concerned with astronomical applications of mixture models for cluster analysis, classification, and semi-parametric density estimation. We present several classification examples from the literature, including identification of a new class, analysis of contaminants, and overlapping populations. In most cases, mixtures of normal (Gaussian) distributions are used, but it is sometimes necessary to use different distribution functions derived from astrophysical experience. We also address the use of mixture models for the analysis of spatial distributions of objects, like galaxies in redshift surveys or young stars in star-forming regions. In the case of galaxy clustering, mixture models may not be the optimal choice for understanding the homogeneous and isotropic structure of voids and filaments. However, we show that mixture models, using astrophysical models for star clusters, may provide a natural solution to the problem of subdividing a young stellar population into subclusters. Finally, we explore how mixture models can be used for mathematically advanced modeling of data with heteroscedastic uncertainties or missing values, providing two example algorithms, the measurement error regression model of Kelly (2007) and the Extreme Deconvolution model of Bovy et al. (2011). The challenges presented by astronomical science, aided by the public availability of catalogs from major surveys and missions, are a rich area for collaboration between statisticians and astronomers.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-29T21:00:18Z</published>
+    <arxiv:comment>This is a revised preprint of a chapter in the Handbook of Mixture Analysis, edited by S. Früwirth-Schnatter, G. Celeux, and C. P. Robert, published in the "Handbooks of Modern Statistical Methods" series by Chapman &amp; Hall/CRC, 2018; revisions include several additional references and several changes to mathematical notation</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Michael A. Kuhn</name>
+      <arxiv:affiliation>Millennium Institute of Astrophysics</arxiv:affiliation>
+      <arxiv:affiliation>Universidad de Valparaíso</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric D. Feigelson</name>
+      <arxiv:affiliation>Pennsylvania State University</arxiv:affiliation>
+      <arxiv:affiliation>Millennium Institute of Astrophysics</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.18455v2</id>
+    <title>On Minimax Estimation of Parameters in Softmax-Contaminated Mixture of Experts</title>
+    <updated>2025-11-22T17:03:51Z</updated>
+    <link href="https://arxiv.org/abs/2505.18455v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.18455v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The softmax-contaminated mixture of experts (MoE) model is deployed when a large-scale pre-trained model, which plays the role of a fixed expert, is fine-tuned for learning downstream tasks by including a new contamination part, or prompt, functioning as a new, trainable expert. Despite its popularity and relevance, the theoretical properties of the softmax-contaminated MoE have remained unexplored in the literature. In the paper, we study the convergence rates of the maximum likelihood estimator of gating and prompt parameters in order to gain insights into the statistical properties and potential challenges of fine-tuning with a new prompt. We find that the estimability of these parameters is compromised when the prompt acquires overlapping knowledge with the pre-trained model, in the sense that we make precise by formulating a novel analytic notion of distinguishability. Under distinguishability of the pre-trained and prompt models, we derive minimax optimal estimation rates for all the gating and prompt parameters. By contrast, when the distinguishability condition is violated, these estimation rates become significantly slower due to their dependence on the prompt convergence rate to the pre-trained model. Finally, we empirically corroborate our theoretical findings through several numerical experiments.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-24T01:30:46Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2025. Fanqi Yan, Huy Nguyen, and Dung Le contributed equally to this work</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Fanqi Yan</name>
+    </author>
+    <author>
+      <name>Huy Nguyen</name>
+    </author>
+    <author>
+      <name>Dung Le</name>
+    </author>
+    <author>
+      <name>Pedram Akbarian</name>
+    </author>
+    <author>
+      <name>Nhat Ho</name>
+    </author>
+    <author>
+      <name>Alessandro Rinaldo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.07668v2</id>
+    <title>Fast sampling and model selection for Bayesian mixture models</title>
+    <updated>2025-10-22T15:43:12Z</updated>
+    <link href="https://arxiv.org/abs/2501.07668v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.07668v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study Bayesian estimation of mixture models and argue in favor of fitting the marginal posterior distribution over component assignments directly, rather than Gibbs sampling from the joint posterior on components and parameters as is commonly done. Some previous authors have found the former approach to have slow mixing, but we show that, implemented correctly, it can achieve excellent performance. In particular, we describe a new Monte Carlo algorithm for sampling from the marginal posterior of a general integrable mixture that makes use of rejection-free sampling from the prior over component assignments to achieve excellent mixing times in typical applications, outperforming standard Gibbs sampling, in some cases by a wide margin. We demonstrate the approach with a selection of applications to Gaussian, Poisson, and categorical models.</summary>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-13T19:58:37Z</published>
+    <arxiv:comment>Additional material on algorithms and example applications in this version. Code and data available at https://www.umich.edu/~mejn/mixture</arxiv:comment>
+    <arxiv:primary_category term="stat.CO"/>
+    <arxiv:journal_ref>Statistics and Computing 36, 8 (2026)</arxiv:journal_ref>
+    <author>
+      <name>M. E. J. Newman</name>
+    </author>
+    <arxiv:doi>10.1007/s11222-025-10753-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11222-025-10753-0" title="doi"/>
+  </entry>
+</feed>

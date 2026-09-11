@@ -1,0 +1,697 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NHrcQBlIQ+1dMV0TpHT2bIttRKY</id>
+  <title>arXiv Query: search_query=all:finite OR all:rate OR all:of OR all:innovation OR all:annihilating OR all:filter OR all:sampling&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:finite+OR+(all:rate+OR+(all:of+OR+(all:innovation+OR+(all:annihilating+OR+(all:filter+OR+all:sampling)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>760259</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0801.0275v2</id>
+    <title>Estimating Signals with Finite Rate of Innovation from Noisy Samples: A Stochastic Algorithm</title>
+    <updated>2008-01-03T01:09:41Z</updated>
+    <link href="https://arxiv.org/abs/0801.0275v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0801.0275v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  As an example of the recently-introduced concept of rate of innovation, signals that are linear combinations of a finite number of Diracs per unit time can be acquired by linear filtering followed by uniform sampling. However, in reality, samples are rarely noiseless. In this paper, we introduce a novel stochastic algorithm to reconstruct a signal with finite rate of innovation from its noisy samples. Even though variants of this problem has been approached previously, satisfactory solutions are only available for certain classes of sampling kernels, for example kernels which satisfy the Strang-Fix condition. In this paper, we consider the infinite-support Gaussian kernel, which does not satisfy the Strang-Fix condition. Other classes of kernels can be employed. Our algorithm is based on Gibbs sampling, a Markov chain Monte Carlo (MCMC) method. Extensive numerical simulations demonstrate the accuracy and robustness of our algorithm.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-01-01T05:19:35Z</published>
+    <arxiv:comment>Submitted to IEEE Transactions on Signal Processing</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <arxiv:journal_ref>IEEE Trans. on Signal Processing, vol. 56, no. 10, pp. 5135-5146, October 2008</arxiv:journal_ref>
+    <author>
+      <name>Vincent Y. F. Tan</name>
+    </author>
+    <author>
+      <name>Vivek K. Goyal</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2008.928510</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2008.928510" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.12983v2</id>
+    <title>Poisson multi-Bernoulli mixture filter with general target-generated measurements and arbitrary clutter</title>
+    <updated>2023-05-24T08:04:35Z</updated>
+    <link href="https://arxiv.org/abs/2210.12983v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.12983v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper shows that the Poisson multi-Bernoulli mixture (PMBM) density is a multi-target conjugate prior for general target-generated measurement distributions and arbitrary clutter distributions. That is, for this multi-target measurement model and the standard multi-target dynamic model with Poisson birth model, the predicted and filtering densities are PMBMs. We derive the corresponding PMBM filtering recursion. Based on this result, we implement a PMBM filter for point-target measurement models and negative binomial clutter density in which data association hypotheses with high weights are chosen via Gibbs sampling. We also implement an extended target PMBM filter with clutter that is the union of Poisson-distributed clutter and a finite number of independent clutter sources. Simulation results show the benefits of the proposed filters to deal with non-standard clutter.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-24T07:15:24Z</published>
+    <arxiv:comment>Matlab code available at https://github.com/Agarciafernandez/MTT and https://github.com/yuhsuansia/Extented-target-PMBM-filter-independent-clutter-sources</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <arxiv:journal_ref>Á. F. García-Fernández, Y. Xia, L. Svensson, "Poisson multi-Bernoulli mixture filter with general target-generated measurements and arbitrary clutter", IEEE Transactions on Signal Processing, vol. 71, 2023</arxiv:journal_ref>
+    <author>
+      <name>Ángel F. García-Fernández</name>
+    </author>
+    <author>
+      <name>Yuxuan Xia</name>
+    </author>
+    <author>
+      <name>Lennart Svensson</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2023.3278944</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2023.3278944" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0804.0441v2</id>
+    <title>Joint Beamforming for Multiaccess MIMO Systems with Finite Rate Feedback</title>
+    <updated>2008-04-17T02:35:01Z</updated>
+    <link href="https://arxiv.org/abs/0804.0441v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.0441v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper considers multiaccess multiple-input multiple-output (MIMO) systems with finite rate feedback. The goal is to understand how to efficiently employ the given finite feedback resource to maximize the sum rate by characterizing the performance analytically. Towards this, we propose a joint quantization and feedback strategy: the base station selects the strongest users, jointly quantizes their strongest eigen-channel vectors and broadcasts a common feedback to all the users. This joint strategy is different from an individual strategy, in which quantization and feedback are performed across users independently, and it improves upon the individual strategy in the same way that vector quantization improves upon scalar quantization. In our proposed strategy, the effect of user selection is analyzed by extreme order statistics, while the effect of joint quantization is quantified by what we term ``the composite Grassmann manifold''. The achievable sum rate is then estimated by random matrix theory. Due to its simple implementation and solid performance analysis, the proposed scheme provides a benchmark for multiaccess MIMO systems with finite rate feedback.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-02T21:16:42Z</published>
+    <arxiv:comment>Technical report on "Joint Beamforming for Multiaccess MIMO Systems with Finite Rate Feedback"</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Wei Dai</name>
+    </author>
+    <author>
+      <name>Brian C. Rider</name>
+    </author>
+    <author>
+      <name>Youjian Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.13079v1</id>
+    <title>The Geometric Unscented Kalman Filter</title>
+    <updated>2020-09-28T05:03:24Z</updated>
+    <link href="https://arxiv.org/abs/2009.13079v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.13079v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many filters have been proposed in recent decades for the nonlinear state estimation problem. The linearization-based extended Kalman filter (EKF) is widely applied to nonlinear industrial systems. As EKF is limited in accuracy and reliability, sequential Monte-Carlo methods or particle filters (PF) can obtain superior accuracy at the cost of a huge number of random samples. The unscented Kalman filter (UKF) can achieve adequate accuracy more efficiently by using deterministic samples, but its weights may be negative, which might cause instability problem. For Gaussian filters, the cubature Kalman filter (CKF) and Gauss Hermit filter (GHF) employ cubature and respectively Gauss-Hermite rules to approximate statistic information of random variables and exhibit impressive performances in practical problems. Inspired by this work, this paper presents a new nonlinear estimation scheme named after geometric unscented Kalman filter (GUF). The GUF chooses the filtering framework of CKF for updating data and develops a geometric unscented sampling (GUS) strategy for approximating random variables. The main feature of GUS is selecting uniformly distributed samples according to the probability and geometric location similar to UKF and CKF, and having positive weights like PF. Through such way, GUF can maintain adequate accuracy as GHF with reasonable efficiency and good stability. The GUF does not suffer from the exponential increase of sample size as for PF or failure to converge resulted from non-positive weights as for high order CKF and UKF.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-28T05:03:24Z</published>
+    <arxiv:comment>This article present a new sampling method and forth a new Kalman filter. It contains 16 figures</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Chengling Fang</name>
+    </author>
+    <author>
+      <name>Jiang Liu</name>
+    </author>
+    <author>
+      <name>Songqing Ye</name>
+    </author>
+    <author>
+      <name>Ju Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.0668v2</id>
+    <title>Vectorial velocity filter for ultracold neutrons based on a surface-disordered mirror system</title>
+    <updated>2014-03-19T15:54:41Z</updated>
+    <link href="https://arxiv.org/abs/1212.0668v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.0668v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We perform classical three-dimensional Monte Carlo simulations of ultracold neutrons scattering through an absorbing-reflecting mirror system in the Earth's gravitational field. We show that the underlying mixed phase space of regular skipping motion and random motion due to disorder scattering can be exploited to realize a vectorial velocity filter for ultracold neutrons. The absorbing-reflecting mirror system proposed allows beams of ultracold neutrons with low angular divergence to be formed. The range of velocity components can be controlled by adjusting the geometric parameters of the system. First experimental tests of its performance are presented. One potential future application is the investigation of transport and scattering dynamics in confined systems downstream of the filter.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-04T10:18:26Z</published>
+    <arxiv:comment>14 pages, 13 figures; final version including additional experimental data</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. E 89, 032907 (2014)</arxiv:journal_ref>
+    <author>
+      <name>L. A. Chizhova</name>
+    </author>
+    <author>
+      <name>S. Rotter</name>
+    </author>
+    <author>
+      <name>T. Jenke</name>
+    </author>
+    <author>
+      <name>G. Cronenberg</name>
+    </author>
+    <author>
+      <name>P. Geltenbort</name>
+    </author>
+    <author>
+      <name>G. Wautischer</name>
+    </author>
+    <author>
+      <name>H. Filter H. Abele</name>
+    </author>
+    <author>
+      <name>J. Burgdörfer</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.89.032907</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.89.032907" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.5070v5</id>
+    <title>Multichannel Sampling of Pulse Streams at the Rate of Innovation</title>
+    <updated>2011-01-04T07:25:35Z</updated>
+    <link href="https://arxiv.org/abs/1004.5070v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.5070v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider minimal-rate sampling schemes for infinite streams of delayed and weighted versions of a known pulse shape. The minimal sampling rate for these parametric signals is referred to as the rate of innovation and is equal to the number of degrees of freedom per unit time. Although sampling of infinite pulse streams was treated in previous works, either the rate of innovation was not achieved, or the pulse shape was limited to Diracs. In this paper we propose a multichannel architecture for sampling pulse streams with arbitrary shape, operating at the rate of innovation. Our approach is based on modulating the input signal with a set of properly chosen waveforms, followed by a bank of integrators. This architecture is motivated by recent work on sub-Nyquist sampling of multiband signals. We show that the pulse stream can be recovered from the proposed minimal-rate samples using standard tools taken from spectral estimation in a stable way even at high rates of innovation. In addition, we address practical implementation issues, such as reduction of hardware complexity and immunity to failure in the sampling channels. The resulting scheme is flexible and exhibits better noise robustness than previous approaches.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-28T16:00:02Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Kfir Gedalyahu</name>
+    </author>
+    <author>
+      <name>Ronen Tur</name>
+    </author>
+    <author>
+      <name>Yonina C. Eldar</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2011.2105481</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2011.2105481" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1003.2822v4</id>
+    <title>Innovation Rate Sampling of Pulse Streams with Application to Ultrasound Imaging</title>
+    <updated>2011-01-05T20:49:25Z</updated>
+    <link href="https://arxiv.org/abs/1003.2822v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.2822v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Signals comprised of a stream of short pulses appear in many applications including bio-imaging and radar. The recent finite rate of innovation framework, has paved the way to low rate sampling of such pulses by noticing that only a small number of parameters per unit time are needed to fully describe these signals. Unfortunately, for high rates of innovation, existing sampling schemes are numerically unstable. In this paper we propose a general sampling approach which leads to stable recovery even in the presence of many pulses. We begin by deriving a condition on the sampling kernel which allows perfect reconstruction of periodic streams from the minimal number of samples. We then design a compactly supported class of filters, satisfying this condition. The periodic solution is extended to finite and infinite streams, and is shown to be numerically stable even for a large number of pulses. High noise robustness is also demonstrated when the delays are sufficiently separated. Finally, we process ultrasound imaging data using our techniques, and show that substantial rate reduction with respect to traditional ultrasound sampling schemes can be achieved.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-14T21:14:24Z</published>
+    <arxiv:comment>14 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Ronen Tur</name>
+    </author>
+    <author>
+      <name>Yonina C. Eldar</name>
+    </author>
+    <author>
+      <name>Zvi Friedman</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2011.2105480</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2011.2105480" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.06159v1</id>
+    <title>Accurate Reconstruction of Finite Rate of Innovation Signals on the Sphere</title>
+    <updated>2016-12-19T12:58:45Z</updated>
+    <link href="https://arxiv.org/abs/1612.06159v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.06159v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a method for the accurate reconstruction of non-bandlimited finite rate of innovation signals on the sphere. For signals consisting of a finite number of Dirac functions on the sphere, we develop an annihilating filter based method for the accurate recovery of parameters of the Dirac functions using a finite number of observations of the bandlimited signal. In comparison to existing techniques, the proposed method enables more accurate reconstruction primarily due to better conditioning of systems involved in the recovery of parameters. For the recovery of $K$ Diracs on the sphere, the proposed method requires samples of the signal bandlimited in the spherical harmonic~(SH) domain at SH degree equal or greater than $ K + \sqrt{K + \frac{1}{4}} - \frac{1}{2}$. In comparison to the existing state-of-the art technique, the required bandlimit, and consequently the number of samples, of the proposed method is the same or less. We also conduct numerical experiments to demonstrate that the proposed technique is more accurate than the existing methods by a factor of $10^{7}$ or more for $2 \le K\le 20$.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-19T12:58:45Z</published>
+    <arxiv:comment>5 Pages, 1 Figure, Submitted for review in IEEE Signal Processing Letters</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Yahya Sattar</name>
+    </author>
+    <author>
+      <name>Zubair Khalid</name>
+    </author>
+    <author>
+      <name>Rodney A. Kennedy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.2746v1</id>
+    <title>Taxation as an instrument of stimulation of innovation-active business entities</title>
+    <updated>2014-12-07T10:28:44Z</updated>
+    <link href="https://arxiv.org/abs/1412.2746v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.2746v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The analysis of the theoretical material revealed the lack of consensus on defini-tion of the tax stimulation of innovation-active business entities within the re-gional taxation. The definition tax stimulation of innovation-active business en-tities is specified.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-07T10:28:44Z</published>
+    <arxiv:comment>innovation; business entity; taxation; tax rate; return on assets</arxiv:comment>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Andrey Nechaev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.7025v1</id>
+    <title>Recovery of bilevel causal signals with finite rate of innovation using positive sampling kernels</title>
+    <updated>2013-04-25T20:33:31Z</updated>
+    <link href="https://arxiv.org/abs/1304.7025v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.7025v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bilevel signal $x$ with maximal local rate of innovation $R$ is a continuous-time signal that takes only two values 0 and 1 and that there is at most one transition position in any time period of 1/R.In this note, we introduce a recovery method for bilevel causal signals $x$ with maximal local rate of innovation $R$ from their uniform samples $x*h(nT), n\ge 1$, where the sampling kernel $h$ is causal and positive on $(0, T)$, and the sampling rate $τ:=1/T$ is at (or above) the maximal local rate of innovation $R$. We also discuss stability of the bilevel signal recovery procedure in the presence of bounded noises.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-25T20:33:31Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Gayatri Ramesh</name>
+    </author>
+    <author>
+      <name>Elie Atallah</name>
+    </author>
+    <author>
+      <name>Qiyu Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.09993v2</id>
+    <title>First Data Release of the ESO-ARO Public Survey SAMPLING --- SMT "All-sky" Mapping of PLanck Interstellar Nebulae in the Galaxy</title>
+    <updated>2018-01-02T18:56:33Z</updated>
+    <link href="https://arxiv.org/abs/1712.09993v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.09993v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We make the first data release (DR1) of the ongoing ESO Public Survey SAMPLING (http://dx.doi.org/10.7910/DVN/0L8NHX). DR1 comprises of 124 fields distributed in $70^\circ &lt; l &lt; 216^\circ$, $-35^\circ &lt; b &lt; 25^\circ$. The 12CO and 13CO (2-1) cubes are gridded in $8"$ pixels, with an effective resolution of $36"$. The channel width is 0.33 km/s and the RMS noise is $T_{\rm mb}&lt;0.2$ K. Once completed, SAMPLING and complementary surveys will initiate the first major step forward to characterize molecular clouds and star formation on truly Galactic scales.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-28T18:54:26Z</published>
+    <arxiv:comment>RNAAS accepted, 3 pages, 1 figure. This version with updated author list</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Ke Wang</name>
+      <arxiv:affiliation>ESO Garching</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sarolta Zahorecz</name>
+    </author>
+    <author>
+      <name>Maria R. Cunningham</name>
+    </author>
+    <author>
+      <name>L. Viktor Toth</name>
+    </author>
+    <author>
+      <name>Tie Liu</name>
+    </author>
+    <author>
+      <name>Xing Lu</name>
+    </author>
+    <author>
+      <name>Yuan Wang</name>
+    </author>
+    <author>
+      <name>Giuliana Cosentino</name>
+    </author>
+    <author>
+      <name>Ren-Shiang Sung</name>
+    </author>
+    <author>
+      <name>Vlsa Sokolov</name>
+    </author>
+    <author>
+      <name>Shen Wang</name>
+    </author>
+    <author>
+      <name>Yuwei Wang</name>
+    </author>
+    <author>
+      <name>Zhiyu Zhang</name>
+    </author>
+    <author>
+      <name>Di Li</name>
+    </author>
+    <author>
+      <name>Kee-Tae Kim</name>
+    </author>
+    <author>
+      <name>Ken'ichi Tatematsu</name>
+    </author>
+    <author>
+      <name>Leonardo Testi</name>
+    </author>
+    <author>
+      <name>Yuefang Wu</name>
+    </author>
+    <author>
+      <name>Ji Yang</name>
+    </author>
+    <author>
+      <name>SAMPLING Collaboration</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.06392v3</id>
+    <title>Linear combinations of primitive elements of a finite field</title>
+    <updated>2018-08-31T01:34:16Z</updated>
+    <link href="https://arxiv.org/abs/1711.06392v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.06392v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine linear sums of primitive roots and their inverses in finite fields. In particular, we refine a result by Li and Han, and show that every $p&gt; 13$ has a pair of primitive roots $a$ and $b$ such that $a+ b$ and $a^{-1} + b^{-1}$ are also primitive roots mod $p$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-17T04:02:15Z</published>
+    <arxiv:comment>19 pages; to appear in Finite Fields Appl</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Finite Fields and Their Applications Volume 51, May 2018</arxiv:journal_ref>
+    <author>
+      <name>Stephen Cohen</name>
+    </author>
+    <author>
+      <name>Tomás Oliveira e Silva</name>
+    </author>
+    <author>
+      <name>Nicole Sutherland</name>
+    </author>
+    <author>
+      <name>Tim Trudgian</name>
+    </author>
+    <arxiv:doi>10.1016/j.ffa.2018.02.009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ffa.2018.02.009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.05564v2</id>
+    <title>FRI-TEM: Time Encoding Sampling of Finite-Rate-of-Innovation Signals</title>
+    <updated>2021-06-15T09:20:49Z</updated>
+    <link href="https://arxiv.org/abs/2106.05564v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.05564v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Classical sampling is based on acquiring signal amplitudes at specific points in time, with the minimal sampling rate dictated by the degrees of freedom in the signal. The samplers in this framework are controlled by a global clock that operates at a rate greater than or equal to the minimal sampling rate. At high sampling rates, clocks are power-consuming and prone to electromagnetic interference. An integrate-and-fire time encoding machine (IF-TEM) is an alternative power-efficient sampling mechanism which does not require a global clock. Here, the samples are irregularly spaced threshold-based samples. In this paper, we investigate the problem of sampling finite-rate-of-innovation (FRI) signals using an IF-TEM. We provide theoretical recovery guarantees for an FRI signal with arbitrary pulse shape and without any constraint on the minimum separation between the pulses. In particular, we show how to design a sampling kernel, IF-TEM, and recovery method such that the FRI signals are perfectly reconstructed. We then propose a modification to the sampling kernel to improve noise robustness. Our results enable designing low-cost and energy-efficient analog-to-digital converters for FRI signals.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-10T07:43:05Z</published>
+    <arxiv:comment>11 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Hila Naaman</name>
+    </author>
+    <author>
+      <name>Satish Mulleti</name>
+    </author>
+    <author>
+      <name>Yonina C. Eldar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.2949v1</id>
+    <title>Filter Bank Fusion Frames</title>
+    <updated>2010-05-17T15:17:59Z</updated>
+    <link href="https://arxiv.org/abs/1005.2949v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.2949v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we characterize and construct novel oversampled filter banks implementing fusion frames. A fusion frame is a sequence of orthogonal projection operators whose sum can be inverted in a numerically stable way.  When properly designed, fusion frames can provide redundant encodings of signals which are optimally robust against certain types of noise and erasures.  However, up to this point, few implementable constructions of such frames were known; we show how to construct them using oversampled filter banks.  In this work, we first provide polyphase domain characterizations of filter bank fusion frames. We then use these characterizations to construct filter bank fusion frame versions of discrete wavelet and Gabor transforms, emphasizing those specific finite impulse response filters whose frequency responses are well-behaved.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-17T15:17:59Z</published>
+    <arxiv:comment>keywords: filter banks, frames, tight, fusion, erasures, polyphase</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Amina Chebira</name>
+    </author>
+    <author>
+      <name>Matthew Fickus</name>
+    </author>
+    <author>
+      <name>Dustin G. Mixon</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2010.2097255</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2010.2097255" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0106542v2</id>
+    <title>The Structure of Dark Matter Halos in an Annihilating Dark Matter Model</title>
+    <updated>2001-07-06T15:58:18Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0106542v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0106542v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The inability of standard non-interacting cold dark matter (CDM) to account for the small scale structure of individual galaxies has led to the suggestion that the dark matter may undergo elastic and/or inelastic scattering. We simulate the evolution of an isolated dark matter halo which undergoes both scattering and annihilation. Annihilations produce a core that grows with time due to adiabatic expansion of the core as the relativistic annihilation products flow out of the core, lessening the binding energy. An effective annihilation cross section per unit mass equal to $&gt;.03 cm^2 g^{-1} (100 km s^{-1}/v$) with a scattering cross section per unit mass of .6 cm g$^{-1}$ produces a 3 kpc core in a 10$^{10}$ M$_{\sun}$ halo that persists for 100 dynamical times. The same cross section leads to a core of only 120 pc in a rich cluster. In addition to creating to cores, annihilation should erase structure on scales below $\sim 3\times10^8$ M$_{\sun}$. Annihilating dark matter provides a mechanism for solving some of the problems of non-interacting CDM, at the expense of introducing a contrived particle physics model.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-06-28T20:08:56Z</published>
+    <arxiv:comment>18 pages, 6 figures, uses elsart.cls. Accepted for publication in New Astronomy. References added, discussion of previous work on annihilating dark matter clarified; conclusions unchanged</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>Matthew W. Craig</name>
+    </author>
+    <author>
+      <name>Marc Davis</name>
+    </author>
+    <arxiv:doi>10.1016/S1384-1076(01)00072-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S1384-1076(01)00072-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.01809v3</id>
+    <title>Exposing Finite-Depth, Finite-Shot Guarantees for Constrained Quantum Optimization via Fejér Filtering</title>
+    <updated>2026-09-03T12:45:39Z</updated>
+    <link href="https://arxiv.org/abs/2603.01809v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.01809v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Constrained quantum optimization algorithms need quantitative guarantees that connect circuit resources to the probability of actually sampling feasible or optimal solutions in finitely many shots. We establish such a connection by exposing a positive sampling law in which mixer-driven exploration and spectral selection can be controlled separately. We show that after removing interference between distinct cost eigenspaces as an analytic device, the measurement distribution becomes the normalized product of a mixer-induced exploration envelope and a Fejér spectral weight, with the former describing how the mixer spreads probability over the encoded manifold and the latter enhancing the target cost phase while suppressing spectrally separated nontarget phases. In this model, finite-shot success becomes a tractable competition between target weight and off-target leakage, yielding an explicit lower bound on the probability of sampling an optimum. For the primary bound, we rescale the cost Hamiltonian to an integer-valued spectrum, placing the wrapped cost phases on a controlled lattice for Fejér filtering. We then define $δ$ as the minimum circular separation between the optimal phase and every nontarget phase. The single-shot success probability $q_0$ satisfies \[ q_0 \ge \frac{x}{1+x}, \qquad x
+= (p+1)^2 \sin^2\!\left(\fracδ{2}\right) C_β, \] where $p$ is the filter order and $C_β$ is the mixer-envelope mass on the optimal set, exposing a finite-resource compensation law in which weaker phase separation or smaller envelope mass can be compensated by increased filter order and additional shots. The same filtering principle exposes a feasibility guarantee when applied to penalty phases. We further prove analogous bounds for nonlattice spectra through off-target suppression, extending our results beyond exact lattice normalization.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-02T12:44:19Z</published>
+    <arxiv:comment>Substantially revised version. Clarified the positive Fejér-reweighted sampling law and its interpretation, refined the finite-depth/finite-shot guarantees and phase-normalization analysis, and strengthened the resource-tradeoff discussion to include inverse-polynomial success-probability regimes. Title and exposition revised</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Chinonso Onah</name>
+    </author>
+    <author>
+      <name>Kristel Michielsen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1102.5335v1</id>
+    <title>Block Companion Singer Cycles, Primitive Recursive Vector Sequences, and Coprime Polynomial Pairs over Finite Fields</title>
+    <updated>2011-02-25T20:46:18Z</updated>
+    <link href="https://arxiv.org/abs/1102.5335v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.5335v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss a conjecture concerning the enumeration of nonsingular matrices over a finite field that are block companion and whose order is the maximum possible in the corresponding general linear group. A special case is proved using some recent results on the probability that a pair of polynomials with coefficients in a finite field is coprime. Connection with an older problem of Niederreiter about the number of splitting subspaces of a given dimension are outlined and an asymptotic version of the conjectural formula is established. Some applications to the enumeration of nonsingular Toeplitz matrices of a given size over a finite field are also discussed.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-25T20:46:18Z</published>
+    <arxiv:comment>12 pages; to appear in: Finite Fields and Their Applications</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>Finite Fields Appl. 17 (2011), no. 5, 461-472</arxiv:journal_ref>
+    <author>
+      <name>Sudhir R. Ghorpade</name>
+    </author>
+    <author>
+      <name>Samrith Ram</name>
+    </author>
+    <arxiv:doi>10.1016/j.ffa.2011.02.008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ffa.2011.02.008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.1448v3</id>
+    <title>Algebraic methods for parameterized codes and invariants of vanishing ideals over finite fields</title>
+    <updated>2010-09-24T19:26:40Z</updated>
+    <link href="https://arxiv.org/abs/1001.1448v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.1448v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let K be a finite field with q elements and let X be a subset of a projective space P^{s-1}, over the field K, which is parameterized by Laurent monomials. Let I(X) be the vanishing ideal of X. Some of the main contributions of this paper are in determining the structure of I(X) and some of their invariants. It is shown that I(X) is a lattice ideal. We introduce the notion of a parameterized code arising from X and present algebraic methods to compute and study its dimension, length and minimum distance. For a parameterized code arising from a connected graph we are able to compute its length and to make our results more precise. If the graph is non-bipartite, we show an upper bound for the minimum distance. We also study the underlying geometric structure of X.</summary>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-09T20:39:35Z</published>
+    <arxiv:comment>Finite Fields Appl., to appear</arxiv:comment>
+    <arxiv:primary_category term="math.AC"/>
+    <arxiv:journal_ref>Finite Fields Appl. 17 (2011), no. 1, 81-104</arxiv:journal_ref>
+    <author>
+      <name>C. Renteria</name>
+    </author>
+    <author>
+      <name>A. Simis</name>
+    </author>
+    <author>
+      <name>R. H. Villarreal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.04525v2</id>
+    <title>A comparison of optimisation algorithms for high-dimensional particle and astrophysics applications</title>
+    <updated>2021-04-01T09:06:11Z</updated>
+    <link href="https://arxiv.org/abs/2101.04525v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.04525v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optimisation problems are ubiquitous in particle and astrophysics, and involve locating the optimum of a complicated function of many parameters that may be computationally expensive to evaluate. We describe a number of global optimisation algorithms that are not yet widely used in particle astrophysics, benchmark them against random sampling and existing techniques, and perform a detailed comparison of their performance on a range of test functions. These include four analytic test functions of varying dimensionality, and a realistic example derived from a recent global fit of weak-scale supersymmetry. Although the best algorithm to use depends on the function being investigated, we are able to present general conclusions about the relative merits of random sampling, Differential Evolution, Particle Swarm Optimisation, the Covariance Matrix Adaptation Evolution Strategy, Bayesian Optimisation, Grey Wolf Optimisation, and the PyGMO Artificial Bee Colony, Gaussian Particle Filter and Adaptive Memory Programming for Global Optimisation algorithms.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-12T14:48:58Z</published>
+    <arxiv:comment>Experimental framework publicly available at http://www.github.com/darkmachines/high-dimensional-sampling</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name> The DarkMachines High Dimensional Sampling Group</name>
+    </author>
+    <author>
+      <name>Csaba Balázs</name>
+    </author>
+    <author>
+      <name>Melissa van Beekveld</name>
+    </author>
+    <author>
+      <name>Sascha Caron</name>
+    </author>
+    <author>
+      <name>Barry M. Dillon</name>
+    </author>
+    <author>
+      <name>Ben Farmer</name>
+    </author>
+    <author>
+      <name>Andrew Fowlie</name>
+    </author>
+    <author>
+      <name>Eduardo C. Garrido-Merchán</name>
+    </author>
+    <author>
+      <name>Will Handley</name>
+    </author>
+    <author>
+      <name>Luc Hendriks</name>
+    </author>
+    <author>
+      <name>Guðlaugur Jóhannesson</name>
+    </author>
+    <author>
+      <name>Adam Leinweber</name>
+    </author>
+    <author>
+      <name>Judita Mamužić</name>
+    </author>
+    <author>
+      <name>Gregory D. Martinez</name>
+    </author>
+    <author>
+      <name>Sydney Otten</name>
+    </author>
+    <author>
+      <name>Pat Scott</name>
+    </author>
+    <author>
+      <name>Roberto Ruiz de Austri</name>
+    </author>
+    <author>
+      <name>Zachary Searle</name>
+    </author>
+    <author>
+      <name>Bob Stienen</name>
+    </author>
+    <author>
+      <name>Joaquin Vanschoren</name>
+    </author>
+    <author>
+      <name>Martin White</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP05(2021)108</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP05(2021)108" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.08001v2</id>
+    <title>Counting solutions of special linear equations over finite fields</title>
+    <updated>2020-09-27T23:20:27Z</updated>
+    <link href="https://arxiv.org/abs/2004.08001v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.08001v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $q$ be a prime power, let $\mathbb F_q$ be the finite field with $q$ elements and let $d_1, \ldots, d_k$ be positive integers. In this note we explore the number of solutions $(z_1, \ldots, z_k)\in\overline{\mathbb F}_q^k$ of the equation \begin{equation*}L_1(x_1)+\cdots+L_k(x_k)=b,\end{equation*} with the restrictions $z_i\in \mathbb F_{q^{d_i}}$, where each $L_i(x)$ is a non zero polynomial of the form $\sum_{j=0}^{m_i}a_{ij}x^{q^j}\in \mathbb F_q[x]$ and $b\in \overline{\mathbb F}_q$. We characterize the elements $b$ for which the equation above has a solution and, in affirmative case, we determine the exact number of solutions. As an application of our main result, we obtain the cardinality of the sumset $$\sum_{i=1}^k\mathbb F_{q^{d_i}}:=\{α_1+\cdots+α_k\,|\, α_i\in \mathbb F_{q^{d_i}}\}.$$ Our approach also allows us to solve another interesting problem, regarding the existence and number of elements in $\mathbb F_{q^n}$ with prescribed traces over intermediate $\mathbb F_q$-extensions of $\mathbb F_{q^n}$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-17T00:00:08Z</published>
+    <arxiv:comment>8 pages; to appear in Finite Fields and Their Applications</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Finite Fields Appl. 68: 101759 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Lucas Reis</name>
+    </author>
+    <arxiv:doi>10.1016/j.ffa.2020.101759</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ffa.2020.101759" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.4565v4</id>
+    <title>Pfaffian formulae for one dimensional coalescing and annihilating systems</title>
+    <updated>2012-01-09T11:39:39Z</updated>
+    <link href="https://arxiv.org/abs/1009.4565v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.4565v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The paper considers instantly coalescing, or instantly annihilating, systems of one-dimensional Brownian particles on the real line. Under maximal entrance laws, the distribution of the particles at a fixed time is shown to be Pfaffian point processes closely related to the Pfaffian point process describing one dimensional distribution of real eigenvalues in the real Ginibre ensemble of random matrices. As an application, an exact large time asymptotic for the n-point density function for coalescing particles is derived.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-23T10:28:19Z</published>
+    <arxiv:comment>26 pages, no figures. Final version: connection between one-dimensional distributions of annihilating Brownian motions and real eigenvalues in real Ginibre ensemble spotted by the referee is stated explicitly. Conjecture relating the eigenvalue processes to annihilating Brownian motions is stated. References added</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Electronic Journal of Probability, vol. 16, Article 76 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Roger Tribe</name>
+    </author>
+    <author>
+      <name>Oleg Zaboronski</name>
+    </author>
+    <arxiv:doi>10.1214/EJP.v16-942</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/EJP.v16-942" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.05538v1</id>
+    <title>Stable Phaseless Sampling and Reconstruction of Real-Valued Signals with Finite Rate of Innovations</title>
+    <updated>2018-01-17T03:59:05Z</updated>
+    <link href="https://arxiv.org/abs/1801.05538v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.05538v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A spatial signal is defined by its evaluations on the whole domain. In this paper, we consider stable reconstruction of real-valued signals with finite rate of innovations (FRI), up to a sign, from their magnitude measurements on the whole domain or their phaseless samples on a discrete subset. FRI signals appear in many engineering applications such as magnetic resonance spectrum, ultra wide-band communication and electrocardiogram. For an FRI signal, we introduce an undirected graph to describe its topological structure. We establish the equivalence between the graph connectivity and phase retrievability of FRI signals, and we apply the graph connected component decomposition to find all FRI signals that have the same magnitude measurements as the original FRI signal has. We construct discrete sets with finite density explicitly so that magnitude measurements of FRI signals on the whole domain are determined by their samples taken on those discrete subsets. In this paper, we also propose a stable algorithm with linear complexity to reconstruct FRI signals from their phaseless samples on the above phaseless sampling set. The proposed algorithm is demonstrated theoretically and numerically to provide a suboptimal approximation to the original FRI signal in magnitude measurements.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-17T03:59:05Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Cheng Cheng</name>
+    </author>
+    <author>
+      <name>Qiyu Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.09222v2</id>
+    <title>To fixate or not to fixate in two-type annihilating branching random walks</title>
+    <updated>2020-10-21T05:32:12Z</updated>
+    <link href="https://arxiv.org/abs/2002.09222v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.09222v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study a model of competition between two types evolving as branching random walks on $\mathbb{Z}^d$. The two types are represented by red and blue balls respectively, with the rule that balls of different colour annihilate upon contact. We consider initial configurations in which the sites of $\mathbb{Z}^d$ contain one ball each, which are independently coloured red with probability $p$ and blue otherwise. We address the question of \emph{fixation}, referring to the sites eventually settling for a given colour, or not. Under a mild moment condition on the branching rule, we prove that the process will fixate almost surely for $p\neq 1/2$, and that every site will change colour infinitely often almost surely for the balanced initial condition $p=1/2$.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-21T10:54:05Z</published>
+    <arxiv:comment>36 pages. A more careful construction of the annihilating process added in second version</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Daniel Ahlberg</name>
+    </author>
+    <author>
+      <name>Simon Griffiths</name>
+    </author>
+    <author>
+      <name>Svante Janson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.6428v1</id>
+    <title>The Correlation between Structural Capital and Innovation in Indonesian Manufacturing Industry</title>
+    <updated>2012-07-26T22:41:01Z</updated>
+    <link href="https://arxiv.org/abs/1207.6428v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.6428v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The statistical relationship between structural capital and innovation in Indonesian manufacturing industries is presented. The correlation is constructed using recent survey data on the contribution of structural capital to the innovation processes in the industries. The correlation is represented quantitatively using the recently developed Intellectual Capital and Innovation (ICI) index involving all components of intellectual capital and its role to enable innovation in a manufacturing industry. However, the paper is focused only on the contribution of structural capital component. Using the available data it is shown that the correlation is highly depending on the scale and characteristics of each manufacture. It is also argued that the ICI index is able to quantitatively prove the dominant components in innovation processes for each class of manufacturing industries.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-26T22:41:01Z</published>
+    <arxiv:comment>4 pages, Proceeding of the International Conference on Innovation, Management and Technology Research (2012) pp. 322-325</arxiv:comment>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>R. Wijayanti</name>
+    </author>
+    <author>
+      <name>N. G. Berliana</name>
+    </author>
+    <author>
+      <name>I. M. Nadhiroh</name>
+    </author>
+    <author>
+      <name>E. Aminullah</name>
+    </author>
+    <author>
+      <name> Kusnandar</name>
+    </author>
+    <author>
+      <name>T. Fizzanty</name>
+    </author>
+    <author>
+      <name>T. Handayani</name>
+    </author>
+    <author>
+      <name>R. Rahmaida</name>
+    </author>
+    <author>
+      <name>N. Laili</name>
+    </author>
+    <author>
+      <name> Kusbiantono</name>
+    </author>
+    <author>
+      <name>L. T. Handoko</name>
+    </author>
+    <arxiv:doi>10.1109/ICIMTR.2012.6236411</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICIMTR.2012.6236411" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.07132v1</id>
+    <title>On Kalman-Like Finite Impulse Response Filters</title>
+    <updated>2015-01-27T11:48:04Z</updated>
+    <link href="https://arxiv.org/abs/1501.07132v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.07132v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This note reveals an explicit relationship between two representative finite impulse response (FIR) filters, i.e. the newly derived and popularized Kalman-Like unbiased FIR filter (UFIR) and the receding horizon Kalman FIR filter (RHKF). It is pointed out that the only difference of the two algorithms lies in the noise statistics ignorance and appropriate initial condition construction strategy in UFIR. The revelation can benefit the performance improvement of one by drawing lessons from the other. Some interesting conclusions have also been drawn and discussed from this revelation.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-27T11:48:04Z</published>
+    <arxiv:comment>This note is my personal understanding of the Kalman-Like Finite Impulse Response Filters</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Lubin Chang</name>
+    </author>
+  </entry>
+</feed>

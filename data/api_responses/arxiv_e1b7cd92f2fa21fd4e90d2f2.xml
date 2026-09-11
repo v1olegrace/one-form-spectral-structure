@@ -1,0 +1,552 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//yOJ6teE/SJt11VygN6AvJAI+Ng</id>
+  <title>arXiv Query: search_query=all:ill-conditioning OR all:Hankel OR all:matrix OR all:exponential OR all:sum OR all:condition OR all:number&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:46:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ill-conditioning+OR+(all:Hankel+OR+(all:matrix+OR+(all:exponential+OR+(all:sum+OR+(all:condition+OR+all:number)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>927241</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.05993v2</id>
+    <title>Hankel continued fractions and Hankel determinants for $q$-deformed metallic numbers</title>
+    <updated>2026-01-17T09:21:16Z</updated>
+    <link href="https://arxiv.org/abs/2502.05993v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.05993v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fix $n$ a positive integer. Take the $n$-th metallic number $φ_n=\frac{n+\sqrt{n^2+4}}{2}$ (e.g. $φ_1$ is the golden number) and let $Φ_n(q)$ be its $q$-deformation in the sense of S. Morier-Genoud and V. Ovsienko. This is an algebraic continued fraction which admits an expansion into a Taylor series around $q=0$, with integral coefficients. By using the notion of Hankel continued fraction introduced by the first author in 2016 we determine explicitly the first $n+2$ sequences of shifted Hankel determinants of $Φ_n$ and show that they satisfy the following properties:
+  1) They are periodic and consist of $-1,0,1$ only.
+  2) They satisfy a three-term Gale-Robinson recurrence, i.e. they form discrete integrable dynamical systems.
+  3) They are all completely determined by the first sequence.
+  This article thus validates a conjecture formulated by V. Ovsienko and the second author in a recent paper and establishes new connections between $q$-deformations of real numbers and sequences of Catalan or Motzkin numbers.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-09T18:54:27Z</published>
+    <arxiv:comment>51 pages, 5 figures. Version 2 improvements: new theorem on the periodicity modulo a prime of the Hankel determinants, bibliography updates and minor corrections</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Guo-Niu Han</name>
+    </author>
+    <author>
+      <name>Emmanuel Pedon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.07409v2</id>
+    <title>Accelerating Ill-conditioned Hankel Matrix Recovery via Structured Newton-like Descent</title>
+    <updated>2025-04-10T07:55:52Z</updated>
+    <link href="https://arxiv.org/abs/2406.07409v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.07409v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the robust Hankel recovery problem, which simultaneously removes the sparse outliers and fulfills missing entries from the partial observation. We propose a novel non-convex algorithm, coined Hankel Structured Newton-Like Descent (HSNLD), to tackle the robust Hankel recovery problem. HSNLD is highly efficient with linear convergence, and its convergence rate is independent of the condition number of the underlying Hankel matrix. The recovery guarantee has been established under some mild conditions. Numerical experiments on both synthetic and real datasets show the superior performance of HSNLD against state-of-the-art algorithms.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-11T16:14:30Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>Inverse Problems, 41(7): 075015, 2025</arxiv:journal_ref>
+    <author>
+      <name>HanQin Cai</name>
+    </author>
+    <author>
+      <name>Longxiu Huang</name>
+    </author>
+    <author>
+      <name>Xiliang Lu</name>
+    </author>
+    <author>
+      <name>Juntao You</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6420/adec13</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6420/adec13" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0611674v7</id>
+    <title>Some formulas for the smallest number of generators for finite direct sums of matrix algebras</title>
+    <updated>2007-10-16T01:32:40Z</updated>
+    <link href="https://arxiv.org/abs/math/0611674v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0611674v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We obtain an asymptotic upper bound for the smallest number of generators for a finite direct sum of matrix algebras with entries in a finite field. This produces an upper bound for a similar quantity for integer matrix rings. We also obtain an exact formula for the smallest number of generators for a finite direct sum of 2-by-2 matrix algebras with entries in a finite field and as a consequence obtain a formula for a similar quantity for a finite direct sum of 2-by-2 integer matrix rings. We remark that a generating set the ring $\bigoplus_{i=1}^k M_{n_i}(\mathbb{Z})^{n_i}$ may be used as a generating set of any matrix algebra $\bigoplus_{i=1}^k M_{n_i}(R)^{n_i}$ where $R$ is an associative ring with a two-sided 1.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-22T12:21:31Z</published>
+    <arxiv:comment>29 pages. We found the generating function for gen_{m,2}(q), and we added an appendix containing a 2-generator presentation for a finite direct sum of matrix algebras over an infinite field</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <author>
+      <name>R. V. Kravchenko</name>
+    </author>
+    <author>
+      <name>B. V. Petrenko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.1588v2</id>
+    <title>Evaluating Matrix Functions by Resummations on Graphs: the Method of Path-Sums</title>
+    <updated>2012-02-27T10:15:57Z</updated>
+    <link href="https://arxiv.org/abs/1112.1588v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.1588v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the method of path-sums which is a tool for exactly evaluating a function of a discrete matrix with possibly non-commuting entries, based on the closed-form resummation of infinite families of terms in the corresponding Taylor series. If the matrix is finite, our approach yields the exact result in a finite number of steps. We achieve this by combining a mapping between matrix powers and walks on a weighted directed graph with a universal graph-theoretic result on the structure of such walks. We present path-sum expressions for a matrix raised to a complex power, the matrix exponential, matrix inverse, and matrix logarithm. We show that the quasideterminants of a matrix can be naturally formulated in terms of a path-sum, and present examples of the application of the path-sum method. We show that obtaining the inversion height of a matrix inverse and of quasideterminants is an NP-complete problem.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-07T15:04:34Z</published>
+    <arxiv:comment>23 pages, light version submitted to SIAM Journal on Matrix Analysis and Applications (SIMAX). A separate paper with the graph theoretic results is available at: arXiv:1202.5523v1. Results for matrices over division rings will be published separately as well</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>SIAM. J. Matrix Anal. &amp; Appl., 34(2), 445-469, 2013</arxiv:journal_ref>
+    <author>
+      <name>P. -L. Giscard</name>
+    </author>
+    <author>
+      <name>S. J. Thwaite</name>
+    </author>
+    <author>
+      <name>D. Jaksch</name>
+    </author>
+    <arxiv:doi>10.1137/120862880</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/120862880" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.01667v2</id>
+    <title>Computing the matrix fractional power with the double exponential formula</title>
+    <updated>2021-04-10T04:18:59Z</updated>
+    <link href="https://arxiv.org/abs/2012.01667v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.01667v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two quadrature-based algorithms for computing the matrix fractional power $A^α$ are presented in this paper. These algorithms are based on the double exponential (DE) formula, which is well-known for its effectiveness in computing improper integrals as well as in treating nearly arbitrary endpoint singularities. The DE formula transforms a given integral into another integral that is suited for the trapezoidal rule; in this process, the integral interval is transformed to the infinite interval. Therefore, it is necessary to truncate the infinite interval into an appropriate finite interval. In this paper, a truncation method, which is based on a truncation error analysis specialized to the computation of $A^α$, is proposed. Then, two algorithms are presented -- one computes $A^α$ with a fixed number of abscissas, and the other computes $A^α$ adaptively. Subsequently, the convergence rate of the DE formula for Hermitian positive definite matrices is analyzed. The convergence rate analysis shows that the DE formula converges faster than the Gaussian quadrature when $A$ is ill-conditioned and $α$ is a non-unit fraction. Numerical results show that our algorithms achieved the required accuracy and were faster than other algorithms in several situations.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-03T02:57:10Z</published>
+    <arxiv:comment>The title of the manuscript was changed. The former title is "Computing the matrix fractional power based on the double exponential formula"</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Electron. T. Numer. Ana., 54 (2021) 558-580</arxiv:journal_ref>
+    <author>
+      <name>Fuminori Tatsuoka</name>
+    </author>
+    <author>
+      <name>Tomohiro Sogabe</name>
+    </author>
+    <author>
+      <name>Yuto Miyatake</name>
+    </author>
+    <author>
+      <name>Tomoya Kemmochi</name>
+    </author>
+    <author>
+      <name>Shao-Liang Zhang</name>
+    </author>
+    <arxiv:doi>10.1553/etna_vol54s558</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1553/etna_vol54s558" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15740v1</id>
+    <title>Hankel low-rank matrix approximation for gravitational-wave data analysis</title>
+    <updated>2026-03-16T18:00:02Z</updated>
+    <link href="https://arxiv.org/abs/2603.15740v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15740v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Next-generation gravitational-wave (GW) detectors, such as the Laser Interferometer Space Antenna (LISA), will observe vast numbers of overlapping signals. Disentangling these signals from instrumental noise and from one another constitutes a significant data analysis challenge. We explore a denoising technique based on embedding time series into Hankel matrices: a superposition of $n$ (damped) sinusoids corresponds to a matrix of rank $2n$. Thus, the problem of signal extraction is reduced to a structured low-rank approximation problem. Using synthetic data tailored to GW applications, we benchmark three Hankel-based algorithms: ESPRIT, Cadzow iterations, and iteratively reweighted least squares (IRLS). Our test scenarios include isolated and multi-component monochromatic signals, the resolution of sources with closely spaced frequencies, and the recovery of black hole quasinormal modes (QNM). All three algorithms achieve near-optimal performance consistent with Fisher matrix bounds, evidenced by an inverse-square scaling of the mismatch with the signal-to-noise ratio. Furthermore, a proof-of-concept application to numerical relativity waveforms validates the ability of these algorithms to extract QNM frequencies from ringdown signals. Hankel low-rank approximation therefore offers a transparent, computationally efficient avenue for preprocessing GW time series.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-16T18:00:02Z</published>
+    <arxiv:comment>17 pages, 5 figures; for associated implementation, see https://github.com/CosmoVlad/lisa-hankel/tree/main/pipelines</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Nicholas Geissler</name>
+    </author>
+    <author>
+      <name>Vladimir Strokov</name>
+    </author>
+    <author>
+      <name>Christian Kümmerle</name>
+    </author>
+    <author>
+      <name>Sergey Kushnarev</name>
+    </author>
+    <author>
+      <name>Emanuele Berti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.08190v1</id>
+    <title>On Hilbert's sum type inequalities</title>
+    <updated>2020-02-18T04:08:00Z</updated>
+    <link href="https://arxiv.org/abs/2002.08190v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.08190v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main purpose of the present article is to give some new Hilbert's sum type inequalities, which in special cases yield the classical Hilbert's inequalities. Our results provide some new estimates to these types of inequalities.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-18T04:08:00Z</published>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Chang-Jian Zhao</name>
+    </author>
+    <author>
+      <name>Wing Sum Cheung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0604422v1</id>
+    <title>The Hankel Transform of the Sum of Consecutive Generalized Catalan Numbers</title>
+    <updated>2006-04-19T11:06:01Z</updated>
+    <link href="https://arxiv.org/abs/math/0604422v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0604422v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the properties of the Hankel transformation of a sequence whose elements are the sums of consecutive generalized Catalan numbers and find their values in the closed form.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-04-19T11:06:01Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Predrag Rajkovic</name>
+    </author>
+    <author>
+      <name>Marko D. Petkovic</name>
+    </author>
+    <author>
+      <name>Paul Barry</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.01194v3</id>
+    <title>On the number of weighted subsequences with zero-sum in a finite abelian group</title>
+    <updated>2021-01-29T03:05:48Z</updated>
+    <link href="https://arxiv.org/abs/1505.01194v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.01194v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Suppose $G$ is a finite abelian group and $S=g_{1}\cdots g_{l}$ is a sequence of elements in $G$. For any element $g$ of $G$ and $A\subseteq\mathbb{Z}\backslash\left\{ 0\right\} $, let $N_{A,g}(S)$ denote the number of subsequences $T=\prod_{i\in I}g_{i}$ of $S$ such that $\sum_{i\in I}a_{i}g_{i}=g$ , where $I\subseteq\left\{ 1,\ldots,l\right\}$ and $a_{i}\in A$. The purpose of this paper is to investigate the lower bound for $N_{A,0}(S)$. In particular, we prove that $N_{A,0}(S)\geq2^{|S|-D_{A}(G)+1}$, where $D_{A}(G)$ is the smallest positive integer $l$ such that every sequence over $G$ of length at least $l$ has a nonempty $A$-zero-sum subsequence. We also characterize the structures of the extremal sequences for which the equality holds for some groups.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-05T21:51:34Z</published>
+    <arxiv:comment>This paper was replaced by paper number 1811.03890 "On the number of fully weighted zero-sum subsequences"</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Abílio Lemos</name>
+    </author>
+    <author>
+      <name>Allan de Oliveira Moura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.15135v3</id>
+    <title>On the exponential rate of the condition number of Fourier submatrices and Vandermonde matrices</title>
+    <updated>2026-04-29T01:56:00Z</updated>
+    <link href="https://arxiv.org/abs/2604.15135v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.15135v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The discrete Fourier transform matrix is one of the most important matrices in linear algebra, and submatrices of it arise in a variety of applications. Though the discrete Fourier transform matrix is unitary, its submatrices can be exponentially ill-conditioned, an obstacle to accurate computation. This work resolves the exact rate of the exponential ill-conditioning for square submatrices with contiguous rows and columns. As a consequence, we obtain a tight upper bound of $2 G/π$ on the exponential rate for all submatrices with contiguous columns, or, equivalently, all Vandermonde submatrices with distinct support points, where $G$ is Catalan's constant. These results follow from a more general analysis of Vandermonde and Vandermonde-like matrices for which exact estimates for exponential ill-conditioning are developed in terms of logarithmic potentials.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-16T15:14:59Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Rikhav Shah</name>
+    </author>
+    <author>
+      <name>John Urschel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.0852v1</id>
+    <title>Computing the smallest eigenvalue of large ill-conditioned Hankel matrices</title>
+    <updated>2009-02-05T06:40:37Z</updated>
+    <link href="https://arxiv.org/abs/0902.0852v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.0852v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper presents a parallel algorithm for finding the smallest eigenvalue of a particular form of ill-conditioned Hankel matrix, which requires the use of extremely high precision arithmetic. Surprisingly, we find that commonly-used approaches that are designed for high efficiency are actually less efficient than a direct approach under these conditions. We then develop a parallel implementation of the algorithm that takes into account the unusually high cost of individual arithmetic operations. Our approach combines message passing and shared memory, achieving near-perfect scalability and high tolerance for network latency. We are thus able to find solutions for much larger matrices than has been previously possible, with the potential for extending this work to systems with greater levels of parallelism.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-05T06:40:37Z</published>
+    <arxiv:comment>13 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Niall Emmart</name>
+    </author>
+    <author>
+      <name>Charles C. Weems</name>
+    </author>
+    <author>
+      <name>Yang Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.5271v6</id>
+    <title>Supercharacters, exponential sums, and the uncertainty principle</title>
+    <updated>2014-06-06T00:44:46Z</updated>
+    <link href="https://arxiv.org/abs/1208.5271v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.5271v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The theory of supercharacters, which generalizes classical character theory, was recently introduced by P. Diaconis and I.M. Isaacs, building upon earlier work of C. Andre. We study supercharacter theories on $(Z/nZ)^d$ induced by the actions of certain matrix groups, demonstrating that a variety of exponential sums of interest in number theory (e.g., Gauss, Ramanujan, Heilbronn, and Kloosterman sums) arise in this manner. We develop a generalization of the discrete Fourier transform, in which supercharacters play the role of the Fourier exponential basis. We provide a corresponding uncertainty principle and compute the associated constants in several cases.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-27T00:32:39Z</published>
+    <arxiv:comment>20 pages, 6 figures. To appear in J. Number Theory</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>J. Number Theory 144 (2014), pages 151--175</arxiv:journal_ref>
+    <author>
+      <name>J. L. Brumbaugh</name>
+    </author>
+    <author>
+      <name>Madeleine Bulkow</name>
+    </author>
+    <author>
+      <name>Patrick S. Fleming</name>
+    </author>
+    <author>
+      <name>Luis Alberto Garcia</name>
+    </author>
+    <author>
+      <name>Stephan Ramon Garcia</name>
+    </author>
+    <author>
+      <name>Gizem Karaali</name>
+    </author>
+    <author>
+      <name>Matt Michal</name>
+    </author>
+    <author>
+      <name>Hong Suh</name>
+    </author>
+    <author>
+      <name>Andrew P. Turner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4567v1</id>
+    <title>On degenerate Hamburger moment problem and extensions of positive semidefinite Hankel block matrices</title>
+    <updated>2008-12-24T19:22:41Z</updated>
+    <link href="https://arxiv.org/abs/0812.4567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we consider two related objects: singular positive semidefinite Hankel block--matrices and associated degenerate truncated matrix Hamburger moment problems. The description of all solutions of a degenerate matrix Hamburger moment problem is given in terms of a linear fractional transformation. The case of interest is the Hamburger moment problem whose Hankel block--matrix admits a positive semidefinite Hankel extension.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-24T19:22:41Z</published>
+    <arxiv:comment>The corrected version of the paper "On degenerate Hamburger moment problem and extensions of nonnegative Hankel block matrices", Integral Equations Operator Theory 25 (1996), no. 3, 253--276</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Bolotnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.11097v1</id>
+    <title>Quantifying the ill-conditioning of analytic continuation</title>
+    <updated>2019-08-29T08:30:31Z</updated>
+    <link href="https://arxiv.org/abs/1908.11097v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.11097v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Analytic continuation is ill-posed, but becomes merely ill-conditioned (although with an infinite condition number) if it is known that the function in question is bounded in a given region of the complex plane. In an annulus, the Hadamard three-circles theorem implies that the ill-conditioning is not too severe, and we show how this explains the effectiveness of Chebfun and related numerical methods in evaluating analytic functions off the interval of definition. By contrast, we show that analytic continuation is far more ill-conditioned in a strip or a channel, with exponential loss of digits of accuracy at the rate $\exp(-πx/2)$ as one moves along. The classical Weierstrass chain-of-disks method loses digits at the faster rate $\exp(-e\kern .3pt x)$.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-29T08:30:31Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Lloyd N. Trefethen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.00750v1</id>
+    <title>Vandermonde Factorization of Hankel Matrix for Complex Exponential Signal Recovery -- Application in Fast NMR Spectroscopy</title>
+    <updated>2018-09-04T00:24:14Z</updated>
+    <link href="https://arxiv.org/abs/1809.00750v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.00750v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many signals are modeled as a superposition of exponential functions in spectroscopy of chemistry, biology and medical imaging. This paper studies the problem of recovering exponential signals from a random subset of samples. We exploit the Vandermonde structure of the Hankel matrix formed by the exponential signal and formulate signal recovery as Hankel matrix completion with Vandermonde factorization (HVaF). A numerical algorithm is developed to solve the proposed model and its sequence convergence is analyzed theoretically. Experiments on synthetic data demonstrate that HVaF succeeds over a wider regime than the state-of-the-art nuclear-normminimization-based Hankel matrix completion method, while has a less restriction on frequency separation than the state-of-the-art atomic norm minimization and fast iterative hard thresholding methods. The effectiveness of HVaF is further validated on biological magnetic resonance spectroscopy data.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-04T00:24:14Z</published>
+    <arxiv:comment>14 pages, 9 figures, 3 tables, 63 references</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Jiaxi Ying</name>
+    </author>
+    <author>
+      <name>Jian-Feng Cai</name>
+    </author>
+    <author>
+      <name>Di Guo</name>
+    </author>
+    <author>
+      <name>Gongguo Tang</name>
+    </author>
+    <author>
+      <name>Zhong Chen</name>
+    </author>
+    <author>
+      <name>Xiaobo Qu</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2018.2869122</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2018.2869122" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.1533v1</id>
+    <title>Moment estimates for exponential sums over k-free numbers</title>
+    <updated>2014-08-07T10:33:29Z</updated>
+    <link href="https://arxiv.org/abs/1408.1533v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1408.1533v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the size of L^p-integrals for exponential sums over k-free numbers and prove essentially tight bounds.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-08-07T10:33:29Z</published>
+    <arxiv:comment>Preprint, 14 pages, 1 figure. http://www.worldscientific.com/worldscinet/ijnt</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Int. J. Number Theory, 09, 607 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Eugen Keil</name>
+    </author>
+    <arxiv:doi>10.1142/S1793042112501515</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S1793042112501515" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.01957v2</id>
+    <title>An analysis and solution of ill-conditioning in physics-informed neural networks</title>
+    <updated>2024-05-25T01:58:21Z</updated>
+    <link href="https://arxiv.org/abs/2405.01957v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.01957v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physics-informed neural networks (PINNs) have recently emerged as a novel and popular approach for solving forward and inverse problems involving partial differential equations (PDEs). However, achieving stable training and obtaining correct results remain a challenge in many cases, often attributed to the ill-conditioning of PINNs. Nonetheless, further analysis is still lacking, severely limiting the progress and applications of PINNs in complex engineering problems. Drawing inspiration from the ill-conditioning analysis in traditional numerical methods, we establish a connection between the ill-conditioning of PINNs and the ill-conditioning of the Jacobian matrix of the PDE system. Specifically, for any given PDE system, we construct its controlled system. This controlled system allows for adjustment of the condition number of the Jacobian matrix while retaining the same solution as the original system. Our numerical findings suggest that the ill-conditioning observed in PINNs predominantly stems from the Jacobian matrix. As the condition number of the Jacobian matrix decreases, PINNs exhibit faster convergence rates and higher accuracy. Building upon this understanding and the natural extension of controlled systems, we present a general approach to mitigate the ill-conditioning of PINNs, leading to successful simulations of the three-dimensional flow around the M6 wing at a Reynolds number of 5,000. To the best of our knowledge, this is the first time that PINNs have been successful in simulating such complex systems, offering a promising new technique for addressing industrial complexity problems. Our findings also offer valuable insights guiding the future development of PINNs.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-03T09:33:18Z</published>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>Wenbo Cao</name>
+    </author>
+    <author>
+      <name>Weiwei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.00886v4</id>
+    <title>Lattices with exponentially large kissing numbers</title>
+    <updated>2024-09-30T19:22:58Z</updated>
+    <link href="https://arxiv.org/abs/1802.00886v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.00886v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a sequence of lattices $\{L_{n_i}\subset \mathbb R^{n_i}\}$ for $n_i\longrightarrow\infty$, with exponentially large kissing numbers, namely, $\log_2τ(L_{n_i})&gt; 0.0338\cdot n_i -o(n_i)$. We also show that the maximum lattice kissing number $ τ^l_{n}$ in $n$ dimensions verifies $\log_2τ^l_{n}&gt; 0.0219\cdot n -o(n)$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-03T01:11:06Z</published>
+    <arxiv:comment>Unfortunately, the main result of the paper should be considered as not proven. Namely, the constructions D and E applied to the codes with many light vectors give some lattices, but there is no proof that their kissing numbers will be exponential. The initial impression that those lattices retain all 0-1 short vectors from the least code $C_0$ in the tower, is definitely false</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Moscow J. Comb. Number Th. 8 (2019) 163-177</arxiv:journal_ref>
+    <author>
+      <name>Serge Vlăduţ</name>
+    </author>
+    <arxiv:doi>10.2140/moscow.2019.8.163</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/moscow.2019.8.163" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0304164v3</id>
+    <title>Teleportation-based number state manipulation with number sum measurement</title>
+    <updated>2003-07-31T08:41:24Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0304164v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0304164v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We examine various manipulations of photon number states which can be implemented by teleportation technique with number sum measurement. The preparations of the Einstein-Podolsky-Rosen resources as well as the number sum measurement resulting in projection to certain Bell state may be done conditionally with linear optical elements, i.e., beam splitters, phase shifters and zero-one-photon detectors. Squeezed vacuum states are used as primary entanglement resource, while single-photon sources are not required.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-04-25T09:50:52Z</published>
+    <arxiv:comment>9 pages, 4 figures, Misprints are corrected. 3 figures for number sum measurement are added. Discussion on manipulations are expanded. Calculations for success probabilities are added. Fig.4 is added</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Akira Kitagawa</name>
+    </author>
+    <author>
+      <name>Katsuji Yamamoto</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.68.042324</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.68.042324" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.31647v2</id>
+    <title>Order-Moment Transport and Hankel Determinants in Special-Function Inequalities</title>
+    <updated>2026-07-01T18:46:35Z</updated>
+    <link href="https://arxiv.org/abs/2606.31647v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.31647v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scalar inequalities in an order parameter often arise as the $2\times2$ shadow of a stronger Hankel determinant statement. We record a moment-representation criterion: positive exponential and Mellin order representations, together with gamma-normalized completely monotone averages, generate totally nonnegative Hankel kernels, with strictness controlled by the support of the representing measure. The criterion packages the classical total-positivity mechanism as a recognition calculus for special-function inequalities, turning the order parameter into a moment exponent after the correct normalization.
+  The applications include three named determinant lifts. First, we prove the positive Jackson $q$-gamma Hankel conjecture of Karp--Vishnyakova--Zhang: for $0&lt;q&lt;1$, the kernel $(x,y)\mapstoΓ_q(x+y)$ is $\mathrm{STP}_\infty$. This is an atomic Mellin-moment instance of the general criterion; the reciprocal sign-regularity problem for $1/Γ_q$ is separate and is not addressed here. Second, we answer Yang's continuous half-gamma Mills-ratio log-convexity question and strengthen it to strict total positivity, hence to all higher Hankel Turan determinants. Third, we treat Tricomi rays and the one-dimensional Coulomb regularization as all-minor Hankel determinant hierarchies. For the Coulomb regularization, the $2\times2$ minor gives the scalar log-convexity question recorded by Baricz--Pogany, and the full theorem supplies the corresponding all-minor strengthening.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-30T13:29:14Z</published>
+    <arxiv:comment>v016 adds the Jackson q-gamma application proving the positive Hankel-kernel conjecture of Karp--Vishnyakova--Zhang; the earlier JMAA-submitted v014 did not contain this section</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Domingos S. P. Salazar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.0063v2</id>
+    <title>A remark on the reproducing kernel thesis for Hankel operators</title>
+    <updated>2012-01-11T23:24:04Z</updated>
+    <link href="https://arxiv.org/abs/1201.0063v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.0063v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a simple proof of the so called reproducing kernel thesis for Hankel operators</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-30T05:05:39Z</published>
+    <arxiv:comment>8 pages. The proof now covers the case of vectorial Hankel operators. Added the discussion about the connection with the generalized embedding theorems and with the Carleson embedding theorem</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergei Treil</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.11814v4</id>
+    <title>On the sum of a prime and a square-free number co-prime to any integer with at most two prime factors</title>
+    <updated>2026-03-30T12:29:54Z</updated>
+    <link href="https://arxiv.org/abs/2506.11814v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.11814v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Every natural number greater than $2$ can be written as the sum of a prime and a square-free number, and recent work has imposed additional divisibility conditions on the square-free number. We overcome limitations in these works to prove new results on square-free numbers co-prime to any integer with up to two prime factors, which make the expected asymptotic results explicit.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-13T14:18:40Z</published>
+    <arxiv:comment>An earlier version of this work contained material in two directions, so a decision was made to split the old paper into two focussed papers that are more reader-friendly. This is one such paper, the other is titled "On the sum of a prime and a number that is not square-free" and will be released separately. Additional info: 14 pages, feedback warmly welcomed as usual</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Ethan S. Lee</name>
+    </author>
+    <author>
+      <name>Rowan O'Clarey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.00103v2</id>
+    <title>Hankel Continued fractions and Hankel determinants of the Euler numbers</title>
+    <updated>2019-10-09T07:05:36Z</updated>
+    <link href="https://arxiv.org/abs/1906.00103v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.00103v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Euler numbers occur in the Taylor expansion of $\tan(x)+\sec(x)$. Since Stieltjes, continued fractions and Hankel determinants of the even Euler numbers, on the one hand, of the odd Euler numbers, on the other hand, have been widely studied separately. However, no Hankel determinants of the (mixed) Euler numbers have been obtained and explicitly calculated. The reason for that is that some Hankel determinants of the Euler numbers are null. This implies that the Jacobi continued fraction of the Euler numbers does not exist. In the present paper, this obstacle is bypassed by using the Hankel continued fraction, instead of the $J$-fraction. Consequently, an explicit formula for the Hankel determinants of the Euler numbers is being derived, as well as a full list of Hankel continued fractions and Hankel determinants involving Euler numbers. Finally, a new $q$-analog of the Euler numbers $E_n(q)$ based on our continued fraction is proposed. We obtain an explicit formula for $E_n(-1)$ and prove a conjecture by R. J. Mathar on these numbers.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-31T22:14:41Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Guo-Niu Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.04046v1</id>
+    <title>Exponential Condition Number of Solutions of the Discrete Lyapunov Equation</title>
+    <updated>2018-03-11T21:29:54Z</updated>
+    <link href="https://arxiv.org/abs/1803.04046v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.04046v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The condition number of the $n\ x\ n$ matrix $P$ is examined, where $P$ solves %the discete Lyapunov equation, $P - A P A^* = BB^*$, and $B$ is a $n\ x\ d$ matrix. Lower bounds on the condition number, $κ$, of $P$ are given when $A$ is normal, a single Jordan block or in Frobenius form. The bounds show that the ill-conditioning of $P$ grows as $\exp(n/d) &gt;&gt; 1$. These bounds are related to the condition number of the transformation that takes $A$ to input normal form. A simulation shows that $P$ is typically ill-conditioned in the case of $n&gt;&gt;1$ and $d=1$. When $A_{ij}$ has an independent Gaussian distribution (subject to restrictions), we observe that $κ(P)^{1/n} ~= 3.3$. The effect of auto-correlated forcing on the conditioning on state space systems is examined</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-11T21:29:54Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <arxiv:journal_ref>IEEE Transactions on Signal Processing, Volume: 52, Issue: 5, May 2004, pgs. 1257 - 1265</arxiv:journal_ref>
+    <author>
+      <name>Andrew Mullhaupt</name>
+    </author>
+    <author>
+      <name>Kurt Riedel</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2004.826177</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2004.826177" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.07935v3</id>
+    <title>On the Frobenius fields of abelian varieties over number fields</title>
+    <updated>2025-03-10T22:28:51Z</updated>
+    <link href="https://arxiv.org/abs/2402.07935v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.07935v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $A$ be a non-CM simple abelian variety over a number field $K$. For a place $v$ of $K$ such that $A$ has good reduction at $v$, let $F(A,v)$ denote the Frobenius field generated by the corresponding Frobenius eigenvalues. Assuming $A$ has connected monodromy groups, we show that the set of places $v$ such that $F(A,v)$ is isomorphic to a fixed number field has upper Dirichlet density zero. Assuming the GRH, we give a power saving upper bound for the number of such places.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-06T21:16:19Z</published>
+    <arxiv:comment>To appear in Algebra and Number Theory</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Alg. Number Th. 20 (2026) 577-601</arxiv:journal_ref>
+    <author>
+      <name>Ashay A. Burungale</name>
+    </author>
+    <author>
+      <name>Haruzo Hida</name>
+    </author>
+    <author>
+      <name>Shilin Lai</name>
+    </author>
+    <arxiv:doi>10.2140/ant.2026.20.577</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/ant.2026.20.577" title="doi"/>
+  </entry>
+</feed>

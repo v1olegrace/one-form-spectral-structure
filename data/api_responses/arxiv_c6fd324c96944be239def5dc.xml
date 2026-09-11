@@ -1,0 +1,749 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JQaO88XM2z1aEWvuYso1aK+d3rw</id>
+  <title>arXiv Query: search_query=all:rigorous OR all:bounds OR all:on OR all:hadron OR all:masses OR all:from OR all:correlator OR all:moments&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:45:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:rigorous+OR+(all:bounds+OR+(all:on+OR+(all:hadron+OR+(all:masses+OR+(all:from+OR+(all:correlator+OR+all:moments))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1775741</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1402.0618v1</id>
+    <title>Measurement of e+e- to hadrons cross sections at BABAR, and implication for the muon g-2</title>
+    <updated>2014-02-04T04:44:13Z</updated>
+    <link href="https://arxiv.org/abs/1402.0618v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.0618v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The BaBar Collaboration has an intensive program of studying hadronic cross sections at low-energy $e^+e^-$ collisions, accessible via initial-state radiation. Our measurements allow significant improvements in the precision of the predicted value of the muon anomalous magnetic moment, that shed light on the current $\approx$ 3.5 sigma difference between the predicted and the experimental values. We have published results on a number of processes with two to six hadrons in the final state. We report here the results of recent studies with the final states that constitute the main contribution to the hadronic cross section below 3 GeV, as $e^+e^- \rightarrow π^+π^-$, $K^+K^-$, $K_S K_L$ and $e^+e^- \rightarrow 4$ hadrons.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-04T04:44:13Z</published>
+    <arxiv:comment>Presented at Hadron 2013, The XV International Conference on Hadron Spectroscopy-Hadron 2013, 4-8 November 2013, Nara, Japan</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>Pos (Hadron 2013) 126</arxiv:journal_ref>
+    <author>
+      <name>Denis Bernard</name>
+      <arxiv:affiliation>on behalf of the BaBar Collaboration</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.3059v1</id>
+    <title>Lattice Studies for hadron spectroscopy and interactions</title>
+    <updated>2014-02-13T08:25:03Z</updated>
+    <link href="https://arxiv.org/abs/1402.3059v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.3059v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent progresses of lattice QCD studies for hadron spectroscopy and interactions are briefly reviewed. Some emphasis are given on a new proposal for a method, which enable us to calculate potentials between hadrons. As an example of the method, the extraction of nuclear potential in lattice QCD is discussed in detail.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-13T08:25:03Z</published>
+    <arxiv:comment>7 pages, 6 figures (10 pdf files), a plenary talk given at "XV International Conference on Hadron Spectroscopy-Hadron 2013", 4-8 November 2013, Nara, Japan</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS(Hadron 2013)020</arxiv:journal_ref>
+    <author>
+      <name>Sinya Aoki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.6579v1</id>
+    <title>Excited light and strange hadrons from the lattice with two Chirally Improved quarks</title>
+    <updated>2013-11-26T07:58:03Z</updated>
+    <link href="https://arxiv.org/abs/1311.6579v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.6579v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Results for excited light and strange hadrons from the lattice with two flavors of Chirally Improved sea quarks are presented. We perform simulations at several values of the pion mass ranging from 250 to 600 MeV and extrapolate to the physical pion mass. The variational method is applied to extract excited energy levels but also to discuss the content of the states. Among others, we explore the flavor singlet/octet content of Lambda states. In general, our results agree well with experiment, in particular we confirm the Lambda(1405) and its dominant flavor singlet structure.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-26T07:58:03Z</published>
+    <arxiv:comment>Contribution to the XV International Conference on Hadron Spectroscopy "Hadron 2013", 4-8 November 2013, Nara, Japan</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>PoS Hadron 2013 (2013) 118</arxiv:journal_ref>
+    <author>
+      <name>Georg P. Engel</name>
+    </author>
+    <author>
+      <name>C. B. Lang</name>
+    </author>
+    <author>
+      <name>Daniel Mohler</name>
+    </author>
+    <author>
+      <name>Andreas Schäfer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/0611002v1</id>
+    <title>Baryon-Strangeness Correlations from Hadron/String- and Quark-Dynamics</title>
+    <updated>2006-11-01T17:54:59Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/0611002v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/0611002v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Baryon-strangeness correlations ($C_{BS}$) are studied with a hadron/string transport approach (UrQMD) and a dynamical quark recombination model (quark molecular dynamics, qMD) for various energies from $E_{lab}=4A$ GeV to $\sqrt{s_{NN}}=200$ GeV. As expected, we find that the hadron/string dynamics shows correlations similar to a simple hadron gas. In case of the quark molecular dynamics, we find that initially the $C_{BS}$ correlation is that of a weakly interacting QGP but changes in the process of hadronization also to the value for a hadron gas. Therefore, we conclude that the hadronization process itself makes the initial baryon strangeness correlation unobservable. To make an experimental study of this observable more feasible, we also investigate how a restriction to only charged kaons and $Λ$'s (instead of all baryons and all strange particles) influences the theoretical result on $C_{BS}$. We find that a good approximation of the full result can be obtained in this limit in the present simulation.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-01T17:54:59Z</published>
+    <arxiv:comment>Proceedings of the Conference on Quark Confinement and the Hadron Spectrum</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>AIPConf.Proc.892:372-376,2007</arxiv:journal_ref>
+    <author>
+      <name>Stephane Haussler</name>
+    </author>
+    <author>
+      <name>Marcus Bleicher</name>
+    </author>
+    <arxiv:doi>10.1063/1.2714421</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2714421" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.04788v1</id>
+    <title>Insight into Emergence of Hadron Mass from $\boldmath N^*$ Electroexcitation Amplitudes</title>
+    <updated>2024-01-09T19:26:13Z</updated>
+    <link href="https://arxiv.org/abs/2401.04788v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.04788v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emergence of hadron mass represents one of the most challenging and still open problems in contemporary hadron physics. The results on the nucleon resonance electroexcitation amplitudes available from the CLAS data on $πN$ and $π^+π^-p$ electroproduction analyzed within the continuum Schwinger method open up a new avenue for gaining insight into the strong interaction dynamics that are responsible for the generation of the dominant part of hadron mass. Future prospects of these studies in experiments of the 12-GeV era with CLAS12 and after a potential increase of the CEBAF energy up to 22 GeV will offer a unique opportunity to explore the full range of distances where the dominant part of hadron mass and $N^*$ structure emerge from QCD.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-09T19:26:13Z</published>
+    <arxiv:comment>5 pages, 2 figures, The 20th International Conference on Hadron Spectroscopy and Structure (HADRON 2023) Genova, Italy, June 5th to 9th 2023</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>V. I. Mokeev</name>
+    </author>
+    <author>
+      <name>D. S. Carman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.13882v2</id>
+    <title>Bounds for moments of symmetric square $L$-functions</title>
+    <updated>2022-10-19T07:08:56Z</updated>
+    <link href="https://arxiv.org/abs/2209.13882v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.13882v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the $2k$-th moment at the central point of the family of symmetric square $L$-functions attached to holomorphic Hecke cusp forms of level one, weight $κ$. We establish sharp lower bounds for all real $k \geq 1/2$ unconditionally. Assuming the truth of the generalized Riemann hypothesis, we also obtain sharp lower bounds for all real $0 \leq k &lt; 1/2$ and sharp upper bounds for all real $k \geq 0$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-28T07:29:14Z</published>
+    <arxiv:comment>The non-vanishing result stated in the first version has been obtained with an explicit proportion under GRH by H. Iwaniec, W. Luo and P. Sarnak, which escaped my attention. I have therefore changed the title of the paper, focusing on bounds for the moments of symmetric square $L$-functions</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Peng Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0502037v1</id>
+    <title>QCD evolution of hadron and jet multiplicity moments</title>
+    <updated>2005-02-03T14:24:08Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0502037v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0502037v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe recent applications of the MLLA evolution equations to the calculation of mean multiplicities in quark and gluon jets and the higher moments of hadron and sub-jet multiplicity distributions in $e^+e^-$-annihilation as function of c.m.s. energy $Q$ and resolution parameter $y_{cut}$. The transition from jets to hadrons with increasing jet resolution is considered.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-02-03T14:24:08Z</published>
+    <arxiv:comment>Presented at workshop ``Hadron Structure and QCD'' (HSQCD2004) St. Petersburg, Repino, Russia, May 2004. 12 pages, 4 Figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Wolfgang Ochs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3008v1</id>
+    <title>On the perturbative expansion of tau hadronic spectral function moments</title>
+    <updated>2013-01-14T15:12:27Z</updated>
+    <link href="https://arxiv.org/abs/1301.3008v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.3008v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the determination of alpha_s from tau decays several different moments of the hadronic spectral functions have been used. In a recent work, we performed an analysis of their perturbative behaviour under two different assumptions for the higher-order coefficients of the Adler function. We showed that the various moments can be divided in a small number of classes. We concluded that some of the moments commonly employed in alpha_s extractions should be avoided due to their bad perturbative behaviour. Furthermore, for the moments that have a good perturbative behaviour, and under reasonable assumptions for the higher-order behaviour of the Adler function, fixed-order perturbation theory (FOPT) provides the superior framework for the renormalization group improvement. Here we discuss an extension of this analysis where we consider the perturbative series for values of the hadronic invariant mass squared s_0 &lt; m_τ^2. Our conclusions are not altered within a reasonable s_0 window.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-14T15:12:27Z</published>
+    <arxiv:comment>8 pages, 4 figures. Proceedings of the Xth Quark Confinement and the Hadron Spectrum, 8-12 October 2012, Munich, Germany</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Diogo Boito</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.4555v1</id>
+    <title>Hadron Mass Effects in Power Corrections to Event Shapes</title>
+    <updated>2013-01-19T10:27:45Z</updated>
+    <link href="https://arxiv.org/abs/1301.4555v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.4555v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the effect of hadron masses on the leading power correction of dijet event-shape distributions. We define the transverse velocity operator, that describes the effects of hadron masses. It depends on the "transverse velocity" r, which is different from one only for non-vanishing hadron masses. We find that hadron-mass effects in general break universality. However we provide a simple method to identify universality classes of event shapes with a common power correction. We also compute the anomalous dimension of the power correction and the structure of the corresponding Wilson coefficient, finding a nontrivial result.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-19T10:27:45Z</published>
+    <arxiv:comment>8 pages, 3 figures, 2 tables, to appear in the proceedings of Xth Quark Confinement and the Hadron Spectrum</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Vicent Mateu</name>
+    </author>
+    <author>
+      <name>Iain W. Stewart</name>
+    </author>
+    <author>
+      <name>Jesse Thaler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.07040v3</id>
+    <title>Masses and magnetic moments of hadrons with one and two open heavy quarks: heavy baryons and tetraquarks</title>
+    <updated>2021-11-04T03:29:54Z</updated>
+    <link href="https://arxiv.org/abs/2109.07040v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.07040v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we compute masses and magnetic moments of the heavy baryons and tetraquarks with one and two open heavy flavors in a unified framework of MIT bag model. Using the parameters of MIT bag model, we confirm that an extra binding energy, which is supposed to exist between heavy quarks ($c$ and $b$) and between heavy and strange quarks in literatures, is required to reconcile light hadrons with heavy hadrons. Numerical calculations are made for all light mesons, heavy hadrons with one and two open heavy flavors, predicting the masses of doubly charmed baryons to be $ M(Ξ_{cc})=3.604$ GeV, $ M(Ξ_{cc}^{\ast })=3.714$ GeV, and that of the strange isosinglet tetraquark $ud\bar{s}\bar{c}$ with $J^{P}=0^{+}$ to be $ M\left( ud\bar{s}\bar{c},0^{+}\right) =2.934$ GeV. The state mixing due to chromomagnetic interaction is shown to be sizable for the strange scalar tetraquark $nn\bar{s}\bar{c}$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-15T01:19:57Z</published>
+    <arxiv:comment>28 pages, 2 figures,15 Tables and 3 appendices; In production in Phys. Rev. D. All Table data for magnetic moments transformed to that in nuclear magneton, six new references added and one of them cited in Table for comparison</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D104, 114011 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Wen-Xuan Zhang</name>
+    </author>
+    <author>
+      <name>Hao Xu</name>
+    </author>
+    <author>
+      <name>Duojie Jia</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.104.114011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.104.114011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0111053v1</id>
+    <title>Hadron Mass Extraction from Lattice QCD</title>
+    <updated>2001-11-27T10:54:18Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0111053v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0111053v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The extraction of quantities from lattice QCD calculations at realistic quark masses is of considerable importance. Whilst physical quark masses are some way off, the recent advances in the calculation of hadron masses within full QCD now invite improved extrapolation methods. We show that, provided the correct chiral behaviour of QCD is respected in the extrapolation to realistic quark masses, one can indeed obtain a fairly reliable determination of masses, the sigma commutator and the J parameter. We summarise these findings by presenting the nonanalytic behaviour of nucleon and rho masses in the standard Edinburgh plot.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-11-27T10:54:18Z</published>
+    <arxiv:comment>Talk presented by S. V. Wright at the Workshop on Lattice Hadron Physics (LHP2001), Cairns, Australia, 9-18 July 2001, 8 pages, requires espcrc2.sty (included)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Nucl.Phys.Proc.Suppl.109A:50-54,2002</arxiv:journal_ref>
+    <author>
+      <name>S. V. Wright</name>
+    </author>
+    <author>
+      <name>D. B. Leinweber</name>
+    </author>
+    <author>
+      <name>A. W. Thomas</name>
+    </author>
+    <author>
+      <name>K. Tsushima</name>
+    </author>
+    <arxiv:doi>10.1016/S0920-5632(02)01390-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0920-5632(02)01390-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.03064v4</id>
+    <title>Momentum-projected hadron entanglement from lattice-QCD replica correlators</title>
+    <updated>2026-06-04T16:17:26Z</updated>
+    <link href="https://arxiv.org/abs/2603.03064v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.03064v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define a finite-volume lattice-QCD density-matrix observable for the vacuum-subtracted spatial R'enyi response of a source-sink-prepared, momentum-projected hadron. At fixed regulator, integer R'enyi index $n&gt;1$, spatial region $B_R$, spin projection, gauge-theory cut prescription $\mathcal{C}$, and after the usual double-sided source-sink projection, the central result is an exact source-sink replica identity: the response is obtained from the logarithm of a replicated hadron correlator on the cut geometry normalized by the corresponding power of the ordinary one-sheet correlator. This identity makes the natural first numerical target the two-sheet $n=2$ measurement of the replicated source-sink correlator ratio, together with a finite-volume test of whether the response scales as $L^{-3}$ at fixed physical $R$. The exponent is a lattice output to be tested, not an input theorem for the nonlinear R'enyi functional. The construction is prescription-defined in gauge theory, and full QCD requires the replicated sea-quark determinant and valence contractions on the replicated cut graph; quenched and partially quenched calculations are therefore pilots. Large-$N_c$ two-dimensional QCD provides an interacting benchmark in which the matched one-meson response is suppressed by the inverse spatial volume, with the short-interval coefficient controlled by light-front PDF moments.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-03T15:03:21Z</published>
+    <arxiv:comment>v4: 14 pages, 2 figures. Title changed. Manuscript reorganized around the finite-volume lattice-QCD replica-correlator observable for momentum-projected hadrons. The previous soft-wall/GFF analysis has been replaced by a large-(N_c) two-dimensional QCD benchmark for the inverse-volume scaling. Soft-wall and GFF connections are deferred to separate work</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Kiminad A. Mamo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.02357v2</id>
+    <title>Write-ups for workshop on the project for the hadron experimental facility of J-PARC, Partial collection of LOIs at the extended hadron hall and the related topics</title>
+    <updated>2019-06-16T22:57:37Z</updated>
+    <link href="https://arxiv.org/abs/1906.02357v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.02357v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This write-up document is a summary of International workshop on the project for the extended hadron experimental facility which was held from March 26 to 28, 2018 at KEK Tokai Campus. This document is a collection of Letter Of Intents (LOIs) related to the proposed beam lines in the extended hadron experimental facility at J-PARC.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-05T23:32:01Z</published>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>Hadron Hall Users' Association</name>
+      <arxiv:affiliation>Helmholtz Institute Mainz, Johannes Gutenberg University</arxiv:affiliation>
+      <arxiv:affiliation>Institute for Nuclear Physics, Johannes Gutenberg University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. Achenbach</name>
+      <arxiv:affiliation>Helmholtz Institute Mainz, Johannes Gutenberg University</arxiv:affiliation>
+      <arxiv:affiliation>Institute for Nuclear Physics, Johannes Gutenberg University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. K. Ahn</name>
+      <arxiv:affiliation>Department of Physics, Korea University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Ajimura</name>
+      <arxiv:affiliation>Research Center for Nuclear Physics</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Akaishi</name>
+      <arxiv:affiliation>Department of Physics, Osaka University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Akaishi</name>
+      <arxiv:affiliation>RIKEN</arxiv:affiliation>
+      <arxiv:affiliation>Institute of Particle and Nuclear Study</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. Ikegami Andersson</name>
+      <arxiv:affiliation>Department of Physics and Astronomy, Uppsala University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Aoki</name>
+      <arxiv:affiliation>Institute of Particle and Nuclear Study</arxiv:affiliation>
+      <arxiv:affiliation>J-PARC Center</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. Asano</name>
+      <arxiv:affiliation>RIKEN</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Bleser</name>
+      <arxiv:affiliation>Helmholtz Institute Mainz, Johannes Gutenberg University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Botta</name>
+      <arxiv:affiliation>Istituto Nazionale di Fisica Nucleare</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, Torino University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Bölting</name>
+      <arxiv:affiliation>Helmholtz Institute Mainz, Johannes Gutenberg University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>WC. Chang</name>
+      <arxiv:affiliation>Institute of Physics, Academia Sinica</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Feliciello</name>
+      <arxiv:affiliation>Istituto Nazionale di Fisica Nucleare</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. Fujioka</name>
+      <arxiv:affiliation>Department of Physics, Tokyo Institute of Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Hassanvand</name>
+      <arxiv:affiliation>RIKEN</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, Isfahan University of Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Honda</name>
+      <arxiv:affiliation>Physics Department, Tohoku University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Ichikawa</name>
+      <arxiv:affiliation>Advanced Science Research Center</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Ishikawa</name>
+      <arxiv:affiliation>Stefan Meyer Institute, Austrian Academy of Sciences</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Itahashi</name>
+      <arxiv:affiliation>RIKEN</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Komatsu</name>
+      <arxiv:affiliation>Institute of Particle and Nuclear Study</arxiv:affiliation>
+      <arxiv:affiliation>J-PARC Center</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Miwa</name>
+      <arxiv:affiliation>Physics Department, Tohoku University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Miyachi</name>
+      <arxiv:affiliation>Department of Physics, Yamagata University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Morino</name>
+      <arxiv:affiliation>Institute of Particle and Nuclear Study</arxiv:affiliation>
+      <arxiv:affiliation>J-PARC Center</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Nakano</name>
+      <arxiv:affiliation>Research Center for Nuclear Physics</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. N. Nakamura</name>
+      <arxiv:affiliation>Physics Department, Tohoku University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Naruki</name>
+      <arxiv:affiliation>Department of Physics, Kyoto University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. Noumi</name>
+      <arxiv:affiliation>Research Center for Nuclear Physics</arxiv:affiliation>
+      <arxiv:affiliation>Institute of Particle and Nuclear Study</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. Ohnishi</name>
+      <arxiv:affiliation>Research Center for Electron Photon Science</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Okada</name>
+      <arxiv:affiliation>RIKEN</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Ozawa</name>
+      <arxiv:affiliation>Institute of Particle and Nuclear Study</arxiv:affiliation>
+      <arxiv:affiliation>J-PARC Center</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Pochodzalla</name>
+      <arxiv:affiliation>Helmholtz Institute Mainz, Johannes Gutenberg University</arxiv:affiliation>
+      <arxiv:affiliation>Institute for Nuclear Physics, Johannes Gutenberg University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. Sako</name>
+      <arxiv:affiliation>Advanced Science Research Center</arxiv:affiliation>
+      <arxiv:affiliation>J-PARC Center</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Sakuma</name>
+      <arxiv:affiliation>RIKEN</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Sawada</name>
+      <arxiv:affiliation>Department of Physics, University of Michigan</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Schupp</name>
+      <arxiv:affiliation>Helmholtz Institute Mainz, Johannes Gutenberg University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Shirotori</name>
+      <arxiv:affiliation>Research Center for Nuclear Physics</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Steinen</name>
+      <arxiv:affiliation>Helmholtz Institute Mainz, Johannes Gutenberg University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Sugaya</name>
+      <arxiv:affiliation>Research Center for Nuclear Physics</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Suzuki</name>
+      <arxiv:affiliation>Stefan Meyer Institute, Austrian Academy of Sciences</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. Takahashi</name>
+      <arxiv:affiliation>Institute of Particle and Nuclear Study</arxiv:affiliation>
+      <arxiv:affiliation>J-PARC Center</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Takahashi</name>
+      <arxiv:affiliation>Institute of Particle and Nuclear Study</arxiv:affiliation>
+      <arxiv:affiliation>J-PARC Center</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. N. Takahashi</name>
+      <arxiv:affiliation>Research Center for Nuclear Physics</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Tanaka</name>
+      <arxiv:affiliation>Advanced Science Research Center</arxiv:affiliation>
+      <arxiv:affiliation>J-PARC Center</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. Tomida</name>
+      <arxiv:affiliation>Research Center for Nuclear Physics</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Ukai</name>
+      <arxiv:affiliation>Institute of Particle and Nuclear Study</arxiv:affiliation>
+      <arxiv:affiliation>J-PARC Center</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Yamaga</name>
+      <arxiv:affiliation>RIKEN</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Yamamoto</name>
+      <arxiv:affiliation>7,9,*</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Yamazaki</name>
+      <arxiv:affiliation>Physics Department, University of Tokyo</arxiv:affiliation>
+      <arxiv:affiliation>RIKEN</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Yang</name>
+      <arxiv:affiliation>Department of Physics, Korea University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Yue</name>
+      <arxiv:affiliation>RIKEN</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J-PARC KOTO Collaboration</name>
+      <arxiv:affiliation>3, 5, 7, 9, 19, 20, 23-31</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.5333v5</id>
+    <title>Gluon condensates and c, b quark masses from quarkonia ratios of moments</title>
+    <updated>2011-10-13T10:51:10Z</updated>
+    <link href="https://arxiv.org/abs/1004.5333v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.5333v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extract (for the first time) the ratio of the gluon condensate &lt; g^3f_{abc}G^3 &gt;/&lt; alpha_s G^2 &gt; expressed in terms of the liquid instanton radius rho_c from charmonium moments sum rules by examining the effects of &lt; alpha_s G^2 &gt; in the determinations of both rho_c and the running MS mass m_c(m_c). Using a global analysis of selected ratios of moments at different Q^2=0, 4m_c^2 and 8m_c^2 and taking &lt; alpha_s G^2 &gt; from 0.06 GeV^4, where the estimate of rho_c is almost independent of &lt; alpha_s G^2 &gt;, we deduce: rho_c=0.98(21) GeV^{-1} which corresponds to &lt; g^3f_{abc}G^3 &gt; = (31+- 13) GeV^2 &lt; alpha_s G^2 &gt;. The value of m_c(m_c) is less affected (within the errors) by the variation of &lt; alpha_s G^2 &gt;, where a common solution from different moments are reached for &lt; alpha_s G^2 &gt; greater than 0.02 GeV^4. Using the values of &lt; alpha_s G^2 &gt;=0.06(2) GeV^4 from some other channels and the previous value of &lt; g^3f_{abc}G^3 &gt;, we deduce: m_c(m_c)=1260(18) MeV and m_b(m_b)=4173(10) MeV, where an estimate of the 4-loops contribution has been included. Our analysis indicates that the errors in the determinations of the charm quark mass without taking into account the ones of the gluon condensates have been underestimated. To that accuracy, one can deduce the running light and heavy quark masses and their ratios evaluated at M_Z, where it is remarkable to notice the approximate equalities: m_s/m_u= m_b/m_s= m_t/m_b= 51(4), which might reveal some eventual underlying novel symmetry of the quark mass matrix in some Grand Unified Theories.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-29T16:32:25Z</published>
+    <arxiv:comment>8 pages, 2 figures, 5 tables. Due to a bug in the program, values of m_b(m_b) in Table 5 have been changed and are in excellent agreement with the ones from Q^2-moments (arXiv:1105.2922[hep-ph]) and exponential sum rules (arXiv:1105.5070[hep-ph]) within stability criteria. These changes will be published as an erratum in PLB</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett.B693:559-566,2010</arxiv:journal_ref>
+    <author>
+      <name>Stephan Narison</name>
+      <arxiv:affiliation>CNRS-IN2P3, Montpellier</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2010.09.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2010.09.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.13774v1</id>
+    <title>Jamming of Elastoviscoplastic fluids in Elastic Turbulence</title>
+    <updated>2025-03-17T23:38:45Z</updated>
+    <link href="https://arxiv.org/abs/2503.13774v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.13774v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Elastoviscoplastic (EVP) fluid flows are driven by a non-trivial interplay between the elastic, viscous, and plastic properties, which under certain conditions can transition the otherwise laminar flow into complex flow instabilities with rich space-time-dependent dynamics. We discover that under elastic turbulence regimes, EVP fluids undergo dynamic jamming triggered by localised polymer stress deformations that facilitate the formation of solid regions trapped in local low-stress energy wells. Below the jamming transition $φ&lt;φ_J$, the solid volume fraction $φ$ scales with $\sqrt{Bi}$, where $Bi$ is the Bingham number characterizing the ratio of yield to viscous stresses, in direct agreement with theoretical approximations based on the laminar solution. The onset of this new dynamic jamming transition $φ\geqφ_J$ is marked by a clear deviation from the scaling $φ\sim \sqrt{Bi}$, scaling as $φ\sim \exp{Bi}$. We show that this instability-induced jamming transition -- analogous to that in dense suspensions -- leads to slow, minimally diffusive, and rigid-like flows with finite deformability, highlighting a novel phase-change in elastic turbulence regimes of complex fluids.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-17T23:38:45Z</published>
+    <arxiv:comment>Submitted to Journal of Fluid Mechanics</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>Journal of Fluid Mechanics 1017, R1 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Christopher S. From</name>
+    </author>
+    <author>
+      <name>Vedad Dzanic</name>
+    </author>
+    <author>
+      <name>Vahid Niasar</name>
+    </author>
+    <author>
+      <name>Emilie Sauret</name>
+    </author>
+    <arxiv:doi>10.1017/jfm.2025.10458</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/jfm.2025.10458" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.01911v2</id>
+    <title>Higher moments of the pair correlation function for Sato-Tate sequences</title>
+    <updated>2023-06-22T20:40:20Z</updated>
+    <link href="https://arxiv.org/abs/2206.01911v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.01911v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In \cite{BS}, Balasubramanyam and the second named author derived the first moment of the pair correlation function for Hecke angles lying in small subintervals of $[0,1]$ upon averaging over large families of Hecke newforms of weight $k$ with respect to $Γ_0(N)$. The goal of this article is to study higher moments of this pair correlation function. For an integer $r \geq 2$, we present bounds for its $r$-th power moments. We apply these bounds to record lower order error terms in the computation of the second and third moments. As a result, one can obtain the convergence of the second and third moments of this pair correlation function for suitably small intervals, and under appropriate growth conditions for the size of the families of Hecke newforms.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-04T04:41:21Z</published>
+    <arxiv:comment>This is a significantly revised version incorporating a study of the $r$-th power moments of the above-mentioned pair correlation function for all integers $r \geq 2$. The previous version only discussed the second moment. 47 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Jewel Mahajan</name>
+    </author>
+    <author>
+      <name>Kaneenika Sinha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.12962v2</id>
+    <title>Conserving elastic turbulence numerically using artificial diffusivity</title>
+    <updated>2022-06-20T20:07:33Z</updated>
+    <link href="https://arxiv.org/abs/2203.12962v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.12962v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To simulate elastic turbulence, where viscoelasticity dominates, numerical solvers introduce an artificial stress diffusivity term to handle the steep polymer stress gradients that ensue. This has recently been shown [Gupta &amp; Vincenzi, J. Fluid Mech. 870, 405-418 (2019); Dzanic, From &amp; Sauret, J. Fluid Mech. 937, A31 (2022)] to introduce unphysical artifacts with a detrimental impact on simulations. In this Letter, we propose that artificial diffusion is limited to regions where stress gradients are steep instead of seeking the zero-diffusivity limit. Through the cellular forcing and four-roll mill problem, we demonstrate that this modified artificial diffusivity is devoid of unphysical artifacts, allowing all features of elastic turbulence to be retained. Results are found to conform with direct simulations, reducing the impact of artificial diffusivity from a qualitative scale to a quantitative scale while only requiring a fraction of the numerical resolution.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-24T09:59:57Z</published>
+    <arxiv:comment>To be published in Phys. Rev. E Letters</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>Vedad Dzanic</name>
+    </author>
+    <author>
+      <name>Christopher S. From</name>
+    </author>
+    <author>
+      <name>Emilie Sauret</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.106.L013101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.106.L013101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0509098v1</id>
+    <title>Maximal twist and the spectrum of quenched twisted mass lattice QCD</title>
+    <updated>2005-09-22T22:10:15Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0509098v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0509098v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Results on the hadron masses for a degenerate doublet of up and down quarks from quenched twisted mass lattice QCD at maximal twist are presented. Two definitions of maximal twist are used and the hadron masses for these definitions are compared. Mass splittings within the Delta(1232) multiplet due to flavor breaking effects are discussed.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-09-22T22:10:15Z</published>
+    <arxiv:comment>6 pages, 4 figures, Talk presented at Lattice 2005 (Hadron spectrum and quark masses)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2005 (2005) 051</arxiv:journal_ref>
+    <author>
+      <name>Abdou M. Abdel-Rehim</name>
+    </author>
+    <author>
+      <name>Randy Lewis</name>
+    </author>
+    <author>
+      <name>R. M. Woloshyn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.02947v2</id>
+    <title>Hadron production in pp and p-Pb collisions: A mass dependent phenomenon</title>
+    <updated>2019-11-25T07:34:38Z</updated>
+    <link href="https://arxiv.org/abs/1910.02947v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.02947v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The mass dependence plays a significant role in the yield enhancement or suppression of hadrons in pp and p-Pb collisions at the LHC energies. This has been observed by parameterizing the variation of yield ratios between any two hadrons with event charged-particle multiplicity using a single empirical function. We notice that this variation is independent of all quantum numbers and solely depends on masses of hadrons and masses of their valence quarks. The function shows that the amount of quark deconfinement increases with event multiplicity, and the quark coalescence favours more the production of heavier hadrons compared to lighter ones.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-06T17:52:41Z</published>
+    <arxiv:comment>Yield enhancement, strange hadron, mass, pp 7 TeV, p-Pb 5.02 TeV</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>S. Sahoo</name>
+    </author>
+    <author>
+      <name>R. C. Baral</name>
+    </author>
+    <author>
+      <name>P. K. Sahu</name>
+    </author>
+    <author>
+      <name>M. K. Parida</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-ex/0611015v2</id>
+    <title>Using the Balance Function to study the charge correlations of hadrons</title>
+    <updated>2006-11-14T08:07:01Z</updated>
+    <link href="https://arxiv.org/abs/nucl-ex/0611015v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-ex/0611015v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present the recent Balance Function (BF) results obtained by the NA49 collaboration for the pseudo-rapidity dependence of non-identified charged particle correlations for two SPS energies. Experimental results indicate a clear centrality dependence only in the mid-rapidity region. The results of an energy dependence study of the BF throughout the whole SPS energy range will also be discussed. In addition, the correlation of identified hadrons is studied and presented for the first time. The study of hadron correlation has also been extended in order to cope with the high multiplicity environment that is expected to be seen at LHC. We will present the latest results from simulations concerning the extension of these studies to the ALICE experiment.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-10T12:04:08Z</published>
+    <arxiv:comment>To appear in the proccedings of the "Quark Confinement and Hadron Spectrum VII" conference</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>AIPConf.Proc.892:377-379,2007</arxiv:journal_ref>
+    <author>
+      <name>P. Christakoglou</name>
+      <arxiv:affiliation>for the NA49 and ALICE collaborations</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Petridis</name>
+      <arxiv:affiliation>for the NA49 and ALICE collaborations</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Vassiliou</name>
+      <arxiv:affiliation>for the NA49 and ALICE collaborations</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1063/1.2714422</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2714422" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0403157v2</id>
+    <title>Closing the light sbottom mass window from a compilation of e+e- -&gt; hadron data</title>
+    <updated>2004-04-29T08:10:43Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0403157v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0403157v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The e+e- -&gt; hadron cross section data from PEP, PETRA, TRISTAN, SLC and LEP, at centre-of-mass energies between 20 to 209 GeV, are analysed to search for the production of a pair of light sbottoms decaying hadronically via R-parity-violating couplings. This analysis allows the 95%C.L. exclusion of such a particle if its mass is below 7.5 GeV/c2. The light sbottom mass window is closed.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-03-15T10:45:33Z</published>
+    <arxiv:comment>19 pages, 8 figures, 10 tables To be published in Physics Letters. This new version has been reshuffled with respect to the original version to include the suggestions from the Referees of Physics Letters. In particular, the e+e- -&gt; hadron data compilation and combination method are now described in detail, to avoid references to unpublished material. A more realistic treatment of systematic uncertainties also improved the limit slightly</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett.B594:23-34,2004</arxiv:journal_ref>
+    <author>
+      <name>Patrick Janot</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2004.04.063</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2004.04.063" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0608004v3</id>
+    <title>New Quark Relations for Hadron Masses and Magnetic Moments - A Challenge for Explanation from QCD</title>
+    <updated>2007-05-04T20:15:41Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0608004v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0608004v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Prompted by the recent surprising results in QCD spectroscopy, we extend the treatment of the constituent quark model showing that mass differences and ratios have the same values when obtained from mesons and baryons. We obtain several new successful relations involving hadrons containing two and three strange quarks and hadrons containing heavy quarks and give a new prediction regarding spin splitting between doubly charmed baryons. We provide numerical evidence for an effective supersymmetry between mesons and baryons related by replacing a light antiquark by a light diquark. We also obtain new relations between quark magnetic moments and hadron masses. Limits of validity of this approach and disagreements with experiment in properties of the Sigma and Xi baryons are discussed as possible clues to a derivation from QCD.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-08-01T13:46:09Z</published>
+    <arxiv:comment>Presentation improved, references added, typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett.B650:185-192,2007</arxiv:journal_ref>
+    <author>
+      <name>Marek Karliner</name>
+    </author>
+    <author>
+      <name>Harry J. Lipkin</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2007.04.063</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2007.04.063" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.00790v2</id>
+    <title>The multidimensional truncated Moment Problem: Shape and Gaussian Mixture Reconstruction from Derivatives of Moments</title>
+    <updated>2019-07-16T17:00:11Z</updated>
+    <link href="https://arxiv.org/abs/1907.00790v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.00790v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we introduce the theory of derivatives of moments and (moment) functionals to represent moment functionals by Gaussian mixtures, characteristic functions of polytopes, and simple functions of polytopes. We study, among other measures, Gaussian mixtures, their reconstruction from moments and especially the number of Gaussians needed to represent moment functionals. We find that there are moment functionals $L:\mathbb{R}[x_1,\dots,x_n]_{\leq 2d}\to\mathbb{R}$ which can be represented by a sum of $\binom{n+2d}{n} - n\cdot \binom{n+d}{n} + \binom{n}{2}$ Gaussians but not less. Hence, for any $d\in\mathbb{N}$ and $\varepsilon&gt;0$ we find an $n\in\mathbb{N}$ such that $L$ can be represented by a sum of $(1-\varepsilon)\cdot\binom{n+2d}{n}$ Gaussians but not less. An upper bound is $\binom{n+2d}{n}-1$.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-28T10:21:01Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:1903.00598. Author note: This is part II of arXiv:1903.00598. arXiv:1903.00598 was extended and splitting it into two parts was necessary. Part I contains the Caratheodory number from Hilbert functions parts (now arXiv:1903.00598v2). Part II contains the (Gaussian) mixtures and shape reconstruction from derivatives of moments parts</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Philipp J. di Dio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.12109v1</id>
+    <title>Study of Hadron Masses with Faddeev-Popov Eigenmode Projection in the Coulomb Gauge</title>
+    <updated>2022-12-23T02:23:49Z</updated>
+    <link href="https://arxiv.org/abs/2212.12109v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.12109v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using SU(3) lattice QCD, we investigate role of spatial gluons for hadron masses in the Coulomb gauge, considering the relation between QCD and the quark model. From the Coulomb-gauge configurations at the quenched level on a $16^3 \times 32$ lattice at $β$ = 6.0, we consider the $\vec{A} = 0$ projection, where all the spatial gluon fields are set to zero. In this projection, the inter-quark potential is unchanged. We investigate light hadron masses and find that nucleon and delta baryon masses are almost degenerate. This result suggests that the N-$Δ$ mass difference arises from the color-magnetic interactions, which is consistent with the quark model picture. Next, as a generalization of this projection, we expand spatial gluon fields in terms of Faddeev-Popov eigenmodes and leave only some partial components. We find that the ${\rm N}-Δ$ and $0^{++}-2^{++}$ glueball mass splittings are almost reproduced only with 1 \% low-lying components. This suggests that low-lying color-magnetic interaction leads to the hadron mass splitting.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-23T02:23:49Z</published>
+    <arxiv:comment>8 pages, 5 figures, contribution to the proceedings of the 15th Quark Confinement and the Hadron Spectrum conference (ConfXV), 1st-6th August 2022, Stavanger, Norway</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Hiroki Ohata</name>
+    </author>
+    <author>
+      <name>Hideo Suganuma</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/202227402007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/202227402007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.03102v2</id>
+    <title>Light Hadron Masses from a Matrix Model for QCD</title>
+    <updated>2019-12-18T17:26:55Z</updated>
+    <link href="https://arxiv.org/abs/1912.03102v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.03102v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The $SU(3)$ Yang-Mills matrix model coupled to fundamental fermions is an approximation of quantum chromodynamics (QCD) on a 3-sphere of radius $R$. The spectrum of this matrix model Hamiltonian is estimated using standard variational methods, and is analyzed in the strong coupling limit. By employing a matching prescription to determine the dependence of the Yang-Mills coupling constant $g$ on $R$, we relate the asymptotic values of the energy eigenvalues in the $R \rightarrow \infty$ (flat space) limit to the masses of light hadrons. We find that the matrix model estimates the light hadron spectrum fairly accurately, with the light baryon masses falling within $10\%$, and most light meson masses falling within about $30\%$ of their observed values.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-06T13:30:05Z</published>
+    <arxiv:comment>29 pages, 6 figures, 6 tables. Typos corrected, Fig. 1 replaced by two figures to include more details, discussion of $η$-$η'$ meson masses modified</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 101, 114020 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Mahul Pandey</name>
+    </author>
+    <author>
+      <name>Sachindeo Vaidya</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.101.114020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.101.114020" title="doi"/>
+  </entry>
+</feed>

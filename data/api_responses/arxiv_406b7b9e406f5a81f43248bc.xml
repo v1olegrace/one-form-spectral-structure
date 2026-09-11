@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BcRQd0pGfX3OU/fuhFob7gdL4A4</id>
+  <title>arXiv Query: search_query=all:relaxation OR all:spectrum OR all:inversion OR all:rheology OR all:ill-posed&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:44:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:relaxation+OR+(all:spectrum+OR+(all:inversion+OR+(all:rheology+OR+all:ill-posed)))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>262871</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1205.5323v1</id>
+    <title>Methods of Solving Ill-Posed Problems</title>
+    <updated>2012-05-24T03:24:12Z</updated>
+    <link href="https://arxiv.org/abs/1205.5323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.5323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many physical problems can be formulated as operator equations of the form Au = f. If these operator equations are ill-posed, we then resort to finding the approximate solutions numerically. Ill-posed problems can be found in the fields of mathematical analysis, mathematical physics, geophysics, medicine, tomography, technology and ecology. The theory of ill-posed problems was developed in the 1960's by several mathematicians, mostly Soviet and American. In this report we review the methods of solving ill-posed problems and recent developments in this field. We review the variational regularization method, the method of quasi-solution, iterative regularization method and the dynamical systems method. We focus mainly on the dynamical systems method as it is found that the dynamical systems method is more efficient than the regularization procedure.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-24T03:24:12Z</published>
+    <arxiv:comment>Suresh Srinivasamurthy MS Report titled Methods of solving Ill-Posed Problems Submitted in Spring 2004 Mathematics Department Kansas State University</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Suresh B. Srinivasamurthy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.04571v3</id>
+    <title>A simple algorithm to find the L-curve corner in the regularisation of ill-posed inverse problems</title>
+    <updated>2020-09-24T10:56:42Z</updated>
+    <link href="https://arxiv.org/abs/1608.04571v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.04571v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a simple algorithm to locate the "corner" of an L-curve, a function often used to select the regularisation parameter for the solution of ill-posed inverse problems. The algorithm involves the Menger curvature of a circumcircle and the golden section search method. It efficiently finds the regularisation parameter value corresponding to the maximum positive curvature region of the L-curve. The algorithm is applied to some commonly available test problems and compared to the typical way of locating the l-curve corner by means of its analytical curvature. The application of the algorithm to the data processing of an electrical resistance tomography experiment on thin conductive films is also reported.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-16T12:32:47Z</published>
+    <arxiv:comment>11 pages, 6 figures. Keywords: inverse problem, ill-posed problem, regularization parameter, L-curve, golden section search, Menger curvature, electrical resistance tomography</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>IOP SciNotes, 1 (2020) 025004</arxiv:journal_ref>
+    <author>
+      <name>Alessandro Cultrera</name>
+    </author>
+    <author>
+      <name>Luca Callegaro</name>
+    </author>
+    <arxiv:doi>10.1088/2633-1357/abad0d</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2633-1357/abad0d" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.14441v1</id>
+    <title>On iterative methods for solving ill-posed problems modeled by PDE's</title>
+    <updated>2020-11-29T20:52:34Z</updated>
+    <link href="https://arxiv.org/abs/2011.14441v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.14441v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the iterative methods proposed by Maz'ya and Kozlov (see [KM1], [KM2]) for solving ill-posed inverse problems modeled by partial differential equations. We consider linear evolutionary problems of elliptic, hyperbolic and parabolic types. Each iteration of the analyzed methods consists in the solution of a well posed problem (boundary value problem or initial value problem respectively). The iterations are described as powers of affine operators, as in [KM2]. We give alternative convergence proofs for the algorithms by using spectral theory and the fact that the linear parts of these affine operators are non-expansive with additional functional analytical properties (see [Le1,2]). Also problems with noisy data are considered and estimates for the convergence rate are obtained under a priori regularity assumptions on the problem data.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-29T20:52:34Z</published>
+    <arxiv:comment>14 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Journal of Inverse and Ill-Posed Problems 9 (2001), no. 1, 13-29</arxiv:journal_ref>
+    <author>
+      <name>J. Baumeister</name>
+    </author>
+    <author>
+      <name>A. Leitao</name>
+    </author>
+    <arxiv:doi>10.1515/jiip.2001.9.1.13</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1515/jiip.2001.9.1.13" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0009169v1</id>
+    <title>Characterization of long-chain branching effects in linear rheology</title>
+    <updated>2000-09-12T06:49:19Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0009169v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0009169v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This is the last part of a series of five articles published in Journal of Rheology (Maier et al. (1998), Thimm et al. (1999a), Thimm et al. (2000a), Thimm et al. (2000c)) in which progress on the determination of binary molecular weight distributions from rheological data has been reported. In this article is discussed in how far the developed methods can also be used to characterize long-chain branching effects.
+  Monomodal samples which contain long-chain branches will show two relaxation processes in the rheological examination, which are converted to two peaks in a corresponding molecular weight distribution. But these samples will show only one peak in a molecular weight distribution determined by a size-exclusion chromatography examination. This difference can be used to characterize long-chain branched materials as will be explained in this article.
+  The usefulness of this method is demonstrated by examining polymers, which contain definite long-chain branches specified from the way, they were made.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-09-12T06:49:19Z</published>
+    <arxiv:comment>submitted to Journal of Rheology</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Wolfgang Thimm</name>
+    </author>
+    <author>
+      <name>Christian Friedrich</name>
+    </author>
+    <author>
+      <name>Tobias Roths</name>
+    </author>
+    <author>
+      <name>Stefan Trinkle</name>
+    </author>
+    <author>
+      <name>Josef Honerkamp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.09765v1</id>
+    <title>Rheology and microstructure of unsaturated granular materials: Experiments and simulations</title>
+    <updated>2018-02-27T08:23:16Z</updated>
+    <link href="https://arxiv.org/abs/1802.09765v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.09765v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When dealing with unsaturated wet granular materials, a fundamental question is: what is the effect of capillary cohesion on the bulk flow and yield behavior? We inwestigate the dense flow rheology of unsaturated granular materials through experiments and discrete element simulations of homogeneous, simple annular shear flows of frictional, cohesive, spherical particles.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-27T08:23:16Z</published>
+    <arxiv:comment>Submitted for publication in Journal of Rheology</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>M. Badetti</name>
+    </author>
+    <author>
+      <name>A. Fall</name>
+    </author>
+    <author>
+      <name>F. Chevoir</name>
+    </author>
+    <author>
+      <name>P. Aimedieu</name>
+    </author>
+    <author>
+      <name>S. Rodts</name>
+    </author>
+    <author>
+      <name>J. -N. Roux</name>
+    </author>
+    <arxiv:doi>10.1122/1.5026979</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1122/1.5026979" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.01689v3</id>
+    <title>Normal force controlled rheology applied to agar gelation</title>
+    <updated>2016-02-29T23:17:02Z</updated>
+    <link href="https://arxiv.org/abs/1508.01689v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.01689v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A wide range of thermoreversible gels are prepared by cooling down to ambient temperature hot aqueous polymer solutions. During the sol-gel transition, such materials may experience a volume contraction which is traditionally overlooked as rheological measurements are usually performed in geometries of constant volume. In this article, we revisit the formation of 1.5\% wt. agar gels through a series of benchmark rheological experiments performed with a plate-plate geometry. We demonstrate on that particular gel of polysaccharides that the contraction associated with the sol/gel transition cannot be neglected. Indeed, imposing a constant gap width during the gelation results in the strain hardening of the sample, as evidenced by the large negative normal force that develops. Such hardening leads to the slow drift in time of the gel elastic modulus $G'$ towards ever larger values, and thus to an erroneous estimate of $G'$. As an alternative, we show that imposing a constant normal force equals to zero during the gelation, instead of a constant gap width, suppresses the hardening as the decrease of the gap compensates for the sample contraction. Using normal force controlled rheology, we then investigate the impact of thermal history on 1.5\% wt. agar gels. We show that neither the value of the cooling rate, nor the introduction of a constant temperature stage during the cooling process influence the gel elastic properties. Instead, $G'$ only depends on the terminal temperature reached at the end of the cooling ramp, as confirmed by direct imaging of the gel microstructure by cryoelectron microscopy. The present work offers an extensive review of the technical difficulties associated with the rheology of hydrogels and paves the way for a systematic use of normal force controlled rheology to monitor non-isochoric processes.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-07T13:40:19Z</published>
+    <arxiv:comment>19 pages, 15 figures - accepted for publication in Journal of Rheology</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Bosi Mao</name>
+    </author>
+    <author>
+      <name>Thibaut Divoux</name>
+    </author>
+    <author>
+      <name>Patrick Snabre</name>
+    </author>
+    <arxiv:doi>10.1122/1.4944994</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1122/1.4944994" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.16409v2</id>
+    <title>Challenges in the rheology of glasses</title>
+    <updated>2024-02-09T11:54:42Z</updated>
+    <link href="https://arxiv.org/abs/2401.16409v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.16409v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this contribution to the proceedings of the 29th Solvay Conference on Physics I will give an overview of some key challenges in our theoretical understanding of the rheology of glasses, focussing on (i) steady shear flow curves and their relation to the glass and jamming transitions, (ii) ductile versus brittle yielding in shear startup and (iii) yielding under oscillatory shear. I will also briefly discuss connections to the reversible-irreversible and random organization transitions as well as to the broad field of memory formation in materials.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-29T18:47:35Z</published>
+    <arxiv:comment>v2: References added on RFOT-based continuum models and nonlinear oscillatory strain rheology</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Peter Sollich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/9812347v1</id>
+    <title>Rheology, and how to stop aging</title>
+    <updated>1998-12-21T18:58:43Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/9812347v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/9812347v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recent analytical developments in glass theory are equally relevant to the understanding of anomalous rheology, with characteristic features such as the Reynolds dilatancy and the driving-power dependence of the viscosity arising naturally. A notion of effective temperature based on the fluctuation-dissipation relation can be introduced in the limit of small driving power. Within mean-field, the analogue of the Edwards compactivity can be computed, and it coincides with this effective temperature. The approach does not invoke any particular geometry for the constituents of the fluid, provided it has glassy behaviour.</summary>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-12-21T18:58:43Z</published>
+    <arxiv:comment>Proceedings of ``Jamming and Rheology: constrained dynamics on microscopic and macroscopic scales'', ITP, Santa Barbara, 1997</arxiv:comment>
+    <arxiv:primary_category term="cond-mat"/>
+    <author>
+      <name>Jorge Kurchan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.1853v4</id>
+    <title>Minimax signal detection in ill-posed inverse problems</title>
+    <updated>2012-09-25T05:23:43Z</updated>
+    <link href="https://arxiv.org/abs/1001.1853v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.1853v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ill-posed inverse problems arise in various scientific fields. We consider the signal detection problem for mildly, severely and extremely ill-posed inverse problems with $l^q$-ellipsoids (bodies), $q\in(0,2]$, for Sobolev, analytic and generalized analytic classes of functions under the Gaussian white noise model. We study both rate and sharp asymptotics for the error probabilities in the minimax setup. By construction, the derived tests are, often, nonadaptive. Minimax rate-optimal adaptive tests of rather simple structure are also constructed.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-12T11:23:40Z</published>
+    <arxiv:comment>Published in at http://dx.doi.org/10.1214/12-AOS1011 the Annals of Statistics (http://www.imstat.org/aos/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <arxiv:journal_ref>Annals of Statistics 2012, Vol. 40, No. 3, 1524-1549</arxiv:journal_ref>
+    <author>
+      <name>Yuri I. Ingster</name>
+    </author>
+    <author>
+      <name>Theofanis Sapatinas</name>
+    </author>
+    <author>
+      <name>Irina A. Suslina</name>
+    </author>
+    <arxiv:doi>10.1214/12-AOS1011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/12-AOS1011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.05135v1</id>
+    <title>Well-posed continuum equations for granular flow with compressibility and $μ(I)$-rheology</title>
+    <updated>2016-10-14T08:47:10Z</updated>
+    <link href="https://arxiv.org/abs/1610.05135v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.05135v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Continuum modelling of granular flow has been plagued with the issue of ill-posed equations for a long time. Equations for incompressible, two-dimensional flow based on the Coulomb friction law are ill-posed regardless of the deformation, whereas the rate-dependent $μ(I)$-rheology is ill-posed when the non-dimensional strain-rate $I$ is too high or too low. Here, incorporating ideas from Critical-State Soil Mechanics, we derive conditions for well-posedness of PDEs that combine compressibility with $I$-dependent rheology. When the $I$-dependence comes from a specific friction coefficient $μ(I)$, our results show that, with compressibility, the equations are well-posed for all deformation rates provided that $μ(I)$ satisfies certain minimal, physically natural, inequalities.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-14T08:47:10Z</published>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>T. Barker</name>
+    </author>
+    <author>
+      <name>D. G. Schaeffer</name>
+    </author>
+    <author>
+      <name>M. Shearer</name>
+    </author>
+    <author>
+      <name>J. M. N. T Gray</name>
+    </author>
+    <arxiv:doi>10.1098/rspa.2016.0846</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1098/rspa.2016.0846" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.16045v1</id>
+    <title>Regularizing Ill-Posed Inverse Problems: Deblurring Barcodes</title>
+    <updated>2025-05-21T21:55:40Z</updated>
+    <link href="https://arxiv.org/abs/2505.16045v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.16045v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This manuscript is designed to introduce students in applied mathematics and data science to the concept of regularization for ill-posed inverse problems. Construct a mathematical model that describes how an image gets blurred. Convert a calculus problem into a linear algebra problem by discretization. Inverting the blurring process should sharpen up an image; this requires the solution of a system of linear algebraic equations. Solving this linear system of equations turns out to be delicate, as deblurring is an example of an ill-posed inverse problem. To address this challenge, recast the system as a regularized least squares problem (also known as ridge regression).</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-21T21:55:40Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Mark Embree</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/9907101v1</id>
+    <title>Ageing and Rheology in Soft Materials</title>
+    <updated>1999-07-07T14:11:05Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/9907101v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/9907101v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study theoretically the role of ageing in the rheology of soft materials. We define several generalized rheological response functions suited to ageing samples (in which time translation invariance is lost). These are then used to study ageing effects within a simple scalar model (the "soft glassy rheology" or SGR model) whose constitutive equations relate shear stress to shear strain among a set of elastic elements, with distributed yield thresholds, undergoing activated dynamics governed by a "noise temperature", $x$. (Between yields, each element follows affinely the applied shear.) For $1&lt;x&lt;2$ there is a power-law fluid regime in which transients occur, but no ageing. For $x&lt;1$, the model has a macroscopic yield stress. So long as this yield stress is not exceeded, ageing occurs, with a sample's apparent relaxation time being of order its own age. The (age-dependent) linear viscoelastic loss modulus $G''(ω,t)$ rises as frequency is {\em lowered}, but falls with age $t$, so as to always remain less than $G'(ω,t)$ (which is nearly constant). Significant ageing is also predicted for the stress overshoot in nonlinear shear startup and for the creep compliance. Though obviously oversimplified, the SGR model may provide a valuable paradigm for the experimental and theoretical study of rheological ageing phenomena in soft solids.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-07-07T14:11:05Z</published>
+    <arxiv:comment>54 pages, 14 postscript figures included</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>Journal of Rheology 44 (2000) 323-369.</arxiv:journal_ref>
+    <author>
+      <name>S. M. Fielding</name>
+    </author>
+    <author>
+      <name>P. Sollich</name>
+    </author>
+    <author>
+      <name>M. E. Cates</name>
+    </author>
+    <arxiv:doi>10.1122/1.551088</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1122/1.551088" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.17592v1</id>
+    <title>Well-posed Questions for Ill-posed Inverse Problems: a Note in Memory of Pierre Sabatier</title>
+    <updated>2025-04-24T14:21:53Z</updated>
+    <link href="https://arxiv.org/abs/2504.17592v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.17592v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Professor Pierre Sabatier contributed much to the study of inverse problems in theory and practice. Two of these contributions were a focus on theory that actually supports practice, and the identification of well-posed aspects of inverse problems that may quite ill-posed. This paper illustrates these two themes in the context of Electrical Impedance Tomography (EIT), which is both very ill-posed and very practical. We show that for a highly constrained version of this inverse problem, in which a small elliptical inclusion in a homogeneous background is to be identified, optimization of the experimental design (that is, electrode locations) vastly improves the stability of the solution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-24T14:21:53Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Gaoming Chen</name>
+    </author>
+    <author>
+      <name>Fadil Santosa</name>
+    </author>
+    <author>
+      <name>William W. Symes</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.21653v1</id>
+    <title>Analogy between Learning With Error Problem and Ill-Posed Inverse Problems</title>
+    <updated>2025-08-29T14:15:49Z</updated>
+    <link href="https://arxiv.org/abs/2508.21653v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.21653v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we unveil an analogy between well-known lattice based learning with error problem and ill-posed inverse problems. We show that LWE problem is a structured inverse problem. Further, we propose a symmetric encryption scheme based on ill-posed problems and thoroughly discuss its security. Finally, we propose a public key encryption scheme based on our symmetric encryption scheme and CRYSTALS-Kyber KEM (key encapsulation mechanism) and discuss its security.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-29T14:15:49Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Gaurav Mittal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.12340v2</id>
+    <title>Elastoviscoplastic rheology and ageing in a simplified soft glassy constitutive model</title>
+    <updated>2020-03-25T18:16:51Z</updated>
+    <link href="https://arxiv.org/abs/1911.12340v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.12340v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Yield stress fluids display a rich rheological phenomenology. Beyond the defining existence of a yield stress in the steady state flow curve, this includes in many materials rather flat viscoelastic spectra over many decades of frequency in small amplitude oscillatory shear; slow stress relaxation following the sudden imposition of a small shear strain; stress overshoot in shear startup; logarithmic or sublinear power law creep following the imposition of a shear stress below the yield stress; creep followed by yielding after the imposition of a shear stress above the yield stress; richly featured Lissajous-Bowditch curves in large amplitude oscillatory shear; a Bauschinger effect, in which a material's effective yield strain is lowered under straining in one direction, following a preceding strain in the opposite direction; hysteresis in up-down shear rate sweeps; and (in some materials) thixotropy and/or rheological ageing. A key challenge is to develop a constitutive model that contains enough underlying mesoscopic physics to have meaningful predictive power for the full gamut of rheological behaviour just described, with only a small number of model parameters, and yet is simple enough for use in computational fluid dynamics to predict flows in complicated geometries, or complicated flows that arise due to spontaneous symmetry breaking instabilities even in simple geometries. Here we introduce such a model, motivated by the widely used soft glassy rheology model, and show that it captures all the above rheological features.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-27T18:41:19Z</published>
+    <arxiv:comment>15 pages, 9 figures; version accepted, Journal of Rheology</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Suzanne M. Fielding</name>
+    </author>
+    <arxiv:doi>10.1122/1.5140465</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1122/1.5140465" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.06989v3</id>
+    <title>Clustering in statistical ill-posed linear inverse problems</title>
+    <updated>2020-03-23T01:02:24Z</updated>
+    <link href="https://arxiv.org/abs/1810.06989v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.06989v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In many statistical linear inverse problems, one needs to recover classes of similar curves from their noisy images under an operator that does not have a bounded inverse. Problems of this kind appear in many areas of application. Routinely, in such problems clustering is carried out at the pre-processing step and then the inverse problem is solved for each of the cluster averages separately. As a result, the errors of the procedures are usually examined for the estimation step only. The objective of this paper is to examine, both theoretically and via simulations, the effect of clustering on the accuracy of the solutions of general ill-posed linear inverse problems. In particular, we assume that one observes $X_m = A f_m + δε_m$, $m=1, \cdots, M$, where functions $f_m$ can be grouped into $K$ classes and one needs to recover a vector function ${\bf f}= (f_1,\cdots, f_M)^T$. We construct an estimators for ${\bf f}$ as a solution of a penalized optimization problem and derive an oracle inequality for its precision. By deriving upper and minimax lower bounds for the error, we confirm that the estimator is minimax optimal or nearly minimax optimal up to a logarithmic factor of the number of observations. One of the advantages of our estimation procedure is that we do not assume that the number of clusters is known in advance. We conclude that clustering at the pre-processing step is beneficial when the problem is moderately ill-posed. It should be applied with extreme care when the problem is severely ill-posed.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-16T13:37:33Z</published>
+    <arxiv:comment>2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Rasika Rajapakshage</name>
+    </author>
+    <author>
+      <name>Marianna Pensky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.02126v2</id>
+    <title>Convergence Rates for Exponentially Ill-Posed Inverse Problems with Impulsive Noise</title>
+    <updated>2015-11-26T12:43:23Z</updated>
+    <link href="https://arxiv.org/abs/1506.02126v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.02126v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is concerned with exponentially ill-posed operator equations with additive impulsive noise on the right hand side, i.e. the noise is large on a small part of the domain and small or zero outside. It is well known that Tikhonov regularization with an $L^1$ data fidelity term outperforms Tikhonov regularization with an $L^2$ fidelity term in this case. This effect has recently been explained and quantified for the case of finitely smoothing operators. Here we extend this analysis to the case of infinitely smoothing forward operators under standard Sobolev smoothness assumptions on the solution, i.e. exponentially ill-posed inverse problems. It turns out that high order polynomial rates of convergence in the size of the support of large noise can be achieved rather than the poor logarithmic convergence rates typical for exponentially ill-posed problems. The main tools of our analysis are Banach spaces of analytic functions and interpolation-type inequalities for such spaces. We discuss two examples, the (periodic) backwards heat equation and an inverse problem in gradiometry.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-06T08:23:10Z</published>
+    <arxiv:comment>to appear in SIAM J. Numer. Anal</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>SIAM J. Numer. Anal., 2016, 54, 341-360</arxiv:journal_ref>
+    <author>
+      <name>Claudia König</name>
+    </author>
+    <author>
+      <name>Frank Werner</name>
+    </author>
+    <author>
+      <name>Thorsten Hohage</name>
+    </author>
+    <arxiv:doi>10.1137/15M1022252</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/15M1022252" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.0154v3</id>
+    <title>Greedy Solution of Ill-Posed Problems: Error Bounds and Exact Inversion</title>
+    <updated>2009-08-28T08:25:41Z</updated>
+    <link href="https://arxiv.org/abs/0904.0154v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.0154v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The orthogonal matching pursuit (OMP) is an algorithm to solve sparse approximation problems. Sufficient conditions for exact recovery are known with and without noise. In this paper we investigate the applicability of the OMP for the solution of ill-posed inverse problems in general and in particular for two deconvolution examples from mass spectrometry and digital holography respectively.
+  In sparse approximation problems one often has to deal with the problem of redundancy of a dictionary, i.e. the atoms are not linearly independent. However, one expects them to be approximatively orthogonal and this is quantified by the so-called incoherence. This idea cannot be transfered to ill-posed inverse problems since here the atoms are typically far from orthogonal: The ill-posedness of the operator causes that the correlation of two distinct atoms probably gets huge, i.e. that two atoms can look much alike. Therefore one needs conditions which take the structure of the problem into account and work without the concept of coherence. In this paper we develop results for exact recovery of the support of noisy signals. In the two examples in mass spectrometry and digital holography we show that our results lead to practically relevant estimates such that one may check a priori if the experimental setup guarantees exact deconvolution with OMP. Especially in the example from digital holography our analysis may be regarded as a first step to calculate the resolution power of droplet holography.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-01T13:23:16Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Inverse Problems, 25(11):115017 (24pp), 2009</arxiv:journal_ref>
+    <author>
+      <name>Loic Denis</name>
+    </author>
+    <author>
+      <name>Dirk A. Lorenz</name>
+    </author>
+    <author>
+      <name>Dennis Trede</name>
+    </author>
+    <arxiv:doi>10.1088/0266-5611/25/11/115017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0266-5611/25/11/115017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.05878v3</id>
+    <title>Exponential relaxation data analysis by parametrized regularization of severely ill-posed Fredholm integral equations of the first kind</title>
+    <updated>2023-09-11T16:38:17Z</updated>
+    <link href="https://arxiv.org/abs/2307.05878v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.05878v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a novel approach to construct regularizing operators for severely ill-posed Fredholm integral equations of the first kind by introducing parametrized discretization. The optimal values of discretization and regularization parameters are computed simultaneously by solving a minimization problem formulated based on a regularization parameter search criterion. The effectiveness of the proposed approach is demonstrated through examples of noisy Laplace transform inversions and the deconvolution of nuclear magnetic resonance relaxation data.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-12T02:44:55Z</published>
+    <arxiv:comment>This version clarifies the main point of previous manuscript. The paper has been completely rewritten: new title, new figures, more sections</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Vladimir V Kryzhniy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.1081v1</id>
+    <title>On the ill-posed character of the Lorentz integral transform</title>
+    <updated>2009-02-06T13:01:27Z</updated>
+    <link href="https://arxiv.org/abs/0902.1081v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.1081v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  An exact inversion formula for the Lorentz integral transform (LIT) is provided together with the spectrum of the LIT kernel. The exponential increase of the inverse Fourier transform of the LIT kernel entering the inversion formula explains the ill-posed character of the LIT approach. Also the continuous spectrum of the LIT kernel, which approaches zero points necessarily to the same defect. A possible cure is discussed and numerically illustrated.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-06T13:01:27Z</published>
+    <arxiv:comment>13 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>W. Gloeckle</name>
+      <arxiv:affiliation>Ruhr-Universitaet, Bochum, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Schwamb</name>
+      <arxiv:affiliation>Johannes Gutenberg-Universitaet, Mainz, Germany</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1007/s00601-009-0050-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00601-009-0050-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.10112v3</id>
+    <title>A learning-based method for solving ill-posed nonlinear inverse problems: a simulation study of Lung EIT</title>
+    <updated>2019-07-31T10:39:59Z</updated>
+    <link href="https://arxiv.org/abs/1810.10112v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.10112v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes a new approach for solving ill-posed nonlinear inverse problems. For ease of explanation of the proposed approach, we use the example of lung electrical impedance tomography (EIT), which is known to be a nonlinear and ill-posed inverse problem. Conventionally, penalty-based regularization methods have been used to deal with the ill-posed problem. However, experiences over the last three decades have shown methodological limitations in utilizing prior knowledge about tracking expected imaging features for medial diagnosis. The proposed method's paradigm is completely different from conventional approaches; the proposed reconstruction uses a variety of training data sets to generate a low dimensional manifold of approximate solutions, which allows to convert the ill-posed problem to a well-posed one. Variational autoencoder was used to produce a compact and dense representation for lung EIT images with a low dimensional latent space. Then, we learn a robust connection between the EIT data and the low-dimensional latent data. Numerical simulations validate the effectiveness and feasibility of the proposed approach.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-23T22:25:09Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>SIAM J. Imaging Sci. 12 (3), 1275-1295, 2019</arxiv:journal_ref>
+    <author>
+      <name>Jin Keun Seo</name>
+    </author>
+    <author>
+      <name>Kang Cheol Kim</name>
+    </author>
+    <author>
+      <name>Ariungerel Jargal</name>
+    </author>
+    <author>
+      <name>Kyounghun Lee</name>
+    </author>
+    <author>
+      <name>Bastian Harrach</name>
+    </author>
+    <arxiv:doi>10.1137/18M1222600</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/18M1222600" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.05975v1</id>
+    <title>Method of training examples in solving inverse ill-posed problems of spectroscopy</title>
+    <updated>2015-09-20T07:18:17Z</updated>
+    <link href="https://arxiv.org/abs/1509.05975v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.05975v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Further development of the method of computational experiments for solving ill-posed problems is given. The effective (unoverstated) estimate for solution error of the first-kind equation is obtained using the truncating singular numbers spectrum of an operator. It is proposed to estimate the magnitude of the truncation by results of solving model (training, learning) examples close to the initial example (problem). This method takes into account an additional information about the solution and gives a new principle for choosing the regularization parameter and error estimate for equation solution by the Tikhonov regularization method. The method is illustrated by a numerical example from the inverse problem of spectroscopy.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-20T07:18:17Z</published>
+    <arxiv:comment>9 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>V. S. Sizikov</name>
+    </author>
+    <author>
+      <name>A. V. Stepanov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.05727v1</id>
+    <title>Uniaxial extensional viscosity of semidilute DNA solutions</title>
+    <updated>2019-10-13T10:47:48Z</updated>
+    <link href="https://arxiv.org/abs/1910.05727v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.05727v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The extensional rheology of polymeric liquids has been extensively examined through experiments and theoretical predictions. However, a systematic study of the extensional rheology of polymer solutions in the semidilute regime, in terms of examining the effects of concentration and molecular weight, has not been carried out so far. Prior studies of the shear rheology of semidilute polymer solutions have demonstrated that their behaviour is distinctively different from that observed in the dilute and concentrated regimes. This difference in behaviour is anticipated to be even more pronounced in extensional flows. In this work, the extensional rheology of linear, double-stranded DNA molecules, spanning an order of magnitude of molecular weights (25 to 289 kilobasepairs) and concentrations (0.03 to 0.3 mg/ml), has been investigated. DNA solutions are now used routinely as model polymeric systems due to their near-perfect monodispersity. Measurements have been carried out with a filament stretching rheometer since it is the most reliable method for obtaining an estimate of the elongational stress growth of a polymer solution. Transient and steady-state uniaxial extensional viscosities of DNA dissolved in a solvent under excess salt conditions, with a high concentration of sucrose in order to achieve a sufficiently high solvent viscosity, have been determined in the semidilute regime at room temperature. The dependence of the steady state uniaxial extensional viscosity on molecular weight, concentration and extension rate is measured with a view to determining if data collapse can be observed with an appropriate choice of variables. Steady state shear viscosity measurements suggest that sucrose-DNA interactions might play a role in determining the observed rheological behaviour of semidilute DNA solutions with sucrose as a component in the solvent.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-13T10:47:48Z</published>
+    <arxiv:comment>30 pages, 9 figures, submitted to Korea-Australia Rheology Journal</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>Korea-Australia Rheology J., 31, 2019, 256-266</arxiv:journal_ref>
+    <author>
+      <name>Sharadwata Pan</name>
+    </author>
+    <author>
+      <name>Duc At Nguyen</name>
+    </author>
+    <author>
+      <name>P. Sunthar</name>
+    </author>
+    <author>
+      <name>T. Sridhar</name>
+    </author>
+    <author>
+      <name>J. Ravi Prakash</name>
+    </author>
+    <arxiv:doi>10.1007/s13367-019-0026-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s13367-019-0026-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.2606v1</id>
+    <title>$\ell^1$ penalty for ill-posed inverse problems</title>
+    <updated>2007-09-17T12:34:34Z</updated>
+    <link href="https://arxiv.org/abs/0709.2606v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.2606v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We tackle the problem of recovering an unknown signal observed in an ill-posed inverse problem framework. More precisely, we study a procedure commonly used in numerical analysis or image deblurring: minimizing an empirical loss function balanced by an $l^1$ penalty, acting as a sparsity constraint. We prove that, by choosing a proper loss function, this estimation technique enables to build an adaptive estimator, in the sense that it converges at the optimal rate of convergence without prior knowledge of the regularity of the true solution</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-17T12:34:34Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>J. M. Loubes</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.16898v2</id>
+    <title>On the existence of optimal multi-valued decoders and their accuracy bounds for ill-posed inverse problems</title>
+    <updated>2026-06-25T13:19:58Z</updated>
+    <link href="https://arxiv.org/abs/2311.16898v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.16898v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ill-posed inverse problems occur everywhere in the sciences including medical imaging, radar, astronomy etc., yielding underdetermined or ill-posed linear (non-linear) reconstruction problems. There are now a myriad of techniques to design decoders/reconstruction-methods that can tackle such problems, ranging from optimization based approaches, such as compressed sensing, to data-driven techniques such as deep learning (DL), and variants in between the two techniques. The variety of methods begs for a unifying approach to determine the existence of optimal decoders and fundamental accuracy bounds, in order to facilitate a theoretical and empirical understanding of the performance of existing and future methods. Such a theory must allow for both single-valued and set-valued decoders, as underdetermined and ill-posed inverse problems typically have multiple solutions. Indeed, set-valued decoders arise due to non-uniqueness of minimizers in optimisation problems, such as in compressed sensing, and for DL based decoders in generative adversarial models, such as diffusion models and ensemble models. In this work we provide a framework for assessing the lowest possible reconstruction accuracy in terms of worst-case and average errors. The universal bounds only depend on the measurement model $F$, the model class $\mathcal{M}_1$ and the noise model $\mathcal{E}$. For linear $F$ these bounds depend on its kernel, and in the non-linear case the concept of kernel is generalized for undersampled and ill-posed settings. Additionally, we provide set-valued variational solutions that obtain the lowest possible reconstruction error.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-28T15:51:00Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Nina Maria Gottschling</name>
+    </author>
+    <author>
+      <name>Paolo Campodonico</name>
+    </author>
+    <author>
+      <name>Vegard Antun</name>
+    </author>
+    <author>
+      <name>Anders C. Hansen</name>
+    </author>
+  </entry>
+</feed>

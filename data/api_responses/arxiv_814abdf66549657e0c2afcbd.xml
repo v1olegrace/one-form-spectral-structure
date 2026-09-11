@@ -1,0 +1,656 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/z+j1dQjbG5SKtNseL3g9akRXTqM</id>
+  <title>arXiv Query: search_query=all:generalized OR all:pencil OR all:of OR all:function OR all:method OR all:transient OR all:electromagnetic&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:50:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:generalized+OR+(all:pencil+OR+(all:of+OR+(all:function+OR+(all:method+OR+(all:transient+OR+all:electromagnetic)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1749209</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.17841v1</id>
+    <title>Truly Sub-Nyquist Method Based Matrix Pencil and CRT with Super Resolution</title>
+    <updated>2024-10-23T13:06:42Z</updated>
+    <link href="https://arxiv.org/abs/2410.17841v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.17841v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emergence of ultra-wideband (UWB) and high-throughput signals has necessitated advancements in data sampling technologies1. Sub-Nyquist sampling methods, such as the modulated wideband converter (MWC) and compressed auto-correlation spectrum sensing (CCS), address the limitations of traditional analog-to-digital converters (ADCs) by capturing signals below the Nyquist rate. However, these methods face challenges like spectral leakage and complex hardware requirements. This paper proposes a novel super-resolution generalized eigenvalue method that integrates the matrix pencil method with the Chinese Remainder Theorem (CRT) to enhance signal processing capabilities within a true sub-Nyquist framework3. This approach aims to improve frequency resolution and accuracy in high-frequency signal extraction, with potential applications in telecommunications, radar, and medical imaging.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-23T13:06:42Z</published>
+    <arxiv:comment>Sub-nyquist sampling, Matrix pencil method, CRT, Super resolution</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Huiguang Zhang</name>
+    </author>
+    <author>
+      <name>Baoguo Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.17261v1</id>
+    <title>Performance of the front-end electronics of the CMS electromagnetic calorimeter barrel for the High-Luminosity LHC</title>
+    <updated>2025-11-21T14:06:54Z</updated>
+    <link href="https://arxiv.org/abs/2511.17261v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.17261v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The performance of the CMS electromagnetic calorimeter upgraded readout electronics, developed for the High-Luminosity phase of the LHC, is discussed. Data collected in two beam test campaigns conducted in 2018 and 2021 at the H4 and H2 beam lines of the CERN SPS are analyzed. Time and energy resolutions are measured on a $5\times 5$ matrix of lead tungstate crystals equipped with prototypes of the new front end readout electronics, using electron and pion beams of energies spanning from 25 to 250 GeV. In both campaigns the constant term of the energy resolution is measured to be better than 0.6% and the time resolution for electrons with energies above 50 GeV is measured to be better than 30 ps, fulfilling the design requirements.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-21T14:06:54Z</published>
+    <arxiv:comment>17 pages + 5 author pages, 21 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name> The CMS Electromagnetic Calorimeter Group</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.14337v2</id>
+    <title>PENCIL: Long Thoughts with Short Memory</title>
+    <updated>2025-07-06T22:23:16Z</updated>
+    <link href="https://arxiv.org/abs/2503.14337v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.14337v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While state-of-the-art LLMs have demonstrated great promise of using long Chains-of-Thought (CoT) to boost reasoning, scaling it up to more challenging problems at test-time is fundamentally limited by suboptimal memory usage -- intermediate computations accumulate indefinitely in context even when no longer needed for future thoughts. We introduce PENCIL, which incorporates a novel reduction mechanism into the autoregressive generation process that recursively cleans up intermediate thoughts based on patterns learned from training. By iteratively generating and erasing thoughts, PENCIL can think deeper to solve harder problems using shorter context and less compute. Empirically, we observe PENCIL is significantly more effective and efficient than CoT. For example, we demonstrate PENCIL with a small 25M-parameter transformer and 2048 context length solves Einstein's puzzle -- a task that challenges much larger models like GPT-4. Theoretically, we prove PENCIL can perform universal efficient computation by simulating any Turing machines with optimal time and space complexity, and thus can solve arbitrary computable tasks that are otherwise intractable for vanilla CoT.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-18T15:14:14Z</published>
+    <arxiv:comment>Accepted to ICML 2025. Codes in https://github.com/chr26195/PENCIL</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chenxiao Yang</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+    <author>
+      <name>David McAllester</name>
+    </author>
+    <author>
+      <name>Zhiyuan Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0608012v1</id>
+    <title>Energy Linearity and Resolution of the ATLAS Electromagnetic Barrel Calorimeter in an Electron Test-Beam</title>
+    <updated>2006-08-01T17:15:50Z</updated>
+    <link href="https://arxiv.org/abs/physics/0608012v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0608012v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A module of the ATLAS electromagnetic barrel liquid argon calorimeter was exposed to the CERN electron test-beam at the H8 beam line upgraded for precision momentum measurement. The available energies of the electron beam ranged from 10 to 245 GeV. The electron beam impinged at one point corresponding to a pseudo-rapidity of eta=0.687 and an azimuthal angle of phi=0.28 in the ATLAS coordinate system. A detailed study of several effects biasing the electron energy measurement allowed an energy reconstruction procedure to be developed that ensures a good linearity and a good resolution. Use is made of detailed Monte Carlo simulations based on Geant which describe the longitudinal and transverse shower profiles as well as the energy distributions. For electron energies between 15 GeV and 180 GeV the deviation of the measured incident electron energy over the beam energy is within 0.1%. The systematic uncertainty of the measurement is about 0.1% at low energies and negligible at high energies. The energy resolution is found to be about 10% sqrt(E) for the sampling term and about 0.2% for the local constant term.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-08-01T17:15:50Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Nucl.Instrum.Meth.A568:601-623,2006</arxiv:journal_ref>
+    <author>
+      <name>M. Aharrouche</name>
+    </author>
+    <author>
+      <name>ATLAS Electromagnetic Barrel Calorimeter Collaboration</name>
+    </author>
+    <arxiv:doi>10.1016/j.nima.2006.07.053</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nima.2006.07.053" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.07815v1</id>
+    <title>The JCMT Transient Survey: Single Epoch Transients and Variability of Faint Sources</title>
+    <updated>2022-08-16T15:59:12Z</updated>
+    <link href="https://arxiv.org/abs/2208.07815v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.07815v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Short-duration flares at millimeter wavelengths provide unique insights into the strongest magnetic reconnection events in stellar coronae, and combine with longer-term variability to introduce complications to next-generation cosmology surveys. We analyze 5.5 years of JCMT Transient Survey 850 micron submillimeter monitoring observations toward eight Gould Belt star-forming regions to search for evidence of transient events or long-duration variability from faint sources. The eight regions (30 arcmin diameter fields), including ~1200 infrared-selected YSOs, have been observed on average 47 times with integrations of approximately half an hour, or one day total spread over 5.5 years. Within this large data set, only two robust faint source detections are recovered: JW 566 in OMC 2/3 and MGM12 2864 in NGC 2023. JW 566, a Class II TTauri binary system previously identified as an extraordinary submillimeter flare, remains unique, the only clear single-epoch transient detection in this sample with a flare eight times bright than our ~4.5 sigma detection threshold of 55 mJy/beam. The lack of additional recovered flares intermediate between JW 566 and our detection limit is puzzling, if smaller events are more common than larger events. In contrast, the other submillimeter variable identified in our analysis, Source 2864, is highly variable on all observed timescales. Although Source 2864 is occasionally classified as a YSO, the source is most likely a blazar. The degree of variability across the electromagnetic spectrum may be used to aid source classification.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-16T15:59:12Z</published>
+    <arxiv:comment>Accepted for publication in the Astrophysicall Journal. 17 pages, 6 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>Doug Johnstone</name>
+    </author>
+    <author>
+      <name>Bhavana Lalchand</name>
+    </author>
+    <author>
+      <name>Steve Mairs</name>
+    </author>
+    <author>
+      <name>Hsien Shang</name>
+    </author>
+    <author>
+      <name>Wen Ping Chen</name>
+    </author>
+    <author>
+      <name>Geoffrey C. Bower</name>
+    </author>
+    <author>
+      <name>Gregory J. Herczeg</name>
+    </author>
+    <author>
+      <name>Jeong-Eun Lee</name>
+    </author>
+    <author>
+      <name>Jan Forbrich</name>
+    </author>
+    <author>
+      <name>Bo-Yan Chen</name>
+    </author>
+    <author>
+      <name>Carlos Contreras-Pena</name>
+    </author>
+    <author>
+      <name>Yong-Hee Lee</name>
+    </author>
+    <author>
+      <name>Wooseok Park</name>
+    </author>
+    <author>
+      <name>Colton Broughton</name>
+    </author>
+    <author>
+      <name>Spencer Plovie</name>
+    </author>
+    <author>
+      <name>The JCMT Transient Team</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/ac8a48</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/ac8a48" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.07600v1</id>
+    <title>Effective Medium Theory of Electromagnetic and Quantum Metamaterials</title>
+    <updated>2016-09-24T10:46:30Z</updated>
+    <link href="https://arxiv.org/abs/1609.07600v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.07600v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Here, we present an overview of recent developments in the characterization of electromagnetic and quantum metamaterials using effective medium methods. It is highlighted that both electromagnetic and electronic systems can be homogenized in a unified manner based on the introduction of an effective Hamiltonian operator that describes the time evolution of the macroscopic initial states as well as the stationary states of the relevant system. Furthermore, it is shown that in some circumstances quadratic forms of the fields, such as the energy, can be exactly determined using the effective medium theory.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-24T10:46:30Z</published>
+    <arxiv:comment>chapter in the book "Electromagnetic Metamaterials" edited by (edited by Ekaterina Shamonina and Stefan Maier), World Scientific (in press)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>WORLD SCIENTIFIC HANDBOOK OF METAMATERIALS AND PLASMONICS, 2017, Volume 1: Electromagnetic Metamaterials, ISBN: 978-981-3227-61-3</arxiv:journal_ref>
+    <author>
+      <name>Mario G. Silveirinha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.04380v1</id>
+    <title>Physics-Informed Neural Networks for the Numerical Modeling of Steady-State and Transient Electromagnetic Problems with Discontinuous Media</title>
+    <updated>2024-06-06T00:11:51Z</updated>
+    <link href="https://arxiv.org/abs/2406.04380v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.04380v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Physics-informed neural networks (PINNs) have emerged as a promising numerical method based on deep learning for modeling boundary value problems, showcasing promising results in various fields. In this work, we use PINNs to discretize three-dimensional electromagnetic, parametric problems, with material discontinuities, covering both static and transient regimes. By replacing the discontinuous material properties with a continuous approximation, we eliminate the need to directly enforce interface conditions. Using the Neural Tangent Kernel (NTK) analysis, we show that using the first-order formulation of Maxwell's equations is more suitable for interface problems. We introduce a PINN-based decomposition on overlapping domains to enhance the convergence rate of the PINN.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-06T00:11:51Z</published>
+    <arxiv:comment>3 dimensional and transient problems with discontinuous media</arxiv:comment>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Michel Nohra</name>
+    </author>
+    <author>
+      <name>Steven Dufour</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.4758v2</id>
+    <title>Optical imaging of transient acoustic fields using a phase contrast method</title>
+    <updated>2014-07-18T13:44:42Z</updated>
+    <link href="https://arxiv.org/abs/1407.4758v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.4758v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A coherent phase-contrast optical system has been designed and tested for tomographic imaging of pressure fields from experimental transient acoustic signals. The system is similar to the pulsed, central-order schlieren method, but uses a Fourier filtering technique that images the actual acoustic pressure field, where the former technique reconstructs only the absolute value of the field. Simulations of the system are performed using a single-cycle sine-wave acoustic pulse. Experimental images resulting from a broad-band Gaussian pulse input to an underwater piezoceramic transducer array are presented. Relative pressure field s are reconstructed in space over a series of times after the source excitation. Theory and limitations of the phase contrast system are discussed.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-17T18:01:55Z</published>
+    <arxiv:comment>From "Evaluation of transient and highly localized acoustic fields using acoustooptic phase contrast imaging" (2000). Chapter 1: Optical imaging of transient acoustic fields using a phase contrast method</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>G. T. Clement</name>
+    </author>
+    <author>
+      <name>S. V. Letcher</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.01897v2</id>
+    <title>The JCMT Transient Survey: Data Reduction and Calibration Methods</title>
+    <updated>2017-07-28T00:09:46Z</updated>
+    <link href="https://arxiv.org/abs/1706.01897v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.01897v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Though there has been a significant amount of work investigating the early stages of low-mass star formation in recent years, the evolution of the mass assembly rate onto the central protostar remains largely unconstrained. Examining in depth the variation in this rate is critical to understanding the physics of star formation. Instabilities in the outer and inner circumstellar disk can lead to episodic outbursts. Observing these brightness variations at infrared or submillimetre wavelengths sets constraints on the current accretion models. The JCMT Transient Survey is a three-year project dedicated to studying the continuum variability of deeply embedded protostars in eight nearby star-forming regions at a one month cadence. We use the SCUBA-2 instrument to simultaneously observe these regions at wavelengths of 450 $μ$m and 850 $μ$m. In this paper, we present the data reduction techniques, image alignment procedures, and relative flux calibration methods for 850 $μ$m data. We compare the properties and locations of bright, compact emission sources fitted with Gaussians over time. Doing so, we achieve a spatial alignment of better than 1" between the repeated observations and an uncertainty of 2-3\% in the relative peak brightness of significant, localised emission. This combination of imaging performance is unprecedented in ground-based, single dish submillimetre observations. Finally, we identify a few sources that show possible and confirmed brightness variations. These sources will be closely monitored and presented in further detail in additional studies throughout the duration of the survey.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-06T18:00:07Z</published>
+    <arxiv:comment>24 pages, 15 figures, 2 Tables, Accepted in ApJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Steve Mairs</name>
+    </author>
+    <author>
+      <name>James Lane</name>
+    </author>
+    <author>
+      <name>Doug Johnstone</name>
+    </author>
+    <author>
+      <name>Helen Kirk</name>
+    </author>
+    <author>
+      <name>Kevin Lacaille</name>
+    </author>
+    <author>
+      <name>Geoffrey C. Bower</name>
+    </author>
+    <author>
+      <name>Graham S. Bell</name>
+    </author>
+    <author>
+      <name>Sarah Graves</name>
+    </author>
+    <author>
+      <name>Scott Chapman</name>
+    </author>
+    <author>
+      <name>The JCMT Transient Survey Team</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/aa7844</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/aa7844" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.01690v1</id>
+    <title>Study of Electromagnetic Properties of Pencil Drawn graphite composite Films on Paper</title>
+    <updated>2018-06-05T13:46:01Z</updated>
+    <link href="https://arxiv.org/abs/1806.01690v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.01690v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graphite has been one of the promising materials in diverse application domains owing to its high conductivity, tunability into different structures and mechanical strength its. The effectiveness of graphite and its derivatives has been studied for electromagnetic domains as well. Pencil strokes on paper create a film of graphite composites which is reported to be useful for fabrication of electronic components. In our study, we extend use of pencil traces on paper for studying its electromagnetic properties. The pencil traces on paper is facile method of coating graphite composite films with relatively lower cost and ease of processing. The interaction of electromagnetic wave with graphite composites produces in modulation of the incident RF power. The RF power was observed to get attenuated with pencil coating on paper as compared to plain paper. The attenuation increased with increasing the signal frequency. Further, stacking more pencil coated papers onto each other results in increasing attenuation factor. Additionally, these pencil coated paper roll was able to attenuate the incoming noise signals in the radio signal reception. This demonstrates potential ability of pencil coated papers to be used for small RF power attenuation applications.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-05T13:46:01Z</published>
+    <arxiv:comment>16 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Amit R. Morarka</name>
+    </author>
+    <author>
+      <name>Aditee C. Joshi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.00044v3</id>
+    <title>Pseudospectra of Matrix Pencils for Transient Analysis of Differential-Algebraic Equations</title>
+    <updated>2017-06-27T21:27:57Z</updated>
+    <link href="https://arxiv.org/abs/1601.00044v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.00044v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To understand the solution of a linear, time-invariant differential-algebraic equation, one must analyze a matrix pencil (A,E) with singular E. Even when this pencil is stable (all its finite eigenvalues fall in the left-half plane), the solution can exhibit transient growth before its inevitable decay. When the equation results from the linearization of a nonlinear system, this transient growth gives a mechanism that can promote nonlinear instability. One might hope to enrich the conventional large-scale eigenvalue calculation used for linear stability analysis to signal the potential for such transient growth. Toward this end, we introduce a new definition of the pseudospectrum of a matrix pencil, use it to bound transient growth, explain how to incorporate a physically-relevant norm, and derive approximate pseudospectra using the invariant subspace computed in conventional linear stability analysis. We apply these tools to several canonical test problems in fluid mechanics, an important source of differential-algebraic equations.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-01T03:57:36Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Mark Embree</name>
+    </author>
+    <author>
+      <name>Blake Keeler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.09565v1</id>
+    <title>Background-free Tracking of Ultrafast Hole and Electron Dynamics with XUV Transient Grating Spectroscopy</title>
+    <updated>2026-02-10T09:15:18Z</updated>
+    <link href="https://arxiv.org/abs/2602.09565v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.09565v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Extreme ultraviolet (XUV) transient absorption (TA) and transient reflectivity (TR) spectroscopies enable element-specific insights into attosecond-timescale processes in solids. XUV transient grating spectroscopy (TGS) is an emerging tool that combines the advantages of both absorption and reflectivity while offering intrinsically background-free detection. Here, we implement XUV-TGS by generating a transient grating in germanium solid using two few-cycle near-infrared pulses and probing it with an attosecond XUV pulse, produced via tabletop high-harmonic generation. The spectrally resolved, diffracted XUV pulses directly visualize the separate ultrashort decay times of both photoexcited electrons and holes, without the need for iterative deconvolution. By combining XUV-TA and -TG spectroscopy, we extract the evolution of the complex refractive index, ñ, without the need for Kramers-Kronig reconstruction, as required in XUV-TR, allowing us to extract the roots of the induced optical response. We find reflectivity changes of up to 34% via the real part of ñ, whereas changes in the imaginary part only result in a variation in reflectivity of around 0.5%.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-10T09:15:18Z</published>
+    <arxiv:comment>Transient Grating; XUV; Germanium</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Vincent Eggers</name>
+    </author>
+    <author>
+      <name>Rafael Quintero-Bermudez</name>
+    </author>
+    <author>
+      <name>Kevin Gulu Xiong</name>
+    </author>
+    <author>
+      <name>Stephen R. Leone</name>
+    </author>
+    <arxiv:doi>10.1021/acsphotonics.6c00152</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsphotonics.6c00152" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.00155v2</id>
+    <title>T-3DGS: Removing Transient Objects for 3D Scene Reconstruction</title>
+    <updated>2025-03-08T11:58:03Z</updated>
+    <link href="https://arxiv.org/abs/2412.00155v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.00155v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transient objects in video sequences can significantly degrade the quality of 3D scene reconstructions. To address this challenge, we propose T-3DGS, a novel framework that robustly filters out transient distractors during 3D reconstruction using Gaussian Splatting. Our framework consists of two steps. First, we employ an unsupervised classification network that distinguishes transient objects from static scene elements by leveraging their distinct training dynamics within the reconstruction process. Second, we refine these initial detections by integrating an off-the-shelf segmentation method with a bidirectional tracking module, which together enhance boundary accuracy and temporal coherence. Evaluations on both sparsely and densely captured video datasets demonstrate that T-3DGS significantly outperforms state-of-the-art approaches, enabling high-fidelity 3D reconstructions in challenging, real-world scenarios.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-29T07:45:24Z</published>
+    <arxiv:comment>Project website at https://transient-3dgs.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Alexander Markin</name>
+    </author>
+    <author>
+      <name>Vadim Pryadilshchikov</name>
+    </author>
+    <author>
+      <name>Artem Komarichev</name>
+    </author>
+    <author>
+      <name>Ruslan Rakhimov</name>
+    </author>
+    <author>
+      <name>Peter Wonka</name>
+    </author>
+    <author>
+      <name>Evgeny Burnaev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.01595v1</id>
+    <title>Integral means inequalities, convolution, and univalent functions</title>
+    <updated>2019-02-05T08:55:07Z</updated>
+    <link href="https://arxiv.org/abs/1902.01595v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.01595v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use the Baernstein star-function to investigate several questions about the integral means of the convolution of two analytic functions in the unit disc. The theory of univalent functions plays a basic role in our work.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-05T08:55:07Z</published>
+    <arxiv:comment>To appear in Journal of Function Spaces</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Journal of Function Spaces, Article ID 7817353, Volume 2019 (2019), 5 pages</arxiv:journal_ref>
+    <author>
+      <name>Daniel Girela</name>
+    </author>
+    <author>
+      <name>Cristóbal González</name>
+    </author>
+    <arxiv:doi>10.1155/2019/7817353</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1155/2019/7817353" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.00440v1</id>
+    <title>A non-symmetric coupling of the finite volume method and the boundary element method</title>
+    <updated>2015-09-01T18:59:36Z</updated>
+    <link href="https://arxiv.org/abs/1509.00440v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.00440v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As model problem we consider the prototype for flow and transport of a concentration in porous media in an interior domain and couple it with a diffusion process in the corresponding unbounded exterior domain. To solve the problem we develop a new non-symmetric coupling between the vertex-centered finite volume and boundary element method. This discretization provides naturally conservation of local fluxes and with an upwind option also stability in the convection dominated case. We aim to provide a first rigorous analysis of the system for different model parameters; stability, convergence, and a~priori estimates. This includes the use of an implicit stabilization, known from the finite element and boundary element method coupling. Some numerical experiments conclude the work and confirm the theoretical results.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-01T18:59:36Z</published>
+    <arxiv:comment>finite volume method, boundary element method, non-symmetric coupling, convection dominated, existence and uniqueness, convergence, a priori estimate</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Christoph Erath</name>
+    </author>
+    <author>
+      <name>Günther Of</name>
+    </author>
+    <author>
+      <name>Francisco-Javier Sayas</name>
+    </author>
+    <arxiv:doi>10.1007/s00211-016-0820-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00211-016-0820-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.8185v1</id>
+    <title>The Zwicky Transient Facility</title>
+    <updated>2014-10-29T22:39:44Z</updated>
+    <link href="https://arxiv.org/abs/1410.8185v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.8185v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Zwicky Transient Facility (ZTF) is a next-generation optical synoptic survey that builds on the experience and infrastructure of the Palomar Transient Factory (PTF). Using a new 47 deg$^2$ survey camera, ZTF will survey more than an order of magnitude faster than PTF to discover rare transients and variables. I describe the survey and the camera design. Searches for young supernovae, fast transients, counterparts to gravitational-wave detections, and rare variables will benefit from ZTF's high cadence, wide area survey.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-29T22:39:44Z</published>
+    <arxiv:comment>6 pages. Published in Proceedings of the Third Hot-Wiring the Transient Universe Workshop, available at http://www.slac.stanford.edu/econf/C131113.1/proceedings.html</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Eric C. Bellm</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.00617v2</id>
+    <title>A Fault Location Method Using Direct Convolution: Electromagnetic Time Reversal or Not Reversal</title>
+    <updated>2022-02-24T04:51:42Z</updated>
+    <link href="https://arxiv.org/abs/2112.00617v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.00617v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electromagnetic time reversal (EMTR) is drawing increasing interest in short-circuit fault location. In this letter, we investigate the classic EMTR fault location methods and find that it is not necessary to reverse the obtained signal in time which is a standard operation in these methods before injecting it into the network. The effectiveness of EMTR fault location method results from the specific similarity of the transfer functions in the forward and reverse processes. Therefore, we can inject an arbitrary type and length of source in the reverse process to locate the fault. Based on this observation, we propose a new EMTR fault location method using direct convolution. This method is different from the traditional methods, and it only needs to pre-calculate the assumed fault transients for a given network, which can be stored in embedded hardware. The faults can be located efficiently via direct convolution of the signal collected from a fault and the pre-stored calculated transients, even using a fraction of the fault signal.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-27T14:35:54Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <arxiv:journal_ref>IEEE Transactions on Electromagnetic Compatibility. 2022</arxiv:journal_ref>
+    <author>
+      <name>Guanbo Wang</name>
+    </author>
+    <author>
+      <name>Chijie Zhuang</name>
+    </author>
+    <arxiv:doi>10.1109/TEMC.2022.3168012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TEMC.2022.3168012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.16288v2</id>
+    <title>Pencil Beamforming Increases Human Exposure to ElectroMagnetic Fields: True or False?</title>
+    <updated>2021-01-21T16:28:10Z</updated>
+    <link href="https://arxiv.org/abs/2010.16288v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.16288v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>According to a very popular belief - very widespread among non-scientific communities - the exploitation of narrow beams, a.k.a. "pencil beamforming", results in a prompt increase of exposure levels radiated by 5G Base Stations (BSs). To face such concern with a scientific approach, in this work we propose a novel localization-enhanced pencil beamforming technique, in which the traffic beams are tuned in accordance with the uncertainty localization levels of User Equipment (UE). Compared to currently deployed beamforming techniques, which generally employ beams of fixed width, we exploit the localization functionality made available by the 5G architecture to synthesize the direction and the width of each pencil beam towards each served UE. We then evaluate the effectiveness of pencil beamforming in terms of ElectroMagnetic Field (EMF) exposure and UE throughput levels over different realistic case-studies. Results, obtained from a publicly released open-source simulator, dispel the myth: the adoption of localization-enhanced pencil beamforming triggers a prompt reduction of exposure w.r.t. other alternative techniques, which include e.g., beams of fixed width and cellular coverage not exploiting beamforming. The EMF reduction is achieved not only for the UE that are served by the pencil beams, but also over the whole territory (including the locations in proximity to the 5G BS). In addition, large throughput levels - adequate for most of 5G services - can be guaranteed when each UE is individually served by one dedicated beam.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-30T14:31:54Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Luca Chiaraviglio</name>
+    </author>
+    <author>
+      <name>Simone Rossetti</name>
+    </author>
+    <author>
+      <name>Sara Saida</name>
+    </author>
+    <author>
+      <name>Stefania Bartoletti</name>
+    </author>
+    <author>
+      <name>Nicola Blefari-Melazzi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.02790v2</id>
+    <title>Transient electromagnetic sources can detect solitary black holes in Milky Way galaxy</title>
+    <updated>2024-12-13T21:27:32Z</updated>
+    <link href="https://arxiv.org/abs/2401.02790v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.02790v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Milky Way galaxy is estimated to host up to a billion stellar-mass solitary black holes (BHs). The number and distribution of BH masses can provide crucial information about the processes involved in BH formation, the existence of primordial BHs, and the interpretation of gravitational wave (GW) signals detected in LIGO-VIRGO-KAGRA. {Sahu et al. recently confirmed one solitary stellar-mass BH in our galaxy using astrometric microlensing}. This work proposes a novel mechanism to identify such BH by analyzing the frequency and damping of the quasi-normal modes of GW generated from the interaction of the BH and EM wave originating from a transient electromagnetic (TEM) source. The incoming EM waves distort the curvature of a BH, releasing GWs as it returns to a steady state. Using the covariant semi-tetrad formalism, we quantify the generated GWs via the \emph{Regge-Wheeler tensor} and relate the GW amplitude to the energy of the TEM. We demonstrate that isolated BHs at a distance of 50 pc from Earth can be detected by LIGO A+ and 100 pc by Cosmic Explorer/Einstein Telescope. Additionally, we discuss the observational implications for orphan afterglows associated with GRBs, highlighting the potential for further discoveries.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-05T13:00:29Z</published>
+    <arxiv:comment>V2: Version accepted in MNRAS Letters. The discussions expanded to more generic transient EM sources and implications for LIGO A+, Cosmic Explorer, and Einstein Telescope</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>MNRAS Letters 537, L87 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Susmita Jana</name>
+      <arxiv:affiliation>IIT Bombay</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rituparno Goswami</name>
+      <arxiv:affiliation>UKZN</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Shankaranarayanan</name>
+      <arxiv:affiliation>IIT Bombay</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sunil D. Maharaj</name>
+      <arxiv:affiliation>UKZN</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1093/mnrasl/slae119</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnrasl/slae119" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.03549v1</id>
+    <title>The JCMT Transient Survey: Six-Year Summary of 450/850\,$μ$m Protostellar Variability and Calibration Pipeline Version 2.0</title>
+    <updated>2024-01-07T17:19:40Z</updated>
+    <link href="https://arxiv.org/abs/2401.03549v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.03549v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The JCMT Transient Survey has been monitoring eight Gould Belt low-mass star-forming regions since December 2015 and six somewhat more distant intermediate-mass star-forming regions since February 2020 with SCUBA-2 on the JCMT at \ShortS and \LongS and with an approximately monthly cadence. We introduce our Pipeline v2 relative calibration procedures for image alignment and flux calibration across epochs, improving on our previous Pipeline v1 by decreasing measurement uncertainties and providing additional robustness. These new techniques work at both \LongS and \ShortNS, where v1 only allowed investigation of the \LongS data. Pipeline v2 achieves better than $0.5^{\prime\prime}$ relative image alignment, less than a tenth of the submillimeter beam widths. The v2 relative flux calibration is found to be 1\% at \LongS and $&lt;5$\% at \ShortNS. The improvement in the calibration is demonstrated by comparing the two pipelines over the first four years of the survey and recovering additional robust variables with v2. Using the full six years of the Gould Belt survey the number of robust variables increases by 50\,\%, and at \ShortS we identify four robust variables, all of which are also robust at \LongNS. The multi-wavelength light curves for these sources are investigated and found to be consistent with the variability being due to dust heating within the envelope in response to accretion luminosity changes from the central source.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-07T17:19:40Z</published>
+    <arxiv:comment>Accepted for Publication in the The Astrophysical Journal. DOI link to data will become public after the proof stage is complete</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Steve Mairs</name>
+    </author>
+    <author>
+      <name>Seonjae Lee</name>
+    </author>
+    <author>
+      <name>Doug Johnstone</name>
+    </author>
+    <author>
+      <name>Colton Broughton</name>
+    </author>
+    <author>
+      <name>Jeong-Eun Lee</name>
+    </author>
+    <author>
+      <name>Gregory J. Herczeg</name>
+    </author>
+    <author>
+      <name>Graham S. Bell</name>
+    </author>
+    <author>
+      <name>Zhiwei Chen</name>
+    </author>
+    <author>
+      <name>Carlos Contreras-Peña</name>
+    </author>
+    <author>
+      <name>Logan Francis</name>
+    </author>
+    <author>
+      <name>Jennifer Hatchell</name>
+    </author>
+    <author>
+      <name>Mi-Ryang Kim</name>
+    </author>
+    <author>
+      <name>Sheng-Yuan Liu</name>
+    </author>
+    <author>
+      <name>Geumsook Park</name>
+    </author>
+    <author>
+      <name>Keping Qiu</name>
+    </author>
+    <author>
+      <name>Yao-Te Wang</name>
+    </author>
+    <author>
+      <name>Xu Zhang</name>
+    </author>
+    <author>
+      <name>The JCMT Transient Team</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.2356v1</id>
+    <title>The VAO Transient Facility</title>
+    <updated>2011-11-09T21:53:42Z</updated>
+    <link href="https://arxiv.org/abs/1111.2356v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.2356v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The time domain community wants robust and reliable tools to enable production of and subscription to community-endorsed event notification packets (VOEvent). The VAO Transient Facility (VTF) is being designed to be the premier brokering service for the community, both collecting and disseminating observations about time-critical astronomical transients but also supporting annotations and the application of intelligent machine-learning to those observations. This distinguishes two types of activity associated with the facility: core infrastructure and user services. In this paper, we will review the prior art in both areas and describe the planned capabilities of the VTF. In particular, we will focus on scalability and quality-of-service issues required by the next generation of sky surveys, such as LSST and SKA.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-09T21:53:42Z</published>
+    <arxiv:comment>3 pages, to appear in Proc. IAU 285, "New Horizons in Transient Astronomy", Oxford, Sept. 2011</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Matthew J. Graham</name>
+    </author>
+    <author>
+      <name>S. G. Djorgovski</name>
+    </author>
+    <author>
+      <name>Andrew Drake</name>
+    </author>
+    <author>
+      <name>Ashish Mahabal</name>
+    </author>
+    <author>
+      <name>Roy Williams</name>
+    </author>
+    <author>
+      <name>Rob Seaman</name>
+    </author>
+    <arxiv:doi>10.1017/S1743921312000920</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S1743921312000920" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0805.2050v1</id>
+    <title>A Radial-Dependent Dispersive Finite-Difference Time-Domain Method for the Evaluation of Electromagnetic Cloaks</title>
+    <updated>2008-05-14T12:50:34Z</updated>
+    <link href="https://arxiv.org/abs/0805.2050v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0805.2050v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A radial-dependent dispersive finite-difference time-domain (FDTD) method is proposed to simulate electromagnetic cloaking devices. The Drude dispersion model is applied to model the electromagnetic characteristics of the cloaking medium. Both lossless and lossy cloaking materials are examined and their operating bandwidth is also investigated. It is demonstrated that the perfect "invisibility" from electromagnetic cloaks is only available for lossless metamaterials and within an extremely narrow frequency band.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-05-14T12:50:34Z</published>
+    <arxiv:comment>18 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <arxiv:journal_ref>C. Argyropoulos, Y. Zhao and Y. Hao, "A Radially-Dependent Dispersive Finite-Difference Time-Domain Method for the Evaluation of Electromagnetic Cloaks," IEEE Trans. On Antennas and Propagation, vol. 57, No. 5, pp. 1432-1441, 2009.</arxiv:journal_ref>
+    <author>
+      <name>Christos Argyropoulos</name>
+    </author>
+    <author>
+      <name>Yan Zhao</name>
+    </author>
+    <author>
+      <name>Yang Hao</name>
+    </author>
+    <arxiv:doi>10.1109/TAP.2009.2016704</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TAP.2009.2016704" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.12781v3</id>
+    <title>A Riemannian optimization method to compute the nearest singular pencil</title>
+    <updated>2024-03-12T16:07:24Z</updated>
+    <link href="https://arxiv.org/abs/2308.12781v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.12781v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a square pencil $A+ λB$, where $A$ and $B$ are $n\times n$ complex (resp. real) matrices, we consider the problem of finding the singular complex (resp. real) pencil nearest to it in the Frobenius distance. This problem is known to be very difficult, and the few algorithms available in the literature can only deal efficiently with pencils of very small size. We show that the problem is equivalent to minimizing a certain objective function $f$ over the Riemannian manifold $SU(n) \times SU(n)$ (resp. $SO(n) \times SO(n)$ if the nearest real singular pencil is sought), where $SU(n)$ denotes the special unitary group (resp. $SO(n)$ denotes the special orthogonal group). This novel perspective is based on the generalized Schur form of pencils, and yields competitive numerical methods, by pairing it with { algorithms} capable of doing optimization on { Riemannian manifolds. We propose one algorithm that directly minimizes the (almost everywhere, but not everywhere, differentiable) function $f$, as well as a smoothed alternative and a third algorithm that is smooth and can also solve the problem} of finding a nearest singular pencil with a specified minimal index. We provide numerical experiments that show that the resulting methods allow us to deal with pencils of much larger size than alternative techniques, yielding candidate minimizers of comparable or better quality. In the course of our analysis, we also obtain a number of new theoretical results related to the generalized Schur form of a (regular or singular) square pencil and to the minimal index of a singular square pencil whose nullity is $1$.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-24T13:37:35Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Froilán Dopico</name>
+    </author>
+    <author>
+      <name>Vanni Noferini</name>
+    </author>
+    <author>
+      <name>Lauri Nyman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.17423v1</id>
+    <title>Reconfigurable Electromagnetic Environments: A General Framework</title>
+    <updated>2023-03-30T14:44:53Z</updated>
+    <link href="https://arxiv.org/abs/2303.17423v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.17423v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recent introduction of the smart radio environments (SREs) paradigm, enabled by reconfigurable intelligent surfaces (RISs), has put in evidence the need for physically-consistent models and design tools for communication systems integrating electromagnetic (EM) and signal processing theories. In this perspective, starting from rigorous EM arguments, in this paper we propose a general framework for the characterization and design of programmable EM environments. We first show that any linear EM environment in the presence of boundary conditions can be interpreted as a space-variant linear feedback filter. Then we provide a methodology to characterize programmable EM systems as a linear graph described by matrix operators thus leading to the determination of the transfer function of the EM system. Finally, some examples are given related to the characterization and design of RISs, also showing that some previous results in the literature are just particular cases of our general framework.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-30T14:44:53Z</published>
+    <arxiv:comment>Submitted to JSAC - Special Issue on Electromagnetic Signal and Information Theory for Communications</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Davide Dardari</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.2780v2</id>
+    <title>Expression of Generalized Newton Iteration Method via Generalized Local Fractional Taylor Series</title>
+    <updated>2012-06-21T22:20:56Z</updated>
+    <link href="https://arxiv.org/abs/1106.2780v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.2780v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Local fractional derivative and integrals are revealed as one of useful tools to deal with everywhere continuous but nowhere differentiable functions in fractal areas ranging from fundamental science to engineering. In this paper, a generalized Newton iteration method derived from the generalized local fractional Taylor series with the local fractional derivatives is reviewed. Operators on real line numbers on a fractal space are induced from Cantor set to fractional set. Existence for a generalized fixed point on generalized metric spaces may take place.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-14T18:23:10Z</published>
+    <arxiv:comment>Yang, X.J.Expression of generalized Newton iteration method via generalized local fractional Taylor series, Advances in Computer Science and its Applications, 1(2) (2012) 89-92</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Advances in Computer Science and its Applications 1 (2) (2012), 89-92</arxiv:journal_ref>
+    <author>
+      <name>Yang Xiao-Jun</name>
+    </author>
+  </entry>
+</feed>

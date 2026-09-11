@@ -1,0 +1,905 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gc6hKiHzO9XtNlmfxv7DdsWQGk8</id>
+  <title>arXiv Query: search_query=all:analytic OR all:properties OR all:of OR all:the OR all:running OR all:coupling OR all:spectral OR all:density&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:39:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:analytic+OR+(all:properties+OR+(all:of+OR+(all:the+OR+(all:running+OR+(all:coupling+OR+(all:spectral+OR+all:density))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1047551</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1205.3026v2</id>
+    <title>Analytic calculation of doubly heavy hadron spectral density in coordinate space</title>
+    <updated>2012-08-30T12:53:59Z</updated>
+    <link href="https://arxiv.org/abs/1205.3026v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.3026v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A systematic and easy-to-use method is developed to calculate directly the doubly heavy hadron spectral density in the coordinate space. The correlation function is expressed in terms of hypergeometric functions, and the spectral density is obtained through two independent approaches: the simple integral representation method and the epsilon-expansion method, respectively. It is found that the spectral density of doubly heavy hadrons can be analytically expressed through commonly known simple functions. This method can drastically simplify and improve the QCD spectral sum rule calculation of the doubly heavy hadrons. An instructive numerical method is also presented for fast evaluation of the spectral density.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-14T13:54:16Z</published>
+    <arxiv:comment>An instructive numerical method is added for fast evaluation of the spectral density</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Zhi-Wei Huang</name>
+    </author>
+    <author>
+      <name>Jueping Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14334v4</id>
+    <title>Invariant subspaces of elliptic systems II: spectral theory</title>
+    <updated>2022-02-08T09:57:39Z</updated>
+    <link href="https://arxiv.org/abs/2103.14334v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14334v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider an elliptic self-adjoint pseudodifferential operator $A$ acting on $m$-columns of half-densities on a closed manifold $M$, whose principal symbol is assumed to have simple eigenvalues. We show that the spectrum of $A$ decomposes, up to an error with superpolynomial decay, into $m$ distinct series, each associated with one of the eigenvalues of the principal symbol of $A$. These spectral results are then applied to the study of propagation of singularities in hyperbolic systems. The key technical ingredient is the use of the carefully devised pseudodifferential projections introduced in the first part of this work, which decompose $L^2(M)$ into almost-orthogonal almost-invariant subspaces under the action of both $A$ and the hyperbolic evolution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T08:56:53Z</published>
+    <arxiv:comment>Minor edits, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, vol. 12 (2022), p. 301-338</arxiv:journal_ref>
+    <author>
+      <name>Matteo Capoferri</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0997v3</id>
+    <title>Spectral asymptotics for Robin problems with a discontinuous coefficient</title>
+    <updated>2011-01-27T13:41:51Z</updated>
+    <link href="https://arxiv.org/abs/1009.0997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral behavior of the difference between the resolvents of two realizations $\tilde A_1$ and $\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_1$ and $b_2$ are in $L_\infty$, the s-numbers $s_j$ of $(\tilde A_1 -λ)^{-1}-(\tilde A_2 -λ)^{-1}$ satisfy $s_j j^{3/(n-1)}\le C$ for all $j$; this improves a recent result for $A=-Δ$ by Behrndt et al., that $\sum_js_j ^p&lt;\infty$ for $p&gt;(n-1)/3$. A sharper estimate is obtained when $b_1$ and $b_2$ are in $C^ε$ for some $ε&gt;0$, with jumps at a smooth hypersurface, namely that $s_j j^{3/(n-1)}\to c$ for $j\to \infty$, with a constant $c$ defined from the principal symbol of $A$ and $b_2-b_1$.
+  As an auxiliary result we show that the usual principal spectral asymptotic estimate for pseudodifferential operators of negative order on a closed manifold extends to products of pseudodifferential operators interspersed with piecewise continuous functions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-06T09:28:34Z</published>
+    <arxiv:comment>20 pages, notation simplified. To appear in J. Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>J. Spectral Theory 1 (2011), 155-177</arxiv:journal_ref>
+    <author>
+      <name>Gerd Grubb</name>
+    </author>
+    <arxiv:doi>10.4171/JST/7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6015v1</id>
+    <title>The spectral function of a first order elliptic system</title>
+    <updated>2012-08-30T06:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1208.6015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of squares of Euclidean norms of eigenfunctions evaluated at a given point of the manifold, with summation carried out over all eigenvalues between zero and a positive lambda) and the counting function (number of eigenvalues between zero and a positive lambda). We derive explicit two-term asymptotic formulae for all three. For the propagator "asymptotic" is understood as asymptotic in terms of smoothness, whereas for the spectral and counting functions "asymptotic" is understood as asymptotic with respect to lambda tending to plus infinity.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-30T06:55:33Z</published>
+    <arxiv:comment>This preprint is "part a" (proper subset) of preprint arXiv:1204.6567. Preprint arXiv:1204.6567 is being split into two parts on the recommendation of the referee of Journal of Spectral Theory. "Part b" will appear as a separate preprint under the title "Spectral theoretic characterization of the massless Dirac operator"</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2013, vol. 3, p. 317-360</arxiv:journal_ref>
+    <author>
+      <name>Olga Chervova</name>
+    </author>
+    <author>
+      <name>Robert J. Downes</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9911300v3</id>
+    <title>Dirac operator spectral density and low energy sum rules</title>
+    <updated>2000-07-12T08:39:01Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9911300v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9911300v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The spectral density of euclidean Dirac operator is investigated in partially quenched QCD with arbitrary quark masses. A representation of scalar and pseudoscalar correlators in terms of the spectral density is discussed. The spectral density, obtained from the partially quenched chiral perturbation theory is shown to be compatible with low energy sum rules, obtained earlier.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-11-10T11:57:26Z</published>
+    <arxiv:comment>8 pages, latex, published version; NLO QCD correction to the Dirac operator spectral density is added to the text</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP06(2000)025</arxiv:journal_ref>
+    <author>
+      <name>K. Zyablyuk</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2000/06/025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2000/06/025" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0111077v3</id>
+    <title>Inverse spectral problem for analytic plane domains I: Balian-Bloch trace formula</title>
+    <updated>2003-04-08T02:53:16Z</updated>
+    <link href="https://arxiv.org/abs/math/0111077v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0111077v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give a rigorous version of the classical Balian-Bloch trace formula, a semiclassical expansion around a periodic reflecting ray of the (regularized) resolvent of the Dirichlet Laplacian on a bounded smooth plane domain. It is equivalent to the Poisson relation (or wave trace formula) between spectrum and closed geodesics. We view it primarily as a computational device for explicitly calculating wave trace invariants. Its effectiveness will be illustrated in subsquent articles in the series in which concrete inverse spectral results are proved.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-11-07T14:48:34Z</published>
+    <arxiv:comment>First in a series on the inverse spectral problem for analytic plane domains. 53 pages, 1 figure. Added some references</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Comm. Math. Phys. 248 (2004), no. 2, 357--407.</arxiv:journal_ref>
+    <author>
+      <name>Steve Zelditch</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-004-1074-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-004-1074-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0102124v2</id>
+    <title>New analytic running coupling in spacelike and timelike regions</title>
+    <updated>2001-11-12T10:39:16Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0102124v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0102124v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The new model for the QCD analytic running coupling, proposed recently, is extended to the timelike region. This running coupling naturally arises under unification of the analytic approach to QCD and the renormalization group (RG) formalism. A new method for determining the coefficients of the "analytized" RG equation is elaborated. It enables one to take into account the higher loop contributions to the new analytic running coupling (NARC) in a consistent way. The expression for the new analytic running coupling, independent of the normalization point, is obtained by invoking the asymptotic freedom condition. It is shown that the difference between the values of the NARC in respective spacelike and timelike regions is rather valuable for intermediate energies. This is essential for the correct extracting of the running coupling from experimental data. The new analytic running coupling is applied to the description of the inclusive $τ$ lepton decay. The consistent estimation of the parameter $Λ_{QCD}$ is obtained here.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-02-10T15:32:51Z</published>
+    <arxiv:comment>REVTeX 3.1, 12 pages with 3 EPS figures; enlarged version is published in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev. D64 (2001) 116009</arxiv:journal_ref>
+    <author>
+      <name>A. V. Nesterenko</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.64.116009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.64.116009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05833v2</id>
+    <title>Multi-messenger Observations of a Binary Neutron Star Merger</title>
+    <updated>2017-10-24T12:03:18Z</updated>
+    <link href="https://arxiv.org/abs/1710.05833v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.05833v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^{+8}_{-8}$ Mpc and with component masses consistent with neutron stars. The component masses were later measured to be in the range 0.86 to 2.26 Msun. An extensive observing campaign was launched across the electromagnetic spectrum leading to the discovery of a bright optical transient (SSS17a, now with the IAU identification of AT 2017gfo) in NGC 4993 (at $\sim$40 Mpc) less than 11 hours after the merger by the One-Meter, Two Hemisphere (1M2H) team using the 1 m Swope Telescope. The optical transient was independently detected by multiple teams within an hour. Subsequent observations targeted the object and its environment. Early ultraviolet observations revealed a blue transient that faded within 48 hours. Optical and infrared observations showed a redward evolution over $\sim$10 days. Following early non-detections, X-ray and radio emission were discovered at the transient's position $\sim$9 and $\sim$16 days, respectively, after the merger. Both the X-ray and radio emission likely arise from a physical process that is distinct from the one that generates the UV/optical/near-infrared emission. No ultra-high-energy gamma-rays and no neutrino candidates consistent with the source were found in follow-up searches. (Abridged)</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-16T16:57:18Z</published>
+    <arxiv:comment>This is a reproduction of the article published in the Astrophysical Journal Letters, under the terms of the Creative Commons Attribution 3.0 licence</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>ApJL, 848:L12, 2017</arxiv:journal_ref>
+    <author>
+      <name> LIGO Scientific Collaboration</name>
+    </author>
+    <author>
+      <name> Virgo Collaboration</name>
+    </author>
+    <author>
+      <name>Fermi GBM</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> INTEGRAL</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IceCube Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AstroSat Cadmium Zinc Telluride Imager Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IPN Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Insight-Hxmt Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>ANTARES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Swift Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AGILE Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The 1M2H Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Dark Energy Camera GW-EM Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>the DES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The DLT40 Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> GRAWITA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>GRAvitational Wave Inaf TeAm</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Fermi Large Area Telescope Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ATCA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australia Telescope Compact Array</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ASKAP</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australian SKA Pathfinder</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Las Cumbres Observatory Group</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> OzGrav</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> DWF</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> AST3</name>
+    </author>
+    <author>
+      <name>CAASTRO Collaborations</name>
+    </author>
+    <author>
+      <name>The VINROUGE Collaboration</name>
+    </author>
+    <author>
+      <name>MASTER Collaboration</name>
+    </author>
+    <author>
+      <name> J-GEM</name>
+    </author>
+    <author>
+      <name> GROWTH</name>
+    </author>
+    <author>
+      <name> JAGWAR</name>
+    </author>
+    <author>
+      <name>Caltech- NRAO</name>
+    </author>
+    <author>
+      <name> TTU-NRAO</name>
+    </author>
+    <author>
+      <name>NuSTAR Collaborations</name>
+    </author>
+    <author>
+      <name> Pan-STARRS</name>
+    </author>
+    <author>
+      <name>The MAXI Team</name>
+    </author>
+    <author>
+      <name>TZAC Consortium</name>
+    </author>
+    <author>
+      <name>KU Collaboration</name>
+    </author>
+    <author>
+      <name>Nordic Optical Telescope</name>
+    </author>
+    <author>
+      <name> ePESSTO</name>
+    </author>
+    <author>
+      <name> GROND</name>
+    </author>
+    <author>
+      <name>Texas Tech University</name>
+    </author>
+    <author>
+      <name>SALT Group</name>
+    </author>
+    <author>
+      <name> TOROS</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Transient Robotic Observatory of the South Collaboration</name>
+    </author>
+    <author>
+      <name>The BOOTES Collaboration</name>
+    </author>
+    <author>
+      <name> MWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Murchison Widefield Array</name>
+    </author>
+    <author>
+      <name>The CALET Collaboration</name>
+    </author>
+    <author>
+      <name>IKI-GW Follow-up Collaboration</name>
+    </author>
+    <author>
+      <name>H. E. S. S. Collaboration</name>
+    </author>
+    <author>
+      <name>LOFAR Collaboration</name>
+    </author>
+    <author>
+      <name> LWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Long Wavelength Array</name>
+    </author>
+    <author>
+      <name>HAWC Collaboration</name>
+    </author>
+    <author>
+      <name>The Pierre Auger Collaboration</name>
+    </author>
+    <author>
+      <name>ALMA Collaboration</name>
+    </author>
+    <author>
+      <name>Euro VLBI Team</name>
+    </author>
+    <author>
+      <name>Pi of the Sky Collaboration</name>
+    </author>
+    <author>
+      <name>The Chandra Team at McGill University</name>
+    </author>
+    <author>
+      <name> DFN</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Desert Fireball Network</name>
+    </author>
+    <author>
+      <name> ATLAS</name>
+    </author>
+    <author>
+      <name>High Time Resolution Universe Survey</name>
+    </author>
+    <author>
+      <name> RIMAS</name>
+    </author>
+    <author>
+      <name> RATIR</name>
+    </author>
+    <author>
+      <name>SKA South Africa/MeerKAT</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/aa91c9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/aa91c9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.01254v2</id>
+    <title>Spectral properties of complex networks</title>
+    <updated>2018-12-17T16:34:36Z</updated>
+    <link href="https://arxiv.org/abs/1810.01254v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.01254v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This review presents an account of the major works done on spectra of adjacency matrices drawn on networks and the basic understanding attained so far. We have divided the review under three sections: (a) extremal eigenvalues, (b) bulk part of the spectrum and (c) degenerate eigenvalues, based on the intrinsic properties of eigenvalues and the phenomena they capture. We have reviewed the works done for spectra of various popular model networks, such as the Erdős-Rényi random networks, scale-free networks, 1-d lattice, small-world networks, and various different real-world networks. Additionally, potential applications of spectral properties for natural processes have been reviewed.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-01T08:42:57Z</published>
+    <arxiv:comment>29 pages, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <arxiv:journal_ref>Camellia Sarkar and Sarika Jalan, Spectral properties of complex networks, Chaos 28, 102101 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Camellia Sarkar</name>
+    </author>
+    <author>
+      <name>Sarika Jalan</name>
+    </author>
+    <arxiv:doi>10.1063/1.5040897</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5040897" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0106305v1</id>
+    <title>New Model for the QCD Analytic Running Coupling</title>
+    <updated>2001-06-27T13:00:06Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0106305v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0106305v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  As an elaboration of the analytic approach to Quantum Chromodynamics (QCD), a new model for the QCD analytic running coupling is proposed. A self-evident advantage of the new analytic running coupling (NARC) is that it incorporates the infrared enhancement and the ultraviolet asymptotic freedom in a single expression. It is essential that additional parameters are not introduced in the theory. The absence of unphysical singularities in the physical region $q^2&gt;0$ and a fairly well loop and scheme stability are the remarkable features of the NARC. By making use of practically the same values of $Λ_{QCD}$ in the approach developed, one succeeded in description of various physical phenomena, from quark confinement to the $τ$ lepton decay. This undoubtedly implies that the new analytic running coupling substantially involves both the nonperturbative and the perturbative behavior of Quantum Chromodynamics.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-06-27T13:00:06Z</published>
+    <arxiv:comment>Talk given at the "Sixth Workshop on Non-Perturbative Quantum Chromodynamics" 5 - 9 June 2001, Paris, France; LaTeX 2.09, uses sprocl.sty; 6 pages, 4 EPS figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>A. V. Nesterenko</name>
+    </author>
+    <arxiv:doi>10.1142/9789812778352_0046</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/9789812778352_0046" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0802.2377v2</id>
+    <title>Higher-Order Properties of Analytic Wavelets</title>
+    <updated>2009-02-15T09:32:33Z</updated>
+    <link href="https://arxiv.org/abs/0802.2377v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0802.2377v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The influence of higher-order wavelet properties on the analytic wavelet transform behavior is investigated, and wavelet functions offering advantageous performance are identified. This is accomplished through detailed investigation of the generalized Morse wavelets, a two-parameter family of exactly analytic continuous wavelets. The degree of time/frequency localization, the existence of a mapping between scale and frequency, and the bias involved in estimating properties of modulated oscillatory signals, are proposed as important considerations. Wavelet behavior is found to be strongly impacted by the degree of asymmetry of the wavelet in both the frequency and the time domain, as quantified by the third central moments. A particular subset of the generalized Morse wavelets, recognized as deriving from an inhomogeneous Airy function, emerge as having particularly desirable properties. These "Airy wavelets" substantially outperform the only approximately analytic Morlet wavelets for high time localization. Special cases of the generalized Morse wavelets are examined, revealing a broad range of behaviors which can be matched to the characteristics of a signal.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-02-17T12:07:38Z</published>
+    <arxiv:comment>15 pages, 6 Postscript figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <arxiv:journal_ref>Lilly, J. M., and S. C. Olhede, (2009). Higher-order properties of analytic wavelets. IEEE Transactions on Signal Processing, 57 (1), 146--160</arxiv:journal_ref>
+    <author>
+      <name>J. M. Lilly</name>
+    </author>
+    <author>
+      <name>S. C. Olhede</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2008.2007607</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2008.2007607" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0102203v1</id>
+    <title>Investigation of a new analytic running coupling in QCD</title>
+    <updated>2001-02-16T08:13:12Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0102203v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0102203v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The mathematical properties of the new analytic running coupling (NARC) in QCD are investigated. This running coupling naturally arises under ``analytization'' of the renormalization group equation. One of the crucial points in our consideration is the relation established between the NARC and its inverse function. The latter is expressed in terms of the so-called Lambert $W$ function. This relation enables one to present explicitly the NARC in the renorminvariant form and to derive the corresponding $β$ function. The asymptotic behavior of this $β$ function is examined. The consistent estimation of the parameter $Λ_{QCD}$ is given.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-02-16T08:13:12Z</published>
+    <arxiv:comment>LaTeX 2.09, 12 pages with 4 EPS figures, uses mpla1.sty. Mod. Phys. Lett. A (to be published)</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Mod. Phys. Lett. A 15 (2000) p. 2401-2411</arxiv:journal_ref>
+    <author>
+      <name>A. V. Nesterenko</name>
+    </author>
+    <arxiv:doi>10.1142/S0217732300003030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217732300003030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.04457v7</id>
+    <title>Computation of the one-loop spectral QCD running coupling using covariant spectral regularization</title>
+    <updated>2025-06-10T15:31:11Z</updated>
+    <link href="https://arxiv.org/abs/1809.04457v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.04457v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Methods described in the literature for the computation of the QCD running coupling are essentially all defined with respect to the renormalization group equations and these equations are associated with the method of renormalization for dealing with infinities in Feynman integrals. The problem with the renormalization group equations is their prediction of the unphysical Landau pole which, for QCD occurs at an energy of the order of a few hundred MeV. The models described in the literature generally interlace high energy renormalization group predictions with modified low energy formulations. It would be desirable to have a method for the computation of the running strong coupling which is not {\em ad hoc} but is unified over the whole range of energies and is based on a single mathematically rigorous formulation which is guided by physical principles. In this paper we describe a method using the regularization technique called covariant spectral regularization for which renormalization is not required. The densities associated with the quark and gluon bubbles are computed without requiring renormalization and hence the spectral QCD vacuum polarization tensor is determined. It is found that the position space spectral QCD running coupling is an analytic function which does not manifest a Landau pole, but instead it manifests what might be called a ``Landau peak", and has the property known as ``freezing of $α_s$" in the infrared. We determine a spectral bare strong coupling constant of $α_b\approx(411)^{-1}$ which can be used in higher order QCD computations (this is to be compared with QCD using renormalization where the bare strong coupling is infinite). Thus it seems that one can conclude that, when analyzed using covariant spectral regularization, QCD is perturbative at all energies.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-12T16:24:06Z</published>
+    <arxiv:comment>Published version, 40 pages, 19 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>International Journal of Modern Physics A (2025) 2550042 (38 pages)</arxiv:journal_ref>
+    <author>
+      <name>John Mashford</name>
+    </author>
+    <arxiv:doi>10.1142/S0217751X25500423</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217751X25500423" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.04940v1</id>
+    <title>The Galactic Chemical Evolution of phosphorus observed with IGRINS</title>
+    <updated>2022-10-10T18:16:50Z</updated>
+    <link href="https://arxiv.org/abs/2210.04940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.04940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Phosphorus (P) is considered to be one of the key elements for life, making it an important element to look for in the abundance analysis of spectra of stellar systems. Yet, there exists only a handful of spectroscopic studies to estimate the P abundances and investigate its trend across a range of metallicities. We have observed full HK band spectra at a spectral resolving power of R=45,000 with IGRINS instrument. Abundances are determined using SME in combination with 1D MARCS stellar atmosphere models. The investigated sample of stars have reliable stellar parameters estimated using optical FIES spectra (GILD; Jönsson et al. in prep.). In order to determine the P abundances from the 16482.92 Angstrom P line, we take special care of the CO($ν=7-4$) blend. We determine the C, N, O abundances from atomic carbon and a range of non-blended molecular lines (CO, CN, OH) which are aplenty in the H band region of K giant stars, assuring an appropriate modelling of the blending CO($ν=7-4$) line. We present [P/Fe] vs [Fe/H] trend for 38 K giant stars in the metallicity range of -1.2 dex $&lt;$ [Fe/H] $&lt;$ 0.4 dex. We find that our trend matches well with the compiled literature sample of prominently dwarf stars and limited number of giant stars. Our trend is found to be higher by $\sim$ 0.05 - 0.1 dex compared to the theoretical chemical evolution trend in Cescutti et al. 2012 resulting from core collapse supernova (type II) of massive stars with the P yields from Kobayashi et al. (2006) arbitrarily increased by a factor of 2.75. Thus the enhancement factor might need to be $\sim$ 0.05 - 0.1 dex higher to match our trend. We also find an empirically determined primary behaviour for phosphorus. Furthermore, the phosphorus abundance is found to be elevated by $\sim$ 0.6 - 0.9 dex in two metal poor s-enriched stars compared to the theoretical chemical evolution trend.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-10T18:16:50Z</published>
+    <arxiv:comment>13 pages, 9 figures, accepted for publication in Astronomy and Astrophysics</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>A&amp;A 668, A88 (2022)</arxiv:journal_ref>
+    <author>
+      <name>G. Nandakumar</name>
+    </author>
+    <author>
+      <name>N. Ryde</name>
+    </author>
+    <author>
+      <name>M. Montelius</name>
+    </author>
+    <author>
+      <name>B. Thorsbro</name>
+    </author>
+    <author>
+      <name>H. Jönsson</name>
+    </author>
+    <author>
+      <name>G. Mace</name>
+    </author>
+    <author>
+      <name>Lund Observatory</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>Theoretical Physics</name>
+    </author>
+    <author>
+      <name>Lund University</name>
+    </author>
+    <author>
+      <name>Box 43</name>
+    </author>
+    <author>
+      <name>SE-221 00 Lund</name>
+    </author>
+    <author>
+      <name> Sweden</name>
+    </author>
+    <author>
+      <name>Kapteyn Astronomical Institute</name>
+    </author>
+    <author>
+      <name>University of Groningen</name>
+    </author>
+    <author>
+      <name>Landleven 12</name>
+    </author>
+    <author>
+      <name>NL-9747 AD Groningen</name>
+    </author>
+    <author>
+      <name>the Netherlands</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>School of Science</name>
+    </author>
+    <author>
+      <name>The University of Tokyo</name>
+    </author>
+    <author>
+      <name>7-3-1 Hongo</name>
+    </author>
+    <author>
+      <name> Bunkyo-ku</name>
+    </author>
+    <author>
+      <name>Tokyo 113-0033</name>
+    </author>
+    <author>
+      <name> Japan</name>
+    </author>
+    <author>
+      <name>Materials Science</name>
+    </author>
+    <author>
+      <name>Applied Mathematics</name>
+    </author>
+    <author>
+      <name>Malmö University</name>
+    </author>
+    <author>
+      <name>SE-205 06 Malmö</name>
+    </author>
+    <author>
+      <name> Sweden</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>McDonald Observatory</name>
+    </author>
+    <author>
+      <name>The University of Texas</name>
+    </author>
+    <author>
+      <name> Austin</name>
+    </author>
+    <author>
+      <name>TX 78712</name>
+    </author>
+    <author>
+      <name> USA</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202244724</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202244724" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12637v1</id>
+    <title>Spectral pollution in substitution systems</title>
+    <updated>2026-04-14T12:07:33Z</updated>
+    <link href="https://arxiv.org/abs/2604.12637v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12637v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study spectral properties of Schrödinger operators associated with substitution dynamical systems in higher dimensions. Focusing on periodic approximations generated by iterating substitutions on initial configurations, we analyze how structural defects influence the limiting spectral behavior. In contrast to the one-dimensional setting, we show that such approximations may exhibit significant spectral pollution, including changes in the essential spectrum and the Lebesgue measure.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T12:07:33Z</published>
+    <arxiv:comment>There are very narrow spectral bands in Figure 2. These are better visible in PDF viewers than in browser-based viewers</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Ram Band</name>
+    </author>
+    <author>
+      <name>Siegfried Beckus</name>
+    </author>
+    <author>
+      <name>Felix Pogorzelski</name>
+    </author>
+    <author>
+      <name>Lior Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.04028v3</id>
+    <title>The spectral density of astrophysical stochastic backgrounds</title>
+    <updated>2025-03-16T11:46:39Z</updated>
+    <link href="https://arxiv.org/abs/2411.04028v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.04028v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide a detailed derivation of the spectral density of the stochastic background generated by the superposition of coalescing compact binaries. We show how the expression often used in the literature emerges from an average over the extrinsic parameters of the binaries (times of arrival, polarization angles, arrival directions and orbit inclinations) and how the Stokes parameters related to circular and linear polarization are set to zero by such averaging procedure. We then consider the effect of shot noise, i.e. the fact that for the superposition of a finite number of sources these averages are only approximate, and we show how it generates circular and linear polarizations (even for isotropic backgrounds) as well as spatial anisotropies, and we compute them explicitly for a realistic population of binary black holes and binary neutron stars.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-06T16:26:39Z</published>
+    <arxiv:comment>41 pages, 2 figures v2: significant conceptual improvements v3: extension of the results to a rigorous computation of the spectral density for finite observation time. The version to appear in JCAP</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Enis Belgacem</name>
+    </author>
+    <author>
+      <name>Francesco Iacovelli</name>
+    </author>
+    <author>
+      <name>Michele Maggiore</name>
+    </author>
+    <author>
+      <name>Michele Mancarella</name>
+    </author>
+    <author>
+      <name>Niccolò Muttoni</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.03791v3</id>
+    <title>Spectral and scattering theory of one-dimensional coupled photonic crystals</title>
+    <updated>2021-04-14T12:19:01Z</updated>
+    <link href="https://arxiv.org/abs/1904.03791v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.03791v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the spectral and scattering theory of light transmission in a system consisting of two asymptotically periodic waveguides, also known as one-dimensional photonic crystals, coupled by a junction. Using analyticity techniques and commutator methods in a two-Hilbert spaces setting, we determine the nature of the spectrum and prove the existence and completeness of the wave operators of the system.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-08T01:20:53Z</published>
+    <arxiv:comment>31 pages, 1 figure. Keywords: Spectral theory, scattering theory, Maxwell operators, commutator methods. [v3] revised version to appear in Reviews in Mathematical Physics</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Giuseppe De Nittis</name>
+    </author>
+    <author>
+      <name>Massimo Moscolari</name>
+    </author>
+    <author>
+      <name>Serge Richard</name>
+    </author>
+    <author>
+      <name>Rafael Tiedra de Aldecoa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.3555v1</id>
+    <title>Prospects of Turbulence Studies in High-Energy Density Laser-Generated Plasma: Numerical Investigations in Two Dimensions</title>
+    <updated>2013-12-12T17:27:25Z</updated>
+    <link href="https://arxiv.org/abs/1312.3555v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.3555v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the possibility of generating and studying turbulence in plasma by means of high-energy density laser-driven experiments. Our focus is to create supersonic, self-magnetized turbulence with characteristics that resemble those found in the interstellar medium (ISM).
+  We consider a target made of a spherical core surrounded by a shell made of denser material. The shell is irradiated by a sequence of laser pulses sending inward-propagating shocks that convert the inner core into plasma and create turbulence. In the context of the evolution of the ISM, the shocks play the role of supernova remnant shocks and the core represents the ionized interstellar medium. We consider the effects of both pre-existing and self-generating magnetic fields and study the evolution of the system by means of two-dimensional numerical simulations.
+  We find that the evolution of the turbulent core is generally, subsonic with rms-Mach number $M_t\approx 0.2$. We observe an isotropic, turbulent velocity field with an inertial range power spectra of $P(k)\propto k^{-2.3}$. We account for the effects of self-magnetization and find that the resulting magnetic field has characteristic strength $\approx 3\times 10^{4}$ G. The corresponding plasma beta is $\approx 1\times 10^{4}$--$1\times 10^{5}$, indicating that the magnetic field does not play an important role in the dynamical evolution of the system.
+  The natural extension of this work is to study the system evolution in three-dimensions, with various laser drive configurations, and targets with shells and cores of different masses. The latter modification may help to increase the turbulent intensity and possibly create transonic turbulence. One of the key challenges is to obtain transonic turbulent conditions in a quasi-steady state environment.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-12T17:27:25Z</published>
+    <arxiv:comment>High Energy Density Physics, in press</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>High Energy Density Phys., 11, 1 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Timothy Handy</name>
+    </author>
+    <author>
+      <name>Tomasz Plewa</name>
+    </author>
+    <author>
+      <name>R. Paul Drake</name>
+    </author>
+    <author>
+      <name>Andrey Zhiglo</name>
+    </author>
+    <arxiv:doi>10.1016/j.hedp.2013.12.002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.hedp.2013.12.002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0105338v1</id>
+    <title>Nonperturbative Contributions in an Analytic Running Coupling of QCD</title>
+    <updated>2001-05-31T14:23:44Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0105338v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0105338v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the framework of analytic approach to QCD the nonperturbative contributions in running coupling of strong interaction up to 4-loop order are obtained in an explicit form. For all $Q&gt;Λ$ they are shown to be represented in the form of an expansion in inverse powers of Euclidean momentum squared. The expansion coefficients are calculated for different numbers of active quark flavors $n_f$ and for different number of loops taken into account. On basis of the stated expansion the effective method for precise calculation of the analytic running coupling can be developed.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-05-31T14:23:44Z</published>
+    <arxiv:comment>9 pages, LaTeX, 1 table, 1 eps figure</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>J.Phys. G27 (2001) L117-2202</arxiv:journal_ref>
+    <author>
+      <name>Aleksey I. Alekseev</name>
+    </author>
+    <arxiv:doi>10.1088/0954-3899/27/11/102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0954-3899/27/11/102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.00225v1</id>
+    <title>Coupling Resonances and Spectral Properties of the Product of Resolvent and Perturbation</title>
+    <updated>2021-10-30T10:30:44Z</updated>
+    <link href="https://arxiv.org/abs/2111.00225v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.00225v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a self-adjoint operator $H_0$ and a relatively compact self-adjoint perturbation $V$, we study in some detail the spectral properties of the product $(H_0-z)^{-1}V$. For some numbers $r_z,$ the eigenvalues of $(H_0 + s V - z)^{-1}V$ are $(s - r_z)^{-1}$, where $s$ is any complex number. We study the root spaces of the eigenvalues $(s - r_z)^{-1}$ and complex-analytic properties of the functions $r_z$ such as branching points. In particular, for a generic case, we give a variety of necessary and sufficient conditions for branching. The functions $r_z,$ called coupling resonances, are important in the spectral analysis of $H_0 + r V$ for any real number $r.$ For instance, they afford a description of the spectral shift function (SSF) of the pair $H_0$ and $V,$ as well as the absolutely continuous and singular parts of the SSF. A thorough study of real-valued coupling resonances $r_λ$ for real $λ$ outside of the essential spectrum was carried out in a recent work by the first author. Here we extend this study to the complex domain, motivated by the fact, which is well known in the case of a rank-one perturbation, that the behaviour of coupling resonances $r_z$ near the essential spectrum provides valuable information about the latter.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-30T10:30:44Z</published>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Nurulla Azamov</name>
+    </author>
+    <author>
+      <name>Tom Daniels</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.09461v2</id>
+    <title>Spectral edge behavior for eventually monotone Jacobi and Verblunsky coefficients</title>
+    <updated>2018-02-01T00:22:40Z</updated>
+    <link href="https://arxiv.org/abs/1705.09461v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.09461v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider Jacobi matrices with eventually increasing sequences of diagonal and off-diagonal Jacobi parameters. We describe the asymptotic behavior of the subordinate solution at the top of the essential spectrum, and the asymptotic behavior of the spectral density at the top of the essential spectrum.
+  In particular, allowing on both diagonal and off-diagonal Jacobi parameters perturbations of the free case of the form $- \sum_{j=1}^J c_j n^{-τ_j} + o(n^{-τ_1-1})$ with $0 &lt; τ_1 &lt; τ_2 &lt; \dots &lt; τ_J$ and $c_1&gt;0$, we find the asymptotic behavior of the $\log$ of spectral density to order $O(\log(2-x))$ as $x$ approaches $2$.
+  Apart from its intrinsic interest, the above results also allow us to describe the asymptotics of the spectral density for orthogonal polynomials on the unit circle with real-valued Verblunsky coefficients of the same form.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-26T07:31:21Z</published>
+    <arxiv:comment>33 pages. Same results as in previous version, some expository changes; to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Milivoje Lukic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.00440v1</id>
+    <title>A non-symmetric coupling of the finite volume method and the boundary element method</title>
+    <updated>2015-09-01T18:59:36Z</updated>
+    <link href="https://arxiv.org/abs/1509.00440v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.00440v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As model problem we consider the prototype for flow and transport of a concentration in porous media in an interior domain and couple it with a diffusion process in the corresponding unbounded exterior domain. To solve the problem we develop a new non-symmetric coupling between the vertex-centered finite volume and boundary element method. This discretization provides naturally conservation of local fluxes and with an upwind option also stability in the convection dominated case. We aim to provide a first rigorous analysis of the system for different model parameters; stability, convergence, and a~priori estimates. This includes the use of an implicit stabilization, known from the finite element and boundary element method coupling. Some numerical experiments conclude the work and confirm the theoretical results.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-01T18:59:36Z</published>
+    <arxiv:comment>finite volume method, boundary element method, non-symmetric coupling, convection dominated, existence and uniqueness, convergence, a priori estimate</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Christoph Erath</name>
+    </author>
+    <author>
+      <name>Günther Of</name>
+    </author>
+    <author>
+      <name>Francisco-Javier Sayas</name>
+    </author>
+    <arxiv:doi>10.1007/s00211-016-0820-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00211-016-0820-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.1162v2</id>
+    <title>Investigating the Spectral Geometry of a Soft Wall</title>
+    <updated>2012-06-01T01:53:52Z</updated>
+    <link href="https://arxiv.org/abs/1106.1162v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.1162v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The idealized theory of quantum vacuum energy density is a beautiful application of the spectral theory of differential operators with boundary conditions, but its conclusions are physically unacceptable. A more plausible model of a reflecting boundary that stays within linear spectral theory confines the waves by a steeply rising potential function, which can be taken as a power of one coordinate, z^α. We report investigations of this model with considerable student involvement. An exact analytical solution with some numerics for α=1 and an asymptotic (semiclassical) analysis of a related problem for α=2 are presented.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-06T19:43:08Z</published>
+    <arxiv:comment>16 pages,4 figures; International Conference on Spectral Geometry (Dartmouth, 2010). Revision (final submission to Proc. Symp. Pure Math.) has minor updates and corrections</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Spectral Geometry, ed. by A. H. Barnett et al., Proc. Symp. Pure Math. v. 84, pp. 139-154 (AMS, Providence, 2012)</arxiv:journal_ref>
+    <author>
+      <name>J. D. Bouas</name>
+    </author>
+    <author>
+      <name>S. A. Fulling</name>
+    </author>
+    <author>
+      <name>F. D. Mera</name>
+    </author>
+    <author>
+      <name>K. Thapa</name>
+    </author>
+    <author>
+      <name>C. S. Trendafilova</name>
+    </author>
+    <author>
+      <name>J. Wagner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0111067v2</id>
+    <title>New analytic running coupling in QCD: higher loop levels</title>
+    <updated>2001-12-19T15:12:22Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0111067v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0111067v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The properties of the new analytic running coupling are investigated at the higher loop levels. The expression for this invariant charge, independent of the normalization point, is obtained by invoking the asymptotic freedom condition. It is shown that at any loop level the relevant $β$ function has the universal behaviors at small and large values of the invariant charge. Due to this feature the new analytic running coupling possesses the universal asymptotics both in the ultraviolet and infrared regions irrespective of the loop level. The consistency of the model considered with the general definition of the QCD invariant charge is shown.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-11-07T08:56:10Z</published>
+    <arxiv:comment>LaTeX 2.09, 12 pages with 5 EPS figures, uses mpla1.sty; enlarged version is accepted for publication in Mod. Phys. Lett. A</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Mod.Phys.Lett. A16 (2001) 2517-2528</arxiv:journal_ref>
+    <author>
+      <name>A. V. Nesterenko</name>
+    </author>
+    <author>
+      <name>I. L. Solovtsov</name>
+    </author>
+    <arxiv:doi>10.1142/S0217732301005989</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217732301005989" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.13785v3</id>
+    <title>Commitment Against Front Running Attacks</title>
+    <updated>2023-07-28T18:57:05Z</updated>
+    <link href="https://arxiv.org/abs/2301.13785v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.13785v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide a game-theoretic analysis of the problem of front-running attacks. We use it to distinguish attacks from legitimate competition among honest users for having their transactions included earlier in the block. We also use it to introduce an intuitive notion of the severity of front-running attacks. We then study a simple commit-reveal protocol and discuss its properties. This protocol has costs because it requires two messages and imposes a delay. However, we show that it prevents the most severe front-running attacks while preserving legitimate competition between users, guaranteeing that the earliest transaction in a block belongs to the honest user who values it the most. When the protocol does not fully eliminate attacks, it nonetheless benefits honest users because it reduces competition among attackers (and overall expenditure by attackers).</summary>
+    <category term="econ.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-31T17:33:09Z</published>
+    <arxiv:comment>MEV, Front-running attacks</arxiv:comment>
+    <arxiv:primary_category term="econ.TH"/>
+    <author>
+      <name>Andrea Canidio</name>
+    </author>
+    <author>
+      <name>Vincent Danos</name>
+    </author>
+    <arxiv:doi>10.1287/mnsc.2023.01239</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1287/mnsc.2023.01239" title="doi"/>
+  </entry>
+</feed>

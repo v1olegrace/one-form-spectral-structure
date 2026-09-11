@@ -1,0 +1,569 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9PXyqeL9kEisp9iC2PMkDXrje+w</id>
+  <title>arXiv Query: search_query=all:arcs OR all:and OR all:moments OR all:positivity OR all:bounds OR all:Wilson OR all:coefficients&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:45:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:arcs+OR+(all:and+OR+(all:moments+OR+(all:positivity+OR+(all:bounds+OR+(all:Wilson+OR+all:coefficients)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>590631</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1611.08382v1</id>
+    <title>Conditionally positive definite kernels in Hilbert $C^*$-modules</title>
+    <updated>2016-11-25T08:35:02Z</updated>
+    <link href="https://arxiv.org/abs/1611.08382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.08382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the notion of conditionally positive definite in the context of Hilbert $C^*$-modules and present a characterization of the conditionally positive definiteness in terms of the usual positive definiteness. We give a Kolmogorov type representation of conditionally positive definite kernels in Hilbert $C^*$-modules. As a consequence, we show that a $C^*$-metric space $(S, d)$ is $C^*$-isometric to a subset of a Hilbert $C^*$-module if and only if $K(s,t)=-d(s,t)^2$ is a conditionally positive definite kernel. We also present a characterization of the order $K'\leq K$ between conditionally positive definite kernels.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-25T08:35:02Z</published>
+    <arxiv:comment>14 pages, to appear in Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <arxiv:journal_ref>Positivity 21 (2017), no. 3, 1161--1172</arxiv:journal_ref>
+    <author>
+      <name>Mohammad Sal Moslehian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.10956v2</id>
+    <title>Upper bounds on Kronecker coefficients with few rows</title>
+    <updated>2020-03-26T13:06:57Z</updated>
+    <link href="https://arxiv.org/abs/2002.10956v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.10956v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present three different upper bounds for Kronecker coefficients $g(λ,μ,ν)$ in terms of Kostka numbers, contingency tables and Littlewood--Richardson coefficients. We then give various examples, asymptotic applications, and compare them with existing lower bounds.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-25T15:21:07Z</published>
+    <arxiv:comment>Long version of the paper "Bounds on Kronecker coefficients via contingency tables"</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Igor Pak</name>
+    </author>
+    <author>
+      <name>Greta Panova</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.02879v2</id>
+    <title>Positivity Bounds on Higgs-Portal Dark Matter</title>
+    <updated>2023-06-05T12:06:02Z</updated>
+    <link href="https://arxiv.org/abs/2302.02879v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.02879v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the positivity bounds for WIMP scalar dark matter with effective Higgs-portal couplings up to dimension-8 operators. Taking the superposed states for Standard Model Higgs and scalar dark matter, we show that the part of the parameter space for the effective couplings, otherwise unconstrained by phenomenological bounds, is ruled out by the positivity bounds on the dimension-8 derivative operators. We find that dark matter relic density, direct and indirect detection and LHC constraints are complementary to the positivity bounds in constraining the effective Higgs-portal couplings. In the effective theory obtained from massive graviton or radion, there appears a correlation between dimension-8 operators and other effective Higgs-portal couplings for which the strong constraint from direct detection can be evaded. Nailing down the parameter space mainly by relic density, direct detection and positivity bounds, we find that there are observable cosmic ray signals coming from the dark matter annihilations into a pair of Higgs bosons, $WW$ or $ZZ$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-06T15:46:35Z</published>
+    <arxiv:comment>31 pages, 6 figures, v2: one-loop corrections to the positivity bounds added, version to be published in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Seong-Sik Kim</name>
+    </author>
+    <author>
+      <name>Hyun Min Lee</name>
+    </author>
+    <author>
+      <name>Kimiko Yamashita</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP06(2023)124</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP06(2023)124" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.14260v4</id>
+    <title>Wilson lines and their Laurent positivity</title>
+    <updated>2023-11-06T11:57:07Z</updated>
+    <link href="https://arxiv.org/abs/2011.14260v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.14260v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a marked surface $Σ$ and a semisimple algebraic group $G$ of adjoint type, we study the Wilson line morphism $g_{[c]}:\mathcal{P}_{G,Σ} \to G$ associated with the homotopy class of an arc $c$ connecting boundary intervals of $Σ$, which is the comparison element of pinnings via parallel-transport. The matrix coefficients of the Wilson lines give a generating set of the function algebra $\mathcal{O}(\mathcal{P}_{G,Σ})$ when $Σ$ has no punctures. The Wilson lines have the multiplicative nature with respect to the gluing morphisms introduced by Goncharov--Shen [GS19], hence can be decomposed into triangular pieces with respect to a given ideal triangulation of $Σ$. We show that the matrix coefficients $c_{f,v}^V(g_{[c]})$ give Laurent polynomials with positive integral coefficients in the Goncharov--Shen coordinate system associated with any decorated triangulation of $Σ$, for suitable $f$ and $v$.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-29T02:51:34Z</published>
+    <arxiv:comment>58 pages, 13 figures. v3: A major revision shortening the length of the paper by removing minor sections; modifying the presentations of Wilson lines as stack morphisms. v4: Minor corrections of typos. Journal version</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Math. Z. 305, 34 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Tsukasa Ishibashi</name>
+    </author>
+    <author>
+      <name>Hironori Oya</name>
+    </author>
+    <arxiv:doi>10.1007/s00209-023-03355-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00209-023-03355-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.08362v1</id>
+    <title>Geometric and growth rate tests of General Relativity with recovered linear cosmological perturbations</title>
+    <updated>2016-10-26T14:54:00Z</updated>
+    <link href="https://arxiv.org/abs/1610.08362v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.08362v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I investigate the consistency of the VIMOS Public Extragalactic Redshift Survey v7 galaxy sample with the expansion history and linear growth rate predicted by General Relativity (GR) and a Planck (2015) cosmology. To do so, I measure the redshift-space power spectrum, which is anisotropic due to both redshift-space distortions (RSD) and the Alcock-Paczynski (AP) effect. In Chapter 6, I place constraints of $f σ_8(0.76) = 0.44 \pm 0.04$ and $f σ_8(1.05) = 0.28 \pm 0.08$, which remain consistent with GR at 95% confidence. Marginalising over the anisotropic AP effect degrades the constraints by a factor of three but allows $F_{AP} \equiv (1+z) D_A H/c$ to be simultaneously constrained. The VIPERS v7 joint-posterior on $(f σ_8, F_{AP})$ shows no compelling deviation from GR.
+  Chapter 7 investigates the inclusion of a simple density transform: `clipping' prior to the RSD analysis. This tackles the root-cause of non-linearity and may extend the validity of perturbation theory. Moreover, this marked statistic would amplify signatures of shielded modified gravity models and includes information not available to the power spectrum. I show that a linear real-space power spectrum with a Kaiser factor and a Lorentzian damping yields a significant bias without clipping, but that this may be removed with a strict threshold; similar behaviour is observed for the data. Estimates of $f σ_8$ for different thresholds are highly correlated, but this may be obtained using mocks. A maximum likelihood estimate from a combination of thresholds is shown to achieve a 16% decrease in statistical error relative to a single-threshold estimate. The results are encouraging to date but represent a work in progress; the final analysis will be submitted to Astronomy &amp; Astrophysics as Wilson et al. (2016).</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-26T14:54:00Z</published>
+    <arxiv:comment>Thesis; comments welcome; Chapter 6 &amp; 7 to be submitted to A&amp;A as Wilson et al. (2016)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Michael J. Wilson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.13348v2</id>
+    <title>Equivariant nonabelian Poincaré duality and equivariant factorization homology of Thom spectra</title>
+    <updated>2024-02-04T14:39:13Z</updated>
+    <link href="https://arxiv.org/abs/2006.13348v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.13348v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study genuine equivariant factorization homology and its interaction with equivariant Thom spectra, which we construct using the language of parametrized higher category theory. We describe the genuine equivariant factorization homology of Thom spectra, and use this description to compute several examples of interest. A key ingredient for our computations is an equivariant nonabelian Poincaré duality theorem, in which we prove that factorization homology with coefficients in a $G$-space is given by a mapping space. We compute the Real topological Hochschild homology ($THR$) of the Real bordism spectrum $MU_\mathbb{R}$ and of the equivariant Eilenberg--MacLane spectra $H\underline{\mathbb{F}}_2$ and $H\underline{\mathbb{Z}}_{(2)}$, as well as factorization homology of the sphere $S^{2σ}$ with coefficients in these Eilenberg--MacLane spectra. In Appendix B, Jeremy Hahn and Dylan Wilson compute $THR(H\underline{\mathbb{Z}})$.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-23T21:41:03Z</published>
+    <arxiv:comment>Appendix by Jeremy Hahn and Dylan Wilson</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <author>
+      <name>Jeremy Hahn</name>
+    </author>
+    <author>
+      <name>Asaf Horev</name>
+    </author>
+    <author>
+      <name>Inbar Klang</name>
+    </author>
+    <author>
+      <name>Dylan Wilson</name>
+    </author>
+    <author>
+      <name>Foling Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.05033v2</id>
+    <title>Wilson: a Python package for the running and matching of Wilson coefficients above and below the electroweak scale</title>
+    <updated>2019-01-07T12:34:29Z</updated>
+    <link href="https://arxiv.org/abs/1804.05033v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.05033v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wilson is a Python library for matching and running Wilson coefficients of higher-dimensional operators beyond the Standard Model. Provided with the numerical values of the Wilson coefficients at a high new physics scale, it automatically performs the renormalization group evolution within the Standard Model effective field theory (SMEFT), matching onto the weak effective theory (WET) at the electroweak scale, and QCD/QED renormalization group evolution below the electroweak scale down to hadronic scales relevant for low-energy precision tests. The matching and running encompasses the complete set of dimension-six operators in both SMEFT and WET. The program builds on the Wilson coefficient exchange format (WCxf) and can thus be easily combined with a number of existing public codes.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-13T17:04:03Z</published>
+    <arxiv:comment>12 pages, 2 figures. More information and the source code can be found at https://wilson-eft.github.io. v2: matches version published in EPJ C</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Eur.Phys.J. C78 (2018) no.12, 1026</arxiv:journal_ref>
+    <author>
+      <name>Jason Aebischer</name>
+    </author>
+    <author>
+      <name>Jacky Kumar</name>
+    </author>
+    <author>
+      <name>David M. Straub</name>
+    </author>
+    <arxiv:doi>10.1140/epjc/s10052-018-6492-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjc/s10052-018-6492-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.7087v3</id>
+    <title>Bounds on Kronecker and $q$-binomial coefficients</title>
+    <updated>2016-05-02T21:19:35Z</updated>
+    <link href="https://arxiv.org/abs/1410.7087v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.7087v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a lower bound on the Kronecker coefficients for tensor squares of the symmetric group via the characters of~$S_n$, which we apply to obtain various explicit estimates. Notably, we extend Sylvester's unimodality of $q$-binomial coefficients $\binom{n}{k}_q$ as polynomials in~$q$ to derive sharp bounds on the differences of their consecutive coefficients. We then derive effective asymptotic lower bounds for a wider class of Kronecker coefficients.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-26T21:29:12Z</published>
+    <arxiv:comment>version May 2016: improved the effective constants. To appear in JCTA. This paper is an extension of parts of the earlier paper "Bounds on the Kronecker coefficients" arXiv:1406.2988, which also contains stability results</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Igor Pak</name>
+    </author>
+    <author>
+      <name>Greta Panova</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.00255v2</id>
+    <title>Multiplicative structure on Real Johnson-Wilson theory</title>
+    <updated>2017-08-30T02:30:50Z</updated>
+    <link href="https://arxiv.org/abs/1701.00255v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.00255v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that the Real Johnson-Wilson theories ER(n) are homotopy associative and commutative ring spectra up to phantom maps. We further show that ER(n) represents an associatively and commutatively multiplicative cohomology theory on the category of (possibly non-compact) spaces.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-01T15:56:22Z</published>
+    <arxiv:comment>16 pages, version 2. Added a new section revisiting $ER(n)$-orientations of vector bundles and minor improvements to exposition. To appear in Proceedings of the Mid-Atlantic Topology Conference</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <author>
+      <name>Nitu Kitchloo</name>
+    </author>
+    <author>
+      <name>Vitaly Lorman</name>
+    </author>
+    <author>
+      <name>W. Stephen Wilson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.05380v3</id>
+    <title>Surface Luttinger arcs in Weyl semimetals</title>
+    <updated>2022-05-13T03:08:13Z</updated>
+    <link href="https://arxiv.org/abs/2108.05380v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.05380v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The surface of a Weyl semimetal famously hosts an exotic topological metal that contains open Fermi arcs rather than closed Fermi surfaces. In this work, we show that the surface is also endowed with a feature normally associated with strongly interacting systems, namely, Luttinger arcs, defined as zeros of the electron Green's function. The Luttinger arcs connect surface projections of Weyl nodes of opposite chirality and form closed loops with the Fermi arcs when the Weyl nodes are undoped. Upon doping, the ends of the Fermi and Luttinger arcs separate and the intervening regions get filled by surface projections of bulk Fermi surfaces. Remarkably, unlike Luttinger contours in strongly interacting systems, the precise shape of the Luttinger arcs can be determined experimentally by removing a surface layer. We use this principle to sketch the Luttinger arcs for Co and Sn terminations in Co$_{3}$Sn$_{2}$S$_{2}$. The area enclosed by the Fermi and Luttinger arcs approximately equals the surface particle density in weakly coupled systems while the correction is governed by the interlayer couplings and the perimeter of the Fermi-Luttinger loop.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-11T18:02:10Z</published>
+    <arxiv:comment>Proof of Luttinger arcs generalized; discussion of Luttinger's theorem rephrased</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 106, L081112 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Osakpolor Eki Obakpolor</name>
+    </author>
+    <author>
+      <name>Pavan Hosur</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.106.L081112</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.106.L081112" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.5715v3</id>
+    <title>Asymptotics of coefficients of multivariate generating functions: improvements for multiple points</title>
+    <updated>2012-08-03T23:43:09Z</updated>
+    <link href="https://arxiv.org/abs/1009.5715v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.5715v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $F(x)= \sum_{ν\in\NN^d} F_νx^ν$ be a multivariate power series with complex coefficients that converges in a neighborhood of the origin. Assume $F=G/H$ for some functions $G$ and $H$ holomorphic in a neighborhood of the origin. We derive asymptotics for the coefficients $F_{rα}$ as $r \to \infty$ with $rα\in \NN^d$ for $α$ in a permissible subset of $d$-tuples of positive reals. More specifically, we give an algorithm for computing arbitrary terms of the asymptotic expansion for $F_{rα}$ when the asymptotics are controlled by a transverse multiple point of the analytic variety $H = 0$. This improves upon earlier work by R. Pemantle and M. C. Wilson.
+  We have implemented our algorithm in Sage and apply it to obtain accurate numerical results for several rational combinatorial generating functions.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-28T22:40:57Z</published>
+    <arxiv:comment>To appear in Online Journal of Analytic Combinatorics in 2012</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Alexander Raichev</name>
+    </author>
+    <author>
+      <name>Mark C. Wilson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.13882v2</id>
+    <title>Bounds for moments of symmetric square $L$-functions</title>
+    <updated>2022-10-19T07:08:56Z</updated>
+    <link href="https://arxiv.org/abs/2209.13882v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.13882v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the $2k$-th moment at the central point of the family of symmetric square $L$-functions attached to holomorphic Hecke cusp forms of level one, weight $κ$. We establish sharp lower bounds for all real $k \geq 1/2$ unconditionally. Assuming the truth of the generalized Riemann hypothesis, we also obtain sharp lower bounds for all real $0 \leq k &lt; 1/2$ and sharp upper bounds for all real $k \geq 0$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-28T07:29:14Z</published>
+    <arxiv:comment>The non-vanishing result stated in the first version has been obtained with an explicit proportion under GRH by H. Iwaniec, W. Luo and P. Sarnak, which escaped my attention. I have therefore changed the title of the paper, focusing on bounds for the moments of symmetric square $L$-functions</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Peng Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.6252v2</id>
+    <title>Kinetics of excitations on the Fermi arcs in underdoped cuprates at low temperature</title>
+    <updated>2013-04-05T20:05:05Z</updated>
+    <link href="https://arxiv.org/abs/1303.6252v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.6252v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Fermi-liquid-like (FL) resistivity recently observed in clean HgBa2CuO4 below the pseudogap temperature was related to carriers at the nodal points on the Fermi surface [4]. We show that this necessitates important implications for the electronic spectrum of underdoped (UD) cuprates in whole. Photoemission experiments picture the spectrum as of metallic arcs separated from each other by regions with large energy gaps. We solved the kinetic equation in such model rigorously. The Fermi arcs carriers contribute to FL resistivity, if scattering between the opposite nodal points admits the Umklapp processes. The Hall coefficient defines the effective number of carriers on arcs and has the positive sign. For clean materials the expression is applicable only at weak magnetic fields. We discuss the Fermi arcs concept further in light of recent experimental findings and argue that the idea of reconstructed FS in UD cuprates is not consistent with the FL-like resistivity.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-25T19:09:54Z</published>
+    <arxiv:comment>Definition of charge carriers at the Fermi arcs is given. Sign of the Hall coefficient changed to be positive</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Lev P. Gor'kov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.88.041104</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.88.041104" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.07365v2</id>
+    <title>Positive-part moments via the characteristic functions, and more general expressions</title>
+    <updated>2016-03-25T19:43:39Z</updated>
+    <link href="https://arxiv.org/abs/1603.07365v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.07365v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A unifying and generalizing approach to representations of the positive-part and absolute moments $\mathsf{E} X_+^p$ and $\mathsf{E}|X|^p$ of a random variable $X$ for real $p$ in terms of the characteristic function (c.f.) of $X$, as well as to related representations of the c.f.\ of $X_+$, generalized moments $\mathsf{E} X_+^p e^{iuX}$, truncated moments, and the distribution function is provided. Existing and new representations of these kinds are all shown to stem from a single basic representation. Computational aspects of these representations are addressed.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-23T21:10:36Z</published>
+    <arxiv:comment>A comment is added in the introduction on the role of positive-part moments</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Iosif Pinelis</name>
+    </author>
+    <arxiv:doi>10.1007/s10959-016-0709-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10959-016-0709-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.03055v2</id>
+    <title>Unambiguously Testing Positivity at Lepton Colliders</title>
+    <updated>2022-07-05T02:54:48Z</updated>
+    <link href="https://arxiv.org/abs/2011.03055v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.03055v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The diphoton channel at lepton colliders, $e^+e^- (μ^+μ^-) \to γγ$, has a remarkable feature that the leading new physics contribution comes only from dimension-eight operators. This contribution is subject to a set of positivity bounds, derived from the fundamental principles of Quantum Field Theory, such as unitarity, locality, analyticity and Lorentz invariance. These positivity bounds are thus applicable to the most direct observable -- the diphoton cross section. This unique feature provides a clear, robust, and unambiguous test of these principles. We estimate the capability of various future lepton colliders in probing the dimension-eight operators and testing the positivity bounds in this channel. We show that positivity bounds can lift certain flat directions among the effective operators and significantly change the perspectives of a global analysis. We also discuss the positivity bounds of the $Zγ/ZZ$ processes which are related to the $γγ$ ones, but are more complicated due to the massive $Z$ boson.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-05T19:00:13Z</published>
+    <arxiv:comment>9 pages, 2+4 figures, v2: extended discussion on positivity bounds, matches published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett. 129 (2022) 1, 011805</arxiv:journal_ref>
+    <author>
+      <name>Jiayin Gu</name>
+    </author>
+    <author>
+      <name>Lian-Tao Wang</name>
+    </author>
+    <author>
+      <name>Cen Zhang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.129.011805</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.129.011805" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.05298v2</id>
+    <title>WCxf: an exchange format for Wilson coefficients beyond the Standard Model</title>
+    <updated>2018-08-23T12:17:36Z</updated>
+    <link href="https://arxiv.org/abs/1712.05298v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.05298v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define a data exchange format for numerical values of Wilson coefficients of local operators parameterising low-energy effects of physics beyond the Standard Model. The format facilitates interfacing model-specific Wilson coefficient calculators, renormalisation group (RG) runners, and observable calculators. It is designed to be unambiguous (defining a non-redundant set of operators with fixed normalisation in each basis), extensible (allowing the addition of new EFTs or bases by the user), and robust (being based on industry standard file formats with parsers implemented in many programming languages). We have implemented the format for the Standard Model EFT (SMEFT) and for the weak effective theory (WET) below the electroweak scale and have added interfaces to a number of public codes dealing with SMEFT or WET. We also provide command-line utilities and a Python module for convenient manipulation of WCxf files, including translation between different bases and matching from SMEFT to WET.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-14T15:47:28Z</published>
+    <arxiv:comment>22 pages. Additional documentation can be found at https://wcxf.github.io/. v2: Discussion of wilson package added, discussion of EOS, flavio, and SMEFTsim updated. Matches version published in Computer Physics Communications</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Jason Aebischer</name>
+    </author>
+    <author>
+      <name>Ilaria Brivio</name>
+    </author>
+    <author>
+      <name>Alejandro Celis</name>
+    </author>
+    <author>
+      <name>Jared A. Evans</name>
+    </author>
+    <author>
+      <name>Yun Jiang</name>
+    </author>
+    <author>
+      <name>Jacky Kumar</name>
+    </author>
+    <author>
+      <name>Xuanyou Pan</name>
+    </author>
+    <author>
+      <name>Werner Porod</name>
+    </author>
+    <author>
+      <name>Janusz Rosiek</name>
+    </author>
+    <author>
+      <name>David Shih</name>
+    </author>
+    <author>
+      <name>Florian Staub</name>
+    </author>
+    <author>
+      <name>David M. Straub</name>
+    </author>
+    <author>
+      <name>Danny van Dyk</name>
+    </author>
+    <author>
+      <name>Avelino Vicente</name>
+    </author>
+    <arxiv:doi>10.1016/j.cpc.2018.05.022</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cpc.2018.05.022" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.05874v3</id>
+    <title>Positivity in the sky</title>
+    <updated>2020-07-27T11:17:13Z</updated>
+    <link href="https://arxiv.org/abs/1904.05874v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.05874v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Positivity bounds - the consequences of requiring a unitary, causal, local UV completion - place strong restrictions on theories of dark energy and/or modified gravity. We derive and investigate such bounds for Horndeski scalar-tensor theories and for the first time pair these bounds with a cosmological parameter estimation analysis, using CMB, redshift space distortion, matter power spectrum and BAO measurements from the Planck, SDSS/BOSS and 6dF surveys. Using positivity bounds as theoretical priors, we show that their inclusion in the parameter estimation significantly improves the constraints on dark energy/modified gravity parameters. Considering as an example a specific class of models, which are particularly well-suited to illustrate the constraining power of positivity bounds, we find that these bounds eliminate over 60% of the previously allowed parameter space. We also discuss how combining positivity requirements with additional theoretical priors has the potential to further tighten these constraints: for instance also requiring a subluminal speed of gravitational waves eliminates all but 1% of the previously allowed parameter space.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-11T17:59:30Z</published>
+    <arxiv:comment>10 pages, v3: added additional subleading corrections to the computation of positivity bounds (which only very mildly affect overall constraints)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>Phys. Rev. D 101, 021502 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Scott Melville</name>
+    </author>
+    <author>
+      <name>Johannes Noller</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.101.021502</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.101.021502" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.17840v1</id>
+    <title>Bounds on the next-to-leading Wilson coefficient in maximal supergravity</title>
+    <updated>2025-04-24T18:00:00Z</updated>
+    <link href="https://arxiv.org/abs/2504.17840v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.17840v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One expects type II string theory to be the unique ultraviolet completion of maximal supergravity. Motivated by the recent computation of the unitary bound on the leading Wilson coefficient within the S-matrix bootstrap, we analyse the minimum of the next-to-leading Wilson coefficient in string theory in seven spacetime dimensions. We find that the next-to-leading Wilson coefficient is minimum at the same point as the leading Wilson coefficient.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-24T18:00:00Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Guillaume Bossard</name>
+    </author>
+    <author>
+      <name>Adrien Loty</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0606670v2</id>
+    <title>On a conjecture of Deutsch, Sagan, and Wilson</title>
+    <updated>2006-10-26T14:53:48Z</updated>
+    <link href="https://arxiv.org/abs/math/0606670v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0606670v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove a recent conjecture due to Deutsch, Sagan, and Wilson stating that the finite sequence obtained from the first p central trinomial coefficients modulo p by replacing nonzero terms by 1's is palindromic, for any prime number p &gt; 3.
+  Addendum: the result was proved before almost in the same way by Tony D. Noe:
+  On the Divisibility of Generalized Central Trinomial Coefficients,
+  Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.7 http://www.cs.uwaterloo.ca/journals/JIS/VOL9/Noe/noe35.html</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-06-27T08:56:00Z</published>
+    <arxiv:comment>This conjecture of Deutsch, Sagan, and Wilson has been already proved in Tony D. Noe, On the Divisibility of Generalized Central Trinomial Coefficients, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.7 http://www.cs.uwaterloo.ca/journals/JIS/VOL9/Noe/noe35.html</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Jean-Paul Allouche</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.06598v1</id>
+    <title>Chromatic nonsymmetric polynomials of Dyck graphs are slide-positive</title>
+    <updated>2019-08-19T05:25:30Z</updated>
+    <link href="https://arxiv.org/abs/1908.06598v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.06598v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by the study of Macdonald polynomials, J. Haglund and A. Wilson introduced a nonsymmetric polynomial analogue of the chromatic quasisymmetric function called the \emph{chromatic nonsymmetric polynomial} of a Dyck graph. We give a positive expansion for this polynomial in the basis of fundamental slide polynomials using recent work of Assaf-Bergeron on flagged $(P,ρ)$-partitions. We then derive the known expansion for the chromatic quasisymmetric function of Dyck graphs in terms of Gessel's fundamental basis by taking a backstable limit of our expansion.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-19T05:25:30Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Vasu Tewari</name>
+    </author>
+    <author>
+      <name>Andrew Timothy Wilson</name>
+    </author>
+    <author>
+      <name>Philip B. Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.23692v2</id>
+    <title>On the construction of large local arcs</title>
+    <updated>2026-08-24T11:10:34Z</updated>
+    <link href="https://arxiv.org/abs/2602.23692v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.23692v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by the construction of optimal locally repairable codes, we introduce the new finite geometric concept of a \emph{local arc} which is defined as a collection $\mathcal{S}$ of disjoint point sets $S_{i}$ in $\mathrm{PG}(2,q)$ such that $S_{i} \cup S_{j}$ is an arc for any $S_{i}, S_{j} \in \mathcal{S}$. We focus on the upper and lower bounds on the sizes of maximum $k$-uniform local arcs. For $q=p^m$ with $p$ prime, we construct $k$-uniform local arcs in $\mathrm{PG}(2,q)$ of size $Ω(q^{d})$ where $d$ is between $1.1167$ and $1.25$ depending only on $m$. For $k=4$, this implies the existence of optimal locally repairable codes (LRCs) with minimum distance 6, locality 3, and disjoint repair groups, whose length is superlinear in $q$--a significant improvement over the previously known $O(q)$ constructions for such LRCs.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-27T05:48:07Z</published>
+    <arxiv:comment>Updated proofs leading to slightly larger local arcs in PG(2,q) for $q=p^m$ with m odd. Minor revisions to improve clarity and precision</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Ferdinand Ihringer</name>
+    </author>
+    <author>
+      <name>Yue Zhou</name>
+    </author>
+    <arxiv:doi>10.1016/j.jcta.2026.106257</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jcta.2026.106257" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.04490v2</id>
+    <title>Elastic positivity vs extremal positivity bounds in SMEFT: a case study in transversal electroweak gauge-boson scatterings</title>
+    <updated>2020-09-20T14:19:57Z</updated>
+    <link href="https://arxiv.org/abs/2009.04490v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.04490v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The positivity bounds, derived from the axiomatic principles of quantum field theory (QFT), constrain the signs of Wilson coefficients and their linear combinations in the Standard Model Effective Field Theory (SMEFT). The precise determination of these bounds, however, can become increasingly difficult as more and more SM modes and operators are taken into account. We study two approaches that aim at obtaining the full set of bounds for a given set of SM fields: 1) the traditional elastic positivity approach, which exploits the elastic scattering amplitudes of states with arbitrarily superposed helicities as well as other quantum numbers, and 2) the newly proposed extremal positivity approach, which constructs the allowed coefficient space directly by using the extremal representation of convex cones. Considering the electroweak gauge-bosons as an example, we demonstrate how the best analytical and numerical positivity bounds can be obtained in several ways. We further compare the constraining power and the efficiency of various approaches, as well as their applicability to more complex problems. While the new extremal approach is more constraining by construction, we also find that it is analytically easier to use, numerically much faster than the elastic approach, and much more applicable when more SM particle states and operators are taken into account. As a byproduct, we provide the best positivity bounds on the transversal quartic-gauge-boson couplings, required by the axiomatic principles of QFT, and show that they exclude $\approx 99.3\%$ of the parameter space currently being searched at the LHC.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-09T18:02:45Z</published>
+    <arxiv:comment>62 pages, 5 figures; correction on discussion regarding previous literature; typo in bounds with dim-6 coefficient corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Kimiko Yamashita</name>
+    </author>
+    <author>
+      <name>Cen Zhang</name>
+    </author>
+    <author>
+      <name>Shuang-Yong Zhou</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP01(2021)095</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP01(2021)095" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0808.2581v2</id>
+    <title>Separability bounds on multiqubit moments due to positivity under partial transpose</title>
+    <updated>2008-12-01T10:43:53Z</updated>
+    <link href="https://arxiv.org/abs/0808.2581v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0808.2581v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Positivity of the density operator reflects itself in terms of sequences of inequalities on observable moments. Uncertainty relations for non-commuting observables form a subset of these inequalities. In addition, criterion of positivity under partial transposition (PPT) imposes distinct bounds on moments, violations of which signal entanglement. We present bounds on some novel sets of composite moments, consequent to positive partial transposition of the density operator and report their violation by entangled multiqubit states. In particular, we derive separability bounds on a multiqubit moment matrix (based on PPT constraints on bipartite divisions of the density matrix) and show that three qubit pure states with non-zero tangle violate these PPT moment constraints. Further, we recover necessary and sufficient condition of separability in a multiqubit Werner state through PPT bounds on moments.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-08-19T12:23:07Z</published>
+    <arxiv:comment>16 pages, no figures, minor revisions, references added; To appear in Phys. Rev. A</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 78, 062334 (2008).</arxiv:journal_ref>
+    <author>
+      <name>A R Usha Devi</name>
+    </author>
+    <author>
+      <name>A K Rajagopal</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.78.062334</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.78.062334" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.3542v1</id>
+    <title>Influence of reciprocal arcs on the degree distribution and degree correlations</title>
+    <updated>2009-02-20T10:30:02Z</updated>
+    <link href="https://arxiv.org/abs/0902.3542v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.3542v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Reciprocal arcs represent the lowest order cycle possible to find in directed graphs without self-loops. Representing also a measure of feed-back between vertices, it is interesting to understand how reciprocal arcs influence other properties of complex networks. In this paper we focus on influence of reciprocal arcs on vertex degree distribution and degree correlations. We show that there is a fundamental difference between properties observed on the static network compared to the properties of networks which are obtained by simple evolution mechanism driven by reciprocity. We also present a way to statistically infer the portion of reciprocal arcs which can be explained as a consequence of feed-back process on the static network. In the rest of the paper the influence of reciprocal arcs on a model of growing network is also presented. It is shown that our model of growing network nicely interpolates between BA model for undirected and the BA model for directed networks.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-20T10:30:02Z</published>
+    <arxiv:comment>13 pages, 11 figures, companion paper of our paper: "Model of Wikipedia growth based on information exchange via reciprocal arcs"</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. E 80, 016117 (2009)</arxiv:journal_ref>
+    <author>
+      <name>Vinko Zlatić</name>
+    </author>
+    <author>
+      <name>Hrvoje Štefančić</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.80.016117</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.80.016117" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.05475v2</id>
+    <title>Novel BPS Wilson loops in three-dimensional quiver Chern-Simons-matter theories</title>
+    <updated>2016-04-09T12:27:01Z</updated>
+    <link href="https://arxiv.org/abs/1510.05475v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.05475v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that generic three-dimensional $\mathcal N=2$ quiver super Chern-Simons-matter theories admit Bogomol'nyi-Prasad-Sommerfield (BPS) Drukker-Trancanelli (DT) type Wilson loops. We investigate both Wilson loops along timelike infinite straight lines in Minkowski spacetime and circular Wilson loops in Euclidean space. In Aharnoy-Bergman-Jafferis-Maldacena theory, we find that generic BPS DT type Wilson loops preserve the same number of supersymmetries as Gaiotto-Yin type Wilson loops. There are several free parameters for generic BPS DT type Wilson loops in the construction, and supersymmetry enhancement for Wilson loops happens for special values of the parameters.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-19T13:52:06Z</published>
+    <arxiv:comment>V1, 5 pages; V2, 13 pages, circular Wilson loops added, published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett. B753 (2016) 215-220</arxiv:journal_ref>
+    <author>
+      <name>Hao Ouyang</name>
+    </author>
+    <author>
+      <name>Jun-Bao Wu</name>
+    </author>
+    <author>
+      <name>Jia-ju Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2015.12.021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2015.12.021" title="doi"/>
+  </entry>
+</feed>

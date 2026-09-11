@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7PM5xBrKUNMxXFRJ4gUiLXcEnyw</id>
+  <title>arXiv Query: search_query=all:Hankel OR all:matrix OR all:positivity OR all:Hausdorff OR all:moment OR all:problem OR all:truncated&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:44:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Hankel+OR+(all:matrix+OR+(all:positivity+OR+(all:Hausdorff+OR+(all:moment+OR+(all:problem+OR+all:truncated)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>833292</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4567v1</id>
+    <title>On degenerate Hamburger moment problem and extensions of positive semidefinite Hankel block matrices</title>
+    <updated>2008-12-24T19:22:41Z</updated>
+    <link href="https://arxiv.org/abs/0812.4567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we consider two related objects: singular positive semidefinite Hankel block--matrices and associated degenerate truncated matrix Hamburger moment problems. The description of all solutions of a degenerate matrix Hamburger moment problem is given in terms of a linear fractional transformation. The case of interest is the Hamburger moment problem whose Hankel block--matrix admits a positive semidefinite Hankel extension.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-24T19:22:41Z</published>
+    <arxiv:comment>The corrected version of the paper "On degenerate Hamburger moment problem and extensions of nonnegative Hankel block matrices", Integral Equations Operator Theory 25 (1996), no. 3, 253--276</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Bolotnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.00617v2</id>
+    <title>Hankel determinants of random moment sequences</title>
+    <updated>2016-06-27T08:58:34Z</updated>
+    <link href="https://arxiv.org/abs/1508.00617v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.00617v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For $ t \in [0,1]$ let $\underline{H}_{2\lfloor nt \rfloor} = ( m_{i+j})_{i,j=0}^{\lfloor nt \rfloor} $ denote the Hankel matrix of order $2\lfloor nt \rfloor$ of a random vector $(m_1,\ldots ,m_{2n})$ on the moment space $\mathcal{M}_{2n}(I)$ of all moments (up to the order $2n$) of probability measures on the interval $I \subset \mathbb{R} $. In this paper we study the asymptotic properties of the stochastic process $\{ \log \det \underline{H}_{2\lfloor nt \rfloor} \}_{t\in [0,1]}$ as $n \to \infty$. In particular weak convergence and corresponding large deviation principles are derived after appropriate standardization.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-03T23:25:20Z</published>
+    <arxiv:comment>Keyword and Phrases: Hankel determinant, random moment sequences, weak convergence, large deviation principle, canonical moments, arcsine distribution AMS Subject Classification: 60F05, 60F10, 30E05, 15B52</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Holger Dette</name>
+    </author>
+    <author>
+      <name>Dominik Tomecki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.05724v1</id>
+    <title>The Resolvent Matrix of the Truncated Hausdorff Matrix Moment Problem via New Dyukarev-Stieltjes Parameters and Extremal Solutions via Continued Fractions</title>
+    <updated>2016-10-18T18:00:21Z</updated>
+    <link href="https://arxiv.org/abs/1610.05724v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.05724v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We obtain a new multiplicative decomposition of the resolvent matrix of the truncated Hausdorff matrix moment (THMM) problem in the case of an odd and even number of moments via new Dyukarev-Stieltjes matrix (DSM) parameters. Explicit interrelations between new DSM parameters and orthogonal matrix polynomials on a finite interval $[a,b]$, as well as the Schur complements of the block Hankel matrices constructed through the moments of the THMM problem are given. Additionally, the extremal solutions of the THMM problem are represented via matrix continued fractions in terms of the DSM parameters.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-18T18:00:21Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Abdon E. Choque-Rivero</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.00374v2</id>
+    <title>Explicit relation between two resolvent matrices of the truncated Hausdorff matrix moment problem</title>
+    <updated>2023-02-27T02:28:59Z</updated>
+    <link href="https://arxiv.org/abs/2210.00374v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.00374v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the explicit relation between two resolvent matrices related to the truncated Hausdorff matrix moment problem (THMM) in the case of an even and odd number of moments. This relation is described with the help of four families of orthogonal matrix polynomials on the finite interval $[a,b]$ and their associated second kind polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-01T21:10:19Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Abdon E. Choque-Rivero</name>
+    </author>
+    <author>
+      <name>Monika Winklmeier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.31647v2</id>
+    <title>Order-Moment Transport and Hankel Determinants in Special-Function Inequalities</title>
+    <updated>2026-07-01T18:46:35Z</updated>
+    <link href="https://arxiv.org/abs/2606.31647v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.31647v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scalar inequalities in an order parameter often arise as the $2\times2$ shadow of a stronger Hankel determinant statement. We record a moment-representation criterion: positive exponential and Mellin order representations, together with gamma-normalized completely monotone averages, generate totally nonnegative Hankel kernels, with strictness controlled by the support of the representing measure. The criterion packages the classical total-positivity mechanism as a recognition calculus for special-function inequalities, turning the order parameter into a moment exponent after the correct normalization.
+  The applications include three named determinant lifts. First, we prove the positive Jackson $q$-gamma Hankel conjecture of Karp--Vishnyakova--Zhang: for $0&lt;q&lt;1$, the kernel $(x,y)\mapstoΓ_q(x+y)$ is $\mathrm{STP}_\infty$. This is an atomic Mellin-moment instance of the general criterion; the reciprocal sign-regularity problem for $1/Γ_q$ is separate and is not addressed here. Second, we answer Yang's continuous half-gamma Mills-ratio log-convexity question and strengthen it to strict total positivity, hence to all higher Hankel Turan determinants. Third, we treat Tricomi rays and the one-dimensional Coulomb regularization as all-minor Hankel determinant hierarchies. For the Coulomb regularization, the $2\times2$ minor gives the scalar log-convexity question recorded by Baricz--Pogany, and the full theorem supplies the corresponding all-minor strengthening.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-30T13:29:14Z</published>
+    <arxiv:comment>v016 adds the Jackson q-gamma application proving the positive Hankel-kernel conjecture of Karp--Vishnyakova--Zhang; the earlier JMAA-submitted v014 did not contain this section</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Domingos S. P. Salazar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.00654v2</id>
+    <title>Matrix-valued truncated Toeplitz operators: unbounded symbols, kernels and equivalence after extension</title>
+    <updated>2022-01-25T17:12:45Z</updated>
+    <link href="https://arxiv.org/abs/2012.00654v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.00654v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies matrix-valued truncated Toeplitz operators, which are a vectorial generalisation of truncated Toeplitz operators. It is demonstrated that, although there exist matrix-valued truncated Toeplitz operators without a matrix symbol in $L^p$ for any $p \in (2, \infty ]$, there is a wide class of matrix-valued truncated Toeplitz operators which possess a matrix symbol in $L^p$ for some $p \in (2, \infty ]$. In the case when the matrix-valued truncated Toeplitz operator has a symbol in $L^p$ for some $p \in (2, \infty ]$, an approach is developed which bypasses some of the technical difficulties which arise when dealing with problems concerning matrix-valued truncated Toeplitz operators with unbounded symbols. Using this new approach, two new notable results are obtained. The kernel of the matrix-valued truncated Toeplitz operator is expressed as an isometric image of an $S^*$-invariant subspace. Also, a Toeplitz operator is constructed which is equivalent after extension to the matrix-valued truncated Toeplitz operator. In a different yet overlapping vein, it is also shown that multidimensional analogues of the truncated Wiener-Hopf operators are unitarily equivalent to certain matrix-valued truncated Toeplitz operators.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-01T17:25:46Z</published>
+    <arxiv:comment>Added an extra section with applications of matrix-valued truncated Toeplitz operators to integral equations. To be published in Integral Equations and Operator Theory</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Ryan O'Loughlin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.02737v1</id>
+    <title>Characterizations of matrix valued asymmetric truncated Hankel operators</title>
+    <updated>2023-09-06T05:46:57Z</updated>
+    <link href="https://arxiv.org/abs/2309.02737v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.02737v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we introduce the class of matrix valued asymmetric truncated Hankel operators. By using characterizations of matrix valued asymmetric truncated Toeplitz operators, we characterize matrix valued asymmetric truncated Hankel operators in the case when two involved inner matrices are J-symmetric.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-06T05:46:57Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2103.15719</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Rewayat Khan</name>
+    </author>
+    <author>
+      <name>Ji Eun Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.02646v1</id>
+    <title>Moment-Based Ensemble Control</title>
+    <updated>2020-09-06T05:14:07Z</updated>
+    <link href="https://arxiv.org/abs/2009.02646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.02646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Controlling a large population, in the limit, a continuum, of structurally identical dynamical systems with parametric variations is a pervasive task in diverse applications in science and engineering. However, the severely underactuated nature and the inability to avail comprehensive state feedback information of such ensemble systems raise significant challenges in analysis and design of ensemble systems. In this paper, we propose a moment-based ensemble control framework, which incorporates and expands the method of moments in probability theory to control theory. In particular, we establish an equivalence between ensemble systems and their moment systems in terms of control and their controllability properties by extending the Hausdorff moment problem from the perspectives of differential geometry and dynamical systems. The developments enable the design of moment-feedback control laws for closing the loop in ensemble systems using the aggregated type of measurements. The feasibility of this closed-loop control design procedure is validated both mathematically and numerically.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-06T05:14:07Z</published>
+    <arxiv:comment>Keywords: Ensemble systems, Hausdorff moment problem, Aggregated measurements, Aggregated feedback</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Vignesh Narayanan</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Jr-Shin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.08382v1</id>
+    <title>Conditionally positive definite kernels in Hilbert $C^*$-modules</title>
+    <updated>2016-11-25T08:35:02Z</updated>
+    <link href="https://arxiv.org/abs/1611.08382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.08382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the notion of conditionally positive definite in the context of Hilbert $C^*$-modules and present a characterization of the conditionally positive definiteness in terms of the usual positive definiteness. We give a Kolmogorov type representation of conditionally positive definite kernels in Hilbert $C^*$-modules. As a consequence, we show that a $C^*$-metric space $(S, d)$ is $C^*$-isometric to a subset of a Hilbert $C^*$-module if and only if $K(s,t)=-d(s,t)^2$ is a conditionally positive definite kernel. We also present a characterization of the order $K'\leq K$ between conditionally positive definite kernels.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-25T08:35:02Z</published>
+    <arxiv:comment>14 pages, to appear in Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <arxiv:journal_ref>Positivity 21 (2017), no. 3, 1161--1172</arxiv:journal_ref>
+    <author>
+      <name>Mohammad Sal Moslehian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.11522v2</id>
+    <title>Toeplitz, Hankel, de Branges and two truncated matrix moment problems</title>
+    <updated>2025-07-29T09:51:17Z</updated>
+    <link href="https://arxiv.org/abs/2412.11522v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.11522v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper deals with (1) the truncated matrix Hamburger moment problem from the point of view of reproducing kernel Hilbert spaces of vector valued entire functions of the kind introduced and extensively studied by Louis de Branges and (2) the truncated matrix trigonometric moment problem viewed through an analogous class of spaces that are formulated with respect to the open unit disc rather than the open upper half-plane. In this approach projections are computed via appropriately chosen reproducing kernels instead of orthogonal bases. This approach eases the bookkeeping and leads to pleasing formulas.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-16T07:58:19Z</published>
+    <arxiv:comment>Final version with minor changes from the previous submission</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Integral Equations and Operator Theory 97, 24 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Kousik Dhara</name>
+    </author>
+    <author>
+      <name>Harry Dym</name>
+    </author>
+    <arxiv:doi>10.1007/s00020-025-02809-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00020-025-02809-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1403.5592v2</id>
+    <title>The truncated matrix trigonometric moment problem with an open gap</title>
+    <updated>2015-05-16T19:44:36Z</updated>
+    <link href="https://arxiv.org/abs/1403.5592v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.5592v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is a continuation of our previous investigations on the truncated matrix trigonometric moment problem in Ukrainian Math. J., 2011, \textbf{63}, no. 6, 786-797, and Ukrainian Math. J., 2013, \textbf{64}, no. 8, 1199-1214. In this paper we shall study the truncated matrix trigonometric moment problem with an additional constraint posed on the matrix measure $M_{\mathbb{T}}(δ)$, $δ\in \mathfrak{B}(\mathbb{T})$, generated by the seeked function $M(x)$: $M_{\mathbb{T}}(Δ) = 0$, where $Δ$ is a given open subset of $\mathbb{T}$ (called a gap). We present necessary and sufficient conditions for the solvability of the moment problem with a gap. All solutions of the moment problem with a gap can be constructed by a Nevanlinna-type formula.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-21T23:31:41Z</published>
+    <arxiv:comment>14 pages. arXiv admin note: text overlap with arXiv:1401.5413</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15740v1</id>
+    <title>Hankel low-rank matrix approximation for gravitational-wave data analysis</title>
+    <updated>2026-03-16T18:00:02Z</updated>
+    <link href="https://arxiv.org/abs/2603.15740v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15740v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Next-generation gravitational-wave (GW) detectors, such as the Laser Interferometer Space Antenna (LISA), will observe vast numbers of overlapping signals. Disentangling these signals from instrumental noise and from one another constitutes a significant data analysis challenge. We explore a denoising technique based on embedding time series into Hankel matrices: a superposition of $n$ (damped) sinusoids corresponds to a matrix of rank $2n$. Thus, the problem of signal extraction is reduced to a structured low-rank approximation problem. Using synthetic data tailored to GW applications, we benchmark three Hankel-based algorithms: ESPRIT, Cadzow iterations, and iteratively reweighted least squares (IRLS). Our test scenarios include isolated and multi-component monochromatic signals, the resolution of sources with closely spaced frequencies, and the recovery of black hole quasinormal modes (QNM). All three algorithms achieve near-optimal performance consistent with Fisher matrix bounds, evidenced by an inverse-square scaling of the mismatch with the signal-to-noise ratio. Furthermore, a proof-of-concept application to numerical relativity waveforms validates the ability of these algorithms to extract QNM frequencies from ringdown signals. Hankel low-rank approximation therefore offers a transparent, computationally efficient avenue for preprocessing GW time series.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-16T18:00:02Z</published>
+    <arxiv:comment>17 pages, 5 figures; for associated implementation, see https://github.com/CosmoVlad/lisa-hankel/tree/main/pipelines</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Nicholas Geissler</name>
+    </author>
+    <author>
+      <name>Vladimir Strokov</name>
+    </author>
+    <author>
+      <name>Christian Kümmerle</name>
+    </author>
+    <author>
+      <name>Sergey Kushnarev</name>
+    </author>
+    <author>
+      <name>Emanuele Berti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.11900v1</id>
+    <title>The Weyl matrix balls corresponding to the matricial truncated Hamburger moment problem</title>
+    <updated>2021-09-24T11:50:04Z</updated>
+    <link href="https://arxiv.org/abs/2109.11900v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.11900v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main goal of the paper is to parametrize the Weyl matrix balls associated with an arbitrary matricial truncated Hamburger moment problem. For the special case of a non-degenerate matricial truncated Hamburger moment problem the corresponding Weyl matrix balls were computed by I. V. Kovalishina in the framework of V. P. Potapov's method of "Fundamental matrix inequalities".</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-24T11:50:04Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Bernd Fritzsche</name>
+    </author>
+    <author>
+      <name>Bernd Kirstein</name>
+    </author>
+    <author>
+      <name>Susanne Kley</name>
+    </author>
+    <author>
+      <name>Conrad Mädler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.03365v1</id>
+    <title>A Schur-Nevanlinna type algorithm for the truncated matricial Hausdorff moment problem</title>
+    <updated>2020-05-07T10:02:07Z</updated>
+    <link href="https://arxiv.org/abs/2005.03365v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.03365v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main goal of this paper is to achieve a parametrization of the solution set of the truncated matricial Hausdorff moment problem in the non-degenerate and degenerate situation. We treat the even and the odd cases simultaneously. Our approach is based on Schur analysis methods. More precisely, we use two interrelated versions of Schur-type algorithms, namely an algebraic one and a function-theoretic one. The algebraic version, worked out in our former paper arXiv:1908.05115, is an algorithm which is applied to finite or infinite sequences of complex matrices. The construction and discussion of the function-theoretic version is a central theme of this paper. This leads us to a complete description via Stieltjes transform of the solution set of the moment problem under consideration. Furthermore, we discuss special solutions in detail.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-07T10:02:07Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Bernd Fritzsche</name>
+    </author>
+    <author>
+      <name>Bernd Kirstein</name>
+    </author>
+    <author>
+      <name>Conrad Mädler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.2278v1</id>
+    <title>The Nevanlinna-type formula for the truncated matrix trigonometric moment problem</title>
+    <updated>2012-01-11T10:57:24Z</updated>
+    <link href="https://arxiv.org/abs/1201.2278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.2278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is a continuation of our previous investigation on the truncated matrix trigonometric moment problem in Ukrainian Math. J., 2011, 63, no.6, 786-797. In the present paper we obtain a Nevanlinna-type formula for this moment problem in a general case. We only assume that we have more than one moment, the moment problem is solvable and the problem has more than one solution. The coefficients of the corresponding matrix linear fractional transformation are explicitly expressed by the prescribed moments. Easy conditions for the determinacy of the moment problem are given.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-11T10:57:24Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.5413v1</id>
+    <title>On the truncated matrix power moment problem with an open gap</title>
+    <updated>2014-01-21T18:22:19Z</updated>
+    <link href="https://arxiv.org/abs/1401.5413v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.5413v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the truncated power moment problem with an odd number of prescribed moments. A Nevanlinna-type formula is derived for this moment problem in the case when the moment problem has more than one solution (the indeterminate case). The coefficients of the corresponding linear fractional transformation are expressed explicitly in terms of the given moments. In the determinate case the solution to the moment problem is constructed, as well. Those solutions of the moment problem, which satisfy the following condition: $M(Δ)=0$, where $Δ$ is a prescribed open subset of $\mathbb{R}$, and $M$ is the matrix measure generated by a solution of the moment problem, are described.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-21T18:22:19Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.02398v1</id>
+    <title>Truncated Hausdorff Moment Problem and Analytic Solution of the Time-Optimal Problem for One Class of Nonlinear Control Systems</title>
+    <updated>2020-07-05T17:45:32Z</updated>
+    <link href="https://arxiv.org/abs/2007.02398v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.02398v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A complete analytic solution for the time-optimal control problem for nonlinear control systems of the form $\dot x_1=u$, $\dot x_j=x_1^{j-1}$, $j=2,\ldots,n$, is obtained for arbitrary $n$. The main goal of the paper is to present the following surprising observation: this nonlinear optimality problem leads to a truncated Hausdorff moment problem, which is applied essentially for finding the optimal time and optimal controls.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-05T17:45:32Z</published>
+    <arxiv:comment>27 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Grigory M. Sklyar</name>
+    </author>
+    <author>
+      <name>Svetlana Yu. Ignatovich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.1534v1</id>
+    <title>The truncated matrix trigonometric moment problem: the operator approach</title>
+    <updated>2010-12-07T15:27:20Z</updated>
+    <link href="https://arxiv.org/abs/1012.1534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.1534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the truncated matrix trigonometric moment problem. We obtained a bijective parameterization of all solutions of this moment problem (both in nondegenerate and degenerate cases) via an operator approach. We use important results of M.E.~Chumakin on generalized resolvents of isometric operators.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-07T15:27:20Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.09241v1</id>
+    <title>On some algebras of truncated Hankel and asymmetric truncated Hankel operators</title>
+    <updated>2021-12-16T22:52:11Z</updated>
+    <link href="https://arxiv.org/abs/2112.09241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.09241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the last decade, a large amount of research has been concentrated on the operators living on the model space. Asymmetric truncated Toeplitz operators and asymmetric truncated Hankel operators are the natural generalization of truncated Toeplitz operators and truncated Hankel operators respectively. In this paper, we obtained the basic results concerning the product of these operators and in terms of product their connection with each other. In addition, when the inner function has a certain symmetric property, some algebraic properties of truncated Hankel operators are also discussed.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-16T22:52:11Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Ameur Yagoub</name>
+    </author>
+    <author>
+      <name>Muhammad Ahsan Khan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.02284v1</id>
+    <title>Product of truncated Hankel and truncated Toeplitz operators</title>
+    <updated>2020-04-05T19:18:41Z</updated>
+    <link href="https://arxiv.org/abs/2004.02284v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.02284v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A truncated Toeplitz operator is the compression of a classical Toeplitz operator on the Hardy space to a model space. A truncated Hankel operator is the compression of a Hankel operator on the Hardy space to the orthogonal complement of a model space. We study the product of a truncated Hankel operator and a truncated Toeplitz operator, and characterize when such a product is zero or compact.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-05T19:18:41Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Cheng Chu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.00486v2</id>
+    <title>The strong truncated Hamburger moment problem with and without gaps</title>
+    <updated>2022-05-15T08:08:12Z</updated>
+    <link href="https://arxiv.org/abs/2101.00486v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.00486v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The strong truncated Hamburger moment problem (STHMP) of degree $(-2k_1,2k_2)$ asks to find necessary and sufficient conditions for the existence of a positive Borel measure, supported on $\mathbb{R}\setminus \{0\}$, such that $β_i=\int x^idμ\; (-2k_1\leq i\leq 2k_2)$. Using the solution of the truncated Hamburger moment problem and the properties of Hankel matrices we solve the STHMP. Then, using the equivalence with the STHMP of degree $(-2k,2k)$, we obtain the solution of the 2-dimensional truncated moment problem (TMP) of degree $2k$ with variety $xy=1$, first solved by Curto and Fialkow. Our addition to their result is the fact previously known only for $k=2$, that the existence of a measure is equivalent to the existence of a flat extension of the moment matrix. Further on, we solve the STHMP of degree $(-2k_1,2k_2)$ with one missing moment in the sequence, i.e., $β_{-2k_1+1}$ or $β_{2k_2-1}$, which also gives the solution of the TMP with variety $x^2y=1$ as a special case, first studied by Fialkow.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-02T17:49:59Z</published>
+    <arxiv:comment>20 pages. arXiv admin note: text overlap with arXiv:2007.11846</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>J. Math. Anal. Appl. 516 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Aljaž Zalar</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmaa.2022.126563</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmaa.2022.126563" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.11846v2</id>
+    <title>The truncated Hamburger moment problems with gaps in the index set</title>
+    <updated>2022-05-14T21:40:24Z</updated>
+    <link href="https://arxiv.org/abs/2007.11846v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.11846v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article we solve four special cases of the truncated Hamburger moment problem (THMP) of degree $2k$ with one or two missing moments in the sequence. As corollaries we obtain, by using appropriate substitutions, the solutions to bivariate truncated moment problems of degree $2k$ for special curves. Namely, for the curves $y=x^3$ (first solved by Fialkow), $y^2=x^3$, $y=x^4$ where a certain moment of degree $2k+1$ is known and $y^3=x^4$ with a certain moment given. The main technique is the completion of the partial positive semidefinite matrix (ppsd) such that the conditions of Curto and Fialkow's solution of the THMP are satisfied. The main tools are the use of the properties of positive semidefinite Hankel matrices and a result on all completions of a ppsd matrix with one unknown entry, proved by the use of the Schur complements for $2\times 2$ and $3\times 3$ block matrices.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-23T08:16:54Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Integr. Equ. Oper. Theory (93) 2021</arxiv:journal_ref>
+    <author>
+      <name>Aljaž Zalar</name>
+    </author>
+    <arxiv:doi>10.1007/s00020-021-02628-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00020-021-02628-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.10179v1</id>
+    <title>On the Matricial Truncated Moment Problem. II</title>
+    <updated>2023-11-16T20:10:48Z</updated>
+    <link href="https://arxiv.org/abs/2311.10179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.10179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We continue the study of truncated matrix-valued moment problems begun in arXiv:2310.00957. Let $q\in\mathbb{N}$. Suppose that $(\mathcal{X},\mathfrak{X})$ is a measurable space and $\mathcal{E}$ is a finite-dimensional vector space of measurable mappings of $\mathscr{X}$ into $\mathcal{H}_q$, the Hermitian $q\times q$ matrices. A linear functional $Λ$ on $\mathcal{E}$ is called a moment functional if there exists a positive $\mathcal{H}_q$-valued measure $μ$ on $(\mathcal{X},\mathfrak{X})$ such that $Λ(F)=\int_\mathcal{X} \langle F, \mathrm{d}μ\rangle$ for $F\in \mathcal{E}$.
+  In this paper a number of special topics on the truncated matricial moment problem are treated. We restate a result from (Mourrain and Schmüdgen, 2016) to obtain a matricial version of the flat extension theorem. Assuming that $\mathcal{X}$ is a compact space and all elements of $ \mathcal{E}$ are continuous on $\mathcal{X}$ we characterize moment functionals in terms of positivity and obtain an ordered maximal mass representing measure for each moment functional. The set of masses of representing measures at a fixed point and some related sets are studied. The class of commutative matrix moment functionals is investigated. We generalize the apolar scalar product for homogeneous polynomials to the matrix case and apply this to the matricial truncated moment problem.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-16T20:10:48Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Conrad Mädler</name>
+    </author>
+    <author>
+      <name>Konrad Schmüdgen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.0162v1</id>
+    <title>Truncated moment problems in the class of generalized Nevanlinna functions</title>
+    <updated>2010-12-30T21:18:14Z</updated>
+    <link href="https://arxiv.org/abs/1101.0162v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.0162v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Truncated moment problems in the class of generalized Nevanlinna functions are investigated. General solvability criteria will be established, covering both the even and odd problems, including complete parametrizations of solutions. The main new results concern the case where the corresponding Hankel matrix of moments is degenerate. One of the new effects which reveals in the indefinite case is that the degenerated moment problem may have infinitely many solutions. However, with a careful application of an indefinite analogue of a step-by-step Schur algorithm a complete description of the set of solutions will be obtained.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-30T21:18:14Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Vladimir Derkach</name>
+    </author>
+    <author>
+      <name>Seppo Hassi</name>
+    </author>
+    <author>
+      <name>Henk de Snoo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.05993v2</id>
+    <title>Hankel continued fractions and Hankel determinants for $q$-deformed metallic numbers</title>
+    <updated>2026-01-17T09:21:16Z</updated>
+    <link href="https://arxiv.org/abs/2502.05993v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.05993v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fix $n$ a positive integer. Take the $n$-th metallic number $φ_n=\frac{n+\sqrt{n^2+4}}{2}$ (e.g. $φ_1$ is the golden number) and let $Φ_n(q)$ be its $q$-deformation in the sense of S. Morier-Genoud and V. Ovsienko. This is an algebraic continued fraction which admits an expansion into a Taylor series around $q=0$, with integral coefficients. By using the notion of Hankel continued fraction introduced by the first author in 2016 we determine explicitly the first $n+2$ sequences of shifted Hankel determinants of $Φ_n$ and show that they satisfy the following properties:
+  1) They are periodic and consist of $-1,0,1$ only.
+  2) They satisfy a three-term Gale-Robinson recurrence, i.e. they form discrete integrable dynamical systems.
+  3) They are all completely determined by the first sequence.
+  This article thus validates a conjecture formulated by V. Ovsienko and the second author in a recent paper and establishes new connections between $q$-deformations of real numbers and sequences of Catalan or Motzkin numbers.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-09T18:54:27Z</published>
+    <arxiv:comment>51 pages, 5 figures. Version 2 improvements: new theorem on the periodicity modulo a prime of the Hankel determinants, bibliography updates and minor corrections</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Guo-Niu Han</name>
+    </author>
+    <author>
+      <name>Emmanuel Pedon</name>
+    </author>
+  </entry>
+</feed>

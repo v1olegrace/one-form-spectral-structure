@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TMClCRxrXyqH8ueF38aTUlSERlg</id>
+  <title>arXiv Query: search_query=all:approximate OR all:higher OR all:form OR all:symmetry OR all:violation OR all:charge OR all:screening&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:46:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:approximate+OR+(all:higher+OR+(all:form+OR+(all:symmetry+OR+(all:violation+OR+(all:charge+OR+all:screening)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>937232</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1311.3723v1</id>
+    <title>Fragment Descriptors in Virtual Screening</title>
+    <updated>2013-11-15T04:23:09Z</updated>
+    <link href="https://arxiv.org/abs/1311.3723v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.3723v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article reviews the application of fragment descriptors at different stages of virtual screening: filtering, similarity search, and direct activity assessment using QSAR/QSPR models. Several case studies are considered. It is demonstrated that the power of fragment descriptors stems from their universality, very high computational efficiency, simplicity of interpretation and versatility.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-15T04:23:09Z</published>
+    <arxiv:comment>To be published in Advances in Combinatorial Chemistry &amp; High Throughput Screening</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>Advances in Combinatorial Chemistry &amp; High Throughput Screening (2014), 1, 36-59</arxiv:journal_ref>
+    <author>
+      <name>Igor I. Baskin</name>
+    </author>
+    <author>
+      <name>Alexandre Varnek</name>
+    </author>
+    <arxiv:doi>10.2174/9781608057450113010005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2174/9781608057450113010005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.05522v2</id>
+    <title>Is there any symmetry left in gravity theories with explicit Lorentz violation?</title>
+    <updated>2018-09-18T03:25:46Z</updated>
+    <link href="https://arxiv.org/abs/1808.05522v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.05522v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is well known that a theory with explicit Lorentz violation is not invariant under diffeomorphisms. On the other hand, for geometrical theories of gravity, there are alternative transformations, which can be best defined within the first-order formalism, and that can be regarded as a set of improved diffeomorphisms. These symmetries are known as local translations and, among other features, they are Lorentz covariant off shell. It is thus interesting to study if theories with explicit Lorentz violation are invariant under local translations. In this work, an example of such a theory, known as the minimal gravity sector of the Standard Model Extension, is analyzed. Using a robust algorithm, it is shown that local translations are not a symmetry of the theory. It remains to be seen if local translations are spontaneously broken under spontaneous Lorentz violation, which are regarded as a more natural alternative when spacetime is dynamic.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-16T14:47:53Z</published>
+    <arxiv:comment>For a special issue of the journal Symmetry on Broken Symmetry in Curved Spacetime and Gravity. 8 pages</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Symmetry 2018, 10(10), 433</arxiv:journal_ref>
+    <author>
+      <name>Yuri Bonder</name>
+    </author>
+    <author>
+      <name>Cristóbal Corral</name>
+    </author>
+    <arxiv:doi>10.3390/sym10100433</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym10100433" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.08886v1</id>
+    <title>BRST Symmetry Violation and Fundamental Limitations of Asymptotic Safety in Quantum Gravity</title>
+    <updated>2026-01-13T06:38:03Z</updated>
+    <link href="https://arxiv.org/abs/2601.08886v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.08886v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The asymptotic safety program assumes that quantum gravity becomes renormalizable through ultraviolet fixed points in metric-based couplings. We demonstrate that this approach {encounters fundamental symmetry violations} across multiple independent criteria, all traceable to a single fundamental cause: the breakdown of general covariance and BRST symmetries above the gravitational cutoff scale. Rigorous canonical quantization proves that general covariance cannot be maintained quantum mechanically in dimensions greater than two, while recent path integral calculations reveal persistent gauge parameter dependence in quantum gravitational corrections, signaling BRST symmetry violation. These dual proofs establish that the metric tensor ceases to exist as a valid quantum degree of freedom above $Λ_{\text{grav}}$$\sim$$10^{18}$ GeV, rendering the search for ultraviolet fixed points in metric-based theories {problematic from a foundational physical perspective}. We provide comprehensive analysis demonstrating that asymptotic safety exhibits persistent gauge parameter dependence where fixed-point properties vary with arbitrary gauge choices, non-convergent truncation schemes extending to the 35th order showing no approach to stable values, experimental {tensions} with electroweak precision tests by orders of magnitude, matter content requirements incompatible with the Standard Model, absence of concrete graviton predictions due to gauge and truncation dependence, unitarity {challenges} through ghost instabilities and propagator negativity, and fundamental Wick rotation obstructions preventing reliable connection between Euclidean calculations and physical Lorentzian spacetime. We contrast this with the Unified Standard Model with Emergent Gravity framework that systematically avoids all asymptotic safety pathologies.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-13T06:38:03Z</published>
+    <arxiv:comment>38 pages, published version, featured in Symmetry</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Symmetry 2026, 18(1), 140</arxiv:journal_ref>
+    <author>
+      <name>Farrukh A. Chishtie</name>
+    </author>
+    <arxiv:doi>10.3390/sym18010140</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym18010140" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.09600v2</id>
+    <title>Higher-form symmetries of 6d and 5d theories</title>
+    <updated>2020-11-12T22:16:45Z</updated>
+    <link href="https://arxiv.org/abs/2008.09600v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.09600v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe general methods for determining higher-form symmetry groups of known 5d and 6d superconformal field theories (SCFTs), and 6d little string theories (LSTs). The 6d theories can be described as supersymmetric gauge theories in 6d which include both ordinary non-abelian 1-form gauge fields and also abelian 2-form gauge fields. Similarly, the 5d theories can also be often described as supersymmetric non-abelian gauge theories in 5d. Naively, the 1-form symmetry of these 6d and 5d theories is captured by those elements of the center of ordinary gauge group which leave the matter content of the gauge theory invariant. However, an interesting subtlety is presented by the fact that some massive BPS excitations, which includes the BPS instantons, are charged under the center of the gauge group, thus resulting in a further reduction of the 1-form symmetry. We use the geometric construction of these theories in M/F-theory to determine the charges of these BPS excitations under the center. We also provide an independent algorithm for the determination of 1-form symmetry for 5d theories that admit a generalized toric construction. The 2-form symmetry group of 6d theories, on the other hand, is captured by those elements of the center of the abelian 2-form gauge group that leave all the massive BPS string excitations invariant, which is much more straightforward to compute as it is encoded in the Green-Schwarz coupling associated to the 6d theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-21T17:53:33Z</published>
+    <arxiv:comment>53 pages, 1 figure, v2: Examples discussing 1-form symmetry of twisted 5d KK theories added, comments about spontaneous symmetry breaking added, references added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Lakshya Bhardwaj</name>
+    </author>
+    <author>
+      <name>Sakura Schafer-Nameki</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP02(2021)159</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP02(2021)159" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.06717v3</id>
+    <title>Why Poincare symmetry is a good approximate symmetry in particle theory</title>
+    <updated>2025-02-27T14:39:36Z</updated>
+    <link href="https://arxiv.org/abs/2405.06717v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.06717v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As shown in the famous Dyson's paper "Missed Opportunities", even from purely mathematical considerations (without any physics) it follows that Poincare quantum symmetry is a special degenerate case of de Sitter quantum symmetries. Then the question arises why in particle physics Poincare symmetry works with a very high accuracy. The usual answer to this question is that a theory in de Sitter space becomes a theory in Minkowski space in the formal limit when the radius of de Sitter space tends to infinity. However, de Sitter and Minkowski spaces are purely classical concepts, and in quantum theory the answer to this question must be given only in terms of quantum concepts. At the quantum level, Poincare symmetry is a good approximate symmetry if the eigenvalues of the representation operators $M_{4μ}$ of the anti-de Sitter algebra are much greater than the eigenvalues of the operators $M_{μν}$ ($μ,ν=0,1,2,3$). We show that explicit solutions with such properties exist within the framework of the approach proposed by Flato and Fronsdal where particles that are considered elementary in the standard theory are bound states of two Dirac singletons.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-10T00:14:05Z</published>
+    <arxiv:comment>16 pages, no figures. A revised version with references added. Published in Symmetry vol. 17(3), paper 338 (2025)</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Symmetry vol. 17(3), paper 338 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Felix M. Lev</name>
+    </author>
+    <arxiv:doi>10.3390/sym17030338</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym17030338" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.08930v1</id>
+    <title>Construction of higher-order metric fluctuation terms in spacetime symmetry-breaking effective field theory</title>
+    <updated>2021-04-18T18:37:11Z</updated>
+    <link href="https://arxiv.org/abs/2104.08930v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.08930v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine the basic conservation laws for diffeomorphism symmetry in the context of spontaneous diffeomorphism and local Lorentz-symmetry breaking. The conservation laws are used as constraints on a generic series of terms in an expansion around a flat background. We find all such terms for a two-tensor coupling to cubic order in the metric and tensor field fluctuations. The results are presented in a form that can be used for phenomenological calculations. One key result is that if we preserve the underlying diffeomorphism symmetry in a spontaneous-symmetry breaking scenario, one cannot decouple the two-tensor fluctuations from the metric fluctuations at the level of the action, except in special cases of the quadratic actions.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-18T18:37:11Z</published>
+    <arxiv:comment>12 pages, submitted to Symmetry</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Symmetry 2021, 13, 834</arxiv:journal_ref>
+    <author>
+      <name>Quentin G. Bailey</name>
+    </author>
+    <arxiv:doi>10.3390/sym13050834</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym13050834" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.19628v1</id>
+    <title>Center Symmetry Breaking in Calabi--Yau Compactifications</title>
+    <updated>2025-03-25T13:15:27Z</updated>
+    <link href="https://arxiv.org/abs/2503.19628v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.19628v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is widely believed that global symmetries must be broken in Quantum Gravity. This includes higher-form symmetries, which are commonplace in supergravity coupled to vector multiplets. Recently, a quantitative criterion for the breaking of (higher-form) symmetries in effective field theories of gravity has been proposed. We studied this criterion in the context of center one-form symmetries broken by BPS states in Calabi--Yau compactifications of type IIA string theory and M-theory. In a simple toy model, we evaluated the parameters quantifying the extent of symmetry breaking for large and small values of the moduli, comparing the scales of significant breaking with other relevant physical scales.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-25T13:15:27Z</published>
+    <arxiv:comment>24 pages, 4 figures. Invited contribution to the special issue "Symmetries, and Symmetry Breaking in String Theory" in Symmetry. Published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Symmetry 2025, 17(4), 490</arxiv:journal_ref>
+    <author>
+      <name>Ivano Basile</name>
+    </author>
+    <author>
+      <name>Pouya Golmohammadi</name>
+    </author>
+    <arxiv:doi>10.3390/sym17040490</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym17040490" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.06970v1</id>
+    <title>Higher symmetries of symplectic Dirac operator</title>
+    <updated>2018-03-19T15:01:10Z</updated>
+    <link href="https://arxiv.org/abs/1803.06970v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.06970v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct in projective differential geometry of the real dimension $2$ higher symmetry algebra of the symplectic Dirac operator ${D}\kern-0.5em\raise0.22ex\hbox{/}_s$ acting on symplectic spinors. The higher symmetry differential operators correspond to the solution space of a class of projectively invariant overdetermined operators of arbitrarily high order acting on symmetric tensors. The higher symmetry algebra structure corresponds to a completely prime primitive ideal having as its associated variety the minimal nilpotent orbit of $\mathfrak{sl}(3,{\mathbb{R}})$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-19T15:01:10Z</published>
+    <arxiv:comment>Symplectic Dirac operator, Higher symmetry algebra, Projective differential geometry, Minimal nilpotent orbit, $\mathfrak{sl}(3,\mR)$</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Petr Somberg</name>
+    </author>
+    <author>
+      <name>Josef Šilhan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.03539v1</id>
+    <title>Corrections to Wigner-Eckart Relations by Spontaneous Symmetry Breaking</title>
+    <updated>2020-07-07T15:12:29Z</updated>
+    <link href="https://arxiv.org/abs/2007.03539v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.03539v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The matrix elements of operators transforming as irreducible representations of an unbroken symmetry group $G$ are governed by the well-known Wigner-Eckart relations. In the case of infinitely-extended systems, with $G$ spontaneously broken, we prove that the corrections to such relations are provided by symmetry breaking Ward identities, and simply reduce to a tadpole term involving Goldstone bosons. The analysis extends to the case in which an explicit symmetry breaking term is present in the Hamiltonian, with the tadpole term now involving pseudo Goldstone bosons. An explicit example is discussed, illustrating the two cases.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-07T15:12:29Z</published>
+    <arxiv:comment>12 pages, accepted for publication in Symmetry (MDPI), special issue "Symmetry and Symmetry Breaking: Phase Transitions and Critical Phenomena"</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Symmetry 12 (2020) 1120</arxiv:journal_ref>
+    <author>
+      <name>Carlo Heissenberg</name>
+    </author>
+    <author>
+      <name>Franco Strocchi</name>
+    </author>
+    <arxiv:doi>10.3390/sym12071120</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym12071120" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.4990v1</id>
+    <title>Progress in resolving charge symmetry violation in nucleon structure</title>
+    <updated>2013-12-17T22:31:15Z</updated>
+    <link href="https://arxiv.org/abs/1312.4990v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.4990v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent work unambiguously resolves the level of charge symmetry violation in moments of parton distributions using 2+1-flavor lattice QCD. We introduce the methods used for that analysis by applying them to determine the strong contribution to the proton-neutron mass difference. We also summarize related work which reveals that the fraction of baryon spin which is carried by the quarks is in fact structure-dependent rather than universal across the baryon octet.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-17T22:31:15Z</published>
+    <arxiv:comment>8 pages, 4 figures; presented at "The Seventh International Symposium on Chiral Symmetry in Hadrons and Nuclei", BeiHang Univ. Beijing, China</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>R. D. Young</name>
+    </author>
+    <author>
+      <name>P. E. Shanahan</name>
+    </author>
+    <author>
+      <name>A. W. Thomas</name>
+    </author>
+    <arxiv:doi>10.1142/S0218301314610102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0218301314610102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.14080v1</id>
+    <title>Baryogenesis: A Symmetry Breaking in the Primordial Universe Revisited</title>
+    <updated>2023-12-21T17:58:13Z</updated>
+    <link href="https://arxiv.org/abs/2312.14080v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.14080v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this review article, we revisit the topic of baryogenesis, which is the physical process that generated the observed baryon asymmetry during the first stages of the primordial Universe. A viable theoretical explanation to understand and investigate the mechanisms underlying baryogenesis must always ensure that the Sakharov criteria are fulfilled. These essentially state the following: (i) baryon number violation; (ii) the violation of both C (charge conjugation symmetry) and CP (the composition of parity and C); (iii) and the departure from equilibrium. Throughout the years, various mechanisms have been proposed to address this issue, and here we review two of the most important, namely, electroweak baryogenesis (EWB) and Grand Unification Theories (GUTs) baryogenesis. Furthermore, we briefly explore how a change in the theory of gravity affects the EWB and GUT baryogenesis by considering Scalar--Tensor Theories (STT), where the inclusion of a scalar field mediates the gravitational interaction, in addition to the metric tensor field. We consider specific STT toy models and show that a modification of the underlying gravitational theory implies a change in the time--temperature relation of the evolving cosmological model, thus altering the conditions that govern the interplay between the rates of the interactions generating baryon asymmetry, and the expansion rate of the Universe. Therefore, the equilibrium of the former does not exactly occur as in the general relativistic standard model, and there are consequences for the baryogenesis mechanisms that have been devised. This is representative of the type of modifications of the baryogenesis processes that are to be found when considering extended theories of gravity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-21T17:58:13Z</published>
+    <arxiv:comment>29 pages. Published version in Symmetry of an invited contribution to the Special Issue "Physics and Symmetry Section: Feature Papers 2023"</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Symmetry 16, 13 (2024)</arxiv:journal_ref>
+    <author>
+      <name>David S. Pereira</name>
+    </author>
+    <author>
+      <name>João Ferraz</name>
+    </author>
+    <author>
+      <name>Francisco S. N. Lobo</name>
+    </author>
+    <author>
+      <name>José P. Mimoso</name>
+    </author>
+    <arxiv:doi>10.3390/sym16010013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym16010013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.02913v1</id>
+    <title>Projective collineations of decomposable spacetimes generated by the Lie point symmetries of geodesic equations</title>
+    <updated>2021-06-05T14:52:05Z</updated>
+    <link href="https://arxiv.org/abs/2106.02913v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.02913v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the relation of the Lie point symmetries for the geodesic equations with the collineations of decomposable spacetimes. We review previous results in the literature on the Lie point symmetries of the geodesic equations and we follow a previous proposed geometric construction approach for the symmetries of differential equations. In this study we prove that the projective collineations of a $\left( n+1\right) \,$% -dimensional decomposable Riemannian space are the Lie point symmetries for geodesic equations of the $n$-dimensional subspace. We demonstrate the application of our results with the presentation of applications.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-05T14:52:05Z</published>
+    <arxiv:comment>26 pages, to appear in Symmetry</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Symmetry 2021, 13(6), 1018</arxiv:journal_ref>
+    <author>
+      <name>Andronikos Paliathanasis</name>
+    </author>
+    <arxiv:doi>10.3390/sym13061018</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym13061018" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.10120v1</id>
+    <title>Algebra of the symmetry operators of the Klein-Gordon-Fock equation for the case when groups of motions $G_3$ act transitively on null subsurfaces of spacetime</title>
+    <updated>2022-01-25T06:41:53Z</updated>
+    <link href="https://arxiv.org/abs/2201.10120v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.10120v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The algebras of the symmetry operators for the Hamilton-Jacobi and Klein-Gordon-Fock equations are found for a charged test particle moving in an external electromagnetic field in a spacetime manifold, on the isotropic (null) hypersurface of which a three-parameter groups of motions act transitively.on the isotropic (null) hypersurface of which a three-parameter groups of motions act transitively. We have found all admissible electromagnetic fields for which such algebras exist. We have proved that an admissible field does not deform the algebra of symmetry operators for the free Hamilton-Jacobi and Klein-Gordon-Fock equations. The results complete the classification of admissible electromagnetic fields in which the Hamilton-Jacobi and Klein-Gordon-Fock equations admit algebras of motion integrals that are isomorphic to the algebras of operators of $r$-parametric groups of motions of spacetime manifolds if $(r \leq 4)$.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-25T06:41:53Z</published>
+    <arxiv:comment>22 pages. Submitted to Symmetry</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Symmetry. 2022, 14, 346</arxiv:journal_ref>
+    <author>
+      <name>V. V. Obukhov</name>
+    </author>
+    <arxiv:doi>10.3390/sym14020346</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym14020346" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.01142v1</id>
+    <title>Charge Symmetry Violation in the Electromagnetic Form Factors of the Proton</title>
+    <updated>2015-03-03T21:54:12Z</updated>
+    <link href="https://arxiv.org/abs/1503.01142v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.01142v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experimental tests of QCD through its predictions for the strange-quark content of the proton have been drastically restricted by our lack of knowledge of the violation of charge symmetry (CSV). We find unexpectedly tiny CSV in the proton's electromagnetic form factors by performing the first extraction of these quantities based on an analysis of lattice QCD data. The resulting values are an order of magnitude smaller than current bounds on proton strangeness from parity violating electron-proton scattering experiments. This result paves the way for a new generation of experimental measurements of the proton's strange form factors to challenge the predictions of QCD.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-03T21:54:12Z</published>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Phys. Rev. D 91, 113006 (2015)</arxiv:journal_ref>
+    <author>
+      <name>P. E. Shanahan</name>
+    </author>
+    <author>
+      <name>R. Horsley</name>
+    </author>
+    <author>
+      <name>Y. Nakamura</name>
+    </author>
+    <author>
+      <name>D. Pleiter</name>
+    </author>
+    <author>
+      <name>P. E. L. Rakow</name>
+    </author>
+    <author>
+      <name>G. Schierholz</name>
+    </author>
+    <author>
+      <name>H. Stüben</name>
+    </author>
+    <author>
+      <name>A. W. Thomas</name>
+    </author>
+    <author>
+      <name>R. D. Young</name>
+    </author>
+    <author>
+      <name>J. M. Zanotti</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.91.113006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.91.113006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.01590v1</id>
+    <title>Charge symmetry violation in the determination of strangeness form factors</title>
+    <updated>2019-02-05T08:30:56Z</updated>
+    <link href="https://arxiv.org/abs/1902.01590v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.01590v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The strange quark contributions to the electromagnetic form factors of the proton are ideal quantities to study the role of hidden flavor in the properties of the proton. This has motivated intense experimental measurements of these form factors. A major remaining source of systematic uncertainty in these determinations is the assumption that charge symmetry violation (CSV) is negligible. We use recent theoretical determinations of the CSV form factors and reanalyse the available parity-violating electron scattering data, up to $Q^2$ $\sim$ 1 GeV$^2$. Our analysis considers systematic expansions of the strangeness electric and magnetic form factors of the proton. The results provide an update to the determination of strangeness over a range of $Q^2$ where, under certain assumptions about the effective axial form factor, an emergence of non-zero strangeness is revealed in the vicinity of $Q^2$ $\sim$ 0.6 GeV$^2$. Given the recent theoretical calculations, it is found that the current limits on CSV do not have a significant impact on the interpretation of the measurements and hence suggests an opportunity for a next generation of parity-violating measurements to more precisely map the distribution of strange quarks.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-05T08:30:56Z</published>
+    <arxiv:comment>9 pages, 5 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Phys. Rev. C 102, 015207 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Ali Alkathiri</name>
+    </author>
+    <author>
+      <name>Ross D. Young</name>
+    </author>
+    <author>
+      <name>James M. Zanotti</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.102.015207</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.102.015207" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.17614v1</id>
+    <title>Hawking radiation as a manifestation of spontaneous symmetry breaking</title>
+    <updated>2024-04-26T09:14:58Z</updated>
+    <link href="https://arxiv.org/abs/2404.17614v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.17614v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that the black hole evaporation can be modelled as a process where one symmetry of the system is spontaneously broken continuously. We then identify three free-parameters of the system. The sign of one of the free-parameters, governs whether the particles emitted by the black-hole are fermions or bosons. The present model explains why the Black Hole evaporation process is so universal. Interestingly, this universality emerges naturally inside certain modifications of gravity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-26T09:14:58Z</published>
+    <arxiv:comment>8 pages, published version. Published in Symmetry</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Symmetry 2024, 16(5), 519</arxiv:journal_ref>
+    <author>
+      <name>Ivan Arraut</name>
+    </author>
+    <arxiv:doi>10.3390/sym16050519</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym16050519" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0807.0149v1</id>
+    <title>Charged Lepton-Flavor Violation in Beyond-Standard Models</title>
+    <updated>2008-07-01T14:55:40Z</updated>
+    <link href="https://arxiv.org/abs/0807.0149v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0807.0149v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I discuss charged lepton-flavor violation in physics beyond the standard model and review topics related to it.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-07-01T14:55:40Z</published>
+    <arxiv:comment>Flavor Physics &amp; CP Violation Conference, Taipei, 2008</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Junji Hisano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.00082v2</id>
+    <title>The Noether Symmetry Approach: Foundation and applications. The case of scalar-tensor Gauss-Bonnet gravity</title>
+    <updated>2023-08-21T10:05:34Z</updated>
+    <link href="https://arxiv.org/abs/2308.00082v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.00082v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We sketch the main features of the Noether Symmetry Approach, a method to reduce and solve dynamics of physical systems by selecting Noether symmetries, which correspond to conserved quantities. Specifically, we take into account the vanishing Lie derivative condition for general canonical Lagrangians to select symmetries. Furthermore, we extend the prescription to the first prolongation of the Noether vector. It is possible to show that the latter application provides a general constraint on the infinitesimal generator $ξ$, related to the spacetime translations. This approach can be used for several applications. In the second part of the work, we consider a gravity theory including the coupling between a scalar field $φ$ and the Gauss-Bonnet topological term $\mathcal{G}$. In particular, we study a gravitational action containing the function $F(\mathcal{G}, φ)$ and select viable models by the existence of symmetries. Finally, we evaluate the selected models in a spatially-flat cosmological background and use symmetries to find exact solutions.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-31T18:55:50Z</published>
+    <arxiv:comment>13 pages, 1 figure. Accepted for publication in Symmetry</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Symmetry, 15(9), 1625, 2023</arxiv:journal_ref>
+    <author>
+      <name>Francesco Bajardi</name>
+    </author>
+    <author>
+      <name>Salvatore Capozziello</name>
+    </author>
+    <author>
+      <name>Tiziana Di Salvo</name>
+    </author>
+    <author>
+      <name>Francesca Spinnato</name>
+    </author>
+    <arxiv:doi>10.3390/sym15091625</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym15091625" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.13121v3</id>
+    <title>Mirror symmetry for new physics beyond the Standard Model in $4D$ spacetime</title>
+    <updated>2023-07-14T17:20:27Z</updated>
+    <link href="https://arxiv.org/abs/2212.13121v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.13121v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The two discrete generators of the full Lorentz group $O(1,3)$ in $4D$ spacetime are typically chosen to be parity inversion symmetry $P$ and time reversal symmetry $T$, which are responsible for the four topologically separate components of $O(1,3)$. Under general considerations of quantum field theory (QFT) with internal degrees of freedom, mirror symmetry is a natural extension of $P$, while $CP$ symmetry resembles $T$ in spacetime. In particular, mirror symmetry is critical as it doubles the full Dirac fermion representation in QFT and essentially introduces a new sector of mirror particles. Its close connection to T-duality and Calabi-Yau mirror symmetry in string theory is clarified. Extension beyond the Standard model can then be constructed using both left- and right-handed heterotic strings guided by mirror symmetry. Many important implications such as supersymmetry, chiral anomalies, topological transitions, Higgs, neutrinos, and dark energy, are discussed.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-22T02:46:16Z</published>
+    <arxiv:comment>25 pages, published in Symmetry, more related papers on https://www.wanpengtan.com/smm/</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Symmetry 2023, 15(7), 1415</arxiv:journal_ref>
+    <author>
+      <name>Wanpeng Tan</name>
+    </author>
+    <arxiv:doi>10.3390/sym15071415</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym15071415" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.16235v2</id>
+    <title>Entanglement Properties of Gauge Theories from Higher-Form Symmetries</title>
+    <updated>2024-08-08T19:43:11Z</updated>
+    <link href="https://arxiv.org/abs/2311.16235v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.16235v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the relationship between higher-form symmetries and entanglement properties in discrete lattice gauge theories, which can exhibit both topologically ordered phases and higher-form symmetry-protected topological (SPT) phases. Our study centers on generalizing the Fradkin-Shenker model, where the Gauss law constraint can be either emergent or exact. The phase diagram includes a topologically ordered phase and a non-trivial SPT phase protected by a 1-form and a 0-form symmetry. We obtain the following key findings: First, the entanglement properties depend on whether the 1-form symmetries and the Gauss law are exact or emergent. For the emergent Gauss law, the entanglement spectrum (ES) of the non-trivial SPT phase exhibits degeneracies, which are robust at low energies against weak perturbations that explicitly break the exact 1-form symmetry. When the Gauss law and the 1-form symmetry are both exact, the ES degeneracy is extensive. This extensive degeneracy is fragile and can be removed completely by infinitesimal perturbations that explicitly break the exact 1-form symmetry while keeping the Gauss law exact. Second, we consider the ES in the topologically ordered phase where 1-form symmetries are spontaneously broken. In contrast to the ES of the non-trivial SPT phase, we find that spontaneous higher-form symmetry breaking removes "half" of the ES levels, leading to a non-degenerate ES in the topologically ordered phase in general. Third, we derive a connection between spontaneous higher-form symmetry breaking and the topological entanglement entropy (TEE). Using this relation, we investigate the entanglement entropy that can be distilled in the deconfined phase of the original Fradkin-Shenker model using gauge-invariant measurements. We show that the TEE is robust against the measurement when the 1-form symmetry is emergent but fragile when the 1-form symmetry is exact.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-27T19:00:02Z</published>
+    <arxiv:comment>Add the ES transition near the 1-form SPT phase. Add understanding of our results from 1-form symmetries</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys Rev X.15.011001 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Wen-Tao Xu</name>
+    </author>
+    <author>
+      <name>Tibor Rakovszky</name>
+    </author>
+    <author>
+      <name>Michael Knap</name>
+    </author>
+    <author>
+      <name>Frank Pollmann</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevX.15.011001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevX.15.011001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0001146v1</id>
+    <title>Charge symmetry violation in the parton distributions of the nucleon</title>
+    <updated>2000-01-16T21:26:26Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0001146v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0001146v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We point out that charge symmetry violation in both the valence and sea quark distributions of the nucleon has a non-perturbative source. We calculate this non-perturbative charge symmetry violation using the meson cloud model, which has earlier been successfully applied to both the study of SU(2) flavour asymmetry in the nucleon sea and quark-antiquark asymmetry in the nucleon. We find that the charge symmetry violation in the valence quark distribution is well below 1%, which is consistent with most low energy tests but significantly smaller than the quark model prediction about 5%-10%. Our prediction for the charge symmetry violation in the sea quark distribution is also much smaller than the quark model calculation.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-01-16T21:26:26Z</published>
+    <arxiv:comment>RevTex, 26 pages, 6 PostScript figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev. C62 (2000) 015203</arxiv:journal_ref>
+    <author>
+      <name>Fu-Guang Cao</name>
+      <arxiv:affiliation>Institute of Fundamental Sciences, Massey University, New Zealand</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. I. Signal</name>
+      <arxiv:affiliation>Institute of Fundamental Sciences, Massey University, New Zealand</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.62.015203</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.62.015203" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.07932v1</id>
+    <title>Strongly Enhanced Effects of Lorentz-Symmetry Violation in Yb$^+$ and Highly Charged Ions</title>
+    <updated>2016-07-27T01:53:23Z</updated>
+    <link href="https://arxiv.org/abs/1607.07932v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.07932v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A Lorentz-symmetry test with Ca$^+$ ions demonstrated the potential of using quantum information inspired technology for tests of fundamental physics. A systematic study of atomic-system sensitivities to Lorentz violation identified the ytterbium ion as an ideal system with high sensitivity as well as excellent experimental controllability. A test of Lorentz-violating physics in the electron-photon sector with Yb$^+$ ions has the potential to reach levels of 10$^{-23}$, five orders of magnitude more sensitive than the current best bounds. Similar sensitivities may be also reached with highly charged ions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-27T01:53:23Z</published>
+    <arxiv:comment>Presented at the Seventh Meeting on CPT and Lorentz Symmetry, Bloomington, Indiana, June 20-24, 2016</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>M. S. Safronova</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.00941v3</id>
+    <title>Many-body physics of spontaneously broken higher-rank symmetry: from fractonic superfluids to dipolar Hubbard model</title>
+    <updated>2023-08-12T07:59:06Z</updated>
+    <link href="https://arxiv.org/abs/2305.00941v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.00941v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fractonic superfluids are exotic phases of matter in which bosons are subject to mobility constraints, resulting in features beyond those of conventional superfluids. These exotic phases arise from the spontaneous breaking of higher-rank symmetry (HRS) in many-body systems with higher-moment conservation, such as dipoles, quadrupoles, and angular moments. The aim of this paper is to introduce exciting developments on the theory of spontaneous symmetry breaking in such systems, which we refer to as ``many-fracton systems''. More specifically, we introduce exciting progress on general aspects of HRS, minimal model construction, realization of symmetry-breaking ground states, order parameter, off-diagonal long-range order (ODLRO), Noether currents with continuity equations, Gross-Pitaevskii equations, quantum fluctuations, Goldstone modes, specific heat, generalized Mermin-Wagner theorem, critical current, Landau criterion, symmetry defects, and Kosterlitz-Thouless (KT)-like physics, hydrodynamics, and dipolar Hubbard model realization. This paper is concluded with several future directions.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-01T16:53:14Z</published>
+    <arxiv:comment>Title changed, references updated. A short review on recent progress on higher rank symmetry breaking, fractonic superfluids, dipole (and other higher moments) conservation, and related topics</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Shuai A. Chen</name>
+    </author>
+    <author>
+      <name>Peng Ye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0404043v4</id>
+    <title>Central charges, symplectic forms, and hypergeometric series in local mirror symmetry</title>
+    <updated>2005-12-22T06:15:54Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0404043v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0404043v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study a cohomology-valued hypergeometric series which naturally arises in the description of (local) mirror symmetry. We identify it as a central charge formula for BPS states and study its monodromy property from the viewpoint of Kontsevich's homological mirror symmetry. In the case of local mirror symmetry, we will identify a symplectic form, and will conjecture an integral and symplectic monodromy property of a relevant hypergeometric series of Gel'fand-Kapranov-Zelevinski type.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-04-06T05:41:21Z</published>
+    <arxiv:comment>35 pages, AMSLatex; v2: typos corrected and minor corrections, v3: construction of cycles in Appendix A completed, v4: typos corrected, To appear in "Mirror Symmetry V", Proceedings of BIRS workshop on Calabi-Yau Varieties and Mirror Symmetry, December 6-11, 2003</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Shinobu Hosono</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.3009v5</id>
+    <title>Non-mean-field screening by multivalent counterions</title>
+    <updated>2009-03-21T17:33:33Z</updated>
+    <link href="https://arxiv.org/abs/0902.3009v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.3009v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Screening of a strongly charged macroion by its multivalent counterions can not be described in the framework of mean field Poisson-Boltzmann (PB) theory because multivalent counterions form a strongly correlated liquid (SCL) on the surface of the macroion. It was predicted that a distant counterion polarizes the SCL as if it were a metallic surface and creates an electrostatic image. The attractive potential energy of the image is the reason why the charge density of counterions decreases faster with distance from the charged surface than in PB theory. Using the Monte Carlo method to find the equilibrium distribution of counterions around the macroion, we confirm the existence of the image potential energy. It is also shown that due to the negative screening length of the SCL, $-2ξ$, the effective metallic surface is actually above the SCL by $|ξ|$.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-18T17:38:31Z</published>
+    <arxiv:comment>9 pages, 6 figures; v5: new section added to address bulk screening by monovalent salt</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>M S Loth and B I Shklovskii 2009 J. Phys.: Condens. Matter 21 424104</arxiv:journal_ref>
+    <author>
+      <name>M. S. Loth</name>
+    </author>
+    <author>
+      <name>B. I. Shklovskii</name>
+    </author>
+    <arxiv:doi>10.1088/0953-8984/21/42/424104</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-8984/21/42/424104" title="doi"/>
+  </entry>
+</feed>

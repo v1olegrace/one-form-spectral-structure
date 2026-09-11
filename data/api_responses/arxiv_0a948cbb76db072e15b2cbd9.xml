@@ -1,0 +1,548 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ofX/4M1JS32AFcbU017gChjTRxg</id>
+  <title>arXiv Query: search_query=all:Seiler OR all:bound OR all:confining OR all:potential OR all:linear OR all:rise OR all:upper OR all:bound&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:52:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Seiler+OR+(all:bound+OR+(all:confining+OR+(all:potential+OR+(all:linear+OR+(all:rise+OR+(all:upper+OR+all:bound))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>858989</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1109.2952v4</id>
+    <title>Upper bound on distance in the pants complex</title>
+    <updated>2012-05-02T04:23:52Z</updated>
+    <link href="https://arxiv.org/abs/1109.2952v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.2952v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The purpose of this paper is to establish an upper bound on the distance between two pants decompositions in the pants complex for a closed surface of genus g &gt;= 2. This is done by use of graph theory. First distance is found in the pants graph modulo the action of the mapping class group, and then between pants decompositions within an orbit of this action.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-13T23:49:31Z</published>
+    <arxiv:comment>A different method is used to find an upper bound on the diameter of the orbit graph, giving a smaller upper bound. Also, distance within an orbit is now calculated in a different orbit</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <author>
+      <name>Harriet H. Moser</name>
+      <arxiv:affiliation>Independent</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0612133v4</id>
+    <title>The upper bound on the lightest Higgs mass in the NMSSM revisited</title>
+    <updated>2007-04-03T14:09:12Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0612133v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0612133v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We update the upper bound on the lightest CP even Higgs mass in the NMSSM, which is given as a function of tan(beta) and lambda. We include the available one and two loop corrections to the NMSSM Higgs masses, and constraints from the absence of Landau singularities below the GUT scale as well as from the stability of the NMSSM Higgs potential. For m_top varying between 171.4 and 178 GeV, squark masses of 1 TeV and maximal mixing the upper bound is assumed near tan(beta) ~ 2 and varies between 139.9 and 141.4 GeV.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-12-11T17:19:54Z</published>
+    <arxiv:comment>13 pages, 2 figures, improved figures with a numerical bug corrected, additional discussions of the large tan(beta) regime and the dependence of the upper bound on lambda</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Mod.Phys.Lett.A22:1581-1590,2007</arxiv:journal_ref>
+    <author>
+      <name>Ulrich Ellwanger</name>
+    </author>
+    <author>
+      <name>Cyril Hugonie</name>
+    </author>
+    <arxiv:doi>10.1142/S0217732307023870</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217732307023870" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.01904v2</id>
+    <title>An upper bound conjecture for the Yokota invariant</title>
+    <updated>2024-06-20T09:45:37Z</updated>
+    <link href="https://arxiv.org/abs/2002.01904v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.01904v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We conjecture an upper bound on the growth of the Yokota invariant of polyhedral graphs, extending a previous result on the growth of the $6j$-symbol. Using Barrett's Fourier transform we are able to prove this conjecture in a large family of examples. As a consequence of this result, we prove the Turaev-Viro Volume Conjecture for a new infinite family of hyperbolic manifolds.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-05T18:14:30Z</published>
+    <arxiv:comment>39 pages, 26 figures. Updated with new title and a stronger focus on the upper bound conjecture; accepted for publication at Algebraic and Geometric Topology</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <arxiv:journal_ref>Algebr. Geom. Topol. 25 (2025) 645-675</arxiv:journal_ref>
+    <author>
+      <name>Giulio Belletti</name>
+    </author>
+    <arxiv:doi>10.2140/agt.2025.25.645</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/agt.2025.25.645" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.23184v2</id>
+    <title>A Sharper Upper Bound for the Separating Words Problem</title>
+    <updated>2025-04-02T08:01:54Z</updated>
+    <link href="https://arxiv.org/abs/2503.23184v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.23184v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that for any two distinct words $ s_1, s_2 $ over an arbitrary alphabets, there exists a deterministic finite automaton with $ O(\log^2 n) $ states that accepts $ s_1 $ and rejects $ s_2 $. This improves the previous upper bound of $O(n^{1/3}\log^7 n)$</summary>
+    <category term="cs.FL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-29T18:47:13Z</published>
+    <arxiv:comment>An error has been identified in the proof of Theorem 1. Correcting the argument presented yields an upper bound which does not improve upon existing results (e.g., [Chase 2020]), so this paper does not in fact provide an improved upper bound. We therefore withdraw our claim of a stronger result</arxiv:comment>
+    <arxiv:primary_category term="cs.FL"/>
+    <author>
+      <name>Bogdan C. Dumitru</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6006v2</id>
+    <title>Some bounds on the size of codes</title>
+    <updated>2012-12-27T21:01:43Z</updated>
+    <link href="https://arxiv.org/abs/1206.6006v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6006v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present some upper bounds on the size of non-linear codes and their restriction to systematic codes and linear codes. These bounds are independent of other known theoretical bounds, e.g. the Griesmer bound, the Johnson bound or the Plotkin bound, and one of these is actually an improvement of a bound by Litsyn and Laihonen. Our experiments show that in some cases (the majority of cases for some q) our bounds provide the best value, compared to all other theoretical bounds.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-26T14:38:40Z</published>
+    <arxiv:comment>This paper had two old titles: "A bound on the size of linear codes and systematic codes", "A bound on the size of linear codes" (arXiv:0902.1634)</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>IEEE Transactions on Information Theory, 2014, vol. 60, p. 1475-1480</arxiv:journal_ref>
+    <author>
+      <name>Emanuele Bellini</name>
+    </author>
+    <author>
+      <name>Eleonora Guerrini</name>
+    </author>
+    <author>
+      <name>Massimiliano Sala</name>
+    </author>
+    <arxiv:doi>10.1109/TIT.2014.2298234</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIT.2014.2298234" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.02930v3</id>
+    <title>Nearly-tight VC-dimension and pseudodimension bounds for piecewise linear neural networks</title>
+    <updated>2017-10-16T01:29:59Z</updated>
+    <link href="https://arxiv.org/abs/1703.02930v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.02930v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove new upper and lower bounds on the VC-dimension of deep neural networks with the ReLU activation function. These bounds are tight for almost the entire range of parameters. Letting $W$ be the number of weights and $L$ be the number of layers, we prove that the VC-dimension is $O(W L \log(W))$, and provide examples with VC-dimension $Ω( W L \log(W/L) )$. This improves both the previously known upper bounds and lower bounds. In terms of the number $U$ of non-linear units, we prove a tight bound $Θ(W U)$ on the VC-dimension. All of these bounds generalize to arbitrary piecewise linear activation functions, and also hold for the pseudodimensions of these function classes.
+  Combined with previous results, this gives an intriguing range of dependencies of the VC-dimension on depth for networks with different non-linearities: there is no dependence for piecewise-constant, linear dependence for piecewise-linear, and no more than quadratic dependence for general piecewise-polynomial.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-08T17:35:17Z</published>
+    <arxiv:comment>Extended abstract appeared in COLT 2017; the upper bound was presented at the 2016 ACM Conference on Data Science. This version includes all the proofs and a refinement of the upper bound, Theorem 6. 16 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Journal of Machine Learning Research 20 (2019) 1-17</arxiv:journal_ref>
+    <author>
+      <name>Peter L. Bartlett</name>
+    </author>
+    <author>
+      <name>Nick Harvey</name>
+    </author>
+    <author>
+      <name>Chris Liaw</name>
+    </author>
+    <author>
+      <name>Abbas Mehrabian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.08709v2</id>
+    <title>Adaptive Lower Bound for Testing Monotonicity on the Line</title>
+    <updated>2018-05-09T21:26:56Z</updated>
+    <link href="https://arxiv.org/abs/1801.08709v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.08709v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the property testing model, the task is to distinguish objects possessing some property from the objects that are far from it. One of such properties is monotonicity, when the objects are functions from one poset to another. This is an active area of research. In this paper we study query complexity of $ε$-testing monotonicity of a function $f\colon [n]\to[r]$. All our lower bounds are for adaptive two-sided testers.
+  * We prove a nearly tight lower bound for this problem in terms of $r$. The bound is $Ω(\frac{\log r}{\log \log r})$ when $ε= 1/2$. No previous satisfactory lower bound in terms of $r$ was known.
+  * We completely characterise query complexity of this problem in terms of $n$ for smaller values of $ε$. The complexity is $Θ(ε^{-1} \log (εn))$. Apart from giving the lower bound, this improves on the best known upper bound.
+  Finally, we give an alternative proof of the $Ω(ε^{-1}d\log n - ε^{-1}\logε^{-1})$ lower bound for testing monotonicity on the hypergrid $[n]^d$ due to Chakrabarty and Seshadhri (RANDOM'13).</summary>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-26T08:24:16Z</published>
+    <arxiv:comment>10 pages, added the proof of a matching upper bound for the lower bound in case of small epsilon</arxiv:comment>
+    <arxiv:primary_category term="cs.CC"/>
+    <author>
+      <name>Aleksandrs Belovs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.22247v3</id>
+    <title>Near-Optimal Bounds for Sketching the Schatten Norms</title>
+    <updated>2026-08-27T15:07:51Z</updated>
+    <link href="https://arxiv.org/abs/2608.22247v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.22247v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $k_{1,\varepsilon}(n)$ be the smallest number of real linear measurements needed by a randomized oblivious sketch that estimates the nuclear norm of every fixed real $n\times n$ matrix within a factor $1\pm\varepsilon$, with probability at least $2/3$. For every fixed $0&lt;\varepsilon&lt;1$, we prove \[
+  \frac{n^2}{(\log n)^{A_\varepsilon}}
+  \le k_{1,\varepsilon}(n)
+  \le C_\varepsilon
+  \frac{n^2\{\log\log(e^e n)\}^2}{\log(e n)}. \] Previously, the best unrestricted bounds for general linear sketches of the Schatten--1 norm were $Ω(n)$ and the trivial $O(n^2)$ upper bound (Li, Nguyen, Woodruff'19), leaving a polynomial gap. Our bounds close that gap up to polylogarithmic factors and give a nontrivial logarithmic saving below the $n^2$-measurement storage bound.
+  The result extends much further. Write $k_{p,\varepsilon}(n)$ for the analogous sketch dimension for the Schatten--$p$ norm. For every fixed finite $p&gt;0$ that is not a positive even integer, there are positive constants $A_{p,\varepsilon},C_{p,\varepsilon},c_p$ such that \[
+  \frac{n^2}{(\log n)^{A_{p,\varepsilon}}}
+  \le k_{p,\varepsilon}(n)
+  \le C_{p,\varepsilon}\frac{n^2}{(\log n)^{c_p}}, \] so $k_{p,\varepsilon}(n)=n^{2-o(1)}$ throughout the non-even regime. Together with the known tight bounds $Θ_{p,\varepsilon}(n^{2-4/p})$ for positive even $p$ and $Θ_\varepsilon(n^2)$ for $p=\infty$ (Li, Woodruff'16), our results close the remaining polynomial gap across the Schatten family and complete, up to polylogarithmic factors, the polynomial-order classification of general linear sketches for all Schatten-$p$ norms.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-23T07:10:28Z</published>
+    <arxiv:comment>94 pages, added the turnstile streaming lower bound, upper/lower bound for all non-even p&gt;0</arxiv:comment>
+    <arxiv:primary_category term="cs.DS"/>
+    <author>
+      <name>Lin F. Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.02473v1</id>
+    <title>Designing controllers with predefined convergence-time bound using bounded time-varying gains</title>
+    <updated>2023-11-04T18:15:04Z</updated>
+    <link href="https://arxiv.org/abs/2311.02473v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.02473v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, there has been a great deal of attention in a class of controllers based on time-varying gains, called prescribed-time controllers, that steer the system's state to the origin in the desired time, a priori set by the user, regardless of the initial condition. Furthermore, such a class of controllers has been shown to maintain a prescribed-time convergence in the presence of disturbances even if the disturbance bound is unknown. However, such properties require a time-varying gain that becomes singular at the terminal time, which limits its application to scenarios under quantization or measurement noise. This chapter presents a methodology to design a broader class of controllers, called predefined-time controllers, with a prescribed convergence-time bound. Our approach allows designing robust predefined-time controllers based on time-varying gains while maintaining uniformly bounded time-varying gains. We analyze the condition for uniform Lyapunov stability under the proposed time-varying controllers.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-04T18:15:04Z</published>
+    <arxiv:comment>This is a preprint of the chapter: "Designing controllers with predefined convergence-time bound using bounded time-varying gains", published in Sliding-Mode Control and Variable-Structure Systems, Springer Nature Switzerland AG 2023. The final authenticated version is available online at: https://doi.org/10.1007/978-3-031-37089-2_3</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <arxiv:journal_ref>Book Chapter "Designing controllers with predefined convergence-time bound using bounded time-varying gains", publised in Sliding-Mode Control and Variable-Structure Systems, Springer Nature Switzerland AG 2023</arxiv:journal_ref>
+    <author>
+      <name>Rodrigo Aldana-López</name>
+    </author>
+    <author>
+      <name>Richard Seeber</name>
+    </author>
+    <author>
+      <name>Hernan Haimovich</name>
+    </author>
+    <author>
+      <name>David Gómez-Gutiérrez</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-031-37089-2_3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-031-37089-2_3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.11482v4</id>
+    <title>Heat kernel bounds for parabolic equations with singular (form-bounded) vector fields</title>
+    <updated>2021-07-13T14:34:56Z</updated>
+    <link href="https://arxiv.org/abs/2103.11482v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.11482v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider Kolmogorov operator $-\nabla \cdot a \cdot \nabla + b \cdot \nabla$ with measurable uniformly elliptic matrix $a$ and prove Gaussian lower and upper bounds on its heat kernel under minimal assumptions on the vector field $b$ and its divergence ${\rm div\,}b$. More precisely, we prove:
+  (1) Gaussian lower bound, provided that ${\rm div\,}b \geq 0$, and $b$ is in the class of form-bounded vector fields (containing e.g.\,the class $L^d$, the weak $L^d$ class, as well as some vector fields that are not even in $L_{\rm loc}^{2+\varepsilon}$, $\varepsilon&gt;0$); in these assumptions, the Gaussian upper bound is in general invalid;
+  (2) Gaussian upper bound, provided that $b$ is form-bounded, and the positive part of ${\rm div\,}b$ is in the Kato class; in these assumptions, the Gaussian lower bound is in general invalid;
+  (3) Gaussian upper and lower bounds, provided that $b$ is form-bounded, ${\rm div\,}b$ is in the Kato class;
+  (4) A priori Gaussian upper and lower bounds, provided that $b$ is in a large class containing the class of form-bounded vector fields, ${\rm div\,}b$ is in the Kato class.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-21T20:46:01Z</published>
+    <arxiv:comment>Added a priori counterparts of Theorems 2 and 3 (upper Gaussian bound and two-sided Gaussian bounds) for an even larger class of vector fields</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>D. Kinzebulatov</name>
+    </author>
+    <author>
+      <name>Yu. A. Semenov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.00312v2</id>
+    <title>Upper bounds for the number of isolated critical points via Thom-Milnor theorem</title>
+    <updated>2023-07-16T14:50:50Z</updated>
+    <link href="https://arxiv.org/abs/2307.00312v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.00312v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We apply the Thom-Milnor theorem to obtain the upper bounds on the amount of isolated (1) critical points of a potential generated by several fixed point charges(Maxwell's problem on point charges), (2) critical points of SINR, (3) critical points of a potential generated by several fixed Newtonian point masses augmented with a quadratic term, (4) central configurations in the $n$-body problem. In particular, we get an exponential bound for Maxwell's problem and the polynomial bound for the case of an "even dimensional" potential in Maxwell's problem.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-01T12:00:12Z</published>
+    <arxiv:comment>A reference to Kuzmina's work is added. The work has a very similar bound for the number of central configurations</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Vladimir Zolotov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.03706v2</id>
+    <title>Upper and lower bounds on the size of $B_k[g]$ sets</title>
+    <updated>2021-06-18T13:03:38Z</updated>
+    <link href="https://arxiv.org/abs/2105.03706v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.03706v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A subset $A$ of the integers is a $B_k[g]$ set if the number of multisets from $A$ that sum to any fixed integer is at most $g$. Let $F_{k,g}(n)$ denote the maximum size of a $B_k[g]$ set in $\{1,\dots, n\}$. In this paper we improve the best-known upper bounds on $F_{k,g}(n)$ for $g&gt;1$ and $k$ large. When $g=1$ we match the best upper bound of Green with an improved error term. Additionally, we give a lower bound on $F_{k,g}(n)$ that matches a construction of Lindström while removing one of the hypotheses.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-08T14:13:21Z</published>
+    <arxiv:comment>Our lower bound is implied by a result of Caicedo, Gómez, and Trujillo. A reference to this paper and discussion of it has been added</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Griffin Johnston</name>
+    </author>
+    <author>
+      <name>Michael Tait</name>
+    </author>
+    <author>
+      <name>Craig Timmons</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.3820v1</id>
+    <title>A Bound for the Number of Different Basic Solutions Generated by the Simplex Method</title>
+    <updated>2011-01-20T04:53:41Z</updated>
+    <link href="https://arxiv.org/abs/1101.3820v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.3820v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this short paper, we give an upper bound for the number of different basic feasible solutions generated by the simplex method for linear programming problems having optimal solutions. The bound is polynomial of the number of constraints, the number of variables, and the ratio between the minimum and the maximum values of all the positive elements of primal basic feasible solutions. When the primal problem is nondegenerate, it becomes a bound for the number of iterations. We show some basic results when it is applied to special linear programming problems. The results include strongly polynomiality of the simplex method for Markov Decision Problem by Ye and utilize its analysis.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-20T04:53:41Z</published>
+    <arxiv:comment>Keywords: Simplex method, Linear programming, Iteration bound, Strong polynomiality, Basic feasible solutions</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Tomonari Kitahara</name>
+    </author>
+    <author>
+      <name>Shinji Mizuno</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.03916v3</id>
+    <title>Upper bound on three tangles of reduced states of four-qubit pure states</title>
+    <updated>2017-06-01T02:05:57Z</updated>
+    <link href="https://arxiv.org/abs/1610.03916v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.03916v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Closed formulae for upper bound on three tangles of three-qubit reduced states in terms of three-qubit invariant polynomials of pure four-qubit states are obtained. Our results offer tighter constraints on total three-way entanglement of a given qubit with the rest of the system than those used in ref. [PRL 113, 110501 (2014), PRL 116, 049902(E) (2016)] to verify monogamy of four-qubit quantum entanglement.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-13T02:25:58Z</published>
+    <arxiv:comment>12 pages, Application to mixed states of our our earlier work on local unitary polynomial invariants of pure states. A section on finding upper bound on three tangle of an arbitrary mixed state added. In this version, typos corrected</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 95, 062311 (2017)</arxiv:journal_ref>
+    <author>
+      <name>S. Shelly Sharma</name>
+    </author>
+    <author>
+      <name>N. K. Sharma</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.95.062311</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.95.062311" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.02679v3</id>
+    <title>On classical upper bounds for slice genera</title>
+    <updated>2019-04-05T09:53:50Z</updated>
+    <link href="https://arxiv.org/abs/1611.02679v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.02679v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new link invariant called the algebraic genus, which gives an upper bound for the topological slice genus of links. In fact, the algebraic genus is an upper bound for another version of the slice genus proposed here: the minimal genus of a surface in the four-ball whose complement has infinite cyclic fundamental group. We characterize the algebraic genus in terms of cobordisms in three-space, and explore the connections to other knot invariants related to the Seifert form, the Blanchfield form, knot genera and unknotting. Employing Casson-Gordon invariants, we discuss the algebraic genus as a candidate for the optimal upper bound for the topological slice genus that is determined by the S-equivalence class of Seifert matrices.</summary>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-08T20:19:08Z</published>
+    <arxiv:comment>30 pages, 5 figures, comments welcome! V3: Minor changes and corrections; added a footnote sketching a proof for the folklore fact that Taylor's invariant is a lower bound for the topological slice genus</arxiv:comment>
+    <arxiv:primary_category term="math.GT"/>
+    <arxiv:journal_ref>Selecta Mathematica 24 (2018), no. 5, 4885-4916</arxiv:journal_ref>
+    <author>
+      <name>Peter Feller</name>
+    </author>
+    <author>
+      <name>Lukas Lewark</name>
+    </author>
+    <arxiv:doi>10.1007/s00029-018-0435-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00029-018-0435-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9807282v2</id>
+    <title>High Energy Neutrinos from Astrophysical Sources: An Upper Bound</title>
+    <updated>1998-10-09T22:25:12Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9807282v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9807282v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that cosmic-ray observations set a model-independent upper bound to the flux of high-energy, &gt; 10^14 eV, neutrinos produced by photo-meson (or p-p) interactions in sources of size not much larger than the proton photo-meson (or pp) mean-free-path. The bound applies, in particular, to neutrino production by either AGN jets or GRBs. This upper limit is two orders of magnitude below the flux predicted in some popular AGN jet models, but is consistent with our predictions from GRB models. We discuss the implications of these results for future km^2 high-energy neutrino detectors.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-07-08T00:51:22Z</published>
+    <arxiv:comment>Added discussion showing bound cannot be evaded by invoking magnetic fields. Accepted Phys Rev D</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D59:023002,1999</arxiv:journal_ref>
+    <author>
+      <name>Eli Waxman</name>
+    </author>
+    <author>
+      <name>John Bahcall</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.59.023002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.59.023002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.06692v3</id>
+    <title>Bounds on Codes Correcting Adjacent Transpositions</title>
+    <updated>2026-08-14T18:11:08Z</updated>
+    <link href="https://arxiv.org/abs/2509.06692v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.06692v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of correcting pairwise disjoint adjacent transpositions (or swaps) in $q$-ary strings. Equivalently, the model we assume is the radius-one instance of the so-called $\ell_\infty$-limited permutation channel. We first study the relevant combinatorial properties of the appropriately defined transposition distance, including center-specific and average ball sizes. We then derive two lower bounds and one upper bound on the asymptotic rates of optimal codes correcting $t=τn$ transpositions. The first achievability result is a generalized Gilbert--Varshamov bound, while the second follows from a construction of codes correcting all possible patterns of adjacent transpositions and therefore represents a lower bound on the zero-error capacity of this model. This construction improves the classical general-alphabet construction for $3\leqslant q\leqslant 8$ as well as the recent bounds for $q=4,5$. The upper bound is obtained by a packing argument adjusted to the run-structure of a given code. To the best of our knowledge, these are the first nonconstant, $τ$-dependent lower and upper bounds developed for the pairwise disjoint $q$-ary model throughout the linear regime. We also derive asymptotic bounds on the cardinality of optimal codes correcting $t=\textrm{const}$ pairwise disjoint adjacent transpositions.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-08T13:46:50Z</published>
+    <arxiv:comment>Substantially revised version; proofs and presentation tightened; the zero-error construction in Section 3.2 replaced by an improved construction; new Section 3.3 provides an upper bound</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Mladen Kovačević</name>
+    </author>
+    <author>
+      <name>Han Mao Kiah</name>
+    </author>
+    <author>
+      <name>Keshav Goyal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.02929v3</id>
+    <title>Upper bounds on sparticle masses from naturalness or how to disprove weak scale supersymmetry</title>
+    <updated>2016-01-22T15:18:44Z</updated>
+    <link href="https://arxiv.org/abs/1509.02929v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.02929v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While it is often stated that the notion of electroweak (EW) naturalness in supersymmetric models is subjective, fuzzy and model-dependent, here we argue the contrary: electroweak naturalness can be elevated to a {\it principle} which is both objective and predictive. We demonstrate visually when too much fine-tuning sets in at the electroweak scale which corresponds numerically to the measure Δ_{BG}~Δ_{EW}&gt; 30. While many constrained SUSY models are already excluded by this value, we derive updated upper bounds on sparticle masses within the two-extra parameter non-universal Higgs model (NUHM2). We confirm the classic Barbieri-Giudice (BG) result that Δ_{BG}&lt;30 implies mu &lt;350 GeV. However, by combining dependent soft terms which appear as multiples of m_{3/2} in supergravity models, then we obtain m(gluino)&lt; 4 TeV as opposed to the BG result that m(gluino)&lt;350 GeV. We compare the NUHM2 results to a similar scan in the pMSSM with 19 weak scale parameters. In the pMSSM with complete one-loop scalar potential plus dominant two-loop terms, then a m(gluino)&lt;7 TeV bound is found. Our tabulation of upper bounds provides a target for experimenters seeking to discover or else falsify the existence of weak scale supersymmetry. In an Appendix, we show contributions to the naturalness measure from one-loop contributions to the weak scale scalar potential.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-09T20:16:03Z</published>
+    <arxiv:comment>31 pages, 15 figures; version 3 includes dominant two-loop contributions to scalar potential which provide a bound on m(gluino) in the pMSSM</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 93, 035016 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Howard Baer</name>
+    </author>
+    <author>
+      <name>Vernon Barger</name>
+    </author>
+    <author>
+      <name>Michael Savoy</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.93.035016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.93.035016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.6483v2</id>
+    <title>A Chernoff-type Lower Bound for the Gaussian Q-function</title>
+    <updated>2012-03-22T18:58:57Z</updated>
+    <link href="https://arxiv.org/abs/1202.6483v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.6483v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A lower bound for the Gaussian Q-function is presented in the form of a single exponential function with parametric order and weight. We prove the lower bound by introducing two functions, one related to the Q-function and the other similarly related to the exponential function, and by obtaining inequalities that indicate the sign of the difference of the two functions.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-29T08:47:53Z</published>
+    <arxiv:comment>3 pages. This version replaces the bound in v1 with a tighter bound. We give a proof of the tighter bound and defer the discussion</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>François D. Côté</name>
+    </author>
+    <author>
+      <name>Ioannis N. Psaromiligkos</name>
+    </author>
+    <author>
+      <name>Warren J. Gross</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.1875v2</id>
+    <title>Lower Bounds for Quantum Oblivious Transfer</title>
+    <updated>2013-03-23T13:41:52Z</updated>
+    <link href="https://arxiv.org/abs/1007.1875v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.1875v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this paper we show that every 1-out-of-2 oblivious transfer protocol allows a dishonest party to cheat with probability bounded below by a constant strictly larger than 1/2. Alice's cheating is defined as her probability of guessing Bob's index, and Bob's cheating is defined as his probability of guessing both input bits of Alice. In our proof, we relate these cheating probabilities to the cheating probabilities of a coin flipping protocol and conclude by using Kitaev's coin flipping lower bound. Then, we present an oblivious transfer protocol with two messages and cheating probabilities at most 3/4. Last, we extend Kitaev's semidefinite programming formulation to more general primitives, where the security is against a dishonest player trying to force the outcome of the other player, and prove optimal lower and upper bounds for them.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-12T11:48:29Z</published>
+    <arxiv:comment>v2, improved lower bound that uses a better lower bound on quantum bit commitment</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum Information &amp; Computation 13(1 &amp; 2):158-177, 2013</arxiv:journal_ref>
+    <author>
+      <name>André Chailloux</name>
+    </author>
+    <author>
+      <name>Iordanis Kerenidis</name>
+    </author>
+    <author>
+      <name>Jamie Sikora</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0501080v3</id>
+    <title>Phase Separation and an upper bound for $Δ$ for Fermi fluids in the Phase Separation and an upper bound for $Δ$ for Fermi fluids in the unitary regime</title>
+    <updated>2005-09-12T12:41:48Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0501080v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0501080v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  An upper bound is derived for $Δ$ for a cold dilute fluid of equal amounts of two species of fermion in the unitary regime $k_f a \to \infty$ (where $k_f$ is the Fermi momentum and $a$ the scattering length, and $Δ$ is a pairing energy: the difference in energy per particle between adding to the system a macroscopic number (but infinitesimal fraction) of particles of one species compared to adding equal numbers of both. The bound is $δ\leq {5/3} (2 (2 ξ)^{2/5} - (2 ξ))$ where $ξ=ε/ε_{\rm FG}$, $δ= 2 Δ/ε_{\rm FG}$; $ε$ is the energy per particle and $ε_{\rm FG}$ is the energy per particle of a noninteracting Fermi gas. If the bound is saturated, then systems with unequal densities of the two species will separate spatially into a superfluid phase with equal numbers of the two species and a normal phase with the excess. If the bound is not saturated then $Δ$ is the usual superfluid gap. If the superfluid gap exceeds the maximum allowed by the inequality phase separation occurs.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-01-05T14:42:40Z</published>
+    <arxiv:comment>This is the version to be publishd. The notation has been improved to match standard useage. An improved discussion on the implication of the nature of the bound and the physical meaning of the parameter Delta</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.95:120403,2005</arxiv:journal_ref>
+    <author>
+      <name>Thomas D. Cohen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.95.120403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.95.120403" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.4918v2</id>
+    <title>Bounding reflection length in an affine Coxeter group</title>
+    <updated>2010-10-22T15:25:52Z</updated>
+    <link href="https://arxiv.org/abs/1009.4918v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.4918v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In any Coxeter group, the conjugates of elements in the standard minimal generating set are called reflections and the minimal number of reflections needed to factor a particular element is called its reflection length. In this article we prove that the reflection length function on an affine Coxeter group has a uniform upper bound. More precisely we prove that the reflection length function on an affine Coxeter group that naturally acts faithfully and cocompactly on $\R^n$ is bounded above by $2n$ and we also show that this bound is optimal. Conjecturally, spherical and affine Coxeter groups are the only Coxeter groups with a uniform bound on reflection length.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-24T19:42:29Z</published>
+    <arxiv:comment>10 pages. Replaces earlier posting by second author. Paper is substantially reorganized and includes stronger results, including sharpness of the upper bound</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Jon McCammond</name>
+    </author>
+    <author>
+      <name>T. Kyle Petersen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.10221v4</id>
+    <title>Inequalities for space-bounded Kolmogorov complexity</title>
+    <updated>2022-09-09T14:45:18Z</updated>
+    <link href="https://arxiv.org/abs/2010.10221v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.10221v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is a parallelism between Shannon information theory and algorithmic information theory. In particular, the same linear inequalities are true for Shannon entropies of tuples of random variables and Kolmogorov complexities of tuples of strings (Hammer et al., 1997), as well as for sizes of subgroups and projections of sets (Chan, Yeung, Romashchenko, Shen, Vereshchagin, 1998--2002). This parallelism started with the Kolmogorov-Levin formula (1968) for the complexity of pairs of strings with logarithmic precision. Longpré (1986) proved a version of this formula for space-bounded complexities.
+  In this paper we prove an improved version of Longpré's result with a tighter space bound, using Sipser's trick (1980). Then, using this space bound, we show that every linear inequality that is true for complexities or entropies, is also true for space-bounded Kolmogorov complexities with a polynomial space overhead.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-20T12:14:44Z</published>
+    <arxiv:comment>[Better bound using improvements by Bruno Bauwens]</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Bruno Bauwens</name>
+      <arxiv:affiliation>National Research University Higher School of Economics, Moscow</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Gács</name>
+      <arxiv:affiliation>Boston University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrei Romashchenko</name>
+      <arxiv:affiliation>LIRMM, University of Montpellier</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alexander Shen</name>
+      <arxiv:affiliation>LIRMM, University of Montpellier</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.2006v2</id>
+    <title>Improved complexity bounds for real root isolation using Continued Fractions</title>
+    <updated>2011-06-07T07:07:38Z</updated>
+    <link href="https://arxiv.org/abs/1010.2006v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.2006v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of isolating the real roots of a square-free polynomial with integer coefficients using (variants of) the continued fraction algorithm (CF). We introduce a novel way to compute a lower bound on the positive real roots of univariate polynomials. This allows us to derive a worst case bound of $\sOB(d^6 + d^4τ^2 + d^3τ^2)$ for isolating the real roots of a polynomial with integer coefficients using the classic variant \cite{Akritas:implementation} of CF, where $d$ is the degree of the polynomial and $τ$ the maximum bitsize of its coefficients. This improves the previous bound of Sharma \cite{sharma-tcs-2008} by a factor of $d^3$ and matches the bound derived by Mehlhorn and Ray \cite{mr-jsc-2009} for another variant of CF; it also matches the worst case bound of the subdivision-based solvers.</summary>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-11T06:02:43Z</published>
+    <arxiv:comment>The improved bound bound that was claimed in an earlier version is removed, since there was an error in the proof</arxiv:comment>
+    <arxiv:primary_category term="cs.SC"/>
+    <author>
+      <name>Elias Tsigaridas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.04035v2</id>
+    <title>Counting Euler Tours in Undirected Bounded Treewidth Graphs</title>
+    <updated>2015-12-12T12:27:40Z</updated>
+    <link href="https://arxiv.org/abs/1510.04035v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.04035v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that counting Euler tours in undirected bounded tree-width graphs is tractable even in parallel - by proving a $\#SAC^1$ upper bound. This is in stark contrast to #P-completeness of the same problem in general graphs.
+  Our main technical contribution is to show how (an instance of) dynamic programming on bounded \emph{clique-width} graphs can be performed efficiently in parallel. Thus we show that the sequential result of Espelage, Gurski and Wanke for efficiently computing Hamiltonian paths in bounded clique-width graphs can be adapted in the parallel setting to count the number of Hamiltonian paths which in turn is a tool for counting the number of Euler tours in bounded tree-width graphs. Our technique also yields parallel algorithms for counting longest paths and bipartite perfect matchings in bounded-clique width graphs.
+  While establishing that counting Euler tours in bounded tree-width graphs can be computed by non-uniform monotone arithmetic circuits of polynomial degree (which characterize $\#SAC^1$) is relatively easy, establishing a uniform $\#SAC^1$ bound needs a careful use of polynomial interpolation.</summary>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-14T10:44:21Z</published>
+    <arxiv:comment>17 pages; There was an error in the proof of the GapL upper bound claimed in the previous version which has been subsequently removed</arxiv:comment>
+    <arxiv:primary_category term="cs.CC"/>
+    <author>
+      <name>Nikhil Balaji</name>
+    </author>
+    <author>
+      <name>Samir Datta</name>
+    </author>
+    <author>
+      <name>Venkatesh Ganesan</name>
+    </author>
+  </entry>
+</feed>

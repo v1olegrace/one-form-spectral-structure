@@ -1,0 +1,155 @@
+repo,url,language,license,stars,last_update,paper_ids,purpose,cluster
+KarpelesLab/puremp,https://github.com/KarpelesLab/puremp,Rust,MIT,4,2026-07-12T15:35:26Z,,"Pure-Rust, clean-room arbitrary-precision arithmetic: integers, rationals, MPFR-class floats, decimals, complex, polynomials, matrices, intervals and algebraic numbers — no_std, MIT",H
+mrlhansen/rmsd,https://github.com/mrlhansen/rmsd,C,,2,2024-08-27T06:06:59Z,,Reconstruction of smeared spectral densities from lattice QCD correlators,E
+34j/numpy-flint-arb,https://github.com/34j/numpy-flint-arb,Python,MIT,1,2026-09-11T06:26:49Z,,Arbitrary precision floating / ball arithmetic (interval arithmetic) dtype in NumPy / array API,H
+lituus-lab/UniMath,https://github.com/lituus-lab/UniMath,Nim,Apache-2.0,1,2026-09-09T04:15:09Z,,"Multi-precision arithmetic engine: arbitrary-precision integers, fixed-point, big floats, rationals, intervals and complex numbers, with the transcendental and special functions over them — Nim engine with a C ABI and Python bindings.",H
+hottorch/Python-tools-for-Deep-Level-Transient-Spectroscopy-analysis,https://github.com/hottorch/Python-tools-for-Deep-Level-Transient-Spectroscopy-analysis,Python,Unlicense,0,2025-07-03T13:54:18Z,,"A part of the supplimentary information of the paper: Comparison of Five DLTS Analysis Methods on a SiC Schottky Diode: Boxcar, Fourier Transform, Exponential Fitting, Q-DLTS, and Inverse Laplace Transform",H
+LoopyNoodle/axial-form-factors,https://github.com/LoopyNoodle/axial-form-factors,Jupyter Notebook,,0,2023-11-13T06:38:02Z,,"Exploring the phenomenological applications of rational approximations, such as Padé approximants, to estimate axial mass and radius of nucleons using experimental (quasistatic neutrino-nucleon scattering) and Lattice QCD data.",D
+buividovich/static_lattice_QCD,https://github.com/buividovich/static_lattice_QCD,C++,,0,2025-12-28T21:53:33Z,,"Code for hamiltonian-based lattice QCD simulations. Implements numerical methods described in the paper ""Spectral reconstruction from dimensional reduction in high-temperature gauge theories with fermions"" by P. Buividovich and B. Hind",E
+epi13/mncs-math,https://github.com/epi13/mncs-math,Python,Apache-2.0,0,2026-09-08T13:17:03Z,,"Machine-native scientific mathematics for MNCS, including linear algebra, arbitrary precision, tensors, autodiff, interval arithmetic, optimization primitives, and deterministic numerical computation.",H
+thiagomassensini/finite-native-carry-operator,https://github.com/thiagomassensini/finite-native-carry-operator,Python,Apache-2.0,0,2026-08-05T18:22:30Z,,"Numerical and formal study of finite native-carry operators over R², including multibase CPU/CUDA scanning, arbitrary-precision analysis, cutoff convergence, asymptotic correction, and interval-arithmetic certification.",H
+Layered-column vertical scattering and tomographic resolution analysis for L-band radar sounding of sea ice (v2.0),https://zenodo.org/records/22708398,,mit-license,,2026-09-11,10.5281/zenodo.22708398,"<p>A horizontally layered snow, sea ice, slush and seawater column is built from field-derived parameters. Brine volume follows Cox and Weeks (1983), brine permittivity Stogryn and Desai (1985), and effective sea-ice permittivity a Polder-van Santen mixture with a single effective depolarization fac",H
+erdc/proteus: 1.9.0,https://zenodo.org/records/22708360,,mit-license,,2026-09-11,10.5281/zenodo.22708360,"<h1>Contributors</h1>
+<ul>
+<li>Chris Kees @cekees</li>
+<li>Arnob Barua @abarua-ce</li>
+<li>Darsh Nathawani @nathawani</li>
+<li>linojr @linojr</li>
+<li>jhcollins @jhcollins</li>
+</ul>
+<h1>New features</h1>
+<ul>
+<li>Improved CutFEM and IFEM support for higher order FEM and multiphase models</li>
+<li>I",H
+Reproducibility archive for conditioning-controlled retrieval of broadband land surface temperature and emissivity from paired ground-based longwave irradiance measurements,https://zenodo.org/records/22684633,,cc-by-4.0,,2026-09-10,10.5281/zenodo.22684633,"<p>This archive provides the frozen Version 12b scientific reproducibility materials associated with the manuscript &ldquo;Conditioning-controlled retrieval of broadband land surface temperature and emissivity from paired ground-based longwave irradiance measurements&rdquo; (egusphere-2026-858), by ",H
+"Code for ""Quantifying the responses of AI precipitation forecast errors to reanalysis errors using analysis of covariance""",https://zenodo.org/records/22699488,,cc-by-4.0,,2026-09-11,10.5281/zenodo.22699488,"<p>This repository archives the code supporting the manuscript &ldquo;Quantifying the responses of AI precipitation forecast errors to reanalysis errors using analysis of covariance"". It includes scripts and notebooks for generating GraphCast forecasts, aggregating precipitation to 1426 CAMELS-SPAT ",H
+radio-astro-tools/tutorials: 2026.09.10,https://zenodo.org/records/22698927,,cc-by-4.0,,2026-09-10,10.5281/zenodo.22698927,"<h2>What's Changed</h2>
+<ul>
+<li>add spectral-cube reprojection example by @keflavich in https://github.com/radio-astro-tools/tutorials/pull/17</li>
+<li>Pvextractor plotting by @keflavich in https://github.com/radio-astro-tools/tutorials/pull/19</li>
+<li>Added another example notebook to illustrate ",H
+music: extreme-fidelity synthesis of musical elements,https://zenodo.org/records/22697735,,mit-license,,2026-09-10,10.5281/zenodo.22697735,"Extreme-fidelity synthesis of musical elements, based on the MASS framework: psychophysical descriptions of musical elements in LPCM audio, expressed as equations and corresponding Python routines. State is updated at every sample, so a rendered sound is as close as it can be to the mathematical mod",H
+fabtwin: learned generative process twins for yield-aware inverse design of multilayer optics,https://zenodo.org/records/22697620,,apache2.0,,2026-09-10,10.5281/zenodo.22697620,"<p>Real-data release: the pipeline the paper names as its essential next step -- a process twin trained and scored on a lab's own in-situ monitoring traces -- is now a documented, validated pathway. The twins never see a simulator by construction; this release adds the ingestion, quality control and",H
+Reproducibility code for Prognostic Drift in Survival Risk Sets,https://zenodo.org/records/22695340,,,,2026-09-10,10.5281/zenodo.22695340,"<p>Reproducibility code for the manuscript &ldquo;Prognostic Drift in Survival Risk Sets: Structure, Efficient Estimation, and Uniform Inference.&rdquo;</p>
+<p>This archive contains the primary base-R Monte Carlo experiments, double-robustness analyses, ACTG 175 illustration, flexible-nuisance XGBoo",H
+Data and software for estimating electron density enhancements caused by solar flares using VLF time series,https://zenodo.org/records/22693576,,mit-license,,2026-09-10,10.5281/zenodo.22693576,"Reproducibility package containing the code, curated notebooks, observational and synthetic data products, inversion outputs, and provenance records used to reconstruct solar-flare-driven D-region electron-density enhancements from VLF amplitude and phase time series on the NAA-PLO propagation path ",H
+nvrecon: physics-informed magnetization reconstruction from NV magnetometry maps,https://zenodo.org/records/22675268,,mit-license,,2026-09-10,10.5281/zenodo.22675268,"<p>Python package nvrecon: physics-informed reconstruction of a thin-film magnetization from a single nitrogen-vacancy magnetometry map. The reconstruction minimizes a relative L2 misfit between the measured NV-projected stray field and the field of a candidate magnetization, plus a weighted microma",H
+ramansep: two-mode separation of strain and carrier density in 2D-material Raman maps,https://zenodo.org/records/22704679,,apache2.0,,2026-09-11,10.5281/zenodo.22704679,"<p>Calibration release: the package's no-shipped-coefficients policy finally comes with the tool that closes the loop. Every shipped set carries the caveat that lever arms depend on material, mode pair, excitation and substrate; <code>calibrate_lever_arms</code> turns reference measurements you cont",B
+OpenPBEE/Functional-Recovery-Python,https://zenodo.org/records/22702142,,mit-license,,2026-09-11,10.5281/zenodo.22702142,"<p>This release brings the component library up to the current ATC-138 fragility set, raises the safety class assigned to the third damage state of gravity shear tabs, and corrects defects in the red-tag and fire-suppression logic. The applied methodology changes alter simulated recovery times; the ",B
+PyNetDesign: a Python framework for microseismic monitoring network design,https://zenodo.org/records/22695002,,mit-license,,2026-09-10,10.5281/zenodo.22695002,"PyNetDesign is an open-source Python library that provides a simple and functional framework for designing and testing microseismic monitoring networks. Version 1.0.1 is a bugfix release. It corrects the seismic moment calculation, which underestimated the moment by a factor of 2*pi*f because the am",B
+github.com/DataBiosphere/terra-scientific-pipelines-service/VcfdistEvaluation,https://zenodo.org/records/22692657,,cc-by-4.0,,2026-09-10,10.5281/zenodo.22692657,"<h1>Terra Scientific Pipelines Service</h1>
+<p><a href=""https://sonarcloud.io/summary/new_code?id=DataBiosphere_terra-scientific-pipelines-service""></a></p>
+<h2>Overview</h2>
+<p>Terra Scientific Pipelines Service, or Teaspoons, facilitates running a number of defined scientific pipelines
+on behalf o",B
+github.com/DataBiosphere/terra-scientific-pipelines-service/UpdateVcfDictionaryHeader,https://zenodo.org/records/22692653,,cc-by-4.0,,2026-09-10,10.5281/zenodo.22692653,"<h1>Terra Scientific Pipelines Service</h1>
+<p><a href=""https://sonarcloud.io/summary/new_code?id=DataBiosphere_terra-scientific-pipelines-service""></a></p>
+<h2>Overview</h2>
+<p>Terra Scientific Pipelines Service, or Teaspoons, facilitates running a number of defined scientific pipelines
+on behalf o",B
+github.com/DataBiosphere/terra-scientific-pipelines-service/SubsetVcfByBedFile,https://zenodo.org/records/22692649,,cc-by-4.0,,2026-09-10,10.5281/zenodo.22692649,"<h1>Terra Scientific Pipelines Service</h1>
+<p><a href=""https://sonarcloud.io/summary/new_code?id=DataBiosphere_terra-scientific-pipelines-service""></a></p>
+<h2>Overview</h2>
+<p>Terra Scientific Pipelines Service, or teaspoons, facilitates running a number of defined scientific pipelines
+on behalf o",B
+github.com/DataBiosphere/terra-scientific-pipelines-service/StdPopSim,https://zenodo.org/records/22692648,,cc-by-4.0,,2026-09-10,10.5281/zenodo.22692648,"<h1>Terra Scientific Pipelines Service</h1>
+<p><a href=""https://sonarcloud.io/summary/new_code?id=DataBiosphere_terra-scientific-pipelines-service""></a></p>
+<h2>Overview</h2>
+<p>Terra Scientific Pipelines Service, or Teaspoons, facilitates running a number of defined scientific pipelines
+on behalf o",B
+github.com/DataBiosphere/terra-scientific-pipelines-service/SplitMultiallelicsBcf,https://zenodo.org/records/22692646,,cc-by-4.0,,2026-09-10,10.5281/zenodo.22692646,"<h1>Terra Scientific Pipelines Service</h1>
+<p><a href=""https://sonarcloud.io/summary/new_code?id=DataBiosphere_terra-scientific-pipelines-service""></a></p>
+<h2>Overview</h2>
+<p>Terra Scientific Pipelines Service, or Teaspoons, facilitates running a number of defined scientific pipelines
+on behalf o",B
+github.com/DataBiosphere/terra-scientific-pipelines-service/SplitMultiallelics,https://zenodo.org/records/22692644,,cc-by-4.0,,2026-09-10,10.5281/zenodo.22692644,"<h1>Terra Scientific Pipelines Service</h1>
+<p><a href=""https://sonarcloud.io/summary/new_code?id=DataBiosphere_terra-scientific-pipelines-service""></a></p>
+<h2>Overview</h2>
+<p>Terra Scientific Pipelines Service, or Teaspoons, facilitates running a number of defined scientific pipelines
+on behalf o",B
+"Lean Verification for ""Uniform Hiding and Two Routes to Relative Accuracy in Gaussian Boson Sampling""",https://zenodo.org/records/22670050,,gpl-3.0,,2026-09-11,10.5281/zenodo.22670050,"<p>Version 1.3.0 accompanies Hongru Zhao&rsquo;s manuscript, Uniform Hiding and Two Routes to Relative Accuracy in Gaussian Boson Sampling. It extends the formalization of the hiding result and Route 1 with photon-sector calculations, optimized asymptotics, sampling bounds, and applications.</p>
+<h3",D
+Verification software for bosonic loss codes with bounded occupation,https://zenodo.org/records/22693414,,mit-license,,2026-09-11,10.5281/zenodo.22693414,"<p>Five self-contained Python programs accompanying <em>Bosonic Loss Codes with Bounded Occupation</em>, by Avraham Kreindel and Aryeh Lev Zabokritskiy (Yohananov), manuscript revision of 11 September 2026.</p><p>The software reproduces finite bounded-composition enumerators, distance shells and ind",D
+Semilocal convergence beyond exact majorization for an efficient three-step method under gamma conditions: supplementary material and reproducibility package,https://zenodo.org/records/22700885,,other-open,,2026-09-11,10.5281/zenodo.22700885,"Research compendium containing Supplementary Material S1-S6, exact rational and symbolic verification programs, high-precision numerical experiments, and generated data for the sufficient criterion beta*gamma &lt;= 0.1547.",D
+JAIC: the Jupiter auroral ionosphere code,https://zenodo.org/records/22692159,,mit-license,,2026-09-10,10.5281/zenodo.22692159,"<p><strong>JAIC: the Jupiter auroral ionosphere code</strong></p>
+<p>&nbsp;</p>
+<p>JAIC is an open-source code for modelling electron precipitation and related ionospheric / auroral processes in Jupiter&rsquo;s upper atmosphere. The hybrid model follows the primary electron population using a Monte ",D
+Model code and video supplement for 'Feedbacks and timescales in the modelled transient response of debris-covered glaciers',https://zenodo.org/records/22687411,,cc-by-4.0,,2026-09-10,10.5281/zenodo.22687411,"<p>Here, we provide:</p>
+<ol>
+<li>The complete model code (MATLAB) of the 1.5-dimensional, Shallow Ice Approximation coupled debris-covered glacier model (Englacial Debris Solver) used in 'Feedbacks and timescales in the modelled transient response of debris-covered glaciers'.</li>
+<li>The model oup",D
+graemeleehickey/goldilocks: V1.0.0,https://zenodo.org/records/22677968,,gpl-3.0,,2026-09-09,10.5281/zenodo.22677968,"<h1>goldilocks 1.0.0</h1>
+<p>Version 1.0.0 marks the first stable major release. Highlights include observed interim evaluation, RMST and Farrington-Manning analyses, immediate-success stopping, arm-specific priors, and Monte Carlo and calendar-time summaries.</p>
+<h2>Migration from 0.6.0</h2>
+<ul>
+",D
+GSA-CPD: Generalized Stochastic Approximation for Robust Sequential Change-Point Detection,https://zenodo.org/records/22674599,,mit-license,,2026-09-09,10.5281/zenodo.22674599,"Public release of the GSA-CPD package: a Python implementation of a moment-based approximation of the log-likelihood ratio (GSA-LLR) for sequential change-point detection in non-Gaussian time series, together with a Lean 4 formalization of the core theorems and a reproducible Monte Carlo study. It a",D
+The transverse shallow ice approximation - a novel approach to the flow of ice in narrow valleys,https://zenodo.org/records/22227452,,gpl-3.0-or-later,,2026-09-08,10.5281/zenodo.22227452,"<div>
+<p>This repository contains the MATLAB codes and the simulated data used for the paper: Hergarten, S. (2026), The transverse shallow ice approximation - a novel approach to the flow of ice in narrow valleys, EGUsphere, doi 10.5194/egusphere-2026-5440.</p>
+<ul>
+<li>The file minsia.m is an exper",D
+PEtab-dev/libpetab-python: libpetab-python v0.9.0,https://zenodo.org/records/22644479,,mit-license,,2026-09-07,10.5281/zenodo.22644479,"<p>This release will require Python&gt;=3.12 and numpy&gt;=2.1.</p>
+<p><strong>Fixes</strong></p>
+<ul>
+<li>Fixed the mean of residuals and added an option to choose between
+normalized and unnormalized errors in <code>plot_goodness_of_fit</code>
+(by @plakrisenko in https://github.com/PEtab-dev/libpet",D
+Parallel-in-Time/pySDC,https://zenodo.org/records/22637609,,bsd-2-clause-netbsd,,2026-09-07,10.5281/zenodo.22637609,"The pySDC project is a Python implementation of the spectral deferred correction (SDC) approach and its flavors, esp. the multilevel extension MLSDC and PFASST. It is intended for rapid prototyping and educational purposes. New ideas like e.g. sweepers or predictors can be tested and first toy probl",D
+NEWSTAND App,https://zenodo.org/records/22657931,,mit-license,,2026-09-11,10.5281/zenodo.22657931,<p><span>The NEWSTAND App provides a spectroradiometer data processor with graphical user interface (GUI) that enables the calculation of spectral irradiance from the raw spectrometer output and characterization data and a corresponding measurement uncertainty analysis.</span></p>,E
+Observation Constrained Prediction and TIEGCM3.0 Comparison of Thermospheric Horizontal Winds During Geomagnetic Storms,https://zenodo.org/records/22706753,,cc-by-4.0,,2026-09-11,10.5281/zenodo.22706753,"<div>
+<div>This repository provides the code, trained model, selected processed data, and plotting scripts associated with the manuscript on neural-network reconstruction and analysis of thermospheric neutral winds. The part of the drawing code has been modified, and the ablation experiment code has",E
+norm_spectrum,https://zenodo.org/records/22707406,,mit-license,,2026-09-11,10.5281/zenodo.22707406,"<p>Initial public release of <strong>norm_spectrum</strong>, a lightweight Python package for normalization of astronomical spectra.</p>
+<h3>Included in v1.0.0</h3>
+<ul>
+<li><p><code>pseudo_norm</code>: broad running-median continuum / pseudo-continuum normalization for 1-D spectra.</p>
+</li>
+<li><p",E
+"hamop: bands, DOS, Kubo optical conductivity and NEGF transmission from one tight-binding Hamiltonian",https://zenodo.org/records/22704606,,apache2.0,,2026-09-11,10.5281/zenodo.22704606,"<p>Local spectroscopy release: the NEGF layer now answers <em>where</em> in a device the spectral weight sits and <em>how</em> the current flows through it, not only how much transmits.</p>
+<h2>New in <code>hamop.negf</code></h2>
+<ul>
+<li><strong><code>device_greens</code></strong>: the retarded dev",E
+Campus-Scale 5G NR Radio Propagation Dataset: Processing and Application Code,https://zenodo.org/records/22702920,,cc-by-4.0,,2026-09-11,10.5281/zenodo.22702920,"<p>This software accompanies the dataset &ldquo;A Campus-Scale 5G NR Radio Propagation Dataset Integrating Drive-Test Measurements, 3D Environmental Geometry, and Ray Tracing.&rdquo; It provides Python workflows for drive-test measurement preprocessing, coordinate alignment, Sionna RT base-station p",E
+UniScFlow: public-accession reconstruction and guarded remapping of single-cell RNA-seq raw data,https://zenodo.org/records/22271248,,bsd-3-clause,,2026-09-03,10.5281/zenodo.22271248,"<p>UniScFlow is a Python and shell workflow for reconstructing mapping-ready inputs from public single-cell and single-nucleus RNA-seq accessions. It validates project and run scope, integrates repository metadata with direct inspection of raw-read streams, infers platform and logical read roles, co",E
+SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC) — research artifact,https://zenodo.org/records/22701379,,mit-license,,2026-09-11,10.5281/zenodo.22701379,"<p>The complete experiment framework behind the PoPETs 2027 paper <em>SoK: Reconstruction Attacks on Synthetic Tabular Data (Insights from Winning the NIST CRC)</em>.</p><p>It contains implementations of every reconstruction attack in the paper's taxonomy, including the six the paper introduces (CoB",E
+"Title: Gradient-power compactons reproducibility code, data, and figures",https://zenodo.org/records/22671976,,mit-license,,2026-09-11,10.5281/zenodo.22671976,"<p>Reproducibility source code, numerical data, and generated figures for computations on gradient-power compactons. The archive contains symbolic verification scripts, static and spectral numerical checks, padded Fourier-Galerkin time-integration code, Jacobi-Galerkin generator diagnostics, numeric",E
+cohort-harmonise: dictionary-first harmonisation and claim auditing across youth-development cohorts,https://zenodo.org/records/22699959,,mit-license,,2026-09-11,10.5281/zenodo.22699959,"<p>A dictionary-first harmonisation tool for aligning constructs across five longitudinal youth-development cohorts &mdash; LSAC (Growing Up in Australia), ABCD, TESS (Trondheim Early Secure Study), Ten to Men and LSIC (Footprints in Time) &mdash; using variable-level metadata only, with no access t",E
+"santaandria/spectral_budget: Code to reproduce the results of ""A Spectral Model for the Rainfall Variability Production"" by Andria et al.",https://zenodo.org/records/22699820,,mit-license,,2026-09-11,10.5281/zenodo.22699820,<p>Code to reproduce the results of &quot;A Spectral Model for the Rainfall Variability Production&quot; by Andria et al.</p>,E
+Separable Codes for Time and Decision in Human Temporal Perception - Code,https://zenodo.org/records/22660752,,cc-by-4.0,,2026-09-08,10.5281/zenodo.22660752,"<p>This repository contains the Python analysis scripts associated with the study ""Separable Codes for Time and Decision in Human Temporal Perception"" (Silvestrin et al., <em>https://doi.org/10.64898/2026.04.28.721130</em>).</p>
+<p>The code implements the full analysis pipeline, from behavioral mode",H
+Bilinearity Preserving Algebraic Flux Correction: code and data,https://zenodo.org/records/22707748,,cc-by-4.0,,2026-09-11,10.5281/zenodo.22707748,"<p>Julia code reproducing the numerical experiments of S. S. Dash and A. Jha, <em>Bilinearity Preserving Algebraic Flux Correction</em>. Implements the algebraic flux correction scheme for convection&ndash;diffusion&ndash;reaction equations with the limiter of Barrenechea, John and Knobloch for an a",H
+FESOM/fesom2: 2.8.0,https://zenodo.org/records/22707597,,gpl-3.0,,2026-09-11,10.5281/zenodo.22707597,"<h2>What's Changed</h2>
+<ul>
+<li>Fix path to Sweeney file on levante. by @koldunovn in https://github.com/FESOM/fesom2/pull/825</li>
+<li>Compile latest main under cray ftn by @JanStreffing in https://github.com/FESOM/fesom2/pull/829</li>
+<li>Add toy configuration neverworld2 by @patrickscholz in htt",H
+amr-clonalshare: measuring how much of antimicrobial resistance travels with the clone,https://zenodo.org/records/22706786,,mit-license,,2026-09-11,10.5281/zenodo.22706786,"<p>Python package and command-line tool that estimates the share of variance in an antimicrobial resistance phenotype carried by the lineages of a bacterial collection, from a lineage label and a susceptibility call or a recorded dilution, and refuses the estimate where the collection cannot support",H
+SPARQ: spiking physics-in-the-loop autonomous reinforcement triage of quantum emitters,https://zenodo.org/records/22704710,,apache2.0,,2026-09-11,10.5281/zenodo.22704710,"<p>Inference release: the toolbox now covers all three schools honestly. The parametric bootstrap propagates shot noise through the full pipeline, the Wilks profile likelihood gives model-based frequentist intervals -- and <code>bayesian_g2</code> adds the EXACT finite-count Bayesian posterior of th",H
+absnoise: Andreev-bound-state occupation noise and detector budgets for proximity Josephson junctions,https://zenodo.org/records/22704687,,apache2.0,,2026-09-11,10.5281/zenodo.22704687,"<p>Characterization release: the shipped recipes are Jung et al.'s six junctions; yours needs its own (Ic0, Tc*, tau) before any budget in this package applies to it. The standard measurement -- critical current versus temperature -- determines exactly those parameters, and <code>fit_ic_curve</code>",H
+KernelInterpolation.jl,https://zenodo.org/records/22704535,,mit-license,,2026-09-11,10.5281/zenodo.22704535,Multivariate (generalized) scattered data interpolation with symmetric (conditionally) positive definite kernel functions in arbitrary dimension,H
+eGamma: an expanded Gamma distribution library for Python,https://zenodo.org/records/22704164,,mit-license,,2026-09-11,10.5281/zenodo.22704164,"<p>eGamma implements the expanded Gamma distribution: a three-parameter Gamma distribution whose scale parameter is allowed to be negative, so that the density is reflected about its location parameter and can represent left-skewed as well as right-skewed data. In that form the family is Pearson Typ",H
+OSCAR-fire,https://zenodo.org/records/22701517,,cc-by-4.0,,2026-09-11,10.5281/zenodo.22701517,"<div>
+<div><strong>Overview</strong></div>
+OSCAR-fire is an extension of the compact Earth system model OSCAR v3.3. This version uses a bookkeeping scheme with prescribed burned area to assess wildfire carbon fluxes. For the original OSCAR v3 code, visit <a href=""https://github.com/tgasser/OSCAR"">OS",X
+kpenvelope: self-consistent six-band k.p envelope-function solver for wurtzite heterostructures,https://zenodo.org/records/22704651,,apache2.0,,2026-09-11,10.5281/zenodo.22704651,"<p>Intersubband optics release: the quantities that turn a solved envelope structure into an absorption spectrum -- and the design numbers of QWIPs and intersubband polaritonic devices.</p>
+<h2>New in <code>kpenvelope</code></h2>
+<ul>
+<li><strong><code>dipole_matrix</code></strong>: the intersubband",X
+sqzcomb: Lugiato-Lefever steady states and detected squeezing spectra for Kerr microcombs,https://zenodo.org/records/22704627,,apache2.0,,2026-09-11,10.5281/zenodo.22704627,"<p>Output-entanglement release: the entanglement a detector actually sees lives in the propagating output fields, not in the intracavity state, and the Gaussian toolbox now computes it there.</p>
+<h2>New in <code>sqzcomb.spectra</code></h2>
+<ul>
+<li><strong><code>output_covariance_xxpp</code></stron",X
+An Agent-Based Platform for the Study of Watersheds as Coupled Natural and Human Systems,https://zenodo.org/records/22698876,,cc-by-4.0,,2017-03-01,10.5281/zenodo.22698876,"<h1>WACCShed: &nbsp;A <strong>W</strong>ater <strong>a</strong>nd <strong>C</strong>limate <strong>C</strong>hange Water<strong>shed</strong>&nbsp;Platform</h1>
+<div><em>Principal WACCShed Platform Developers: Yu Jie (v1.0), Diego Cardoso (v1.1)</em></div>
+<div><em>Developers of WACCShed Hydrology M",X
+OrgRec 0.3.2,https://zenodo.org/records/22698744,,apache2.0,,2026-09-11,10.5281/zenodo.22698744,"<p>OrgRec is a native macOS application for documented pipe-organ field recording. It records multichannel Broadcast Wave audio, retains capture and review evidence, and exports checked research packages.</p><p>Version 0.3.2 adds a standalone Analyze Audio workspace: open or drop one audio file, ins",X
+mcpsim: millicharged-particle production and sensitivity simulation,https://zenodo.org/records/22698103,,mit-license,,2026-09-10,10.5281/zenodo.22698103,"Config-driven CLI computing millicharged-particle production (meson decays, proton bremsstrahlung, Drell-Yan) and zero-background sensitivity projections for fixed-target experiments (DarkQuest/SpinQuest, SHiP, LANSCE-mQ, FLAME), with on/off-axis detector geometries and validated Python + legacy-C++",X
+kr-colab/mkado: v0.6.0 - Bug-fix release,https://zenodo.org/records/22697891,,mit-license,,2026-09-10,10.5281/zenodo.22697891,"<p>Bug-fix release. No options were added or removed. The thirty fixes below
+came out of a coverage push that took the test suite from 311 to 718 tests
+and line coverage from 68 to 95 percent, and out of the bug reports filed
+along the way. Several fixes change reported numbers: a multi-allelic
+codo",X
+vcjdeboer/nanodrop-pylabrobot-demo: v1.0.0 — NanoDrop 1000 via PyLabRobot,https://zenodo.org/records/22695032,,cc-by-4.0,,2026-09-10,10.5281/zenodo.22695032,"<p>First archived release: a legacy Thermo Scientific NanoDrop ND-1000 driven entirely through PyLabRobot on macOS, measuring a real UV absorbance spectrum of paracetamol (acetaminophen).</p>
+<p>Contents:</p>
+<ul>
+<li>Raw measurement data (10x-averaged blank + paracetamol absorbance arrays)</li>
+<li",X

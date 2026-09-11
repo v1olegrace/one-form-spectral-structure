@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LFuTXVCEvZyU8wqpFH1OMVFHnfE</id>
+  <title>arXiv Query: search_query=all:edge OR all:singularity OR all:spectral OR all:density OR all:Laplace OR all:transform OR all:asymptotics&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:edge+OR+(all:singularity+OR+(all:spectral+OR+(all:density+OR+(all:Laplace+OR+(all:transform+OR+all:asymptotics)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>767319</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0997v3</id>
+    <title>Spectral asymptotics for Robin problems with a discontinuous coefficient</title>
+    <updated>2011-01-27T13:41:51Z</updated>
+    <link href="https://arxiv.org/abs/1009.0997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral behavior of the difference between the resolvents of two realizations $\tilde A_1$ and $\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_1$ and $b_2$ are in $L_\infty$, the s-numbers $s_j$ of $(\tilde A_1 -λ)^{-1}-(\tilde A_2 -λ)^{-1}$ satisfy $s_j j^{3/(n-1)}\le C$ for all $j$; this improves a recent result for $A=-Δ$ by Behrndt et al., that $\sum_js_j ^p&lt;\infty$ for $p&gt;(n-1)/3$. A sharper estimate is obtained when $b_1$ and $b_2$ are in $C^ε$ for some $ε&gt;0$, with jumps at a smooth hypersurface, namely that $s_j j^{3/(n-1)}\to c$ for $j\to \infty$, with a constant $c$ defined from the principal symbol of $A$ and $b_2-b_1$.
+  As an auxiliary result we show that the usual principal spectral asymptotic estimate for pseudodifferential operators of negative order on a closed manifold extends to products of pseudodifferential operators interspersed with piecewise continuous functions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-06T09:28:34Z</published>
+    <arxiv:comment>20 pages, notation simplified. To appear in J. Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>J. Spectral Theory 1 (2011), 155-177</arxiv:journal_ref>
+    <author>
+      <name>Gerd Grubb</name>
+    </author>
+    <arxiv:doi>10.4171/JST/7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.3958v3</id>
+    <title>Edge-state enhanced transport in a 2-dimensional quantum walk</title>
+    <updated>2014-12-04T13:49:11Z</updated>
+    <link href="https://arxiv.org/abs/1411.3958v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.3958v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum walks on translation invariant regular graphs spread quadratically faster than their classical counterparts. The same coherence that gives them this quantum speedup inhibits, or even stops their spread in the presence of disorder. We ask how to create an efficient transport channel from a fixed source site (A) to fixed target site (B) in a disordered 2-dimensional discrete-time quantum walk by cutting some of the links. We show that the somewhat counterintuitive strategy of cutting links along a single line connecting A to B creates such a channel. The efficient transport along the cut is due to topologically protected chiral edge states, which exist even though the bulk Chern number in this system vanishes. We give a realization of the walk as a periodically driven lattice Hamiltonian, and identify the bulk topological invariant responsible for the edge states as the quasienergy winding of this Hamiltonian.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-14T16:26:29Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. A 91, 022324 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Janos K. Asboth</name>
+    </author>
+    <author>
+      <name>Jonathan M. Edge</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.91.022324</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.91.022324" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14334v4</id>
+    <title>Invariant subspaces of elliptic systems II: spectral theory</title>
+    <updated>2022-02-08T09:57:39Z</updated>
+    <link href="https://arxiv.org/abs/2103.14334v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14334v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider an elliptic self-adjoint pseudodifferential operator $A$ acting on $m$-columns of half-densities on a closed manifold $M$, whose principal symbol is assumed to have simple eigenvalues. We show that the spectrum of $A$ decomposes, up to an error with superpolynomial decay, into $m$ distinct series, each associated with one of the eigenvalues of the principal symbol of $A$. These spectral results are then applied to the study of propagation of singularities in hyperbolic systems. The key technical ingredient is the use of the carefully devised pseudodifferential projections introduced in the first part of this work, which decompose $L^2(M)$ into almost-orthogonal almost-invariant subspaces under the action of both $A$ and the hyperbolic evolution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T08:56:53Z</published>
+    <arxiv:comment>Minor edits, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, vol. 12 (2022), p. 301-338</arxiv:journal_ref>
+    <author>
+      <name>Matteo Capoferri</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6015v1</id>
+    <title>The spectral function of a first order elliptic system</title>
+    <updated>2012-08-30T06:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1208.6015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of squares of Euclidean norms of eigenfunctions evaluated at a given point of the manifold, with summation carried out over all eigenvalues between zero and a positive lambda) and the counting function (number of eigenvalues between zero and a positive lambda). We derive explicit two-term asymptotic formulae for all three. For the propagator "asymptotic" is understood as asymptotic in terms of smoothness, whereas for the spectral and counting functions "asymptotic" is understood as asymptotic with respect to lambda tending to plus infinity.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-30T06:55:33Z</published>
+    <arxiv:comment>This preprint is "part a" (proper subset) of preprint arXiv:1204.6567. Preprint arXiv:1204.6567 is being split into two parts on the recommendation of the referee of Journal of Spectral Theory. "Part b" will appear as a separate preprint under the title "Spectral theoretic characterization of the massless Dirac operator"</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2013, vol. 3, p. 317-360</arxiv:journal_ref>
+    <author>
+      <name>Olga Chervova</name>
+    </author>
+    <author>
+      <name>Robert J. Downes</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.3026v2</id>
+    <title>Analytic calculation of doubly heavy hadron spectral density in coordinate space</title>
+    <updated>2012-08-30T12:53:59Z</updated>
+    <link href="https://arxiv.org/abs/1205.3026v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.3026v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A systematic and easy-to-use method is developed to calculate directly the doubly heavy hadron spectral density in the coordinate space. The correlation function is expressed in terms of hypergeometric functions, and the spectral density is obtained through two independent approaches: the simple integral representation method and the epsilon-expansion method, respectively. It is found that the spectral density of doubly heavy hadrons can be analytically expressed through commonly known simple functions. This method can drastically simplify and improve the QCD spectral sum rule calculation of the doubly heavy hadrons. An instructive numerical method is also presented for fast evaluation of the spectral density.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-14T13:54:16Z</published>
+    <arxiv:comment>An instructive numerical method is added for fast evaluation of the spectral density</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Zhi-Wei Huang</name>
+    </author>
+    <author>
+      <name>Jueping Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.0757v4</id>
+    <title>Spectral Asymptotics for Waveguides with Perturbed Periodic Twisting</title>
+    <updated>2015-01-04T11:59:49Z</updated>
+    <link href="https://arxiv.org/abs/1407.0757v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.0757v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the twisted waveguide $Ω_θ$, i.e. the domain obtained by the rotation of the bounded cross section $ω\subset {\mathbb R}^{2}$ of the straight tube $Ω: = ω\times {\mathbb R}$ at angle $θ$ which depends on the variable along the axis of $Ω$. We study the spectral properties of the Dirichlet Laplacian in $Ω_θ$, unitarily equivalent under the diffeomorphism $Ω_θ\to Ω$ to the operator $H_{θ'}$, self-adjoint in ${\rm L}^2(Ω)$. We assume that $θ' = β- ε$ where $β$ is a $2π$-periodic function, and $ε$ decays at infinity. Then in the spectrum $σ(H_β)$ of the unperturbed operator $H_β$ there is a semi-bounded gap $(-\infty, {\mathcal E}_0^+)$, and, possibly, a number of bounded open gaps $({\mathcal E}_j^-, {\mathcal E}_j^+)$. Since $ε$ decays at infinity, the essential spectra of $H_β$ and $H_{β- ε}$ coincide. We investigate the asymptotic behaviour of the discrete spectrum of $H_{β- ε}$ near an arbitrary fixed spectral edge ${\mathcal E}_j^\pm$. We establish necessary and quite close sufficient conditions which guarantee the finiteness of $σ_{\rm disc}(H_{β-ε})$ in a neighbourhood of ${\mathcal E}_j^\pm$. In the case where the necessary conditions are violated, we obtain the main asymptotic term of the corresponding eigenvalue counting function. The effective Hamiltonian which governs the the asymptotics of $σ_{\rm disc}(H_{β-ε})$ near ${\mathcal E}_j^\pm$ could be represented as a finite orthogonal sum of operators of the form $-μ\frac{d^2}{dx^2} - ηε$, self-adjoint in ${\rm L}^2({\mathbb R})$; here, $μ&gt; 0$ is a constant related to the so-called effective mass, while $η$ is $2π$-periodic function depending on $β$ and $ω$.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-03T01:20:19Z</published>
+    <arxiv:comment>29 pages, typos corrected, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Georgi Raikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.14213v1</id>
+    <title>Pointwise Spectral Asymptotics near Singularity</title>
+    <updated>2023-06-25T11:39:31Z</updated>
+    <link href="https://arxiv.org/abs/2306.14213v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.14213v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We establish semiclassical asymptotics and estimates for the $e_h(x,x;τ)$ where $e_h(x,y,τ)$ is the Schwartz kernel of the spectral projector for a second order elliptic operator inside domain with power singularity in the origin. While such asymptotics for its trace $\mathsf{N}_h(τ)= \int e_h(x,x,τ)\,dx$ are well-known, the poinwise asymptotics are much less explored. Our main tools: microlocal methods, improved successive approximations and geometric optics methods.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-25T11:39:31Z</published>
+    <arxiv:comment>29 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Victor Ivrii</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9911300v3</id>
+    <title>Dirac operator spectral density and low energy sum rules</title>
+    <updated>2000-07-12T08:39:01Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9911300v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9911300v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The spectral density of euclidean Dirac operator is investigated in partially quenched QCD with arbitrary quark masses. A representation of scalar and pseudoscalar correlators in terms of the spectral density is discussed. The spectral density, obtained from the partially quenched chiral perturbation theory is shown to be compatible with low energy sum rules, obtained earlier.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-11-10T11:57:26Z</published>
+    <arxiv:comment>8 pages, latex, published version; NLO QCD correction to the Dirac operator spectral density is added to the text</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP06(2000)025</arxiv:journal_ref>
+    <author>
+      <name>K. Zyablyuk</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2000/06/025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2000/06/025" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.04348v2</id>
+    <title>An Eigenfunction Approach to Conversion of the Laplace Transform of Point Masses on the Real Line to the Fourier Domain</title>
+    <updated>2025-05-23T04:53:26Z</updated>
+    <link href="https://arxiv.org/abs/2402.04348v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.04348v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by applications in magnetic resonance relaxometry, we consider the following problem: Given samples of a function $t\mapsto \sum_{k=1}^K A_k\exp(-tλ_k)$, where $K\ge 2$ is an integer, $A_k\in\mathbb{R}$, $λ_k&gt;0$ for $k=1,\cdots, K$, determine $K$, $A_k$'s and $λ_k$'s. Unlike the case in which the $λ_k$'s are purely imaginary, this problem is notoriously ill-posed. Our goal is to show that this problem can be transformed into an equivalent one in which the $λ_k$'s are replaced by $iλ_k$. We show that this may be accomplished by approximation in terms of Hermite functions, and using the fact that these functions are eigenfunctions of the Fourier transform. We present a preliminary numerical exploration of parameter extraction from this formalism, including the effect of noise. We do not claim to have eliminated the inherent ill-posedness of the original problem, as reflected in the numerical results.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-06T19:31:34Z</published>
+    <arxiv:comment>Original title:Inversion of the Laplace Transform of Point Masses,</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Available online Applied and computational harmonic analysis, 2025</arxiv:journal_ref>
+    <author>
+      <name>Michael McKenna</name>
+    </author>
+    <author>
+      <name>Hrushikesh N. Mhaskar</name>
+    </author>
+    <author>
+      <name>Richard G. Spencer</name>
+    </author>
+    <arxiv:doi>10.1016/j.acha.2025.101776</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.acha.2025.101776" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.09309v1</id>
+    <title>A Distributed Framework for Privacy-Enhanced Vision Transformers on the Edge</title>
+    <updated>2025-12-10T04:37:07Z</updated>
+    <link href="https://arxiv.org/abs/2512.09309v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.09309v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nowadays, visual intelligence tools have become ubiquitous, offering all kinds of convenience and possibilities. However, these tools have high computational requirements that exceed the capabilities of resource-constrained mobile and wearable devices. While offloading visual data to the cloud is a common solution, it introduces significant privacy vulnerabilities during transmission and server-side computation. To address this, we propose a novel distributed, hierarchical offloading framework for Vision Transformers (ViTs) that addresses these privacy challenges by design. Our approach uses a local trusted edge device, such as a mobile phone or an Nvidia Jetson, as the edge orchestrator. This orchestrator partitions the user's visual data into smaller portions and distributes them across multiple independent cloud servers. By design, no single external server possesses the complete image, preventing comprehensive data reconstruction. The final data merging and aggregation computation occurs exclusively on the user's trusted edge device. We apply our framework to the Segment Anything Model (SAM) as a practical case study, which demonstrates that our method substantially enhances content privacy over traditional cloud-based approaches. Evaluations show our framework maintains near-baseline segmentation performance while substantially reducing the risk of content reconstruction and user data exposure. Our framework provides a scalable, privacy-preserving solution for vision tasks in the edge-cloud continuum.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-10T04:37:07Z</published>
+    <arxiv:comment>16 pages, 7 figures. Published in the Proceedings of the Tenth ACM/IEEE Symposium on Edge Computing (SEC '25), Dec 3-6, 2025, Washington, D.C., USA</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <arxiv:journal_ref>Proceedings of the Tenth ACM/IEEE Symposium on Edge Computing (SEC '25), 2025, Article 8, pp. 1-16</arxiv:journal_ref>
+    <author>
+      <name>Zihao Ding</name>
+    </author>
+    <author>
+      <name>Mufeng Zhu</name>
+    </author>
+    <author>
+      <name>Zhongze Tang</name>
+    </author>
+    <author>
+      <name>Sheng Wei</name>
+    </author>
+    <author>
+      <name>Yao Liu</name>
+    </author>
+    <arxiv:doi>10.1145/3769102.3772714</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3769102.3772714" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.09461v2</id>
+    <title>Spectral edge behavior for eventually monotone Jacobi and Verblunsky coefficients</title>
+    <updated>2018-02-01T00:22:40Z</updated>
+    <link href="https://arxiv.org/abs/1705.09461v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.09461v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider Jacobi matrices with eventually increasing sequences of diagonal and off-diagonal Jacobi parameters. We describe the asymptotic behavior of the subordinate solution at the top of the essential spectrum, and the asymptotic behavior of the spectral density at the top of the essential spectrum.
+  In particular, allowing on both diagonal and off-diagonal Jacobi parameters perturbations of the free case of the form $- \sum_{j=1}^J c_j n^{-τ_j} + o(n^{-τ_1-1})$ with $0 &lt; τ_1 &lt; τ_2 &lt; \dots &lt; τ_J$ and $c_1&gt;0$, we find the asymptotic behavior of the $\log$ of spectral density to order $O(\log(2-x))$ as $x$ approaches $2$.
+  Apart from its intrinsic interest, the above results also allow us to describe the asymptotics of the spectral density for orthogonal polynomials on the unit circle with real-valued Verblunsky coefficients of the same form.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-26T07:31:21Z</published>
+    <arxiv:comment>33 pages. Same results as in previous version, some expository changes; to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Milivoje Lukic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1008.2847v2</id>
+    <title>Singular spectral shift is additive</title>
+    <updated>2018-12-20T01:14:12Z</updated>
+    <link href="https://arxiv.org/abs/1008.2847v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1008.2847v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note it is shown that for trace-class perturbations of self-adjoint operators the singular part of the spectral shift function is additive.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-08-17T08:18:46Z</published>
+    <arxiv:comment>Proof of the theorem in this paper contains a mistake. See in this regard section 8.3 of my paper [arXiv:0810.2072] "Absolutely continuous and singular spectral shift functions" in Diss. Math. vol. 480, 2011</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Nurulla Azamov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.00258v1</id>
+    <title>Laplace Sum Rules in Quantum ChromoDynamics</title>
+    <updated>2023-09-01T05:26:49Z</updated>
+    <link href="https://arxiv.org/abs/2309.00258v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.00258v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We shortly review some applications of the (inverse) Laplace (LSR) transform sum rules in Quantum ChromoDynamics (QCD) for extracting the fundamental QCD parameters (coupling constant $α_s$, quark and gluon condensates) and the hadron properties (masses and decay constants). Links of LSR to some other forms of QCD spectral sum rules are also discussed. As prototype examples, we discuss in detail the $ρ$ and $π$ meson sum rules.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-01T05:26:49Z</published>
+    <arxiv:comment>22 pages, 11 figures, Invited review to be published as a Chapter of the book : The Laplace Transform and its Applications, edited by Nova Science Publishers, New-York. arXiv admin note: text overlap with arXiv:2211.14536</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Stephan Narison</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.06281v2</id>
+    <title>Spectral asymptotics for first order systems</title>
+    <updated>2016-04-06T19:44:19Z</updated>
+    <link href="https://arxiv.org/abs/1512.06281v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.06281v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is a review paper outlining recent progress in the spectral analysis of first order systems. We work on a closed manifold and study an elliptic self-adjoint first order system of linear partial differential equations. The aim is to examine the spectrum and derive asymptotic formulae for the two counting functions. Here the two counting functions are those for the positive and the negative eigenvalues. One has to deal with positive and negative eigenvalues separately because the spectrum is, generically, asymmetric.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-19T19:45:01Z</published>
+    <arxiv:comment>Edited in accordance with referee's recommendations</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2016, vol. 6, p. 695-715</arxiv:journal_ref>
+    <author>
+      <name>Zhirayr Avetisyan</name>
+    </author>
+    <author>
+      <name>Yan-Long Fang</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/137</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/137" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.4195v2</id>
+    <title>Eigenvalue estimates for singular left-definite Sturm-Liouville operators</title>
+    <updated>2011-06-20T12:50:27Z</updated>
+    <link href="https://arxiv.org/abs/1012.4195v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.4195v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral properties of a singular left-definite Sturm-Liouville operator $JA$ are investigated and described via the properties of the corresponding right-definite selfadjoint counterpart $A$ which is obtained by substituting the indefinite weight function by its absolute value. The spectrum of the $J$-selfadjoint operator $JA$ is real and it follows that an interval $(a,b)\subset\mathbb R^+$ is a gap in the essential spectrum of $A$ if and only if both intervals $(-b,-a)$ and $(a,b)$ are gaps in the essential spectrum of the $J$-selfadjoint operator $JA$. As one of the main results it is shown that the number of eigenvalues of $JA$ in $(-b,-a) \cup (a,b)$ differs at most by three of the number of eigenvalues of $A$ in the gap $(a,b)$; as a byproduct results on the accumulation of eigenvalues of singular left-definite Sturm-Liouville operators are obtained. Furthermore, left-definite problems with symmetric and periodic coefficients are treated, and several examples are included to illustrate the general results.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-19T19:12:09Z</published>
+    <arxiv:comment>to appear in J. Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>J. Spectral Theory 1 (2011), 327-347</arxiv:journal_ref>
+    <author>
+      <name>Jussi Behrndt</name>
+    </author>
+    <author>
+      <name>Roland Moews</name>
+    </author>
+    <author>
+      <name>Carsten Trunk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0808.0364v1</id>
+    <title>About the asymptotic formula for spectral function of the Laplace-Beltrami operator on sphere</title>
+    <updated>2008-08-04T00:17:05Z</updated>
+    <link href="https://arxiv.org/abs/0808.0364v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0808.0364v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this work we established asymptotical behavior for Riesz means of the spectral function of the Laplace operator on unit sphere.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-08-04T00:17:05Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Anvarjon Akhmedov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11652v2</id>
+    <title>Spectral Deformation Flow and Dimension Recovery: Invariant-Based Rigidity for Simply-Connected Closed Manifolds</title>
+    <updated>2026-03-17T23:41:01Z</updated>
+    <link href="https://arxiv.org/abs/2508.11652v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11652v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study an effective spectral deformation flow for mode amplitudes $C_n(τ)$, governed by a second-order self-adjoint operator $\hat{C}$ on a compact interval. The flow is encoded in the multi-function $C(v,τ,n)$ and exhibits global stabilization toward a symmetric spectral attractor. To connect this dynamics with geometry, we introduce a deformation-spectrum encoding of compact Riemannian manifolds through a shifted Laplace--Beltrami spectrum. Within this framework, we analyze energy decay, entropy decay, and the bulk asymptotic spectral density of the encoded manifold spectrum, obtaining an information-theoretic and spectral route to dimension recovery. We further formulate a rigidity criterion showing that, when the deformation spectral invariants coincide with those of the round sphere, the spherical profile is the unique manifold-compatible asymptotic realization within the present framework. In dimension four, this yields a topological conclusion together with a spectral obstruction against exotic smooth structures that produce distinct invariants. The results position the spectral flow as an effective geometric model, rather than as a direct replacement for tensorial geometric flows on arbitrary manifolds.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-04T08:00:55Z</published>
+    <arxiv:comment>22 pages. Revised version: explicit manifold-level deformation-spectrum encoding added (Defs. II.1-II.2), with square-summability of the renormalized representative proved via Weyl asymptotics; geometric conclusions reformulated as invariant-based rigidity criteria within the deformation-spectral framework</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Anton Alexa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.16353v2</id>
+    <title>On the asymptotic behavior of the spectral gap for discrete Schrödinger operators</title>
+    <updated>2026-01-09T16:33:55Z</updated>
+    <link href="https://arxiv.org/abs/2508.16353v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.16353v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note we elaborate on the asymptotic behavior of the spectral gap of a class of discrete Schrödinger operators defined on a path graph in the limit of infinite volume. We confirm recent results and generalize them to a larger class of potentials using entirely different methods. Notably, we also resolve a conjecture previously proposed in this context. This then yields new insights into the rate at which the spectral gap tends to zero as the volume increases.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-22T12:56:33Z</published>
+    <arxiv:comment>The previous submission was extended to include the convergence of the spectral gap in the special case where the potential is supported only at the origin (Section 5 and an appendix added)</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Asymptotic Analysis (2026)</arxiv:journal_ref>
+    <author>
+      <name>Matthias Hofmann</name>
+    </author>
+    <author>
+      <name>Joachim Kerner</name>
+    </author>
+    <author>
+      <name>Maximilian Pechmann</name>
+    </author>
+    <arxiv:doi>10.1177/09217134261465640</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1177/09217134261465640" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13314v4</id>
+    <title>Asymptotics of the graph Laplace operator near an isolated singularity</title>
+    <updated>2026-07-04T10:02:00Z</updated>
+    <link href="https://arxiv.org/abs/2512.13314v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13314v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we investigate asymptotics of the continuous graph Laplace operator on a smooth Riemannian manifold $(M,g)$ admitting an isolated singularity $x$. We show that if the curvature function $κ$ doesn't grow too fast near $x$, then the graph Laplace operator at $x$ converges to the weighted Laplace-Beltrami operator as the bandwidth $t\downarrow 0.$ On the other hand, we also prove that if one locally modifies a given Riemannian metric across $x$ by a non-constant \textit{purely angular }conformal factor, then $κ$ grows too fast and the graph Laplace operator behaves like $O(\frac{1}{\sqrt{t}})$ near $x$, as $t\downarrow 0$, given a mild condition on the angular conformal factor. We provide the Taylor expansion of the graph Laplace operator as $t\downarrow 0$ in specific cases. Numerical simulations at the end illustrate our results.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T13:31:20Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Susovan Pal</name>
+    </author>
+    <arxiv:doi>10.1080/27690911.2026.2699536</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/27690911.2026.2699536" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.15125v1</id>
+    <title>Asymptotics for the Laplace transform of the Elephant Random Walk via Schwarz-Christoffel mappings</title>
+    <updated>2026-07-16T15:35:16Z</updated>
+    <link href="https://arxiv.org/abs/2607.15125v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.15125v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive the long time asymptotic behavior of the Laplace transform of the Elephant Random Walk (ERW). The ERW is a generalization of the Simple Random Walk in which the past influences the future evolution of the process according to some memory parameter. Its transition kernel is neither space nor time homogeneous and its transition probability at the $n$th step can be written as a function of $n$ and the position of the walk at time $n - 1$. A recurrence relation for its Laplace transform allows one to find a generating function governed by a transport-type PDE whose solution can be written in terms of a Schwarz-Christoffel mapping, allowing a precise analytic control. This enables to apply singularity analysis methods to estimate the Laplace transforms.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-16T15:35:16Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Juan Esaul González Rangel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11088v3</id>
+    <title>Pulsations change the structures of massive stars before explosion: interpreting SN 2023ixf and SN 2024ggi</title>
+    <updated>2026-01-28T08:55:35Z</updated>
+    <link href="https://arxiv.org/abs/2508.11088v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11088v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Massive red supergiants (RSGs) are known to become hydrodynamically unstable before they explode. Still, the vast majority of supernova (SN) models assume RSG progenitors in hydrostatic equilibrium. Here, we follow the hydrodynamic evolution of RSGs with different masses and the development of radial envelope pulsations. Pulsations significantly alter the observable pre- and post-SN properties, and their importance increases substantially as a function of initial mass. We demonstrate that inferring core masses, let alone initial masses, from a single pre-SN luminosity and effective temperature of high-mass RSGs is inadvisable, as these can vary by an order of magnitude during the pulsation. We find that pulsations can naturally lead to "early-excess" emission in SN light curves and to variations in early photospheric velocities, which can help break degeneracies in type-II SNe. We compare to SN 2023ixf and SN 2024ggi, for which pulsating RSG progenitors were reported. We demonstrate that the pre- and post-SN characteristics of SN 2023ixf agree very well with our exploding pulsating RSG model and exhibit meaningful differences from hydrostatic models. The data coverage is insufficient to break all degeneracies. We find insufficient evidence for the claimed pulsation period of the SN 2024ggi progenitor, as it matches Spitzer's orbital period. This study underscores the importance of hydrodynamical pre-SN stellar models, in particular for massive stars from $\gtrsim 15\,\rm{M}_{\odot}$. It implies an important shift in our understanding of the last stages of massive star evolution, the interpretation of pre-SN properties, the connection between SNe and their progenitors, and the missing RSG problem.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-14T21:57:10Z</published>
+    <arxiv:comment>Accept for publication in ApJ Letters. This work is the follow-up of a companion paper (Bronner, Laplace et al. 2025, arXiv:2508.11077)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Eva Laplace</name>
+    </author>
+    <author>
+      <name>Vincent A. Bronner</name>
+    </author>
+    <author>
+      <name>Fabian R. N. Schneider</name>
+    </author>
+    <author>
+      <name>Philipp Podsiadlowski</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/ae3d2e</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/ae3d2e" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.01550v4</id>
+    <title>Homological spectral graph theory and weighted cycle counting</title>
+    <updated>2026-08-04T06:56:55Z</updated>
+    <link href="https://arxiv.org/abs/2403.01550v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.01550v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Twisting a finite graph by its homology characters produces families of generally non- Hermitian weighted vertex and edge adjacency matrices. We show that these families are organized by the canonical 2-torsion character and, when it exists, a period character. The canonical character θ translates every complex character to an anti-isospectral partner, for every positive directed weight. On the unitary character torus, the untwisted matrices maximize spectral radius strictly apart from topologically forced exceptions; for edge adjacency, the only possible additional maximizer is the period character η. For symmetric weights, these results locate the two outer spectral edges of maximal-abelian and periodic Bloch families. Fourier inversion of twisted edge traces then yields weighted circuit and prime-cycle formulas in integral and finite-quotient homology classes, with θ and η, when present, governing the resulting parity effects. Thus spectral antisymmetry, spectral-edge extremality, and weighted cycle counting arise from the same homological structure.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-03T15:55:05Z</published>
+    <arxiv:comment>Substantially revised and expanded version, with a new title; 74 pages, 6 figures. The results are extended to positive directed weights, and the period character is introduced to complete the spectral-radius extremality classification for twisted edge adjacency</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Ye Luo</name>
+    </author>
+    <author>
+      <name>Arindam Roy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0206382v1</id>
+    <title>Exciting molecular hydrogen in the central galaxies of cooling flows</title>
+    <updated>2002-06-21T13:53:17Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0206382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0206382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The origin of rovibrational H_2 emission in the central galaxies of cooling flow clusters is poorly understood. Here we address this issue using data from our near-infrared spectroscopic survey of 32 of the most line luminous such systems, presented in the companion paper by Edge et al. (2002).
+  We consider excitation by X-rays from the surrounding intracluster medium, UV radiation from young stars, and shocks. The v=1-0 K-band lines with upper levels within 10^4 K of the ground state appear to be mostly thermalised (implying gas densities above ~10^5 cm^-3), with excitation temperatures typically exceeding 2000K, as found earlier by Jaffe, Bremer and van der Werf (2001). Together with the lack of strong v=2-0 lines in the H-band, this rules out UV fluorescence.
+  Using the CLOUDY photoionisation code, we deduce that the H_2 lines can originate in a population of dense clouds, exposed to the same hot (T~50000K) stellar continuum as the lower density gas which produces the bulk of the forbidden optical line emission in the H-alpha luminous systems. This dense gas may be in the form of self-gravitating clouds deposited directly by the cooling flow, or may instead be produced in the high-pressure zones behind strong shocks. Furthermore, the shocked gas is likely to be gravitationally unstable, so collisions between the larger clouds may lead to the formation of globular clusters.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-06-21T13:53:17Z</published>
+    <arxiv:comment>9 pages, 4 figures; to appear in MNRAS alongside Edge et al. (2002) (astro-ph/0206379)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Mon.Not.Roy.Astron.Soc.337:63,2002</arxiv:journal_ref>
+    <author>
+      <name>R. J. Wilman</name>
+      <arxiv:affiliation>IoA Cambridge</arxiv:affiliation>
+      <arxiv:affiliation>Leiden</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. C. Edge</name>
+      <arxiv:affiliation>Durham</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. M. Johnstone</name>
+      <arxiv:affiliation>IoA Cambridge</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. C. Fabian</name>
+      <arxiv:affiliation>IoA Cambridge</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. W. Allen</name>
+      <arxiv:affiliation>IoA Cambridge</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. S. Crawford</name>
+      <arxiv:affiliation>IoA Cambridge</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1046/j.1365-8711.2002.05791.x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1046/j.1365-8711.2002.05791.x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0704.2602v1</id>
+    <title>Investigation of continuous-time quantum walks via spectral analysis and Laplace transform</title>
+    <updated>2007-04-19T20:01:11Z</updated>
+    <link href="https://arxiv.org/abs/0704.2602v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0704.2602v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Continuous-time quantum walk (CTQW) on a given graph is investigated by using the techniques of the spectral analysis and inverse Laplace transform of the Stieltjes function (Stieltjes transform of the spectral distribution) associated with the graph. It is shown that, the probability amplitude of observing the CTQW at a given site at time $t$ is related to the inverse Laplace transformation of the Stieltjes function, namely, one can calculate the probability amplitudes only by taking the inverse laplace transform of the function $iG_μ(is)$, where $G_μ(x)$ is the Stieltjes function of the graph. The preference of this procedure is that, there is no any need to know the spectrum of the graph</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-04-19T20:01:11Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>M. A. Jafarizadeh</name>
+    </author>
+    <author>
+      <name>R. Sufiani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0111037v1</id>
+    <title>Asymptotics of the Fourier and Laplace transforms in weighted spaces of analytic functions</title>
+    <updated>2001-11-04T13:41:59Z</updated>
+    <link href="https://arxiv.org/abs/math/0111037v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0111037v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the asymptotics near the origin of the Fourier transform in weighted Hardy spaces of analytic functions in the upper half-plane, and of the Laplace transform in weighted spaces of entire functions of zero exponential type.
+  These results are applied to two closely related problems posed by E. Dyn'kin: we find the asymptotics of the depth of zero in non-quasianalytic Denjoy-Carleman classes, and of the exact Levinson-Sjoberg majorant.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-11-04T13:41:59Z</published>
+    <arxiv:comment>LATeX, 38 pages, preliminary version</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Algebra i Analiz 14 (2002), no. 4, 107--140; translation in St. Petersburg Math. J. 14 (2003), no. 4, 615--640</arxiv:journal_ref>
+    <author>
+      <name>Vladimir Matsaev</name>
+    </author>
+    <author>
+      <name>Mikhail Sodin</name>
+    </author>
+  </entry>
+</feed>

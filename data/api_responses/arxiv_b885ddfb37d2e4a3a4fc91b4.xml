@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Wo2noC5l5i6NCO/LwU28Uy2TH58</id>
+  <title>arXiv Query: search_query=all:logarithmic OR all:derivative OR all:Laplace OR all:transform OR all:mean OR all:variance OR all:tilted OR all:measure&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:52:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:logarithmic+OR+(all:derivative+OR+(all:Laplace+OR+(all:transform+OR+(all:mean+OR+(all:variance+OR+(all:tilted+OR+all:measure))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1072491</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.13710v1</id>
+    <title>Global Algorithms for Mean-Variance Optimization in Markov Decision Processes</title>
+    <updated>2023-02-27T12:17:43Z</updated>
+    <link href="https://arxiv.org/abs/2302.13710v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.13710v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dynamic optimization of mean and variance in Markov decision processes (MDPs) is a long-standing challenge caused by the failure of dynamic programming. In this paper, we propose a new approach to find the globally optimal policy for combined metrics of steady-state mean and variance in an infinite-horizon undiscounted MDP. By introducing the concepts of pseudo mean and pseudo variance, we convert the original problem to a bilevel MDP problem, where the inner one is a standard MDP optimizing pseudo mean-variance and the outer one is a single parameter selection problem optimizing pseudo mean. We use the sensitivity analysis of MDPs to derive the properties of this bilevel problem. By solving inner standard MDPs for pseudo mean-variance optimization, we can identify worse policy spaces dominated by optimal policies of the pseudo problems. We propose an optimization algorithm which can find the globally optimal policy by repeatedly removing worse policy spaces. The convergence and complexity of the algorithm are studied. Another policy dominance property is also proposed to further improve the algorithm efficiency. Numerical experiments demonstrate the performance and efficiency of our algorithms. To the best of our knowledge, our algorithm is the first that efficiently finds the globally optimal policy of mean-variance optimization in MDPs. These results are also valid for solely minimizing the variance metrics in MDPs.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-27T12:17:43Z</published>
+    <arxiv:comment>A breakthrough to develop globally optimal algorithms to solve the steady-state mean-variance MDP problem</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Li Xia</name>
+    </author>
+    <author>
+      <name>Shuai Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.0613v1</id>
+    <title>Bounds of the logarithmic mean</title>
+    <updated>2014-02-04T04:09:10Z</updated>
+    <link href="https://arxiv.org/abs/1402.0613v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.0613v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give tight bounds for logarithmic mean. We also give new Frobenius norm inequalities for two positive semidefinite matrices. In addition, we give some matrix inequalities on matrix power mean.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-04T04:09:10Z</published>
+    <arxiv:comment>The second assertion in (i) of Proposition 5.2 was modified. (This modification shows our means are better bounds than the standard Riemann sum for the logarithmic mean.)</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Journal of Inequalities and Applications, 2013/ 535, 1-11</arxiv:journal_ref>
+    <author>
+      <name>Shigeru Furuichi</name>
+    </author>
+    <author>
+      <name>Kenjiro Yanagi</name>
+    </author>
+    <arxiv:doi>10.1186/1029-242X-2013-535</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1186/1029-242X-2013-535" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.22327v1</id>
+    <title>Mean-Variance Optimization and Algorithm for Finite-Horizon Markov Decision Processes</title>
+    <updated>2025-07-30T02:02:37Z</updated>
+    <link href="https://arxiv.org/abs/2507.22327v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.22327v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-period mean-variance optimization is a long-standing problem, caused by the failure of dynamic programming principle. This paper studies the mean-variance optimization in a setting of finite-horizon discrete-time Markov decision processes (MDPs), where the objective is to maximize the combined metrics of mean and variance of the accumulated rewards at terminal stage. By introducing the concepts of pseudo mean and pseudo variance, we convert the original mean-variance MDP to a bilevel MDP, where the outer is a single parameter optimization of the pseudo mean and the inner is a standard finite-horizon MDP with an augmented state space by adding an auxiliary state of accumulated rewards. We further study the properties of this bilevel MDP, including the optimality of history-dependent deterministic policies and the piecewise quadratic concavity of the inner MDPs' optimal values with respect to the pseudo mean. To efficiently solve this bilevel MDP, we propose an iterative algorithm that alternatingly updates the inner optimal policy and the outer pseudo mean. We prove that this algorithm converges to a local optimum. We also derive a sufficient condition under which our algorithm converges to the global optimum. Furthermore, we apply this approach to study the mean-variance optimization of multi-period portfolio selection problem, which shows that our approach exactly coincides with the classical result by Li and Ng (2000) in financial engineering. Our approach builds a new avenue to solve mean-variance optimization problems and has wide applicability to any problem modeled by MDPs, which is further demonstrated by examples of mean-variance optimization for queueing control and inventory management.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-30T02:02:37Z</published>
+    <arxiv:comment>55 pages, 10+figures, a thorough study of mean-variance optimization for finite-horizon MDPs, also applicable to develop reinforcement learning algorithms</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Li Xia</name>
+    </author>
+    <author>
+      <name>Zhihui Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.00196v1</id>
+    <title>Modeling Stock Returns and Volatility Using Bivariate Gamma Generalized Laplace Law</title>
+    <updated>2026-04-30T20:21:44Z</updated>
+    <link href="https://arxiv.org/abs/2605.00196v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.00196v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a generalization of the variance-gamma (generalized asymmetric Laplace) distribution, defined as a normal mean - variance mixture with a gamma mixing distribution. While this model is typically studied in the univariate setting, we assume that the gamma mixing variable is observed alongside the primary variable, resulting in a bivariate framework. In this setting, maximum likelihood estimation becomes significantly simpler than in the standard univariate case, reducing to a form of classical linear regression. We derive explicit expressions for the resulting estimators. For certain parameter configurations, the estimators exhibit nonstandard convergence rates, exceeding the usual square-root rate. Finally, we illustrate the applicability of this model in financial contexts by analyzing stock index returns and associated volatility for several major indices.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-30T20:21:44Z</published>
+    <arxiv:comment>25 pages, 2 figures. Keywords: Financial modeling, Generalized Laplace distribution, Maximum likelihood estimation, Normal mean-variance mixture, Variance-gamma distribution</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Tomasz J. Kozubowski</name>
+    </author>
+    <author>
+      <name>Andrey Sarantsev</name>
+    </author>
+    <author>
+      <name>James A. Spiker</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.3122v1</id>
+    <title>Integral representations of the weighted geometric mean and the logarithmic mean</title>
+    <updated>2013-03-13T10:17:47Z</updated>
+    <link href="https://arxiv.org/abs/1303.3122v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.3122v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the paper, the authors show that the weighted geometric mean and the logarithmic mean are Bernstein functions and establish integral representations of these means by Cauchy's integral theorem in the theory of complex functions.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-13T10:17:47Z</published>
+    <arxiv:comment>12 pages. arXiv admin note: text overlap with arXiv:1301.6848</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Feng Qi, Xiao-Jing Zhang, and Wen-Hui Li, Lévy-Khintchine representations of the weighted geometric mean and the logarithmic mean, Mediterranean Journal of Mathematics 11 (2014), no. 2, 315--327</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Xiao-Jing Zhang</name>
+    </author>
+    <author>
+      <name>Wen-Hui Li</name>
+    </author>
+    <arxiv:doi>10.1007/s00009-013-0311-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00009-013-0311-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.05866v2</id>
+    <title>$τ$-Tilting Finite Cluster-Tilted Algebras</title>
+    <updated>2019-10-15T15:38:48Z</updated>
+    <link href="https://arxiv.org/abs/1902.05866v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.05866v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let B be a cluster-tilted algebra. We prove that B is $τ$-tilting finite if and only if B is representation-finite.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-13T19:23:21Z</published>
+    <arxiv:comment>9 pages. Removed the proof concerning tilted algebras. The proof is still contained in v1. Corrected the proof concerning cluster-tilted algebras</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Proceedings of the Edinburgh Mathematical Society (2020)</arxiv:journal_ref>
+    <author>
+      <name>Stephen Zito</name>
+    </author>
+    <arxiv:doi>10.1017/S0013091520000255</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S0013091520000255" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.2048v2</id>
+    <title>Challenging the empirical mean and empirical variance: a deviation study</title>
+    <updated>2011-08-12T15:48:26Z</updated>
+    <link href="https://arxiv.org/abs/1009.2048v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.2048v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present new M-estimators of the mean and variance of real valued random variables, based on PAC-Bayes bounds. We analyze the non-asymptotic minimax properties of the deviations of those estimators for sample distributions having either a bounded variance or a bounded variance and a bounded kurtosis. Under those weak hypotheses, allowing for heavy-tailed distributions, we show that the worst case deviations of the empirical mean are suboptimal. We prove indeed that for any confidence level, there is some M-estimator whose deviations are of the same order as the deviations of the empirical mean of a Gaussian statistical sample, even when the statistical sample is instead heavy-tailed. Experiments reveal that these new estimators perform even better than predicted by our bounds, showing deviation quantile functions uniformly lower at all probability levels than the empirical mean for non Gaussian sample distributions as simple as the mixture of two Gaussian measures.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-10T16:38:58Z</published>
+    <arxiv:comment>Second version presents an improved variance estimate in section 4.1</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Olivier Catoni</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.04348v2</id>
+    <title>An Eigenfunction Approach to Conversion of the Laplace Transform of Point Masses on the Real Line to the Fourier Domain</title>
+    <updated>2025-05-23T04:53:26Z</updated>
+    <link href="https://arxiv.org/abs/2402.04348v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.04348v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by applications in magnetic resonance relaxometry, we consider the following problem: Given samples of a function $t\mapsto \sum_{k=1}^K A_k\exp(-tλ_k)$, where $K\ge 2$ is an integer, $A_k\in\mathbb{R}$, $λ_k&gt;0$ for $k=1,\cdots, K$, determine $K$, $A_k$'s and $λ_k$'s. Unlike the case in which the $λ_k$'s are purely imaginary, this problem is notoriously ill-posed. Our goal is to show that this problem can be transformed into an equivalent one in which the $λ_k$'s are replaced by $iλ_k$. We show that this may be accomplished by approximation in terms of Hermite functions, and using the fact that these functions are eigenfunctions of the Fourier transform. We present a preliminary numerical exploration of parameter extraction from this formalism, including the effect of noise. We do not claim to have eliminated the inherent ill-posedness of the original problem, as reflected in the numerical results.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-06T19:31:34Z</published>
+    <arxiv:comment>Original title:Inversion of the Laplace Transform of Point Masses,</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Available online Applied and computational harmonic analysis, 2025</arxiv:journal_ref>
+    <author>
+      <name>Michael McKenna</name>
+    </author>
+    <author>
+      <name>Hrushikesh N. Mhaskar</name>
+    </author>
+    <author>
+      <name>Richard G. Spencer</name>
+    </author>
+    <arxiv:doi>10.1016/j.acha.2025.101776</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.acha.2025.101776" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.11138v2</id>
+    <title>On the Leibniz rule and Laplace transform for fractional derivatives</title>
+    <updated>2020-02-16T22:31:22Z</updated>
+    <link href="https://arxiv.org/abs/1901.11138v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.11138v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Taylor series is a useful mathematical tool when describing and constructing a function. With the series representation, some properties of fractional calculus can be revealed clearly. This paper investigates two typical applications: Lebiniz rule and Laplace transform. It is analytically shown that the commonly used Leibniz rule cannot be applied for Caputo derivative. Similarly, the well-known Laplace transform of Riemann-Liouville derivative is doubtful for n-th continuously differentiable function. By the aid of this series representation, the exact formula of Caputo Leibniz rule and the explanation of Riemann-Liouville Laplace transform are presented. Finally, three illustrative examples are revisited to confirm the obtained results.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-26T13:14:24Z</published>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Yiheng Wei</name>
+    </author>
+    <author>
+      <name>Da-Yan Liu</name>
+    </author>
+    <author>
+      <name>Peter W. Tse</name>
+    </author>
+    <author>
+      <name>Yong Wang</name>
+    </author>
+    <arxiv:doi>10.1080/10652469.2019.1694923</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10652469.2019.1694923" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0609647v4</id>
+    <title>On Galois coverings and tilting modules</title>
+    <updated>2007-01-12T14:09:10Z</updated>
+    <link href="https://arxiv.org/abs/math/0609647v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0609647v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Let A be a basic connected finite dimensional algebra over an algebraically closed field, let G be a group, let T be a basic tilting A-module and let B the endomorphism algebra of T. Under a hypothesis on T, we establish a correspondence between the Galois coverings with group G of A and the Galois coverings with group G of B. The hypothesis on T is expressed using the Hasse diagram of basic tilting A-modules and is always verified if A is of finite representation type. Then, we use the above correspondence to prove that A is simply connected if and only if B is simply connected, under the same hypothesis on T. Finally, we prove that if a tilted algebra B of type Q is simply connected, then Q is a tree and the first Hochschild cohomology group of B vanishes</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-22T15:32:47Z</published>
+    <arxiv:comment>Fourth version. A result on the simple connectedness of tilted algebras was added</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Journal of Algebra 319, 12 (2008) 4961--4999</arxiv:journal_ref>
+    <author>
+      <name>Patrick Le Meur</name>
+      <arxiv:affiliation>CMLA, IMJ</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.jalgebra.2008.03.003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jalgebra.2008.03.003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.1203v2</id>
+    <title>The function $(b^x-a^x)/x$: Logarithmic convexity and applications to extended mean values</title>
+    <updated>2009-07-09T13:40:12Z</updated>
+    <link href="https://arxiv.org/abs/0903.1203v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.1203v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the present paper, we first prove the logarithmic convexity of the elementary function $\frac{b^x-a^x}x$, where $x\ne0$ and $b&gt;a&gt;0$. Basing on this, we then provide a simple proof for Schur-convex properties of the extended mean values, and, finally, discover some convexity related to the extended mean values.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-06T13:24:15Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Bai-Ni Guo and Feng Qi, The function $(b^x-a^x)/x$: Logarithmic convexity and applications to extended mean values, Filomat 25 (2011), no. 4, 63--73</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <author>
+      <name>Bai-Ni Guo</name>
+    </author>
+    <arxiv:doi>10.2298/FIL1104063G</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2298/FIL1104063G" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.5749v1</id>
+    <title>On the Laplace transform of some quadratic forms and the exact distribution of the sample variance from a gamma or uniform parent distribution</title>
+    <updated>2007-10-30T20:10:55Z</updated>
+    <link href="https://arxiv.org/abs/0710.5749v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.5749v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  From a suitable integral representation of the Laplace transform of a positive semi-definite quadratic form of independent real random variables with not necessarily identical densities a univariate integral representation is derived for the cumulative distribution function of the sample variance of i.i.d. random variables with a gamma density, supplementing former formulas of the author. Furthermore, from the above Laplace transform Fourier series are obtained for the density and the distribution function of the sample variance of i.i.d. random variables with a uniform distribution. This distribution can be applied e.g. to a statistical test for a scale parameter.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-30T20:10:55Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>T. Royen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.6101v1</id>
+    <title>The maximal operators of logarithmic means of one-dimensional Vilenkin-Fourier series</title>
+    <updated>2014-10-05T01:50:31Z</updated>
+    <link href="https://arxiv.org/abs/1410.6101v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.6101v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main aim of this paper is to investigate (H_{p},L_{p})-type inequalities for maximal operators of logarithmic means of one-dimensional Vilenkin-Fourier series.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-05T01:50:31Z</published>
+    <arxiv:comment>Vilenkin system, Logarithmic means, martingale Hardy space</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Acta Mathematica Academiae Paedagogicae Nyiregyhaziensis, 27(2011),245-256</arxiv:journal_ref>
+    <author>
+      <name>George Tephnadze</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11088v3</id>
+    <title>Pulsations change the structures of massive stars before explosion: interpreting SN 2023ixf and SN 2024ggi</title>
+    <updated>2026-01-28T08:55:35Z</updated>
+    <link href="https://arxiv.org/abs/2508.11088v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11088v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Massive red supergiants (RSGs) are known to become hydrodynamically unstable before they explode. Still, the vast majority of supernova (SN) models assume RSG progenitors in hydrostatic equilibrium. Here, we follow the hydrodynamic evolution of RSGs with different masses and the development of radial envelope pulsations. Pulsations significantly alter the observable pre- and post-SN properties, and their importance increases substantially as a function of initial mass. We demonstrate that inferring core masses, let alone initial masses, from a single pre-SN luminosity and effective temperature of high-mass RSGs is inadvisable, as these can vary by an order of magnitude during the pulsation. We find that pulsations can naturally lead to "early-excess" emission in SN light curves and to variations in early photospheric velocities, which can help break degeneracies in type-II SNe. We compare to SN 2023ixf and SN 2024ggi, for which pulsating RSG progenitors were reported. We demonstrate that the pre- and post-SN characteristics of SN 2023ixf agree very well with our exploding pulsating RSG model and exhibit meaningful differences from hydrostatic models. The data coverage is insufficient to break all degeneracies. We find insufficient evidence for the claimed pulsation period of the SN 2024ggi progenitor, as it matches Spitzer's orbital period. This study underscores the importance of hydrodynamical pre-SN stellar models, in particular for massive stars from $\gtrsim 15\,\rm{M}_{\odot}$. It implies an important shift in our understanding of the last stages of massive star evolution, the interpretation of pre-SN properties, the connection between SNe and their progenitors, and the missing RSG problem.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-14T21:57:10Z</published>
+    <arxiv:comment>Accept for publication in ApJ Letters. This work is the follow-up of a companion paper (Bronner, Laplace et al. 2025, arXiv:2508.11077)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Eva Laplace</name>
+    </author>
+    <author>
+      <name>Vincent A. Bronner</name>
+    </author>
+    <author>
+      <name>Fabian R. N. Schneider</name>
+    </author>
+    <author>
+      <name>Philipp Podsiadlowski</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/ae3d2e</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/ae3d2e" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.00258v1</id>
+    <title>Laplace Sum Rules in Quantum ChromoDynamics</title>
+    <updated>2023-09-01T05:26:49Z</updated>
+    <link href="https://arxiv.org/abs/2309.00258v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.00258v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We shortly review some applications of the (inverse) Laplace (LSR) transform sum rules in Quantum ChromoDynamics (QCD) for extracting the fundamental QCD parameters (coupling constant $α_s$, quark and gluon condensates) and the hadron properties (masses and decay constants). Links of LSR to some other forms of QCD spectral sum rules are also discussed. As prototype examples, we discuss in detail the $ρ$ and $π$ meson sum rules.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-01T05:26:49Z</published>
+    <arxiv:comment>22 pages, 11 figures, Invited review to be published as a Chapter of the book : The Laplace Transform and its Applications, edited by Nova Science Publishers, New-York. arXiv admin note: text overlap with arXiv:2211.14536</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Stephan Narison</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.02827v1</id>
+    <title>On Vanishing Variance in Transformer Length Generalization</title>
+    <updated>2025-04-03T17:59:56Z</updated>
+    <link href="https://arxiv.org/abs/2504.02827v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.02827v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is a widely known issue that Transformers, when trained on shorter sequences, fail to generalize robustly to longer ones at test time. This raises the question of whether Transformer models are real reasoning engines, despite their impressive abilities in mathematical problem solving and code synthesis. In this paper, we offer a vanishing variance perspective on this issue. To the best of our knowledge, we are the first to demonstrate that even for today's frontier models, a longer sequence length results in a decrease in variance in the output of the multi-head attention modules. On the argmax retrieval and dictionary lookup tasks, our experiments show that applying layer normalization after the attention outputs leads to significantly better length generalization. Our analyses attribute this improvement to a reduction-though not a complete elimination-of the distribution shift caused by vanishing variance.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-03T17:59:56Z</published>
+    <arxiv:comment>Project page: https://ruiningli.com/vanishing-variance. The first two authors contributed equally to this work</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruining Li</name>
+      <arxiv:affiliation>Jinghao</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gabrijel Boduljak</name>
+      <arxiv:affiliation>Jinghao</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Jensen</name>
+      <arxiv:affiliation>Jinghao</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1103.2985v1</id>
+    <title>Centroid Bodies and the Logarithmic Laplace Transform - A Unified Approach</title>
+    <updated>2011-03-15T18:10:04Z</updated>
+    <link href="https://arxiv.org/abs/1103.2985v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.2985v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We unify and slightly improve several bounds on the isotropic constant of high-dimensional convex bodies; in particular, a linear dependence on the body's psi-2 constant is obtained. Along the way, we present some new bounds on the volume of L_p-centroid bodies and yet another equivalent formulation of Bourgain's hyperplane conjecture. Our method is a combination of the L_p-centroid body technique of Paouris and the logarithmic Laplace transform technique of the first named author.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-15T18:10:04Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Bo'az Klartag</name>
+    </author>
+    <author>
+      <name>Emanuel Milman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.05590v1</id>
+    <title>A new fractional derivative involving the normalized sinc function without singular kernel</title>
+    <updated>2017-01-08T15:27:14Z</updated>
+    <link href="https://arxiv.org/abs/1701.05590v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.05590v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, a new fractional derivative involving the normalized sinc function without singular kernel is proposed. The Laplace transform is used to find the analytical solution of the anomalous heat-diffusion problems. The comparative results between classical and fractional-order operators are presented. The results are significant in the analysis of one-dimensional anomalous heat-transfer problems.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-08T15:27:14Z</published>
+    <arxiv:comment>Keywords: Fractional derivative, anomalous heat diffusion, integral transform, analytical solution</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>European Physical Journal Special Topics, 2017, 226(16-18), 3567-3575</arxiv:journal_ref>
+    <author>
+      <name>Xiao-Jun Yang</name>
+      <arxiv:affiliation>China University of Mining and Technology</arxiv:affiliation>
+      <arxiv:affiliation>China University of Mining and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Feng Gao</name>
+      <arxiv:affiliation>China University of Mining and Technology</arxiv:affiliation>
+      <arxiv:affiliation>China University of Mining and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. A. Tenreiro Machado</name>
+      <arxiv:affiliation>Polytechnic of Porto, Portugal</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dumitru Baleanu</name>
+      <arxiv:affiliation>Cankya University, Turkey</arxiv:affiliation>
+      <arxiv:affiliation>Institute of Space Sciences, Magurele-Bucharest, Romania</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1140/epjst/e2018-00020-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjst/e2018-00020-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.02431v1</id>
+    <title>Multivariable Geometric Laplace Transform and Fault Detection in Distributed-Converter Lines</title>
+    <updated>2026-09-02T10:50:31Z</updated>
+    <link href="https://arxiv.org/abs/2609.02431v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.02431v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Monitoring a DC line with many distributed power converters is a genuinely spatio-temporal problem: the information about a localized fault travels along the whole conductor and reaches a few measurement points mixed with the dynamics of the line itself. This paper develops a two-dimensional geometric Laplace transform (t,x) -&gt; (s_t,s_x) over a commutative subalgebra of the geometric algebra Cl(4,0), isomorphic to Segre's bicomplex numbers, in which two bivectors B_t and B_x act as independent imaginary units for the temporal and the spatial phase. Because the two phases live in algebraically distinguishable planes, a fault at position x_f leaves a transformed residual that factorizes as F_f(s_t) e^{-s_x x_f}: its temporal nature stays in the first factor and its location can be read as a geometric argument of the second. On this representation we build a transmission-line model of the converter line and its space-time dispersion relation, a distributed control by admittance shaping, including an exact treatment of discrete converter sites (spatial sampling, aliasing, and a per-converter droop realization that is exact on the sub-Nyquist band), and a fault diagnosis chain that detects, localizes and classifies injection-loss, shunt, sensor and local-controller faults, extends to multiple simultaneous faults with automatic order selection, and distinguishes the outage of a plant from a cable defect. As an integral object the transform is known in bicomplex analysis, and with a single independent variable it reduces to the complex Laplace transform; the contribution lies in its geometric embedding and in its operational use for fault diagnosis in distributed-converter networks. All results are reproduced by an accompanying open implementation.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-02T10:50:31Z</published>
+    <arxiv:comment>56 pages, 13 figures, 5 tables. Code and data available at https://github.com/fmarrabal/geo-laplace-distributed-converters</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Francisco Manuel Arrabal-Campos</name>
+      <arxiv:affiliation>Department of Engineering, University of Almeria, Spain</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Francisco G. Montoya</name>
+      <arxiv:affiliation>Department of Engineering, University of Almeria, Spain</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Santiago Sánchez-Acevedo</name>
+      <arxiv:affiliation>SINTEF, Norway</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Raymundo E. Torres-Olguin</name>
+      <arxiv:affiliation>SINTEF, Norway</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alfredo Alcayde</name>
+      <arxiv:affiliation>Department of Engineering, University of Almeria, Spain</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.6472v2</id>
+    <title>Geometric measure of entanglement for pure states and mean value of spin</title>
+    <updated>2015-10-09T14:54:13Z</updated>
+    <link href="https://arxiv.org/abs/1211.6472v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.6472v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive an explicit expression for geometric measure of entanglement for spin and other quantum system. A relation of entanglement in pure state with the mean value of spin is given, thus, at the experimental level the local measurement of spin may allow to find the value of entanglement. The obtained form of the measure is applied to the explicit characterization of bipartite entanglement for $n$-qubit systems in the Werner state, Dicke state, GHZ state and trigonometric states. In particular for Werner-like states the rule of sums is found and it is shown that deviations from the symmetricity of such states diminishes the amount of entanglement. For Dicke states the maximal value of bipartite entanglement is achieved when number of excitations is half of the total number of qubits in these states. For trigonometric states the bipartite entanglement is maximal and does not depend on the number of qubits. We also consider entanglement of discrete-continuous systems on the example of entanglement of spin with continuous variables of electron. The relation of entanglement with the mean value of spin is very useful for calculation of entanglement. With the help of this relation we find in explicit form the entanglement of the one spin with the rest in a spin chain during the evolution determined by the Ising Hamiltonian.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-27T23:03:53Z</published>
+    <arxiv:comment>Revised: partially modified title; new results added: relation of entanglement to the mean spin, entanglement in spin chain. Note: the relation of mean spin to the geometric measure of entanglement was firstly included in the version sent to Phys.Lett.A on 5.12.2013. In this version: new relation to concurrence, calculation of the entanglement in the spin chain with use of the mean value of spin</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Andrzej M. Frydryszak</name>
+    </author>
+    <author>
+      <name>Volodymyr M. Tkachuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.09703v1</id>
+    <title>Variance function of boolean additive convolution</title>
+    <updated>2020-03-21T17:15:03Z</updated>
+    <link href="https://arxiv.org/abs/2003.09703v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.09703v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Suppose Vν is the pseudo-variance function of the Cauchy-Stieltjes Kernel (CSK) family K+(ν) generated by a non degenerate probability measure ν with support bounded from above. We determine the formula for pseudo-variance function (or variance function Vν in case of existence) under boolean additive convolution power. This formulas is used to identify the relation between variance functions under Boolean Bercovici-Bata Bijection between probability measures. We also gives the connection between boolean cumulants and variance function and we relate boolean cumulants of some probability measures to Catalan numbers and Fuss Catalan numbers.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-21T17:15:03Z</published>
+    <arxiv:comment>We determine the formula for pseudo-variance function (or variance function Vν in case of existence) under boolean additive convolution power</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Raouf Fakhfakh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11077v2</id>
+    <title>Explosions of pulsating red supergiants: a natural pathway for the diversity of Type II-P/L supernovae</title>
+    <updated>2025-08-20T09:58:51Z</updated>
+    <link href="https://arxiv.org/abs/2508.11077v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11077v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Red supergiants (RSGs), which are progenitors of hydrogen-rich Type II supernovae (SNe), have been known to pulsate from both observations and theory. The pulsations can be present at core collapse and affect the resulting SN. However, SN light curve models of such RSGs commonly use hydrostatic progenitor models and ignore pulsations. Here, we model the final stages of a 15 solar-mass RSG and self-consistently follow the hydrodynamical evolution. We find the growth of large amplitude radial pulsations in the envelope. After a transient phase where the envelope restructures, the pulsations settle to a steady and periodic oscillation with a period of 817 days. We show that they are driven by the $κγ$-mechanism, which is an interplay between changing opacities and the release of recombination energy of hydrogen and helium. This leads to complex and non-coherent expansion and contraction in different parts of the envelope, which greatly affect the SN progenitor properties, including its location in the Hertzsprung-Russell diagram. We simulate SN explosions of this model at different pulsations phases. Explosions in the compressed state result in a flat light curve (Type II-P). In contrast, the SN light curve in the expanded state declines rapidly, reminiscent of a Type II-L SN. For cases in between, we find light curves with various decline rates. Features in the SN light curves are directly connected to features in the density profiles. These are in turn linked to the envelope ionization structure, which is the driving mechanism of the pulsations. We predict that some of the observed diversity in Type II SN light curves can be explained by RSG pulsations. For more massive RSGs, we expect stronger pulsations that might even lead to dynamical mass ejections of the envelope and to an increased diversity in SN light curves.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-14T21:23:59Z</published>
+    <arxiv:comment>Resubmitted to A&amp;A after positive referee report, movies available at https://doi.org/10.5281/zenodo.16876815 ; the companion paper on comparisons with observations can also be found on arXiv arXiv:2508.11077 (Laplace, Bronner et al.)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>A&amp;A 703, A61 (2025)</arxiv:journal_ref>
+    <author>
+      <name>V. A. Bronner</name>
+    </author>
+    <author>
+      <name>E. Laplace</name>
+    </author>
+    <author>
+      <name>F. R. N. Schneider</name>
+    </author>
+    <author>
+      <name>Ph. Podsiadlowski</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202554642</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202554642" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.09575v2</id>
+    <title>Fast logarithmic Fourier-Laplace transform of nonintegrable functions</title>
+    <updated>2019-11-04T13:52:24Z</updated>
+    <link href="https://arxiv.org/abs/1812.09575v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.09575v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an efficient and very flexible numerical fast Fourier-Laplace transform, that extends the logarithmic Fourier transform (LFT) introduced by Haines and Jones [Geophys. J. Int. 92(1):171 (1988)] for functions varying over many scales to nonintegrable functions. In particular, these include cases of the asymptotic form $f(ν\to0)\simν^a$ and $f(|ν|\to\infty)\simν^b$ with arbitrary real $a&gt;b$. Furthermore, we prove that the numerical transform converges exponentially fast in the number of data points, provided that the function is analytic in a cone $|\Imν|&lt;θ|\Reν|$ with a finite opening angle $θ$ around the real axis and satisfies $|f(ν)f(1/ν)|&lt;ν^c$ as $ν\to 0$ with a positive constant $c$, which is the case for the class of functions with power-law tails. Based on these properties we derive ideal transformation parameters and discuss how the logarithmic Fourier transform can be applied to convolutions. The ability of the logarithmic Fourier transform to perform these operations on multiscale (non-integrable) functions with power-law tails with exponentially small errors makes it the method of choice for many physical applications, which we demonstrate on typical examples. These include benchmarks against known analytical results inaccessible to other numerical methods, as well as physical models near criticality.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-22T18:00:00Z</published>
+    <arxiv:comment>14 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Phys. Rev. E 100, 053302 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Johannes Lang</name>
+    </author>
+    <author>
+      <name>Bernhard Frank</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.100.053302</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.100.053302" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.18421v1</id>
+    <title>Semiparametric mean and variance joint models with Laplace link functions for count time series</title>
+    <updated>2024-04-29T04:33:26Z</updated>
+    <link href="https://arxiv.org/abs/2404.18421v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.18421v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Count time series data are frequently analyzed by modeling their conditional means and the conditional variance is often considered to be a deterministic function of the corresponding conditional mean and is not typically modeled independently. We propose a semiparametric mean and variance joint model, called random rounded count-valued generalized autoregressive conditional heteroskedastic (RRC-GARCH) model, to address this limitation. The RRC-GARCH model and its variations allow for the joint modeling of both the conditional mean and variance and offer a flexible framework for capturing various mean-variance structures (MVSs). One main feature of this model is its ability to accommodate negative values for regression coefficients and autocorrelation functions. The autocorrelation structure of the RRC-GARCH model using the proposed Laplace link functions with nonnegative regression coefficients is the same as that of an autoregressive moving-average (ARMA) process. For the new model, the stationarity and ergodicity are established and the consistency and asymptotic normality of the conditional least squares estimator are proved. Model selection criteria are proposed to evaluate the RRC-GARCH models. The performance of the RRC-GARCH model is assessed through analyses of both simulated and real data sets. The results indicate that the model can effectively capture the MVS of count time series data and generate accurate forecast means and variances.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-29T04:33:26Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Tianqing Liu</name>
+    </author>
+    <author>
+      <name>Xiaohui Yuan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.06709v2</id>
+    <title>Homotopy groups of generic leaves of logarithmic foliations</title>
+    <updated>2019-04-15T16:33:38Z</updated>
+    <link href="https://arxiv.org/abs/1711.06709v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.06709v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the homotopy groups of generic leaves of logarithmic foliations on complex projective manifolds. We exhibit a relation between the homotopy groups of a generic leaf and of the complement of the polar divisor of the logarithmic foliation.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-17T19:55:10Z</published>
+    <arxiv:comment>Keywords: Foliations, Logarithmic, Topology of Leaves</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <author>
+      <name>Diego Rodríguez-Guzmán</name>
+    </author>
+  </entry>
+</feed>

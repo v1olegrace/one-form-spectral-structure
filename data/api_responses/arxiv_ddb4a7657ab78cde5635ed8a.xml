@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Iw/7zyZbOLjCIqS0tmaVJpHGBRY</id>
+  <title>arXiv Query: search_query=all:localizing OR all:matrix OR all:truncated OR all:moment OR all:problem OR all:semidefinite&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:localizing+OR+(all:matrix+OR+(all:truncated+OR+(all:moment+OR+(all:problem+OR+all:semidefinite))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>915882</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4567v1</id>
+    <title>On degenerate Hamburger moment problem and extensions of positive semidefinite Hankel block matrices</title>
+    <updated>2008-12-24T19:22:41Z</updated>
+    <link href="https://arxiv.org/abs/0812.4567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we consider two related objects: singular positive semidefinite Hankel block--matrices and associated degenerate truncated matrix Hamburger moment problems. The description of all solutions of a degenerate matrix Hamburger moment problem is given in terms of a linear fractional transformation. The case of interest is the Hamburger moment problem whose Hankel block--matrix admits a positive semidefinite Hankel extension.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-24T19:22:41Z</published>
+    <arxiv:comment>The corrected version of the paper "On degenerate Hamburger moment problem and extensions of nonnegative Hankel block matrices", Integral Equations Operator Theory 25 (1996), no. 3, 253--276</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Bolotnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.03401v3</id>
+    <title>Lieb's concavity theorem, matrix geometric means, and semidefinite optimization</title>
+    <updated>2020-04-13T10:04:06Z</updated>
+    <link href="https://arxiv.org/abs/1512.03401v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.03401v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A famous result of Lieb establishes that the map $(A,B) \mapsto \text{tr}\left[K^* A^{1-t} K B^t\right]$ is jointly concave in the pair $(A,B)$ of positive definite matrices, where $K$ is a fixed matrix and $t \in [0,1]$. In this paper we show that Lieb's function admits an explicit semidefinite programming formulation for any rational $t \in [0,1]$. Our construction makes use of a semidefinite formulation of weighted matrix geometric means. We provide an implementation of our constructions in Matlab.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-10T20:27:51Z</published>
+    <arxiv:comment>17 pages; minor modifications in the presentation + added reference to [G. Sagnol, On the semidefinite representation of real functions applied to symmetric matrices, Linear Algebra Appl., 2013] which gives an alternative semidefinite representation of weighted matrix geometric means; v3: Fixed a mistake in Lemma 4</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Hamza Fawzi</name>
+    </author>
+    <author>
+      <name>James Saunderson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.00654v2</id>
+    <title>Matrix-valued truncated Toeplitz operators: unbounded symbols, kernels and equivalence after extension</title>
+    <updated>2022-01-25T17:12:45Z</updated>
+    <link href="https://arxiv.org/abs/2012.00654v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.00654v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies matrix-valued truncated Toeplitz operators, which are a vectorial generalisation of truncated Toeplitz operators. It is demonstrated that, although there exist matrix-valued truncated Toeplitz operators without a matrix symbol in $L^p$ for any $p \in (2, \infty ]$, there is a wide class of matrix-valued truncated Toeplitz operators which possess a matrix symbol in $L^p$ for some $p \in (2, \infty ]$. In the case when the matrix-valued truncated Toeplitz operator has a symbol in $L^p$ for some $p \in (2, \infty ]$, an approach is developed which bypasses some of the technical difficulties which arise when dealing with problems concerning matrix-valued truncated Toeplitz operators with unbounded symbols. Using this new approach, two new notable results are obtained. The kernel of the matrix-valued truncated Toeplitz operator is expressed as an isometric image of an $S^*$-invariant subspace. Also, a Toeplitz operator is constructed which is equivalent after extension to the matrix-valued truncated Toeplitz operator. In a different yet overlapping vein, it is also shown that multidimensional analogues of the truncated Wiener-Hopf operators are unitarily equivalent to certain matrix-valued truncated Toeplitz operators.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-01T17:25:46Z</published>
+    <arxiv:comment>Added an extra section with applications of matrix-valued truncated Toeplitz operators to integral equations. To be published in Integral Equations and Operator Theory</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Ryan O'Loughlin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.0410v2</id>
+    <title>A Semidefinite Approach for Truncated K-Moment Problems</title>
+    <updated>2012-09-06T18:58:11Z</updated>
+    <link href="https://arxiv.org/abs/1105.0410v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.0410v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A truncated moment sequence (tms) of degree d is a vector indexed by monomials whose degree is at most d. Let K be a semialgebraic set.The truncated K-moment problem (TKMP) is: when does a tms y admit a positive Borel measure supported? This paper proposes a semidefinite programming (SDP) approach for solving TKMP. When K is compact, we get the following results: whether a tms y of degree d admits a K-measure or notcan be checked via solving a sequence of SDP problems; when y admits no K-measure, a certificate will be given; when y admits a K-measure, a representing measure for y would be obtained from solving the SDP under some necessary and some sufficient conditions. Moreover, we also propose a practical SDP method for finding flat extensions, which in our numerical experiments always finds a finitely atomic representing measure for a tms when it admits one.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-02T19:15:07Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>J. William Helton</name>
+    </author>
+    <author>
+      <name>Jiawang Nie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1403.5592v2</id>
+    <title>The truncated matrix trigonometric moment problem with an open gap</title>
+    <updated>2015-05-16T19:44:36Z</updated>
+    <link href="https://arxiv.org/abs/1403.5592v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.5592v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is a continuation of our previous investigations on the truncated matrix trigonometric moment problem in Ukrainian Math. J., 2011, \textbf{63}, no. 6, 786-797, and Ukrainian Math. J., 2013, \textbf{64}, no. 8, 1199-1214. In this paper we shall study the truncated matrix trigonometric moment problem with an additional constraint posed on the matrix measure $M_{\mathbb{T}}(δ)$, $δ\in \mathfrak{B}(\mathbb{T})$, generated by the seeked function $M(x)$: $M_{\mathbb{T}}(Δ) = 0$, where $Δ$ is a given open subset of $\mathbb{T}$ (called a gap). We present necessary and sufficient conditions for the solvability of the moment problem with a gap. All solutions of the moment problem with a gap can be constructed by a Nevanlinna-type formula.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-21T23:31:41Z</published>
+    <arxiv:comment>14 pages. arXiv admin note: text overlap with arXiv:1401.5413</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.11900v1</id>
+    <title>The Weyl matrix balls corresponding to the matricial truncated Hamburger moment problem</title>
+    <updated>2021-09-24T11:50:04Z</updated>
+    <link href="https://arxiv.org/abs/2109.11900v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.11900v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main goal of the paper is to parametrize the Weyl matrix balls associated with an arbitrary matricial truncated Hamburger moment problem. For the special case of a non-degenerate matricial truncated Hamburger moment problem the corresponding Weyl matrix balls were computed by I. V. Kovalishina in the framework of V. P. Potapov's method of "Fundamental matrix inequalities".</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-24T11:50:04Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Bernd Fritzsche</name>
+    </author>
+    <author>
+      <name>Bernd Kirstein</name>
+    </author>
+    <author>
+      <name>Susanne Kley</name>
+    </author>
+    <author>
+      <name>Conrad Mädler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.2278v1</id>
+    <title>The Nevanlinna-type formula for the truncated matrix trigonometric moment problem</title>
+    <updated>2012-01-11T10:57:24Z</updated>
+    <link href="https://arxiv.org/abs/1201.2278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.2278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is a continuation of our previous investigation on the truncated matrix trigonometric moment problem in Ukrainian Math. J., 2011, 63, no.6, 786-797. In the present paper we obtain a Nevanlinna-type formula for this moment problem in a general case. We only assume that we have more than one moment, the moment problem is solvable and the problem has more than one solution. The coefficients of the corresponding matrix linear fractional transformation are explicitly expressed by the prescribed moments. Easy conditions for the determinacy of the moment problem are given.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-11T10:57:24Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.5413v1</id>
+    <title>On the truncated matrix power moment problem with an open gap</title>
+    <updated>2014-01-21T18:22:19Z</updated>
+    <link href="https://arxiv.org/abs/1401.5413v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.5413v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the truncated power moment problem with an odd number of prescribed moments. A Nevanlinna-type formula is derived for this moment problem in the case when the moment problem has more than one solution (the indeterminate case). The coefficients of the corresponding linear fractional transformation are expressed explicitly in terms of the given moments. In the determinate case the solution to the moment problem is constructed, as well. Those solutions of the moment problem, which satisfy the following condition: $M(Δ)=0$, where $Δ$ is a prescribed open subset of $\mathbb{R}$, and $M$ is the matrix measure generated by a solution of the moment problem, are described.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-21T18:22:19Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.1534v1</id>
+    <title>The truncated matrix trigonometric moment problem: the operator approach</title>
+    <updated>2010-12-07T15:27:20Z</updated>
+    <link href="https://arxiv.org/abs/1012.1534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.1534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the truncated matrix trigonometric moment problem. We obtained a bijective parameterization of all solutions of this moment problem (both in nondegenerate and degenerate cases) via an operator approach. We use important results of M.E.~Chumakin on generalized resolvents of isometric operators.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-07T15:27:20Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.11522v2</id>
+    <title>Toeplitz, Hankel, de Branges and two truncated matrix moment problems</title>
+    <updated>2025-07-29T09:51:17Z</updated>
+    <link href="https://arxiv.org/abs/2412.11522v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.11522v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper deals with (1) the truncated matrix Hamburger moment problem from the point of view of reproducing kernel Hilbert spaces of vector valued entire functions of the kind introduced and extensively studied by Louis de Branges and (2) the truncated matrix trigonometric moment problem viewed through an analogous class of spaces that are formulated with respect to the open unit disc rather than the open upper half-plane. In this approach projections are computed via appropriately chosen reproducing kernels instead of orthogonal bases. This approach eases the bookkeeping and leads to pleasing formulas.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-16T07:58:19Z</published>
+    <arxiv:comment>Final version with minor changes from the previous submission</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Integral Equations and Operator Theory 97, 24 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Kousik Dhara</name>
+    </author>
+    <author>
+      <name>Harry Dym</name>
+    </author>
+    <arxiv:doi>10.1007/s00020-025-02809-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00020-025-02809-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.11846v2</id>
+    <title>The truncated Hamburger moment problems with gaps in the index set</title>
+    <updated>2022-05-14T21:40:24Z</updated>
+    <link href="https://arxiv.org/abs/2007.11846v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.11846v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article we solve four special cases of the truncated Hamburger moment problem (THMP) of degree $2k$ with one or two missing moments in the sequence. As corollaries we obtain, by using appropriate substitutions, the solutions to bivariate truncated moment problems of degree $2k$ for special curves. Namely, for the curves $y=x^3$ (first solved by Fialkow), $y^2=x^3$, $y=x^4$ where a certain moment of degree $2k+1$ is known and $y^3=x^4$ with a certain moment given. The main technique is the completion of the partial positive semidefinite matrix (ppsd) such that the conditions of Curto and Fialkow's solution of the THMP are satisfied. The main tools are the use of the properties of positive semidefinite Hankel matrices and a result on all completions of a ppsd matrix with one unknown entry, proved by the use of the Schur complements for $2\times 2$ and $3\times 3$ block matrices.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-23T08:16:54Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Integr. Equ. Oper. Theory (93) 2021</arxiv:journal_ref>
+    <author>
+      <name>Aljaž Zalar</name>
+    </author>
+    <arxiv:doi>10.1007/s00020-021-02628-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00020-021-02628-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.00374v2</id>
+    <title>Explicit relation between two resolvent matrices of the truncated Hausdorff matrix moment problem</title>
+    <updated>2023-02-27T02:28:59Z</updated>
+    <link href="https://arxiv.org/abs/2210.00374v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.00374v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the explicit relation between two resolvent matrices related to the truncated Hausdorff matrix moment problem (THMM) in the case of an even and odd number of moments. This relation is described with the help of four families of orthogonal matrix polynomials on the finite interval $[a,b]$ and their associated second kind polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-01T21:10:19Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Abdon E. Choque-Rivero</name>
+    </author>
+    <author>
+      <name>Monika Winklmeier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.05724v1</id>
+    <title>The Resolvent Matrix of the Truncated Hausdorff Matrix Moment Problem via New Dyukarev-Stieltjes Parameters and Extremal Solutions via Continued Fractions</title>
+    <updated>2016-10-18T18:00:21Z</updated>
+    <link href="https://arxiv.org/abs/1610.05724v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.05724v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We obtain a new multiplicative decomposition of the resolvent matrix of the truncated Hausdorff matrix moment (THMM) problem in the case of an odd and even number of moments via new Dyukarev-Stieltjes matrix (DSM) parameters. Explicit interrelations between new DSM parameters and orthogonal matrix polynomials on a finite interval $[a,b]$, as well as the Schur complements of the block Hankel matrices constructed through the moments of the THMM problem are given. Additionally, the extremal solutions of the THMM problem are represented via matrix continued fractions in terms of the DSM parameters.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-18T18:00:21Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Abdon E. Choque-Rivero</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.2905v2</id>
+    <title>Invariant semidefinite programs</title>
+    <updated>2010-11-22T15:39:45Z</updated>
+    <link href="https://arxiv.org/abs/1007.2905v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.2905v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the last years many results in the area of semidefinite programming were obtained for invariant (finite dimensional, or infinite dimensional) semidefinite programs - SDPs which have symmetry. This was done for a variety of problems and applications. The purpose of this handbook chapter is to give the reader the necessary background for dealing with semidefinite programs which have symmetry. Here the basic theory is given and it is illustrated in applications from coding theory, combinatorics, geometry, and polynomial optimization.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-17T08:13:20Z</published>
+    <arxiv:comment>51 pages, this article was written for the "Handbook of Semidefinite, Cone and Polynomial Optimization: Theory, Algorithms, Software and Applications", (v2) revision based on suggestions by referee</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Christine Bachoc</name>
+    </author>
+    <author>
+      <name>Dion C. Gijswijt</name>
+    </author>
+    <author>
+      <name>Alexander Schrijver</name>
+    </author>
+    <author>
+      <name>Frank Vallentin</name>
+    </author>
+    <arxiv:doi>10.1007/978-1-4614-0769-0_9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-1-4614-0769-0_9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.09344v2</id>
+    <title>Stein's method of moments for truncated multivariate distributions</title>
+    <updated>2024-06-15T21:13:38Z</updated>
+    <link href="https://arxiv.org/abs/2312.09344v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.09344v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use Stein characterisations to derive new moment-type estimators for the parameters of several truncated multivariate distributions in the i.i.d. case; we also derive the asymptotic properties of these estimators. Our examples include the truncated multivariate normal distribution and truncated products of independent univariate distributions. The estimators are explicit and therefore provide an interesting alternative to the maximum-likelihood estimator (MLE). The quality of these estimators is assessed through competitive simulation studies, in which we compare their behaviour to the performance of the MLE and the score matching approach.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-14T21:13:30Z</published>
+    <arxiv:comment>The original preprint ("Stein estimation in a multivariate setting") is now split into two preprints: "Stein's method of moments for truncated multivariate distributions" and "Stein's Method of Moments on the Sphere"</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Adrian Fischer</name>
+    </author>
+    <author>
+      <name>Robert E. Gaunt</name>
+    </author>
+    <author>
+      <name>Yvik Swan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.10179v1</id>
+    <title>On the Matricial Truncated Moment Problem. II</title>
+    <updated>2023-11-16T20:10:48Z</updated>
+    <link href="https://arxiv.org/abs/2311.10179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.10179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We continue the study of truncated matrix-valued moment problems begun in arXiv:2310.00957. Let $q\in\mathbb{N}$. Suppose that $(\mathcal{X},\mathfrak{X})$ is a measurable space and $\mathcal{E}$ is a finite-dimensional vector space of measurable mappings of $\mathscr{X}$ into $\mathcal{H}_q$, the Hermitian $q\times q$ matrices. A linear functional $Λ$ on $\mathcal{E}$ is called a moment functional if there exists a positive $\mathcal{H}_q$-valued measure $μ$ on $(\mathcal{X},\mathfrak{X})$ such that $Λ(F)=\int_\mathcal{X} \langle F, \mathrm{d}μ\rangle$ for $F\in \mathcal{E}$.
+  In this paper a number of special topics on the truncated matricial moment problem are treated. We restate a result from (Mourrain and Schmüdgen, 2016) to obtain a matricial version of the flat extension theorem. Assuming that $\mathcal{X}$ is a compact space and all elements of $ \mathcal{E}$ are continuous on $\mathcal{X}$ we characterize moment functionals in terms of positivity and obtain an ordered maximal mass representing measure for each moment functional. The set of masses of representing measures at a fixed point and some related sets are studied. The class of commutative matrix moment functionals is investigated. We generalize the apolar scalar product for homogeneous polynomials to the matrix case and apply this to the matricial truncated moment problem.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-16T20:10:48Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Conrad Mädler</name>
+    </author>
+    <author>
+      <name>Konrad Schmüdgen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.06122v2</id>
+    <title>The operator approach to the truncated multidimensional moment problem</title>
+    <updated>2018-11-26T21:43:01Z</updated>
+    <link href="https://arxiv.org/abs/1802.06122v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.06122v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the truncated multidimensional moment problem with a general type of truncations. The operator approach to the moment problem is presented. A way to construct atomic solutions of the moment problem is indicated.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-16T21:06:59Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.28227v1</id>
+    <title>The Matricial Univariate Rational Truncated Moment Problem</title>
+    <updated>2026-08-28T11:43:52Z</updated>
+    <link href="https://arxiv.org/abs/2608.28227v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.28227v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We solve the matricial univariate rational truncated moment problem on the real line and on a half-line. We give explicit necessary and sufficient conditions for the existence of a positive matrix-valued representing measure and show that every solvable problem admits a finitely atomic representing measure whose total atomic multiplicity equals the rank of the associated moment matrix. The rational problem is reduced to an ordinary matricial moment problem with the additional requirement that the representing measure avoid the real poles of the rational data. The main new ingredient is a simultaneous prescribed-node result: the smallest attainable multiplicities at finitely many prescribed points can be realized by a single minimal representing measure. Our proofs are constructive and use flat extensions, block-column relations, and localizing conditions.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-28T11:43:52Z</published>
+    <arxiv:comment>34 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Alja\v z Zalar</name>
+    </author>
+    <author>
+      <name>Igor Zobovi\v c</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.08692v1</id>
+    <title>On a minimal solution for the indefinite truncated multidimensional moment problem</title>
+    <updated>2020-06-15T19:00:38Z</updated>
+    <link href="https://arxiv.org/abs/2006.08692v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.08692v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We will consider the indefinite truncated multidimensional moment problem. Necessary and sufficient conditions for a given truncated multisequence to have a signed representing measure $μ$ with ${\rm card}\,{\rm supp}\, μ$ as small as possible are given by the existence of a rank preserving extension of a multivariate Hankel matrix (built from the given truncated multisequence) such that the corresponding associated polynomial ideal is real radical. This result is a special case of a more general characterisation of truncated multisequences with a minimal complex representing measure whose support is symmetric with respect to complex conjugation (which we will call {\it quasi-complex}). One motivation for our results is the fact that positive semidefinite truncated multisequence need not have a positive representing measure. Thus, our main result gives the potential for computing a signed representing measure $μ= μ_+ - μ_-$, where ${\rm card} \,μ_-$ is small. We illustrate this point on concrete examples.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-15T19:00:38Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>David P. Kimsey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.5726v2</id>
+    <title>Cubic column relations in truncated moment problems</title>
+    <updated>2014-02-02T13:25:24Z</updated>
+    <link href="https://arxiv.org/abs/1304.5726v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.5726v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the truncated moment problem associated to a complex sequence $γ^{(2n)}=\{γ_{ij}\}_{i,j\in Z_{+},i+j \leq 2n}$ to have a representing measure $μ$, it is necessary for the moment matrix $M(n)$ to be positive semidefinite, and for the algebraic variety $\mathcal{V}_γ$ to satisfy $\operatorname{rank}\;M(n) \leq \;$ card$\;\mathcal{V}_γ$ as well as a consistency condition: the Riesz functional vanishes on every polynomial of degree at most $2n$ that vanishes on $\mathcal{V}_γ$. In previous work with L. Fialkow and M. Möller, the first-named author proved that for the extremal case (rank$\;M(n)=$ card$\;\mathcal{V}_γ$), positivity and consistency are sufficient for the existence of a representing measure.
+  In this paper we solve the truncated moment problem for cubic column relations in $M(3)$ of the form $Z^{3}=itZ+u\bar{Z}$ ($u,t \in \mathbb{R}$); we do this by checking consistency. For $(u,t)$ in the open cone determined by $0 &lt; \left|u\right| &lt; t &lt; 2 \left|u\right|$, we first prove that the algebraic variety has exactly $7$ points and $\operatorname{rank}\;M(3)=7$; we then apply the above mentioned result to obtain a concrete, computable, necessary and sufficient condition for the existence of a representing measure.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-21T12:28:58Z</published>
+    <arxiv:comment>18 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>J. Funct. Anal. 266(2014), 1611-1626</arxiv:journal_ref>
+    <author>
+      <name>Raul E. Curto</name>
+    </author>
+    <author>
+      <name>Seonguk Yoo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.02396v1</id>
+    <title>On the truncated operator trigonometric moment problem</title>
+    <updated>2015-01-10T21:43:24Z</updated>
+    <link href="https://arxiv.org/abs/1501.02396v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.02396v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the truncated operator trigonometric moment problem. All solutions of the moment problem are described by a Nevanlinna-type parameterization. In the case of moments acting in a separable Hilbert space, the matrices of the operator coefficients in the Nevanlinna-type formula are calculated by the prescribed moments. Conditions for the determinacy of the moment problem are given, as well.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-10T21:43:24Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.6251v1</id>
+    <title>Semidefinite programming in matrix unknowns which are dimension free</title>
+    <updated>2011-12-29T08:31:59Z</updated>
+    <link href="https://arxiv.org/abs/1112.6251v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.6251v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the main applications of semidefinite programming lies in linear systems and control theory. Many problems in this subject, certainly the textbook classics, have matrices as variables, and the formulas naturally contain non-commutative polynomials in matrices. These polynomials depend only on the system layout and do not change with the size of the matrices involved, hence such problems are called "dimension-free". Analyzing dimension-free problems has led to the development recently of a non-commutative (nc) real algebraic geometry (RAG) which, when combined with convexity, produces dimension-free Semidefinite Programming. This article surveys what is known about convexity in the non-commutative setting and nc SDP and includes a brief survey of nc RAG. Typically, the qualitative properties of the non-commutative case are much cleaner than those of their scalar counterparts - variables in R^g. Indeed we describe how relaxation of scalar variables by matrix variables in several natural situations results in a beautiful structure.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-29T08:31:59Z</published>
+    <arxiv:comment>25 pages; survey</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <arxiv:journal_ref>Pages 377-405 in the Handbook of Semidefinite, Conic and Polynomial Optimization edited by M. Anjos and J. B. Lasserre, Springer, 2012</arxiv:journal_ref>
+    <author>
+      <name>J. William Helton</name>
+    </author>
+    <author>
+      <name>Igor Klep</name>
+    </author>
+    <author>
+      <name>Scott McCullough</name>
+    </author>
+    <arxiv:doi>10.1007/978-1-4614-0769-0_13</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-1-4614-0769-0_13" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.00486v2</id>
+    <title>The strong truncated Hamburger moment problem with and without gaps</title>
+    <updated>2022-05-15T08:08:12Z</updated>
+    <link href="https://arxiv.org/abs/2101.00486v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.00486v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The strong truncated Hamburger moment problem (STHMP) of degree $(-2k_1,2k_2)$ asks to find necessary and sufficient conditions for the existence of a positive Borel measure, supported on $\mathbb{R}\setminus \{0\}$, such that $β_i=\int x^idμ\; (-2k_1\leq i\leq 2k_2)$. Using the solution of the truncated Hamburger moment problem and the properties of Hankel matrices we solve the STHMP. Then, using the equivalence with the STHMP of degree $(-2k,2k)$, we obtain the solution of the 2-dimensional truncated moment problem (TMP) of degree $2k$ with variety $xy=1$, first solved by Curto and Fialkow. Our addition to their result is the fact previously known only for $k=2$, that the existence of a measure is equivalent to the existence of a flat extension of the moment matrix. Further on, we solve the STHMP of degree $(-2k_1,2k_2)$ with one missing moment in the sequence, i.e., $β_{-2k_1+1}$ or $β_{2k_2-1}$, which also gives the solution of the TMP with variety $x^2y=1$ as a special case, first studied by Fialkow.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-02T17:49:59Z</published>
+    <arxiv:comment>20 pages. arXiv admin note: text overlap with arXiv:2007.11846</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>J. Math. Anal. Appl. 516 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Aljaž Zalar</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmaa.2022.126563</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmaa.2022.126563" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.3679v1</id>
+    <title>The truncated tracial moment problem</title>
+    <updated>2010-01-20T21:15:12Z</updated>
+    <link href="https://arxiv.org/abs/1001.3679v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.3679v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present tracial analogs of the classical results of Curto and Fialkow on moment matrices. A sequence of real numbers indexed by words in non-commuting variables with values invariant under cyclic permutations of the indexes, is called a tracial sequence. We prove that such a sequence can be represented with tracial moments of matrices if its corresponding moment matrix is positive semidefinite and of finite rank. A truncated tracial sequence allows for such a representation if and only if one of its extensions admits a flat extension. Finally, we apply the theory via duality to investigate trace-positive polynomials in non-commuting variables.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-20T21:15:12Z</published>
+    <arxiv:comment>21 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>J. Operator Theory 68 (2012), 141-163</arxiv:journal_ref>
+    <author>
+      <name>Sabine Burgdorf</name>
+    </author>
+    <author>
+      <name>Igor Klep</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.15003v1</id>
+    <title>Truncated moment sequences and a solution to the channel separability problem</title>
+    <updated>2020-06-26T14:16:56Z</updated>
+    <link href="https://arxiv.org/abs/2006.15003v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.15003v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of separability of quantum channels via the Choi matrix representation given by the Choi-Jamiołkowski isomorphism. We explore three classes of separability across different cuts between systems and ancillae and we provide a solution based on the mapping of the coordinates of the Choi state (in a fixed basis) to a truncated moment sequence (tms) $y$. This results in an algorithm which gives a separability certificate using semidefinite programming. The computational complexity and the performance of it depend on the number of variables $n$ in the tms and on the size of the moment matrix $M_t(y)$ of order $t$. We exploit the algorithm to numerically investigate separability of families of 2-qubit and single-qutrit channels; in the latter case we can provide an answer for examples explored earlier through the criterion based on the negativity $N$, a criterion which remains inconclusive for Choi matrices with $N=0$.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-26T14:16:56Z</published>
+    <arxiv:comment>11 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 102, 052406 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Nadia Milazzo</name>
+      <arxiv:affiliation>Institut für theoretische Physik, Universität Tübingen, Tübingen, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Université Paris-Saclay, CNRS, LPTMS, Orsay, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel Braun</name>
+      <arxiv:affiliation>Institut für theoretische Physik, Universität Tübingen, Tübingen, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Olivier Giraud</name>
+      <arxiv:affiliation>Université Paris-Saclay, CNRS, LPTMS, Orsay, France</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.102.052406</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.102.052406" title="doi"/>
+  </entry>
+</feed>

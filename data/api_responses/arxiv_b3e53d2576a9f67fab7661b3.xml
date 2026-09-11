@@ -1,0 +1,528 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I6QZ7qNrizm3BjKB70ZtDISXREI</id>
+  <title>arXiv Query: search_query=all:completely OR all:monotone OR all:sequences OR all:Hausdorff OR all:finite OR all:difference OR all:criterion&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:52:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:completely+OR+(all:monotone+OR+(all:sequences+OR+(all:Hausdorff+OR+(all:finite+OR+(all:difference+OR+all:criterion)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1043297</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.00031v6</id>
+    <title>Non-Hausdorff Incidence Completions of Finite Coverings: Monodromy, Transport, and Defect Posets</title>
+    <updated>2026-08-23T09:58:43Z</updated>
+    <link href="https://arxiv.org/abs/2506.00031v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.00031v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let X be a connected Hausdorff surface, let Sigma be a finite subset of X, and let pi from Y to X minus Sigma be a finite sheeted covering. Peripheral monodromy at each marked point determines a finite set of peripheral component germs together with their local degree labels. We introduce incidence completions by adjoining an exceptional fibre at each marked point and prescribing a closed many to many incidence relation between peripheral component germs and exceptional points.
+  The resulting tail saturated topology realizes the prescribed endpoint relation intrinsically. A fixed regular lift extends through a defect precisely when its exceptional value lies in the intersection of the endpoint sets associated with all accumulated peripheral germs. For finite discrete exceptional fibres, a bipartite incidence graph determines the local fundamental group and low dimensional homology. Power probes recover peripheral degrees, while multi arm probes recover higher endpoint intersections and reconstruct the discrete incidence relation by Mobius inversion.
+  For finite exceptional fibres, the completion data are equivalently described by a weighted specialization poset with an antitone incidence map. This yields a structured monodromy classification, automorphism and quotient results, and relation valued and multiplicity valued transport through isolated defects. Varying the exceptional topology and incidence produces a finite defect poset described by a Grothendieck construction. Its total order complex forgets the incidence direction, while vertical incidence complexes and their survival under topology degeneration retain incidence dependent information.</summary>
+    <category term="math.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-26T14:24:12Z</published>
+    <arxiv:comment>72 pages. Substantially revised and expanded treatment of non-Hausdorff covering constructions. Includes incidence lifting, local homotopy and homology, reconstruction from lift probes, structured monodromy, singular transport, and finite defect posets</arxiv:comment>
+    <arxiv:primary_category term="math.GN"/>
+    <author>
+      <name>Abhiram Sripat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.6102v3</id>
+    <title>On Curling Numbers of Integer Sequences</title>
+    <updated>2013-03-12T17:33:43Z</updated>
+    <link href="https://arxiv.org/abs/1212.6102v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.6102v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a finite nonempty sequence S of integers, write it as XY^k, where Y^k is a power of greatest exponent that is a suffix of S: this k is the curling number of S. The Curling Number Conjecture is that if one starts with any initial sequence S, and extends it by repeatedly appending the curling number of the current sequence, the sequence will eventually reach 1. The conjecture remains open. In this paper we discuss the special case when S consists just of 2's and 3's. Even this case remains open, but we determine how far a sequence of n 2's and 3's can extend before reaching a 1, conjecturally for n &lt;= 80. We investigate several related combinatorial problems, such as finding c(n,k), the number of binary sequences of length n and curling number k, and t(n,i), the number of sequences of length n which extend for i steps before reaching a 1. A number of interesting combinatorial problems remain unsolved.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-25T23:41:44Z</published>
+    <arxiv:comment>25 pages, one figure, 14 tables. This paper is a sequel to the paper arXiv:0912.2382. Feb 17 2013: added list of OEIS sequences that are mentioned. March 12 2013: A number of small improvements</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>J. Integer Sequences 16 (2013), #13.4.3</arxiv:journal_ref>
+    <author>
+      <name>Benjamin Chaffin</name>
+    </author>
+    <author>
+      <name>John P. Linderman</name>
+    </author>
+    <author>
+      <name>N. J. A. Sloane</name>
+    </author>
+    <author>
+      <name>Allan R. Wilks</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.02802v2</id>
+    <title>Iterative oscillation tests for difference equations with several non-monotone arguments</title>
+    <updated>2017-02-10T16:51:30Z</updated>
+    <link href="https://arxiv.org/abs/1606.02802v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.02802v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider difference equations with several non-monotone deviating arguments and nonnegative coefficients. The deviations (delays and advances) are, generally, unbounded. Sufficient oscillation conditions are obtained in an explicit iterative form. Additional results in terms of $\liminf $ are obtained for bounded deviations. Examples illustrating the oscillation tests are presented.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-09T02:30:28Z</published>
+    <arxiv:comment>18 pages, 3 figures, combines published in 2015 in Journal of Difference Equations and Applications article and Erratum published in 2017</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <arxiv:journal_ref>J. Difference Equ. Appl. 21 (2015), no. 9, 854-874 + corrigendum (2017)</arxiv:journal_ref>
+    <author>
+      <name>Elena Braverman</name>
+    </author>
+    <author>
+      <name>George E. Chatzarakis</name>
+    </author>
+    <author>
+      <name>Ioannis P. Stavroulakis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.26080v3</id>
+    <title>Quantum Mechanics on Non-Hausdorff One-Manifolds with Finite Graph Resolutions: Analytic Completion, Branching, and Invariant-Sector Scattering</title>
+    <updated>2026-08-17T09:41:46Z</updated>
+    <link href="https://arxiv.org/abs/2607.26080v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.26080v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a systematic framework for quantum mechanics on a finite graph-resolved class of second-countable, T1, non-Hausdorff one-manifolds. The central problem is that local differential expressions do not by themselves determine the quantum theory: non-Hausdorff incidence, bundle transport, smooth extension, and analytic completion can impose additional global constraints on the operator domain. We formulate these constraints using transported jets, Whitney realisability, Sobolev traces, and formal return holonomy, obtaining exact closure results for finite smooth graph resolutions.
+  At first Sobolev order, scalar dynamics reduce to a weighted quantum graph whose edge weights arise from a marked resolving presentation, leading naturally to weighted Kirchhoff Hamiltonians. Multiple-origin lines and circles, branching junctions, finite trees, and split-and-rejoin geometries then yield explicit deficiency indices, reflection and transmission laws, interference conditions, compact dark states, and embedded cavity modes.
+  For finite-rank Hermitian bundles, unitary gluing selects a transmitting fixed subspace, so scattering becomes projection onto the invariant sector of the subgroup generated by the gluing matrices. Compact-group representations therefore turn non-Hausdorff incidence into an invariant-sector selection mechanism; connected compact semisimple groups require at most two relative gluing matrices for full invariant completion, with explicit SU(3) examples.
+  The resulting theory separates topological non-Hausdorff data from the analytic and representation-theoretic structures that remain detectable by quantum dynamics.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-24T16:53:14Z</published>
+    <arxiv:comment>128 pages, 4 parts, 36 sections, 2 appendices. Develops quantum mechanics on finite graph-resolved non-Hausdorff one-manifolds: extension and Sobolev completion, formal holonomy, weighted graph dynamics, branching and interference, finite-rank unitary gluing, and compact-group invariant-sector scattering. Includes a correction to an unrestricted component-extension claim in O'Connell (2024)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Abhiram Sripat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.17670v3</id>
+    <title>Completely and logarithmically completely monotone functions</title>
+    <updated>2025-10-01T11:20:51Z</updated>
+    <link href="https://arxiv.org/abs/2411.17670v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.17670v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We simplify the proof of some widely used theoretical theorems, extending their applicability, while correcting some erroneous results. We also generalize key results and present new results that contribute to the development of the theory. Furthermore, we use the results obtained to investigate the monotonicity properties of some specific functions related to the Gamma function. Finally, we formulate an open problem related to the psi function.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-26T18:30:22Z</published>
+    <arxiv:comment>27 pages (accepted version, corrected some errors in version 2, and given new results, changed the title to Completely monotone functions in general and some applications )</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Journal of Mathematical Analysis and Applications, 15 February 2026, Volume 554, Issue 2</arxiv:journal_ref>
+    <author>
+      <name>V. E. Sándor Szabó</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmaa.2025.129984</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmaa.2025.129984" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.05758v3</id>
+    <title>Pell and associated Pell braid sequences as GCDs of sums of $k$ consecutive Pell, balancing, and related numbers</title>
+    <updated>2023-06-28T16:23:02Z</updated>
+    <link href="https://arxiv.org/abs/2301.05758v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.05758v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the greatest common divisor (GCD) of all sums of $k$ consecutive terms of a sequence $(S_n)_{n\geq 0}$ where the terms $S_n$ come from exactly one of following six well-known sequences' terms: Pell $P_n$, associated Pell $Q_n$, balancing $B_n$, Lucas-balancing $C_n$, cobalancing $b_n$, and Lucas-cobalancing $c_n$ numbers. For each of the six GCDs, we provide closed forms dependent on $k$. Moreover, each of these closed forms can be realized as braid sequences of Pell and associated Pell numbers in an intriguing manner. We end with partial results on GCDs of sums of squared terms and open questions.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-13T21:09:26Z</published>
+    <arxiv:comment>24 pages, Version 3 is the published version in the Journal of Integer Sequences</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Journal of Integer Sequences, Vol. 26, Issue 6 (2023), Article 23.6.4</arxiv:journal_ref>
+    <author>
+      <name>aBa Mbirika</name>
+    </author>
+    <author>
+      <name>Janee Schrader</name>
+    </author>
+    <author>
+      <name>Jürgen Spilker</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.14391v3</id>
+    <title>Ladder operators and a second--order difference equation for general discrete Sobolev orthogonal polynomials</title>
+    <updated>2022-08-01T10:30:13Z</updated>
+    <link href="https://arxiv.org/abs/2006.14391v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.14391v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a general discrete Sobolev inner product involving the Hahn difference operator, so this includes the well--known difference operators $\mathscr{D}_{q}$ and $Δ$ and, as a limit case, the derivative operator. The objective is twofold. On the one hand, we construct the ladder operators for the corresponding nonstandard orthogonal polynomials and we obtain the second--order difference equation satisfied by these polynomials. On the other hand, we generalise some related results appeared in the literature as we are working in a more general framework. Moreover, we will show that all the functions involved in these constructions can be computed explicitly.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-25T13:28:12Z</published>
+    <arxiv:comment>Preprint of the version published in Journal of Difference Equations and Applications with the title "Second--order difference equation for Sobolev--type orthogonal polynomials: Part I: theoretical results"</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Journal of Difference Equations and Applications (2022)</arxiv:journal_ref>
+    <author>
+      <name>Galina Filipuk</name>
+    </author>
+    <author>
+      <name>Juan F. Mañas-Mañas</name>
+    </author>
+    <author>
+      <name>Juan J. Moreno-Balcázar</name>
+    </author>
+    <arxiv:doi>10.1080/10236198.2022.2103412</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10236198.2022.2103412" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.00138v1</id>
+    <title>Completely monotone sequences and harmonic mappings</title>
+    <updated>2021-01-30T03:12:44Z</updated>
+    <link href="https://arxiv.org/abs/2102.00138v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.00138v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present paper, we will study geometric properties of harmonic mappings whose analytic and co-analytic parts are (shifted) generated functions of completely monotone sequences.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-30T03:12:44Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Bo-Yong Long</name>
+    </author>
+    <author>
+      <name>Toshiyuki Sugawa</name>
+    </author>
+    <author>
+      <name>Qi-Han Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.5967v1</id>
+    <title>Persistence for stochastic difference equations: A mini-review</title>
+    <updated>2011-09-27T16:54:58Z</updated>
+    <link href="https://arxiv.org/abs/1109.5967v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.5967v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding under what conditions populations, whether they be plants, animals, or viral particles, persist is an issue of theoretical and practical importance in population biology. Both biotic interactions and environmental fluctuations are key factors that can facilitate or disrupt persistence. One approach to examining the interplay between these deterministic and stochastic forces is the construction and analysis of stochastic difference equations $X_{t+1}=F(X_t,ξ_{t+1})$ where $X_t \in \R^k$ represents the state of the populations and $ξ_1,ξ_2,...$ is a sequence of random variables representing environmental stochasticity. In the analysis of these stochastic models, many theoretical population biologists are interested in whether the models are bounded and persistent. Here, boundedness asserts that asymptotically $X_t$ tends to remain in compact sets. In contrast, persistence requires that $X_t$ tends to be "repelled" by some "extinction set" $S_0\subset \R^k$. Here, results on both of these proprieties are reviewed for single species, multiple species, and structured population models. The results are illustrated with applications to stochastic versions of the Hassell and Ricker single species models, Ricker, Beverton-Holt, lottery models of competition, and lottery models of rock-paper-scissor games. A variety of conjectures and suggestions for future research are presented.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-27T16:54:58Z</published>
+    <arxiv:comment>Accepted for publication in the Journal of Difference Equations and Applications</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <arxiv:journal_ref>Journal of Difference Equations and Applications Volume 18, Issue 8, 2012 Special Issue: Special Issue on Stochastic Difference Equations, pages 1381-1403</arxiv:journal_ref>
+    <author>
+      <name>Sebastian J. Schreiber</name>
+    </author>
+    <arxiv:doi>10.1080/10236198.2011.628662</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10236198.2011.628662" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0906.3239v1</id>
+    <title>New Stability Conditions for Linear Difference Equations using Bohl-Perron Type Theorems</title>
+    <updated>2009-06-17T16:32:26Z</updated>
+    <link href="https://arxiv.org/abs/0906.3239v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0906.3239v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Bohl-Perron result on exponential dichotomy for a linear difference equation $$ x(n+1)-x(n) + \sum_{l=1}^m a_l(n)x(h_l(n))=0, h_l(n)\leq n, $$ states (under some natural conditions) that if all solutions of the non-homogeneous equation with a bounded right hand side are bounded, then the relevant homogeneous equation is exponentially stable. According to its corollary, if a given equation is {\em close} to an exponentially stable comparison equation (the norm of some operator is less than one), then the considered equation is exponentially stable.
+  For a difference equation with several variable delays and coefficients we obtain new exponential stability tests using the above results, representation of solutions and comparison equations with a positive fundamental function.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-06-17T16:32:26Z</published>
+    <arxiv:comment>19 pages. To appear in Journal of Difference Equations and Applications. To appear in Journal of Difference Equations and Applications</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <arxiv:journal_ref>J. Difference Equ. Appl. 17 (2011), no. 5, 657-675</arxiv:journal_ref>
+    <author>
+      <name>Leonid Berezansky</name>
+    </author>
+    <author>
+      <name>Elena Braverman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.6163v1</id>
+    <title>Bohl-Perron type stability theorems for linear difference equations with infinite delay</title>
+    <updated>2010-09-30T15:10:45Z</updated>
+    <link href="https://arxiv.org/abs/1009.6163v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.6163v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Relation between two properties of linear difference equations with infinite delay is investigated: (i) exponential stability, (ii) $ł^p$-input $ł^q$-state stability (sometimes is called Perron's property). The latter means that solutions of the non-homogeneous equation with zero initial data belong to $ł^q$ when non-homogeneous terms are in $ł^p$. It is assumed that at each moment the prehistory (the sequence of preceding states) belongs to some weighted $ł^r$-space with an exponentially fading weight (the phase space). Our main result states that (i) $\Leftrightarrow$ (ii) whenever $(p,q) \neq (1,\infty)$ and a certain boundedness condition on coefficients is fulfilled. This condition is sharp and ensures that, to some extent, exponential and $ł^p$-input $ł^q$-state stabilities does not depend on the choice of a phase space and parameters $p$ and $q$, respectively. $ł^1$-input $ł^\infty$-state stability corresponds to uniform stability. We provide some evidence that similar criteria should not be expected for non-fading memory spaces.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-30T15:10:45Z</published>
+    <arxiv:comment>To be published in Journal of Difference Equations and Applications</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <arxiv:journal_ref>Journal of Difference Equations and Applications 18 (2012), No. 5, 909-939</arxiv:journal_ref>
+    <author>
+      <name>Elena Braverman</name>
+    </author>
+    <author>
+      <name>Illya M. Karabash</name>
+    </author>
+    <arxiv:doi>10.1080/10236198.2010.531276</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10236198.2010.531276" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.20630v2</id>
+    <title>Computing with D-Algebraic Sequences</title>
+    <updated>2025-10-09T20:02:32Z</updated>
+    <link href="https://arxiv.org/abs/2412.20630v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.20630v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A sequence is difference algebraic (or D-algebraic) if finitely many shifts of its general term satisfy a polynomial relationship; that is, they are the coordinates of a generic point on an affine hypersurface. The corresponding equations are denoted algebraic difference equations (ADEs). We propose a formal definition of D-algebraicity for sequences and investigate algorithms for their closure properties. We show that subsequences of D-algebraic sequences, indexed by arithmetic progressions, satisfy ADEs of the same orders as the original sequences. Additionally, we discuss the special difference-algebraic nature of holonomic and $C^2$-finite sequences.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-30T00:39:57Z</published>
+    <arxiv:comment>29 pages, 1 figure. More comprehensive version. Specific results for $C^2$-finite sequences</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Bertrand Teguia Tabuguia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1102.5335v1</id>
+    <title>Block Companion Singer Cycles, Primitive Recursive Vector Sequences, and Coprime Polynomial Pairs over Finite Fields</title>
+    <updated>2011-02-25T20:46:18Z</updated>
+    <link href="https://arxiv.org/abs/1102.5335v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.5335v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss a conjecture concerning the enumeration of nonsingular matrices over a finite field that are block companion and whose order is the maximum possible in the corresponding general linear group. A special case is proved using some recent results on the probability that a pair of polynomials with coefficients in a finite field is coprime. Connection with an older problem of Niederreiter about the number of splitting subspaces of a given dimension are outlined and an asymptotic version of the conjectural formula is established. Some applications to the enumeration of nonsingular Toeplitz matrices of a given size over a finite field are also discussed.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-25T20:46:18Z</published>
+    <arxiv:comment>12 pages; to appear in: Finite Fields and Their Applications</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>Finite Fields Appl. 17 (2011), no. 5, 461-472</arxiv:journal_ref>
+    <author>
+      <name>Sudhir R. Ghorpade</name>
+    </author>
+    <author>
+      <name>Samrith Ram</name>
+    </author>
+    <arxiv:doi>10.1016/j.ffa.2011.02.008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ffa.2011.02.008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1104.5672v1</id>
+    <title>Obtaining Potential Field Solution with Spherical Harmonics and Finite Differences</title>
+    <updated>2011-04-29T16:15:03Z</updated>
+    <link href="https://arxiv.org/abs/1104.5672v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1104.5672v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Potential magnetic field solutions can be obtained based on the synoptic magnetograms of the Sun. Traditionally, a spherical harmonics decomposition of the magnetogram is used to construct the current and divergence free magnetic field solution. This method works reasonably well when the order of spherical harmonics is limited to be small relative to the resolution of the magnetogram, although some artifacts, such as ringing, can arise around sharp features. When the number of spherical harmonics is increased, however, using the raw magnetogram data given on a grid that is uniform in the sine of the latitude coordinate can result in inaccurate and unreliable results, especially in the polar regions close to the Sun.
+  We discuss here two approaches that can mitigate or completely avoid these problems: i) Remeshing the magnetogram onto a grid with uniform resolution in latitude, and limiting the highest order of the spherical harmonics to the anti-alias limit; ii) Using an iterative finite difference algorithm to solve for the potential field. The naive and the improved numerical solutions are compared for actual magnetograms, and the differences are found to be rather dramatic.
+  We made our new Finite Difference Iterative Potential-field Solver (FDIPS) a publically available code, so that other researchers can also use it as an alternative to the spherical harmonics approach.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-04-29T16:15:03Z</published>
+    <arxiv:comment>This paper describes the publicly available Finite Difference Iterative Potential field Solver (FDIPS). The code can be obtained from http://csem.engin.umich.edu/FDIPS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Astrophysical Journal, 732, 102, 2011</arxiv:journal_ref>
+    <author>
+      <name>Gabor Toth</name>
+    </author>
+    <author>
+      <name>Bart van der Holst</name>
+    </author>
+    <author>
+      <name>Zhenguang Huang</name>
+    </author>
+    <arxiv:doi>10.1088/0004-637X/732/2/102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0004-637X/732/2/102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.0781v1</id>
+    <title>Numerical Solution of the Two-Phase Obstacle Problem by Finite Difference Method</title>
+    <updated>2014-07-03T04:45:24Z</updated>
+    <link href="https://arxiv.org/abs/1407.0781v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.0781v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we consider the numerical approximation of the two-phase membrane (obstacle) problem by finite difference method. First, we introduce the notion of viscosity solution for the problem and construct certain discrete nonlinear approximation system. The existence and uniqueness of the solution of the discrete nonlinear system is proved. Based on that scheme, we propose projected Gauss-Seidel algorithm and prove its convergence. At the end of the paper we present some numerical simulations.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-03T04:45:24Z</published>
+    <arxiv:comment>Free Boundary Problem, Two-Phase Membrane Problem, Two-Phase Obstacle Problem, Finite Difference Method</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Avetik Arakelyan</name>
+    </author>
+    <author>
+      <name>Rafayel Barkhudaryan</name>
+    </author>
+    <author>
+      <name>Michael Poghosyan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.06320v2</id>
+    <title>Infinite subgame perfect equilibrium in the Hausdorff difference hierarchy</title>
+    <updated>2015-09-30T14:55:47Z</updated>
+    <link href="https://arxiv.org/abs/1505.06320v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.06320v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Subgame perfect equilibria are specific Nash equilibria in perfect information games in extensive form. They are important because they relate to the rationality of the players. They always exist in infinite games with continuous real-valued payoffs, but may fail to exist even in simple games with slightly discontinuous payoffs. This article considers only games whose outcome functions are measurable in the Hausdorff difference hierarchy of the open sets (\textit{i.e.} $Δ^0_2$ when in the Baire space), and it characterizes the families of linear preferences such that every game using these preferences has a subgame perfect equilibrium: the preferences without infinite ascending chains (of course), and such that for all players $a$ and $b$ and outcomes $x,y,z$ we have $\neg(z &lt;_a y &lt;_a x \,\wedge\, x &lt;_b z &lt;_b y)$. Moreover at each node of the game, the equilibrium constructed for the proof is Pareto-optimal among all the outcomes occurring in the subgame. Additional results for non-linear preferences are presented.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-23T12:53:24Z</published>
+    <arxiv:comment>The alternative definition of the difference hierarchy has changed slightly</arxiv:comment>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Stephane Le Roux</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.06392v3</id>
+    <title>Linear combinations of primitive elements of a finite field</title>
+    <updated>2018-08-31T01:34:16Z</updated>
+    <link href="https://arxiv.org/abs/1711.06392v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.06392v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine linear sums of primitive roots and their inverses in finite fields. In particular, we refine a result by Li and Han, and show that every $p&gt; 13$ has a pair of primitive roots $a$ and $b$ such that $a+ b$ and $a^{-1} + b^{-1}$ are also primitive roots mod $p$.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-17T04:02:15Z</published>
+    <arxiv:comment>19 pages; to appear in Finite Fields Appl</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Finite Fields and Their Applications Volume 51, May 2018</arxiv:journal_ref>
+    <author>
+      <name>Stephen Cohen</name>
+    </author>
+    <author>
+      <name>Tomás Oliveira e Silva</name>
+    </author>
+    <author>
+      <name>Nicole Sutherland</name>
+    </author>
+    <author>
+      <name>Tim Trudgian</name>
+    </author>
+    <arxiv:doi>10.1016/j.ffa.2018.02.009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ffa.2018.02.009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.02994v3</id>
+    <title>$q$-Borel-Laplace summation for $q$-difference equations with two slopes</title>
+    <updated>2016-06-25T10:36:29Z</updated>
+    <link href="https://arxiv.org/abs/1501.02994v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.02994v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider linear $q$-difference systems with coefficients that are germs of meromorphic functions, with Newton polygon that has two slopes. Then, we explain how to compute similar meromorphic gauge transformations than those appearing in the work of Bugeaud, using a $q$-analogue of the Borel-Laplace summation.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-13T13:24:32Z</published>
+    <arxiv:comment>The final version of this paper will be published in Journal of Difference Equations and Applications</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Journal of Difference Equations and Applications, 22 (2016), no. 10, 1501-1511</arxiv:journal_ref>
+    <author>
+      <name>Thomas Dreyfus</name>
+    </author>
+    <author>
+      <name>Anton Eloy</name>
+    </author>
+    <arxiv:doi>10.1080/10236198.2016.1209192</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10236198.2016.1209192" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.2804v1</id>
+    <title>Semiconjugate Factorizations of Higher Order Linear Difference Equations in Rings</title>
+    <updated>2013-01-13T18:31:38Z</updated>
+    <link href="https://arxiv.org/abs/1301.2804v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.2804v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study linear difference equations with variable coefficients in a ring using a new nonlinear method. In a ring with identity, if the homogeneous part of the linear equation has a solution in the unit group of the ring (i.e., a unitary solution) then we show that the equation decomposes into two linear equations of lower orders. This decomposition, known as a semiconjugate factorization in the nonlinear theory, generalizes the classical operator factorization in the linear context. Sequences of ratios of consecutive terms of a unitary solution are used to obtain the semiconjugate factorization. Such sequences, known as eigensequences are well-suited to variable coefficients; for instance, they provide a natural context for the expression of the classical Poincaré-Perron Theorem. We discuss some applications to linear difference equations with periodic coefficients and also derive formulas for the general solutions of linear functional recurrences satisfied by the classical special functions such as the modified Bessel and Chebyshev.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-13T18:31:38Z</published>
+    <arxiv:comment>Application of nonlinear semiconjugate factorization theory to linear difference equations with variable coefficients in rings; 29 pages, containing the main theory and more than 8 examples worked out in detail</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Journal of Difference Equations and Applications, 20 (2014) 251-270</arxiv:journal_ref>
+    <author>
+      <name>H. Sedaghat</name>
+    </author>
+    <arxiv:doi>10.1080/10236198.2013.830610</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10236198.2013.830610" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.03101v3</id>
+    <title>Pro-$p$ groups of positive rank gradient and Hausdorff dimension</title>
+    <updated>2019-10-31T07:54:11Z</updated>
+    <link href="https://arxiv.org/abs/1901.03101v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.03101v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $G$ be a finitely generated pro-$p$ group of positive rank gradient. Motivated by the study of Hausdorff dimension, we show that finitely generated closed subgroups $H$ of infinite index in $G$ never contain any infinite subgroups $K$ that are subnormal in~$G$ via finitely generated successive quotients. This pro-$p$ version of a well-known theorem of Greenberg generalises similar assertions that were known to hold for non-abelian free pro-$p$ groups, non-soluble Demushkin pro-$p$ groups and other related pro-$p$ groups. The result we prove is reminiscent of Gaboriau's theorem for countable groups with positive first $\ell^2$-Betti number, but not quite a direct analogue.
+  The approach via the notion of Hausdorff dimension in pro-$p$ groups also leads to our main results. We show that every finitely generated pro-$p$ group $G$ of positive rank gradient has full Hausdorff spectrum $\text{hspec}^\mathcal{F}(G) = [0,1]$ with respect to the Frattini series~$\mathcal{F}$. Using different, Lie-theoretic techniques we also prove that finitely generated non-abelian free pro-$p$ groups and non-soluble Demushkin groups $G$ have full Hausdorff spectrum $\text{hspec}^\mathcal{Z}(G) = [0,1]$ with respect to the Zassenhaus series~$\mathcal{Z}$. This resolves a long-standing problem in the subject of Hausdorff dimensions in pro-$p$ groups.
+  The results about full Hausdorff spectra hold more generally for finite direct products of finitely generated pro-$p$ groups of positive rank gradient and for mixed finite direct products of finitely generated non-abelian free pro-$p$ groups and non-soluble Demushkin groups, respectively. Analogously, the aforementioned results with respect to the Frattini series generalise further to Hausdorff dimension functions with respect to arbitrary iterated verbal filtrations. Finally, we determine the normal Hausdorff spectra of such direct products.</summary>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-10T11:11:32Z</published>
+    <arxiv:comment>Following referees suggestions and useful conversations, we mainly changed Section 4.3 and added Section 5, where we prove that non-soluble Demushkin groups have full Hausdorff spectrum with respect to the Zassenhaus filtration (see Theorem 1.5)</arxiv:comment>
+    <arxiv:primary_category term="math.GR"/>
+    <arxiv:journal_ref>J. London Math. Soc., 101 (2020): 1008-1040</arxiv:journal_ref>
+    <author>
+      <name>Oihana Garaialde Ocaña</name>
+    </author>
+    <author>
+      <name>Alejandra Garrido</name>
+    </author>
+    <author>
+      <name>Benjamin Klopsch</name>
+    </author>
+    <arxiv:doi>10.1112/jlms.12295</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1112/jlms.12295" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.04345v1</id>
+    <title>Hausdorff moment sequences and hypergeometric functions</title>
+    <updated>2024-11-07T00:54:51Z</updated>
+    <link href="https://arxiv.org/abs/2411.04345v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.04345v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pólya in 1926 showed that the hypergeometric function $F(z)=\null_2F_1(a,b;c;z)$ has a totally monotone sequence as its coefficients; that is, $F$ is the generating function of a Hausdorff moment sequence, when $0\le a\le 1$ and $0\le b\le c.$ In this paper, we give a complete characterization of such hypergeometric functions $F$ in terms of complex parameters $a,b,c.$ To this end, we study the class of general properties of generating functions of Hausdorff moment sequences and, in particular, we provide a sufficient condition for the class by making use of a Phragmèn-Lindelöf type theorem. As an application, we give also a necessary and sufficient condition for a shifted hypergeometric function to be universally starlike.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-07T00:54:51Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Toshiyuki Sugawa</name>
+    </author>
+    <author>
+      <name>Li-Mei Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0506048v4</id>
+    <title>Note on the Merit Factors of Sequences</title>
+    <updated>2013-07-10T17:39:17Z</updated>
+    <link href="https://arxiv.org/abs/math/0506048v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0506048v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A method for estimating the merit factors of sequences will be provided. The result is also effective in determining the nonexistence of certain infinite collections of cyclic difference sets and cyclic matrices and associated binary sequences.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-06-02T16:11:26Z</published>
+    <arxiv:comment>Key Words: Binary sequences, Merit factor, Barker sequence, cyclic Hadamard matrix, Menon difference sets. 19 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>N. A. Carella</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.09868v1</id>
+    <title>Determinacy Witnesses in the Completely Monotone--Stieltjes--Bernstein Hierarchy</title>
+    <updated>2026-07-10T18:01:41Z</updated>
+    <link href="https://arxiv.org/abs/2607.09868v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.09868v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Membership problems in the completely monotone--Stieltjes--Bernstein hierarchy often become explicit after passage to a determinate representation. We organize that passage as a witness calculus. For the Laplace, Stieltjes, and Hausdorff transforms used here, W f denotes the unique admissible signed representing datum; a certificate either proves its positivity or exhibits an obstruction. A concrete dictionary for completely monotone, logarithmically completely monotone, Bernstein, complete Bernstein, and Stieltjes functions and for Hausdorff moment sequences is combined with transport rules for products, shifts, sampling, and Bernstein increments.
+  The applications are consequences of this common calculation. A triple-product identity for a digamma bridge controls ordinary Bernstein and logarithmic complete monotonicity ranges for gamma ratios and gives the strict power cutoff in Szabo's problem. For integer gamma quotients, the inverse Laplace density is a damped Jacobi polynomial, so classical zero geometry decides broad parameter regions. Boundary signs distinguish Bernstein from complete Bernstein behavior and separate completely monotone functions from the Stieltjes class. On the discrete side, signed atoms and finite differences settle interpolation and coefficient questions. The Ramanujan integral and a fractional Volterra symbol provide positive recognition examples. Across the applications, the workflow is the same: normalize the class question, compute or transport its witness, and decide one explicit sign problem. Every exclusion is accompanied by an exact certificate.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-10T18:01:41Z</published>
+    <arxiv:comment>33 pages, 35 references, no figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Domingos S. P. Salazar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.08931v3</id>
+    <title>Exponential sum approximations of finite completely monotonic functions</title>
+    <updated>2023-07-22T09:31:02Z</updated>
+    <link href="https://arxiv.org/abs/2301.08931v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.08931v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bernstein's theorem (also called Hausdorff--Bernstein--Widder theorem) enables the integral representation of a completely monotonic function. We introduce a finite completely monotonic function, which is a completely monotonic function with a finite positive integral interval of the integral representation. We consider the exponential sum approximation of a finite completely monotonic function based on the Gaussian quadrature with a variable transformation. If the variable transformation is analytic on an open Bernstein ellipse, the maximum absolute error decreases at least geometrically with respect to the number of exponential functions. The maximization of the decreasing rate of the error bound can be achieved by using a variable transformation represented by Jacobi's delta amplitude function (also called dn function). The error curve is expanded by introducing basis functions, which are eigenfunctions of a fourth order differential operator, satisfy orthogonality conditions, and have the interlacing property of zeros by Kellogg's theorem.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-21T10:00:54Z</published>
+    <arxiv:comment>49 pages, 9 figures, 2 tables, modified the discussion section</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Yohei M. Koyama</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.10328v2</id>
+    <title>Generalized Hausdorff dimension of irrationals with Lagrange value exactly 3</title>
+    <updated>2026-02-26T14:34:04Z</updated>
+    <link href="https://arxiv.org/abs/2511.10328v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.10328v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the generalized Hausdorff dimension of some natural subsets of $k^{-1}(3)$, where $k^{-1}(3)$ consists of the real numbers $x$ for which $\left| x-\frac{p}{q} \right|&lt;\frac{1}{(3+\varepsilon)q^2}$ has infinitely many rational solutions $\frac{p}{q}$ for any $\varepsilon&lt;0$ but only finitely many for any $\varepsilon&gt;0$. It is well known that $k^{-1}(3)$ is an uncountable set with Hausdorff dimension zero. Given any dimension function $h$, we determine the exact "cut point" at which the generalized Hausdorff dimension $\mathcal{H}^h(k^{-1}(3))$ drops from infinity to zero. In particular we show that such a measure is always zero or not $σ$--finite, and, as an application, we can classify topologically $k^{-1}(3)$. Moreover, we show that the subset of attainable elements of $k^{-1}(3)$ has the same generalized Hausdorff dimension as $k^{-1}(3)$, but the subset of non--attainable elements of $k^{-1}(3)$ has a "strictly smaller" generalized Hausdorff dimension.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-13T14:00:52Z</published>
+    <arxiv:comment>This revised 28-page version refines our previous result for $K_3$ and establishes a more precise generalized Hausdorff dimension for the non--attainable elements of $k^{-1}(3)$</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Carlos Gustavo Moreira</name>
+    </author>
+    <author>
+      <name>Harold Erazo</name>
+    </author>
+    <author>
+      <name>Nicolas Angelini</name>
+    </author>
+  </entry>
+</feed>

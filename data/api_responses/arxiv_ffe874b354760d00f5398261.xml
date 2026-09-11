@@ -1,0 +1,578 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/L/mlwqOX8bReihW8bqfhVnYikz8</id>
+  <title>arXiv Query: search_query=all:concavity OR all:convexity OR all:of OR all:the OR all:static OR all:quark OR all:antiquark OR all:potential&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:39:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:concavity+OR+(all:convexity+OR+(all:of+OR+(all:the+OR+(all:static+OR+(all:quark+OR+(all:antiquark+OR+all:potential))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>493280</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0703105v2</id>
+    <title>Effective Quark Antiquark Potential in the Quark Gluon Plasma from Gravity Dual Models</title>
+    <updated>2007-05-18T20:33:56Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0703105v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0703105v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We estimate the effective heavy quark and antiquark potential in the quark gluon plasma using the gravity dual theory. Two models are considered: $AdS_{5}$ and Sakai-Sugimoto model. The effective potential, obtained by using the rotating fundamental open-string configurations, has the angular momentum dependence which generalizes the static central potential. Motivated by the asymptotic form for zero angular momentum state, we fit the effective potential for $J=1,2$ states in the binding region. The fitting parameters are found to be functions of temperature. Finally, we discuss the differences and similarities of the effective potential between the two gravity dual models. An interesting result is that position of the minimum of potential is determined only by angular momentum and independent of the temperature.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-03-09T13:37:39Z</published>
+    <arxiv:comment>23 pages, 12 figures, 3 tables, subsection on mass dependence of the potential added</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP 0706:046,2007</arxiv:journal_ref>
+    <author>
+      <name>Oleg Antipin</name>
+    </author>
+    <author>
+      <name>Piyabut Burikham</name>
+    </author>
+    <author>
+      <name>Jun Li</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2007/06/046</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2007/06/046" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9610209v2</id>
+    <title>The static quark-antiquark potential in QCD to three loops</title>
+    <updated>1997-02-04T14:29:50Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9610209v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9610209v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The static potential between an infinitely heavy quark and antiquark is derived in the framework of perturbative QCD to three loops by performing a full calculation of the two-loop diagrams and using the renormalization group. The contribution of massless fermions is included.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-10-01T12:57:28Z</published>
+    <arxiv:comment>Latex, 11 pages, 3 figures included. The complete paper, including figures, is also available via anonymous ftp at ftp://ttpux2.physik.uni-karlsruhe.de/ , or via www at http://www-ttp.physik.uni-karlsruhe.de/cgi-bin/preprints/ . Revised version, essentially identical to the version published in Physical Review Letters</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett. 78 (1997) 602-605</arxiv:journal_ref>
+    <author>
+      <name>Markus Peter</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.78.602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.78.602" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9809229v1</id>
+    <title>The quark-antiquark Wilson loop formalism in the NRQCD power counting scheme</title>
+    <updated>1998-09-02T09:35:34Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9809229v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9809229v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The quark-antiquark interaction from the NRQCD Lagrangian is studied in the Wilson loop formalism.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-09-02T09:35:34Z</published>
+    <arxiv:comment>4 pages, Latex (worldsci.sty). Talk presented at the Third International Conference on Quark Confinement and the Hadron Spectrum, Jefferson Lab, Newport News, Virginia, June 7-12, 1998; to appear in the Proceedings</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>``Quark Confinement and the Hadron Spectrum III'', 239, ed. N. Isgur (World Scientific, Singapore, 2000)</arxiv:journal_ref>
+    <author>
+      <name>Antonio Vairo</name>
+      <arxiv:affiliation>HEPHY Vienna</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.1762v1</id>
+    <title>Static potential for the quark-antiquark-gluon hybrid system in lattice QCD</title>
+    <updated>2007-10-09T13:21:00Z</updated>
+    <link href="https://arxiv.org/abs/0710.1762v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.1762v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The static gluon-quark-antiquark interaction is investigated using lattice QCD techniques. A Wilson loop adequate to the static hybrid three-body system is developed and, using a $24^3 \times 48$ periodic lattice with $β= 6.2$, the potential energy of the system is measured for different geometries. For the medium range behaviour, when the quarks are far apart, we find a string tension which is compatible with two fundamental strings. On the other hand, when the quark and antiquark are nearby, the string tension is larger than two fundamental strings and is compatible with the Casimir scaling.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-09T13:21:00Z</published>
+    <arxiv:comment>7 pages, 8 figures. Presented in The XXV International Symposium on Lattice Field Theory July 30-4 August 2007 Regensburg, Germany</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoSLAT2007:293,2007</arxiv:journal_ref>
+    <author>
+      <name>Marco Cardoso</name>
+    </author>
+    <author>
+      <name>Pedro Bicudo</name>
+    </author>
+    <author>
+      <name>Orlando Oliveira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0704.2156v1</id>
+    <title>First study of the gluon-quark-antiquark static potential in SU(3) Lattice QCD</title>
+    <updated>2007-04-17T14:55:34Z</updated>
+    <link href="https://arxiv.org/abs/0704.2156v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0704.2156v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the long distance interaction for hybrid hadrons, with a static gluon, a quark and an antiquark with lattice QCD techniques. A Wilson loop adequate to the static hybrid three-body system is developed and, using a 24^3 x 48 periodic lattice with beta=6.2 and a ~ 0.075 fm, two different geometries for the gluon-quark segment and the gluon-antiquark segment are investigated. When these segments are perpendicular, the static potential is compatible with confinement realized with a pair of fundamental strings, one linking the gluon to the quark and another linking the same gluon to the antiquark. When the segments are parallel and superposed, the total string tension is larger and agrees with the Casimir Scaling measured by Bali. This can be interpreted with a type-II superconductor analogy for the confinement in QCD, with repulsion of the fundamental strings and with the string tension of the first topological excitation of the string (the adjoint string) larger than the double of the fundamental string tension.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-04-17T14:55:34Z</published>
+    <arxiv:comment>4 pages RevTeX, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Phys.Rev.D77:091504,2008</arxiv:journal_ref>
+    <author>
+      <name>P. Bicudo</name>
+    </author>
+    <author>
+      <name>M. Cardoso</name>
+    </author>
+    <author>
+      <name>O. Oliveira</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.77.091504</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.77.091504" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0305091v2</id>
+    <title>Analytic invariant charge and the lattice static quark-antiquark potential</title>
+    <updated>2003-12-30T18:34:34Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0305091v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0305091v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A recently developed model for the QCD analytic invariant charge is compared with quenched lattice simulation data on the static quark-antiquark potential. By employing this strong running coupling one is able to obtain the confining quark-antiquark potential in the framework of the one-gluon exchange model. To achieve this objective a technique for evaluating the integrals of a required form is developed. Special attention is paid here to removing the divergences encountered the calculations. All this enables one to examine the asymptotic behavior of the potential at both small and large distances with high accuracy. An explicit expression for the quark-antiquark potential, which interpolates between these asymptotics, and satisfies the concavity condition, is proposed. The derived potential coincides with the perturbative results at small distances, and it is in a good agreement with the lattice data in the nonperturbative physically-relevant region. An estimation of the parameter $Λ_{QCD}$ is obtained for the case of pure gluodynamics. It is found to be consistent with all the previous estimations of $Λ_{QCD}$ in the framework of approach in hand.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-05-08T19:04:15Z</published>
+    <arxiv:comment>LaTeX2e, 10 pages with 3 EPS figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Int.J.Mod.Phys. A19 (2004) 3471-3480</arxiv:journal_ref>
+    <author>
+      <name>A. V. Nesterenko</name>
+    </author>
+    <arxiv:doi>10.1142/S0217751X04019688</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217751X04019688" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.4934v2</id>
+    <title>Relation between quark-antiquark potential and quark-antiquark free energy in hadronic matter</title>
+    <updated>2015-07-07T14:30:57Z</updated>
+    <link href="https://arxiv.org/abs/1406.4934v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.4934v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the high-temperature quark-gluon plasma and its subsequent hadronic matter created in a high-energy nucleus-nucleus collision, the quark-antiquark potential depends on the temperature. The temperature-dependent potential is expected to be derived from the free energy obtained in lattice gauge theory calculations. This requires one to study the relation between the quark-antiquark potential and the quark-antiquark free energy. When the system's temperature is above the critical temperature, the potential of a heavy quark and a heavy antiquark almost equals the free energy, but the potential of a light quark and a light antiquark, of a heavy quark and a light antiquark and of a light quark and a heavy antiquark is substantially larger than the free energy. When the system's temperature is below the critical temperature, the quark-antiquark free energy can be taken as the quark-antiquark potential. This allows one to apply the quark-antiquark free energy to study hadron properties and hadron-hadron reactions in hadronic matter.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-19T02:33:08Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Chin. Phys. C 39 (2015) 074103</arxiv:journal_ref>
+    <author>
+      <name>Zhen-Yu Shen</name>
+    </author>
+    <author>
+      <name>Xiao-Ming Xu</name>
+    </author>
+    <arxiv:doi>10.1088/1674-1137/39/7/074103</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1674-1137/39/7/074103" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0901.2260v1</id>
+    <title>The heavy quark-antiquark potential from lattice and perturbative QCD</title>
+    <updated>2009-01-15T13:31:46Z</updated>
+    <link href="https://arxiv.org/abs/0901.2260v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0901.2260v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The heavy quark-antiquark potential in perturbative QCD is subject to ambiguities. We show how to derive a well-defined and stable short-distance potential that can be matched to results from lattice QCD simulations at intermediate distances. The static potential as well as the order 1/m potential are discussed.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-01-15T13:31:46Z</published>
+    <arxiv:comment>2 pages, 2 figures, Proceedings of the 8th Conference on Quark Confinement and the Hadron Spectrum, September 1-6, 2008, Mainz, Germany</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>PoS Confinement8:168,2008</arxiv:journal_ref>
+    <author>
+      <name>Alexander Laschka</name>
+    </author>
+    <author>
+      <name>Norbert Kaiser</name>
+    </author>
+    <author>
+      <name>Wolfram Weise</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.6314v1</id>
+    <title>On static quark anti-quark potential at non-zero temperature</title>
+    <updated>2012-10-23T18:03:32Z</updated>
+    <link href="https://arxiv.org/abs/1210.6314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.6314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study Wilson loops at non-zero temperature and extract the static quark potential from them. The extracted potentials are larger than the singlet free energies and do not show screening for $T&lt;190$ MeV.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-23T18:03:32Z</published>
+    <arxiv:comment>Contribution to the proceedings of Quark Matter 2012, 4 pages, uses elsarticle</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>A. Bazavov</name>
+    </author>
+    <author>
+      <name>P. Petreczky</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysa.2013.02.085</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2013.02.085" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.00885v3</id>
+    <title>Extremal sections and projections of certain convex bodies: a survey</title>
+    <updated>2023-06-21T11:19:56Z</updated>
+    <link href="https://arxiv.org/abs/2210.00885v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.00885v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We survey results concerning sharp estimates on volumes of sections and projections of certain convex bodies, mainly $\ell_p$ balls, by and onto lower dimensional subspaces. This subject emerged from geometry of numbers several decades ago and since then has seen development of a variety of probabilistic and analytic methods, showcased in this survey.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-03T12:39:20Z</published>
+    <arxiv:comment>References updated. To appear in "Harmonic Analysis and Convexity"</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Harmonic analysis and convexity, 343-390, Adv. Anal. Geom., 9, De Gruyter, Berlin, 2023</arxiv:journal_ref>
+    <author>
+      <name>Piotr Nayar</name>
+    </author>
+    <author>
+      <name>Tomasz Tkocz</name>
+    </author>
+    <arxiv:doi>10.1515/9783110775389-008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1515/9783110775389-008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.2876v2</id>
+    <title>The static potential in {\cal N}=4 supersymmetric Yang-Mills at weak coupling</title>
+    <updated>2007-10-28T08:57:32Z</updated>
+    <link href="https://arxiv.org/abs/0709.2876v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.2876v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We compute the static potential associated to the locally 1/2 BPS Wilson loop in ${\cal N}$=4 supersymmetric Yang-Mills theory with ${\cal O}(λ^2/r)$ accuracy. We also resum the leading logarithms, of ${\cal O}(λ^{n+1}\ln^nλ/r)$, and show the structure of the renormalization group equation at next-to-leading order in the multipole expansion. In order to obtain these results it is crucial the use of an effective theory for the ultrasoft degrees of freedom. We develop this theory up to next-to-leading order in the multipole expansion. Using the same formalism we also compute the leading logarithms, of ${\cal O}(λ^{n+3}\ln^nλ/r)$, of the static potential associated to an ordinary Wilson loop in the same theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-18T16:42:11Z</published>
+    <arxiv:comment>6 pages, 1 figure. Two references added, misprints corrected. Computation of the static potential associated to the ordinary static Wilson loop incorporated</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D77:021701,2008</arxiv:journal_ref>
+    <author>
+      <name>Antonio Pineda</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.77.021701</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.77.021701" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.05720v3</id>
+    <title>Quark-antiquark potential from a deformed AdS/QCD</title>
+    <updated>2019-01-02T22:50:54Z</updated>
+    <link href="https://arxiv.org/abs/1806.05720v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.05720v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we calculate the static limit of the energy for a quark-antiquark pair from the Nambu-Goto action using a holographic approach with a deformed AdS space, with warp factor $\exp\{(κz)^n/n\}$.
+  From this energy we derive the Cornell potential for the quark-antiquark interaction. We also find a range of values for our parameters which fits exactly the Cornell potential parameters. In particular, setting the zero energy of the Cornell potential at 0.33 fermi, we find that $κ=0.56$ GeV and $n=1.3$.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-14T20:01:57Z</published>
+    <arxiv:comment>15 pages, 2 figures. V3: Abstract changed, typos corrected, text improved, new appendix, figures 1 and 2 slightly different, figure 2 now presents explicitly our result for the Cornell Potential, results unchanged." To appear in AHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Adv.High Energy Phys. 2019 (2019) 1901659</arxiv:journal_ref>
+    <author>
+      <name>Rodrigo C. L. Bruni</name>
+    </author>
+    <author>
+      <name>Eduardo Folco Capossoli</name>
+    </author>
+    <author>
+      <name>Henrique Boschi-Filho</name>
+    </author>
+    <arxiv:doi>10.1155/2019/1901659</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1155/2019/1901659" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.10909v3</id>
+    <title>Determination of $Λ_{\overline{\textrm{MS}}}^{(n_f=2)}$ and analytic parameterization of the static quark-antiquark potential</title>
+    <updated>2018-11-29T11:11:55Z</updated>
+    <link href="https://arxiv.org/abs/1804.10909v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.10909v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While lattice QCD allows for reliable results at small momentum transfers (large quark separations), perturbative QCD is restricted to large momentum transfers (small quark separations). The latter is determined up to a reference momentum scale $Λ$, which is to be provided from outside, e.g. from experiment or lattice QCD simulations. In this article, we extract $Λ_{\overline{\textrm{MS}}}$ for QCD with $n_f=2$ dynamical quark flavors by matching the perturbative static quark-antiquark potential in momentum space to lattice results in the intermediate momentum regime, where both approaches are expected to be applicable. In a second step, we combine the lattice and the perturbative results to provide a complete analytic parameterization of the static quark-antiquark potential in position space up to the string breaking scale. As an exemplary phenomenological application of our all-distances potential we compute the bottomonium spectrum in the static limit.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-29T11:54:16Z</published>
+    <arxiv:comment>36 pages, 7 figures; extended version accepted for publication by PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 98, 114506 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Felix Karbstein</name>
+    </author>
+    <author>
+      <name>Marc Wagner</name>
+    </author>
+    <author>
+      <name>Michelle Weber</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.98.114506</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.98.114506" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.06466v2</id>
+    <title>Lattice study of static quark-antiquark interactions in dense quark matter</title>
+    <updated>2019-02-09T13:07:16Z</updated>
+    <link href="https://arxiv.org/abs/1808.06466v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.06466v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the interactions among a static quark-antiquark pair in the presence of dense two-color quark matter with lattice simulation. To this end we compute Polyakov line correlation functions and determine the renormalized color averaged, color singlet and color triplet grand potentials. The color singlet grand potential allows us to elucidate the number of quarks induced by a static quark antiquark source, as well as the internal energy of such a pair in dense quark matter. We furthermore determine the screening length, which in the confinement phase is synonymous with the string breaking distance. The screening length is a decreasing function of baryon density, due to the possibility to break the interquark string via a scalar diquark condensate at high density. We also study the large distance properties of the color singlet grand potential in a dense medium and find that it is well described by a simple Debye screening formula, parameterized by a Debye mass and an effective coupling constant. The latter is of order of unity, i.e. even at large density two-color quark matter is a strongly correlated system.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-20T14:19:49Z</published>
+    <arxiv:comment>14 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>JHEP05(2019)171</arxiv:journal_ref>
+    <author>
+      <name>N. Yu. Astrakhantsev</name>
+    </author>
+    <author>
+      <name>V. G. Bornyakov</name>
+    </author>
+    <author>
+      <name>V. V. Braguta</name>
+    </author>
+    <author>
+      <name>E. -M. Ilgenfritz</name>
+    </author>
+    <author>
+      <name>A. Yu. Kotov</name>
+    </author>
+    <author>
+      <name>A. A. Nikolaev</name>
+    </author>
+    <author>
+      <name>A. Rothkopf</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP05(2019)171</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP05(2019)171" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0511033v1</id>
+    <title>Grand Canonical Potential for a Static Quark-Antiquark Pair at finite chemical potential</title>
+    <updated>2005-11-16T17:08:38Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0511033v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0511033v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The grand canonical potential for a static quark-antiquark pair at non-vanishing chemical potential was determined at several temperatures. The dynamical staggered simulations were carried out with 2+1 physical quarks along the Lines of Constant Physiscs (LCP).</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-11-16T17:08:38Z</published>
+    <arxiv:comment>6 pages, Presented at 23rd International Symposium on Lattice Field Theory: Lattice 2005, Trinity College, Dublin, Ireland, 25-30 Jul 2005</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2005 (2005) 178</arxiv:journal_ref>
+    <author>
+      <name>Z. Fodor</name>
+    </author>
+    <author>
+      <name>C. Guse</name>
+    </author>
+    <author>
+      <name>S. Katz</name>
+    </author>
+    <author>
+      <name>K. Szabo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0804.0993v1</id>
+    <title>Static quark-antiquark pairs at finite temperature</title>
+    <updated>2008-04-07T09:29:13Z</updated>
+    <link href="https://arxiv.org/abs/0804.0993v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.0993v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In a framework that makes close contact with modern effective field theories for non-relativistic bound states at zero temperature, we study the real-time evolution of a static quark-antiquark pair in a medium of gluons and light quarks at finite temperature. For temperatures ranging from values larger to smaller than the inverse distance of the quark and antiquark, 1/r, and at short distances, we derive the potential between the two static sources, and calculate their energy and thermal decay width. Two mechanisms contribute to the thermal decay width: the imaginary part of the gluon self energy induced by the Landau damping phenomenon, and the quark-antiquark color singlet to color octet thermal break up. Parametrically, the first mechanism dominates for temperatures such that the Debye mass is larger than the binding energy, while the latter, which we quantify here for the first time, dominates for temperatures such that the Debye mass is smaller than the binding energy. If the Debye mass is of the same order as 1/r, our results are in agreement with a recent calculation of the static Wilson loop at finite temperature. For temperatures smaller than 1/r, we find new contributions to the potential, both real and imaginary, which may be relevant to understand the onset of heavy quarkonium dissociation in a thermal medium.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-07T09:29:13Z</published>
+    <arxiv:comment>42 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D78:014017,2008</arxiv:journal_ref>
+    <author>
+      <name>Nora Brambilla</name>
+    </author>
+    <author>
+      <name>Jacopo Ghiglieri</name>
+    </author>
+    <author>
+      <name>Peter Petreczky</name>
+    </author>
+    <author>
+      <name>Antonio Vairo</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.78.014017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.78.014017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0909.1204v1</id>
+    <title>Long-distance behavior of the quark-antiquark static potential. Application to light-quark mesons and heavy quarkonia</title>
+    <updated>2009-09-07T10:25:06Z</updated>
+    <link href="https://arxiv.org/abs/0909.1204v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0909.1204v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Screening effects from sea pairs on the quark-antiquark static potential are analyzed phenomenologically from the light-quark to the heavy-quark meson spectra. From the high excited light-quark meson spectrum a universal form for the screened static potential is proposed. This potential is then succesfully applied to heavy quarkonia. Our results suggest the assignment of X(4260) to the 4s state of charmonium and the possible existence of a 5s bottomonium resonance around 10748 MeV.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-09-07T10:25:06Z</published>
+    <arxiv:comment>Accepted in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D80:054010,2009</arxiv:journal_ref>
+    <author>
+      <name>P. Gonzalez</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.80.054010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.80.054010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0707.2754v2</id>
+    <title>On the internal space dependence of the static quark-antiquark potential in ${\cal N}=4$ SYM plasma wind</title>
+    <updated>2007-07-26T14:21:43Z</updated>
+    <link href="https://arxiv.org/abs/0707.2754v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0707.2754v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the effect of the relative S^5-angle of a quark and an antiquark on their static potential and the related screening length in a strongly coupled moving ${\cal N}=4$ SYM plasma. The large velocity scaling law for the screening length holds for any relative S^5-angle $θ$. However, the velocity independent prefactor Z strongly depends on $θ$. For comparison with QCD we propose to average Z over all relative orientations on S^5. This generates a suppression factor relative to the case $θ=0$.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-07-18T16:04:37Z</published>
+    <arxiv:comment>7 pages, 3 figures, reference and comment added,</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett.B654:41-45,2007</arxiv:journal_ref>
+    <author>
+      <name>Harald Dorn</name>
+    </author>
+    <author>
+      <name>Thanh Hai Ngo</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2007.08.039</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2007.08.039" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.8489v2</id>
+    <title>Perfect Abelian dominance of confinement in quark-antiquark potential in SU(3) lattice QCD</title>
+    <updated>2015-12-16T17:27:12Z</updated>
+    <link href="https://arxiv.org/abs/1412.8489v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.8489v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the context of the dual superconductor picture for the confinement mechanism, we study maximally Abelian (MA) projection of quark confinement in SU(3) quenched lattice QCD with $32^4$ at $β$=6.4 (i.e., $a \simeq$ 0.058 fm). We investigate the static quark-antiquark potential $V(r)$, its Abelian part $V_{\rm Abel}(r)$ and its off-diagonal part $V_{\rm off}(r)$, respectively, from the on-axis lattice data. As a remarkable fact, we find almost perfect Abelian dominance for quark confinement, i.e., $σ_{\rm Abel} \simeq σ$ for the string tension, on the fine and large-volume lattice. We find also a nontrivial summation relation of $V(r) \simeq V_{\rm Abel}(r) + V_{\rm off}(r)$.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-29T21:16:19Z</published>
+    <arxiv:comment>Invited talk at International Conference on "Quark Confinement and the Hadron Spectrum XI" (confinement XI), St. Petersburg, Russia, 7-13 Sep. 2014</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Hideo Suganuma</name>
+      <arxiv:affiliation>Kyoto U.</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Naoyuki Sakumichi</name>
+      <arxiv:affiliation>RIKEN</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0910.2794v1</id>
+    <title>Gluon chains and the quark-antiquark potential</title>
+    <updated>2009-10-15T07:22:59Z</updated>
+    <link href="https://arxiv.org/abs/0910.2794v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.2794v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The flux tube between a quark and an antiquark in Coulomb gauge is imagined in the gluon-chain model as a sequence of constituent gluons bound together by Coulombic nearest-neighbor interactions. We diagonalize the transfer matrix in SU(2) lattice gauge theory in a finite basis of states containing a static quark-antiquark pair together with zero, one, and two gluons in Coulomb gauge. We show that while the string tension of the color-Coulomb potential (obtained from the zero-gluon to zero-gluon element of the transfer matrix) overshoots the true asymptotic string tension by a factor of about three, the inclusion of a few states with constituent gluons reduces the discrepancy considerably. The minimal energy eigenstate of the transfer matrix in the zero-, one-, and two-gluon basis exhibits a linearly rising potential with the string tension only about 1.4 times larger than the asymptotic one.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-15T07:22:59Z</published>
+    <arxiv:comment>8 pages, 5 figures. Presented at the XXVII International Symposium on Lattice Field Theory (Vacuum Structure and Confinement), July 26-31, Beijing, China</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2009:240,2009</arxiv:journal_ref>
+    <author>
+      <name>J. Greensite</name>
+    </author>
+    <author>
+      <name>S. Olejnik</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0006186v1</id>
+    <title>Relativistic quark-antiquark potential and heavy quarkonium mass spectra</title>
+    <updated>2000-06-16T09:23:05Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0006186v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0006186v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A general approach to accounting for retardation effects in the long-range (confining) part of the quark-antiquark potential is presented. The charmonium and bottomonium mass spectra are calculated with the systematic account of relativistic and retardation effects and the one-loop radiative corrections. A good fit to available experimental data on the mass spectra is obtained.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-06-16T09:23:05Z</published>
+    <arxiv:comment>5 pages, JHEP class, Talk given at the Vth International Workshop "Heavy Quark Physics", Dubna, Russia, 6-8 April 2000</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>D. Ebert</name>
+    </author>
+    <author>
+      <name>R. N. Faustov</name>
+    </author>
+    <author>
+      <name>V. O. Galkin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0302072v2</id>
+    <title>A short distance quark-antiquark potential</title>
+    <updated>2003-02-17T19:16:43Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0302072v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0302072v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Leading terms of the static quark-antiquark potential in the background perturbation theory are reviewed, including perturbative, nonperturbative and interference ones. The potential is shown to describe lattice data at short quark-antiquark separations with a good accuracy.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-02-10T22:01:18Z</published>
+    <arxiv:comment>4 pages, 2 figures, talk at the NPD-2002 Conference, December 2-6, ITEP, Moscow, references updated</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Atom.Nucl. 67 (2004) 561-563; Yad.Fiz. 67 (2004) 579-582</arxiv:journal_ref>
+    <author>
+      <name>A. M. Badalian</name>
+      <arxiv:affiliation>ITEP, Moscow</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. S. Kuzmenko</name>
+      <arxiv:affiliation>ITEP, Moscow</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1134/1.1690065</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/1.1690065" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.13882v1</id>
+    <title>On the non-physical concavity of the quark potentials within the thick center vortex model</title>
+    <updated>2020-11-27T18:13:06Z</updated>
+    <link href="https://arxiv.org/abs/2011.13882v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.13882v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lattice gauge theory results show the confinement for the quark potential in different Yang-Mills theories and even the G(2) gauge theory. LGT calculations show that quark potential should have the down concavity behavior. Confinement properties can be explained using the thick center vortex model. However an upward concavity is seen in the quark potential intervals using this model. After study the reason of this concavity, it is shown the non physical concavity can be reduced by taking an arbitrary symmetric vortex flux in the space time plane of the lattice.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-27T18:13:06Z</published>
+    <arxiv:comment>30 pages,20 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Hadi Lookzadeh</name>
+    </author>
+    <author>
+      <name>M. Hosseini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0307170v2</id>
+    <title>Quantum Stein's lemma revisited, inequalities for quantum entropies, and a concavity theorem of Lieb</title>
+    <updated>2012-03-21T10:39:58Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0307170v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0307170v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive the monotonicity of the quantum relative entropy by an elementary operational argument based on Stein's lemma in quantum hypothesis testing. For the latter we present an elementary and short proof that requires the law of large numbers only. Joint convexity of the quantum relative entropy is proven too, resulting in a self-contained elementary version of Tropp's approach to Lieb's concavity theorem, according to which the map tr(exp(h+log a)) is concave in a on positive operators for self-adjoint h.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-07-24T15:18:39Z</published>
+    <arxiv:comment>18 pages, no figures. Completely rewritten update of the paper: Title changed, the proofs are considerably simplified, joint convexity of the relative entropy is taken into account and a self-contained, operational approach to a recent proof by Tropp of one of Lieb's concavity results for trace functions is presented. Use of the Hiai/Petz-approximation of the quantum relative entropy is avoided</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Igor Bjelakovic</name>
+    </author>
+    <author>
+      <name>Rainer Siegmund-Schultze</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0912.1274v1</id>
+    <title>Schwinger-Dyson equations and the quark-antiquark static potential</title>
+    <updated>2009-12-07T15:41:27Z</updated>
+    <link href="https://arxiv.org/abs/0912.1274v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.1274v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In lattice QCD, a confining potential for a static quark-antiquark pair can be computed with the Wilson loop technique. This potential, dominated by a linear potential at moderate distances, is consistent with the confinement with a flux tube, an extended and scalar system also directly observable in lattice QCD. Quantized flux tubes have also been observed in another class of confinement, the magnetic confinement in type II superconductors. On the other hand the solution of Schwinger Dyson Equations, say with the Landau gauge fixing and the truncation of the series of Feynman diagrams, already at the rainbow level for the self energy and at the ladder level for the Bethe Salpeter equation, provides a signal of a possible inverse quartic potential in momentum space derived from one gluon and one ghost exchange, consistent with confinement. Here we address the successes, difficulties and open problems of the matching of these two different perspectives of confinement, the Schwinger-Dyson perspective versus the flux tube perspective.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-07T15:41:27Z</published>
+    <arxiv:comment>12 pages, 18 figures; talk presented at QCD-TNT, Trento, 7-11 sep 2009</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS QCD-TNT09:003,2009</arxiv:journal_ref>
+    <author>
+      <name>P. Bicudo</name>
+    </author>
+    <author>
+      <name>G. Marques</name>
+    </author>
+    <author>
+      <name>M. Cardoso</name>
+    </author>
+    <author>
+      <name>N. Cardoso</name>
+    </author>
+    <author>
+      <name>O. Oliveira</name>
+    </author>
+  </entry>
+</feed>

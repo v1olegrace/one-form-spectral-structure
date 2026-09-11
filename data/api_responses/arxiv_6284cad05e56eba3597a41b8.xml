@@ -1,0 +1,611 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BbFThIwzKzAJKO1cnuC63V/CKfA</id>
+  <title>arXiv Query: search_query=all:Wichmann-Kroll OR all:vacuum OR all:polarization OR all:potential&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:39:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Wichmann-Kroll+OR+(all:vacuum+OR+(all:polarization+OR+all:potential))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>433252</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.06758v1</id>
+    <title>Vacuum polarization and Wichmann-Kroll correction in the finite basis set approximation</title>
+    <updated>2024-06-10T19:36:11Z</updated>
+    <link href="https://arxiv.org/abs/2406.06758v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.06758v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The finite basis set method is commonly used to calculate atomic spectra, including QED contributions such as bound-electron self-energy. Still, it remains problematic and underexplored for vacuum-polarization calculations. We fill this gap by trying this approach in its application to the calculation of the vacuum-polarization charge density and the Wichmann-Kroll correction to the electron binding energy in a hydrogen-like ion. We study the convergence of the method with different types and sizes of basis sets. We cross-check our results for the Wichmann-Kroll correction by direct integration of the Green's function. As a relevant example, we consider several heavy hydrogen-like ions and evaluate the vacuum polarization correction for $S$ and $P$ electron orbitals.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-10T19:36:11Z</published>
+    <arxiv:comment>10 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 110, 032815 (2024)</arxiv:journal_ref>
+    <author>
+      <name>V. K. Ivanov</name>
+    </author>
+    <author>
+      <name>S. S. Baturin</name>
+    </author>
+    <author>
+      <name>D. A. Glazov</name>
+    </author>
+    <author>
+      <name>A. V. Volotka</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.110.032815</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.110.032815" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.05860v1</id>
+    <title>$\mathcal{O}\left(mα^2 (Zα)^6\right)$ contribution to Lamb shift from radiative corrections to the Wichmann-Kroll potential</title>
+    <updated>2023-11-10T04:07:11Z</updated>
+    <link href="https://arxiv.org/abs/2311.05860v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.05860v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive an analytical expression for the contribution of the order $mα^2 (Zα)^6$ to the hydrogen Lamb shift which comes from the diagrams for radiative corrections to the Wichmann-Kroll potential. We use modern methods of multiloop calculations, based on IBP reduction, DRA method and differential equations.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-10T04:07:11Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Petr A. Krachkov</name>
+    </author>
+    <author>
+      <name>Roman N. Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.12376v1</id>
+    <title>Rotational Curves of the Milky Way Galaxy and Andromeda Galaxy in Light of Vacuum Polarization around Eicheon</title>
+    <updated>2023-09-21T09:40:54Z</updated>
+    <link href="https://arxiv.org/abs/2309.12376v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.12376v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Eicheon properties are discussed. It is shown that the eicheon surface allows setting a boundary condition for the vacuum polarization and obtaining a solution describing the dark matter tail in the Milky Way Galaxy. That is, the dark matter in the Milky Way Galaxy is explained as the F-type of vacuum polarization, which could be treated as dark radiation. The model presented is spherically symmetric, but a surface density of a baryonic galaxy disk is taken into account approximately by smearing the disk over a sphere. This allows the reproduction of the large distance shape of the Milky Way Galaxy rotational curve. Andromeda Galaxy's rotational curve is also discussed.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-21T09:40:54Z</published>
+    <arxiv:comment>This paper is an extended version of "Dark Matter in the Milky Way Galaxy as the F-Type of Vacuum Polarization.'' from the Proceedings of the 2nd Electronic Conference on Universe, 16 February--2 March 2023</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Universe 2023, 9(9), 424</arxiv:journal_ref>
+    <author>
+      <name>Sergey L. Cherkas</name>
+    </author>
+    <author>
+      <name>Vladimir L. Kalashnikov</name>
+    </author>
+    <arxiv:doi>10.3390/universe9090424</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/universe9090424" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.0847v2</id>
+    <title>Is dark matter an illusion created by the gravitational polarization of the quantum vacuum?</title>
+    <updated>2011-11-08T20:43:48Z</updated>
+    <link href="https://arxiv.org/abs/1106.0847v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.0847v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Assuming that a particle and its antiparticle have the gravitational charge of the opposite sign, the physical vacuum may be considered as a fluid of virtual gravitational dipoles. Following this hypothesis, we present the first indications that dark matter may not exist and that the phenomena for which it was invoked might be explained by the gravitational polarization of the quantum vacuum by the known baryonic matter.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-04T18:31:49Z</published>
+    <arxiv:comment>We have added an Appendix in order to show that the gravitational polarization of the quantum vacuum allows the understanding of the universality of the central surface density of galaxy dark matter haloes, the cored dark matter haloes in dwarf spheroidal galaxies, the non-existence of dark disks in spiral galaxies and distribution of dark matter after collision of clusters of galaxies</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Astrophys.Space Sci.334:215-218,2011</arxiv:journal_ref>
+    <author>
+      <name>Dragan Slavkov Hajdukovic</name>
+    </author>
+    <arxiv:doi>10.1007/s10509-011-0744-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10509-011-0744-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.08763v2</id>
+    <title>All-Order Wichmann and Kroll Contribution in Heavy Electronic and Exotic Atoms</title>
+    <updated>2026-01-15T10:20:50Z</updated>
+    <link href="https://arxiv.org/abs/2509.08763v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.08763v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a theoretical study of the Wichmann and Kroll correction to the one-loop vacuum polarization (VP) to all-orders in $αZ$. We consider electronic, muonic, and antiprotonic atoms for a wide range of nuclear charge numbers and explicitly investigate the influence of finite nuclear size effects and different nuclear models. Moreover, we place special emphasis on circular Rydberg states in the exotic atoms as they have recently attracted interest as a tool to perform isolated tests of strong-field QED. We find that the higher-order vacuum polarization is strongly enhanced in exotic atoms and remains large enough in highly excited Rydberg states that an accurate treatment is crucial for the analysis of upcoming spectroscopy experiments like PAX. Moreover, our calculations show that the VP contribution to the Lamb shift in these exotic Rydberg states has almost no dependence on the structure of the nucleus.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-10T16:52:46Z</published>
+    <arxiv:comment>9 pages, 2 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Jonas Sommerfeldt</name>
+    </author>
+    <author>
+      <name>Paul Indelicato</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.22979v1</id>
+    <title>Wichmann-Kroll Correction in Muonic Atoms and Hydrogen-Like Electronic Ions: a Comparative Study of Two Methods</title>
+    <updated>2026-01-30T13:43:27Z</updated>
+    <link href="https://arxiv.org/abs/2601.22979v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.22979v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wichmann-Kroll corrections are calculated in both hydrogen-like electronic ions and muonic systems ($Z = \{36$--$92\}$) using two independent methods. The Gaussian finite basis set approach, enhanced with dual basis construction, analytical large-distance corrections, and $B$-spline representations, provides computational efficiency. The Green function method, based on semi-analytical construction from Dirac solutions with Fermi nuclear charge distributions, offers higher systematic accuracy and freedom from basis-dependent artifacts. Results are consistent with the literature values, providing reliable reference data for precision spectroscopy of exotic atoms.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-30T13:43:27Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Zoia A. Mandrykina</name>
+    </author>
+    <author>
+      <name>Zewen Sun</name>
+    </author>
+    <author>
+      <name>Natalia S. Oreshkina</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.0323v1</id>
+    <title>Modeling Scattering Polarization for Probing Solar Magnetism</title>
+    <updated>2011-05-02T13:35:22Z</updated>
+    <link href="https://arxiv.org/abs/1105.0323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.0323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper considers the problem of modeling the light polarization that emerges from an astrophysical plasma composed of atoms whose excitation state is significantly influenced by the anisotropy of the incident radiation field. In particular, it highlights how radiative transfer simulations in three-dimensional models of the quiet solar atmosphere may help us to probe its thermal and magnetic structure, from the near equilibrium photosphere to the highly non-equilibrium upper chromosphere. The paper finishes with predictions concerning the amplitudes and magnetic sensitivities of the linear polarization signals produced by scattering processes in two transition region lines, which should encourage us to develop UV polarimeters for sounding rockets and space telescopes with the aim of opening up a new diagnostic window in astrophysics.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-02T13:35:22Z</published>
+    <arxiv:comment>Invited Review in workshop Solar Polarization 6; 12 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Solar Polarization 6, eds. J. Kuhn et al., ASP Conf. Series Vol. 437, pages 83-98, (2011)</arxiv:journal_ref>
+    <author>
+      <name>Javier Trujillo Bueno</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.05028v2</id>
+    <title>Two-loop Vertices with Vacuum Polarization Insertion</title>
+    <updated>2024-01-23T14:39:02Z</updated>
+    <link href="https://arxiv.org/abs/2308.05028v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.05028v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the analytic evaluation of the second-order corrections to the massive form factors, due to two-loop vertex diagrams with a vacuum polarization insertion, with exact dependence on the external and internal fermion masses, and on the squared momentum transfer. We consider vector, axial-vector, scalar and pseudoscalar interactions between the external fermion and the external field. After renormalization, the finite expressions of the form factors are expressed in terms of polylogarithms up to weight three.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-09T15:52:12Z</published>
+    <arxiv:comment>20 pages, 3 figures, 2 ancillary files. v2: results.m ancillary file updated (constants in the expression "canonicalMasters" simplified, residual logarithms in the renormalisedFormFactorsGPLS converted to GPLS), final version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Ahmed, T., Crisanti, G., Gasparotto, F. et al. Two-loop vertices with vacuum polarization insertion. J. High Energ. Phys. 2024, 10 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Taushif Ahmed</name>
+    </author>
+    <author>
+      <name>Giulio Crisanti</name>
+    </author>
+    <author>
+      <name>Federico Gasparotto</name>
+    </author>
+    <author>
+      <name>Syed Mehedi Hasan</name>
+    </author>
+    <author>
+      <name>Pierpaolo Mastrolia</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP01(2024)010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP01(2024)010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.10560v2</id>
+    <title>Outgassing rate comparison of seven geometrically similar vacuum chambers of different materials and heat treatments</title>
+    <updated>2021-03-09T15:40:31Z</updated>
+    <link href="https://arxiv.org/abs/2009.10560v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.10560v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have measured the water and hydrogen outgassing rates of seven vacuum chambers of identical geometry but constructed of different materials and heat treatments. Chambers of five different materials were tested: 304L, 316L, and 316LN stainless steels; titanium (ASTM grade 2); and 6061 aluminum. In addition, chambers constructed of 316L and 316LN stainless steel were subjected to a vacuum-fire process, where they were heated to approximately 950 °C for 24 hours while under vacuum; these two chambers are designated as 316L-XHV and 316LN-XHV. All chambers were of identical geometry and made by the same manufacturer, thus a relative comparison of the outgassing rates among these chambers can be made. Water outgassing rates were measured as a function of time using the throughput technique. The water outgassing results for the 316L, 316LN, 316L-XHV, 316LN-XHV were all similar, but lower than those of 304L by a factor of 3 to 5 lower at 10^4 s. The water outgassing results for Ti and Al chambers were close to that of 304L, Ti being slightly lower. Hydrogen outgassing rates were measured using the rate-of-rise method and performed after a low-temperature bake of 125 °C to 150 °C for a minimum of 72 hours. The Ti, Al, 316L-XHV, and 316LN-XHV chambers all have specific outgassing rates below 1 X 10^-11 Pa L s^-1 cm^-2 and are at least a factor of 100 or better than the 304L chamber. The 304L, 316L, and 316LN chambers without vacuum-fire heat treatment have larger hydrogen outgassing rates than the other chambers, with specific outgassing rates ranging between 4.0 X 10^-11 Pa L s^-1 cm^-2 and 8.0 X 10^-11 Pa L s^-1 cm^-2. We conclude that Ti, Al, 316L-XHV, and 316LN-XHV have hydrogen outgassing rates that make them excellent choices for ultra-high vacuum (UHV) and extreme-high vacuum (XHV) applications, the choice depending on cost and other material properties.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-22T14:01:47Z</published>
+    <arxiv:comment>27 pages, 8 figures, 4 tables The following article has been submitted the Journal of Vacuum Science &amp; Technology B. This article may be downloaded for personal use only. Any other use requires prior permission of the author and AIP Publishing. This article appeared in Journal of Vacuum Science &amp; Technology B 39, 024201 (2021) and may be found at https://doi.org/10.1116/6.0000657</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <arxiv:journal_ref>Journal of Vacuum Science &amp; Technology B 39, 024201 (2021)</arxiv:journal_ref>
+    <author>
+      <name>James A. Fedchak</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Julia K. Scherschligt</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sefer Avdiaj</name>
+      <arxiv:affiliation>University of Prishtina, Kosova</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel S. Barker</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stephen P. Eckel</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ben Bowers</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Scott OConnell</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Perry Henderson</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1116/6.0000657</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1116/6.0000657" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.06201v1</id>
+    <title>Resonance Line Polarization in Spherically Symmetric Moving Media: a Parametric Study</title>
+    <updated>2020-01-17T09:01:32Z</updated>
+    <link href="https://arxiv.org/abs/2001.06201v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.06201v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present paper we consider the problem of resonance line polarization formed in the spherically symmetric expanding atmospheres. For the solution of the concerned polarized transfer equation we use the comoving frame formulation, and apply the Accelerated Lambda Iteration (ALI) method. We restrict ourselves to the non-relativistic regime of velocities wherein mainly Doppler shift effects are significant. For our studies, we consider the scattering on a two-level atom, including the effects of partial frequency redistribution (PFR). We present the dependence of linearly polarized profiles on different atmospheric and atomic parameters.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-17T09:01:32Z</published>
+    <arxiv:comment>10 pages, 6 figures, Proceedings of the 9th Solar Polarization Workshop SPW9, A workshop held in Gottingen, Germany, from August 26 to August 30, 2019</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Proceedings of the 9th Solar Polarization Workshop SPW9, Published open access by MPS 2020</arxiv:journal_ref>
+    <author>
+      <name>A. Megha</name>
+    </author>
+    <author>
+      <name>M. Sampoorna</name>
+    </author>
+    <author>
+      <name>K. N. Nagendra</name>
+    </author>
+    <author>
+      <name>L. S. Anusha</name>
+    </author>
+    <author>
+      <name>K. Sankarasubramanian</name>
+    </author>
+    <arxiv:doi>10.17617/2.3186650</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.17617/2.3186650" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0610126v1</id>
+    <title>Quantum tunneling through vacuum-multiparticle induced potentials</title>
+    <updated>2006-10-16T10:08:36Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0610126v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0610126v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The vacuum cavity mode induces a potential barrier and a well when an ultra-slow excited atom enters the interaction region so that it can be reflected or transmitted with a certain probability. We demonstrate here that a slow-velocity excited particle tunnels freely through a vacuum electromagnetic field mode filled with $N-1$ ground state atoms. The reason for this is the trapping of the moving atom into its upper state due to multiparticle influences and the corresponding decoupling from the interaction with the environment such that the emitter does not {\it see} the induced potentials.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-10-16T10:08:36Z</published>
+    <arxiv:comment>Multiparticle samples, quantum tunneling, vacuum induced potentials</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 75, 043803 (2007)</arxiv:journal_ref>
+    <author>
+      <name>Mihai A. Macovei</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.75.043803</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.75.043803" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.16569v1</id>
+    <title>Wichmann-Kroll vacuum polarization density in a finite Gaussian basis set</title>
+    <updated>2025-12-18T14:11:30Z</updated>
+    <link href="https://arxiv.org/abs/2512.16569v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.16569v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work further develops the calculation of QED effects in a finite Gaussian basis. We focus on the non-linear $α(Zα)^{n\ge 3}$ contribution to the vacuum polarization density, computing the energy shift of 1s$_{1/2}$ states of hydrogen-like ions. Our goal is to improve the numerical computations to achieve a precision comparable to that of Green's function methods reported in the literature. To do so, an analytic expression for the linear contribution to the vacuum polarization density is derived using Riesz projectors. Alternative formulations of the vacuum polarization density and their relation is discussed. The convergence of the finite Gaussian basis scheme is investigated, and the numerical difficulties that arise are characterized. In particular, an error analysis is performed to assess the method's robustness to numerical noise. We then report a strategy for computing the energy shift with sufficient precision to enable a sensible extrapolation of the partial-wave expansion. A key feature of the procedure is the use of even-tempered basis sets, allowing for an extrapolation towards the complete basis set limit.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-18T14:11:30Z</published>
+    <arxiv:comment>20 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Ryan Benazzouk</name>
+    </author>
+    <author>
+      <name>Maen Salman</name>
+    </author>
+    <author>
+      <name>Trond Saue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.23660v1</id>
+    <title>Wichmann-Kroll vacuum polarization correction to lithium-like systems in a Gaussian basis set</title>
+    <updated>2026-04-26T11:29:11Z</updated>
+    <link href="https://arxiv.org/abs/2604.23660v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.23660v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent developments have seen the application of finite Gaussian basis sets to the $α(Zα)^{n\geq3}$ vacuum polarization. The energy shift for $s$ and $p$ electron states have been tabulated and their convergence investigated. In this work, we extend this problem to the multi-electron case. Hartee-Fock potentials obtained self-consistently are used to treat the vacuum polarization for lithium-like systems and are found to be in good agreement with comparable results in the literature. The results presented in this work demonstrate the use of Gaussian basis sets for atomic potentials whose Green's functions expressions cannot be simply obtained via analytic or numerical methods.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-26T11:29:11Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Haisum Hayat</name>
+    </author>
+    <author>
+      <name>Harry M. Quiney</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0308022v1</id>
+    <title>Vacuum polarization calculations for hydrogenlike and alkalilike ions</title>
+    <updated>2003-08-05T20:17:06Z</updated>
+    <link href="https://arxiv.org/abs/physics/0308022v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0308022v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Complete vacuum polarization calculations incorporating finite nuclear size are presented for hydrogenic ions with principal quantum numbers n=1-5. Lithiumlike, sodiumlike, and copperlike ions are also treated starting with Kohn-Sham potentials, and including first-order screening corrections. In both cases dominant Uehling terms are calculated with high accuracy, and smaller Wichmann- Kroll terms are obtained using numerical electron Green's functions.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-08-05T20:17:06Z</published>
+    <arxiv:comment>23 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>J. Sapirstein</name>
+    </author>
+    <author>
+      <name>K. T. Cheng</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.68.042111</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.68.042111" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.07668v1</id>
+    <title>Vacuum polarization of planar Dirac fermions by a superstrong Coulomb potential</title>
+    <updated>2016-01-28T07:10:48Z</updated>
+    <link href="https://arxiv.org/abs/1601.07668v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.07668v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the vacuum polarization of planar charged Dirac fermions by a strong Coulomb potential. Induced vacuum charge density is calculated and analyzed at the subcritical and supercritical Coulomb potentials for massless and massive fermions. For the massless case the induced vacuum charge density is localized at the origin when the Coulomb center charge is subcritical while it has a power-law tail when the Coulomb center charge is supercritical. The finite mass contribution into the induced charge due to the vacuum polarization is small and insignificantly distorts the Coulomb potential only at distances of order of the Compton length. The induced vacuum charge has a screening sign. As is known the quantum electrodynamics vacuum becomes unstable when the Coulomb center charge is increased from subcritical to supercritical values. In the supercritical Coulomb potential the quantum electrodynamics vacuum acquires the charge due to the so-called real vacuum polarization. We calculate the real vacuum polarization charge density. Screening of the Coulomb center charge are briefly discussed. We expect that our results will be helpful for more deep understanding of the fundamental problem of quantum electrodynamics and can as a matter of principle be tested in graphene with a supercritical Coulomb impurity.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-28T07:10:48Z</published>
+    <arxiv:comment>12 pages. arXiv admin note: substantial text overlap with arXiv:1509.02775</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>V. R. Khalilov</name>
+    </author>
+    <author>
+      <name>I. V. Mamsurov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.13720v1</id>
+    <title>Vacuum polarization with zero-range potentials on a hyperplane</title>
+    <updated>2021-03-25T09:56:59Z</updated>
+    <link href="https://arxiv.org/abs/2103.13720v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.13720v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The quantum vacuum fluctuations of a neutral scalar field induced by background zero-range potentials concentrated on a flat hyperplane of co-dimension $1$ in $(d+1)$-dimensional Minkowski spacetime are investigated. Perfectly reflecting and semitransparent surfaces are both taken into account, making reference to the most general local, homogeneous and isotropic boundary conditions compatible with the unitarity of the quantum field theory. The renormalized vacuum polarization is computed for both zero and non-zero mass of the field, implementing a local version of the zeta regularization technique. The asymptotic behaviours of the vacuum polarization for small and large distances from the hyperplane are determined to leading order. It is shown that boundary divergences are soften in the specific case of a pure Dirac delta potential.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-25T09:56:59Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Universe 2021, 7(4) (2021), 92</arxiv:journal_ref>
+    <author>
+      <name>Davide Fermi</name>
+    </author>
+    <arxiv:doi>10.3390/universe7040092</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/universe7040092" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.10621v1</id>
+    <title>An exact power series expansion for the Kallen-Sabry vacuum polarization potential</title>
+    <updated>2020-11-20T20:26:00Z</updated>
+    <link href="https://arxiv.org/abs/2011.10621v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.10621v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work it is presented an exact power series formula for the Kallen-Sabry vacuum polarization potential.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-20T20:26:00Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Antonio Ricardo Martines</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0701049v1</id>
+    <title>Vacuum Predictions and Measurements for an Internal Pellet Target</title>
+    <updated>2007-01-04T14:01:40Z</updated>
+    <link href="https://arxiv.org/abs/physics/0701049v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0701049v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Measurements with low Z targets at internal experiments typically imply a gas load which deteriorates the ring vacuum. Future experiments need reliable estimates for the expected vacuum conditions in order to design 4-pi detectors closely surrounding the interaction area.
+  We present a method for the calculation of the resulting vacuum of such a complex system using a Pellet Target. In order to test the method, a vacuum system with diagnostic tools has been set up and a Pellet Target was operated under realistic conditions. The results for the absolute vacuum agree within factors of two with the expected pressures.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-01-04T14:01:40Z</published>
+    <arxiv:comment>11 pages, 3 figures, submitted to Elsevier Vacuum</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Vacuum82:645-650,2008</arxiv:journal_ref>
+    <author>
+      <name>Inti Lehmann</name>
+    </author>
+    <author>
+      <name>Orjan Nordhage</name>
+    </author>
+    <author>
+      <name>Carl-Johan Friden</name>
+    </author>
+    <author>
+      <name>Gunar Norman</name>
+    </author>
+    <author>
+      <name>Curt Ekstrom</name>
+    </author>
+    <author>
+      <name>Tord Johansson</name>
+    </author>
+    <author>
+      <name>Ulrich Wiedner</name>
+    </author>
+    <arxiv:doi>10.1016/j.vacuum.2007.10.005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.vacuum.2007.10.005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.3882v1</id>
+    <title>Evaluation of the screened vacuum-polarization corrections to the hyperfine splitting of Li-like bismuth</title>
+    <updated>2011-12-16T16:28:13Z</updated>
+    <link href="https://arxiv.org/abs/1112.3882v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.3882v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rigorous calculation of the vacuum-polarization screening corrections to the hyperfine splitting in Li-like bismuth is presented. The two-electron diagrams with electric and magnetic vacuum-polarization loops are evaluated to all orders in alpha*Z, including the Wichmann-Kroll contributions. This improves the accuracy of the theoretical prediction for the specific difference of the hyperfine splitting values of H- and Li-like bismuth.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-16T16:28:13Z</published>
+    <arxiv:comment>18 pages with 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 85 (2012) 022510</arxiv:journal_ref>
+    <author>
+      <name>O. V. Andreev</name>
+    </author>
+    <author>
+      <name>D. A. Glazov</name>
+    </author>
+    <author>
+      <name>A. V. Volotka</name>
+    </author>
+    <author>
+      <name>V. M. Shabaev</name>
+    </author>
+    <author>
+      <name>G. Plunien</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.85.022510</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.85.022510" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.08801v2</id>
+    <title>21st Century Planar Field Emission Theory and its Role in Vacuum Breakdown Science</title>
+    <updated>2022-07-03T17:56:42Z</updated>
+    <link href="https://arxiv.org/abs/2107.08801v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.08801v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For explaining electrical breakdown, field electron emission (FE) is a mechanism of interest. In the period 2006 to 2010 there were significant developments in basic FE theory, but these have not yet fully entered general thinking in technological FE areas, which are often still based on 1960s thinking or (in some contexts) 1920s thinking about FE theory. This paper outlines the history of FE theory and provides an overview of modern developments and of some related topics, in so far as these affect the interpretation of experiments and the explanation of physical phenomena. The paper concentrates on principles, with references given where details can be found. Some suggestions are made about moving to the use of "21st-Century" FE theory. In addition, an error in Feynman's treatment of the electrostatics of pointed conductors is displayed, and it is found that Zener tunneling is implausible as a primary cause of vacuum breakdown from a CuO overlayer.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-19T12:23:48Z</published>
+    <arxiv:comment>8 pages, 1 figure. Originally presented at the 29th International Symposium on Discharges and Electrical Insulation in Vacuum (hosted virtually from Padova, September 2021). This version (v2) corrects typographic errors (including two in an equation) in the original arXiv verwion and the published version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Proc. 2020 29th International Symposium on Discharges and Electrical Insulation in Vacuum (ISDEIV) (IEEE Explore, 2021)</arxiv:journal_ref>
+    <author>
+      <name>Richard G. Forbes</name>
+    </author>
+    <arxiv:doi>10.1109/ISDEIV46977.2021.9587119</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ISDEIV46977.2021.9587119" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.08568v1</id>
+    <title>Influence of ion induced secondary electron emission on the stability of ionisation vacuum gauges</title>
+    <updated>2020-11-17T11:26:56Z</updated>
+    <link href="https://arxiv.org/abs/2011.08568v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.08568v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Surface modification of different materials exposed to an environment typical for hot cathode ionisation vacuum gauges was investigated. Such environment has been generated in a specially designed setup which simulates conditions in a Bayard-Alpert ionisation vacuum gauge. Characterisations by means of X-ray photoelectron spectroscopy and work function study have been performed before and after the sample exposure to Ar and H2 gas discharges. The majority of studied materials, such as molybdenum, gold or stainless steel, are considered to be of interest as ion collectors. In addition, experiments with copper and graphite revealed the major processes that are taking place during the exposure to an ionisation vacuum gauge environment. Since the stability of ionisation vacuum gauges can be affected by the change of secondary electron emission properties of ion collectors during the operation, the corresponding electron yield induced by bombardment of low energy Ar+ ions was measured. Results show that exposure to ionisation vacuum gauge environment contributes to development of hydrocarbon layers, independently from the collector material or the dominant species in the gas discharge. Therefore, ion induced secondary electron yield of clean materials will be changing during the gauge operation and eventually reach saturation regardless of the collector material. The results also show that the hydrocarbon layer cannot be desorbed by standard vacuum baking procedures, whilst ion bombardment will even increase the rate of the hydrocarbon layer formation.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-17T11:26:56Z</published>
+    <arxiv:comment>accepted to Vacuum on 7th of November 2020</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>I. Figueiredo</name>
+    </author>
+    <author>
+      <name>N. Bundaleski</name>
+    </author>
+    <author>
+      <name>O. M. N. D. Teodoro</name>
+    </author>
+    <author>
+      <name>K. Jousten</name>
+    </author>
+    <author>
+      <name>C. Illgen</name>
+    </author>
+    <arxiv:doi>10.1016/j.vacuum.2020.109907</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.vacuum.2020.109907" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.11549v1</id>
+    <title>Design and mechanical analysis of the PRAGYA tokamak vacuum vessel</title>
+    <updated>2026-03-12T05:09:53Z</updated>
+    <link href="https://arxiv.org/abs/2603.11549v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.11549v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>PRAGYA is India's first privately developed low aspect ratio tokamak designed by Pranos Fusion Energy. The device is designed for a plasma major radius (R0) of about 0.4 m, a plasma minor radius (a) greater than 0.18 m, a plasma current (Ip) of up to 25 kA, and a toroidal magnetic field (B_T) of 0.1 T. The PRAGYA vacuum vessel incorporates several distinctive features, including a toroidal electrical break to minimize induced eddy currents and a double O-ring arrangement to reduce vacuum leakage.
+  This paper presents the final design of the PRAGYA vacuum vessel and a comprehensive three-dimensional (3D) finite element model (FEM) assessment of its structural performance. The analysis evaluates the effects of self-weight, atmospheric pressure loading, and thermal stress arising from in-situ baking. The results confirm that the design satisfies the required safety margins under these combined loading conditions, providing a robust foundation for subsequent plasma operations in this compact tokamak.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-12T05:09:53Z</published>
+    <arxiv:comment>Pranos fusion vacuum vessel</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Ravi Gupta</name>
+    </author>
+    <author>
+      <name>Rahul Babu Koneru</name>
+    </author>
+    <author>
+      <name>Saptarshi Rajan Sarkar</name>
+    </author>
+    <author>
+      <name>Santosh Ansumali</name>
+    </author>
+    <author>
+      <name>Animesh Kuley</name>
+    </author>
+    <author>
+      <name>Roshan George</name>
+    </author>
+    <author>
+      <name>Shaurya Kaushal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0701097v23</id>
+    <title>"Discrete" vacuum geometry as a tool for Dirac fundamental quantization of Minkowskian Higgs model</title>
+    <updated>2026-06-05T11:06:00Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0701097v23" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0701097v23" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that assuming the "discrete" vacuum geometry in the Minkowskian Higgs model with vacuum BPS monopole solutions can justify the Dirac fundamental quantization of that model. The important constituent of this quantization is getting various rotary effects, including collective solid rotations inside the physical BPS monopole vacuum, and just assuming the "discrete" vacuum geometry seems to be that thing able to justify these rotary effects. More precisely, assuming the "discrete" geometry for the appropriate vacuum manifold implies the presence of thread topological defects (side by side with point hedgehog topological defects and walls between different topological domains) inside this manifold in the shape of specific (rectilinear) threads: gauge and Higgs fields located in the spatial region intimately near the axis $z$ of the chosen (rest) reference frame. This serves as the source of collective solid rotations proceeding inside the BPS monopole vacuum suffered the Dirac fundamental quantization. It will be argued that indeed the first-order phase transition occurs in the Minkowskian Higgs model with vacuum BPS monopoles quantized by Dirac. This comes to the coexistence of two thermodynamic phases inside the appropriate BPS monopole vacuum. There are the thermodynamic phases of collective solid rotations and superfluid potential motions.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-01-10T17:55:47Z</published>
+    <arxiv:comment>the modification of the magnetic charge theory in the presence of "discrete" vacuum geometry</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Leonid Lantsman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.05382v2</id>
+    <title>Stability of the nonperturbative bosonic string vacuum</title>
+    <updated>2017-05-08T17:36:37Z</updated>
+    <link href="https://arxiv.org/abs/1703.05382v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.05382v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantization of the bosonic string around the classical, perturbative vacuum is not consistent for spacetime dimensions 2&lt;d&lt;26. Recently we have showed that at large d there is another so-called mean field vacuum. Here we extend this mean field calculation to finite d and show that the corresponding mean field vacuum is stable under quadratic fluctuations for 2&lt;d&lt;26. We point out the analogy with the two-dimensional O(N)-symmetric sigma-model, where the 1/N-vacuum is very close to the real vacuum state even for finite N, in contrast to the perturbative vacuum.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-15T20:52:17Z</published>
+    <arxiv:comment>v2: 6pp, section about vacuum instability/stability added, to appear in PLB</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>J. Ambjorn</name>
+      <arxiv:affiliation>NBI &amp; IMAPP</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Makeenko</name>
+      <arxiv:affiliation>NBI &amp; ITEP</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2017.05.021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2017.05.021" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/9801071v1</id>
+    <title>Relativity of Motion in Vacuum</title>
+    <updated>1998-01-30T10:17:28Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/9801071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/9801071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The existence of vacuum fluctuations leads to reconsider the question of relativity of motion. The present article is devoted to this aim with a main line which can be formulated as follows: ``The principle of relativity of motion is directly related to symmetries of quantum vacuum''. Keeping close to this statement, we discuss the controversial relation between vacuum and motion. We introduce the question of relativity of motion in its historical development before coming to the results obtained more recently.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-01-30T10:17:28Z</published>
+    <arxiv:comment>6 pages, Contribution for "Vacuum", eds E. Gunzig and S. Diner</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Marc-Thierry Jaekel</name>
+      <arxiv:affiliation>Laboratoire de Physique The'orique de l'Ecole Normale Supe'rieure</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Astrid Lambrecht</name>
+      <arxiv:affiliation>Laboratoire Kastler-Brossel</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Serge Reynaud</name>
+      <arxiv:affiliation>Laboratoire Kastler-Brossel</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

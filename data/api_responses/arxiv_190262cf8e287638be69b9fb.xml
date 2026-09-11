@@ -1,0 +1,626 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RyTm9zdVp7IC47yMwi/9V5Qqa/A</id>
+  <title>arXiv Query: search_query=all:extracting OR all:resonance OR all:masses OR all:from OR all:vacuum OR all:polarization OR all:moments OR all:Pade&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:44:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:extracting+OR+(all:resonance+OR+(all:masses+OR+(all:from+OR+(all:vacuum+OR+(all:polarization+OR+(all:moments+OR+all:Pade))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1649717</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2001.06201v1</id>
+    <title>Resonance Line Polarization in Spherically Symmetric Moving Media: a Parametric Study</title>
+    <updated>2020-01-17T09:01:32Z</updated>
+    <link href="https://arxiv.org/abs/2001.06201v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.06201v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present paper we consider the problem of resonance line polarization formed in the spherically symmetric expanding atmospheres. For the solution of the concerned polarized transfer equation we use the comoving frame formulation, and apply the Accelerated Lambda Iteration (ALI) method. We restrict ourselves to the non-relativistic regime of velocities wherein mainly Doppler shift effects are significant. For our studies, we consider the scattering on a two-level atom, including the effects of partial frequency redistribution (PFR). We present the dependence of linearly polarized profiles on different atmospheric and atomic parameters.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-17T09:01:32Z</published>
+    <arxiv:comment>10 pages, 6 figures, Proceedings of the 9th Solar Polarization Workshop SPW9, A workshop held in Gottingen, Germany, from August 26 to August 30, 2019</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Proceedings of the 9th Solar Polarization Workshop SPW9, Published open access by MPS 2020</arxiv:journal_ref>
+    <author>
+      <name>A. Megha</name>
+    </author>
+    <author>
+      <name>M. Sampoorna</name>
+    </author>
+    <author>
+      <name>K. N. Nagendra</name>
+    </author>
+    <author>
+      <name>L. S. Anusha</name>
+    </author>
+    <author>
+      <name>K. Sankarasubramanian</name>
+    </author>
+    <arxiv:doi>10.17617/2.3186650</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.17617/2.3186650" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.0294v1</id>
+    <title>Pade Theory applied to the vacuum polarization of a heavy quark</title>
+    <updated>2009-03-02T13:49:10Z</updated>
+    <link href="https://arxiv.org/abs/0903.0294v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.0294v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The vacuum polarization of a quark, when considered in terms of the external momentum q^2, is a function of the Stieltjes type. Consequently, the mathematical theory of Pade Approximants assures that the full function, at any finite value of q^2 away from the physical cut, can be reconstructed from its low-energy power expansion around q^2=0. We illustrate this point by applying this theory to the vacuum polarization of a heavy quark and obtain the value of the constant K^(2) governing the threshold expansion at order O(alpha_s^2).</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-02T13:49:10Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett.B686:307-312,2010</arxiv:journal_ref>
+    <author>
+      <name>P. Masjuan</name>
+    </author>
+    <author>
+      <name>S. Peris</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2010.02.069</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2010.02.069" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0910.5504v1</id>
+    <title>Multipurpose High Frequency Electron Spin Resonance Spectrometer for Condensed Matter Research</title>
+    <updated>2009-10-29T12:15:18Z</updated>
+    <link href="https://arxiv.org/abs/0910.5504v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.5504v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe a quasi-optical multifrequency ESR spectrometer operating in the 75-225 GHz range and optimized at 210 GHz for general use in condensed matter physics, chemistry and biology. The quasi-optical bridge detects the change of mm wave polarization at the ESR. A controllable reference arm maintains a mm wave bias at the detector. The attained sensitivity of 2x10^10 spin/G/(Hz)1/2, measured on a dilute Mn:MgO sample in a non-resonant probe head at 222.4 GHz and 300 K, is comparable to commercial high sensitive X band spectrometers. The spectrometer has a Fabry-Perot resonator based probe head to measure aqueous solutions, and a probe head to measure magnetic field angular dependence of single crystals. The spectrometer is robust and easy to use and may be operated by undergraduate students. Its performance is demonstrated by examples from various fields of condensed matter physics.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-29T12:15:18Z</published>
+    <arxiv:comment>submitted to Journal of Magnetic Resonance</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Applied Magnetic Resonance 40, 47-63 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Kalman L Nagy</name>
+    </author>
+    <author>
+      <name>Dario Quintavalle</name>
+    </author>
+    <author>
+      <name>Titusz Feher</name>
+    </author>
+    <author>
+      <name>Andras Janossy</name>
+    </author>
+    <arxiv:doi>10.1007/s00723-010-0182-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00723-010-0182-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.12376v1</id>
+    <title>Rotational Curves of the Milky Way Galaxy and Andromeda Galaxy in Light of Vacuum Polarization around Eicheon</title>
+    <updated>2023-09-21T09:40:54Z</updated>
+    <link href="https://arxiv.org/abs/2309.12376v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.12376v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Eicheon properties are discussed. It is shown that the eicheon surface allows setting a boundary condition for the vacuum polarization and obtaining a solution describing the dark matter tail in the Milky Way Galaxy. That is, the dark matter in the Milky Way Galaxy is explained as the F-type of vacuum polarization, which could be treated as dark radiation. The model presented is spherically symmetric, but a surface density of a baryonic galaxy disk is taken into account approximately by smearing the disk over a sphere. This allows the reproduction of the large distance shape of the Milky Way Galaxy rotational curve. Andromeda Galaxy's rotational curve is also discussed.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-21T09:40:54Z</published>
+    <arxiv:comment>This paper is an extended version of "Dark Matter in the Milky Way Galaxy as the F-Type of Vacuum Polarization.'' from the Proceedings of the 2nd Electronic Conference on Universe, 16 February--2 March 2023</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Universe 2023, 9(9), 424</arxiv:journal_ref>
+    <author>
+      <name>Sergey L. Cherkas</name>
+    </author>
+    <author>
+      <name>Vladimir L. Kalashnikov</name>
+    </author>
+    <arxiv:doi>10.3390/universe9090424</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/universe9090424" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.3689v2</id>
+    <title>Two Point Pade Approximants and Duality</title>
+    <updated>2013-08-13T20:39:33Z</updated>
+    <link href="https://arxiv.org/abs/1307.3689v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.3689v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose the use of two point Pade approximants to find expressions valid uniformly in coupling constant for theories with both weak and strong coupling expansions. In particular, one can use these approximants in models with a strong/weak duality, when the symmetries do not determine exact expressions for some quantity.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-14T02:20:28Z</published>
+    <arxiv:comment>11 pages, 5 figures; fixed references, typos and corrected the sloppy version of the convergence theorem we quoted with up to date references on Pade convergence</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Tom Banks</name>
+    </author>
+    <author>
+      <name>T. J. Torres</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.0847v2</id>
+    <title>Is dark matter an illusion created by the gravitational polarization of the quantum vacuum?</title>
+    <updated>2011-11-08T20:43:48Z</updated>
+    <link href="https://arxiv.org/abs/1106.0847v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.0847v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Assuming that a particle and its antiparticle have the gravitational charge of the opposite sign, the physical vacuum may be considered as a fluid of virtual gravitational dipoles. Following this hypothesis, we present the first indications that dark matter may not exist and that the phenomena for which it was invoked might be explained by the gravitational polarization of the quantum vacuum by the known baryonic matter.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-04T18:31:49Z</published>
+    <arxiv:comment>We have added an Appendix in order to show that the gravitational polarization of the quantum vacuum allows the understanding of the universality of the central surface density of galaxy dark matter haloes, the cored dark matter haloes in dwarf spheroidal galaxies, the non-existence of dark disks in spiral galaxies and distribution of dark matter after collision of clusters of galaxies</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Astrophys.Space Sci.334:215-218,2011</arxiv:journal_ref>
+    <author>
+      <name>Dragan Slavkov Hajdukovic</name>
+    </author>
+    <arxiv:doi>10.1007/s10509-011-0744-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10509-011-0744-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.0323v1</id>
+    <title>Modeling Scattering Polarization for Probing Solar Magnetism</title>
+    <updated>2011-05-02T13:35:22Z</updated>
+    <link href="https://arxiv.org/abs/1105.0323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.0323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper considers the problem of modeling the light polarization that emerges from an astrophysical plasma composed of atoms whose excitation state is significantly influenced by the anisotropy of the incident radiation field. In particular, it highlights how radiative transfer simulations in three-dimensional models of the quiet solar atmosphere may help us to probe its thermal and magnetic structure, from the near equilibrium photosphere to the highly non-equilibrium upper chromosphere. The paper finishes with predictions concerning the amplitudes and magnetic sensitivities of the linear polarization signals produced by scattering processes in two transition region lines, which should encourage us to develop UV polarimeters for sounding rockets and space telescopes with the aim of opening up a new diagnostic window in astrophysics.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-02T13:35:22Z</published>
+    <arxiv:comment>Invited Review in workshop Solar Polarization 6; 12 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Solar Polarization 6, eds. J. Kuhn et al., ASP Conf. Series Vol. 437, pages 83-98, (2011)</arxiv:journal_ref>
+    <author>
+      <name>Javier Trujillo Bueno</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.05028v2</id>
+    <title>Two-loop Vertices with Vacuum Polarization Insertion</title>
+    <updated>2024-01-23T14:39:02Z</updated>
+    <link href="https://arxiv.org/abs/2308.05028v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.05028v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the analytic evaluation of the second-order corrections to the massive form factors, due to two-loop vertex diagrams with a vacuum polarization insertion, with exact dependence on the external and internal fermion masses, and on the squared momentum transfer. We consider vector, axial-vector, scalar and pseudoscalar interactions between the external fermion and the external field. After renormalization, the finite expressions of the form factors are expressed in terms of polylogarithms up to weight three.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-09T15:52:12Z</published>
+    <arxiv:comment>20 pages, 3 figures, 2 ancillary files. v2: results.m ancillary file updated (constants in the expression "canonicalMasters" simplified, residual logarithms in the renormalisedFormFactorsGPLS converted to GPLS), final version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Ahmed, T., Crisanti, G., Gasparotto, F. et al. Two-loop vertices with vacuum polarization insertion. J. High Energ. Phys. 2024, 10 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Taushif Ahmed</name>
+    </author>
+    <author>
+      <name>Giulio Crisanti</name>
+    </author>
+    <author>
+      <name>Federico Gasparotto</name>
+    </author>
+    <author>
+      <name>Syed Mehedi Hasan</name>
+    </author>
+    <author>
+      <name>Pierpaolo Mastrolia</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP01(2024)010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP01(2024)010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.3512v1</id>
+    <title>Pade Theory and Phenomenology of Resonance Poles</title>
+    <updated>2010-02-18T13:20:58Z</updated>
+    <link href="https://arxiv.org/abs/1002.3512v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.3512v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The use of Pade approximants for the description of QCD matrix elements is discussed in this talk. We will see how they prove to be an extremely useful tool, specially in the case of resonant amplitudes. It will allow the inclusion of high-energy Euclidian data to improve the determination of low-energy properties, such as the quadratic vector radius. This does not mean that the rational approximations can be arbitrarily employed for the extraction of any desired hadronic parameter. A discussion about the validity, limitations and possible issues of the Pade analysis is carried on along the paper. Finally, based on the de Montessus de Ballore's theorem, a theoretically safe new procedure for the extraction of the pole mass and width of resonances is proposed here and illustrated with the example of the rho(770).</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-18T13:20:58Z</published>
+    <arxiv:comment>13 pages, 13 figs, Proceedings of the Conference on Approximation and Extrapolation of Convergent and Divergent Sequences and Series, CIRM Luminy, Marseille (France), September 28th - October 2nd 2009</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>J. J. Sanz-Cillero</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.05042v4</id>
+    <title>Di-chromatic Interpolation of Magnetic Resonance Metabolic Imagery</title>
+    <updated>2021-02-12T18:42:05Z</updated>
+    <link href="https://arxiv.org/abs/2003.05042v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.05042v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Magnetic resonance imaging with hyperpolarized contrast agents can provide unprecedented \textit{in-vivo} measurements of metabolism, but yields images that are lower resolution than that achieved with proton anatomical imaging. In order to spatially localize the metabolic activity, the metabolic image must be interpolated to the size of the proton image. The most common methods for choosing the unknown values rely exclusively on values of the original un-interpolated image. In this work, we present an alternative method that uses the higher-resolution proton image to provide additional spatial structure. The interpolated image is the result of a convex optimization algorithm which is solved with the Fast Iterative Shrinkage Threshold Algorithm (FISTA). Results are shown with images of hyperpolarized pyruvate, lactate, and bicarbonate using data of the heart and brain from healthy human volunteers, a healthy porcine heart, and a human with prostate cancer.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-11T00:12:03Z</published>
+    <arxiv:comment>Magnetic Resonance Materials in Physics, Biology, and Medicine (2021)</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <arxiv:journal_ref>Magnetic Resonance Materials in Physics, Biology and Medicine (2021): 1-16</arxiv:journal_ref>
+    <author>
+      <name>Nicholas Dwork</name>
+    </author>
+    <author>
+      <name>Jeremy W. Gordon</name>
+    </author>
+    <author>
+      <name>Shuyu Tang</name>
+    </author>
+    <author>
+      <name>Daniel O'Connor</name>
+    </author>
+    <author>
+      <name>Esben Sovso Szocska Hansen</name>
+    </author>
+    <author>
+      <name>Christoffer Laustsen</name>
+    </author>
+    <author>
+      <name>Peder E. Z. Larson</name>
+    </author>
+    <arxiv:doi>10.1007/s10334-020-00903-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10334-020-00903-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9607422v1</id>
+    <title>Higher Moments of Heavy Quark Vacuum Polarization</title>
+    <updated>1996-07-25T07:44:22Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9607422v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9607422v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present analytical calculation of the first seven moments of the heavy quark vacuum polarization function in the three-loop order. The obtained results are compared against the asymptotic formulas following from the threshold singularities. We also discuss the $μ$ dependence of the moments within the BLM procedure.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-07-25T07:44:22Z</published>
+    <arxiv:comment>9 pages, LaTeX, no figures, sprocl.sty provided (To appear in the Proceedings of the Second Workshop on Continuous Advances in QCD, Minneapolis, U.S.A., March 1996). Postscript also available at ftp://www-ttp.physik.uni-karlsruhe.de/ttp96-22/ttp96-22.ps or at http://www-ttp.physik.uni-karlsruhe.de/cgi-bin/preprints/</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>K. G. Chetyrkin</name>
+    </author>
+    <author>
+      <name>J. H. Kühn</name>
+    </author>
+    <author>
+      <name>M. Steinhauser</name>
+    </author>
+    <arxiv:doi>10.1016/S0920-5632(96)90008-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0920-5632(96)90008-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.10560v2</id>
+    <title>Outgassing rate comparison of seven geometrically similar vacuum chambers of different materials and heat treatments</title>
+    <updated>2021-03-09T15:40:31Z</updated>
+    <link href="https://arxiv.org/abs/2009.10560v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.10560v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have measured the water and hydrogen outgassing rates of seven vacuum chambers of identical geometry but constructed of different materials and heat treatments. Chambers of five different materials were tested: 304L, 316L, and 316LN stainless steels; titanium (ASTM grade 2); and 6061 aluminum. In addition, chambers constructed of 316L and 316LN stainless steel were subjected to a vacuum-fire process, where they were heated to approximately 950 °C for 24 hours while under vacuum; these two chambers are designated as 316L-XHV and 316LN-XHV. All chambers were of identical geometry and made by the same manufacturer, thus a relative comparison of the outgassing rates among these chambers can be made. Water outgassing rates were measured as a function of time using the throughput technique. The water outgassing results for the 316L, 316LN, 316L-XHV, 316LN-XHV were all similar, but lower than those of 304L by a factor of 3 to 5 lower at 10^4 s. The water outgassing results for Ti and Al chambers were close to that of 304L, Ti being slightly lower. Hydrogen outgassing rates were measured using the rate-of-rise method and performed after a low-temperature bake of 125 °C to 150 °C for a minimum of 72 hours. The Ti, Al, 316L-XHV, and 316LN-XHV chambers all have specific outgassing rates below 1 X 10^-11 Pa L s^-1 cm^-2 and are at least a factor of 100 or better than the 304L chamber. The 304L, 316L, and 316LN chambers without vacuum-fire heat treatment have larger hydrogen outgassing rates than the other chambers, with specific outgassing rates ranging between 4.0 X 10^-11 Pa L s^-1 cm^-2 and 8.0 X 10^-11 Pa L s^-1 cm^-2. We conclude that Ti, Al, 316L-XHV, and 316LN-XHV have hydrogen outgassing rates that make them excellent choices for ultra-high vacuum (UHV) and extreme-high vacuum (XHV) applications, the choice depending on cost and other material properties.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-22T14:01:47Z</published>
+    <arxiv:comment>27 pages, 8 figures, 4 tables The following article has been submitted the Journal of Vacuum Science &amp; Technology B. This article may be downloaded for personal use only. Any other use requires prior permission of the author and AIP Publishing. This article appeared in Journal of Vacuum Science &amp; Technology B 39, 024201 (2021) and may be found at https://doi.org/10.1116/6.0000657</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <arxiv:journal_ref>Journal of Vacuum Science &amp; Technology B 39, 024201 (2021)</arxiv:journal_ref>
+    <author>
+      <name>James A. Fedchak</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Julia K. Scherschligt</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sefer Avdiaj</name>
+      <arxiv:affiliation>University of Prishtina, Kosova</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel S. Barker</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stephen P. Eckel</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ben Bowers</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Scott OConnell</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Perry Henderson</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1116/6.0000657</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1116/6.0000657" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.01325v2</id>
+    <title>Noncontrast free-breathing respiratory self-navigated coronary artery cardiovascular magnetic resonance angiography at 3 T using lipid insensitive binomial off-resonant excitation (LIBRE)</title>
+    <updated>2019-06-12T09:20:46Z</updated>
+    <link href="https://arxiv.org/abs/1903.01325v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.01325v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robust and homogeneous lipid suppression is mandatory for coronary magnetic resonance angiography (MRA) since coronary arteries are commonly embedded in fat. However, effective large volume lipid suppression becomes challenging when performing radial whole-heart coronary MRA and the problem may even be exacerbated at increasing magnetic field strengths. Incomplete fat suppression also generates artifacts, and may affect advanced motion correction methods. The aim was to evaluate a recently reported lipid insensitive MRI method for self-navigated coronary MRA at 3T. Lipid insensitive binomial off resonant excitation (LIBRE) radiofrequency (RF) excitation pulses were included into a self-navigated 3D radial GRE coronary MRA sequence at 3T. LIBRE was compared against conventional fat saturation (FS) and binomial 1-180°-1 water excitation (WE). First, fat suppression of all techniques was numerically characterized using Matlab and experimentally validated in phantoms and in legs of human volunteers. Subsequently, free-breathing self-navigated coronary MRA was performed using the LIBRE pulse as well as FS and WE in ten volunteers. Results obtained in the simulations were confirmed by the experimental validations as LIBRE enabled near complete fat suppression for 3D radial imaging in vitro and in vivo. For self-navigated whole-heart coronary MRA at 3T, fat SNR was significantly attenuated using LIBRE compared with conventional FS. LIBRE increased the RCA vessel sharpness significantly (37 +/- 9% (LIBRE) vs. 29 +/- 8% (FS) and 30 +/- 8% (WE), both p&lt;0.05) and led to a significant increase in the measured RCA vessel length to (83 +/- 31 mm (LIBRE) vs. 56 +/- 12 mm (FS) and 59 +/- 27 (WE) p&lt;0.05). LIBRE enables robust large volume fat suppression and significantly improves coronary artery image quality at 3T compared to the use of conventional fat suppression and water excitation.</summary>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-04T16:14:04Z</published>
+    <arxiv:comment>Accepted in Journal of Cardiovascular Magnetic Resonance, 25 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.med-ph"/>
+    <arxiv:journal_ref>Journal of Cardiovascular Magnetic Resonance 2019 21:38</arxiv:journal_ref>
+    <author>
+      <name>Jessica A. M. Bastiaansen</name>
+    </author>
+    <author>
+      <name>Ruud B. van Heeswijk</name>
+    </author>
+    <author>
+      <name>Matthias Stuber</name>
+    </author>
+    <author>
+      <name>Davide Piccini</name>
+    </author>
+    <arxiv:doi>10.1186/s12968-019-0543-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1186/s12968-019-0543-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9409376v2</id>
+    <title>The Anomalous Magnetic Moments of the Electron and the Muon - Improved QED Predictions Using Pade Approximants</title>
+    <updated>1994-09-22T14:09:00Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9409376v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9409376v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We use Pade Approximants to obtain improved predictions for the anomalous magnetic moments of the electron and the muon. These are needed because of the very precise experimental values presently obtained for the electron, and soon to be obtained at BNL for the muon. The Pade prediction for the QED contribution to the anomalous magnetic moment of the muon differs significantly from the naive perturbative prediction.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1994-09-21T16:23:00Z</published>
+    <arxiv:comment>8 pages (LateX); SLAC-PUB-6670, CERN-TH-7451/94, TAUP-2201-94, OSU-RN-393/94. Typo corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>John Ellis</name>
+    </author>
+    <author>
+      <name>Marek Karliner</name>
+    </author>
+    <author>
+      <name>Mark A. Samuel</name>
+    </author>
+    <author>
+      <name>Eric Steinfelds</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.08119v4</id>
+    <title>Impact of Resonant Compton Scattering on Magnetar X-Ray Polarization with QED Vacuum Resonance</title>
+    <updated>2026-07-02T12:40:53Z</updated>
+    <link href="https://arxiv.org/abs/2603.08119v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.08119v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent obeservations have revealed significant soft X-ray polarizations from several quiescent magnetars, including the intriguing $90^°$ polarization angle (PA) swing as a function of photon energy for some sources. We present a general semi-analytical framework for calculating energy-dependent soft X-ray polarization signatures from magnetars, consistently incorporating both QED vacuum resonance in the atmosphere and resonant Compton scattering (RCS) in the magnetosphere. Starting from the polarized radiative transfer equation for RCS and treating vacuum-resonance-induced mode conversion as an input, we employ a first-order approximation in RCS optical depth to evaluate the effect of different magnetospheric plasma density (which depends on magnetic twist), drift velocity and temperature, and viewing geometry on the observed radiation. Our analysis reveals that magnetic twist and plasma drift velocity are the critical parameters controlling the impact of RCS on both the absolute polarization degree and its variation across the soft X-ray spectrum. We find that sufficiently strong RCS can wash out the PA swing caused by vacuum resonance. Furthermore, in addition to the QED vacuum resonance effect, significant relativistic signatures arising from plasma drift velocity ($β_0 \gtrsim 0.5$) may introduce an extra $90^\circ$ PA swing in the spectrum. Our calculation framework, based on single-scattering approximation, bypasses the need for complex, multi-dimensional Monte Carlo simulations, providing an analytical pathway for modeling full-surface emission and rotational-phase-resolved radiation from magnetic neutron stars, in support of current and future X-ray polarization missions.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-09T08:59:51Z</published>
+    <arxiv:comment>13pages, 7 figures, submitted to ApJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Tu Guo</name>
+    </author>
+    <author>
+      <name>Dong Lai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.2153v1</id>
+    <title>Tests of hadronic vacuum polarization fits for the muon anomalous magnetic moment</title>
+    <updated>2013-09-09T13:33:41Z</updated>
+    <link href="https://arxiv.org/abs/1309.2153v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.2153v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using experimental spectral data for hadronic tau decays from the OPAL experiment, supplemented by a phenomenologically successful parameterization for the high-s region not covered by the data, we construct a physically constrained model of the isospin-one vector-channel polarization function. Having such a model as a function of Euclidean momentum Q^2 allows us to explore the systematic error associated with fits to the Q^2 dependence of lattice data for the hadronic electromagnetic current polarization function which have been used in attempts to compute the leading order hadronic contribution, a_μ^HLO, to the muon anomalous magnetic moment. In contrast to recent claims made in the literature, we find that a final error in this quantity of the order of a few percent does not appear possible with current lattice data, given the present lack of precision in the determination of the vacuum polarization at low Q^2. We also find that fits to the vacuum polarization using fit functions based on Vector Meson Dominance are unreliable, in that the fit error on a_μ^HLO is typically much smaller than the difference between the value obtained from the fit and the exact model value. The use of a sequence of Pade approximants known to converge to the true vacuum polarization appears to represent a more promising approach.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-09T13:33:41Z</published>
+    <arxiv:comment>17 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Phys. Rev. D 88, 114508 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Maarten Golterman</name>
+    </author>
+    <author>
+      <name>Kim Maltman</name>
+    </author>
+    <author>
+      <name>Santiago Peris</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.88.114508</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.88.114508" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9902217v1</id>
+    <title>Pade-Improved Extraction of $α_s(M_τ)$ from $R_τ$</title>
+    <updated>1999-02-01T21:46:41Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9902217v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9902217v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The perturbative series used to extract $α_s(M_τ)$ from the $τ$ hadronic width exhibits slow convergence. Asymptotic Pade-approximant and Pade summation techniques provide an estimate of these unknown higher-order effects, leading to values for $α_s(M_τ)$ that are about 10% smaller than current estimates. Such a reduction improves the agreement of $α_s(M_τ)$ with the QCD evolution of the strong coupling constant from $α_s(M_z)$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-02-01T21:46:41Z</published>
+    <arxiv:comment>latex2e, 9 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Mod.Phys.Lett.A13:3151-3159,1998</arxiv:journal_ref>
+    <author>
+      <name>T. G. Steele</name>
+    </author>
+    <author>
+      <name>V. Elias</name>
+    </author>
+    <arxiv:doi>10.1142/S0217732398003351</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217732398003351" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.5333v5</id>
+    <title>Gluon condensates and c, b quark masses from quarkonia ratios of moments</title>
+    <updated>2011-10-13T10:51:10Z</updated>
+    <link href="https://arxiv.org/abs/1004.5333v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.5333v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extract (for the first time) the ratio of the gluon condensate &lt; g^3f_{abc}G^3 &gt;/&lt; alpha_s G^2 &gt; expressed in terms of the liquid instanton radius rho_c from charmonium moments sum rules by examining the effects of &lt; alpha_s G^2 &gt; in the determinations of both rho_c and the running MS mass m_c(m_c). Using a global analysis of selected ratios of moments at different Q^2=0, 4m_c^2 and 8m_c^2 and taking &lt; alpha_s G^2 &gt; from 0.06 GeV^4, where the estimate of rho_c is almost independent of &lt; alpha_s G^2 &gt;, we deduce: rho_c=0.98(21) GeV^{-1} which corresponds to &lt; g^3f_{abc}G^3 &gt; = (31+- 13) GeV^2 &lt; alpha_s G^2 &gt;. The value of m_c(m_c) is less affected (within the errors) by the variation of &lt; alpha_s G^2 &gt;, where a common solution from different moments are reached for &lt; alpha_s G^2 &gt; greater than 0.02 GeV^4. Using the values of &lt; alpha_s G^2 &gt;=0.06(2) GeV^4 from some other channels and the previous value of &lt; g^3f_{abc}G^3 &gt;, we deduce: m_c(m_c)=1260(18) MeV and m_b(m_b)=4173(10) MeV, where an estimate of the 4-loops contribution has been included. Our analysis indicates that the errors in the determinations of the charm quark mass without taking into account the ones of the gluon condensates have been underestimated. To that accuracy, one can deduce the running light and heavy quark masses and their ratios evaluated at M_Z, where it is remarkable to notice the approximate equalities: m_s/m_u= m_b/m_s= m_t/m_b= 51(4), which might reveal some eventual underlying novel symmetry of the quark mass matrix in some Grand Unified Theories.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-29T16:32:25Z</published>
+    <arxiv:comment>8 pages, 2 figures, 5 tables. Due to a bug in the program, values of m_b(m_b) in Table 5 have been changed and are in excellent agreement with the ones from Q^2-moments (arXiv:1105.2922[hep-ph]) and exponential sum rules (arXiv:1105.5070[hep-ph]) within stability criteria. These changes will be published as an erratum in PLB</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett.B693:559-566,2010</arxiv:journal_ref>
+    <author>
+      <name>Stephan Narison</name>
+      <arxiv:affiliation>CNRS-IN2P3, Montpellier</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2010.09.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2010.09.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0002020v1</id>
+    <title>Vacuum polarization of scalar fields near Reissner-Nordström black holes and the resonance behavior in field-mass dependence</title>
+    <updated>2000-02-04T08:04:06Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0002020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0002020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study vacuum polarization of quantized massive scalar fields $φ$ in equilibrium at black-hole temperature in Reissner-Nordström background. By means of the Euclidean space Green's function we analytically derive the renormalized expression $&lt;φ^{2}&gt;_{H}$ at the event horizon with the area $4πr_{+}^{2}$. It is confirmed that the polarization amplitude $&lt;φ^{2}&gt;_{H}$ is free from any divergence due to the infinite red-shift effect. Our main purpose is to clarify the dependence of $&lt;φ^{2}&gt;_{H}$ on field mass $m$ in relation to the excitation mechanism. It is shown for small-mass fields with $mr_{+}\ll1$ how the excitation of $&lt;φ^{2}&gt;_{H}$ caused by finite black-hole temperature is suppressed as $m$ increases, and it is verified for very massive fields with $mr_{+}\gg1$ that $&lt;φ^{2}&gt;_{H}$ decreases in proportion to $m^{-2}$ with the amplitude equal to the DeWitt-Schwinger approximation. In particular, we find a resonance behavior with a peak amplitude at $mr_{+}\simeq 0.38$ in the field-mass dependence of vacuum polarization around nearly extreme (low-temperature) black holes. The difference between Scwarzschild and nearly extreme black holes is discussed in terms of the mass spectrum of quantum fields dominant near the event horizon.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-02-04T08:04:06Z</published>
+    <arxiv:comment>24 pages, 1 figure Accepted in PRD</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev. D61 (2000) 124010</arxiv:journal_ref>
+    <author>
+      <name>Akira Tomimatsu</name>
+    </author>
+    <author>
+      <name>Hiroko Koyama</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.61.124010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.61.124010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.0546v2</id>
+    <title>The hadronic vacuum polarization and automatic O(a) improvement for twisted mass fermions</title>
+    <updated>2015-03-23T09:55:19Z</updated>
+    <link href="https://arxiv.org/abs/1412.0546v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.0546v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The vacuum polarization tensor and the corresponding vacuum polarization function are the basis for calculations of numerous observables in lattice QCD. Examples are the hadronic contributions to lepton anomalous magnetic moments, the running of the electroweak and strong couplings and quark masses. Quantities which are derived from the vacuum polarization tensor often involve a summation of current correlators over all distances in position space leading thus to the appearance of short-distance terms. The mechanism of O(a) improvement in the presence of such short-distance terms is not directly covered by the usual arguments of on-shell improvement of the action and the operators for a given quantity. If such short-distance contributions appear, the property of O(a) improvement needs to be reconsidered. We discuss the effects of these short-distance terms on the vacuum polarization function for twisted mass lattice QCD and find that even in the presence of such terms automatic O(a) improvement is retained if the theory is tuned to maximal twist.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-01T17:12:02Z</published>
+    <arxiv:comment>25 pages, 1 ancillary file; version published in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>JHEP 1503 (2015) 073</arxiv:journal_ref>
+    <author>
+      <name>Florian Burger</name>
+    </author>
+    <author>
+      <name>Grit Hotzel</name>
+    </author>
+    <author>
+      <name>Karl Jansen</name>
+    </author>
+    <author>
+      <name>Marcus Petschlies</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP03(2015)073</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP03(2015)073" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.2066v2</id>
+    <title>Top quark spin correlations and polarization at the LHC: standard model predictions and effects of anomalous top chromo moments</title>
+    <updated>2015-03-16T09:20:44Z</updated>
+    <link href="https://arxiv.org/abs/1305.2066v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.2066v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A number of top-spin observables are computed within the Standard Model (SM), at next-to-leading order in the strong and weak gauge couplings for hadronic top-quark anti-quark (ttbar) production and decay at the LHC for center-of-mass energies 7 and 8 TeV. For dileptonic final states we consider the azimuthal angle correlation, the helicity correlation, and the opening angle distribution; for lepton plus jets final states we determine distributions and asymmetries that trace a longitudinal and transverse polarization, respectively, of the t and t-bar samples. In addition, we investigate the effects of a non-zero chromo-magnetic and chromo-electric dipole moment of the top quark on these and other top-spin observables and associated asymmetries. These observables allow to disentangle the contributions from the real and imaginary parts of these moments.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-09T12:13:07Z</published>
+    <arxiv:comment>22 pages, numbers of transverse top polarization corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Lett. B 275 (2013) 115</arxiv:journal_ref>
+    <author>
+      <name>Werner Bernreuther</name>
+    </author>
+    <author>
+      <name>Zong-Guo Si</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2013.06.051</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2013.06.051" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0210099v1</id>
+    <title>170 Nanometer Nuclear Magnetic Resonance Imaging using Magnetic Resonance Force Microscopy</title>
+    <updated>2002-10-23T21:59:28Z</updated>
+    <link href="https://arxiv.org/abs/physics/0210099v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0210099v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We demonstrate one-dimensional nuclear magnetic resonance imaging of the semiconductor GaAs with 170 nanometer slice separation and resolve two regions of reduced nuclear spin polarization density separated by only 500 nanometers. This is achieved by force detection of the magnetic resonance, Magnetic Resonance Force Microscopy (MRFM), in combination with optical pumping to increase the nuclear spin polarization. Optical pumping of the GaAs creates spin polarization up to 12 times larger than the thermal nuclear spin polarization at 5 K and 4 T. The experiment is sensitive to sample volumes containing $\sim 4 \times 10^{11}$ $^{71}$Ga$/\sqrt{Hz}$. These results demonstrate the ability of force-detected magnetic resonance to apply magnetic resonance imaging to semiconductor devices and other nanostructures.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-23T21:59:28Z</published>
+    <arxiv:comment>Submitted to J of Magnetic Resonance</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>J. Mag. Reson. 162, 336 (2003)</arxiv:journal_ref>
+    <author>
+      <name>Kent R. Thurber</name>
+    </author>
+    <author>
+      <name>Lee E. Harrell</name>
+    </author>
+    <author>
+      <name>Doran D. Smith</name>
+    </author>
+    <arxiv:doi>10.1016/S1090-7807(03)00040-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S1090-7807(03)00040-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.04655v1</id>
+    <title>One-Log Call Iterative Solution of the Colebrook Equation for Flow Friction Based on Pade Polynomials</title>
+    <updated>2018-07-12T14:48:16Z</updated>
+    <link href="https://arxiv.org/abs/1807.04655v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.04655v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The 80 year-old empirical Colebrook function, widely used as an informal standard for hydraulic resistance, relates implicitly the unknown flow friction factor, with the known Reynolds number and the known relative roughness of a pipe inner surface. It is based on logarithmic law in the form that captures the unknown flow friction factor in a way that it cannot be extracted analytically. As an alternative to the explicit approximations or to the iterative procedures that require at least a few evaluations of computationally expensive logarithmic function or non-integer powers, this paper offers an accurate and computationally cheap iterative algorithm based on Pade polynomials with only one log-call in total for the whole procedure (expensive log-calls are substituted with Pade polynomials in each iteration with the exception of the first). The proposed modification is computationally less demanding compared with the standard approaches of engineering practice, but does not influence the accuracy or the number of iterations required to reach the final balanced solution.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-12T14:48:16Z</published>
+    <arxiv:comment>12 pages, 2 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <arxiv:journal_ref>Praks, P.; Brkic, D. One-Log Call Iterative Solution of the Colebrook Equation for Flow Friction Based on Pade Polynomials. Energies 2018, 11, 1825</arxiv:journal_ref>
+    <author>
+      <name>Pavel Praks</name>
+    </author>
+    <author>
+      <name>Dejan Brkic</name>
+    </author>
+    <arxiv:doi>10.3390/en11071825</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/en11071825" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.13774v1</id>
+    <title>Jamming of Elastoviscoplastic fluids in Elastic Turbulence</title>
+    <updated>2025-03-17T23:38:45Z</updated>
+    <link href="https://arxiv.org/abs/2503.13774v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.13774v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Elastoviscoplastic (EVP) fluid flows are driven by a non-trivial interplay between the elastic, viscous, and plastic properties, which under certain conditions can transition the otherwise laminar flow into complex flow instabilities with rich space-time-dependent dynamics. We discover that under elastic turbulence regimes, EVP fluids undergo dynamic jamming triggered by localised polymer stress deformations that facilitate the formation of solid regions trapped in local low-stress energy wells. Below the jamming transition $φ&lt;φ_J$, the solid volume fraction $φ$ scales with $\sqrt{Bi}$, where $Bi$ is the Bingham number characterizing the ratio of yield to viscous stresses, in direct agreement with theoretical approximations based on the laminar solution. The onset of this new dynamic jamming transition $φ\geqφ_J$ is marked by a clear deviation from the scaling $φ\sim \sqrt{Bi}$, scaling as $φ\sim \exp{Bi}$. We show that this instability-induced jamming transition -- analogous to that in dense suspensions -- leads to slow, minimally diffusive, and rigid-like flows with finite deformability, highlighting a novel phase-change in elastic turbulence regimes of complex fluids.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-17T23:38:45Z</published>
+    <arxiv:comment>Submitted to Journal of Fluid Mechanics</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>Journal of Fluid Mechanics 1017, R1 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Christopher S. From</name>
+    </author>
+    <author>
+      <name>Vedad Dzanic</name>
+    </author>
+    <author>
+      <name>Vahid Niasar</name>
+    </author>
+    <author>
+      <name>Emilie Sauret</name>
+    </author>
+    <arxiv:doi>10.1017/jfm.2025.10458</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/jfm.2025.10458" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.04612v2</id>
+    <title>Circularly polarized microwaves for magnetic resonance study in the GHz range: application to nitrogen-vacancy in diamonds</title>
+    <updated>2015-05-27T11:07:25Z</updated>
+    <link href="https://arxiv.org/abs/1503.04612v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.04612v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ability to create time-dependent magnetic fields of controlled polarization is essential for many experiments with magnetic resonance. We describe a microstrip circuit that allows us to generate strong magnetic field at microwave frequencies with arbitrary adjusted polarization. The circuit performance is demonstrated by applying it to an optically detected magnetic resonance and Rabi nutation experiments in nitrogen-vacancy color centers in diamond. Thanks to high efficiency of the proposed microstrip circuit and degree of circular polarization of 85% it is possible to address the specific spin states of a diamond sample using a low power microwave generator.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-16T11:37:34Z</published>
+    <arxiv:comment>4 pages, 7 figures, nitrogen-vacancy, microwave circular polarization, spin-state addressing</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Mariusz Mrozek</name>
+    </author>
+    <author>
+      <name>Janusz Mlynarczyk</name>
+    </author>
+    <author>
+      <name>Daniel S. Rudnicki</name>
+    </author>
+    <author>
+      <name>Wojciech Gawlik</name>
+    </author>
+  </entry>
+</feed>

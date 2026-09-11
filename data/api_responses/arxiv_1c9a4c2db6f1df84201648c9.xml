@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lHLwbbPAtHUUSEHlutgXMLp7NbU</id>
+  <title>arXiv Query: search_query=all:Wilson OR all:loop OR all:spectral OR all:decomposition OR all:transfer OR all:matrix OR all:positivity&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:39:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Wilson+OR+(all:loop+OR+(all:spectral+OR+(all:decomposition+OR+(all:transfer+OR+(all:matrix+OR+all:positivity)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>665425</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9907048v4</id>
+    <title>On the path integral representation for the Wilson loop and the non-Abelian Stokes theorem</title>
+    <updated>2000-05-17T10:31:21Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9907048v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9907048v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the derivation of the path integral representation over gauge degrees of freedom for Wilson loops in SU(N) gauge theory and 4-dimensional Euclidean space-time by using well-known properties of group characters. A discretized form of the path integral is naturally provided by the properties of group characters and does not need any artificial regularization. We show that the path integral over gauge degrees of freedom for Wilson loops derived by Diakonov and Petrov (Phys. Lett. B224 (1989) 131) by using a special regularization is erroneous and predicts zero for the Wilson loop. This property is obtained by direct evaluation of path integrals for Wilson loops defined for pure SU(2) gauge fields and Z(2) center vortices with spatial azimuthal symmetry. Further we show that both derivations given by Diakonov and Petrov for their regularized path integral, if done correctly, predict also zero for Wilson loops. Therefore, the application of their path integral representation of Wilson loops cannot give "a new way to check confinement in lattice" as has been declared by Diakonov and Petrov (Phys. Lett. B242 (1990) 425). From the path integral representation which we consider we conclude that no new non-Abelian Stokes theorem can exist for Wilson loops except the old-fashioned one derived by means of the path-ordering procedure.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-07-08T16:19:55Z</published>
+    <arxiv:comment>33 pages, no figures, Latex, the explicit evaluations of the path integrals suggested by Diakonov and Petrov for the Wilson loop are added. It is shown that path integrals have been evaluated by Diakonov and Petrov incorrectly and the path integral representation for the Wilson loop is erroneous. Therefore, the path integral representation for the Wilson loop invented by Diakonov and Petrov cannot give "a new way to check confinement in lattice"</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D62:025019,2000</arxiv:journal_ref>
+    <author>
+      <name>M. Faber</name>
+    </author>
+    <author>
+      <name>A. N. Ivanov</name>
+    </author>
+    <author>
+      <name>N. I. Troitskaya</name>
+    </author>
+    <author>
+      <name>M. Zach</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.62.025019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.62.025019" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0004052v2</id>
+    <title>Magnetic Z(N) symmetry in hot QCD and the spatial Wilson loop</title>
+    <updated>2000-05-26T16:26:11Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0004052v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0004052v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the relation between the deconfining phase transition in gauge theories and the realization of the magnetic Z(N) symmetry. At low temperature the Z(N) symmetry is spontaneously broken while above the phase transition it is restored. This is intimately related to the change of behaviour of the spatial 't Hooft loop discussed in hep-ph/9909516. We also point out that the realization of the magnetic symmetry has bearing on the behaviour of the spatial Wilson loop. We give a physical argument to the effect that at zero temperature the spatial Wilson loop must have perimeter law behaviour in the symmetric phase but area law behaviour in the spontaneously broken phase. At high temperature the argument does not hold and the restoration of magnetic Z(N) is consistent with area law for the Wilson loop.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-04-06T11:32:28Z</published>
+    <arxiv:comment>30 pages, discussion of the Wilson loop at high temperature completely revised, new references added</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev. D62 (2000) 096008</arxiv:journal_ref>
+    <author>
+      <name>C. P. Korthals Altes</name>
+      <arxiv:affiliation>CPT, Marseille</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Kovner</name>
+      <arxiv:affiliation>Oxford U.</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.62.096008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.62.096008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0708.0797v3</id>
+    <title>Near BPS Wilson Loop in beta-deformed Theories</title>
+    <updated>2007-10-22T10:59:28Z</updated>
+    <link href="https://arxiv.org/abs/0708.0797v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0708.0797v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose a definition of the Wilson loop operator in the N=1 beta-deformed supersymmetric Yang-Mills theory. Although the operator is not BPS, it has a finite expectation value at least up to order (g^2 N)^2. This does not happen generally for a generic non-BPS Wilson loop whose expectation value is UV divergent. For this reason we call this a near-BPS Wilson loop and conjecture that its exact expectation value is finite. We derive the general form of the boundary condition satisfied by the dual string worldsheet and find that it is deformed. Finiteness of the expectation value of the Wilson loop, together with some rather remarkable properties of the Lunin-Maldacena metric and the B-field, fixes the boundary condition to be one which is characterized by the vielbein of the deformed supergravity metric. The Wilson loop operators provide natural candidates as dual descriptions to some of the existing D-brane configurations in the Lunin-Maldacena background. We also construct the string dual configuration for a near-1/4 BPS circular Wilson loop operator. The string lies on a deformed three-sphere instead of a two-sphere as in the undeformed case. The expectation value of the Wilson loop operator is computed using the AdS/CFT correspondence and is found to be independent of the deformation. We conjecture that the exact expectation value of the Wilson loop is given by the same matrix model as in the undeformed case.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-08-06T17:13:52Z</published>
+    <arxiv:comment>LaTeX. v2: corrections and comments added (22 pages). v3: proof of the finitness of the vev of the Wilson loop is extended to the next to leading order. appendices C and D added. version to appear in JHEP (23 pages)</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0710:108,2007</arxiv:journal_ref>
+    <author>
+      <name>Chong-Sun Chu</name>
+    </author>
+    <author>
+      <name>Dimitrios Giataganas</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2007/10/108</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2007/10/108" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.01859v3</id>
+    <title>Entanglement Entropy, Chemical Potential, Current Source, and Wilson Loop</title>
+    <updated>2018-08-29T18:00:21Z</updated>
+    <link href="https://arxiv.org/abs/1705.01859v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.01859v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct and analytically compute entanglement and the Rényi entropies of Dirac fermions on a 2 dimensional torus in the presence of background chemical potential, current source and Wilson loop, by employing correlation functions of the electromagnetic vertex operators of $\mathbb{Z}_n$ orbifold theory. The entropies reveal numerous novelties. They probe the energy levels of compact fermions through the chemical potential, demonstrate interference phenomena with the current source being `beat frequency,' and experience topological phase transitions by dialing the Wilson loop, in the low temperature limit. In the large radius limit, they depend only on the Wilson loop via topological transitions, which are tightly linked to conformal dimension of the electromagnetic operators.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-04T14:38:45Z</published>
+    <arxiv:comment>5+4 pages, 5 figures, v2: improved introduction, v3: major revision with Wilson loop contribution to Entanglement entropy</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Bom Soo Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.21906v1</id>
+    <title>Hartwig-Spindelböck decomposition of dual complex matrix</title>
+    <updated>2024-10-29T09:59:58Z</updated>
+    <link href="https://arxiv.org/abs/2410.21906v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.21906v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article introduces the Hartwig-Spindelböck decomposition of dual complex matrices. We provide representations of some generalized inverses using this decomposition. Further, several characterizations are established for a complex matrix to be Hermitian, normal and new dual EP matrix.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-29T09:59:58Z</published>
+    <arxiv:comment>This article introduces the Hartwig-Spindelböck decomposition of dual complex matrices. We provide representations of some generalized inverses using this decomposition. Further, several characterizations are established for a complex matrix to be Hermitian, normal and new dual EP matrix</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <author>
+      <name>Aaisha Be</name>
+    </author>
+    <author>
+      <name>Debasisha Mishra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.08382v1</id>
+    <title>Conditionally positive definite kernels in Hilbert $C^*$-modules</title>
+    <updated>2016-11-25T08:35:02Z</updated>
+    <link href="https://arxiv.org/abs/1611.08382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.08382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the notion of conditionally positive definite in the context of Hilbert $C^*$-modules and present a characterization of the conditionally positive definiteness in terms of the usual positive definiteness. We give a Kolmogorov type representation of conditionally positive definite kernels in Hilbert $C^*$-modules. As a consequence, we show that a $C^*$-metric space $(S, d)$ is $C^*$-isometric to a subset of a Hilbert $C^*$-module if and only if $K(s,t)=-d(s,t)^2$ is a conditionally positive definite kernel. We also present a characterization of the order $K'\leq K$ between conditionally positive definite kernels.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-25T08:35:02Z</published>
+    <arxiv:comment>14 pages, to appear in Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <arxiv:journal_ref>Positivity 21 (2017), no. 3, 1161--1172</arxiv:journal_ref>
+    <author>
+      <name>Mohammad Sal Moslehian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.17881v1</id>
+    <title>Three-loop pentagonal Wilson loop with Lagrangian insertion</title>
+    <updated>2025-12-19T18:35:41Z</updated>
+    <link href="https://arxiv.org/abs/2512.17881v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.17881v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Employing a cutting-edge bootstrap method, we analytically compute the three-loop pentagonal Wilson loop with Lagrangian insertion in planar $\mathcal{N}=4$ super-Yang-Mills theory. This object is conjectured to coincide with the maximally transcendental part of the four-loop five-point all-plus amplitude in pure Yang-Mills theory. Our starting point is an ansatz that encodes the known leading singularities of this object, as well as the relevant function space. The latter has become available only recently, thanks to an analytic computation of all three-loop five-point planar massless Feynman integrals. We determine the coefficients in the ansatz by imposing physical constraints. This includes a near-collinear expansion, which so far has not been applied to this observable. Taken together, the constraints allow us to uniquely determine the symbol of the answer. We verify the symbol result by an independent integral reduction calculation.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-19T18:35:41Z</published>
+    <arxiv:comment>6 pages, 2 figures, 2 tables, ancillary files available in https://uva-hva.gitlab.host/universeplus/pentagon-wilson-loop-with-lagrangian-insertion-at-three-loops</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Dmitry Chicherin</name>
+    </author>
+    <author>
+      <name>Johannes Henn</name>
+    </author>
+    <author>
+      <name>Yongqun Xu</name>
+    </author>
+    <author>
+      <name>Shun-Qing Zhang</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6015v1</id>
+    <title>The spectral function of a first order elliptic system</title>
+    <updated>2012-08-30T06:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1208.6015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of squares of Euclidean norms of eigenfunctions evaluated at a given point of the manifold, with summation carried out over all eigenvalues between zero and a positive lambda) and the counting function (number of eigenvalues between zero and a positive lambda). We derive explicit two-term asymptotic formulae for all three. For the propagator "asymptotic" is understood as asymptotic in terms of smoothness, whereas for the spectral and counting functions "asymptotic" is understood as asymptotic with respect to lambda tending to plus infinity.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-30T06:55:33Z</published>
+    <arxiv:comment>This preprint is "part a" (proper subset) of preprint arXiv:1204.6567. Preprint arXiv:1204.6567 is being split into two parts on the recommendation of the referee of Journal of Spectral Theory. "Part b" will appear as a separate preprint under the title "Spectral theoretic characterization of the massless Dirac operator"</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2013, vol. 3, p. 317-360</arxiv:journal_ref>
+    <author>
+      <name>Olga Chervova</name>
+    </author>
+    <author>
+      <name>Robert J. Downes</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0997v3</id>
+    <title>Spectral asymptotics for Robin problems with a discontinuous coefficient</title>
+    <updated>2011-01-27T13:41:51Z</updated>
+    <link href="https://arxiv.org/abs/1009.0997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral behavior of the difference between the resolvents of two realizations $\tilde A_1$ and $\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_1$ and $b_2$ are in $L_\infty$, the s-numbers $s_j$ of $(\tilde A_1 -λ)^{-1}-(\tilde A_2 -λ)^{-1}$ satisfy $s_j j^{3/(n-1)}\le C$ for all $j$; this improves a recent result for $A=-Δ$ by Behrndt et al., that $\sum_js_j ^p&lt;\infty$ for $p&gt;(n-1)/3$. A sharper estimate is obtained when $b_1$ and $b_2$ are in $C^ε$ for some $ε&gt;0$, with jumps at a smooth hypersurface, namely that $s_j j^{3/(n-1)}\to c$ for $j\to \infty$, with a constant $c$ defined from the principal symbol of $A$ and $b_2-b_1$.
+  As an auxiliary result we show that the usual principal spectral asymptotic estimate for pseudodifferential operators of negative order on a closed manifold extends to products of pseudodifferential operators interspersed with piecewise continuous functions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-06T09:28:34Z</published>
+    <arxiv:comment>20 pages, notation simplified. To appear in J. Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>J. Spectral Theory 1 (2011), 155-177</arxiv:journal_ref>
+    <author>
+      <name>Gerd Grubb</name>
+    </author>
+    <arxiv:doi>10.4171/JST/7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.5763v3</id>
+    <title>Wilson Loops in N=2 Super-Yang-Mills from Matrix Model</title>
+    <updated>2011-10-03T20:03:53Z</updated>
+    <link href="https://arxiv.org/abs/1106.5763v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.5763v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compute the expectation value of the circular Wilson loop in N=2 supersymmetric Yang-Mills theory with N_f=2N hypermultiplets. Our results indicate that the string tension in the dual string theory scales as the logarithm of the 't Hooft coupling.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-28T18:59:56Z</published>
+    <arxiv:comment>37 pages, 9 figures; v2: Numerical factors corrected, simple derivation of Wilson loop and discussion of continuation to complex lambda added; v3: instanton partition function re-analyzed in order to take into account a contribution of the hypermultiplets</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 1109:102,2011</arxiv:journal_ref>
+    <author>
+      <name>F. Passerini</name>
+    </author>
+    <author>
+      <name>K. Zarembo</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP09(2011)102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP09(2011)102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.04397v2</id>
+    <title>On the transfer matrix of the supersymmetric eight-vertex model. I. Periodic boundary conditions</title>
+    <updated>2017-12-01T15:06:16Z</updated>
+    <link href="https://arxiv.org/abs/1711.04397v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.04397v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The square-lattice eight-vertex model with vertex weights $a,b,c,d$ obeying the relation $(a^2+ab)(b^2+ab) = (c^2+ab)(d^2+ab)$ and periodic boundary conditions is considered. It is shown that the transfer matrix of the model for $L=2n+1$ vertical lines and periodic boundary conditions along the horizontal direction possesses the doubly degenerate eigenvalue $Θ_n = (a+b)^{2n+1}$. This proves a conjecture by Stroganov from 2001. The proof uses the supersymmetry of a related XYZ spin-chain Hamiltonian. The eigenstates of the transfer matrix corresponding to $Θ_n$ are shown to be the ground states of the spin-chain Hamiltonian. Moreover, for positive vertex weights $Θ_n$ is the largest eigenvalue of the transfer matrix.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-13T02:49:35Z</published>
+    <arxiv:comment>21 pages, v2: added a theorem on the largest transfer-matrix eigenvalue</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Christian Hagendorf</name>
+    </author>
+    <author>
+      <name>Jean Liénardy</name>
+    </author>
+    <arxiv:doi>10.1088/1742-5468/aab01d</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-5468/aab01d" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14334v4</id>
+    <title>Invariant subspaces of elliptic systems II: spectral theory</title>
+    <updated>2022-02-08T09:57:39Z</updated>
+    <link href="https://arxiv.org/abs/2103.14334v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14334v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider an elliptic self-adjoint pseudodifferential operator $A$ acting on $m$-columns of half-densities on a closed manifold $M$, whose principal symbol is assumed to have simple eigenvalues. We show that the spectrum of $A$ decomposes, up to an error with superpolynomial decay, into $m$ distinct series, each associated with one of the eigenvalues of the principal symbol of $A$. These spectral results are then applied to the study of propagation of singularities in hyperbolic systems. The key technical ingredient is the use of the carefully devised pseudodifferential projections introduced in the first part of this work, which decompose $L^2(M)$ into almost-orthogonal almost-invariant subspaces under the action of both $A$ and the hyperbolic evolution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T08:56:53Z</published>
+    <arxiv:comment>Minor edits, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, vol. 12 (2022), p. 301-338</arxiv:journal_ref>
+    <author>
+      <name>Matteo Capoferri</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.02314v2</id>
+    <title>A Characterization for Spectral and Trace Positivity of Matrix Words</title>
+    <updated>2026-08-06T14:27:38Z</updated>
+    <link href="https://arxiv.org/abs/2605.02314v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.02314v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we provide a complete structural characterization of which words in noncommuting matrix variables and their formal transposes universally evaluate to matrices with nonnegative eigenvalues or nonnegative trace, regardless of the dimension or entries of the substituted matrices. Crucially, we establish that in this pure monomial setting, both spectral and trace positivity exhibit an exact rigidity phenomenon analogous to Hermitian-square representations. This contrasts sharply with the broader polynomial setting, where tracial rigidity is known to fail even for approximation. Furthermore, we establish that this structural rigidity extends seamlessly to the complex and infinite-dimensional domains. We show that the exact same purely combinatorial conditions completely characterize matrix words evaluated over complex matrices, bounded operators on arbitrary Hilbert spaces, and positive tracial states on $C^*$-algebras and von Neumann algebras.
+  As one application of our main theorems, we fully resolve open questions initially posed by Lieb and Pierce, and later conjectured by Hillar and Johnson, concerning the underlying algebraic structure of the summands in Bessis-Moussa-Villani (BMV) trace polynomials from quantum statistical mechanics. We achieve these results by establishing a surprising connection to graph theory, leading to a matrix analogue of the positive graph conjecture posed by Camarena, Csóka, Hubai, Lippner, and Lovász.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-04T08:13:43Z</published>
+    <arxiv:comment>This version is a considerable extension of the previous one, as it now also considers universal trace positivity and fully answers open questions originally posed by Lieb and Pierce. 42 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Frederik Garbe</name>
+    </author>
+    <author>
+      <name>Fan Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.08362v1</id>
+    <title>Geometric and growth rate tests of General Relativity with recovered linear cosmological perturbations</title>
+    <updated>2016-10-26T14:54:00Z</updated>
+    <link href="https://arxiv.org/abs/1610.08362v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.08362v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I investigate the consistency of the VIMOS Public Extragalactic Redshift Survey v7 galaxy sample with the expansion history and linear growth rate predicted by General Relativity (GR) and a Planck (2015) cosmology. To do so, I measure the redshift-space power spectrum, which is anisotropic due to both redshift-space distortions (RSD) and the Alcock-Paczynski (AP) effect. In Chapter 6, I place constraints of $f σ_8(0.76) = 0.44 \pm 0.04$ and $f σ_8(1.05) = 0.28 \pm 0.08$, which remain consistent with GR at 95% confidence. Marginalising over the anisotropic AP effect degrades the constraints by a factor of three but allows $F_{AP} \equiv (1+z) D_A H/c$ to be simultaneously constrained. The VIPERS v7 joint-posterior on $(f σ_8, F_{AP})$ shows no compelling deviation from GR.
+  Chapter 7 investigates the inclusion of a simple density transform: `clipping' prior to the RSD analysis. This tackles the root-cause of non-linearity and may extend the validity of perturbation theory. Moreover, this marked statistic would amplify signatures of shielded modified gravity models and includes information not available to the power spectrum. I show that a linear real-space power spectrum with a Kaiser factor and a Lorentzian damping yields a significant bias without clipping, but that this may be removed with a strict threshold; similar behaviour is observed for the data. Estimates of $f σ_8$ for different thresholds are highly correlated, but this may be obtained using mocks. A maximum likelihood estimate from a combination of thresholds is shown to achieve a 16% decrease in statistical error relative to a single-threshold estimate. The results are encouraging to date but represent a work in progress; the final analysis will be submitted to Astronomy &amp; Astrophysics as Wilson et al. (2016).</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-26T14:54:00Z</published>
+    <arxiv:comment>Thesis; comments welcome; Chapter 6 &amp; 7 to be submitted to A&amp;A as Wilson et al. (2016)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Michael J. Wilson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.13206v2</id>
+    <title>An off-shell Wilson loop</title>
+    <updated>2022-07-29T18:45:11Z</updated>
+    <link href="https://arxiv.org/abs/2110.13206v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.13206v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is well-known that on-shell maximally helicity-violating gluon scattering amplitudes in maximally supersymmetric Yang-Mills theory are dual to a bosonic Wilson loop on a null-polygonal contour. The light-like nature of the intervals is a reflection of the mass-shell condition for massless gluons involved in scattering. Presently, we introduce a Wilson loop prototype on a piecewise curvilinear contour that can be interpreted in the T-dual language to correspond to nonvanishing gluon off-shellness. We analyze it first for four sites at one loop and demonstrate that it coincides with the four-gluon amplitude on the Coulomb branch. Encouraged by this fact, we move on to the two-loop order. To simplify our considerations, we only focus on the Sudakov asymptotics of the Wilson loop, when the off-shellness goes to zero. The latter serves as a regulator of short-distance divergences around the perimeter of the loop, i.e., divergences when gluons are integrated over a small vicinity of the Wilson loop cusps. It does not however regulate conventional ultraviolet divergences of interior closed loops. This unavoidably introduces a renormalization scale dependence and thus scheme dependence into the problem. With a choice of the scale setting and a finite renormalization, we observe exponentiation of the double logarithmic scaling of the Wilson loop with the accompanying exponent being given by the so-called hexagon anomalous dimension, which recently made its debut in the origin limit of six-leg gluon amplitudes. This is contrary to the expectation for the octagon anomalous dimension to rather emerge from our analysis, suggesting that the current object encodes physics different from the Coulomb branch scattering amplitudes.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-25T18:43:03Z</published>
+    <arxiv:comment>38 pages, 4 figures; v2: author added, two-loop calculation added, significant text revision</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>A. V. Belitsky</name>
+    </author>
+    <author>
+      <name>V. A. Smirnov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.2787v4</id>
+    <title>Wilson loops in 3-dimensional N=6 supersymmetric Chern-Simons Theory and their string theory duals</title>
+    <updated>2008-10-30T09:50:40Z</updated>
+    <link href="https://arxiv.org/abs/0809.2787v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.2787v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study Wilson loops in the three-dimensional N=6 supersymmetric Chern-Simons theory recently constructed by Aharony, Bergman, Jafferis and Maldacena, that is conjectured to be dual to type IIA string theory on AdS_4 x CP^3. We construct loop operators in the Chern-Simons theory which preserve 1/6 of the supercharges and calculate their expectation value up to 2-loop order at weak coupling. The expectation value at strong coupling is found by constructing the string theory duals of these operators. For low dimensional representations these are fundamental strings, for high dimensional representations these are D2-branes and D6-branes. In support of this identification we demonstrate that these string theory solutions match the symmetries, charges and the preserved supersymmetries of their Chern-Simons theory counterparts.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-17T15:07:10Z</published>
+    <arxiv:comment>28 pages. v2: references added, choice of the Wilson loop operator clarified; v3: combinatorial factor of 2 in perturbative calculation corrected; v4: typos corrected, version to be published</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0811:019,2008</arxiv:journal_ref>
+    <author>
+      <name>Nadav Drukker</name>
+    </author>
+    <author>
+      <name>Jan Plefka</name>
+    </author>
+    <author>
+      <name>Donovan Young</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2008/11/019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2008/11/019" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.05475v2</id>
+    <title>Novel BPS Wilson loops in three-dimensional quiver Chern-Simons-matter theories</title>
+    <updated>2016-04-09T12:27:01Z</updated>
+    <link href="https://arxiv.org/abs/1510.05475v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.05475v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that generic three-dimensional $\mathcal N=2$ quiver super Chern-Simons-matter theories admit Bogomol'nyi-Prasad-Sommerfield (BPS) Drukker-Trancanelli (DT) type Wilson loops. We investigate both Wilson loops along timelike infinite straight lines in Minkowski spacetime and circular Wilson loops in Euclidean space. In Aharnoy-Bergman-Jafferis-Maldacena theory, we find that generic BPS DT type Wilson loops preserve the same number of supersymmetries as Gaiotto-Yin type Wilson loops. There are several free parameters for generic BPS DT type Wilson loops in the construction, and supersymmetry enhancement for Wilson loops happens for special values of the parameters.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-19T13:52:06Z</published>
+    <arxiv:comment>V1, 5 pages; V2, 13 pages, circular Wilson loops added, published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett. B753 (2016) 215-220</arxiv:journal_ref>
+    <author>
+      <name>Hao Ouyang</name>
+    </author>
+    <author>
+      <name>Jun-Bao Wu</name>
+    </author>
+    <author>
+      <name>Jia-ju Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2015.12.021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2015.12.021" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0205160v4</id>
+    <title>Supersymmetric Wilson loops</title>
+    <updated>2002-08-27T12:58:36Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0205160v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0205160v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I construct 1/16, 1/8 and 1/4 BPS Wilson loops in N=4 supersymmetric Yang-Mills theory and argue that expectation values of 1/4 BPS loops do not receive quantum corrections. At strong coupling, non-renormalization of supersymmetric Wilson loops implies subtle cancellations in the partition function of the AdS string with special boundary conditions. The cancellations are shown to occur in the semiclassical approximation.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-05-15T19:54:18Z</published>
+    <arxiv:comment>16 pages; v2: misprints corrected; v3: comments on superconformal invariance and a reference added, version to be published in Nucl. Phys. B; v4: discussion of N=2 supersymmetric Wilson loops corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Nucl.Phys. B643 (2002) 157-171</arxiv:journal_ref>
+    <author>
+      <name>K. Zarembo</name>
+    </author>
+    <arxiv:doi>10.1016/S0550-3213(02)00693-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0550-3213(02)00693-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.14260v4</id>
+    <title>Wilson lines and their Laurent positivity</title>
+    <updated>2023-11-06T11:57:07Z</updated>
+    <link href="https://arxiv.org/abs/2011.14260v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.14260v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a marked surface $Σ$ and a semisimple algebraic group $G$ of adjoint type, we study the Wilson line morphism $g_{[c]}:\mathcal{P}_{G,Σ} \to G$ associated with the homotopy class of an arc $c$ connecting boundary intervals of $Σ$, which is the comparison element of pinnings via parallel-transport. The matrix coefficients of the Wilson lines give a generating set of the function algebra $\mathcal{O}(\mathcal{P}_{G,Σ})$ when $Σ$ has no punctures. The Wilson lines have the multiplicative nature with respect to the gluing morphisms introduced by Goncharov--Shen [GS19], hence can be decomposed into triangular pieces with respect to a given ideal triangulation of $Σ$. We show that the matrix coefficients $c_{f,v}^V(g_{[c]})$ give Laurent polynomials with positive integral coefficients in the Goncharov--Shen coordinate system associated with any decorated triangulation of $Σ$, for suitable $f$ and $v$.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-29T02:51:34Z</published>
+    <arxiv:comment>58 pages, 13 figures. v3: A major revision shortening the length of the paper by removing minor sections; modifying the presentations of Wilson lines as stack morphisms. v4: Minor corrections of typos. Journal version</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Math. Z. 305, 34 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Tsukasa Ishibashi</name>
+    </author>
+    <author>
+      <name>Hironori Oya</name>
+    </author>
+    <arxiv:doi>10.1007/s00209-023-03355-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00209-023-03355-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.02596v1</id>
+    <title>Spectral Asymptotics of Neural Network Loss Landscapes: An Exact Decomposition of the Curvature Exponent</title>
+    <updated>2026-05-22T23:31:38Z</updated>
+    <link href="https://arxiv.org/abs/2606.02596v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.02596v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The curvature exponent $α$ in $h_k \propto σ_k^α$ -- governing how Hessian eigenvalues scale with gradient singular values -- varies systematically across layer types ($α\approx 2$ for convolutions, $\approx 1$ for transformer attention, $&lt; 1$ for MLP up-projections). Why? We prove the Spectral Alignment Decomposition: $α= 2 + d\logΦ_k / d\logσ_k$, where $Φ_k$ measures alignment between Kronecker factor eigenbases and gradient singular directions. This reduces "why does $α$ vary?" to a geometric question we answer for LayerNorm, residual connections, and softmax heads. The decomposition implies a spectral transfer identity $s = αγ$ linking curvature exponent, effective gradient rank-decay $γ$, and Hessian decay exponent $s$. The identity is algebraic; its empirical content is that $α$ and $γ$, fit on independent data (HVPs vs. SVD), recover $s$ to ~2% median error across 93 layers, five architectures, and three datasets -- with no free parameters. A zeta-function bound on participation ratio shows curvature concentrates onto effectively one direction per layer. As a proof of concept, we derive the architecture-adaptive preconditioner $T(σ;α)$ and show that Spectral Newton -- implementing $T$ in the gradient singular basis -- outperforms AdamW on vision benchmarks where $α\approx 2$.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-22T23:31:38Z</published>
+    <arxiv:comment>13 pages, 6 figures, 3 tables. Code and data: https://github.com/9D-Labs/9d-spectral-alignment-decomposition</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Anherutowa Calvo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.00255v2</id>
+    <title>Multiplicative structure on Real Johnson-Wilson theory</title>
+    <updated>2017-08-30T02:30:50Z</updated>
+    <link href="https://arxiv.org/abs/1701.00255v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.00255v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that the Real Johnson-Wilson theories ER(n) are homotopy associative and commutative ring spectra up to phantom maps. We further show that ER(n) represents an associatively and commutatively multiplicative cohomology theory on the category of (possibly non-compact) spaces.</summary>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-01T15:56:22Z</published>
+    <arxiv:comment>16 pages, version 2. Added a new section revisiting $ER(n)$-orientations of vector bundles and minor improvements to exposition. To appear in Proceedings of the Mid-Atlantic Topology Conference</arxiv:comment>
+    <arxiv:primary_category term="math.AT"/>
+    <author>
+      <name>Nitu Kitchloo</name>
+    </author>
+    <author>
+      <name>Vitaly Lorman</name>
+    </author>
+    <author>
+      <name>W. Stephen Wilson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.05012v2</id>
+    <title>'Getting out of the closet': Scientific authorship of literary fiction and knowledge transfer</title>
+    <updated>2018-06-27T08:08:37Z</updated>
+    <link href="https://arxiv.org/abs/1802.05012v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.05012v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Some scientists write literary fiction books in their spare time. If these books contain scientific knowledge, literary fiction becomes a mechanism of knowledge transfer. In this case, we could conceptualize literary fiction as non-formal knowledge transfer. We model knowledge transfer via literary fiction as a function of the type of scientist (academic or non-academic) and his/her scientific field. Academic scientists are those employed in academia and public research organizations whereas non-academic scientists are those with a scientific background employed in other sectors. We also distinguish between direct knowledge transfer (the book includes the scientist's research topics), indirect knowledge transfer (scientific authors talk about their research with cultural agents) and reverse knowledge transfer (cultural agents give scientists ideas for future research). Through mixed-methods research and a sample from Spain, we find that scientific authorship accounts for a considerable percentage of all literary fiction authorship. Academic scientists do not transfer knowledge directly so often as non-academic scientists, but the former engage into indirect and reverse transfer knowledge more often than the latter. Scientists from History stand out in direct knowledge transfer. We draw propositions about the role of the academic logic and scientific field on knowledge transfer via literary fiction. We advance some tentative conclusions regarding the consideration of scientific authorship of literary fiction as a valuable knowledge transfer mechanism.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-14T10:02:17Z</published>
+    <arxiv:comment>Paper published in Journal of Technology Transfer</arxiv:comment>
+    <arxiv:primary_category term="cs.DL"/>
+    <arxiv:journal_ref>Azagra-Caro, J.M., Fernández-Mesa, A., Robinson-Garcia, N. (2018). 'Getting out of the closet': Scientific authorship of literary fiction and knowledge transfer. Journal of Technology Transfer. doi:10.1007/s10961-018-9672-6</arxiv:journal_ref>
+    <author>
+      <name>Joaquín M. Azagra-Caro</name>
+    </author>
+    <author>
+      <name>Anabel Fernández-Mesa</name>
+    </author>
+    <author>
+      <name>Nicolás Robinson-García</name>
+    </author>
+    <arxiv:doi>10.1007/s10961-018-9672-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10961-018-9672-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.3786v2</id>
+    <title>Wilson Loops in Superconformal Chern-Simons Theory and Fundamental Strings in Anti-de Sitter Supergravity Dual</title>
+    <updated>2009-02-17T17:46:51Z</updated>
+    <link href="https://arxiv.org/abs/0809.3786v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.3786v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study Wilson loop operators in three-dimensional, N=6 superconformal Chern-Simons theory dual to IIA superstring theory on AdS4 x CP3. Novelty of Wilson loop operators in this theory is that, for a given contour, there are two linear combinations of Wilson loop transforming oppositely under time-reversal transformation. We show that one combination is holographically dual to IIA fundamental string, while orthogonal combination is set to zero. We gather supporting evidences from detailed comparative study of generalized time-reversal transformations in both D2-brane worldvolume and ABJM theories. We then classify supersymmetric Wilson loops and find at most 1/6-supersymmetry. We next study Wilson loop expectation value in planar perturbation theory. For circular Wilson loop, we find features remarkably parallel to circular Wilson loop in N=4 super Yang-Mills theory in four dimensions. First, all odd loop diagrams vanish identically and even loops contribute nontrivial contributions. Second, quantum corrected gauge and scalar propagators take the same form as those of N=4 super Yang-Mills theory. Combining these results, we propose that expectation value of circular Wilson loop is given by Wilson loop expectation value in pure Chern-Simons theory times zero-dimensional Gaussian matrix model whose variance is specified by an interpolating function of `t Hooft coupling. We suggest the function interpolates smoothly between weak and strong coupling regime, offering new test ground of the AdS/CFT correspondence.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-23T19:59:29Z</published>
+    <arxiv:comment>v1. 34 pages, 11 figures: v2. major revision, all loop proof added 42 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0903:127,2009</arxiv:journal_ref>
+    <author>
+      <name>Soo-Jong Rey</name>
+    </author>
+    <author>
+      <name>Takao Suyama</name>
+    </author>
+    <author>
+      <name>Satoshi Yamaguchi</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2009/03/127</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2009/03/127" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0806.4191v2</id>
+    <title>Spectral curves, emergent geometry, and bubbling solutions for Wilson loops</title>
+    <updated>2008-07-31T06:42:45Z</updated>
+    <link href="https://arxiv.org/abs/0806.4191v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0806.4191v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the supersymmetric circular Wilson loops of N=4 super Yang-Mills in large representations of the gauge group. In particular, we obtain the spectral curves of the matrix model which captures the expectation value of the loops. These spectral curves are then proven to be precisely the hyperelliptic surfaces that characterize the bubbling solutions dual to the Wilson loops, thus yielding an example of a geometry emerging from an eigenvalue distribution. We finally discuss the Wilson loop expectation value from the matrix model and from supergravity.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-06-26T19:56:12Z</published>
+    <arxiv:comment>27 pages, 2 figures; v2: references added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0809:050,2008</arxiv:journal_ref>
+    <author>
+      <name>Takuya Okuda</name>
+    </author>
+    <author>
+      <name>Diego Trancanelli</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2008/09/050</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2008/09/050" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.2694v2</id>
+    <title>Matrix Flavor Brane and Dual Wilson Line</title>
+    <updated>2013-12-19T03:24:51Z</updated>
+    <link href="https://arxiv.org/abs/1312.2694v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.2694v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study a novel non-Abelian matrix configuration of probe D-branes in AdS5. This configuration gives rise to a new D-brane phenomenon related to the known "Myers effect" in the context of holography. It is dual to a deformation of the field theory by a Wilson line threaded fermion bilinear. We study the two point function of these short Wilson lines from both the non-Abelian DBI action and a classical string world sheet calculation and identify the region where they agree. We also study a related configuration where the non-Abelian nature of the embedding functions is enhanced by a background flux as in the Myers effect.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-10T07:38:26Z</published>
+    <arxiv:comment>9 pages, 2 figures. Second version with fixed and added references. In memory of Ken Wilson</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 89, 066008 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Andreas Karch</name>
+    </author>
+    <author>
+      <name>Sichun Sun</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.89.066008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.89.066008" title="doi"/>
+  </entry>
+</feed>

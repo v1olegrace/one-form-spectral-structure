@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9FS9eGDvYsRqA/PbYgIx1JTS0SM</id>
+  <title>arXiv Query: search_query=all:Mellin OR all:transform OR all:asymptotics OR all:spectral OR all:density OR all:threshold OR all:behaviour&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Mellin+OR+(all:transform+OR+(all:asymptotics+OR+(all:spectral+OR+(all:density+OR+(all:threshold+OR+all:behaviour)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>722955</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0997v3</id>
+    <title>Spectral asymptotics for Robin problems with a discontinuous coefficient</title>
+    <updated>2011-01-27T13:41:51Z</updated>
+    <link href="https://arxiv.org/abs/1009.0997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral behavior of the difference between the resolvents of two realizations $\tilde A_1$ and $\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_1$ and $b_2$ are in $L_\infty$, the s-numbers $s_j$ of $(\tilde A_1 -λ)^{-1}-(\tilde A_2 -λ)^{-1}$ satisfy $s_j j^{3/(n-1)}\le C$ for all $j$; this improves a recent result for $A=-Δ$ by Behrndt et al., that $\sum_js_j ^p&lt;\infty$ for $p&gt;(n-1)/3$. A sharper estimate is obtained when $b_1$ and $b_2$ are in $C^ε$ for some $ε&gt;0$, with jumps at a smooth hypersurface, namely that $s_j j^{3/(n-1)}\to c$ for $j\to \infty$, with a constant $c$ defined from the principal symbol of $A$ and $b_2-b_1$.
+  As an auxiliary result we show that the usual principal spectral asymptotic estimate for pseudodifferential operators of negative order on a closed manifold extends to products of pseudodifferential operators interspersed with piecewise continuous functions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-06T09:28:34Z</published>
+    <arxiv:comment>20 pages, notation simplified. To appear in J. Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>J. Spectral Theory 1 (2011), 155-177</arxiv:journal_ref>
+    <author>
+      <name>Gerd Grubb</name>
+    </author>
+    <arxiv:doi>10.4171/JST/7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.01255v2</id>
+    <title>Analytic components for the hadronic total cross-section: Fractional calculus and Mellin transform</title>
+    <updated>2017-10-11T16:31:08Z</updated>
+    <link href="https://arxiv.org/abs/1708.01255v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.01255v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In high-energy hadron-hadron collisions, the dependence of the total cross-section ($σ_{tot}$) with the energy still constitutes an open problem for QCD. Phenomenological analyses usually relies on analytic parameterizations provided by the Regge-Gribov formalism and fits to the experimental data. In this framework, the singularities of the scattering amplitude in the complex angular momentum plane determine the asymptotic behavior of $σ_{tot}$ in terms of the energy. Usual applications connect simple and triple pole singularities with asymptotic power and logarithmic-squared functions of the energy, respectively. More restrict applications have considered as a leading component for $σ_{tot}$ an empirical function consisting of a logarithmic raised to a real exponent, which is treated as a free fit parameter. With this function, data reductions lead to good descriptions of the experimental data and real (not integer) values of the exponent. In this paper, making use of two independent formalisms (fractional calculus and Mellin transform), we first show that the singularity associated with this empirical function is a branch point and then we explore the mathematical consequences of the result and possible physical interpretations. After reviewing the determination of the singularities from asymptotic forms of interest through the Mellin transform, we demonstrate that the same analytic results can be obtained by means of the Caputo fractional derivative, leading, therefore, to fractional calculus interpretations. Besides correlating Mellin transform, non-local fractional derivatives and exploring the generalization from integer to real exponents and derivative orders, this fractional calculus result may provide insights for physical interpretations on the asymptotic rise of $σ_{tot}$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-03T15:07:29Z</published>
+    <arxiv:comment>18 pages, 2 figures, 1 table, text revised (including title and abstract), references and discussion on Mellin transform added, some statements corrected. Analytic and fit results are the same as v1</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>E. Capelas de Oliveira</name>
+    </author>
+    <author>
+      <name>M. J. Menon</name>
+    </author>
+    <author>
+      <name>P. V. R. G. Silva</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1308.1063v3</id>
+    <title>Functional Mellin Transforms</title>
+    <updated>2015-01-07T19:45:36Z</updated>
+    <link href="https://arxiv.org/abs/1308.1063v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1308.1063v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Functional integrals are defined in terms of locally compact topological groups and their associated Banach-valued Haar integrals. This approach generalizes the functional integral scheme of Cartier and DeWitt-Morette. The definition allows a construction of functional Mellin transforms. In turn, the functional Mellin transforms can be used to define functional traces, logarithms, and determinants. The associated functional integrals are useful tools for probing function spaces in general and $C^\ast$-algebras in particular. Several interesting aspects are explored.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-08-05T18:38:39Z</published>
+    <arxiv:comment>Expanded and re-posted to the ArXiv as two separate papers titled "A Proposed Definition of Functional Integrals" and "Exploring Functional Mellin Transforms"</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>J. LaChapelle</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6015v1</id>
+    <title>The spectral function of a first order elliptic system</title>
+    <updated>2012-08-30T06:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1208.6015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of squares of Euclidean norms of eigenfunctions evaluated at a given point of the manifold, with summation carried out over all eigenvalues between zero and a positive lambda) and the counting function (number of eigenvalues between zero and a positive lambda). We derive explicit two-term asymptotic formulae for all three. For the propagator "asymptotic" is understood as asymptotic in terms of smoothness, whereas for the spectral and counting functions "asymptotic" is understood as asymptotic with respect to lambda tending to plus infinity.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-30T06:55:33Z</published>
+    <arxiv:comment>This preprint is "part a" (proper subset) of preprint arXiv:1204.6567. Preprint arXiv:1204.6567 is being split into two parts on the recommendation of the referee of Journal of Spectral Theory. "Part b" will appear as a separate preprint under the title "Spectral theoretic characterization of the massless Dirac operator"</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2013, vol. 3, p. 317-360</arxiv:journal_ref>
+    <author>
+      <name>Olga Chervova</name>
+    </author>
+    <author>
+      <name>Robert J. Downes</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0802.1668v1</id>
+    <title>The STARFLAG handbook on collective animal behaviour: Part I, empirical methods</title>
+    <updated>2008-02-12T15:34:13Z</updated>
+    <link href="https://arxiv.org/abs/0802.1668v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0802.1668v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The most startling examples of collective animal behaviour are provided by very large and cohesive groups moving in three dimensions. Paradigmatic examples are bird flocks, fish schools and insect swarms. However, because of the sheer technical difficulty of obtaining 3D data, empirical studies conducted to date have only considered loose groups of a few tens of animals. Moreover, these studies were very seldom conducted in the field. Recently the STARFLAG project achieved the 3D reconstruction of thousands of birds under field conditions, thus opening the way to a new generation of quantitative studies of collective animal behaviour. Here, we review the main technical problems in 3D data collection of large animal groups and we outline some of the methodological solutions adopted by the STARFLAG project. In particular, we explain how to solve the stereoscopic correspondence - or matching - problem, which was the major bottleneck of all 3D studies in the past.</summary>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-02-12T15:34:13Z</published>
+    <arxiv:comment>To be published in Animal Behaviour</arxiv:comment>
+    <arxiv:primary_category term="q-bio.QM"/>
+    <arxiv:journal_ref>Animal Behaviour 76 (1), 217-236 (2008)</arxiv:journal_ref>
+    <author>
+      <name>Andrea Cavagna</name>
+    </author>
+    <author>
+      <name>Irene Giardina</name>
+    </author>
+    <author>
+      <name>Alberto Orlandi</name>
+    </author>
+    <author>
+      <name>Giorgio Parisi</name>
+    </author>
+    <author>
+      <name>Andrea Procaccini</name>
+    </author>
+    <author>
+      <name>Massimiliano Viale</name>
+    </author>
+    <author>
+      <name>Vladimir Zdravkovic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.03521v2</id>
+    <title>The Fourier, Hilbert and Mellin transforms on a half-line</title>
+    <updated>2023-12-23T14:28:35Z</updated>
+    <link href="https://arxiv.org/abs/2302.03521v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.03521v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We are interested in the singular behaviour at the origin of solutions to the equation $\mathscr{H} ρ= e$ on a half-axis, where $\mathscr H$ is the one-sided Hilbert transform, $ρ$ an unknown solution and $e$ a known function. This is a simpler model problem on the path to understanding wave field singularities caused by curve-shaped scatterers in a planar domain.
+  We prove that $ρ$ has a singularity of the form $\mathscr M[e](1/2) / \sqrt{t}$ where $\mathscr M$ is the Mellin transform. To do this we use specially built function spaces $\mathscr M'(a,b)$ by Zemanian, and these allow us to precisely investigate the relationship between the Mellin and Hilbert transforms. Fourier comes into play in the sense that the Mellin transform is simpy the Fourier transform on the locally compact Abelian multiplicative group of the half-line, and as a more familiar operator it guides our investigation.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-07T15:12:35Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Blåsten, E. L. K., Päivärinta, L., Sadique, S. (2023). The Fourier, Hilbert, and Mellin transforms on a half-line. SIAM Journal on Mathematical Analysis, 55(6), 7529-7548</arxiv:journal_ref>
+    <author>
+      <name>Emilia L. K. Blåsten</name>
+    </author>
+    <author>
+      <name>Lassi Päivärinta</name>
+    </author>
+    <author>
+      <name>Sadia Sadique</name>
+    </author>
+    <arxiv:doi>10.1137/23m1560628</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/23m1560628" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14334v4</id>
+    <title>Invariant subspaces of elliptic systems II: spectral theory</title>
+    <updated>2022-02-08T09:57:39Z</updated>
+    <link href="https://arxiv.org/abs/2103.14334v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14334v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider an elliptic self-adjoint pseudodifferential operator $A$ acting on $m$-columns of half-densities on a closed manifold $M$, whose principal symbol is assumed to have simple eigenvalues. We show that the spectrum of $A$ decomposes, up to an error with superpolynomial decay, into $m$ distinct series, each associated with one of the eigenvalues of the principal symbol of $A$. These spectral results are then applied to the study of propagation of singularities in hyperbolic systems. The key technical ingredient is the use of the carefully devised pseudodifferential projections introduced in the first part of this work, which decompose $L^2(M)$ into almost-orthogonal almost-invariant subspaces under the action of both $A$ and the hyperbolic evolution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T08:56:53Z</published>
+    <arxiv:comment>Minor edits, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, vol. 12 (2022), p. 301-338</arxiv:journal_ref>
+    <author>
+      <name>Matteo Capoferri</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.1232v1</id>
+    <title>A Cryptographic Scheme Of Mellin Transform</title>
+    <updated>2014-01-06T22:50:30Z</updated>
+    <link href="https://arxiv.org/abs/1401.1232v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.1232v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper it has been developed an algorithm for cryptography, using the Mellin's transform. Cryptography is very important to protect data to ensure that two people, using an insecure channel, may communicate in a secure way. In the present age, ensure the communications will essential to shared data that have to be protected. The original message is a plain text, and the encrypted form as cipher text. The cipher text message contains all the information of the plain text, but is cannot be read from a human without a key and a method to decrypt it.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-06T22:50:30Z</published>
+    <arxiv:comment>Cryptography using Mellin's transform</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yeray Cachon Santana</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0802.1674v1</id>
+    <title>The STARFLAG handbook on collective animal behaviour: Part II, three-dimensional analysis</title>
+    <updated>2008-02-12T16:38:46Z</updated>
+    <link href="https://arxiv.org/abs/0802.1674v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0802.1674v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The study of collective animal behaviour must progress through a comparison between the theoretical predictions of numerical models and data coming from empirical observations. To this aim it is important to develop methods of three-dimensional (3D) analysis that are at the same time informative about the structure of the group and suitable to empirical data. In fact, empirical data are considerably noisier than numerical data, and they are subject to several constraints. We review here the tools of analysis used by the STARFLAG project to characterise the 3D structure of large flocks of starlings in the field. We show how to avoid the most common pitfalls i the quantitative analysis of 3D animal groups, with particular attention to the problem of the bias introduced by the border of the group. By means of practical examples, we demonstrate that neglecting border effects gives rise to artefacts when studying the 3D structure of a group. Moreover, we show that mathematical rigour is essential to distinguish important biological properties from trivial geometric features of animal groups.</summary>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-02-12T16:38:46Z</published>
+    <arxiv:comment>To be published in Animal Behaviour</arxiv:comment>
+    <arxiv:primary_category term="q-bio.QM"/>
+    <arxiv:journal_ref>Animal Behaviour 76 (1), 237-248 (2008)</arxiv:journal_ref>
+    <author>
+      <name>Andrea Cavagna</name>
+    </author>
+    <author>
+      <name>Irene Giardina</name>
+    </author>
+    <author>
+      <name>Alberto Orlandi</name>
+    </author>
+    <author>
+      <name>Giorgio Parisi</name>
+    </author>
+    <author>
+      <name>Andrea Procaccini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.04579v1</id>
+    <title>Fractional Mellin Transform -- A possible application in CFT</title>
+    <updated>2015-08-19T09:31:55Z</updated>
+    <link href="https://arxiv.org/abs/1508.04579v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.04579v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a fractional variant of Mellin's transform which may find an application in the Conformal Field Theory. Its advantage is the presence of an arbitrary parameter which may substantially simplify calculations and help adjusting convergence.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-19T09:31:55Z</published>
+    <arxiv:comment>Letter on a new form of a functional transform, no figures</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <author>
+      <name>R. A. Treumann</name>
+    </author>
+    <author>
+      <name>W. Baumjohann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1103.6273v2</id>
+    <title>Euler--Mellin integrals and A-hypergeometric functions</title>
+    <updated>2013-02-01T15:04:23Z</updated>
+    <link href="https://arxiv.org/abs/1103.6273v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.6273v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider integrals that generalize both the Mellin transforms of rational functions of the form 1/f and the classical Euler integrals. The domains of integration of our so-called Euler--Mellin integrals are naturally related to the coamoeba of f, and the components of the complement of the closure of the coamoeba give rise to a family of these integrals. After performing an explicit meromorphic continuation of Euler--Mellin integrals, we interpret them as A-hypergeometric functions and discuss their linear independence and relation to Mellin--Barnes integrals.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-31T19:08:12Z</published>
+    <arxiv:comment>19 pages, 3 figures; Contains additional results on linear independence and relation to Mellin--Barnes integrals of Euler--Mellin integrals; Introduction revised</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Christine Berkesch</name>
+    </author>
+    <author>
+      <name>Jens Forsgård</name>
+    </author>
+    <author>
+      <name>Mikael Passare</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.3026v2</id>
+    <title>Analytic calculation of doubly heavy hadron spectral density in coordinate space</title>
+    <updated>2012-08-30T12:53:59Z</updated>
+    <link href="https://arxiv.org/abs/1205.3026v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.3026v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A systematic and easy-to-use method is developed to calculate directly the doubly heavy hadron spectral density in the coordinate space. The correlation function is expressed in terms of hypergeometric functions, and the spectral density is obtained through two independent approaches: the simple integral representation method and the epsilon-expansion method, respectively. It is found that the spectral density of doubly heavy hadrons can be analytically expressed through commonly known simple functions. This method can drastically simplify and improve the QCD spectral sum rule calculation of the doubly heavy hadrons. An instructive numerical method is also presented for fast evaluation of the spectral density.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-14T13:54:16Z</published>
+    <arxiv:comment>An instructive numerical method is added for fast evaluation of the spectral density</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Zhi-Wei Huang</name>
+    </author>
+    <author>
+      <name>Jueping Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.04141v1</id>
+    <title>Spectral densities from Euclidean lattice correlators via the Mellin transform</title>
+    <updated>2024-07-04T20:03:14Z</updated>
+    <link href="https://arxiv.org/abs/2407.04141v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.04141v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spectral densities connect correlation functions computed in quantum field theory to observables measured in experiments. For strongly-interacting theories, their non-perturbative determinations from lattice simulations are therefore of primary importance. They entail the inverse Laplace transform of correlation functions calculated in Euclidean time. By making use of the Mellin transform, we derive explicit analytic formulae to define spectral densities from the time dependence of correlation functions, both in the continuum and on the lattice. The generalization to smeared spectral densities turns out to be straightforward. The formulae obtained here within the context of lattice field theory can be easily applied or extended to other areas of research.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-04T20:03:14Z</published>
+    <arxiv:comment>4 pages, 1 figure and supplemental material</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Mattia Bruno</name>
+    </author>
+    <author>
+      <name>Leonardo Giusti</name>
+    </author>
+    <author>
+      <name>Matteo Saccardi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0706.3696v2</id>
+    <title>The Mellin transform and spectral properties of toric varieties</title>
+    <updated>2007-06-27T16:10:40Z</updated>
+    <link href="https://arxiv.org/abs/0706.3696v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0706.3696v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this article we apply results of \cite{W} on the twisted Mellin transform to problems in toric geometry. In particular we use these results to describe the asymptotics of probability densities associated with the monomial eigenstates, $z^k$, $k \in \ZZ^d$, in Bargmann space and prove an "upstairs" version of the spectral density theorem of \cite{BGU}. We also obtain for the $z^k$'s, "upstairs" versions of the results of \cite{STZ} on distribution laws for eigenstates on toric varieties.</summary>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-06-25T19:10:41Z</published>
+    <arxiv:primary_category term="math.SG"/>
+    <author>
+      <name>Victor Guillemin</name>
+    </author>
+    <author>
+      <name>Zuoqin Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.01478v2</id>
+    <title>Asymptotic behaviour of the noisy voter model density process</title>
+    <updated>2024-10-01T19:14:58Z</updated>
+    <link href="https://arxiv.org/abs/2112.01478v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.01478v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a transition matrix $P$ indexed by a finite set $V$ of vertices, the voter model is a discrete-time Markov chain in $\{0,1\}^V$ where at each time-step a randomly chosen vertex $x$ imitates the opinion of vertex $y$ with probability $P(x,y)$. The noisy voter model is a variation of the voter model in which vertices may change their opinions by the action of an external noise. The strength of this noise is measured by an extra parameter $p \in [0,1]$.
+  In this work we analyse the density process, defined as the stationary mass of vertices with opinion 1, i.e. $S_t = \sum_{x\in V} π(x)ξ_t(x)$, where $π$ is the stationary distribution of $P$, and $ξ_t(x)$ is the opinion of vertex $x$ at time $t$. We investigate the asymptotic behaviour of $S_t$ when $t$ tends to infinity for different values of the noise parameter $p$. In particular, by allowing $P$ and $p$ to be functions of the size $|V|$, we show that, under appropriate conditions and small enough $p$ a normalised version of $S_t$ converges to a Gaussian random variable, while for large enough $p$, $S_t$ converges to a Bernoulli random variable. We provide further analysis of the noisy voter model on a variety of specific graphs including the complete graph, cycle, torus and hypercube, where we identify the critical rate $p$ (depending on the size $|V|$) that separates these two asymptotic behaviours.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-02T18:28:21Z</published>
+    <arxiv:comment>https://projecteuclid.org/journals/annals-of-applied-probability/volume-34/issue-5/Asymptotic-behaviour-of-the-noisy-voter-model-density-process/10.1214/24-AAP2074.short</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Ann. Appl. Probab. 34(5): 4554-4594 (October 2024)</arxiv:journal_ref>
+    <author>
+      <name>Richard Pymar</name>
+    </author>
+    <author>
+      <name>Nicolás Rivera</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.0757v4</id>
+    <title>Spectral Asymptotics for Waveguides with Perturbed Periodic Twisting</title>
+    <updated>2015-01-04T11:59:49Z</updated>
+    <link href="https://arxiv.org/abs/1407.0757v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.0757v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the twisted waveguide $Ω_θ$, i.e. the domain obtained by the rotation of the bounded cross section $ω\subset {\mathbb R}^{2}$ of the straight tube $Ω: = ω\times {\mathbb R}$ at angle $θ$ which depends on the variable along the axis of $Ω$. We study the spectral properties of the Dirichlet Laplacian in $Ω_θ$, unitarily equivalent under the diffeomorphism $Ω_θ\to Ω$ to the operator $H_{θ'}$, self-adjoint in ${\rm L}^2(Ω)$. We assume that $θ' = β- ε$ where $β$ is a $2π$-periodic function, and $ε$ decays at infinity. Then in the spectrum $σ(H_β)$ of the unperturbed operator $H_β$ there is a semi-bounded gap $(-\infty, {\mathcal E}_0^+)$, and, possibly, a number of bounded open gaps $({\mathcal E}_j^-, {\mathcal E}_j^+)$. Since $ε$ decays at infinity, the essential spectra of $H_β$ and $H_{β- ε}$ coincide. We investigate the asymptotic behaviour of the discrete spectrum of $H_{β- ε}$ near an arbitrary fixed spectral edge ${\mathcal E}_j^\pm$. We establish necessary and quite close sufficient conditions which guarantee the finiteness of $σ_{\rm disc}(H_{β-ε})$ in a neighbourhood of ${\mathcal E}_j^\pm$. In the case where the necessary conditions are violated, we obtain the main asymptotic term of the corresponding eigenvalue counting function. The effective Hamiltonian which governs the the asymptotics of $σ_{\rm disc}(H_{β-ε})$ near ${\mathcal E}_j^\pm$ could be represented as a finite orthogonal sum of operators of the form $-μ\frac{d^2}{dx^2} - ηε$, self-adjoint in ${\rm L}^2({\mathbb R})$; here, $μ&gt; 0$ is a constant related to the so-called effective mass, while $η$ is $2π$-periodic function depending on $β$ and $ω$.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-03T01:20:19Z</published>
+    <arxiv:comment>29 pages, typos corrected, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Georgi Raikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9911300v3</id>
+    <title>Dirac operator spectral density and low energy sum rules</title>
+    <updated>2000-07-12T08:39:01Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9911300v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9911300v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The spectral density of euclidean Dirac operator is investigated in partially quenched QCD with arbitrary quark masses. A representation of scalar and pseudoscalar correlators in terms of the spectral density is discussed. The spectral density, obtained from the partially quenched chiral perturbation theory is shown to be compatible with low energy sum rules, obtained earlier.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-11-10T11:57:26Z</published>
+    <arxiv:comment>8 pages, latex, published version; NLO QCD correction to the Dirac operator spectral density is added to the text</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP06(2000)025</arxiv:journal_ref>
+    <author>
+      <name>K. Zyablyuk</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2000/06/025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2000/06/025" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.06907v3</id>
+    <title>Renormalon cancellation and linear power correction to threshold-like asymptotics of space-like parton correlators</title>
+    <updated>2024-01-30T14:33:08Z</updated>
+    <link href="https://arxiv.org/abs/2311.06907v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.06907v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we show that the common hard kernel of double-log-type or threshold-type factorization for certain space-like parton correlators that arise in the context of lattice parton distributions, the heavy-light Sudakov hard kernel, has linear infrared (IR) renormalon. We explicitly demonstrate how this IR renormalon correlates with ultraviolet (UV) renormalons of next-to-leading power operators in two explicit examples: threshold asymptotics of space-like quark-bilinear coefficient functions and transverse momentum dependent (TMD) factorization of quasi wave function amplitude. Theoretically, the pattern of renormalon cancellation complies with general expectations to marginal asymptotics in the UV limit. Practically, this linear renormalon explains the slow convergence of imaginary parts observed in lattice extraction of the Collins-Soper kernel and signals the relevance of next-to-leading power contributions. Fully factorized, fully controlled threshold asymptotic expansion for space-like quark-bilinear coefficient functions in coordinate and moment space has also been proposed.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-12T17:50:29Z</published>
+    <arxiv:comment>48 pages, 2 figures. The section on threshold asymptotics of space-like quark bilinear coefficient functions rewritten thoroughly and moves to the second section, with formulas in the moment space added. Fully factorized asymptotic expansion in the moment space written down explicitly</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>J. High Energ. Phys. 2024, 204 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Yizhuang Liu</name>
+    </author>
+    <author>
+      <name>Yushan Su</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP02(2024)204</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP02(2024)204" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.19770v2</id>
+    <title>Simplicity of Mellin amplitudes for AdS$_3 \times$S$^3$</title>
+    <updated>2025-10-20T07:30:13Z</updated>
+    <link href="https://arxiv.org/abs/2504.19770v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.19770v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectrum of half-BPS single-particle operators of the D1-D5 system in the supergravity regime is dual to the spectrum of Kaluza-Klein modes of tensor and graviton multiplets in AdS$_3\times$S$^3$. We present simple formulae for all four-point tree-level correlators of scalar half-BPS primary operators in the spectrum, and in particular, we bootstrap the four-point correlator of the graviton multiplet for all KK levels. A key insight of our approach is the use of generalized Mellin space, and a decomposition of the correlators into distinct subsectors each one characterized by different on-shell constraints among the Mellin variables. The resulting Mellin amplitudes involve a small set of building blocks with manifest properties under a six-dimensional symmetry.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-28T13:12:40Z</published>
+    <arxiv:comment>5 pages + 3 appendices + 3 nice Mellin amplitudes. v2: PRD version; corrected an overall factor of 1/2 in the 4-graviton correlator</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>F. Aprile</name>
+    </author>
+    <author>
+      <name>C. Behan</name>
+    </author>
+    <author>
+      <name>R. S. Pitombo</name>
+    </author>
+    <author>
+      <name>M. Santagata</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.06281v2</id>
+    <title>Spectral asymptotics for first order systems</title>
+    <updated>2016-04-06T19:44:19Z</updated>
+    <link href="https://arxiv.org/abs/1512.06281v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.06281v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This is a review paper outlining recent progress in the spectral analysis of first order systems. We work on a closed manifold and study an elliptic self-adjoint first order system of linear partial differential equations. The aim is to examine the spectrum and derive asymptotic formulae for the two counting functions. Here the two counting functions are those for the positive and the negative eigenvalues. One has to deal with positive and negative eigenvalues separately because the spectrum is, generically, asymmetric.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-19T19:45:01Z</published>
+    <arxiv:comment>Edited in accordance with referee's recommendations</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2016, vol. 6, p. 695-715</arxiv:journal_ref>
+    <author>
+      <name>Zhirayr Avetisyan</name>
+    </author>
+    <author>
+      <name>Yan-Long Fang</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/137</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/137" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05568v1</id>
+    <title>Hidden simplicity in AdS spinning Mellin amplitudes via scaffolding</title>
+    <updated>2026-02-05T11:42:53Z</updated>
+    <link href="https://arxiv.org/abs/2602.05568v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05568v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We uncover surprising hidden simplicity in Mellin amplitudes for tree-level AdS holographic correlators for spinning operators, such as AdS "gluons" and "gravitons" (spin 1 and 2). We define Mellin amplitudes with $n$ spinning operators via the so-called "scaffolding" of $2n$-scalar ones with specific projection operators for each spin state, which are rational functions of Mellin variables of $2n$ scalars generalizing flat-space scaffolding amplitudes. We classify possible three-point structures with spin 1 and 2 which take the same form as massive three-point amplitudes in flat space, and match with special solutions such as those extracted from 6-scalar ones in $\mathrm{AdS}_5\times S^3$ or $\mathrm{AdS}_5\times S^5$. Focusing on $\mathrm{AdS}_5$ gluons, we directly bootstrap spinning amplitudes in scaffolding form up to $n=6$ gluons (which amounts to $2n=12$ scalars) using factorizations, multi-linearity and flat-space limit. The results take a remarkably simple form in analogy with flat-space amplitudes, which can be constructed from familiar 3- and 4-vertices as well as propagators of massive spin-1 particles. Surprisingly, we find that vertices with any descendant levels are proportional to the primary ones with nice combinatorial coefficients, which makes manifest the correct flat-space limit in the simplest possible way.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T11:42:53Z</published>
+    <arxiv:comment>5+7 pages, 3 figures, 4 tables, and an ancillary file for AdS Mellin amplitudes for up to 6 gluons via scaffolding</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Song He</name>
+    </author>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Yuyu Mo</name>
+    </author>
+    <author>
+      <name>Dongyu Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.16353v2</id>
+    <title>On the asymptotic behavior of the spectral gap for discrete Schrödinger operators</title>
+    <updated>2026-01-09T16:33:55Z</updated>
+    <link href="https://arxiv.org/abs/2508.16353v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.16353v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note we elaborate on the asymptotic behavior of the spectral gap of a class of discrete Schrödinger operators defined on a path graph in the limit of infinite volume. We confirm recent results and generalize them to a larger class of potentials using entirely different methods. Notably, we also resolve a conjecture previously proposed in this context. This then yields new insights into the rate at which the spectral gap tends to zero as the volume increases.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-22T12:56:33Z</published>
+    <arxiv:comment>The previous submission was extended to include the convergence of the spectral gap in the special case where the potential is supported only at the origin (Section 5 and an appendix added)</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Asymptotic Analysis (2026)</arxiv:journal_ref>
+    <author>
+      <name>Matthias Hofmann</name>
+    </author>
+    <author>
+      <name>Joachim Kerner</name>
+    </author>
+    <author>
+      <name>Maximilian Pechmann</name>
+    </author>
+    <arxiv:doi>10.1177/09217134261465640</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1177/09217134261465640" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0706.2642v2</id>
+    <title>The twisted Mellin transform</title>
+    <updated>2007-06-27T16:18:22Z</updated>
+    <link href="https://arxiv.org/abs/0706.2642v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0706.2642v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The "twisted Mellin transform" is a slightly modified version of the usual classical Mellin transform on $L^2(\mathbb R)$. In this short note we investigate some of its basic properties. From the point of views of combinatorics one of its most important interesting properties is that it intertwines the differential operator, $df/dx$, with its finite difference analogue, $\nabla f= f(x)-f(x-1)$. From the point of view of analysis one of its most important properties is that it describes the asymptotics of one dimensional quantum states in Bargmann quantization.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-06-18T19:10:58Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Zuoqin Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9506333v1</id>
+    <title>The Mellin Transform Technique for the Extraction of the Gluon Density</title>
+    <updated>1995-06-15T12:11:17Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9506333v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9506333v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A new method is presented to determine the gluon density in the proton from jet production in deeply inelastic scattering. By using the technique of Mellin transforms not only for the solution of the scale evolution equation of the parton densities but also for the evaluation of scattering cross sections, the gluon density can be extracted in next-to-leading order QCD. The method described in this paper is, however, more general, and can be used in situations where a repeated fast numerical evaluation of scattering cross sections for varying parton distribution functions is required.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-06-15T12:11:17Z</published>
+    <arxiv:comment>13 pages (LaTeX); 2 figures are included via epsfig; the corresponding postscript files are uuencoded</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Z.Phys. C70 (1996) 77-82</arxiv:journal_ref>
+    <author>
+      <name>D. Graudenz</name>
+    </author>
+    <author>
+      <name>M. Hampel</name>
+    </author>
+    <author>
+      <name>A. Vogt</name>
+    </author>
+    <author>
+      <name>Ch. Berger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.01246v1</id>
+    <title>Spectral Asymptotics at Thresholds for a Dirac-type Operator on $\mathbb{Z}^2$</title>
+    <updated>2022-09-02T19:18:54Z</updated>
+    <link href="https://arxiv.org/abs/2209.01246v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.01246v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, we provide the spectral analysis of a Dirac-type operator on $\mathbb{Z}^2$ by describing the behavior of the spectral shift function associated with a sign-definite trace-class perturbation by a multiplication operator. We prove that it remains bounded outside a single threshold and obtain its main asymptotic term in the unbounded case. Interestingly, we show that the constant in the main asymptotic term encodes the interaction between a flat band and whole non-constant bands. The strategy used is the reduction of the spectral shift function to the eigenvalue counting function of some compact operator which can be studied as a toroidal pseudo-differential operator.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-02T19:18:54Z</published>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Pablo Miranda</name>
+    </author>
+    <author>
+      <name>Daniel Parra</name>
+    </author>
+    <author>
+      <name>Georgi Raikov</name>
+    </author>
+  </entry>
+</feed>

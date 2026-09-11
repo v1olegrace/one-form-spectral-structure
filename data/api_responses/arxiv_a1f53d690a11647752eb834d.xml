@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yu1KXREqzn6m8Pf38HIy81h+zPI</id>
+  <title>arXiv Query: search_query=all:spectral OR all:density OR all:reconstruction OR all:Euclidean OR all:correlator OR all:Backus-Gilbert&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:44:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spectral+OR+(all:density+OR+(all:reconstruction+OR+(all:Euclidean+OR+(all:correlator+OR+all:Backus-Gilbert))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>637041</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.02075v2</id>
+    <title>Spectral reconstruction in NRQCD via the Backus-Gilbert method</title>
+    <updated>2021-12-21T19:51:53Z</updated>
+    <link href="https://arxiv.org/abs/2112.02075v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.02075v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present progress results from the FASTSUM collaboration's programme to determine the spectrum of the bottomonium system as a function of temperature using a variety of approaches. In this contribution, the Backus Gilbert method is used to reconstruct spectral functions from NRQCD meson correlator data from FASTSUM's anisotropic ensembles at nonzero temperature. We focus in particular on the resolving power of the method, providing a demonstration of how the underlying resolution functions can be probed by exploiting the Laplacian nature of the NRQCD kernel. We conclude with estimates of the bottomonium ground state mass and widths at nonzero temperature.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-03T18:40:36Z</published>
+    <arxiv:comment>9 pages, 8 figures; Proceedings of the 38th International Symposium on Lattice Field Theory - Lattice 2021 26-30 July 2021, Zoom/Gather@MIT (USA) - PoS(LATTICE2021)134. Corrected T=214MeV datapoint in Figure 2</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Benjamin Page</name>
+    </author>
+    <author>
+      <name>Gert Aarts</name>
+    </author>
+    <author>
+      <name>Chris Allton</name>
+    </author>
+    <author>
+      <name>Benjamin Jäger</name>
+    </author>
+    <author>
+      <name>Seyong Kim</name>
+    </author>
+    <author>
+      <name>Maria Paola Lombardo</name>
+    </author>
+    <author>
+      <name>Sam Offler</name>
+    </author>
+    <author>
+      <name>Sinead M. Ryan</name>
+    </author>
+    <author>
+      <name>Jon-Ivar Skullerud</name>
+    </author>
+    <author>
+      <name>Thomas Spriggs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.07908v1</id>
+    <title>MST++: Multi-stage Spectral-wise Transformer for Efficient Spectral Reconstruction</title>
+    <updated>2022-04-17T02:39:32Z</updated>
+    <link href="https://arxiv.org/abs/2204.07908v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.07908v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing leading methods for spectral reconstruction (SR) focus on designing deeper or wider convolutional neural networks (CNNs) to learn the end-to-end mapping from the RGB image to its hyperspectral image (HSI). These CNN-based methods achieve impressive restoration performance while showing limitations in capturing the long-range dependencies and self-similarity prior. To cope with this problem, we propose a novel Transformer-based method, Multi-stage Spectral-wise Transformer (MST++), for efficient spectral reconstruction. In particular, we employ Spectral-wise Multi-head Self-attention (S-MSA) that is based on the HSI spatially sparse while spectrally self-similar nature to compose the basic unit, Spectral-wise Attention Block (SAB). Then SABs build up Single-stage Spectral-wise Transformer (SST) that exploits a U-shaped structure to extract multi-resolution contextual information. Finally, our MST++, cascaded by several SSTs, progressively improves the reconstruction quality from coarse to fine. Comprehensive experiments show that our MST++ significantly outperforms other state-of-the-art methods. In the NTIRE 2022 Spectral Reconstruction Challenge, our approach won the First place. Code and pre-trained models are publicly available at https://github.com/caiyuanhao1998/MST-plus-plus.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-17T02:39:32Z</published>
+    <arxiv:comment>Winner of NTIRE 2022 Challenge on Spectral Reconstruction from RGB; The First Transformer-based Method for Spectral Reconstruction</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>CVPRW 2022</arxiv:journal_ref>
+    <author>
+      <name>Yuanhao Cai</name>
+    </author>
+    <author>
+      <name>Jing Lin</name>
+    </author>
+    <author>
+      <name>Zudi Lin</name>
+    </author>
+    <author>
+      <name>Haoqian Wang</name>
+    </author>
+    <author>
+      <name>Yulun Zhang</name>
+    </author>
+    <author>
+      <name>Hanspeter Pfister</name>
+    </author>
+    <author>
+      <name>Radu Timofte</name>
+    </author>
+    <author>
+      <name>Luc Van Gool</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.18125v1</id>
+    <title>Bayesian interpretation of Backus-Gilbert methods</title>
+    <updated>2023-11-29T22:31:03Z</updated>
+    <link href="https://arxiv.org/abs/2311.18125v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.18125v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The extraction of spectral densities from Euclidean correlators evaluated on the lattice is an important problem, as these quantities encode physical information on scattering amplitudes, finite-volume spectra, inclusive decay rates, and transport coefficients. In this contribution, we show that the Bayesian approach to this "inverse" problem, based on Gaussian processes, can be reformulated in a way that yields a solution equivalent, up to statistical uncertainties, to the one obtained in a Backus-Gilbert approach. After discussing this equivalence, we point out its implications for a reliable determination of spectral densities from lattice simulations.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-29T22:31:03Z</published>
+    <arxiv:comment>Contribution to Lattice23</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Luigi Del Debbio</name>
+    </author>
+    <author>
+      <name>Alessandro Lupo</name>
+    </author>
+    <author>
+      <name>Marco Panero</name>
+    </author>
+    <author>
+      <name>Nazario Tantalo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.23051v3</id>
+    <title>A kernel-derived orthogonal basis for spectral functions from Euclidean correlators</title>
+    <updated>2026-04-15T01:37:18Z</updated>
+    <link href="https://arxiv.org/abs/2603.23051v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.23051v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spectral functions play a central role in the characterization of a wide range of physical systems, including strongly interacting quantum field theories and many-body systems. Their non-perturbative determination from Euclidean correlation functions constitutes a well-known ill-posed inverse problem and has motivated the development of numerous reconstruction techniques. In this work, we propose a systematic, prior-free framework for representing spectral functions using an orthogonal functional basis derived directly from the kernel of Euclidean two-point correlation functions. We identify a set of lattice-accessible constraints together with the associated basis functions. These functions can be reorganized into an orthogonal basis within which the spectral function may be approximated in a controlled manner. Using several model spectral functions, we demonstrate that the proposed expansion captures global spectral features and reproduces low-energy transport coefficients with good accuracy. While the numerical implementation requires high-precision Euclidean correlator data, the present framework is intended not as a direct reconstruction method, but rather as a tool for extracting robust constraints and overall spectral structures. The approach may therefore serve as a complementary ingredient or preprocessing step for existing spectral reconstruction techniques.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-24T10:46:37Z</published>
+    <arxiv:comment>11 pages, 4 figures. v2) references added v3) replaced with simpler implementation where no integral of correlator is necessary. no change in conclusion</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Norikazu Yamada</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6015v1</id>
+    <title>The spectral function of a first order elliptic system</title>
+    <updated>2012-08-30T06:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1208.6015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of squares of Euclidean norms of eigenfunctions evaluated at a given point of the manifold, with summation carried out over all eigenvalues between zero and a positive lambda) and the counting function (number of eigenvalues between zero and a positive lambda). We derive explicit two-term asymptotic formulae for all three. For the propagator "asymptotic" is understood as asymptotic in terms of smoothness, whereas for the spectral and counting functions "asymptotic" is understood as asymptotic with respect to lambda tending to plus infinity.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-30T06:55:33Z</published>
+    <arxiv:comment>This preprint is "part a" (proper subset) of preprint arXiv:1204.6567. Preprint arXiv:1204.6567 is being split into two parts on the recommendation of the referee of Journal of Spectral Theory. "Part b" will appear as a separate preprint under the title "Spectral theoretic characterization of the massless Dirac operator"</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2013, vol. 3, p. 317-360</arxiv:journal_ref>
+    <author>
+      <name>Olga Chervova</name>
+    </author>
+    <author>
+      <name>Robert J. Downes</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.22329v4</id>
+    <title>Spectral Reconstruction in Fractional Derivative Order</title>
+    <updated>2026-07-20T08:03:07Z</updated>
+    <link href="https://arxiv.org/abs/2512.22329v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.22329v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the spectral reconstruction operator $\mathcal{S}$, which treats derivative order as a continuous variable and integrates fractional derivative data across all nonnegative real orders to represent analytic functions. Because these derivatives draw on function values across an infinite stretch of the real line, the spectral integrand encodes information about $f$ that no individual integer derivative at the origin can capture. We define an admissible class of fractional derivative families that recover the classical derivative ladder, satisfy the semigroup property, and keep $D^r f(0)$ finite (a condition that excludes monomials), and prove that the operator asymptotically reconstructs the exponential function as $x\to\infty$. The spectral operator and the classical Maclaurin series evaluate the same underlying function of derivative order, one by integration and the other by summation; classical summation formulas quantify this discrepancy under their respective hypotheses. Euler--Maclaurin gives a finite correction series with remainder; Abel--Plana gives an exact correction integral. Examples from entire, oscillatory, rapidly decaying, special-function, and finite-radius analytic classes, including a real pole and a complex-conjugate pole pair, demonstrate stable reconstruction; the operator's Abel--Plana correction matches $f$ to full computational precision in every case. The spectral integral and Maclaurin series share the same convergence boundary in the finite-radius examples, though through different mathematics. The discrepancy remains bounded, so the uncorrected operator is already useful where $f(x)$ is large; the leading term $\mathcal{E}_0=\frac{1}{2}f(0)$ and higher terms account for the rest near the origin. These results establish derivative order as a meaningful, non-local continuous domain for representing and reconstructing analytic functions.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-26T16:25:37Z</published>
+    <arxiv:comment>14 pages, 6 figures, Spectral Reconstruction in Fractional Derivative Orderor</arxiv:comment>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Derek C. Braun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14334v4</id>
+    <title>Invariant subspaces of elliptic systems II: spectral theory</title>
+    <updated>2022-02-08T09:57:39Z</updated>
+    <link href="https://arxiv.org/abs/2103.14334v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14334v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider an elliptic self-adjoint pseudodifferential operator $A$ acting on $m$-columns of half-densities on a closed manifold $M$, whose principal symbol is assumed to have simple eigenvalues. We show that the spectrum of $A$ decomposes, up to an error with superpolynomial decay, into $m$ distinct series, each associated with one of the eigenvalues of the principal symbol of $A$. These spectral results are then applied to the study of propagation of singularities in hyperbolic systems. The key technical ingredient is the use of the carefully devised pseudodifferential projections introduced in the first part of this work, which decompose $L^2(M)$ into almost-orthogonal almost-invariant subspaces under the action of both $A$ and the hyperbolic evolution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T08:56:53Z</published>
+    <arxiv:comment>Minor edits, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, vol. 12 (2022), p. 301-338</arxiv:journal_ref>
+    <author>
+      <name>Matteo Capoferri</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0997v3</id>
+    <title>Spectral asymptotics for Robin problems with a discontinuous coefficient</title>
+    <updated>2011-01-27T13:41:51Z</updated>
+    <link href="https://arxiv.org/abs/1009.0997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral behavior of the difference between the resolvents of two realizations $\tilde A_1$ and $\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_1$ and $b_2$ are in $L_\infty$, the s-numbers $s_j$ of $(\tilde A_1 -λ)^{-1}-(\tilde A_2 -λ)^{-1}$ satisfy $s_j j^{3/(n-1)}\le C$ for all $j$; this improves a recent result for $A=-Δ$ by Behrndt et al., that $\sum_js_j ^p&lt;\infty$ for $p&gt;(n-1)/3$. A sharper estimate is obtained when $b_1$ and $b_2$ are in $C^ε$ for some $ε&gt;0$, with jumps at a smooth hypersurface, namely that $s_j j^{3/(n-1)}\to c$ for $j\to \infty$, with a constant $c$ defined from the principal symbol of $A$ and $b_2-b_1$.
+  As an auxiliary result we show that the usual principal spectral asymptotic estimate for pseudodifferential operators of negative order on a closed manifold extends to products of pseudodifferential operators interspersed with piecewise continuous functions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-06T09:28:34Z</published>
+    <arxiv:comment>20 pages, notation simplified. To appear in J. Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>J. Spectral Theory 1 (2011), 155-177</arxiv:journal_ref>
+    <author>
+      <name>Gerd Grubb</name>
+    </author>
+    <arxiv:doi>10.4171/JST/7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.04703v1</id>
+    <title>Hierarchical Regression Network for Spectral Reconstruction from RGB Images</title>
+    <updated>2020-05-10T16:06:11Z</updated>
+    <link href="https://arxiv.org/abs/2005.04703v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.04703v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Capturing visual image with a hyperspectral camera has been successfully applied to many areas due to its narrow-band imaging technology. Hyperspectral reconstruction from RGB images denotes a reverse process of hyperspectral imaging by discovering an inverse response function. Current works mainly map RGB images directly to corresponding spectrum but do not consider context information explicitly. Moreover, the use of encoder-decoder pair in current algorithms leads to loss of information. To address these problems, we propose a 4-level Hierarchical Regression Network (HRNet) with PixelShuffle layer as inter-level interaction. Furthermore, we adopt a residual dense block to remove artifacts of real world RGB images and a residual global block to build attention mechanism for enlarging perceptive field. We evaluate proposed HRNet with other architectures and techniques by participating in NTIRE 2020 Challenge on Spectral Reconstruction from RGB Images. The HRNet is the winning method of track 2 - real world images and ranks 3rd on track 1 - clean images. Please visit the project web page https://github.com/zhaoyuzhi/Hierarchical-Regression-Network-for-Spectral-Reconstruction-from-RGB-Images to try our codes and pre-trained models.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-10T16:06:11Z</published>
+    <arxiv:comment>1st Place in CVPRW 2020 NTIRE Spectral Reconstruction Challenge</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Yuzhi Zhao</name>
+    </author>
+    <author>
+      <name>Lai-Man Po</name>
+    </author>
+    <author>
+      <name>Qiong Yan</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Tingyu Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.3026v2</id>
+    <title>Analytic calculation of doubly heavy hadron spectral density in coordinate space</title>
+    <updated>2012-08-30T12:53:59Z</updated>
+    <link href="https://arxiv.org/abs/1205.3026v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.3026v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A systematic and easy-to-use method is developed to calculate directly the doubly heavy hadron spectral density in the coordinate space. The correlation function is expressed in terms of hypergeometric functions, and the spectral density is obtained through two independent approaches: the simple integral representation method and the epsilon-expansion method, respectively. It is found that the spectral density of doubly heavy hadrons can be analytically expressed through commonly known simple functions. This method can drastically simplify and improve the QCD spectral sum rule calculation of the doubly heavy hadrons. An instructive numerical method is also presented for fast evaluation of the spectral density.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-14T13:54:16Z</published>
+    <arxiv:comment>An instructive numerical method is added for fast evaluation of the spectral density</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Zhi-Wei Huang</name>
+    </author>
+    <author>
+      <name>Jueping Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9911300v3</id>
+    <title>Dirac operator spectral density and low energy sum rules</title>
+    <updated>2000-07-12T08:39:01Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9911300v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9911300v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The spectral density of euclidean Dirac operator is investigated in partially quenched QCD with arbitrary quark masses. A representation of scalar and pseudoscalar correlators in terms of the spectral density is discussed. The spectral density, obtained from the partially quenched chiral perturbation theory is shown to be compatible with low energy sum rules, obtained earlier.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-11-10T11:57:26Z</published>
+    <arxiv:comment>8 pages, latex, published version; NLO QCD correction to the Dirac operator spectral density is added to the text</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP06(2000)025</arxiv:journal_ref>
+    <author>
+      <name>K. Zyablyuk</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2000/06/025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2000/06/025" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.04413v1</id>
+    <title>Bayesian solution to the inverse problem and its relation to Backus-Gilbert methods</title>
+    <updated>2024-09-06T17:16:27Z</updated>
+    <link href="https://arxiv.org/abs/2409.04413v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.04413v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The problem of obtaining spectral densities from lattice data has been receiving great attention due to its importance in our understanding of scattering processes in Quantum Field Theory, with applications both in the Standard Model and beyond. The problem is notoriously difficult as it amounts to performing an inverse Laplace transform, starting from a finite set of noisy data. Several strategies are now available to tackle this inverse problem. In this work, we discuss how Backus-Gilbert methods, in particular the variation introduced by some of the authors, relate to the solution based on Gaussian Processes. Both methods allow computing spectral densities smearing with a kernel, whose features depend on the detail of the algorithm. We will discuss such kernel, and show how Backus-Gilbert methods can be understood in a Bayesian fashion. As a consequence of this correspondence, we are able to interpret the algorithmic parameters of Backus-Gilbert methods as hyperparameters in the Bayesian language, which can be chosen by maximising a likelihood function. By performing a comparative study on lattice data, we show that, when both frameworks are set to compute the same quantity, the results are generally in agreement. Finally, we adopt a strategy to systematically validate both methodologies against pseudo-data, using covariance matrices measured from lattice simulations. In our setup, we find that the determination of the algorithmic parameters based on a stability analysis provides results that are, on average, more conservative than those based on the maximisation of a likelihood function.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-06T17:16:27Z</published>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Luigi Del Debbio</name>
+    </author>
+    <author>
+      <name>Alessandro Lupo</name>
+    </author>
+    <author>
+      <name>Marco Panero</name>
+    </author>
+    <author>
+      <name>Nazario Tantalo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.06027v1</id>
+    <title>Spectral reconstruction of Euclidean correlator moments in lattice QCD</title>
+    <updated>2023-11-10T12:32:41Z</updated>
+    <link href="https://arxiv.org/abs/2311.06027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.06027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A novel application of lattice QCD spectral reconstruction is presented, in which euclidean correlation function data in a fixed time range are used to infer values outside the range, enabling a model-independent investigation of the asymptotic large-time behavior. Moments of the correlator are also determined, and reconstructed correlation matrices between different moments are included in a variational optimization similar to the standard Generalized Eigenvalue Problem (GEVP). These ideas are illustrated using a single-nucleon correlation function determined on an $N_{\rm}=2+1$ ensemble of gauge configurations at $m_π = 200{\rm MeV}$.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-10T12:32:41Z</published>
+    <arxiv:comment>5 pages, 3 figures, proceedings from the HADRON2023 conference</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>John Bulava</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.17120v2</id>
+    <title>Sphaleron rate from a modified Backus-Gilbert inversion method</title>
+    <updated>2023-08-29T17:09:30Z</updated>
+    <link href="https://arxiv.org/abs/2305.17120v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.17120v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compute the sphaleron rate in quenched QCD for a temperature $T \simeq 1.24~T_c$ from the inversion of the Euclidean lattice time correlator of the topological charge density. We explore and compare two different strategies: one follows a new approach proposed in this study and consists in extracting the rate from finite lattice spacing correlators, and then in taking the continuum limit at fixed smoothing radius followed by a zero-smoothing extrapolation; the other follows the traditional approach of extracting the rate after performing such double extrapolation directly on the correlator. In both cases the rate is obtained from a recently-proposed modification of the standard Backus-Gilbert procedure. The two strategies lead to compatible estimates within errors, which are then compared to previous results in the literature at the same or similar temperatures; the new strategy permits to obtain improved results, in terms of statistical and systematic uncertainties.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-26T17:41:40Z</published>
+    <arxiv:comment>11 pages, 12 eps figures; v2: 16 pages, 18 eps figures, expanded introduction and discussion of results, results unchanged, 2 appendices and references added</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Claudio Bonanno</name>
+    </author>
+    <author>
+      <name>Francesco D'Angelo</name>
+    </author>
+    <author>
+      <name>Massimo D'Elia</name>
+    </author>
+    <author>
+      <name>Lorenzo Maio</name>
+    </author>
+    <author>
+      <name>Manuel Naviglio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.14407v1</id>
+    <title>Applications of the Backus-Gilbert method to linear and some non linear equations</title>
+    <updated>2020-11-29T18:00:07Z</updated>
+    <link href="https://arxiv.org/abs/2011.14407v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.14407v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the use of a functional analytical version of the Backus-Gilbert Method as a reconstruction strategy to get specific information about the solution of linear and slightly non-linear systems with Frechét derivable operators. Some a priori error estimates are shown and tested for two classes of problems: a nonlinear moment problem and a linear elliptic Cauchy problem. For this second class of problems a special version of the Green-formula is developed in order to analyze the involved adjoint equations.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-29T18:00:07Z</published>
+    <arxiv:comment>15 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Inverse Problems 14 (1998), no. 5, 1285-1297</arxiv:journal_ref>
+    <author>
+      <name>A. Leitao</name>
+    </author>
+    <arxiv:doi>10.1088/0266-5611/14/5/012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0266-5611/14/5/012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.03060v1</id>
+    <title>The NRQCD $Υ$ spectrum at non-zero temperature using Backus-Gilbert regularisations</title>
+    <updated>2025-02-05T10:45:17Z</updated>
+    <link href="https://arxiv.org/abs/2502.03060v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.03060v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding how the properties of heavy mesons change as temperature increases is crucial for gaining valuable insights into the quark-gluon plasma. Information about meson masses and decay widths is encoded in the meson spectral function, which, in principle, can be extracted from Euclidean correlation functions via generalised Laplace transformations. However, this inverse problem is ill-posed for lattice correlation functions and requires regularisation. In this work, we present the latest results for bottomonium spectral functions obtained within the lattice NRQCD framework using the Backus-Gilbert regularisation, along with two other variants, one of which is commonly referred to as the HLT method. Our analysis employs Generation 2L anisotropic lattice configurations produced by the \textsc{Fastsum} collaboration.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-05T10:45:17Z</published>
+    <arxiv:comment>7 pages, 2 figures, Contribution to The 41st International Symposium on Lattice Field Theory (LATTICE2024), 28 July - 3 August 2024, Liverpool, UK</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Antonio Smecca</name>
+    </author>
+    <author>
+      <name>Gert Aarts</name>
+    </author>
+    <author>
+      <name>Chris Allton</name>
+    </author>
+    <author>
+      <name>Ryan Bignell</name>
+    </author>
+    <author>
+      <name>Timothy J. Burns</name>
+    </author>
+    <author>
+      <name>Benjamin Jäger</name>
+    </author>
+    <author>
+      <name>Rachel Horohan D'Arcy</name>
+    </author>
+    <author>
+      <name>Seyong Kim</name>
+    </author>
+    <author>
+      <name>Maria-Paola Lombardo</name>
+    </author>
+    <author>
+      <name>Ben Page</name>
+    </author>
+    <author>
+      <name>Sinéad M. Ryan</name>
+    </author>
+    <author>
+      <name>Tom Spriggs</name>
+    </author>
+    <author>
+      <name>Jon-Ivar Skullerud</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.09305v1</id>
+    <title>AdaptiveWeighted Attention Network with Camera Spectral Sensitivity Prior for Spectral Reconstruction from RGB Images</title>
+    <updated>2020-05-19T09:21:01Z</updated>
+    <link href="https://arxiv.org/abs/2005.09305v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.09305v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent promising effort for spectral reconstruction (SR) focuses on learning a complicated mapping through using a deeper and wider convolutional neural networks (CNNs). Nevertheless, most CNN-based SR algorithms neglect to explore the camera spectral sensitivity (CSS) prior and interdependencies among intermediate features, thus limiting the representation ability of the network and performance of SR. To conquer these issues, we propose a novel adaptive weighted attention network (AWAN) for SR, whose backbone is stacked with multiple dual residual attention blocks (DRAB) decorating with long and short skip connections to form the dual residual learning. Concretely, we investigate an adaptive weighted channel attention (AWCA) module to reallocate channel-wise feature responses via integrating correlations between channels. Furthermore, a patch-level second-order non-local (PSNL) module is developed to capture long-range spatial contextual information by second-order non-local operations for more powerful feature representations. Based on the fact that the recovered RGB images can be projected by the reconstructed hyperspectral image (HSI) and the given CSS function, we incorporate the discrepancies of the RGB images and HSIs as a finer constraint for more accurate reconstruction. Experimental results demonstrate the effectiveness of our proposed AWAN network in terms of quantitative comparison and perceptual quality over other state-of-the-art SR methods. In the NTIRE 2020 Spectral Reconstruction Challenge, our entries obtain the 1st ranking on the Clean track and the 3rd place on the Real World track. Codes are available at https://github.com/Deep-imagelab/AWAN.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-19T09:21:01Z</published>
+    <arxiv:comment>The 1st ranking on the Clean track and the 3rd place only 1.59106e-4 more than the 1st on the Real World track of the NTIRE 2020 Spectral Reconstruction Challenge</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Jiaojiao Li</name>
+    </author>
+    <author>
+      <name>Chaoxiong Wu</name>
+    </author>
+    <author>
+      <name>Rui Song</name>
+    </author>
+    <author>
+      <name>Yunsong Li</name>
+    </author>
+    <author>
+      <name>Fei Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.28167v1</id>
+    <title>Spectral densities from Euclidean correlators via integral transforms: theoretical framework</title>
+    <updated>2026-06-26T15:01:16Z</updated>
+    <link href="https://arxiv.org/abs/2606.28167v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.28167v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spectral densities link experimental measurements to dynamical properties of a quantum field theory which, in turn, can be resolved non-perturbatively from the Euclidean time-dependence of correlation functions. By making extensive use of integral transforms, we present analytic formulae to carry out the inverse Laplace transform so as to extract spectral densities from either the continuum or the discrete sampling of correlation functions in the Euclidean time. Formulae extend to regulated and/or smeared spectral densities as well. We explicitly show that the proposed lattice solution tends to its continuum counterpart up to $O(a^2)$ effects in the lattice spacing $a$ if the lattice correlator is $O(a)$-improved. In practical computations, lattices have necessarily a finite Euclidean temporal extent, a lack of knowledge which suggests to introduce incomplete integral transforms and the corresponding incomplete smeared spectral densities. The contribution from the unknowns to a smeared spectral density can then be rigorously bound and kept under control if the integral transform of the smearing function decays fast enough with the conjugate variable. Conversely, the bound can be used to plan lattices so as to achieve a given target precision on the reconstructed spectral density of interest. The formulae presented here in the context of lattice field theory can be easily applied or extended to other areas of research.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-26T15:01:16Z</published>
+    <arxiv:comment>41 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Leonardo Giusti</name>
+    </author>
+    <author>
+      <name>Matteo Saccardi</name>
+    </author>
+    <author>
+      <name>Diego Toniolo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.06675v1</id>
+    <title>Direct detection of metal-insulator phase transitions using the modified Backus-Gilbert method</title>
+    <updated>2017-10-18T11:05:37Z</updated>
+    <link href="https://arxiv.org/abs/1710.06675v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.06675v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The detection of the (semi)metal-insulator phase transition can be extremely difficult if the local order parameter which characterizes the ordered phase is unknown.In some cases, it is even impossible to define a local order parameter: the most prominent example of such system is the spin liquid state. This state was proposed to exist in theHubbard model on the hexagonal lattice in a region between the semimetal phase and the antiferromagnetic insulator phase. The existence of this phase has been the subject of a long debate. In order to detect these exotic phases we must use alternative methods to those used for more familiar examples of spontaneous symmetry breaking. We have modified the Backus-Gilbert method of analytic continuation which was previously used in the calculation of the pion quasiparticle mass in lattice QCD. The modification of the method consists of the introduction of the Tikhonov regularization scheme which was used to treat the ill-conditioned kernel. This modified Backus-Gilbert method is applied to the Euclidean propagators in momentum space calculated using the hybridMonte Carlo algorithm. In this way, it is possible to reconstruct the full dispersion relation and to estimate the mass gap, which is a direct signal of the transition to the insulating state. We demonstrate the utility of this method in our calculations for the Hubbard model on the hexagonal lattice. We also apply the method to the metal-insulator phase transition in the Hubbard-Coulomb model on the square lattice.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-18T11:05:37Z</published>
+    <arxiv:comment>8 pages, 4 figures, proceedings for the 35th annual International Symposium on Lattice Field Theory, 18-24 June 2017, Granada, Spain</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>M. V. Ulybyshev</name>
+    </author>
+    <author>
+      <name>C. Winterowd</name>
+    </author>
+    <author>
+      <name>S. Zafeiropoulos</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/201817503008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/201817503008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.23840v2</id>
+    <title>Probabilistic Spectral Reconstruction of Trans-Neptunian Objects from Sparse Photometry: A Framework for Taxonomy, Survey Optimization, and Outlier Detection</title>
+    <updated>2026-05-21T02:24:47Z</updated>
+    <link href="https://arxiv.org/abs/2604.23840v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.23840v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Near-infrared (near-IR) spectroscopy provides critical constraints on the surface composition of trans-Neptunian objects (TNOs), but spectroscopic observations remain limited compared to broadband photometry. We develop a probabilistic latent-space framework to quantify how much spectral information is retained in sparse photometric measurements. Using a principal component representation trained on a sample of near-IR spectra, we model the spectral manifold of TNOs and perform Bayesian inference in this reduced space to reconstruct full spectra from photometry while propagating uncertainties. Leave-one-out cross-validation demonstrates that the dominant modes of spectral variability are low-dimensional: 4 to 5 principal components capture the structure relevant for taxonomic classification, while 8-10 components improve spectral reconstruction fidelity and uncertainty calibration. For most objects, the reconstructed spectra achieve empirical credible-interval coverage of 95 percent across wavelength. This suggests the diversity of near-IR spectral shapes is governed by structured, correlated surface processes rather than stochastic variation. Practically, we apply this framework to survey optimization, quantifying the information content of JWST/NIRCam filters to identify optimal configurations (e.g., F090W, F115W, F410M, F460M) for TNO taxonomy. Additionally, we demonstrate the pipeline's capability to detect and reconstruct rare spectral types, such as the peculiar Neptune Trojans 2006 RJ103 and 2011 SO277, by allowing constraining photometry to select low-probability intermediate models from the continuous topological manifold. Ultimately, this framework bridges the gap between sparse photometry and spectroscopy, providing a statistically rigorous tool to map the compositional structure of minor planets in upcoming large-scale surveys.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-26T18:54:42Z</published>
+    <arxiv:comment>Accepted for publication in The Astronomical Journal. 25 pages, 13 figures. The generative spectral reconstruction example is publicly available on GitHub at https://github.com/sevenlin123/spectra_reconstructor</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Hsing Wen Lin</name>
+    </author>
+    <author>
+      <name>Larissa Markwardt</name>
+    </author>
+    <author>
+      <name>Kevin J. Napier</name>
+    </author>
+    <author>
+      <name>Fred C. Adams</name>
+    </author>
+    <author>
+      <name>Renu Malhotra</name>
+    </author>
+    <author>
+      <name>David W. Gerdes</name>
+    </author>
+    <arxiv:doi>10.3847/1538-3881/ae657b</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-3881/ae657b" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.15674v1</id>
+    <title>Spectral reconstruction from Euclidean lattice correlators through singular value decomposition</title>
+    <updated>2026-05-15T06:53:32Z</updated>
+    <link href="https://arxiv.org/abs/2605.15674v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.15674v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reconstructing spectral densities from Euclidean lattice correlators requires an inverse Laplace transform, which is inherently ill-conditioned when applied to numerical data with statistical uncertainties. The maximum amount of information that can be extracted from the imaginary-time dependence of correlators can be characterized by the singular value decomposition (SVD) of the kernel function $\exp(-ωt)$ defined on discrete sets of imaginary times $t$ and energies $ω$. The SVD provides orthogonal basis functions in both the $t$- and $ω$-spaces, while the singular values determine the magnitude of their contributions to the correlators. By retaining only the components associated with the largest singular values, for which the correlator data remain statistically significant, one can reconstruct smeared spectral functions with controlled uncertainties. The systematic error arising from the truncation can also be bounded under reasonable assumptions. In the limit where the ranges of $t$ and $ω$ become infinitely large and continuous, the SVD basis approaches the Mellin transform, allowing a representation of the smeared spectrum that is independent of the details of the lattice parameters.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-15T06:53:32Z</published>
+    <arxiv:comment>29 pages, 19 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Ryutaro Tsuji</name>
+    </author>
+    <author>
+      <name>Shoji Hashimoto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.17401v1</id>
+    <title>Chebyshev and Backus-Gilbert reconstruction for inclusive semileptonic $B_{(s)}$-meson decays from Lattice QCD</title>
+    <updated>2023-12-29T00:11:53Z</updated>
+    <link href="https://arxiv.org/abs/2312.17401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.17401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a study on the nonperturbative calculation of observables for inclusive semileptonic decays of $B_{(s)}$ mesons using lattice QCD. We focus on the comparison of two different methods to analyse the lattice data of Euclidean correlation functions, specifically Chebyshev and Backus-Gilbert approaches. This type of computation may eventually provide new insight into the long-standing tension between the inclusive and exclusive determinations of the Cabibbo-Kobayashi-Maskawa (CKM) matrix elements $|V_{cb}|$ and $|V_{ub}|$. We report the results from a pilot lattice computation for the decay $B_s \rightarrow X_c \, lν_l$, where the valence quark masses are approximately tuned to their physical values using the relativistic-heavy quark action for the $b$ quark and the domain-wall formalism for the other valence quarks. We address the computation of the total decay rate as well as leptonic and hadronic moments, discussing similarities and differences between the two analysis techniques.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-29T00:11:53Z</published>
+    <arxiv:comment>10 pages, 6 figures, 40th International Symposium on Lattice Field Theory - Lattice2023</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Alessandro Barone</name>
+    </author>
+    <author>
+      <name>Shoji Hashimoto</name>
+    </author>
+    <author>
+      <name>Andreas Jüttner</name>
+    </author>
+    <author>
+      <name>Takashi Kaneko</name>
+    </author>
+    <author>
+      <name>Ryan Kellermann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.11779v1</id>
+    <title>Reconstruction of smeared spectral function from Euclidean correlation functions</title>
+    <updated>2020-01-31T11:32:38Z</updated>
+    <link href="https://arxiv.org/abs/2001.11779v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.11779v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a method to reconstruct smeared spectral functions from two-point correlation functions measured on the Euclidean lattice. Arbitrary smearing function can be considered as far as it is smooth enough to allow an approximation using Chebyshev polynomials. We test the method with numerical lattice data of Charmonium correlators. The method provides a framework to compare lattice calculation with experimental data including excited state contributions without assuming quark-hadron duality.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-31T11:32:38Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Prog Theor Exp Phys (2020)</arxiv:journal_ref>
+    <author>
+      <name>Gabriela Bailas</name>
+    </author>
+    <author>
+      <name>Shoji Hashimoto</name>
+    </author>
+    <author>
+      <name>Tsutomu Ishikawa</name>
+    </author>
+    <arxiv:doi>10.1093/ptep/ptaa044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/ptep/ptaa044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.14652v1</id>
+    <title>Extraction of spectral densities from lattice correlators: decoupling signal from noise</title>
+    <updated>2026-05-14T10:09:25Z</updated>
+    <link href="https://arxiv.org/abs/2605.14652v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.14652v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We expand the treatment of the problem of the extraction of smeared spectral densities from Euclidean correlators introduced in [Phys. Rev. D 99, 094508], providing an alternative which does not rely on the Backus-Gilbert regularization. This is possible due to the observation that the solution can be decomposed into a sum of terms, in the spirit of the singular value decomposition, where those with the largest contribution to the statistical noise happen to contribute the least to the central value of the smeared spectral density. The analysis of the systematics of the inverse problem is then shifted to finding the optimal truncation of such summation, so that the signal is saturated before the noise explodes. We scrutinise the performance and systematics of this approach either as a standalone procedure, or to complement the stability analysis required to extrapolate the unbiased result in the Backus-Gilbert regulated version of the solution.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-14T10:09:25Z</published>
+    <arxiv:comment>14 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Alessandro Lupo</name>
+    </author>
+    <author>
+      <name>Nazario Tantalo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.14977v4</id>
+    <title>Spectral estimate for the Laplace-Beltrami operator on the hyperbolic half-plane</title>
+    <updated>2026-01-01T13:14:04Z</updated>
+    <link href="https://arxiv.org/abs/2401.14977v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.14977v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The purpose of this note is to investigate the concentration properties of spectral projectors on manifolds. This question has been intensively studied (by Logvinenko--Sereda, Nazarov, Jerison--Lebeau, Kovrizhkin, Egidi--Seelmann--Veseli{ć}, Burq--Moyano, among others) in connection with the uncertainty principle. We provide the first high-frequency results in a geometric setting which is neither Euclidean nor a perturbation of Euclidean. Namely, we prove the natural (and optimal) uncertainty principle for the spectral projector on the hyperbolic half-plane.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-26T16:08:59Z</published>
+    <arxiv:comment>17 pages. Comments are welcome. Published in Journal of Functional Analysis. Changes in v2 : abstract and Section 1.2 modified to reflect that this result is the first high-frequency spectral estimate on a non-Euclidean manifold, but not the first one altogether (see Rose and Tautenhahn : arXiv:2305.06916)</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Functional Analysis, Volume 289, Issue 8, 2025, 111059, ISSN 0022-1236</arxiv:journal_ref>
+    <author>
+      <name>Marc Rouveyrol</name>
+    </author>
+    <arxiv:doi>10.1016/j.jfa.2025.111059</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jfa.2025.111059" title="doi"/>
+  </entry>
+</feed>

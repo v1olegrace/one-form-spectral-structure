@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fsgDjeDWXyvjQ11kZxLMIu663M0</id>
+  <title>arXiv Query: search_query=all:exponential OR all:tilting OR all:Esscher OR all:transform OR all:cumulant OR all:generating OR all:function&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:52:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:exponential+OR+(all:tilting+OR+(all:Esscher+OR+(all:transform+OR+(all:cumulant+OR+(all:generating+OR+all:function)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1456353</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.07561v2</id>
+    <title>The Quantum Esscher Transform</title>
+    <updated>2025-04-10T09:47:06Z</updated>
+    <link href="https://arxiv.org/abs/2401.07561v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.07561v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Esscher Transform is a tool of broad utility in various domains of applied probability. It provides the solution to a constrained minimum relative entropy optimization problem. In this work, we study the generalization of the Esscher Transform to the quantum setting. We examine a relative entropy minimization problem for a quantum density operator, potentially of wide relevance in quantum information theory. The resulting solution form motivates us to define the \textit{quantum} Esscher Transform, which subsumes the classical Esscher Transform as a special case. Envisioning potential applications of the quantum Esscher Transform, we also discuss its implementation on fault-tolerant quantum computers. Our algorithm is based on the modern techniques of block-encoding and quantum singular value transformation (QSVT). We show that given block-encoded inputs, our algorithm outputs a subnormalized block-encoding of the quantum Esscher transform within accuracy $ε$ in $\tilde O(κd \log^2 1/ε)$ queries to the inputs, where $κ$ is the condition number of the input density operator and $d$ is the number of constraints.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-15T09:53:40Z</published>
+    <arxiv:comment>26 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Yixian Qiu</name>
+    </author>
+    <author>
+      <name>Kelvin Koor</name>
+    </author>
+    <author>
+      <name>Patrick Rebentrost</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.02803v2</id>
+    <title>Square Series Generating Function Transformations</title>
+    <updated>2017-03-29T21:04:44Z</updated>
+    <link href="https://arxiv.org/abs/1609.02803v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.02803v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct new integral representations for transformations of the ordinary generating function for a sequence, $\langle f_n \rangle$, into the form of a generating function that enumerates the corresponding "square series" generating function for the sequence, $\langle q^{n^2} f_n \rangle$, at an initially fixed non-zero $q \in \mathbb{C}$. The new results proved in the article are given by integral-based transformations of ordinary generating function series expanded in terms of the Stirling numbers of the second kind. We then employ known integral representations for the gamma and double factorial functions in the construction of these square series transformation integrals. The results proved in the article lead to new applications and integral representations for special function series, sequence generating functions, and other related applications. A summary Mathematica notebook providing derivations of key results and applications to specific series is provided online as a supplemental reference to readers.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-09T14:09:59Z</published>
+    <arxiv:comment>Keywords: Square series, generating function, series transformation, integral transformation, gamma function, double factorial, Stirling number of the second kind, Jacobi theta function, Ramanujan theta function</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Journal of Inequalities and Special Functions V.8 (2017), Issue 2, Article 11</arxiv:journal_ref>
+    <author>
+      <name>Maxie D. Schmidt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.03933v2</id>
+    <title>A Short Note on Integral Transformations and Conversion Formulas for Sequence Generating Functions</title>
+    <updated>2019-05-18T17:53:14Z</updated>
+    <link href="https://arxiv.org/abs/1809.03933v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.03933v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The purpose of this note is to provide an expository introduction to some more curious integral formulas and transformations involving generating functions. We seek to generalize these results and integral representations which effectively provide a mechanism for converting between a sequence's ordinary and exponential generating function (OGF and EGF, respectively) and vice versa. The Laplace transform provides an integral formula for the EGF-to-OGF transformation, where the reverse OGF-to-EGF operation requires more careful integration techniques. We prove two variants of the OGF-to-EGF transformation integrals from the Hankel loop contour for the reciprocal gamma function and from Fourier series expansions of integral representations for the Hadamard product of two generating functions, respectively. We also suggest several generalizations of these integral formulas and provide new examples along the way.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-11T14:37:35Z</published>
+    <arxiv:comment>Keywords: Generating function; series transformation; gamma function; Hankel contour. MSC: 05A15; 30E20; 31B10; and 11B73. Updated version is the draft that will be published in the Axioms special issue Mathematical Analysis and Applications II</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Maxie D. Schmidt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.19192v1</id>
+    <title>Characteristic function and Esscher transform of a switching Levy model for the temperature dynamic</title>
+    <updated>2024-11-28T14:59:00Z</updated>
+    <link href="https://arxiv.org/abs/2411.19192v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.19192v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we extend models for the dynamic of the temperatures by considering random switching between Levy noises instead of Brownian motions, with a mean-reverting movement towards a seasonal periodic function. The use of Levy noises allows for jumps, capturing, together with the regime changes, sudden and relatively persistent oscillations in the weather. An approximated close-form expression for the characteristic function of the temperature process under an Esscher transform is given.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-28T14:59:00Z</published>
+    <arxiv:comment>22 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Rofeide Jabbari</name>
+    </author>
+    <author>
+      <name>Pablo Olivares</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.13498v2</id>
+    <title>Maximal self-orthogonal modules and a new generalization of tilting modules</title>
+    <updated>2023-04-07T05:52:13Z</updated>
+    <link href="https://arxiv.org/abs/2301.13498v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.13498v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a generalization of tilting modules of finite projective dimension, projectively Wakamatsu tilting modules, which are self-orthogonal and Ext-progenerators in their Ext-perpendicular categories. Under a certain finiteness condition, we prove that the following modules coincide: projectively Wakamatsu tilting, Wakamatsu tilting, maximal self-orthogonal, and self-orthogonal modules with the same rank as the algebra. This provides another proof of the weak Gorensteinness of representation-finite algebras. To prove this, we introduce Bongartz completion of self-orthogonal modules and characterize its existence. Moreover, we study a binary relation on Wakamatsu tilting modules which extends the poset of tilting modules, and use it to prove that every self-orthogonal module over a representation-finite Iwanaga-Gorenstein algebra has finite projective dimension. Finally, we discuss several conjectures related to self-orthogonal modules and their connections to famous homological conjectures.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-31T09:30:05Z</published>
+    <arxiv:comment>21 pages, ver2: Only changed the name from "Wakamatsu-projective/injective" to "projectively/injectively Wakamatsu tilting"</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Haruhisa Enomoto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0807.1227v1</id>
+    <title>On the Esscher transforms and other equivalent martingale measures for Barndorff-Nielsen and Shephard stochastic volatility models with jumps</title>
+    <updated>2008-07-08T13:21:28Z</updated>
+    <link href="https://arxiv.org/abs/0807.1227v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0807.1227v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We compute and discuss the Esscher martingale transform for exponential processes, the Esscher martingale transform for linear processes, the minimal martingale measure, the class of structure preserving martingale measures, and the minimum entropy martingale measure for stochastic volatility models of Ornstein-Uhlenbeck type as introduced by Barndorff-Nielsen and Shephard. We show, that in the model with leverage, with jumps both in the volatility and in the returns, all those measures are different, whereas in the model without leverage, with jumps in the volatility only and a continuous return process, several measures coincide, some simplifications can be made and the results are more explicit. We illustrate our results with parametric examples used in the literature.</summary>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-07-08T13:21:28Z</published>
+    <arxiv:primary_category term="q-fin.CP"/>
+    <author>
+      <name>Friedrich Hubalek</name>
+      <arxiv:affiliation>Technical University of Vienna</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Carlo Sgarra</name>
+      <arxiv:affiliation>Technical University of Milan</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.15842v1</id>
+    <title>On $τ$-tilting theory</title>
+    <updated>2024-10-21T10:05:21Z</updated>
+    <link href="https://arxiv.org/abs/2410.15842v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.15842v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a brief introduction to $τ$-tilting theory [AIR]. In particular, we will see how our theory unifies two different branches of tilting theory, namely, silting theory and cluster tilting theory. We also introduce the history and recent developments.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-21T10:05:21Z</published>
+    <arxiv:comment>This is a short summary of our Frontiers of Science Award paper "$τ$-tilting theory'' (Compos. Math. 2014)</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Takahide Adachi</name>
+    </author>
+    <author>
+      <name>Osamu Iyama</name>
+    </author>
+    <author>
+      <name>Idun Reiten</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.20726v1</id>
+    <title>Esscher Transform and the Central Limit Theorem</title>
+    <updated>2024-07-30T10:45:06Z</updated>
+    <link href="https://arxiv.org/abs/2407.20726v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.20726v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The paper is devoted to the investigation of Esscher's transform on high dimensional Euclidean spaces in the light of its application to the central limit theorem. With this tool, we explore necessary and sufficient conditions of normal approximation for normalized sums of i.i.d. random vectors in terms of the Rényi divergence of infinite order, extending recent one dimensional results.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-30T10:45:06Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Sergey Bobkov</name>
+    </author>
+    <author>
+      <name>Friedrich Götze</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.00093v3</id>
+    <title>Relative cluster tilting objects in triangulated categories</title>
+    <updated>2017-03-28T00:55:00Z</updated>
+    <link href="https://arxiv.org/abs/1504.00093v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.00093v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Assume that $\D$ is a Krull-Schmidt, Hom-finite triangulated category with a Serre functor and a cluster-tilting object $T$. We introduce the notion of relative cluster tilting objects, and $T[1]$-cluster tilting objects in $\D$, which are a generalization of cluster-tilting objects. When $\D$ is $2$-Calabi-Yau, the relative cluster tilting objects are cluster-tilting. Let $\la={\rm End}^{op}_{\D}(T)$ be the opposite algebra of the endomorphism algebra of $T$. We show that there exists a bijection between $T[1]$-cluster tilting objects in $\D$ and support $τ$-tilting $\la$-modules, which generalizes a result of Adachi-Iyama-Reiten \cite{AIR}. We develop a basic theory on $T[1]$-cluster tilting objects. In particular, we introduce a partial order on the set of $T[1]$-cluster tilting objects and mutation of $T[1]$-cluster tilting objects, which can be regarded as a generalization of `cluster-tilting mutation'. As an application, we give a partial answer to a question posed in \cite{AIR}.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-01T03:10:46Z</published>
+    <arxiv:comment>all comments are very welcome!. arXiv admin note: text overlap with arXiv:1210.1036 by other authors. The notion "ghost tilting" is changed as "relative cluster tilting" due to the suggestion of the referee, thus the title has been changed in the present form. Final version to appear in Trans.AMS.add some word in Acknowledgments</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Wuzhong Yang</name>
+    </author>
+    <author>
+      <name>Bin Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/0207037v2</id>
+    <title>Correlation Functions and Cumulants in Elliptic Flow Analysis</title>
+    <updated>2002-08-22T21:15:42Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/0207037v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/0207037v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider various methods of flow analysis in heavy ion collisions and compare experimental data on corresponding observables to the predictions of our saturation model proposed earlier. We demonstrate that, due to the nature of the standard flow analysis, azimuthal distribution of particles with respect to reaction plane determined from the second order harmonics should always be proportional to $\cos 2(φ-Ψ_R)$ independent of the physical origin of particle correlations (flow or non-flow). The amplitude of this distribution is always physical and proportional to $v_2$. Two-particle correlations analysis is therefore a more reliable way of extracting the shape of physical azimuthal anisotropy. We demonstrate that two-particle correlation functions generated in our minijet model of particle production are in good agreement with the data reported by PHENIX. We discuss the role of non-flow correlations in the cumulant flow analysis and demonstrate using a simple example that if the flow is weak, higher order cumulants analysis does not significantly reduce the contribution of non-flow correlations to elliptic flow observable $v_2$ in RHIC data.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-07-15T18:32:41Z</published>
+    <arxiv:comment>18 pages, 1 figure; v2: IR safety and v2(pT) from 4th order cumulant discussions added</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Nucl.Phys. A717 (2003) 249-267</arxiv:journal_ref>
+    <author>
+      <name>Yuri V. Kovchegov</name>
+      <arxiv:affiliation>University of Washington</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kirill L. Tuchin</name>
+      <arxiv:affiliation>University of Washington</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/S0375-9474(03)00609-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0375-9474(03)00609-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.0301v5</id>
+    <title>Esscher transform and the duality principle for multidimensional semimartingales</title>
+    <updated>2009-11-05T07:32:20Z</updated>
+    <link href="https://arxiv.org/abs/0809.0301v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.0301v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The duality principle in option pricing aims at simplifying valuation problems that depend on several variables by associating them to the corresponding dual option pricing problem. Here, we analyze the duality principle for options that depend on several assets. The asset price processes are driven by general semimartingales, and the dual measures are constructed via an Esscher transformation. As an application, we can relate swap and quanto options to standard call and put options. Explicit calculations for jump models are also provided.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-01T19:25:53Z</published>
+    <arxiv:comment>Published in at http://dx.doi.org/10.1214/09-AAP600 the Annals of Applied Probability (http://www.imstat.org/aap/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Annals of Applied Probability 2009, Vol. 19, No. 5, 1944-1971</arxiv:journal_ref>
+    <author>
+      <name>Ernst Eberlein</name>
+    </author>
+    <author>
+      <name>Antonis Papapantoleon</name>
+    </author>
+    <author>
+      <name>Albert N. Shiryaev</name>
+    </author>
+    <arxiv:doi>10.1214/09-AAP600</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/09-AAP600" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.20101v1</id>
+    <title>Exponential sums twisted by general arithmetic functions</title>
+    <updated>2024-12-28T09:56:50Z</updated>
+    <link href="https://arxiv.org/abs/2412.20101v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.20101v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine exponential sums of the form $\sum_{n \le X} w(n) e^{2πiαn^k}$, for $k=1,2$, where $α$ satisfies a generalized Diophantine approximation and where $w$ are different arithmetic functions that might be multiplicative, additive, or neither. A strategy is shown on how to bound these sums for a wide class of functions $w$ belonging within the same ecosystem. Using this new technology we are able to improve current results on minor arcs that have recently appeared in the literature of the Hardy-Littlewood circle method. Lastly, we show how a bound on $\sum_{n \le X} |μ(n)| e^{2πiαn}$ can be used to study partitions asymptotics over squarefree parts and explain their connection to the zeros of the Riemann zeta-function.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-28T09:56:50Z</published>
+    <arxiv:comment>Pages: 34, Figures: 8, Keywords: exponential sums, arithmetic functions, weights associated to partitions, Hardy-Littlewood circle method, zeros of the Riemann zeta-function, explicit formulae, Weyl's bound</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Anji Dong</name>
+    </author>
+    <author>
+      <name>Nicolas Robles</name>
+    </author>
+    <author>
+      <name>Alexandru Zaharescu</name>
+    </author>
+    <author>
+      <name>Dirk Zeindler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.0039v1</id>
+    <title>Determination of electron-hole correlation length in CdSe quantum dots using explicitly correlated two-particle cumulant</title>
+    <updated>2014-05-31T00:56:39Z</updated>
+    <link href="https://arxiv.org/abs/1406.0039v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.0039v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electron-hole correlation length serves as an intrinsic length scale for analyzing excitonic interactions in semiconductor nanoparticles. In this work, the derivation of electron-hole correlation length using the two-particle reduced density is presented. The correlation length was obtained by first calculating the electron-hole cumulant from the pair density,and then transforming the cumulant into intracular coordinates, and finally then imposing exact sum-rule conditions on the radial integral of the cumulant. The excitonic wave function for the calculation was obtained variationally using the electron-hole explicitly correlated Hartree-Fock method. As a consequence, both the pair density and the cumulant were explicit functions of the electron-hole separation distance. The use of explicitly correlated wave function and the integral sum-rule condition are the two key features of this derivation. The method was applied to a series of CdSe quantum dots with diameters 1-20 nm and the effect of dot size on the correlation length was analyzed.</summary>
+    <category term="physics.atm-clus" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-05-31T00:56:39Z</published>
+    <arxiv:comment>keywords: explicitly correlated, Gaussian-type geminal, electron-hole correlation, reduced density matrix, cumulant, transition density matrix</arxiv:comment>
+    <arxiv:primary_category term="physics.atm-clus"/>
+    <author>
+      <name>Christopher J. Blanton</name>
+    </author>
+    <author>
+      <name>Arindam Chakraborty</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.12714v1</id>
+    <title>On the use of the cumulant generating function for inference on time series</title>
+    <updated>2024-03-19T13:22:12Z</updated>
+    <link href="https://arxiv.org/abs/2403.12714v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.12714v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce innovative inference procedures for analyzing time series data. Our methodology enables density approximation and composite hypothesis testing based on Whittle's estimator, a widely applied M-estimator in the frequency domain. Its core feature involves the (general Legendre transform of the) cumulant generating function of the Whittle likelihood score, as obtained using an approximated distribution of the periodogram ordinates. We present a testing algorithm that significantly expands the applicability of the state-of-the-art saddlepoint test, while maintaining the numerical accuracy of the saddlepoint approximation. Additionally, we demonstrate connections between our findings and three other prevalent frequency domain approaches: the bootstrap, empirical likelihood, and exponential tilting. Numerical examples using both simulated and real data illustrate the advantages and accuracy of our methodology.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-19T13:22:12Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Alban Moor</name>
+    </author>
+    <author>
+      <name>Davide La Vecchia</name>
+    </author>
+    <author>
+      <name>Elvezio Ronchetti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.14096v2</id>
+    <title>Tilting objects in periodic triangulated categories</title>
+    <updated>2021-06-06T08:34:39Z</updated>
+    <link href="https://arxiv.org/abs/2011.14096v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.14096v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A triangulated category $\mathcal{T}$ whose suspension functor $Σ$ satisfies $Σ^m \simeq \mathrm{Id}_{\mathcal{T}}$ as additive functors is called an $m$-periodic triangulated category. Such a category does not have a tilting object by the periodicity. In this paper, we introduce the notion of an $m$-periodic tilting object in an $m$-periodic triangulated category, which is a periodic analogue of a tilting object in a triangulated category, and prove that an $m$-periodic triangulated category having an $m$-periodic tilting object is triangulated equivalent to the $m$-periodic derived category of an algebra under some homological assumptions. As an application, we construct a triangulated equivalence between the stable category of a self-injective algebra and the $m$-periodic derived category of a hereditary algebra.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-28T09:23:53Z</published>
+    <arxiv:comment>23 pages, Added new and corrected an error in the previous version, comments welcome</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Tilting theory for periodic triangulated categories. Math. Z. 304, 47 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Shunya Saito</name>
+    </author>
+    <arxiv:doi>10.1007/s00209-023-03304-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00209-023-03304-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.12755v3</id>
+    <title>A Girsanov-type formula for a class of anticipative transforms of Brownian motion associated with exponential functionals</title>
+    <updated>2023-09-04T08:32:48Z</updated>
+    <link href="https://arxiv.org/abs/2211.12755v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.12755v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, with the help of a result by Matsumoto--Yor (2000), we prove a Girsanov-type formula for a class of anticipative transforms of Brownian motion which possesses exponential functionals as anticipating factors. Our result unifies existing formulas in earlier works. As an application, we also consider the law of Brownian motion perturbed by a positive weight of a fairly wide class, and prove its invariance under an anticipative transformation associated with the perturbation. In the course of our exploration, a disintegration formula for the Wiener measure related to exponential functionals plays a key role.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-23T07:42:21Z</published>
+    <arxiv:comment>21 pages. A disintegration formula for the Wiener measure related to exponential functionals is added as Proposition 2.1, with which the results are fairly extended</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Yuu Hariya</name>
+    </author>
+    <arxiv:doi>10.1007/s10959-024-01383-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10959-024-01383-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.03960v1</id>
+    <title>The second-order Esscher martingale densities for continuous-time market models</title>
+    <updated>2024-07-04T14:28:03Z</updated>
+    <link href="https://arxiv.org/abs/2407.03960v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.03960v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we introduce the second-order Esscher pricing notion for continuous-time models. Depending whether the stock price $S$ or its logarithm is the main driving noise/shock in the Esscher definition, we obtained two classes of second-order Esscher densities called linear class and exponential class respectively. Using the semimartingale characteristics to parametrize $S$, we characterize the second-order Esscher densities (exponential and linear) using pointwise equations. The role of the second order concept is highlighted in many manners and the relationship between the two classes is singled out for the one-dimensional case. Furthermore, when $S$ is a compound Poisson model, we show how both classes are related to the Delbaen-Haenzendonck's risk-neutral measure. Afterwards, we restrict our model $S$ to follow the jump-diffusion model, for simplicity only, and address the bounds of the stochastic Esscher pricing intervals. In particular, no matter what is the Esscher class, we prove that both bounds (upper and lower) are solutions to the same linear backward stochastic differential equation (BSDE hereafter for short) but with two different constraints. This shows that BSDEs with constraints appear also in a setting beyond the classical cases of constraints on gain-processes or constraints on portfolios. We prove that our resulting constrained BSDEs have solutions in our framework for a large class of claims' payoffs including any bounded claim, in contrast to the literature, and we single out the monotonic sequence of BSDEs that ``naturally" approximate it as well.</summary>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-04T14:28:03Z</published>
+    <arxiv:primary_category term="q-fin.MF"/>
+    <author>
+      <name>Tahir Choulli</name>
+    </author>
+    <author>
+      <name>Ella Elazkany</name>
+    </author>
+    <author>
+      <name>Michèle Vanmaele</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.07211v1</id>
+    <title>Exponential laws for weighted function spaces and regularity of weighted mapping groups</title>
+    <updated>2015-12-22T19:36:21Z</updated>
+    <link href="https://arxiv.org/abs/1512.07211v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.07211v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $E$ be a locally convex space, $U\subseteq\mathbb{R}^n$ as well as $V\subseteq\mathbb{R}^m$ be open and $k,l\in\mathbb{N}_0\cup\left\{\infty\right\}$. Locally convex spaces $C^{k,l}(U\times V,E)$ of functions with different degrees of differentiability in the $U$- and $V$-variable were recently studied by H.Alzaareer, who established an exponential law of the form $C^{k,l}(U\times V,E)\cong C^k(U,C^l(V,E))$. We establish an analogous exponential law $C^{k,l}_{\mathcal{W}_1\otimes\mathcal{W}_2}(U\times V,E)\cong C^k_{\mathcal{W}_1}(U,C^l_{\mathcal{W}_2}(V,E))$ for suitable spaces of weighted $C^{k,l}$-maps, as well as an analogue for spaces of weighted continuous functions on locally compact spaces. The results entail that certain Lie groups $C^l_\mathcal{W}(U,H)$ of weighted mappings introduced by B.Walter are $C^k$-regular, for each $C^k$-regular Lie group $H$ modeled on a locally convex space and a suitable set of weights $\mathcal{W}$.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-22T19:36:21Z</published>
+    <arxiv:comment>53 pages. This article is based on the author's master's thesis "Exponential laws for weighted function spaces and regularity of weighted mapping Groups" advised by Helge Glöckner, University of Paderborn, 2015</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Natalie Nikitin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.01595v1</id>
+    <title>Integral means inequalities, convolution, and univalent functions</title>
+    <updated>2019-02-05T08:55:07Z</updated>
+    <link href="https://arxiv.org/abs/1902.01595v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.01595v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use the Baernstein star-function to investigate several questions about the integral means of the convolution of two analytic functions in the unit disc. The theory of univalent functions plays a basic role in our work.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-05T08:55:07Z</published>
+    <arxiv:comment>To appear in Journal of Function Spaces</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Journal of Function Spaces, Article ID 7817353, Volume 2019 (2019), 5 pages</arxiv:journal_ref>
+    <author>
+      <name>Daniel Girela</name>
+    </author>
+    <author>
+      <name>Cristóbal González</name>
+    </author>
+    <arxiv:doi>10.1155/2019/7817353</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1155/2019/7817353" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0206279v2</id>
+    <title>An exponential function on the set of varieties</title>
+    <updated>2003-01-09T11:04:46Z</updated>
+    <link href="https://arxiv.org/abs/math/0206279v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0206279v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Let $\cal R$ be either the Grothendieck semiring (semiring with multiplication) of complex algebraic varieties, or the Grothendieck ring of these varieties, or the Grothendieck ring localized by the class of the complex affine line. We introduce a construction which defines operations of taking powers of series over these (semi)rings. This means that, for a power series $A(t)=1+\sum\limits_{i=1}^\infty A_i t^i$ with the coefficients $A_i$ from $\cal R$ and for $M\in {\cal R}$, there is defined a series $(A(t))^M$ (with coefficients from $\cal R$ as well) so that all the usual properties of the exponential function hold.We also express in these terms the generating function of the Hilbert scheme of points (0-dimensional subschemes) on a surface.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-06-26T16:47:55Z</published>
+    <arxiv:comment>Updated version. Based on a L. Göttsche's result we also show that generating function of the Hilbert scheme of points (0-dimensional subschemes) on a surface is an exponetial of the surface</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>S. M. Gusein-Zade</name>
+      <arxiv:affiliation>Moscow State University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>I. Luengo</name>
+      <arxiv:affiliation>Universidad Complutense de Madrid</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Melle-Hernandez</name>
+      <arxiv:affiliation>Universidad Complutense de Madrid</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.21649v2</id>
+    <title>Second-Order Esscher Pricing for Lévy Models with Applications: Risk Management and Fear Quantification</title>
+    <updated>2026-06-08T22:55:15Z</updated>
+    <link href="https://arxiv.org/abs/2410.21649v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.21649v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes the second-order Esscher transform as a tractable extension of the classical Esscher framework for option pricing and risk management in Lévy-driven markets. For a general Lévy process, we derive the associated densities and equivalent pricing measures, characterize the martingale condition in closed form, and obtain FFT-based valuation formulas for European call options. For jump-diffusion models, we establish explicit pricing formulas under the second-order Esscher measure and show that the resulting option prices lie in an interval bounded below by the Black--Scholes price and above by the underlying asset value. For the constant jump-diffusion model, we further prove monotonicity of option prices with respect to the second-order Esscher parameter. An empirical analysis based on market data shows that this additional parameter provides a tractable tool for stress testing, delta-hedging evaluation, and the construction of interval-valued risk measures in incomplete markets. We further document a strong association between the estimated second-order Esscher parameter and standard indicators of market stress, including the VIX, news sentiment, and crisis regimes. The proposed framework preserves analytical tractability while enlarging the class of admissible pricing measures, thereby supporting pricing, hedging, and stress-based risk assessment in incomplete markets with jump and general Lévy dynamics.</summary>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-29T01:31:23Z</published>
+    <arxiv:primary_category term="q-fin.MF"/>
+    <author>
+      <name>Tahir Choulli</name>
+    </author>
+    <author>
+      <name>Ella Elazkany</name>
+    </author>
+    <author>
+      <name>Mich`ele Vanmaele</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.05584v2</id>
+    <title>Forward-looking portfolio selection with multivariate non-Gaussian models and the Esscher transform</title>
+    <updated>2018-05-25T05:52:54Z</updated>
+    <link href="https://arxiv.org/abs/1805.05584v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.05584v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this study we suggest a portfolio selection framework based on option-implied information and multivariate non-Gaussian models. The proposed models incorporate skewness, kurtosis and more complex dependence structures among stocks log-returns than the simple correlation matrix. The two models considered are a multivariate extension of the normal tempered stable (NTS) model and the generalized hyperbolic (GH) model, respectively, and the connection between the historical measure P and the risk-neutral measure Q is given by the Esscher transform. We consider an estimation method that simultaneously calibrate the time series of univariate log-returns and the univariate observed volatility smile. To calibrate the models, there is no need of liquid multivariate derivative quotes. The method is applied to fit a 50-dimensional series of stock returns, to evaluate widely known portfolio risk measures and to perform a portfolio selection analysis.</summary>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-15T06:26:30Z</published>
+    <arxiv:comment>29 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="q-fin.PM"/>
+    <author>
+      <name>Michele Leonardo Bianchi</name>
+    </author>
+    <author>
+      <name>Gian Luca Tassinari</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.06180v3</id>
+    <title>Dominant Auslander-Gorenstein algebras and mixed cluster tilting</title>
+    <updated>2024-02-17T07:34:22Z</updated>
+    <link href="https://arxiv.org/abs/2210.06180v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.06180v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the class of dominant Auslander-Gorenstein algebras as a generalisation of higher Auslander algebras and minimal Auslander-Gorenstein algebras, and give their basic properties. We also introduce mixed (pre)cluster tilting modules as a generalisation of (pre)cluster tilting modules, and establish an Auslander type correspondence by showing that dominant Auslander-Gorenstein (respectively, Auslander-regular) algebras correspond bijectively with mixed precluster (respectively, cluster) tilting modules. We show that every trivial extension algebra $T(A)$ of a $d$-representation-finite algebra A admits a mixed cluster tilting module and show that this can be seen as a generalisation of the well known result that $d$-representation-finite algebras are fractionally Calabi-Yau. We show that iterated SGC-extensions of a gendo-symmetric dominant Auslander-Gorenstein algebra admit mixed precluster tilting modules.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-12T13:13:47Z</published>
+    <arxiv:comment>27 pages. Comments are welcome v2: minor changes to introduction, added and corrected references v3: We added a section about mixed cluster tilting modules in trivial extension algebras of d-representation-finite algebras and removed the section about Koszul duality. The results on Koszul duality will appear in forthcoming work</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Aaron Chan</name>
+    </author>
+    <author>
+      <name>Osamu Iyama</name>
+    </author>
+    <author>
+      <name>Rene Marczinzik</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.06147v1</id>
+    <title>From generating functions to the geometric Binder cumulant</title>
+    <updated>2026-04-07T17:51:29Z</updated>
+    <link href="https://arxiv.org/abs/2604.06147v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.06147v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an overview of the role of generating functions in quantum mechanical contexts, mainly in the modern theory of polarization and in the study of quantum phase transitions. Generating functions enable the derivation of moments and cumulants, quantities which characterize the fluctuations of an underlying probability distribution. In all of the cases we review, the fluctuations are those of a quantum system. We show that the original formalism for geometric phases, in which a quantum system is taken around an adiabatic cycle, can be extended to the case when degeneracy points are encountered along the cycle (quasiadiabatic cycles). The essential tool for this extension is a generalized Bargmann invariant which plays the role of a generating function. From the cumulants generated this way one can form ratios according to the Binder cumulant scheme in statistical mechanics. Such geometric Binder cumulants are sensitive to gap closure, as such, they are useful in identifying metal-insulator transitions, localization, and quantum phase transitions. We present example calculations on simple model systems, whose localization properties are well known, to validate to approach. We also complement our geometric Binder cumulant calculations with results for the fidelity susceptibility, a quantity directly related to the quantum geometry of the parameter space.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-07T17:51:29Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>J. Phys.: Condens. Matter 38 153002 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Balázs Hetényi</name>
+    </author>
+    <arxiv:doi>10.1088/1361-648X/ae5c50</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-648X/ae5c50" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0411553v3</id>
+    <title>Non-exponential time-correlation function for random physical processes</title>
+    <updated>2005-02-28T13:07:17Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0411553v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0411553v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The exponential correlation function is theoretically incorrect in the entire frequency range of interest for processes described in terms of linear response theory. The Lorentzian lineshape results from an inconsistent assumption of exponential correlation at timescales smaller than the relaxation time. A new correlation function is proposed that avoids the deficiencies of the exponential function. Comparison on dielectric relaxation in gases shows that the new correlation function can be used to fit data satisfactorily instead of the exponential function. The new correlation function is theoretically consistent for all processes described in terms of linear response theory. Its additional mathematical superiority implies that it can be used instead of the exponential function for all such processes.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-11-22T14:25:28Z</published>
+    <arxiv:comment>14 pages, 1 Table, 4 figures, submitted for publication. Manuscript rewritten to emphasise that exponential correlation is theoretically incorrect for processes described in terms of linear response theory</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>T. R. S. Prasanna</name>
+    </author>
+  </entry>
+</feed>

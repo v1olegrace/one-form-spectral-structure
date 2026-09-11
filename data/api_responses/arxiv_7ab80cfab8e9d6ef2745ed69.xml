@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/S0eESnHZIkcLwyn7TfKeQKW+ajA</id>
+  <title>arXiv Query: search_query=all:S-matrix OR all:bootstrap OR all:positivity OR all:extremal OR all:spectral OR all:density&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:45:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:S-matrix+OR+(all:bootstrap+OR+(all:positivity+OR+(all:extremal+OR+(all:spectral+OR+all:density))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>644833</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1807.00227v1</id>
+    <title>Entanglement of extremal density matrices of 2-qubit Hamiltonian with Kramers degeneracy</title>
+    <updated>2018-06-30T21:22:02Z</updated>
+    <link href="https://arxiv.org/abs/1807.00227v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.00227v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We establish a novel procedure to analyze the entanglement properties of extremal density matrices depending on the parameters of a finite dimensional Hamiltonian. It was applied to a general 2-qubit Hamiltonian which could exhibit Kramers degeneracy. This is done through the extremal density matrix formalism, which allows to extend the conventional variational principle to mixed states. By applying the positive partial transpose criterion in terms of the Correlation and Schlienz-Mahler matrices on the extremal density matrices, we demonstrate that it is possible to reach both pure and mixed entangled states, changing properly the parameters of the Hamiltonian. For time-reversal invariant Hamiltonians, the extremal pure states can be entangled or not and we prove that they are not time-reversal invariants. For extremal mixed states we have in general 5 possible cases: three of them are entangled and the other two separable.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-30T21:22:02Z</published>
+    <arxiv:comment>Extremal density matrices; 2-qubit system; Entanglement; Kramers degeneracy</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>A. Figueroa</name>
+    </author>
+    <author>
+      <name>O. Castanos</name>
+    </author>
+    <author>
+      <name>R. Lopez-Pena</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.08382v1</id>
+    <title>Conditionally positive definite kernels in Hilbert $C^*$-modules</title>
+    <updated>2016-11-25T08:35:02Z</updated>
+    <link href="https://arxiv.org/abs/1611.08382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.08382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the notion of conditionally positive definite in the context of Hilbert $C^*$-modules and present a characterization of the conditionally positive definiteness in terms of the usual positive definiteness. We give a Kolmogorov type representation of conditionally positive definite kernels in Hilbert $C^*$-modules. As a consequence, we show that a $C^*$-metric space $(S, d)$ is $C^*$-isometric to a subset of a Hilbert $C^*$-module if and only if $K(s,t)=-d(s,t)^2$ is a conditionally positive definite kernel. We also present a characterization of the order $K'\leq K$ between conditionally positive definite kernels.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-25T08:35:02Z</published>
+    <arxiv:comment>14 pages, to appear in Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <arxiv:journal_ref>Positivity 21 (2017), no. 3, 1161--1172</arxiv:journal_ref>
+    <author>
+      <name>Mohammad Sal Moslehian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6015v1</id>
+    <title>The spectral function of a first order elliptic system</title>
+    <updated>2012-08-30T06:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1208.6015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of squares of Euclidean norms of eigenfunctions evaluated at a given point of the manifold, with summation carried out over all eigenvalues between zero and a positive lambda) and the counting function (number of eigenvalues between zero and a positive lambda). We derive explicit two-term asymptotic formulae for all three. For the propagator "asymptotic" is understood as asymptotic in terms of smoothness, whereas for the spectral and counting functions "asymptotic" is understood as asymptotic with respect to lambda tending to plus infinity.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-30T06:55:33Z</published>
+    <arxiv:comment>This preprint is "part a" (proper subset) of preprint arXiv:1204.6567. Preprint arXiv:1204.6567 is being split into two parts on the recommendation of the referee of Journal of Spectral Theory. "Part b" will appear as a separate preprint under the title "Spectral theoretic characterization of the massless Dirac operator"</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2013, vol. 3, p. 317-360</arxiv:journal_ref>
+    <author>
+      <name>Olga Chervova</name>
+    </author>
+    <author>
+      <name>Robert J. Downes</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14334v4</id>
+    <title>Invariant subspaces of elliptic systems II: spectral theory</title>
+    <updated>2022-02-08T09:57:39Z</updated>
+    <link href="https://arxiv.org/abs/2103.14334v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14334v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider an elliptic self-adjoint pseudodifferential operator $A$ acting on $m$-columns of half-densities on a closed manifold $M$, whose principal symbol is assumed to have simple eigenvalues. We show that the spectrum of $A$ decomposes, up to an error with superpolynomial decay, into $m$ distinct series, each associated with one of the eigenvalues of the principal symbol of $A$. These spectral results are then applied to the study of propagation of singularities in hyperbolic systems. The key technical ingredient is the use of the carefully devised pseudodifferential projections introduced in the first part of this work, which decompose $L^2(M)$ into almost-orthogonal almost-invariant subspaces under the action of both $A$ and the hyperbolic evolution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T08:56:53Z</published>
+    <arxiv:comment>Minor edits, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, vol. 12 (2022), p. 301-338</arxiv:journal_ref>
+    <author>
+      <name>Matteo Capoferri</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0997v3</id>
+    <title>Spectral asymptotics for Robin problems with a discontinuous coefficient</title>
+    <updated>2011-01-27T13:41:51Z</updated>
+    <link href="https://arxiv.org/abs/1009.0997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral behavior of the difference between the resolvents of two realizations $\tilde A_1$ and $\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_1$ and $b_2$ are in $L_\infty$, the s-numbers $s_j$ of $(\tilde A_1 -λ)^{-1}-(\tilde A_2 -λ)^{-1}$ satisfy $s_j j^{3/(n-1)}\le C$ for all $j$; this improves a recent result for $A=-Δ$ by Behrndt et al., that $\sum_js_j ^p&lt;\infty$ for $p&gt;(n-1)/3$. A sharper estimate is obtained when $b_1$ and $b_2$ are in $C^ε$ for some $ε&gt;0$, with jumps at a smooth hypersurface, namely that $s_j j^{3/(n-1)}\to c$ for $j\to \infty$, with a constant $c$ defined from the principal symbol of $A$ and $b_2-b_1$.
+  As an auxiliary result we show that the usual principal spectral asymptotic estimate for pseudodifferential operators of negative order on a closed manifold extends to products of pseudodifferential operators interspersed with piecewise continuous functions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-06T09:28:34Z</published>
+    <arxiv:comment>20 pages, notation simplified. To appear in J. Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>J. Spectral Theory 1 (2011), 155-177</arxiv:journal_ref>
+    <author>
+      <name>Gerd Grubb</name>
+    </author>
+    <arxiv:doi>10.4171/JST/7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.01502v2</id>
+    <title>Bridging Positivity and S-matrix Bootstrap Bounds</title>
+    <updated>2023-01-17T13:22:09Z</updated>
+    <link href="https://arxiv.org/abs/2210.01502v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.01502v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main objective of this work is to isolate Effective Field Theory scattering amplitudes in the space of non-perturbative two-to-two amplitudes, using the S-matrix Bootstrap. We do so by introducing the notion of Effective Field Theory cutoff in the S-matrix Bootstrap approach. We introduce a number of novel numerical techniques and improvements both for the primal and the linearized dual approach. We perform a detailed comparison of the full unitarity bounds with those obtained using positivity and linearized unitarity. Moreover, we discuss the notion of Spin-Zero and UV dominance along the boundary of the allowed amplitude space by introducing suitable observables. Finally, we show that this construction also leads to novel bounds on operators of dimension less than or equal to six.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-04T10:13:45Z</published>
+    <arxiv:comment>minor changes</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Joan Elias Miro</name>
+    </author>
+    <author>
+      <name>Andrea Guerrieri</name>
+    </author>
+    <author>
+      <name>Mehmet Asim Gumus</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.3026v2</id>
+    <title>Analytic calculation of doubly heavy hadron spectral density in coordinate space</title>
+    <updated>2012-08-30T12:53:59Z</updated>
+    <link href="https://arxiv.org/abs/1205.3026v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.3026v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A systematic and easy-to-use method is developed to calculate directly the doubly heavy hadron spectral density in the coordinate space. The correlation function is expressed in terms of hypergeometric functions, and the spectral density is obtained through two independent approaches: the simple integral representation method and the epsilon-expansion method, respectively. It is found that the spectral density of doubly heavy hadrons can be analytically expressed through commonly known simple functions. This method can drastically simplify and improve the QCD spectral sum rule calculation of the doubly heavy hadrons. An instructive numerical method is also presented for fast evaluation of the spectral density.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-14T13:54:16Z</published>
+    <arxiv:comment>An instructive numerical method is added for fast evaluation of the spectral density</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Zhi-Wei Huang</name>
+    </author>
+    <author>
+      <name>Jueping Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.01311v2</id>
+    <title>Large $N$ analytical functional bootstrap I: 1D CFTs and total positivity</title>
+    <updated>2023-01-12T18:30:45Z</updated>
+    <link href="https://arxiv.org/abs/2301.01311v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.01311v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We initiate the analytical functional bootstrap study of conformal field theories with large $N$ limits. In this first paper we particularly focus on the 1D $O(N)$ vector bootstrap. We obtain a remarkably simple bootstrap equation from the $O(N)$ vector crossing equations in the large $N$ limit. The bootstrap bound is saturated by the generalized free field theory. We study the analytical extremal functionals of this crossing equation, for which the total positivity of the $SL(2,\mathbb{R})$ conformal block plays a critical role. We prove the $SL(2,\mathbb{R})$ conformal block is totally positive for large scaling dimension $Δ$ and show that the total positivity is violated below a critical value $Δ_{\textrm{TP}}^*\approx 0.32315626$. The conformal block forms a surprisingly sophisticated mathematical structure, which for instance can violate total positivity at the order $10^{-5654}$ for a normal value $Δ=0.1627$! We construct a series of analytical functionals $\{α_M\}$ which satisfy the bootstrap positive conditions up to a range $Δ\leqslant Λ_M$. The functionals $\{α_M\}$ have a trivial large $M$ limit. Surprisingly, due to total positivity, they can approach the large $M$ limit in a way consistent with the bootstrap positive conditions for arbitrarily high $Λ_M$, therefore proving the bootstrap bound analytically. Our result provides a concrete example to illustrate how the analytical properties of the conformal block lead to nontrivial bootstrap bounds. We expect this work paves the way for large $N$ analytical functional bootstrap in higher dimensions.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-03T19:01:56Z</published>
+    <arxiv:comment>v1: 48 pages, 9 figures; v2: refs added, typos corrected, added an estimation of the critical value for total positivity</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Zhijin Li</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP07(2023)167</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP07(2023)167" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0908.2437v2</id>
+    <title>Symmetries of the N=4 SYM S-matrix</title>
+    <updated>2009-09-28T14:19:07Z</updated>
+    <link href="https://arxiv.org/abs/0908.2437v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0908.2437v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Under the assumption of a CSW generalization to loop amplitudes in N=4 SYM, (1) We prove that, formally the S-matrix is superconformal invariant to any loop order, and (2) We argue that superconformal symmetry survives regularization. More precisely, IR safe quantities constructed from the S-matrix are superconformal covariant. The IR divergences are regularized in a new holomorphic anomaly friendly regularization. The CSW prescription is known to be valid for all tree level amplitudes and for one loop MHV amplitudes. In these cases, our formal results do not rely on any assumptions.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-08-18T15:09:33Z</published>
+    <arxiv:comment>32 pages, 11 figures. v2: Typos corrected, references added, vanishing contribution appearing in the passage from interacting S-matrix to the full S-matrix eliminated</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Amit Sever</name>
+    </author>
+    <author>
+      <name>Pedro Vieira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1006.3667v2</id>
+    <title>The Relativistic Avatars of Giant Magnons and their S-Matrix</title>
+    <updated>2010-07-08T13:42:13Z</updated>
+    <link href="https://arxiv.org/abs/1006.3667v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.3667v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The motion of strings on symmetric space target spaces underlies the integrability of the AdS/CFT correspondence. Although these theories, whose excitations are giant magnons, are non-relativistic they are classically equivalent, via the Polhmeyer reduction, to a relativistic integrable field theory known as a symmetric space sine-Gordon theory. These theories can be formulated as integrable deformations of gauged WZW models. In this work we consider the class of symmetric spaces CP^{n+1} and solve the corresponding generalized sine-Gordon theories at the quantum level by finding the exact spectrum of topological solitons, or kinks, and their S-matrix. The latter involves a trignometric solution of the Yang-Baxer equation which exhibits a quantum group symmetry with a tower of states that is bounded, unlike for magnons, as a result of the quantum group deformation parameter q being a root of unity. We test the S-matrix by taking the semi-classical limit and comparing with the time delays for the scattering of classical solitons. We argue that the internal CP^{n-1} moduli space of collective coordinates of the solitons in the classical theory can be interpreted as a q-deformed fuzzy space in the quantum theory. We analyse the n=1 case separately and provide a further test of the S-matrix conjecture in this case by calculating the central charge of the UV CFT using the thermodynamic Bethe Ansatz.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-18T11:36:48Z</published>
+    <arxiv:comment>33 pages, important correction to S-matrix to ensure crossing symmetry</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 1010:012,2010</arxiv:journal_ref>
+    <author>
+      <name>Timothy J. Hollowood</name>
+    </author>
+    <author>
+      <name>J. Luis Miramontes</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP10(2010)012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP10(2010)012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.04298v1</id>
+    <title>Contour Integrals and the Modular S-Matrix</title>
+    <updated>2019-12-09T19:00:03Z</updated>
+    <link href="https://arxiv.org/abs/1912.04298v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.04298v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate a conjecture to describe the characters of large families of RCFT's in terms of contour integrals of Feigin-Fuchs type. We provide a simple algorithm to determine the modular S-matrix for arbitrary numbers of characters as a sum over paths. Thereafter we focus on the case of 2, 3 and 4 characters, where agreement between the critical exponents of the integrals and the characters implies that the conjecture is true. In these cases, we compute the modular S-matrix explicitly, verify that it agrees with expectations for known theories, and use it to compute degeneracies and multiplicities of primaries. We also compute S in an 8-character example to provide additional evidence for the original conjecture. On the way we note that the Verlinde formula provides interesting constraints on the critical exponents of RCFT in this context.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-09T19:00:03Z</published>
+    <arxiv:comment>33 pages, 6 tables, ancillary Mathematica notebook attached that computes the modular S matrix</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Sunil Mukhi</name>
+    </author>
+    <author>
+      <name>Rahul Poddar</name>
+    </author>
+    <author>
+      <name>Palash Singh</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP07(2020)045</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP07(2020)045" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.01440v2</id>
+    <title>Second Order Correctness of Perturbation Bootstrap M-Estimator of Multiple Linear Regression Parameter</title>
+    <updated>2017-12-17T23:49:14Z</updated>
+    <link href="https://arxiv.org/abs/1605.01440v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.01440v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider the multiple linear regression model $y_{i} = \boldsymbol{x}'_{i} \boldsymbolβ + ε_{i}$, where $ε_i$'s are independent and identically distributed random variables, $\mathbf{x}_i$'s are known design vectors and $\boldsymbolβ$ is the $p \times 1$ vector of parameters. An effective way of approximating the distribution of the M-estimator $\boldsymbol{\barβ}_n$, after proper centering and scaling, is the Perturbation Bootstrap Method. In this current work, second order results of this non-naive bootstrap method have been investigated. Second order correctness is important for reducing the approximation error uniformly to $o(n^{-1/2})$ to get better inferences. We show that the classical studentized version of the bootstrapped estimator fails to be second order correct. We introduce an innovative modification in the studentized version of the bootstrapped statistic and show that the modified bootstrapped pivot is second order correct (S.O.C.) for approximating the distribution of the studentized M-estimator. Additionally, we show that the Perturbation Bootstrap continues to be S.O.C. when the errors $ε_i$'s are independent, but may not be identically distributed. These findings establish perturbation Bootstrap approximation as a significant improvement over asymptotic normality in the regression M-estimation.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-04T21:22:50Z</published>
+    <arxiv:comment>key words: M-Estimation, S.O.C., Perturbation Bootstrap, Edgeworth Expansion, Studentization, Residual Bootstrap, Generalized Bootstrap, Wild Bootstrap</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Debraj Das</name>
+    </author>
+    <author>
+      <name>Soumendra Nath Lahiri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9911300v3</id>
+    <title>Dirac operator spectral density and low energy sum rules</title>
+    <updated>2000-07-12T08:39:01Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9911300v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9911300v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The spectral density of euclidean Dirac operator is investigated in partially quenched QCD with arbitrary quark masses. A representation of scalar and pseudoscalar correlators in terms of the spectral density is discussed. The spectral density, obtained from the partially quenched chiral perturbation theory is shown to be compatible with low energy sum rules, obtained earlier.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-11-10T11:57:26Z</published>
+    <arxiv:comment>8 pages, latex, published version; NLO QCD correction to the Dirac operator spectral density is added to the text</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP06(2000)025</arxiv:journal_ref>
+    <author>
+      <name>K. Zyablyuk</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2000/06/025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2000/06/025" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.11484v3</id>
+    <title>S-matrix bootstrap in 3+1 dimensions: regularization and dual convex problem</title>
+    <updated>2021-08-05T18:20:17Z</updated>
+    <link href="https://arxiv.org/abs/2103.11484v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.11484v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The S-matrix bootstrap maps out the space of S-matrices allowed by analyticity, crossing, unitarity, and other constraints. For the $2\rightarrow 2$ scattering matrix $S_{2\rightarrow 2}$ such space is an infinite dimensional convex space whose boundary can be determined by maximizing linear functionals. On the boundary interesting theories can be found, many times at vertices of the space. Here we consider $3+1$ dimensional theories and focus on the equivalent dual convex minimization problem that provides strict upper bounds for the regularized primal problem and has interesting practical and physical advantages over the primal problem. Its variables are dual partial waves $k_\ell(s)$ that are free variables, namely they do not have to obey any crossing, unitarity or other constraints. Nevertheless they are directly related to the partial waves $f_\ell(s)$, for which all crossing, unitarity and symmetry properties result from the minimization. Numerically, it requires only a few dual partial waves, much as one wants to possibly match experimental results. We consider the case of scalar fields which is related to pion physics.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-21T20:53:01Z</published>
+    <arxiv:comment>54 pages, 6 figures; v3: clarifications and comments added (footnote 1, end of section 2.3, after eqs.(2.26) and (3.33)), figures 5 and 6 comparing S-wave from primal/dual results added; accepted by JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Yifei He</name>
+    </author>
+    <author>
+      <name>Martin Kruczenski</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP08(2021)125</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP08(2021)125" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.11530v2</id>
+    <title>Conformal bootstrap in Liouville Theory</title>
+    <updated>2020-11-11T10:33:58Z</updated>
+    <link href="https://arxiv.org/abs/2005.11530v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.11530v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The conformal bootstrap hypothesis is a powerful idea in theoretical physics which has led to spectacular predictions in the context of critical phenomena. It postulates an explicit expression for the correlation functions of a conformal field theory in terms of its 3-point correlation functions. In this paper we give the first mathematical proof of the conformal bootstrap hypothesis in the context of Liouville theory, a 2-dimensional conformal field theory studied since the eighties in theoretical physics and constructed recently by F. David and the three last authors using probability theory. The proof is based on a probabilistic construction of the Virasoro algebra highest weight modules through spectral analysis of an associated self adjoint operator akin to harmonic analysis on non compact Lie groups but in an infinite dimensional setup.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-23T13:00:26Z</published>
+    <arxiv:comment>91 pages. New version contains a proof of bootstrap for the whole possible range of parameters $γ\in (0,2)$</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Colin Guillarmou</name>
+    </author>
+    <author>
+      <name>Antti Kupiainen</name>
+    </author>
+    <author>
+      <name>Rémi Rhodes</name>
+    </author>
+    <author>
+      <name>Vincent Vargas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.07371v1</id>
+    <title>EstimatedWold Representation and Spectral Density-Driven Bootstrap for Time Series</title>
+    <updated>2017-12-20T09:17:40Z</updated>
+    <link href="https://arxiv.org/abs/1712.07371v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.07371v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The second-order dependence structure of purely nondeterministic stationary process is described by the coefficients of the famous Wold representation. These coefficients can be obtained by factorizing the spectral density of the process. This relation together with some spectral density estimator is used in order to obtain consistent estimators of these coefficients. A spectral density-driven bootstrap for time series is then developed which uses the entire sequence of estimated MA coefficients together with appropriately generated pseudo innovations in order to obtain a bootstrap pseudo time series. It is shown that if the underlying process is linear and if the pseudo innovations are generated by means of an i.i.d. wild bootstrap which mimics, to the necessary extent, the moment structure of the true innovations, this bootstrap proposal asymptotically works for a wide range of statistics. The relations of the proposed bootstrap procedure to some other bootstrap procedures, including the autoregressive-sieve bootstrap, are discussed. It is shown that the latter is a special case of the spectral density-driven bootstrap, if a parametric autoregressive spectral density estimator is used. Simulations investigate the performance of the new bootstrap procedure in finite sample situations. Furthermore, a real-life data example is presented.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-20T09:17:40Z</published>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Jonas Krampe</name>
+    </author>
+    <author>
+      <name>Jens-Peter Kreiss</name>
+    </author>
+    <author>
+      <name>Efstathios Paparoditis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.02770v1</id>
+    <title>Dual S-matrix Bootstrap I: 2D Theory</title>
+    <updated>2020-08-06T17:14:44Z</updated>
+    <link href="https://arxiv.org/abs/2008.02770v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.02770v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using duality in optimization theory we formulate a dual approach to the S-matrix bootstrap that provides rigorous bounds to 2D QFT observables as a consequence of unitarity, crossing symmetry and analyticity of the scattering matrix. We then explain how to optimize such bounds numerically, and prove that they provide the same bounds obtained from the usual primal formulation of the S-matrix Bootstrap, at least once convergence is attained from both perspectives. These techniques are then applied to the study of a gapped system with two stable particles of different masses, which serves as a toy model for bootstrapping popular physical systems.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-06T17:14:44Z</published>
+    <arxiv:comment>39 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Andrea L Guerrieri</name>
+    </author>
+    <author>
+      <name>Alexandre Homrich</name>
+    </author>
+    <author>
+      <name>Pedro Vieira</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP11(2020)084</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP11(2020)084" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.08033v2</id>
+    <title>Bootstrap Method in Harmonic Oscillator</title>
+    <updated>2022-06-03T18:08:31Z</updated>
+    <link href="https://arxiv.org/abs/2109.08033v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.08033v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, an application of the numerical bootstrap method to quantum mechanics was proposed, and it successfully reproduces the eigenstates of various systems. However, it is unclear why this method works. In order to understand this question, we study the bootstrap method in harmonic oscillators. We find that the problem reduces to the Dirac's ladder operator problem and is exactly solvable analytically. Our result suggests that the bootstrap method may be regarded as a numerical version of the Dirac's approach and it may explain why it works in various systems.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-16T14:54:32Z</published>
+    <arxiv:comment>12 pages, no figures, v2 bootstrap analysis in an anharmonic oscillator by using ladder operators added and an appendix on constructing bootstrap matrix in a general polynomial potential added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Yu Aikawa</name>
+    </author>
+    <author>
+      <name>Takeshi Morita</name>
+    </author>
+    <author>
+      <name>Kota Yoshimura</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2022.137305</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2022.137305" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.14088v2</id>
+    <title>On the failure of the bootstrap for Chatterjee's rank correlation</title>
+    <updated>2023-04-05T16:34:44Z</updated>
+    <link href="https://arxiv.org/abs/2303.14088v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.14088v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While researchers commonly use the bootstrap for statistical inference, many of us have realized that the standard bootstrap, in general, does not work for Chatterjee's rank correlation. In this paper, we provide proof of this issue under an additional independence assumption, and complement our theory with simulation evidence for general settings. Chatterjee's rank correlation thus falls into a category of statistics that are asymptotically normal but bootstrap inconsistent. Valid inferential methods in this case are Chatterjee's original proposal (for testing independence) and Lin and Han (2022)'s analytic asymptotic variance estimator (for more general purposes).</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.EM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-24T15:52:41Z</published>
+    <arxiv:comment>This revised version enhances the literature review of bootstrap inconsistency, adding, in particular, Beran's two papers that explore the connection between bootstrap inconsistency and superefficiency</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Zhexiao Lin</name>
+    </author>
+    <author>
+      <name>Fang Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.02802v1</id>
+    <title>S-matrix Bootstrap for Effective Field Theories: Massless Pions</title>
+    <updated>2020-11-05T13:18:01Z</updated>
+    <link href="https://arxiv.org/abs/2011.02802v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.02802v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use the numerical S-matrix bootstrap method to obtain bounds on the two leading Wilson coefficients of the chiral lagrangian controlling the low-energy dynamics of massless pions thus providing a proof of concept that the numerical S-matrix bootstrap can be used to derive non-perturbative bounds on EFTs in more than two spacetime dimensions.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-05T13:18:01Z</published>
+    <arxiv:comment>12 pages + appendices</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Andrea Guerrieri</name>
+    </author>
+    <author>
+      <name>Joao Penedones</name>
+    </author>
+    <author>
+      <name>Pedro Vieira</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP06(2021)088</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP06(2021)088" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.06453v1</id>
+    <title>SUSY S-matrix Bootstrap and Friends</title>
+    <updated>2019-09-13T21:16:02Z</updated>
+    <link href="https://arxiv.org/abs/1909.06453v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.06453v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the 2D S-matrix bootstrap in the presence of supersymmetry, $\mathbb{Z}_2$ and $\mathbb{Z}_4$ symmetry. At the boundary of the allowed S-matrix space we encounter well known integrable models such as the supersymmetric sine-Gordon and restricted sine-Gordon models, novel elliptic deformations thereof, as well as a two parameter family of $\mathbb{Z}_4$ elliptic S-matrices previously proposed by Zamolodchikov. We highlight an intricate web of relations between these various S-matrices.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-13T21:16:02Z</published>
+    <arxiv:comment>11 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 101, 045022 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Carlos Bercini</name>
+    </author>
+    <author>
+      <name>Matheus Fabri</name>
+    </author>
+    <author>
+      <name>Alexandre Homrich</name>
+    </author>
+    <author>
+      <name>Pedro Vieira</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.101.045022</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.101.045022" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.20740v1</id>
+    <title>Massless S-matrix Bootstraps and RG Flows</title>
+    <updated>2025-09-25T04:38:59Z</updated>
+    <link href="https://arxiv.org/abs/2509.20740v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.20740v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We find complete solutions of S-matrix bootstrap equations for the scatterings of massless particles in (1+1) dimensions with A_n symmetries. We show that only three types (minimal, diagonal, and saturated cases) of these S-matrices can generate RG flows that lead to UV-complete theories, and other RG flows predicted in [11] are inconsistent with the bootstrap equations. Using these S-matrices, we derived the TBA equations and corresponding Y-systems that generate the RG flows between the IR and UV CFTs.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-25T04:38:59Z</published>
+    <arxiv:comment>15 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Changrim Ahn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.07903v1</id>
+    <title>Bootstrap percolation is local</title>
+    <updated>2024-04-11T16:41:56Z</updated>
+    <link href="https://arxiv.org/abs/2404.07903v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.07903v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Metastability thresholds lie at the heart of bootstrap percolation theory. Yet proving precise lower bounds is notoriously hard. We show that for two of the most classical models, two-neighbour and Froböse, upper bounds are sharp to essentially arbitrary precision, by linking them to their local counterparts.
+  In Froböse bootstrap percolation, iteratively, any vertex of the square lattice that is the only healthy vertex of a $1\times1$ square becomes infected and infections never heal. We prove that if vertices are initially infected independently with probability $p\to0$, then with high probability the origin becomes infected after \[\exp\left(\frac{π^2}{6p}-\frac{π\sqrt{2+\sqrt2}}{\sqrt p}+\frac{O(\log^2(1/p))}{\sqrt[3]p}\right)\] time steps. We achieve this by proposing a new paradigmatic view on bootstrap percolation based on locality. Namely, we show that studying the Froböse model is equivalent in an extremely strong sense to studying its local version. As a result, we completely bypass Holroyd's classical but technical hierarchy method, yielding the first term above and systematically used throughout bootstrap percolation for the last two decades. Instead, the proof features novel links to large deviation theory, eigenvalue perturbations and others.
+  We also use the locality viewpoint to resolve the so-called bootstrap percolation paradox. Indeed, we propose and implement an exact (deterministic) algorithm which exponentially outperforms previous Monte Carlo approaches. This allows us to clearly showcase and quantify the slow convergence we prove rigorously.
+  The same approach applies, with more extensive computations, to the two-neighbour model, in which vertices are infected when they have at least two infected neighbours and do not recover. We expect it to be applicable to a wider range of models and correspondingly conclude with a number of open problems.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-11T16:41:56Z</published>
+    <arxiv:comment>61 pages, 8 figures, 3 tables, supplementary material included in the source and available at https://github.com/augustoteixeira/bootstrap</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Ivailo Hartarsky</name>
+    </author>
+    <author>
+      <name>Augusto Teixeira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.7801v1</id>
+    <title>How to Bootstrap Aalen-Johansen Processes for Competing Risks? Handicaps, Solutions and Limitations</title>
+    <updated>2014-01-30T11:24:51Z</updated>
+    <link href="https://arxiv.org/abs/1401.7801v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.7801v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Statistical inference in competing risks models is often based on the famous Aalen-Johansen estimator. Since the corresponding limit process lacks independent increments, it is typically applied together with Lin's (1997) resampling technique involving standard normal multipliers. Recently, it has been seen that this approach can be interpreted as a wild bootstrap technique and that other multipliers, as e.g. centered Poissons, may lead to better finite sample performances, see Beyersmann et al. (2013). Since the latter is closely related to Efron's classical bootstrap, the question arises whether this or more general weighted bootstrap versions of Aalen-Johansen processes lead to valid results. Here we analyze their asymptotic behaviour and it turns out that such weighted bootstrap versions in general possess the wrong covariance structure in the limit. However, we explain that the weighted bootstrap can nevertheless be applied for specific null hypotheses of interest and also discuss its limitations for statistical inference. To this end, we introduce different consistent weighted bootstrap tests for the null hypothesis of stochastically ordered cumulative incidence functions and compare their finite sample performance in a simulation study.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-30T11:24:51Z</published>
+    <arxiv:comment>Keywords: Aalen-Johansen Estimator; Bootstrap; Competing risk; Counting processes; Cumulative incidence function; Left-truncation; Right-censoring; Weighted Bootstrap</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Dennis Dobler</name>
+    </author>
+    <author>
+      <name>Markus Pauly</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.02314v2</id>
+    <title>A Characterization for Spectral and Trace Positivity of Matrix Words</title>
+    <updated>2026-08-06T14:27:38Z</updated>
+    <link href="https://arxiv.org/abs/2605.02314v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.02314v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we provide a complete structural characterization of which words in noncommuting matrix variables and their formal transposes universally evaluate to matrices with nonnegative eigenvalues or nonnegative trace, regardless of the dimension or entries of the substituted matrices. Crucially, we establish that in this pure monomial setting, both spectral and trace positivity exhibit an exact rigidity phenomenon analogous to Hermitian-square representations. This contrasts sharply with the broader polynomial setting, where tracial rigidity is known to fail even for approximation. Furthermore, we establish that this structural rigidity extends seamlessly to the complex and infinite-dimensional domains. We show that the exact same purely combinatorial conditions completely characterize matrix words evaluated over complex matrices, bounded operators on arbitrary Hilbert spaces, and positive tracial states on $C^*$-algebras and von Neumann algebras.
+  As one application of our main theorems, we fully resolve open questions initially posed by Lieb and Pierce, and later conjectured by Hillar and Johnson, concerning the underlying algebraic structure of the summands in Bessis-Moussa-Villani (BMV) trace polynomials from quantum statistical mechanics. We achieve these results by establishing a surprising connection to graph theory, leading to a matrix analogue of the positive graph conjecture posed by Camarena, Csóka, Hubai, Lippner, and Lovász.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-04T08:13:43Z</published>
+    <arxiv:comment>This version is a considerable extension of the previous one, as it now also considers universal trace positivity and fully answers open questions originally posed by Lieb and Pierce. 42 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Frederik Garbe</name>
+    </author>
+    <author>
+      <name>Fan Wei</name>
+    </author>
+  </entry>
+</feed>

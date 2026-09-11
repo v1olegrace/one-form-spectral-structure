@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Dm11x2oxNZSOjD941uoujjun/Hc</id>
+  <title>arXiv Query: search_query=all:Watson OR all:lemma OR all:Laplace OR all:method OR all:endpoint OR all:asymptotic OR all:expansion&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Watson+OR+(all:lemma+OR+(all:Laplace+OR+(all:method+OR+(all:endpoint+OR+(all:asymptotic+OR+all:expansion)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>910398</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/9909005v2</id>
+    <title>A new Lie algebra expansion method: Galilei expansions to Poincare and Newton-Hooke</title>
+    <updated>2000-10-09T10:26:04Z</updated>
+    <link href="https://arxiv.org/abs/math-ph/9909005v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math-ph/9909005v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We modify a Lie algebra expansion method recently introduced for the (2+1)-dimensional kinematical algebras so as to work for higher dimensions. This new improved and geometrical procedure is applied to expanding the (3+1)-dimensional Galilei algebra and leads to its physically meaningful `expanded' neighbours. One expansion gives rise to the Poincare algebra, introducing a curvature $-1/c^2$ in the flat Galilean space of worldlines, while keeping a flat spacetime which changes from absolute to relative time in the process. This formally reverses, at a Lie algebra level, the well known non-relativistic contraction $c\to \infty$ that goes from the Poincare group to the Galilei one; this expansion is done in an explicit constructive way. The other possible expansion leads to the Newton-Hooke algebras, endowing with a non-zero spacetime curvature $\pm 1/τ^2$ the spacetime, while keeping a flat space of worldlines.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-09-02T18:09:04Z</published>
+    <arxiv:comment>14 pages, LaTeX. The expansion method is clarified</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Francisco J. Herranz</name>
+    </author>
+    <author>
+      <name>Mariano Santander</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.12883v2</id>
+    <title>Asymptotic analysis at any order of Helmholtz's problem in a corner with a thin layer: an algebraic approach</title>
+    <updated>2025-09-08T15:31:06Z</updated>
+    <link href="https://arxiv.org/abs/2405.12883v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.12883v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the Helmholtz equation in an angular sector partially covered by a homogeneous layer of small thickness, denoted $\varepsilon$. We propose in this work an asymptotic expansion of the solution with respect to $\varepsilon$ at any order. This is done using matched asymptotic expansion, which consists here in introducing different asymptotic expansions of the solution in three subdomains: the vicinity of the corner, the layer and the rest of the domain. These expansions are linked through matching conditions. The presence of the corner makes these matching conditions delicate to derive because the fields have singular behaviors. Our approach is to reformulate these matching conditions purely algebraically by writing all asymptotic expansions as formal series. By using algebraic calculus we reduce the matching conditions to scalar relations linking the singular behaviors of the fields. These relations have a convolutive structure and involve some coefficients that can be computed analytically. Our asymptotic expansion is justified rigorously with error estimates.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-21T15:54:56Z</published>
+    <arxiv:comment>50 pages, 10 figures, accepted in Asymptotic Analysis, version 2 simplifies section 2.5</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Asymptotic Analysis, 2026 (published online)</arxiv:journal_ref>
+    <author>
+      <name>Cédric Baudet</name>
+    </author>
+    <arxiv:doi>10.1177/09217134251389983</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1177/09217134251389983" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.12945v2</id>
+    <title>Low-rank variational Bayes correction to the Laplace method</title>
+    <updated>2023-11-14T08:29:06Z</updated>
+    <link href="https://arxiv.org/abs/2111.12945v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.12945v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Approximate inference methods like the Laplace method, Laplace approximations and variational methods, amongst others, are popular methods when exact inference is not feasible due to the complexity of the model or the abundance of data. In this paper we propose a hybrid approximate method called Low-Rank Variational Bayes correction (VBC), that uses the Laplace method and subsequently a Variational Bayes correction in a lower dimension, to the joint posterior mean. The cost is essentially that of the Laplace method which ensures scalability of the method, in both model complexity and data size. Models with fixed and unknown hyperparameters are considered, for simulated and real examples, for small and large datasets.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-25T07:01:06Z</published>
+    <arxiv:primary_category term="stat.ME"/>
+    <arxiv:journal_ref>Van Niekerk, J. and Rue, H., 2024. Low-rank variational Bayes correction to the Laplace method. Journal of Machine Learning Research, 25(62), pp.1-25</arxiv:journal_ref>
+    <author>
+      <name>Janet van Niekerk</name>
+    </author>
+    <author>
+      <name>Haavard Rue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.12993v2</id>
+    <title>Endpoint Relations for Baryons</title>
+    <updated>2021-09-16T11:05:15Z</updated>
+    <link href="https://arxiv.org/abs/2107.12993v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.12993v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Following our earlier work we establish kinematic endpoint relations for baryon decays using the Wigner-Eckart theorem and apply them to $\frac{1}{2} \to \frac{1}{2}$ and $\frac{1}{2} \to \frac{3}{2}$ baryon transitions. We provide angular distributions at the kinematic endpoint which hold for the generic $d=6$ model-independent effective Hamiltonian. Moreover, we explicitly verify the endpoint relations using an explicit form factor parametrisation and clarify constraints on helicity based form factors to evidence endpoint relations. Our results provide guidance for phenomenological parameterisations, consistency checks for theory computations and experiment. Results are applicable to ongoing and future new physics searches at LHCb, BES III and Belle II with rare semileptonic-, dineutrino-and charged-modes, which include $Λ_b \to Λ^{(*)} \ell \ell, Λ_b \to Λ^{(*)} νν$, $Ω_b \to Ω\ell \ell$, $Λ_c \to p \ell \ell$, $Σ\to p \ell \ell$ and $Λ_b \to Λ_c^{(*)} \ell ν$</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-27T17:57:15Z</published>
+    <arxiv:comment>21pp + refs, derived tensor form factor constraints and discussion of vicinity of endpoint</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Gudrun Hiller</name>
+    </author>
+    <author>
+      <name>Roman Zwicky</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP11(2021)073</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP11(2021)073" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.06865v2</id>
+    <title>Multi-order asymptotic expansion of blow-up solutions for autonomous ODEs. I -- Method and Justification</title>
+    <updated>2022-11-30T13:53:49Z</updated>
+    <link href="https://arxiv.org/abs/2211.06865v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.06865v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we provide a systematic methodology for calculating multi-order asymptotic expansion of blow-up solutions near blow-up for autonomous ordinary differential equations (ODEs). Under the specific form of the principal term of blow-up solutions for a class of vector fields, we extract algebraic objects determining all possible orders in the asymptotic expansions. Examples for calculating concrete multi-order asymptotic expansions of blow-up solutions are finally collected.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-13T10:02:12Z</published>
+    <arxiv:comment>78 pages. This is the first part in the present subject. Part II entitled "Multi-order asymptotic expansion of blow-up solutions for autonomous ODEs. II - Dynamical Correspondence" is also uploaded (arXiv:2211.06868). In v2, unclear expressions are corrected</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Taisei Asai</name>
+    </author>
+    <author>
+      <name>Hisatoshi Kodani</name>
+    </author>
+    <author>
+      <name>Kaname Matsue</name>
+    </author>
+    <author>
+      <name>Hiroyuki Ochiai</name>
+    </author>
+    <author>
+      <name>Takiko Sasaki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.08392v1</id>
+    <title>Laplace Green's Functions for Infinite Ground Planes with Local Roughness</title>
+    <updated>2020-11-17T03:11:16Z</updated>
+    <link href="https://arxiv.org/abs/2011.08392v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.08392v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Green's functions for the Laplace equation respectively satisfying the Dirichlet and Neumann boundary conditions on the upper side of an infinite plane with a circular hole are introduced and constructed. These functions enables solution of the boundary value problems in domains where the hole is closed by any surface. This approach enables accounting for arbitrary positive and negative ground elevations inside the domain of interest, which, generally, is not possible to achieve using the regular method of images. Such problems appear in electrostatics, however, the methods developed apply to other domains where the Laplace or Poisson equations govern. Integral and series representations of the Green's functions are provided. An efficient computational technique based on the boundary element method with fast multipole acceleration is developed. A numerical study of some benchmark problems is presented.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-17T03:11:16Z</published>
+    <arxiv:comment>Laplace equation, Poisson Equation, Green's function, fast multipole method, integral equations</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Nail Gumerov</name>
+    </author>
+    <author>
+      <name>Ramani Duraiswami</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.09132v2</id>
+    <title>The Endpoint Perturbed Brascamp-Lieb Inequality with Examples</title>
+    <updated>2015-11-07T04:35:41Z</updated>
+    <link href="https://arxiv.org/abs/1510.09132v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.09132v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the folklore endpoint multilinear $k_j$-plane conjecture originated from the paper \cite{bennett2006multilinear} of Bennett, Carbery and Tao. Along the way we prove a more general result, namely the endpoint multilinear $k_j$-variety theorem. Finally, we generalize our results to the endpoint perturbed Beascamp-Lieb inequality using techniques in this paper.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-30T15:42:35Z</published>
+    <arxiv:comment>Consequent progress on the endpoint multilinear restriction conjecture added as comments. Minor typos corrected</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Analysis &amp; PDE 11 (2018) 555-581</arxiv:journal_ref>
+    <author>
+      <name>Ruixiang Zhang</name>
+    </author>
+    <arxiv:doi>10.2140/apde.2018.11.555</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.2140/apde.2018.11.555" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0810.1700v2</id>
+    <title>Higher Asymptotics of Laplace's Approximation</title>
+    <updated>2010-06-05T12:24:17Z</updated>
+    <link href="https://arxiv.org/abs/0810.1700v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0810.1700v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present expressions for the coefficients which arise in asymptotic expansions of multiple integrals of Laplace type (the first term of which is known as Laplace's approximation) in terms of asymptotic series of the functions in the integrand. Our most general result assumes no smoothness of the functions of the integrand, but the expressions we obtain contain integrals which may be difficult to evaluate in practice. We then make additional assumptions which are sufficient to simplify these integrals, in some cases obtaining explicit formulae for the coefficients in the asymptotic expansions.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-10-09T17:35:27Z</published>
+    <arxiv:comment>8 pages; v2 significant expansion, several corollaries of main theorem added, minor corrections</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Asymp. Anal. 70 (2010), no. 3-4, pages 231 -- 248</arxiv:journal_ref>
+    <author>
+      <name>William D. Kirwin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.05300v2</id>
+    <title>A double inequality for completely monotonic degree of a remainder for an asymptotic expansion of the trigamma function</title>
+    <updated>2021-03-30T05:37:43Z</updated>
+    <link href="https://arxiv.org/abs/2003.05300v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.05300v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the paper, the author presents a double inequality for completely monotonic degree of a remainder for an asymptotic expansion of the trigamma function. This result partially confirms one in a series of conjectures on completely monotonic degrees of remainders of asymptotic expansions for the logarithm of the gamma function and for polygamma functions.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-10T03:05:52Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="math.GM"/>
+    <arxiv:journal_ref>Bounds for completely monotonic degree of a remainder for an asymptotic expansion of the trigamma function, Arab Journal of Basic and Applied Sciences (2021), vol. 28, no. 1, 314--318</arxiv:journal_ref>
+    <author>
+      <name>Feng Qi</name>
+    </author>
+    <arxiv:doi>10.1080/25765299.2021.1962060</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/25765299.2021.1962060" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.7436v1</id>
+    <title>Asymptotic expansion for a solution of an elliptic boundary-value problem in a thin cascade domain</title>
+    <updated>2013-04-28T07:16:08Z</updated>
+    <link href="https://arxiv.org/abs/1304.7436v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.7436v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Asymptotic expansion is constructed and justified for the solution to a nonuniform Neumann boundary-value problem for the Poisson equation with the right-hand side that depends both on longitudinal and transversal variables in a thin cascade domain. Asymptotic energetic and uniform pointwise estimates for the difference between the solution of the initial problem and the solution of the corresponding limiting problem are proved.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-28T07:16:08Z</published>
+    <arxiv:comment>23 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Asymptotic expansion for a solution of an elliptic boundary-value problem in a thin cascade domain. Nonlinear Oscillations, (2013), Vol. 2</arxiv:journal_ref>
+    <author>
+      <name>Arsen V. Klevtsovskiy</name>
+    </author>
+    <author>
+      <name>Taras A. Mel'nyk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.06905v1</id>
+    <title>On an extension of Watson's lemma due to Ursell</title>
+    <updated>2015-05-26T11:27:02Z</updated>
+    <link href="https://arxiv.org/abs/1505.06905v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.06905v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 1991, Ursell gave a strong form of Watson's lemma for the Laplace integral \[\int_0^\infty e^{-xt}f(t)\,dt\qquad (x\rightarrow+\infty) \] in which the amplitude function $f(t)$ is regular at the origin and possesses a Maclaurin expansion valid in $0\leq t\leq R$. He showed that if the asymptotic series for the integral as $x\rightarrow+\infty$ is truncated after $rx$ terms, where $0&lt;r&lt;R$, then the resulting remainder is exponentially small of order $O(e^{-rx})$. In this note we extend this result to include situations when $f(t)$ has a branch point at $t=0$ and when $x$ is a complex variable satisfying $|\arg\,x|&lt;π/2$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-26T11:27:02Z</published>
+    <arxiv:comment>10 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>R. B. Paris</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0106087v3</id>
+    <title>Comparison between two methods of post-Newtonian expansion for the motion in a weak Schwarzschild field</title>
+    <updated>2001-12-12T15:38:48Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0106087v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0106087v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The asymptotic method of post-Newtonian (PN) expansion for weak gravitational fields, recently developed, is compared with the standard method of PN expansion, in the particular case of a massive test particle moving along a geodesic line of a weak Schwarzschild field. First, the expression of the active mass in Schwarzschild's solution is given for a barotropic perfect fluid, both for general relativity (GR) and for an alternative, scalar theory. The principle of the asymptotic method is then recalled and the PN expansion of the active mass is derived. The PN correction to the active mass is made of the Newtonian elastic energy, augmented, for the scalar theory, by a term due to the self-reinforcement of the gravitational field. Third, two equations, both correct to first order, are derived for the geodesic motion of a mass particle: a "standard" one and an "asymptotic" one. Finally, the difference between the solutions of these two equations is numerically investigated in the case of Mercury. The asymptotic solution deviates from the standard one like the square of the time elapsed since the initial time. This is due to a practical shortcoming of the asymptotic method, which is shown to disappear if one reinitializes the asymptotic problem often enough. Thus, both methods are equivalent in the case investigated. In a general case, the asymptotic method seems more natural.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-06-27T15:12:38Z</published>
+    <arxiv:comment>PostScript, 12 pages, 3 figures in 2 additional PS files. Accepted for publication in Nuovo Cimento B. V3: a few typos in V2, plus one sentence (p.10), corrected. V2: the cure outlined in V1, to remedy a numerical shortcoming of the asymptotic method, has been implemented. Result: in the investigated case of a test particle in a weak Schwarzschild field, the standard and asymptotic methods of PN expansion are definitely equivalent, also numerically</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Nuovo Cim.B116:1277-1290,2001</arxiv:journal_ref>
+    <author>
+      <name>Mayeul Arminjon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11088v3</id>
+    <title>Pulsations change the structures of massive stars before explosion: interpreting SN 2023ixf and SN 2024ggi</title>
+    <updated>2026-01-28T08:55:35Z</updated>
+    <link href="https://arxiv.org/abs/2508.11088v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11088v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Massive red supergiants (RSGs) are known to become hydrodynamically unstable before they explode. Still, the vast majority of supernova (SN) models assume RSG progenitors in hydrostatic equilibrium. Here, we follow the hydrodynamic evolution of RSGs with different masses and the development of radial envelope pulsations. Pulsations significantly alter the observable pre- and post-SN properties, and their importance increases substantially as a function of initial mass. We demonstrate that inferring core masses, let alone initial masses, from a single pre-SN luminosity and effective temperature of high-mass RSGs is inadvisable, as these can vary by an order of magnitude during the pulsation. We find that pulsations can naturally lead to "early-excess" emission in SN light curves and to variations in early photospheric velocities, which can help break degeneracies in type-II SNe. We compare to SN 2023ixf and SN 2024ggi, for which pulsating RSG progenitors were reported. We demonstrate that the pre- and post-SN characteristics of SN 2023ixf agree very well with our exploding pulsating RSG model and exhibit meaningful differences from hydrostatic models. The data coverage is insufficient to break all degeneracies. We find insufficient evidence for the claimed pulsation period of the SN 2024ggi progenitor, as it matches Spitzer's orbital period. This study underscores the importance of hydrodynamical pre-SN stellar models, in particular for massive stars from $\gtrsim 15\,\rm{M}_{\odot}$. It implies an important shift in our understanding of the last stages of massive star evolution, the interpretation of pre-SN properties, the connection between SNe and their progenitors, and the missing RSG problem.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-14T21:57:10Z</published>
+    <arxiv:comment>Accept for publication in ApJ Letters. This work is the follow-up of a companion paper (Bronner, Laplace et al. 2025, arXiv:2508.11077)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Eva Laplace</name>
+    </author>
+    <author>
+      <name>Vincent A. Bronner</name>
+    </author>
+    <author>
+      <name>Fabian R. N. Schneider</name>
+    </author>
+    <author>
+      <name>Philipp Podsiadlowski</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/ae3d2e</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/ae3d2e" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0702857v2</id>
+    <title>A spectral analogue of the Meinardus theorem on asymptotics of the number of partitions</title>
+    <updated>2009-09-28T09:13:43Z</updated>
+    <link href="https://arxiv.org/abs/math/0702857v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0702857v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  An asymptotic formula for the number of states of Boson gas whose Hamiltonian is given by a positive elliptic pseudo-differential operator of order one on a compact manifold is given under a integrality assumption on the spectrum of the Hamiltonian. This is regarded as an analogue of the Meinardus theorem on asymptotics of the number of partitions of a positive integer.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-02-28T07:00:31Z</published>
+    <arxiv:comment>Introduction has rewritten. In particular, the assumption in the main theorem has been changed. The assumption of main theorem in the old version is not suitable. Some mistakes are fixed. To appear in the journal Asymptotic Analysis</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Asymptotic Analysis 67 (2010) 101-123</arxiv:journal_ref>
+    <author>
+      <name>Tatsuya Tate</name>
+    </author>
+    <arxiv:doi>10.3233/ASY-2009-0973</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3233/ASY-2009-0973" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.06868v2</id>
+    <title>Multi-order asymptotic expansion of blow-up solutions for autonomous ODEs. II -- Dynamical Correspondence</title>
+    <updated>2022-11-30T13:53:13Z</updated>
+    <link href="https://arxiv.org/abs/2211.06868v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.06868v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we provide a natural correspondence of eigenstructures of Jacobian matrices associated with equilibria for appropriately transformed two systems describing finite-time blow-ups for ODEs with quasi-homogeneity in an asymptotic sense. As a corollary, we see that asymptotic expansions of blow-ups proposed in Part I themselves provide a criterion of the existence of blow-ups with an intrinsic gap structure of stability information among two systems. Examples provided in Part I are revisited to show the above correspondence.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-13T10:07:33Z</published>
+    <arxiv:comment>51 pages. This is the first part in the present subject. Part I entitled "Multi-order asymptotic expansion of blow-up solutions for autonomous ODEs. I - Method and Justification" is also uploaded (arXiv:2211.06865). In v2, several expressions are unified</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Hisatoshi Kodani</name>
+    </author>
+    <author>
+      <name>Kaname Matsue</name>
+    </author>
+    <author>
+      <name>Hiroyuki Ochiai</name>
+    </author>
+    <author>
+      <name>Akitoshi Takayasu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.11077v2</id>
+    <title>Explosions of pulsating red supergiants: a natural pathway for the diversity of Type II-P/L supernovae</title>
+    <updated>2025-08-20T09:58:51Z</updated>
+    <link href="https://arxiv.org/abs/2508.11077v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.11077v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Red supergiants (RSGs), which are progenitors of hydrogen-rich Type II supernovae (SNe), have been known to pulsate from both observations and theory. The pulsations can be present at core collapse and affect the resulting SN. However, SN light curve models of such RSGs commonly use hydrostatic progenitor models and ignore pulsations. Here, we model the final stages of a 15 solar-mass RSG and self-consistently follow the hydrodynamical evolution. We find the growth of large amplitude radial pulsations in the envelope. After a transient phase where the envelope restructures, the pulsations settle to a steady and periodic oscillation with a period of 817 days. We show that they are driven by the $κγ$-mechanism, which is an interplay between changing opacities and the release of recombination energy of hydrogen and helium. This leads to complex and non-coherent expansion and contraction in different parts of the envelope, which greatly affect the SN progenitor properties, including its location in the Hertzsprung-Russell diagram. We simulate SN explosions of this model at different pulsations phases. Explosions in the compressed state result in a flat light curve (Type II-P). In contrast, the SN light curve in the expanded state declines rapidly, reminiscent of a Type II-L SN. For cases in between, we find light curves with various decline rates. Features in the SN light curves are directly connected to features in the density profiles. These are in turn linked to the envelope ionization structure, which is the driving mechanism of the pulsations. We predict that some of the observed diversity in Type II SN light curves can be explained by RSG pulsations. For more massive RSGs, we expect stronger pulsations that might even lead to dynamical mass ejections of the envelope and to an increased diversity in SN light curves.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-14T21:23:59Z</published>
+    <arxiv:comment>Resubmitted to A&amp;A after positive referee report, movies available at https://doi.org/10.5281/zenodo.16876815 ; the companion paper on comparisons with observations can also be found on arXiv arXiv:2508.11077 (Laplace, Bronner et al.)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>A&amp;A 703, A61 (2025)</arxiv:journal_ref>
+    <author>
+      <name>V. A. Bronner</name>
+    </author>
+    <author>
+      <name>E. Laplace</name>
+    </author>
+    <author>
+      <name>F. R. N. Schneider</name>
+    </author>
+    <author>
+      <name>Ph. Podsiadlowski</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202554642</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202554642" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.00801v2</id>
+    <title>Higher-order asymptotic expansions for Laplace's integral and their error estimates</title>
+    <updated>2025-05-03T14:05:51Z</updated>
+    <link href="https://arxiv.org/abs/2504.00801v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.00801v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We deal with the asymptotic analysis for Laplace's integral. For this problem, the so-called Laplace's method by P.S. Laplace (1812) is well-known and it has been developed in various forms over many years of studies. In this paper, we derive some formulas of the higher-order asymptotic expansions for that integral, with error estimates, which generalize previous results. Moreover, we discuss a comparison of these asymptotic formulas with approximations using numerical integral.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-01T13:55:48Z</published>
+    <arxiv:comment>7 pages. This version includes some corrections to the original paper</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>The 43rd JSST Annual International Conference on Simulation Technology, Conference Proceedings (2024) 502-508</arxiv:journal_ref>
+    <author>
+      <name>Ikki Fukuda</name>
+    </author>
+    <author>
+      <name>Yoshiki Kagaya</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.01874v2</id>
+    <title>Heat trace expansion on manifolds with conic singularities</title>
+    <updated>2017-10-15T15:26:01Z</updated>
+    <link href="https://arxiv.org/abs/1701.01874v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.01874v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive a detailed asymptotic expansion of the heat trace for the Laplace-Beltrami operator on functions on manifolds with conic singularities, using the Singular Asymptotics Lemma of Jochen Bruening and Robert T. Seeley [BS]. In the subsequent paper we investigate how the terms in the expansion reflect the geometry of the manifold.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-07T20:01:21Z</published>
+    <arxiv:comment>The previous version was modified and divided into two parts: this part contains the detailed analytical proof of the expansion; in the subsequent part we consider geometric applications of the expansion</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Asilya Suleymanova</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.12706v3</id>
+    <title>The Laplace asymptotic expansion in high dimensions</title>
+    <updated>2025-06-12T16:06:37Z</updated>
+    <link href="https://arxiv.org/abs/2406.12706v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.12706v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove that the classical Laplace asymptotic expansion (AE) of $\int_{\mathbb R^d} g(x)e^{-nu(x)}dx$, $n\gg1$ extends to the high-dimensional regime in which $d$ may grow large with $n$. More specifically, we use new techniques suitable to high-$d$ to derive an AE which formally coincides with the classical one because the terms are the same, but which now has a new small parameter. Namely under classical assumptions on $z$ and $g$ and additional bounds on the growth of $\|\nabla^kz\|$ and $\|\nabla^kg\|$ with $d$, we show the new small parameter is $d^2/n$, in the sense that $|\text{Rem}_L|\leq C_L(d^2/n)^L$ for each $L=1,2,3,\dots$, where $\text{Rem}_L$ is the $L$th order remainder. As an example, we show that the derivative bounds are satisfied with high probability for a random function $z$ arising in a standard statistical model. We also show that if the derivative bounds are relaxed, then we still obtain a valid AE in powers of a "larger" small parameter.
+  To prove these results, we derive a very general nonasymptotic bound on $\text{Rem}_L$ which is explicit in its dependence on $g,z,d,n$. The bound holds with nearly no apriori restrictions on the magnitude of the derivative norms. We show the bound is tight for each $L$ by proving a matching lower bound for a quartic $z$ and $g\equiv1$. When $d,z,g$ are fixed and $n\to\infty$, our bound shows that $\text{Rem}_L=O(n^{-L})$. Thus our work subsumes the classical theory of the Laplace expansion, and significantly extends it into the high-$d$ regime. This broadened applicability of the expansion is extremely useful for the many modern applications requiring the computation of high-$d$ Laplace integrals. In settings where the expansion is already in use, our precise and explicit error bound is valuable both for numerical estimates and theoretical analysis, especially near the boundary of applicability of the expansion.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-18T15:19:02Z</published>
+    <arxiv:comment>Updated introduction compared to previous version</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Anya Katsevich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00837v2</id>
+    <title>Full asymptotic expansion for Polya structures</title>
+    <updated>2016-06-17T18:43:17Z</updated>
+    <link href="https://arxiv.org/abs/1605.00837v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.00837v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In order to obtain the full asymptotic expansion for Polya trees, i.e. rooted unlabelled and non-plane trees, Flajolet and Sedgewick observed that their specification could be seen as a slight disturbance of the functional equation satisfied by the Cayley tree function. Such an approach highlights the complicated formal expressions with some combinatorial explanation. They initiated this process in their book but they spared the technical part by only exhibiting the first- order approximation. In this paper we exhibit the university of the method and obtain the full asymptotic expansions for several varieties of trees. We then focus on three different varieties of rooted, unlabelled and non-plane trees, Polya trees, rooted identity trees and hierarchies, in order to calculate explicitly their full singular expansions and asymptotic expansions.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-03T11:06:32Z</published>
+    <arxiv:comment>To appear in Proceedings of the 27th International Conference on Probabilistic, Combinatorial and Asymptotic Methods for the Analysis of Algorithms, Krakow, Poland, 4-8 July, 2016</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Antoine Genitrini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.05283v7</id>
+    <title>Tight Asymptotic of Probability of singularity of n x n Random Matrix with Uniform Distributed \pm 1 Entries</title>
+    <updated>2025-10-26T10:44:07Z</updated>
+    <link href="https://arxiv.org/abs/1511.05283v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.05283v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the conjecture about the probability that Pn of Bernulli +- 1 square matrix to be singular and asymptotic expansion of Pn.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-17T06:32:51Z</published>
+    <arxiv:comment>text added to complete tight asymptotic and asymptotic expansion of P_n, I make few correctness</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Vladimir Blinovsky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.00969v1</id>
+    <title>Strong completeness of a class of L2-type Riesz spaces</title>
+    <updated>2023-02-02T09:26:11Z</updated>
+    <link href="https://arxiv.org/abs/2302.00969v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.00969v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Strong convergence and convergence in probability were generalized to the setting of a Riesz space with conditional expectation operator, T, in [Y. Azouzi, W.-C. Kuo, K. Ramdane, B. A. Watson, Convergence in Riesz spaces with conditional expectation operators, Positivity, 19 (2015), 647-657] as T-strong convergence and convergence in T- conditional probability, respectively. Generalized Lp spaces for the cases of p = 1; 2;1, were discussed in the setting of Riesz spaces as Lp(T) spaces in [C. C. A. Labuschagne, B. A. Watson, Discrete stochastic integration in Riesz spaces, Positivity, 14 (2010), 859-875]. An R(T) valued norm, for the cases of p = 1;1; was introduced on these spaces in [W. Kuo, M. Rogans, B.A. Watson, Mixing processes in Riesz spaces, Journal of Mathematical Analysis and Application, 456 (2017), 992-1004] where it was also shown that R(T) is a universally complete f-algebra and that these spaces are R(T)-modules. In [Y. Azouzi, M. Trabelsi, Lp-spaces with respect to conditional expectation on Riesz spaces, Journal of Mathematical Analysis and Application, 447 (2017), 798-816] functional calculus was used to consider Lp(T) for p 2 (1;1). The strong sequential completeness of the space L1(T), the natural domain of the conditional expectation operator T, and the strong completeness of L1(T) was established in [W.-C. Kuo, D. Rodda, B. A. Watson, Sequential strong completeness of the natural domain of Riesz space conditional expectation operators, Proc. AMS, 147 (2019), 1597{1603]. In the current work the T-strong completeness of L2(T) is established along with a Riesz- Fischer type theorem where the duality is with respect to the T-strong dual. It is also shown that the conditional expectation operator T is a weak order unit for the T-strong dual.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-02T09:26:11Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2209.00715</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Anke Kalauch</name>
+    </author>
+    <author>
+      <name>Wenchi Kuo</name>
+    </author>
+    <author>
+      <name>Bruce Watson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.12437v2</id>
+    <title>Endpoint sparse domination for classes of multiplier transformations</title>
+    <updated>2024-05-09T03:24:54Z</updated>
+    <link href="https://arxiv.org/abs/2212.12437v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.12437v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove endpoint results for sparse domination of translation invariant multiscale operators. The results are formulated in terms of dilation invariant classes of Fourier multipliers based on natural localized $M^{p\to q}$ norms which express appropriate endpoint regularity hypotheses. The applications include new and optimal sparse bounds for classical oscillatory multipliers and multi-scale versions of radial bump multipliers.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-23T16:13:33Z</published>
+    <arxiv:comment>Typo in Theorem 1.3 corrected (the result is proved for $1&lt;p&lt;2&lt;q\le p'$ with the endpoint $q=p'$ included). 55 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Math. Z. 305, no.1., Article number: 11 (2023)</arxiv:journal_ref>
+    <author>
+      <name>David Beltran</name>
+    </author>
+    <author>
+      <name>Joris Roos</name>
+    </author>
+    <author>
+      <name>Andreas Seeger</name>
+    </author>
+    <arxiv:doi>10.1007/s00209-023-03345-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00209-023-03345-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.09011v2</id>
+    <title>Semiclassical asymptotic expansions for functions of the Bochner-Schrödinger operator</title>
+    <updated>2022-08-10T04:52:43Z</updated>
+    <link href="https://arxiv.org/abs/2205.09011v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.09011v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Bochner-Schrödinger operator $H_{p}=\frac 1pΔ^{L^p\otimes E}+V$ on tensor powers $L^p$ of a Hermitian line bundle $L$ twisted by a Hermitian vector bundle $E$ on a Riemannian manifold of bounded geometry is studied. For any function $\varphi\in \mathcal S(\mathbb R)$, we consider the bounded linear operator $\varphi(H_p)$ in $L^2(X,L^p\otimes E)$ defined by the spectral theorem and describe an asymptotic expansion of its smooth Schwartz kernel in a fixed neighborhood of the diagonal in the semiclassical limit $p\to \infty$. In particular, we prove that the trace of the operator $\varphi(H_p)$ admits a complete asymptotic expansion in powers of $p^{-1/2}$ as $p\to \infty$.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-18T15:45:25Z</published>
+    <arxiv:comment>24 pages, v2: a result on asymptotic localization of eigenfunctions is added</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Yuri A. Kordyukov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.04992v1</id>
+    <title>Error bound for the asymptotic expansion of the Hartman-Watson integral</title>
+    <updated>2025-04-07T12:18:19Z</updated>
+    <link href="https://arxiv.org/abs/2504.04992v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.04992v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This note gives a bound on the error of the leading term of the $t\to 0$ asymptotic expansion of the Hartman-Watson distribution $θ(r,t)$ in the regime $rt=ρ$ constant. The leading order term has the form $θ(ρ/t,t)=\frac{1}{2πt}e^{-\frac{1}{t} (F(ρ)-π^2/2)} G(ρ) (1 + \vartheta(t,ρ))$, where the error term is bounded uniformly over $ρ$ as $|\vartheta(t,ρ)|\leq \frac{1}{70}t$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-07T12:18:19Z</published>
+    <arxiv:comment>11 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Dan Pirjol</name>
+    </author>
+  </entry>
+</feed>

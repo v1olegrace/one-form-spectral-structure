@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/o3P1a6BULmigC3UHSVXJrs9AHy0</id>
+  <title>arXiv Query: search_query=all:Gauss OR all:Radau OR all:quadrature OR all:bounds OR all:spectral OR all:endpoints OR all:Jacobi OR all:matrix&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Gauss+OR+(all:Radau+OR+(all:quadrature+OR+(all:bounds+OR+(all:spectral+OR+(all:endpoints+OR+(all:Jacobi+OR+all:matrix))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>519246</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1204.4473v2</id>
+    <title>Lobatto and Radau positive quadrature formulas for linear combinations of Jacobi polynomials</title>
+    <updated>2013-06-02T20:47:24Z</updated>
+    <link href="https://arxiv.org/abs/1204.4473v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.4473v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For a given $θ\in (-1,1)$, we find out all parameters $α,β\in \{0,1\}$ such that, there exists a linear combination of Jacobi polynomials $J_{n+1}^{(α,β)}(x)-C J_{n}^{(α,β)}(x)$ which generates a Lobatto (Radau) positive quadrature formula of degree of exactness \textcolor{red}{$2n+2$ ($2n+1$)} and contains the point $θ$ as a node. These positive quadratures are very useful in studying problems in one-sided polynomial $L_1$ approximation.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-19T21:08:25Z</published>
+    <arxiv:comment>This paper has been withdrawn by the author because a new version has been published in Calcolo</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Jorge Bustamante</name>
+    </author>
+    <author>
+      <name>José M. Quesada</name>
+    </author>
+    <author>
+      <name>Reinaldo Martíez-Cruz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.19328v2</id>
+    <title>Complex generalized Gauss-Radau quadrature rules for Hankel transforms of integer order</title>
+    <updated>2025-03-29T05:43:16Z</updated>
+    <link href="https://arxiv.org/abs/2403.19328v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.19328v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Complex Gaussian quadrature rules for oscillatory integral transforms have the advantage that they can achieve optimal asymptotic order. However, their existence for Hankel transform can only be guaranteed when the order of the transform belongs to $[0,1/2]$. In this paper we consider the construction of generalized Gauss-Radau quadrature rules for Hankel transform. We show that, if adding certain value and derivative information at the left endpoint, then complex generalized Gauss-Radau quadrature rules for Hankel transform of integer order can be constructed with theoretical guarantees. Orthogonal polynomials that are closely related to such quadrature rules are investigated and their existence for even degrees is proved. Numerical experiments are presented to confirm our findings.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-28T11:38:13Z</published>
+    <arxiv:comment>IMA J. Numer. Anal., to appear, 2025</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Haiyong Wang</name>
+    </author>
+    <author>
+      <name>Menghan Wu</name>
+    </author>
+    <arxiv:doi>10.1093/imanum/draf007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/imanum/draf007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.2141v1</id>
+    <title>Sharp error bounds for Jacobi expansions and Gengenbauer-Gauss quadrature of analytic functions</title>
+    <updated>2012-10-08T04:02:52Z</updated>
+    <link href="https://arxiv.org/abs/1210.2141v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.2141v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper provides a rigorous and delicate analysis for exponential decay of Jacobi polynomial expansions of analytic functions associated with the Bernstein ellipse. Using an argument that can recover the best estimate for the Chebyshev expansion, we derive various new and sharp bounds of the expansion coefficients, which are featured with explicit dependence of all related parameters and valid for degree $n\ge 1$. We demonstrate the sharpness of the estimates by comparing with existing ones, in particular, the very recent results in [38, SIAM J. Numer. Anal., 2012]. We also extend this argument to estimate the Gegenbauer-Gauss quadrature remainder of analytic functions, which leads to some new tight bounds for quadrature errors.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-08T04:02:52Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Xiaodan Zhao</name>
+    </author>
+    <author>
+      <name>Li-Lian Wang</name>
+    </author>
+    <author>
+      <name>Ziqing Xie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.09461v2</id>
+    <title>Spectral edge behavior for eventually monotone Jacobi and Verblunsky coefficients</title>
+    <updated>2018-02-01T00:22:40Z</updated>
+    <link href="https://arxiv.org/abs/1705.09461v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.09461v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider Jacobi matrices with eventually increasing sequences of diagonal and off-diagonal Jacobi parameters. We describe the asymptotic behavior of the subordinate solution at the top of the essential spectrum, and the asymptotic behavior of the spectral density at the top of the essential spectrum.
+  In particular, allowing on both diagonal and off-diagonal Jacobi parameters perturbations of the free case of the form $- \sum_{j=1}^J c_j n^{-τ_j} + o(n^{-τ_1-1})$ with $0 &lt; τ_1 &lt; τ_2 &lt; \dots &lt; τ_J$ and $c_1&gt;0$, we find the asymptotic behavior of the $\log$ of spectral density to order $O(\log(2-x))$ as $x$ approaches $2$.
+  Apart from its intrinsic interest, the above results also allow us to describe the asymptotics of the spectral density for orthogonal polynomials on the unit circle with real-valued Verblunsky coefficients of the same form.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-26T07:31:21Z</published>
+    <arxiv:comment>33 pages. Same results as in previous version, some expository changes; to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Milivoje Lukic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.21505v3</id>
+    <title>Monotonicity, bounds and extrapolation of Block-Gauss and Gauss-Radau quadrature for computing $B^T φ(A) B$</title>
+    <updated>2025-01-09T21:19:30Z</updated>
+    <link href="https://arxiv.org/abs/2407.21505v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.21505v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we explore quadratures for the evaluation of $B^T φ(A) B$ where $A$ is a symmetric positive-definite (s.p.d.) matrix in $\mathbb{R}^{n \times n}$, $B$ is a tall matrix in $\mathbb{R}^{n \times p}$, and $φ(\cdot)$ represents a matrix function that is regular enough in the neighborhood of $A$'s spectrum, e.g., a Stieltjes or exponential function. These formulations, for example, commonly arise in the computation of multiple-input multiple-output (MIMO) transfer functions for diffusion PDEs.
+  We propose an approximation scheme for $B^T φ(A) B$ leveraging the block Lanczos algorithm and its equivalent representation through Stieltjes matrix continued fractions. We extend the notion of Gauss-Radau quadrature to the block case, facilitating the derivation of easily computable error bounds. For problems stemming from the discretization of self-adjoint operators with a continuous spectrum, we obtain sharp estimates grounded in potential theory for Padé approximations and justify averaging algorithms at no added computational cost. The obtained results are illustrated on large-scale examples of 2D diffusion and 3D Maxwell's equations and a graph from the SNAP repository. We also present promising experimental results on convergence acceleration via random enrichment of the initial block $B$.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-31T10:23:41Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Jörn Zimmerling</name>
+    </author>
+    <author>
+      <name>Vladimir Druskin</name>
+    </author>
+    <author>
+      <name>Valeria Simoncini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0997v3</id>
+    <title>Spectral asymptotics for Robin problems with a discontinuous coefficient</title>
+    <updated>2011-01-27T13:41:51Z</updated>
+    <link href="https://arxiv.org/abs/1009.0997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral behavior of the difference between the resolvents of two realizations $\tilde A_1$ and $\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_1$ and $b_2$ are in $L_\infty$, the s-numbers $s_j$ of $(\tilde A_1 -λ)^{-1}-(\tilde A_2 -λ)^{-1}$ satisfy $s_j j^{3/(n-1)}\le C$ for all $j$; this improves a recent result for $A=-Δ$ by Behrndt et al., that $\sum_js_j ^p&lt;\infty$ for $p&gt;(n-1)/3$. A sharper estimate is obtained when $b_1$ and $b_2$ are in $C^ε$ for some $ε&gt;0$, with jumps at a smooth hypersurface, namely that $s_j j^{3/(n-1)}\to c$ for $j\to \infty$, with a constant $c$ defined from the principal symbol of $A$ and $b_2-b_1$.
+  As an auxiliary result we show that the usual principal spectral asymptotic estimate for pseudodifferential operators of negative order on a closed manifold extends to products of pseudodifferential operators interspersed with piecewise continuous functions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-06T09:28:34Z</published>
+    <arxiv:comment>20 pages, notation simplified. To appear in J. Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>J. Spectral Theory 1 (2011), 155-177</arxiv:journal_ref>
+    <author>
+      <name>Gerd Grubb</name>
+    </author>
+    <arxiv:doi>10.4171/JST/7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.6227v2</id>
+    <title>On the spectral distribution of the free Jacobi process</title>
+    <updated>2012-07-07T19:05:42Z</updated>
+    <link href="https://arxiv.org/abs/1204.6227v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.6227v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we are interested in the free Jacobi process starting at the unit of the compressed probability space where it takes values and associated with the parameter values $λ=1, θ=1/2$. Firstly, we derive a time-dependent recurrence equation for the moments of the process (valid for any starting point and all parameter values). Secondly, we transform this equation to a nonlinear partial differential one for the moment generating function that we solve when $λ= 1, θ=1/2$. The obtained solution together with tricky computations lead to an explicit expression of the moments which shows that the free Jacobi process is distributed at any time $t$ as $(1/4)(2+Y_{2t}+Y_{2t}^{\star})$ where $Y$ is a free unitary Brownian motion. This expression is recovered relying on enumeration techniques after proving that if $a$ is a symmetric Bernoulli random variable which is free from $\{Y, Y^{\star}\}$, then the distributions of $Y_{2t}$ and that of $aY_taY_t^{\star}$ coincide. We close the exposition by investigating the spectral distribution associated with general sets of parameter values.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-27T14:31:57Z</published>
+    <arxiv:comment>new results on the spectral distribution associated with more general parameters are added</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Nizar Demni</name>
+    </author>
+    <author>
+      <name>Tarek Hamdi</name>
+    </author>
+    <author>
+      <name>Taoufik Hmidi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6015v1</id>
+    <title>The spectral function of a first order elliptic system</title>
+    <updated>2012-08-30T06:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1208.6015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of squares of Euclidean norms of eigenfunctions evaluated at a given point of the manifold, with summation carried out over all eigenvalues between zero and a positive lambda) and the counting function (number of eigenvalues between zero and a positive lambda). We derive explicit two-term asymptotic formulae for all three. For the propagator "asymptotic" is understood as asymptotic in terms of smoothness, whereas for the spectral and counting functions "asymptotic" is understood as asymptotic with respect to lambda tending to plus infinity.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-30T06:55:33Z</published>
+    <arxiv:comment>This preprint is "part a" (proper subset) of preprint arXiv:1204.6567. Preprint arXiv:1204.6567 is being split into two parts on the recommendation of the referee of Journal of Spectral Theory. "Part b" will appear as a separate preprint under the title "Spectral theoretic characterization of the massless Dirac operator"</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2013, vol. 3, p. 317-360</arxiv:journal_ref>
+    <author>
+      <name>Olga Chervova</name>
+    </author>
+    <author>
+      <name>Robert J. Downes</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14334v4</id>
+    <title>Invariant subspaces of elliptic systems II: spectral theory</title>
+    <updated>2022-02-08T09:57:39Z</updated>
+    <link href="https://arxiv.org/abs/2103.14334v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14334v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider an elliptic self-adjoint pseudodifferential operator $A$ acting on $m$-columns of half-densities on a closed manifold $M$, whose principal symbol is assumed to have simple eigenvalues. We show that the spectrum of $A$ decomposes, up to an error with superpolynomial decay, into $m$ distinct series, each associated with one of the eigenvalues of the principal symbol of $A$. These spectral results are then applied to the study of propagation of singularities in hyperbolic systems. The key technical ingredient is the use of the carefully devised pseudodifferential projections introduced in the first part of this work, which decompose $L^2(M)$ into almost-orthogonal almost-invariant subspaces under the action of both $A$ and the hyperbolic evolution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T08:56:53Z</published>
+    <arxiv:comment>Minor edits, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, vol. 12 (2022), p. 301-338</arxiv:journal_ref>
+    <author>
+      <name>Matteo Capoferri</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.07076v3</id>
+    <title>Non-iterative computation of Gauss-Jacobi quadrature</title>
+    <updated>2019-03-02T16:20:59Z</updated>
+    <link href="https://arxiv.org/abs/1804.07076v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.07076v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Asymptotic approximations to the zeros of Jacobi polynomials are given, with methods to obtain the coefficients in the expansions. These approximations can be used as standalone methods for the non-iterative computation of the nodes of Gauss--Jacobi quadratures of high degree ($n\ge 100$). We also provide asymptotic approximations for functions related to the first order derivative of Jacobi polynomials which are used for computing the weights of the Gauss--Jacobi quadrature. The performance of the asymptotic approximations is illustrated with numerical examples, and it is shown that nearly double precision relative accuracy is obtained both for the nodes and the weights when $n\ge 100$ and $-1&lt; α, β\le 5$. For smaller degrees the approximations are also useful as they provide $10^{-12}$ relative accuracy for the nodes when $n\ge 20$, and just one Newton step would be sufficient to guarantee double precision accuracy in that cases.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-19T10:45:08Z</published>
+    <arxiv:comment>26 pages, 6 figures. To appear in SIAM J. Sci. Comput</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Amparo Gil</name>
+    </author>
+    <author>
+      <name>Javier Segura</name>
+    </author>
+    <author>
+      <name>Nico M. Temme</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.01904v2</id>
+    <title>Gauss quadrature for matrix inverse forms with applications</title>
+    <updated>2016-05-28T04:12:21Z</updated>
+    <link href="https://arxiv.org/abs/1512.01904v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.01904v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a framework for accelerating a spectrum of machine learning algorithms that require computation of bilinear inverse forms $u^\top A^{-1}u$, where $A$ is a positive definite matrix and $u$ a given vector. Our framework is built on Gauss-type quadrature and easily scales to large, sparse matrices. Further, it allows retrospective computation of lower and upper bounds on $u^\top A^{-1}u$, which in turn accelerates several algorithms. We prove that these bounds tighten iteratively and converge at a linear (geometric) rate. To our knowledge, ours is the first work to demonstrate these key properties of Gauss-type quadrature, which is a classical and deeply studied topic. We illustrate empirical consequences of our results by using quadrature to accelerate machine learning tasks involving determinantal point processes and submodular optimization, and observe tremendous speedups in several instances.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-07T04:13:45Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Chengtao Li</name>
+    </author>
+    <author>
+      <name>Suvrit Sra</name>
+    </author>
+    <author>
+      <name>Stefanie Jegelka</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.1901v1</id>
+    <title>Spectral Bounds for Polydiagonal Jacobi Matrix Operators</title>
+    <updated>2013-12-06T16:00:29Z</updated>
+    <link href="https://arxiv.org/abs/1312.1901v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.1901v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The research on spectral inequalities for discrete Schrodinger Operators has proved fruitful in the last decade. Indeed, several authors analysed the operator's canonical relation to a tridiagonal Jacobi matrix operator. In this paper, we consider a generalisation of this relation with regards to connecting higher order Schrodinger-type operators with symmetric matrix operators with arbitrarily many non-zero diagonals above and below the main diagonal. We thus obtain spectral bounds for such matrices, similar in nature to the Lieb{Thirring inequalities.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-06T16:00:29Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Arman Sahovic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.09016v1</id>
+    <title>On the weighted Gauß--Radau Quadrature</title>
+    <updated>2016-10-25T13:50:25Z</updated>
+    <link href="https://arxiv.org/abs/1610.09016v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.09016v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this short note, we collect some facts on the weighted Gauß--Radau quadrature. In particular, we focus on the location of the Gauß--Radau points being a continuous function of the $L^1$-weighting function.</summary>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-25T13:50:25Z</published>
+    <arxiv:comment>Supplementary material, 5 pages</arxiv:comment>
+    <arxiv:primary_category term="math.HO"/>
+    <author>
+      <name>Sascha Trostorff</name>
+    </author>
+    <author>
+      <name>Marcus Waurick</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0803.2281v2</id>
+    <title>On Gautschi's conjecture for generalized Gauss-Radau and Gauss-Lobatto formulae</title>
+    <updated>2008-07-02T22:03:30Z</updated>
+    <link href="https://arxiv.org/abs/0803.2281v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0803.2281v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recently, Gautschi introduced so-called generalized Gauss-Radau and Gauss-Lobatto formulae which are quadrature formulae of Gaussian type involving not only the values but also the derivatives of the function at the endpoints. In the present note we show the positivity of the corresponding weights; this positivity has been conjectured already by Gautschi. As a consequence, we establish several convergence theorems for these quadrature formulae.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-03-15T10:47:29Z</published>
+    <arxiv:comment>Reference added and typos corrected</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Hedi Joulak</name>
+    </author>
+    <author>
+      <name>Bernhard Beckermann</name>
+    </author>
+    <arxiv:doi>10.1016/j.cam.2009.02.083</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cam.2009.02.083" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.08454v1</id>
+    <title>An error estimate for the Gauss-Jacobi-Lobatto quadrature rule</title>
+    <updated>2022-01-20T21:06:28Z</updated>
+    <link href="https://arxiv.org/abs/2201.08454v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.08454v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An error estimate for the Gauss-Lobatto quadrature formula for integration over the interval $[-1, 1]$, relative to the Jacobi weight function $w^{α,β}(t)=(1-t)^α(1+t)^β$, $α,β&gt;-1$, is obtained. This estimate holds true for functions belonging to some Sobolev-type subspaces of the weighted space $L_{w^{α,β}}^1([-1,1])$.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-20T21:06:28Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Concetta Laurita</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.03388v4</id>
+    <title>Quadrature rules for $C^0$, $C^1$ splines, the real line, and the five (5) families</title>
+    <updated>2018-05-11T15:24:27Z</updated>
+    <link href="https://arxiv.org/abs/1801.03388v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.03388v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The five (5) families of quadrature rules with periods of one or two intervals for the real line and spline classes $C^0$, $C^1$ are presented. The formulae allow one to calculate the points or weights of these quadrature rules in a very simple manner as for the classical Gauss-Legendre rules.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-09T17:54:20Z</published>
+    <arxiv:comment>12 pages, visualisation of the quadrature rules</arxiv:comment>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Helmut Ruhland</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.10748v1</id>
+    <title>Asymptotic expansions of Jacobi polynomials and of the nodes and weights of Gauss-Jacobi quadrature for large degree and parameters in terms of elementary functions</title>
+    <updated>2020-07-21T12:20:31Z</updated>
+    <link href="https://arxiv.org/abs/2007.10748v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.10748v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Asymptotic approximations of Jacobi polynomials are given in terms of elementary functions for large degree $n$ and parameters $α$ and $β$. From these new results, asymptotic expansions of the zeros are derived and methods are given to obtain the coefficients in the expansions. These approximations can be used as initial values in iterative methods for computing the nodes of Gauss--Jacobi quadrature for large degree and parameters. The performance of
+  the asymptotic approximations for computing the nodes and weights of these Gaussian quadratures is illustrated with numerical examples.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-21T12:20:31Z</published>
+    <arxiv:comment>18 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Amparo Gil</name>
+    </author>
+    <author>
+      <name>Javier Segura</name>
+    </author>
+    <author>
+      <name>Nico M. Temme</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.15612v1</id>
+    <title>Dual opposing quadrature-PT symmetry</title>
+    <updated>2024-05-24T14:57:31Z</updated>
+    <link href="https://arxiv.org/abs/2405.15612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.15612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our recent research on type-I quadrature parity-time (PT) symmetry, utilizing an open twin-beam system, not only enables observing genuine quantum photonic PT symmetry amid phase-sensitive amplification (PSA) and loss in the presence of Langevin noise but also reveals additional classical-to-quantum (C2Q) transitions in quadrature and relative-intensity noise fluctuations. In contrast to the previous setup, our exploration of an alternative system assuming no loss involves a type-II PSA-only scheme. This scheme facilitates dual opposing quadrature PT symmetry, offering a comprehensive and complementary comprehension of C2Q transitions and anti-Hermiticity-enhanced quantum sensing. Furthermore, our investigation into the correlation with the Einstein-Podolsky-Rosen criteria uncovers previously unexplored connections between PT symmetry and nonclassicality, as well as quantum entanglement within the continuous-variable framework.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-24T14:57:31Z</published>
+    <arxiv:comment>This is type-II quadrature PT symmetry, compared to type-I quadrature PT symmetry (arXiv:2301.05511)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>iScience 28 (1), 111655 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Wencong Wang</name>
+    </author>
+    <author>
+      <name>Jacob Kokinda</name>
+    </author>
+    <author>
+      <name>Jiazhen Li</name>
+    </author>
+    <author>
+      <name>Qing Gu</name>
+    </author>
+    <author>
+      <name>Dongmei Liu</name>
+    </author>
+    <author>
+      <name>Jianming Wen</name>
+    </author>
+    <arxiv:doi>10.1016/j.isci.2024.111655</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.isci.2024.111655" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.5604v1</id>
+    <title>Bounds for the spectral radius of nonnegative matrices</title>
+    <updated>2013-09-22T14:40:59Z</updated>
+    <link href="https://arxiv.org/abs/1309.5604v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.5604v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give upper and lower bounds for the spectral radius of a nonnegative matrix by using its average 2-row sums, and characterize the equality cases if the matrix is irreducible. We also apply these bounds to various nonnegative matrices associated with a graph, including the adjacency matrix, the signless Laplacian matrix, the distance matrix, the distance signless Laplacian matrix, and the reciprocal distance matrix.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-22T14:40:59Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>R. Xing, B. Zhou, Sharp bounds for the spectral radius of nonnegative matrices, Linear Algebra Appl. 449 (2014) 194-209</arxiv:journal_ref>
+    <author>
+      <name>Rundan Xing</name>
+    </author>
+    <author>
+      <name>Bo Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.10130v2</id>
+    <title>The error bounds of Gauss quadrature formulae for the modified weight functions of Chebyshev type</title>
+    <updated>2018-10-02T08:36:59Z</updated>
+    <link href="https://arxiv.org/abs/1809.10130v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.10130v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider the Gauss quadrature formulae corresponding to some modifications of anyone of the four Chebyshev weights, considered by Gautschi and Li in \cite{gauli}. As it is well known, in the case of analytic integrands, the error of these quadrature formulas can be represented as a contour integral with a complex kernel. We study the kernel, as it is often considered, on elliptic contours with foci at the points $\mp 1$ and such that the sum of semi-axes is $ρ&gt;1$, of the mentioned quadrature formulas, and derive some error bounds for them. In addition, we obtain, for the first time as far as we know, a result about the behavior of the modulus of the corresponding kernels on those ellipses in some cases. Numerical examples checking the accuracy of such error bounds are included.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-26T17:26:03Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Ramon Orive</name>
+    </author>
+    <author>
+      <name>Aleksandar V. Pejcev</name>
+    </author>
+    <author>
+      <name>Miodrag M. Spalevic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0610498v4</id>
+    <title>Bounds on changes in Ritz values for a perturbed invariant subspace of a Hermitian matrix</title>
+    <updated>2008-02-04T02:09:54Z</updated>
+    <link href="https://arxiv.org/abs/math/0610498v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0610498v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Rayleigh-Ritz method is widely used for eigenvalue approximation. Given a matrix $X$ with columns that form an orthonormal basis for a subspace $\X$, and a Hermitian matrix $A$, the eigenvalues of $X^HAX$ are called Ritz values of $A$ with respect to $\X$. If the subspace $\X$ is $A$-invariant then the Ritz values are some of the eigenvalues of $A$. If the $A$-invariant subspace $\X$ is perturbed to give rise to another subspace $\Y$, then the vector of absolute values of changes in Ritz values of $A$ represents the absolute eigenvalue approximation error using $\Y$. We bound the error in terms of principal angles between $\X$ and $\Y$. We capitalize on ideas from a recent paper [DOI: 10.1137/060649070] by A. Knyazev and M. Argentati, where the vector of absolute values of differences between Ritz values for subspaces $\X$ and $\Y$ was weakly (sub-)majorized by a constant times the sine of the vector of principal angles between $\X$ and $\Y$, the constant being the spread of the spectrum of $A$. In that result no assumption was made on either subspace being $A$-invariant. It was conjectured there that if one of the trial subspaces is $A$-invariant then an analogous weak majorization bound should only involve terms of the order of sine squared. Here we confirm this conjecture. Specifically we prove that the absolute eigenvalue error is weakly majorized by a constant times the sine squared of the vector of principal angles between the subspaces $\X$ and $\Y$, where the constant is proportional to the spread of the spectrum of $A$. For many practical cases we show that the proportionality factor is simply one, and that this bound is sharp. For the general case we can only prove the result with a slightly larger constant, which we believe is artificial.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-10-16T20:10:57Z</published>
+    <arxiv:comment>12 pages. Accepted to SIAM Journal on Matrix Analysis and Applications (SIMAX)</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>SIAM Journal on Matrix Analysis and Applications, Vol.30, No.2, pp. 548-559, 2008.</arxiv:journal_ref>
+    <author>
+      <name>M. E. Argentati</name>
+    </author>
+    <author>
+      <name>A. V. Knyazev</name>
+    </author>
+    <author>
+      <name>C. C. Paige</name>
+    </author>
+    <author>
+      <name>I. Panayotov</name>
+    </author>
+    <arxiv:doi>10.1137/070684628</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/070684628" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.08641v1</id>
+    <title>Fast and reliable high accuracy computation of Gauss--Jacobi quadrature</title>
+    <updated>2020-08-19T19:23:34Z</updated>
+    <link href="https://arxiv.org/abs/2008.08641v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.08641v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Iterative methods with certified convergence for the computation of Gauss--Jacobi quadratures are described. The methods do not require a priori estimations of the nodes to guarantee its fourth-order convergence. They are shown to be generally faster than previous methods and without practical restrictions on the range of the parameters. The evaluation of the nodes and weights of the quadrature is exclusively based on convergent processes which, together with the fourth order convergence of the fixed point method for computing the nodes, makes this an ideal approach for high accuracy computations, so much so that computations of quadrature rules with even millions of nodes and thousands of digits are possible in a typical laptop.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-19T19:23:34Z</published>
+    <arxiv:comment>28 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>A. Gil</name>
+    </author>
+    <author>
+      <name>J. Segura</name>
+    </author>
+    <author>
+      <name>N. M. Temme</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.06311v1</id>
+    <title>Sum rules and large deviations for spectral matrix measures in the Jacobi ensemble</title>
+    <updated>2018-11-15T12:23:58Z</updated>
+    <link href="https://arxiv.org/abs/1811.06311v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.06311v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We continue to explore the connections between large deviations for objects coming from random matrix theory and sum rules. This connection was established in [17] for spectral measures of classical ensembles (Gauss-Hermite, Laguerre, Jacobi) and it was extended to spectral matrix measures of the Hermite and Laguerre ensemble in [20]. In this paper, we consider the remaining case of spectral matrix measures of the Jacobi ensemble. Our main results are a large deviation principle for such measures and a sum rule for matrix measures with reference measure the Kesten-McKay law. As an important intermediate step, we derive the distribution of canonical moments of the matrix Jacobi ensemble.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-15T12:23:58Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Fabrice Gamboa</name>
+    </author>
+    <author>
+      <name>Jan Nagel</name>
+    </author>
+    <author>
+      <name>Alain Rouault</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0501496v2</id>
+    <title>Several new quadrature formulas for polynomial integration in the triangle</title>
+    <updated>2007-02-08T01:07:34Z</updated>
+    <link href="https://arxiv.org/abs/math/0501496v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0501496v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present several new quadrature formulas in the triangle for exact integration of polynomials. The points were computed numerically with a cardinal function algorithm which imposes that the number of quadrature points $N$ be equal to the dimension of a lower dimensional polynomial space. Quadrature forumulas are presented for up to degree $d=25$, all which have positive weights and contain no points outside the triangle. Seven of these quadrature formulas improve on previously known results.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-01-27T19:17:37Z</published>
+    <arxiv:comment>14 pages, 14 figures, 5 pages of tabulated quadrature points. Correct reference</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Mark A. Taylor</name>
+    </author>
+    <author>
+      <name>Beth A. Wingate</name>
+    </author>
+    <author>
+      <name>Len P. Bos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.11628v1</id>
+    <title>Spectral Multiplicity Bounds for Jacobi Operators on Star-Like Graphs</title>
+    <updated>2025-04-15T21:37:46Z</updated>
+    <link href="https://arxiv.org/abs/2504.11628v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.11628v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the spectral multiplicity of Jacobi operators on star-like graphs with $m$ branches. Recently, it was established that the multiplicity of the singular continuous spectrum is at most $m$. Building on these developments and using tools from the theory of generalized eigenfunction expansions, we improve this bound by showing that the singular continuous spectrum has multiplicity at most $m-1$. We also show that this bound is sharp, namely, we construct operators with purely singular continuous spectrum of multiplicity $m-1$.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-15T21:37:46Z</published>
+    <arxiv:comment>16 pages, 2 figures. Comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Netanel Levi</name>
+    </author>
+    <author>
+      <name>Tal Malinovitch</name>
+    </author>
+  </entry>
+</feed>

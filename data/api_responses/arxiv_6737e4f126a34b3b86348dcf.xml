@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3drzx402PAiNUSjWT5M2Ge05AJk</id>
+  <title>arXiv Query: search_query=all:Vandermonde OR all:decomposition OR all:Hankel OR all:low OR all:rank OR all:recovery&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Vandermonde+OR+(all:decomposition+OR+(all:Hankel+OR+(all:low+OR+(all:rank+OR+all:recovery))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>465477</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1310.5470v3</id>
+    <title>Hankel Tensors: Associated Hankel Matrices and Vandermonde Decomposition</title>
+    <updated>2014-01-18T10:38:06Z</updated>
+    <link href="https://arxiv.org/abs/1310.5470v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.5470v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hankel tensors arise from applications such as signal processing. In this paper, we make an initial study on Hankel tensors. For each Hankel tensor, we associate it with a Hankel matrix and a higher order two-dimensional symmetric tensor, which we call the associated plane tensor. If the associated Hankel matrix is positive semi-definite, we call such a Hankel tensor a strong Hankel tensor. We show that an $m$ order $n$-dimensional tensor is a Hankel tensor if and only if it has a Vandermonde decomposition. We call a Hankel tensor a complete Hankel tensor if it has a Vandermonde decomposition with positive coefficients. We prove that if a Hankel tensor is copositive or an even order Hankel tensor is positive semi-definite, then the associated plane tensor is copositive or positive semi-definite, respectively. We show that even order strong and complete Hankel tensors are positive semi-definite, the Hadamard product of two strong Hankel tensors is a strong Hankel tensor, and the Hadamard product of two complete Hankel tensors is a complete Hankel tensor. We show that all the H-eigenvalue of a complete Hankel tensors (maybe of odd order) are nonnegative. We give some upper bounds and lower bounds for the smallest and the largest Z-eigenvalues of a Hankel tensor, respectively. Further questions on Hankel tensors are raised.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-21T08:57:44Z</published>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Liqun Qi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.05805v1</id>
+    <title>Structured low rank decomposition of multivariate Hankel matrices</title>
+    <updated>2017-01-19T14:19:27Z</updated>
+    <link href="https://arxiv.org/abs/1701.05805v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.05805v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the decomposition of a multivariate Hankel matrix H\_$σ$ as a sum of Hankel matrices of small rank in correlation with the decomposition of its symbol $σ$ as a sum of polynomial-exponential series. We present a new algorithm to compute the low rank decomposition of the Hankel operator and the decomposition of its symbol exploiting the properties of the associated Artinian Gorenstein quotient algebra A\_$σ$. A basis of A\_$σ$ is computed from the Singular Value Decomposition of a sub-matrix of the Hankel matrix H\_$σ$. The frequencies and the weights are deduced from the generalized eigenvectors of pencils of shifted sub-matrices of H $σ$. Explicit formula for the weights in terms of the eigenvectors avoid us to solve a Vandermonde system. This new method is a multivariate generalization of the so-called Pencil method for solving Prony-type decomposition problems. We analyse its numerical behaviour in the presence of noisy input moments, and describe a rescaling technique which improves the numerical quality of the reconstruction for frequencies of high amplitudes. We also present a new Newton iteration, which converges locally to the closest multivariate Hankel matrix of low rank and show its impact for correcting errors on input moments.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-19T14:19:27Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jouhayna Harmouch</name>
+      <arxiv:affiliation>AROMATH</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Houssam Khalil</name>
+      <arxiv:affiliation>AROMATH</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bernard Mourrain</name>
+      <arxiv:affiliation>AROMATH</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.03631v2</id>
+    <title>Hankel tensor decompositions and ranks</title>
+    <updated>2019-01-28T01:27:19Z</updated>
+    <link href="https://arxiv.org/abs/1706.03631v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.03631v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hankel tensors are generalizations of Hankel matrices. This article studies the relations among various ranks of Hankel tensors. We give an algorithm that can compute the Vandermonde ranks and decompositions for all Hankel tensors. For a generic $n$-dimensional Hankel tensor of even order or order three, we prove that the the cp rank, symmetric rank, border rank, symmetric border rank, and Vandermonde rank all coincide with each other. In particular, this implies that the Comon's conjecture is true for generic Hankel tensors when the order is even or three. Some open questions are also posed.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-12T13:41:49Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Jiawang Nie</name>
+    </author>
+    <author>
+      <name>Ke Ye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.15740v1</id>
+    <title>Hankel low-rank matrix approximation for gravitational-wave data analysis</title>
+    <updated>2026-03-16T18:00:02Z</updated>
+    <link href="https://arxiv.org/abs/2603.15740v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.15740v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Next-generation gravitational-wave (GW) detectors, such as the Laser Interferometer Space Antenna (LISA), will observe vast numbers of overlapping signals. Disentangling these signals from instrumental noise and from one another constitutes a significant data analysis challenge. We explore a denoising technique based on embedding time series into Hankel matrices: a superposition of $n$ (damped) sinusoids corresponds to a matrix of rank $2n$. Thus, the problem of signal extraction is reduced to a structured low-rank approximation problem. Using synthetic data tailored to GW applications, we benchmark three Hankel-based algorithms: ESPRIT, Cadzow iterations, and iteratively reweighted least squares (IRLS). Our test scenarios include isolated and multi-component monochromatic signals, the resolution of sources with closely spaced frequencies, and the recovery of black hole quasinormal modes (QNM). All three algorithms achieve near-optimal performance consistent with Fisher matrix bounds, evidenced by an inverse-square scaling of the mismatch with the signal-to-noise ratio. Furthermore, a proof-of-concept application to numerical relativity waveforms validates the ability of these algorithms to extract QNM frequencies from ringdown signals. Hankel low-rank approximation therefore offers a transparent, computationally efficient avenue for preprocessing GW time series.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-16T18:00:02Z</published>
+    <arxiv:comment>17 pages, 5 figures; for associated implementation, see https://github.com/CosmoVlad/lisa-hankel/tree/main/pipelines</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Nicholas Geissler</name>
+    </author>
+    <author>
+      <name>Vladimir Strokov</name>
+    </author>
+    <author>
+      <name>Christian Kümmerle</name>
+    </author>
+    <author>
+      <name>Sergey Kushnarev</name>
+    </author>
+    <author>
+      <name>Emanuele Berti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.00750v1</id>
+    <title>Vandermonde Factorization of Hankel Matrix for Complex Exponential Signal Recovery -- Application in Fast NMR Spectroscopy</title>
+    <updated>2018-09-04T00:24:14Z</updated>
+    <link href="https://arxiv.org/abs/1809.00750v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.00750v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many signals are modeled as a superposition of exponential functions in spectroscopy of chemistry, biology and medical imaging. This paper studies the problem of recovering exponential signals from a random subset of samples. We exploit the Vandermonde structure of the Hankel matrix formed by the exponential signal and formulate signal recovery as Hankel matrix completion with Vandermonde factorization (HVaF). A numerical algorithm is developed to solve the proposed model and its sequence convergence is analyzed theoretically. Experiments on synthetic data demonstrate that HVaF succeeds over a wider regime than the state-of-the-art nuclear-normminimization-based Hankel matrix completion method, while has a less restriction on frequency separation than the state-of-the-art atomic norm minimization and fast iterative hard thresholding methods. The effectiveness of HVaF is further validated on biological magnetic resonance spectroscopy data.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-04T00:24:14Z</published>
+    <arxiv:comment>14 pages, 9 figures, 3 tables, 63 references</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Jiaxi Ying</name>
+    </author>
+    <author>
+      <name>Jian-Feng Cai</name>
+    </author>
+    <author>
+      <name>Di Guo</name>
+    </author>
+    <author>
+      <name>Gongguo Tang</name>
+    </author>
+    <author>
+      <name>Zhong Chen</name>
+    </author>
+    <author>
+      <name>Xiaobo Qu</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2018.2869122</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2018.2869122" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.4510v1</id>
+    <title>Parallel Gaussian Process Regression for Big Data: Low-Rank Representation Meets Markov Approximation</title>
+    <updated>2014-11-17T15:31:04Z</updated>
+    <link href="https://arxiv.org/abs/1411.4510v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.4510v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The expressive power of a Gaussian process (GP) model comes at a cost of poor scalability in the data size. To improve its scalability, this paper presents a low-rank-cum-Markov approximation (LMA) of the GP model that is novel in leveraging the dual computational advantages stemming from complementing a low-rank approximate representation of the full-rank GP based on a support set of inputs with a Markov approximation of the resulting residual process; the latter approximation is guaranteed to be closest in the Kullback-Leibler distance criterion subject to some constraint and is considerably more refined than that of existing sparse GP models utilizing low-rank representations due to its more relaxed conditional independence assumption (especially with larger data). As a result, our LMA method can trade off between the size of the support set and the order of the Markov property to (a) incur lower computational cost than such sparse GP models while achieving predictive performance comparable to them and (b) accurately represent features/patterns of any scale. Interestingly, varying the Markov order produces a spectrum of LMAs with PIC approximation and full-rank GP at the two extremes. An advantage of our LMA method is that it is amenable to parallelization on multiple machines/cores, thereby gaining greater scalability. Empirical evaluation on three real-world datasets in clusters of up to 32 computing nodes shows that our centralized and parallel LMA methods are significantly more time-efficient and scalable than state-of-the-art sparse and full-rank GP regression methods while achieving comparable predictive performances.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-17T15:31:04Z</published>
+    <arxiv:comment>29th AAAI Conference on Artificial Intelligence (AAAI 2015), Extended version with proofs, 10 pages</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Kian Hsiang Low</name>
+    </author>
+    <author>
+      <name>Jiangbo Yu</name>
+    </author>
+    <author>
+      <name>Jie Chen</name>
+    </author>
+    <author>
+      <name>Patrick Jaillet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.05559v1</id>
+    <title>Sparse + Low Rank Decomposition of Annihilating Filter-based Hankel Matrix for Impulse Noise Removal</title>
+    <updated>2015-10-19T16:11:24Z</updated>
+    <link href="https://arxiv.org/abs/1510.05559v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.05559v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, so called annihilating filer-based low rank Hankel matrix (ALOHA) approach was proposed as a powerful image inpainting method. Based on the observation that smoothness or textures within an image patch corresponds to sparse spectral components in the frequency domain, ALOHA exploits the existence of annihilating filters and the associated rank-deficient Hankel matrices in the image domain to estimate the missing pixels. By extending this idea, here we propose a novel impulse noise removal algorithm using sparse + low rank decomposition of an annihilating filter-based Hankel matrix. The new approach, what we call the robust ALOHA, is motivated by the observation that an image corrupted with impulse noises has intact pixels; so the impulse noises can be modeled as sparse components, whereas the underlying image can be still modeled using a low-rank Hankel structured matrix. To solve the sparse + low rank decomposition problem, we propose an alternating direction method of multiplier (ADMM) method with initial factorized matrices coming from low rank matrix fitting (LMaFit) algorithm. To adapt the local image statistics that have distinct spectral distributions, the robust ALOHA is applied patch by patch. Experimental results from two types of impulse noises - random valued impulse noises and salt/pepper noises - for both single channel and multi-channel color images demonstrate that the robust ALOHA outperforms the existing algorithms up to 8dB in terms of the peak signal to noise ratio (PSNR).</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-19T16:11:24Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kyong Hwan Jin</name>
+    </author>
+    <author>
+      <name>Jong Chul Ye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.5826v1</id>
+    <title>Parallel Gaussian Process Regression with Low-Rank Covariance Matrix Approximations</title>
+    <updated>2013-05-24T19:00:28Z</updated>
+    <link href="https://arxiv.org/abs/1305.5826v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.5826v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gaussian processes (GP) are Bayesian non-parametric models that are widely used for probabilistic regression. Unfortunately, it cannot scale well with large data nor perform real-time predictions due to its cubic time cost in the data size. This paper presents two parallel GP regression methods that exploit low-rank covariance matrix approximations for distributing the computational load among parallel machines to achieve time efficiency and scalability. We theoretically guarantee the predictive performances of our proposed parallel GPs to be equivalent to that of some centralized approximate GP regression methods: The computation of their centralized counterparts can be distributed among parallel machines, hence achieving greater time efficiency and scalability. We analytically compare the properties of our parallel GPs such as time, space, and communication complexity. Empirical evaluation on two real-world datasets in a cluster of 20 computing nodes shows that our parallel GPs are significantly more time-efficient and scalable than their centralized counterparts and exact/full GP while achieving predictive performances comparable to full GP.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-24T19:00:28Z</published>
+    <arxiv:comment>29th Conference on Uncertainty in Artificial Intelligence (UAI 2013), Extended version with proofs, 13 pages</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Jie Chen</name>
+    </author>
+    <author>
+      <name>Nannan Cao</name>
+    </author>
+    <author>
+      <name>Kian Hsiang Low</name>
+    </author>
+    <author>
+      <name>Ruofei Ouyang</name>
+    </author>
+    <author>
+      <name>Colin Keng-Yan Tan</name>
+    </author>
+    <author>
+      <name>Patrick Jaillet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0106135v2</id>
+    <title>Superstructures at low spin - high spin transitions</title>
+    <updated>2003-11-28T13:53:56Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0106135v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0106135v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In many transition metal compounds, in particular those containing Fe^{2+} and Co^{3+}, there occur spin-state transitions between low-spin and high-spin (or intermediate-spin) states. We show that typical interactions between similar spin-state ions are short-range repulsion, and long-range interaction which can have different sign depending on the elastic anisotropy of the lattice and on the direction between respective ions. Due to such character of effective interactions at the spin-state transitions there may occur different superstructures -- ordered arrangement of different spin-states, which in particular may have the form of stripes. The properties of the system TlSr_2CoO_5 for which such a superstructure was recently observed experimentally, are discussed from this point of view.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-06-07T16:46:56Z</published>
+    <arxiv:comment>11 pages, 1 Postscript figure</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>D. I. Khomskii</name>
+    </author>
+    <author>
+      <name>U. Löw</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.10798v1</id>
+    <title>Vandermonde sets and hyperovals</title>
+    <updated>2019-11-25T10:11:37Z</updated>
+    <link href="https://arxiv.org/abs/1911.10798v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.10798v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider relationships between Vandermonde sets and hyperovals. Hyperovals are Vandermonde sets, but, in general, Vandermonde sets are not hyperovals. We give necessary and sufficient conditions for a Vandermonde set to be a hyperoval. Therefore, we provide purely algebraic criteria for existence of hyperovals. Furthermore, we give necessary and sufficient conditions for the existence of hyperovals in terms of $g$-functions, which can be considered as an analog of Glynn's Theorem for o-polynomials.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-25T10:11:37Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>Vandermonde sets, hyperovals and Niho bent functions. Advances in Mathematics of Communications 17 (2023), No. 5, 1235-1250</arxiv:journal_ref>
+    <author>
+      <name>Kanat Abdukhalikov</name>
+    </author>
+    <author>
+      <name>Duy Ho</name>
+    </author>
+    <arxiv:doi>10.3934/amc.2021048</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3934/amc.2021048" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1011.2433v1</id>
+    <title>Vandermonde factorizations of a regular Hankel matrix and their application on the computation of Bézier curves</title>
+    <updated>2010-11-10T17:04:28Z</updated>
+    <link href="https://arxiv.org/abs/1011.2433v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1011.2433v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, a new method to compute a Bézier curve of degree n = 2m-1 is introduced, here formulated as a set of points whose coordinates are calculated from two Hankel forms in $\C^m$. From Vandermonde factorizations of the two associated Hankel matrices $H_x$ and $H_y$, the Hankel forms can be easily calculated, thus yielding points on the Bézier curve. Here, a new proof of the existence of a Vandermonde factorization of regular Hankel matrix is given from Pascal matrices techniques. But, even when the Hankel matrix associated to the form is singular, the method can still be used by shifting its skew-diagonal and counteracting it after, which is pratically done without costs.. By comparing this new method with a Pascal matrix method and Casteljau's, we see that the results suggest that this new method is very effective with regard to accuracy and time of computation for various values of n.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-11-10T17:04:28Z</published>
+    <arxiv:comment>12 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Licio Hernanes Bezerra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.3021v1</id>
+    <title>Hankel hyperdeterminants, rectangular Jack polynomials and even powers of the Vandermonde</title>
+    <updated>2007-09-19T14:19:03Z</updated>
+    <link href="https://arxiv.org/abs/0709.3021v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.3021v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the link between rectangular Jack polynomials and Hankel hyperdeterminants. As an application we give an expression of the even power of the Vandermonde in term of Jack polynomials.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-19T14:19:03Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>Journal of Algebra 320, 11 (2008) 3911-3925</arxiv:journal_ref>
+    <author>
+      <name>Hacene Belbachir</name>
+      <arxiv:affiliation>USTHB</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adrien Boussicault</name>
+      <arxiv:affiliation>IGM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jean-Gabriel Luque</name>
+      <arxiv:affiliation>IGM</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21418v1</id>
+    <title>Sublinear Time Low-Rank Approximation of Hankel Matrices</title>
+    <updated>2025-11-26T14:09:28Z</updated>
+    <link href="https://arxiv.org/abs/2511.21418v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21418v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hankel matrices are an important class of highly-structured matrices, arising across computational mathematics, engineering, and theoretical computer science. It is well-known that positive semidefinite (PSD) Hankel matrices are always approximately low-rank. In particular, a celebrated result of Beckermann and Townsend shows that, for any PSD Hankel matrix $H \in \mathbb{R}^{n \times n}$ and any $ε&gt; 0$, letting $H_k$ be the best rank-$k$ approximation of $H$, $\|H-H_k\|_F \leq ε\|H\|_F$ for $k = O(\log n \log(1/ε))$. As such, PSD Hankel matrices are natural targets for low-rank approximation algorithms. We give the first such algorithm that runs in \emph{sublinear time}. In particular, we show how to compute, in $\polylog(n, 1/ε)$ time, a factored representation of a rank-$O(\log n \log(1/ε))$ Hankel matrix $\widehat{H}$ matching the error guarantee of Beckermann and Townsend up to constant factors. We further show that our algorithm is \emph{robust} -- given input $H+E$ where $E \in \mathbb{R}^{n \times n}$ is an arbitrary non-Hankel noise matrix, we obtain error $\|H - \widehat{H}\|_F \leq O(\|E\|_F) + ε\|H\|_F$. Towards this algorithmic result, our first contribution is a \emph{structure-preserving} existence result - we show that there exists a rank-$k$ \emph{Hankel} approximation to $H$ matching the error bound of Beckermann and Townsend. Our result can be interpreted as a finite-dimensional analog of the widely applicable AAK theorem, which shows that the optimal low-rank approximation of an infinite Hankel operator is itself Hankel. Armed with our existence result, and leveraging the well-known Vandermonde structure of Hankel matrices, we achieve our sublinear time algorithm using a sampling-based approach that relies on universal ridge leverage score bounds for Vandermonde matrices.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T14:09:28Z</published>
+    <arxiv:comment>To appear in SODA 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.DS"/>
+    <author>
+      <name>Michael Kapralov</name>
+    </author>
+    <author>
+      <name>Cameron Musco</name>
+    </author>
+    <author>
+      <name>Kshiteej Sheth</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.10148v1</id>
+    <title>Bidiagonal Decompositions of Vandermonde-Type Matrices of Arbitrary Rank</title>
+    <updated>2022-10-18T20:27:44Z</updated>
+    <link href="https://arxiv.org/abs/2210.10148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.10148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a method to derive new explicit expressions for bidiagonal decompositions of Vandermonde and related matrices such as the (q-, h-) Bernstein-Vandermonde ones, among others. These results generalize the existing expressions for nonsingular matrices to matrices of arbitrary rank. For totally nonnegative matrices of the above classes, the new decompositions can be computed efficiently and to high relative accuracy componentwise in floating point arithmetic. In turn, matrix computations (e.g., eigenvalue computation) can also be performed efficiently and to high relative accuracy.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-18T20:27:44Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Jorge Delgado</name>
+    </author>
+    <author>
+      <name>Plamen Koev</name>
+    </author>
+    <author>
+      <name>Ana Marco</name>
+    </author>
+    <author>
+      <name>Jose-Javier Martinez</name>
+    </author>
+    <author>
+      <name>Juan Manuel Pena</name>
+    </author>
+    <author>
+      <name>Per-Olof Persson</name>
+    </author>
+    <author>
+      <name>Steven Spasov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.4291v2</id>
+    <title>Minimum $n$-Rank Approximation via Iterative Hard Thresholding</title>
+    <updated>2014-04-08T13:48:43Z</updated>
+    <link href="https://arxiv.org/abs/1311.4291v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.4291v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The problem of recovering a low $n$-rank tensor is an extension of sparse recovery problem from the low dimensional space (matrix space) to the high dimensional space (tensor space) and has many applications in computer vision and graphics such as image inpainting and video inpainting. In this paper, we consider a new tensor recovery model, named as minimum $n$-rank approximation (MnRA), and propose an appropriate iterative hard thresholding algorithm with giving the upper bound of the $n$-rank in advance. The convergence analysis of the proposed algorithm is also presented. Particularly, we show that for the noiseless case, the linear convergence with rate $\frac{1}{2}$ can be obtained for the proposed algorithm under proper conditions. Additionally, combining an effective heuristic for determining $n$-rank, we can also apply the proposed algorithm to solve MnRA when $n$-rank is unknown in advance. Some preliminary numerical results on randomly generated and real low $n$-rank tensor completion problems are reported, which show the efficiency of the proposed algorithms.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-18T08:33:00Z</published>
+    <arxiv:comment>Iterative hard thresholding; low-$n$-rank tensor recovery; tensor completion; compressed sensing</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Min Zhang</name>
+    </author>
+    <author>
+      <name>Lei Yang</name>
+    </author>
+    <author>
+      <name>Zheng-Hai Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.6158v1</id>
+    <title>Field topologies in ideal and near ideal magnetohydrodynamics and vortex dynamics</title>
+    <updated>2014-12-18T22:07:20Z</updated>
+    <link href="https://arxiv.org/abs/1412.6158v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.6158v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Magnetic field topology frozen in ideal magnetohydrodynamics (MHD) and its breakage in near ideal MHD are reviewed in two parts. The first part gives a physically complete description of the frozen in field topology, taking magnetic flux conservation as fundamental and treating four topics, Eulerian and Lagrangian descriptions of MHD, Chandrasekhar-Kendall and Euler-potential field representations, magnetic helicity, and inviscid vortex dynamics in comparison to ideal MHD. A corollary clarifies the challenge of achieving a high degree of the frozen in condition in numerical MHD. The second part treats field topology breakage centered on the Parker Magnetostatic Theorem on a general incompatibility of a continuous magnetic field with the dual demand of force free equilibrium and an arbitrarily prescribed, 3D field topology. Preserving field topology as a global constraint readily results in formation of tangential magnetic discontinuities, i.e., electric current sheets of zero thickness. A similar incompatibility is present in the steady, force and thermal balance of a heated radiating fluid subject to an anisotropic thermal flux conducted strictly along the frozen in magnetic field in the low beta limit. In a weakly resistive fluid the thinning of current sheets by these incompatibilities inevitably results in sheet dissipation, resistive heating and topological changes in the field despite the small resistivity. Faraday induction drives but also macroscopically limits this mode of energy dissipation, storing free energy in self organized, ideal MHD structures. This property of MHD turbulence captured by the Taylor hypothesis is reviewed in relation to the Sun's corona, calling for a basic quantitative description of the breakdown of flux conservation in the low resistivity limit. A cylindrical, initial boundary value problem provides specificity in the review.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-18T22:07:20Z</published>
+    <arxiv:comment>Review article, 20 pages, 2 figures, 158 references. see http://download.hao.ucar.edu/pub/low/Low_Sci_China-Phys_Mech_Astron_2015_58-015201.pdf</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Science China - Physics, Mechanics and Astronomy 2015 Vol. 58 No. 1: 015201</arxiv:journal_ref>
+    <author>
+      <name>B. C. Low</name>
+    </author>
+    <arxiv:doi>10.1007/s11433-014-5626-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11433-014-5626-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.0637v2</id>
+    <title>Bounds on the attractor dimension for magnetohydrodynamic channel flow with parallel magnetic field at low magnetic Reynolds number</title>
+    <updated>2015-05-13T15:29:08Z</updated>
+    <link href="https://arxiv.org/abs/1410.0637v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.0637v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate aspects of low-magnetic-Reynolds-number flow between two parallel, perfectly insulating walls, in the presence of an imposed magnetic field parallel to the bounding walls. We find a functional basis to describe the flow, well adapted to the problem of finding the attractor dimension, and which is also used in subsequent direct numerical simulation of these flows. For given Reynolds and Hartmann numbers, we obtain an upper bound for the dimension of the attractor by means of known bounds on the nonlinear inertial term and this functional basis for the flow. Three distinct flow regimes emerge: a quasi-isotropic 3D flow, a non-isotropic three-dimensional (3D) flow, and a 2D flow. We find the transition curves between these regimes in the space parameterized by Hartmann number Ha and attractor dimension $d_\text{att}$. We find how the attractor dimension scales as a function of Reynolds and Hartmann numbers (Re and Ha) in each regime. We also investigate the thickness of the boundary layer along the bounding wall, and find that in all regimes this scales as 1/Re, independently of the value of Ha, unlike Hartmann boundary layers found when the field is normal to the channel. The structure of the set of least dissipative modes is indeed quite different between these two cases but the properties of turbulence far from the walls (smallest scales and number of degrees of freedom) are found to be very similar.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-02T18:32:33Z</published>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <arxiv:journal_ref>Phys. Rev. E, 91, 053022 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Robert Low</name>
+    </author>
+    <author>
+      <name>Alban Potherat</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.91.053022</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.91.053022" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.18076v2</id>
+    <title>Localization from structured distance matrices via low-rank matrix recovery</title>
+    <updated>2024-07-30T22:54:45Z</updated>
+    <link href="https://arxiv.org/abs/2311.18076v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.18076v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the problem of determining the configuration of $n$ points by using their distances to $m$ nodes, referred to as anchor nodes. One sampling scheme is Nystrom sampling, which assumes known distances between the anchors and between the anchors and the $n$ points, while the distances among the $n$ points are unknown. For this scheme, a simple adaptation of the Nystrom method, which is often used for kernel approximation, is a viable technique to estimate the configuration of the anchors and the $n$ points. In this manuscript, we propose a modified version of Nystrom sampling, where the distances from every node to one central node are known, but all other distances are incomplete. In this setting, the standard Nystrom approach is not applicable, necessitating an alternative technique to estimate the configuration of the anchors and the $n$ points. We show that this problem can be framed as the recovery of a low-rank submatrix of a Gram matrix. Using synthetic and real data, we demonstrate that the proposed approach can exactly recover configurations of points given sufficient distance samples. This underscores that, in contrast to methods that rely on global sampling of distance matrices, the task of estimating the configuration of points can be done efficiently via structured sampling with well-chosen reliable anchors. Finally, our main analysis is grounded in a specific centering of the points. With this in mind, we extend previous work in Euclidean distance geometry by providing a general dual basis approach for points centered anywhere.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-29T20:43:49Z</published>
+    <arxiv:comment>20 pages. Introduced a new sampling model. Experimental results on both synthetic and real data. A new optimization program for structured distance geometry based on low-rank recovery. The analysis of the previous sampling model is also discussed. Made changes to improve the clarity and presentation of the paper</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Samuel Lichtenberg</name>
+    </author>
+    <author>
+      <name>Abiy Tasissa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.07096v2</id>
+    <title>Low Rank Properties for Estimating Microphones Start Time and Sources Emission Time</title>
+    <updated>2023-07-22T03:56:51Z</updated>
+    <link href="https://arxiv.org/abs/2307.07096v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.07096v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Uncertainty in timing information pertaining to the start time of microphone recordings and sources' emission time pose significant challenges in various applications, such as joint microphones and sources localization. Traditional optimization methods, which directly estimate this unknown timing information (UTIm), often fall short compared to approaches exploiting the low-rank property (LRP). LRP encompasses an additional low-rank structure, facilitating a linear constraint on UTIm to help formulate related low-rank structure information. This method allows us to attain globally optimal solutions for UTIm, given proper initialization. However, the initialization process often involves randomness, leading to suboptimal, local minimum values. This paper presents a novel, combined low-rank approximation (CLRA) method designed to mitigate the effects of this random initialization. We introduce three new LRP variants, underpinned by mathematical proof, which allow the UTIm to draw on a richer pool of low-rank structural information. Utilizing this augmented low-rank structural information from both LRP and the proposed variants, we formulate four linear constraints on the UTIm. Employing the proposed CLRA algorithm, we derive global optimal solutions for the UTIm via these four linear constraints.Experimental results highlight the superior performance of our method over existing state-of-the-art approaches, measured in terms of both the recovery number and reduced estimation errors of UTIm.</summary>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-14T00:05:10Z</published>
+    <arxiv:comment>13 pages for main content; 9 pages for proof of proposed low rank properties; 13 figures</arxiv:comment>
+    <arxiv:primary_category term="eess.AS"/>
+    <author>
+      <name>Faxian Cao</name>
+    </author>
+    <author>
+      <name>Yongqiang Cheng</name>
+    </author>
+    <author>
+      <name>Adil Mehmood Khan</name>
+    </author>
+    <author>
+      <name>Zhijing Yang</name>
+    </author>
+    <author>
+      <name>S. M. Ahsan Kazmiand Yingxiu Chang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.21815v1</id>
+    <title>A Moment--Hankel Rank Method for Identifying the Number of Point Sources in the Heat Equation</title>
+    <updated>2026-06-20T00:29:45Z</updated>
+    <link href="https://arxiv.org/abs/2606.21815v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.21815v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a low-frequency moment--Hankel rank method for identifying the number of time-independent point sources in the heat equation from boundary flux data. The method is formulated in the unit disk, where the Laplace-transformed and normalized boundary flux admits an explicit Fourier moment representation. By taking the low-frequency limit, we obtain a finite exponential-sum moment sequence in which the nodes encode the source locations, the weights encode the source strengths, and the number of terms equals the number of point sources. The associated Hankel matrix admits a Vandermonde factorization, and its rank is exactly the source number under the natural assumptions that the source locations are distinct and the source strengths are nonzero. We also analyze the effect of discrete and noisy boundary data. A uniform moment perturbation bound is propagated to the empirical Hankel matrix, and Weyl's singular-value perturbation inequality yields a sufficient condition for stable numerical rank recovery in terms of the smallest nonzero singular value of the ideal Hankel matrix. Numerical experiments confirm the exact rank pattern in the noiseless case, validate the stability threshold under moment noise, and illustrate the loss of resolution for close or weak sources. After the source number is identified, the same moment sequence can be used for location and strength recovery through an annihilating-polynomial and Vandermonde reconstruction procedure.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-20T00:29:45Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Zhiliang Deng</name>
+    </author>
+    <author>
+      <name>Xiaomei Yang</name>
+    </author>
+    <author>
+      <name>Ailin Qian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.03702v1</id>
+    <title>The Role of Stellar Feedback in the Chemical Evolution of a Low Mass Dwarf Galaxy</title>
+    <updated>2020-07-07T18:00:04Z</updated>
+    <link href="https://arxiv.org/abs/2007.03702v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.03702v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate how each aspect of a multi-channel stellar feedback model drives the chemodynamical evolution of a low-mass, isolated dwarf galaxy using a suite of high-resolution simulations. Our model follows individual star particles sampled randomly from an adopted initial mass function, considering independently feedback from: supernovae; stellar radiation causing photoelectric heating of dust grains, ionization and associated heating, Lyman-Werner (LW) dissociation of H$_2$, and radiation pressure; and winds from massive main sequence (neglecting their energy input) and asymptotic giant branch (AGB) stars. Radiative transfer is done by ray tracing. We consider the effects each of these processes have on regulating the star formation rate, global properties, multi-phase interstellar medium (ISM), and driving of galactic winds. We follow individual metal species from distinct nucleosynthetic enrichment channels (AGB winds, massive star stellar winds, core collapse and Type Ia supernovae) and pay particular attention to how these feedback processes regulate metal mixing in the ISM, the metal content of outflows, and the stellar abundance patterns in our galaxy. We find that---for a low-metallicity, low-mass dwarf galaxy ---stellar radiation, particularly ionizing radiation and LW radiation, are important sources of stellar feedback whose effects dominate over photoelectric heating and HI radiation pressure. However, feedback is coupled non-linearly, and the inclusion or exclusion of each process produces non-negligible effects. We find strong variations with: the star formation history; the ejection fractions of metals, mass, and energy; and the distribution of elements from different nucleosynthetic sources in both the gas and stars.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-07T18:00:04Z</published>
+    <arxiv:comment>25 pages, 15 figures, submitted to ApJ. Comments welcome!!</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Andrew Emerick</name>
+    </author>
+    <author>
+      <name>Greg L. Bryan</name>
+    </author>
+    <author>
+      <name>Mordecai-Mark Mac Low</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.17988v1</id>
+    <title>Deblur e-NeRF: NeRF from Motion-Blurred Events under High-speed or Low-light Conditions</title>
+    <updated>2024-09-26T15:57:20Z</updated>
+    <link href="https://arxiv.org/abs/2409.17988v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.17988v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The stark contrast in the design philosophy of an event camera makes it particularly ideal for operating under high-speed, high dynamic range and low-light conditions, where standard cameras underperform. Nonetheless, event cameras still suffer from some amount of motion blur, especially under these challenging conditions, in contrary to what most think. This is attributed to the limited bandwidth of the event sensor pixel, which is mostly proportional to the light intensity. Thus, to ensure that event cameras can truly excel in such conditions where it has an edge over standard cameras, it is crucial to account for event motion blur in downstream applications, especially reconstruction. However, none of the recent works on reconstructing Neural Radiance Fields (NeRFs) from events, nor event simulators, have considered the full effects of event motion blur. To this end, we propose, Deblur e-NeRF, a novel method to directly and effectively reconstruct blur-minimal NeRFs from motion-blurred events generated under high-speed motion or low-light conditions. The core component of this work is a physically-accurate pixel bandwidth model proposed to account for event motion blur under arbitrary speed and lighting conditions. We also introduce a novel threshold-normalized total variation loss to improve the regularization of large textureless patches. Experiments on real and novel realistically simulated sequences verify our effectiveness. Our code, event simulator and synthetic event dataset will be open-sourced.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-26T15:57:20Z</published>
+    <arxiv:comment>Accepted to ECCV 2024. Project website is accessible at https://wengflow.github.io/deblur-e-nerf</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Weng Fei Low</name>
+    </author>
+    <author>
+      <name>Gim Hee Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.02746v1</id>
+    <title>Gas Loss by Ram Pressure Stripping and Internal Feedback From Low Mass Milky Way Satellites</title>
+    <updated>2016-05-09T20:00:51Z</updated>
+    <link href="https://arxiv.org/abs/1605.02746v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.02746v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The evolution of dwarf satellites of the Milky Way is affected by the combination of ram pressure and tidal stripping, and internal feedback from massive stars. We investigate gas loss processes in the smallest satellites of the Milky Way using three-dimensional, high resolution, idealized wind tunnel simulations, accounting for gas loss through both ram pressure stripping and expulsion by supernova feedback. Using initial conditions appropriate for a dwarf galaxy like Leo T, we investigate whether or not environmental gas stripping and internal feedback can quench these low mass galaxies on the expected timescales, shorter than 2 Gyr. We find that supernova feedback contributes negligibly to the stripping rate for these low star formation rate galaxies. However, we also find that ram pressure stripping is less efficient than expected in the stripping scenarios we consider. Our work suggests that, although ram pressure stripping can eventually completely strip these galaxies, other physics is likely at play to reconcile our computed stripping times with the rapid quenching timescales deduced from observations of low mass Milky Way dwarf galaxies. We discuss the roles additional physics may play in this scenario, including host-satellite tidal interactions, cored vs. cuspy dark matter profiles, reionization, and satellite pre-processing. We conclude that a proper accounting of these physics together is necessary to understand the quenching of low mass Milky Way satellites.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-09T20:00:51Z</published>
+    <arxiv:comment>16 pages, 7 figures. Accepted for publication in ApJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Andrew Emerick</name>
+    </author>
+    <author>
+      <name>Mordecai-Mark Mac Low</name>
+    </author>
+    <author>
+      <name>Jana Grcevich</name>
+    </author>
+    <author>
+      <name>Andrea Gatto</name>
+    </author>
+    <arxiv:doi>10.3847/0004-637X/826/2/148</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/0004-637X/826/2/148" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.12241v2</id>
+    <title>Convergence and Near-optimal Sampling for Multivariate Function Approximations in Irregular Domains via Vandermonde with Arnoldi</title>
+    <updated>2025-05-19T11:12:11Z</updated>
+    <link href="https://arxiv.org/abs/2301.12241v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.12241v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vandermonde matrices are usually exponentially ill-conditioned and often result in unstable approximations. In this paper, we introduce and analyze the \textit{multivariate Vandermonde with Arnoldi (V+A) method}, which is based on least-squares approximation together with a Stieltjes orthogonalization process, for approximating continuous, multivariate functions on $d$-dimensional irregular domains. The V+A method addresses the ill-conditioning of the Vandermonde approximation by creating a set of discrete orthogonal bases with respect to a discrete measure. The V+A method is simple and general, relying only on the domain's sample points. This paper analyzes the sample complexity of {the least-squares approximation that uses the V+A method}. We show that, for a large class of domains, this approximation gives a well-conditioned and near-optimal $N$-dimensional least-squares approximation using $M=O(N^2)$ equispaced sample points or $M=O(N^2\log N)$ random sample points, independently of $d$. We provide a comprehensive analysis of the error estimates and the rate of convergence of the least-squares approximation that uses the V+A method. Based on the multivariate V+A techniques, we propose a new variant of the weighted V+A least-squares algorithm that uses only $M=O(N\log N)$ sample points to achieve a near-optimal approximation. {Our initial numerical results validate that the V+A least-squares approximation method provides well-conditioned and near-optimal approximations for multivariate functions on (irregular) domains. Additionally, the (weighted) least-squares approximation that uses the V+A method performs competitively with state-of-the-art orthogonalization techniques and can serve as a practical tool for selecting near-optimal distributions of sample points in irregular domains.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-28T16:14:06Z</published>
+    <arxiv:comment>Keywords: least-squares, Vandermonde matrix, Arnoldi, polyval, polyfit, ill-conditioning, sample complexity, near-optimal sampling</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Wenqi Zhu</name>
+    </author>
+    <author>
+      <name>Yuji Nakatsukasa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.04695v2</id>
+    <title>Simulating Metal Mixing of Both Common and Rare Enrichment Sources in a Low Mass Dwarf Galaxy</title>
+    <updated>2020-01-03T22:20:10Z</updated>
+    <link href="https://arxiv.org/abs/1909.04695v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.04695v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One-zone models constructed to match observed stellar abundance patterns have been used extensively to constrain the sites of nucleosynthesis with sophisticated libraries of stellar evolution and stellar yields. The metal mixing included in these models is usually highly simplified, although it is likely to be a significant driver of abundance evolution. In this work we use high-resolution hydrodynamics simulations to investigate how metals from individual enrichment events with varying source energies $E_{\rm ej}$ mix throughout the multi-phase interstellar medium (ISM) of a low-mass ($M_{\rm gas}=2\times 10^{6}$~M$_{\odot}$), low-metallicity, isolated dwarf galaxy. These events correspond to the characteristic energies of both common and exotic astrophysical sites of nucleosynthesis, including: asymptotic giant branch winds ($E_{\rm ej}\sim$10$^{46}$~erg), neutron star-neutron star mergers ($E_{\rm ej}\sim$10$^{49}$~erg), supernovae ($E_{\rm ej}\sim$10$^{51}$~erg), and hypernovae ($E_{\rm ej}\sim$10$^{52}$~erg). We find the mixing timescales for individual enrichment sources in our dwarf galaxy to be long (100~Myr--1~Gyr), with a clear trend of increasing homogeneity for the more energetic events. Given these timescales, we conclude that the spatial distribution and frequency of events are important drivers of abundance homogeneity on large scales; rare, low $E_{\rm ej}$ events should be characterized by particularly broad abundance distributions. The source energy $E_{\rm ej}$ also correlates with the fraction of metals ejected in galactic winds, ranging anywhere from 60\% at the lowest energy to 95\% for hypernovae. We conclude by examining how the radial position, local ISM density, and global star formation rate influence these results.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-10T18:18:43Z</published>
+    <arxiv:comment>Submitted to ApJ. First revision. 17 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Andrew Emerick</name>
+    </author>
+    <author>
+      <name>Greg L. Bryan</name>
+    </author>
+    <author>
+      <name>Mordecai-Mark Mac Low</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/ab6efc</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/ab6efc" title="doi"/>
+  </entry>
+</feed>

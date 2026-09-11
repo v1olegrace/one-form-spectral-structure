@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/F4sEJEJW0eRSJlYCaWIbxS6Sq/c</id>
+  <title>arXiv Query: search_query=all:Uehling OR all:potential OR all:superposition OR all:of OR all:Yukawa OR all:potentials&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:39:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Uehling+OR+(all:potential+OR+(all:superposition+OR+(all:of+OR+(all:Yukawa+OR+all:potentials))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>342528</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2201.01935v1</id>
+    <title>Discrete Phase Space-Continuous Time Relativistic Klein-Gordon and Dirac Equations, and a New Non-Singular Yukawa Potential</title>
+    <updated>2022-01-06T06:14:57Z</updated>
+    <link href="https://arxiv.org/abs/2201.01935v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.01935v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper deals with the second quantization of interacting relativistic Fermionic and Bosonic fields in the arena of discrete phase space and continuous time. The mathematical formulation involves partial difference equations. The corresponding Feynman diagrams and a new $S^{\#}$-matrix theory is developed. In the special case of proton-proton Moller scattering via an exchange of a neutral meson, the explicit second order element $\langle f | S^{\#}_{(2)} |i \rangle$ is deduced. In the approximation of very low external three-momenta, a new Yukawa potential is explicitly derived from $\langle f | S^{\#}_{(2)} |i \rangle$. Moreover, it is rigorously proved that this new Yukawa potential is divergence-free. The mass parameter of the exchanged meson may be set to zero to obtain a type of scalar Boson exchange between hypothetical Fermions. This provides a limiting case of a new Coulomb type potential directly from the new singularity free Yukawa potential. A divergence-free Coulomb potential between two Fermions at two discrete points is shown to be proportional to the Euler beta function. Within this relativistic discrete phase space continuous time, a single quanta is shown to occupy the hyper-tori $S^{1}_{n^1} \times S^{1}_{n^3} \times S^{1}_{n^3}$ where $S^{1}_{n}$ is a circle of radius $\sqrt{2n+1}$.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-06T06:14:57Z</published>
+    <arxiv:comment>24 pages, 4 figures, 1 table. This is a continuation of our previous work arXiv:1905.02524 about non-singular Coulomb potentials to the current paper on non-singular Yukawa potentials. As such, there is some overlap between introductory sections in order to keep this paper self-contained</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Sci Rep 13, 20356 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Anadijiban Das</name>
+    </author>
+    <author>
+      <name>Rupak Chatterjee</name>
+    </author>
+    <arxiv:doi>10.1038/s41598-023-47344-w</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41598-023-47344-w" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.6737v8</id>
+    <title>On the properties of the Uehling potential</title>
+    <updated>2013-03-24T01:08:03Z</updated>
+    <link href="https://arxiv.org/abs/1210.6737v8" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.6737v8" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A number of properties of the Uehling potential are investigated. In particular, we determine the Fourier spatial resolution of the Uehling potential. The lowest-order correction on vacuum polarisation is re-written in terms of the electron density distribution function. We also discuss the consecutive approximations of the perturbation theory developed for the short-range Uehling potential in the Coulomb few-body systems (atoms). The cusp problem is formulated for few-body systems in which particles interact with each other by the mixed (Coulomb + Uehling) potential.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-25T04:15:08Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:1111.2303</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Alexei M. Frolov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.3433v4</id>
+    <title>Analytical formula for the Uehling potential</title>
+    <updated>2012-10-20T21:36:15Z</updated>
+    <link href="https://arxiv.org/abs/1110.3433v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.3433v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The closed analytical expression for the Uehling potential is derived. The Uehling potential describes the lowest-order correction on vacuum polarisation in atomic and muon-atomic systems. We also derive the analytical formula for the interaction potential between two electrically charged point particles which includes correction to the vacuum polarisation, but has correct asymptotic behaviour at larger $r$. Our three-term analytical formula for the Uehling potential opens a new avenue in the study of the vacuum polarisation in light atomic systems.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-15T18:56:17Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:1103.2044</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>European Physical Journal B v. 85, 348 - 351 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Alexei M. Frolov</name>
+    </author>
+    <author>
+      <name>David M. Wardlaw</name>
+    </author>
+    <arxiv:doi>10.1140/epjb/e2012-30408-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjb/e2012-30408-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.06173v4</id>
+    <title>On the vacuum-polarization Uehling potential for a Fermi charge distribution</title>
+    <updated>2020-01-05T20:15:53Z</updated>
+    <link href="https://arxiv.org/abs/1801.06173v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.06173v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present analytical formulas for the vacuum-polarization Uehling potential in the case where the finite size of the nucleus is modeled by a Fermi charge distribution. Using a Sommerfeld-type development, the potential is expressed in terms of multiple derivatives of a particular integral. The latter and its derivatives can be evaluated exactly in terms of Bickley-Naylor functions, which connection to the Uehling potential was already pointed out in the pure Coulomb case, and of usual Bessel functions of the second kind. The cusp and asymptotic expressions for the Uehling potential with a Fermi charge distribution are also provided. Analytical results for the higher-order-contribution Källèn-Sabry potential are given.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-14T21:01:53Z</published>
+    <arxiv:comment>submitted to European Physical Journal D</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Jean-Christophe Pain</name>
+    </author>
+    <arxiv:doi>10.1140/epjd/e2018-80457-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjd/e2018-80457-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.03360v5</id>
+    <title>Differential equation for the Uehling potential</title>
+    <updated>2024-03-04T08:42:13Z</updated>
+    <link href="https://arxiv.org/abs/2402.03360v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.03360v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The second-order differential equation for the Uehling potential is derived explicitly. The right side of this differential equation is a linear combination of the two Macdonald's functions $K_{0}(b r)$ and $K_{1}(b r)$. This central potential is of great interest in many QED problems, since it describes the lowest-order correction for vacuum polarization in few- and many-electron atoms, ions, muonic and bi-muonic atoms/ions as well as in other similar systems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-29T10:53:02Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Alexei M. Frolov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.21421v1</id>
+    <title>Plugging Weight-tying Nonnegative Neural Network into Proximal Splitting Method: Architecture for Guaranteeing Convergence to Optimal Point</title>
+    <updated>2025-10-24T13:01:35Z</updated>
+    <link href="https://arxiv.org/abs/2510.21421v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.21421v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a novel multi-layer neural network architecture that gives a promising neural network empowered optimization approach to the image restoration problem. The proposed architecture is motivated by the recent study of monotone Lipschitz-gradient (MoL-Grad) denoiser (Yukawa and Yamada, 2025) which establishes an ``explainable'' plug-and-play (PnP) framework in the sense of disclosing the objective minimized. The architecture is derived from the gradient of a superposition of functions associated with each layer, having the weights in the encoder and decoder tied with each other. Convexity of the potential, and thus monotonicity of its gradient (denoiser), is ensured by restricting ourselves to nonnegative weights. Unlike the previous PnP approaches with theoretical guarantees, the denoiser is free from constraints on the Lipschitz constant of the denoiser. Our PnP algorithm employing the weight-tying nonnegative neural network converges to a minimizer of the objective involving an ``implicit'' weakly convex regularizer induced by the denoiser. The convergence analysis relies on an efficient technique to preserve the overall convexity even in the ill-conditioned case where the loss function is not strongly convex. The simulation study shows the advantages of the Lipschitz-constraint-free nature of the proposed denoiser in training time as well as deblurring performance.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-24T13:01:35Z</published>
+    <arxiv:comment>13 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Haruya Shimizu</name>
+    </author>
+    <author>
+      <name>Masahiro Yukawa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.05381v1</id>
+    <title>Uehling potential and lowest-order corrections on vacuum polarization to the cross sections of some QED processes</title>
+    <updated>2021-11-08T18:46:24Z</updated>
+    <link href="https://arxiv.org/abs/2111.05381v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.05381v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Properties and different representations of the Uehling potential are investigated. Based on these properties and by using our formulas for the Fourier transform of the Uehling potential we have developed the new analytical, logically closed and physically transparent procedure which can be used to evaluate the lowest-order vacuum polarization correction to the cross sections of a number of QED processes, including the Mott electron scattering, bremsstrahlung, creation and/or annihilation of the $(e^{-}, e^{+})-$pair in the field of a heavy Coulomb center, e.g., atomic nucleus.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-08T18:46:24Z</published>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>European Physical Journal A - Hadrons and Nuclei, 57, 79 (2021) (2021)</arxiv:journal_ref>
+    <author>
+      <name>Alexei M. Frolov</name>
+    </author>
+    <arxiv:doi>10.1140/epja/s10050-021-00394-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epja/s10050-021-00394-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.00243v2</id>
+    <title>Influence of a Perfectly Conducting Plate on the Uehling Potential of QED</title>
+    <updated>2025-06-24T13:14:05Z</updated>
+    <link href="https://arxiv.org/abs/2506.00243v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.00243v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we investigate the influence of a perfectly conducting plate on the Uehling potential of Quantum Electrodynamics (QED), corresponding to the first loop correction to the classical Coulomb potential in that situation. We use the method of images adapted to the photon propagator, extending the method beyond the standard (classical) tree level calculation. We show that the effect of the plate on the quantum correction is much stronger than the expectation from a naive application of the method of images.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-30T21:19:48Z</published>
+    <arxiv:comment>19 pages + references, 7 figures; v2: minor changes, references added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Thales Azevedo</name>
+    </author>
+    <author>
+      <name>Fabricio A. Barone</name>
+    </author>
+    <author>
+      <name>Carlos Farina</name>
+    </author>
+    <author>
+      <name>Reinaldo de Melo e Souza</name>
+    </author>
+    <author>
+      <name>Gabriel Zarpelon</name>
+    </author>
+    <arxiv:doi>10.1140/epjc/s10052-025-14773-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjc/s10052-025-14773-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0401126v2</id>
+    <title>Amplification of coupling for Yukawa potentials</title>
+    <updated>2004-11-09T22:50:51Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0401126v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0401126v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is well known that Yukawa potentials permit bound states in the Schrodinger equation only if the ratio of the exchanged mass to bound mass is below a critical multiple of the coupling constant. However, arguments suggested by the Darwin term imply a more complex situation. By numerically studying the Dirac equation with a Yukawa potential we investigate this amplification effect.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-01-19T18:16:50Z</published>
+    <arxiv:comment>7 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev. D69 (2004) 034006</arxiv:journal_ref>
+    <author>
+      <name>S. De Leo</name>
+    </author>
+    <author>
+      <name>P. Rotelli</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.69.034006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.69.034006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.2200v1</id>
+    <title>A New Model for Calculating the Binding Energy of Lithium Nucleus under the Generalized Yukawa Potential and Hellmann Potential</title>
+    <updated>2014-07-03T07:56:08Z</updated>
+    <link href="https://arxiv.org/abs/1407.2200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.2200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, the Schrödinger equation for 6-body system is studied. We solved this equation for lithium nucleus by using supersymmetry method with the specific potentials. These potentials are Yukawa potential, the generalized Yukawa potential and Hellmann potential. The results of our model for all calculations show that the ground state binding energy of Lithium nucleus with these potentials are very close to the ones obtained in experiments.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-03T07:56:08Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1106.3683, arXiv:0709.2931, arXiv:math-ph/0107015 by other authors</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>M. Ghazvini</name>
+    </author>
+    <author>
+      <name>N. Salehi</name>
+    </author>
+    <author>
+      <name>A. A. Rajabi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.7234v2</id>
+    <title>Analytical matrix elements of the Uehling potential in three-body systems, and applications to exotic molecules</title>
+    <updated>2012-12-28T18:53:24Z</updated>
+    <link href="https://arxiv.org/abs/1211.7234v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.7234v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Exact analytical expressions for the matrix elements of the Uehling potential in a basis of explicitly correlated exponential wave functions are presented. The obtained formulas are then used to compute with an improved accuracy the vacuum polarization correction to the binding energy of muonic and pionic molecules, both in a first-order perturbative treatment and in a nonperturbative approach. The first resonant states lying below the n=2 threshold are also studied, by means of the stabilization method with a real dilatation parameter.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-30T12:56:39Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Physical Review A 87 (2013) 012506</arxiv:journal_ref>
+    <author>
+      <name>Jean-Philippe Karr</name>
+      <arxiv:affiliation>DPM, LKB - Jussieu</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Laurent Hilico</name>
+      <arxiv:affiliation>DPM, LKB - Jussieu</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.87.012506</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.87.012506" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.05666v2</id>
+    <title>Fast macroscopic-superposition-state generation by coherent driving</title>
+    <updated>2017-12-26T08:07:21Z</updated>
+    <link href="https://arxiv.org/abs/1703.05666v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.05666v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a scheme to generate macroscopic superposition states in spin ensembles, where a coherent driving field is applied to accelerate the generation of macroscopic superposition states. The numerical calculation demonstrates that this approach allows us to generate a superposition of two classically distinct states of the spin ensemble with a high fidelity above 0.96 for 300 spins. For the larger spin ensemble, though the fidelity slightly decline, it maintains above 0.85 for an ensemble of 500 spins. The time to generate a macroscopic superposition state is also numerically calculated, which shows that the significantly shortened generation time allows us to achieve such macroscopic superposition states within a typical coherence time of the system.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-16T15:14:41Z</published>
+    <arxiv:comment>17 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 97, 013820 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Emi Yukawa</name>
+    </author>
+    <author>
+      <name>G. J. Milburn</name>
+    </author>
+    <author>
+      <name>Kae Nemoto</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.97.013820</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.97.013820" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.09759v2</id>
+    <title>On the Novikov problem for superposition of periodic potentials</title>
+    <updated>2024-12-16T12:17:43Z</updated>
+    <link href="https://arxiv.org/abs/2409.09759v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.09759v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the Novikov problem, namely, the problem of describing the level lines of quasiperiodic functions on the plane, for a special class of potentials that have important applications in the physics of two-dimensional systems. Potentials of this type are given by a superposition of periodic potentials and represent quasiperiodic functions on a plane with four quasiperiods. Here we study an important special case when the periodic potentials have the same rotational symmetry. In the generic case, their superpositions have ``chaotic'' open level lines, which brings them close to random potentials. At the same time, the Novikov problem has interesting features also for ``magic'' rotation angles, which lead to the emergence of periodic superpositions.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-15T15:00:25Z</published>
+    <arxiv:comment>21 pages, 21 figure, revtex</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>A. Ya. Maltsev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.12789v1</id>
+    <title>Quantum tunneling of a singular potential</title>
+    <updated>2021-02-25T11:21:13Z</updated>
+    <link href="https://arxiv.org/abs/2102.12789v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.12789v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Singularity of the potential function makes quantum tunneling problem mathematically underdetermined. To circumvent the difficulties it introduced in physics, a potential singularity cutoff is often used, followed by a reverse limit transition, or is a suitable self-adjoint extension of the Hamiltonian along the entire coordinate axis made. However, both of them somehow affect the singular nature of the problem, and so I discuss here how quantum tunneling will behave if the original singular nature of the Schrodinger equation left untuched. To do this, I use the property of the probability density current that the singularities are mutually destroyed in it. It is found that the mildly singular potential has a finite, but unusual tunneling transparency, in particular, a non-zero value at zero energy of incident particle. The tunneling of one dimensional Coulomb potential exhibits infinitely fast and complete oscillation at the zero energy boundary and a suppresion to zero in the high-energy limit. In the more singular region, the tunneling becomes forbidden, theby repeating the well-known result of the regularized counterparts.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-25T11:21:13Z</published>
+    <arxiv:comment>The quantum tunneling of a potential is considered with the preservation of the singular character of the corresponding Scrodinger equation. It is found that that the weakly singular and Coulomb potentials are partially penetrable but reveals non-standard behavior, in particular, accelerating complete oscillations with the approach to the zero energy</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>A. Zh. Muradyan</name>
+    </author>
+    <arxiv:doi>10.3103/S1068337221020122</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3103/S1068337221020122" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.22202v1</id>
+    <title>On Potentials and Complementary Potentials in One-Dimensional Nonlocal Integral Formulations</title>
+    <updated>2026-06-20T19:40:06Z</updated>
+    <link href="https://arxiv.org/abs/2606.22202v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.22202v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The present research presents potentials and complementary potentials used in the one-dimensional nonlocal integral formulations. The pure stress and the pure strain nonlocal formulations were considered. While the potential used in the strain driven formulation is well known, the complementary potential has not yet been presented in the literature. The same applies to the stress driven formulation. The equivalent formulations are obtained by resorting to the Legendre transformation, and their equivalence is proved. It is also shown that these results can be used to postulate a novel potential, i.e. a kind of mixed stress-strain potential, which is, however, as ill-conditioned as the pure strain-driven formulation. Finally, an example is given that practically confirms that the stress-driven formulations resulting from the potential and the complementary potential are equivalent.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-20T19:40:06Z</published>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <arxiv:journal_ref>Čanađija, M., Skoblar, A. On potentials and complementary potentials in one-dimensional nonlocal integral formulations. Meccanica 60, 3387-3396 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Marko Čanađija</name>
+    </author>
+    <author>
+      <name>Ante Skoblar</name>
+    </author>
+    <arxiv:doi>10.1007/s11012-025-01985-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11012-025-01985-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.11567v2</id>
+    <title>Inflaton Effective Potential from Fermions for General $ε$</title>
+    <updated>2021-06-23T17:09:00Z</updated>
+    <link href="https://arxiv.org/abs/2007.11567v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.11567v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We accurately approximate the contribution of a Yukawa-coupled fermion to the inflaton effective potential for inflationary geometries with a general first slow roll parameter $ε(t)$. For $ε= 0$ our final result agrees with the famous computation of Candelas and Raine done long ago on de Sitter background, and both computations degenerate to the result of Coleman and Weinberg in the flat space limit. Our result contains a small part that depends nonlocally on the inflationary geometry. Even in the numerically larger local part, very little of the $ε$ dependence takes the form of Ricci scalars. We discuss the implications of these corrections for inflation.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-22T17:44:48Z</published>
+    <arxiv:comment>25 pages, 9 figures, uses LaTeX2e. Version 2 (32 pages, 11 figures) substantially revised to provide a detailed comparison between the effective potential and the classical potential, and to explain the tendency for smooth potentials to favor high reheat temperatures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 103, 125013 (2021)</arxiv:journal_ref>
+    <author>
+      <name>A. Sivasankaran</name>
+    </author>
+    <author>
+      <name>R. P. Woodard</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.103.125013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.103.125013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0307124v2</id>
+    <title>Potentials of a uniformly moving point charge in the Coulomb gauge</title>
+    <updated>2004-01-20T16:07:40Z</updated>
+    <link href="https://arxiv.org/abs/physics/0307124v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0307124v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Coulomb-gauge vector potential of a uniformly moving point charge is obtained by calculating the gauge function for the transformation between the Lorenz and Coulomb gauges. The expression obtained for the difference between the vector potentials in the two gauges is shown to satisfy a Poisson equation to which the inhomogeneous wave equation for this quantity can be reduced. The right-hand side of the Poisson equation involves an important but easily overlooked delta-function term that arises from a second-order partial derivative of the Coulomb potential of a point charge.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-07-24T14:19:45Z</published>
+    <arxiv:comment>To appear in European Journal of Physics. A delta-function identity for a second-order partial derivative of the Coulomb potential of a point charge is now used for the regularization of the rhs of the Poisson equation for the difference between the vector potentials in the Coulomb and Lorenz gauges</arxiv:comment>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <arxiv:journal_ref>Eur. J. Phys. vol. 25, 351--360 (2004)</arxiv:journal_ref>
+    <author>
+      <name>V. Hnizdo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.0890v2</id>
+    <title>Folded potentials in cluster physics - a comparison of Yukawa and Coulomb potentials with Riesz fractional integrals</title>
+    <updated>2013-09-20T08:31:41Z</updated>
+    <link href="https://arxiv.org/abs/1305.0890v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.0890v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In cluster physics a single particle potential to determine the microscopic part of the total energy of a collective configuration is necessary to calculate the shell- and pairing effects. In this paper we investigate the properties of the Riesz fractional integrals and compare their properties with the standard Coulomb and Yukawa potentials commonly used. It is demonstrated, that Riesz potentials may serve as a promising extension of standard potentials and may be reckoned as a smooth transition from Coulomb to Yukawa like potentials, depending of the fractional parameter $α$. For the macroscopic part of the total energy the Riesz potentials treat the Coulomb-, symmetry- and pairing-contributions from a generalized point of view, since they turn out to be similar realizations of the same fractional integral at distinct $α$ values.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-04T08:00:47Z</published>
+    <arxiv:comment>final version</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>J. Phys. A.: Math. Theor. 46 (2013) 405203 (12pp)</arxiv:journal_ref>
+    <author>
+      <name>R. Herrmann</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/46/40/405203</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/46/40/405203" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0605044v1</id>
+    <title>Lorentz Violation and the Yukawa Potential</title>
+    <updated>2006-05-03T18:07:28Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0605044v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0605044v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We analyze Lorentz violations in the bosonic sector of a Yukawa-type quantum field theory. The nonrelativistic potential may be determined to all orders in the Lorentz violation, and we find that only specific types of modifications to the normal Yukawa potential can be generated. The influence of this modified potential on scattering and bounds states is calculated. These results could be relevant to the search for new macroscopic forces, which may not necessarily be Lorentz invariant.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-05-03T18:07:28Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett.B639:679-683,2006</arxiv:journal_ref>
+    <author>
+      <name>B. Altschul</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2006.07.021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2006.07.021" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.3683v1</id>
+    <title>Analytical Treatment of the Oscillating Yukawa Potential</title>
+    <updated>2011-06-18T20:13:40Z</updated>
+    <link href="https://arxiv.org/abs/1106.3683v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.3683v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using a suitable Laguerre basis set that ensures a tridiagonal matrix representation of the reference Hamiltonian, we were able to evaluate in closed form the matrix elements of the generalized Yukawa potential with complex screening parameter. This enabled us to treat analytically both the cosine and sine-like Yukawa potentials on equal footing and compute their bound states spectrum as the eigenvalues of the associated analytical matrix representing their Hamiltonians. Finally we used a carefully designed complex scaling method to evaluate the resonance energies and compared our results satisfactorily with those obtained in the literature.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-18T20:13:40Z</published>
+    <arxiv:comment>8 pages 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>H. Bahlouli</name>
+    </author>
+    <author>
+      <name>M. S. Abdelmonem</name>
+    </author>
+    <author>
+      <name>S. M. Al-Marzoug</name>
+    </author>
+    <arxiv:doi>10.1016/j.chemphys.2011.12.002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.chemphys.2011.12.002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13568v1</id>
+    <title>Superposition as Lossy Compression: Measure with Sparse Autoencoders and Connect to Adversarial Vulnerability</title>
+    <updated>2025-12-15T17:25:39Z</updated>
+    <link href="https://arxiv.org/abs/2512.13568v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13568v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural networks achieve remarkable performance through superposition: encoding multiple features as overlapping directions in activation space rather than dedicating individual neurons to each feature. This challenges interpretability, yet we lack principled methods to measure superposition. We present an information-theoretic framework measuring a neural representation's effective degrees of freedom. We apply Shannon entropy to sparse autoencoder activations to compute the number of effective features as the minimum neurons needed for interference-free encoding. Equivalently, this measures how many "virtual neurons" the network simulates through superposition. When networks encode more effective features than actual neurons, they must accept interference as the price of compression. Our metric strongly correlates with ground truth in toy models, detects minimal superposition in algorithmic tasks, and reveals systematic reduction under dropout. Layer-wise patterns mirror intrinsic dimensionality studies on Pythia-70M. The metric also captures developmental dynamics, detecting sharp feature consolidation during grokking. Surprisingly, adversarial training can increase effective features while improving robustness, contradicting the hypothesis that superposition causes vulnerability. Instead, the effect depends on task complexity and network capacity: simple tasks with ample capacity allow feature expansion (abundance regime), while complex tasks or limited capacity force reduction (scarcity regime). By defining superposition as lossy compression, this work enables principled measurement of how neural networks organize information under computational constraints, connecting superposition to adversarial robustness.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T17:25:39Z</published>
+    <arxiv:comment>Accepted to TMLR, view HTML here: https://leonardbereska.github.io/blog/2025/superposition/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Transactions on Machine Learning Research, 2025</arxiv:journal_ref>
+    <author>
+      <name>Leonard Bereska</name>
+    </author>
+    <author>
+      <name>Zoe Tzifa-Kratira</name>
+    </author>
+    <author>
+      <name>Reza Samavi</name>
+    </author>
+    <author>
+      <name>Efstratios Gavves</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.5900v1</id>
+    <title>The generalized pseudospectral approach to the bound states of Hulthen and Yukawa potentials</title>
+    <updated>2013-12-20T11:45:03Z</updated>
+    <link href="https://arxiv.org/abs/1312.5900v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.5900v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The generalized pseudospectral method is employed to calculate the bound states of Hulthén and Yukawa potentials in quantum mechanics, with special emphases on higher excited states and stronger couplings. Accurate energy eigenvalues, expectation values and radial probability densities are obtained through a nonuniform and optimal spatial discretization of the radial Schrödinger equation. Results accurate up to thirteen to fourteen significant figures are reported for all the 55 eigenstates of both these potentials with $n\leq$10 for arbitrary values of the screening parameters covering a wide range of interaction. Furthermore, excited states as high as up to $n=17$ have been computed with good accuracy for both these potentials. Excellent agreement with the available literature data has been observed in all cases. The $n&gt;6$ states of Yukawa potential has been considerably improved over all other existing results currently available, while the same for Hulthén potential are reported here for the first time. Excepting the $1s$ and $2s$ states of Yukawa potential, the present method surpasses in accuracy all other existing results in the stronger coupling region for all other states of both these systems. This offers a simple and efficient scheme for the accurate calculation of these and other screened Coulomb potentials.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-20T11:45:03Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Pramana-Journal of Physics, 65, 1 (2005)</arxiv:journal_ref>
+    <author>
+      <name>Amlan K. Roy</name>
+    </author>
+    <arxiv:doi>10.1007/BF02704371</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/BF02704371" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.03618v2</id>
+    <title>The scattering phase shifts of the Hulthén-type potential plus Yukawa potential</title>
+    <updated>2016-06-08T13:58:28Z</updated>
+    <link href="https://arxiv.org/abs/1604.03618v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.03618v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the aid of an improved short-range approximation, the bound state energies and the scattering phase shifts for a Hulthén- type potential plus Yukawa potential are calculated within the framework of Nikiforov-Uvarov and standard methods, respectively. Our numerical calculations show that the presence of Yukawa potential has a significant influence on bound state energies and the wave number-dependent phase shifts for any arbitrary values of the screening parameter α and angular momentum l.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-12T23:46:18Z</published>
+    <arxiv:comment>12 pages, 3 Tables</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Kayode John Oyewumi</name>
+    </author>
+    <author>
+      <name>Oluwatimilehin Joshua Oluwadare</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.1406v1</id>
+    <title>Relativistic new Yukawa-like potential and tensor coupling</title>
+    <updated>2012-10-04T12:08:18Z</updated>
+    <link href="https://arxiv.org/abs/1210.1406v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.1406v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We approximately solve the Dirac equation for a new suggested generalized inversely quadratic Yukawa (GIQY) potential including a Coulomb-like tensor interaction with arbitrary spin-orbit coupling quantum number In the framework of the spin and pseudospin (p-spin) symmetry, we obtain the energy eigenvalue equation and the corresponding eigenfunctions, in closed form, by using the parametric Nikiforov-Uvarov (NU) method. The numerical results show that the Coulomb-like tensor interaction, removes degeneracies between spin and p-spin state doublets. The Dirac solutions in the presence of exact spin symmetry are reduced to Schrödinger solutions for Yukawa and inversely quadratic Yukawa potentials.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-04T12:08:18Z</published>
+    <arxiv:comment>22 pages, 1 figure. arXiv admin note: substantial text overlap with arXiv:1203.6769</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Few-Body Systems 53 (3-4) (2012) 487-498</arxiv:journal_ref>
+    <author>
+      <name>Sameer M. Ikhdair</name>
+    </author>
+    <author>
+      <name>Majid Hamzavi</name>
+    </author>
+    <arxiv:doi>10.1007/s00601-012-0475-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00601-012-0475-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0701220v1</id>
+    <title>Ewald sums for Yukawa potentials in quasi-two-dimensional systems</title>
+    <updated>2007-01-10T19:16:09Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0701220v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0701220v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this note, we derive Ewald sums for Yukawa potential for three dimensional systems with two dimensional periodicity. This sums are derived from the Ewald sums for Yukawa potentials with three dimensional periodicity [G. Salin and J.-M. Caillol, J. Chem. Phys. {\bf 113}, 10459 (2000)] by using the method proposed by Parry for the Coulomb interactions [D.E. Parry, Surf. Sci. {\bf 49}, 433 (1975); {\bf 54}, 195 (1976)].</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-01-10T19:16:09Z</published>
+    <arxiv:comment>7 pages, no figure. To appear in J. Chem. Phys</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <arxiv:journal_ref>The Journal of Chemical Physics, 126, 056101 (2007)</arxiv:journal_ref>
+    <author>
+      <name>Martial Mazars</name>
+    </author>
+    <arxiv:doi>10.1063/1.2431371</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2431371" title="doi"/>
+  </entry>
+</feed>

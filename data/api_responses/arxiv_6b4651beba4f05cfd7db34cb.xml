@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/n5Fzh3uN3Ds2rFAv924ou96H+wk</id>
+  <title>arXiv Query: search_query=all:regularization OR all:truncated OR all:moment OR all:problem OR all:stability OR all:estimate&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:52:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:regularization+OR+(all:truncated+OR+(all:moment+OR+(all:problem+OR+(all:stability+OR+all:estimate))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>962712</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.15406v1</id>
+    <title>Conditional Stability and Numerical Reconstruction of a Parabolic Inverse Source Problem Using Carleman Estimates</title>
+    <updated>2025-08-21T09:54:50Z</updated>
+    <link href="https://arxiv.org/abs/2508.15406v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.15406v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we develop a new numerical approach for recovering a spatially dependent source component in a standard parabolic equation from partial interior measurements. We establish novel conditional Lipschitz stability and Hölder stability for the inverse problem with and without boundary conditions, respectively, using suitable Carleman estimates. Then we propose a numerical approach for solving the inverse problem using conforming finite element approximations in both time and space. Moreover, by utilizing the conditional stability estimates, we prove rigorous error bounds on the discrete approximation. We present several numerical experiments to illustrate the effectiveness of the approach.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-21T09:54:50Z</published>
+    <arxiv:comment>inverse source problem, Carleman estimate, stability estimate, finite element method, error estimate</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Tianhao Hu</name>
+    </author>
+    <author>
+      <name>Xinchi Huang</name>
+    </author>
+    <author>
+      <name>Bangti Jin</name>
+    </author>
+    <author>
+      <name>Qimeng Quan</name>
+    </author>
+    <author>
+      <name>Zhi Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.06586v1</id>
+    <title>Variational source conditions and stability estimates for inverse electromagnetic medium scattering problems</title>
+    <updated>2015-12-21T11:33:00Z</updated>
+    <link href="https://arxiv.org/abs/1512.06586v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.06586v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is concerned with the inverse problem to recover the scalar, complex-valued refractive index of a medium from measurements of scattered time-harmonic electromagnetic waves at a fixed frequency. The main results are two variational source conditions for near and far field data, which imply logarithmic rates of convergence of regularization methods, in particular Tikhonov regularization, as the noise level tends to $0$. Moreover, these variational source conditions imply conditional stability estimates which improve and complement known stability estimates in the literature.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-21T11:33:00Z</published>
+    <arxiv:comment>inverse scattering, Maxwell equations, stability, regularization, source condition</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Inverse Problems and Imaging, 2007, Volume 11, Issue 1, Pages: 203 - 220</arxiv:journal_ref>
+    <author>
+      <name>Frederic Weidling</name>
+    </author>
+    <author>
+      <name>Thorsten Hohage</name>
+    </author>
+    <arxiv:doi>10.3934/ipi.2017010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3934/ipi.2017010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4567v1</id>
+    <title>On degenerate Hamburger moment problem and extensions of positive semidefinite Hankel block matrices</title>
+    <updated>2008-12-24T19:22:41Z</updated>
+    <link href="https://arxiv.org/abs/0812.4567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we consider two related objects: singular positive semidefinite Hankel block--matrices and associated degenerate truncated matrix Hamburger moment problems. The description of all solutions of a degenerate matrix Hamburger moment problem is given in terms of a linear fractional transformation. The case of interest is the Hamburger moment problem whose Hankel block--matrix admits a positive semidefinite Hankel extension.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-24T19:22:41Z</published>
+    <arxiv:comment>The corrected version of the paper "On degenerate Hamburger moment problem and extensions of nonnegative Hankel block matrices", Integral Equations Operator Theory 25 (1996), no. 3, 253--276</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Bolotnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.09344v2</id>
+    <title>Stein's method of moments for truncated multivariate distributions</title>
+    <updated>2024-06-15T21:13:38Z</updated>
+    <link href="https://arxiv.org/abs/2312.09344v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.09344v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use Stein characterisations to derive new moment-type estimators for the parameters of several truncated multivariate distributions in the i.i.d. case; we also derive the asymptotic properties of these estimators. Our examples include the truncated multivariate normal distribution and truncated products of independent univariate distributions. The estimators are explicit and therefore provide an interesting alternative to the maximum-likelihood estimator (MLE). The quality of these estimators is assessed through competitive simulation studies, in which we compare their behaviour to the performance of the MLE and the score matching approach.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-14T21:13:30Z</published>
+    <arxiv:comment>The original preprint ("Stein estimation in a multivariate setting") is now split into two preprints: "Stein's method of moments for truncated multivariate distributions" and "Stein's Method of Moments on the Sphere"</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Adrian Fischer</name>
+    </author>
+    <author>
+      <name>Robert E. Gaunt</name>
+    </author>
+    <author>
+      <name>Yvik Swan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.06122v2</id>
+    <title>The operator approach to the truncated multidimensional moment problem</title>
+    <updated>2018-11-26T21:43:01Z</updated>
+    <link href="https://arxiv.org/abs/1802.06122v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.06122v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the truncated multidimensional moment problem with a general type of truncations. The operator approach to the moment problem is presented. A way to construct atomic solutions of the moment problem is indicated.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-16T21:06:59Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.02396v1</id>
+    <title>On the truncated operator trigonometric moment problem</title>
+    <updated>2015-01-10T21:43:24Z</updated>
+    <link href="https://arxiv.org/abs/1501.02396v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.02396v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the truncated operator trigonometric moment problem. All solutions of the moment problem are described by a Nevanlinna-type parameterization. In the case of moments acting in a separable Hilbert space, the matrices of the operator coefficients in the Nevanlinna-type formula are calculated by the prescribed moments. Conditions for the determinacy of the moment problem are given, as well.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-10T21:43:24Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.10278v2</id>
+    <title>Finite element approximation of source term identification with TV-regularization</title>
+    <updated>2019-07-04T16:58:43Z</updated>
+    <link href="https://arxiv.org/abs/1901.10278v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.10278v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we investigate the problem of recovering the source term in an elliptic system from a measurement of the state on a part of the boundary. For the particular interest in reconstructing probably discontinuous sources, we use the standard least squares method with the total variation regularization. The finite element method is then applied to discretize the minimization problem, we show the stability and the convergence of this technique. Furthermore, we have proposed an algorithm to stably solve the minimization problem. We prove the iterate sequence generated by the derived algorithm converging to a minimizer of the regularization problem, and that convergence measurement is also established. Finally, a numerical experiment is presented to illustrate our theoretical findings.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-29T13:38:30Z</published>
+    <arxiv:comment>Inverse source problem, boundary observation, total variation regularization, ill-posedness, finite element method, stability and convergence, elliptic boundary value problem</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Michael Hinze</name>
+    </author>
+    <author>
+      <name>Tran Nhan Tam Quyen</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6420/ab3478</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6420/ab3478" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.10179v1</id>
+    <title>On the Matricial Truncated Moment Problem. II</title>
+    <updated>2023-11-16T20:10:48Z</updated>
+    <link href="https://arxiv.org/abs/2311.10179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.10179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We continue the study of truncated matrix-valued moment problems begun in arXiv:2310.00957. Let $q\in\mathbb{N}$. Suppose that $(\mathcal{X},\mathfrak{X})$ is a measurable space and $\mathcal{E}$ is a finite-dimensional vector space of measurable mappings of $\mathscr{X}$ into $\mathcal{H}_q$, the Hermitian $q\times q$ matrices. A linear functional $Λ$ on $\mathcal{E}$ is called a moment functional if there exists a positive $\mathcal{H}_q$-valued measure $μ$ on $(\mathcal{X},\mathfrak{X})$ such that $Λ(F)=\int_\mathcal{X} \langle F, \mathrm{d}μ\rangle$ for $F\in \mathcal{E}$.
+  In this paper a number of special topics on the truncated matricial moment problem are treated. We restate a result from (Mourrain and Schmüdgen, 2016) to obtain a matricial version of the flat extension theorem. Assuming that $\mathcal{X}$ is a compact space and all elements of $ \mathcal{E}$ are continuous on $\mathcal{X}$ we characterize moment functionals in terms of positivity and obtain an ordered maximal mass representing measure for each moment functional. The set of masses of representing measures at a fixed point and some related sets are studied. The class of commutative matrix moment functionals is investigated. We generalize the apolar scalar product for homogeneous polynomials to the matrix case and apply this to the matricial truncated moment problem.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-16T20:10:48Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Conrad Mädler</name>
+    </author>
+    <author>
+      <name>Konrad Schmüdgen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.00354v1</id>
+    <title>Generalized truncated moment problems with unbounded sets</title>
+    <updated>2022-07-31T03:53:13Z</updated>
+    <link href="https://arxiv.org/abs/2208.00354v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.00354v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies generalized truncated moment problems with unbounded sets. First, we study geometric properties of the truncated moment cone and its dual cone of nonnegative polynomials. By the technique of homogenization, we give a convergent hierarchy of Moment-SOS relaxations for approximating these cones. With them, we give a Moment-SOS method for solving generalized truncated moment problems with unbounded sets. Finitely atomic representing measures, or certificates for their nonexistence, can be obtained by the proposed method. Numerical experiments and applications are also given.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-31T03:53:13Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Lei Huang</name>
+    </author>
+    <author>
+      <name>Jiawang Nie</name>
+    </author>
+    <author>
+      <name>Ya-Xiang Yuan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.10343v1</id>
+    <title>The realizability problem as a special case of the infinite-dimensional truncated moment problem</title>
+    <updated>2023-05-17T16:27:34Z</updated>
+    <link href="https://arxiv.org/abs/2305.10343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.10343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The realizability problem is a well-known problem in the analysis of complex systems, which can be modeled as an infinite-dimensional moment problem. More precisely, as a truncated $K-$moment problem where $K$ is the space of all possible configurations of the components of the considered system. The power of this reformulation has been already exploited in \cite{KuLeSp11}, where necessary and sufficient conditions of Haviland type have been obtained for several instances of the realizability problem. In this article we exploit this same reformulation to apply to the realizability problem the recent advances obtained in \cite{CGIK2022} for the truncated moment problem for linear functionals on general unital commutative algebras. This provides alternative proofs and sometimes extensions of several results in \cite{KuLeSp11}, allowing to finally embed them in the unified framework for the infinite-dimensional truncated moment problem presented in \cite{CGIK2022}.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-17T16:27:34Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Raúl E. Curto</name>
+    </author>
+    <author>
+      <name>Maria Infusino</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.04495v2</id>
+    <title>On the truncated multidimensional moment problems in $\mathbb{C}^n$</title>
+    <updated>2021-02-11T13:10:51Z</updated>
+    <link href="https://arxiv.org/abs/2102.04495v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.04495v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of finding a (non-negative) measure $μ$ on $\mathfrak{B}(\mathbb{C}^n)$ such that $\int_{\mathbb{C}^n} \mathbf{z}^{\mathbf{k}} dμ(\mathbf{z}) = s_{\mathbf{k}}$, $\forall \mathbf{k}\in\mathcal{K}$. Here $\mathcal{K}$ is an arbitrary finite subset of $\mathbb{Z}^n_+$, which contains $(0,...,0)$, and $s_{\mathbf{k}}$ are prescribed complex numbers (we use the usual notations for multi-indices). There are two possible interpretations of this problem. At first, one may consider this problem as an extension of the truncated multidimensional moment problem on $\mathbb{R}^n$, where the support of the measure $μ$ is allowed to lie in $\mathbb{C}^n$. Secondly, the moment problem is a particular case of the truncated moment problem in $\mathbb{C}^n$, with special truncations. We give simple conditions for the solvability of the above moment problem. As a corollary, we have an integral representation with a non-negative measure for linear functionals on some linear subspaces of polynomials.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-08T19:32:05Z</published>
+    <arxiv:comment>Corollary 1 was corrected</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.00486v2</id>
+    <title>The strong truncated Hamburger moment problem with and without gaps</title>
+    <updated>2022-05-15T08:08:12Z</updated>
+    <link href="https://arxiv.org/abs/2101.00486v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.00486v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The strong truncated Hamburger moment problem (STHMP) of degree $(-2k_1,2k_2)$ asks to find necessary and sufficient conditions for the existence of a positive Borel measure, supported on $\mathbb{R}\setminus \{0\}$, such that $β_i=\int x^idμ\; (-2k_1\leq i\leq 2k_2)$. Using the solution of the truncated Hamburger moment problem and the properties of Hankel matrices we solve the STHMP. Then, using the equivalence with the STHMP of degree $(-2k,2k)$, we obtain the solution of the 2-dimensional truncated moment problem (TMP) of degree $2k$ with variety $xy=1$, first solved by Curto and Fialkow. Our addition to their result is the fact previously known only for $k=2$, that the existence of a measure is equivalent to the existence of a flat extension of the moment matrix. Further on, we solve the STHMP of degree $(-2k_1,2k_2)$ with one missing moment in the sequence, i.e., $β_{-2k_1+1}$ or $β_{2k_2-1}$, which also gives the solution of the TMP with variety $x^2y=1$ as a special case, first studied by Fialkow.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-02T17:49:59Z</published>
+    <arxiv:comment>20 pages. arXiv admin note: text overlap with arXiv:2007.11846</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>J. Math. Anal. Appl. 516 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Aljaž Zalar</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmaa.2022.126563</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmaa.2022.126563" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1403.5592v2</id>
+    <title>The truncated matrix trigonometric moment problem with an open gap</title>
+    <updated>2015-05-16T19:44:36Z</updated>
+    <link href="https://arxiv.org/abs/1403.5592v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.5592v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is a continuation of our previous investigations on the truncated matrix trigonometric moment problem in Ukrainian Math. J., 2011, \textbf{63}, no. 6, 786-797, and Ukrainian Math. J., 2013, \textbf{64}, no. 8, 1199-1214. In this paper we shall study the truncated matrix trigonometric moment problem with an additional constraint posed on the matrix measure $M_{\mathbb{T}}(δ)$, $δ\in \mathfrak{B}(\mathbb{T})$, generated by the seeked function $M(x)$: $M_{\mathbb{T}}(Δ) = 0$, where $Δ$ is a given open subset of $\mathbb{T}$ (called a gap). We present necessary and sufficient conditions for the solvability of the moment problem with a gap. All solutions of the moment problem with a gap can be constructed by a Nevanlinna-type formula.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-21T23:31:41Z</published>
+    <arxiv:comment>14 pages. arXiv admin note: text overlap with arXiv:1401.5413</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.06121v2</id>
+    <title>An Extension of the Bianchi-Egnell Stability Estimate to Bakry, Gentil, and Ledoux's Generalization of the Sobolev Inequality to Continuous Dimensions</title>
+    <updated>2020-09-02T20:12:20Z</updated>
+    <link href="https://arxiv.org/abs/1512.06121v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.06121v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper extends a stability estimate of the Sobolev Inequality established by G. Bianchi and H. Egnell in their paper "A note on the Sobolev Inequality." Bianchi and Egnell's Stability Estimate answers the question raised by H. Brezis and E. H. Lieb: "Is there a natural way to bound $\| \nabla \varphi \|_2^2 - C_N^2 \| \varphi \|_\frac{2N}{N-2}^2$ from below in terms of the 'distance' of $\varphi$ from the manifold of optimizers in the Sobolev Inequality?" Establishing stability estimates - also known as quantitative versions of sharp inequalities - of other forms of the Sobolev Inequality, as well as other sharp inequalities, is an active topic. In this paper, we extend Bianchi and Egnell's Stability Estimate to a Sobolev Inequality for "continuous dimensions." Bakry, Gentil, and Ledoux have recently proved a sharp extension of the Sobolev Inequality for functions on $\mathbb{R}_+ \times \mathbb{R}^n$, which can be considered as an extension to "continuous dimensions." V. H. Nguyen determined all cases of equality. The present paper extends the Bianchi-Egnell stability analysis for the Sobolev Inequality to this "continuous dimensional" generalization.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-17T22:25:26Z</published>
+    <arxiv:comment>This replaces the original article, which claimed to prove a Bianchi-Egnell Stability Estimate for an extension of the Sobolev Inequality to m+n&gt;2 dimensions, n a positive integer and m&gt;0 possibly noninteger. We are only able to prove the Bianchi-Egnell Stability Estimate extension for dimensions m+n&gt;2 with m \geq 1. The only changes are in theorems 1.4 and Theorem 1.5</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Francis Seuffert</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.5413v1</id>
+    <title>On the truncated matrix power moment problem with an open gap</title>
+    <updated>2014-01-21T18:22:19Z</updated>
+    <link href="https://arxiv.org/abs/1401.5413v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.5413v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the truncated power moment problem with an odd number of prescribed moments. A Nevanlinna-type formula is derived for this moment problem in the case when the moment problem has more than one solution (the indeterminate case). The coefficients of the corresponding linear fractional transformation are expressed explicitly in terms of the given moments. In the determinate case the solution to the moment problem is constructed, as well. Those solutions of the moment problem, which satisfy the following condition: $M(Δ)=0$, where $Δ$ is a prescribed open subset of $\mathbb{R}$, and $M$ is the matrix measure generated by a solution of the moment problem, are described.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-21T18:22:19Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.02646v1</id>
+    <title>Moment-Based Ensemble Control</title>
+    <updated>2020-09-06T05:14:07Z</updated>
+    <link href="https://arxiv.org/abs/2009.02646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.02646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Controlling a large population, in the limit, a continuum, of structurally identical dynamical systems with parametric variations is a pervasive task in diverse applications in science and engineering. However, the severely underactuated nature and the inability to avail comprehensive state feedback information of such ensemble systems raise significant challenges in analysis and design of ensemble systems. In this paper, we propose a moment-based ensemble control framework, which incorporates and expands the method of moments in probability theory to control theory. In particular, we establish an equivalence between ensemble systems and their moment systems in terms of control and their controllability properties by extending the Hausdorff moment problem from the perspectives of differential geometry and dynamical systems. The developments enable the design of moment-feedback control laws for closing the loop in ensemble systems using the aggregated type of measurements. The feasibility of this closed-loop control design procedure is validated both mathematically and numerically.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-06T05:14:07Z</published>
+    <arxiv:comment>Keywords: Ensemble systems, Hausdorff moment problem, Aggregated measurements, Aggregated feedback</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Vignesh Narayanan</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Jr-Shin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.02277v1</id>
+    <title>Entanglement and the truncated moment problem</title>
+    <updated>2017-04-07T16:20:43Z</updated>
+    <link href="https://arxiv.org/abs/1704.02277v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.02277v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We map the quantum entanglement problem onto the mathematically well-studied truncated moment problem. This yields a necessary and sufficient condition for separability that can be checked by a hierarchy of semi-definite programs. The algorithm always gives a certificate of entanglement if the state is entangled. If the state is separable, typically a certificate of separability is obtained in a finite number of steps and an explicit decomposition into separable pure states can be extracted.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-07T16:20:43Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 96, 032312 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Fabian Bohnet-Waldraff</name>
+    </author>
+    <author>
+      <name>Daniel Braun</name>
+    </author>
+    <author>
+      <name>Olivier Giraud</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.96.032312</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.96.032312" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.11480v1</id>
+    <title>The truncated univariate rational moment problem</title>
+    <updated>2024-11-18T11:32:39Z</updated>
+    <link href="https://arxiv.org/abs/2411.11480v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.11480v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a closed subset $K$ in $\mathbb{R}$, the rational $K$-truncated moment problem ($K$-RTMP) asks to characterize the existence of a positive Borel measure $μ$, supported on $K$, such that a linear functional $\mathcal{L}$, defined on all rational functions of the form $\frac{f}{q}$, where $q$ is a fixed polynomial with all real zeros of even order and $f$ is any real polynomial of degree at most $2k$, is an integration with respect to $μ$. The case of a compact set $K$ was solved by Chandler in 1994, but there is no argument that ensures that $μ$ vanishes on all real zeros of $q$. An obvious necessary condition for the solvability of the $K$-RTMP is that $\mathcal{L}$ is nonnegative on every $f$ satisfying $f|_{K}\geq 0$. If $\mathcal{L}$ is strictly positive on every $0\neq f|_{K}\geq 0$, we add the missing argument from Chandler's solution and also bound the number of atoms in a minimal representing measure. We show by an example that nonnegativity of $\mathcal{L}$ is not sufficient and add the missing conditions to the solution. We also solve the $K$-RTMP for unbounded $K$ and derive the solutions to the strong truncated Hamburger moment problem and the truncated moment problem on the unit circle as special cases.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-18T11:32:39Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Rajkamal Nailwal</name>
+    </author>
+    <author>
+      <name>Aljaž Zalar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.19916v1</id>
+    <title>The truncated multidimensional moment problem: canonical solutions</title>
+    <updated>2024-06-28T13:39:59Z</updated>
+    <link href="https://arxiv.org/abs/2406.19916v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.19916v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the truncated multidimensional moment problem we introduce a notion of a canonical solution. Namely, canonical solutions are those solutions which are generated by commuting self-adjoint extensions inside the associated Hilbert space. It is constructed a 1-1 correspondence between canonical solutions and flat extensions of the given moments (both sets may be empty). In the case of the two-dimensional moment problem (with triangular truncations) a search for canonical solutions leads to an algebraic system of equations. A notion of the index $i_s$ of nonself-adjointness for a set of prescribed moments is introduced. The case $i_s=0$ corresponds to flatness. In the case $i_s=1$ we get explicit necessary and sufficient conditions for the existence of canonical solutions. These conditions are valid for arbitrary sizes of truncations. In the case $i_s=2$ we get either explicit conditions for the existence of canonical solutions or a single quadratic equation with several unknowns. Numerical examples are provided.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-28T13:39:59Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.00825v2</id>
+    <title>A general fibre theorem for moment problems and some applications</title>
+    <updated>2015-07-08T15:18:06Z</updated>
+    <link href="https://arxiv.org/abs/1502.00825v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.00825v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fibre theorem \cite{schm2003} for the moment problem on closed semi-algebraic subsets of $\R^d$ is generalized to finitely generated real unital algebras. As an application two new theorems on the rational multidimensional moment problem are proved. Another application is a characterization of moment functionals on the polynomial algebra $\R[x_1,\dots,x_d]$ in terms of extensions. Finally, the fibre theorem and the extension theorem are used to reprove basic results on the complex moment problem due to Stochel and Szafraniec \cite{stochelsz} and Bisgaard \cite{bisgaard}.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-03T12:04:45Z</published>
+    <arxiv:comment>The paper is based on the previous paper by the author arXiv:1406.0282 "A characterization of moment sequences by extensions"</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Konrad Schmüdgen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.1534v1</id>
+    <title>The truncated matrix trigonometric moment problem: the operator approach</title>
+    <updated>2010-12-07T15:27:20Z</updated>
+    <link href="https://arxiv.org/abs/1012.1534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.1534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the truncated matrix trigonometric moment problem. We obtained a bijective parameterization of all solutions of this moment problem (both in nondegenerate and degenerate cases) via an operator approach. We use important results of M.E.~Chumakin on generalized resolvents of isometric operators.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-07T15:27:20Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0907.1670v2</id>
+    <title>Stability for an inverse problem for a two speed hyperbolic pde in one space dimension</title>
+    <updated>2009-11-17T10:15:58Z</updated>
+    <link href="https://arxiv.org/abs/0907.1670v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0907.1670v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We prove stability for a coefficient determination problem for a two velocity 2x2 system of hyperbolic PDEs in one space dimension.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-07-09T20:30:42Z</published>
+    <arxiv:comment>Revised Version. Give more detail and correct the proof of Proposition 4 regarding the existence and regularity of the forward problem. No changes to the proof of the stability of the inverse problem. To appear in Inverse Problems</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name> Rakesh</name>
+      <arxiv:affiliation>University of Delaware</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Paul Sacks</name>
+      <arxiv:affiliation>Iowa State University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0266-5611/26/2/025005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0266-5611/26/2/025005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.2278v1</id>
+    <title>The Nevanlinna-type formula for the truncated matrix trigonometric moment problem</title>
+    <updated>2012-01-11T10:57:24Z</updated>
+    <link href="https://arxiv.org/abs/1201.2278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.2278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is a continuation of our previous investigation on the truncated matrix trigonometric moment problem in Ukrainian Math. J., 2011, 63, no.6, 786-797. In the present paper we obtain a Nevanlinna-type formula for this moment problem in a general case. We only assume that we have more than one moment, the moment problem is solvable and the problem has more than one solution. The coefficients of the corresponding matrix linear fractional transformation are explicitly expressed by the prescribed moments. Easy conditions for the determinacy of the moment problem are given.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-11T10:57:24Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.06927v1</id>
+    <title>Algebraic certificates for the truncated moment problem</title>
+    <updated>2023-02-14T09:30:41Z</updated>
+    <link href="https://arxiv.org/abs/2302.06927v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.06927v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The truncated moment problem consists of determining whether a given finitedimensional vector of real numbers y is obtained by integrating a basis of the vector space of polynomials of bounded degree with respect to a non-negative measure on a given set K of a finite-dimensional Euclidean space. This problem has plenty of applications e.g. in optimization, control theory and statistics. When K is a compact semialgebraic set, the duality between the cone of moments of non-negative measures on K and the cone of non-negative polynomials on K yields an alternative: either y is a moment vector, or y is not a moment vector, in which case there exists a polynomial strictly positive on K making a linear functional depending on y vanish. Such a polynomial is an algebraic certificate of moment unrepresentability. We study the complexity of computing such a certificate using computer algebra algorithms.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-14T09:30:41Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Didier Henrion</name>
+      <arxiv:affiliation>LAAS-POP</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Simone Naldi</name>
+      <arxiv:affiliation>XLIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mohab Safey El Din</name>
+      <arxiv:affiliation>PolSys</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.11900v1</id>
+    <title>The Weyl matrix balls corresponding to the matricial truncated Hamburger moment problem</title>
+    <updated>2021-09-24T11:50:04Z</updated>
+    <link href="https://arxiv.org/abs/2109.11900v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.11900v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main goal of the paper is to parametrize the Weyl matrix balls associated with an arbitrary matricial truncated Hamburger moment problem. For the special case of a non-degenerate matricial truncated Hamburger moment problem the corresponding Weyl matrix balls were computed by I. V. Kovalishina in the framework of V. P. Potapov's method of "Fundamental matrix inequalities".</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-24T11:50:04Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Bernd Fritzsche</name>
+    </author>
+    <author>
+      <name>Bernd Kirstein</name>
+    </author>
+    <author>
+      <name>Susanne Kley</name>
+    </author>
+    <author>
+      <name>Conrad Mädler</name>
+    </author>
+  </entry>
+</feed>

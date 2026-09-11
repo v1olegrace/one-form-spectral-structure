@@ -1,0 +1,576 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/q9Dvzfvp/vJoFwm+xX224wGcvv8</id>
+  <title>arXiv Query: search_query=all:ESPRIT OR all:algorithm OR all:frequency OR all:estimation OR all:subspace&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:50:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ESPRIT+OR+(all:algorithm+OR+(all:frequency+OR+(all:estimation+OR+all:subspace)))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>730505</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.02746v2</id>
+    <title>A Large-Dimensional Analysis of ESPRIT DoA Estimation: Inconsistency and a Correction via RMT</title>
+    <updated>2026-04-15T09:05:19Z</updated>
+    <link href="https://arxiv.org/abs/2501.02746v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.02746v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we perform asymptotic analyses of the widely used ESPRIT direction-of-arrival (DoA) estimator for large arrays, where the array size $N$ and the number of snapshots $T$ grow to infinity at the same pace. In this large-dimensional regime, the sample covariance matrix (SCM) is known to be a poor eigenspectral estimator of the population covariance. We show that the classical ESPRIT algorithm, that relies on the SCM, and as a consequence of the large-dimensional inconsistency of the SCM, produces inconsistent DoA estimates as $N,T \to \infty$ with $N/T \to c \in (0,\infty)$, for both widely-~and~closely-spaced DoAs. Leveraging tools from random matrix theory (RMT), we propose an improved G-ESPRIT method and prove its consistency in the same large-dimensional setting. From a technical perspective, we derive a novel bound on the eigenvalue differences between two potentially non-Hermitian matrices, which may be of independent interest. Numerical simulations are provided to corroborate our theoretical findings.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-06T03:39:41Z</published>
+    <arxiv:comment>29 pages, 10 figures, to appear on IEEE Trans. SP. Part of this work was presented at the IEEE 32nd European Signal Processing Conference (EUSIPCO 2024), Lyon, France, under the title "Inconsistency of ESPRIT DoA Estimation for Large Arrays and a Correction via RMT."</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Zhengyu Wang</name>
+    </author>
+    <author>
+      <name>Wei Yang</name>
+    </author>
+    <author>
+      <name>Xiaoyi Mai</name>
+    </author>
+    <author>
+      <name>Zenan Ling</name>
+    </author>
+    <author>
+      <name>Zhenyu Liao</name>
+    </author>
+    <author>
+      <name>Robert C. Qiu</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2026.3683673</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2026.3683673" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.1168v1</id>
+    <title>Shape-Adaptive Motion Estimation Algorithm for MPEG-4 Video Coding</title>
+    <updated>2010-02-05T09:31:58Z</updated>
+    <link href="https://arxiv.org/abs/1002.1168v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.1168v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper presents a gradient based motion estimation algorithm based on shape-motion prediction, which takes advantage of the correlation between neighboring Binary Alpha Blocks (BABs), to match with the Mpeg-4 shape coding case and speed up the estimation process. The PSNR and computation time achieved by the proposed algorithm seem to be better than those obtained by most popular motion estimation techniques.</summary>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-05T09:31:58Z</published>
+    <arxiv:comment>International Journal of Computer Science Issues, IJCSI, Vol. 7, Issue 1, No. 2, January 2010, http://ijcsi.org/articles/Shape-Adaptive-Motion-Estimation-Algorithm-for-MPEG-4-Video-Coding.php</arxiv:comment>
+    <arxiv:primary_category term="cs.MM"/>
+    <arxiv:journal_ref>International Journal of Computer Science Issues, IJCSI, Vol. 7, Issue 1, No. 2, January 2010, http://ijcsi.org/articles/Shape-Adaptive-Motion-Estimation-Algorithm-for-MPEG-4-Video-Coding.php</arxiv:journal_ref>
+    <author>
+      <name>F. Benboubker</name>
+    </author>
+    <author>
+      <name>F. Abdi</name>
+    </author>
+    <author>
+      <name>A. Ahaitouf</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.07541v1</id>
+    <title>A fundamental frequency estimation method for tonal sounds inspired on bird song studies</title>
+    <updated>2017-09-21T23:23:49Z</updated>
+    <link href="https://arxiv.org/abs/1709.07541v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.07541v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A fast implementation of fundamental frequency estimation is presented in this work. The algorithm is based on a frequency-domain approach. It was mainly develop for tonal sounds and used in Canary bird song analysis. The method was implemented but not restricted for this kind of data. It could be easily adapted for other proposes. Python libraries were used to develop a code with a simple algorithm to obtain fundamental frequency. A simple open source code is provided in the local university repository.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-21T23:23:49Z</published>
+    <arxiv:comment>pre-print version of fundamental frequency estimation method for tonal sounds</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>C. Jarne</name>
+    </author>
+    <arxiv:doi>10.1016/j.mex.2018.12.011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.mex.2018.12.011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.05076v1</id>
+    <title>On temporal correlations in high-resolution frequency counting</title>
+    <updated>2016-04-18T10:39:16Z</updated>
+    <link href="https://arxiv.org/abs/1604.05076v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.05076v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze noise properties of time series of frequency data from different counting modes of a Keysight 53230A frequency counter. We use a 10 MHz reference signal from a passive hydrogen maser connected via phase-stable Huber+Suhner Sucoflex 104 cables to the reference and input connectors of the counter. We find that the high resolution gap-free (CONT) frequency counting process imposes long-term correlations in the output data, resulting in a modified Allan deviation that is characteristic of random walk phase noise. Equally important, the CONT mode results in a frequency bias. In contrast, the counter's undocumented raw continuous mode (RCON) yields unbiased frequency stability estimates with white phase noise characteristics, and of a magnitude consistent with the counter's 20 ps single-shot resolution. Furthermore, we demonstrate that a 100-point running average filter in conjunction with the RCON mode yields resolution enhanced frequency estimates with flicker phase noise characteristics. For instance, the counter's built-in moving-average function can be used. The improved noise characteristics of the averaged RCON mode versus the CONT mode imply that the former mode yields frequency estimates with improved confidence for a given measurement time.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-18T10:39:16Z</published>
+    <arxiv:comment>Submitted to the proceedings of the 30th European Frequency and Time Forum, held at the University of York, UK, 4 April to 7 April 2016</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>European Frequency and Time Forum (EFTF), 2016</arxiv:journal_ref>
+    <author>
+      <name>Tim Dunker</name>
+    </author>
+    <author>
+      <name>Harald Hauglin</name>
+    </author>
+    <author>
+      <name>Ole Petter Rønningen</name>
+    </author>
+    <arxiv:doi>10.1109/EFTF.2016.7477833</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/EFTF.2016.7477833" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.09020v1</id>
+    <title>AoA Estimation for OAM Communication Systems With Mode-Frequency Multi-Time ESPRIT Method</title>
+    <updated>2021-10-18T05:25:54Z</updated>
+    <link href="https://arxiv.org/abs/2110.09020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.09020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radio orbital angular momentum (OAM) communications require accurate alignment between the transmit and receive beam directions. Accordingly, a key feature of OAM receivers is the ability to reliably estimate the angle of arrival (AoA) of multi-mode OAM beams. Considering the limitations of existing AoA estimation techniques, in this paper, we propose an easier-to-implement AoA estimation method based on applying multiple times the estimating signal parameters via rotational invariance techniques (ESPRIT) algorithm to the received training signals in OAM mode and frequency domains, which is denoted as the mode-frequency (M-F) multi-time (MT)-ESPRIT algorithm. With this method, the misalignment error of real OAM channels can be greatly reduced and the performance approaches that of ideally aligned OAM channels.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-18T05:25:54Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2007.00881</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Wen-Xuan Long</name>
+    </author>
+    <author>
+      <name>Rui Chen</name>
+    </author>
+    <author>
+      <name>Marco Moretti</name>
+    </author>
+    <author>
+      <name>Jiandong Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2201.03457v2</id>
+    <title>Nonasymptotic performance analysis of ESPRIT and spatial-smoothing ESPRIT</title>
+    <updated>2022-08-14T06:58:03Z</updated>
+    <link href="https://arxiv.org/abs/2201.03457v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.03457v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is concerned with the problem of frequency estimation from multiple-snapshot data. It is well-known that ESPRIT (and spatial-smoothing ESPRIT in presence of coherent sources or given limited snapshots) can locate the true frequencies if either the number of snapshots or the signal-to-noise ratio (SNR) approaches infinity. In this paper, we analyze the nonasymptotic performance of ESPRIT and spatial-smoothing ESPRIT with finitely many snapshots and finite SNR. We show that the absolute frequency estimation error of ESPRIT (or spatial-smoothing ESPRIT) is bounded from above by $C\frac{\max(σ, σ^2)}{\sqrt{L}}$ with overwhelming probability, where $σ^2$ denotes the Gaussian noise variance, $L$ is the number of snapshots and $C$ is a coefficient independent of $L$ and $σ^2$, if and only if the true frequencies can be localized by ESPRIT (or spatial-smoothing ESPRIT) without noise or with infinitely many snapshots. Our results are obtained by deriving new matrix perturbation bounds and generalizing the classical Schur product theorem, which may be of independent interest. Extensions to MUSIC and SS-MUSIC are also made. Numerical results are provided corroborating our analysis.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-10T17:00:25Z</published>
+    <arxiv:comment>16 double-column pages, 4 figures, to appear in IEEE Transactions on Information Theory</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Zai Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.00002v2</id>
+    <title>Nouvelle theorie des taches du Soleil, by E. Pezenas (1692-1776). A fully annoted edition of a manuscript</title>
+    <updated>2025-03-01T17:26:59Z</updated>
+    <link href="https://arxiv.org/abs/2104.00002v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.00002v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The manuscript New Theory of Sunspots was identified and attributed to the Jesuit astronomer and hydrographer from Marseille Esprit Pezenas (1692-1776) during the year 2002, during the systematic search for papers concerning him in the various French funds. The manuscript, in large part unpublished, New Theory of Sunspots was written by astronomer and professor of Marseilles Jesuit hydrography, Father Esprit Pezenas (1692-1776). The text was composed and revised between the years 1766 and 1772. In this manuscript, of which we are going to study the conditions of its composition, P. Pezenas gives one of the last geometric methods, related graphical methods, allowing the inclination of the Sun's equator to be deduced on ecliptic, using three observations of a sunspot, at given times, and in taking into account the movement of the Earth with respect to the Sun during the duration of observations. This text contains all the digital elements allowing to follow and understand the application of geometric processing methods of observations and observation techniques mentioned above in the introduction: passages of edges and Sun spots at the meridian, use of objective micrometers and wire micrometers. At detour of his calculations, Father Pezenas announces a duration of about 26 days and 9 hours for the rotation of the Sun around its axis, comments on and corrects some observation data published in Le Monnier's Heavenly History.</summary>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-31T11:37:05Z</published>
+    <arxiv:comment>66 pages, in French, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.hist-ph"/>
+    <arxiv:journal_ref>Cahiers Francois Viete (University of Nantes), serie I, 8, 2004 (published 2012)</arxiv:journal_ref>
+    <author>
+      <name>Esprit Pezenas</name>
+    </author>
+    <author>
+      <name>Guy Boistel</name>
+    </author>
+    <arxiv:doi>10.4000/cahierscfv.2424</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4000/cahierscfv.2424" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1209.3253v1</id>
+    <title>A framework for the analytical performance assessment of matrix and tensor-based ESPRIT-type algorithms</title>
+    <updated>2012-09-14T16:36:49Z</updated>
+    <link href="https://arxiv.org/abs/1209.3253v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.3253v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we present a generic framework for the asymptotic performance analysis of subspace-based parameter estimation schemes. It is based on earlier results on an explicit first-order expansion of the estimation error in the signal subspace obtained via an SVD of the noisy observation matrix. We extend these results in a number of aspects. Firstly, we derive an explicit first-order expansion of the Higher- Order SVD (HOSVD)-based subspace estimate. Secondly, we show how to obtain explicit first-order expansions of the estimation error of ESPRIT-type algorithms and provide the expressions for matrix-based and tensor-based Standard ESPRIT and Unitary ESPRIT. Thirdly, we derive closed-form expressions for the mean square error (MSE) and show that they only depend on the second-order moments of the noise. Hence, we only need the noise to be zero mean and possess finite second order moments. Fourthly, we investigate the effect of using Structured Least Squares (SLS) to solve the overdetermined shift invariance equations in ESPRIT and provide an explicit first-order expansion as well as a closed-form MSE expression. Finally, we simplify the MSE for the special case of a single source and compute the asymptotic efficiency of the investigated ESPRIT-type algorithms in compact closed-form expressions which only depend on the array size and the effective SNR. Our results are more general than existing results on the performance analysis of ESPRIT-type algorithms since (a) we do not need any assumptions about the noise except for the mean to be zero and the second-order moments to be finite (in contrast to earlier results that require Gaussianity or second-order circular symmetry); (b) our results are asymptotic in the effective SNR, i.e., we do not require the number of samples to be large; (c) we present a framework that incorporates various ESPRIT-type algorithms in one unified manner.</summary>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-14T16:36:49Z</published>
+    <arxiv:primary_category term="cs.PF"/>
+    <author>
+      <name>Florian Roemer</name>
+    </author>
+    <author>
+      <name>Martin Haardt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.08842v2</id>
+    <title>Performance Analysis of the Decentralized Eigendecomposition and ESPRIT Algorithm</title>
+    <updated>2015-12-07T08:51:36Z</updated>
+    <link href="https://arxiv.org/abs/1506.08842v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.08842v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we consider performance analysis of the decentralized power method for the eigendecomposition of the sample covariance matrix based on the averaging consensus protocol. An analytical expression of the second order statistics of the eigenvectors obtained from the decentralized power method which is required for computing the mean square error (MSE) of subspace-based estimators is presented. We show that the decentralized power method is not an asymptotically consistent estimator of the eigenvectors of the true measurement covariance matrix unless the averaging consensus protocol is carried out over an infinitely large number of iterations. Moreover, we introduce the decentralized ESPRIT algorithm which yields fully decentralized direction-of-arrival (DOA) estimates. Based on the performance analysis of the decentralized power method, we derive an analytical expression of the MSE of DOA estimators using the decentralized ESPRIT algorithm. The validity of our asymptotic results is demonstrated by simulations.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-29T20:11:21Z</published>
+    <arxiv:comment>18 pages, 5 figures, submitted for publication in IEEE Transactions on Signal Processing</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>W. Suleiman</name>
+    </author>
+    <author>
+      <name>M. Pesavento</name>
+    </author>
+    <author>
+      <name>A. M. Zoubir</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2016.2523448</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2016.2523448" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.7401v1</id>
+    <title>Joint Doppler frequency shift compensation and data detection method using 2-D unitary ESPRIT algorithm for SIMO-OFDM railway communication systems</title>
+    <updated>2012-10-28T05:17:56Z</updated>
+    <link href="https://arxiv.org/abs/1210.7401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.7401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we present a joint Doppler frequency shift compensation and data detection method using 2-D unitary ESPRIT algorithm for SIMO-OFDM railway communication systems over fast time-varying sparse multipath channels. By creating the spatio-temporal array data matrix utilizing the ISI-free part of the CP (cyclic prefix), we first propose a novel algorithm for obtaining auto-paired joint DOA and Doppler frequency shift estimates of all paths via 2-D unitary ESPRIT algorithm. Thereafter, based on the obtained estimates, a joint Doppler frequency shift compensation and data detection method is developed. This method consists of three parts: (a) the received signal is spatially filtered to get the signal corresponding to each path, and the signal corresponding to each path is compensated for the Doppler frequency shift in time domain, (b) the Doppler frequency shift-compensated signals of all paths are summed together, and (c) the desired information is detected by performing FFT on the summed signal after excluding the CP. Moreover, we prove that the channel matrix becomes time-invariant after Doppler frequency shift compensation and the ICI is effectively avoided. Finally, simulation results are presented to demonstrate the performance of the proposed method and compare it with the conventional method.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-28T05:17:56Z</published>
+    <arxiv:comment>25 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Huiyue Yi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.05437v1</id>
+    <title>Roweis Discriminant Analysis: A Generalized Subspace Learning Method</title>
+    <updated>2019-10-11T23:14:09Z</updated>
+    <link href="https://arxiv.org/abs/1910.05437v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.05437v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a new method which generalizes subspace learning based on eigenvalue and generalized eigenvalue problems. This method, Roweis Discriminant Analysis (RDA), is named after Sam Roweis to whom the field of subspace learning owes significantly. RDA is a family of infinite number of algorithms where Principal Component Analysis (PCA), Supervised PCA (SPCA), and Fisher Discriminant Analysis (FDA) are special cases. One of the extreme special cases, which we name Double Supervised Discriminant Analysis (DSDA), uses the labels twice; it is novel and has not appeared elsewhere. We propose a dual for RDA for some special cases. We also propose kernel RDA, generalizing kernel PCA, kernel SPCA, and kernel FDA, using both dual RDA and representation theory. Our theoretical analysis explains previously known facts such as why SPCA can use regression but FDA cannot, why PCA and SPCA have duals but FDA does not, why kernel PCA and kernel SPCA use kernel trick but kernel FDA does not, and why PCA is the best linear method for reconstruction. Roweisfaces and kernel Roweisfaces are also proposed generalizing eigenfaces, Fisherfaces, supervised eigenfaces, and their kernel variants. We also report experiments showing the effectiveness of RDA and kernel RDA on some benchmark datasets.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-11T23:14:09Z</published>
+    <arxiv:comment>This is the paper for the methods Roweis Discriminant Analysis (RDA), dual RDA, kernel RDA, and Roweisfaces. This is in memory of Sam Roweis (rest in peace) to whom subspace and manifold learning owes significantly</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>International Conference on Image Analysis and Recognition, vol 1, pp. 328-342, Springer, 2020 (published under title "Generalized Subspace Learning by Roweis Discriminant Analysis")</arxiv:journal_ref>
+    <author>
+      <name>Benyamin Ghojogh</name>
+    </author>
+    <author>
+      <name>Fakhri Karray</name>
+    </author>
+    <author>
+      <name>Mark Crowley</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-50347-5_29</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-50347-5_29" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.03885v3</id>
+    <title>The ESPRIT algorithm under high noise: Optimal error scaling and noisy super-resolution</title>
+    <updated>2024-10-25T22:02:24Z</updated>
+    <link href="https://arxiv.org/abs/2404.03885v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.03885v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Subspace-based signal processing techniques, such as the Estimation of Signal Parameters via Rotational Invariant Techniques (ESPRIT) algorithm, are popular methods for spectral estimation. These algorithms can achieve the so-called super-resolution scaling under low noise conditions, surpassing the well-known Nyquist limit. However, the performance of these algorithms under high-noise conditions is not as well understood. Existing state-of-the-art analysis indicates that ESPRIT and related algorithms can be resilient even for signals where each observation is corrupted by statistically independent, mean-zero noise of size $\mathcal{O}(1)$, but these analyses only show that the error $ε$ decays at a slow rate $ε=\mathcal{\tilde{O}}(n^{-1/2})$ with respect to the cutoff frequency $n$ (i.e., the maximum frequency of the measurements). In this work, we prove that under certain assumptions, the ESPRIT algorithm can attain a significantly improved error scaling $ε= \mathcal{\tilde{O}}(n^{-3/2})$, exhibiting noisy super-resolution scaling beyond the Nyquist limit $ε= \mathcal{O}(n^{-1})$ given by the Nyquist-Shannon sampling theorem. We further establish a theoretical lower bound and show that this scaling is optimal. Our analysis introduces novel matrix perturbation results, which could be of independent interest.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-05T04:18:33Z</published>
+    <arxiv:comment>FOCS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Zhiyan Ding</name>
+    </author>
+    <author>
+      <name>Ethan N. Epperly</name>
+    </author>
+    <author>
+      <name>Lin Lin</name>
+    </author>
+    <author>
+      <name>Ruizhe Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.10523v1</id>
+    <title>Report on Two-Step Knowledge-Aided Iterative ESPRIT Algorithm</title>
+    <updated>2017-03-21T01:26:28Z</updated>
+    <link href="https://arxiv.org/abs/1703.10523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.10523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we propose a subspace-based algorithm for direction-of-arrival (DOA) estimation, referred to as two-step knowledge-aided iterative estimation of signal parameters via rotational invariance techniques (ESPRIT) method (Two-Step KAI-ESPRIT), which achieves more accurate estimates than those of prior art. The proposed Two-Step KAI-ESPRIT improves the estimation of the covariance matrix of the input data by incorporating prior knowledge of signals and by exploiting knowledge of the structure of the covariance matrix and its perturbation terms. Simulation results illustrate the improvement achieved by the proposed method.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-21T01:26:28Z</published>
+    <arxiv:comment>10 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>R. C. de Lamare</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.01827v1</id>
+    <title>Compressive Spectral Estimation with Single-Snapshot ESPRIT: Stability and Resolution</title>
+    <updated>2016-07-06T22:17:31Z</updated>
+    <link href="https://arxiv.org/abs/1607.01827v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.01827v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper Estimation of Signal Parameters via Rotational Invariance Techniques (ESPRIT) is developed for spectral estimation with single-snapshot measurement. Stability and resolution analysis with performance guarantee for Single-Snapshot ESPRIT (SS-ESPRIT) is the main focus. In the noise-free case, exact reconstruction is guaranteed for any arbitrary set of frequencies as long as the number of measurement data is at least twice the number of distinct frequencies to be recovered. In the presence of noise and under the assumption that the true frequencies are separated by at least two times Rayleigh's Resolution Length, an explicit error bound for frequency reconstruction is given in terms of the dynamic range and the separation of the frequencies. The separation and sparsity constraint compares favorably with those of the leading approaches to compressed sensing in the continuum.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-06T22:17:31Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Albert Fannjiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.03782v3</id>
+    <title>Super-resolution limit of the ESPRIT algorithm</title>
+    <updated>2019-10-21T18:50:15Z</updated>
+    <link href="https://arxiv.org/abs/1905.03782v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.03782v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The problem of imaging point objects can be formulated as estimation of an unknown atomic measure from its $M+1$ consecutive noisy Fourier coefficients. The standard resolution of this inverse problem is $1/M$ and super-resolution refers to the capability of resolving atoms at a higher resolution. When any two atoms are less than $1/M$ apart, this recovery problem is highly challenging and many existing algorithms either cannot deal with this situation or require restrictive assumptions on the sign of the measure. ESPRIT is an efficient method that does not depend on the sign of the measure. This paper provides an explicit error bound on the support matching distance of ESPRIT in terms of the minimum singular value of Vandermonde matrices. When the support consists of multiple well-separated clumps and noise is sufficiently small, the support error by ESPRIT scales like ${\rm SRF}^{2λ+2} \times {\rm Noise}$, where the Super-Resolution Factor (${\rm SRF}$) governs the difficulty of the problem and $λ$ is the cardinality of the largest clump. {If the support contains one clump of closely spaced atoms, the min-max error is ${\rm SRF}^{2λ+2} \times {\rm Noise}/M$. Our error bound matches the min-max rate up to a factor of $M$ in the small noise regime. Our results therefore establishes the near-optimality of ESPRIT,} and our theory is validated by numerical experiments.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-03T18:00:04Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Weilin Li</name>
+    </author>
+    <author>
+      <name>Wenjing Liao</name>
+    </author>
+    <author>
+      <name>Albert Fannjiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.01585v1</id>
+    <title>ESPRIT-Oriented Precoder Design for mmWave Channel Estimation</title>
+    <updated>2023-01-04T13:01:32Z</updated>
+    <link href="https://arxiv.org/abs/2301.01585v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.01585v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of ESPRIT-oriented precoder design for beamspace angle-of-departure (AoD) estimation in downlink mmWave multiple-input single-output communications. Standard precoders (i.e., directional/sum beams) yield poor performance in AoD estimation, while Cramer-Rao bound-optimized precoders undermine the so-called shift invariance property (SIP) of ESPRIT. To tackle this issue, the problem of designing ESPRIT-oriented precoders is formulated to jointly optimize over the precoding matrix and the SIP-restoring matrix of ESPRIT. We develop an alternating optimization approach that updates these two matrices under unit-modulus constraints for analog beamforming architectures. Simulation results demonstrate the validity of the proposed approach while providing valuable insights on the beampatterns of the ESPRIT-oriented precoders.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-04T13:01:32Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Musa Furkan Keskin</name>
+    </author>
+    <author>
+      <name>Alessio Fascista</name>
+    </author>
+    <author>
+      <name>Fan Jiang</name>
+    </author>
+    <author>
+      <name>Angelo Coluccia</name>
+    </author>
+    <author>
+      <name>Gonzalo Seco-Granados</name>
+    </author>
+    <author>
+      <name>Henk Wymeersch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.14304v3</id>
+    <title>Stability and Super-resolution of MUSIC and ESPRIT for Multi-snapshot Spectral Estimation</title>
+    <updated>2022-09-22T17:40:54Z</updated>
+    <link href="https://arxiv.org/abs/2105.14304v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.14304v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the spectral estimation problem of estimating the locations of a fixed number of point sources given multiple snapshots of Fourier measurements collected by a uniform array of sensors. We prove novel stability bounds for MUSIC and ESPRIT as a function of the noise standard deviation, number of snapshots, source amplitudes, and support. Our most general result is a perturbation bound of the signal space in terms of the minimum singular value of Fourier matrices. When the point sources are located in several separated clumps, we provide an explicit upper bound of the noise-space correlation perturbation error in MUSIC and the support error in ESPRIT in terms of a Super-Resolution Factor (SRF). The upper bound for ESPRIT is then compared with a new Cramér-Rao lower bound for the clumps model. As a result, we show that ESPRIT is comparable to that of the optimal unbiased estimator(s) in terms of the dependence on noise, number of snapshots and SRF. As a byproduct of our analysis, we discover several fundamental differences between the single-snapshot and multi-snapshot problems. Our theory is validated by numerical experiments.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-29T13:57:11Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Weilin Li</name>
+    </author>
+    <author>
+      <name>Zengying Zhu</name>
+    </author>
+    <author>
+      <name>Weiguo Gao</name>
+    </author>
+    <author>
+      <name>Wenjing Liao</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2022.3204454</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2022.3204454" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.16265v1</id>
+    <title>Stable estimation of pulses of unknown shape from multiple snapshots via ESPRIT</title>
+    <updated>2023-08-30T18:47:18Z</updated>
+    <link href="https://arxiv.org/abs/2308.16265v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.16265v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of resolving overlapping pulses from noisy multi-snapshot measurements, which has been a problem central to various applications including medical imaging and array signal processing. ESPRIT algorithm has been used to estimate the pulse locations. However, existing theoretical analysis is restricted to ideal assumptions on signal and measurement models. We present a novel perturbation analysis that overcomes the previous theoretical limitation, which is derived without a stringent assumption on the signal model. Our unifying analysis applies to various sub-array designs of the ESPRIT algorithm. We demonstrate the usefulness of the perturbation analysis by specifying the result in two practical scenarios. In the first scenario, we quantify how the number of snapshots for stable recovery scales when the number of Fourier measurements per snapshot is sufficiently large. In the second scenario, we propose compressive blind array calibration by ESPRIT with random sub-arrays and provide the corresponding non-asymptotic error bound. Furthermore, we demonstrate that the empirical performance of ESPRIT corroborates the theoretical analysis through extensive numerical results.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-30T18:47:18Z</published>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Meghna Kalra</name>
+    </author>
+    <author>
+      <name>Kiryung Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.15140v2</id>
+    <title>From ESPRIT to ESPIRA: Estimation of Signal Parameters by Iterative Rational Approximation</title>
+    <updated>2022-01-06T08:20:15Z</updated>
+    <link href="https://arxiv.org/abs/2106.15140v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.15140v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new method for Estimation of Signal Parameters based on Iterative Rational Approximation (ESPIRA) for sparse exponential sums. Our algorithm uses the AAA algorithm for rational approximation of the discrete Fourier transform of the given equidistant signal values. We show that ESPIRA can be interpreted as a matrix pencil method applied to Loewner matrices. These Loewner matrices are closely connected with the Hankel matrices which are usually employed for signal recovery. Due to the construction of the Loewner matrices via an adaptive selection of index sets, the matrix pencil method is stabilized. ESPIRA achieves similar recovery results for exact data as ESPRIT and the matrix pencil method but with less computational effort. Moreover, ESPIRA strongly outperforms ESPRIT and the matrix pencil method for noisy data and for signal approximation by short exponential sums.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-29T07:56:51Z</published>
+    <arxiv:comment>36 pages, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Nadiia Derevianko</name>
+    </author>
+    <author>
+      <name>Gerlind Plonka</name>
+    </author>
+    <author>
+      <name>Markus Petz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.12857v1</id>
+    <title>Memory-Efficient LLM Training with Online Subspace Descent</title>
+    <updated>2024-08-23T05:54:53Z</updated>
+    <link href="https://arxiv.org/abs/2408.12857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.12857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, a wide range of memory-efficient LLM training algorithms have gained substantial popularity. These methods leverage the low-rank structure of gradients to project optimizer states into a subspace using projection matrix found by singular value decomposition (SVD). However, convergence of these algorithms is highly dependent on the update rules of their projection matrix. In this work, we provide the \emph{first} convergence guarantee for arbitrary update rules of projection matrix. This guarantee is generally applicable to optimizers that can be analyzed with Hamiltonian Descent, including most common ones, such as LION, Adam. Inspired by our theoretical understanding, we propose Online Subspace Descent, a new family of subspace descent optimizer without SVD. Instead of updating the projection matrix with eigenvectors, Online Subspace Descent updates the projection matrix with online PCA. Online Subspace Descent is flexible and introduces only minimum overhead to training. We show that for the task of pretraining LLaMA models ranging from 60M to 7B parameters on the C4 dataset, Online Subspace Descent achieves lower perplexity and better downstream tasks performance than state-of-the-art low-rank training methods across different settings and narrows the gap with full-rank baselines.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-23T05:54:53Z</published>
+    <arxiv:comment>Code is available at https://github.com/kyleliang919/Online-Subspace-Descent</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kaizhao Liang</name>
+    </author>
+    <author>
+      <name>Bo Liu</name>
+    </author>
+    <author>
+      <name>Lizhang Chen</name>
+    </author>
+    <author>
+      <name>Qiang Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.07892v2</id>
+    <title>ESPRIT for multidimensional general grids</title>
+    <updated>2018-08-22T07:19:14Z</updated>
+    <link href="https://arxiv.org/abs/1705.07892v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.07892v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a new method for complex frequency estimation in several variables, extending the classical (1d) ESPRIT-algorithm. We also consider how to work with data sampled on non-standard domains (i.e going beyond multi-rectangles).</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-22T01:35:43Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Fredrik Andersson</name>
+    </author>
+    <author>
+      <name>Marcus Carlsson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.15375v1</id>
+    <title>Constructing Invariant Subspaces as Kernels of Commuting Matrices</title>
+    <updated>2023-05-24T17:34:43Z</updated>
+    <link href="https://arxiv.org/abs/2305.15375v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.15375v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given an n by n matrix A over the complex numbers and an invariant subspace L, this paper gives a straightforward formula to construct an n by n matrix N that commutes with A and has L equal to the kernel of N. For Q a matrix putting A into Jordan canonical form J = RAQ with R the inverse of Q, we get N = RM$ where the kernel of M is an invariant subspace for J with M commuting with J. In the formula M = P ZVW with V the inverse of a constructed matrix T and W the transpose of P, the matrices Z and T are m by m and P is an n by m row selection matrix. If L is a marked subspace, m = n and Z is an n by n block diagonal matrix, and if L is not a marked subspace, then m &gt; n and Z is an m by m near-diagonal block matrix. Strikingly, each block of Z is a monomial of a finite-dimensional backward shift. Each possible form of Z is easily arranged in a lattice structure isomorphic to and thereby displaying the complete invariant subspace lattice L(A) for A.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-24T17:34:43Z</published>
+    <arxiv:comment>12 pages with two illustrations of invariant subspace lattice diagrams</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Linear Algebra and Its Applications, 583, 46-62</arxiv:journal_ref>
+    <author>
+      <name>Carl C. Cowen</name>
+    </author>
+    <author>
+      <name>William Johnston</name>
+    </author>
+    <author>
+      <name>Rebecca G. Wahl</name>
+    </author>
+    <arxiv:doi>10.1016/j.laa.2019.08.014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.laa.2019.08.014" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0907.5321v2</id>
+    <title>Multiple pattern classification by sparse subspace decomposition</title>
+    <updated>2009-08-04T06:01:53Z</updated>
+    <link href="https://arxiv.org/abs/0907.5321v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0907.5321v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A robust classification method is developed on the basis of sparse subspace decomposition. This method tries to decompose a mixture of subspaces of unlabeled data (queries) into class subspaces as few as possible. Each query is classified into the class whose subspace significantly contributes to the decomposed subspace. Multiple queries from different classes can be simultaneously classified into their respective classes. A practical greedy algorithm of the sparse subspace decomposition is designed for the classification. The present method achieves high recognition rate and robust performance exploiting joint sparsity.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-07-30T12:23:25Z</published>
+    <arxiv:comment>8 pages, 3 figures, 2nd IEEE International Workshop on Subspace Methods, Workshop Proceedings of ICCV 2009</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Tomoya Sakai</name>
+    </author>
+    <arxiv:doi>10.1109/ICCVW.2009.5457702</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICCVW.2009.5457702" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.13760v2</id>
+    <title>Compact representation and long-time extrapolation of real-time data for quantum systems using the ESPRIT algorithm</title>
+    <updated>2026-03-25T18:46:13Z</updated>
+    <link href="https://arxiv.org/abs/2506.13760v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.13760v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Representing real-time data as a sum of complex exponentials provides a compact form that enables both denoising and extrapolation. As a fully data-driven method, the Estimation of Signal Parameters via Rotational Invariance Techniques (ESPRIT) algorithm is agnostic to the underlying physical equations, making it broadly applicable to various observables and experimental or numerical setups. In this work, we consider applications of the ESPRIT algorithm primarily to extend real-time dynamical data from simulations of quantum systems. We evaluate ESPRIT's performance in the presence of noise and compare it to other extrapolation methods. We demonstrate its ability to extract information from short-time dynamics to reliably predict long-time behavior and determine the minimum time interval required for accurate results. We discuss how this insight can be leveraged in numerical methods that propagate quantum systems in time, and show how ESPRIT can predict infinite-time values of dynamical observables, offering a purely data-driven approach to characterizing quantum phases.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-16T17:59:15Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 113, 115129 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Andre Erpenbeck</name>
+    </author>
+    <author>
+      <name>Yuanran Zhu</name>
+    </author>
+    <author>
+      <name>Yang Yu</name>
+    </author>
+    <author>
+      <name>Lei Zhang</name>
+    </author>
+    <author>
+      <name>Richard Gerum</name>
+    </author>
+    <author>
+      <name>Olga Goulko</name>
+    </author>
+    <author>
+      <name>Chao Yang</name>
+    </author>
+    <author>
+      <name>Guy Cohen</name>
+    </author>
+    <author>
+      <name>Emanuel Gull</name>
+    </author>
+    <arxiv:doi>10.1103/8vzv-y74m</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/8vzv-y74m" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.2936v3</id>
+    <title>R-dimensional ESPRIT-type algorithms for strictly second-order non-circular sources and their performance analysis</title>
+    <updated>2015-01-06T19:57:03Z</updated>
+    <link href="https://arxiv.org/abs/1402.2936v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.2936v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-resolution parameter estimation algorithms designed to exploit the prior knowledge about incident signals from strictly second-order (SO) non-circular (NC) sources allow for a lower estimation error and can resolve twice as many sources. In this paper, we derive the R-D NC Standard ESPRIT and the R-D NC Unitary ESPRIT algorithms that provide a significantly better performance compared to their original versions for arbitrary source signals. They are applicable to shift-invariant R-D antenna arrays and do not require a centrosymmetric array structure. Moreover, we present a first-order asymptotic performance analysis of the proposed algorithms, which is based on the error in the signal subspace estimate arising from the noise perturbation. The derived expressions for the resulting parameter estimation error are explicit in the noise realizations and asymptotic in the effective signal-to-noise ratio (SNR), i.e., the results become exact for either high SNRs or a large sample size. We also provide mean squared error (MSE) expressions, where only the assumptions of a zero mean and finite SO moments of the noise are required, but no assumptions about its statistics are necessary. As a main result, we analytically prove that the asymptotic performance of both R-D NC ESPRIT-type algorithms is identical in the high effective SNR regime. Finally, a case study shows that no improvement from strictly non-circular sources can be achieved in the special case of a single source.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-12T19:15:24Z</published>
+    <arxiv:comment>accepted at IEEE Transactions on Signal Processing, 15 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Jens Steinwandt</name>
+    </author>
+    <author>
+      <name>Florian Roemer</name>
+    </author>
+    <author>
+      <name>Martin Haardt</name>
+    </author>
+    <author>
+      <name>Giovanni Del Galdo</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2014.2342673</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2014.2342673" title="doi"/>
+  </entry>
+</feed>

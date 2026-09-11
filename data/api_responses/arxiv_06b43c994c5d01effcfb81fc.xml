@@ -1,0 +1,475 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//GrROUvBwmkZ04bARGIuz+OC0jM</id>
+  <title>arXiv Query: search_query=all:canonical OR all:moments OR all:Krein OR all:moment OR all:problem OR all:Nevanlinna OR all:parametrization&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:canonical+OR+(all:moments+OR+(all:Krein+OR+(all:moment+OR+(all:problem+OR+(all:Nevanlinna+OR+all:parametrization)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>624317</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1605.03217v1</id>
+    <title>The Nevanlinna-type parametrization for the operator Hamburger moment problem</title>
+    <updated>2016-05-10T21:21:24Z</updated>
+    <link href="https://arxiv.org/abs/1605.03217v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.03217v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we obtain a Nevanlinna-type parametrization for the operator Hamburger moment problem. The moment problem is not supposed to be necessarily completely indeterminate. No assumptions besides the solvability of the moment problem are posed.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-10T21:21:24Z</published>
+    <arxiv:comment>23 pages. arXiv admin note: text overlap with arXiv:1501.02396</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.5406v1</id>
+    <title>Hilbert function spaces and the Nevanlinna-Pick problem on the polydisc II</title>
+    <updated>2013-02-21T20:32:27Z</updated>
+    <link href="https://arxiv.org/abs/1302.5406v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.5406v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In \cite{ds_hfs}, a geometric procedure for constructing a Nevanlinna-Pick problem on $\D^n$ with a specified set of uniqueness was established. In this sequel we conjecture a necessary and a sufficient condition for a Nevanlinna-Pick problem on $\DT$ to have a unique solution. We use the results of \cite{ds_hfs} and Bezout's theorem to establish three special cases of this conjecture.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-21T20:32:27Z</published>
+    <arxiv:comment>Sequel to Hilbert function spaces and the Nevanlinna-Pick problem on the polydisc</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>David Scheinker</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.00797v1</id>
+    <title>Matricial Canonical Moments and Parametrization of Matricial Hausdorff Moment Sequences</title>
+    <updated>2017-11-02T16:11:55Z</updated>
+    <link href="https://arxiv.org/abs/1711.00797v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.00797v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study moment sequences of matrix-valued measures on compact intervals. A complete parametrization of such sequences is obtained via a symmetric version of matricial canonical moments. Furthermore, distinguished extensions of finite moment sequences are characterized in this framework. The results are applied to the underlying matrix-valued measures, generalizing some results from the scalar theory of canonical moments.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-02T16:11:55Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Bernd Fritzsche</name>
+    </author>
+    <author>
+      <name>Bernd Kirstein</name>
+    </author>
+    <author>
+      <name>Conrad Mädler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.0162v1</id>
+    <title>Truncated moment problems in the class of generalized Nevanlinna functions</title>
+    <updated>2010-12-30T21:18:14Z</updated>
+    <link href="https://arxiv.org/abs/1101.0162v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.0162v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Truncated moment problems in the class of generalized Nevanlinna functions are investigated. General solvability criteria will be established, covering both the even and odd problems, including complete parametrizations of solutions. The main new results concern the case where the corresponding Hankel matrix of moments is degenerate. One of the new effects which reveals in the indefinite case is that the degenerated moment problem may have infinitely many solutions. However, with a careful application of an indefinite analogue of a step-by-step Schur algorithm a complete description of the set of solutions will be obtained.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-30T21:18:14Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Vladimir Derkach</name>
+    </author>
+    <author>
+      <name>Seppo Hassi</name>
+    </author>
+    <author>
+      <name>Henk de Snoo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.10748v1</id>
+    <title>An upper bound for the Nevanlinna matrix of an indeterminate moment sequence</title>
+    <updated>2023-07-20T10:22:01Z</updated>
+    <link href="https://arxiv.org/abs/2307.10748v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.10748v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The solutions of an indeterminate Hamburger moment problem can be parameterised using the Nevanlinna matrix of the problem. The entries of this matrix are entire functions of minimal exponential type, and any growth less than that can occur.
+  An indeterminate moment problem can be considered as a canonical system in limit circle case by rewriting the three-term recurrence of the problem to a first order vector-valued recurrence. We give a bound for the growth of the Nevanlinna matrix in terms of the parameters of this canonical system. In most situations this bound can be evaluated explicitly. It is sharp in the sense that for well-behaved parameters it coincides with the actual growth of the Nevanlinna matrix up to multiplicative constants.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-20T10:22:01Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Raphael Pruckner</name>
+    </author>
+    <author>
+      <name>Jakob Reiffenstein</name>
+    </author>
+    <author>
+      <name>Harald Woracek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.02646v1</id>
+    <title>Moment-Based Ensemble Control</title>
+    <updated>2020-09-06T05:14:07Z</updated>
+    <link href="https://arxiv.org/abs/2009.02646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.02646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Controlling a large population, in the limit, a continuum, of structurally identical dynamical systems with parametric variations is a pervasive task in diverse applications in science and engineering. However, the severely underactuated nature and the inability to avail comprehensive state feedback information of such ensemble systems raise significant challenges in analysis and design of ensemble systems. In this paper, we propose a moment-based ensemble control framework, which incorporates and expands the method of moments in probability theory to control theory. In particular, we establish an equivalence between ensemble systems and their moment systems in terms of control and their controllability properties by extending the Hausdorff moment problem from the perspectives of differential geometry and dynamical systems. The developments enable the design of moment-feedback control laws for closing the loop in ensemble systems using the aggregated type of measurements. The feasibility of this closed-loop control design procedure is validated both mathematically and numerically.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-06T05:14:07Z</published>
+    <arxiv:comment>Keywords: Ensemble systems, Hausdorff moment problem, Aggregated measurements, Aggregated feedback</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Vignesh Narayanan</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Jr-Shin Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.00617v2</id>
+    <title>Hankel determinants of random moment sequences</title>
+    <updated>2016-06-27T08:58:34Z</updated>
+    <link href="https://arxiv.org/abs/1508.00617v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.00617v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For $ t \in [0,1]$ let $\underline{H}_{2\lfloor nt \rfloor} = ( m_{i+j})_{i,j=0}^{\lfloor nt \rfloor} $ denote the Hankel matrix of order $2\lfloor nt \rfloor$ of a random vector $(m_1,\ldots ,m_{2n})$ on the moment space $\mathcal{M}_{2n}(I)$ of all moments (up to the order $2n$) of probability measures on the interval $I \subset \mathbb{R} $. In this paper we study the asymptotic properties of the stochastic process $\{ \log \det \underline{H}_{2\lfloor nt \rfloor} \}_{t\in [0,1]}$ as $n \to \infty$. In particular weak convergence and corresponding large deviation principles are derived after appropriate standardization.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-03T23:25:20Z</published>
+    <arxiv:comment>Keyword and Phrases: Hankel determinant, random moment sequences, weak convergence, large deviation principle, canonical moments, arcsine distribution AMS Subject Classification: 60F05, 60F10, 30E05, 15B52</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Holger Dette</name>
+    </author>
+    <author>
+      <name>Dominik Tomecki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.2278v1</id>
+    <title>The Nevanlinna-type formula for the truncated matrix trigonometric moment problem</title>
+    <updated>2012-01-11T10:57:24Z</updated>
+    <link href="https://arxiv.org/abs/1201.2278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.2278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is a continuation of our previous investigation on the truncated matrix trigonometric moment problem in Ukrainian Math. J., 2011, 63, no.6, 786-797. In the present paper we obtain a Nevanlinna-type formula for this moment problem in a general case. We only assume that we have more than one moment, the moment problem is solvable and the problem has more than one solution. The coefficients of the corresponding matrix linear fractional transformation are explicitly expressed by the prescribed moments. Easy conditions for the determinacy of the moment problem are given.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-11T10:57:24Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.5500v1</id>
+    <title>The Nevanlinna-type formula for the matrix Hamburger moment problem in a general case</title>
+    <updated>2012-01-26T12:30:47Z</updated>
+    <link href="https://arxiv.org/abs/1201.5500v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.5500v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we obtain a Nevanlinna-type formula for the matrix Hamburger moment problem in a general case. We only assume that the problem is solvable and has more that one solution. We express the matrix coefficients of the corresponding linear fractional transformation in terms of the prescribed moments. Necessary and sufficient conditions for the determinacy of the moment problem are given.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-26T12:30:47Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.10864v2</id>
+    <title>Canonical forms and moment-generating functions of plane polypols</title>
+    <updated>2026-05-18T13:19:36Z</updated>
+    <link href="https://arxiv.org/abs/2605.10864v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.10864v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study two closely related objects associated with plane domains bounded by rational algebraic arcs: canonical forms in the sense of positive geometry and normalized moment-generating functions, or Fantappie transforms. For polygons these objects are related by polarity: the normalized Fantappie transform of a polygon is the canonical form of the polar polygon. For genuinely curved polypols the same dual-geometric mechanism survives, but the transform is no longer a rational logarithmic canonical form; rather, it is a holonomic, generally branched period whose singularities are controlled by vertex hyperplanes and by the projective dual curves of the nonlinear boundary components. We give explicit examples, including sectors and half-disks, and explain how harmonic moment generating functions arise as one-dimensional restrictions of the same Fantappi`e transform.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-11T17:12:34Z</published>
+    <arxiv:comment>References fixed. Unit disk removed from examples of canonical forms. No change of the main results</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Boris Shapiro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4567v1</id>
+    <title>On degenerate Hamburger moment problem and extensions of positive semidefinite Hankel block matrices</title>
+    <updated>2008-12-24T19:22:41Z</updated>
+    <link href="https://arxiv.org/abs/0812.4567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we consider two related objects: singular positive semidefinite Hankel block--matrices and associated degenerate truncated matrix Hamburger moment problems. The description of all solutions of a degenerate matrix Hamburger moment problem is given in terms of a linear fractional transformation. The case of interest is the Hamburger moment problem whose Hankel block--matrix admits a positive semidefinite Hankel extension.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-24T19:22:41Z</published>
+    <arxiv:comment>The corrected version of the paper "On degenerate Hamburger moment problem and extensions of nonnegative Hankel block matrices", Integral Equations Operator Theory 25 (1996), no. 3, 253--276</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Bolotnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.01911v2</id>
+    <title>Higher moments of the pair correlation function for Sato-Tate sequences</title>
+    <updated>2023-06-22T20:40:20Z</updated>
+    <link href="https://arxiv.org/abs/2206.01911v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.01911v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In \cite{BS}, Balasubramanyam and the second named author derived the first moment of the pair correlation function for Hecke angles lying in small subintervals of $[0,1]$ upon averaging over large families of Hecke newforms of weight $k$ with respect to $Γ_0(N)$. The goal of this article is to study higher moments of this pair correlation function. For an integer $r \geq 2$, we present bounds for its $r$-th power moments. We apply these bounds to record lower order error terms in the computation of the second and third moments. As a result, one can obtain the convergence of the second and third moments of this pair correlation function for suitably small intervals, and under appropriate growth conditions for the size of the families of Hecke newforms.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-04T04:41:21Z</published>
+    <arxiv:comment>This is a significantly revised version incorporating a study of the $r$-th power moments of the above-mentioned pair correlation function for all integers $r \geq 2$. The previous version only discussed the second moment. 47 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Jewel Mahajan</name>
+    </author>
+    <author>
+      <name>Kaneenika Sinha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.19916v1</id>
+    <title>The truncated multidimensional moment problem: canonical solutions</title>
+    <updated>2024-06-28T13:39:59Z</updated>
+    <link href="https://arxiv.org/abs/2406.19916v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.19916v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the truncated multidimensional moment problem we introduce a notion of a canonical solution. Namely, canonical solutions are those solutions which are generated by commuting self-adjoint extensions inside the associated Hilbert space. It is constructed a 1-1 correspondence between canonical solutions and flat extensions of the given moments (both sets may be empty). In the case of the two-dimensional moment problem (with triangular truncations) a search for canonical solutions leads to an algebraic system of equations. A notion of the index $i_s$ of nonself-adjointness for a set of prescribed moments is introduced. The case $i_s=0$ corresponds to flatness. In the case $i_s=1$ we get explicit necessary and sufficient conditions for the existence of canonical solutions. These conditions are valid for arbitrary sizes of truncations. In the case $i_s=2$ we get either explicit conditions for the existence of canonical solutions or a single quadratic equation with several unknowns. Numerical examples are provided.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-28T13:39:59Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.00825v2</id>
+    <title>A general fibre theorem for moment problems and some applications</title>
+    <updated>2015-07-08T15:18:06Z</updated>
+    <link href="https://arxiv.org/abs/1502.00825v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.00825v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fibre theorem \cite{schm2003} for the moment problem on closed semi-algebraic subsets of $\R^d$ is generalized to finitely generated real unital algebras. As an application two new theorems on the rational multidimensional moment problem are proved. Another application is a characterization of moment functionals on the polynomial algebra $\R[x_1,\dots,x_d]$ in terms of extensions. Finally, the fibre theorem and the extension theorem are used to reprove basic results on the complex moment problem due to Stochel and Szafraniec \cite{stochelsz} and Bisgaard \cite{bisgaard}.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-03T12:04:45Z</published>
+    <arxiv:comment>The paper is based on the previous paper by the author arXiv:1406.0282 "A characterization of moment sequences by extensions"</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Konrad Schmüdgen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.03592v2</id>
+    <title>Tracial moment problems on hypercubes</title>
+    <updated>2019-04-09T08:53:07Z</updated>
+    <link href="https://arxiv.org/abs/1904.03592v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.03592v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we introduce the "tracial $K$-moment problem" and the "sequential matrix-valued $K$-moment problem" and show the equivalence of the solvability of these problems. Using a Haviland's theorem for matrix polynomials, we solve these $K$-moment problems for the case where $K$ is the hypercube $[-1,1]^n$.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-07T06:37:19Z</published>
+    <arxiv:comment>13 pages, equivalence of the solvability of two kinds of K-moment problems was established, main results improved</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Cong Trinh Le</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.08544v2</id>
+    <title>Moment of Untruth: Dealing with Negative Queries in Video Moment Retrieval</title>
+    <updated>2025-02-13T15:04:42Z</updated>
+    <link href="https://arxiv.org/abs/2502.08544v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.08544v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Video Moment Retrieval is a common task to evaluate the performance of visual-language models - it involves localising start and end times of moments in videos from query sentences. The current task formulation assumes that the queried moment is present in the video, resulting in false positive moment predictions when irrelevant query sentences are provided. In this paper we propose the task of Negative-Aware Video Moment Retrieval (NA-VMR), which considers both moment retrieval accuracy and negative query rejection accuracy. We make the distinction between In-Domain and Out-of-Domain negative queries and provide new evaluation benchmarks for two popular video moment retrieval datasets: QVHighlights and Charades-STA. We analyse the ability of current SOTA video moment retrieval approaches to adapt to Negative-Aware Video Moment Retrieval and propose UniVTG-NA, an adaptation of UniVTG designed to tackle NA-VMR. UniVTG-NA achieves high negative rejection accuracy (avg. $98.4\%$) scores while retaining moment retrieval scores to within $3.87\%$ Recall@1. Dataset splits and code are available at https://github.com/keflanagan/MomentofUntruth</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-12T16:28:21Z</published>
+    <arxiv:comment>16 pages, 9 figures. Accepted at WACV 2025. Paper webpage: https://keflanagan.github.io/Moment-of-Untruth</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Kevin Flanagan</name>
+    </author>
+    <author>
+      <name>Dima Damen</name>
+    </author>
+    <author>
+      <name>Michael Wray</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.0217v3</id>
+    <title>The Nevanlinna parametrization for $q$-Lommel polynomials in the indeterminate case</title>
+    <updated>2015-05-16T11:58:03Z</updated>
+    <link href="https://arxiv.org/abs/1407.0217v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.0217v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Hamburger moment problem for the $q$-Lommel polynomials which are related to the Hahn-Exton $q$-Bessel function is known to be indeterminate for a certain range of parameters. In this paper, the Nevanlinna parametrization for the indeterminate case is provided in an explicit form. This makes it possible to describe all N-extremal measures of orthogonality. Moreover, a linear and quadratic recurrence relation are derived for the moment sequence, and the asymptotic behavior of the moments for large powers is obtained with the aid of appropriate estimates.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-01T12:46:31Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Approximation Theory 201 (2016), 48-72</arxiv:journal_ref>
+    <author>
+      <name>F. Štampach</name>
+    </author>
+    <author>
+      <name>P. Šťovíček</name>
+    </author>
+    <arxiv:doi>10.1016/j.jat.2015.09.002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jat.2015.09.002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.0075v2</id>
+    <title>Moment equations of neutrinos in supernova</title>
+    <updated>2009-06-23T19:19:32Z</updated>
+    <link href="https://arxiv.org/abs/0904.0075v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.0075v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We derive a series of moment equations describing the motion and flavor transformation of neutrinos in supernova. We find a particular series of moments of neutrino density matrix in supernova. The emission angle distribution of neutrinos is described by this series of moments. We expand the equation of neutrinos using these moments and obtain moment equations. We find that these moments have very good property of convergence and the infinite series of equations can be truncated to equations with a small set of moments. Using a small set of moment equations the required computational power is reduced by about two orders of magnitude compared to that in multi-angle simulation. The study on non-linear flavor transformation of neutrinos is substantially simplified using these equations. Two flavor system of neutrinos is also considered and new equations describing the flavor polarization vectors of neutrinos are found.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-01T06:51:48Z</published>
+    <arxiv:comment>22 pages, 4 figures; discussions added to clarify the derivation of moment equations, numerical parts revised</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Wei Liao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.06589v1</id>
+    <title>Weyl Circles for one-dimensional Moment Problems</title>
+    <updated>2015-06-22T13:16:49Z</updated>
+    <link href="https://arxiv.org/abs/1506.06589v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.06589v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present paper we calculate the centers and radii of Weyl circles from the Nevanlinna parametrization for various one-dimensional moment problems (Hamburger moment problem, Stieltjes moment problem, truncated moment problem for finite intervals).</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-22T13:16:49Z</published>
+    <arxiv:comment>13 pages, 0 figures</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Philipp di Dio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.02623v1</id>
+    <title>Retrieving Any Relevant Moments: Benchmark and Models for Generalized Moment Retrieval</title>
+    <updated>2026-05-04T14:14:06Z</updated>
+    <link href="https://arxiv.org/abs/2605.02623v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.02623v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Video Moment Retrieval (VMR) aims to localize temporal segments in videos that correspond to a natural language query, but typically assumes only a single matching moment for each query. This assumption does not always hold in real-world scenarios, where queries may correspond to multiple or no moments. Thus, we formulate Generalized Moment Retrieval (GMR), a unified setting that requires retrieving the complete set of relevant moments or predicting an empty set. To enable systematic study of GMR, we introduce Soccer-GMR, a large-scale benchmark built on challenging soccer videos that reflect general GMR scenarios, with realistic negative and positive queries. The benchmark is constructed via a duration-flexible semi-automated pipeline with human verification, enabling scalable data generation while maintaining high annotation quality. We further design a unified evaluation protocol with complementary metrics tailored for null-set rejection, positive-query localization, and end-to-end GMR performance. Finally, we establish strong baselines across two modeling paradigms: a lightweight plug-and-play GMR adapter for discriminative VMR models, and a GMR-tailored GRPO reward for fine-tuning multimodal large language models (MLLMs). Extensive experiments show consistent gains across all metrics and expose key limitations of current methods, positioning GMR as a more realistic and challenging benchmark for video-language understanding.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-04T14:14:06Z</published>
+    <arxiv:comment>Code and dataset: https://github.com/dymm9977/generalized-moment-retrieval. Keywords: video moment retrieval, temporal grounding, benchmark, multi-modal learning</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yiming Ding</name>
+    </author>
+    <author>
+      <name>Siyu Cao</name>
+    </author>
+    <author>
+      <name>Luyuan Jiao</name>
+    </author>
+    <author>
+      <name>Yixuan Li</name>
+    </author>
+    <author>
+      <name>Zitong Wang</name>
+    </author>
+    <author>
+      <name>Zhiyong Liu</name>
+    </author>
+    <author>
+      <name>Lu Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.02396v1</id>
+    <title>On the truncated operator trigonometric moment problem</title>
+    <updated>2015-01-10T21:43:24Z</updated>
+    <link href="https://arxiv.org/abs/1501.02396v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.02396v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we study the truncated operator trigonometric moment problem. All solutions of the moment problem are described by a Nevanlinna-type parameterization. In the case of moments acting in a separable Hilbert space, the matrices of the operator coefficients in the Nevanlinna-type formula are calculated by the prescribed moments. Conditions for the determinacy of the moment problem are given, as well.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-10T21:43:24Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.3437v3</id>
+    <title>A cutting surface algorithm for semi-infinite convex programming with an application to moment robust optimization</title>
+    <updated>2014-08-13T15:08:56Z</updated>
+    <link href="https://arxiv.org/abs/1306.3437v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.3437v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present and analyze a central cutting surface algorithm for general semi-infinite convex optimization problems, and use it to develop a novel algorithm for distributionally robust optimization problems in which the uncertainty set consists of probability distributions with given bounds on their moments. Moments of arbitrary order, as well as non-polynomial moments can be included in the formulation. We show that this gives rise to a hierarchy of optimization problems with decreasing levels of risk-aversion, with classic robust optimization at one end of the spectrum, and stochastic programming at the other. Although our primary motivation is to solve distributionally robust optimization problems with moment uncertainty, the cutting surface method for general semi-infinite convex programs is also of independent interest. The proposed method is applicable to problems with non-differentiable semi-infinite constraints indexed by an infinite-dimensional index set. Examples comparing the cutting surface algorithm to the central cutting plane algorithm of Kortanek and No demonstrate the potential of our algorithm even in the solution of traditional semi-infinite convex programming problems whose constraints are differentiable and are indexed by an index set of low dimension. After the rate of convergence analysis of the cutting surface algorithm, we extend the authors' moment matching scenario generation algorithm to a probabilistic algorithm that finds optimal probability distributions subject to moment constraints. The combination of this distribution optimization method and the central cutting surface algorithm yields a solution to a family of distributionally robust optimization problems that are considerably more general than the ones proposed to date.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.CP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.PM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-14T16:01:59Z</published>
+    <arxiv:comment>Accepted in SIAM Journal on Optimization. 28 pages, 2 figures. Keywords: semi-infinite programming, robust optimization, distributionally robust optimization, stochastic programming, moment matching, column generation, cutting surface methods, cutting plane methods, moment problem</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Sanjay Mehrotra</name>
+    </author>
+    <author>
+      <name>David Papp</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.08394v1</id>
+    <title>The Classical Moment Problem and Generalized Indefinite Strings</title>
+    <updated>2017-07-26T11:50:54Z</updated>
+    <link href="https://arxiv.org/abs/1707.08394v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.08394v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the classical Hamburger moment problem can be included in the spectral theory of generalized indefinite strings. Namely, we introduce the class of Krein-Langer strings and show that there is a bijective correspondence between moment sequences and this class of generalized indefinite strings. This result can be viewed as a complement to the classical results of M. G. Krein on the connection between the Stieltjes moment problem and Krein-Stieltjes strings and I. S. Kac on the connection between the Hamburger moment problem and 2x2 canonical systems with Hamburger Hamiltonians.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-26T11:50:54Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Integr. Equ. Oper. Theory, 90:23 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Jonathan Eckhardt</name>
+    </author>
+    <author>
+      <name>Aleksey Kostenko</name>
+    </author>
+    <arxiv:doi>10.1007/s00020-018-2446-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00020-018-2446-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.11293v4</id>
+    <title>The Quadrupole Moment of Compact Binaries to the Fourth post-Newtonian Order: From Source to Canonical Moment</title>
+    <updated>2022-09-02T17:40:06Z</updated>
+    <link href="https://arxiv.org/abs/2204.11293v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.11293v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As a crucial step towards the completion of the fourth post-Newtonian (4PN) gravitational-wave generation from compact binary systems, we obtain the expressions of the so-called "canonical" multipole moments of the source in terms of the "source" and "gauge" moments. The canonical moments describe the propagation of gravitational waves outside the source's near zone, while the source and gauge moments encode explicit information about the matter source. Those two descriptions, in terms of two sets of canonical moments or in terms of six sets of source and gauge moments, are isometric. We thus construct the non-linear diffeomorphism between them up to the third post-Minkowskian order, and we exhibit the concrete expression of the canonical mass-type quadrupole moment at the 4PN order. This computation is one of the last missing pieces for the determination of the gravitational-wave phasing of compact binary systems at 4PN order.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-24T14:51:20Z</published>
+    <arxiv:comment>25 pages, no figure</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>CQG 39(2022)195003</arxiv:journal_ref>
+    <author>
+      <name>Luc Blanchet</name>
+    </author>
+    <author>
+      <name>Guillaume Faye</name>
+    </author>
+    <author>
+      <name>François Larrouturou</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/ac840c</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/ac840c" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.01299v2</id>
+    <title>Almost sure and moment convergence for triangular Pólya urns</title>
+    <updated>2024-03-21T08:35:04Z</updated>
+    <link href="https://arxiv.org/abs/2402.01299v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.01299v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider triangular Pólya urns and show under very weak conditions a general strong limit theorem of the form $X_{ni}/a_{ni}\to \mathcal{X}_i$ a.s., where $X_{ni}$ is the number of balls of colour $i$ after $n$ draws; the constants $a_{ni}$ are explicit and of the form $n^α\log^γn$; the limit is a.s. positive, and may be either deterministic or random, but is in general unknown.
+  The result extends to urns with subtractions under weak conditions, but a counterexample shows that some conditions are needed.
+  For balanced urns we also prove moment convergence in the main results if the replacements have the corresponding moments.
+  The proofs are based on studying the corresponding continuous-time urn using martingale methods, and showing corresponding results there. We assume for convenience that all replacements have finite second moments.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-02T10:41:46Z</published>
+    <arxiv:comment>84 pages. Version 2 contains new results on moment convergence, and also reduces the moment assumptions in the main theorems</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Svante Janson</name>
+    </author>
+  </entry>
+</feed>

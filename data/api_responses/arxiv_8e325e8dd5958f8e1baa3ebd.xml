@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OkPGAVuTSa3KcFnIMhyGFsAXaWA</id>
+  <title>arXiv Query: search_query=all:Lasserre OR all:moment OR all:SOS OR all:hierarchy OR all:semidefinite OR all:relaxation OR all:support&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Lasserre+OR+(all:moment+OR+(all:SOS+OR+(all:hierarchy+OR+(all:semidefinite+OR+(all:relaxation+OR+all:support)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>473585</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2101.05167v1</id>
+    <title>A Sublevel Moment-SOS Hierarchy for Polynomial Optimization</title>
+    <updated>2021-01-13T16:14:40Z</updated>
+    <link href="https://arxiv.org/abs/2101.05167v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.05167v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a sublevel Moment-SOS hierarchy where each SDP relaxation can be viewed as an intermediate (or interpolation) between the d-th and (d+1)-th order SDP relaxations of the Moment-SOS hierarchy (dense or sparse version). With the flexible choice of determining the size (level) and number (depth) of subsets in the SDP relaxation, one is able to obtain different improvements compared to the d-th order relaxation, based on the machine memory capacity. In particular, we provide numerical experiments for d=1 and various types of problems both in combinatorial optimization (Max-Cut, Mixed Integer Programming) and deep learning (robustness certification, Lipschitz constant of neural networks), where the standard Lasserre's relaxation (or its sparse variant) is computationally intractable. In our numerical results, the lower bounds from the sublevel relaxations improve the bound from Shor's relaxation (first order Lasserre's relaxation) and are significantly closer to the optimal value or to the best-known lower/upper bounds.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-13T16:14:40Z</published>
+    <arxiv:comment>25 pages, 13 tables</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Tong Chen</name>
+    </author>
+    <author>
+      <name>Jean-Bernard Lasserre</name>
+    </author>
+    <author>
+      <name>Victor Magron</name>
+    </author>
+    <author>
+      <name>Edouard Pauwels</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.4765v1</id>
+    <title>A Lagrangian relaxation view of linear and semidefinite hierarchies</title>
+    <updated>2012-10-17T15:22:07Z</updated>
+    <link href="https://arxiv.org/abs/1210.4765v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.4765v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the general polynomial optimization problem $P: f^*=\min \{f(x)\,:\,x\in K\}$ where $K$ is a compact basic semi-algebraic set. We first show that the standard Lagrangian relaxation yields a lower bound as close as desired to the global optimum $f^*$, provided that it is applied to a problem $\tilde{P}$ equivalent to $P$, in which sufficiently many redundant constraints (products of the initial ones) are added to the initial description of $P$. Next we show that the standard hierarchy of LP-relaxations of $P$ (in the spirit of Sherali-Adams' RLT) can be interpreted as a brute force simplification of the above Lagrangian relaxation in which a nonnegative polynomial (with coefficients to be determined) is replaced with a constant polynomial equal to zero. Inspired by this interpretation, we provide a systematic improvement of the LP-hierarchy by doing a much less brutal simplification which results into a parametrized hierarchy of semidefinite programs (and not linear programs any more). For each semidefinite program in the parametrized hierarchy, the semidefinite constraint has a fixed size $O(n^k)$, independently of the rank in the hierarchy, in contrast with the standard hierarchy of semidefinite relaxations. The parameter $k$ is to be decided by the user. When applied to a non trivial class of convex problems, the first relaxation of the parametrized hierarchy is exact, in contrast with the LP-hierarchy where convergence cannot be finite. When applied to 0/1 programs it is at least as good as the first one in the hierarchy of semidefinite relaxations. However obstructions to exactness still exist and are briefly analyzed. Finally, the standard semidefinite hierarchy can also be viewed as a simplification of an extended Lagrangian relaxation, but different in spirit as sums of squares (and not scalars) multipliers are allowed.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-17T15:22:07Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Jean Lasserre</name>
+      <arxiv:affiliation>LAAS</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0810.3150v2</id>
+    <title>Semidefinite Programming for Min-Max Problems and Games</title>
+    <updated>2009-12-16T13:03:41Z</updated>
+    <link href="https://arxiv.org/abs/0810.3150v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0810.3150v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We introduce two min-max problems: the first problem is to minimize the supremum of finitely many rational functions over a compact basic semi-algebraic set whereas the second problem is a 2-player zero-sum polynomial game in randomized strategies and with compact basic semi-algebraic pure strategy sets. It is proved that their optimal solution can be approximated by solving a hierarchy of semidefinite relaxations, in the spirit of the moment approach developed in Lasserre. This provides a unified approach and a class of algorithms to approximate all Nash equilibria and min-max strategies of many static and dynamic games. Each semidefinite relaxation can be solved in time which is polynomial in its input size and practice from global optimization suggests that very often few relaxations are needed for a good approximation (and sometimes even finite convergence).</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-10-17T12:58:10Z</published>
+    <arxiv:comment>21 pages</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Rida Laraki</name>
+      <arxiv:affiliation>CECO</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jean B. Lasserre</name>
+      <arxiv:affiliation>LAAS</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.06598v2</id>
+    <title>A Bounded Degree Lasserre Hierarchy with SOCP Relaxations for Global Polynomial Optimization and Applications</title>
+    <updated>2018-09-18T02:48:02Z</updated>
+    <link href="https://arxiv.org/abs/1710.06598v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.06598v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose a new convergent conic programming hierarchy of relaxations involving both semi-definite cone and second-order cone constraints for solving nonconvex polynomial optimization problems to global optimality. The significance of this hierarchy is that the size and number of the semi-definite and second-order cone constraints of the relaxations are fixed and independent of the step or level of the approximation in the hierarchy. Using the Krivine-Stengle's certificate of positivity in real algebraic geometry, we establish the convergence of the hierarchy of relaxations, extending the very recent so-called bounded degree Lasserre hierarchy. In particular, we also provide a convergent bounded degree second-order cone programming (SOCP) hierarchy for solving polynomial optimization problems. We then present finite convergence at step one of the SOCP hierarchy for two classes of polynomial optimization problems: a subclass of convex polynomial optimization problems where the objective and constraint functions are SOCP-convex polynomials, defined in terms of specially structured sum of squares polynomials, and a class of polynomial optimization problems, involving polynomials with essentially non-positive coefficients. In the case of one-step convergence for problems with SOCP-convex polynomials, we show how a global solution is recovered from the relaxation via Jensen's inequality of SOCP-convex polynomials. As an application, we derive a corresponding convergent conic linear programming hierarchy for conic-convex semi-algebraic programs. Whenever the semi-algebraic set of the conic-convex program is described by convex polynomial inequalities, we show further that the values of the relaxation problems converge to the common value of the convex program and its Lagrangian dual under a constraint qualification.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-18T07:06:56Z</published>
+    <arxiv:comment>This is an updated and improved version of the previous paper entitled with "A New Hierarchy of Second-order Cone Programming Relaxations for Polynomial Optimization: Asymptotic and Finite Convergence"</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>T. D Chuong</name>
+    </author>
+    <author>
+      <name>V. Jeyakumar</name>
+    </author>
+    <author>
+      <name>G. Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.06126v2</id>
+    <title>A bounded degree SOS hierarchy for polynomial optimization</title>
+    <updated>2015-06-26T11:45:14Z</updated>
+    <link href="https://arxiv.org/abs/1501.06126v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.06126v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a  new hierarchy of semidefinite relaxations for the general polynomial optimization problem $(P):\:f^{\ast}=\min \{\,f(x):x\in K\,\}$ on a compact basic semi-algebraic set $K\subset\R^n$. This hierarchy combines some advantages of the standard LP-relaxations associated with Krivine's positivity certificate and some advantages of the standard SOS-hierarchy. In particular it has the following attractive features: (a) In contrast to the standard SOS-hierarchy, for each relaxation in the hierarchy, the size of the matrix associated with the semidefinite constraint is the same and fixed in advance by the user. (b) In contrast to the LP-hierarchy, finite convergence occurs at the first step of the hierarchy for an important class of convex problems. Finally (c) some important techniques related to the use of  point evaluations for declaring a polynomial to be zero and to the use of rank-one matrices make an efficient implementation possible. Preliminary results on a sample of non convex problems are encouraging.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-25T08:07:34Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Jean-Bernard Lasserre</name>
+      <arxiv:affiliation>LAAS, LAAS-MAC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Toh Kim-Chuan</name>
+    </author>
+    <author>
+      <name>Yang Shouguang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.08566v1</id>
+    <title>The Moment-SOS hierarchy and the Christoffel-Darboux kernel</title>
+    <updated>2020-11-17T11:25:38Z</updated>
+    <link href="https://arxiv.org/abs/2011.08566v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.08566v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the global minimization of a polynomial on a compact set B. We show that each step of the Moment-SOS hierarchy has a nice and simple interpretation that complements the usual one. Namely, it computes coefficients of a polynomial in an orthonormal basis of L 2 (B, $μ$) where $μ$ is an arbitrary reference measure whose support is exactly B. The resulting polynomial is a certain density (with respect to $μ$) of some signed measure on B. When some relaxation is exact (which generically takes place) the coefficients of the optimal polynomial density are values of orthonormal polynomials at the global minimizer and the optimal (signed) density is simply related to the Christoffel-Darboux (CD) kernel and the Christoffel function associated with $μ$. In contrast to the hierarchy of upper bounds which computes positive densities, the global optimum can be achieved exactly as integration against a polynomial (signed) density because the CD-kernel is a reproducing kernel, and so can mimic a Dirac measure (as long as finitely many moments are concerned).</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-17T11:25:38Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Jean-Bernard Lasserre</name>
+      <arxiv:affiliation>LAAS-MAC</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.03446v1</id>
+    <title>The Moment-SOS hierarchy</title>
+    <updated>2018-08-10T08:00:55Z</updated>
+    <link href="https://arxiv.org/abs/1808.03446v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.03446v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Moment-SOS hierarchy initially introduced in optimization in 2000, is based on the theory of the K-moment problem and its dual counterpart, polynomials that are positive on K. It turns out that this methodology can be also applied to solve problems with positivity constraints " f (x) $\ge$ 0 for all x $\in$ K " and/or linear constraints on Borel measures. Such problems can be viewed as specific instances of the " Generalized Problem of Moments " (GPM) whose list of important applications in various domains is endless. We describe this methodology and outline some of its applications in various domains.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-10T08:00:55Z</published>
+    <arxiv:comment>To appear in Proceedings of ICM-2018, Rio de Janeiro</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Jean Lasserre</name>
+      <arxiv:affiliation>LAAS-MAC</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.09027v1</id>
+    <title>A hierarchy of spectral relaxations for polynomial optimization</title>
+    <updated>2020-07-17T14:41:51Z</updated>
+    <link href="https://arxiv.org/abs/2007.09027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.09027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that (i) any constrained polynomial optimization problem (POP) has an equivalent formulation on a variety contained in an Euclidean sphere and (ii) the resulting semidefinite relaxations in the moment-SOS hierarchy have the constant trace property (CTP) for the involved matrices. We then exploit the CTP to avoid solving the semidefinite relaxations via interior-point methods and rather use ad-hoc spectral methods that minimize the largest eigenvalue of a matrix pencil. Convergence to the optimal value of the semidefinite relaxation is guaranteed. As a result we obtain a hierarchy of nonsmooth "spectral relaxations" of the initial POP. Efficiency and robustness of this spectral hierarchy is tested against several equality constrained POPs on a sphere as well as on a sample of randomly generated quadratically constrained quadratic problems (QCQPs).</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-17T14:41:51Z</published>
+    <arxiv:comment>38 pages, 6 figures, 11 tables</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Ngoc Hoang Anh Mai</name>
+    </author>
+    <author>
+      <name>Victor Magron</name>
+    </author>
+    <author>
+      <name>Jean-Bernard Lasserre</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.01086v4</id>
+    <title>A hierarchy of convex relaxations for the total variation distance</title>
+    <updated>2026-08-26T09:37:31Z</updated>
+    <link href="https://arxiv.org/abs/2401.01086v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.01086v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given two measures $μ$, $ν$ on Rd that satisfy Carleman's condition, we provide a numerical scheme to approximate as closely as desired the total variation distance between $μ$ and $ν$. It consists of solving a sequence (hierarchy) of convex relaxations whose associated sequence of optimal values converges to the total variation distance, an additional illustration of the versatility of the Moment-SOS hierarchy. Indeed each relaxation in the hierarchy is a semidefinite program whose size increases with the number of involved moments. It has an optimal solution which is a couple of degree-2n pseudo-moments which converge, as n grows, to moments of the Hahn-Jordan decomposition of $μ$-$ν$.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-02T07:57:40Z</published>
+    <arxiv:comment>this corrects and improves Lemma 3.3</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <arxiv:journal_ref>Mathematical Programming, Series A, 2026, 8 p</arxiv:journal_ref>
+    <author>
+      <name>Jean-Bernard Lasserre</name>
+      <arxiv:affiliation>LAAS-POP, TSE-R</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.06840v3</id>
+    <title>A max-cut formulation of 0/1 programs</title>
+    <updated>2015-12-22T13:37:04Z</updated>
+    <link href="https://arxiv.org/abs/1505.06840v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.06840v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the linear or quadratic 0/1 program\[P:\quad\min\{ c^Tx+x^TFx : \:A\,x =b;\:x\in\{0,1\}^n\},\]can be formulated as a MAX-CUT problem whose associated graph is simply related to the matrices $\F$ and $\A^T\A$.Hence the whole arsenal  of approximation techniques for MAX-CUT can be applied. We also  compare the lower boundof the resulting semidefinite (or Shor) relaxation with that of the standard LP-relaxation and the first semidefinite relaxationsassociated with the Lasserre hierarchy and the copositive formulations of $P$.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-26T08:06:39Z</published>
+    <arxiv:comment>To appear in Operations Research Letters. Rapport LAAS 15190</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Jean-Bernard Lasserre</name>
+      <arxiv:affiliation>LAAS-MAC</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.06052v1</id>
+    <title>Rank conditions for exactness of semidefinite relaxations in polynomial optimization</title>
+    <updated>2025-01-10T15:32:35Z</updated>
+    <link href="https://arxiv.org/abs/2501.06052v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.06052v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the Moment-SOS hierarchy in polynomial optimization. We first provide a sufficient condition to solve the truncated K-moment problem associated with a given degree-$2n$ pseudo-moment sequence $φ$ n and a semi-algebraic set $K \subset \mathbb{R}^d$. Namely, let $2v$ be the maximum degree of the polynomials that describe $K$. If the rank $r$ of its associated moment matrix is less than $nv + 1$, then $φ^n$ has an atomic representing measure supported on at most $r$ points of $K$. When used at step-$n$ of the Moment-SOS hierarchy, it provides a sufficient condition to guarantee its finite convergence (i.e., the optimal value of the corresponding degree-n semidefinite relaxation of the hierarchy is the global minimum). For Quadratic Constrained Quadratic Problems (QCQPs) one may also recover global minimizers from the optimal pseudo-moment sequence. Our condition is in the spirit of Blekherman's rank condition and while on the one-hand it is more restrictive, on the other hand it applies to constrained POPs as it provides a localization on $K$ for the representing measure.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-10T15:32:35Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Jean B Lasserre</name>
+      <arxiv:affiliation>LAAS-POP,TSE-R</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.0758v1</id>
+    <title>Graph Isomorphism and the Lasserre Hierarchy</title>
+    <updated>2014-01-04T00:16:48Z</updated>
+    <link href="https://arxiv.org/abs/1401.0758v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.0758v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we show lower bounds for a certain large class of algorithms solving the Graph Isomorphism problem, even on expander graph instances. Spielman [25] shows an algorithm for isomorphism of strongly regular expander graphs that runs in time exp(O(n^(1/3)) (this bound was recently improved to expf O(n^(1/5) [5]). It has since been an open question to remove the requirement that the graph be strongly regular. Recent algorithmic results show that for many problems the Lasserre hierarchy works surprisingly well when the underlying graph has expansion properties. Moreover, recent work of Atserias and Maneva [3] shows that k rounds of the Lasserre hierarchy is a generalization of the k-dimensional Weisfeiler-Lehman algorithm for Graph Isomorphism. These two facts combined make the Lasserre hierarchy a good candidate for solving graph isomorphism on expander graphs. Our main result rules out this promising direction by showing that even Omega(n) rounds of the Lasserre semidefinite program hierarchy fail to solve the Graph Isomorphism problem even on expander graphs.</summary>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-04T00:16:48Z</published>
+    <arxiv:comment>22 pages, 3 figures, submitted to CCC</arxiv:comment>
+    <arxiv:primary_category term="cs.CC"/>
+    <author>
+      <name>Aaron Snook</name>
+    </author>
+    <author>
+      <name>Grant Schoenebeck</name>
+    </author>
+    <author>
+      <name>Paolo Codenotti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.01891v1</id>
+    <title>On the Hardest Problem Formulations for the 0/1 Lasserre Hierarchy</title>
+    <updated>2015-10-07T10:57:45Z</updated>
+    <link href="https://arxiv.org/abs/1510.01891v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.01891v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Lasserre/Sum-of-Squares (SoS) hierarchy is a systematic procedure for constructing a sequence of increasingly tight semidefinite relaxations. It is known that the hierarchy converges to the 0/1 polytope in n levels and captures the convex relaxations used in the best available approximation algorithms for a wide variety of optimization problems.
+  In this paper we characterize the set of 0/1 integer linear problems and unconstrained 0/1 polynomial optimization problems that can still have an integrality gap at level n-1. These problems are the hardest for the Lasserre hierarchy in this sense.</summary>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-07T10:57:45Z</published>
+    <arxiv:primary_category term="cs.CC"/>
+    <author>
+      <name>Adam Kurpisz</name>
+    </author>
+    <author>
+      <name>Samuli Leppänen</name>
+    </author>
+    <author>
+      <name>Monaldo Mastrolilli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.6419v1</id>
+    <title>Convergence of the Lasserre Hierarchy of SDP Relaxations for Convex Polynomial Programs without Compactness</title>
+    <updated>2013-06-27T07:11:10Z</updated>
+    <link href="https://arxiv.org/abs/1306.6419v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.6419v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Lasserre hierarchy of semidefinite programming (SDP) relaxations is an effective scheme for finding computationally feasible SDP approximations of polynomial optimization over compact semi-algebraic sets. In this paper, we show that, for convex polynomial optimization, the Lasserre hierarchy with a slightly extended quadratic module always converges asymptotically even in the face of non-compact semi-algebraic feasible sets. We do this by exploiting a coercivity property of convex polynomials that are bounded below. We further establish that the positive definiteness of the Hessian of the associated Lagrangian at a saddle-point (rather than the objective function at each minimizer) guarantees finite convergence of the hierarchy. We obtain finite convergence by first establishing a new sum-of-squares polynomial representation of convex polynomials over convex semi-algebraic sets under a saddle-point condition. We finally prove that the existence of a saddle-point of the Lagrangian for a convex polynomial program is also necessary for the hierarchy to have finite convergence.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-27T07:11:10Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>V. Jeyakumar</name>
+    </author>
+    <author>
+      <name>T. S. Pham</name>
+    </author>
+    <author>
+      <name>G. Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.6493v4</id>
+    <title>The Lasserre Hierarchy in Almost Diagonal Form</title>
+    <updated>2014-04-02T16:57:35Z</updated>
+    <link href="https://arxiv.org/abs/1312.6493v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.6493v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Lasserre hierarchy is a systematic procedure for constructing a sequence of increasingly tight relaxations that capture the convex formulations used in the best available approximation algorithms for a wide variety of optimization problems. Despite the increasing interest, there are very few techniques for analyzing Lasserre integrality gaps. Satisfying the positive semi-definite requirement is one of the major hurdles to constructing Lasserre gap examples.
+  We present a novel characterization of the Lasserre hierarchy based on moment matrices that differ from diagonal ones by matrices of rank one (almost diagonal form). We provide a modular recipe to obtain positive semi-definite feasibility conditions by iteratively diagonalizing rank one matrices.
+  Using this, we prove strong lower bounds on integrality gaps of Lasserre hierarchy for two basic capacitated covering problems. For the min-knapsack problem, we show that the integrality gap remains arbitrarily large even at level $n-1$ of Lasserre hierarchy. For the min-sum of tardy jobs scheduling problem, we show that the integrality gap is unbounded at level $Ω(\sqrt{n})$ (even when the objective function is integrated as a constraint). These bounds are interesting on their own, since both problems admit FPTAS.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-23T09:34:33Z</published>
+    <arxiv:primary_category term="cs.DS"/>
+    <author>
+      <name>Monaldo Mastrolilli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.05793v1</id>
+    <title>Minimizing rational functions: a hierarchy of approximations via pushforward measures</title>
+    <updated>2020-12-10T16:28:56Z</updated>
+    <link href="https://arxiv.org/abs/2012.05793v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.05793v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is concerned with minimizing a sum of rational functions over a compact set of high-dimension. Our approach relies on the second Lasserre's hierarchy (also known as the upper bounds hierarchy) formulated on the pushforward measure in order to work in a space of smaller dimension. We show that in the general case the minimum can be approximated as closely as desired from above with a hierarchy of semidefinite programs problems or, in the particular case of a single fraction, with a hierarchy of generalized eigenvalue problems.
+  We numerically illustrate the potential of using the pushforward measure rather than the standard upper bounds hierarchy. In our opinion, this potential should be a strong incentive to investigate a related challenging problem interesting in its own; namely integrating an arbitrary power of a given polynomial on a simple set (e.g., unit box or unit sphere) with respect to Lebesgue or Haar measure.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-10T16:28:56Z</published>
+    <arxiv:comment>24 pages, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Jean Bernard Lasserre</name>
+    </author>
+    <author>
+      <name>Victor Magron</name>
+    </author>
+    <author>
+      <name>Swann Marx</name>
+    </author>
+    <author>
+      <name>Olivier Zahm</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.08648v1</id>
+    <title>SDP bounds on the stability number via ADMM and intermediate levels of the Lasserre hierarchy</title>
+    <updated>2025-06-10T09:58:29Z</updated>
+    <link href="https://arxiv.org/abs/2506.08648v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.08648v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the Lasserre hierarchy for computing bounds on the stability number of graphs. The semidefinite programs (SDPs) arising from this hierarchy involve large matrix variables and many linear constraints, which makes them difficult to solve using interior-point methods. We propose solving these SDPs using the alternating direction method of multipliers (ADMM). When the second level of the Lasserre hierarchy for a given graph is intractable for the ADMM, we consider an intermediate-level relaxation of the hierarchy. To warm-start the ADMM, we use an optimal solution from the first level of the Lasserre hierarchy, which is equivalent to the well-known Lovász theta function. Additionally, we use this solution to determine which degree two monomials to add in the Lasserre hierarchy relaxation to obtain an intermediate level between 1 and 2. Computational results demonstrate that our approach yields strong bounds on the stability number, which are computable within reasonable running times. We provide the best-known bounds on the stability number of various graphs from the literature.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-10T09:58:29Z</published>
+    <arxiv:comment>17 pages, 9 tables, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Lennart Sinjorgo</name>
+    </author>
+    <author>
+      <name>Renata Sotirov</name>
+    </author>
+    <author>
+      <name>Juan C. Vera</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.03210v1</id>
+    <title>Chordal-TSSOS: a moment-SOS hierarchy that exploits term sparsity with chordal extension</title>
+    <updated>2020-03-04T19:31:56Z</updated>
+    <link href="https://arxiv.org/abs/2003.03210v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.03210v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work is a follow-up and a complement to arXiv:1912.08899 [math.OC] for solving polynomial optimization problems (POPs). The chordal-TSSOS hierarchy that we propose is a new sparse moment-SOS framework based on term-sparsity and chordal extension. By exploiting term-sparsity of the input polynomials we obtain a two-level hierarchy of semidefinite programming relaxations. The novelty and distinguishing feature of such relaxations is to obtain quasi block-diagonal matrices obtained in an iterative procedure that performs chordal extension of certain adjacency graphs. The graphs are related to the terms arising in the original data and not to the links between variables. Various numerical examples demonstrate the efficiency and the scalability of this new hierarchy for both unconstrained and constrained POPs. The two hierarchies are complementary. While the former TSSOS arXiv:1912.08899 [math.OC] has a theoretical convergence guarantee, the chordal-TSSOS has superior performance but lacks this theoretical guarantee.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-04T19:31:56Z</published>
+    <arxiv:comment>29 pages, 14 tables, 5 figures. arXiv admin note: text overlap with arXiv:1912.08899</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <arxiv:journal_ref>SIAM Journal on Optimization, 31(1):114-141, 2021</arxiv:journal_ref>
+    <author>
+      <name>Jie Wang</name>
+    </author>
+    <author>
+      <name>Victor Magron</name>
+    </author>
+    <author>
+      <name>Jean-Bernard Lasserre</name>
+    </author>
+    <arxiv:doi>10.1137/20M1323564</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/20M1323564" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.12613v1</id>
+    <title>On the hardness of deciding the finite convergence of Lasserre hierarchies</title>
+    <updated>2024-01-23T10:12:17Z</updated>
+    <link href="https://arxiv.org/abs/2401.12613v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.12613v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A polynomial optimization problem (POP) asks for minimizing a polynomial function given a finite set of polynomial constraints (equations and inequalities). This problem is well-known to be hard in general, as it encodes many hard combinatorial problems. The Lasserre hierarchy is a sequence of semidefinite relaxations for solving (POP). Under the standard archimedean condition, this hierarchy is guaranteed to converge asymptotically to the optimal value of (POP) (Lasserre, 2001) and, moreover, finite convergence holds generically (Nie, 2012). In this paper, we aim to investigate whether there is an efficient algorithmic procedure to decide whether the Lasserre hierarchy of (POP) has finite convergence. We show that unless P=NP there cannot exist such an algorithmic procedure that runs in polynomial time. We show this already for the standard quadratic programs. Our approach relies on characterizing when finite convergence holds for the so-called Motzkin-Straus formulation (and some variations of it) for the stability number of a graph.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-23T10:12:17Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Luis Felipe Vargas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.01151v3</id>
+    <title>Sparse-BSOS: a bounded degree SOS hierarchy for large scale polynomial optimization with sparsity</title>
+    <updated>2017-05-27T10:32:40Z</updated>
+    <link href="https://arxiv.org/abs/1607.01151v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.01151v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide a sparse version of the bounded degree SOS hierarchy BSOS [7] for polynomial optimization problems. It permits to treat large scale problems which satisfy a structured sparsity pattern. When the sparsity pattern satisfies the running intersection property this Sparse-BSOS hierarchy of semidefinite programs (with semidefinite constraints of fixed size) converges to the global optimum of the original problem. Moreover, for the class of SOS-convex problems, finite convergence takes place at the first step of the hierarchy, just as in the dense version.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-05T08:56:00Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Tillmann Weisser</name>
+      <arxiv:affiliation>LAAS-MAC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jean-Bernard Lasserre</name>
+      <arxiv:affiliation>IMT, LAAS-MAC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kim-Chuan Toh</name>
+      <arxiv:affiliation>NUS</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.10538v3</id>
+    <title>Lasserre Hierarchy for Graph Isomorphism and Homomorphism Indistinguishability</title>
+    <updated>2024-08-30T09:50:02Z</updated>
+    <link href="https://arxiv.org/abs/2302.10538v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.10538v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that feasibility of the $t^\text{th}$ level of the Lasserre semidefinite programming hierarchy for graph isomorphism can be expressed as a homomorphism indistinguishability relation. In other words, we define a class $\mathcal{L}_t$ of graphs such that graphs $G$ and $H$ are not distinguished by the $t^\text{th}$ level of the Lasserre hierarchy if and only if they admit the same number of homomorphisms from any graph in $\mathcal{L}_t$. By analysing the treewidth of graphs in $\mathcal{L}_t$, we prove that the $3t^\text{th}$ level of Sherali--Adams linear programming hierarchy is as strong as the $t^\text{th}$ level of Lasserre. Moreover, we show that this is best possible in the sense that $3t$ cannot be lowered to $3t-1$ for any $t$. The same result holds for the Lasserre hierarchy with non-negativity constraints, which we similarly characterise in terms of homomorphism indistinguishability over a family $\mathcal{L}_t^+$ of graphs. Additionally, we give characterisations of level-$t$ Lasserre with non-negativity constraints in terms of logical equivalence and via a graph colouring algorithm akin to the Weisfeiler--Leman algorithm. This provides a polynomial time algorithm for determining if two given graphs are distinguished by the $t^\text{th}$ level of the Lasserre hierarchy with non-negativity constraints.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-21T09:12:19Z</published>
+    <arxiv:comment>Full version. 36 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>TheoretiCS, Volume 3 (September 2, 2024) theoretics:12321</arxiv:journal_ref>
+    <author>
+      <name>David E. Roberson</name>
+    </author>
+    <author>
+      <name>Tim Seppelt</name>
+    </author>
+    <arxiv:doi>10.46298/theoretics.24.20</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.46298/theoretics.24.20" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.05698v1</id>
+    <title>Application of the Level-$2$ Quantum Lasserre Hierarchy in Quantum Approximation Algorithms</title>
+    <updated>2021-05-12T14:33:27Z</updated>
+    <link href="https://arxiv.org/abs/2105.05698v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.05698v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Lasserre Hierarchy is a set of semidefinite programs which yield increasingly tight bounds on optimal solutions to many NP-hard optimization problems. The hierarchy is parameterized by levels, with a higher level corresponding to a more accurate relaxation. High level programs have proven to be invaluable components of approximation algorithms for many NP-hard optimization problems. There is a natural analogous quantum hierarchy, which is also parameterized by level and provides a relaxation of many (QMA-hard) quantum problems of interest. In contrast to the classical case, however, there is only one approximation algorithm which makes use of higher levels of the hierarchy. Here we provide the first ever use of the level-$2$ hierarchy in an approximation algorithm for a particular QMA-complete problem, so-called Quantum Max Cut. We obtain modest improvements on state-of-the-art approximation factors for this problem, as well as demonstrate that the level-$2$ hierarchy satisfies many physically-motivated constraints that the level-$1$ does not satisfy. Indeed, this observation is at the heart of our analysis and indicates that higher levels of the quantum Lasserre Hierarchy may be very useful tools in the design of approximation algorithms for QMA-complete problems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-12T14:33:27Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Proceedings of the International Colloquium on Automata, Languages, and Programming (ICALP), 2021</arxiv:journal_ref>
+    <author>
+      <name>Ojas Parekh</name>
+    </author>
+    <author>
+      <name>Kevin Thompson</name>
+    </author>
+    <arxiv:doi>10.4230/LIPIcs.ICALP.2021.102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4230/LIPIcs.ICALP.2021.102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.07701v3</id>
+    <title>Revisiting semidefinite programming approaches to options pricing: complexity and computational perspectives</title>
+    <updated>2022-06-03T08:00:38Z</updated>
+    <link href="https://arxiv.org/abs/2111.07701v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.07701v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we consider the problem of finding bounds on the prices of options depending on multiple assets without assuming any underlying model on the price dynamics, but only the absence of arbitrage opportunities. We formulate this as a generalized moment problem and utilize the well-known Moment-Sum-of-Squares (SOS) hierarchy of Lasserre to obtain bounds on the range of the possible prices. A complementary approach (also due to Lasserre) is employed for comparison. We present several numerical examples to demonstrate the viability of our approach. The framework we consider makes it possible to incorporate different kinds of observable data, such as moment information, as well as observable prices of options on the assets of interest.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-15T12:18:03Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Didier Henrion</name>
+    </author>
+    <author>
+      <name>Felix Kirschner</name>
+    </author>
+    <author>
+      <name>Etienne de Klerk</name>
+    </author>
+    <author>
+      <name>Milan Korda</name>
+    </author>
+    <author>
+      <name>Jean-Bernard Lasserre</name>
+    </author>
+    <author>
+      <name>Victor Magron</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.04376v3</id>
+    <title>Lasserre hierarchy for large scale polynomial optimization in real and complex variables</title>
+    <updated>2018-05-22T18:30:49Z</updated>
+    <link href="https://arxiv.org/abs/1709.04376v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.04376v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose general notions to deal with large scale polynomial optimization problems and demonstrate their efficiency on a key industrial problem of the twenty first century, namely the optimal power flow problem. These notions enable us to find global minimizers on instances with up to 4,500 variables and 14,500 constraints. First, we generalize the Lasserre hierarchy from real to complex to numbers in order to enhance its tractability when dealing with complex polynomial optimization. Complex numbers are typically used to represent oscillatory phenomena, which are omnipresent in physical systems. Using the notion of hyponormality in operator theory, we provide a finite convergence criterion which generalizes the Curto-Fialkow conditions of the real Lasserre hierarchy. Second, we introduce the multi-ordered Lasserre hierarchy in order to exploit sparsity in polynomial optimization problems (in real or complex variables) while preserving global convergence. It is based on two ideas: 1) to use a different relaxation order for each constraint, and 2) to iteratively seek a closest measure to the truncated moment data until a measure matches the truncated data. Third and last, we exhibit a block diagonal structure of the Lasserre hierarchy in the presence of commonly encountered symmetries. To the best of our knowledge, the Lasserre hierarchy was previously limited to small scale problems, while we solve a large scale industrial problem with thousands of variables and constraints to global optimality.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-13T15:19:22Z</published>
+    <arxiv:comment>30 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Cedric Josz</name>
+    </author>
+    <author>
+      <name>Daniel K. Molzahn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.00284v2</id>
+    <title>Finite convergence of the Moment-SOS hierarchy under hidden convexity</title>
+    <updated>2026-08-05T12:23:45Z</updated>
+    <link href="https://arxiv.org/abs/2603.00284v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.00284v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider polynomial optimization problems with compact feasible set ${\bfΩ}\subset\mathbb{R}^d$ defined by SOS-concave polynomials $g_j$ of arbitrary degree, and whose objective function $f$ is not necessarily convex on $\mathbb{R}^d$. We show that, if $f$ is Hessian-$Q$-module convex over ${\bfΩ}$ in the sense that its Hessian admits a specific quadratic-module representation, then the standard Moment-SOS hierarchy converges in finitely many steps without prior knowledge of this hidden (local) convexity. Strong convexity of $f$ on ${\bfΩ}$ is a sufficient condition for the required Hessian representation. In addition, we give an explicit relaxation order at which exactness occurs. This demonstrates that a general-purpose hierarchy can adapt to favorable hidden properties of a specific instance without being informed of them, yielding certified global minimizers.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-27T19:59:00Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Srećko Ðurašinović</name>
+    </author>
+    <author>
+      <name>Jean B. Lasserre</name>
+    </author>
+  </entry>
+</feed>

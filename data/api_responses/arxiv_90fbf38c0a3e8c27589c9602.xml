@@ -1,0 +1,690 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Z60Rwo18X76Jc3ND8802ZlnWKOY</id>
+  <title>arXiv Query: search_query=all:excited OR all:state OR all:contamination OR all:effective OR all:mass OR all:plateau&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:44:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:excited+OR+(all:state+OR+(all:contamination+OR+(all:effective+OR+(all:mass+OR+all:plateau))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1366411</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1707.09430v1</id>
+    <title>Human in the Loop: Interactive Passive Automata Learning via Evidence-Driven State-Merging Algorithms</title>
+    <updated>2017-07-28T22:19:50Z</updated>
+    <link href="https://arxiv.org/abs/1707.09430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.09430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an interactive version of an evidence-driven state-merging (EDSM) algorithm for learning variants of finite state automata. Learning these automata often amounts to recovering or reverse engineering the model generating the data despite noisy, incomplete, or imperfectly sampled data sources rather than optimizing a purely numeric target function. Domain expertise and human knowledge about the target domain can guide this process, and typically is captured in parameter settings. Often, domain expertise is subconscious and not expressed explicitly. Directly interacting with the learning algorithm makes it easier to utilize this knowledge effectively.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-28T22:19:50Z</published>
+    <arxiv:comment>4 pages, presented at the Human in the Loop workshop at ICML 2017</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Christian A. Hammerschmidt</name>
+    </author>
+    <author>
+      <name>Radu State</name>
+    </author>
+    <author>
+      <name>Sicco Verwer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.03843v2</id>
+    <title>On the effect of excited states in lattice calculations of the nucleon axial charge</title>
+    <updated>2016-11-30T15:46:55Z</updated>
+    <link href="https://arxiv.org/abs/1610.03843v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.03843v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Excited-state contamination is one of the dominant uncertainties in lattice calculations of the nucleon axial-charge, $g_A$. Recently published results in leading-order chiral perturbation theory (ChPT) predict the excited-state contamination to be independent of the nucleon interpolator and positive. However, empirical results from numerical lattice calculations show negative contamination (downward curvature), indicating that present-day calculations are not in the regime where the leading-order ChPT predictions apply. In this paper we show that, under plausible assumptions, one can reproduce the behavior of lattice correlators by taking into account final-state $N π$ interactions, in particular the effect of the Roper resonance, and by postulating a sign change in the infinite-volume $N \to N π$ axial-vector transition amplitude.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-12T19:56:45Z</published>
+    <arxiv:comment>18 pages, 12 figures, v2: fixed minor typos and improved discussion, corrected description of another reference, included an additional volume in excited-state-contamination prediction (Fig 9)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Maxwell T. Hansen</name>
+    </author>
+    <author>
+      <name>Harvey B. Meyer</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2017.08.017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2017.08.017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.02041v5</id>
+    <title>Operator Approach to Complexity : Excited States</title>
+    <updated>2019-08-22T06:19:52Z</updated>
+    <link href="https://arxiv.org/abs/1905.02041v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.02041v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We evaluate the complexity of the free scalar field by the operator approach in which the transformation matrix between the second quantization operators of reference state and target state is regarded as the quantum gate. We first examine the system in which the reference state is two non-interacting oscillators with same frequency $ω_0$ while the target state is two interacting oscillators with frequency $\tilde ω_1$ and $\tilde ω_2$. We calculate the geodesic length on the associated group manifold of gate matrix and reproduce the known value of ground-state complexity. Next, we study the complexity in the excited states. Although the gate matrix is very large we can transform it to a diagonal matrix and obtain the associated complexity. We explicitly calculate the complexity in several excited states and prove that the square of geodesic length in the general state $|{\rm n,m}\rangle$ is $D_{\rm (n,m)}^2={\rm (n+1)}\left(\ln {\sqrt{\tilde ω_1\over ω_0}}\,\right)^2 +{\rm (m+1)}\left(\ln {\sqrt{\tilde ω_2\over ω_0}}\,\right)^2$. The results are extended to the N couple harmonic oscillators which correspond to the lattice version of free scalar field.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-06T13:39:32Z</published>
+    <arxiv:comment>Latex 20 pages. Correct definition of ground state. Add sec.4.3 : Wavefunction of Excited State</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 100, 066013 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Wung-Hong Huang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.100.066013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.100.066013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.21530v2</id>
+    <title>Data Contamination Report from the 2024 CONDA Shared Task</title>
+    <updated>2024-08-04T05:53:25Z</updated>
+    <link href="https://arxiv.org/abs/2407.21530v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.21530v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The 1st Workshop on Data Contamination (CONDA 2024) focuses on all relevant aspects of data contamination in natural language processing, where data contamination is understood as situations where evaluation data is included in pre-training corpora used to train large scale models, compromising evaluation results. The workshop fostered a shared task to collect evidence on data contamination in current available datasets and models. The goal of the shared task and associated database is to assist the community in understanding the extent of the problem and to assist researchers in avoiding reporting evaluation results on known contaminated resources. The shared task provides a structured, centralized public database for the collection of contamination evidence, open to contributions from the community via GitHub pool requests. This first compilation paper is based on 566 reported entries over 91 contaminated sources from a total of 23 contributors. The details of the individual contamination events are available in the platform. The platform continues to be online, open to contributions from the community.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-31T11:26:57Z</published>
+    <arxiv:comment>https://huggingface.co/spaces/CONDA-Workshop/Data-Contamination-Database</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Oscar Sainz</name>
+    </author>
+    <author>
+      <name>Iker García-Ferrero</name>
+    </author>
+    <author>
+      <name>Alon Jacovi</name>
+    </author>
+    <author>
+      <name>Jon Ander Campos</name>
+    </author>
+    <author>
+      <name>Yanai Elazar</name>
+    </author>
+    <author>
+      <name>Eneko Agirre</name>
+    </author>
+    <author>
+      <name>Yoav Goldberg</name>
+    </author>
+    <author>
+      <name>Wei-Lin Chen</name>
+    </author>
+    <author>
+      <name>Jenny Chim</name>
+    </author>
+    <author>
+      <name>Leshem Choshen</name>
+    </author>
+    <author>
+      <name>Luca D'Amico-Wong</name>
+    </author>
+    <author>
+      <name>Melissa Dell</name>
+    </author>
+    <author>
+      <name>Run-Ze Fan</name>
+    </author>
+    <author>
+      <name>Shahriar Golchin</name>
+    </author>
+    <author>
+      <name>Yucheng Li</name>
+    </author>
+    <author>
+      <name>Pengfei Liu</name>
+    </author>
+    <author>
+      <name>Bhavish Pahwa</name>
+    </author>
+    <author>
+      <name>Ameya Prabhu</name>
+    </author>
+    <author>
+      <name>Suryansh Sharma</name>
+    </author>
+    <author>
+      <name>Emily Silcock</name>
+    </author>
+    <author>
+      <name>Kateryna Solonko</name>
+    </author>
+    <author>
+      <name>David Stap</name>
+    </author>
+    <author>
+      <name>Mihai Surdeanu</name>
+    </author>
+    <author>
+      <name>Yu-Min Tseng</name>
+    </author>
+    <author>
+      <name>Vishaal Udandarao</name>
+    </author>
+    <author>
+      <name>Zengzhi Wang</name>
+    </author>
+    <author>
+      <name>Ruijie Xu</name>
+    </author>
+    <author>
+      <name>Jinglin Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.08716v1</id>
+    <title>A Taxonomy for Data Contamination in Large Language Models</title>
+    <updated>2024-07-11T17:50:34Z</updated>
+    <link href="https://arxiv.org/abs/2407.08716v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.08716v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models pretrained on extensive web corpora demonstrate remarkable performance across a wide range of downstream tasks. However, a growing concern is data contamination, where evaluation datasets may be contained in the pretraining corpus, inflating model performance. Decontamination, the process of detecting and removing such data, is a potential solution; yet these contaminants may originate from altered versions of the test set, evading detection during decontamination. How different types of contamination impact the performance of language models on downstream tasks is not fully understood. We present a taxonomy that categorizes the various types of contamination encountered by LLMs during the pretraining phase and identify which types pose the highest risk. We analyze the impact of contamination on two key NLP tasks -- summarization and question answering -- revealing how different types of contamination influence task performance during evaluation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-11T17:50:34Z</published>
+    <arxiv:comment>19 pages, 8 figures, accepted to CONDA Workshop on Data Contamination @ ACL 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Medha Palavalli</name>
+    </author>
+    <author>
+      <name>Amanda Bertsch</name>
+    </author>
+    <author>
+      <name>Matthew R. Gormley</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.19529v3</id>
+    <title>Magnetization Plateaus by the Field-Induced Partitioning of Spin Lattices</title>
+    <updated>2024-10-23T00:22:45Z</updated>
+    <link href="https://arxiv.org/abs/2409.19529v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.19529v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To search for a conceptual picture describing the magnetization plateau phenomenon, we surveyed the crystal structures and the spin lattices of those magnets exhibiting plateaus in their magnetization vs. magnetic field curves by probing the three questions: (a) why only certain magnets exhibit magnetization plateaus, (b) why there occur several different types of magnetization plateaus, and (c) what controls the widths of magnetization plateaus. We show that the answers to these questions lie in how the magnets under field absorb Zeeman energy hence changing their magnetic structures. The magnetic structure of a magnet insulator is commonly described in terms of its spin lattice, which requires the determination of the spin exchanges nonnegligible strengths between the magnetic ions. Our work strongly suggests that a magnet under magnetic field partitions its spin lattice into antiferromagnetic (AFM) or ferrimagnetic fragments by breaking its weak magnetic bonds. Our supposition of the field-induced partitioning of spin lattice into magnetic fragments is supported by the anisotropic magnetization plateaus of Ising magnets and by the highly anisotropic width of the 1/3-magnetization plateau in azurite. The answers to the three questions (a) - (c) emerge naturally by analyzing how these fragments are formed under magnetic field.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-29T03:20:35Z</published>
+    <arxiv:comment>A survey of the magnetization plateau phenomenon; 128 pages including the Supporting Information</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Myung-Hwan Whangbo</name>
+    </author>
+    <author>
+      <name>Hyun-Joo Koo</name>
+    </author>
+    <author>
+      <name>Reinhard K. Kremer</name>
+    </author>
+    <author>
+      <name>Alexander N. Vasiliev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.01015v3</id>
+    <title>Deep Learning for Tumor Classification in Imaging Mass Spectrometry</title>
+    <updated>2017-10-20T10:03:22Z</updated>
+    <link href="https://arxiv.org/abs/1705.01015v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.01015v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivation: Tumor classification using Imaging Mass Spectrometry (IMS) data has a high potential for future applications in pathology. Due to the complexity and size of the data, automated feature extraction and classification steps are required to fully process the data. Deep learning offers an approach to learn feature extraction and classification combined in a single model. Commonly these steps are handled separately in IMS data analysis, hence deep learning offers an alternative strategy worthwhile to explore. Results: Methodologically, we propose an adapted architecture based on deep convolutional networks to handle the characteristics of mass spectrometry data, as well as a strategy to interpret the learned model in the spectral domain based on a sensitivity analysis. The proposed methods are evaluated on two challenging tumor classification tasks and compared to a baseline approach. Competitiveness of the proposed methods are shown on both tasks by studying the performance via cross-validation. Moreover, the learned models are analyzed by the proposed sensitivity analysis revealing biologically plausible effects as well as confounding factors of the considered task. Thus, this study may serve as a starting point for further development of deep learning approaches in IMS classification tasks.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-02T15:15:19Z</published>
+    <arxiv:comment>10 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <arxiv:journal_ref>Bioinformatics, 2018, Volume 34, Issue 7, Pages 1215-1223</arxiv:journal_ref>
+    <author>
+      <name>Jens Behrmann</name>
+    </author>
+    <author>
+      <name>Christian Etmann</name>
+    </author>
+    <author>
+      <name>Tobias Boskamp</name>
+    </author>
+    <author>
+      <name>Rita Casadonte</name>
+    </author>
+    <author>
+      <name>Jörg Kriegsmann</name>
+    </author>
+    <author>
+      <name>Peter Maass</name>
+    </author>
+    <arxiv:doi>10.1093/bioinformatics/btx724</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/bioinformatics/btx724" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.1343v1</id>
+    <title>Nuclear Masses and Neutron Stars</title>
+    <updated>2013-03-06T14:54:31Z</updated>
+    <link href="https://arxiv.org/abs/1303.1343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.1343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Precision mass spectrometry of neutron-rich nuclei is of great relevance for astrophysics. Masses of exotic nuclides impose constraints on models for the nuclear interaction and thus affect the description of the equation of state of nuclear matter, which can be extended to describe neutron-star matter. With knowledge of the masses of nuclides near shell closures, one can also derive the neutron-star crustal composition. The Penning-trap mass spectrometer ISOLTRAP at CERN-ISOLDE has recently achieved a breakthrough measuring the mass of 82Zn, which allowed constraining neutron-star crust composition to deeper layers (Wolf et al., PRL 110, 2013). We perform a more detailed study on the sequence of nuclei in the outer crust of neutron stars with input from different nuclear models to illustrate the sensitivity to masses and the robustness of neutron-star models. The dominant role of the N=50 and N=82 closed neutron shells for the crustal composition is confirmed.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-06T14:54:31Z</published>
+    <arxiv:comment>10 pages, 5 figures, submitted to the anniversary issue of Int. J. Mass Spectrom. "100 Years of Mass Spectrometry"</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Int. J. Mass Spectrom. 349-350, 63 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Susanne Kreim</name>
+    </author>
+    <author>
+      <name>Matthias Hempel</name>
+    </author>
+    <author>
+      <name>David Lunney</name>
+    </author>
+    <author>
+      <name>Jürgen Schaffner-Bielich</name>
+    </author>
+    <arxiv:doi>10.1016/j.ijms.2013.02.015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ijms.2013.02.015" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.03203v3</id>
+    <title>No Memorization, No Detection: Output Distribution-Based Contamination Detection in Small Language Models</title>
+    <updated>2026-03-10T23:39:30Z</updated>
+    <link href="https://arxiv.org/abs/2603.03203v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.03203v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>CDD, or Contamination Detection via output Distribution, identifies data contamination by measuring the peakedness of a model's sampled outputs. We study the conditions under which this approach succeeds and fails on small language models ranging from 70M to 410M parameters. Using controlled contamination experiments on GSM8K, HumanEval, and MATH, we find that CDD's effectiveness depends critically on whether fine-tuning produces verbatim memorization. In the majority of conditions we test, CDD performs at chance level even when the data is verifiably contaminated and detectable by simpler methods. We show that probability-based methods, specifically perplexity and Min-k\% Prob, outperform CDD in all conditions where any method exceeds chance, suggesting that CDD's peakedness-based approach is insufficient for contamination detection in small language models. Our code is available at https://github.com/Sela-Omer/Contamination-Detection-Small-LM</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-03T17:55:24Z</published>
+    <arxiv:comment>Code available at https://github.com/Sela-Omer/Contamination-Detection-Small-LM</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Omer Sela</name>
+      <arxiv:affiliation>Tel Aviv University</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0501697v2</id>
+    <title>Quantum vs. Classical Magnetization Plateaus of S=1/2 Frustrated Heisenberg Chains</title>
+    <updated>2005-04-02T10:06:31Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0501697v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0501697v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The competition between quantum and classical magnetization plateaus of S=1/2 frustrated Heisenberg chains with modified exchange couplings is investigated. The conventional S=1/2 frustrated Heisenberg chains is known to exhibit a 3-fold degenerate udu-type classical plateau at 1/3 of the saturation magnetization accompanied by the spontaneous Z_3 translational symmetry breakdown. The stability of this plateau phase against period 3 exchange modulation which favors the 00u-type quantum plateau state (00= singlet dimer) is studied by bosonization, renormalization group and numerical diagonalization methods. The ground state phase diagram and the spin configuration in each phase are numerically determined. The translationally invariant Valence Bond Solid-type model with 4-spin and third neighbor interactions, which has the exact 00u-type quantum plateau state, is also presented. The phase transition to the classical udu-type ground state is also observed by varying the strength of 4-spin and third neighbor interactions. The relation between these two types of models with quantum plateau states is discussed.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-01-28T09:51:56Z</published>
+    <arxiv:comment>10 pages, 21 figures; An analysis of the phase transition between quantum and classical plateau states in translationally invariant models is added</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>J. Phys. Soc. Jpn. 74, 1849 (2005)</arxiv:journal_ref>
+    <author>
+      <name>Kazuo Hida</name>
+    </author>
+    <author>
+      <name>Ian Affleck</name>
+    </author>
+    <arxiv:doi>10.1143/JPSJ.74.1849</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1143/JPSJ.74.1849" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.05459v1</id>
+    <title>Deep Relevance Regularization: Interpretable and Robust Tumor Typing of Imaging Mass Spectrometry Data</title>
+    <updated>2019-12-10T17:45:55Z</updated>
+    <link href="https://arxiv.org/abs/1912.05459v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.05459v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural networks have recently been established as a viable classification method for imaging mass spectrometry data for tumor typing. For multi-laboratory scenarios however, certain confounding factors may strongly impede their performance. In this work, we introduce Deep Relevance Regularization, a method of restricting what the neural network can focus on during classification, in order to improve the classification performance. We demonstrate how Deep Relevance Regularization robustifies neural networks against confounding factors on a challenging inter-lab dataset consisting of breast and ovarian carcinoma. We further show that this makes the relevance map -- a way of visualizing the discriminative parts of the mass spectrum -- sparser, thereby making the classifier easier to interpret</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-10T17:45:55Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Christian Etmann</name>
+    </author>
+    <author>
+      <name>Maximilian Schmidt</name>
+    </author>
+    <author>
+      <name>Jens Behrmann</name>
+    </author>
+    <author>
+      <name>Tobias Boskamp</name>
+    </author>
+    <author>
+      <name>Lena Hauberg-Lotte</name>
+    </author>
+    <author>
+      <name>Annette Peter</name>
+    </author>
+    <author>
+      <name>Rita Casadonte</name>
+    </author>
+    <author>
+      <name>Jörg Kriegsmann</name>
+    </author>
+    <author>
+      <name>Peter Maass</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/9211027v1</id>
+    <title>Contamination of Excited States in Quenched QCD Hadron Propagators</title>
+    <updated>1992-11-11T02:37:37Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/9211027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/9211027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Quenched QCD hadron spectrum is calculated with Wilson's quark action at $β=5.85$ and 6.0 on a $24^3 \times 54$ lattice. We discuss the problem of whether we have extracted the mass of the ground state at these $β$'s without contamination of the excited states. We show that the masses of the first excited states turn out to be consistent with experiment when we are able to obtain the propagators up to the large time slice region where the propagators take the asymptotic forms of the ground states.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1992-11-11T02:37:37Z</published>
+    <arxiv:comment>talk by T.Yoshie at Lattice '92, Amsterdam, 4 pages, 6 postscript figures, preprint UTHEP-246</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Nucl. Phys. Proc. Suppl. 30 (1993) 397</arxiv:journal_ref>
+    <author>
+      <name> QCDPAX collaboration</name>
+    </author>
+    <author>
+      <name>Y. Iwasaki</name>
+    </author>
+    <author>
+      <name>K. Kanaya</name>
+    </author>
+    <author>
+      <name>S. Sakai</name>
+    </author>
+    <author>
+      <name>T. Yoshie</name>
+    </author>
+    <author>
+      <name>T. Hoshino</name>
+    </author>
+    <author>
+      <name>T. Shirakawa</name>
+    </author>
+    <author>
+      <name>Y. Oyanagi</name>
+    </author>
+    <arxiv:doi>10.1016/0920-5632(93)90236-Y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/0920-5632(93)90236-Y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.0255v2</id>
+    <title>Excited state contamination in nucleon structure calculations</title>
+    <updated>2011-11-28T16:49:28Z</updated>
+    <link href="https://arxiv.org/abs/1111.0255v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.0255v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Among the sources of systematic error in nucleon structure calculations is contamination from unwanted excited states. In order to measure this systematic error, we vary the operator insertion time and source-sink separation independently. We compute observables for three source-sink separations between 0.93 fm and 1.39 fm using clover-improved Wilson fermions and pion masses as low as 150 MeV. We explore the use of a two-state model fit to subtract off the contribution from excited states.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-01T17:46:47Z</published>
+    <arxiv:comment>7 pages, 3 figures. Talk presented at the XXIX International Symposium on Lattice Field Theory (Lattice 2011), July 10-16, 2011, Squaw Valley, Lake Tahoe, California. v2: added references</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS(Lattice 2011)157</arxiv:journal_ref>
+    <author>
+      <name>Jeremy Green</name>
+    </author>
+    <author>
+      <name>Stefan Krieg</name>
+    </author>
+    <author>
+      <name>John Negele</name>
+    </author>
+    <author>
+      <name>Andrew Pochinsky</name>
+    </author>
+    <author>
+      <name>Sergey Syritsyn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.09259v2</id>
+    <title>Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models</title>
+    <updated>2026-03-18T06:50:38Z</updated>
+    <link href="https://arxiv.org/abs/2510.09259v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.09259v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Data contamination poses a significant threat to the reliable evaluation of Large Language Models (LLMs). This issue arises when benchmark samples may inadvertently appear in training sets, compromising the validity of reported performance. While detection methods have been developed for the pre-training and Supervised Fine-Tuning stages, a critical research gap exists for the increasingly significant phase of Reinforcement Learning (RL) post-training. As RL post-training becomes pivotal for advancing LLM reasoning, the absence of specialized contamination detection methods in this paradigm presents a critical vulnerability. To address this, we conduct the first systematic study of data detection within RL post-training scenario and propose Self-Critique. Our method is motivated by a key observation: after RL phase, the output entropy distribution of LLMs tends to collapse into highly specific and sparse modes. Self-Critique probes for the underlying policy collapse, i.e., the model's convergence to a narrow reasoning path, which causes this entropy reduction. To facilitate this research, we also introduce RL-MIA, a benchmark constructed to simulate this specific contamination scenario. Extensive experiments show that Self-Critique significantly outperforms baseline methods across multiple models and contamination tasks, achieving an AUC improvement of up to 30%. Whereas existing methods are close to a random guess for RL-phase contamination, our method makes detection possible.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-10T10:58:50Z</published>
+    <arxiv:comment>Accepted to ICLR 2026. Code is available at https://github.com/yongding-tao/RL-Data-Contamination</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yongding Tao</name>
+    </author>
+    <author>
+      <name>Tian Wang</name>
+    </author>
+    <author>
+      <name>Yihong Dong</name>
+    </author>
+    <author>
+      <name>Huanyu Liu</name>
+    </author>
+    <author>
+      <name>Kechi Zhang</name>
+    </author>
+    <author>
+      <name>Xiaolong Hu</name>
+    </author>
+    <author>
+      <name>Ge Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.03360v1</id>
+    <title>A new method for suppressing excited-state contaminations on the nucleon form factors</title>
+    <updated>2018-11-08T11:17:28Z</updated>
+    <link href="https://arxiv.org/abs/1811.03360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.03360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the most challenging tasks in lattice calculations of baryon form factors is the analysis and control of excited-state contaminations. Taking the isovector axial form factors of the nucleon as an example, both a dispersive representation and a calculation in chiral effective field theory show that the excited-state contributions become dominant at fixed source-sink separation when the axial current is spatially distant from the nucleon source location. We address this effect with a new method in which the axial current is localized by a Gaussian wave-packet and apply it on a CLS ensemble with $N_f=2+1$ flavors of O($a$) improved Wilson fermions with a pion mass of $m_π=200\,$MeV.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-08T11:17:28Z</published>
+    <arxiv:comment>7 pages, 6 figures, 1 table, Proceedings for the 36th Annual International Symposium on Lattice Field Theory, 22-28 July 2018, Michigan State University, East Lansing, Michigan, USA</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Harvey B. Meyer</name>
+    </author>
+    <author>
+      <name>Konstantin Ottnad</name>
+    </author>
+    <author>
+      <name>Tobias Schulz</name>
+    </author>
+    <arxiv:doi>10.22323/1.334.0062</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22323/1.334.0062" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.12190v3</id>
+    <title>Plateau Problems for Maximal Surfaces in Pseudo-Hyperbolic Spaces</title>
+    <updated>2022-10-12T14:41:26Z</updated>
+    <link href="https://arxiv.org/abs/2006.12190v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.12190v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define and prove the existence of unique solutions of an asymptotic Plateau problem for spacelike maximal surfaces in the pseudo-hyperbolic space of signature (2, n): the boundary data is given by loops on the boundary at infinity of the pseudo-hyperbolic space which are limits of positive curves. We also discuss a compact Plateau problem. The required compactness arguments rely on an analysis of the pseudo-holomorphic curves defined by the Gauss lifts of the maximal surfaces.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-22T12:40:17Z</published>
+    <arxiv:comment>last version before publishing. Statement of Theorem 7.1 for finite Plateau problem is now only true for deformable curves. The other main theorems are unchanged</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>François Labourie</name>
+    </author>
+    <author>
+      <name>Jérémy Toulisse</name>
+    </author>
+    <author>
+      <name>Michael Wolf</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.3611v2</id>
+    <title>Tidal alignments as a contaminant of the galaxy bispectrum</title>
+    <updated>2010-09-07T18:21:06Z</updated>
+    <link href="https://arxiv.org/abs/1004.3611v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.3611v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>If the orientations of galaxies are correlated with large-scale structure, then anisotropic selection effects such as preferential selection of face-on disc galaxies can contaminate large scale structure observables. Here we consider the effect on the galaxy bispectrum, which has attracted interest as a way to break the degeneracy between galaxy bias and the amplitude of matter fluctuations sigma_8. We consider two models of intrinsic galaxy alignments: one where the probability distribution for the galaxy's orientation contains a term linear in the local tidal field, appropriate for elliptical galaxies; and one with a term quadratic in the local tidal field, which may be applicable to disc galaxies. We compute the correction to the redshift-space bispectrum in the quasilinear regime, and then focus on its effects on parameter constraints from the transverse bispectrum, i.e. using triangles in the plane of the sky. We show that in the linear alignment model, intrinsic alignments result in an error in the galaxy bias parameters, but do not affect the inferred value of sigma_8. In contrast, the quadratic alignment model results in a systematic error in both the bias parameters and sigma_8. However, the quadratic alignment effect has a unique configuration dependence that should enable it to be removed in upcoming surveys.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-21T02:29:46Z</published>
+    <arxiv:comment>Matches MNRAS accepted version. Includes expanded derivation of linear alignment contamination and expanded discussion of shape/scale dependence of the contamination signal</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <arxiv:journal_ref>MNRAS 410, 2730 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Elisabeth Krause</name>
+    </author>
+    <author>
+      <name>Christopher Hirata</name>
+    </author>
+    <arxiv:doi>10.1111/j.1365-2966.2010.17638.x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1111/j.1365-2966.2010.17638.x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.12156v2</id>
+    <title>ConFuzzius: A Data Dependency-Aware Hybrid Fuzzer for Smart Contracts</title>
+    <updated>2021-03-10T15:14:11Z</updated>
+    <link href="https://arxiv.org/abs/2005.12156v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.12156v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Smart contracts are Turing-complete programs that are executed across a blockchain. Unlike traditional programs, once deployed, they cannot be modified. As smart contracts carry more value, they become more of an exciting target for attackers. Over the last years, they suffered from exploits costing millions of dollars due to simple programming mistakes. As a result, a variety of tools for detecting bugs have been proposed. Most of these tools rely on symbolic execution, which may yield false positives due to over-approximation. Recently, many fuzzers have been proposed to detect bugs in smart contracts. However, these tend to be more effective in finding shallow bugs and less effective in finding bugs that lie deep in the execution, therefore achieving low code coverage and many false negatives. An alternative that has proven to achieve good results in traditional programs is hybrid fuzzing, a combination of symbolic execution and fuzzing. In this work, we study hybrid fuzzing on smart contracts and present ConFuzzius, the first hybrid fuzzer for smart contracts. ConFuzzius uses evolutionary fuzzing to exercise shallow parts of a smart contract and constraint solving to generate inputs that satisfy complex conditions that prevent evolutionary fuzzing from exploring deeper parts. Moreover, ConFuzzius leverages dynamic data dependency analysis to efficiently generate sequences of transactions that are more likely to result in contract states in which bugs may be hidden. We evaluate the effectiveness of ConFuzzius by comparing it with state-of-the-art symbolic execution tools and fuzzers for smart contracts. Our evaluation on a curated dataset of 128 contracts and 21K real-world contracts shows that our hybrid approach detects more bugs (up to 23%) while outperforming state-of-the-art in terms of code coverage (up to 69%), and that data dependency analysis boosts bug detection up to 18%.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-25T15:07:32Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Christof Ferreira Torres</name>
+    </author>
+    <author>
+      <name>Antonio Ken Iannillo</name>
+    </author>
+    <author>
+      <name>Arthur Gervais</name>
+    </author>
+    <author>
+      <name>Radu State</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.3936v1</id>
+    <title>Mass, inertia and gravitation</title>
+    <updated>2008-12-22T15:46:59Z</updated>
+    <link href="https://arxiv.org/abs/0812.3936v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.3936v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss some effects induced by quantum field fluctuations on mass, inertia and gravitation. Recalling the problem raised by vacuum field fluctuations with respect to inertia and gravitation, we show that vacuum energy differences, such as Casimir energy, do contribute to inertia. Mass behaves as a quantum observable and in particular possesses quantum fluctuations. We show that the compatibility of the quantum nature of mass with gravitation can be ensured by conformal symmetries, which allow one to formulate a quantum version of the equivalence principle. Finally, we consider some corrections to the coupling between metric fields and energy-momentum tensors induced by radiative corrections. Newton gravitation constant is replaced by two different running coupling constants in the sectors of traceless and traced tensors. There result metric extensions of general relativity, which can be characterized by modified Ricci curvatures or by two gravitation potentials. The corresponding phenomenological framework extends the usual Parametrized Post-Newtonian one, with the ability to remain compatible with classical tests of gravity while accounting for new features, such as Pioneer like anomalies or anomalous light deflection.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-22T15:46:59Z</published>
+    <arxiv:comment>24 pages, Proc. School on Mass, Orleans (2008)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Mass and Motion in General Relativity, L. Blanchet, A. Spallicci and B. Whiting Eds. (Springer,2011) 491</arxiv:journal_ref>
+    <author>
+      <name>Marc-Thierry Jaekel</name>
+    </author>
+    <author>
+      <name>Serge Reynaud</name>
+    </author>
+    <arxiv:doi>10.1007/978-90-481-3015-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-90-481-3015-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.4114v2</id>
+    <title>Nucleon excited states on the lattice</title>
+    <updated>2013-04-18T17:17:32Z</updated>
+    <link href="https://arxiv.org/abs/1304.4114v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.4114v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the pion-nucleon system in s-wave in the framework of lattice QCD in order to gain new information on the nucleon excited states. We perform simulations for $n_f =2$ mass degenerate light quarks at a pion mass of 266 MeV. The results show that including the two-particle states drastically changes the energy levels. The variational analysis and the distillation approach play an important role in the extraction of the energy levels. The phase shift analysis allows to extract information on the resonance nature of the observed states.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-15T14:42:17Z</published>
+    <arxiv:comment>6 pages, 2 figures, talk presented at Excited QCD 2013, Bjelasnica Mountain, Sarajevo</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>C. B. Lang</name>
+    </author>
+    <author>
+      <name>V. Verduci</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.23547v1</id>
+    <title>Robustness of Anomaly Detection Models for Industrial Control Systems under Training-Time Data Contamination</title>
+    <updated>2026-08-24T17:49:36Z</updated>
+    <link href="https://arxiv.org/abs/2608.23547v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.23547v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine-learning-based anomaly detection is increasingly used in industrial control systems (ICS), yet most studies assume that detector training data is trustworthy. In practice, training data may be corrupted through compromised logs, labeling errors, manipulated historian records, or unsafe retraining processes. This paper evaluates the robustness of offline ICS anomaly-detection pipelines on the Secure Water Treatment (SWaT) benchmark under training-time contamination. We assess 11 heterogeneous anomaly detectors under three contamination strategies: random injection, similarity-targeted injection, and feature-noise injection. The first two insert attack samples into the nominal training pool, while the third adds bounded Gaussian noise to selected normal training samples. These attacks are contamination-based rather than gradient-driven poisoning methods. Contamination budgets from 1% to 10% are evaluated using clean validation and test sets under a unified offline protocol. The results show that robustness is strongly model-dependent and cannot be predicted from clean-data performance alone. Injection-based contamination causes the greatest degradation, particularly for local-density and distance-based detectors, whereas feature-noise contamination has a comparatively limited effect. PCA, SVM, HBOS, and IForest remain relatively stable, while the tuned neural detectors demonstrate intermediate robustness. Overall, the findings highlight the importance of training-data integrity in ML-enabled ICS monitoring, subject to the evaluated dataset, models, and threat assumptions.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T17:49:36Z</published>
+    <arxiv:comment>Accepted and to appear in IEEE CASCON 2026. Code is available at: https://github.com/ANTS-OntarioTechU/Robustness-Anomaly-Detection-ICS-Data-Contamination</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Mustafa Umut Ozbek</name>
+    </author>
+    <author>
+      <name>Taiwo Ojo</name>
+    </author>
+    <author>
+      <name>Pooria Madani</name>
+    </author>
+    <author>
+      <name>Khalil El-Khatib</name>
+    </author>
+    <author>
+      <name>Li Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.12567v3</id>
+    <title>MQLV: Optimal Policy of Money Management in Retail Banking with Q-Learning</title>
+    <updated>2019-08-21T07:51:22Z</updated>
+    <link href="https://arxiv.org/abs/1905.12567v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.12567v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning has become one of the best approach to train a computer game emulator capable of human level performance. In a reinforcement learning approach, an optimal value function is learned across a set of actions, or decisions, that leads to a set of states giving different rewards, with the objective to maximize the overall reward. A policy assigns to each state-action pairs an expected return. We call an optimal policy a policy for which the value function is optimal. QLBS, Q-Learner in the Black-Scholes(-Merton) Worlds, applies the reinforcement learning concepts, and noticeably, the popular Q-learning algorithm, to the financial stochastic model of Black, Scholes and Merton. It is, however, specifically optimized for the geometric Brownian motion and the vanilla options. Its range of application is, therefore, limited to vanilla option pricing within financial markets. We propose MQLV, Modified Q-Learner for the Vasicek model, a new reinforcement learning approach that determines the optimal policy of money management based on the aggregated financial transactions of the clients. It unlocks new frontiers to establish personalized credit card limits or to fulfill bank loan applications, targeting the retail banking industry. MQLV extends the simulation to mean reverting stochastic diffusion processes and it uses a digital function, a Heaviside step function expressed in its discrete form, to estimate the probability of a future event such as a payment default. In our experiments, we first show the similarities between a set of historical financial transactions and Vasicek generated transactions and, then, we underline the potential of MQLV on generated Monte Carlo simulations. Finally, MQLV is the first Q-learning Vasicek-based methodology addressing transparent decision making processes in retail banking.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-24T07:02:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jeremy Charlier</name>
+    </author>
+    <author>
+      <name>Gaston Ormazabal</name>
+    </author>
+    <author>
+      <name>Radu State</name>
+    </author>
+    <author>
+      <name>Jean Hilger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.00163v1</id>
+    <title>Excited-state contamination in nucleon correlators from chiral perturbation theory</title>
+    <updated>2015-08-01T20:09:22Z</updated>
+    <link href="https://arxiv.org/abs/1508.00163v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.00163v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Techniques to compute hadron properties from lattice QCD rely upon the limit of long time separation. For baryons, the signal-to-noise problem often restricts one to time separations that are not ideally long, and for which couplings to excited states can obstruct the isolation of ground-state baryon properties. We consider excited-state contamination in nucleon two- and three-point functions. Using chiral perturbation theory, we determine couplings to pion-nucleon and pion-delta excited states. In two-point functions, these contributions are small, in accordance with general properties of the spectral weights on a torus. For the axial-current correlation function in the nucleon, the sign of excited-state contributions suggests overestimation of the nucleon axial charge. Thus contamination from pion-nucleon excited states will not likely explain the trend in lattice QCD data.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-01T20:09:22Z</published>
+    <arxiv:comment>9 pages, 5 figures, PoS.cls. Talk given at the 8th International Workshop on Chiral Dynamics, 29 June 2015 - 03 July 2015, Pisa, Italy</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Brian C. Tiburzi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.4981v1</id>
+    <title>Gluon mass through massless bound-state excitations</title>
+    <updated>2012-08-24T14:03:00Z</updated>
+    <link href="https://arxiv.org/abs/1208.4981v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.4981v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent large-volume lattice simulations have established that, in the Landau gauge, the gluon propagator is infrared-finite. The most natural way to explain this observed finiteness is the generation of a nonperturbative, momentum-dependent gluon mass. Such a mass may be generated gauge-invariantly by employing the Schwinger mechanism, whose main assumption is the dynamical formation of massless bound-state excitations. In this work we demonstrate that this key assumption is indeed realized by the QCD dynamics. Specifically, the Bethe-Salpeter equation describing the aforementioned massless excitations is derived and solved under certain approximations, and non-trivial solutions are obtained.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-24T14:03:00Z</published>
+    <arxiv:comment>Contribution to the International Meeting "Excited QCD", Peniche, Portugal, 06 - 12 May 2012. 6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>David Ibanez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.10071v3</id>
+    <title>Elysium: Context-Aware Bytecode-Level Patching to Automatically Heal Vulnerable Smart Contracts</title>
+    <updated>2022-07-04T20:59:11Z</updated>
+    <link href="https://arxiv.org/abs/2108.10071v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.10071v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fixing bugs is easiest by patching source code. However, source code is not always available: only 0.3% of the ~49M smart contracts that are currently deployed on Ethereum have their source code publicly available. Moreover, since contracts may call functions from other contracts, security flaws in closed-source contracts may affect open-source contracts as well. However, current state-of-the-art approaches that operate on closed-source contracts (i.e., EVM bytecode), such as EVMPatch and SmartShield, make use of purely hard-coded templates that leverage fix patching patterns. As a result, they cannot dynamically adapt to the bytecode that is being patched, which severely limits their flexibility and scalability. For instance, when patching integer overflows using hard-coded templates, a particular patch template needs to be employed as the bounds to be checked are different for each integer size. In this paper, we propose Elysium, a scalable approach towards automatic smart contract repair at the bytecode level. Elysium combines template-based and semantic-based patching by inferring context information from bytecode. Elysium is currently able to patch 7 different types of vulnerabilities in smart contracts automatically and can easily be extended with new templates and new bug-finding tools. We evaluate its effectiveness and correctness using 3 different datasets by replaying more than 500K transactions on patched contracts. We find that Elysium outperforms existing tools by patching at least 30% more contracts correctly. Finally, we also compare the overhead of Elysium in terms of deployment and transaction cost. In comparison to other tools, we find that generally Elysium minimizes the runtime cost (i.e., transaction cost) up to a factor of 1.7, for only a marginally higher deployment cost, where deployment cost is a one-time cost as compared to the runtime cost.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-23T11:10:30Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Christof Ferreira Torres</name>
+    </author>
+    <author>
+      <name>Hugo Jonker</name>
+    </author>
+    <author>
+      <name>Radu State</name>
+    </author>
+  </entry>
+</feed>

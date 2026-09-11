@@ -1,0 +1,814 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Q797KAcz6VDAJ5HVTBEs1opAbMc</id>
+  <title>arXiv Query: search_query=all:spectral OR all:representation OR all:of OR all:the OR all:static OR all:quark OR all:potential&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:39:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spectral+OR+(all:representation+OR+(all:of+OR+(all:the+OR+(all:static+OR+(all:quark+OR+all:potential)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>754375</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0997v3</id>
+    <title>Spectral asymptotics for Robin problems with a discontinuous coefficient</title>
+    <updated>2011-01-27T13:41:51Z</updated>
+    <link href="https://arxiv.org/abs/1009.0997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral behavior of the difference between the resolvents of two realizations $\tilde A_1$ and $\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_1$ and $b_2$ are in $L_\infty$, the s-numbers $s_j$ of $(\tilde A_1 -λ)^{-1}-(\tilde A_2 -λ)^{-1}$ satisfy $s_j j^{3/(n-1)}\le C$ for all $j$; this improves a recent result for $A=-Δ$ by Behrndt et al., that $\sum_js_j ^p&lt;\infty$ for $p&gt;(n-1)/3$. A sharper estimate is obtained when $b_1$ and $b_2$ are in $C^ε$ for some $ε&gt;0$, with jumps at a smooth hypersurface, namely that $s_j j^{3/(n-1)}\to c$ for $j\to \infty$, with a constant $c$ defined from the principal symbol of $A$ and $b_2-b_1$.
+  As an auxiliary result we show that the usual principal spectral asymptotic estimate for pseudodifferential operators of negative order on a closed manifold extends to products of pseudodifferential operators interspersed with piecewise continuous functions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-06T09:28:34Z</published>
+    <arxiv:comment>20 pages, notation simplified. To appear in J. Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>J. Spectral Theory 1 (2011), 155-177</arxiv:journal_ref>
+    <author>
+      <name>Gerd Grubb</name>
+    </author>
+    <arxiv:doi>10.4171/JST/7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.2456v3</id>
+    <title>Polynomial representations and categorifications of Fock Space</title>
+    <updated>2012-08-29T20:36:36Z</updated>
+    <link href="https://arxiv.org/abs/1101.2456v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.2456v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rings of symmetric polynomials form an inverse system whose limit, the ring of symmetric functions, is the model for the bosonic Fock space representation of the affine Lie algebra. We categorify this construction by considering an inverse limit of categories of polynomial representation of general linear groups. We show that this limit naturally carries an action of the affine Lie algebra (in the sense of Rouquier), thereby obtaining a famiy of categorifications of the bosonic Fock space representation.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-12T21:12:55Z</published>
+    <arxiv:comment>32 pages, to appear in Algebras and Representation Theory</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Algebras and Representation Theory 16 (2013), no.5, 1273-1311</arxiv:journal_ref>
+    <author>
+      <name>Jiuzu Hong</name>
+    </author>
+    <author>
+      <name>Oded Yacobi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14334v4</id>
+    <title>Invariant subspaces of elliptic systems II: spectral theory</title>
+    <updated>2022-02-08T09:57:39Z</updated>
+    <link href="https://arxiv.org/abs/2103.14334v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14334v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider an elliptic self-adjoint pseudodifferential operator $A$ acting on $m$-columns of half-densities on a closed manifold $M$, whose principal symbol is assumed to have simple eigenvalues. We show that the spectrum of $A$ decomposes, up to an error with superpolynomial decay, into $m$ distinct series, each associated with one of the eigenvalues of the principal symbol of $A$. These spectral results are then applied to the study of propagation of singularities in hyperbolic systems. The key technical ingredient is the use of the carefully devised pseudodifferential projections introduced in the first part of this work, which decompose $L^2(M)$ into almost-orthogonal almost-invariant subspaces under the action of both $A$ and the hyperbolic evolution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T08:56:53Z</published>
+    <arxiv:comment>Minor edits, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, vol. 12 (2022), p. 301-338</arxiv:journal_ref>
+    <author>
+      <name>Matteo Capoferri</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6015v1</id>
+    <title>The spectral function of a first order elliptic system</title>
+    <updated>2012-08-30T06:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1208.6015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of squares of Euclidean norms of eigenfunctions evaluated at a given point of the manifold, with summation carried out over all eigenvalues between zero and a positive lambda) and the counting function (number of eigenvalues between zero and a positive lambda). We derive explicit two-term asymptotic formulae for all three. For the propagator "asymptotic" is understood as asymptotic in terms of smoothness, whereas for the spectral and counting functions "asymptotic" is understood as asymptotic with respect to lambda tending to plus infinity.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-30T06:55:33Z</published>
+    <arxiv:comment>This preprint is "part a" (proper subset) of preprint arXiv:1204.6567. Preprint arXiv:1204.6567 is being split into two parts on the recommendation of the referee of Journal of Spectral Theory. "Part b" will appear as a separate preprint under the title "Spectral theoretic characterization of the massless Dirac operator"</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2013, vol. 3, p. 317-360</arxiv:journal_ref>
+    <author>
+      <name>Olga Chervova</name>
+    </author>
+    <author>
+      <name>Robert J. Downes</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.6314v1</id>
+    <title>On static quark anti-quark potential at non-zero temperature</title>
+    <updated>2012-10-23T18:03:32Z</updated>
+    <link href="https://arxiv.org/abs/1210.6314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.6314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study Wilson loops at non-zero temperature and extract the static quark potential from them. The extracted potentials are larger than the singlet free energies and do not show screening for $T&lt;190$ MeV.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-23T18:03:32Z</published>
+    <arxiv:comment>Contribution to the proceedings of Quark Matter 2012, 4 pages, uses elsarticle</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>A. Bazavov</name>
+    </author>
+    <author>
+      <name>P. Petreczky</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysa.2013.02.085</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2013.02.085" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.0795v4</id>
+    <title>Finite-Dimensional Representations of Hyper Loop Algebras Over Non-Algebraically Closed Fields</title>
+    <updated>2008-09-18T16:33:12Z</updated>
+    <link href="https://arxiv.org/abs/0711.0795v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.0795v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study finite-dimensional representations of hyper loop algebras over non-algebraically closed fields. The main results concern the classification of the irreducible representations, the construction of the Weyl modules, base change, tensor products of irreducible and Weyl modules, and the block decomposition of the underlying abelian category. Several results are interestingly related to the study of irreducible representations of polynomial algebras and Galois theory.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-06T03:42:55Z</published>
+    <arxiv:comment>final version, to appear in "Algebras and Representation Theory"</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Algebras and Representation Theory 13 (2010), no. 3, 271-301</arxiv:journal_ref>
+    <author>
+      <name>Dijana Jakelic</name>
+    </author>
+    <author>
+      <name>Adriano Moura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.2876v2</id>
+    <title>The static potential in {\cal N}=4 supersymmetric Yang-Mills at weak coupling</title>
+    <updated>2007-10-28T08:57:32Z</updated>
+    <link href="https://arxiv.org/abs/0709.2876v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.2876v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We compute the static potential associated to the locally 1/2 BPS Wilson loop in ${\cal N}$=4 supersymmetric Yang-Mills theory with ${\cal O}(λ^2/r)$ accuracy. We also resum the leading logarithms, of ${\cal O}(λ^{n+1}\ln^nλ/r)$, and show the structure of the renormalization group equation at next-to-leading order in the multipole expansion. In order to obtain these results it is crucial the use of an effective theory for the ultrasoft degrees of freedom. We develop this theory up to next-to-leading order in the multipole expansion. Using the same formalism we also compute the leading logarithms, of ${\cal O}(λ^{n+3}\ln^nλ/r)$, of the static potential associated to an ordinary Wilson loop in the same theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-18T16:42:11Z</published>
+    <arxiv:comment>6 pages, 1 figure. Two references added, misprints corrected. Computation of the static potential associated to the ordinary static Wilson loop incorporated</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D77:021701,2008</arxiv:journal_ref>
+    <author>
+      <name>Antonio Pineda</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.77.021701</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.77.021701" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0402188v5</id>
+    <title>Structures and Representations of Generalized Path Algebras</title>
+    <updated>2006-06-09T13:18:12Z</updated>
+    <link href="https://arxiv.org/abs/math/0402188v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0402188v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is shown that an algebra $Λ$ can be lifted with nilpotent Jacobson radical $r = r(Λ)$ and has a generalized matrix unit $\{e_{ii}\}_I$ with each $\bar e_{ii} $ in the center of $\bar Λ= Λ/r$ iff $Λ$ is isomorphic to a generalized path algebra with weak relations. Representations of the generalized path algebras are given. As a corollary, $Λ$ is a finite algebra with non-zero unity element over perfect field $k$ (e.g. a field with characteristic zero or a finite field) iff $Λ$ is isomorphic to a generalized path algebra $k (D, Ω, ρ)$ of finite directed graph with weak relations and $dim {\} Ω&lt; \infty $; $Λ$ is a generalized elementary algebra which can be lifted with nilpotent Jacobson radical and has a complete set of pairwise orthogonal idempotents iff $Λ$ is isomorphic to a path algebra with relations.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-02-12T00:13:43Z</published>
+    <arxiv:comment>19 pages. To appear in Algebras and Representation Theory</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <arxiv:journal_ref>Algebras and Representation Theory 10 (2007), 117-134</arxiv:journal_ref>
+    <author>
+      <name>Shouchuan Zhang</name>
+    </author>
+    <author>
+      <name>Yao-Zhong Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.07644v6</id>
+    <title>The quark spectral functions and the Hadron Vacuum Polarization from application of DSEs in Minkowski space</title>
+    <updated>2019-12-24T17:27:30Z</updated>
+    <link href="https://arxiv.org/abs/1809.07644v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.07644v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The hadronic vacuum polarization function $Π_h$ for two light flavors is computed on the entire domain of spacelike and timelike momenta using a framework of Dyson-Schwinger equations. The analytical continuation of the function $Π_h$ is based on the utilization of the Gauge Technique with the entry of QCD Green's functions determined from generalized quark spectral functions. For the first time, the light quark spectral functions are extracted from the solution of the gap equation for the quark propagator. The scale is set up by the phenomena of dynamical chiral symmetry breaking, which is a striking feature of low energy QCD.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-20T14:16:30Z</published>
+    <arxiv:comment>New Appendix was added wherein the new method of extraction of the quark spectral function is explained in details</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Few Body Syst. 61, 3, 23 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Vladimir Sauli</name>
+    </author>
+    <arxiv:doi>10.1007/s00601-020-01555-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00601-020-01555-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.0140v4</id>
+    <title>Representations of hom-Lie algebras</title>
+    <updated>2012-11-11T02:11:28Z</updated>
+    <link href="https://arxiv.org/abs/1005.0140v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.0140v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we study representations of hom-Lie algebras. In particular, the adjoint representation and the trivial representation of hom-Lie algebras are studied in detail. Derivations, deformations, central extensions and derivation extensions of hom-Lie algebras are also studied as an application.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-02T13:29:20Z</published>
+    <arxiv:comment>16 pages, multiplicative and regular hom-Lie algebras are used, Algebra and Representation Theory, 15 (6) (2012), 1081-1098</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Algebra and Representation Theory, 15 (6) (2012), 1081-1098</arxiv:journal_ref>
+    <author>
+      <name>Yunhe Sheng</name>
+    </author>
+    <arxiv:doi>10.1007/s10468-011-9280-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10468-011-9280-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.02493v4</id>
+    <title>Clifford theory for glider representations</title>
+    <updated>2016-10-17T13:15:34Z</updated>
+    <link href="https://arxiv.org/abs/1603.02493v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.02493v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Classical Clifford theory studies the decomposition of simple $G$-modules into simple $H$-modules for some normal subgroup $H \triangleleft G$. In this paper we deal with chains of normal subgroups $1 \triangleleft G_1 \triangleleft \cdots \triangleleft G_d =G$, which allow to consider fragments and in particular glider representations. These are given by a descending chain of vector spaces over some field $K$ and relate different representations of the groups appearing in the chain. Picking some normal subgroup $H \triangleleft G$ one obtains a normal subchain and one can construct an induced fragment structure. Moreover, a notion of irreducibility of fragments is introduced, which completes the list of ingredients to perform a Clifford theory.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-08T12:02:48Z</published>
+    <arxiv:comment>15 pages. There was an erratum at the beginning of section 4. This could be omitted without further consequences to the results in the paper. To appear in Algebras and Representation Theory</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Algebras and Representation Theory, Volume 19, No. 3, June 2016</arxiv:journal_ref>
+    <author>
+      <name>Frederik Caenepeel</name>
+    </author>
+    <author>
+      <name>Fred Van Oystaeyen</name>
+    </author>
+    <arxiv:doi>10.1007/s10468-016-9628-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10468-016-9628-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.09235v1</id>
+    <title>Spectral Representations of the Wiener-Hopf Operator for the sinc Kernel and some Related Operators</title>
+    <updated>2020-02-21T11:37:10Z</updated>
+    <link href="https://arxiv.org/abs/2002.09235v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.09235v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral representation of the Wiener-Hopf operator K with kernel $1/π$ sinc is given determining explicitly the Hilbert space isomorphism, which transforms K into the multiplication operator by the identity on $L^2(0,1)$. Several related integral operators are studied. A close relationship of K to the finite Hilbert transformation is revealed yielding the spectral representation of the latter. This is of particular interest as it concerns a general feature of self-adjoint Wiener-Hopf operators [15].</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-21T11:37:10Z</published>
+    <arxiv:comment>Keywords: Wiener-Hopf operators, Toeplitz operators, finite Hilbert transformations, generalized eigenfunctions expansion, spectral representation</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Domenico P. L. Castrigiano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.16353v2</id>
+    <title>On the asymptotic behavior of the spectral gap for discrete Schrödinger operators</title>
+    <updated>2026-01-09T16:33:55Z</updated>
+    <link href="https://arxiv.org/abs/2508.16353v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.16353v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this note we elaborate on the asymptotic behavior of the spectral gap of a class of discrete Schrödinger operators defined on a path graph in the limit of infinite volume. We confirm recent results and generalize them to a larger class of potentials using entirely different methods. Notably, we also resolve a conjecture previously proposed in this context. This then yields new insights into the rate at which the spectral gap tends to zero as the volume increases.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-22T12:56:33Z</published>
+    <arxiv:comment>The previous submission was extended to include the convergence of the spectral gap in the special case where the potential is supported only at the origin (Section 5 and an appendix added)</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Asymptotic Analysis (2026)</arxiv:journal_ref>
+    <author>
+      <name>Matthias Hofmann</name>
+    </author>
+    <author>
+      <name>Joachim Kerner</name>
+    </author>
+    <author>
+      <name>Maximilian Pechmann</name>
+    </author>
+    <arxiv:doi>10.1177/09217134261465640</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1177/09217134261465640" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/0209033v1</id>
+    <title>Spectral Functions of Quarks in Quark Matter</title>
+    <updated>2002-09-12T16:28:56Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/0209033v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/0209033v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a simple albeit self-consistent approach to the spectral function of light quarks in infinite quark matter. Relations between correlation functions and collision rates are used to calculate the spectral function in an iterative procedure. The quark interactions are described by the SU(2) Nambu--Jona-Lasinio model. Calculations were performed in the chirally restored phase at zero temperature.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-09-12T16:28:56Z</published>
+    <arxiv:comment>3 pages, 5 figures, to appear in the proceedings of International Conference on Quark Nuclear Physics (QNP2002), Juelich, Germany, 9-14 Jun 2002</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Eur.Phys.J. A18 (2003) 265-268</arxiv:journal_ref>
+    <author>
+      <name>Frank Froemel</name>
+    </author>
+    <author>
+      <name>Stefan Leupold</name>
+    </author>
+    <author>
+      <name>Ulrich Mosel</name>
+    </author>
+    <arxiv:doi>10.1140/epja/i2002-10213-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epja/i2002-10213-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0403016v1</id>
+    <title>News from Lattice QCD on Heavy Quark Potentials and Spectral Functions of Heavy Quark States</title>
+    <updated>2004-03-16T09:50:05Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0403016v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0403016v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss recent lattice results on in-medium properties of hadrons and focus on thermal properties of heavy quark bound states. We will clarify the relation between heavy quark free energies and potentials used to analyze the melting of heavy quark bound states. Furthermore, we present calculations of meson spectral functions which indicate that the charmonium ground states, J/psi and eta_c, persist in the quark gluon plasma as well defined resonances with no significant change of their zero temperature masses at least up to T ~ 1.5 T_c. We also briefly comment on the current status of lattice calculations at non-vanishing baryon number density.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-03-16T09:50:05Z</published>
+    <arxiv:comment>Plenary talk at the 17th International Conference on Ultra Relativistic Nucleus-Nucleus Collisions (Quark Matter 2004), Oakland, California, 11-17 Jan 2004. Submitted to J.Phys.G</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>J.Phys. G30 (2004) S887-S894</arxiv:journal_ref>
+    <author>
+      <name>Frithjof Karsch</name>
+    </author>
+    <arxiv:doi>10.1088/0954-3899/30/8/030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0954-3899/30/8/030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.4011v1</id>
+    <title>The Symmetries of the Three Heavy Quark Bound State and the Singlet Static Energy</title>
+    <updated>2013-01-17T08:49:36Z</updated>
+    <link href="https://arxiv.org/abs/1301.4011v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.4011v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Potential non-relativistic QCD provides a convenient framework to study the three heavy-quark system. We have studied its symmetries under exchange of the heavy quarks and determined the leading ultrasoft contributions to the singlet static potential and to the singlet static energy. Specializing to an equilateral geometry, we have solved the renormalization group equations in order to resum the leading ultrasoft logarithms for the singlet static potential, which is thus known at NNLL accuracy.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-17T08:49:36Z</published>
+    <arxiv:comment>6 pages; conference proceedings: Xth Quark Confinement and the Hadron Spectrum, October 8-12, 2012, Munich, Germany</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>PoS Confinement X (2013) 160</arxiv:journal_ref>
+    <author>
+      <name>Felix Karbstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.12937v2</id>
+    <title>Static quark anti-quark interactions at non-zero temperature from lattice QCD</title>
+    <updated>2022-12-01T04:05:13Z</updated>
+    <link href="https://arxiv.org/abs/2211.12937v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.12937v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present results on the in-medium interactions of static quark anti-quark pairs using realistic 2+1 HISQ flavor lattice QCD. Focus is put on the extraction of spectral information from Wilson line correlators in Coulomb gauge using four complementary methods. Our results indicate that on HISQ lattices, the position of the dominant spectral peak associated with the real-part of the interquark potential remains unaffected by temperature. This is in contrast to prior work in quenched QCD and we present follow up comparisons to newly generated quenched ensembles.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-23T13:16:25Z</published>
+    <arxiv:comment>7 pages, 4 figures, talk given at the XVth Quark confinement and the Hadron spectrum conference, Aug. 1st - 6th, 2022, Stavanger, Norway. Date of presentation Aug. 5th 2022</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Gaurang Parkar</name>
+    </author>
+    <author>
+      <name>Dibyendu Bala</name>
+    </author>
+    <author>
+      <name>Olaf Kaczmarek</name>
+    </author>
+    <author>
+      <name>Rasmus Larsen</name>
+    </author>
+    <author>
+      <name>Swagato Mukherjee</name>
+    </author>
+    <author>
+      <name>Peter Petreczky</name>
+    </author>
+    <author>
+      <name>Alexander Rothkopf</name>
+    </author>
+    <author>
+      <name>Johannes Heinrich Weber</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/202227404006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/202227404006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0810.2905v1</id>
+    <title>Light and heavy baryon masses: the 1/N_c expansion and the quark model</title>
+    <updated>2008-10-16T14:30:19Z</updated>
+    <link href="https://arxiv.org/abs/0810.2905v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0810.2905v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We establish a connection between the quark model and the 1/N_c expansion mass formulas used in the description of baryon resonances. We show that a remarkable compatibility exists between the two methods in the light and heavy baryon sectors. In particular, the band number used to classify baryons in the 1/N_c expansion is explained by the quark model and the mass formulas for both approaches are consistent.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-10-16T14:30:19Z</published>
+    <arxiv:comment>To appear in the proceedings of Few-Quark States and the Continuum, BLED WORKSHOPS IN PHYSICS, vol. 9, no. 1</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Proceedings of the Mini-Workshop « Few-Quark states and the continuum », Bled, Slovenia, September 15-22, 2008, pp. 9-25.</arxiv:journal_ref>
+    <author>
+      <name>F. Buisseret</name>
+    </author>
+    <author>
+      <name>C. Semay</name>
+    </author>
+    <author>
+      <name>Fl. Stancu</name>
+    </author>
+    <author>
+      <name>N. Matagne</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05833v2</id>
+    <title>Multi-messenger Observations of a Binary Neutron Star Merger</title>
+    <updated>2017-10-24T12:03:18Z</updated>
+    <link href="https://arxiv.org/abs/1710.05833v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.05833v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^{+8}_{-8}$ Mpc and with component masses consistent with neutron stars. The component masses were later measured to be in the range 0.86 to 2.26 Msun. An extensive observing campaign was launched across the electromagnetic spectrum leading to the discovery of a bright optical transient (SSS17a, now with the IAU identification of AT 2017gfo) in NGC 4993 (at $\sim$40 Mpc) less than 11 hours after the merger by the One-Meter, Two Hemisphere (1M2H) team using the 1 m Swope Telescope. The optical transient was independently detected by multiple teams within an hour. Subsequent observations targeted the object and its environment. Early ultraviolet observations revealed a blue transient that faded within 48 hours. Optical and infrared observations showed a redward evolution over $\sim$10 days. Following early non-detections, X-ray and radio emission were discovered at the transient's position $\sim$9 and $\sim$16 days, respectively, after the merger. Both the X-ray and radio emission likely arise from a physical process that is distinct from the one that generates the UV/optical/near-infrared emission. No ultra-high-energy gamma-rays and no neutrino candidates consistent with the source were found in follow-up searches. (Abridged)</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-16T16:57:18Z</published>
+    <arxiv:comment>This is a reproduction of the article published in the Astrophysical Journal Letters, under the terms of the Creative Commons Attribution 3.0 licence</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>ApJL, 848:L12, 2017</arxiv:journal_ref>
+    <author>
+      <name> LIGO Scientific Collaboration</name>
+    </author>
+    <author>
+      <name> Virgo Collaboration</name>
+    </author>
+    <author>
+      <name>Fermi GBM</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> INTEGRAL</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IceCube Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AstroSat Cadmium Zinc Telluride Imager Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IPN Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Insight-Hxmt Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>ANTARES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Swift Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AGILE Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The 1M2H Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Dark Energy Camera GW-EM Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>the DES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The DLT40 Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> GRAWITA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>GRAvitational Wave Inaf TeAm</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Fermi Large Area Telescope Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ATCA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australia Telescope Compact Array</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ASKAP</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australian SKA Pathfinder</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Las Cumbres Observatory Group</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> OzGrav</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> DWF</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> AST3</name>
+    </author>
+    <author>
+      <name>CAASTRO Collaborations</name>
+    </author>
+    <author>
+      <name>The VINROUGE Collaboration</name>
+    </author>
+    <author>
+      <name>MASTER Collaboration</name>
+    </author>
+    <author>
+      <name> J-GEM</name>
+    </author>
+    <author>
+      <name> GROWTH</name>
+    </author>
+    <author>
+      <name> JAGWAR</name>
+    </author>
+    <author>
+      <name>Caltech- NRAO</name>
+    </author>
+    <author>
+      <name> TTU-NRAO</name>
+    </author>
+    <author>
+      <name>NuSTAR Collaborations</name>
+    </author>
+    <author>
+      <name> Pan-STARRS</name>
+    </author>
+    <author>
+      <name>The MAXI Team</name>
+    </author>
+    <author>
+      <name>TZAC Consortium</name>
+    </author>
+    <author>
+      <name>KU Collaboration</name>
+    </author>
+    <author>
+      <name>Nordic Optical Telescope</name>
+    </author>
+    <author>
+      <name> ePESSTO</name>
+    </author>
+    <author>
+      <name> GROND</name>
+    </author>
+    <author>
+      <name>Texas Tech University</name>
+    </author>
+    <author>
+      <name>SALT Group</name>
+    </author>
+    <author>
+      <name> TOROS</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Transient Robotic Observatory of the South Collaboration</name>
+    </author>
+    <author>
+      <name>The BOOTES Collaboration</name>
+    </author>
+    <author>
+      <name> MWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Murchison Widefield Array</name>
+    </author>
+    <author>
+      <name>The CALET Collaboration</name>
+    </author>
+    <author>
+      <name>IKI-GW Follow-up Collaboration</name>
+    </author>
+    <author>
+      <name>H. E. S. S. Collaboration</name>
+    </author>
+    <author>
+      <name>LOFAR Collaboration</name>
+    </author>
+    <author>
+      <name> LWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Long Wavelength Array</name>
+    </author>
+    <author>
+      <name>HAWC Collaboration</name>
+    </author>
+    <author>
+      <name>The Pierre Auger Collaboration</name>
+    </author>
+    <author>
+      <name>ALMA Collaboration</name>
+    </author>
+    <author>
+      <name>Euro VLBI Team</name>
+    </author>
+    <author>
+      <name>Pi of the Sky Collaboration</name>
+    </author>
+    <author>
+      <name>The Chandra Team at McGill University</name>
+    </author>
+    <author>
+      <name> DFN</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Desert Fireball Network</name>
+    </author>
+    <author>
+      <name> ATLAS</name>
+    </author>
+    <author>
+      <name>High Time Resolution Universe Survey</name>
+    </author>
+    <author>
+      <name> RIMAS</name>
+    </author>
+    <author>
+      <name> RATIR</name>
+    </author>
+    <author>
+      <name>SKA South Africa/MeerKAT</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/aa91c9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/aa91c9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.13877v2</id>
+    <title>Short-range baryon-baryon potentials in constituent quark model revisited</title>
+    <updated>2023-11-09T02:55:31Z</updated>
+    <link href="https://arxiv.org/abs/2304.13877v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.13877v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We revisit the short-range baryon-baryon potentials in the flavor SU(3) sector, using the constituent quark model. We employ the color Coulomb, linear confining, and color magnetic forces between two constituent quarks, and solve the three-quark Schrödinger equation using the Gaussian expansion method to evaluate the wave functions of the octet $( N , Λ, Σ, Ξ)$ and decuplet $( Δ, Σ^{\ast} , Ξ^{\ast} , Ω)$ baryons. We then solve the six-quark equation using the resonating group method and systematically calculate equivalent local potentials for the $S$-wave two-baryon systems which reproduce the relative wave functions of two baryons in the resonating group method. As a result, we find that the flavor antidecuplet states with total spin $J = 3$, namely, $ΔΔ$, $ΔΣ^{\ast}$, $ΔΞ^{\ast}$-$Σ^{\ast} Σ^{\ast}$, and $ΔΩ$-$Σ^{\ast} Ξ^{\ast}$ systems, have attractive potentials sufficient to generate dibaryon bound states as hadronic molecules. In addition, the $N Ω$ system with $J = 2$ in coupled channels has a strong attraction and forms a bound state. We also make a comparison with the baryon-baryon potentials from lattice QCD simulations and try to understand the behavior of the potentials from lattice QCD simulations.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-26T23:49:22Z</published>
+    <arxiv:comment>Version accepted for publication in Physical Review C. Parameters, especially the constituent quark masses, have been refined. All of the explicit potential values in our model are provided in the ancillary files</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Phys. Rev. C 108, 065202 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Takayasu Sekihara</name>
+    </author>
+    <author>
+      <name>Taishi Hashiguchi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.108.065202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.108.065202" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.12836v4</id>
+    <title>Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model</title>
+    <updated>2019-08-01T17:52:13Z</updated>
+    <link href="https://arxiv.org/abs/1810.12836v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.12836v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A significant roadblock in multilingual neural language modeling is the lack of labeled non-English data. One potential method for overcoming this issue is learning cross-lingual text representations that can be used to transfer the performance from training on English tasks to non-English tasks, despite little to no task-specific non-English data. In this paper, we explore a natural setup for learning cross-lingual sentence representations: the dual-encoder. We provide a comprehensive evaluation of our cross-lingual representations on a number of monolingual, cross-lingual, and zero-shot/few-shot learning tasks, and also give an analysis of different learned cross-lingual embedding spaces.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-30T16:18:05Z</published>
+    <arxiv:comment>Accepted at the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>In Proceedings of the 4th Workshop on Representation Learning for NLP (RepL4NLP-2019)</arxiv:journal_ref>
+    <author>
+      <name>Muthuraman Chidambaram</name>
+    </author>
+    <author>
+      <name>Yinfei Yang</name>
+    </author>
+    <author>
+      <name>Daniel Cer</name>
+    </author>
+    <author>
+      <name>Steve Yuan</name>
+    </author>
+    <author>
+      <name>Yun-Hsuan Sung</name>
+    </author>
+    <author>
+      <name>Brian Strope</name>
+    </author>
+    <author>
+      <name>Ray Kurzweil</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/9912044v2</id>
+    <title>Symanzik Improvement In The Static Quark Potential</title>
+    <updated>2001-05-31T06:55:23Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/9912044v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/9912044v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A systematic investigation of Symanzic improvement in the gauge field action is performed for the static quark potential in quenched QCD. We consider Symanzik improved gauge field configurations on a 16^3 X 32 lattice with a relatively coarse lattice spacing of 0.165(2)fm. A matched set of standard Wilson gauge configurations is prepared at β= 5.74 with the same physical volume and lattice spacing and is studied for comparison. We find that, despite the coarse lattice spacing, the unimproved and less-expensive Wilson action does as well as the Symanzik action in allowing us to extract the static quark potential at large qqbar separations. We have considered novel methods for stepping off-axis in the static quark potential which provides new insights into the extent to which the ground state potential dominates the Wilson loop correlation function.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-12-22T06:54:21Z</published>
+    <arxiv:comment>RevTeX 14 pages, 9 Postscript figures. New title, fresh results and clearer figures</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Frederic D. R. Bonnet</name>
+      <arxiv:affiliation>CSSM, U Adelaide</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Derek B. Leinweber</name>
+      <arxiv:affiliation>CSSM, U Adelaide</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anthony G. Williams</name>
+      <arxiv:affiliation>CSSM, U Adelaide</arxiv:affiliation>
+    </author>
+    <author>
+      <name>James M. Zanotti</name>
+      <arxiv:affiliation>CSSM, U Adelaide</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0908.3079v2</id>
+    <title>Spectral Properties of Quarks at Finite Temperature in Lattice QCD</title>
+    <updated>2009-09-17T09:17:34Z</updated>
+    <link href="https://arxiv.org/abs/0908.3079v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0908.3079v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We analyze the quark spectral function above and below the critical temperature for deconfinement and at finite momentum in quenched lattice QCD. It is found that the temporal quark correlation function in the deconfined phase near the critical temperature is well reproduced by a two-pole ansatz for the spectral function. The bare quark mass and momentum dependences of the spectral function are analyzed with this ansatz. In the chiral limit we find that even near the critical temperature the quark spectral function has two collective modes corresponding to the normal and plasmino excitations in the high temperature (T) limit. The pole mass of these modes at zero momentum, which should be identified to be the thermal mass of the quark, is approximately proportional to T in a rather wide range of T in the deconfined phase.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-08-21T09:36:02Z</published>
+    <arxiv:comment>4 pages, 2 figures - To appear in the conference proceedings for Quark Matter 2009, March 30 - April 4, Knoxville, Tennessee</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Nucl.Phys.A830:223c-226c,2009</arxiv:journal_ref>
+    <author>
+      <name>Masakiyo Kitazawa</name>
+    </author>
+    <author>
+      <name>Frithjof Karsch</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysa.2009.09.024</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2009.09.024" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/9809015v1</id>
+    <title>Gluon excitations of the static-quark potential</title>
+    <updated>1998-09-03T15:28:05Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/9809015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/9809015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The spectrum of gluon excitations in the presence of a static quark-antiquark pair is presented. Our results are obtained from computer simulations of gluons on anisotropic space-time lattices using an improved gauge-field action. Measurements for quark-antiquark separations r ranging from 0.1 fm to 4 fm and for various orientations on the lattice are made. Discretization errors and finite volume effects are taken into account. Surprisingly, the spectrum does not exhibit the expected onset of the universal pi/r Goldstone excitations of the effective QCD string, even for r as large as 4 fm.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-09-03T15:28:05Z</published>
+    <arxiv:comment>4 pages, LaTeX (2 figures), uses worldsci.sty. Talk given at the Third International Conference on Quark Confinement and the Hadron Spectrum, Jefferson Lab, USA, June 7-12, 1998</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>K. J. Juge</name>
+    </author>
+    <author>
+      <name>J. Kuti</name>
+    </author>
+    <author>
+      <name>C. Morningstar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.02978v1</id>
+    <title>Quark model description of $ψ(4260)$</title>
+    <updated>2019-04-05T10:13:59Z</updated>
+    <link href="https://arxiv.org/abs/1904.02978v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.02978v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>From lattice indications we follow a Born-Oppenheimer approximation to build a quark-antiquark static potential for $J^{PC}=1^{--}$ charmonium states below their first S- wave meson-meson threshold. We show that a good description of the mass and decay properties of the experimentally well established $ψ(4260)$ resonance is feasible.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-05T10:13:59Z</published>
+    <arxiv:comment>21 pages, 3 tables, 5 figures, keywords: quark; meson; potential</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. C 99, 045205 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Roberto Bruschini</name>
+    </author>
+    <author>
+      <name>Pedro González</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.99.045205</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.99.045205" title="doi"/>
+  </entry>
+</feed>

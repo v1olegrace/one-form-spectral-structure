@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xxiJCDXuTrqJYxzwBAgTS7Yn0aM</id>
+  <title>arXiv Query: search_query=all:matrix OR all:pencil OR all:perturbation OR all:theory OR all:noise OR all:exponential OR all:estimation&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:51:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:matrix+OR+(all:pencil+OR+(all:perturbation+OR+(all:theory+OR+(all:noise+OR+(all:exponential+OR+all:estimation)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1271115</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.17841v1</id>
+    <title>Truly Sub-Nyquist Method Based Matrix Pencil and CRT with Super Resolution</title>
+    <updated>2024-10-23T13:06:42Z</updated>
+    <link href="https://arxiv.org/abs/2410.17841v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.17841v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The emergence of ultra-wideband (UWB) and high-throughput signals has necessitated advancements in data sampling technologies1. Sub-Nyquist sampling methods, such as the modulated wideband converter (MWC) and compressed auto-correlation spectrum sensing (CCS), address the limitations of traditional analog-to-digital converters (ADCs) by capturing signals below the Nyquist rate. However, these methods face challenges like spectral leakage and complex hardware requirements. This paper proposes a novel super-resolution generalized eigenvalue method that integrates the matrix pencil method with the Chinese Remainder Theorem (CRT) to enhance signal processing capabilities within a true sub-Nyquist framework3. This approach aims to improve frequency resolution and accuracy in high-frequency signal extraction, with potential applications in telecommunications, radar, and medical imaging.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-23T13:06:42Z</published>
+    <arxiv:comment>Sub-nyquist sampling, Matrix pencil method, CRT, Super resolution</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Huiguang Zhang</name>
+    </author>
+    <author>
+      <name>Baoguo Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.0979v1</id>
+    <title>Supersymmetry in Random Matrix Theory</title>
+    <updated>2010-05-06T11:09:14Z</updated>
+    <link href="https://arxiv.org/abs/1005.0979v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.0979v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Supersymmetry is nowadays indispensable for many problems in Random Matrix Theory. It is presented here with an emphasis on conceptual and structural issues. An introduction to supermathematics is given. The Hubbard-Stratonovich transformation as well as its generalization and superbosonization are explained. The supersymmetric non-linear sigma model, Brownian motion in superspace and the color-flavor transformation are discussed.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-06T11:09:14Z</published>
+    <arxiv:comment>21 pages, invited contribution to the Oxford Handbook of Random Matrix Theory</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>The Oxford Handbook of Random Matrix Theory, Oxford University Press, Oxford, 2011, Pages 135-154</arxiv:journal_ref>
+    <author>
+      <name>Thomas Guhr</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/chao-dyn/9311011v2</id>
+    <title>The Great Inequality In A Hamiltonian Planetary Theory</title>
+    <updated>1993-12-07T04:05:12Z</updated>
+    <link href="https://arxiv.org/abs/chao-dyn/9311011v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/chao-dyn/9311011v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Jupiter-Saturn 2:5 near-commensurability is analyzed in a fully analytic Hamiltonian planetary theory. Computations for the Sun-Jupiter-Saturn system, extending to the third order of the masses and to the 8th degree in the eccentricities and inclinations, reveal an unexpectedly sensitive dependence of the solution on initial data and its likely nonconvergence. The source of the sensitivity and apparent lack of convergence is this near-commensurability, the so-called great inequality. This indicates that simple averaging, still common in current semi-analytic planetary theories, may not be an adequate technique to obtain information on the long-term dynamics of the Solar System.
+  Preliminary results suggest that these difficulties can be overcome by using resonant normal forms.</summary>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-11-30T04:18:23Z</published>
+    <arxiv:comment>6 pages, PostScript, compressed and uuencoded, 150KB, figures included, hard copy available upon request</arxiv:comment>
+    <arxiv:primary_category term="nlin.CD"/>
+    <author>
+      <name>F. Varadi</name>
+      <arxiv:affiliation>Institute of Geophysics and Planetary Physics University of California, Los Angeles Los Angeles,CA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Ghil</name>
+      <arxiv:affiliation>Institute of Geophysics and Planetary Physics University of California, Los Angeles Los Angeles,CA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. M. Kaula</name>
+      <arxiv:affiliation>Institute of Geophysics and Planetary Physics University of California, Los Angeles Los Angeles,CA</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Keywords</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Hamiltonian systems</name>
+    </author>
+    <author>
+      <name>planetary motion</name>
+    </author>
+    <author>
+      <name>perturbation theory</name>
+    </author>
+    <author>
+      <name> resonances</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.19666v1</id>
+    <title>Weierstrass structure and eigenvalue placement of regular matrix pencils under low rank perturbations</title>
+    <updated>2024-02-09T00:50:26Z</updated>
+    <link href="https://arxiv.org/abs/2403.19666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.19666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We solve the problem of determining the Weierstrass structure of a regular matrix pencil obtained by a low rank perturbation of another regular matrix pencil. We apply the result to find necessary and sufficient conditions for the existence of a low rank perturbation such that the perturbed pencil has prescribed eigenvalues and algebraic multiplicities. The results hold over fields with sufficient number of elements.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-09T00:50:26Z</published>
+    <arxiv:comment>17 pages. arXiv admin note: text overlap with arXiv:1907.10657</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <arxiv:journal_ref>SIAM J. MATRIX ANAL. APPL. Vol. 40 (2019) No. 2, pp. 440--453</arxiv:journal_ref>
+    <author>
+      <name>Itziar Baragaña</name>
+    </author>
+    <author>
+      <name>Alicia Roca</name>
+    </author>
+    <arxiv:doi>10.1137/18M1200245</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/18M1200245" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9707234v2</id>
+    <title>Variational Approach to Quantum Field Theory: Gaussian Approximation and the Perturbative Expansion around It</title>
+    <updated>1997-08-21T09:31:53Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9707234v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9707234v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The functional Schrodinger picture formulation of quantum field theory and the variational Gaussian approximation method based on the formulation are briefly reviewed. After presenting recent attempts to improve the variational approximation, we introduce a new systematic method based on the background field method, which enables one to compute the order-by-order correction terms to the Gaussian approximation of the effective action.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-07-29T07:42:59Z</published>
+    <arxiv:comment>To appear in the proceedings of APCTP-ICTP Joint International Conference '97 on "Recent Developments in Nonperturbative Quantum Field Theory". new references are added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Jae Hyung Yee</name>
+      <arxiv:affiliation>Yonsei Univ.</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.05533v3</id>
+    <title>Perturbation Theory for Quantum Information</title>
+    <updated>2023-03-23T16:26:10Z</updated>
+    <link href="https://arxiv.org/abs/2106.05533v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.05533v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report lowest-order series expansions for primary matrix functions of quantum states based on a perturbation theory for functions of linear operators. Our theory enables efficient computation of functions of perturbed quantum states that assume only knowledge of the eigenspectrum of the zeroth order state and the density matrix elements of a zero-trace, Hermitian perturbation operator, not requiring analysis of the full state or the perturbation term. We develop theories for two classes of quantum state perturbations, perturbations that preserve the vector support of the original state and perturbations that extend the support beyond the support of the original state. We highlight relevant features of the two situations, in particular the fact that functions and measures of perturbed quantum states with preserved support can be elegantly and efficiently represented using Fréchet derivatives. We apply our perturbation theories to find simple expressions for four of the most important quantities in quantum information theory that are commonly computed from density matrices: the Von Neumann entropy, the quantum relative entropy, the quantum Chernoff bound, and the quantum fidelity.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-10T06:49:41Z</published>
+    <arxiv:comment>21 pages, updated to clarify that the perturbation theory results are only proven for states on finite-dimensional Hilbert spaces, or state spaces that can be truncated to finite dimensions; it is likely possible to prove that the same results hold for states spanning an infinite-dimensional Hilbert space</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>2022 IEEE Information Theory Workshop (ITW), Mumbai, India, 2022, pp. 500-505</arxiv:journal_ref>
+    <author>
+      <name>Michael R Grace</name>
+    </author>
+    <author>
+      <name>Saikat Guha</name>
+    </author>
+    <arxiv:doi>10.1109/ITW54588.2022.9965836</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ITW54588.2022.9965836" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.10657v2</id>
+    <title>Fixed rank perturbations of regular matrix pencils</title>
+    <updated>2019-08-07T14:55:44Z</updated>
+    <link href="https://arxiv.org/abs/1907.10657v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.10657v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A characterization of the structure of a regular matrix pencil obtained by a bounded rank perturbation of another regular matrix pencil has been recently obtained. The result generalizes the solution for the bounded rank perturbation problem of a square constant matrix. When comparing the fixed rank perturbation problem of a constant matrix with the bounded rank perturbation problem we realize that both problems are of different nature; the first one is more restrictive. In this paper we characterize the structure of a regular matrix pencil obtained by a fixed rank perturbation of another regular matrix pencil. We apply the result to find necessary and sufficient conditions for the existence of a fixed rank perturbation such that the perturbed pencil has a prescribed determinant. The results hold over fields with sufficient number of elements.</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-24T19:01:06Z</published>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Itziar Baragaña</name>
+    </author>
+    <author>
+      <name>Alicia Roca</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.14337v2</id>
+    <title>PENCIL: Long Thoughts with Short Memory</title>
+    <updated>2025-07-06T22:23:16Z</updated>
+    <link href="https://arxiv.org/abs/2503.14337v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.14337v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While state-of-the-art LLMs have demonstrated great promise of using long Chains-of-Thought (CoT) to boost reasoning, scaling it up to more challenging problems at test-time is fundamentally limited by suboptimal memory usage -- intermediate computations accumulate indefinitely in context even when no longer needed for future thoughts. We introduce PENCIL, which incorporates a novel reduction mechanism into the autoregressive generation process that recursively cleans up intermediate thoughts based on patterns learned from training. By iteratively generating and erasing thoughts, PENCIL can think deeper to solve harder problems using shorter context and less compute. Empirically, we observe PENCIL is significantly more effective and efficient than CoT. For example, we demonstrate PENCIL with a small 25M-parameter transformer and 2048 context length solves Einstein's puzzle -- a task that challenges much larger models like GPT-4. Theoretically, we prove PENCIL can perform universal efficient computation by simulating any Turing machines with optimal time and space complexity, and thus can solve arbitrary computable tasks that are otherwise intractable for vanilla CoT.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-18T15:14:14Z</published>
+    <arxiv:comment>Accepted to ICML 2025. Codes in https://github.com/chr26195/PENCIL</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chenxiao Yang</name>
+    </author>
+    <author>
+      <name>Nathan Srebro</name>
+    </author>
+    <author>
+      <name>David McAllester</name>
+    </author>
+    <author>
+      <name>Zhiyuan Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.1432v2</id>
+    <title>Applications of random matrix theory to condensed matter and optical physics</title>
+    <updated>2009-07-18T19:37:14Z</updated>
+    <link href="https://arxiv.org/abs/0904.1432v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.1432v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This is a cursory overview of applications of concepts from random matrix theory (RMT) to quantum electronics and classical &amp; quantum optics. The emphasis is on phenomena, predicted or explained by RMT, that have actually been observed in experiments on quantum wires, quantum dots, disordered wave guides, and chaotic resonators. Topics considered include universal conductance fluctuations, weak localization and coherent backscattering, sub-Poissonian shot noise and open transmission channels, non-Gaussian conductance and thermopower distributions, mesoscopic superconductivity, grey-body radiation, and chaotic laser cavities.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-09T14:33:03Z</published>
+    <arxiv:comment>19 pages, 17 figures; review written for the "The Oxford Handbook of Random Matrix Theory"; version 2: new section (III.A), new figure (3)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>The Oxford Handbook of Random Matrix Theory, edited by G. Akemann, J. Baik, and P. Di Francesco (Oxford University Press, Oxford, 2011): pp. 723--758</arxiv:journal_ref>
+    <author>
+      <name>C. W. J. Beenakker</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.08540v1</id>
+    <title>Rank-one perturbations of matrix pencils</title>
+    <updated>2019-12-18T11:45:41Z</updated>
+    <link href="https://arxiv.org/abs/1912.08540v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.08540v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We solve the problem of characterizing the Kronecker structure of a matrix pencil obtained by a rank-one perturbation of another matrix pencil. The results hold over arbitrary fields.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-18T11:45:41Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Itziar Baragaña</name>
+    </author>
+    <author>
+      <name>Alicia Roca</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.04445v1</id>
+    <title>Perturbative Expansions in QCD Improved by Conformal Mappings of the Borel Plane</title>
+    <updated>2017-11-13T07:14:20Z</updated>
+    <link href="https://arxiv.org/abs/1711.04445v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.04445v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Perturbation expansions appear to be divergent series in many physically interesting situations, including in quantum field theories like quantum electrodynamics (QED) and quantum chromodynamics (QCD), where the perturbative coefficients exhibit a factorial growth at large orders. While this feature has little impact on physical predictions in QED, it can have nontrivial consequences in applications of perturbative QCD at moderate energies. In particular, it affects the theoretical error in the extraction of the strong coupling $α_s$ from hadronic $τ$ decays, despite progress of perturbative calculations available at present to four loops. We discuss a new type of perturbative expansion for QCD correlators, which uses instead of the standard powers of the coupling a new set of expansion functions. These functions are defined by means of an optimal conformal mapping of the Borel complex plane, which implements the known features of the high-order divergence in terms of the lowest Borel-plane singularities. The properties of the expansion functions resemble those of the expanded correlators, by exhibiting in particular the singular behaviour of the correlators at $α_s=0$. We prove the good convergence properties of the new expansions on mathematical models that simulate the physical polarization function for light quarks and its derivative (the Adler function), in various prescriptions of renormalization-group summation.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-13T07:14:20Z</published>
+    <arxiv:comment>review based on previous works of authors; to appear in Perturbation Theory: Advances in Research and Applications, published by Nova Science Publishers, Inc</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Perturbation Theory: Advances in Research and Applications, Nova Science Publishers (2018), pp. 211-254</arxiv:journal_ref>
+    <author>
+      <name>Irinel Caprini</name>
+    </author>
+    <author>
+      <name>Jan Fischer</name>
+    </author>
+    <author>
+      <name>Gauhar Abbas</name>
+    </author>
+    <author>
+      <name>B. Ananthanarayan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.04097v2</id>
+    <title>The eigenvector variety of a matrix pencil</title>
+    <updated>2017-05-01T13:54:49Z</updated>
+    <link href="https://arxiv.org/abs/1703.04097v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.04097v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $k$ be a field and $n,a,b$ natural numbers. A matrix pencil $P$ is given by $n$ matrices of the same size with coefficients in $k$, say by $(b\times a)$-matrices, or, equivalently, by $n$ linear transformations $α_i\:k^a \to k^b$ with $1=1,\dots,n$. We say that $P$ is reduced provided the intersection of the kernels of the linear transformations $α_i$ is zero. If $P$ is a reduced matrix pencil, a vector $v\in k^a$ will be called an eigenvector of $P$ provided the subspace $\langle α_1(v),\dots,α_n(v) \rangle$ of $k^b$ generated by the elements $α_1(v),\dots,α_n(v)$ is $1$-dimensional. Eigenvectors are called equivalent provided they are scalar multiples of each other. The set $ε(P)$ of equivalence classes of eigenvectors of $P$ is a Zariski closed subset of the projective space $\Bbb P(k^a)$, thus a projective variety. We call it the eigenvector variety of $P$. The aim of this note is to show that any projective variety arises as an eigenvector variety of some reduced matrix pencil.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-12T10:44:23Z</published>
+    <arxiv:comment>The presentation has been polished. We have added the remark that any projective variety can be realized by using matrix pencils of square matrices</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Claus Michael Ringel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1308.2426v1</id>
+    <title>Bias of the SIR filter in estimation of the state transition noise</title>
+    <updated>2013-08-11T20:15:49Z</updated>
+    <link href="https://arxiv.org/abs/1308.2426v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1308.2426v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This Note investigates the bias of the sampling importance resampling (SIR) filter in estimation of the state transition noise in the state space model. The SIR filter may suffer from sample impoverishment that is caused by the resampling and therefore will benefit from a sampling proposal that has a heavier tail, e.g. the state transition noise simulated for particle preparation is bigger than the true noise involved with the state dynamics. This is because a comparably big transition noise used for particle propagation can spread overlapped particles to counteract impoverishment, giving better approximation of the posterior. As such, the SIR filter tends to yield a biased (bigger-than-the-truth) estimate of the transition noise if it is unknown and needs to be estimated, at least, in the forward-only filtering estimation. The bias is elaborated via the direct roughening approach by means of both qualitative logical deduction and quantitative numerical simulation.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-08-11T20:15:49Z</published>
+    <arxiv:comment>9 pages, 2 figures. Interesting experiment evidence of the bias of SIR filter in estimation of the state transition noise</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <arxiv:journal_ref>12th International Conference Distributed Computing and Artificial Intelligence, pp 87-95 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Tiancheng Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.10285v3</id>
+    <title>Projected Estimation for Large-dimensional Matrix Factor Models</title>
+    <updated>2020-12-03T11:23:19Z</updated>
+    <link href="https://arxiv.org/abs/2003.10285v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.10285v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this study, we propose a projection estimation method for large-dimensional matrix factor models with cross-sectionally spiked eigenvalues. By projecting the observation matrix onto the row or column factor space, we simplify factor analysis for matrix series to that for a lower-dimensional tensor. This method also reduces the magnitudes of the idiosyncratic error components, thereby increasing the signal-to-noise ratio, because the projection matrix linearly filters the idiosyncratic error matrix. We theoretically prove that the projected estimators of the factor loading matrices achieve faster convergence rates than existing estimators under similar conditions. Asymptotic distributions of the projected estimators are also presented. A novel iterative procedure is given to specify the pair of row and column factor numbers. Extensive numerical studies verify the empirical performance of the projection method. Two real examples in finance and macroeconomics reveal factor patterns across rows and columns, which coincides with financial, economic, or geographical interpretations.</summary>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-23T14:07:28Z</published>
+    <arxiv:comment>This is a revised version of the original paper "Two-stage Projected Estimation for Large-dimensional Matrix Factor Models"</arxiv:comment>
+    <arxiv:primary_category term="stat.ME"/>
+    <author>
+      <name>Long Yu</name>
+    </author>
+    <author>
+      <name>Yong He</name>
+    </author>
+    <author>
+      <name>Xin-bing Kong</name>
+    </author>
+    <author>
+      <name>Xinsheng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.03430v1</id>
+    <title>Quantum and Classical Frontiers of Noise</title>
+    <updated>2016-12-11T16:08:16Z</updated>
+    <link href="https://arxiv.org/abs/1612.03430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.03430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper is an introduction to the eleven works of the special issue on Quantum and Classical Frontiers of Noise. The weather, and its butterfly effect, is the typical example that explain why many natural phenomena are, in fact, not predictable with certainty. Noise in classical or quantum phenomena, understood as the difference between the empirical output of an experiment and its statistical prediction, is a measure of such uncertainty. One of the great contributions of noise appeared in 1905 when Einstein showed how the noisy (Brownian) motion of a dust particle seen in a microscope provided uncontroversial evidences on the existence of the (unseen) atoms. The aim of this special issue is to provoke discussions on how noise can help us to better understand (the reality behind) classical and quantum theories, and the frontier between them.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-11T16:08:16Z</published>
+    <arxiv:comment>Preface to the Special Issue on Quantum and Classical Frontiers of Noise</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Fluctuations and Noise Letters Vol. 15, No. 3 (2016) 1602001</arxiv:journal_ref>
+    <author>
+      <name>X. Oriols</name>
+    </author>
+    <arxiv:doi>10.1142/S0219477516020016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219477516020016" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1008.0667v2</id>
+    <title>Noise and Bell's inequality</title>
+    <updated>2010-08-13T19:23:18Z</updated>
+    <link href="https://arxiv.org/abs/1008.0667v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1008.0667v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>From the beginning of quantum mechanics, there has been a discussion about the concept of reality, as exemplified by the EPR paradox. To many, the idea of the paradox and the possibility of local hidden variables was dismissed by the Bell inequality. Yet, there remains considerable evidence that this inequality can be violated even by classical systems, so that experiments showing quantum behavior and the violation of the inequality must be questioned. Here, we demonstrate that classical optical polarization experiments based upon noise in the system can be shown to violate the Bell inequality.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-08-03T22:35:34Z</published>
+    <arxiv:comment>Fluctuation and Noise Letters, in press</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Fluctuation and Noise Letters 9 (2010 December) 423-426</arxiv:journal_ref>
+    <author>
+      <name>David K. Ferry</name>
+    </author>
+    <author>
+      <name>Laszlo B. Kish</name>
+    </author>
+    <arxiv:doi>10.1142/S0219477510000320</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219477510000320" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.2545v4</id>
+    <title>Noise based logic: why noise? A comparative study of the necessity of randomness out of orthogonality</title>
+    <updated>2012-06-29T09:21:18Z</updated>
+    <link href="https://arxiv.org/abs/1204.2545v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.2545v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although noise-based logic shows potential advantages of reduced power dissipation and the ability of large parallel operations with low hardware and time complexity the question still persist: is randomness really needed out of orthogonality? In this Letter, after some general thermodynamical considerations, we show relevant examples where we compare the computational complexity of logic systems based on orthogonal noise and sinusoidal signals, respectively. The conclusion is that in certain special-purpose applications noise-based logic is exponentially better than its sinusoidal version: its computational complexity can be exponentially smaller to perform the same task.</summary>
+    <category term="cs.OH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-11T15:10:17Z</published>
+    <arxiv:comment>corrected mistyped author's order in arxiv abstract page; accepted for publication in Fluctuation and Noise Letters</arxiv:comment>
+    <arxiv:primary_category term="cs.OH"/>
+    <arxiv:journal_ref>Fluctuation and Noise Letters 11 (2012) 1250021</arxiv:journal_ref>
+    <author>
+      <name>He Wen</name>
+    </author>
+    <author>
+      <name>Laszlo B. Kish</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.07840v2</id>
+    <title>On the change of the Weyr characteristics of matrix pencils after rank-one perturbations</title>
+    <updated>2024-02-09T01:00:58Z</updated>
+    <link href="https://arxiv.org/abs/2105.07840v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.07840v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The change of the Kronecker structure of a matrix pencil perturbed by another pencil of rank one has been characterized in terms of the homogeneous invariant factors and the chains of column and row minimal indices of the initial and the perturbed pencils. We obtain here a new characterization in terms of the homogeneous invariant factors and the conjugate partitions of the corresponding chains of column and row minimal indices of both pencils.
+  We also define the generalized Weyr characteristic of an arbitrary matrix pencil and obtain bounds for the change of it when the pencil is perturbed by another pencil of rank one. The results improve known results on the problem, hold for arbitrary perturbation pencils of rank one, and for any algebraically closed field.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-29T17:17:44Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <arxiv:journal_ref>SIAM J.Matrix Anal. App. Vol 43 (2), (2022), pp. 981-1002</arxiv:journal_ref>
+    <author>
+      <name>Itziar Baragaña</name>
+    </author>
+    <author>
+      <name>Alicia Roca</name>
+    </author>
+    <arxiv:doi>10.1137/21M1416497</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1137/21M1416497" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.02160v3</id>
+    <title>Ultimate Precision of Adaptive Noise Estimation</title>
+    <updated>2017-03-15T11:00:20Z</updated>
+    <link href="https://arxiv.org/abs/1609.02160v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.02160v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the estimation of noise parameters in a quantum channel, assuming the most general strategy allowed by quantum mechanics. This is based on the exploitation of unlimited entanglement and arbitrary quantum operations, so that the channel inputs may be interactively updated. In this general scenario we draw a novel connection between quantum metrology and teleportation. In fact, for any teleportation-covariant channel (e.g., Pauli, erasure, or Gaussian channel), we find that adaptive noise estimation cannot beat the standard quantum limit, with the quantum Fisher information being determined by the channel's Choi matrix. As an example, we establish the ultimate precision for estimating excess noise in a thermal-loss channel which is crucial for quantum cryptography. Because our general methodology applies to any functional which is monotonic under trace-preserving maps, it can be applied to simplify other adaptive protocols, including those for quantum channel discrimination. Setting the ultimate limits for noise estimation and discrimination paves the way for exploring the boundaries of quantum sensing, imaging and tomography.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-07T20:00:08Z</published>
+    <arxiv:comment>Exploits teleportation stretching (https://arxiv.org/abs/1510.08863) to reduce adaptive protocols of quantum metrology and quantum channel discrimination. Adaptive estimation of noise in a teleportation-covariant channel cannot beat the SQL, and the QFI is fully determined by the channel's Choi matrix. Applies to both DV and CV channels (bosonic Gaussian channels)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 118, 100502 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Stefano Pirandola</name>
+    </author>
+    <author>
+      <name>Cosmo Lupo</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.118.100502</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.118.100502" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.04343v3</id>
+    <title>Phase transitions in spiked matrix estimation: information-theoretic analysis</title>
+    <updated>2019-06-24T09:44:37Z</updated>
+    <link href="https://arxiv.org/abs/1806.04343v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.04343v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study here the so-called spiked Wigner and Wishart models, where one observes a low-rank matrix perturbed by some Gaussian noise. These models encompass many classical statistical tasks such as sparse PCA, submatrix localization, community detection or Gaussian mixture clustering. The goal of these notes is to present in a unified manner recent results (as well as new developments) on the information-theoretic limits of these spiked matrix models. We compute the minimal mean squared error for the estimation of the low-rank signal and compare it to the performance of spectral estimators and message passing algorithms. Phase transition phenomena are observed: depending on the noise level it is either impossible, easy (i.e. using polynomial-time estimators) or hard (information-theoretically possible, but no efficient algorithm is known to succeed) to recover the signal.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-12T05:56:46Z</published>
+    <arxiv:comment>These notes present in a unified manner recent results (as well as new developments) on the information-theoretic limits in spiked matrix estimation</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Léo Miolane</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0212231v2</id>
+    <title>Supersymmetric SO(N_c) Gauge Theory and Matrix Model</title>
+    <updated>2003-04-03T03:43:19Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0212231v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0212231v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  By applying the method of Dijkgraaf-Vafa, we study matrix model related to supersymmetric SO(N_c) gauge theory with N_f flavors of quarks in the vector representation found by Intriligator-Seiberg. By performing the matrix integral over tree level superpotential characterized by light meson fields (mass deformation) in electric theory, we reproduce the exact effective superpotential in the gauge theory side. Moreover, we do similar analysis in magnetic theory. It turns out the matrix descriptions of both electric and magnetic theories are the same: Seiberg duality in the gauge theory side.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-12-19T04:59:50Z</published>
+    <arxiv:comment>9 pp:v2 Kept N_c for gauge theory and N for matrix model and modified the measure of matrix integral with the footnote and to appear in PLB</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett. B562 (2003) 141-146</arxiv:journal_ref>
+    <author>
+      <name>Changhyun Ahn</name>
+    </author>
+    <author>
+      <name>Soonkeon Nam</name>
+    </author>
+    <arxiv:doi>10.1016/S0370-2693(03)00554-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0370-2693(03)00554-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.10223v4</id>
+    <title>Advancing Unsupervised Low-light Image Enhancement: Noise Estimation, Illumination Interpolation, and Self-Regulation</title>
+    <updated>2024-06-04T10:52:16Z</updated>
+    <link href="https://arxiv.org/abs/2305.10223v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.10223v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Contemporary Low-Light Image Enhancement (LLIE) techniques have made notable advancements in preserving image details and enhancing contrast, achieving commendable results on specific datasets. Nevertheless, these approaches encounter persistent challenges in efficiently mitigating dynamic noise and accommodating diverse low-light scenarios. Insufficient constraints on complex pixel-wise mapping learning lead to overfitting to specific types of noise and artifacts associated with low-light conditions, reducing effectiveness in variable lighting scenarios. To this end, we first propose a method for estimating the noise level in low light images in a quick and accurate way. This facilitates precise denoising, prevents over-smoothing, and adapts to dynamic noise patterns. Subsequently, we devise a Learnable Illumination Interpolator (LII), which employs learnlable interpolation operations between the input and unit vector to satisfy general constraints between illumination and input. Finally, we introduce a self-regularization loss that incorporates intrinsic image properties and essential visual attributes to guide the output towards meeting human visual expectations. Comprehensive experiments validate the competitiveness of our proposed algorithm in both qualitative and quantitative assessments. Notably, our noise estimation method, with linear time complexity and suitable for various denoisers, significantly improves both denoising and enhancement performance. Benefiting from this, our approach achieves a 0.675dB PSNR improvement on the LOL dataset and 0.818dB on the MIT dataset on LLIE task, even compared to supervised methods. The source code is available at \href{https://doi.org/10.5281/zenodo.11463142}{this DOI repository} and the specific code for noise estimation can be found at \href{https://github.com/GoogolplexGoodenough/noise_estimate}{this separate GitHub link}.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-17T13:56:48Z</published>
+    <arxiv:comment>Image processing, low-light image enhancement, noise estimation, illumination learning</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Xiaofeng Liu</name>
+    </author>
+    <author>
+      <name>Jiaxin Gao</name>
+    </author>
+    <author>
+      <name>Xin Fan</name>
+    </author>
+    <author>
+      <name>Risheng Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.01667v2</id>
+    <title>Computing the matrix fractional power with the double exponential formula</title>
+    <updated>2021-04-10T04:18:59Z</updated>
+    <link href="https://arxiv.org/abs/2012.01667v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.01667v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two quadrature-based algorithms for computing the matrix fractional power $A^α$ are presented in this paper. These algorithms are based on the double exponential (DE) formula, which is well-known for its effectiveness in computing improper integrals as well as in treating nearly arbitrary endpoint singularities. The DE formula transforms a given integral into another integral that is suited for the trapezoidal rule; in this process, the integral interval is transformed to the infinite interval. Therefore, it is necessary to truncate the infinite interval into an appropriate finite interval. In this paper, a truncation method, which is based on a truncation error analysis specialized to the computation of $A^α$, is proposed. Then, two algorithms are presented -- one computes $A^α$ with a fixed number of abscissas, and the other computes $A^α$ adaptively. Subsequently, the convergence rate of the DE formula for Hermitian positive definite matrices is analyzed. The convergence rate analysis shows that the DE formula converges faster than the Gaussian quadrature when $A$ is ill-conditioned and $α$ is a non-unit fraction. Numerical results show that our algorithms achieved the required accuracy and were faster than other algorithms in several situations.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-03T02:57:10Z</published>
+    <arxiv:comment>The title of the manuscript was changed. The former title is "Computing the matrix fractional power based on the double exponential formula"</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Electron. T. Numer. Ana., 54 (2021) 558-580</arxiv:journal_ref>
+    <author>
+      <name>Fuminori Tatsuoka</name>
+    </author>
+    <author>
+      <name>Tomohiro Sogabe</name>
+    </author>
+    <author>
+      <name>Yuto Miyatake</name>
+    </author>
+    <author>
+      <name>Tomoya Kemmochi</name>
+    </author>
+    <author>
+      <name>Shao-Liang Zhang</name>
+    </author>
+    <arxiv:doi>10.1553/etna_vol54s558</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1553/etna_vol54s558" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0910.4134v1</id>
+    <title>Handbook Article on Applications of Random Matrix Theory to QCD</title>
+    <updated>2009-10-21T19:20:02Z</updated>
+    <link href="https://arxiv.org/abs/0910.4134v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.4134v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this chapter of the Oxford Handbook of Random Matrix Theory we introduce chiral Random Matrix Theories with the global symmetries of QCD. In the microscopic domain, these theories reproduce the mass and chemical potential dependence of QCD. The main focus of this chapter is on the spectral properties of the QCD Dirac operator and relations between chiral Random Matrix Theories and chiral Lagrangians. Both spectra of the anti-hermitian Dirac operator and spectra of the nonhermitian Dirac operator at nonzero chemical potential are discussed.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-21T19:20:02Z</published>
+    <arxiv:comment>31 pages, 5 figures. Invited article for the Oxford Handbook of Random Matrix Theory</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>J. J. M. Verbaarschot</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.03213v1</id>
+    <title>A constructive proof of Pokrzywa's theorem about perturbations of matrix pencils</title>
+    <updated>2019-07-07T02:24:32Z</updated>
+    <link href="https://arxiv.org/abs/1907.03213v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.03213v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our purpose is to give new proofs of several known results about perturbations of matrix pencils. Andrzej Pokrzywa (1986) described the closure of orbit of a Kronecker canonical pencil $A-λB$ in terms of inequalities with pencil invariants. In more detail, Pokrzywa described all Kronecker canonical pencils $K-λL$ such that each neighborhood of $A-λB$ contains a pencil whose Kronecker canonical form is $K-λL$. Another solution of this problem was given by Klaus Bongartz (1996) by methods of representation theory.
+  We give a direct and constructive proof of Pokrzywa's theorem. We reduce its proof to the cases of matrices under similarity and of matrix pencils $P-λQ$ that are direct sums of two indecomposable Kronecker canonical pencils. We calculate the Kronecker forms of all pencils in a neighborhood of such a pencil $P-λQ$. In fact, we calculate the Kronecker forms of only those pencils that belong to a miniversal deformation of $P-λQ$, which is sufficient since all pencils in a neighborhood of $P-λQ$ are reduced to them by smooth strict equivalence transformations.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-07T02:24:32Z</published>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Vyacheslav Futorny</name>
+    </author>
+    <author>
+      <name>Tetiana Klymchuk</name>
+    </author>
+    <author>
+      <name>Vladimir V. Sergeichuk</name>
+    </author>
+    <author>
+      <name>Nadya Shvai</name>
+    </author>
+  </entry>
+</feed>

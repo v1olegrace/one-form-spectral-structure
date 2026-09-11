@@ -1,0 +1,700 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/An0Imf4P03dWyujCQWwzY4WKjq8</id>
+  <title>arXiv Query: search_query=all:superposition OR all:of OR all:Yukawa OR all:potentials OR all:positive OR all:measure&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:43:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:superposition+OR+(all:of+OR+(all:Yukawa+OR+(all:potentials+OR+(all:positive+OR+all:measure))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>897918</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2201.01935v1</id>
+    <title>Discrete Phase Space-Continuous Time Relativistic Klein-Gordon and Dirac Equations, and a New Non-Singular Yukawa Potential</title>
+    <updated>2022-01-06T06:14:57Z</updated>
+    <link href="https://arxiv.org/abs/2201.01935v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.01935v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper deals with the second quantization of interacting relativistic Fermionic and Bosonic fields in the arena of discrete phase space and continuous time. The mathematical formulation involves partial difference equations. The corresponding Feynman diagrams and a new $S^{\#}$-matrix theory is developed. In the special case of proton-proton Moller scattering via an exchange of a neutral meson, the explicit second order element $\langle f | S^{\#}_{(2)} |i \rangle$ is deduced. In the approximation of very low external three-momenta, a new Yukawa potential is explicitly derived from $\langle f | S^{\#}_{(2)} |i \rangle$. Moreover, it is rigorously proved that this new Yukawa potential is divergence-free. The mass parameter of the exchanged meson may be set to zero to obtain a type of scalar Boson exchange between hypothetical Fermions. This provides a limiting case of a new Coulomb type potential directly from the new singularity free Yukawa potential. A divergence-free Coulomb potential between two Fermions at two discrete points is shown to be proportional to the Euler beta function. Within this relativistic discrete phase space continuous time, a single quanta is shown to occupy the hyper-tori $S^{1}_{n^1} \times S^{1}_{n^3} \times S^{1}_{n^3}$ where $S^{1}_{n}$ is a circle of radius $\sqrt{2n+1}$.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-06T06:14:57Z</published>
+    <arxiv:comment>24 pages, 4 figures, 1 table. This is a continuation of our previous work arXiv:1905.02524 about non-singular Coulomb potentials to the current paper on non-singular Yukawa potentials. As such, there is some overlap between introductory sections in order to keep this paper self-contained</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Sci Rep 13, 20356 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Anadijiban Das</name>
+    </author>
+    <author>
+      <name>Rupak Chatterjee</name>
+    </author>
+    <arxiv:doi>10.1038/s41598-023-47344-w</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41598-023-47344-w" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.21421v1</id>
+    <title>Plugging Weight-tying Nonnegative Neural Network into Proximal Splitting Method: Architecture for Guaranteeing Convergence to Optimal Point</title>
+    <updated>2025-10-24T13:01:35Z</updated>
+    <link href="https://arxiv.org/abs/2510.21421v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.21421v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a novel multi-layer neural network architecture that gives a promising neural network empowered optimization approach to the image restoration problem. The proposed architecture is motivated by the recent study of monotone Lipschitz-gradient (MoL-Grad) denoiser (Yukawa and Yamada, 2025) which establishes an ``explainable'' plug-and-play (PnP) framework in the sense of disclosing the objective minimized. The architecture is derived from the gradient of a superposition of functions associated with each layer, having the weights in the encoder and decoder tied with each other. Convexity of the potential, and thus monotonicity of its gradient (denoiser), is ensured by restricting ourselves to nonnegative weights. Unlike the previous PnP approaches with theoretical guarantees, the denoiser is free from constraints on the Lipschitz constant of the denoiser. Our PnP algorithm employing the weight-tying nonnegative neural network converges to a minimizer of the objective involving an ``implicit'' weakly convex regularizer induced by the denoiser. The convergence analysis relies on an efficient technique to preserve the overall convexity even in the ill-conditioned case where the loss function is not strongly convex. The simulation study shows the advantages of the Lipschitz-constraint-free nature of the proposed denoiser in training time as well as deblurring performance.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-24T13:01:35Z</published>
+    <arxiv:comment>13 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Haruya Shimizu</name>
+    </author>
+    <author>
+      <name>Masahiro Yukawa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.13568v1</id>
+    <title>Superposition as Lossy Compression: Measure with Sparse Autoencoders and Connect to Adversarial Vulnerability</title>
+    <updated>2025-12-15T17:25:39Z</updated>
+    <link href="https://arxiv.org/abs/2512.13568v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.13568v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural networks achieve remarkable performance through superposition: encoding multiple features as overlapping directions in activation space rather than dedicating individual neurons to each feature. This challenges interpretability, yet we lack principled methods to measure superposition. We present an information-theoretic framework measuring a neural representation's effective degrees of freedom. We apply Shannon entropy to sparse autoencoder activations to compute the number of effective features as the minimum neurons needed for interference-free encoding. Equivalently, this measures how many "virtual neurons" the network simulates through superposition. When networks encode more effective features than actual neurons, they must accept interference as the price of compression. Our metric strongly correlates with ground truth in toy models, detects minimal superposition in algorithmic tasks, and reveals systematic reduction under dropout. Layer-wise patterns mirror intrinsic dimensionality studies on Pythia-70M. The metric also captures developmental dynamics, detecting sharp feature consolidation during grokking. Surprisingly, adversarial training can increase effective features while improving robustness, contradicting the hypothesis that superposition causes vulnerability. Instead, the effect depends on task complexity and network capacity: simple tasks with ample capacity allow feature expansion (abundance regime), while complex tasks or limited capacity force reduction (scarcity regime). By defining superposition as lossy compression, this work enables principled measurement of how neural networks organize information under computational constraints, connecting superposition to adversarial robustness.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-15T17:25:39Z</published>
+    <arxiv:comment>Accepted to TMLR, view HTML here: https://leonardbereska.github.io/blog/2025/superposition/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>Transactions on Machine Learning Research, 2025</arxiv:journal_ref>
+    <author>
+      <name>Leonard Bereska</name>
+    </author>
+    <author>
+      <name>Zoe Tzifa-Kratira</name>
+    </author>
+    <author>
+      <name>Reza Samavi</name>
+    </author>
+    <author>
+      <name>Efstratios Gavves</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.05666v2</id>
+    <title>Fast macroscopic-superposition-state generation by coherent driving</title>
+    <updated>2017-12-26T08:07:21Z</updated>
+    <link href="https://arxiv.org/abs/1703.05666v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.05666v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a scheme to generate macroscopic superposition states in spin ensembles, where a coherent driving field is applied to accelerate the generation of macroscopic superposition states. The numerical calculation demonstrates that this approach allows us to generate a superposition of two classically distinct states of the spin ensemble with a high fidelity above 0.96 for 300 spins. For the larger spin ensemble, though the fidelity slightly decline, it maintains above 0.85 for an ensemble of 500 spins. The time to generate a macroscopic superposition state is also numerically calculated, which shows that the significantly shortened generation time allows us to achieve such macroscopic superposition states within a typical coherence time of the system.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-16T15:14:41Z</published>
+    <arxiv:comment>17 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 97, 013820 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Emi Yukawa</name>
+    </author>
+    <author>
+      <name>G. J. Milburn</name>
+    </author>
+    <author>
+      <name>Kae Nemoto</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.97.013820</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.97.013820" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.3396v2</id>
+    <title>Generating superposition of up-to three photons for continuous variable quantum information processing</title>
+    <updated>2013-03-06T05:07:59Z</updated>
+    <link href="https://arxiv.org/abs/1212.3396v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.3396v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop an experimental scheme based on a continuous-wave (cw) laser for generating arbitrary superpositions of photon number states. In this experiment, we successfully generate superposition states of zero to three photons, namely advanced versions of superpositions of two and three coherent states. They are fully compatible with developed quantum teleportation and measurement-based quantum operations with cw lasers. Due to achieved high detection efficiency, we observe, without any loss correction, multiple areas of negativity of Wigner function, which confirm strongly nonclassical nature of the generated states.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-14T05:56:59Z</published>
+    <arxiv:comment>5 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Optics Express, Vol. 21, Issue 5, pp. 5529-5535 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Mitsuyoshi Yukawa</name>
+    </author>
+    <author>
+      <name>Kazunori Miyata</name>
+    </author>
+    <author>
+      <name>Takahiro Mizuta</name>
+    </author>
+    <author>
+      <name>Hidehiro Yonezawa</name>
+    </author>
+    <author>
+      <name>Petr Marek</name>
+    </author>
+    <author>
+      <name>Radim Filip</name>
+    </author>
+    <author>
+      <name>Akira Furusawa</name>
+    </author>
+    <arxiv:doi>10.1364/OE.21.005529</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OE.21.005529" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0712.4355v2</id>
+    <title>Interplay between Yukawa and Tomonaga in the Birth of Mesons</title>
+    <updated>2008-03-19T15:13:00Z</updated>
+    <link href="https://arxiv.org/abs/0712.4355v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0712.4355v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Light is shed on the early stage in the birth of Yukawa's meson theory, particularly on the interplay between Yukawa and Tomonaga in 1933. The discovery of the muon by Nishina' group in 1937 is also reviewed. It is pointed out that Heisenberg's attempt to explain the nuclear force in terms of the Heitler-London scheme, overcome by Yukawa and abandoned since then, is now being revived as a mechanism for a super strong nuclear force caused by a migrating real Kbar meson.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-12-27T23:42:29Z</published>
+    <arxiv:comment>Invited tals at the Yukawa Centennial Session at INPC07, June, 2007, Tokyo. to be published in NPA. Nucl. Phys. A, in press</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Nucl.Phys.A805:29-35,2008; Erratum-ibid.A808:220,2008</arxiv:journal_ref>
+    <author>
+      <name>Toshimitsu Yamazaki</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysa.2008.02.228</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2008.02.228" title="doi"/>
+    <arxiv:doi>10.1016/j.nuclphysa.2008.05.010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2008.05.010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.08387v3</id>
+    <title>Field dependence of the Yukawa coupling in the three flavor quark-meson model</title>
+    <updated>2021-04-13T19:43:30Z</updated>
+    <link href="https://arxiv.org/abs/2011.08387v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.08387v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the renormalization group flow of the field-dependent Yukawa coupling in the framework of the three flavor quark-meson model. In a conventional perturbative calculation, given that the field rescaling is trivial, the Yukawa coupling does not get renormalized at the one-loop level if it is coupled to an equal number of scalar and pseudoscalar fields. Its field-dependent version, however, does flow with respect to the scale. Using the functional renormalization group technique, we show that it is highly nontrivial how to extract the actual flow of the Yukawa coupling as there are several new chirally invariant operators that get generated by quantum fluctuations in the effective action, which need to be distinguished from that of the Yukawa interaction.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-17T02:53:17Z</published>
+    <arxiv:comment>13 pages, 2 figures, extended with numerics, omitted contribution to RG flow of Yukawa coupling is added</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 103, 056015 (2021)</arxiv:journal_ref>
+    <author>
+      <name>G. Fejos</name>
+    </author>
+    <author>
+      <name>A. Patkos</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.103.056015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.103.056015" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.01454v2</id>
+    <title>Verifying quantum superpositions at metre scales</title>
+    <updated>2016-07-15T21:38:16Z</updated>
+    <link href="https://arxiv.org/abs/1607.01454v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.01454v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While the existence of quantum superpositions of massive particles over microscopic separations has been established since the birth of quantum mechanics, the maintenance of superposition states over macroscopic separations is a subject of modern experimental tests. In Ref. [1], T. Kovachy et al. report on applying optical pulses to place a freely falling Bose-Einstein condensate into a superposition of two trajectories that separate by an impressive distance of 54 cm before being redirected toward one another. When the trajectories overlap, a final optical pulse produces interference with high contrast, but with random phase, between the two wave packets. Contrary to claims made in Ref. [1], we argue that the observed interference is consistent with, but does not prove, that the spatially separated atomic ensembles were in a quantum superposition state. Therefore, the persistence of such superposition states remains experimentally unestablished.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-06T01:38:27Z</published>
+    <arxiv:comment>Comment on Kovachy et al., "Quantum superposition at the half-metre scale," Nature 528, 530 (2015); see also reply by Kovachy et al., arXiv:1607.03485</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Dan M. Stamper-Kurn</name>
+    </author>
+    <author>
+      <name>G. Edward Marti</name>
+    </author>
+    <author>
+      <name>Holger Müller</name>
+    </author>
+    <arxiv:doi>10.1038/nature19108</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nature19108" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.7336v2</id>
+    <title>Lie-Hamilton systems on the plane: Applications and superposition rules</title>
+    <updated>2015-04-11T13:54:11Z</updated>
+    <link href="https://arxiv.org/abs/1410.7336v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.7336v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A Lie-Hamilton system is a nonautonomous system of first-order ordinary differential equations describing the integral curves of a $t$-dependent vector field taking values in a finite-dimensional real Lie algebra of Hamiltonian vector fields with respect to a Poisson structure. We provide new algebraic/geometric techniques to easily determine the properties of such Lie algebras on the plane, e.g., their associated Poisson bivectors. We study new and known Lie-Hamilton systems on $\mathbb{R}^2$ with physical, biological and mathematical applications. New results cover Cayley-Klein Riccati equations, the here defined planar diffusion Riccati systems, complex Bernoulli differential equations and projective Schrödinger equations. Constants of motion for planar Lie-Hamilton systems are explicitly obtained which, in turn, allow us to derive superposition rules through a coalgebra approach.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-27T18:16:50Z</published>
+    <arxiv:comment>33 pages. New contents added covering formalism, invariants and superposition rules</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Phys. A: Math. Theor. 48, 345202 (2015)</arxiv:journal_ref>
+    <author>
+      <name>A. Blasco</name>
+    </author>
+    <author>
+      <name>F. J. Herranz</name>
+    </author>
+    <author>
+      <name>J. de Lucas</name>
+    </author>
+    <author>
+      <name>C. Sardon</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/48/34/345202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/48/34/345202" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0703056v2</id>
+    <title>Quantic Superpositions and the Geometry of Complex Hilbert Spaces</title>
+    <updated>2007-08-22T13:05:40Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0703056v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0703056v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The concept of a superposition is a revolutionary novelty introduced by Quantum Mechanics. If a system may be in any one of two pure states x and y, we must consider that it may also be in any one of many superpositions of x and y. An in-depth analysis of superpositions is proposed, in which states are represented by one-dimensional subspaces, not by unit vectors as in Dirac's notation. Superpositions must be considered when one cannot distinguish between possible paths, i.e., histories, leading to the current state of the system. In such a case the resulting state is some compound of the states that result from each of the possible paths. States can be compounded, i.e., superposed in such a way only if they are not orthogonal. Since different classical states are orthogonal, the claim implies no non-trivial superpositions can be observed in classical systems. The parameter that defines such compounds is a proportion defining the mix of the different states entering the compound. Two quantities, p and theta, both geometrical in nature, relate one-dimensional subspaces in complex Hilbert spaces: the first one is a measure of proximity relating two rays, the second one is an angle relating three rays. The properties of the operation of superposition are very different from those that govern linear combination of vectors.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-03-07T13:52:38Z</published>
+    <arxiv:comment>29 pages. This 2nd version differs from the first in that superposition of states x and y is now defined as a one-parameter operation: r x + (1-r) y whereas version 1 defined it as a two-parameters operation: r x + (1-r) e^{i φ} y</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>International Journal of Theoretical Physics, 47(5) 2008 pp. 1333-1353</arxiv:journal_ref>
+    <author>
+      <name>Daniel Lehmann</name>
+    </author>
+    <arxiv:doi>10.1007/s10773-007-9576-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10773-007-9576-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.1800v1</id>
+    <title>On the Superposition and Elastic Recoil of Electromagnetic Waves</title>
+    <updated>2014-07-07T18:47:13Z</updated>
+    <link href="https://arxiv.org/abs/1407.1800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.1800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superposition demands that a linear combination of solutions to an electromagnetic problem also be a solution. This paper analyzes some very simple problems: the constructive and destructive interferences of short impulse voltage and current waves along an ideal free-space transmission line. When voltage waves constructively interfere, the superposition has twice the electrical energy of the individual waveforms because current goes to zero, converting magnetic to electrical energy. When voltage waves destructively interfere, the superposition has no electrical energy because it transforms to magnetic energy. Although the impedance of the individual waves is that of free space, a superposition of waves may exhibit arbitrary impedance. Further, interferences of identical waveforms allow no energy transfer between opposite ends of a transmission line. The waves appear to recoil elastically one from another. Although alternate interpretations are possible, these appear less likely. Similar phenomenology arises in waves of arbitrary shape and those propagating in free space as well. We may also interpret this behavior as each wave reflecting from the impedance variations the superposition imparts on free space. This work has practical implications to quantum mechanics, field diversity antenna systems, and near-field electromagnetic ranging.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-07T18:47:13Z</published>
+    <arxiv:comment>12 pages, 8 figures, 29 references, material originally presented 3 April 2014 at the 2014 Texas Symposium on Wireless &amp; Microwave Circuits &amp; Systems, Waco, Texas as "Demystifying Superposition.", FERMAT, Vol 4 No 2, Jul-Aug, 2014. See: http://www.e-fermat.org/</arxiv:comment>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>Hans G. Schantz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9511304v1</id>
+    <title>The Top-Bottom Hierarchy from Gauge-Yukawa Unification</title>
+    <updated>1995-11-13T15:01:46Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9511304v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9511304v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The idea of Gauge-Yukawa Unification (GYU) based on the principle of reduction of couplings is elucidated. We show how the observed top-bottom mass hierarchy can be explained in terms of supersymmetric GYU by considering an example of the minimal supersymmetric GUT.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-11-13T15:01:46Z</published>
+    <arxiv:comment>13 pages, LaTeX and epsf package, Postscript figures. To be published in the proceedings of the Yukawa International Seminar '95</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Prog.Theor.Phys.Suppl.123:127-136,1996</arxiv:journal_ref>
+    <author>
+      <name>Jisuke Kubo</name>
+    </author>
+    <author>
+      <name>Myriam Mondragon</name>
+    </author>
+    <author>
+      <name>George Zoupanos</name>
+    </author>
+    <arxiv:doi>10.1143/PTPS.123.127</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1143/PTPS.123.127" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/0004064v1</id>
+    <title>Searching for the Next Yukawa Phase of QCD</title>
+    <updated>2000-04-28T02:37:27Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/0004064v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/0004064v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  QCD predicts that the interactions between quarks and gluons change from a confining to a screened Yukawa form above a critical temperature $T_c\sim 150$ MeV. In this talk, I review some of the key observables in heavy ion reactions which are being used to search for this new partonic Yukawa phase at SPS and RHIC. These include collective observables such as $dE_\perp/dyd^2p_\perp$, meson interferometry, jet quenching, and $J/ψ$ suppression.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-04-28T02:37:27Z</published>
+    <arxiv:comment>24 pages (PTPTex style files included) with 26 eps,ps figures using epsf,psfig. To appear in Proc. of 14th Nishinomiya-Yukawa Memorial Symposium Nov. 1999, Japan; updated with a critique of the CERN press release Feb. 8, 2000</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Prog.Theor.Phys.Suppl.140:68-88,2000</arxiv:journal_ref>
+    <author>
+      <name>Miklos Gyulassy</name>
+    </author>
+    <arxiv:doi>10.1143/PTPS.140.68</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1143/PTPS.140.68" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.4128v2</id>
+    <title>An approximate analytical (structural) superposition in terms of two, or more, "alfa"-circuits of the same topology: Pt.1 - description of the superposition</title>
+    <updated>2010-04-26T06:36:05Z</updated>
+    <link href="https://arxiv.org/abs/1004.4128v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.4128v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One-ports named "f-circuits", composed of similar conductors described by a monotonic polynomial, or quasi-polynomial (i.e. with positive but not necessarily integer, powers) characteristic i = f(v) are studied, focusing on the algebraic map  f --&gt; F.  Here F(.) is the input conductivity characteristic; i.e.,  iin = F(vin)  is the input current.  The "power-law" "alfa-circuit" introduced in [1], for which  f(v) ~ v^"alfa",  is an important particular case.  By means of a generalization of a parallel connection, the f-circuits are constructed from the alfa-circuits of the same topology, with different "alfa", so that the given topology is kept, and 'f' is an additive function of the connection.  We observe and consider an associated, generally approximated, but, in all of the cases studied, always high-precision, specific superposition.  This superposition is in terms of  f --&gt; F, and it means that F(.) of the connection is close to the sum of the input currents of the independent "alfa"-circuits, all connected in parallel to the same source.  In other words, F(.) is well approximated by a linear combination of the same degrees of the independent variable as in f(.), i.e. the map of the characteristics  f --&gt; F is close to a linear one.  This unexpected result is useful for understanding nonlinear algebraic circuits, and is missed in the classical theory.
+    The cases of  f(v)  =  D1v + D2v^2  and   f(v)  =  D1v + D3v^3,  are analyzed in examples.  Special topologies when the superposition must be ideal, are also considered.  In the second part [2] of the work the "circuit mechanism" that is responsible for the high precision of the superposition, in the most general case, will be explained.</summary>
+    <category term="cs.OH" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-23T13:26:34Z</published>
+    <arxiv:comment>This is my old (2005-6) Ms.. The "f-connection" is new and thus the work seems to be too detailed, but some central proofs were difficult for me, and having to be sure in good precision of the "analytical superposition", I calculated different cases. See in http://www.ee.bgu.ac.il/~gluskin/ Article no 50 and the Conference Presentation of 2008. 25 pages, 7 figures, 1 table.</arxiv:comment>
+    <arxiv:primary_category term="cs.OH"/>
+    <author>
+      <name>Emanuel Gluskin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0401126v2</id>
+    <title>Amplification of coupling for Yukawa potentials</title>
+    <updated>2004-11-09T22:50:51Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0401126v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0401126v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is well known that Yukawa potentials permit bound states in the Schrodinger equation only if the ratio of the exchanged mass to bound mass is below a critical multiple of the coupling constant. However, arguments suggested by the Darwin term imply a more complex situation. By numerically studying the Dirac equation with a Yukawa potential we investigate this amplification effect.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-01-19T18:16:50Z</published>
+    <arxiv:comment>7 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev. D69 (2004) 034006</arxiv:journal_ref>
+    <author>
+      <name>S. De Leo</name>
+    </author>
+    <author>
+      <name>P. Rotelli</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.69.034006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.69.034006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.06705v1</id>
+    <title>Bounds on positive operator-valued measure based coherence of superposition</title>
+    <updated>2023-05-11T10:31:04Z</updated>
+    <link href="https://arxiv.org/abs/2305.06705v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.06705v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum coherence is a fundamental feature of quantum physics and plays a significant role in quantum information processing. By generalizing the resource theory of coherence from von Neumann measurements to positive operator-valued measures (POVMs), POVM-based coherence measures have been proposed with respect to the relative entropy of coherence, the $l_1$ norm of coherence, the robustness of coherence and the Tsallis relative entropy of coherence. We derive analytically the lower and upper bounds on these POVM-based coherence of an arbitrary given superposed pure state in terms of the POVM-based coherence of the states in superposition. Our results can be used to estimate range of quantum coherence of superposed states. Detailed examples are presented to verify our analytical bounds.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-11T10:31:04Z</published>
+    <arxiv:comment>15 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Chinese Phys. B 32, 050302 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Meng-Li Guo</name>
+    </author>
+    <author>
+      <name>Jin-Min Liang</name>
+    </author>
+    <author>
+      <name>Bo Li</name>
+    </author>
+    <author>
+      <name>Shao-Ming Fei</name>
+    </author>
+    <author>
+      <name>Zhi-Xi Wang</name>
+    </author>
+    <arxiv:doi>10.1088/1674-1056/acb9f1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1674-1056/acb9f1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0905.3379v2</id>
+    <title>Realistic Yukawa Structures from Orientifold Compactifications</title>
+    <updated>2009-09-24T13:49:59Z</updated>
+    <link href="https://arxiv.org/abs/0905.3379v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0905.3379v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We perform a systematic analysis of globally consistent D-brane quivers which realize the MSSM, and analyze them with respect to their Yukawa couplings. Often, desired couplings are perturbatively forbidden due to the presence of global U(1) symmetries. We investigate the conditions under which D-brane instantons will induce these missing couplings without generating other phenomenological drawbacks, such as R-parity violating couplings or a mu-term which is too large. Furthermore, we systematically analyze which quivers allow for a mechanism that can account for the small neutrino masses and other experimentally observed hierarchies. We show that only a small fraction of the globally consistent D-brane quivers exhibits phenomenology compatible with experimental observations.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-05-20T19:56:20Z</published>
+    <arxiv:comment>42 pages, 3 figures. v2: R-parity constraints and Yukawa texture analysis improved; typos corrected and references added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0912:063,2009</arxiv:journal_ref>
+    <author>
+      <name>Mirjam Cvetič</name>
+    </author>
+    <author>
+      <name>James Halverson</name>
+    </author>
+    <author>
+      <name>Robert Richter</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2009/12/063</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2009/12/063" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.2167v3</id>
+    <title>Yukawa Potential, Panharmonic Measure and Brownian Motion</title>
+    <updated>2016-06-16T08:12:53Z</updated>
+    <link href="https://arxiv.org/abs/1310.2167v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.2167v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In [25] a Walk On Spheres (WOS) algorithm for Monte Carlo simulation of the solutions of the Yukawa and the Helmholtz PDE's was developed by using the so-called Duffin correspondence. In this paper we investigate the foundations behind the algorithm for the case of the Yukawa PDE. We study the panharmonic measure that is a generalization of the harmonic measure for the Yukawa PDE. We show that there are natural stochastic definitions for the panharmonic measure in terms of the Brownian motion and that the harmonic and the panharmonic measures are all mutually equivalent. Furthermore, we calculate their Radon--Nikodym derivatives explicitly for some balls, which is a key result behind the WOS algorithm.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-08T15:10:28Z</published>
+    <arxiv:comment>15 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Antti Rasila</name>
+    </author>
+    <author>
+      <name>Tommi Sottinen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.13388v2</id>
+    <title>Probe position determination with multichannel I-V measurements in a two-dimensional sheet$\colon$ Computational method and mathematical analysis</title>
+    <updated>2025-02-28T07:28:46Z</updated>
+    <link href="https://arxiv.org/abs/2501.13388v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.13388v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Atomically thin films and surfaces exhibit many distinctive two-dimensional electronic properties that are absent in bulk crystals. In situ microscale multi-probe measurements have been utilized as an effective method to identify the electrical conductivity of such thin films and surfaces. Precise determination of multi-probe positions is crucial for accurate characterization of the conductance. However, traditional methods that use microscopes for determining multi-probe positions often impose significant constraints on experimental setups. In some cases, installing a microscope is not even feasible. Therefore, in this study, we propose a novel method to determine probe positions using electrical signals from the probes. This method enables precise determination of probe positions using a reference sheet and reference probes, even at low or high temperatures and under ultra-high vacuum or high-pressure conditions. The proposed method simplifies the integration of microscale multi-probe measurement systems into various devices, thereby advancing research on thin films and surfaces.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-23T05:17:53Z</published>
+    <arxiv:comment>11 pages, 5 figures, Final version accepted in PRApplied</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Tomoyuki Iori</name>
+    </author>
+    <author>
+      <name>Ryu Yukawa</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevApplied.23.034064</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevApplied.23.034064" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.05856v1</id>
+    <title>Multi-Point Detection of the Powerful Gamma Ray Burst GRB221009A Propagation through the Heliosphere on October 9, 2022</title>
+    <updated>2023-09-11T22:40:01Z</updated>
+    <link href="https://arxiv.org/abs/2309.05856v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.05856v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the results of processing the effects of the powerful Gamma Ray Burst GRB221009A captured by the charged particle detectors (electrostatic analyzers and solid-state detectors) onboard spacecraft at different points in the heliosphere on October 9, 2022. To follow the GRB221009A propagation through the heliosphere we used the electron and proton flux measurements from solar missions Solar Orbiter and STEREO-A; Earth magnetosphere and the solar wind missions THEMIS and Wind; meteorological satellites POES15, POES19, MetOp3; and MAVEN - a NASA mission orbiting Mars. GRB221009A had a structure of four bursts: less intense Pulse 1 - the triggering impulse - was detected by gamma-ray observatories at 131659 UT (near the Earth); the most intense Pulses 2 and 3 were detected on board all the spacecraft from the list, and Pulse 4 detected in more than 500 s after Pulse 1. Due to their different scientific objectives, the spacecraft, which data was used in this study, were separated by more than 1 AU (Solar Orbiter and MAVEN). This enabled tracking GRB221009A as it was propagating across the heliosphere. STEREO-A was the first to register Pulse 2 and 3 of the GRB, almost 100 seconds before their detection by spacecraft in the vicinity of Earth. MAVEN detected GRB221009A Pulses 2, 3, and 4 at the orbit of Mars about 237 seconds after their detection near Earth. By processing the time delays observed we show that the source location of the GRB221009A was at RA 288.5 degrees, Dec 18.5 degrees (J2000) with an error cone of 2 degrees</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-11T22:40:01Z</published>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Andrii Voshchepynets</name>
+    </author>
+    <author>
+      <name>Oleksiy Agapitov</name>
+    </author>
+    <author>
+      <name>Lynn Wilson</name>
+    </author>
+    <author>
+      <name>Vassilis Angelopoulos</name>
+    </author>
+    <author>
+      <name>Samer T. Alnussirat</name>
+    </author>
+    <author>
+      <name>Michael Balikhin</name>
+    </author>
+    <author>
+      <name>Myroslava Hlebena</name>
+    </author>
+    <author>
+      <name>Ihor Korol</name>
+    </author>
+    <author>
+      <name>Davin Larson</name>
+    </author>
+    <author>
+      <name>David Mitchell</name>
+    </author>
+    <author>
+      <name>Christopher Owen</name>
+    </author>
+    <author>
+      <name>Ali Rahmati</name>
+    </author>
+    <author>
+      <name>Department of System Analysis</name>
+    </author>
+    <author>
+      <name>Optimization Theory</name>
+    </author>
+    <author>
+      <name>Uzhhorod National University</name>
+    </author>
+    <author>
+      <name> Uzhhorod</name>
+    </author>
+    <author>
+      <name> Ukraine</name>
+    </author>
+    <author>
+      <name>Space Sciences Laboratory</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>University of California Berkeley Berkeley</name>
+    </author>
+    <author>
+      <name>CA 94720</name>
+    </author>
+    <author>
+      <name> Astronomy</name>
+    </author>
+    <author>
+      <name>Space Physics Department</name>
+    </author>
+    <author>
+      <name>National Taras Shevchenko University of Kyiv</name>
+    </author>
+    <author>
+      <name> Kyiv</name>
+    </author>
+    <author>
+      <name> Ukraine</name>
+    </author>
+    <author>
+      <name>Goddard Space Flight Center</name>
+    </author>
+    <author>
+      <name>National Aeronautics</name>
+    </author>
+    <author>
+      <name>Space Administration</name>
+    </author>
+    <author>
+      <name> Greenbelt</name>
+    </author>
+    <author>
+      <name> MD</name>
+    </author>
+    <author>
+      <name>Department of Earth</name>
+    </author>
+    <author>
+      <name> Planetary</name>
+    </author>
+    <author>
+      <name>Space Sciences</name>
+    </author>
+    <author>
+      <name>University of California Los Angeles</name>
+    </author>
+    <author>
+      <name>Los Angeles</name>
+    </author>
+    <author>
+      <name> CA}</name>
+    </author>
+    <author>
+      <name>University of Sheffield</name>
+    </author>
+    <author>
+      <name> Sheffield</name>
+    </author>
+    <author>
+      <name> UK</name>
+    </author>
+    <author>
+      <name>Department of Algebra</name>
+    </author>
+    <author>
+      <name>Differential Equation</name>
+    </author>
+    <author>
+      <name>Uzhhorod National University</name>
+    </author>
+    <author>
+      <name> Uzhhorod</name>
+    </author>
+    <author>
+      <name> Ukraine</name>
+    </author>
+    <author>
+      <name>Department of Mathematical Analysis</name>
+    </author>
+    <author>
+      <name>The John Paul II Catholic University of Lublin</name>
+    </author>
+    <author>
+      <name> Lublin</name>
+    </author>
+    <author>
+      <name> Poland}</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.11473v2</id>
+    <title>Construction of non-trivial relativistic quantum fields in arbitrary space-time dimension via superposition of free fields</title>
+    <updated>2021-03-24T17:53:20Z</updated>
+    <link href="https://arxiv.org/abs/2103.11473v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.11473v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct Schwinger functions as the superposition of Schwinger functions which correspond to those of free fields with sharp masses $ m $. We prove that all axioms of Osterwalder and Schrader are satisfied. This construction works independently of the space-time dimension $ d $. The Schwinger functions under consideration are the moments of a non-Gaussian measure on the space of tempered distributions $ S'(\mathbb R^d) $.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-21T19:55:44Z</published>
+    <arxiv:comment>The proof of the cluster property (E4) for the superposition is wrong. Yoh Tanimoto and Wojciech Dybalski gave a counterexample s.t. the statement of cluster property can't hold in its full generality</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Martin Grothaus</name>
+    </author>
+    <author>
+      <name>Andreas Nonnenmacher</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.09759v2</id>
+    <title>On the Novikov problem for superposition of periodic potentials</title>
+    <updated>2024-12-16T12:17:43Z</updated>
+    <link href="https://arxiv.org/abs/2409.09759v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.09759v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the Novikov problem, namely, the problem of describing the level lines of quasiperiodic functions on the plane, for a special class of potentials that have important applications in the physics of two-dimensional systems. Potentials of this type are given by a superposition of periodic potentials and represent quasiperiodic functions on a plane with four quasiperiods. Here we study an important special case when the periodic potentials have the same rotational symmetry. In the generic case, their superpositions have ``chaotic'' open level lines, which brings them close to random potentials. At the same time, the Novikov problem has interesting features also for ``magic'' rotation angles, which lead to the emergence of periodic superpositions.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-15T15:00:25Z</published>
+    <arxiv:comment>21 pages, 21 figure, revtex</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>A. Ya. Maltsev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.01590v2</id>
+    <title>Implementation of quantum teleportation protocol by superposition of displacement operators with absolute equal but opposite in sign amplitudes</title>
+    <updated>2017-08-29T08:13:45Z</updated>
+    <link href="https://arxiv.org/abs/1703.01590v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.01590v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider novel implementation of quantum teleportation protocol of unknown qubit by superposition of displacement operators with equal modulo but opposite in sign amplitudes. Entangled hybrid state with coherent components of small amplitude is used as quantum channel. Coherent components of the quantum channel displace the teleported qubit at the same absolute but opposite in sign values, so that any information about amount by which the qubit is displaced is lost despite the fact that one of these events has definitely occurred. Alice unambiguously distinguishes her measurement outcomes and Bob obtains at his disposal two states of a single photon in superposition state of two modes. The superposition of the displacement operators is nonunitary, so success probability of the protocol depends on the amplitude parameters of the teleported qubit. Remarkably, the success probability of the teleportation can be made arbitrary high for some amplitude values of the teleported state by means of initial amplitude modulation of unknown qubit and bits of classical information for Bob to identify the states. The scheme is realized by linear optics methods and works without photon number resolving measurement.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-05T12:06:26Z</published>
+    <arxiv:comment>Research highlights 1. Novel implementation of quantum teleportation of unknown qubit is proposed. 2. The implementation is based on use of superposition of the displacement operators with equal modulo but opposite in sign amplitudes. arXiv admin note: substantial text overlap with arXiv:1605.06738</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Sergey A. Podoshvedov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0611121v2</id>
+    <title>A measurement-based measure of the size of macroscopic quantum superpositions</title>
+    <updated>2007-04-10T01:37:24Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0611121v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0611121v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recent experiments claiming formation of quantum superposition states in near macroscopic sys- tems raise the question of how the sizes of general quantum superposition states in an interacting system are to be quantified. We propose here a measure of size for such superposition states that is based on what measurements can be performed to probe and distinguish the different branches of the state. The measure allows comparison of the effective size for superposition states in very different physical systems. It can be applied to a very general class of superposition states and reproduces known results for near-ideal cases. Comparison with a prior measure based on analy- sis of coherence between branches indicates that significantly smaller effective superposition sizes result from our measurement-based measure. Application to a system of interacting bosons in a double-well trapping potential shows that the effective superposition size is strongly dependent on the relative magnitude of the barrier height and interparticle interaction.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-11T22:56:52Z</published>
+    <arxiv:comment>21 pages, 20 figures. Accepted by Phys. Rev. A. Replaced old version with accepted version. Significant changes and improvements, particularly to section on 1-particle measurements</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 75, 042106 (2007)</arxiv:journal_ref>
+    <author>
+      <name>Jan Ivar Korsbakken</name>
+    </author>
+    <author>
+      <name>K. Birgitta Whaley</name>
+    </author>
+    <author>
+      <name>Jonathan DuBois</name>
+    </author>
+    <author>
+      <name>J. Ignacio Cirac</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.75.042106</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.75.042106" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.08106v2</id>
+    <title>Using adaptiveness and causal superpositions against noise in quantum metrology</title>
+    <updated>2023-01-10T09:43:09Z</updated>
+    <link href="https://arxiv.org/abs/2212.08106v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.08106v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive new bounds on achievable precision in the most general adaptive quantum metrological scenarios. The bounds are proven to be asymptotically saturable and equivalent to the known parallel scheme bounds in the limit of large number of channel uses. This completely solves a long standing conjecture in the field of quantum metrology on asymptotic equivalence between parallel and adaptive strategies. The new bounds also allow to easily assess the potential benefits of invoking the non-standard causal superposition strategies, for which we prove, similarly to the adaptive case, the lack of asymptotic advantage over the parallel ones.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-15T19:43:24Z</published>
+    <arxiv:comment>We added proof that the causal superposition channel from appendix C is well defined. We showed how to obtain a tighter bound for a parallel case (appendix D3)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 131, 090801 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Stanislaw Kurdzialek</name>
+    </author>
+    <author>
+      <name>Wojciech Gorecki</name>
+    </author>
+    <author>
+      <name>Francesco Albarelli</name>
+    </author>
+    <author>
+      <name>Rafal Demkowicz-Dobrzanski</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.131.090801</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.131.090801" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/tQVPJv2wIX6iD5KmFHtGu0/fudk</id>
+  <title>arXiv Query: search_query=all:truncated OR all:moment OR all:problem OR all:lower OR all:bound OR all:smallest OR all:support OR all:point&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:44:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:truncated+OR+(all:moment+OR+(all:problem+OR+(all:lower+OR+(all:bound+OR+(all:smallest+OR+(all:support+OR+all:point))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1193418</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0906.0693v3</id>
+    <title>An improved lower bound on the counterfeit coins problem</title>
+    <updated>2010-04-25T13:50:43Z</updated>
+    <link href="https://arxiv.org/abs/0906.0693v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0906.0693v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we will give an improvement on the lower bound for the counterfeit coins problem in the case that the number of false coins is unknown in advance</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-06-03T12:07:23Z</published>
+    <arxiv:comment>there is a new lower bound presented.</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>An-Ping Li</name>
+    </author>
+    <author>
+      <name>Hagen von Eitzen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.1875v2</id>
+    <title>Lower Bounds for Quantum Oblivious Transfer</title>
+    <updated>2013-03-23T13:41:52Z</updated>
+    <link href="https://arxiv.org/abs/1007.1875v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.1875v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Oblivious transfer is a fundamental primitive in cryptography. While perfect information theoretic security is impossible, quantum oblivious transfer protocols can limit the dishonest players' cheating. Finding the optimal security parameters in such protocols is an important open question. In this paper we show that every 1-out-of-2 oblivious transfer protocol allows a dishonest party to cheat with probability bounded below by a constant strictly larger than 1/2. Alice's cheating is defined as her probability of guessing Bob's index, and Bob's cheating is defined as his probability of guessing both input bits of Alice. In our proof, we relate these cheating probabilities to the cheating probabilities of a coin flipping protocol and conclude by using Kitaev's coin flipping lower bound. Then, we present an oblivious transfer protocol with two messages and cheating probabilities at most 3/4. Last, we extend Kitaev's semidefinite programming formulation to more general primitives, where the security is against a dishonest player trying to force the outcome of the other player, and prove optimal lower and upper bounds for them.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-12T11:48:29Z</published>
+    <arxiv:comment>v2, improved lower bound that uses a better lower bound on quantum bit commitment</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum Information &amp; Computation 13(1 &amp; 2):158-177, 2013</arxiv:journal_ref>
+    <author>
+      <name>André Chailloux</name>
+    </author>
+    <author>
+      <name>Iordanis Kerenidis</name>
+    </author>
+    <author>
+      <name>Jamie Sikora</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.08709v2</id>
+    <title>Adaptive Lower Bound for Testing Monotonicity on the Line</title>
+    <updated>2018-05-09T21:26:56Z</updated>
+    <link href="https://arxiv.org/abs/1801.08709v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.08709v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the property testing model, the task is to distinguish objects possessing some property from the objects that are far from it. One of such properties is monotonicity, when the objects are functions from one poset to another. This is an active area of research. In this paper we study query complexity of $ε$-testing monotonicity of a function $f\colon [n]\to[r]$. All our lower bounds are for adaptive two-sided testers.
+  * We prove a nearly tight lower bound for this problem in terms of $r$. The bound is $Ω(\frac{\log r}{\log \log r})$ when $ε= 1/2$. No previous satisfactory lower bound in terms of $r$ was known.
+  * We completely characterise query complexity of this problem in terms of $n$ for smaller values of $ε$. The complexity is $Θ(ε^{-1} \log (εn))$. Apart from giving the lower bound, this improves on the best known upper bound.
+  Finally, we give an alternative proof of the $Ω(ε^{-1}d\log n - ε^{-1}\logε^{-1})$ lower bound for testing monotonicity on the hypergrid $[n]^d$ due to Chakrabarty and Seshadhri (RANDOM'13).</summary>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-26T08:24:16Z</published>
+    <arxiv:comment>10 pages, added the proof of a matching upper bound for the lower bound in case of small epsilon</arxiv:comment>
+    <arxiv:primary_category term="cs.CC"/>
+    <author>
+      <name>Aleksandrs Belovs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.02734v3</id>
+    <title>Spectral lower bounds for the orthogonal and projective ranks of a graph</title>
+    <updated>2019-03-10T21:51:09Z</updated>
+    <link href="https://arxiv.org/abs/1806.02734v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.02734v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The orthogonal rank of a graph $G=(V,E)$ is the smallest dimension $ξ$ such that there exist non-zero column vectors $x_v\in\mathbb{C}^ξ$ for $v\in V$ satisfying the orthogonality condition $x_v^\dagger x_w=0$ for all $vw\in E$. We prove that many spectral lower bounds for the chromatic number, $χ$, are also lower bounds for $ξ$. This result complements a previous result by the authors, in which they showed that spectral lower bounds for $χ$ are also lower bounds for the quantum chromatic number $χ_q$. It is known that the quantum chromatic number and the orthogonal rank are incomparable.
+  We conclude by proving an inertial lower bound for the projective rank $ξ_f$, and conjecture that a stronger inertial lower bound for $ξ$ is also a lower bound for $ξ_f$.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-07T15:40:14Z</published>
+    <arxiv:comment>Improved proof of lower bound on orthogonal rank (Theorem 4); authors appreciate comments</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Pawel Wocjan</name>
+    </author>
+    <author>
+      <name>Clive Elphick</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.21517v2</id>
+    <title>Improved lower bounds for the Shannon capacity of odd cycles</title>
+    <updated>2026-07-30T17:24:58Z</updated>
+    <link href="https://arxiv.org/abs/2607.21517v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.21517v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Shannon capacity $Θ(G)$ of a graph $G$ quantifies the maximum rate at which information can be transmitted with zero error over a noisy channel. It is lower bounded by $α(G^d)^{1/d}$ for any $d$, where $α(G^d)$ is the independence number of the $d$-th strong product of $G$. We construct independent sets of size $134753$ in $C_7^{10}$, $21909$ in $C_{11}^{6}$, $62530$ in $C_{13}^{6}$, and $8076974$ in $C_{15}^{8}$, improving the best known lower bounds for the Shannon capacity of these graphs to $Θ(C_7)\geq 134753^{1/10}&gt;3.258020$, $Θ(C_{11})\geq 21909^{1/6}&gt;5.289773$, $Θ(C_{13})\geq 62530^{1/6}&gt;6.300109$, and $Θ(C_{15})\geq 8076974^{1/8}&gt;7.301399$. We also improve the best known lower bounds on the independence numbers of several individual strong products of odd cycles that do not improve the Shannon capacity lower bound. The constructions were discovered through iterative interactions with a Large Language Model (LLM), illustrating the potential of LLMs for finding explicit combinatorial constructions.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-23T17:01:36Z</published>
+    <arxiv:comment>v2: added improvement on lower bound for the Shannon capacity of C15</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Nathaniel Itty</name>
+    </author>
+    <author>
+      <name>Christopher D. Rosin</name>
+    </author>
+    <author>
+      <name>Chase Carstensen</name>
+    </author>
+    <author>
+      <name>Daniel Reichman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4567v1</id>
+    <title>On degenerate Hamburger moment problem and extensions of positive semidefinite Hankel block matrices</title>
+    <updated>2008-12-24T19:22:41Z</updated>
+    <link href="https://arxiv.org/abs/0812.4567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we consider two related objects: singular positive semidefinite Hankel block--matrices and associated degenerate truncated matrix Hamburger moment problems. The description of all solutions of a degenerate matrix Hamburger moment problem is given in terms of a linear fractional transformation. The case of interest is the Hamburger moment problem whose Hankel block--matrix admits a positive semidefinite Hankel extension.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-24T19:22:41Z</published>
+    <arxiv:comment>The corrected version of the paper "On degenerate Hamburger moment problem and extensions of nonnegative Hankel block matrices", Integral Equations Operator Theory 25 (1996), no. 3, 253--276</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Bolotnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.08842v2</id>
+    <title>Explicit lower bounds for opaque sets of unit square and unit disc</title>
+    <updated>2025-12-10T17:10:35Z</updated>
+    <link href="https://arxiv.org/abs/2509.08842v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.08842v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Explicit lower bounds for the length of the shortest opaque set for the unit disc and the unit square in the Euclidean plane are derived. The results are based on an explicit application of the general method of Kawamura, Moriyama, Otachi and Pach. Employing a recent observation by Steinerberger on the possible orientations of straight barriers with length close to Jones' bound, we improve the bound for the unit square by more than a factor $3$. The bound for barriers of the unit disc is new and based on the idea that the free parameters in the general method from can be optimized due to the strong symmetry properties of the disc. Our approach illustrates both the power and the limitations of the method.</summary>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-05T07:44:24Z</published>
+    <arxiv:comment>16 pages, 6 figures; improved lower bound for unit square</arxiv:comment>
+    <arxiv:primary_category term="math.MG"/>
+    <author>
+      <name>Markus Kiderlen</name>
+    </author>
+    <author>
+      <name>Florian Pausinger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.02414v2</id>
+    <title>A simple lower bound for the complexity of estimating partition functions on a quantum computer</title>
+    <updated>2024-04-09T02:13:00Z</updated>
+    <link href="https://arxiv.org/abs/2404.02414v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.02414v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the complexity of estimating the partition function $\mathsf{Z}(β)=\sum_{x\inχ} e^{-βH(x)}$ for a Gibbs distribution characterized by the Hamiltonian $H(x)$. We provide a simple and natural lower bound for quantum algorithms that solve this task by relying on reflections through the coherent encoding of Gibbs states. Our primary contribution is a $\varOmega(1/ε)$ lower bound for the number of reflections needed to estimate the partition function with a quantum algorithm. The proof is based on a reduction from the problem of estimating the Hamming weight of an unknown binary string.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-03T02:38:49Z</published>
+    <arxiv:comment>11 pages, we added a reference [HK20] to a recent classical lower bound in the sampling model</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Zherui Chen</name>
+    </author>
+    <author>
+      <name>Giacomo Nannicini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.05775v3</id>
+    <title>Robust logarithmic entanglement lower bound for $f$-routing</title>
+    <updated>2026-09-01T13:30:21Z</updated>
+    <link href="https://arxiv.org/abs/2608.05775v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.05775v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In one-round $f$-routing, Alice receives an $n$-bit string $x$ and an unknown qubit, and Bob receives an $n$-bit string $y$. They exchange one simultaneous message each and cannot communicate afterwards; the party selected by a Boolean function $f(x,y)$ must then recover the qubit. The parties may share unlimited entanglement in advance. When $f$ is the inner product modulo $2$, we prove that every protocol with worst-case error at most $0.09$ must use a shared state whose entanglement of formation grows at least logarithmically in $n$. The lower bound is robust: it tolerates constant error on both routing cases and covers arbitrary mixed states shared between Alice and Bob. Earlier growing lower bounds in this model, in contrast, require perfect recovery on at least one routing case. The bound is only logarithmic: a polynomial lower bound remains open.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-06T09:09:44Z</published>
+    <arxiv:comment>24 pages, 1 figure. v3: adds the robust entanglement-of-formation lower bound as the main theorem; the previous shared-resource-cost bound is now the companion result</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Kevin Bogner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0305179v3</id>
+    <title>Polynomial Degree and Lower Bounds in Quantum Complexity: Collision and Element Distinctness with Small Range</title>
+    <updated>2005-04-29T20:13:03Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0305179v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0305179v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give a general method for proving quantum lower bounds for problems with small range. Namely, we show that, for any symmetric problem defined on functions $f:\{1, ..., N\}\to\{1, ..., M\}$, its polynomial degree is the same for all $M\geq N$. Therefore, if we have a quantum lower bound for some (possibly, quite large) range $M$ which is shown using polynomials method, we immediately get the same lower bound for all ranges $M\geq N$. In particular, we get $Ω(N^{1/3})$ and $Ω(N^{2/3})$ quantum lower bounds for collision and element distinctness with small range.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-05-29T16:20:35Z</published>
+    <arxiv:comment>9 pages, LaTeX, v2 new result on degree lower bound for AND-OR added, v3 many small changes</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Theory of Computing, 1:37-46, 2005</arxiv:journal_ref>
+    <author>
+      <name>Andris Ambainis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.07605v1</id>
+    <title>First-order Methods for Affinely Constrained Composite Non-convex Non-smooth Problems: Lower Complexity Bound and Near-optimal Methods</title>
+    <updated>2023-07-14T19:59:18Z</updated>
+    <link href="https://arxiv.org/abs/2307.07605v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.07605v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many recent studies on first-order methods (FOMs) focus on \emph{composite non-convex non-smooth} optimization with linear and/or nonlinear function constraints. Upper (or worst-case) complexity bounds have been established for these methods. However, little can be claimed about their optimality as no lower bound is known, except for a few special \emph{smooth non-convex} cases. In this paper, we make the first attempt to establish lower complexity bounds of FOMs for solving a class of composite non-convex non-smooth optimization with linear constraints. Assuming two different first-order oracles, we establish lower complexity bounds of FOMs to produce a (near) $ε$-stationary point of a problem (and its reformulation) in the considered problem class, for any given tolerance $ε&gt;0$. In addition, we present an inexact proximal gradient (IPG) method by using the more relaxed one of the two assumed first-order oracles. The oracle complexity of the proposed IPG, to find a (near) $ε$-stationary point of the considered problem and its reformulation, matches our established lower bounds up to a logarithmic factor. Therefore, our lower complexity bounds and the proposed IPG method are almost non-improvable.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-14T19:59:18Z</published>
+    <arxiv:comment>Key words: non-convex optimization, non-smooth optimization, first-order methods, proximal gradient method, information-based complexity, lower complexity bound, worst-case complexity</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Qihang Lin</name>
+    </author>
+    <author>
+      <name>Yangyang Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.07739v3</id>
+    <title>A Lower Bound for the Fourier Entropy of Boolean Functions on the Biased Hypercube</title>
+    <updated>2026-03-12T15:56:37Z</updated>
+    <link href="https://arxiv.org/abs/2511.07739v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.07739v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study Boolean functions on the $p$-biased hypercube $(\{0,1\}^n,μ_p^n)$ through the lens of Fourier (spectral) entropy, i.e. the Shannon entropy of the squared $p$-biased Fourier coefficients. Motivated by recent restriction-based advances on upper bounds toward the Fourier-Entropy-Influence (FEI) conjecture, we prove a complementary, sharp lower bound that decomposes the entropy into coordinate-wise contributions. Let $q:=4p(1-p)$ and define $Ψ:[0,\tfrac12]\to[0,\ln 2]$ by $Ψ(t):=h\left(\frac{1+\sqrt{1-4t^2}}{2}\right)$, where $h(u):=-u\ln u-(1-u)\ln(1-u)$. We show that for every Boolean $f:(\{0,1\}^n,μ_p^n)\to\{\pm1\}$, $$ \mathrm{Ent}_p(f) \ge \sum_{k=1}^n Ψ\left(\sqrt{q(1-q)}\cdot\mathrm{Inf}_k^{(p)}[f]\right). $$ When $p\neq \tfrac12$, this bound is tight and equality holds if and only if $f$ is a parity function. Our proof adapts the restriction-moment framework to the biased cube.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-11T01:43:46Z</published>
+    <arxiv:comment>15 pages, this version strengthens the previous lower bound and yields a tight result</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Fan Chang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.03838v3</id>
+    <title>A Tight Lower Bound for Comparison-Based Quantile Summaries</title>
+    <updated>2026-01-25T22:31:57Z</updated>
+    <link href="https://arxiv.org/abs/1905.03838v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.03838v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantiles, such as the median or percentiles, provide concise and useful information about the distribution of a collection of items, drawn from a totally ordered universe. We study data structures, called quantile summaries, which keep track of all quantiles, up to an error of at most $\varepsilon$. That is, an $\varepsilon$-approximate quantile summary first processes a stream of items and then, given any quantile query $0\le φ\le 1$, returns an item from the stream, which is a $φ'$-quantile for some $φ' = φ\pm \varepsilon$. We focus on comparison-based quantile summaries that can only compare two items and are otherwise completely oblivious of the universe.
+  The best such deterministic quantile summary to date, due to Greenwald and Khanna (SIGMOD '01), stores at most $O(\frac{1}{\varepsilon}\cdot \log \varepsilon N)$ items, where $N$ is the number of items in the stream. We prove that this space bound is optimal by showing a matching lower bound. Our result thus rules out the possibility of constructing a deterministic comparison-based quantile summary in space $f(\varepsilon)\cdot o(\log N)$, for any function $f$ that does not depend on $N$. As a corollary, we improve the lower bound for biased quantiles, which provide a stronger, relative-error guarantee of $(1\pm \varepsilon)\cdot φ$, and for other related computational tasks.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-09T20:08:04Z</published>
+    <arxiv:comment>22 pages, 2 figures, corrected proof of the relative-error lower bound</arxiv:comment>
+    <arxiv:primary_category term="cs.DS"/>
+    <arxiv:journal_ref>PODS 2020, p. 81-93, ACM, 2020</arxiv:journal_ref>
+    <author>
+      <name>Graham Cormode</name>
+    </author>
+    <author>
+      <name>Pavel Veselý</name>
+    </author>
+    <arxiv:doi>10.1145/3375395.3387650</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3375395.3387650" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.20326v2</id>
+    <title>Lovász theta and Shearer lower bounds on Quantum Max Cut</title>
+    <updated>2026-06-24T21:58:09Z</updated>
+    <link href="https://arxiv.org/abs/2512.20326v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.20326v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum Max Cut is a problem relevant to computer science and many-body quantum physics due to its links to classical Max Cut and the anti-ferromagnetic Heisenberg Hamiltonian. We prove a lower bound to quantum Max Cut of a graph in terms of the Lovász theta function of its complement. For a graph with $m$ edges, $\text{qmc}(G) \geq \tfrac{m}{4}\big( 1 + \tfrac{8}{3π}\tfrac{1}{\vartheta(\bar{G}) -1} \big)$, with the bound achieved by a product state. The proof can be strenghtened by the vector chromatic number and extends a result by Balla, Janzer, and Sudakov on classical Max Cut. A relaxed bound follows from $\vartheta(\bar{G}) - 1 \leq Δ$ for graphs with maximum degree $Δ$, making it interesting for practically relevant quantum many-body systems. We also extend results by Carlson et al. and Shearer and show that $\text{qmc}(G) \geq \frac{m}{4} + \frac{2m^{3/4}}{3 π}$ for all triangle-free graphs with $m$ edges.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-23T12:53:40Z</published>
+    <arxiv:comment>8 pages, comments welcome. v2: Shearer-type lower bound added</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Felix Huber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.13923v1</id>
+    <title>Improved Lower Bound on the Number of Pseudoline Arrangements</title>
+    <updated>2024-02-21T16:40:31Z</updated>
+    <link href="https://arxiv.org/abs/2402.13923v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.13923v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that for large enough $n$, the number of non-isomorphic pseudoline arrangements of order $n$ is greater than $2^{c\cdot n^2}$ for some constant $c &gt; 0.2604$, improving the previous best bound of $c&gt;0.2083$ by Dumitrescu and Mandal (2020). Arrangements of pseudolines (and in particular arrangements of lines) are important objects appearing in many forms in discrete and computational geometry. They have strong ties for example with oriented matroids, sorting networks and point configurations. Let $B_n$ be the number of non-isomorphic pseudoline arrangements of order $n$ and let $b_n := \log_2(B_n)$. The problem of estimating $b_n$ dates back to Knuth, who conjectured that $b_n \leq 0.5n^2 + o(n^2)$ and derived the first bounds $n^2/6-O(n) \leq b_n \leq 0.7924(n^2+n)$. Both the upper and the lower bound have been improved a couple of times since. For the upper bound, it was first improved to $b_n &lt; 0.6988n^2$ (Felsner, 1997), then $b_n &lt; 0.6571 n^2$ by Felsner and Valtr (2011), for large enough $n$. In the same paper, Felsner and Valtr improved the constant in the lower bound to $c&gt; 0.1887$, which was subsequently improved by Dumitrescu and Mandal to $c&gt;0.2083$. Our new bound is based on a construction which starts with one of the constructions of Dumitrescu and Mandal and breaks it into constant sized pieces. We then use software to compute the contribution of each piece to the overall number of pseudoline arrangements. This method adds a lot of flexibility to the construction and thus offers many avenues for future tweaks and improvements which could lead to further tightening of the lower bound.</summary>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-21T16:40:31Z</published>
+    <arxiv:comment>This manuscript was accepted at SoCG'24 and will be merged with Fernando Cortés Kühnast, Stefan Felsner and Manfred Scheucher's manuscript "An Improved Lower Bound on the Number of Pseudoline Arrangements'' for the proceedings</arxiv:comment>
+    <arxiv:primary_category term="cs.CG"/>
+    <author>
+      <name>Justin Dallant</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.03473v2</id>
+    <title>Statistical Query Lower Bounds for Robust Estimation of High-dimensional Gaussians and Gaussian Mixtures</title>
+    <updated>2017-05-17T15:48:34Z</updated>
+    <link href="https://arxiv.org/abs/1611.03473v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.03473v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe a general technique that yields the first {\em Statistical Query lower bounds} for a range of fundamental high-dimensional learning problems involving Gaussian distributions. Our main results are for the problems of (1) learning Gaussian mixture models (GMMs), and (2) robust (agnostic) learning of a single unknown Gaussian distribution. For each of these problems, we show a {\em super-polynomial gap} between the (information-theoretic) sample complexity and the computational complexity of {\em any} Statistical Query algorithm for the problem. Our SQ lower bound for Problem (1) is qualitatively matched by known learning algorithms for GMMs. Our lower bound for Problem (2) implies that the accuracy of the robust learning algorithm in~\cite{DiakonikolasKKLMS16} is essentially best possible among all polynomial-time SQ algorithms.
+  Our SQ lower bounds are attained via a unified moment-matching technique that is useful in other contexts and may be of broader interest. Our technique yields nearly-tight lower bounds for a number of related unsupervised estimation problems. Specifically, for the problems of (3) robust covariance estimation in spectral norm, and (4) robust sparse mean estimation, we establish a quadratic {\em statistical--computational tradeoff} for SQ algorithms, matching known upper bounds. Finally, our technique can be used to obtain tight sample complexity lower bounds for high-dimensional {\em testing} problems. Specifically, for the classical problem of robustly {\em testing} an unknown mean (known covariance) Gaussian, our technique implies an information-theoretic sample lower bound that scales {\em linearly} in the dimension. Our sample lower bound matches the sample complexity of the corresponding robust {\em learning} problem and separates the sample complexity of robust testing from standard (non-robust) testing.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-10T20:32:48Z</published>
+    <arxiv:comment>Changes from v1: Revised presentation. Added more applications of the technique (SQ lower bounds for robust sparse mean estimation and robust covariance estimation in spectral norm). Sharpened testing lower bound to linear in the dimension (compared to nearly-linear in first version)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ilias Diakonikolas</name>
+    </author>
+    <author>
+      <name>Daniel M. Kane</name>
+    </author>
+    <author>
+      <name>Alistair Stewart</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.03706v2</id>
+    <title>Upper and lower bounds on the size of $B_k[g]$ sets</title>
+    <updated>2021-06-18T13:03:38Z</updated>
+    <link href="https://arxiv.org/abs/2105.03706v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.03706v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A subset $A$ of the integers is a $B_k[g]$ set if the number of multisets from $A$ that sum to any fixed integer is at most $g$. Let $F_{k,g}(n)$ denote the maximum size of a $B_k[g]$ set in $\{1,\dots, n\}$. In this paper we improve the best-known upper bounds on $F_{k,g}(n)$ for $g&gt;1$ and $k$ large. When $g=1$ we match the best upper bound of Green with an improved error term. Additionally, we give a lower bound on $F_{k,g}(n)$ that matches a construction of Lindström while removing one of the hypotheses.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-08T14:13:21Z</published>
+    <arxiv:comment>Our lower bound is implied by a result of Caicedo, Gómez, and Trujillo. A reference to this paper and discussion of it has been added</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Griffin Johnston</name>
+    </author>
+    <author>
+      <name>Michael Tait</name>
+    </author>
+    <author>
+      <name>Craig Timmons</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.13107v2</id>
+    <title>An Improved Lower Bound on the Number of Pseudoline Arrangements</title>
+    <updated>2024-03-21T09:46:51Z</updated>
+    <link href="https://arxiv.org/abs/2402.13107v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.13107v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Arrangements of pseudolines are classic objects in discrete and computational geometry. They have been studied with increasing intensity since their introduction almost 100 years ago. The study of the number $B_n$ of non-isomorphic simple arrangements of $n$ pseudolines goes back to Goodman and Pollack, Knuth, and others. It is known that $B_n$ is in the order of $2^{Θ(n^2)}$ and finding asymptotic bounds on $b_n = \frac{\log_2(B_n)}{n^2}$ remains a challenging task. In 2011, Felsner and Valtr showed that $0.1887 \leq b_n \le 0.6571$ for sufficiently large $n$. The upper bound remains untouched but in 2020 Dumitrescu and Mandal improved the lower bound constant to $0.2083$. Their approach utilizes the known values of $B_n$ for up to $n=12$.
+  We tackle the lower bound by utilizing dynamic programming and the Lindström-Gessel-Viennot lemma. Our new bound is $b_n \geq 0.2721$ for sufficiently large $n$. The result is based on a delicate interplay of theoretical ideas and computer assistance.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-20T16:01:41Z</published>
+    <arxiv:comment>This article is to appear in the proceedings of the 40th International Symposium on Computational Geometry (SoCG 2024). It is a merge of the following two independent submissions: 1) Justin Dallant -- Improved Lower Bound on the Number of Pseudoline Arrangements 2) Fernando Cortés Kühnast, Stefan Felsner, and Manfred Scheucher -- An Improved Lower Bound on the Number of Pseudoline Arrangements</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Fernando Cortés Kühnast</name>
+    </author>
+    <author>
+      <name>Justin Dallant</name>
+    </author>
+    <author>
+      <name>Stefan Felsner</name>
+    </author>
+    <author>
+      <name>Manfred Scheucher</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.09344v2</id>
+    <title>Stein's method of moments for truncated multivariate distributions</title>
+    <updated>2024-06-15T21:13:38Z</updated>
+    <link href="https://arxiv.org/abs/2312.09344v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.09344v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use Stein characterisations to derive new moment-type estimators for the parameters of several truncated multivariate distributions in the i.i.d. case; we also derive the asymptotic properties of these estimators. Our examples include the truncated multivariate normal distribution and truncated products of independent univariate distributions. The estimators are explicit and therefore provide an interesting alternative to the maximum-likelihood estimator (MLE). The quality of these estimators is assessed through competitive simulation studies, in which we compare their behaviour to the performance of the MLE and the score matching approach.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-14T21:13:30Z</published>
+    <arxiv:comment>The original preprint ("Stein estimation in a multivariate setting") is now split into two preprints: "Stein's method of moments for truncated multivariate distributions" and "Stein's Method of Moments on the Sphere"</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Adrian Fischer</name>
+    </author>
+    <author>
+      <name>Robert E. Gaunt</name>
+    </author>
+    <author>
+      <name>Yvik Swan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.2901v1</id>
+    <title>Exact lower bounds on the exponential moments of Winsorized and truncated random variables</title>
+    <updated>2010-01-18T19:55:44Z</updated>
+    <link href="https://arxiv.org/abs/1001.2901v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.2901v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Exact lower bounds on the exponential moments of min(y,X) and XI{X&lt;y} are provided given the first two moments of a random variable X. These bounds are useful in work on large deviations probabilities and nonuniform Berry-Esseen bounds, when the Cramér tilt transform may be employed. Asymptotic properties of these lower bounds are presented. Comparative advantages of the Winsorization min(y,X) over the truncation XI{X&lt;y} are demonstrated.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-18T19:55:44Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>J. App. Probab., 48:547--560 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Iosif Pinelis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.13086v2</id>
+    <title>Quantum Algorithms and Lower Bounds for Linear Regression with Norm Constraints</title>
+    <updated>2022-07-19T10:59:29Z</updated>
+    <link href="https://arxiv.org/abs/2110.13086v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.13086v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lasso and Ridge are important minimization problems in machine learning and statistics. They are versions of linear regression with squared loss where the vector $θ\in\mathbb{R}^d$ of coefficients is constrained in either $\ell_1$-norm (for Lasso) or in $\ell_2$-norm (for Ridge). We study the complexity of quantum algorithms for finding $\varepsilon$-minimizers for these minimization problems. We show that for Lasso we can get a quadratic quantum speedup in terms of $d$ by speeding up the cost-per-iteration of the Frank-Wolfe algorithm, while for Ridge the best quantum algorithms are linear in $d$, as are the best classical algorithms. As a byproduct of our quantum lower bound for Lasso, we also prove the first classical lower bound for Lasso that is tight up to polylog-factors.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-25T16:26:37Z</published>
+    <arxiv:comment>v2: Main changes are the addition of a tight classical lower bound for Lasso, and small improvements in the existing text. 38 pages LaTeX</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Yanlin Chen</name>
+      <arxiv:affiliation>QuSoft, CWI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ronald de Wolf</name>
+      <arxiv:affiliation>QuSoft, CWI and University of Amsterdam</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.06122v2</id>
+    <title>The operator approach to the truncated multidimensional moment problem</title>
+    <updated>2018-11-26T21:43:01Z</updated>
+    <link href="https://arxiv.org/abs/1802.06122v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.06122v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the truncated multidimensional moment problem with a general type of truncations. The operator approach to the moment problem is presented. A way to construct atomic solutions of the moment problem is indicated.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-16T21:06:59Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.28227v1</id>
+    <title>The Matricial Univariate Rational Truncated Moment Problem</title>
+    <updated>2026-08-28T11:43:52Z</updated>
+    <link href="https://arxiv.org/abs/2608.28227v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.28227v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We solve the matricial univariate rational truncated moment problem on the real line and on a half-line. We give explicit necessary and sufficient conditions for the existence of a positive matrix-valued representing measure and show that every solvable problem admits a finitely atomic representing measure whose total atomic multiplicity equals the rank of the associated moment matrix. The rational problem is reduced to an ordinary matricial moment problem with the additional requirement that the representing measure avoid the real poles of the rational data. The main new ingredient is a simultaneous prescribed-node result: the smallest attainable multiplicities at finitely many prescribed points can be realized by a single minimal representing measure. Our proofs are constructive and use flat extensions, block-column relations, and localizing conditions.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-28T11:43:52Z</published>
+    <arxiv:comment>34 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Alja\v z Zalar</name>
+    </author>
+    <author>
+      <name>Igor Zobovi\v c</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.04495v2</id>
+    <title>On the truncated multidimensional moment problems in $\mathbb{C}^n$</title>
+    <updated>2021-02-11T13:10:51Z</updated>
+    <link href="https://arxiv.org/abs/2102.04495v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.04495v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of finding a (non-negative) measure $μ$ on $\mathfrak{B}(\mathbb{C}^n)$ such that $\int_{\mathbb{C}^n} \mathbf{z}^{\mathbf{k}} dμ(\mathbf{z}) = s_{\mathbf{k}}$, $\forall \mathbf{k}\in\mathcal{K}$. Here $\mathcal{K}$ is an arbitrary finite subset of $\mathbb{Z}^n_+$, which contains $(0,...,0)$, and $s_{\mathbf{k}}$ are prescribed complex numbers (we use the usual notations for multi-indices). There are two possible interpretations of this problem. At first, one may consider this problem as an extension of the truncated multidimensional moment problem on $\mathbb{R}^n$, where the support of the measure $μ$ is allowed to lie in $\mathbb{C}^n$. Secondly, the moment problem is a particular case of the truncated moment problem in $\mathbb{C}^n$, with special truncations. We give simple conditions for the solvability of the above moment problem. As a corollary, we have an integral representation with a non-negative measure for linear functionals on some linear subspaces of polynomials.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-08T19:32:05Z</published>
+    <arxiv:comment>Corollary 1 was corrected</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Sergey M. Zagorodnyuk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.10179v1</id>
+    <title>On the Matricial Truncated Moment Problem. II</title>
+    <updated>2023-11-16T20:10:48Z</updated>
+    <link href="https://arxiv.org/abs/2311.10179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.10179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We continue the study of truncated matrix-valued moment problems begun in arXiv:2310.00957. Let $q\in\mathbb{N}$. Suppose that $(\mathcal{X},\mathfrak{X})$ is a measurable space and $\mathcal{E}$ is a finite-dimensional vector space of measurable mappings of $\mathscr{X}$ into $\mathcal{H}_q$, the Hermitian $q\times q$ matrices. A linear functional $Λ$ on $\mathcal{E}$ is called a moment functional if there exists a positive $\mathcal{H}_q$-valued measure $μ$ on $(\mathcal{X},\mathfrak{X})$ such that $Λ(F)=\int_\mathcal{X} \langle F, \mathrm{d}μ\rangle$ for $F\in \mathcal{E}$.
+  In this paper a number of special topics on the truncated matricial moment problem are treated. We restate a result from (Mourrain and Schmüdgen, 2016) to obtain a matricial version of the flat extension theorem. Assuming that $\mathcal{X}$ is a compact space and all elements of $ \mathcal{E}$ are continuous on $\mathcal{X}$ we characterize moment functionals in terms of positivity and obtain an ordered maximal mass representing measure for each moment functional. The set of masses of representing measures at a fixed point and some related sets are studied. The class of commutative matrix moment functionals is investigated. We generalize the apolar scalar product for homogeneous polynomials to the matrix case and apply this to the matricial truncated moment problem.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-16T20:10:48Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Conrad Mädler</name>
+    </author>
+    <author>
+      <name>Konrad Schmüdgen</name>
+    </author>
+  </entry>
+</feed>

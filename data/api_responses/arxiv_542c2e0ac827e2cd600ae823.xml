@@ -1,0 +1,1351 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DGAT/DWwibKcWQCt0PDePWwUmwY</id>
+  <title>arXiv Query: search_query=all:super-resolution OR all:positive OR all:spike OR all:recovery OR all:total OR all:variation&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:50:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:super-resolution+OR+(all:positive+OR+(all:spike+OR+(all:recovery+OR+(all:total+OR+all:variation))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>470387</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.13634v2</id>
+    <title>Asymmetric CNN for image super-resolution</title>
+    <updated>2021-03-30T06:18:56Z</updated>
+    <link href="https://arxiv.org/abs/2103.13634v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.13634v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep convolutional neural networks (CNNs) have been widely applied for low-level vision over the past five years. According to nature of different applications, designing appropriate CNN architectures is developed. However, customized architectures gather different features via treating all pixel points as equal to improve the performance of given application, which ignores the effects of local power pixel points and results in low training efficiency. In this paper, we propose an asymmetric CNN (ACNet) comprising an asymmetric block (AB), a memory enhancement block (MEB) and a high-frequency feature enhancement block (HFFEB) for image super-resolution. The AB utilizes one-dimensional asymmetric convolutions to intensify the square convolution kernels in horizontal and vertical directions for promoting the influences of local salient features for SISR. The MEB fuses all hierarchical low-frequency features from the AB via residual learning (RL) technique to resolve the long-term dependency problem and transforms obtained low-frequency features into high-frequency features. The HFFEB exploits low- and high-frequency features to obtain more robust super-resolution features and address excessive feature enhancement problem. Addditionally, it also takes charge of reconstructing a high-resolution (HR) image. Extensive experiments show that our ACNet can effectively address single image super-resolution (SISR), blind SISR and blind SISR of blind noise problems. The code of the ACNet is shown at https://github.com/hellloxiaotian/ACNet.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-25T07:10:46Z</published>
+    <arxiv:comment>Blind Super-resolution; Blind Super-resolution with unknown noise</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chunwei Tian</name>
+    </author>
+    <author>
+      <name>Yong Xu</name>
+    </author>
+    <author>
+      <name>Wangmeng Zuo</name>
+    </author>
+    <author>
+      <name>Chia-Wen Lin</name>
+    </author>
+    <author>
+      <name>David Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.12811v1</id>
+    <title>Unsupervised Real Image Super-Resolution via Generative Variational AutoEncoder</title>
+    <updated>2020-04-27T13:49:36Z</updated>
+    <link href="https://arxiv.org/abs/2004.12811v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.12811v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Benefited from the deep learning, image Super-Resolution has been one of the most developing research fields in computer vision. Depending upon whether using a discriminator or not, a deep convolutional neural network can provide an image with high fidelity or better perceptual quality. Due to the lack of ground truth images in real life, people prefer a photo-realistic image with low fidelity to a blurry image with high fidelity. In this paper, we revisit the classic example based image super-resolution approaches and come up with a novel generative model for perceptual image super-resolution. Given that real images contain various noise and artifacts, we propose a joint image denoising and super-resolution model via Variational AutoEncoder. We come up with a conditional variational autoencoder to encode the reference for dense feature vector which can then be transferred to the decoder for target image denoising. With the aid of the discriminator, an additional overhead of super-resolution subnetwork is attached to super-resolve the denoised image with photo-realistic visual quality. We participated the NTIRE2020 Real Image Super-Resolution Challenge. Experimental results show that by using the proposed approach, we can obtain enlarged images with clean and pleasant features compared to other supervised methods. We also compared our approach with state-of-the-art methods on various datasets to demonstrate the efficiency of our proposed unsupervised super-resolution model.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-27T13:49:36Z</published>
+    <arxiv:comment>9 pages, 7 figures, CVPR2020 NTIRE2020 Real Image Super-Resolution Challenge</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>2020 IEEE conference on Computer Vision and Pattern Recognition Workshop</arxiv:journal_ref>
+    <author>
+      <name>Zhi-Song Liu</name>
+    </author>
+    <author>
+      <name>Wan-Chi Siu</name>
+    </author>
+    <author>
+      <name>Li-Wen Wang</name>
+    </author>
+    <author>
+      <name>Chu-Tak Li</name>
+    </author>
+    <author>
+      <name>Marie-Paule Cani</name>
+    </author>
+    <author>
+      <name>Yui-Lam Chan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.06536v1</id>
+    <title>Multi-Scale Implicit Transformer with Re-parameterize for Arbitrary-Scale Super-Resolution</title>
+    <updated>2024-03-11T09:23:20Z</updated>
+    <link href="https://arxiv.org/abs/2403.06536v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.06536v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, the methods based on implicit neural representations have shown excellent capabilities for arbitrary-scale super-resolution (ASSR). Although these methods represent the features of an image by generating latent codes, these latent codes are difficult to adapt for different magnification factors of super-resolution, which seriously affects their performance. Addressing this, we design Multi-Scale Implicit Transformer (MSIT), consisting of an Multi-scale Neural Operator (MSNO) and Multi-Scale Self-Attention (MSSA). Among them, MSNO obtains multi-scale latent codes through feature enhancement, multi-scale characteristics extraction, and multi-scale characteristics merging. MSSA further enhances the multi-scale characteristics of latent codes, resulting in better performance. Furthermore, to improve the performance of network, we propose the Re-Interaction Module (RIM) combined with the cumulative training strategy to improve the diversity of learned information for the network. We have systematically introduced multi-scale characteristics for the first time in ASSR, extensive experiments are performed to validate the effectiveness of MSIT, and our method achieves state-of-the-art performance in arbitrary super-resolution tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-11T09:23:20Z</published>
+    <arxiv:comment>Super-resolution, Arbitrary-Scale Super-Resolution, Multi-Scale, Transformer</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jinchen Zhu</name>
+    </author>
+    <author>
+      <name>Mingjian Zhang</name>
+    </author>
+    <author>
+      <name>Ling Zheng</name>
+    </author>
+    <author>
+      <name>Shizhuang Weng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.08455v1</id>
+    <title>SuperNANO: Enabling Nano-Scale Laser an-ti-counterfeiting Marking and Precision Cutting with Super-Resolution Imaging</title>
+    <updated>2024-08-15T23:39:43Z</updated>
+    <link href="https://arxiv.org/abs/2408.08455v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.08455v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we present a unique multi-functional super-resolution instrument, the SuperNANO system, which integrates real-time super-resolution imaging with direct laser nanofabrication capabilities. Central to the func-tionality of the SuperNANO system is its capacity for simultaneous nanoimaging and nanopatterning, enabling the creation of anti-counterfeiting markings and precision cutting with exceptional accuracy. The SuperNANO system, featuring a unibody superlens objective, achieves a resolution ranging from 50 to 320 nm. We showcase the instrument's versatility through its application in generating high-security anti-counterfeiting features on an aluminum film. These 'invisible' security features, which are nanoscale in dimension, can be crafted with arbi-trary shapes at designated locations. Moreover, the system's precision is further evidenced by its ability to cut silver nanowires to a minimum width of 50 nm. The integrated imaging and fabricating functions of the Su-perNANO make it a pivotal tool for a variety of applications, including nano trapping, sensing, cutting, weld-ing, drilling, signal enhancement, detection, and nano laser treatment.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-15T23:39:43Z</published>
+    <arxiv:comment>super resolution system</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Yiduo Chen</name>
+    </author>
+    <author>
+      <name>Bing Yan</name>
+    </author>
+    <author>
+      <name>Liyang Yue</name>
+    </author>
+    <author>
+      <name>Charlotte L Jones</name>
+    </author>
+    <author>
+      <name>Zengbo Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.03839v1</id>
+    <title>NTIRE 2021 Challenge on Burst Super-Resolution: Methods and Results</title>
+    <updated>2021-06-07T17:55:28Z</updated>
+    <link href="https://arxiv.org/abs/2106.03839v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.03839v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper reviews the NTIRE2021 challenge on burst super-resolution. Given a RAW noisy burst as input, the task in the challenge was to generate a clean RGB image with 4 times higher resolution. The challenge contained two tracks; Track 1 evaluating on synthetically generated data, and Track 2 using real-world bursts from mobile camera. In the final testing phase, 6 teams submitted results using a diverse set of solutions. The top-performing methods set a new state-of-the-art for the burst super-resolution task.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-07T17:55:28Z</published>
+    <arxiv:comment>NTIRE 2021 Burst Super-Resolution challenge report</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Goutam Bhat</name>
+    </author>
+    <author>
+      <name>Martin Danelljan</name>
+    </author>
+    <author>
+      <name>Radu Timofte</name>
+    </author>
+    <author>
+      <name>Kazutoshi Akita</name>
+    </author>
+    <author>
+      <name>Wooyeong Cho</name>
+    </author>
+    <author>
+      <name>Haoqiang Fan</name>
+    </author>
+    <author>
+      <name>Lanpeng Jia</name>
+    </author>
+    <author>
+      <name>Daeshik Kim</name>
+    </author>
+    <author>
+      <name>Bruno Lecouat</name>
+    </author>
+    <author>
+      <name>Youwei Li</name>
+    </author>
+    <author>
+      <name>Shuaicheng Liu</name>
+    </author>
+    <author>
+      <name>Ziluan Liu</name>
+    </author>
+    <author>
+      <name>Ziwei Luo</name>
+    </author>
+    <author>
+      <name>Takahiro Maeda</name>
+    </author>
+    <author>
+      <name>Julien Mairal</name>
+    </author>
+    <author>
+      <name>Christian Micheloni</name>
+    </author>
+    <author>
+      <name>Xuan Mo</name>
+    </author>
+    <author>
+      <name>Takeru Oba</name>
+    </author>
+    <author>
+      <name>Pavel Ostyakov</name>
+    </author>
+    <author>
+      <name>Jean Ponce</name>
+    </author>
+    <author>
+      <name>Sanghyeok Son</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+    <author>
+      <name>Norimichi Ukita</name>
+    </author>
+    <author>
+      <name>Rao Muhammad Umer</name>
+    </author>
+    <author>
+      <name>Youliang Yan</name>
+    </author>
+    <author>
+      <name>Lei Yu</name>
+    </author>
+    <author>
+      <name>Magauiya Zhussip</name>
+    </author>
+    <author>
+      <name>Xueyi Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.11403v5</id>
+    <title>Efficient Mixed Transformer for Single Image Super-Resolution</title>
+    <updated>2023-06-19T06:56:23Z</updated>
+    <link href="https://arxiv.org/abs/2305.11403v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.11403v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, Transformer-based methods have achieved impressive results in single image super-resolution (SISR). However, the lack of locality mechanism and high complexity limit their application in the field of super-resolution (SR). To solve these problems, we propose a new method, Efficient Mixed Transformer (EMT) in this study. Specifically, we propose the Mixed Transformer Block (MTB), consisting of multiple consecutive transformer layers, in some of which the Pixel Mixer (PM) is used to replace the Self-Attention (SA). PM can enhance the local knowledge aggregation with pixel shifting operations. At the same time, no additional complexity is introduced as PM has no parameters and floating-point operations. Moreover, we employ striped window for SA (SWSA) to gain an efficient global dependency modelling by utilizing image anisotropy. Experimental results show that EMT outperforms the existing methods on benchmark dataset and achieved state-of-the-art performance. The Code is available at https://github.com/Fried-Rice-Lab/FriedRiceLab.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-19T03:19:38Z</published>
+    <arxiv:comment>Super-resolution, Long-range attention, Transformer, Locality</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ling Zheng</name>
+    </author>
+    <author>
+      <name>Jinchen Zhu</name>
+    </author>
+    <author>
+      <name>Jinpeng Shi</name>
+    </author>
+    <author>
+      <name>Shizhuang Weng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.14852v2</id>
+    <title>NTIRE 2021 Challenge on Video Super-Resolution</title>
+    <updated>2021-05-10T06:31:59Z</updated>
+    <link href="https://arxiv.org/abs/2104.14852v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.14852v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Super-Resolution (SR) is a fundamental computer vision task that aims to obtain a high-resolution clean image from the given low-resolution counterpart. This paper reviews the NTIRE 2021 Challenge on Video Super-Resolution. We present evaluation results from two competition tracks as well as the proposed solutions. Track 1 aims to develop conventional video SR methods focusing on the restoration quality. Track 2 assumes a more challenging environment with lower frame rates, casting spatio-temporal SR problem. In each competition, 247 and 223 participants have registered, respectively. During the final testing phase, 14 teams competed in each track to achieve state-of-the-art performance on video SR tasks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-30T09:12:19Z</published>
+    <arxiv:comment>An official report for NTIRE 2021 Video Super-Resolution Challenge, in conjunction with CVPR 2021</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Sanghyun Son</name>
+    </author>
+    <author>
+      <name>Suyoung Lee</name>
+    </author>
+    <author>
+      <name>Seungjun Nah</name>
+    </author>
+    <author>
+      <name>Radu Timofte</name>
+    </author>
+    <author>
+      <name>Kyoung Mu Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.3137v2</id>
+    <title>Stability and super-resolution of generalized spike recovery</title>
+    <updated>2016-09-28T18:46:51Z</updated>
+    <link href="https://arxiv.org/abs/1409.3137v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.3137v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of recovering a linear combination of Dirac delta functions and derivatives from a finite number of Fourier samples corrupted by noise. This is a generalized version of the well-known spike recovery problem, which is receiving much attention recently.
+  We analyze the numerical conditioning of this problem in two different settings depending on the order of magnitude of the quantity $Nη$, where $N$ is the number of Fourier samples and $η$ is the minimal distance between the generalized spikes. In the "well-conditioned" regime $Nη\gg1$, we provide upper bounds for first-order perturbation of the solution to the corresponding least-squares problem. In the near-colliding, or "super-resolution" regime $Nη\to0$ with a single cluster, we propose a natural regularization scheme based on decimating the samples \textendash{} essentially increasing the separation $η$ \textendash{} and demonstrate the effectiveness and near-optimality of this scheme in practice.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-10T16:11:28Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>Appl. Comput. Harmon. Anal. (2016)</arxiv:journal_ref>
+    <author>
+      <name>Dmitry Batenkov</name>
+    </author>
+    <arxiv:doi>10.1016/j.acha.2016.09.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.acha.2016.09.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.02398v1</id>
+    <title>Scale Guided Hypernetwork for Blind Super-Resolution Image Quality Assessment</title>
+    <updated>2023-06-04T16:17:19Z</updated>
+    <link href="https://arxiv.org/abs/2306.02398v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.02398v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the emergence of image super-resolution (SR) algorithm, how to blindly evaluate the quality of super-resolution images has become an urgent task. However, existing blind SR image quality assessment (IQA) metrics merely focus on visual characteristics of super-resolution images, ignoring the available scale information. In this paper, we reveal that the scale factor has a statistically significant impact on subjective quality scores of SR images, indicating that the scale information can be used to guide the task of blind SR IQA. Motivated by this, we propose a scale guided hypernetwork framework that evaluates SR image quality in a scale-adaptive manner. Specifically, the blind SR IQA procedure is divided into three stages, i.e., content perception, evaluation rule generation, and quality prediction. After content perception, a hypernetwork generates the evaluation rule used in quality prediction based on the scale factor of the SR image. We apply the proposed scale guided hypernetwork framework to existing representative blind IQA metrics, and experimental results show that the proposed framework not only boosts the performance of these IQA metrics but also enhances their generalization abilities. Source code will be available at https://github.com/JunFu1995/SGH.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-04T16:17:19Z</published>
+    <arxiv:comment>new framework for blind super-resolution image quality assessment</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jun Fu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.07929v5</id>
+    <title>Towards Lightweight Super-Resolution with Dual Regression Learning</title>
+    <updated>2024-05-28T02:03:27Z</updated>
+    <link href="https://arxiv.org/abs/2207.07929v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.07929v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep neural networks have exhibited remarkable performance in image super-resolution (SR) tasks by learning a mapping from low-resolution (LR) images to high-resolution (HR) images. However, the SR problem is typically an ill-posed problem and existing methods would come with several limitations. First, the possible mapping space of SR can be extremely large since there may exist many different HR images that can be super-resolved from the same LR image. As a result, it is hard to directly learn a promising SR mapping from such a large space. Second, it is often inevitable to develop very large models with extremely high computational cost to yield promising SR performance. In practice, one can use model compression techniques to obtain compact models by reducing model redundancy. Nevertheless, it is hard for existing model compression methods to accurately identify the redundant components due to the extremely large SR mapping space. To alleviate the first challenge, we propose a dual regression learning scheme to reduce the space of possible SR mappings. Specifically, in addition to the mapping from LR to HR images, we learn an additional dual regression mapping to estimate the downsampling kernel and reconstruct LR images. In this way, the dual mapping acts as a constraint to reduce the space of possible mappings. To address the second challenge, we propose a dual regression compression (DRC) method to reduce model redundancy in both layer-level and channel-level based on channel pruning. Specifically, we first develop a channel number search method that minimizes the dual regression loss to determine the redundancy of each layer. Given the searched channel numbers, we further exploit the dual regression manner to evaluate the importance of channels and prune the redundant ones. Extensive experiments show the effectiveness of our method in obtaining accurate and efficient SR models.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-16T12:46:10Z</published>
+    <arxiv:comment>Journal extension of DRN for lightweight super-resolution</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yong Guo</name>
+    </author>
+    <author>
+      <name>Mingkui Tan</name>
+    </author>
+    <author>
+      <name>Zeshuai Deng</name>
+    </author>
+    <author>
+      <name>Jingdong Wang</name>
+    </author>
+    <author>
+      <name>Qi Chen</name>
+    </author>
+    <author>
+      <name>Jiezhang Cao</name>
+    </author>
+    <author>
+      <name>Yanwu Xu</name>
+    </author>
+    <author>
+      <name>Jian Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.02921v1</id>
+    <title>Enhanced Deep Residual Networks for Single Image Super-Resolution</title>
+    <updated>2017-07-10T16:07:30Z</updated>
+    <link href="https://arxiv.org/abs/1707.02921v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.02921v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent research on super-resolution has progressed with the development of deep convolutional neural networks (DCNN). In particular, residual learning techniques exhibit improved performance. In this paper, we develop an enhanced deep super-resolution network (EDSR) with performance exceeding those of current state-of-the-art SR methods. The significant performance improvement of our model is due to optimization by removing unnecessary modules in conventional residual networks. The performance is further improved by expanding the model size while we stabilize the training procedure. We also propose a new multi-scale deep super-resolution system (MDSR) and training method, which can reconstruct high-resolution images of different upscaling factors in a single model. The proposed methods show superior performance over the state-of-the-art methods on benchmark datasets and prove its excellence by winning the NTIRE2017 Super-Resolution Challenge.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-10T16:07:30Z</published>
+    <arxiv:comment>To appear in CVPR 2017 workshop. Best paper award of the NTIRE2017 workshop, and the winners of the NTIRE2017 Challenge on Single Image Super-Resolution</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bee Lim</name>
+    </author>
+    <author>
+      <name>Sanghyun Son</name>
+    </author>
+    <author>
+      <name>Heewon Kim</name>
+    </author>
+    <author>
+      <name>Seungjun Nah</name>
+    </author>
+    <author>
+      <name>Kyoung Mu Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.00722v5</id>
+    <title>DRCT: Saving Image Super-resolution away from Information Bottleneck</title>
+    <updated>2024-11-23T18:11:41Z</updated>
+    <link href="https://arxiv.org/abs/2404.00722v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.00722v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, Vision Transformer-based approaches for low-level vision tasks have achieved widespread success. Unlike CNN-based models, Transformers are more adept at capturing long-range dependencies, enabling the reconstruction of images utilizing non-local information. In the domain of super-resolution, Swin-transformer-based models have become mainstream due to their capability of global spatial information modeling and their shifting-window attention mechanism that facilitates the interchange of information between different windows. Many researchers have enhanced model performance by expanding the receptive fields or designing meticulous networks, yielding commendable results. However, we observed that it is a general phenomenon for the feature map intensity to be abruptly suppressed to small values towards the network's end. This implies an information bottleneck and a diminishment of spatial information, implicitly limiting the model's potential. To address this, we propose the Dense-residual-connected Transformer (DRCT), aimed at mitigating the loss of spatial information and stabilizing the information flow through dense-residual connections between layers, thereby unleashing the model's potential and saving the model away from information bottleneck. Experiment results indicate that our approach surpasses state-of-the-art methods on benchmark datasets and performs commendably at the NTIRE-2024 Image Super-Resolution (x4) Challenge. Our source code is available at https://github.com/ming053l/DRCT</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-31T15:34:45Z</published>
+    <arxiv:comment>Accepted by CVPRW2024, NTIRE Image Super-resolution (x4)</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chih-Chung Hsu</name>
+    </author>
+    <author>
+      <name>Chia-Ming Lee</name>
+    </author>
+    <author>
+      <name>Yi-Shiuan Chou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.09351v1</id>
+    <title>Simon-SR: Spatially Adaptive Modulation and Visual Prompt Adaptation for Text-Reinforced Super-Resolution</title>
+    <updated>2026-07-10T12:30:00Z</updated>
+    <link href="https://arxiv.org/abs/2607.09351v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.09351v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Single Image Super-Resolution (SISR) reconstructs high-quality images from low-resolution inputs. While recent multi-modal methods improve perceptual quality, they remain sensitive to erroneous priors and require expensive annotations. To address these issues, we propose Simon-SR, a multi-modal SISR framework leveraging learnable prompts for efficient semantic mining and robust text-image fusion. Our approach combines Contrastive Prompt Learning with Prompt-Guided Spatially Adaptive Refinement to enhance multi-modal alignment. Experiments demonstrate that Simon-SR surpasses state-of-the-art methods, achieving maximum improvements of 0.50 dB in PSNR, 0.0133 in SSIM, and 0.0695 in LPIPS. Code will be released.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-10T12:30:00Z</published>
+    <arxiv:comment>Multi-modal Single Image Super-Resolution</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Haotong Cheng</name>
+    </author>
+    <author>
+      <name>Yuxuan Li</name>
+    </author>
+    <author>
+      <name>Zijie Cui</name>
+    </author>
+    <author>
+      <name>Rongling Tan</name>
+    </author>
+    <author>
+      <name>Chenyuan Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.12811v1</id>
+    <title>OARS: Process-Aware Online Alignment for Generative Real-World Image Super-Resolution</title>
+    <updated>2026-03-13T09:12:46Z</updated>
+    <link href="https://arxiv.org/abs/2603.12811v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.12811v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Aligning generative real-world image super-resolution models with human visual preference is challenging due to the perception--fidelity trade-off and diverse, unknown degradations. Prior approaches rely on offline preference optimization and static metric aggregation, which are often non-interpretable and prone to pseudo-diversity under strong conditioning. We propose OARS, a process-aware online alignment framework built on COMPASS, a MLLM-based reward that evaluates the LR to SR transition by jointly modeling fidelity preservation and perceptual gain with an input-quality-adaptive trade-off. To train COMPASS, we curate COMPASS-20K spanning synthetic and real degradations, and introduce a three-stage perceptual annotation pipeline that yields calibrated, fine-grained training labels. Guided by COMPASS, OARS performs progressive online alignment from cold-start flow matching to full-reference and finally reference-free RL via shallow LoRA optimization for on-policy exploration. Extensive experiments and user studies demonstrate consistent perceptual improvements while maintaining fidelity, achieving state-of-the-art performance on Real-ISR benchmarks.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-13T09:12:46Z</published>
+    <arxiv:comment>Super-Resolution, Reinforcement Learning</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shijie Zhao</name>
+    </author>
+    <author>
+      <name>Xuanyu Zhang</name>
+    </author>
+    <author>
+      <name>Bin Chen</name>
+    </author>
+    <author>
+      <name>Weiqi Li</name>
+    </author>
+    <author>
+      <name>Qunliang Xing</name>
+    </author>
+    <author>
+      <name>Kexin Zhang</name>
+    </author>
+    <author>
+      <name>Yan Wang</name>
+    </author>
+    <author>
+      <name>Junlin Li</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <author>
+      <name>Jian Zhang</name>
+    </author>
+    <author>
+      <name>Tianfan Xue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.12488v1</id>
+    <title>Benefiting from Multitask Learning to Improve Single Image Super-Resolution</title>
+    <updated>2019-07-29T15:37:05Z</updated>
+    <link href="https://arxiv.org/abs/1907.12488v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.12488v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite significant progress toward super resolving more realistic images by deeper convolutional neural networks (CNNs), reconstructing fine and natural textures still remains a challenging problem. Recent works on single image super resolution (SISR) are mostly based on optimizing pixel and content wise similarity between recovered and high-resolution (HR) images and do not benefit from recognizability of semantic classes. In this paper, we introduce a novel approach using categorical information to tackle the SISR problem; we present a decoder architecture able to extract and use semantic information to super-resolve a given image by using multitask learning, simultaneously for image super-resolution and semantic segmentation. To explore categorical information during training, the proposed decoder only employs one shared deep network for two task-specific output layers. At run-time only layers resulting HR image are used and no segmentation label is required. Extensive perceptual experiments and a user study on images randomly selected from COCO-Stuff dataset demonstrate the effectiveness of our proposed method and it outperforms the state-of-the-art methods.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-29T15:37:05Z</published>
+    <arxiv:comment>accepted at Neurocomputing (Special Issue on Deep Learning for Image Super-Resolution), 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mohammad Saeed Rad</name>
+    </author>
+    <author>
+      <name>Behzad Bozorgtabar</name>
+    </author>
+    <author>
+      <name>Claudiu Musat</name>
+    </author>
+    <author>
+      <name>Urs-Viktor Marti</name>
+    </author>
+    <author>
+      <name>Max Basler</name>
+    </author>
+    <author>
+      <name>Hazim Kemal Ekenel</name>
+    </author>
+    <author>
+      <name>Jean-Philippe Thiran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.03198v1</id>
+    <title>The Eleventh NTIRE 2026 Efficient Super-Resolution Challenge Report</title>
+    <updated>2026-04-03T17:17:26Z</updated>
+    <link href="https://arxiv.org/abs/2604.03198v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.03198v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper reviews the NTIRE 2026 challenge on efficient single-image super-resolution with a focus on the proposed solutions and results. The aim of this challenge is to devise a network that reduces one or several aspects, such as runtime, parameters, and FLOPs, while maintaining PSNR of around 26.90 dB on the DIV2K_LSDIR_valid dataset, and 26.99 dB on the DIV2K_LSDIR_test dataset. The challenge had 95 registered participants, and 15 teams made valid submissions. They gauge the state-of-the-art results for efficient single-image super-resolution.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-03T17:17:26Z</published>
+    <arxiv:comment>CVPR 2026 NTIRE Workshop Paper, Efficient Super Resolution Technical Report</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bin Ren</name>
+    </author>
+    <author>
+      <name>Hang Guo</name>
+    </author>
+    <author>
+      <name>Yan Shu</name>
+    </author>
+    <author>
+      <name>Jiaqi Ma</name>
+    </author>
+    <author>
+      <name>Ziteng Cui</name>
+    </author>
+    <author>
+      <name>Shuhong Liu</name>
+    </author>
+    <author>
+      <name>Guofeng Mei</name>
+    </author>
+    <author>
+      <name>Lei Sun</name>
+    </author>
+    <author>
+      <name>Zongwei Wu</name>
+    </author>
+    <author>
+      <name>Fahad Shahbaz Khan</name>
+    </author>
+    <author>
+      <name>Salman Khan</name>
+    </author>
+    <author>
+      <name>Radu Timofte</name>
+    </author>
+    <author>
+      <name>Yawei Li</name>
+    </author>
+    <author>
+      <name>Hongyuan Yu</name>
+    </author>
+    <author>
+      <name>Pufan Xu</name>
+    </author>
+    <author>
+      <name>Chen Wu</name>
+    </author>
+    <author>
+      <name>Long Peng</name>
+    </author>
+    <author>
+      <name>Jiaojiao Yi</name>
+    </author>
+    <author>
+      <name>Siyang Yi</name>
+    </author>
+    <author>
+      <name>Yuning Cui</name>
+    </author>
+    <author>
+      <name>Jingyuan Xia</name>
+    </author>
+    <author>
+      <name>Xing Mou</name>
+    </author>
+    <author>
+      <name>Keji He</name>
+    </author>
+    <author>
+      <name>Jinlin Wu</name>
+    </author>
+    <author>
+      <name>Zongang Gao</name>
+    </author>
+    <author>
+      <name>Sen Yang</name>
+    </author>
+    <author>
+      <name>Rui Zheng</name>
+    </author>
+    <author>
+      <name>Fengguo Li</name>
+    </author>
+    <author>
+      <name>Yecheng Lei</name>
+    </author>
+    <author>
+      <name>Wenkai Min</name>
+    </author>
+    <author>
+      <name>Jie Liu</name>
+    </author>
+    <author>
+      <name>Keye Cao</name>
+    </author>
+    <author>
+      <name>Shubham Sharma</name>
+    </author>
+    <author>
+      <name>Manish Prasad</name>
+    </author>
+    <author>
+      <name>Haobo Li</name>
+    </author>
+    <author>
+      <name>Matin Fazel</name>
+    </author>
+    <author>
+      <name>Abdelhak Bentaleb</name>
+    </author>
+    <author>
+      <name>Rui Chen</name>
+    </author>
+    <author>
+      <name>Shurui Shi</name>
+    </author>
+    <author>
+      <name>Zitao Dai</name>
+    </author>
+    <author>
+      <name>Qingliang Liu</name>
+    </author>
+    <author>
+      <name>Yang Cheng</name>
+    </author>
+    <author>
+      <name>Jing Hu</name>
+    </author>
+    <author>
+      <name>Xuan Zhang</name>
+    </author>
+    <author>
+      <name>Rui Ding</name>
+    </author>
+    <author>
+      <name>Tingyi Zhang</name>
+    </author>
+    <author>
+      <name>Hui Deng</name>
+    </author>
+    <author>
+      <name>Mengyang Wang</name>
+    </author>
+    <author>
+      <name>Fulin Liu</name>
+    </author>
+    <author>
+      <name>Jing Wei</name>
+    </author>
+    <author>
+      <name>Qian Wang</name>
+    </author>
+    <author>
+      <name>Hongying Liu</name>
+    </author>
+    <author>
+      <name>Mingyang Li</name>
+    </author>
+    <author>
+      <name>Guanglu Dong</name>
+    </author>
+    <author>
+      <name>Zheng Yang</name>
+    </author>
+    <author>
+      <name>Chao Ren</name>
+    </author>
+    <author>
+      <name>Hongbo Fang</name>
+    </author>
+    <author>
+      <name>Lingxuan Li</name>
+    </author>
+    <author>
+      <name>Lin Si</name>
+    </author>
+    <author>
+      <name>Pan Gao</name>
+    </author>
+    <author>
+      <name>Moncef Gabbouj</name>
+    </author>
+    <author>
+      <name>Watchara Ruangsang</name>
+    </author>
+    <author>
+      <name>Supavadee Aramvith</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.08332v2</id>
+    <title>BSRT: Improving Burst Super-Resolution with Swin Transformer and Flow-Guided Deformable Alignment</title>
+    <updated>2022-04-22T15:02:42Z</updated>
+    <link href="https://arxiv.org/abs/2204.08332v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.08332v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work addresses the Burst Super-Resolution (BurstSR) task using a new architecture, which requires restoring a high-quality image from a sequence of noisy, misaligned, and low-resolution RAW bursts. To overcome the challenges in BurstSR, we propose a Burst Super-Resolution Transformer (BSRT), which can significantly improve the capability of extracting inter-frame information and reconstruction. To achieve this goal, we propose a Pyramid Flow-Guided Deformable Convolution Network (Pyramid FG-DCN) and incorporate Swin Transformer Blocks and Groups as our main backbone. More specifically, we combine optical flows and deformable convolutions, hence our BSRT can handle misalignment and aggregate the potential texture information in multi-frames more efficiently. In addition, our Transformer-based structure can capture long-range dependency to further improve the performance. The evaluation on both synthetic and real-world tracks demonstrates that our approach achieves a new state-of-the-art in BurstSR task. Further, our BSRT wins the championship in the NTIRE2022 Burst Super-Resolution Challenge.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-18T14:23:10Z</published>
+    <arxiv:comment>CVPRW, Winner method in NTIRE 2022 Burst Super-Resolution Challenge Real-World Track</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ziwei Luo</name>
+    </author>
+    <author>
+      <name>Youwei Li</name>
+    </author>
+    <author>
+      <name>Shen Cheng</name>
+    </author>
+    <author>
+      <name>Lei Yu</name>
+    </author>
+    <author>
+      <name>Qi Wu</name>
+    </author>
+    <author>
+      <name>Zhihong Wen</name>
+    </author>
+    <author>
+      <name>Haoqiang Fan</name>
+    </author>
+    <author>
+      <name>Jian Sun</name>
+    </author>
+    <author>
+      <name>Shuaicheng Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.10575v5</id>
+    <title>Label-free chip-based evanescent light scattering super-resolution and superior-contrast optical microscopy (cELS)</title>
+    <updated>2022-02-24T10:35:07Z</updated>
+    <link href="https://arxiv.org/abs/2108.10575v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.10575v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chip-based Evanescent Light Scattering (cELS) utilizes the multiple modes of a high-index contrast optical waveguide for near-field illumination of unlabeled samples, thereby repositioning the highest spatial frequencies of the sample into the far-field. The multiple modes scattering off the sample with different phase differences is engineered to have random spatial distributions within the integration time of the camera, mitigating the coherent speckle noise. This enables label-free superior-contrast imaging of weakly scattering nanosized specimens such as extra-cellular vesicles (EVs) and liposomes, dynamics of living HeLa cells etc. The article explains and validates experimentally the physics behind cELS by demonstrating a multi-moded straight waveguide as a partially coherent light source. For isotropic super-resolution, spatially incoherent light engineered via multiple-arms waveguide chip and intensity-fluctuation based algorithms are used. The proof-of-concept results are demonstrated on 100 nm polystyrene beads and resolution improvement of close to 2X is shown. cELS also realizes (2-10)X more contrast as opposed to conventional imaging techniques. In addition, cELS platform is miniaturized and enables large field-of-view imaging compared to state of the art label-free techniques. cELS holds a potential for label-free super-resolution imaging of nanosized biological specimens at high-throughput.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-24T08:25:13Z</published>
+    <arxiv:comment>Modified the paper as it is not super-resolution but contrast enhancement happening</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Nikhil Jayakumar</name>
+    </author>
+    <author>
+      <name>Firehun T Dullo</name>
+    </author>
+    <author>
+      <name>Vishesh Dubey</name>
+    </author>
+    <author>
+      <name>Azeem Ahmad Ahmad</name>
+    </author>
+    <author>
+      <name>Jennifer Cauzzo</name>
+    </author>
+    <author>
+      <name>Eduarda Mazagao Guerreiro</name>
+    </author>
+    <author>
+      <name>Omri Snir</name>
+    </author>
+    <author>
+      <name>Natasa Skalko-Basnet</name>
+    </author>
+    <author>
+      <name>Krishna Agarwal</name>
+    </author>
+    <author>
+      <name>Balpreet Singh Ahluwalia</name>
+    </author>
+    <arxiv:doi>10.1515/nanoph-2022-0100</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1515/nanoph-2022-0100" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.03422v6</id>
+    <title>MRI Super-Resolution using Multi-Channel Total Variation</title>
+    <updated>2019-09-09T16:42:17Z</updated>
+    <link href="https://arxiv.org/abs/1810.03422v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.03422v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a generative model for super-resolution in routine clinical magnetic resonance images (MRI), of arbitrary orientation and contrast. The model recasts the recovery of high resolution images as an inverse problem, in which a forward model simulates the slice-select profile of the MR scanner. The paper introduces a prior based on multi-channel total variation for MRI super-resolution. Bias-variance trade-off is handled by estimating hyper-parameters from the low resolution input scans. The model was validated on a large database of brain images. The validation showed that the model can improve brain segmentation, that it can recover anatomical information between images of different MR contrasts, and that it generalises well to the large variability present in MR images of different subjects. The implementation is freely available at https://github.com/brudfors/spm_superres</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-08T13:14:28Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>MIUA 2018. Communications in Computer and Information Science, vol 894</arxiv:journal_ref>
+    <author>
+      <name>Mikael Brudfors</name>
+    </author>
+    <author>
+      <name>Yael Balbastre</name>
+    </author>
+    <author>
+      <name>Parashkev Nachev</name>
+    </author>
+    <author>
+      <name>John Ashburner</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-00928-1_97</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-00928-1_97" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.15175v1</id>
+    <title>ShuffleMixer: An Efficient ConvNet for Image Super-Resolution</title>
+    <updated>2022-05-30T15:26:52Z</updated>
+    <link href="https://arxiv.org/abs/2205.15175v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.15175v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lightweight and efficiency are critical drivers for the practical application of image super-resolution (SR) algorithms. We propose a simple and effective approach, ShuffleMixer, for lightweight image super-resolution that explores large convolution and channel split-shuffle operation. In contrast to previous SR models that simply stack multiple small kernel convolutions or complex operators to learn representations, we explore a large kernel ConvNet for mobile-friendly SR design. Specifically, we develop a large depth-wise convolution and two projection layers based on channel splitting and shuffling as the basic component to mix features efficiently. Since the contexts of natural images are strongly locally correlated, using large depth-wise convolutions only is insufficient to reconstruct fine details. To overcome this problem while maintaining the efficiency of the proposed module, we introduce Fused-MBConvs into the proposed network to model the local connectivity of different features. Experimental results demonstrate that the proposed ShuffleMixer is about 6x smaller than the state-of-the-art methods in terms of model parameters and FLOPs while achieving competitive performance. In NTIRE 2022, our primary method won the model complexity track of the Efficient Super-Resolution Challenge [23]. The code is available at https://github.com/sunny2109/MobileSR-NTIRE2022.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-30T15:26:52Z</published>
+    <arxiv:comment>Winner of the model complexity track in NTIRE2022 Efficient Super-Resolution Challenge, CVPR 2022. The code is available at https://github.com/sunny2109/MobileSR-NTIRE2022</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Long Sun</name>
+    </author>
+    <author>
+      <name>Jinshan Pan</name>
+    </author>
+    <author>
+      <name>Jinhui Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.10343v2</id>
+    <title>The Ninth NTIRE 2024 Efficient Super-Resolution Challenge Report</title>
+    <updated>2024-06-25T13:05:30Z</updated>
+    <link href="https://arxiv.org/abs/2404.10343v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.10343v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper provides a comprehensive review of the NTIRE 2024 challenge, focusing on efficient single-image super-resolution (ESR) solutions and their outcomes. The task of this challenge is to super-resolve an input image with a magnification factor of x4 based on pairs of low and corresponding high-resolution images. The primary objective is to develop networks that optimize various aspects such as runtime, parameters, and FLOPs, while still maintaining a peak signal-to-noise ratio (PSNR) of approximately 26.90 dB on the DIV2K_LSDIR_valid dataset and 26.99 dB on the DIV2K_LSDIR_test dataset. In addition, this challenge has 4 tracks including the main track (overall performance), sub-track 1 (runtime), sub-track 2 (FLOPs), and sub-track 3 (parameters). In the main track, all three metrics (ie runtime, FLOPs, and parameter count) were considered. The ranking of the main track is calculated based on a weighted sum-up of the scores of all other sub-tracks. In sub-track 1, the practical runtime performance of the submissions was evaluated, and the corresponding score was used to determine the ranking. In sub-track 2, the number of FLOPs was considered. The score calculated based on the corresponding FLOPs was used to determine the ranking. In sub-track 3, the number of parameters was considered. The score calculated based on the corresponding parameters was used to determine the ranking. RLFN is set as the baseline for efficiency measurement. The challenge had 262 registered participants, and 34 teams made valid submissions. They gauge the state-of-the-art in efficient single-image super-resolution. To facilitate the reproducibility of the challenge and enable other researchers to build upon these findings, the code and the pre-trained model of validated solutions are made publicly available at https://github.com/Amazingren/NTIRE2024_ESR/.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-16T07:26:20Z</published>
+    <arxiv:comment>The report paper of NTIRE2024 Efficient Super-resolution, accepted by CVPRW2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Bin Ren</name>
+    </author>
+    <author>
+      <name>Yawei Li</name>
+    </author>
+    <author>
+      <name>Nancy Mehta</name>
+    </author>
+    <author>
+      <name>Radu Timofte</name>
+    </author>
+    <author>
+      <name>Hongyuan Yu</name>
+    </author>
+    <author>
+      <name>Cheng Wan</name>
+    </author>
+    <author>
+      <name>Yuxin Hong</name>
+    </author>
+    <author>
+      <name>Bingnan Han</name>
+    </author>
+    <author>
+      <name>Zhuoyuan Wu</name>
+    </author>
+    <author>
+      <name>Yajun Zou</name>
+    </author>
+    <author>
+      <name>Yuqing Liu</name>
+    </author>
+    <author>
+      <name>Jizhe Li</name>
+    </author>
+    <author>
+      <name>Keji He</name>
+    </author>
+    <author>
+      <name>Chao Fan</name>
+    </author>
+    <author>
+      <name>Heng Zhang</name>
+    </author>
+    <author>
+      <name>Xiaolin Zhang</name>
+    </author>
+    <author>
+      <name>Xuanwu Yin</name>
+    </author>
+    <author>
+      <name>Kunlong Zuo</name>
+    </author>
+    <author>
+      <name>Bohao Liao</name>
+    </author>
+    <author>
+      <name>Peizhe Xia</name>
+    </author>
+    <author>
+      <name>Long Peng</name>
+    </author>
+    <author>
+      <name>Zhibo Du</name>
+    </author>
+    <author>
+      <name>Xin Di</name>
+    </author>
+    <author>
+      <name>Wangkai Li</name>
+    </author>
+    <author>
+      <name>Yang Wang</name>
+    </author>
+    <author>
+      <name>Wei Zhai</name>
+    </author>
+    <author>
+      <name>Renjing Pei</name>
+    </author>
+    <author>
+      <name>Jiaming Guo</name>
+    </author>
+    <author>
+      <name>Songcen Xu</name>
+    </author>
+    <author>
+      <name>Yang Cao</name>
+    </author>
+    <author>
+      <name>Zhengjun Zha</name>
+    </author>
+    <author>
+      <name>Yan Wang</name>
+    </author>
+    <author>
+      <name>Yi Liu</name>
+    </author>
+    <author>
+      <name>Qing Wang</name>
+    </author>
+    <author>
+      <name>Gang Zhang</name>
+    </author>
+    <author>
+      <name>Liou Zhang</name>
+    </author>
+    <author>
+      <name>Shijie Zhao</name>
+    </author>
+    <author>
+      <name>Long Sun</name>
+    </author>
+    <author>
+      <name>Jinshan Pan</name>
+    </author>
+    <author>
+      <name>Jiangxin Dong</name>
+    </author>
+    <author>
+      <name>Jinhui Tang</name>
+    </author>
+    <author>
+      <name>Xin Liu</name>
+    </author>
+    <author>
+      <name>Min Yan</name>
+    </author>
+    <author>
+      <name>Qian Wang</name>
+    </author>
+    <author>
+      <name>Menghan Zhou</name>
+    </author>
+    <author>
+      <name>Yiqiang Yan</name>
+    </author>
+    <author>
+      <name>Yixuan Liu</name>
+    </author>
+    <author>
+      <name>Wensong Chan</name>
+    </author>
+    <author>
+      <name>Dehua Tang</name>
+    </author>
+    <author>
+      <name>Dong Zhou</name>
+    </author>
+    <author>
+      <name>Li Wang</name>
+    </author>
+    <author>
+      <name>Lu Tian</name>
+    </author>
+    <author>
+      <name>Barsoum Emad</name>
+    </author>
+    <author>
+      <name>Bohan Jia</name>
+    </author>
+    <author>
+      <name>Junbo Qiao</name>
+    </author>
+    <author>
+      <name>Yunshuai Zhou</name>
+    </author>
+    <author>
+      <name>Yun Zhang</name>
+    </author>
+    <author>
+      <name>Wei Li</name>
+    </author>
+    <author>
+      <name>Shaohui Lin</name>
+    </author>
+    <author>
+      <name>Shenglong Zhou</name>
+    </author>
+    <author>
+      <name>Binbin Chen</name>
+    </author>
+    <author>
+      <name>Jincheng Liao</name>
+    </author>
+    <author>
+      <name>Suiyi Zhao</name>
+    </author>
+    <author>
+      <name>Zhao Zhang</name>
+    </author>
+    <author>
+      <name>Bo Wang</name>
+    </author>
+    <author>
+      <name>Yan Luo</name>
+    </author>
+    <author>
+      <name>Yanyan Wei</name>
+    </author>
+    <author>
+      <name>Feng Li</name>
+    </author>
+    <author>
+      <name>Mingshen Wang</name>
+    </author>
+    <author>
+      <name>Yawei Li</name>
+    </author>
+    <author>
+      <name>Jinhan Guan</name>
+    </author>
+    <author>
+      <name>Dehua Hu</name>
+    </author>
+    <author>
+      <name>Jiawei Yu</name>
+    </author>
+    <author>
+      <name>Qisheng Xu</name>
+    </author>
+    <author>
+      <name>Tao Sun</name>
+    </author>
+    <author>
+      <name>Long Lan</name>
+    </author>
+    <author>
+      <name>Kele Xu</name>
+    </author>
+    <author>
+      <name>Xin Lin</name>
+    </author>
+    <author>
+      <name>Jingtong Yue</name>
+    </author>
+    <author>
+      <name>Lehan Yang</name>
+    </author>
+    <author>
+      <name>Shiyi Du</name>
+    </author>
+    <author>
+      <name>Lu Qi</name>
+    </author>
+    <author>
+      <name>Chao Ren</name>
+    </author>
+    <author>
+      <name>Zeyu Han</name>
+    </author>
+    <author>
+      <name>Yuhan Wang</name>
+    </author>
+    <author>
+      <name>Chaolin Chen</name>
+    </author>
+    <author>
+      <name>Haobo Li</name>
+    </author>
+    <author>
+      <name>Mingjun Zheng</name>
+    </author>
+    <author>
+      <name>Zhongbao Yang</name>
+    </author>
+    <author>
+      <name>Lianhong Song</name>
+    </author>
+    <author>
+      <name>Xingzhuo Yan</name>
+    </author>
+    <author>
+      <name>Minghan Fu</name>
+    </author>
+    <author>
+      <name>Jingyi Zhang</name>
+    </author>
+    <author>
+      <name>Baiang Li</name>
+    </author>
+    <author>
+      <name>Qi Zhu</name>
+    </author>
+    <author>
+      <name>Xiaogang Xu</name>
+    </author>
+    <author>
+      <name>Dan Guo</name>
+    </author>
+    <author>
+      <name>Chunle Guo</name>
+    </author>
+    <author>
+      <name>Jiadi Chen</name>
+    </author>
+    <author>
+      <name>Huanhuan Long</name>
+    </author>
+    <author>
+      <name>Chunjiang Duanmu</name>
+    </author>
+    <author>
+      <name>Xiaoyan Lei</name>
+    </author>
+    <author>
+      <name>Jie Liu</name>
+    </author>
+    <author>
+      <name>Weilin Jia</name>
+    </author>
+    <author>
+      <name>Weifeng Cao</name>
+    </author>
+    <author>
+      <name>Wenlong Zhang</name>
+    </author>
+    <author>
+      <name>Yanyu Mao</name>
+    </author>
+    <author>
+      <name>Ruilong Guo</name>
+    </author>
+    <author>
+      <name>Nihao Zhang</name>
+    </author>
+    <author>
+      <name>Qian Wang</name>
+    </author>
+    <author>
+      <name>Manoj Pandey</name>
+    </author>
+    <author>
+      <name>Maksym Chernozhukov</name>
+    </author>
+    <author>
+      <name>Giang Le</name>
+    </author>
+    <author>
+      <name>Shuli Cheng</name>
+    </author>
+    <author>
+      <name>Hongyuan Wang</name>
+    </author>
+    <author>
+      <name>Ziyan Wei</name>
+    </author>
+    <author>
+      <name>Qingting Tang</name>
+    </author>
+    <author>
+      <name>Liejun Wang</name>
+    </author>
+    <author>
+      <name>Yongming Li</name>
+    </author>
+    <author>
+      <name>Yanhui Guo</name>
+    </author>
+    <author>
+      <name>Hao Xu</name>
+    </author>
+    <author>
+      <name>Akram Khatami-Rizi</name>
+    </author>
+    <author>
+      <name>Ahmad Mahmoudi-Aznaveh</name>
+    </author>
+    <author>
+      <name>Chih-Chung Hsu</name>
+    </author>
+    <author>
+      <name>Chia-Ming Lee</name>
+    </author>
+    <author>
+      <name>Yi-Shiuan Chou</name>
+    </author>
+    <author>
+      <name>Amogh Joshi</name>
+    </author>
+    <author>
+      <name>Nikhil Akalwadi</name>
+    </author>
+    <author>
+      <name>Sampada Malagi</name>
+    </author>
+    <author>
+      <name>Palani Yashaswini</name>
+    </author>
+    <author>
+      <name>Chaitra Desai</name>
+    </author>
+    <author>
+      <name>Ramesh Ashok Tabib</name>
+    </author>
+    <author>
+      <name>Ujwala Patil</name>
+    </author>
+    <author>
+      <name>Uma Mudenagudi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.3995v1</id>
+    <title>Gradient-based adaptive interpolation in super-resolution image restoration</title>
+    <updated>2009-03-24T01:33:15Z</updated>
+    <link href="https://arxiv.org/abs/0903.3995v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.3995v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper presents a super-resolution method based on gradient-based adaptive interpolation. In this method, in addition to considering the distance between the interpolated pixel and the neighboring valid pixel, the interpolation coefficients take the local gradient of the original image into account. The smaller the local gradient of a pixel is, the more influence it should have on the interpolated pixel. And the interpolated high resolution image is finally deblurred by the application of wiener filter. Experimental results show that our proposed method not only substantially improves the subjective and objective quality of restored images, especially enhances edges, but also is robust to the registration error and has low computational complexity.</summary>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-24T01:33:15Z</published>
+    <arxiv:comment>4pages, 7figures, This paper presents a super-resolution method based on gradient-based adaptive interpolation</arxiv:comment>
+    <arxiv:primary_category term="cs.MM"/>
+    <author>
+      <name>Jinyu Chu</name>
+    </author>
+    <author>
+      <name>Ju Liu</name>
+    </author>
+    <author>
+      <name>Jianping Qiao</name>
+    </author>
+    <author>
+      <name>Xiaoling Wang</name>
+    </author>
+    <author>
+      <name>Yujun Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.02141v2</id>
+    <title>Light Field Super-Resolution Via Graph-Based Regularization</title>
+    <updated>2017-07-31T17:17:15Z</updated>
+    <link href="https://arxiv.org/abs/1701.02141v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.02141v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Light field cameras capture the 3D information in a scene with a single exposure. This special feature makes light field cameras very appealing for a variety of applications: from post-capture refocus, to depth estimation and image-based rendering. However, light field cameras suffer by design from strong limitations in their spatial resolution, which should therefore be augmented by computational methods. On the one hand, off-the-shelf single-frame and multi-frame super-resolution algorithms are not ideal for light field data, as they do not consider its particular structure. On the other hand, the few super-resolution algorithms explicitly tailored for light field data exhibit significant limitations, such as the need to estimate an explicit disparity map at each view. In this work we propose a new light field super-resolution algorithm meant to address these limitations. We adopt a multi-frame alike super-resolution approach, where the complementary information in the different light field views is used to augment the spatial resolution of the whole light field. We show that coupling the multi-frame approach with a graph regularizer, that enforces the light field structure via nonlocal self similarities, permits to avoid the costly and challenging disparity estimation step for all the views. Extensive experiments show that the new algorithm compares favorably to the other state-of-the-art methods for light field super-resolution, both in terms of PSNR and visual quality.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-09T11:32:30Z</published>
+    <arxiv:comment>This new version includes more material. In particular, we added: a new section on the computational complexity of the proposed algorithm, experimental comparisons with a CNN-based super-resolution algorithm, and new experiments on a third dataset</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Mattia Rossi</name>
+    </author>
+    <author>
+      <name>Pascal Frossard</name>
+    </author>
+    <arxiv:doi>10.1109/TIP.2018.2828983</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TIP.2018.2828983" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.00406v3</id>
+    <title>Discovering Distinctive "Semantics" in Super-Resolution Networks</title>
+    <updated>2022-05-22T16:24:07Z</updated>
+    <link href="https://arxiv.org/abs/2108.00406v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.00406v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Image super-resolution (SR) is a representative low-level vision problem. Although deep SR networks have achieved extraordinary success, we are still unaware of their working mechanisms. Specifically, whether SR networks can learn semantic information, or just perform complex mapping function? What hinders SR networks from generalizing to real-world data? These questions not only raise our curiosity, but also influence SR network development. In this paper, we make the primary attempt to answer the above fundamental questions. After comprehensively analyzing the feature representations (via dimensionality reduction and visualization), we successfully discover the distinctive "semantics" in SR networks, i.e., deep degradation representations (DDR), which relate to image degradation instead of image content. We show that a well-trained deep SR network is naturally a good descriptor of degradation information. Our experiments also reveal two key factors (adversarial learning and global residual) that influence the extraction of such semantics. We further apply DDR in several interesting applications (such as distortion identification, blind SR and generalization evaluation) and achieve promising results, demonstrating the correctness and effectiveness of our findings.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-01T09:12:44Z</published>
+    <arxiv:comment>discovering and interpreting deep degradation representations (DDR) in super-resolution networks</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Yihao Liu</name>
+    </author>
+    <author>
+      <name>Anran Liu</name>
+    </author>
+    <author>
+      <name>Jinjin Gu</name>
+    </author>
+    <author>
+      <name>Zhipeng Zhang</name>
+    </author>
+    <author>
+      <name>Wenhao Wu</name>
+    </author>
+    <author>
+      <name>Yu Qiao</name>
+    </author>
+    <author>
+      <name>Chao Dong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.18137v2</id>
+    <title>Advancing Super-Resolution in Neural Radiance Fields via Variational Diffusion Strategies</title>
+    <updated>2025-01-05T07:36:42Z</updated>
+    <link href="https://arxiv.org/abs/2410.18137v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.18137v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a novel method for diffusion-guided frameworks for view-consistent super-resolution (SR) in neural rendering. Our approach leverages existing 2D SR models in conjunction with advanced techniques such as Variational Score Distilling (VSD) and a LoRA fine-tuning helper, with spatial training to significantly boost the quality and consistency of upscaled 2D images compared to the previous methods in the literature, such as Renoised Score Distillation (RSD) proposed in DiSR-NeRF (1), or SDS proposed in DreamFusion. The VSD score facilitates precise fine-tuning of SR models, resulting in high-quality, view-consistent images. To address the common challenge of inconsistencies among independent SR 2D images, we integrate Iterative 3D Synchronization (I3DS) from the DiSR-NeRF framework. Our quantitative benchmarks and qualitative results on the LLFF dataset demonstrate the superior performance of our system compared to existing methods such as DiSR-NeRF.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-22T00:02:26Z</published>
+    <arxiv:comment>All our code is available at https://github.com/shreyvish5678/Advancing-Super-Resolution-in-Neural-Radiance-Fields-via-Variational-Diffusion-Strategies</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Shrey Vishen</name>
+    </author>
+    <author>
+      <name>Jatin Sarabu</name>
+    </author>
+    <author>
+      <name>Saurav Kumar</name>
+    </author>
+    <author>
+      <name>Chinmay Bharathulwar</name>
+    </author>
+    <author>
+      <name>Rithwick Lakshmanan</name>
+    </author>
+    <author>
+      <name>Vishnu Srinivas</name>
+    </author>
+  </entry>
+</feed>

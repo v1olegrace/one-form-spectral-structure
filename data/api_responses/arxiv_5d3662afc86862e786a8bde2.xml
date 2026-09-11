@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6PG0IB4LTGdFIF1r0u3xsM/GdxI</id>
+  <title>arXiv Query: search_query=all:quasi-definite OR all:moment OR all:functional OR all:indefinite OR all:orthogonal OR all:polynomials&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:52:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quasi-definite+OR+(all:moment+OR+(all:functional+OR+(all:indefinite+OR+(all:orthogonal+OR+all:polynomials))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>715005</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/math/0512358v2</id>
+    <title>Discrete Painlevé equations for recurrence coefficients of orthogonal polynomials</title>
+    <updated>2006-01-16T11:40:36Z</updated>
+    <link href="https://arxiv.org/abs/math/0512358v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0512358v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give four examples of families of orthogonal polynomials for which the coefficients in the recurrence relation satisfy a discrete Painlevé equation. The first example deals with Freud weights $|x|^ρ\exp(-|x|^m)$ on the real line, and we repeat Freud's derivation and analysis for the cases $m=2,4,6$. The Freud equations for the recurrence coefficients when $m=4$ corresponds to the discrete Painlevé I equation. The second example deals with orthogonal polynomials on the unit circle for the weight $\exp(λ\cos θ)$. These orthogonal polynomials are important in the theory of random unitary matrices. Periwal and Shevitz have shown that the recurrence coefficients satisfy the discrete Painlevé II equation. The third example deals with discrete orthogonal polynomials on the positive integers. We show that the recurrence coefficients of generalized Charlier polynomials can be obtained from a solution of the discrete Painlevé II equation. The fourth example deals with orthogonal polynomials on $\pm q^n$. We consider the discrete $q$-Hermite I polynomials and some discrete $q$-Freud polynomials for which the recurrence ceofficients satisfy a $q$-deformation of discrete Painlevé I.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-12-15T11:34:33Z</published>
+    <arxiv:comment>33 pages, 3 figures, submitted for the proceedings of the International Conference on Difference Equations, Special Functions, and Applications, Munich, Germany, July 2005. Revision includes an extra section on $q$-orthogonal polynomials</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Difference Equations, Special Functions and Orthogonal Polynomials (Eds. S. Elaydi et al.), World Scientific, 2007, pp. 687-725</arxiv:journal_ref>
+    <author>
+      <name>Walter Van Assche</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.10766v1</id>
+    <title>Orthogonal polynomials and Möbius transformations</title>
+    <updated>2019-04-15T20:05:29Z</updated>
+    <link href="https://arxiv.org/abs/1904.10766v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.10766v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given an orthogonal polynomial sequence on the real line, another sequence of polynomials can be found by composing these polynomials with a general Möbius transformation. In this work, we study the properties of such Möbius-transformed polynomials. We show that they satisfy an orthogonality relation in given curve of the complex plane with respect to a varying weight function and that they also enjoy several properties common to the orthogonal polynomial sequences on the real line --- e.g. a three-term recurrence relation, Christoffel-Darboux type identities, their zeros are simple, lie on the support of orthogonality and have the interlacing property, etc. Moreover, we also show that the Möbius-transformed polynomials obtained from classical orthogonal polynomials also satisfy a second-order differential equation, a Rodrigues' type formula and generating functions. As an application, we show that Hermite, Laguerre, Jacobi, Bessel and Romanovski polynomials are all related to each other by a suitable Möbius transformation. New orthogonality relations for Bessel and Romanovski polynomials are also presented.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-15T20:05:29Z</published>
+    <arxiv:comment>Keywords: Orthogonal polynomials, Möbius transformations, varying weight functions, classical orthogonal polynomials, Bessel polynomials, Romanovski polynomials</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>R. S. Vieira</name>
+    </author>
+    <author>
+      <name>V. Botta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.12707v4</id>
+    <title>Multiple orthogonal polynomials: Pearson equations and Christoffel formulas</title>
+    <updated>2022-10-13T22:31:44Z</updated>
+    <link href="https://arxiv.org/abs/2106.12707v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.12707v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multiple orthogonal polynomials with respect to two weights on the step-line are considered. A connection between different dual spectral matrices, one banded (recursion matrix) and one Hessenberg, respectively, and the Gauss-Borel factorization of the moment matrix is given. It is shown a hidden freedom exhibited by the spectral system related to the multiple orthogonal polynomials. Pearson equations are discussed, a Laguerre-Freud matrix is considered, and differential equations for type I and II multiple orthogonal polynomials, as well as for the corresponding linear forms are given. The Jacobi-Piñeiro multiple orthogonal polynomials of type I and type II are used as an illustrating case and the corresponding differential relations are presented. A permuting Christoffel transformation is discussed, finding the connection between the different families of multiple orthogonal polynomials. The Jacobi-Piñeiro case provides a convenient illustration of these symmetries, giving linear relations between different polynomials with shifted and permuted parameters. We also present the general theory for the perturbation of each weight by a different polynomial or rational function aka called Christoffel and Geronimus transformations. The connections formulas between the type II multiple orthogonal polynomials, the type I linear forms, as well as the vector Stieltjes-Markov vector functions is also presented. We illustrate these findings by analyzing the special case of modification by an even polynomial.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-24T00:53:26Z</published>
+    <arxiv:comment>Revised version, completely new section on general Christoffel and Geronimus for multiple orthogonal polynomials on the stepline</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Analysis and Mathematical Physics volume 12, Article number: 129 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Amilcar Branquinho</name>
+    </author>
+    <author>
+      <name>Ana Foulquié-Moreno</name>
+    </author>
+    <author>
+      <name>Manuel Mañas</name>
+    </author>
+    <arxiv:doi>10.1007/s13324-022-00734-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s13324-022-00734-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/0402002v1</id>
+    <title>Orthogonal polynomials, special functions and mathematical physics</title>
+    <updated>2004-02-02T14:10:37Z</updated>
+    <link href="https://arxiv.org/abs/math-ph/0402002v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math-ph/0402002v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the 6th Int. Symposium on OPSFA there were several communications dealing with concrete applications of orthogonal polynomials to experimental and theoretical physics, chemistry, biology and statistics. Here I make suggestions concerning the use of powerful apparatus of orthogonal polynomials and special functions in several lines of research in mathematical physics</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-02-02T14:10:37Z</published>
+    <arxiv:comment>LaTeX, 4 pages, Comunication presented to the 6th International Symposium on Orthogonal Polynomials, Special Functions and their Applications, Rome, June 2001 (late submission to arxiv.org)</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Comp. Appl. Math. 153 (2003) 543-545</arxiv:journal_ref>
+    <author>
+      <name>M. Lorente</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0411391v1</id>
+    <title>Fine Structure of the Zeros of Orthogonal Polynomials, I. A Tale of Two Pictures</title>
+    <updated>2004-11-17T18:24:12Z</updated>
+    <link href="https://arxiv.org/abs/math/0411391v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0411391v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Mhaskar-Saff found a kind of universal behavior for the bulk structure of the zeros of orthogonal polynomials for large $n$. Motivated by two plots, we look at the finer structure for the case of random Verblunsky coefficients and for what we call the BLS condition: $α_n = Cb^n + O((bΔ)^n)$. In the former case, we describe results of Stoiciu. In the latter case, we prove asymptotically equal spacing for the bulk of zeros.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-11-17T18:24:12Z</published>
+    <arxiv:comment>Keywords: orthogonal polynomials, Jacobi matrices, CMV matrices</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Barry Simon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9908147v1</id>
+    <title>Finding differential equations for symmetric generalized ultraspherical polynomials by using inversion methods</title>
+    <updated>1999-08-27T20:05:46Z</updated>
+    <link href="https://arxiv.org/abs/math/9908147v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9908147v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We find all spectral type differential equations satisfied by the symmetric generalized ultraspherical polynomials which are orthogonal on the interval [-1,1] with respect to the classical symmetric weight function for the Jacobi polynomials together with equal mass points at both ends of the interval of orthogonality.
+  In order to find explicit formulas for the coefficients of these differential equations we have to solve systems of equations involving derivatives of the classical Jacobi polynomials. These systems of equations have a unique solution which is given explicitly. This is a consequence of the Jacobi inversion formula.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-08-27T20:05:46Z</published>
+    <arxiv:comment>10 pages, published in Proceedings of the International Workshop on Orthogonal Polynomials in Mathematical Physics (Leganes, 1996), Universidad Carlos III Madrid (Leganes, 1997), 103-111. See also : http://dulcinea.uc3m.es/users/workshop/proceedings.html</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Proceedings of the International Workshop on Orthogonal Polynomials in Mathematical Physics (Leganés, 1996), Universidad Carlos III Madrid, Leganés, 1997, 103-111.</arxiv:journal_ref>
+    <author>
+      <name>J. Koekoek</name>
+    </author>
+    <author>
+      <name>R. Koekoek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.00770v2</id>
+    <title>Hypergeometric Multiple Orthogonal Polynomials and Random Walks</title>
+    <updated>2021-07-17T19:33:53Z</updated>
+    <link href="https://arxiv.org/abs/2107.00770v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.00770v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recently found hypergeometric multiple orthogonal polynomials on the step-line by Lima and Loureiro are shown to be random walk polynomials. It is proven that the corresponding Jacobi matrix and its transpose, which are nonnegative matrices and describe higher recurrence relations, can be normalized to two stochastic matrices, dual to each other. Using the Christoffel-Darboux formula on the step-line and the Poincaré theory for non-homogeneous recurrence relations it is proven that both stochastic matrices are related by transposition in the large $n$ limit. These random walks are beyond birth and death, as they describe a chain in where transitions to the two previous states are allowed, or in the dual to the two next states.The corresponding Karlin-McGregor representation formula is given for these new Markov chains. The regions of hypergeometric parameters where the Markov chains are recurrent or transient are given. Stochastic factorizations, in terms of pure birth and of pure death factors, for the corresponding Markov matrices of types I and II, are provided.Twelve uniform Jacobi matrices and the corresponding random walks, related to a Jacobi matrix of Toeplitz type, and theirs stochastic or semi-stochastic matrices (with sinks and sources), that describe Markov chains beyond birth and death, are found and studied. One of these uniform stochastic cases, which is a recurrent random walk, is the only hypergeometric multiple random walk having a uniform stochastic factorization. The corresponding weights, Jacobi and Markov transition matrices and sequences of type II multiple orthogonal polynomials are provided. Chain of Christoffel transformations connecting the stochastic uniform tuples between them, and the semi-stochastic uniform tuples, between them, are presented.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-01T22:50:01Z</published>
+    <arxiv:comment>In the revision we added explicit expressions for the type I multiple orthogonal polynomials associated with the uniform tuples</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Amílcar Branquinho</name>
+    </author>
+    <author>
+      <name>Juan E. Fernández-Díaz</name>
+    </author>
+    <author>
+      <name>Ana Foulquié-Moreno</name>
+    </author>
+    <author>
+      <name>Manuel Mañas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/0401051v1</id>
+    <title>Integrable systems on the lattice and orthogonal polynomials of discrete variable</title>
+    <updated>2004-01-29T15:50:51Z</updated>
+    <link href="https://arxiv.org/abs/math-ph/0401051v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math-ph/0401051v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Some particular examples of classical and quantum systems on the lattice are solved with the help of orthogonal polynomials and its connection to continuous models are explored.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-01-29T15:50:51Z</published>
+    <arxiv:comment>LaTeX, 10 pages, Comunication presented to the 6th International Symposium on Orthogonal Polynomials, Special Functions and their Applications, Rome, June 2001 (late submission to arxiv.org)</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Comp. Appl. Math 153 (2003) 321-330</arxiv:journal_ref>
+    <author>
+      <name>M. Lorente</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.07518v2</id>
+    <title>Orthogonal and multiple orthogonal polynomials, random matrices, and Painlevé equations</title>
+    <updated>2020-01-10T13:49:48Z</updated>
+    <link href="https://arxiv.org/abs/1904.07518v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.07518v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Orthogonal polynomials and multiple orthogonal polynomials are interesting special functions because there is a beautiful theory for them, with many examples and useful applications in mathematical physics, numerical analysis, statistics and probability and many other disciplines. In these notes we give an introduction to the use of orthogonal polynomials in random matrix theory, we explain the notion of multiple orthogonal polynomials, and we show the link with certain non-linear difference and differential equations known as Painlevé equations.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-16T07:56:31Z</published>
+    <arxiv:comment>48 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>in "Orthogonal Polynomials" (M. Foupouagnigni, W. Koepf, eds), Tutorials, Schools and Workshops in the Mathematical Sciences, Springer Nature Switzerland, 2020, pp. 629-683</arxiv:journal_ref>
+    <author>
+      <name>Walter Van Assche</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-36744-2_22</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-36744-2_22" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.07194v2</id>
+    <title>Multivariate Orthogonal Polynomials and Modified Moment Functionals</title>
+    <updated>2016-09-10T05:11:35Z</updated>
+    <link href="https://arxiv.org/abs/1601.07194v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.07194v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multivariate orthogonal polynomials can be introduced by using a moment functional defined on the linear space of polynomials in several variables with real coefficients. We study the so-called Uvarov and Christoffel modifications obtained by adding to the moment functional a finite set of mass points, or by multiplying it times a polynomial of total degree 2, respectively. Orthogonal polynomials associated with modified moment functionals will be studied, as well as the impact of the modification in useful properties of the orthogonal polynomials. Finally, some illustrative examples will be given.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-26T21:27:48Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>SIGMA 12 (2016), 090, 25 pages</arxiv:journal_ref>
+    <author>
+      <name>Antonia M. Delgado</name>
+    </author>
+    <author>
+      <name>Lidia Fernández</name>
+    </author>
+    <author>
+      <name>Teresa E. Pérez</name>
+    </author>
+    <author>
+      <name>Miguel A. Piñar</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2016.090</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2016.090" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.11178v2</id>
+    <title>Zeros of random orthogonal polynomials with complex Gaussian coefficients</title>
+    <updated>2018-02-08T20:40:46Z</updated>
+    <link href="https://arxiv.org/abs/1711.11178v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.11178v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $\{f_j\}_{j=0}^n$ be a sequence of orthonormal polynomials where the orthogonality relation is satisfied on either the real line or on the unit circle. We study zero distribution of random linear combinations of the form $$P_n(z)=\sum_{j=0}^nη_jf_j(z),$$ where $η_0,\dots,η_n$ are complex-valued i.i.d.~standard Gaussian random variables. Using the Christoffel-Darboux formula, the density function for the expected number of zeros of $P_n$ in these cases takes a very simple shape. From these expressions, under the mere assumption that the orthogonal polynomials are from the Nevai class, we give the limiting value of the density function away from their respective sets where the orthogonality holds. In the case when $\{f_j\}$ are orthogonal polynomials on the unit circle, the density function shows that the expected number of zeros of $P_n$ are clustering near the unit circle. To quantify this phenomenon, we give a result that estimates the expected number of complex zeros of $P_n$ in shrinking neighborhoods of compact subsets of the unit circle.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-30T01:36:39Z</published>
+    <arxiv:comment>This work combines arXiv:1605.06836 with arXiv:1608.02805 by the author to extend the results given therein to allow for a wider class of orthogonal polynomials. The work also provides some analogs of the results for random polynomials spanned by OPUC with real-valued i.i.d. standard Gaussian coefficients given in arXiv:1711.07852 by M. Yattselev and the author</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Aaron Yeager</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.04908v3</id>
+    <title>Asymptotics of matrix orthogonal polynomials on the real line</title>
+    <updated>2026-04-20T16:56:40Z</updated>
+    <link href="https://arxiv.org/abs/2508.04908v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.04908v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we are interested in matrix valued orthogonal polynomials on the real line with respect to exponential weights. We obtain strong asymptotics as the degree tends to infinity in different regions of the complex plane, as well as asymptotic behavior of recurrence coefficients and norms. The main tools are the Riemann-Hilbert formulation and the Deift-Zhou method of steepest descent, adapted to the matrix case. A central role is played by the matrix Szegő function, an object that has independent interest.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-06T22:17:06Z</published>
+    <arxiv:comment>41 pages, 7 figures. Extra material on orthonormal matrix orthogonal polynomials and limit zero distribution added in Section 2 and Section 4</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Alfredo Deaño</name>
+    </author>
+    <author>
+      <name>Pablo Román</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.08950v4</id>
+    <title>Discrete orthogonality relations for multi-indexed Laguerre and Jacobi polynomials</title>
+    <updated>2024-05-21T11:12:41Z</updated>
+    <link href="https://arxiv.org/abs/1907.08950v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.08950v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The discrete orthogonality relations hold for all the orthogonal polynomials obeying three term recurrence relations. We show that they also hold for multi-indexed Laguerre and Jacobi polynomials, which are new orthogonal polynomials obtained by deforming these classical orthogonal polynomials. The discrete orthogonality relations could be considered as more encompassing characterisation of orthogonal polynomials than the three term recurrence relations. As the multi-indexed orthogonal polynomials start at a positive degree $\ell_{\mathcal D}\ge1$, the three term recurrence relations are broken. The extra $\ell_{\mathcal D}$ `lower degree polynomials', which are necessary for the discrete orthogonality relations, are identified. The corresponding Christoffel numbers are determined. The main results are obtained by the blow-up analysis of the second order differential operators governing the multi-indexed orthogonal polynomials around the zeros of these polynomials at a degree $\ell_{\mathcal D}+\mathcal{N}$. %changed The discrete orthogonality relations are shown to hold for another group of `new' orthogonal polynomials called Krein-Adler polynomials based on the Hermite, Laguerre and Jacobi polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-21T10:15:23Z</published>
+    <arxiv:comment>30 pages, no figures. Conjecture 3.1 in Version 1 has been proved and now presented as Theorem 3.1. Several new theorems, corollaries, and a new section 5 on Krein-Adler orthogonal polynomials added. A short note added after Section 6. Some notations and presentation improved. References updated</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>J. Math. Phys. 62, 013509 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Choon-Lin Ho</name>
+    </author>
+    <author>
+      <name>Ryu Sasaki</name>
+    </author>
+    <arxiv:doi>10.1063/5.0006440</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0006440" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.0088v3</id>
+    <title>The symmetrization problem for multiple orthogonal polynomials</title>
+    <updated>2013-10-28T15:23:25Z</updated>
+    <link href="https://arxiv.org/abs/1310.0088v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.0088v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze the effect of symmetrization in the theory of multiple orthogonal polynomials. For a symmetric sequence of type II multiple orthogonal polynomials satisfying a high-term recurrence relation, we fully characterize the Weyl function associated to the corresponding block Jacobi matrix as well as the Stieltjes matrix function. Next, from an arbitrary sequence of type II multiple orthogonal polynomials with respect to a set of d linear functionals, we obtain a total of d+1 sequences of type II multiple orthogonal polynomials, which can be used to construct a new sequence of symmetric type II multiple orthogonal polynomials. Finally, we prove a Favard-type result for certain sequences of matrix multiple orthogonal polynomials satisfying a matrix four-term recurrence relation with matrix coefficients.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-30T22:55:14Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Marcellán F., Huertas E.J. (eds) Orthogonal Polynomials: Current Trends and Applications. SEMA SIMAI Springer Series, vol. 22, (2021), 17-51</arxiv:journal_ref>
+    <author>
+      <name>Amílcar Branquinho</name>
+    </author>
+    <author>
+      <name>Edmundo J. Huertas</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-030-56190-1_2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-030-56190-1_2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0109185v1</id>
+    <title>The Askey Scheme for Hypergeometric Orthogonal Polynomials Viewed from Asymptotic Analysis</title>
+    <updated>2001-09-24T11:55:17Z</updated>
+    <link href="https://arxiv.org/abs/math/0109185v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0109185v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Many limits are known for hypergeometric orthogonal polynomials that occur in the Askey scheme. We show how asymptotic representations can be derived by using the generating functions of the polynomials. For example, we discuss the asymptotic representation of the Meixner-Pollaczek, Jacobi, Meixner, and Krawtchouk polynomials in terms of Laguerre polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-09-24T11:55:17Z</published>
+    <arxiv:comment>11 pages, 1 figure. Poceedings of the Fifth International Symposium on Orthogonal Polynomials, Special Functions and Their Applications, Patras, Greece, September 20--24, 1999.pages, 1 figure. P</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>J. Comput. Appl. Math. Vol. 133 (2001) 623--633</arxiv:journal_ref>
+    <author>
+      <name>Nico M. Temme</name>
+    </author>
+    <author>
+      <name>Jose L. Lopez</name>
+    </author>
+    <arxiv:doi>10.1016/S0377-0427(00)00683-X</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0377-0427(00)00683-X" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0309445v2</id>
+    <title>Some continuous analogs of expansion in Jacobi polynomials and vector valued hypergeometric orthogonal bases</title>
+    <updated>2003-12-06T17:52:37Z</updated>
+    <link href="https://arxiv.org/abs/math/0309445v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0309445v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We write spectral decomposition of the hypergeometric differential operator on the contour $Re z=1/2$ (multiplicity of spectrum is 2). As a result, we obtain an integral transform that differs from the Jacobi (or Olevsky) transform. We also try to do a step towards vector-valued special functions and construct a 3F2 orthogonal basis in the space of functions having values in 2-dimensional space. This basis is lying in an analytic continuation of continuous dual Hahn polynomials with respect to number $n$ of a polynomial.
+  In Addendum, we discuss a vector-value analog of the Meixner--Pollachek orthogonal system and also perturbations of Laguerre, Meixner, and
+ Jacobi polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-09-27T14:52:20Z</published>
+    <arxiv:comment>27 pages; Addendum 'Perturbations of classical hypergeometric orthogonal systems' is added</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Functional Analysis and Its Applications, 2005, 39:2, 106-119</arxiv:journal_ref>
+    <author>
+      <name>Neretin Yu. A</name>
+    </author>
+    <arxiv:doi>10.4213/faa38,</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4213/faa38," title="doi"/>
+    <arxiv:doi>10.1007/s10688-005-0023-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10688-005-0023-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.12202v1</id>
+    <title>Orthogonal Polynomials for the Gaussian Weight with a Jump and Discrete Painlevé Equations</title>
+    <updated>2025-08-17T02:02:16Z</updated>
+    <link href="https://arxiv.org/abs/2508.12202v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.12202v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe a refined version of the discrete Painlevé identification problem that emphasizes the importance on going beyond just the surface type in describing a discrete Painlevé dynamic. We give an example of solving such identification problem for a particular recurrence relation that previously appeared in studying orthogonal polynomials for the Gaussian weight with a single jump.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-17T02:02:16Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <arxiv:journal_ref>Proceedings of the 16th International Symposium on Orthogonal Polynomials, Special Functions and Applications (OPSFA-16), 2025</arxiv:journal_ref>
+    <author>
+      <name>Anton Dzhamay</name>
+    </author>
+    <author>
+      <name>Elizaveta Trunina</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-031-90135-5_3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-031-90135-5_3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.00255v3</id>
+    <title>Moments of Orthogonal Polynomials and Exponential Generating Functions</title>
+    <updated>2022-01-09T09:23:36Z</updated>
+    <link href="https://arxiv.org/abs/2107.00255v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.00255v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Starting from the moment sequences of classical orthogonal polynomials we derive the orthogonality purely algebraically. We consider also the moments of ($q=1$) classical orthogonal polynomials, and study those cases in which the exponential generating function has a nice form. In the opposite direction, we show that the generalized Dumont-Foata polynomials with six parameters are the moments of rescaled continuous dual Hahn polynomials. Finally we show that one of our methods can be applied to deal with the moments of Askey-Wilson polynomials.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-01T07:22:41Z</published>
+    <arxiv:comment>24 pages, typos fixed, accepted for publication in The Ramanujan Journal</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Ira M. Gessel</name>
+    </author>
+    <author>
+      <name>Jiang Zeng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.14391v3</id>
+    <title>Ladder operators and a second--order difference equation for general discrete Sobolev orthogonal polynomials</title>
+    <updated>2022-08-01T10:30:13Z</updated>
+    <link href="https://arxiv.org/abs/2006.14391v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.14391v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a general discrete Sobolev inner product involving the Hahn difference operator, so this includes the well--known difference operators $\mathscr{D}_{q}$ and $Δ$ and, as a limit case, the derivative operator. The objective is twofold. On the one hand, we construct the ladder operators for the corresponding nonstandard orthogonal polynomials and we obtain the second--order difference equation satisfied by these polynomials. On the other hand, we generalise some related results appeared in the literature as we are working in a more general framework. Moreover, we will show that all the functions involved in these constructions can be computed explicitly.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-25T13:28:12Z</published>
+    <arxiv:comment>Preprint of the version published in Journal of Difference Equations and Applications with the title "Second--order difference equation for Sobolev--type orthogonal polynomials: Part I: theoretical results"</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Journal of Difference Equations and Applications (2022)</arxiv:journal_ref>
+    <author>
+      <name>Galina Filipuk</name>
+    </author>
+    <author>
+      <name>Juan F. Mañas-Mañas</name>
+    </author>
+    <author>
+      <name>Juan J. Moreno-Balcázar</name>
+    </author>
+    <arxiv:doi>10.1080/10236198.2022.2103412</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10236198.2022.2103412" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.1902v3</id>
+    <title>d-Orthogonal polynomials and su(2)</title>
+    <updated>2012-02-09T13:59:23Z</updated>
+    <link href="https://arxiv.org/abs/1110.1902v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.1902v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two families of d-orthogonal polynomials related to su(2) are identified and studied. The algebraic setting allows their full characterization (explicit expressions, recurrence relations, difference equations, generating functions, etc.) of those polynomials. In the limit where su(2) contracts to the Heisenberg-Weyl algebra h_1, these polynomials tend to the standard Meixner polynomials and d-Charlier polynomials, respectively.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-10T01:30:43Z</published>
+    <arxiv:comment>22 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>V.X. Genest et al., d-Orthogonal polynomials and su(2), J. Math. Anal. Appl. (2012)</arxiv:journal_ref>
+    <author>
+      <name>Vincent X. Genest</name>
+    </author>
+    <author>
+      <name>Luc Vinet</name>
+    </author>
+    <author>
+      <name>Alexei Zhedanov</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmaa.2012.02.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmaa.2012.02.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.07723v4</id>
+    <title>Fibonacci self-reciprocal polynomials and Fibonacci permutation polynomials</title>
+    <updated>2018-12-29T18:44:56Z</updated>
+    <link href="https://arxiv.org/abs/1712.07723v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.07723v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Let $p$ be a prime. In this paper, we give a complete classification of self-reciprocal polynomials arising from Fibonacci polynomials over $\mathbb{Z}$ and $\mathbb{Z}_p$, where $p=2$ and $p&gt;5$. We also present some partial results when $p=3, 5$. We also compute the first and second moments of Fibonacci polynomials $f_{n}(x)$ over finite fields, which give necessary conditions for Fibonacci polynomials to be permutation polynomials over finite fields.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-20T21:50:42Z</published>
+    <arxiv:comment>20 pages, a section on self-reciprocal polynomials added, the first moment and second moment (q even) of Fibonacci polynomials computed</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Neranga Fernando</name>
+    </author>
+    <author>
+      <name>Mohammad Rashid</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.14989v1</id>
+    <title>Nearest neighbor recurrence relations for Meixner-Angelesco multiple orthogonal polynomials of the second kind</title>
+    <updated>2023-12-22T10:43:36Z</updated>
+    <link href="https://arxiv.org/abs/2312.14989v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.14989v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies a new family of Angelesco multiple orthogonal polynomials with shared orthogonality conditions with respect to a system of weight functions, which are complex analogues of Pascal distributions on a legged star-like set. The emphasis is placed on the algebraic properties such as the raising operators, the Rodrigues-type formula, the explicit expression of the polynomials, and the nearest neighbor recurrence relations.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-22T10:43:36Z</published>
+    <arxiv:comment>17 pages. This preprint will appear in Mathematics (ISSN 2227-7390). The results will be presented in a short talk at the Special Session on Orthogonal Polynomials, Functions and Special Applications, Biennial Congress of the Royal Spanish Mathematical Society, Pamplona, Spain, from January 22 to 26, 2024. arXiv admin note: text overlap with arXiv:2312.14317</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Jorge Arvesú Carballo</name>
+    </author>
+    <author>
+      <name>Alejandro J. Quintero Roba</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.08312v2</id>
+    <title>Applications of multiple orthogonal polynomials with hypergeometric moment generating functions</title>
+    <updated>2024-04-16T13:48:49Z</updated>
+    <link href="https://arxiv.org/abs/2401.08312v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.08312v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate several families of multiple orthogonal polynomials associated with weights for which the moment generating functions are hypergeometric series with slightly varying parameters. The weights are supported on the unit interval, the positive real line, or the unit circle and the multiple orthogonal polynomials are generalizations of the Jacobi, Laguerre or Bessel orthogonal polynomials. We give explicit formulas for the type I and type II multiple orthogonal polynomials and study some of their properties. In particular, we describe the asymptotic distribution of the (scaled) zeros of the type II multiple orthogonal polynomials via the free convolution. Essential to our overall approach is the use of the Mellin transform. Finally, we discuss two applications. First, we show that the multiple orthogonal polynomials appear naturally in the study of the squared singular values of (mixed) products of truncated unitary random matrices and Ginibre matrices. Secondly, we use the multiple orthogonal polynomials to simultaneously approximate certain hypergeometric series and to provide an explicit proof of their $\mathbb{Q}$-linear independence.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-16T12:24:59Z</published>
+    <arxiv:comment>39 pages. v2: added some additional comments and references, corrected some typos</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Thomas Wolfs</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0606085v1</id>
+    <title>Limits of BC-type orthogonal polynomials as the number of variables goes to infinity</title>
+    <updated>2006-06-04T08:05:40Z</updated>
+    <link href="https://arxiv.org/abs/math/0606085v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0606085v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe the asymptotic behavior of the multivariate BC-type Jacobi polynomials as the number of variables and the Young diagram indexing the polynomial go to infinity. In particular, our results describe the approximation of the spherical functions of the infinite-dimensional symmetric spaces of type B,C,D or BC by the spherical functions of the corresponding finite-dimensional symmetric spaces. Similar results for the Jack polynomials were established in our earlier paper (Intern. Math. Res. Notices 1998, no. 13, 641-s682; arXiv:q-alg/9709011). The main results of the present paper were obtained in 1997.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-06-04T08:05:40Z</published>
+    <arxiv:comment>39 pages, to appear in: "Jack, Hall-Littlewood and Macdonald polynomials", Contemporary Mathematics, AMS</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>In: Jack, Hall-Littlewood and Macdonald Polynomials (E.B.Kuznetsov and S.Sahi,eds). Amer. Math. Soc., Contemporary Math. vol. 417, 2006</arxiv:journal_ref>
+    <author>
+      <name>Andrei Okounkov</name>
+    </author>
+    <author>
+      <name>Grigori Olshanski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/0011021v2</id>
+    <title>A Laguerre Polynomial Orthogonality and the Hydrogen Atom</title>
+    <updated>2002-05-24T15:26:38Z</updated>
+    <link href="https://arxiv.org/abs/math-ph/0011021v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math-ph/0011021v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The radial part of the wave function of an electron in a Coulomb potential is the product of a Laguerre polynomial and an exponential with the variable scaled by a factor depending on the degree. This note presents an elementary proof of the orthogonality of wave functions with differing energy levels. It is also shown that this is the only other natural orthogonality for Laguerre polynomials. By expanding in terms of the usual Laguerre polynomial basis an analogous strange orthogonality is obtained for Meixner polynomials.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-11-13T19:08:37Z</published>
+    <arxiv:comment>13 pages, LaTeX, new section on Meixner polynomials</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Analysis &amp; Appl. 1 (2003), 177-188</arxiv:journal_ref>
+    <author>
+      <name>Charles F. Dunkl</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9eHm91zgnSVbXpBsYMbvpUiKrqM</id>
+  <title>arXiv Query: search_query=all:positive OR all:definite OR all:sequence OR all:Hankel OR all:determinant OR all:criterion OR all:signed OR all:measure&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:52:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:positive+OR+(all:definite+OR+(all:sequence+OR+(all:Hankel+OR+(all:determinant+OR+(all:criterion+OR+(all:signed+OR+all:measure))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>992490</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2606.31647v2</id>
+    <title>Order-Moment Transport and Hankel Determinants in Special-Function Inequalities</title>
+    <updated>2026-07-01T18:46:35Z</updated>
+    <link href="https://arxiv.org/abs/2606.31647v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.31647v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scalar inequalities in an order parameter often arise as the $2\times2$ shadow of a stronger Hankel determinant statement. We record a moment-representation criterion: positive exponential and Mellin order representations, together with gamma-normalized completely monotone averages, generate totally nonnegative Hankel kernels, with strictness controlled by the support of the representing measure. The criterion packages the classical total-positivity mechanism as a recognition calculus for special-function inequalities, turning the order parameter into a moment exponent after the correct normalization.
+  The applications include three named determinant lifts. First, we prove the positive Jackson $q$-gamma Hankel conjecture of Karp--Vishnyakova--Zhang: for $0&lt;q&lt;1$, the kernel $(x,y)\mapstoΓ_q(x+y)$ is $\mathrm{STP}_\infty$. This is an atomic Mellin-moment instance of the general criterion; the reciprocal sign-regularity problem for $1/Γ_q$ is separate and is not addressed here. Second, we answer Yang's continuous half-gamma Mills-ratio log-convexity question and strengthen it to strict total positivity, hence to all higher Hankel Turan determinants. Third, we treat Tricomi rays and the one-dimensional Coulomb regularization as all-minor Hankel determinant hierarchies. For the Coulomb regularization, the $2\times2$ minor gives the scalar log-convexity question recorded by Baricz--Pogany, and the full theorem supplies the corresponding all-minor strengthening.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-30T13:29:14Z</published>
+    <arxiv:comment>v016 adds the Jackson q-gamma application proving the positive Hankel-kernel conjecture of Karp--Vishnyakova--Zhang; the earlier JMAA-submitted v014 did not contain this section</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Domingos S. P. Salazar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.05993v2</id>
+    <title>Hankel continued fractions and Hankel determinants for $q$-deformed metallic numbers</title>
+    <updated>2026-01-17T09:21:16Z</updated>
+    <link href="https://arxiv.org/abs/2502.05993v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.05993v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fix $n$ a positive integer. Take the $n$-th metallic number $φ_n=\frac{n+\sqrt{n^2+4}}{2}$ (e.g. $φ_1$ is the golden number) and let $Φ_n(q)$ be its $q$-deformation in the sense of S. Morier-Genoud and V. Ovsienko. This is an algebraic continued fraction which admits an expansion into a Taylor series around $q=0$, with integral coefficients. By using the notion of Hankel continued fraction introduced by the first author in 2016 we determine explicitly the first $n+2$ sequences of shifted Hankel determinants of $Φ_n$ and show that they satisfy the following properties:
+  1) They are periodic and consist of $-1,0,1$ only.
+  2) They satisfy a three-term Gale-Robinson recurrence, i.e. they form discrete integrable dynamical systems.
+  3) They are all completely determined by the first sequence.
+  This article thus validates a conjecture formulated by V. Ovsienko and the second author in a recent paper and establishes new connections between $q$-deformations of real numbers and sequences of Catalan or Motzkin numbers.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-09T18:54:27Z</published>
+    <arxiv:comment>51 pages, 5 figures. Version 2 improvements: new theorem on the periodicity modulo a prime of the Hankel determinants, bibliography updates and minor corrections</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Guo-Niu Han</name>
+    </author>
+    <author>
+      <name>Emmanuel Pedon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.19621v2</id>
+    <title>Regularity of the positional penalization function in inter-sign optimal transport on real measures</title>
+    <updated>2026-07-17T10:16:59Z</updated>
+    <link href="https://arxiv.org/abs/2606.19621v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.19621v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the Monge--Kantorovich optimal transport problem between two signed measures~$μ$ and~$ν$ on convex compact subsets of~$\mathbb{R}^d$, with a positional penalization function~$λ(x, y)$ that modulates the cost of inter-sign transport. Using four independent positive measures~$(π^{++}, π^{+-}, π^{-+}, π^{--})$ as decision variables, we prove that the admissible set~$\mathcal{A}(μ, ν)$ is weakly-$*$ compact and non-empty if and only if $μ^+(X) = ν^+(Y)$ and~$μ^-(X) = ν^-(Y)$. Strong duality is established via the Kantorovich minimax theorem, yielding a new compatibility condition on~$λ$ at the intersection of inter-sign supports. The penalization~$λ$ is shown to be Lipschitz and to admit Alexandrov second derivatives almost everywhere. Modified Monge--Ampère equations governing inter-sign transport maps are derived in the Alexandrov sense, with well-posedness characterized by $σ\det(D^2_{yx}Λ) e &gt; 0$. The classical Brenier equation is recovered in the limit~$λ\to 0$.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-17T21:59:08Z</published>
+    <arxiv:comment>Together with Bwo'nyahre et al. (2026), this completes a three-part framework for signed measure optimal transport: (1) existence, uniqueness, and fractal preservation; (2) local regularity, governing equations, and well-posedness; and (3) a variational characterization of dimensional distortion in signed fractal measures</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Bwo'nyahre Baidi Barthelemy</name>
+    </author>
+    <author>
+      <name>Kouakep Tchaptchie Yannick</name>
+    </author>
+    <author>
+      <name>Houpa Danga Duplex Elvis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.00617v2</id>
+    <title>Hankel determinants of random moment sequences</title>
+    <updated>2016-06-27T08:58:34Z</updated>
+    <link href="https://arxiv.org/abs/1508.00617v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.00617v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For $ t \in [0,1]$ let $\underline{H}_{2\lfloor nt \rfloor} = ( m_{i+j})_{i,j=0}^{\lfloor nt \rfloor} $ denote the Hankel matrix of order $2\lfloor nt \rfloor$ of a random vector $(m_1,\ldots ,m_{2n})$ on the moment space $\mathcal{M}_{2n}(I)$ of all moments (up to the order $2n$) of probability measures on the interval $I \subset \mathbb{R} $. In this paper we study the asymptotic properties of the stochastic process $\{ \log \det \underline{H}_{2\lfloor nt \rfloor} \}_{t\in [0,1]}$ as $n \to \infty$. In particular weak convergence and corresponding large deviation principles are derived after appropriate standardization.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-03T23:25:20Z</published>
+    <arxiv:comment>Keyword and Phrases: Hankel determinant, random moment sequences, weak convergence, large deviation principle, canonical moments, arcsine distribution AMS Subject Classification: 60F05, 60F10, 30E05, 15B52</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Holger Dette</name>
+    </author>
+    <author>
+      <name>Dominik Tomecki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4567v1</id>
+    <title>On degenerate Hamburger moment problem and extensions of positive semidefinite Hankel block matrices</title>
+    <updated>2008-12-24T19:22:41Z</updated>
+    <link href="https://arxiv.org/abs/0812.4567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.4567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we consider two related objects: singular positive semidefinite Hankel block--matrices and associated degenerate truncated matrix Hamburger moment problems. The description of all solutions of a degenerate matrix Hamburger moment problem is given in terms of a linear fractional transformation. The case of interest is the Hamburger moment problem whose Hankel block--matrix admits a positive semidefinite Hankel extension.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-24T19:22:41Z</published>
+    <arxiv:comment>The corrected version of the paper "On degenerate Hamburger moment problem and extensions of nonnegative Hankel block matrices", Integral Equations Operator Theory 25 (1996), no. 3, 253--276</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Vladimir Bolotnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.6972v2</id>
+    <title>Hankel Determinant Solution for Elliptic Sequence</title>
+    <updated>2014-12-05T12:38:59Z</updated>
+    <link href="https://arxiv.org/abs/1411.6972v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.6972v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the Hankel determinants of a generalized Catalan sequence satisfy the equations of the elliptic sequence. As a consequence, the coordinates of the multiples of an arbitrary point on the elliptic curve are expressed by the Hankel determinants.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-25T19:06:25Z</published>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Fumitaka Yura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.1586v1</id>
+    <title>Hankel Determinant Calculus for the Thue-Morse and related sequences</title>
+    <updated>2014-06-06T05:38:33Z</updated>
+    <link href="https://arxiv.org/abs/1406.1586v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.1586v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Hankel determinants of certain automatic sequences $f$ are evaluated, based on a calculation modulo a prime number. In most cases, the Hankel determinants of automatic sequences do not have any closed-form expressions; the traditional methods, such as $LU$-decompo\-si\-tion and Jacobi continued fraction, cannot be applied directly. Our method is based on a simple idea: the Hankel determinants of each sequence $g$ equal to $f$ modulo $p$ are equal to the Hankel determinants of $f$ modulo $p$. The clue then consists of finding a nice sequence $g$, whose Hankel determinants have closed-form expressions.
+  Several examples are presented, including a result saying that the Hankel determinants of the Thue-Morse sequence are nonzero, first proved by Allouche, Peyrière, Wen and Wen using determinant manipulation. The present approach shortens the proof of the latter result significantly. We also prove that the corresponding Hankel determinants do not vanish when the powers $2^n$ in the infinite product defining the $\pm 1$ Thue--Morse sequence are replaced by $3^n$.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-06T05:38:33Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Guo-Niu Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.2368v7</id>
+    <title>New Classes of Positive Semi-Definite Hankel Tensors</title>
+    <updated>2016-09-21T07:19:38Z</updated>
+    <link href="https://arxiv.org/abs/1411.2368v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.2368v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A Hankel tensor is called a strong Hankel tensor if the Hankel matrix generated by its generating vector is positive semi-definite. It is known that an even order strong Hankel tensor is a sum-of-squares tensor, and thus a positive semi-definite tensor. The SOS decomposition of strong Hankel tensors has been well-studied by Ding, Qi and Wei \cite{DQW1}. On the other hand, very little is known for positive semi-definite Hankel tensors which are not strong Hankel tensors. In this paper, we study some classes of positive semi-definite Hankel tensors which are not strong Hankel tensors. These include truncated Hankel tensors and quasi-truncated Hankel tensors. Then we show that a strong Hankel tensor generated by an absoluate integrable function is always completely decomposable, and give a class of SOS Hankel tensors which are not completely decomposable.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-10T10:05:44Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:1410.6989</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Qun Wang</name>
+    </author>
+    <author>
+      <name>Guoyin Li</name>
+    </author>
+    <author>
+      <name>Liqun Qi</name>
+    </author>
+    <author>
+      <name>Yi Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.3578v2</id>
+    <title>Hankel determinants of the Cantor sequence</title>
+    <updated>2014-10-24T13:12:34Z</updated>
+    <link href="https://arxiv.org/abs/1407.3578v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.3578v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the paper, we give the recurrent equations of the Hankel determinants of the Cantor sequence, and show that the Hankel determinants as a double sequence is 3-automatic. With the help of the Hankel determinants, we prove that the irrationality exponent of the Cantor number, i.e. the transcendental number with Cantor sequence as its b-ary expansion, equals 2.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-14T09:36:22Z</published>
+    <arxiv:comment>20 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <arxiv:journal_ref>Sci Sin Math, 2014, 44: 1059-1072</arxiv:journal_ref>
+    <author>
+      <name>Zhi-xiong Wen</name>
+    </author>
+    <author>
+      <name>Wen Wu</name>
+    </author>
+    <arxiv:doi>10.1360/012014-53</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1360/012014-53" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.01196v2</id>
+    <title>Solvability of the Hankel determinant problem for real sequences</title>
+    <updated>2016-05-09T21:23:31Z</updated>
+    <link href="https://arxiv.org/abs/1605.01196v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.01196v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To each nonzero sequence $s:= \{s_{n}\}_{n \geq 0}$ of real numbers we associate the Hankel determinants $D_{n} = \det \mathcal{H}_{n}$ of the Hankel matrices $\mathcal{H}_{n}:= (s_{i + j})_{i, j = 0}^{n}$, $n \geq 0$, and the nonempty set $N_{s}:= \{n \geq 1 \, | \, D_{n-1} \neq 0 \}$. We also define the Hankel determinant polynomials $P_0:=1$, and $P_n$, $n\geq 1$ as the determinant of the Hankel matrix $\mathcal H_n$ modified by replacing the last row by the monomials $1, x, \ldots, x^n$. Clearly $P_n$ is a polynomial of degree at most $n$ and of degree $n$ if and only if $n\in N_s $. Kronecker established in 1881 that if $N_s $ is finite then rank $\mathcal{H}_{n} = r$ for each $n \geq r-1$, where $r := \max N_s $. By using an approach suggested by I.S.Iohvidov in 1969 we give a short proof of this result and a transparent proof of the conditions on a real sequence $\{t_n\}_{n\geq 0}$ to be of the form $t_n=D_n$, $n\geq 0$ for a real sequence $\{s_n\}_{n\geq 0}$. This is the Hankel determinant problem. We derive from the Kronecker identities that each Hankel determinant polynomial $ P_n $ satisfying deg$P_n = n\geq 1$ is preceded by a nonzero polynomial $P_{n-1}$ whose degree can be strictly less than $n-1$ and which has no common zeros with $ P_n $. As an application of our results we obtain a new proof of a recent theorem by Berg and Szwarc about positive semidefiniteness of all Hankel matrices provided that $D_0 &gt; 0, \ldots, D_{r-1} &gt; 0 $ and $D_n=0$ for all $n\geq r$.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-04T09:42:03Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Andrew Bakan</name>
+      <arxiv:affiliation>Institute of Mathematics, Natl. Acad. Sci. of Ukraine</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christian Berg</name>
+      <arxiv:affiliation>University of Copenhagen</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.04370v1</id>
+    <title>Computer assisted proof for Apwenian sequences related to Hankel determinants</title>
+    <updated>2016-01-18T00:00:24Z</updated>
+    <link href="https://arxiv.org/abs/1601.04370v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.04370v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An infinite $\pm 1$-sequence is called {\it Apwenian} if its Hankel determinant of order $n$ divided by $2^{n-1}$ is an odd number for every positive integer $n$. In 1998, Allouche, Peyrière, Wen and Wen discovered and proved that the Thue--Morse sequence is an Apwenian sequence by direct determinant manipulations. Recently, Bugeaud and Han re-proved the latter result by means of an appropriate combinatorial method. By significantly improving the combinatorial method, we prove that several other Apwenian sequences related to the Hankel determinants with Computer Assistance.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-18T00:00:24Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Hao Fu</name>
+    </author>
+    <author>
+      <name>Guo-Niu Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.1589v1</id>
+    <title>On $t$-extensions of the Hankel determinants of certain automatic sequences</title>
+    <updated>2014-06-06T05:58:04Z</updated>
+    <link href="https://arxiv.org/abs/1406.1589v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.1589v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 1998, Allouche, Peyrière, Wen and Wen considered the Thue--Morse sequence, and proved that all the Hankel determinants of the period-doubling sequence are odd integral numbers. We speak of $t$-extension when the entries along the diagonal in the Hankel determinant are all multiplied by~$t$. Then we prove that the $t$-extension of each Hankel determinant of the period-doubling sequence is a polynomial in $t$, whose leading coefficient is the {\it only one} to be an odd integral number. Our proof makes use of the combinatorial set-up developed by Bugeaud and Han, which appears to be very suitable for this study, as the parameter $t$ counts the number of fixed points of a permutation. Finally, we prove that all the $t$-extensions of the Hankel determinants of the regular paperfolding sequence are polynomials in $t$ of degree less than or equal to $3$.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-06T05:58:04Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Hao Fu</name>
+    </author>
+    <author>
+      <name>Guo-Niu Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.05810v3</id>
+    <title>Binary Signed-Digit Integers, the Stern Diatomic Sequence and Stern Polynomials</title>
+    <updated>2021-08-30T16:16:47Z</updated>
+    <link href="https://arxiv.org/abs/2103.05810v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.05810v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stern's diatomic sequence is a well-studied and simply defined sequence with many fascinating characteristics. The binary signed-digit (BSD) representation of integers is used widely in efficient computation, coding theory and other applications. We link these two objects, showing that the number of $i$-bit binary signed-digit representations of an integer $n&lt;2^i$ is the $(2^i-n)^\text{th}$ element in Stern's diatomic sequence.
+  This correspondence makes the vast range of results known about the Stern diatomic sequence available for consideration in the study of binary signed-digit integers, and vice versa. Applications of this relationship discussed in this paper include a weight-distribution theorem for BSD representations, linking these representations to Stern polynomials, a recursion for the number of optimal BSD representations of an integer along with their Hamming weight, stemming from an easy recursion for the leading coefficients and degrees of Stern polynomials, and the identification of all integers having a maximal number of such representations.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-10T01:41:41Z</published>
+    <arxiv:comment>This paper has been subsumed by two other papers, which can be found on arXiv: "Binary Signed-Digit Integers and the Stern Diatomic Sequence" at arxiv:2108.11495, and "Binary Signed-Digit Integers and the Stern Polynomial" at arxiv:2108.12417</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Laura Monroe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.05864v2</id>
+    <title>On the automaticity of the Hankel determinants of a family of automatic sequences</title>
+    <updated>2018-08-18T08:23:18Z</updated>
+    <link href="https://arxiv.org/abs/1806.05864v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.05864v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hankel determinants and automatic sequences are two classical subjects widely studied in Mathematics and Theoretical Computer Science. However, these two topics were considered totally independently, until in 1998, when Allouche, Peyrière, Wen and Wen proved that all the Hankel determinants of the Thue-Morse sequence are nonzero. This property allowed Bugeaud to prove that the irrationality exponents of the Thue-Morse-Mahler numbers are exactly 2. Since then, the Hankel determinants of several other automatic sequences, in particular, the paperfolding sequence, the Stern sequence, the period-doubling sequence, are studied by Coons, Vrbik, Guo, Wu, Wen, Bugeaud, Fu, Han, Fokkink, Kraaikamp, and Shallit. On the other hand, it is known that the Hankel determinants of a rational power series are ultimately zero, and the Hankel determinants of a quadratic power series over finite fields are ultimately periodic. It is therefore natural to ask if we can obtain similar results about the Hankel determinants of algebraic series. In the present paper, we provide a partial answer to this question by establishing the automaticity of the reduced Hankel determinants modulo $2$ of $\pm 1$-automatic sequences with kernel of cardinality at most $2$.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-15T08:55:59Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Yining Hu</name>
+    </author>
+    <author>
+      <name>Guoniu Wei-Han</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.01880v1</id>
+    <title>Hankel Determinants of shifted sequences of Bernoulli and Euler numbers</title>
+    <updated>2021-05-05T05:59:55Z</updated>
+    <link href="https://arxiv.org/abs/2105.01880v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.01880v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hankel determinants of sequences related to Bernoulli and Euler numbers have been studied before, and numerous identities are known. However, when a sequence is shifted by one unit, the situation often changes significantly. In this paper we use classical orthogonal polynomials and related methods to prove a general result concerning Hankel determinants for shifted sequences. We then apply this result to obtain new Hankel determinant evaluations for a total of $13$ sequences related to Bernoulli and Euler numbers, one of which concerns Euler polynomials.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-05T05:59:55Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Karl Dilcher</name>
+    </author>
+    <author>
+      <name>Lin Jiu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.06552v1</id>
+    <title>Positive Hankel operators, positive definite kernels and related topics</title>
+    <updated>2020-01-17T22:51:17Z</updated>
+    <link href="https://arxiv.org/abs/2001.06552v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.06552v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is shown that a positive (bounded linear) operator on a Hilbert space with trivial kernel is unitarily equivalent to a Hankel operator that satisfies double positivity condition if and only if it is non-invertible and has simple spectrum (that is, if this operator admits a cyclic vector). More generally, for an arbitrary positive (bounded linear) operator A on a Hilbert space H with trivial kernel the collection V(A) of all linear isometries V from H into H such that AV is positive as well is investigated. In particular, operators A such that V(A) contains a pure isometry with a given deficiency index are characterized. Some applications to unbounded positive self-adjoint operators as well as to positive definite kernels are presented. In particular, positive definite matrix-type square roots of such kernels are studied and kernels that have a unique such root are characterized. The class of all positive definite kernels that have at least one such a square root is also investigated.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-17T22:51:17Z</published>
+    <arxiv:comment>35 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Adv. Operator Theory 5 (2020), 950-993</arxiv:journal_ref>
+    <author>
+      <name>Piotr Niemiec</name>
+    </author>
+    <arxiv:doi>10.1007/s43036-020-00058-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s43036-020-00058-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.05997v5</id>
+    <title>Bijection between positive clusters and projectively signed exceptional sequences</title>
+    <updated>2024-12-28T19:39:55Z</updated>
+    <link href="https://arxiv.org/abs/2312.05997v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.05997v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In 2017, Igusa and Todorov gave a bijection between signed exceptional sequences and ordered partial clusters. In this paper, we show that every term in an exceptional sequence is either relatively projective or relatively injective or both and we refine this bijection to one between projectively signed exceptional sequences and ordered partial positive clusters. We also give a characterization of relatively projective/injective objects in terms of supports of the objects in the exceptional sequence.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-10T21:08:40Z</published>
+    <arxiv:comment>17 pages, v2: the result was already "known" in the finite case, v3: lemmas 1.2, 1.3 are stated in a more useful way, v4: we expanded the paper and changed the title, v5: In Section 4 we calculate the correlation between multiple terms in an exceptional sequence having property rPI (relatively projective and relatively injective)</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Communications in Algebra (2024)</arxiv:journal_ref>
+    <author>
+      <name>Shujian Chen</name>
+    </author>
+    <author>
+      <name>Kiyoshi Igusa</name>
+    </author>
+    <arxiv:doi>10.1080/00927872.2024.2429739</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/00927872.2024.2429739" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.27208v1</id>
+    <title>Hankel determinants of Catalan-like sequences</title>
+    <updated>2026-08-27T14:54:10Z</updated>
+    <link href="https://arxiv.org/abs/2608.27208v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.27208v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we compute the (shifted) Hankel determinants of Catalan-like sequences, which arise naturally from the weighted enumerations of nonintersecting Motzkin meanders. Among these determinant evaluations, one and a half are newly discovered, featuring generic shifted Hankel determinants; two were formulated earlier by Cigler and Krattenthaler in an equivalent combinatorial form; and the rest were conjectured by Cigler. As an application, we further confirm a conjectural binomial determinant identity proposed by Cigler and Krattenthaler.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-27T14:54:10Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Shane Chern</name>
+    </author>
+    <author>
+      <name>Wenle Shi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.09821v1</id>
+    <title>Hankel Determinants of sequences related to Bernoulli and Euler Polynomials</title>
+    <updated>2020-07-20T00:20:12Z</updated>
+    <link href="https://arxiv.org/abs/2007.09821v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.09821v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We evaluate the Hankel determinants of various sequences related to Bernoulli and Euler numbers and special values of the corresponding polynomials. Some of these results arise as special cases of Hankel determinants of certain sums and differences of Bernoulli and Euler polynomials, while others are consequences of a method that uses the derivatives of Bernoulli and Euler polynomials. We also obtain Hankel determinants for sequences of sums and differences of powers and for generalized Bernoulli polynomials belonging to certain Dirichlet characters with small conductors. Finally, we collect and organize Hankel determinant identities for numerous sequences, both new and known, containing Bernoulli and Euler numbers and polynomials.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-20T00:20:12Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Karl Dilcher</name>
+    </author>
+    <author>
+      <name>Lin Jiu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.08729v1</id>
+    <title>On the regularity of the Hankel determinant sequence of the characteristic sequence of powers</title>
+    <updated>2018-06-20T12:59:55Z</updated>
+    <link href="https://arxiv.org/abs/1806.08729v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.08729v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For any sequences $\mathbf{u}=\{u(n)\}_{n\geq0}, \mathbf{v}=\{v(n)\}_{n\geq0},$ we define $\mathbf{u}\mathbf{v}:=\{u(n)v(n)\}_{n\geq0}$ and $\mathbf{u}+\mathbf{v}:=\{u(n)+v(n)\}_{n\geq0}$. Let $f_i(x)~(0\leq i&lt; k)$ be sequence polynomials whose coefficients are integer sequences. We say an integer sequence $\mathbf{u}=\{u(n)\}_{n\geq0}$ is a polynomial generated sequence if $$\{u(kn+i)\}_{n\geq0}=f_i(\mathbf{u}),~(0\leq i&lt; k).$$ %Here we define $\mathbf{u}\mathbf{v}:=\{u(n)v(n)\}_{n\geq0}$ and $\mathbf{u}+\mathbf{v}:=\{u(n)+v(n)\}_{n\geq0}$ for any two sequences $\mathbf{u}=\{u(n)\}_{n\geq0}, \mathbf{v}=\{v(n)\}_{n\geq0}.$
+  In this paper, we study the polynomial generated sequences. Assume $k\geq2$ and $f_i(x)=\mathbf{a}_ix+\mathbf{b}_i~(0\leq i&lt; k)$. If $\mathbf{a}_i$ are $k$-automatic and $\mathbf{b}_i$ are $k$-regular for $0\leq i&lt; k$, then we prove that the corresponding polynomial generated sequences are $k$-regular. As a application, we prove that the Hankel determinant sequence $\{\det(p_{i+j})_{i,j=0}^{n-1}\}_{n\geq0}$ is $2$-regular, where $\{p(n)\}_{n\geq0}=0110100010000\cdots$ is the characteristic sequence of powers 2. Moreover, we give a answer of Cigler's conjecture about the Hankel determinants.</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.FL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-20T12:59:55Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Ying-Jun Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.01696v3</id>
+    <title>Detecting coalitions by optimally partitioning signed networks of political collaboration</title>
+    <updated>2020-01-17T19:52:28Z</updated>
+    <link href="https://arxiv.org/abs/1906.01696v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.01696v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose new mathematical programming models for optimal partitioning of a signed graph into cohesive groups. To demonstrate the approach's utility, we apply it to identify coalitions in US Congress since 1979 and examine the impact of polarized coalitions on the effectiveness of passing bills. Our models produce a globally optimal solution to the NP-hard problem of minimizing the total number of intra-group negative and inter-group positive edges. We tackle the intensive computations of dense signed networks by providing upper and lower bounds, then solving an optimization model which closes the gap between the two bounds and returns the optimal partitioning of vertices. Our substantive findings suggest that the dominance of an ideologically homogeneous coalition (i.e. partisan polarization) can be a protective factor that enhances legislative effectiveness.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-04T19:37:06Z</published>
+    <arxiv:comment>21 pages, 10 figures, 4 tables (including supplementary information) Old title: Legislative effectiveness hangs in the balance: Studying balance and polarization through partitioning signed networks</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <arxiv:journal_ref>AREF, S., and NEAL, Z. Detecting coalitions by optimally partitioning signed networks of political collaboration. Scientific Reports, (2020), www.doi.org/10.1038/s41598-020-58471-z</arxiv:journal_ref>
+    <author>
+      <name>Samin Aref</name>
+    </author>
+    <author>
+      <name>Zachary Neal</name>
+    </author>
+    <arxiv:doi>10.1038/s41598-020-58471-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41598-020-58471-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.04066v2</id>
+    <title>Some observations on the Rueppel sequence and associated Hankel determinants</title>
+    <updated>2020-06-09T20:38:42Z</updated>
+    <link href="https://arxiv.org/abs/2005.04066v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.04066v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Starting with a definition based on the Catalan numbers, we carry out an empirical study of the Rueppel sequence. We use the Hankel transform as the main technique. By means of this transform we find links to such sequences as the Jacobi sequence and the paper-folding sequence. We also study several number arrays defined by this sequence, which are analogs of the important Catalan triangles of combinatorics. We identify a sequence related to the Golay-Rudin-Shapiro sequence that plays a fundamental role in linking the Hankel transforms of the paper with classical sequences. Examples are given where certain privileged permutations appearing in the Leibnitz formula for determinants have a special role.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-08T14:29:45Z</published>
+    <arxiv:comment>42 pages. First updated version</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Paul Barry</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.2437v1</id>
+    <title>A Pólya criterion for (strict) positive definiteness on the sphere</title>
+    <updated>2011-10-11T17:10:25Z</updated>
+    <link href="https://arxiv.org/abs/1110.2437v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.2437v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Positive definite functions are very important in both theory and applications of approximation theory, probability and statistics. In particular, identifying strictly positive definite kernels is of great interest as interpolation problems corresponding to these kernels are guaranteed to be poised. A Bochner type result of Schoenberg characterises continuous positive definite zonal functions, $f(\cos \cdot)$, on the sphere $\Sdmone$, as those with nonnegative Gegenbauer coefficients. More recent results characterise strictly positive definite functions on $\Sdmone$ by stronger conditions on the signs of the Gegenbauer coefficients. Unfortunately, given a function $f$, checking the signs of all the Gegenbauer coefficients can be an onerous, or impossible, task. Therefore, it is natural to seek simpler sufficient conditions which guarantee (strict) positive definiteness. We state a conjecture which leads to a Pólya type criterion for functions to be (strictly) positive definite on the sphere $\Sdmone$. In analogy to the case of the Euclidean space, the conjecture claims positivity of a certain integral involving Gegenbauer polynomials. We provide a proof of the conjecture for $d$ from 3 to 8.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-11T17:10:25Z</published>
+    <arxiv:comment>21 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>R. K. Beatson</name>
+    </author>
+    <author>
+      <name>W. zu Castell</name>
+    </author>
+    <author>
+      <name>Y. Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.1594v1</id>
+    <title>Explicit evaluations of the Hankel determinants of a Thue--Morse-like sequence</title>
+    <updated>2014-06-06T06:18:04Z</updated>
+    <link href="https://arxiv.org/abs/1406.1594v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.1594v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We obtain the explicit evaluations of the Hankel determinants of the formal power series $\prod_{k\geq 0}(1+Jx^{3^{k}})$ where $J={(\sqrt{-3}-1)}/2$, and prove that the sequence of Hankel determinants is an aperiodic automatic sequence taking value in $\{0, \pm 1, \pm J, \pm J^2\}$. This research is essentially inspired by the works about Hankel determinants of Thue--Morse-like sequences by Allouche, Peyrière, Wen and Wen (1998), Bacher (2006) and the first author (2013).</summary>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-06T06:18:04Z</published>
+    <arxiv:primary_category term="math.NT"/>
+    <author>
+      <name>Guo-Niu Han</name>
+    </author>
+    <author>
+      <name>Wen Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.05827v1</id>
+    <title>Partial Results on Hankel Determinants and the Corresponding J-Fractions of a Sequence Related to Bernoulli Numbers</title>
+    <updated>2026-09-05T02:44:51Z</updated>
+    <link href="https://arxiv.org/abs/2609.05827v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.05827v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When exploring the Hankel determinant of the sequence $μ_{k}=B_{k+1}/(k+1)$, where $B_{k}$ is the $k$-th Bernoulli number, we obtained two interesting results. The first one applies in general to all sequences $(c_{k})_{k\geq0}$ with all even-indexed term $0$, except for $c_{0}$. In this case, the coefficient of the second highest order of the corresponding monic orthogonal polynomials determines the Hankel determinants. Our second result shows, the corresponding J-fractions, obtained from the generating function of $μ_{k}$, is exactly the same as in early work of Cao, on a faster sequence converging to the Euler--Mascheroni constant.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-05T02:44:51Z</published>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Lin Jiu</name>
+    </author>
+    <author>
+      <name>Yihang Yin</name>
+    </author>
+  </entry>
+</feed>

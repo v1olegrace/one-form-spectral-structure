@@ -1,0 +1,18 @@
+{
+  "generated": "2026-09-11T12:59:27+00:00",
+  "database": "C:\\Users\\meyy\\Downloads\\physics of all\\data\\literature.db",
+  "api_calls_by_source": {
+    "openalex": 110,
+    "arxiv": 89,
+    "inspire": 21,
+    "zenodo": 6,
+    "github": 6,
+    "crossref": 3
+  },
+  "total_api_calls": 235,
+  "works": 6680,
+  "relevance_rows": 7312,
+  "citation_edges": 1058,
+  "merged_duplicates": 132,
+  "legal_note": "Official APIs only. No paywall circumvention, no HTML scraping where an API exists, no protected full text stored. Polite-pool identification and conservative rate limits on every request."
+}

@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J7uSZb23/eHLOQL9SlffZDfxYg0</id>
+  <title>arXiv Query: search_query=all:completely OR all:monotone OR all:radial OR all:kernel OR all:positive OR all:definite OR all:Schoenberg&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:43:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:completely+OR+(all:monotone+OR+(all:radial+OR+(all:kernel+OR+(all:positive+OR+(all:definite+OR+all:Schoenberg)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>523306</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1502.07179v1</id>
+    <title>Radial positive definite functions and Schoenberg matrices with negative eigenvalues</title>
+    <updated>2015-02-25T14:31:18Z</updated>
+    <link href="https://arxiv.org/abs/1502.07179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.07179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main object under consideration is a class $Φ_n\backslashΦ_{n+1}$ of radial positive definite functions on $\R^n$ which do not admit \emph{radial positive definite continuation} on $\R^{n+1}$. We find certain necessary and sufficient conditions for the Schoenberg representation measure $ν_n$ of $f\in Φ_n$ in order that the inclusion $f\in Φ_{n+k}$, $k\in\N$, holds. We show that the class $Φ_n\backslashΦ_{n+k}$ is rich enough by giving a number of examples. In particular, we give a direct proof of $Ω_n\inΦ_n\backslashΦ_{n+1}$, which avoids Schoenberg's theorem, $Ω_n$ is the Schoenberg kernel. We show that $Ω_n(a\cdot)Ω_n(b\cdot)\inΦ_n\backslashΦ_{n+1}$, for $a\not=b$. Moreover, for the square of this function we prove surprisingly much stronger result: $Ω_n^2(a\cdot)\inΦ_{2n-1}\backslashΦ_{2n}$. We also show that any $f\inΦ_n\backslashΦ_{n+1}$, $n\ge2$, has infinitely many negative squares. The latter means that for an arbitrary positive integer $N$ there is a finite Schoenberg matrix $\kS_X(f) := \|f(|x_i-x_j|_{n+1})\|_{i,j=1}^{m}$, $X := \{x_j\}_{j=1}^m \subset\R^{n+1}$, which has at least $N$ negative eigenvalues.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-25T14:31:18Z</published>
+    <arxiv:comment>24 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>L. Golinskii</name>
+    </author>
+    <author>
+      <name>M. Malamud</name>
+    </author>
+    <author>
+      <name>L. Oridoroga</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1403.2234v1</id>
+    <title>Schoenberg matrices of radial positive definite functions and Riesz sequences in $L^2(\R^n)$</title>
+    <updated>2014-03-10T13:14:04Z</updated>
+    <link href="https://arxiv.org/abs/1403.2234v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.2234v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a function $f$ on the positive half-line $\R_+$ and a sequence (finite or infinite) of points $X=\{x_k\}_{k=1}^ω$ in $\R^n$, we define and study matrices $\kS_X(f)=\|f(|x_i-x_j|)\|_{i,j=1}^ω$ called Schoenberg's matrices. We are primarily interested in those matrices which generate bounded and invertible linear operators $S_X(f)$ on $\ell^2(\N)$. We provide conditions on $X$ and $f$ for the latter to hold. If $f$ is an $\ell^2$-positive definite function, such conditions are given in terms of the Schoenberg measure $σ(f)$. We also approach Schoenberg's matrices from the viewpoint of harmonic analysis on $\R^n$, wherein the notion of the strong $X$-positive definiteness plays a key role. In particular, we prove that \emph{each radial $\ell^2$-positive definite function is strongly $X$-positive definite} whenever $X$ is separated. We also implement a "grammization" procedure for certain positive definite Schoenberg's matrices. This leads to Riesz--Fischer and Riesz sequences (Riesz bases in their linear span) of the form $\kF_X(f)=\{f(x-x_j)\}_{x_j\in X}$ for certain radial functions $f\in L^2(\R^n)$. Examples of Schoenberg's operators with various spectral properties are presented.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-10T13:14:04Z</published>
+    <arxiv:comment>39 pages, LaTeX file</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>L. Golinskii</name>
+    </author>
+    <author>
+      <name>M. Malamud</name>
+    </author>
+    <author>
+      <name>L. Oridoroga</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.02538v1</id>
+    <title>Generalizations of Schoenberg's theorem on positive definite kernels</title>
+    <updated>2019-04-03T02:28:36Z</updated>
+    <link href="https://arxiv.org/abs/1904.02538v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.02538v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The seminal theorem of I.J. Schoenberg characterizes positive definite (p.d.) kernels on the unit sphere $S^{n-1}$ invariant under the automorphisms of the sphere. We obtain two generalizations of this theorem for p.d. kernels on fiber bundles. Our first theorem characterizes invariant p.d. kernels on bundles whose fiber is a product of a compact set and the unit sphere. This result implies, in particular, a characterization of invariant under the automorphisms of the sphere, p.d. kernels on a product of $S^{n-1}$ and a compact set. Our second result characterizes invariant p.d. kernels on the bundle whose fiber is $S^{n-1}$, base space is $(S^{n-1})^{r}$ and map is the projection on the base space. This set of kernels is isomorphic to the set of invariant under the automorphisms of the sphere continuous functions $F$ on $(S^{n-1})^{r+2}$ such that $F(\cdot,\cdot ,Z)$ is positive definite for every $Z \in (S^{n-1})^{r}$. When $Z$ is fixed, this class reduces to the class of p.d. kernels invariant under the stabilizer of $Z$ in the automorphism group of the sphere. For $r=1$ these kernels have been used to obtain upper bounds for the spherical codes problem. Our extension for $r&gt;1$ can be used to construct new upper bounds on the size of spherical codes.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-03T02:28:36Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Olga Kuryatnikova</name>
+    </author>
+    <author>
+      <name>Juan C. Vera</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.02363v1</id>
+    <title>Schoenberg coefficients and curvature at the origin of continuous isotropic positive definite kernels on spheres</title>
+    <updated>2018-07-06T11:37:09Z</updated>
+    <link href="https://arxiv.org/abs/1807.02363v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.02363v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the class $Ψ_d$ of continuous functions $ψ\colon [0,π] \to \mathbb{R}$, with $ψ(0)=1$ such that the associated isotropic kernel $C(ξ,η)= ψ(θ(ξ,η))$ ---with $ξ,η\in \mathbb{S}^d$ and $θ$ the geodesic distance--- is positive definite on the product of two $d$-dimensional spheres $\mathbb{S}^d$. We face Problems 1 and 3 proposed in the essay Gneiting (2013b). We have considered an extension that encompasses the solution of Problem 1 solved in Fiedler (2013), regarding the expression of the $d$-Schoenberg coefficients of members of $Ψ_d$ as combinations of $1$-Schoenberg coefficients. We also give expressions for the computation of Schoenberg coefficients of the exponential and Askey families for all even dimensions through recurrence formula. Problem 3 regards the curvature at the origin of members of $Ψ_d$ of local support. We have improved the current bounds for determining this curvature, which is of applied interest at least for $d=2$.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-06T11:37:09Z</published>
+    <arxiv:comment>18 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Ahmed Arafat</name>
+    </author>
+    <author>
+      <name>Pablo Gregori</name>
+    </author>
+    <author>
+      <name>Emilio Porcu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.08425v1</id>
+    <title>Finding the Loops that Matter</title>
+    <updated>2020-05-27T22:27:58Z</updated>
+    <link href="https://arxiv.org/abs/2006.08425v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.08425v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Loops that Matter method (Schoenberg et. al, 2019) for understanding model behavior provides metrics showing the contribution of the feedback loops in a model to behavior at each point in time. To provide these metrics, it is necessary find the set of loops on which to compute them. We show in this paper the necessity of including loops that are important at different points in the simulation. These important loops may not be independent of one another and cannot be determined from static analysis of the model structure. We then describe an algorithm that can be used to discover the most important loops in models that are too feedback rich for exhaustive loop discovery. We demonstrate the use of this algorithm in terms of its ability to find the most explanatory loops, and its computational performance for large models. By using this approach, the Loops that Matter method can be applied to models of any size or complexity.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-27T22:27:58Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Robert Eberlein</name>
+    </author>
+    <author>
+      <name>William Schoenberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.01138v2</id>
+    <title>LoopX: Visualizing and understanding the origins of dynamic model behavior</title>
+    <updated>2020-05-27T22:16:06Z</updated>
+    <link href="https://arxiv.org/abs/1909.01138v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.01138v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is a fundamental precept of System Dynamics that structure leads to behavior. Clearly relating the two is one of the roadblocks in the widespread use of feedback models as it normally depends on substantial experimentation or the application of specialized analytic techniques that are not easily approachable by most model builders. LoopX is a tool that builds understanding of structure as it determines behavior by rendering and highlighting structure responsible for behavior as the behavior unfolds. The tool builds on the Loops that Matter (Schoenberg 2019) approach to analyzing loop dominance by presenting the outcome of applying that theory in an easy to use, interactive, web based piece of software. This is a significant step forward in the challenges of automatically visualizing model behavior and linking it to generative structures identified in Sterman (2000). LoopX can be used to machine generate high quality causal loop diagrams from model equations at different levels of detail based on the dynamic importance of links and variables as well as animate them based on their importance from a loop dominance perspective. Several examples are provided that demonstrate the comprehensiveness and ease of use of the tool, important attributes supporting its broad uptake.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-27T17:25:18Z</published>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>William Schoenberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.10336v2</id>
+    <title>Feedback System Neural Networks for Inferring Causality in Directed Cyclic Graphs</title>
+    <updated>2020-05-27T22:23:28Z</updated>
+    <link href="https://arxiv.org/abs/1908.10336v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.10336v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a new causal network learning algorithm (FSNN, Feedback System Neural Network) based on the construction and analysis of a non-linear system of Ordinary Differential Equations (ODEs). The constructed system provides insight into the mechanisms responsible for generating the past and potential future behavior of dynamic systems. It is also interpretable in terms of real system variables, providing a wholistic, causally accurate, and systemic understanding of the real-life interactions governing observed phenomena. This paper demonstrates the generation of an n-dimensional ordinary differential equation model that can be parameterized to fit measured data using standard numerical optimization techniques. The model makes use of feed forward artificial neural nets to capture nonlinearity, but is a parsimonious and interpretable representation of the network of causal relationships in complex systems. The generated model can easily and rapidly be experimented with and analyzed to determine the origins of behavior using the loops that matter method (Schoenberg et. al 2019). A demonstration of the utility and applicability of the method is given, showing that it produces an accurate, and causally correct model for a three state, non-linear, complex dynamic system of known origin. Generalization to other dynamic systems with other data sources is then discussed.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-27T17:15:42Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>William Schoenberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.08343v1</id>
+    <title>Automated Diagram Generation to Build Understanding and Usability</title>
+    <updated>2020-05-27T22:32:16Z</updated>
+    <link href="https://arxiv.org/abs/2006.08343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.08343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Causal loop and stock and flow diagrams are broadly used in System Dynamics because they help organize relationships and convey meaning. Using the analytical work of Schoenberg (2019) to select what to include in a compressed model, this paper demonstrates how that information can be clearly presented in an automatically generated causal loop diagram. The diagrams are generated using tools developed by people working in graph theory and the generated diagrams are clear and aesthetically pleasing. This approach can also be built upon to generate stock and flow diagrams. Automated stock and flow diagram generation opens the door to representing models developed using only equations, regardless or origin, in a clear and easy to understand way. Because models can be large, the application of grouping techniques, again developed for graph theory, can help structure the resulting diagrams in the most usable form. This paper describes the algorithms developed for automated diagram generation and shows a number of examples of their uses in large models. The application of these techniques to existing, but inaccessible, equation-based models can help broaden the knowledge base for System Dynamics modeling. The techniques can also be used to improve layout in all, or part, of existing models with diagrammatic informtion.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-27T22:32:16Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>William Schoenberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.10341v3</id>
+    <title>Sharp Schoenberg type inequalities and the de Bruin--Sharma problem</title>
+    <updated>2025-12-05T17:02:12Z</updated>
+    <link href="https://arxiv.org/abs/2508.10341v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.10341v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we confirm two conjectures proposed by Georgiev, Gómez-Serrano, Tao, and Wagner~\cite{GGTW25} on Schoenberg type inequalities of order $4$, thereby providing a complete solution to the de Bruin--Sharma problem. We further develop a new interpolation framework to study Schoenberg type inequalities and, in particular, give a new proof of Pereira's result. Motivated by Sendov's conjecture, we then derive sharp Schoenberg type inequalities of orders $-1$ and $-2m$ (with $m \in \mathbb{N}$), as well as non-sharp inequalities valid for all negative orders $p \le -1$. Finally, we discuss a dual counterpart of the Schoenberg type inequalities of order $-2$.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-14T04:51:45Z</published>
+    <arxiv:comment>57 pages, 1 figure. v3: added a coauthor; revised the interpolation argument (we realised that the method in the previous version only yielded a weaker result) and extended the discussion to Schoenberg type inequalities of negative orders. This is the version to be submitted to a journal. v2: added solutions to two conjectures from arXiv:2511.02864v1. Comments and suggestions are welcome</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <author>
+      <name>Quanyu Tang</name>
+    </author>
+    <author>
+      <name>Teng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.02798v1</id>
+    <title>Strictly positive definite kernels on the $2$-sphere: beyond radial symmetry</title>
+    <updated>2020-05-06T13:24:17Z</updated>
+    <link href="https://arxiv.org/abs/2005.02798v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.02798v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The paper introduces a new characterisation of strictly positive definiteness for kernels on the 2-sphere without assuming the kernel to be radially (isotropic) or axially symmetric. The results use the series expansion of the kernel in spherical harmonics. Then additional sufficient conditions are proven for kernels with a block structure of expansion coefficients. These generalise the result derived by Chen et al. 2003 for radial kernels to non-radial kernels.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-06T13:24:17Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <arxiv:journal_ref>IMA Journal of Numerical Analysis 42 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Janin Jäger</name>
+    </author>
+    <arxiv:doi>10.1093/imanum/drab012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/imanum/drab012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.05121v2</id>
+    <title>Multiply positive functions, critical exponent phenomena, and the Jain-Karlin-Schoenberg kernel</title>
+    <updated>2021-04-12T17:46:56Z</updated>
+    <link href="https://arxiv.org/abs/2008.05121v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.05121v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the converse to a result of Karlin [Trans. AMS 1964], and also strengthen his result and two results of Schoenberg [Ann. of Math. 1955]. One of the latter results concerns zeros of Laplace transforms of multiply positive functions. The other results study which powers $α$ of two specific kernels are totally non-negative of order $p\geq 2$ (denoted TN$_p$); both authors showed this happens for $α\geq p-2$, and Schoenberg proved that it does not for $α&lt;p-2$. We show more strongly that for every $p \times p$ submatrix of either kernel, up to a 'shift', its $α$th power is totally positive of order $p$ (TP$_p$) for every $α&gt; p-2$, and is not TN$_p$ for every non-integer $α\in(0,p-2)$. In particular, these results reveal 'critical exponent' phenomena in total positivity. We also prove the converse to a 1968 result of Karlin, revealing yet another critical exponent phenomenon - for Laplace transforms of all Polya Frequency (PF) functions.
+  We further classify the powers preserving all TN$_p$ Hankel kernels on intervals, and isolate individual kernels encoding these powers. We then transfer results on preservers by Polya-Szego (1925), Loewner/Horn (1969), and Khare-Tao (in press), from positive matrices to Hankel TN$_p$ kernels. Another application constructs individual matrices encoding the Loewner convex powers. This complements Jain's results (2020) for Loewner positivity, which we strengthen to total positivity. Remarkably, these (strengthened) results of Jain, those of Schoenberg and Karlin, the latter's converse, and the above Hankel kernels all arise from a single symmetric rank-two kernel and its powers: $\max(1+xy,0)$.
+  We also provide a novel characterization of PF functions and sequences of order $p\geq 3$, following Schoenberg's 1951 result for $p=2$. We correct a small gap in his paper, in the classification of discontinuous PF functions.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-12T06:02:13Z</published>
+    <arxiv:comment>Added Corollary 3.3, Section 3.1, and Section 7.1. (25 pages + references + 4-page Appendix for self-completeness.)</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Apoorva Khare</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9210207v1</id>
+    <title>Schoenberg's Problem on Positive Definite Functions</title>
+    <updated>1992-10-19T20:50:13Z</updated>
+    <link href="https://arxiv.org/abs/math/9210207v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9210207v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  If $n \ge 3$, $q&gt;2$ and $β&gt; 0$ then the function $\exp(-(|x_1|^q+|x_2|^q+\dots+|x_n|^q)^{β/q})$\ is not positive definite. This result gives an answer to a question posed by I.J.~Schoenberg in 1938. This text is an authorized English translation of the paper published in Russian in Algebra and Analysis 3(1991), \#3, p.78--85.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1992-10-19T20:50:13Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Alexander Koldobsky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.11476v2</id>
+    <title>Positive definite radial kernels on homogeneous trees and products</title>
+    <updated>2019-09-01T14:51:59Z</updated>
+    <link href="https://arxiv.org/abs/1907.11476v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.11476v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We give a new proof of a classical result which provides a one-to-one correspondence between positive definite radial kernels on a homogeneous tree and finite Borel measures on the interval $[-1,1]$. Our methods allow us to find a new characterisation in terms of positive trace-class operators on $\ell_2$. Furthermore, we extend both characterisations to finite products of homogeneous trees. The proof relies on a formula for the norm of radial Schur multipliers, in the spirit of Haagerup--Steenstrup--Szwarc, and a variation of the Hamburger moment problem.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-26T10:54:45Z</published>
+    <arxiv:comment>v2: 35 pages, minor changes. Accepted for publication in Journal of Operator Theory</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>J. Operator Theory 84 (2020) no. 2, 487-519</arxiv:journal_ref>
+    <author>
+      <name>Ignacio Vergara</name>
+    </author>
+    <arxiv:doi>10.7900/jot.2019aug07.2243</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.7900/jot.2019aug07.2243" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.19837v2</id>
+    <title>Convergence and clustering analysis for Mean Shift with radially symmetric, positive definite kernels</title>
+    <updated>2026-03-16T17:20:09Z</updated>
+    <link href="https://arxiv.org/abs/2506.19837v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.19837v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The mean shift (MS) is a non-parametric, density-based, iterative algorithm with prominent usage in clustering and image segmentation. A rigorous proof for the convergence of its mode estimate sequence in full generality remains unknown. In this paper, we show that for\textit{ sufficiently large bandwidth} convergence is guaranteed in any dimension with \textit{any radially symmetric and strictly positive definite kernels}. Although the author acknowledges that our result is partially more restrictive than that of \cite{YT} due to the lower limit of the bandwidth, our kernel class is not covered by the kernel class in \cite{YT}, and the proof technique is different. Moreover, we show theoretically and experimentally that while for Gaussian kernel, accurate clustering at \textit{large bandwidths} is generally impossible, it may still be possible for other radially symmetric, strictly positive definite kernels.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-24T17:53:29Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Susovan Pal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.0463v1</id>
+    <title>Radial velocity follow-up of CoRoT transiting exoplanets</title>
+    <updated>2011-01-03T08:03:41Z</updated>
+    <link href="https://arxiv.org/abs/1101.0463v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.0463v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report on the results from the radial-velocity follow-up program performed to establish the planetary nature and to characterize the transiting candidates discovered by the space mission CoRoT. We use the SOPHIE at OHP, HARPS at ESO and the HIRES at Keck spectrographs to collect spectra and high- precision radial velocity (RV) measurements for several dozens dif- ferent candidates from CoRoT. We have measured the Rossiter- McLaughlin effect of several confirmed planets, especially CoRoT- 1b which revealed that it is another highly inclined system. Such high-precision RV data are necessary for the discovery of new tran- siting planets. Furthermore, several low mass planet candidates have emerged from our Keck and HARPS data.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-03T08:03:41Z</published>
+    <arxiv:comment>10 pages, 7 figures. Proceeding of Haute Provence Observatory Colloquium (23-27 August 2010)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>A. Santerne</name>
+    </author>
+    <author>
+      <name>M. Endl</name>
+    </author>
+    <author>
+      <name>A. Hatzes</name>
+    </author>
+    <author>
+      <name>F. Bouchy</name>
+    </author>
+    <author>
+      <name>C. Moutou</name>
+    </author>
+    <author>
+      <name>M. Deleuil</name>
+    </author>
+    <author>
+      <name>the CoRoT radial velocity team</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/20101102001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/20101102001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.22104v1</id>
+    <title>Positive definite singular kernels on two-point homogeneous spaces</title>
+    <updated>2024-10-29T15:02:15Z</updated>
+    <link href="https://arxiv.org/abs/2410.22104v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.22104v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study positive definiteness of kernels $K(x,y)$ on two-point homogeneous
+  spaces. As opposed to the classical case, which has been developed and studied
+  in the existing literature, we allow the kernel to have an (integrable)
+  singularity for $x=y$. Specifically, the Riesz kernel $d(x,y)^{-s}$ (where
+  $d$ denotes some distance on the space) is a prominent example. We derive
+  results analogous to Schoenberg's characterization of positive definite
+  functions on the sphere, Schur's lemma on the positive definiteness of the
+  product of positive definite functions, and Schoenberg's characterization of
+  functions positive definite on all spheres. We use these results to better
+  understand the behavior of the Riesz kernels for the geodesic and chordal
+  distances on projective spaces.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-29T15:02:15Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Dmitriy Bilyk</name>
+    </author>
+    <author>
+      <name>Peter Grabner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0705.2042v3</id>
+    <title>Multivariable generalizations of the Schur class: positive kernel characterization and transfer function realization</title>
+    <updated>2007-11-02T16:59:50Z</updated>
+    <link href="https://arxiv.org/abs/0705.2042v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0705.2042v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The operator-valued Schur-class is defined to be the set of holomorphic functions $S$ mapping the unit disk into the space of contraction operators between two Hilbert spaces. There are a number of alternate characterizations: the operator of multiplication by $S$ defines a contraction operator between two Hardy Hilbert spaces, $S$ satisfies a von Neumann inequality, a certain operator-valued kernel associated with $S$ is positive-definite, and $S$ can be realized as the transfer function of a dissipative (or even conservative) discrete-time linear input/state/output linear system. Various multivariable generalizations of this class have appeared recently,one of the most encompassing being that of Muhly and Solel where the unit disk is replaced by the strict unit ball of the elements of a dual correspondence $E^σ$ associated with a $W^{*}$-correspondence $E$ over a $W^{*}$-algebra $\cA$ together with a $*$-representation $σ$ of $\cA$. The main new point which we add here is the introduction of the notion of reproducing kernel Hilbert correspondence and identification of the Muhly-Solel Hardy spaces as reproducing kernel Hilbert correspondences associated with a completely positive analogue of the classical Szegö kernel. In this way we are able to make the analogy between the Muhly-Solel Schur class and the classical Schur class more complete. We also illustrate the theory by specializing it to some well-studied special cases; in some instances there result new kinds of realization theorems.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-05-14T22:17:26Z</published>
+    <arxiv:comment>adjusted the definition of completely positve kernel on page 12 and did minor modifications corresponding to this adjustment</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Joseph A. Ball</name>
+    </author>
+    <author>
+      <name>Animikh Biswas</name>
+    </author>
+    <author>
+      <name>Quanlei Fang</name>
+    </author>
+    <author>
+      <name>Sanne ter Horst</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.02838v2</id>
+    <title>There are many more positive maps than completely positive maps</title>
+    <updated>2017-08-03T05:32:05Z</updated>
+    <link href="https://arxiv.org/abs/1611.02838v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.02838v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A linear map between matrix spaces is positive if it maps positive semidefinite matrices to positive semidefinite ones, and is called completely positive if all its ampliations are positive. In this article quantitative bounds on the fraction of positive maps that are completely positive are proved. A main tool are real algebraic geometry techniques developed by Blekherman to study the gap between positive polynomials and sums of squares. Finally, an algorithm to produce positive maps which are not completely positive is given.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-09T07:17:12Z</published>
+    <arxiv:comment>v2: 47 pages; includes a more thorough discussion of (completely) positive maps on complex matrices; v1: 37 pages; supplementary material (a Mathematica notebook) is available from Other formats</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Int. Math. Res. Not. IMRN (2019), Issue 11, 3313--3375</arxiv:journal_ref>
+    <author>
+      <name>Igor Klep</name>
+    </author>
+    <author>
+      <name>Scott McCullough</name>
+    </author>
+    <author>
+      <name>Klemen Šivic</name>
+    </author>
+    <author>
+      <name>Aljaž Zalar</name>
+    </author>
+    <arxiv:doi>10.1093/imrn/rnx203</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/imrn/rnx203" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.06436v1</id>
+    <title>Radial positive definite functions and spectral theory of the Schrödinger operators with point interactions</title>
+    <updated>2017-01-23T15:05:46Z</updated>
+    <link href="https://arxiv.org/abs/1701.06436v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.06436v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We complete the classical Schoenberg representation theorem for radial positive definite functions. We apply this result to study spectral properties of self-adjoint realizations of two- and three-dimensional Schrödinger operators with point interactions on a finite set. In particular, we prove that any realization has purely absolutely continuous non-negative spectrum.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-23T15:05:46Z</published>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Mathematische Nachrichten 285 (2012), no. 14-15, 1839-1859</arxiv:journal_ref>
+    <author>
+      <name>N. Goloshchapova</name>
+    </author>
+    <author>
+      <name>M. Malamud</name>
+    </author>
+    <author>
+      <name>V. Zastavnyi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.16846v2</id>
+    <title>Block quantum dynamical semigroups of completely positive definite kernels</title>
+    <updated>2025-01-16T09:40:30Z</updated>
+    <link href="https://arxiv.org/abs/2401.16846v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.16846v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Kolmogorov decomposition for a given completely positive definite kernel is a generalization of Paschke's GNS construction for the completely positive map. Using Kolmogorov decomposition, to every quantum dynamical semigroup (QDS) for completely positive definite kernels over a set $S$ on given $C^*$-algebra $\mathcal{A},$ we shall assign an inclusion system $F = (F_s)_{s\ge 0}$ of Hilbert bimodules over $\mathcal{A}$ with a generating unit $ξ^σ=(ξ^σ_s)_{s\ge 0}.$ Consider a von Neumann algebra $\mathcal{B}$, and let $\mathfrak{T}=(\mathfrak{T}_s)_{s\ge 0}$ be a QDS over a set $S$ on the algebra $M_2(\mathcal{B})$ with $\mathfrak{T}_s=\begin{pmatrix}\mathfrak{K}_{s,1} &amp; \mathfrak{L}_s\\\mathfrak{L}_s^*&amp; \mathfrak{K}_{s,2} \end{pmatrix}$ which acts block-wise. Further, suppose that $(F^i_s )_{s\ge 0}$ is the inclusion system affiliated to the diagonal QDS $(\mathfrak{K}_{s,i})_{s\ge 0}$ along with the generating unit $(ξ^σ_{s,i} )_{s\ge 0},$ $σ\in S,i\in \{1,2\}$, then we prove that there exists a unique contractive (weak) morphism $V = (V_s)_{s\ge 0}:F^2_s \to F^1_s$ such that $\mathfrak{L}_s^{σ,σ'}(b)=\langle ξ_{s,1}^σ,V_s bξ_{s,2}^{σ'}\rangle$ for every $σ',σ\in S$ and $b\in \mathcal{B}.$ We also study the semigroup version of a factorization theorem for $\mathfrak{K}$-families.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-30T09:40:17Z</published>
+    <arxiv:primary_category term="math.OA"/>
+    <arxiv:journal_ref>Infinite Dimensional Analysis, Quantum Probability and Related Topics (2024) 2440014</arxiv:journal_ref>
+    <author>
+      <name>Santanu Dey</name>
+    </author>
+    <author>
+      <name>Dimple Saini</name>
+    </author>
+    <author>
+      <name>Harsh Trivedi</name>
+    </author>
+    <arxiv:doi>10.1142/S0219025724400149</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219025724400149" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.1112v1</id>
+    <title>A function Class of strictly positive definite and logarithmically completely monotonic functions related to the modified Bessel functions</title>
+    <updated>2012-05-05T08:22:29Z</updated>
+    <link href="https://arxiv.org/abs/1205.1112v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.1112v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we give some conditions for a class of functions related to Bessel functions to be positive definite or strictly positive definite . We present some properties and relationships involving logarithmically completely monotonic functions and strictly positive definite functions. In particular, we are interested with the modified Bessel functions.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-05T08:22:29Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <author>
+      <name>Jamel El Kamel</name>
+    </author>
+    <author>
+      <name>Khaled Mehrez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.04185v1</id>
+    <title>Positive definite kernels and boundary spaces</title>
+    <updated>2016-11-13T20:38:28Z</updated>
+    <link href="https://arxiv.org/abs/1611.04185v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.04185v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a kernel based harmonic analysis of "boundary," and boundary representations. Our setting is general: certain classes of positive definite kernels. Our theorems extend (and are motivated by) results and notions from classical harmonic analysis on the disk. Our positive definite kernels include those defined on infinite discrete sets, for example sets of vertices in electrical networks, or discrete sets which arise from sampling operations performed on positive definite kernels in a continuous setting.
+  Below we give a summary of main conclusions in the paper: Starting with a given positive definite kernel $K$ we make precise generalized boundaries for $K$. They are measure theoretic "boundaries." Using the theory of Gaussian processes, we show that there is always such a generalized boundary for any positive definite kernel.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-13T20:38:28Z</published>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Palle Jorgensen</name>
+    </author>
+    <author>
+      <name>Feng Tian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.05008v3</id>
+    <title>$C^*$-extreme contractive completely positive maps</title>
+    <updated>2025-05-23T10:42:43Z</updated>
+    <link href="https://arxiv.org/abs/2412.05008v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.05008v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we generalize a specific quantized convexity structure of the generalized state space of a $C^*$-algebra and examine the associated extreme points. We introduce the notion of $P$-$C^*$-convex subsets, where $P$ is any positive operator on a Hilbert space $\mathcal{H}$. These subsets are defined with in the set of all completely positive (CP) maps from a unital $C^*$-algebra $\mathcal{A}$ into the algebra $B(\mathcal{H})$ of bounded linear maps on $\mathcal{H}$. In particular, we focus on certain $P$-$C^*$-convex sets, denoted by $\mathrm{CP}^{(P)}(\mathcal{A},B(\mathcal{H}))$, and analyze their extreme points with respect to this new convexity structure. This generalizes the existing notions of $C^*$-convex subsets and $C^*$-extreme points of unital completely positive maps. We significantly extend many of the known results regarding the $C^*$-extreme points of unital completely positive maps into the context of $P$-$C^*$-convex sets we are considering. This includes abstract characterization and structure of $P$-$C^*$-extreme points. Further, using these studies, we completely characterize the $C^*$-extreme points of the $C^*$-convex set of all contractive completely positive maps from $\mathcal{A}$ into $B(\mathcal{H})$, where $\mathcal{H}$ is finite-dimensional. Additionally, we discuss the connection between $P$-$C^*$-extreme points and linear extreme points of these convex sets, as well as Krein-Milman type theorems.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-06T13:01:35Z</published>
+    <arxiv:comment>To appear in Journal of Mathematical Analysis and Applications with the title "Generalized $C^*$-convexity in Completely Positive Maps". Removed the closed range assumption in Lemma 4.10 and subsequent results are improved accordingly</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <author>
+      <name>Anand O. R</name>
+    </author>
+    <author>
+      <name>K. Sumesh</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmaa.2025.129700</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmaa.2025.129700" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.1203v1</id>
+    <title>Spectral theory of Schrödinger operators with infinitely many point interactions and radial positive definite functions</title>
+    <updated>2012-08-06T16:29:47Z</updated>
+    <link href="https://arxiv.org/abs/1208.1203v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.1203v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A number of results on radial positive definite functions on ${\mathbb R^n}$ related to Schoenberg's integral representation theorem are obtained. They are applied to the study of spectral properties of self-adjoint realizations of two- and three-dimensional Schrödinger operators with countably many point interactions. In particular, we find conditions on the configuration of point interactions such that any self-adjoint realization has purely absolutely continuous non-negative spectrum. We also apply some results on Schrödinger operators to obtain new results on completely monotone functions.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-06T16:29:47Z</published>
+    <arxiv:comment>to appear in Journal of Functional Analysis</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>Mark M. Malamud</name>
+    </author>
+    <author>
+      <name>Konrad Schmüdgen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.06552v1</id>
+    <title>Positive Hankel operators, positive definite kernels and related topics</title>
+    <updated>2020-01-17T22:51:17Z</updated>
+    <link href="https://arxiv.org/abs/2001.06552v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.06552v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is shown that a positive (bounded linear) operator on a Hilbert space with trivial kernel is unitarily equivalent to a Hankel operator that satisfies double positivity condition if and only if it is non-invertible and has simple spectrum (that is, if this operator admits a cyclic vector). More generally, for an arbitrary positive (bounded linear) operator A on a Hilbert space H with trivial kernel the collection V(A) of all linear isometries V from H into H such that AV is positive as well is investigated. In particular, operators A such that V(A) contains a pure isometry with a given deficiency index are characterized. Some applications to unbounded positive self-adjoint operators as well as to positive definite kernels are presented. In particular, positive definite matrix-type square roots of such kernels are studied and kernels that have a unique such root are characterized. The class of all positive definite kernels that have at least one such a square root is also investigated.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-17T22:51:17Z</published>
+    <arxiv:comment>35 pages</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <arxiv:journal_ref>Adv. Operator Theory 5 (2020), 950-993</arxiv:journal_ref>
+    <author>
+      <name>Piotr Niemiec</name>
+    </author>
+    <arxiv:doi>10.1007/s43036-020-00058-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s43036-020-00058-6" title="doi"/>
+  </entry>
+</feed>

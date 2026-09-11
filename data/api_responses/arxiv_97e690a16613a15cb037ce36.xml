@@ -1,0 +1,743 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9mnoXUAxB1ZVgNeZ1gFvhyts0RE</id>
+  <title>arXiv Query: search_query=all:Bernstein OR all:function OR all:screened OR all:Coulomb OR all:potential&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:43:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Bernstein+OR+(all:function+OR+(all:screened+OR+(all:Coulomb+OR+all:potential)))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>852335</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0307124v2</id>
+    <title>Potentials of a uniformly moving point charge in the Coulomb gauge</title>
+    <updated>2004-01-20T16:07:40Z</updated>
+    <link href="https://arxiv.org/abs/physics/0307124v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0307124v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Coulomb-gauge vector potential of a uniformly moving point charge is obtained by calculating the gauge function for the transformation between the Lorenz and Coulomb gauges. The expression obtained for the difference between the vector potentials in the two gauges is shown to satisfy a Poisson equation to which the inhomogeneous wave equation for this quantity can be reduced. The right-hand side of the Poisson equation involves an important but easily overlooked delta-function term that arises from a second-order partial derivative of the Coulomb potential of a point charge.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-07-24T14:19:45Z</published>
+    <arxiv:comment>To appear in European Journal of Physics. A delta-function identity for a second-order partial derivative of the Coulomb potential of a point charge is now used for the regularization of the rhs of the Poisson equation for the difference between the vector potentials in the Coulomb and Lorenz gauges</arxiv:comment>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <arxiv:journal_ref>Eur. J. Phys. vol. 25, 351--360 (2004)</arxiv:journal_ref>
+    <author>
+      <name>V. Hnizdo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.5502v1</id>
+    <title>Comments on "On vector potential of the Coulomb gauge"</title>
+    <updated>2010-05-30T05:26:39Z</updated>
+    <link href="https://arxiv.org/abs/1005.5502v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.5502v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The instantaneous nature of the potentials of the Coulomb gauge is clarified and a concise derivation is given of the vector potential of the Coulomb gauge expressed in terms of the instantaneous magnetic field.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-30T05:26:39Z</published>
+    <arxiv:comment>2 pages pdf. Derivation is given of the vector potential of the Coulomb gauge expressed in terms of the instantaneous magnetic field</arxiv:comment>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <arxiv:journal_ref>European Journal of Physics 25, L29-L30 (2004)</arxiv:journal_ref>
+    <author>
+      <name>A. M. Stewart</name>
+    </author>
+    <arxiv:doi>10.1088/0143-0807/25/2/L06</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0143-0807/25/2/L06" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0803.2307v2</id>
+    <title>The effective Coulomb potential in SU(3) lattice Yang-Mills theory</title>
+    <updated>2008-06-10T09:44:08Z</updated>
+    <link href="https://arxiv.org/abs/0803.2307v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0803.2307v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the infrared behavior of the effective Coulomb potential in lattice SU(3) Yang-Mills theory in the Coulomb gauge. We use lattices up to a size of 48^4 and three values of the inverse coupling, beta=5.8, 6.0 and 6.2. While finite-volume effects are hardly visible in the effective Coulomb potential, scaling violations and a strong dependence on the choice of Gribov copy are observed. We obtain bounds for the Coulomb string tension that are in agreement with Zwanziger's inequality relating the Coulomb string tension to the Wilson string tension.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-03-17T13:50:09Z</published>
+    <arxiv:comment>11 pages, 6 figures; more thorough discussion of the remaining Gribov ambiguity of the infrared behavior of the Coulomb potential added, bounds for the Coulomb string tension given, Figures completed, version to appear in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Phys.Rev.D78:014501,2008</arxiv:journal_ref>
+    <author>
+      <name>A. Voigt</name>
+    </author>
+    <author>
+      <name>E. -M. Ilgenfritz</name>
+    </author>
+    <author>
+      <name>M. Müller-Preussker</name>
+    </author>
+    <author>
+      <name>A. Sternbeck</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.78.014501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.78.014501" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.06317v1</id>
+    <title>The $ppp$ correlation function with a screened Coulomb potential</title>
+    <updated>2024-02-09T10:57:11Z</updated>
+    <link href="https://arxiv.org/abs/2402.06317v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.06317v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The correlation function is a useful tool to study the interaction between hadrons. The theoretical description of this observable requires the knowledge of the scattering wave function, whose asymptotic part is distorted when two or more particles are charged. For a system of three (or more) particles, with more than two particles asymptotically free and at least two of them charged, the asymptotic part of the wave function is not known in a closed form. In the present study we introduce a screened Coulomb potential and analyze the impact of the screening radius on the correlation function. As we will show, when a sufficiently large screening radius is used, the correlation function results almost unchanged if compared to the case in which the unscreened Coulomb potential is used. This fact allows the use of free asymptotic matching conditions in the solution of the scattering equation simplifying noticeably the calculation of the correlation function. As an illustration we discuss the $pp$ and $ppp$ correlation functions.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-09T10:57:11Z</published>
+    <arxiv:comment>14 pages, 4 figures, belonging to the collection Advances on Few-Body Problems in Physics, Few-Body Systems</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>A. Kievsky</name>
+    </author>
+    <author>
+      <name>E. Garrido</name>
+    </author>
+    <author>
+      <name>M. Viviani</name>
+    </author>
+    <author>
+      <name>M. Gattobigio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0408115v4</id>
+    <title>Phenomenological models of dielectric functions and screened Coulomb potential</title>
+    <updated>2004-11-24T14:16:43Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0408115v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0408115v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The evolution of static dielectric constants and polarization with doping are analyzed and discussed using established experimental results. The variation of screened Coulomb potential with doping is derived theoretically to justify the said evolutions. The latter justification arises due to the influence of ionization energy ($\mathcal{E_I}$) on the static dielectric functions. The bare Coulomb potential and the Thomas-Fermi screened potential with finite carrier density were recovered when $\mathcal{E_I} \to \infty$ and $\mathcal{E_I} \to E_F^0$ respectively. Basically, these phenomenological models are associated with the ionization energy based Fermi-Dirac statistics (iFDS).</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-08-05T14:25:31Z</published>
+    <arxiv:comment>To be published in Phys. Lett. A</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Lett. A 334 (2005) 413</arxiv:journal_ref>
+    <author>
+      <name>Andrew Das Arulsamy</name>
+    </author>
+    <arxiv:doi>10.1016/j.physleta.2004.11.044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physleta.2004.11.044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.09852v2</id>
+    <title>C/2014 UN271 (Bernardinelli-Bernstein): the nearly spherical cow of comets</title>
+    <updated>2021-09-22T14:21:07Z</updated>
+    <link href="https://arxiv.org/abs/2109.09852v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.09852v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>C/2014 UN271 (Bernardinelli-Bernstein) is a comet incoming from the Oort cloud which is remarkable in having the brightest (and presumably largest) nucleus of any well-measured comet, and having been discovered at heliocentric distance $r_h\approx29$ au farther than any Oort-cloud member. We describe the properties that can be inferred from images recorded until the first reports of activity in June 2021. The orbit has $i=95^\circ,$ with perihelion of 10.97 au to be reached in 2031, and previous aphelion at $40,400\pm260$ au. Backwards integration of the orbit under a standard Galactic tidal model and known stellar encounters suggests this is a pristine new comet, with a perihelion of $q\approx18$ au on its previous perihelion passage 3.5 Myr ago. The photometric data show an unresolved nucleus with absolute magnitude $H_r=8.0,$ colors that are typical of comet nuclei or Damocloids, and no secular trend as it traversed the range 34--23 au. For $r$-band geometric albedo $p_r,$ this implies a diameter of $150 (p_r/0.04)^{-0.5}$ km. There is strong evidence of brightness fluctuations at $\pm0.2$ mag level, but no rotation period can be discerned. A coma consistent with a ``stationary' $1/ρ$ surface-brightness distribution grew in scattering cross-section at an exponential rate from $A f ρ\approx1$ m to $\approx150$ m as the comet approached from 28 to 20 au. The activity is consistent with a simple model of sublimation of a surface species in radiative equilibrium with the Sun. The inferred enthalpy of sublimation matches those of $CO_2$ and $NH_3$. More-volatile species -- $N_2,$ $CH_4,$ and $CO$ -- must be far less abundant on the sublimating surfaces.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-20T21:35:33Z</published>
+    <arxiv:comment>19 pages, submitted to ApJ Letters</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Pedro H. Bernardinelli</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gary M. Bernstein</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Benjamin T. Montet</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Robert Weryk</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Richard Wainscoat</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Aguena</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Allam</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Andrade-Oliveira</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Annis</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Avila</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Bertin</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Brooks</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. L. Burke</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Carnero Rosell</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Carrasco Kind</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Carretero</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Cawthon</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Conselice</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Costanzi</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. N. da Costa</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. E. S. Pereira</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. De Vicente</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. T. Diehl</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Everett</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>I. Ferrero</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. Flaugher</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Frieman</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. García-Bellido</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Gaztanaga</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. W. Gerdes</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Gruen</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. A. Gruendl</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Gschwend</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Gutierrez</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. R. Hinton</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. L. Hollowood</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Honscheid</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. J. James</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Kuehn</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. Kuropatkin</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>O. Lahav</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. A. G. Maia</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. L. Marshall</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Menanteau</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Miquel</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Morgan</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. L. C. Ogando</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Paz-Chinchón</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Pieres</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. A. Plazas Malagón</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Rodriguez-Monroy</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. K. Romer</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Roodman</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Sanchez</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Schubnell</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Serrano</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>I. Sevilla-Noarbe</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Smith</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Soares-Santos</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Suchyta</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. E. C. Swanson</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Tarle</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. To</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. A. Troxel</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. N. Varga</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. R. Walker</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Zhang</name>
+      <arxiv:affiliation>for the DES Collaboration</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/ac32d3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/ac32d3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.5538v1</id>
+    <title>Generating functions for the Bernstein polynomials: A unified approach to deriving identities for the Bernstein basis functions</title>
+    <updated>2010-12-21T10:01:40Z</updated>
+    <link href="https://arxiv.org/abs/1012.5538v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.5538v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main aim of this paper is to provide a unified approach to deriving identities for the Bernstein polynomials using a novel generating function. We derive various functional equations and differential equations using this generating function. Using these equations, we give new proofs both for a recursive definition of the Bernstein basis functions and for derivatives of the nth degree Bernstein polynomials. We also find some new identities and properties for the Bernstein basis functions. Furthermore, we discuss analytic representations for the generalized Bernstein polynomials through the binomial or Newton distribution and Poisson distribution with mean and variance. Using this novel generating function, we also derive an identity which represents a pointwise orthogonality relation for the Bernstein basis functions. Finally, by using the mean and the variance, we generalize Szasz-Mirakjan type basis functions.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-21T10:01:40Z</published>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Generating Functions For The Bernstein Type Polynomials: A New Approach To Deriving Identities And Applications For The Polynomials, Hacettepe Journal Of Mathematics And Statistics 2014</arxiv:journal_ref>
+    <author>
+      <name>Yilmaz Simsek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.6928v1</id>
+    <title>Studies on some exponential-screened Coulomb potentials</title>
+    <updated>2013-04-25T15:03:50Z</updated>
+    <link href="https://arxiv.org/abs/1304.6928v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.6928v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The generalized pseudospectral method is employed to study the bound-state spectra of some of the exponentially screened Coulomb potentials, \emph{viz.}, the exponential cosine screened Coulomb (ECSC) and general exponential screened Coulomb (GESC) potential, with special emphasis on \emph{higher} states and \emph{stronger} interaction. Eigenvalues accurate up to eleven significant figures are obtained through a non-uniform optimal spatial discretization of the radial Schrödinger equation. All the 55 eigenstates of ECSC potential with $n \le 10$ and 36 eigenstates of GESC potential with $n \le 8$ are considered for arbitrary values of the screening parameter, covering a wide range of interaction. Excited states as high as up to $n=18$ have been computed with high accuracy for the first time. Excellent agreement with the literature data has been observed in all cases. All the GESC eigenstates are calculated with much greater accuracy than the existing methods available in literature. Many $l \ne 0$ states of this potential are reported here. In both cases, a detailed variation of energies with respect to the parameters in potential is monitored.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-25T15:03:50Z</published>
+    <arxiv:comment>15 pages, 5 tables, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>International Journal of Quantum Chemistry, 113, 1503-1510 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Amlan K. Roy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.10097v1</id>
+    <title>Deterministic Partially Dynamic Single Source Shortest Paths in Weighted Graphs</title>
+    <updated>2017-05-29T10:05:29Z</updated>
+    <link href="https://arxiv.org/abs/1705.10097v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.10097v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we consider the decremental single-source shortest paths (SSSP) problem, where given a graph $G$ and a source node $s$ the goal is to maintain shortest distances between $s$ and all other nodes in $G$ under a sequence of online adversarial edge deletions. In their seminal work, Even and Shiloach [JACM 1981] presented an exact solution to the problem in unweighted graphs with only $O(mn)$ total update time over all edge deletions. Their classic algorithm was the state of the art for the decremental SSSP problem for three decades, even when approximate shortest paths are allowed.
+  A series of results showed how to improve upon $O(mn)$ if approximation is allowed, culminating in a recent breakthrough of Henzinger, Krinninger and Nanongkai [FOCS 14], who presented a $(1+ε)$-approximate algorithm for undirected weighted graphs whose total update time is near linear: $O(m^{1+o(1)}\log(W))$, where $W$ is the ratio of the heaviest to the lightest edge weight in the graph. In this paper they posed as a major open problem the question of derandomizing their result.
+  Until very recently, all known improvements over the Even-Shiloach algorithm were randomized and required the assumption of a non-adaptive adversary. In STOC 2016, Bernstein and Chechik showed the first \emph{deterministic} algorithm to go beyond $O(mn)$ total update time: the algorithm is also $(1+ε)$-approximate, and has total update time $\tilde{O}(n^2)$. In SODA 2017, the same authors presented an algorithm with total update time $\tilde{O}(mn^{3/4})$. However, both algorithms are restricted to undirected, unweighted graphs. We present the \emph{first} deterministic algorithm for \emph{weighted} undirected graphs to go beyond the $O(mn)$ bound. The total update time is $\tilde{O}(n^2 \log(W))$.</summary>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-29T10:05:29Z</published>
+    <arxiv:primary_category term="cs.DS"/>
+    <author>
+      <name>Aaron Bernstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.00581v1</id>
+    <title>Application of screened Coulomb potential in fitting DBV star PG 0112+104</title>
+    <updated>2017-12-02T09:57:12Z</updated>
+    <link href="https://arxiv.org/abs/1712.00581v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.00581v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With 78.7 days of observations for PG 0112+104, a pulsating DB star, from Campaign 8 of $Kepler$ 2 mission, Hermes et al. made a detailed mode identification. A reliable mode identification, with 5 $l$ = 1 modes, 3 $l$ = 2 modes, and 3 $l$ = 1 or 2 modes, was identified. Grids of DBV star models are evolved by \texttt{WDEC} with element diffusion effect of pure Coulomb potential and screened Coulomb potential. Fitting the identified modes of PG 0112+104 by the calculated ones, we studied the difference of element diffusion effect between adopting pure Coulomb potential and screened Coulomb potential. Our aim is to reduce the fitting error by studying new input physics. The starting models including their chemical composition profile are from white dwarf models evolved by \texttt{MESA}. They were calculated following the stellar evolution from the main sequence to the start of the white dwarf cooling sequences. The optimal parameters are basically consistent with that of previous spectroscopic and asteroseismological studies. The pure and screened Coulomb potential lead to different composition profiles of the C/O-He interface area. High $k$ modes are very sensitive to the area. However, most of the observed modes for PG 0112+104 are low $k$ modes. The $σ_{RMS}$ taking the screened Coulomb potential is reduced by 4\% compared with taking the pure Coulomb potential when fitting the identified low $k$ modes of PG 0112+104. Fitting the $Kepler$ 2 data with our models improved the $σ_{RMS}$ of the fit by 27\%.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-02T09:57:12Z</published>
+    <arxiv:comment>8 pages, 5 figures, accepted by MNRAS in December 1, 2017</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>Yanhui Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.4215v1</id>
+    <title>Electrostatic Potential of Phase Boundary in Coulomb Systems</title>
+    <updated>2010-05-23T18:15:04Z</updated>
+    <link href="https://arxiv.org/abs/1005.4215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.4215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Any interface boundary in an equilibrium system of Coulomb particles is accompanied by the existence of a finite difference in the average electrostatic potential through this boundary. This interface potential drop is a thermodynamic quantity. It depends on temperature only and does not depend on surface properties. The zero-temperature limit of this drop (along coexistence curve) is an individual substance coefficient. The drop tends to zero at the critical point of the gas-liquid phase transition. A special critical exponent can be defined to describe this behavior. The value of the discussed potential drop is directly calculated by numerical simulation of phase transitions in Coulomb systems. Properties of the interface potential drop are discussed for several simplified Coulomb models (melting and evaporation in the One Component Plasma (OCP)). Some examples of phase transition in real situations are also discussed.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-23T18:15:04Z</published>
+    <arxiv:comment>4 pages, 1 figure, 13 refs., Int. Conference "Strongly Coupled Coulomb Systems", Saint-Malo, France, 1999</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>J.Phys.IV 10:451-454,2000</arxiv:journal_ref>
+    <author>
+      <name>Igor Iosilevskiy</name>
+    </author>
+    <author>
+      <name>Alexander Chigvintsev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0310170v1</id>
+    <title>On certain perturbations of the Erdos-Renyi random graph</title>
+    <updated>2003-10-08T13:16:48Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0310170v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0310170v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study perturbations of the Erdos-Renyi model for which the statistical weight of a graph depends on the abundance of certain geometrical patterns. Using the formal correspondance with an exactly solvable effective model, we show the existence of a percolation transition in the thermodynamical limit and derive perturbatively the expression of the threshold. The free energy and the moments of the degree distribution are also computed perturbatively in that limit and the percolation criterion is compared with the Molloy-Reed criterion.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-10-08T13:16:48Z</published>
+    <arxiv:comment>Authors : Stephane Coulomb, Michel Bauer</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Stephane Coulomb</name>
+    </author>
+    <author>
+      <name>Michel Bauer</name>
+    </author>
+    <arxiv:doi>10.1023/B:JOSS.0000028060.07802.9d</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1023/B:JOSS.0000028060.07802.9d" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0509239v2</id>
+    <title>A maj-inv bijection for C_2 \wr A_n</title>
+    <updated>2005-10-16T08:05:55Z</updated>
+    <link href="https://arxiv.org/abs/math/0509239v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0509239v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We give a bijective proof of the MacMahon-type equidistribution over the group of signed even permutations C_2 \wr A_n that was stated in [Bernstein. Electron. J. Combin. 11 (2004) 83]. This is done by generalizing the bijection that was introduced in the bijective proof of the equidistribution over the alternating group A_n in [Bernstein and Regev. Sem. Lothar. Combin. 53 (2005) B53b].</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-09-11T09:34:19Z</published>
+    <arxiv:comment>8 pages; corrected title in the arXiv</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Dan Bernstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0106184v1</id>
+    <title>Counting the Number of Bound States of Two-dimensional Screened Coulomb Potentials: A Semiclassical Approach</title>
+    <updated>2001-06-11T18:48:30Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0106184v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0106184v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Portnoi and Galbraith recently proposed a beautiful and intriguing relationship defining the critical screening lengths associated with the apparition of new bound states for the two-dimensional statically screened Coulomb potential. Not only does semiclassical quantum theory show that this relationship is unfortunately not strictly exact, it has also proved helpful in the search for a potential which exactly verifies Portnoi and Galbraith's formula, namely $\frac{-e^2}{r (1+r/r_s)^2}$. The analytical eigenfunctions of the corresponding Schrödinger equation at zero energy, when localized, lead to approximate upper bounds for critical screening lengths of the two-dimensional statically screened Coulomb potential.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-06-11T18:48:30Z</published>
+    <arxiv:comment>7 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Christian Tanguy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.3525v2</id>
+    <title>Coulomb string tension, asymptotic string tension, and the gluon chain</title>
+    <updated>2015-01-10T18:45:18Z</updated>
+    <link href="https://arxiv.org/abs/1410.3525v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.3525v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compute, via numerical simulations, the non-perturbative Coulomb potential of pure SU(3) gauge theory in Coulomb gauge. We find that that the Coulomb potential scales nicely in accordance with asymptotic freedom, that the Coulomb potential is linear in the infrared, and that the Coulomb string tension is about four times larger than the asymptotic string tension. We explain how it is possible that the asymptotic string tension can be lower than the Coulomb string tension by a factor of four.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-13T22:15:22Z</published>
+    <arxiv:comment>10 pages, 7 figures. v2: Published version. This version concerns only the non-perturbative Coulomb potential. Results for the ghost propagator are deferred to a later publication</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Phys. Rev. D 91, 034503 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Jeff Greensite</name>
+    </author>
+    <author>
+      <name>Adam P. Szczepaniak</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.91.034503</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.91.034503" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0002015v1</id>
+    <title>Induced Variational Method from Supersymmetric Quantum Mechanics and the Screened Coulomb Potential</title>
+    <updated>2000-02-02T13:47:38Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0002015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0002015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The formalism of Supersymmetric Quantum Mechanics supplies a trial wave function to be used in the Variational Method. The screened Coulomb potential is analysed within this approach. Numerical and exact results for energy eigenvalues are compared.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-02-02T13:47:38Z</published>
+    <arxiv:comment>7 pages, LATEX</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Mod.Phys.Lett. A15 (2000) 1253-1260</arxiv:journal_ref>
+    <author>
+      <name>Elso Drigo Filho</name>
+    </author>
+    <author>
+      <name>Regina Maria Ricotta</name>
+    </author>
+    <arxiv:doi>10.1142/S0217732300001092</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217732300001092" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.01760v1</id>
+    <title>Bernstein Fractional Derivatives: Censoring and Stochastic Processes</title>
+    <updated>2025-11-03T17:19:05Z</updated>
+    <link href="https://arxiv.org/abs/2511.01760v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.01760v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We define censored fractional Bernstein derivatives on the positive half-line based on the Bernstein--Riemann--Liouville fractional derivative. The censored fractional derivative turns out to be the generator of the censored decreasing subordinator $S^c = (S_t^c)_{t\geq 0}$, which is obtained either via a pathwise construction by removing those jumps from the decreasing subordinator $(x-S_t)_{t\geq 0}$, $x&gt;0$, that drive the path into negative territory, or via the Hille--Yosida theorem. Then we show that the censored decreasing subordinator has only finite life-time, and we identify various probability distributions related to $S^c$.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-03T17:19:05Z</published>
+    <arxiv:comment>Reworked version of the paper "Censored fractional Bernstein derivatives and stochastic processes", arXiv:2406.12562</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>David Berger</name>
+    </author>
+    <author>
+      <name>Cailing Li</name>
+    </author>
+    <author>
+      <name>René L. Schilling</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.14799v1</id>
+    <title>Approximate solution of the time-dependent Kratzer plus screened Coulomb potential in Feinberg-Horodecki equation</title>
+    <updated>2020-07-27T19:43:20Z</updated>
+    <link href="https://arxiv.org/abs/2007.14799v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.14799v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We obtain the quantized momentum eigenvalues, $P_n$, together with space-like coherent eigenstates for the space-like counterpart of the Schrodinger equation, the Feinberg-Horodecki equation, with a combined Kratzer potential plus screened coulomb potential which is constructed by temporal counterpart of the spatial form of these potentials. The present work is illustrated with two special cases of the general form: the time-dependent modified Kratzer potential and the time-dependent screened Coulomb potential.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-27T19:43:20Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:2006.12295, arXiv:2007.13836, arXiv:2007.14789</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Mahmoud Farout</name>
+    </author>
+    <author>
+      <name>Ramazan Sever</name>
+    </author>
+    <author>
+      <name>Sameer M. Ikhdair</name>
+    </author>
+    <arxiv:doi>10.1088/1674-1056/ab8379</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1674-1056/ab8379" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.04383v1</id>
+    <title>Generalized Brieskorn Modules II: Higher Bernstein Polynomials and Multiple Poles</title>
+    <updated>2025-03-06T12:35:16Z</updated>
+    <link href="https://arxiv.org/abs/2503.04383v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.04383v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our main result is to show that the existence of a root in. --$α$--Nfor the p-th Bernstein polynomial of the (a,b)-module generated by a holomorphicform in the (convergent) Brieskorn (a,b)-module associated to f, under the hypothesis that f has an isolated singularity at the origin relative to the eigenvalue exp(2i$π$$α$) of the monodromy, produces poles of order at least p for themeromorphic extension of the (conjugate) analytic functional given by polar partsat points--$α$--N for N  well chosen integer. This result is new, even forp= 1. As a corollary, this implies that, in the case of an isolated singularity for f,the existence of a root in. --$α$--N  for the p-th Bernstein polynomial of the (a,b)-module generated by a holomorphic form  implies the existence of at leastp roots (counting multiplicities) for the usual reduced Bernstein polynomial of thegerm of f at the origin.In the case of an isolated singularity for f, we obtain that for each $α$ thebiggest root --$α$--m. of the reduced Bernstein polynomial of f in --$α$--N  producesa pole at--$α$--m   for the meromorphic extension of the associated  distribution</summary>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-06T12:35:16Z</published>
+    <arxiv:comment>This is the second part of a rewriting of an article on Hogher Bernstein Polynomials. arXiv admin note: substantial text overlap with arXiv:2307.04395</arxiv:comment>
+    <arxiv:primary_category term="math.AG"/>
+    <author>
+      <name>Daniel Barlet</name>
+      <arxiv:affiliation>UL, IUF</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0604078v1</id>
+    <title>Bound states of a more general exponential screened Coulomb potential</title>
+    <updated>2006-04-11T13:35:03Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0604078v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0604078v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  An alternative approximation scheme has been used in solving the Schrodinger equation to the more general case of exponential screened Coulomb potential, V(r)=-(a/r)\[1+(1+br)e^{-2br}]. The bound state energies of the 1s, $2s, and 3s-states, together with the ground state wave function are obtained analytically upto the second perturbation term.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-04-11T13:35:03Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>J. Math. Chem. 41, 343(2007)</arxiv:journal_ref>
+    <author>
+      <name>Sameer M. Ikhdair</name>
+    </author>
+    <author>
+      <name>Ramazan Sever</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9409060v2</id>
+    <title>Modification of the Coulomb potential from a Kaluza-Klein model with a Gauss-Bonnet term in the action</title>
+    <updated>1994-10-02T13:07:17Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9409060v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9409060v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In four dimensions a Gauss-Bonnet term in the action corre- sponds to a total derivative, and it does not contribute to the classical equations of motion. For higher-dimensional geometries this term has the interesting property (shared with other dimensionally continued Euler densities) that when the action is varied with respect to the metric, it gives rise to a symmetric, covariantly conserved tensor of rank two which is a function of the metric and its first and second order derivatives. Here we review the unification of General Relativity and electromagnetism in the classical five-dimen- sional, restricted (with g_55 = 1) Kaluza-Klein model. Then we discuss the modifications of the Einstein-Maxwell theory that results from adding the Gauss-Bonnet term in the action. The resulting four-dimensional theory describes a non-linear U(1) gauge theory non-minimally coupled to gravity. For a point charge at rest, we find a perturbative solution for large distances which gives a mass-dependent correction to the Coulomb potential. Near the source we find a power-law solution which seems to cure the short-distance divergency of the Coulomb potential. Possible ways to obtain an experimen- tal upper limit to the coupling of the hypothetical Gauss- Bonnet term are also considered.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1994-09-29T14:26:24Z</published>
+    <arxiv:comment>27 pages, compressed and uuencoded postscript file with unpacking instructions; major revision to section IV.D.2 on pages 15-16 ("Corrections to the Coulomb potential at short distances") and to the figure on page 27, revised unpacking instruction; to be published in The Annals of Physics (NY), NORDITA 94/50</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Ann.Phys.240:432-458,1995</arxiv:journal_ref>
+    <author>
+      <name>H. H. Soleng</name>
+    </author>
+    <author>
+      <name>O. Gron</name>
+    </author>
+    <arxiv:doi>10.1006/aphy.1995.1051</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1006/aphy.1995.1051" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.11166v1</id>
+    <title>Critical parameters and spherical confinement of H atom in screened Coulomb potential</title>
+    <updated>2019-04-25T06:14:58Z</updated>
+    <link href="https://arxiv.org/abs/1904.11166v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.11166v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Critical parameters in three screened potentials, namely, Hulthén, Yukawa and exponential cosine screened Coulomb potential are reported. Accurate estimates of these parameters are given for each of these potentials, for all states having $n \leq 10$. Comparison with literature results is made, wherever possible. Present values compare excellently with reference values; for higher $n,\ell$, our results are slightly better. Some of these are presented for first time. Further, we investigate the spherical confinement of H atom embedded in a dense plasma modeled by an exponential cosine screened potential. Accurate energies along with their variation with respect to box size and screening parameter are calculated and compared with reference results in literature. Sample dipole polarizabilities are also provided in this case. The generalized pseudospectral method is used for accurate determination of eigenvalues and eigenfunctions for all calculations.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-25T06:14:58Z</published>
+    <arxiv:comment>16 pages, 4 tables, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>Int. J. Quant. Chem. 116 953-960 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Amlan K. Roy</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.02041v1</id>
+    <title>Recursive determination of phase shifts for screened Coulomb potentials</title>
+    <updated>2018-01-06T16:12:46Z</updated>
+    <link href="https://arxiv.org/abs/1801.02041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.02041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the calculation of hot-plasma atomic structure, the continuum wavefunctions are characterized by phase shifts, which therefore determine the scattering cross-sections. In this short paper, we propose a recurrence relation for the phase shifts in the case of a particular type of parametric potentials widely used in atomic-structure codes. These potentials have to be linear combinations of static screened Coulomb potentials (Yukawa-type potentials) multiplied by polynomial functions.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-06T16:12:46Z</published>
+    <arxiv:comment>submitted to Journal of Physics Communications</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Jean-Christophe Pain</name>
+    </author>
+    <arxiv:doi>10.1088/2399-6528/aaa4e4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2399-6528/aaa4e4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.00165v1</id>
+    <title>On the spectrum of the screened Coulomb potential $V(r)=-r^{-1}e^{-C/r}$</title>
+    <updated>2023-09-15T18:34:08Z</updated>
+    <link href="https://arxiv.org/abs/2312.00165v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.00165v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyse recent contradictory results and conclusions about the spectrum of the screened Coulomb potential $V(r)=-r^{-1}e^{-C/r}$. The well known Hellmann-Feynman theorem shows that all the bound states of the Coulomb potential ($C=0$) remain bounded as $C$ increases. We derive a simple approximate analytical expression for the eigenvalues for sufficiently small values of the screening parameter $C$ and an approximate asymptotic expression for the asymptotic behaviour of the s-state eigenvalues when $C\rightarrow \infty $. Present results are expected to resolve the discrepancy about the spectrum of the quantum-mechanical model just mentioned.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-15T18:34:08Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Francisco M. Fernández</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0609148v1</id>
+    <title>A new perturbation technique for eigenenergies of the screened coulomb potential</title>
+    <updated>2006-09-19T16:00:34Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0609148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0609148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The explicit semiclassical treatment of the logarithmic perturbation theory for the bound-state problem of the radial Shrodinger equation with the screened Coulomb potential is developed. Based upon h-expansions and new quantization conditions a novel procedure for deriving perturbation expansions is offered. Avoiding disadvantages of the standard approach, new handy recursion formulae with the same simple form both for ground and excited states have been obtained.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-19T16:00:34Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Proc. 10th Int. Conf. on Mathematical Methods in Electromagnetic Theory, Dniepropetrovsk, Ukraine, Sept. 14-17, 2004, pp. 341-343</arxiv:journal_ref>
+    <author>
+      <name>I. V. Dobrovolska</name>
+    </author>
+    <author>
+      <name>R. S. Tutik</name>
+    </author>
+  </entry>
+</feed>

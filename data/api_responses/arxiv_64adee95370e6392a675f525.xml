@@ -1,0 +1,960 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BABQK1hOwdRJDxVO1h2+0DKtNfg</id>
+  <title>arXiv Query: search_query=all:positivity OR all:of OR all:the OR all:vacuum OR all:polarization OR all:spectral OR all:function&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:39:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:positivity+OR+(all:of+OR+(all:the+OR+(all:vacuum+OR+(all:polarization+OR+(all:spectral+OR+all:function)))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>932993</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1809.07644v6</id>
+    <title>The quark spectral functions and the Hadron Vacuum Polarization from application of DSEs in Minkowski space</title>
+    <updated>2019-12-24T17:27:30Z</updated>
+    <link href="https://arxiv.org/abs/1809.07644v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.07644v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The hadronic vacuum polarization function $Π_h$ for two light flavors is computed on the entire domain of spacelike and timelike momenta using a framework of Dyson-Schwinger equations. The analytical continuation of the function $Π_h$ is based on the utilization of the Gauge Technique with the entry of QCD Green's functions determined from generalized quark spectral functions. For the first time, the light quark spectral functions are extracted from the solution of the gap equation for the quark propagator. The scale is set up by the phenomena of dynamical chiral symmetry breaking, which is a striking feature of low energy QCD.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-20T14:16:30Z</published>
+    <arxiv:comment>New Appendix was added wherein the new method of extraction of the quark spectral function is explained in details</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Few Body Syst. 61, 3, 23 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Vladimir Sauli</name>
+    </author>
+    <arxiv:doi>10.1007/s00601-020-01555-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00601-020-01555-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6015v1</id>
+    <title>The spectral function of a first order elliptic system</title>
+    <updated>2012-08-30T06:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1208.6015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an elliptic self-adjoint first order pseudodifferential operator acting on columns of complex-valued half-densities over a connected compact manifold without boundary. The eigenvalues of the principal symbol are assumed to be simple but no assumptions are made on their sign, so the operator is not necessarily semi-bounded. We study the following objects: the propagator (time-dependent operator which solves the Cauchy problem for the dynamic equation), the spectral function (sum of squares of Euclidean norms of eigenfunctions evaluated at a given point of the manifold, with summation carried out over all eigenvalues between zero and a positive lambda) and the counting function (number of eigenvalues between zero and a positive lambda). We derive explicit two-term asymptotic formulae for all three. For the propagator "asymptotic" is understood as asymptotic in terms of smoothness, whereas for the spectral and counting functions "asymptotic" is understood as asymptotic with respect to lambda tending to plus infinity.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-30T06:55:33Z</published>
+    <arxiv:comment>This preprint is "part a" (proper subset) of preprint arXiv:1204.6567. Preprint arXiv:1204.6567 is being split into two parts on the recommendation of the referee of Journal of Spectral Theory. "Part b" will appear as a separate preprint under the title "Spectral theoretic characterization of the massless Dirac operator"</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, 2013, vol. 3, p. 317-360</arxiv:journal_ref>
+    <author>
+      <name>Olga Chervova</name>
+    </author>
+    <author>
+      <name>Robert J. Downes</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/47</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/47" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1611.08382v1</id>
+    <title>Conditionally positive definite kernels in Hilbert $C^*$-modules</title>
+    <updated>2016-11-25T08:35:02Z</updated>
+    <link href="https://arxiv.org/abs/1611.08382v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1611.08382v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the notion of conditionally positive definite in the context of Hilbert $C^*$-modules and present a characterization of the conditionally positive definiteness in terms of the usual positive definiteness. We give a Kolmogorov type representation of conditionally positive definite kernels in Hilbert $C^*$-modules. As a consequence, we show that a $C^*$-metric space $(S, d)$ is $C^*$-isometric to a subset of a Hilbert $C^*$-module if and only if $K(s,t)=-d(s,t)^2$ is a conditionally positive definite kernel. We also present a characterization of the order $K'\leq K$ between conditionally positive definite kernels.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-11-25T08:35:02Z</published>
+    <arxiv:comment>14 pages, to appear in Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <arxiv:journal_ref>Positivity 21 (2017), no. 3, 1161--1172</arxiv:journal_ref>
+    <author>
+      <name>Mohammad Sal Moslehian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0997v3</id>
+    <title>Spectral asymptotics for Robin problems with a discontinuous coefficient</title>
+    <updated>2011-01-27T13:41:51Z</updated>
+    <link href="https://arxiv.org/abs/1009.0997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.0997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral behavior of the difference between the resolvents of two realizations $\tilde A_1$ and $\tilde A_2$ of a second-order strongly elliptic symmetric differential operator $A$, defined by different Robin conditions $νu=b_1γ_0u$ and $νu=b_2γ_0u$, can in the case where all coefficients are $C^\infty$ be determined by use of a general result by the author in 1984 on singular Green operators. We here treat the problem for nonsmooth $b_i$. Using a Krein resolvent formula, we show that if $b_1$ and $b_2$ are in $L_\infty$, the s-numbers $s_j$ of $(\tilde A_1 -λ)^{-1}-(\tilde A_2 -λ)^{-1}$ satisfy $s_j j^{3/(n-1)}\le C$ for all $j$; this improves a recent result for $A=-Δ$ by Behrndt et al., that $\sum_js_j ^p&lt;\infty$ for $p&gt;(n-1)/3$. A sharper estimate is obtained when $b_1$ and $b_2$ are in $C^ε$ for some $ε&gt;0$, with jumps at a smooth hypersurface, namely that $s_j j^{3/(n-1)}\to c$ for $j\to \infty$, with a constant $c$ defined from the principal symbol of $A$ and $b_2-b_1$.
+  As an auxiliary result we show that the usual principal spectral asymptotic estimate for pseudodifferential operators of negative order on a closed manifold extends to products of pseudodifferential operators interspersed with piecewise continuous functions.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-06T09:28:34Z</published>
+    <arxiv:comment>20 pages, notation simplified. To appear in J. Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>J. Spectral Theory 1 (2011), 155-177</arxiv:journal_ref>
+    <author>
+      <name>Gerd Grubb</name>
+    </author>
+    <arxiv:doi>10.4171/JST/7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14334v4</id>
+    <title>Invariant subspaces of elliptic systems II: spectral theory</title>
+    <updated>2022-02-08T09:57:39Z</updated>
+    <link href="https://arxiv.org/abs/2103.14334v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14334v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consider an elliptic self-adjoint pseudodifferential operator $A$ acting on $m$-columns of half-densities on a closed manifold $M$, whose principal symbol is assumed to have simple eigenvalues. We show that the spectrum of $A$ decomposes, up to an error with superpolynomial decay, into $m$ distinct series, each associated with one of the eigenvalues of the principal symbol of $A$. These spectral results are then applied to the study of propagation of singularities in hyperbolic systems. The key technical ingredient is the use of the carefully devised pseudodifferential projections introduced in the first part of this work, which decompose $L^2(M)$ into almost-orthogonal almost-invariant subspaces under the action of both $A$ and the hyperbolic evolution.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-26T08:56:53Z</published>
+    <arxiv:comment>Minor edits, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Spectral Theory, vol. 12 (2022), p. 301-338</arxiv:journal_ref>
+    <author>
+      <name>Matteo Capoferri</name>
+    </author>
+    <author>
+      <name>Dmitri Vassiliev</name>
+    </author>
+    <arxiv:doi>10.4171/JST/402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4171/JST/402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.12376v1</id>
+    <title>Rotational Curves of the Milky Way Galaxy and Andromeda Galaxy in Light of Vacuum Polarization around Eicheon</title>
+    <updated>2023-09-21T09:40:54Z</updated>
+    <link href="https://arxiv.org/abs/2309.12376v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.12376v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Eicheon properties are discussed. It is shown that the eicheon surface allows setting a boundary condition for the vacuum polarization and obtaining a solution describing the dark matter tail in the Milky Way Galaxy. That is, the dark matter in the Milky Way Galaxy is explained as the F-type of vacuum polarization, which could be treated as dark radiation. The model presented is spherically symmetric, but a surface density of a baryonic galaxy disk is taken into account approximately by smearing the disk over a sphere. This allows the reproduction of the large distance shape of the Milky Way Galaxy rotational curve. Andromeda Galaxy's rotational curve is also discussed.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-21T09:40:54Z</published>
+    <arxiv:comment>This paper is an extended version of "Dark Matter in the Milky Way Galaxy as the F-Type of Vacuum Polarization.'' from the Proceedings of the 2nd Electronic Conference on Universe, 16 February--2 March 2023</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Universe 2023, 9(9), 424</arxiv:journal_ref>
+    <author>
+      <name>Sergey L. Cherkas</name>
+    </author>
+    <author>
+      <name>Vladimir L. Kalashnikov</name>
+    </author>
+    <arxiv:doi>10.3390/universe9090424</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/universe9090424" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.0847v2</id>
+    <title>Is dark matter an illusion created by the gravitational polarization of the quantum vacuum?</title>
+    <updated>2011-11-08T20:43:48Z</updated>
+    <link href="https://arxiv.org/abs/1106.0847v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.0847v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Assuming that a particle and its antiparticle have the gravitational charge of the opposite sign, the physical vacuum may be considered as a fluid of virtual gravitational dipoles. Following this hypothesis, we present the first indications that dark matter may not exist and that the phenomena for which it was invoked might be explained by the gravitational polarization of the quantum vacuum by the known baryonic matter.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-04T18:31:49Z</published>
+    <arxiv:comment>We have added an Appendix in order to show that the gravitational polarization of the quantum vacuum allows the understanding of the universality of the central surface density of galaxy dark matter haloes, the cored dark matter haloes in dwarf spheroidal galaxies, the non-existence of dark disks in spiral galaxies and distribution of dark matter after collision of clusters of galaxies</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Astrophys.Space Sci.334:215-218,2011</arxiv:journal_ref>
+    <author>
+      <name>Dragan Slavkov Hajdukovic</name>
+    </author>
+    <arxiv:doi>10.1007/s10509-011-0744-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10509-011-0744-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.0323v1</id>
+    <title>Modeling Scattering Polarization for Probing Solar Magnetism</title>
+    <updated>2011-05-02T13:35:22Z</updated>
+    <link href="https://arxiv.org/abs/1105.0323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.0323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper considers the problem of modeling the light polarization that emerges from an astrophysical plasma composed of atoms whose excitation state is significantly influenced by the anisotropy of the incident radiation field. In particular, it highlights how radiative transfer simulations in three-dimensional models of the quiet solar atmosphere may help us to probe its thermal and magnetic structure, from the near equilibrium photosphere to the highly non-equilibrium upper chromosphere. The paper finishes with predictions concerning the amplitudes and magnetic sensitivities of the linear polarization signals produced by scattering processes in two transition region lines, which should encourage us to develop UV polarimeters for sounding rockets and space telescopes with the aim of opening up a new diagnostic window in astrophysics.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-02T13:35:22Z</published>
+    <arxiv:comment>Invited Review in workshop Solar Polarization 6; 12 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Solar Polarization 6, eds. J. Kuhn et al., ASP Conf. Series Vol. 437, pages 83-98, (2011)</arxiv:journal_ref>
+    <author>
+      <name>Javier Trujillo Bueno</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.13521v3</id>
+    <title>Machine learning spectral functions in lattice QCD</title>
+    <updated>2022-11-22T13:44:19Z</updated>
+    <link href="https://arxiv.org/abs/2110.13521v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.13521v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the inverse problem of reconstructing spectral functions from Euclidean correlation functions via machine learning. We propose a novel neural network, SVAE, which is based on the variational autoencoder (VAE) and can be naturally applied to the inverse problem. The prominent feature of the SVAE is that a Shannon-Jaynes entropy term having the ground truth values of spectral functions as prior information is included in the loss function to be minimized. We train the network with general spectral functions produced from a Gaussian mixture model. As a test, we use correlators generated from four different types of physically motivated spectral functions made of one resonance peak, a continuum term and perturbative spectral function obtained using non-relativistic QCD. From the mock data test we find that the SVAE in most cases is comparable to the maximum entropy method (MEM) in the quality of reconstructing spectral functions and even outperforms the MEM in the case where the spectral function has sharp peaks with insufficient number of data points in the correlator. By applying to temporal correlation functions of charmonium in the pseudoscalar channel obtained in the quenched lattice QCD at 0.75 $T_c$ on $128^3\times96$ lattices and $1.5$ $T_c$ on $128^3\times48$ lattices, we find that the resonance peak of $η_c$ extracted from both the SVAE and MEM has a substantial dependence on the number of points in the temporal direction ($N_τ$) adopted in the lattice simulation and $N_τ$ larger than 48 is needed to resolve the fate of $η_c$ at 1.5 $T_c$.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-26T09:23:45Z</published>
+    <arxiv:comment>25 pages, 14 figures. Investigations on the dependences of output spectral functions on the noise model of mock correlators, and detailed derivation of formulae for the output spectral function are added</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>S. -Y. Chen</name>
+    </author>
+    <author>
+      <name>H. -T. Ding</name>
+    </author>
+    <author>
+      <name>F. -Y. Liu</name>
+    </author>
+    <author>
+      <name>G. Papp</name>
+    </author>
+    <author>
+      <name>C. -B. Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.10560v2</id>
+    <title>Outgassing rate comparison of seven geometrically similar vacuum chambers of different materials and heat treatments</title>
+    <updated>2021-03-09T15:40:31Z</updated>
+    <link href="https://arxiv.org/abs/2009.10560v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.10560v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have measured the water and hydrogen outgassing rates of seven vacuum chambers of identical geometry but constructed of different materials and heat treatments. Chambers of five different materials were tested: 304L, 316L, and 316LN stainless steels; titanium (ASTM grade 2); and 6061 aluminum. In addition, chambers constructed of 316L and 316LN stainless steel were subjected to a vacuum-fire process, where they were heated to approximately 950 °C for 24 hours while under vacuum; these two chambers are designated as 316L-XHV and 316LN-XHV. All chambers were of identical geometry and made by the same manufacturer, thus a relative comparison of the outgassing rates among these chambers can be made. Water outgassing rates were measured as a function of time using the throughput technique. The water outgassing results for the 316L, 316LN, 316L-XHV, 316LN-XHV were all similar, but lower than those of 304L by a factor of 3 to 5 lower at 10^4 s. The water outgassing results for Ti and Al chambers were close to that of 304L, Ti being slightly lower. Hydrogen outgassing rates were measured using the rate-of-rise method and performed after a low-temperature bake of 125 °C to 150 °C for a minimum of 72 hours. The Ti, Al, 316L-XHV, and 316LN-XHV chambers all have specific outgassing rates below 1 X 10^-11 Pa L s^-1 cm^-2 and are at least a factor of 100 or better than the 304L chamber. The 304L, 316L, and 316LN chambers without vacuum-fire heat treatment have larger hydrogen outgassing rates than the other chambers, with specific outgassing rates ranging between 4.0 X 10^-11 Pa L s^-1 cm^-2 and 8.0 X 10^-11 Pa L s^-1 cm^-2. We conclude that Ti, Al, 316L-XHV, and 316LN-XHV have hydrogen outgassing rates that make them excellent choices for ultra-high vacuum (UHV) and extreme-high vacuum (XHV) applications, the choice depending on cost and other material properties.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-22T14:01:47Z</published>
+    <arxiv:comment>27 pages, 8 figures, 4 tables The following article has been submitted the Journal of Vacuum Science &amp; Technology B. This article may be downloaded for personal use only. Any other use requires prior permission of the author and AIP Publishing. This article appeared in Journal of Vacuum Science &amp; Technology B 39, 024201 (2021) and may be found at https://doi.org/10.1116/6.0000657</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <arxiv:journal_ref>Journal of Vacuum Science &amp; Technology B 39, 024201 (2021)</arxiv:journal_ref>
+    <author>
+      <name>James A. Fedchak</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Julia K. Scherschligt</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sefer Avdiaj</name>
+      <arxiv:affiliation>University of Prishtina, Kosova</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel S. Barker</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stephen P. Eckel</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ben Bowers</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Scott OConnell</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Perry Henderson</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1116/6.0000657</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1116/6.0000657" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.05028v2</id>
+    <title>Two-loop Vertices with Vacuum Polarization Insertion</title>
+    <updated>2024-01-23T14:39:02Z</updated>
+    <link href="https://arxiv.org/abs/2308.05028v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.05028v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the analytic evaluation of the second-order corrections to the massive form factors, due to two-loop vertex diagrams with a vacuum polarization insertion, with exact dependence on the external and internal fermion masses, and on the squared momentum transfer. We consider vector, axial-vector, scalar and pseudoscalar interactions between the external fermion and the external field. After renormalization, the finite expressions of the form factors are expressed in terms of polylogarithms up to weight three.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-09T15:52:12Z</published>
+    <arxiv:comment>20 pages, 3 figures, 2 ancillary files. v2: results.m ancillary file updated (constants in the expression "canonicalMasters" simplified, residual logarithms in the renormalisedFormFactorsGPLS converted to GPLS), final version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Ahmed, T., Crisanti, G., Gasparotto, F. et al. Two-loop vertices with vacuum polarization insertion. J. High Energ. Phys. 2024, 10 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Taushif Ahmed</name>
+    </author>
+    <author>
+      <name>Giulio Crisanti</name>
+    </author>
+    <author>
+      <name>Federico Gasparotto</name>
+    </author>
+    <author>
+      <name>Syed Mehedi Hasan</name>
+    </author>
+    <author>
+      <name>Pierpaolo Mastrolia</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP01(2024)010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP01(2024)010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.06201v1</id>
+    <title>Resonance Line Polarization in Spherically Symmetric Moving Media: a Parametric Study</title>
+    <updated>2020-01-17T09:01:32Z</updated>
+    <link href="https://arxiv.org/abs/2001.06201v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.06201v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present paper we consider the problem of resonance line polarization formed in the spherically symmetric expanding atmospheres. For the solution of the concerned polarized transfer equation we use the comoving frame formulation, and apply the Accelerated Lambda Iteration (ALI) method. We restrict ourselves to the non-relativistic regime of velocities wherein mainly Doppler shift effects are significant. For our studies, we consider the scattering on a two-level atom, including the effects of partial frequency redistribution (PFR). We present the dependence of linearly polarized profiles on different atmospheric and atomic parameters.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-17T09:01:32Z</published>
+    <arxiv:comment>10 pages, 6 figures, Proceedings of the 9th Solar Polarization Workshop SPW9, A workshop held in Gottingen, Germany, from August 26 to August 30, 2019</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Proceedings of the 9th Solar Polarization Workshop SPW9, Published open access by MPS 2020</arxiv:journal_ref>
+    <author>
+      <name>A. Megha</name>
+    </author>
+    <author>
+      <name>M. Sampoorna</name>
+    </author>
+    <author>
+      <name>K. N. Nagendra</name>
+    </author>
+    <author>
+      <name>L. S. Anusha</name>
+    </author>
+    <author>
+      <name>K. Sankarasubramanian</name>
+    </author>
+    <arxiv:doi>10.17617/2.3186650</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.17617/2.3186650" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/9904050v2</id>
+    <title>The Xi Operator and its Relation to Krein's Spectral Shift Function</title>
+    <updated>1999-12-02T01:51:46Z</updated>
+    <link href="https://arxiv.org/abs/math/9904050v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/9904050v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We explore connections between Krein's spectral shift function $ξ(λ,H_0,H)$ associated with the pair of self-adjoint operators $(H_0,H)$, $H=H_0+V$ in a Hilbert space $\calH$ and the recently introduced concept of a spectral shift operator $Ξ(J+K^*(H_0-λ-i0)^{-1}K)$ associated with the operator-valued Herglotz function $J+K^*(H_0-z)^{-1}K$, $\Im(z)&gt;0$ in $\calH$, where $V=KJK^*$ and $J=\sgn(V)$. Our principal results include a new representation for $ξ(λ,H_0,H)$ in terms of an averaged index for the Fredholm pair of self-adjoint spectral projections $(E_{J+A(λ)+tB(λ)}((-\infty,0)),E_J((-\infty,0)))$, $t\in\bbR$, where $A(λ)=\Re(K^*(H_0-λ-i0)^{-1}K)$, $B(λ)=\Im(K^*(H_0-λ-i0)^{-1}K)$ a.e. Moreover, introducing the new concept of a trindex for a pair of operators $(A,P)$ in $\calH$, where $A$ is bounded and $P$ is an orthogonal projection, we prove that $ξ(λ,H_0,H)$ coincides with the trindex associated with the pair $(Ξ(J+K^*(H_0-λ-i0)^{-1}K),Ξ(J))$. In addition, we discuss a variant of the Birman-Krein formula relating the trindex of a pair of $Ξ$-operators and the Fredholm determinant of the abstract scattering matrix.
+  We also provide a generalization of the classical Birman-Schwinger principle, replacing the traditional eigenvalue counting functions by appropriate spectral shift functions.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-04-13T03:03:54Z</published>
+    <arxiv:comment>LaTeX, 35 pages, this is an extended version including a discussion of generalized spectral shift functions and extensions of the Birman-Schwinger principle</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Fritz Gesztesy</name>
+    </author>
+    <author>
+      <name>Konstantin A. Makarov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05833v2</id>
+    <title>Multi-messenger Observations of a Binary Neutron Star Merger</title>
+    <updated>2017-10-24T12:03:18Z</updated>
+    <link href="https://arxiv.org/abs/1710.05833v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.05833v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^{+8}_{-8}$ Mpc and with component masses consistent with neutron stars. The component masses were later measured to be in the range 0.86 to 2.26 Msun. An extensive observing campaign was launched across the electromagnetic spectrum leading to the discovery of a bright optical transient (SSS17a, now with the IAU identification of AT 2017gfo) in NGC 4993 (at $\sim$40 Mpc) less than 11 hours after the merger by the One-Meter, Two Hemisphere (1M2H) team using the 1 m Swope Telescope. The optical transient was independently detected by multiple teams within an hour. Subsequent observations targeted the object and its environment. Early ultraviolet observations revealed a blue transient that faded within 48 hours. Optical and infrared observations showed a redward evolution over $\sim$10 days. Following early non-detections, X-ray and radio emission were discovered at the transient's position $\sim$9 and $\sim$16 days, respectively, after the merger. Both the X-ray and radio emission likely arise from a physical process that is distinct from the one that generates the UV/optical/near-infrared emission. No ultra-high-energy gamma-rays and no neutrino candidates consistent with the source were found in follow-up searches. (Abridged)</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-16T16:57:18Z</published>
+    <arxiv:comment>This is a reproduction of the article published in the Astrophysical Journal Letters, under the terms of the Creative Commons Attribution 3.0 licence</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>ApJL, 848:L12, 2017</arxiv:journal_ref>
+    <author>
+      <name> LIGO Scientific Collaboration</name>
+    </author>
+    <author>
+      <name> Virgo Collaboration</name>
+    </author>
+    <author>
+      <name>Fermi GBM</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> INTEGRAL</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IceCube Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AstroSat Cadmium Zinc Telluride Imager Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IPN Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Insight-Hxmt Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>ANTARES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Swift Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AGILE Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The 1M2H Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Dark Energy Camera GW-EM Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>the DES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The DLT40 Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> GRAWITA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>GRAvitational Wave Inaf TeAm</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Fermi Large Area Telescope Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ATCA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australia Telescope Compact Array</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ASKAP</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australian SKA Pathfinder</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Las Cumbres Observatory Group</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> OzGrav</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> DWF</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> AST3</name>
+    </author>
+    <author>
+      <name>CAASTRO Collaborations</name>
+    </author>
+    <author>
+      <name>The VINROUGE Collaboration</name>
+    </author>
+    <author>
+      <name>MASTER Collaboration</name>
+    </author>
+    <author>
+      <name> J-GEM</name>
+    </author>
+    <author>
+      <name> GROWTH</name>
+    </author>
+    <author>
+      <name> JAGWAR</name>
+    </author>
+    <author>
+      <name>Caltech- NRAO</name>
+    </author>
+    <author>
+      <name> TTU-NRAO</name>
+    </author>
+    <author>
+      <name>NuSTAR Collaborations</name>
+    </author>
+    <author>
+      <name> Pan-STARRS</name>
+    </author>
+    <author>
+      <name>The MAXI Team</name>
+    </author>
+    <author>
+      <name>TZAC Consortium</name>
+    </author>
+    <author>
+      <name>KU Collaboration</name>
+    </author>
+    <author>
+      <name>Nordic Optical Telescope</name>
+    </author>
+    <author>
+      <name> ePESSTO</name>
+    </author>
+    <author>
+      <name> GROND</name>
+    </author>
+    <author>
+      <name>Texas Tech University</name>
+    </author>
+    <author>
+      <name>SALT Group</name>
+    </author>
+    <author>
+      <name> TOROS</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Transient Robotic Observatory of the South Collaboration</name>
+    </author>
+    <author>
+      <name>The BOOTES Collaboration</name>
+    </author>
+    <author>
+      <name> MWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Murchison Widefield Array</name>
+    </author>
+    <author>
+      <name>The CALET Collaboration</name>
+    </author>
+    <author>
+      <name>IKI-GW Follow-up Collaboration</name>
+    </author>
+    <author>
+      <name>H. E. S. S. Collaboration</name>
+    </author>
+    <author>
+      <name>LOFAR Collaboration</name>
+    </author>
+    <author>
+      <name> LWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Long Wavelength Array</name>
+    </author>
+    <author>
+      <name>HAWC Collaboration</name>
+    </author>
+    <author>
+      <name>The Pierre Auger Collaboration</name>
+    </author>
+    <author>
+      <name>ALMA Collaboration</name>
+    </author>
+    <author>
+      <name>Euro VLBI Team</name>
+    </author>
+    <author>
+      <name>Pi of the Sky Collaboration</name>
+    </author>
+    <author>
+      <name>The Chandra Team at McGill University</name>
+    </author>
+    <author>
+      <name> DFN</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Desert Fireball Network</name>
+    </author>
+    <author>
+      <name> ATLAS</name>
+    </author>
+    <author>
+      <name>High Time Resolution Universe Survey</name>
+    </author>
+    <author>
+      <name> RIMAS</name>
+    </author>
+    <author>
+      <name> RATIR</name>
+    </author>
+    <author>
+      <name>SKA South Africa/MeerKAT</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/aa91c9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/aa91c9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.02314v2</id>
+    <title>A Characterization for Spectral and Trace Positivity of Matrix Words</title>
+    <updated>2026-08-06T14:27:38Z</updated>
+    <link href="https://arxiv.org/abs/2605.02314v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.02314v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we provide a complete structural characterization of which words in noncommuting matrix variables and their formal transposes universally evaluate to matrices with nonnegative eigenvalues or nonnegative trace, regardless of the dimension or entries of the substituted matrices. Crucially, we establish that in this pure monomial setting, both spectral and trace positivity exhibit an exact rigidity phenomenon analogous to Hermitian-square representations. This contrasts sharply with the broader polynomial setting, where tracial rigidity is known to fail even for approximation. Furthermore, we establish that this structural rigidity extends seamlessly to the complex and infinite-dimensional domains. We show that the exact same purely combinatorial conditions completely characterize matrix words evaluated over complex matrices, bounded operators on arbitrary Hilbert spaces, and positive tracial states on $C^*$-algebras and von Neumann algebras.
+  As one application of our main theorems, we fully resolve open questions initially posed by Lieb and Pierce, and later conjectured by Hillar and Johnson, concerning the underlying algebraic structure of the summands in Bessis-Moussa-Villani (BMV) trace polynomials from quantum statistical mechanics. We achieve these results by establishing a surprising connection to graph theory, leading to a matrix analogue of the positive graph conjecture posed by Camarena, Csóka, Hubai, Lippner, and Lovász.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-04T08:13:43Z</published>
+    <arxiv:comment>This version is a considerable extension of the previous one, as it now also considers universal trace positivity and fully answers open questions originally posed by Lieb and Pierce. 42 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Frederik Garbe</name>
+    </author>
+    <author>
+      <name>Fan Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/funct-an/9702012v1</id>
+    <title>The asymptotical behavior of spectral function of one family of differential operators</title>
+    <updated>1997-02-12T11:23:59Z</updated>
+    <link href="https://arxiv.org/abs/funct-an/9702012v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/funct-an/9702012v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Is considered the asymptotical behavior of spectral function $ρ(λ, ε),ε&gt; 0$, of one family of self adjoint differential operators of second order, defined in space $L_2[0,+\infty)$ with potentials, depending on $ε$. Are given evaluations for the derivative of spectral function for negative $λ$ and is proved the weak convergence of $ρ'(λ, ε)$ to $ρ'(λ, 0)$ with $ε\to +0$.</summary>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-02-12T11:23:59Z</published>
+    <arxiv:comment>5 pages, AMSTeX, to appear in Proceedings of the Seventh Crimean Autumn Mathematical School-Simposium on Spectral and Evolutionary Problems (September, 18-29, 1996, Sevastopol, Ukraine)</arxiv:comment>
+    <arxiv:primary_category term="math.FA"/>
+    <author>
+      <name>A. S. Pechentsov</name>
+    </author>
+    <author>
+      <name>A. Yu. Popov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.04940v1</id>
+    <title>The Galactic Chemical Evolution of phosphorus observed with IGRINS</title>
+    <updated>2022-10-10T18:16:50Z</updated>
+    <link href="https://arxiv.org/abs/2210.04940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.04940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Phosphorus (P) is considered to be one of the key elements for life, making it an important element to look for in the abundance analysis of spectra of stellar systems. Yet, there exists only a handful of spectroscopic studies to estimate the P abundances and investigate its trend across a range of metallicities. We have observed full HK band spectra at a spectral resolving power of R=45,000 with IGRINS instrument. Abundances are determined using SME in combination with 1D MARCS stellar atmosphere models. The investigated sample of stars have reliable stellar parameters estimated using optical FIES spectra (GILD; Jönsson et al. in prep.). In order to determine the P abundances from the 16482.92 Angstrom P line, we take special care of the CO($ν=7-4$) blend. We determine the C, N, O abundances from atomic carbon and a range of non-blended molecular lines (CO, CN, OH) which are aplenty in the H band region of K giant stars, assuring an appropriate modelling of the blending CO($ν=7-4$) line. We present [P/Fe] vs [Fe/H] trend for 38 K giant stars in the metallicity range of -1.2 dex $&lt;$ [Fe/H] $&lt;$ 0.4 dex. We find that our trend matches well with the compiled literature sample of prominently dwarf stars and limited number of giant stars. Our trend is found to be higher by $\sim$ 0.05 - 0.1 dex compared to the theoretical chemical evolution trend in Cescutti et al. 2012 resulting from core collapse supernova (type II) of massive stars with the P yields from Kobayashi et al. (2006) arbitrarily increased by a factor of 2.75. Thus the enhancement factor might need to be $\sim$ 0.05 - 0.1 dex higher to match our trend. We also find an empirically determined primary behaviour for phosphorus. Furthermore, the phosphorus abundance is found to be elevated by $\sim$ 0.6 - 0.9 dex in two metal poor s-enriched stars compared to the theoretical chemical evolution trend.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-10T18:16:50Z</published>
+    <arxiv:comment>13 pages, 9 figures, accepted for publication in Astronomy and Astrophysics</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>A&amp;A 668, A88 (2022)</arxiv:journal_ref>
+    <author>
+      <name>G. Nandakumar</name>
+    </author>
+    <author>
+      <name>N. Ryde</name>
+    </author>
+    <author>
+      <name>M. Montelius</name>
+    </author>
+    <author>
+      <name>B. Thorsbro</name>
+    </author>
+    <author>
+      <name>H. Jönsson</name>
+    </author>
+    <author>
+      <name>G. Mace</name>
+    </author>
+    <author>
+      <name>Lund Observatory</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>Theoretical Physics</name>
+    </author>
+    <author>
+      <name>Lund University</name>
+    </author>
+    <author>
+      <name>Box 43</name>
+    </author>
+    <author>
+      <name>SE-221 00 Lund</name>
+    </author>
+    <author>
+      <name> Sweden</name>
+    </author>
+    <author>
+      <name>Kapteyn Astronomical Institute</name>
+    </author>
+    <author>
+      <name>University of Groningen</name>
+    </author>
+    <author>
+      <name>Landleven 12</name>
+    </author>
+    <author>
+      <name>NL-9747 AD Groningen</name>
+    </author>
+    <author>
+      <name>the Netherlands</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>School of Science</name>
+    </author>
+    <author>
+      <name>The University of Tokyo</name>
+    </author>
+    <author>
+      <name>7-3-1 Hongo</name>
+    </author>
+    <author>
+      <name> Bunkyo-ku</name>
+    </author>
+    <author>
+      <name>Tokyo 113-0033</name>
+    </author>
+    <author>
+      <name> Japan</name>
+    </author>
+    <author>
+      <name>Materials Science</name>
+    </author>
+    <author>
+      <name>Applied Mathematics</name>
+    </author>
+    <author>
+      <name>Malmö University</name>
+    </author>
+    <author>
+      <name>SE-205 06 Malmö</name>
+    </author>
+    <author>
+      <name> Sweden</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>McDonald Observatory</name>
+    </author>
+    <author>
+      <name>The University of Texas</name>
+    </author>
+    <author>
+      <name> Austin</name>
+    </author>
+    <author>
+      <name>TX 78712</name>
+    </author>
+    <author>
+      <name> USA</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202244724</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202244724" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.1162v2</id>
+    <title>Investigating the Spectral Geometry of a Soft Wall</title>
+    <updated>2012-06-01T01:53:52Z</updated>
+    <link href="https://arxiv.org/abs/1106.1162v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.1162v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The idealized theory of quantum vacuum energy density is a beautiful application of the spectral theory of differential operators with boundary conditions, but its conclusions are physically unacceptable. A more plausible model of a reflecting boundary that stays within linear spectral theory confines the waves by a steeply rising potential function, which can be taken as a power of one coordinate, z^α. We report investigations of this model with considerable student involvement. An exact analytical solution with some numerics for α=1 and an asymptotic (semiclassical) analysis of a related problem for α=2 are presented.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-06T19:43:08Z</published>
+    <arxiv:comment>16 pages,4 figures; International Conference on Spectral Geometry (Dartmouth, 2010). Revision (final submission to Proc. Symp. Pure Math.) has minor updates and corrections</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Spectral Geometry, ed. by A. H. Barnett et al., Proc. Symp. Pure Math. v. 84, pp. 139-154 (AMS, Providence, 2012)</arxiv:journal_ref>
+    <author>
+      <name>J. D. Bouas</name>
+    </author>
+    <author>
+      <name>S. A. Fulling</name>
+    </author>
+    <author>
+      <name>F. D. Mera</name>
+    </author>
+    <author>
+      <name>K. Thapa</name>
+    </author>
+    <author>
+      <name>C. S. Trendafilova</name>
+    </author>
+    <author>
+      <name>J. Wagner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.09422v6</id>
+    <title>Spectral gaps for hyperbounded operators</title>
+    <updated>2019-12-17T09:34:14Z</updated>
+    <link href="https://arxiv.org/abs/1802.09422v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.09422v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a positive and power-bounded linear operator $T$ on $L^p$ over a finite measure space and prove that, if $TL^p \subseteq L^q$ for some $q &gt; p$, then the essential spectral radius of $T$ is strictly smaller than $1$. As a special case, we obtain a recent result of Miclo who proved this assertion for self-adjoint ergodic Markov operators in the case $p=2$ and thereby solved a long-open problem of Simon and Høegh-Krohn.
+  Our methods draw a connection between spectral theory and the geometry of Banach spaces: they rely on a result going back to Groh that encodes spectral gap properties via ultrapowers, and on the fact that an infinite dimensional $L^p$-space cannot by isomorphic to an $L^q$-space for $q \not= p$.
+  We also prove a number of variations of our main result: (i) it follows from theorems of Lotz and Martínez that the condition $TL^p \subseteq L^q$ can be replaced with the weaker assumption that $T$ maps the positive part of the $L^p$-unit ball into a uniformly $p$-integrable set; (ii) while it is known that the positivity assumption on $T$ cannot in general be omitted, we show that we can replace it with the assumption that $T$ is contractive both on $L^p$ and on $L^q$; (iii) we prove a version of the theorem which allows us, under appropriate circumstances, to also consider non-finite measures spaces; (iv) our result also has a uniform version: there exists an upper bound $c \in [0,1)$ for the essential spectral radius of $T$, where $c$ depends on certain quantitative properties of $T$, $L^p$ and $L^q$.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-26T16:06:40Z</published>
+    <arxiv:comment>Version 6, 19 pages. Compared to version 5, a small inaccuracy concerning a property of the essential spectral radius has been corrected</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Jochen Glück</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.01595v1</id>
+    <title>Integral means inequalities, convolution, and univalent functions</title>
+    <updated>2019-02-05T08:55:07Z</updated>
+    <link href="https://arxiv.org/abs/1902.01595v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.01595v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use the Baernstein star-function to investigate several questions about the integral means of the convolution of two analytic functions in the unit disc. The theory of univalent functions plays a basic role in our work.</summary>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-05T08:55:07Z</published>
+    <arxiv:comment>To appear in Journal of Function Spaces</arxiv:comment>
+    <arxiv:primary_category term="math.CV"/>
+    <arxiv:journal_ref>Journal of Function Spaces, Article ID 7817353, Volume 2019 (2019), 5 pages</arxiv:journal_ref>
+    <author>
+      <name>Daniel Girela</name>
+    </author>
+    <author>
+      <name>Cristóbal González</name>
+    </author>
+    <arxiv:doi>10.1155/2019/7817353</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1155/2019/7817353" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12637v1</id>
+    <title>Spectral pollution in substitution systems</title>
+    <updated>2026-04-14T12:07:33Z</updated>
+    <link href="https://arxiv.org/abs/2604.12637v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12637v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study spectral properties of Schrödinger operators associated with substitution dynamical systems in higher dimensions. Focusing on periodic approximations generated by iterating substitutions on initial configurations, we analyze how structural defects influence the limiting spectral behavior. In contrast to the one-dimensional setting, we show that such approximations may exhibit significant spectral pollution, including changes in the essential spectrum and the Lebesgue measure.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T12:07:33Z</published>
+    <arxiv:comment>There are very narrow spectral bands in Figure 2. These are better visible in PDF viewers than in browser-based viewers</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Ram Band</name>
+    </author>
+    <author>
+      <name>Siegfried Beckus</name>
+    </author>
+    <author>
+      <name>Felix Pogorzelski</name>
+    </author>
+    <author>
+      <name>Lior Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.5878v2</id>
+    <title>Computing the hadronic vacuum polarization function by analytic continuation</title>
+    <updated>2013-08-22T03:22:37Z</updated>
+    <link href="https://arxiv.org/abs/1305.5878v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.5878v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a method to compute the hadronic vacuum polarization function on the lattice at continuous values of photon momenta bridging between the spacelike and timelike regions. We provide two independent demonstrations to show that this method leads to the desired hadronic vacuum polarization function in Minkowski spacetime. We show with the example of the leading-order QCD correction to the muon anomalous magnetic moment that this approach can provide a valuable alternative method for calculations of physical quantities where the hadronic vacuum polarization function enters.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-25T01:41:58Z</published>
+    <arxiv:comment>22 pages, 6 figures; v2, version accepted for publication in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Xu Feng</name>
+    </author>
+    <author>
+      <name>Shoji Hashimoto</name>
+    </author>
+    <author>
+      <name>Grit Hotzel</name>
+    </author>
+    <author>
+      <name>Karl Jansen</name>
+    </author>
+    <author>
+      <name>Marcus Petschlies</name>
+    </author>
+    <author>
+      <name>Dru B. Renner</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.88.034505</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.88.034505" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.15009v2</id>
+    <title>Spectral radii for subsets of Hilbert $C^*$-modules and spectral properties of positive maps</title>
+    <updated>2026-06-19T16:34:19Z</updated>
+    <link href="https://arxiv.org/abs/2405.15009v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.15009v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The notions of joint and outer spectral radii are extended to the setting of Hilbert $C^*$-bimodules. A Rota-Strang type characterisation is proved for the joint spectral radius. In this general setting, an approximation result for the joint spectral radius in terms of the outer spectral radius has been established.
+  This work leads to a new proof of the Wielandt-Friedland's formula for the spectral radius of positive maps. Following an idea of J. E. Pascoe, a positive map called the maximal part has been associated to any positive map with non-zero spectral radius, on finite dimensional $C^*$-algebras. This provides a constructive treatment of the Perron-Frobenius theorem. It is seen that the maximal part of a completely positive map has a very simple structure and it is irreducible if and only if the original map is irreducible.
+  It is observed that algebras generated by tuples of matrices can be determined and their dimensions can be computed by realizing them as linear span of Choi-Kraus coefficients of some easily computable completely positive maps.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-23T19:28:05Z</published>
+    <arxiv:comment>Minor corrections; added Remark 3.8, proof of Proposition 3.12 and new references [22], [25], [26], [38] and [47]. To appear in Positivity</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <author>
+      <name>B. V. Rajarama Bhat</name>
+    </author>
+    <author>
+      <name>Biswarup Saha</name>
+    </author>
+    <author>
+      <name>Prajakta Sahasrabuddhe</name>
+    </author>
+    <arxiv:doi>10.1007/s11117-026-01207-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11117-026-01207-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.09800v1</id>
+    <title>Numerical study of transverse position monitor and compensation for x-ray polarization diagnosis</title>
+    <updated>2021-04-20T07:25:03Z</updated>
+    <link href="https://arxiv.org/abs/2104.09800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.09800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diagnosing free electron laser (FEL) polarization is critical for polarization-modulated research such as x-ray free electron laser (XFEL) diffraction imaging and probing material magnetism. In an electron time-of-flight (eTOF)\ polarimeter, the flight time and angular distribution of photoelectrons were designed based on x-ray polarimetry for on-site diagnosis. However, the transverse position of x-ray FEL pulses introduces error into the measured photoelectron angular distribution. This work thus proposes a method to monitor the transverse position using an eTOF polarimeter and explains how to compensate for the error due to transverse position. A comprehensive numerical model is developed to demonstrate the feasibility of the compensation method, and the results reveal that a spatial resolution of 20 \(μ\)m and a polarity improved by 0.5\% is possible with fully polarized FEL pulses. The impact of FEL\ pulses and a method to calibrate their linearity is also discussed.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-20T07:25:03Z</published>
+    <arxiv:comment>x-ray fel, e-TOF, position monitor, polarization</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Zipeng Liu</name>
+    </author>
+    <author>
+      <name>Bangjie Deng</name>
+    </author>
+    <author>
+      <name>Haixiao Deng</name>
+    </author>
+    <author>
+      <name>Bo Liu</name>
+    </author>
+    <arxiv:doi>10.1063/5.0054804</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0054804" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.0757v4</id>
+    <title>Spectral Asymptotics for Waveguides with Perturbed Periodic Twisting</title>
+    <updated>2015-01-04T11:59:49Z</updated>
+    <link href="https://arxiv.org/abs/1407.0757v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.0757v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the twisted waveguide $Ω_θ$, i.e. the domain obtained by the rotation of the bounded cross section $ω\subset {\mathbb R}^{2}$ of the straight tube $Ω: = ω\times {\mathbb R}$ at angle $θ$ which depends on the variable along the axis of $Ω$. We study the spectral properties of the Dirichlet Laplacian in $Ω_θ$, unitarily equivalent under the diffeomorphism $Ω_θ\to Ω$ to the operator $H_{θ'}$, self-adjoint in ${\rm L}^2(Ω)$. We assume that $θ' = β- ε$ where $β$ is a $2π$-periodic function, and $ε$ decays at infinity. Then in the spectrum $σ(H_β)$ of the unperturbed operator $H_β$ there is a semi-bounded gap $(-\infty, {\mathcal E}_0^+)$, and, possibly, a number of bounded open gaps $({\mathcal E}_j^-, {\mathcal E}_j^+)$. Since $ε$ decays at infinity, the essential spectra of $H_β$ and $H_{β- ε}$ coincide. We investigate the asymptotic behaviour of the discrete spectrum of $H_{β- ε}$ near an arbitrary fixed spectral edge ${\mathcal E}_j^\pm$. We establish necessary and quite close sufficient conditions which guarantee the finiteness of $σ_{\rm disc}(H_{β-ε})$ in a neighbourhood of ${\mathcal E}_j^\pm$. In the case where the necessary conditions are violated, we obtain the main asymptotic term of the corresponding eigenvalue counting function. The effective Hamiltonian which governs the the asymptotics of $σ_{\rm disc}(H_{β-ε})$ near ${\mathcal E}_j^\pm$ could be represented as a finite orthogonal sum of operators of the form $-μ\frac{d^2}{dx^2} - ηε$, self-adjoint in ${\rm L}^2({\mathbb R})$; here, $μ&gt; 0$ is a constant related to the so-called effective mass, while $η$ is $2π$-periodic function depending on $β$ and $ω$.</summary>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-03T01:20:19Z</published>
+    <arxiv:comment>29 pages, typos corrected, to appear in Journal of Spectral Theory</arxiv:comment>
+    <arxiv:primary_category term="math.SP"/>
+    <author>
+      <name>Georgi Raikov</name>
+    </author>
+  </entry>
+</feed>

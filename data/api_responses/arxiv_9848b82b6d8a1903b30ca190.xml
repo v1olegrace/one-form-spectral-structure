@@ -1,0 +1,942 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DbriFF86V2pcprazWDdonk7qWd0</id>
+  <title>arXiv Query: search_query=all:Taylor OR all:coefficients OR all:of OR all:the OR all:vacuum OR all:polarization OR all:threshold OR all:determination&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-09-11T12:45:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:Taylor+OR+(all:coefficients+OR+(all:of+OR+(all:the+OR+(all:vacuum+OR+(all:polarization+OR+(all:threshold+OR+all:determination))))))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>539020</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0404102v1</id>
+    <title>Perturbative computations in string field theory</title>
+    <updated>2004-04-15T01:19:11Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0404102v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0404102v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  These notes describe how perturbative on-shell and off-shell string amplitudes can be computed using string field theory. Computational methods for approximating arbitrary amplitudes are discussed, and compared with standard world-sheet methods for computing on-shell amplitudes. These lecture notes are not self-contained; they contain the material from W. Taylor's TASI 2003 lectures not covered in the recently published ``TASI 2001'' notes {\tt hep-th/0311017} by Taylor and Zwiebach, and should be read as a supplement to those notes.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-04-15T01:19:11Z</published>
+    <arxiv:comment>17 pages; 2003 TASI lecture notes, supplement to 2001 TASI lectures by Taylor and Zwiebach</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Washington Taylor</name>
+    </author>
+    <arxiv:doi>10.1142/9789812775108_0006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/9789812775108_0006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.12376v1</id>
+    <title>Rotational Curves of the Milky Way Galaxy and Andromeda Galaxy in Light of Vacuum Polarization around Eicheon</title>
+    <updated>2023-09-21T09:40:54Z</updated>
+    <link href="https://arxiv.org/abs/2309.12376v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.12376v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Eicheon properties are discussed. It is shown that the eicheon surface allows setting a boundary condition for the vacuum polarization and obtaining a solution describing the dark matter tail in the Milky Way Galaxy. That is, the dark matter in the Milky Way Galaxy is explained as the F-type of vacuum polarization, which could be treated as dark radiation. The model presented is spherically symmetric, but a surface density of a baryonic galaxy disk is taken into account approximately by smearing the disk over a sphere. This allows the reproduction of the large distance shape of the Milky Way Galaxy rotational curve. Andromeda Galaxy's rotational curve is also discussed.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-21T09:40:54Z</published>
+    <arxiv:comment>This paper is an extended version of "Dark Matter in the Milky Way Galaxy as the F-Type of Vacuum Polarization.'' from the Proceedings of the 2nd Electronic Conference on Universe, 16 February--2 March 2023</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Universe 2023, 9(9), 424</arxiv:journal_ref>
+    <author>
+      <name>Sergey L. Cherkas</name>
+    </author>
+    <author>
+      <name>Vladimir L. Kalashnikov</name>
+    </author>
+    <arxiv:doi>10.3390/universe9090424</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/universe9090424" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0306239v3</id>
+    <title>New Dimensions in Cosmic Lensing</title>
+    <updated>2003-06-13T11:01:04Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0306239v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0306239v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I review the current status of combing weak gravitational lensing with depth information from redshifts as a direct probe of dark matter and dark energy in the Universe. In particular I highlight: (1) The first maximum likelihood measurement of the cosmic shear power spectrum, with the COMBO17 dataset (Brown et al 2003); (2) A new method for mapping the 3-D dark matter distribution from weak shear, and its first application to the COMBO17 dataset (Taylor et al 2003); (3) A new method for measuring the Dark Energy of the Universe using purely the geometry of gravitational lensing, based on cross-correlation tomography (Jain &amp; Taylor 2003). I show that this method can constrain the equation of state of the universe and its evolution to a few percent accuracy.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-06-11T19:47:50Z</published>
+    <arxiv:comment>Talk presented at Davis Inflation Meeting, 2003 (astro-ph/0304225)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>Andy Taylor</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.0847v2</id>
+    <title>Is dark matter an illusion created by the gravitational polarization of the quantum vacuum?</title>
+    <updated>2011-11-08T20:43:48Z</updated>
+    <link href="https://arxiv.org/abs/1106.0847v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.0847v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Assuming that a particle and its antiparticle have the gravitational charge of the opposite sign, the physical vacuum may be considered as a fluid of virtual gravitational dipoles. Following this hypothesis, we present the first indications that dark matter may not exist and that the phenomena for which it was invoked might be explained by the gravitational polarization of the quantum vacuum by the known baryonic matter.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-04T18:31:49Z</published>
+    <arxiv:comment>We have added an Appendix in order to show that the gravitational polarization of the quantum vacuum allows the understanding of the universality of the central surface density of galaxy dark matter haloes, the cored dark matter haloes in dwarf spheroidal galaxies, the non-existence of dark disks in spiral galaxies and distribution of dark matter after collision of clusters of galaxies</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Astrophys.Space Sci.334:215-218,2011</arxiv:journal_ref>
+    <author>
+      <name>Dragan Slavkov Hajdukovic</name>
+    </author>
+    <arxiv:doi>10.1007/s10509-011-0744-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10509-011-0744-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.04760v2</id>
+    <title>The Taylor Measure and its Applications</title>
+    <updated>2025-08-14T13:52:42Z</updated>
+    <link href="https://arxiv.org/abs/2508.04760v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.04760v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose and study a novel collection of signed measures, which will be apply called Taylor measures. Stochastic versions of the new measures are also defined and studied. We illustrate, through examples, how the deterministic and stochastic versions of the proposed Taylor measures emerge as a unifying framework that includes many concepts from mathematics and probability theory as special cases.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-06T17:32:07Z</published>
+    <arxiv:comment>22 pages, definitions of the Taylor measure, Taylor probability measures, Stochastic Taylor measure, and generalization of Taylor's Theorem</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Athanasios Christou Micheas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.10441v1</id>
+    <title>Rastreo muscular móvil usando magnetomicrometría -- traducción al español del articulo "Untethered Muscle Tracking Using Magnetomicrometry" por el autor Cameron R. Taylor</title>
+    <updated>2022-11-19T19:45:44Z</updated>
+    <link href="https://arxiv.org/abs/2211.10441v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.10441v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muscle tissue drives nearly all movement in the animal kingdom, providing power, mobility, and dexterity. Technologies for measuring muscle tissue motion, such as sonomicrometry, fluoromicrometry, and ultrasound, have significantly advanced our understanding of biomechanics. Yet, the field lacks the ability to monitor muscle tissue motion for animal behavior outside the lab. Towards addressing this issue, we previously introduced magnetomicrometry, a method that uses magnetic beads to wirelessly monitor muscle tissue length changes, and we validated magnetomicrometry via tightly-controlled in situ testing. In this study we validate the accuracy of magnetomicrometry against fluoromicrometry during untethered running in an in vivo turkey model. We demonstrate real-time muscle tissue length tracking of the freely-moving turkeys executing various motor activities, including ramp ascent and descent, vertical ascent and descent, and free roaming movement. Given the demonstrated capacity of magnetomicrometry to track muscle movement in untethered animals, we feel that this technique will enable new scientific explorations and an improved understanding of muscle function. -- --
+El tejido muscular es el motor de casi todos los movimientos del reino animal, ya que proporciona fuerza, movilidad y destreza. Las tecnologías para medir el movimiento del tejido muscular, como la sonomicrometría, la fluoromicrometría y el ultrasonido, han avanzado considerablemente la comprensión de la biomecánica. Sin embargo, este campo carece de la capacidad de rastrear el movimiento del tejido muscular en el comportamiento animal fuera del laboratorio. Para abordar este problema, presentamos previamente la magnetomicrometría, un método que utiliza pequeños imanes para rastrear de forma inalámbrica los cambios de longitud del tejido muscular, y validamos la magnetomicrometría mediante pruebas estrechamente controladas in situ. En este estudio validamos la precisión de la magnetomicrometría en comparación con la fluoromicrometría usando un modelo de pavo in vivo mientras corre libremente. Demostramos el rastreo en tiempo real de la longitud del tejido muscular de los pavos que se mueven libremente ejecutando varias actividades motoras, incluyendo el ascenso y el descenso en rampa, el ascenso y el descenso vertical, y el movimiento libre. Dada la capacidad demostrada de la magnetomicrometría para rastrear el movimiento muscular en animales en un contexto móvil, creemos que esta técnica permitirá nuevas exploraciones científicas y una mejor comprensión de la función muscular.</summary>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-19T19:45:44Z</published>
+    <arxiv:comment>in Spanish language. Translation of the postprint, with the published version in English appended to the end of the PDF. Shared First Authorship: Cameron R. Taylor and Seong Ho Yeon; Shared Senior and Corresponding Authorship: Thomas J. Roberts and Hugh M. Herr</arxiv:comment>
+    <arxiv:primary_category term="physics.med-ph"/>
+    <arxiv:journal_ref>Front. Bioeng. Biotechnol. 10:1010275 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Cameron R. Taylor</name>
+      <arxiv:affiliation>K. Lisa Yang Center for Bionics, Massachusetts Institute of Technology, Cambridge, MA, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Seong Ho Yeon</name>
+      <arxiv:affiliation>K. Lisa Yang Center for Bionics, Massachusetts Institute of Technology, Cambridge, MA, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>William H. Clark</name>
+      <arxiv:affiliation>Department of Ecology, Evolution, and Organismal Biology, Brown University, Providence, RI, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ellen G. Clarrissimeaux</name>
+      <arxiv:affiliation>K. Lisa Yang Center for Bionics, Massachusetts Institute of Technology, Cambridge, MA, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mary Kate O'Donnell</name>
+      <arxiv:affiliation>Department of Ecology, Evolution, and Organismal Biology, Brown University, Providence, RI, USA</arxiv:affiliation>
+      <arxiv:affiliation>Department of Biology, Lycoming College, Williamsport, PA, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thomas J. Roberts</name>
+      <arxiv:affiliation>Department of Ecology, Evolution, and Organismal Biology, Brown University, Providence, RI, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hugh M. Herr</name>
+      <arxiv:affiliation>K. Lisa Yang Center for Bionics, Massachusetts Institute of Technology, Cambridge, MA, USA</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.3389/fbioe.2022.1010275</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3389/fbioe.2022.1010275" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05833v2</id>
+    <title>Multi-messenger Observations of a Binary Neutron Star Merger</title>
+    <updated>2017-10-24T12:03:18Z</updated>
+    <link href="https://arxiv.org/abs/1710.05833v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.05833v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On 2017 August 17 a binary neutron star coalescence candidate (later designated GW170817) with merger time 12:41:04 UTC was observed through gravitational waves by the Advanced LIGO and Advanced Virgo detectors. The Fermi Gamma-ray Burst Monitor independently detected a gamma-ray burst (GRB 170817A) with a time delay of $\sim$1.7 s with respect to the merger time. From the gravitational-wave signal, the source was initially localized to a sky region of 31 deg$^2$ at a luminosity distance of $40^{+8}_{-8}$ Mpc and with component masses consistent with neutron stars. The component masses were later measured to be in the range 0.86 to 2.26 Msun. An extensive observing campaign was launched across the electromagnetic spectrum leading to the discovery of a bright optical transient (SSS17a, now with the IAU identification of AT 2017gfo) in NGC 4993 (at $\sim$40 Mpc) less than 11 hours after the merger by the One-Meter, Two Hemisphere (1M2H) team using the 1 m Swope Telescope. The optical transient was independently detected by multiple teams within an hour. Subsequent observations targeted the object and its environment. Early ultraviolet observations revealed a blue transient that faded within 48 hours. Optical and infrared observations showed a redward evolution over $\sim$10 days. Following early non-detections, X-ray and radio emission were discovered at the transient's position $\sim$9 and $\sim$16 days, respectively, after the merger. Both the X-ray and radio emission likely arise from a physical process that is distinct from the one that generates the UV/optical/near-infrared emission. No ultra-high-energy gamma-rays and no neutrino candidates consistent with the source were found in follow-up searches. (Abridged)</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-16T16:57:18Z</published>
+    <arxiv:comment>This is a reproduction of the article published in the Astrophysical Journal Letters, under the terms of the Creative Commons Attribution 3.0 licence</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>ApJL, 848:L12, 2017</arxiv:journal_ref>
+    <author>
+      <name> LIGO Scientific Collaboration</name>
+    </author>
+    <author>
+      <name> Virgo Collaboration</name>
+    </author>
+    <author>
+      <name>Fermi GBM</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> INTEGRAL</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IceCube Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AstroSat Cadmium Zinc Telluride Imager Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>IPN Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Insight-Hxmt Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>ANTARES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Swift Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>AGILE Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The 1M2H Team</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Dark Energy Camera GW-EM Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>the DES Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The DLT40 Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> GRAWITA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>GRAvitational Wave Inaf TeAm</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>The Fermi Large Area Telescope Collaboration</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ATCA</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australia Telescope Compact Array</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> ASKAP</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> :</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Australian SKA Pathfinder</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Las Cumbres Observatory Group</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> OzGrav</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> DWF</name>
+      <arxiv:affiliation>Deeper, Wider, Faster Program</arxiv:affiliation>
+    </author>
+    <author>
+      <name> AST3</name>
+    </author>
+    <author>
+      <name>CAASTRO Collaborations</name>
+    </author>
+    <author>
+      <name>The VINROUGE Collaboration</name>
+    </author>
+    <author>
+      <name>MASTER Collaboration</name>
+    </author>
+    <author>
+      <name> J-GEM</name>
+    </author>
+    <author>
+      <name> GROWTH</name>
+    </author>
+    <author>
+      <name> JAGWAR</name>
+    </author>
+    <author>
+      <name>Caltech- NRAO</name>
+    </author>
+    <author>
+      <name> TTU-NRAO</name>
+    </author>
+    <author>
+      <name>NuSTAR Collaborations</name>
+    </author>
+    <author>
+      <name> Pan-STARRS</name>
+    </author>
+    <author>
+      <name>The MAXI Team</name>
+    </author>
+    <author>
+      <name>TZAC Consortium</name>
+    </author>
+    <author>
+      <name>KU Collaboration</name>
+    </author>
+    <author>
+      <name>Nordic Optical Telescope</name>
+    </author>
+    <author>
+      <name> ePESSTO</name>
+    </author>
+    <author>
+      <name> GROND</name>
+    </author>
+    <author>
+      <name>Texas Tech University</name>
+    </author>
+    <author>
+      <name>SALT Group</name>
+    </author>
+    <author>
+      <name> TOROS</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Transient Robotic Observatory of the South Collaboration</name>
+    </author>
+    <author>
+      <name>The BOOTES Collaboration</name>
+    </author>
+    <author>
+      <name> MWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Murchison Widefield Array</name>
+    </author>
+    <author>
+      <name>The CALET Collaboration</name>
+    </author>
+    <author>
+      <name>IKI-GW Follow-up Collaboration</name>
+    </author>
+    <author>
+      <name>H. E. S. S. Collaboration</name>
+    </author>
+    <author>
+      <name>LOFAR Collaboration</name>
+    </author>
+    <author>
+      <name> LWA</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Long Wavelength Array</name>
+    </author>
+    <author>
+      <name>HAWC Collaboration</name>
+    </author>
+    <author>
+      <name>The Pierre Auger Collaboration</name>
+    </author>
+    <author>
+      <name>ALMA Collaboration</name>
+    </author>
+    <author>
+      <name>Euro VLBI Team</name>
+    </author>
+    <author>
+      <name>Pi of the Sky Collaboration</name>
+    </author>
+    <author>
+      <name>The Chandra Team at McGill University</name>
+    </author>
+    <author>
+      <name> DFN</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Desert Fireball Network</name>
+    </author>
+    <author>
+      <name> ATLAS</name>
+    </author>
+    <author>
+      <name>High Time Resolution Universe Survey</name>
+    </author>
+    <author>
+      <name> RIMAS</name>
+    </author>
+    <author>
+      <name> RATIR</name>
+    </author>
+    <author>
+      <name>SKA South Africa/MeerKAT</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/aa91c9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/aa91c9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.0323v1</id>
+    <title>Modeling Scattering Polarization for Probing Solar Magnetism</title>
+    <updated>2011-05-02T13:35:22Z</updated>
+    <link href="https://arxiv.org/abs/1105.0323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.0323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper considers the problem of modeling the light polarization that emerges from an astrophysical plasma composed of atoms whose excitation state is significantly influenced by the anisotropy of the incident radiation field. In particular, it highlights how radiative transfer simulations in three-dimensional models of the quiet solar atmosphere may help us to probe its thermal and magnetic structure, from the near equilibrium photosphere to the highly non-equilibrium upper chromosphere. The paper finishes with predictions concerning the amplitudes and magnetic sensitivities of the linear polarization signals produced by scattering processes in two transition region lines, which should encourage us to develop UV polarimeters for sounding rockets and space telescopes with the aim of opening up a new diagnostic window in astrophysics.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-02T13:35:22Z</published>
+    <arxiv:comment>Invited Review in workshop Solar Polarization 6; 12 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Solar Polarization 6, eds. J. Kuhn et al., ASP Conf. Series Vol. 437, pages 83-98, (2011)</arxiv:journal_ref>
+    <author>
+      <name>Javier Trujillo Bueno</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.2765v2</id>
+    <title>EoS of finite density QCD with Wilson fermions by Multi-Parameter Reweighting and Taylor expansion</title>
+    <updated>2012-04-06T04:20:33Z</updated>
+    <link href="https://arxiv.org/abs/1201.2765v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.2765v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The equation of state (EoS), quark number density and susceptibility at nonzero quark chemical potential $μ$ are studied in lattice QCD simulations with a clover-improved Wilson fermion of 2-flavors and RG-improved gauge action. To access nonzero $μ$, we employ two methods : a multi-parameter reweighting (MPR) in $μ$ and $β$ and Taylor expansion in $μ/T$. The use of a reduction formula for the Wilson fermion determinant enables to study the reweighting factor in MPR explicitly and heigher-order coefficients in Taylor expansion free from errors of noise method, although calculations are limited to small lattice size. As a consequence, we can study the reliability of the thermodynamical quantities through the consistency of the two methods, each of which has different origin of the application limit.
+  The thermodynamical quantities are obtained from simulations on a $8^3\times 4$ lattice with an intermediate quark mass($m_{\rm PS}/m_{\rm V}=0.8)$. The MPR and Taylor expansion are consistent for the EoS and number density up to $μ/T\sim 0.8$ and for the number susceptibility up to $μ/T \sim 0.6$. This implies within a given statistics that the overlap problem for the MPR and truncation error for the Taylor expansion method are negligible in these regions.
+  In order to make MPR methods work, the fluctuation of the reweighting factor should be small. We derive the equation of the reweighting line where the fluctuation is small, and show that the equation of the reweighting line is consistent with the fluctuation minimum condition.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-13T08:35:48Z</published>
+    <arxiv:comment>20 pages, 11 figures. Accepted to JHEP. Discussions are added. Figures for Taylor coefficients (Fig. 7) are modified</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Keitaro Nagata</name>
+    </author>
+    <author>
+      <name>Atsushi Nakamura</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP04(2012)092</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP04(2012)092" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.0051v1</id>
+    <title>Vacuum Polarization on the Schwarzschild Metric with a Cosmic String</title>
+    <updated>2010-06-30T23:54:04Z</updated>
+    <link href="https://arxiv.org/abs/1007.0051v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.0051v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of the renormalization of the vacuum polarization in a symmetry space-time with axial but not spherical symmetry, Schwarzschild space-time threaded by an infinite straight cosmic string. Unlike previous calculations, our framework to compute the renormalized vacuum polarization does not rely on special properties of Legendre functions, but rather has been developed in a way that we expect to be applicable to Kerr space-time.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-30T23:54:04Z</published>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D82:104013,2010</arxiv:journal_ref>
+    <author>
+      <name>Adrian C. Ottewill</name>
+    </author>
+    <author>
+      <name>Peter Taylor</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.82.104013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.82.104013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.01536v2</id>
+    <title>Discriminating Spatial and Temporal Relevance in Deep Taylor Decompositions for Explainable Activity Recognition</title>
+    <updated>2019-08-14T14:36:13Z</updated>
+    <link href="https://arxiv.org/abs/1908.01536v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.01536v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current techniques for explainable AI have been applied with some success to image processing. The recent rise of research in video processing has called for similar work n deconstructing and explaining spatio-temporal models. While many techniques are designed for 2D convolutional models, others are inherently applicable to any input domain. One such body of work, deep Taylor decomposition, propagates relevance from the model output distributively onto its input and thus is not restricted to image processing models. However, by exploiting a simple technique that removes motion information, we show that it is not the case that this technique is effective as-is for representing relevance in non-image tasks. We instead propose a discriminative method that produces a naïve representation of both the spatial and temporal relevance of a frame as two separate objects. This new discriminative relevance model exposes relevance in the frame attributed to motion, that was previously ambiguous in the original explanation. We observe the effectiveness of this technique on a range of samples from the UCF-101 action recognition dataset, two of which are demonstrated in this paper.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-05T09:42:25Z</published>
+    <arxiv:comment>5 pages, 2 figures, published at IJCAI19 ExAI workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Liam Hiley</name>
+    </author>
+    <author>
+      <name>Alun Preece</name>
+    </author>
+    <author>
+      <name>Yulia Hicks</name>
+    </author>
+    <author>
+      <name>David Marshall</name>
+    </author>
+    <author>
+      <name>Harrison Taylor</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.05028v2</id>
+    <title>Two-loop Vertices with Vacuum Polarization Insertion</title>
+    <updated>2024-01-23T14:39:02Z</updated>
+    <link href="https://arxiv.org/abs/2308.05028v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.05028v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the analytic evaluation of the second-order corrections to the massive form factors, due to two-loop vertex diagrams with a vacuum polarization insertion, with exact dependence on the external and internal fermion masses, and on the squared momentum transfer. We consider vector, axial-vector, scalar and pseudoscalar interactions between the external fermion and the external field. After renormalization, the finite expressions of the form factors are expressed in terms of polylogarithms up to weight three.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-09T15:52:12Z</published>
+    <arxiv:comment>20 pages, 3 figures, 2 ancillary files. v2: results.m ancillary file updated (constants in the expression "canonicalMasters" simplified, residual logarithms in the renormalisedFormFactorsGPLS converted to GPLS), final version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Ahmed, T., Crisanti, G., Gasparotto, F. et al. Two-loop vertices with vacuum polarization insertion. J. High Energ. Phys. 2024, 10 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Taushif Ahmed</name>
+    </author>
+    <author>
+      <name>Giulio Crisanti</name>
+    </author>
+    <author>
+      <name>Federico Gasparotto</name>
+    </author>
+    <author>
+      <name>Syed Mehedi Hasan</name>
+    </author>
+    <author>
+      <name>Pierpaolo Mastrolia</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP01(2024)010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP01(2024)010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.08166v2</id>
+    <title>A Mode-Sum Prescription for Vacuum Polarization in Odd Dimensions</title>
+    <updated>2016-10-14T12:16:43Z</updated>
+    <link href="https://arxiv.org/abs/1609.08166v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.08166v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a new mode-sum regularization prescription for computing the vacuum polarization of a scalar field in static spherically-symmetric black hole spacetimes in odd dimensions. This is the first general and systematic approach to regularized vacuum polarization in higher dimensions. Remarkably, the regularization parameters can be computed in closed form in arbitrary dimensions and for arbitrary metric function $f(r)$. In fact, we show that in spite of the increasing severity and number of the divergences to be regularized, the method presented is mostly agnostic to the number of dimensions. Finally, as an explicit example of our method, we show plots for vacuum polarization in the Schwarzschild-Tangherlini spacetime for odd $d=5,...,11$.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-26T20:00:06Z</published>
+    <arxiv:comment>New references added. Minor edits</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 94, 125024 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Peter Taylor</name>
+    </author>
+    <author>
+      <name>Cormac Breen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.94.125024</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.94.125024" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.00316v1</id>
+    <title>A Mode-Sum Prescription for Vacuum Polarization in Even Dimensions</title>
+    <updated>2017-08-30T20:00:38Z</updated>
+    <link href="https://arxiv.org/abs/1709.00316v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.00316v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a mode-sum regularization prescription for computing the vacuum polarization of a scalar field in static spherically-symmetric black hole spacetimes in even dimensions. This is the first general and systematic approach to regularized vacuum polarization in higher even dimensions, building upon a previous scheme we developed for odd dimensions. Things are more complicated here since the even-dimensional propagator possesses logarithmic singularities which must be regularized. However, in spite of this complication, the regularization parameters can be computed in closed form in arbitrary even dimensions and for arbitrary metric function $f(r)$. As an explicit example of our method, we show plots for vacuum polarization of a massless scalar field in the Schwarzschild-Tangherlini spacetime for even $d=4,...,10$. However, the method presented applies straightforwardly to massive fields or to nonvacuum spacetimes.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-30T20:00:38Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:1609.08166</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 96, 105020 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Peter Taylor</name>
+    </author>
+    <author>
+      <name>Cormac Breen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.96.105020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.96.105020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.10560v2</id>
+    <title>Outgassing rate comparison of seven geometrically similar vacuum chambers of different materials and heat treatments</title>
+    <updated>2021-03-09T15:40:31Z</updated>
+    <link href="https://arxiv.org/abs/2009.10560v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.10560v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have measured the water and hydrogen outgassing rates of seven vacuum chambers of identical geometry but constructed of different materials and heat treatments. Chambers of five different materials were tested: 304L, 316L, and 316LN stainless steels; titanium (ASTM grade 2); and 6061 aluminum. In addition, chambers constructed of 316L and 316LN stainless steel were subjected to a vacuum-fire process, where they were heated to approximately 950 °C for 24 hours while under vacuum; these two chambers are designated as 316L-XHV and 316LN-XHV. All chambers were of identical geometry and made by the same manufacturer, thus a relative comparison of the outgassing rates among these chambers can be made. Water outgassing rates were measured as a function of time using the throughput technique. The water outgassing results for the 316L, 316LN, 316L-XHV, 316LN-XHV were all similar, but lower than those of 304L by a factor of 3 to 5 lower at 10^4 s. The water outgassing results for Ti and Al chambers were close to that of 304L, Ti being slightly lower. Hydrogen outgassing rates were measured using the rate-of-rise method and performed after a low-temperature bake of 125 °C to 150 °C for a minimum of 72 hours. The Ti, Al, 316L-XHV, and 316LN-XHV chambers all have specific outgassing rates below 1 X 10^-11 Pa L s^-1 cm^-2 and are at least a factor of 100 or better than the 304L chamber. The 304L, 316L, and 316LN chambers without vacuum-fire heat treatment have larger hydrogen outgassing rates than the other chambers, with specific outgassing rates ranging between 4.0 X 10^-11 Pa L s^-1 cm^-2 and 8.0 X 10^-11 Pa L s^-1 cm^-2. We conclude that Ti, Al, 316L-XHV, and 316LN-XHV have hydrogen outgassing rates that make them excellent choices for ultra-high vacuum (UHV) and extreme-high vacuum (XHV) applications, the choice depending on cost and other material properties.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-22T14:01:47Z</published>
+    <arxiv:comment>27 pages, 8 figures, 4 tables The following article has been submitted the Journal of Vacuum Science &amp; Technology B. This article may be downloaded for personal use only. Any other use requires prior permission of the author and AIP Publishing. This article appeared in Journal of Vacuum Science &amp; Technology B 39, 024201 (2021) and may be found at https://doi.org/10.1116/6.0000657</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <arxiv:journal_ref>Journal of Vacuum Science &amp; Technology B 39, 024201 (2021)</arxiv:journal_ref>
+    <author>
+      <name>James A. Fedchak</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Julia K. Scherschligt</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sefer Avdiaj</name>
+      <arxiv:affiliation>University of Prishtina, Kosova</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniel S. Barker</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stephen P. Eckel</name>
+      <arxiv:affiliation>National Institute of Standards and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ben Bowers</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Scott OConnell</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Perry Henderson</name>
+      <arxiv:affiliation>Anderson Dahlen Applied Vacuum Division</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1116/6.0000657</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1116/6.0000657" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.06201v1</id>
+    <title>Resonance Line Polarization in Spherically Symmetric Moving Media: a Parametric Study</title>
+    <updated>2020-01-17T09:01:32Z</updated>
+    <link href="https://arxiv.org/abs/2001.06201v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.06201v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present paper we consider the problem of resonance line polarization formed in the spherically symmetric expanding atmospheres. For the solution of the concerned polarized transfer equation we use the comoving frame formulation, and apply the Accelerated Lambda Iteration (ALI) method. We restrict ourselves to the non-relativistic regime of velocities wherein mainly Doppler shift effects are significant. For our studies, we consider the scattering on a two-level atom, including the effects of partial frequency redistribution (PFR). We present the dependence of linearly polarized profiles on different atmospheric and atomic parameters.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-17T09:01:32Z</published>
+    <arxiv:comment>10 pages, 6 figures, Proceedings of the 9th Solar Polarization Workshop SPW9, A workshop held in Gottingen, Germany, from August 26 to August 30, 2019</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Proceedings of the 9th Solar Polarization Workshop SPW9, Published open access by MPS 2020</arxiv:journal_ref>
+    <author>
+      <name>A. Megha</name>
+    </author>
+    <author>
+      <name>M. Sampoorna</name>
+    </author>
+    <author>
+      <name>K. N. Nagendra</name>
+    </author>
+    <author>
+      <name>L. S. Anusha</name>
+    </author>
+    <author>
+      <name>K. Sankarasubramanian</name>
+    </author>
+    <arxiv:doi>10.17617/2.3186650</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.17617/2.3186650" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.3943v1</id>
+    <title>Renormalized Vacuum Polarization and Stress Tensor on the Horizon of a Schwarzschild Black Hole Threaded by a Cosmic String</title>
+    <updated>2010-10-19T15:06:30Z</updated>
+    <link href="https://arxiv.org/abs/1010.3943v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.3943v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We calculate the renormalized vacuum polarization and stress tensor for a massless, arbitrarily coupled scalar field in the Hartle-Hawking vacuum state on the horizon of a Schwarzschild black hole threaded by an infinte straight cosmic string. This calculation relies on a generalized Heine identity for non-integer Legendre functions which we derive without using specific properties of the Legendre functions themselves.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-19T15:06:30Z</published>
+    <arxiv:comment>This is an expanded version of a previous submission, we have added the calculation of the stress tensor. 28 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class.Quant.Grav.28:015007,2011</arxiv:journal_ref>
+    <author>
+      <name>Adrian C. Ottewill</name>
+    </author>
+    <author>
+      <name>Peter Taylor</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/28/1/015007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/28/1/015007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.17681v1</id>
+    <title>Extrapolating on Taylor Series Solutions of Homotopies with Nearby Poles</title>
+    <updated>2024-04-26T20:08:01Z</updated>
+    <link href="https://arxiv.org/abs/2404.17681v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.17681v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A polynomial homotopy is a family of polynomial systems in one parameter, which defines solution paths starting from known solutions and ending at solutions of a system that has to be solved. We consider paths leading to isolated singular solutions, to which the Taylor series converges logarithmically. Whether or not extrapolation algorithms manage to accelerate the slowly converging series depends on the proximity of poles close to the disk of convergence of the Taylor series.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-26T20:08:01Z</published>
+    <arxiv:comment>Keywords: continuation, extrapolation, homotopy, pole, polynomial, Taylor, series, singularity</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Jan Verschelde</name>
+    </author>
+    <author>
+      <name>Kylash Viswanathan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.04940v1</id>
+    <title>The Galactic Chemical Evolution of phosphorus observed with IGRINS</title>
+    <updated>2022-10-10T18:16:50Z</updated>
+    <link href="https://arxiv.org/abs/2210.04940v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.04940v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Phosphorus (P) is considered to be one of the key elements for life, making it an important element to look for in the abundance analysis of spectra of stellar systems. Yet, there exists only a handful of spectroscopic studies to estimate the P abundances and investigate its trend across a range of metallicities. We have observed full HK band spectra at a spectral resolving power of R=45,000 with IGRINS instrument. Abundances are determined using SME in combination with 1D MARCS stellar atmosphere models. The investigated sample of stars have reliable stellar parameters estimated using optical FIES spectra (GILD; Jönsson et al. in prep.). In order to determine the P abundances from the 16482.92 Angstrom P line, we take special care of the CO($ν=7-4$) blend. We determine the C, N, O abundances from atomic carbon and a range of non-blended molecular lines (CO, CN, OH) which are aplenty in the H band region of K giant stars, assuring an appropriate modelling of the blending CO($ν=7-4$) line. We present [P/Fe] vs [Fe/H] trend for 38 K giant stars in the metallicity range of -1.2 dex $&lt;$ [Fe/H] $&lt;$ 0.4 dex. We find that our trend matches well with the compiled literature sample of prominently dwarf stars and limited number of giant stars. Our trend is found to be higher by $\sim$ 0.05 - 0.1 dex compared to the theoretical chemical evolution trend in Cescutti et al. 2012 resulting from core collapse supernova (type II) of massive stars with the P yields from Kobayashi et al. (2006) arbitrarily increased by a factor of 2.75. Thus the enhancement factor might need to be $\sim$ 0.05 - 0.1 dex higher to match our trend. We also find an empirically determined primary behaviour for phosphorus. Furthermore, the phosphorus abundance is found to be elevated by $\sim$ 0.6 - 0.9 dex in two metal poor s-enriched stars compared to the theoretical chemical evolution trend.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-10T18:16:50Z</published>
+    <arxiv:comment>13 pages, 9 figures, accepted for publication in Astronomy and Astrophysics</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>A&amp;A 668, A88 (2022)</arxiv:journal_ref>
+    <author>
+      <name>G. Nandakumar</name>
+    </author>
+    <author>
+      <name>N. Ryde</name>
+    </author>
+    <author>
+      <name>M. Montelius</name>
+    </author>
+    <author>
+      <name>B. Thorsbro</name>
+    </author>
+    <author>
+      <name>H. Jönsson</name>
+    </author>
+    <author>
+      <name>G. Mace</name>
+    </author>
+    <author>
+      <name>Lund Observatory</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>Theoretical Physics</name>
+    </author>
+    <author>
+      <name>Lund University</name>
+    </author>
+    <author>
+      <name>Box 43</name>
+    </author>
+    <author>
+      <name>SE-221 00 Lund</name>
+    </author>
+    <author>
+      <name> Sweden</name>
+    </author>
+    <author>
+      <name>Kapteyn Astronomical Institute</name>
+    </author>
+    <author>
+      <name>University of Groningen</name>
+    </author>
+    <author>
+      <name>Landleven 12</name>
+    </author>
+    <author>
+      <name>NL-9747 AD Groningen</name>
+    </author>
+    <author>
+      <name>the Netherlands</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>School of Science</name>
+    </author>
+    <author>
+      <name>The University of Tokyo</name>
+    </author>
+    <author>
+      <name>7-3-1 Hongo</name>
+    </author>
+    <author>
+      <name> Bunkyo-ku</name>
+    </author>
+    <author>
+      <name>Tokyo 113-0033</name>
+    </author>
+    <author>
+      <name> Japan</name>
+    </author>
+    <author>
+      <name>Materials Science</name>
+    </author>
+    <author>
+      <name>Applied Mathematics</name>
+    </author>
+    <author>
+      <name>Malmö University</name>
+    </author>
+    <author>
+      <name>SE-205 06 Malmö</name>
+    </author>
+    <author>
+      <name> Sweden</name>
+    </author>
+    <author>
+      <name>Department of Astronomy</name>
+    </author>
+    <author>
+      <name>McDonald Observatory</name>
+    </author>
+    <author>
+      <name>The University of Texas</name>
+    </author>
+    <author>
+      <name> Austin</name>
+    </author>
+    <author>
+      <name>TX 78712</name>
+    </author>
+    <author>
+      <name> USA</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202244724</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202244724" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.18154v1</id>
+    <title>Six Decades Post-Discovery of Taylor's Power Law: From Ecological and Statistical Universality, Through Prime Number Distributions and Tipping-Point Signals, to Heterogeneity and Stability of Complex Networks</title>
+    <updated>2025-06-22T19:47:16Z</updated>
+    <link href="https://arxiv.org/abs/2506.18154v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.18154v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>First discovered by L. R. Taylor (1961, Nature), Taylor's Power Law (TPL) correlates the mean (M) population abundances and the corresponding variances (V) across a set of insect populations using a power function (V=aM^b). TPL has demonstrated its 'universality' across numerous fields of sciences, social sciences, and humanities. This universality has inspired two main prongs of exploration: one from mathematicians and statisticians, who might instinctively respond with a convergence theorem similar to the central limit theorem of the Gaussian distribution, and another from biologists, ecologists, physicists, etc., who are more interested in potential underlying ecological or organizational mechanisms. Over the past six decades, TPL studies have produced a punctuated landscape with three relatively distinct periods (1960s-1980s; 1990s-2000s, and 2010s-2020s) across the two prongs of abstract and physical worlds. Eight themes have been identified and reviewed on this landscape, including population spatial aggregation and ecological mechanisms, TPL and skewed statistical distributions, mathematical/statistical mechanisms of TPL, sample vs. population TPL, population stability, synchrony, and early warning signals for tipping points, TPL on complex networks, TPL in macrobiomes, and in microbiomes. Three future research directions including fostering reciprocal interactions between the two prongs, heterogeneity measuring, and exploration in the context of evolution. The significance of TPL research includes practically, population fluctuations captured by TPL are relevant for agriculture, forestry, fishery, wildlife-conservation, epidemiology, tumor heterogeneity, earthquakes, social inequality, stock illiquidity, financial stability, tipping point events, etc.; theoretically, TPL is one form of power laws, which are related to phase transitions, universality, scale-invariance, etc.</summary>
+    <category term="q-bio.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-22T19:47:16Z</published>
+    <arxiv:primary_category term="q-bio.OT"/>
+    <author>
+      <name>Zhanshan Sam Ma</name>
+    </author>
+    <author>
+      <name>R. A. J. Taylor</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.07358v1</id>
+    <title>No Threshold graphs are cospectral</title>
+    <updated>2018-06-19T17:40:23Z</updated>
+    <link href="https://arxiv.org/abs/1806.07358v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.07358v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A threshold graph G on n vertices is defined by binary sequence of length n. In this paper we present an explicit formula for computing the characteristic polynomial of a threshold graph from its binary sequence. Applications include obtaining a formula for the determinant of adjacency matrix of a threshold graph and showing that no two nonisomorphic threshold graphs are cospectral.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-19T17:40:23Z</published>
+    <arxiv:comment>threshold graph, characteristic polynomial, cospectral graphs</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>J. Lazzarin</name>
+    </author>
+    <author>
+      <name>O. F. Márquez</name>
+    </author>
+    <author>
+      <name>F. Tura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1006.4520v3</id>
+    <title>Renormalized Vacuum Polarization on the Horizon of a Schwarzschild Black Hole Threaded by a Cosmic String</title>
+    <updated>2010-06-30T23:42:39Z</updated>
+    <link href="https://arxiv.org/abs/1006.4520v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.4520v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We obtain an analytic expression for the vacuum polarization on the horizon of the Schwarzschild black hole threaded by an infinite cosmic string. This calculation relies on a generalized Heine identity for Legendre functions which we derive without using specific properties of the Legendre functions themselves.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-23T13:44:51Z</published>
+    <arxiv:comment>Corrected reference</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Adrian Ottewill</name>
+    </author>
+    <author>
+      <name>Peter Taylor</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.06706v2</id>
+    <title>The Taylor Integral and a Generalization of the Discrete Fourier Transform</title>
+    <updated>2026-08-30T17:08:43Z</updated>
+    <link href="https://arxiv.org/abs/2605.06706v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.06706v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a new integral based on Taylor measures, study its properties extensively, and we illustrate that it includes many concepts from mathematics as special cases. In particular, the new integral emerges as a generalization of the discrete Fourier transform, and we identify general conditions for it to be invertible when applied to any real or complex sequence. Applications to the mathematical sciences are also presented.</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-06T17:03:11Z</published>
+    <arxiv:comment>44 pages, 3 figures, 3 tables. Keywords: Computer Graphics; Cryptography; Difference Equations; Discrete Fourier Transform; Discrete Taylor Transformation; Taylor Measure; Taylor Integral; Vandermonde matrix inversion</arxiv:comment>
+    <arxiv:primary_category term="math.GM"/>
+    <author>
+      <name>Athanasios Christou Micheas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.04890v1</id>
+    <title>Determining the QCD coupling from lattice vacuum polarization</title>
+    <updated>2015-10-16T14:12:43Z</updated>
+    <link href="https://arxiv.org/abs/1510.04890v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.04890v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The QCD coupling appears in the perturbative expansion of the current-current two-point (vacuum polarization) function. Any lattice calculation of vacuum polarization is plagued by several competing non-perturbative effects at small momenta and by discretization errors at large momenta. We work in an intermediate region, computing the vacuum polarization for many off-axis momentum directions on the lattice. Having many momentum directions provides a way to monitor and account for lattice artifacts. Our results are competitive with, and have certain systematic advantages over, the alternate phenomenological determination of the strong coupling from the same light quark vacuum polarization produced by sum rule analyses of hadronic tau decay data.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-16T14:12:43Z</published>
+    <arxiv:comment>7 pages, 4 figures, Proceedings of the 33rd International Symposium on Lattice Field Theory (Lattice 2015), 14-18 July 2015, Kobe International Conference Center, Kobe, Japan</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Renwick J. Hudspith</name>
+    </author>
+    <author>
+      <name>Randy Lewis</name>
+    </author>
+    <author>
+      <name>Kim Maltman</name>
+    </author>
+    <author>
+      <name>Eigo Shintani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0410436v1</id>
+    <title>Multi-point Taylor Expansions of Analytic Functions</title>
+    <updated>2004-10-20T09:15:43Z</updated>
+    <link href="https://arxiv.org/abs/math/0410436v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0410436v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Taylor expansions of analytic functions are considered with respect to several points, allowing confluence of any of them. Cauchy-type formulas are given for coefficients and remainders in the expansions, and the regions of convergence are indicated. It is explained how these expansions can be used in deriving uniform asymptotic expansions of integrals. The method is also used for obtaining Laurent expansions in several points as well as Taylor-Laurent expansions.</summary>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-10-20T09:15:43Z</published>
+    <arxiv:comment>20 pages, 7 figures. Keywords: multi-point Taylor expansions, Cauchy's theorem, analytic functions, multi-point Laurent expansions, uniform asymptotic expansions of integrals</arxiv:comment>
+    <arxiv:primary_category term="math.CA"/>
+    <arxiv:journal_ref>Trans. Amer. Math. Soc. 356, 4323--4342, 2004</arxiv:journal_ref>
+    <author>
+      <name>José L. López</name>
+    </author>
+    <author>
+      <name>Nico M. Temme</name>
+    </author>
+  </entry>
+</feed>
