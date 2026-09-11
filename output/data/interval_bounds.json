@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "name": "atomic bound -- single atom M=3",
+      "kind": "CERTIFIED",
+      "detail": "M_* = 3.0 <= [3.0, 3.0], enclosure width 1.38e-40",
+      "M_star": 3.0,
+      "lo": "3.0",
+      "hi": "3.0"
+    },
+    {
+      "name": "atomic bound -- two atoms, edge 2",
+      "kind": "CERTIFIED",
+      "detail": "M_* = 2.0 <= [2.212845261, 2.212845261], enclosure width 2.3e-40",
+      "M_star": 2.0,
+      "lo": "2.21284526099566",
+      "hi": "2.21284526099566"
+    },
+    {
+      "name": "atomic bound -- near-degenerate 2.00/2.02",
+      "kind": "CERTIFIED",
+      "detail": "M_* = 2.0 <= [2.00987500677, 2.00987500677], enclosure width 3.21e-40",
+      "M_star": 2.0,
+      "lo": "2.00987500677037",
+      "hi": "2.00987500677037"
+    },
+    {
+      "name": "atomic bound -- tiny weight 1e-12 at edge 2",
+      "kind": "CERTIFIED",
+      "detail": "M_* = 2.0 <= [3.0, 3.0], enclosure width 1.84e-40",
+      "M_star": 2.0,
+      "lo": "2.99999999999647",
+      "hi": "2.99999999999647"
+    },
+    {
+      "name": "atomic bound saturates on a single atom",
+      "kind": "CERTIFIED",
+      "detail": "enclosure [3.0, 3.0] brackets M=3 exactly"
+    },
+    {
+      "name": "envelope valid under perturbation, eps_rel=1e-10",
+      "kind": "CERTIFIED",
+      "detail": "88/200 trials returned a finite bound; all bounds >= M_*",
+      "eps_rel": "1e-10",
+      "n_bounds": 88
+    },
+    {
+      "name": "envelope valid under perturbation, eps_rel=1e-6",
+      "kind": "CERTIFIED",
+      "detail": "88/200 trials returned a finite bound; all bounds >= M_*",
+      "eps_rel": "1e-6",
+      "n_bounds": 88
+    },
+    {
+      "name": "envelope valid under perturbation, eps_rel=1e-3",
+      "kind": "CERTIFIED",
+      "detail": "85/200 trials returned a finite bound; all bounds >= M_*",
+      "eps_rel": "1e-3",
+      "n_bounds": 85
+    },
+    {
+      "name": "envelope valid under perturbation, eps_rel=1e-1",
+      "kind": "CERTIFIED",
+      "detail": "20/200 trials returned a finite bound; all bounds >= M_*",
+      "eps_rel": "1e-1",
+      "n_bounds": 20
+    },
+    {
+      "name": "absurd envelope yields explicit no-bound",
+      "kind": "CERTIFIED",
+      "detail": "with eps 10x the data the procedure returns NO BOUND rather than truncating to something plausible"
+    }
+  ],
+  "n_failed": 0
+}

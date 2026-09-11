@@ -1,0 +1,150 @@
+\appendix
+
+\section{The vacuum-polarization sign, from the quadratic effective action}
+\label{app:sign}
+
+The sign is derived once and propagated; it is not adjusted to taste. A unit
+test (\texttt{tests/test\_sign\_convention.py}) fails if any step below is
+changed inconsistently, and in particular asserts that the opposite convention
+produces a \emph{negative} spectral measure and antiscreening.
+
+Integrating out the matter sector gives, in Euclidean signature and on the
+transverse subspace,
+\begin{equation}
+S^{(2)}=\frac12\int_{q}A_{\mu}(-q)
+\Bigl[\tfrac{1}{g^{2}}\bigl(q^{2}\delta_{\mu\nu}-q_{\mu}q_{\nu}\bigr)
++\Pi_{\mu\nu}(q)\Bigr]A_{\nu}(q),
+\qquad
+\Pi_{\mu\nu}=\bigl(q^{2}\delta_{\mu\nu}-q_{\mu}q_{\nu}\bigr)\Pi_{E}(q^{2}).
+\end{equation}
+The transverse kernel is $K_{T}(Q^{2})=Q^{2}\bigl(g^{-2}+\Pi_{E}(Q^{2})\bigr)$
+and the static response is its inverse,
+\begin{equation}
+\Gcal(Q^{2})=\frac{g^{2}}{Q^{2}\bigl[1+g^{2}\Pi_{E}(Q^{2})\bigr]}.
+\label{eq:Kinv}
+\end{equation}
+For the ungauged matter current, fix
+\begin{equation}
+i\!\int\! d^{4}x\,e^{ipx}\langle T j_{\mu}(x)j_{\nu}(0)\rangle
+=(p_{\mu}p_{\nu}-p^{2}\eta_{\mu\nu})\Pi(p^{2}),
+\qquad
+\Pi(p^{2})-\Pi(0)=p^{2}\!\int\!\frac{\rho_{J}(s)\,ds}{s(s-p^{2}-i0)},
+\end{equation}
+with $\rho_{J}\ge0$ by Lehmann positivity, assuming one subtraction suffices.
+Continuing to spacelike $p^{2}=-Q^{2}$ and defining
+\begin{equation}
+\overline{\Pi}(Q^{2})\equiv-\bigl[\Pi(-Q^{2})-\Pi(0)\bigr]
+=Q^{2}\int\frac{\rho_{J}(s)\,ds}{s(s+Q^{2})}\ \ge\ 0,
+\end{equation}
+which is non-negative and increasing, and renormalising $\Pi_{E}(0)=0$ so that
+$g=g_{R}$ is the long-distance coupling, \eqref{eq:Kinv} becomes
+\begin{equation}
+\Gcal(Q^{2})=\frac{g_{R}^{2}}{Q^{2}\bigl[1-g_{R}^{2}\overline{\Pi}(Q^{2})\bigr]}
+=\frac{g_{R}^{2}}{Q^{2}}
++g_{R}^{4}\int\frac{\rho_{J}(s)\,ds}{s(s+Q^{2})}+O(g_{R}^{6}),
+\label{eq:expansion}
+\end{equation}
+so that
+\begin{equation}
+\dsig(s)=g_{R}^{4}\,\frac{\rho_{J}(s)}{s}\,ds+O(g_{R}^{6})\ \ge\ 0 ,
+\end{equation}
+which is Hypothesis~\ref{hyp:stieltjes} at leading order.
+
+\paragraph{Check 1 (inverse kernel).}
+The $O(g_{R}^{4})$ coefficient in \eqref{eq:expansion} is
+$+\rho_{J}/[s(s+Q^{2})]$. Writing $1+g_{R}^{2}\overline{\Pi}$ in place of
+$1-g_{R}^{2}\overline{\Pi}$ --- with $\overline{\Pi}\ge0$ --- flips it to
+$-\rho_{J}/[s(s+Q^{2})]$ and destroys the hypothesis. This is the
+discriminating check.
+
+\paragraph{Check 2 (Uehling).}
+Inserting the one-loop Dirac density
+$\rho_{J}=\frac{q^{2}}{12\pi^{2}}(1+2m^{2}/s)\sqrt{1-4m^{2}/s}$ and
+substituting $s=4m^{2}\zeta^{2}$ gives the potential correction prefactor
+$g_{R}^{2}q^{2}/6\pi^{2}$, which for $q=1$ and $g_{R}^{2}=4\pi\alpha$ equals
+$2\alpha/3\pi$: the Uehling coefficient~\cite{uehling_1935}.
+
+\paragraph{Check 3 (screening).}
+$g^{2}_{\mathrm{eff}}(Q^{2})=Q^{2}\Gcal(Q^{2})=g_{R}^{2}/[1-g_{R}^{2}
+\overline{\Pi}]$ is increasing in $Q^{2}$, so the coupling grows in the
+ultraviolet. The flipped convention gives a decreasing effective coupling,
+i.e. antiscreening --- the signature of the error.
+
+\section{Proofs}
+\label{app:proofs}
+
+\paragraph{Theorem~\ref{thm:C}.}
+Write $d\mu_{r}=e^{-rx}\dnu/\Phi(r)$, a probability measure. Then
+$\Gamma=-\Phi'/\Phi=\langle x\rangle_{r}\ge\Mstar$ since $\nu$ is supported in
+$[\Mstar,\infty)$, and differentiating the ratio of moments gives
+$\Gamma'=-(\langle x^{2}\rangle_{r}-\langle x\rangle_{r}^{2})=-\Var_{r}(x)$.
+For convergence, fix $\varepsilon>0$ and $r_{0}>0$. The interval
+$I=[\Mstar,\Mstar+\varepsilon/4]$ has mass $c>0$ when $\Mstar=\inf\supp\nu$, so
+$\Phi(r)\ge c\,e^{-r(\Mstar+\varepsilon/4)}$. In the numerator of
+$\Gamma-\Mstar$ the contribution from $x\le\Mstar+\varepsilon/2$ is at most
+$(\varepsilon/2)\Phi$, and the tail is bounded by
+$A\,e^{-(r-r_{0})(\Mstar+\varepsilon/2)}$ with
+$A=\int(x-\Mstar)e^{-r_{0}x}\dnu<\infty$ by Hypothesis~\ref{hyp:growth}. The
+ratio of the tail to $\Phi$ is $O(e^{-r\varepsilon/4})\to0$, so
+$\limsup_{r}(\Gamma-\Mstar)\le\varepsilon/2$; letting $\varepsilon\to0$ and
+using monotonicity gives the limit. \qed
+
+\paragraph{Theorem~\ref{thm:E}, bound and monotonicity.}
+For $p_{v}(x)=\sum_{i\le K}v_{i}x^{i}$,
+\begin{equation}
+v^{\mathsf{T}}(H_{1}-\Mstar H_{0})v
+=\int(x-\Mstar)\,p_{v}(x)^{2}e^{-rx}\dnu\ \ge\ 0,
+\end{equation}
+since $x\ge\Mstar$ on the support; the Rayleigh characterisation and the bound
+follow. Enlarging the polynomial space from degree $K$ to $K+1$ can only lower
+an infimum, giving $B_{K+1}\le B_{K}$; and $K=0$ gives $a_{1}/a_{0}=\Gamma$.
+$H_{0}\succ0$ provided the support contains at least $K+1$ points; for a
+measure with $L$ atoms the pencil is exact at order $L-1$ and singular
+beyond, which must be handled by rank reduction rather than reported as a new
+bound. \qed
+
+\paragraph{Theorem~\ref{thm:E}, convergence.}
+Fix $r>0$. First, \emph{determinacy}: for $0<t<r$, using
+$e^{tx}\ge(tx)^{2n}/(2n)!$,
+\begin{equation}
+a_{2n}(r)\le(2n)!\,t^{-2n}\,\Phi(r-t),
+\qquad\text{hence}\qquad
+\sum_{n\ge1}a_{2n}(r)^{-1/(2n)}=\infty,
+\end{equation}
+which is Carleman's criterion~\cite{akhiezer1965moment}. Carleman establishes
+determinacy and nothing more; it is not by itself a proof of edge convergence.
+
+Second, \emph{edge convergence}. Let $d\omega=(1+x)e^{-rx}\dnu$, which is
+finite and possesses an exponential moment, $\int e^{tx}d\omega<\infty$ for
+$0<t<r$. Polynomials are therefore dense in $L^{2}(\omega)$: if $f\perp$ all
+polynomials, Cauchy--Schwarz makes $z\mapsto\int f(x)e^{zx}d\omega$ analytic in
+a strip about the imaginary axis with all derivatives vanishing at the origin,
+so it vanishes identically and $f=0$ by uniqueness of the Fourier transform.
+Now let $\varepsilon>0$ and approximate in $L^{2}(\omega)$ the indicator of
+$[\Mstar,\Mstar+\varepsilon]$, which has positive mass when
+$\Mstar\in\supp\nu$. Because $d\omega$ dominates both $e^{-rx}\dnu$ and
+$x\,e^{-rx}\dnu$, the $L^{2}(\omega)$ norm controls both integrals in the
+Rayleigh quotient, so the quotient of the approximating polynomials converges
+to that of the indicator, which is at most $\Mstar+\varepsilon$. Hence
+$\lim_{K}B_{K}\le\Mstar+\varepsilon$ for every $\varepsilon>0$; with
+$B_{K}\ge\Mstar$ the claim follows. Finally $\supp\mu_{r}=\supp\nu$ because
+$e^{-rx}>0$ everywhere, so the edge reached is $\inf\supp\nu$. \qed
+
+\paragraph{Edge law.}
+Apply Watson's lemma~\cite{dlmf} separately to $\Phi(r)=\int e^{-rx}\dnu$ and
+to $\int t\,e^{-rx}\dnu$ with $t=x-\Mstar$, then form
+$\Gamma-\Mstar=(\int t\,e^{-rx}\dnu)/\Phi$. Subtracting $\Mstar\Phi$ before
+expanding avoids differentiating an asymptotic series. With
+$\dnu/dx=Ct^{p-1}[1+\beta t+\gamma t^{2}+O(t^{3})]$ and
+$\int_{0}^{\infty}t^{p+j-1}e^{-rt}dt=\Gamma_{E}(p+j)r^{-p-j}$, dividing the two
+series gives
+\begin{equation}
+\Gamma(r)=\Mstar+\frac{p}{r}+\frac{\beta p}{r^{2}}
++\frac{2\gamma p(p+1)-\beta^{2}p^{2}}{r^{3}}+O(r^{-4}).
+\end{equation}
+If only $1+O(t)$ is known, only $\Gamma=\Mstar+p/r+O(r^{-2})$ follows. For an
+atom $Z\delta_{\Mstar}$ \emph{separated} from the rest of the support by
+$d>0$, convergence is $O(e^{-dr})$; separation is a hypothesis, not a
+consequence of the atom. If an atom and a continuum share the same edge,
+$\Gamma-\Mstar\sim C\Gamma_{E}(p+1)r^{-p-1}/Z$: algebraic despite the pole.
+\qed

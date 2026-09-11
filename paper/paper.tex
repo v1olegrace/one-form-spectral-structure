@@ -1,0 +1,451 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1.05in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{hypothesis}{Hypothesis}
+\renewcommand{\thehypothesis}{H\arabic{hypothesis}}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\Mstar}{M_{*}}
+\newcommand{\Gcal}{\mathcal{G}}
+\newcommand{\dnu}{\mathrm{d}\nu}
+\newcommand{\dsig}{\mathrm{d}\sigma}
+\newcommand{\Mpl}{M_{\mathrm{Pl}}}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\Var}{Var}
+
+\title{\bf Spectral structure of approximate one-form symmetry breaking\\
+\large Threshold bounds from the radial breaking profile}
+
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+The electric one-form symmetry of Maxwell theory is broken by charged matter,
+and the breaking is quantified by the radial profile $\delta(r)$ of the
+effective one-form charge of a Wilson line~\cite{cordova_ohmori_rudelius_2022,
+basile_golmohammadi_2025}. We observe that, \emph{conditional on a positive
+Stieltjes representation of the gauge-invariant static response}
+(Hypothesis~\ref{hyp:stieltjes} below), the reduced profile
+$\Phi(r)=\delta(r)/r^{2}$ is exactly the Laplace transform of a positive
+measure $\nu$ whose support edge is the lowest threshold of the charged sector.
+The word ``exact'' here means exact within that hypothesis, and nothing more:
+we do \emph{not} prove that the hypothesis holds nonperturbatively, or in full
+QED, where massless multi-photon cuts obstruct it. Given the representation,
+standard inverse-spectral technology applies: the logarithmic slope
+$\Gamma(r)=-\partial_{r}\log\Phi$ is a monotonically decreasing upper bound on
+the threshold, and a local Hankel pencil refines it. We emphasise that this
+machinery is not new --- it is the effective-mass and generalized-eigenvalue
+technology of lattice field theory~\cite{luscher_wolff_1990,
+blossier_et_al_gevp_2009}, and threshold extraction from vacuum-polarization
+moments already appears in~\cite{masjuan_peris_2009}. The contribution is the
+transport of that technology to a generalized-symmetry observable, together
+with explicit failure modes: a no-go showing that no uniform lower bound on the
+threshold exists from a finite window without a minimum-weight assumption, and
+the scale invariance that obstructs Weak-Gravity inference from positivity
+alone.
+\end{abstract}
+
+\section{Introduction}
+
+Approximate global symmetries are expected to be broken in quantum
+gravity~\cite{banks_seiberg_2010,harlow_ooguri_2018}, and the higher-form case
+is sharp enough to be made quantitative. For the electric one-form symmetry of
+Maxwell theory~\cite{gaiotto_kapustin_seiberg_willett_2015}, charged matter
+screens a Wilson line, so the charge measured by a linking surface acquires a
+radius dependence. C\'ordova, Ohmori and Rudelius introduced the resulting
+breaking parameter and argued that its being of order one below the Planck
+scale motivates the Weak Gravity
+Conjecture~\cite{cordova_ohmori_rudelius_2022,arkanihamed_motl_nicolis_vafa_2006}.
+Basile and Golmohammadi computed the profile explicitly at one loop for spinor
+and scalar QED and for Calabi--Yau
+compactifications~\cite{basile_golmohammadi_2025}.
+
+This paper asks a narrow question about that observable: what does its
+\emph{shape} determine? The answer is that, under an explicit spectral
+hypothesis, the shape is a Laplace transform of a positive measure, and the
+support edge of that measure is the lowest threshold that the observable
+actually couples to. The inverse problem is then the familiar one of extracting
+a ground-state energy from a positive Euclidean correlator.
+
+\paragraph{What is and is not claimed.}
+We are deliberate about this, because the surrounding mathematics is classical
+and the adversarial literature audit accompanying this work found direct
+precedents on every methodological axis.
+\begin{itemize}
+\item The Laplace structure of the Uehling screening correction is
+      classical~\cite{uehling_1935}.
+\item Complete monotonicity of a Laplace transform is Bernstein--Widder.
+      Moreover, Bachas~\cite{bachas_1986} already derives $V'\ge 0$,
+      $V''\le 0$ for the static potential from reflection positivity
+      \emph{alone}. Our Hypothesis~\ref{hyp:stieltjes} is strictly stronger
+      than reflection positivity, so the infinite hierarchy we obtain is not an
+      improvement on Bachas in hypothesis-free content.
+\item That $\Gamma(r)$ is a monotone upper bound converging to the support
+      edge, and that a generalized eigenvalue hierarchy refines it, is the
+      effective-mass/GEVP technology of lattice field
+      theory~\cite{luscher_wolff_1990,blossier_et_al_gevp_2009}. We import it;
+      we do not claim it.
+\item Extracting threshold information from the low-energy moments of the
+      vacuum polarization, by Pad\'e approximants equivalent to the same
+      Hankel machinery, is done in~\cite{masjuan_peris_2009,
+      bakergravesmorris1996pade}.
+\end{itemize}
+What remains is the assembly: the identification of the one-form breaking
+profile as a completely monotone function under a stated hypothesis, the
+resulting operational bounds on the charged threshold, and a careful account of
+where the construction fails.
+
+\section{The observable and the static response}
+\label{sec:observable}
+
+Work in four dimensions with $\hbar=c=1$, signature $(+,-,-,-)$, and
+\begin{equation}
+S=\int d^{4}x\left[-\frac{1}{4g_{R}^{2}}F_{\mu\nu}F^{\mu\nu}
++A_{\mu}j^{\mu}+\mathcal{L}_{\mathrm{mat}}\right],
+\end{equation}
+so that $g_R$ is fixed by the residue of the long-distance Coulomb pole. The
+electric one-form current is $J_{e}=\star F/g_{R}^{2}$ and the symmetry surface
+operator is $U_{\alpha}(S^{2}_{r})=\exp(i\alpha\oint_{S^{2}_{r}}\star
+F/g_{R}^{2})$. Following~\cite{cordova_ohmori_rudelius_2022,
+basile_golmohammadi_2025}, the effective one-form charge of a Wilson line $V$ is
+\begin{equation}
+q(r)=\lim_{\alpha\to0}\frac{1}{i\alpha}
+\log\frac{\langle V^{\dagger}(\infty)U_{\alpha}(S^{2}_{r})V(0)\rangle}
+{\langle V^{\dagger}(\infty)V(0)\rangle}.
+\label{eq:qdef}
+\end{equation}
+
+\paragraph{Static potential, not a ``gauge-invariant propagator''.}
+The object we constrain is the static potential between heavy probes,
+\begin{equation}
+V(r)=-\lim_{T\to\infty}\frac{1}{T}\log\langle W(C_{r\times T})\rangle,
+\label{eq:wilson}
+\end{equation}
+up to the probe self-energy (perimeter) subtraction. That subtraction is
+$r$-independent, so it drops from $dV/dr$ and \emph{a fortiori} from every
+quantity below; no scheme ambiguity enters. We deliberately avoid any
+appeal to a ``gauge-invariant gauge-field propagator'': the spectral positivity
+of a gauge propagator in a covariant gauge is not a gauge-invariant statement.
+Let $\Gcal(Q^{2})$ denote the three-dimensional Fourier transform of the
+linear-response kernel that produces~\eqref{eq:wilson} at leading order in the
+probe strength.
+
+\begin{definition}[Breaking profile]
+With $q_{\infty}=\lim_{r\to\infty}q(r)$,
+\begin{equation}
+\delta(r)=-\frac{r}{q_{\infty}}\,\frac{dq(r)}{dr},
+\qquad
+\Phi(r)=\frac{\delta(r)}{r^{2}}.
+\label{eq:delta}
+\end{equation}
+\end{definition}
+The explicit minus sign makes $\delta\ge0$ for screening: $q(r)$ decreases
+towards $q_{\infty}$. Reference~\cite{basile_golmohammadi_2025} writes
+$\delta_{\Lambda}=(r/q_{\infty})\,dq/dr$ without it, while their explicit
+result is positive; the discrepancy is the orientation of the linking surface
+and carries no physical content. We fix the convention
+by~\eqref{eq:delta} and verify agreement with their explicit expression
+numerically.
+
+\section{Hypotheses}
+
+\begin{hypothesis}\label{hyp:qft}
+The response arises in a unitary, Poincar\'e-invariant quantum field theory in
+$3+1$ dimensions with a stable vacuum, and rotational symmetry for the point
+source. Unitarity alone does \emph{not} establish
+Hypothesis~\ref{hyp:stieltjes}.
+\end{hypothesis}
+
+\begin{hypothesis}\label{hyp:gap}
+The static kernel has a Coulomb pole of residue $g_{R}^{2}>0$, and its
+additional spectral part is supported in $[s_{*},\infty)$ with $s_{*}>0$. A
+declared lower bound on the support need not be its effective infimum.
+\end{hypothesis}
+
+\begin{hypothesis}[Positive Stieltjes representation]\label{hyp:stieltjes}
+The linear-response kernel admits
+\begin{equation}
+\Gcal(Q^{2})=\frac{g_{R}^{2}}{Q^{2}}
++\int_{s_{*}}^{\infty}\frac{\dsig(s)}{Q^{2}+s},
+\qquad \dsig\ge0,\qquad Q^{2}=|\mathbf{p}|^{2}>0,
+\label{eq:H3}
+\end{equation}
+with $\int\dsig(s)/(\mu_{0}^{2}+s)<\infty$ for some reference scale
+$\mu_{0}>0$, which is what makes the unsubtracted representation well defined.
+\end{hypothesis}
+
+\begin{hypothesis}\label{hyp:growth}
+$\int s^{k}e^{-r\sqrt{s}}\dsig(s)<\infty$ for all $r>0$ and integers $k\ge0$.
+Polynomial growth suffices.
+\end{hypothesis}
+
+\begin{hypothesis}\label{hyp:probe}
+The source is non-dynamical and infinitely heavy, and the linear-response
+relation $\tilde\varphi(\mathbf{p})=q_{W}\Gcal(Q^{2})$ holds in the regime used.
+\end{hypothesis}
+
+Hypothesis~\ref{hyp:stieltjes} is the only one with dynamical content. At order
+$g_{R}^{2}$ it is not an assumption but a consequence of Lehmann positivity of
+the \emph{matter} current correlator (Appendix~A). Beyond that order it is an
+assumption about the Coulomb-phase screening function, and
+Section~\ref{sec:scope} delimits where it fails. Hypothesis~\ref{hyp:probe}
+excludes precisely the strong-source corrections of
+Wichmann and Kroll~\cite{wichmann_kroll_1956}.
+
+\section{Exact conditional Laplace representation}
+
+\begin{theorem}[Laplace representation]\label{thm:A}
+Under Hypotheses~\ref{hyp:qft}--\ref{hyp:probe}, for all $r>0$,
+\begin{equation}
+\Phi(r)=\int_{\Mstar}^{\infty}e^{-rx}\,\dnu(x),
+\qquad \Mstar=\sqrt{s_{*}},
+\label{eq:master}
+\end{equation}
+where $\nu$ is defined \emph{without assuming absolute continuity} as the
+weighted pushforward of $\sigma$ under $x=\sqrt{s}$:
+\begin{equation}
+\int f(x)\,\dnu(x)\;\equiv\;\frac{1}{g_{R}^{2}}\int s\,f(\sqrt{s})\,\dsig(s).
+\label{eq:pushforward}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+The Yukawa transform gives
+$\varphi(r)=\frac{q_{W}}{4\pi r}[g_{R}^{2}+\int e^{-r\sqrt{s}}\dsig(s)]$, and
+Gauss's law $q(r)=4\pi r^{2}E_{r}/g_{R}^{2}$ yields
+\begin{equation}
+\frac{q(r)}{q_{W}}=1+\frac{1}{g_{R}^{2}}
+\int\bigl(1+r\sqrt{s}\bigr)e^{-r\sqrt{s}}\,\dsig(s).
+\end{equation}
+All factors of $4\pi$ and all powers of $r$ cancel. The kernel obeys the exact
+identity
+\begin{equation}
+\frac{d}{dr}\Bigl[(1+r\sqrt{s})e^{-r\sqrt{s}}\Bigr]=-\,s\,r\,e^{-r\sqrt{s}},
+\label{eq:kernelid}
+\end{equation}
+in which the two terms of order $\sqrt{s}$ cancel; this is what removes the
+$1/s$ inherited from the subtracted dispersion relation. Differentiation under
+the integral is licensed by Hypothesis~\ref{hyp:growth}, and
+Hypothesis~\ref{hyp:gap} gives $q_{\infty}=q_{W}$. Inserting
+into~\eqref{eq:delta} and applying~\eqref{eq:pushforward} gives
+\eqref{eq:master}. An atom $w\,\delta_{s_{a}}$ in $\sigma$ maps to an atom of
+weight $s_{a}w/g_{R}^{2}$ at $x=\sqrt{s_{a}}$; applying a density formula to an
+atom is not permitted, and~\eqref{eq:pushforward} makes this automatic.
+\end{proof}
+
+\begin{remark}
+``Exact'' means exact under Hypotheses~\ref{hyp:qft}--\ref{hyp:probe} and in
+the linear-response coefficient. Higher powers of $g_{R}$ are then not an error
+term but higher-order contributions to the exact measure $\sigma$. This is a
+change in logical status, not a claim that Hypothesis~\ref{hyp:stieltjes} has
+been proved nonperturbatively.
+\end{remark}
+
+At leading order $\dsig=g_{R}^{4}\rho_{J}(s)\,ds/s+O(g_{R}^{6})$ with $\rho_J$
+the matter current spectral density, so
+$\Phi(r)=g_{R}^{2}\int\rho_{J}(s)e^{-r\sqrt{s}}ds+O(g_{R}^{4})$. For one Dirac
+species this reproduces~\cite[eq.~(13)]{basile_golmohammadi_2025} identically,
+and the potential carries the Uehling prefactor $2\alpha/3\pi$~\cite{uehling_1935}.
+The sign chain is derived from the quadratic effective action in Appendix~A and
+is enforced by a test that fails if the convention is changed inconsistently.
+
+\section{Threshold bounds}
+
+\begin{theorem}[Logarithmic slope]\label{thm:C}
+Let $\Gamma(r)=-\partial_{r}\log\Phi(r)$ and let $\langle\cdot\rangle_{r}$
+denote expectation under $e^{-rx}\dnu(x)/\Phi(r)$. Then
+\begin{equation}
+\Gamma(r)=\langle x\rangle_{r}\ \ge\ \Mstar,
+\qquad
+\Gamma'(r)=-\Var_{r}(x)\ \le\ 0,
+\end{equation}
+and if $\Mstar=\inf\supp\nu$ then $\Gamma(r)\downarrow\Mstar$.
+\end{theorem}
+
+This is the effective mass of a positive Euclidean
+correlator~\cite{luscher_wolff_1990}; the proof is the standard one and is
+given in Appendix~B for completeness. Defining the local moments
+$a_{n}(r)=(-1)^{n}\Phi^{(n)}(r)=\int x^{n}e^{-rx}\dnu$ and the pencil
+$(H_{0})_{ij}=a_{i+j}$, $(H_{1})_{ij}=a_{i+j+1}$ for $0\le i,j\le K$:
+
+\begin{theorem}[Local hierarchy]\label{thm:E}
+When $H_{0}\succ0$,
+\begin{equation}
+B_{K}(r)=\lambda_{\min}(H_{1},H_{0})
+=\inf_{0\neq p,\ \deg p\le K}
+\frac{\int x\,p(x)^{2}e^{-rx}\dnu}{\int p(x)^{2}e^{-rx}\dnu}
+\ \ge\ \Mstar,
+\end{equation}
+with $B_{K+1}\le B_{K}$ and $B_{0}=\Gamma$. If in addition
+$\Mstar=\inf\supp\nu$, then $B_{K}\downarrow\Mstar$.
+\end{theorem}
+
+This is the GEVP hierarchy of~\cite{blossier_et_al_gevp_2009} in a radial
+variable, and, through the Pad\'e--Stieltjes correspondence, the same machinery
+used in~\cite{masjuan_peris_2009}. The convergence proof (Appendix~B) is
+self-contained: determinacy follows from Carleman's criterion, and the approach
+to the support edge from density of polynomials in $L^{2}$ of a measure
+possessing an exponential moment. Carleman is used only for determinacy and
+is not by itself a proof of edge convergence.
+
+\paragraph{Edge law.}
+If $\dnu/dx=C\,t^{p-1}[1+\beta t+O(t^{2})]$ with $t=x-\Mstar$, Watson's lemma
+applied separately to $\Phi$ and to $\int t\,e^{-rx}\dnu$ gives
+$\Gamma(r)=\Mstar+p/r+\beta p/r^{2}+O(r^{-3})$. For one Dirac species
+$p=3/2$ and $\Gamma=2m+3/(2r)-5/(16mr^{2})+45/(32m^{2}r^{3})+\cdots$; for a
+complex scalar $p=5/2$. The leading coefficient therefore discriminates the
+channel, and both values are confirmed numerically (Section~\ref{sec:numerics}).
+
+\section{Scope and failure modes}
+\label{sec:scope}
+
+\paragraph{Complete monotonicity is not equivalent to
+Hypothesis~\ref{hyp:stieltjes}.}
+By Bernstein--Widder~\cite{widder1941laplace}, $e^{\Mstar r}\Phi(r)$ is
+completely monotone if and only if a positive measure with that support edge
+exists. That equivalence concerns the Laplace representation \emph{only}.
+Reconstructing the Stieltjes kernel~\eqref{eq:H3} additionally requires
+$\int\dnu(x)/[x^{2}(\mu_{0}^{2}+x^{2})]<\infty$: taking $\dnu=x^{3}
+\mathbf{1}_{x\ge1}dx$ gives a completely monotone $\Phi$ with a gap whose
+integral diverges logarithmically. And $\Phi(r)=1/r$ is completely monotone
+with no gap at all. Screening alone is weaker still:
+$\Phi=e^{-r}-\tfrac12e^{-2r}$ is positive with positive $-\Phi'$, yet
+$\Phi''<0$ for $r<\log 2$, so a screening-only diagnostic is fooled by a signed
+measure. Our numerical pipeline exploits this: a positivity gate on
+$(-1)^{n}\Phi^{(n)}$ and on $H_{0}$ fires before any bound is reported.
+
+\paragraph{The first threshold need not be charged.}
+In full QED the photon vacuum polarization receives contributions from
+massless multi-photon intermediate states whose cut starts at
+$s=0$~\cite{beneke_ruizfemenia_2016}. Hypothesis~\ref{hyp:gap} with
+$s_{*}>0$ therefore cannot be inferred from the electron mass.
+Theorem~\ref{thm:C} returns the infimum of the \emph{effectively coupled}
+support; if that is zero, the bound is zero. A gapless model confirms this
+numerically.
+
+\begin{theorem}[No uniform lower bound]\label{thm:H}
+Fix $M>\mu\ge0$, a window $0\le t\le T$ and $0<\epsilon<1$. The normalised
+profiles $f_{0}=e^{-Mt}$ and
+$f_{\epsilon}=(1-\epsilon)e^{-Mt}+\epsilon e^{-\mu t}$ are Laplace transforms of
+positive measures with edges $M$ and $\mu$, yet
+$\sup_{[0,T]}|f_{\epsilon}-f_{0}|\le\epsilon$. Hence no lower bound on $\Mstar$
+holds uniformly over positive measures given finite-precision data on a finite
+window.
+\end{theorem}
+
+Upper bounds survive; two-sided localisation of the edge does not, absent a
+minimum-weight assumption, a spectral model, or external input. The crossover
+radius is $t_{\times}=\log[(1-\epsilon)/\epsilon]/(M-\mu)$.
+
+\paragraph{Other excluded regimes.}
+In spatial dimension $d\neq3$ the kernel involves $K_{d/2-1}(xr)$ rather than
+the elementary $K_{1/2}$, so the simple Laplace form does not transport by
+replacing $r^{2}$. Higgs phases, confinement and antiscreening kernels require
+separate treatment, and a globally antiscreening static response cannot satisfy
+Hypothesis~\ref{hyp:stieltjes}.
+
+\section{Numerical validation}
+\label{sec:numerics}
+
+All numbers are regenerated by the scripts in \texttt{reproducibility/} at
+30--200 decimal digits. These are high-precision numerical checks, not interval
+quadrature certificates; the distinction is maintained in the code.
+
+Exactly solvable models are recovered exactly: a single atom gives
+$\Gamma=M$ and $B_{0}=M$; two atoms are resolved at $K=1$. For one Dirac
+species $r(\Gamma-2m)\to1.4981$ against the predicted $3/2$, and for a complex
+scalar $\to 2.4904$ against $5/2$. The gapless model gives
+$\Gamma(10^{3})=10^{-3}\to0$.
+
+Two adversarial tests were specified in advance.
+
+\paragraph{Signed measure.}
+For $\dnu=\delta_{1}-\tfrac12\delta_{2}$ the gate fires at
+$a_{3}(1)=-0.4715<0$ and $\det H_{0}=-0.1839<0$, and no bound is reported,
+while $\Phi>0$ and $-\Phi'>0$ both hold --- confirming that a screening-only
+test is insufficient.
+
+\paragraph{Vanishing weight at the true edge.}
+For $\dnu=10^{-12}\delta_{2}+$ continuum from $x=3$, the predicted crossover is
+$r_{\times}=22.76$. Observed: $\Gamma=3.136$ at $r=10$, $3.018$ at $r=20$,
+$2.532$ at $r=22.76$, $2.0005$ at $r=30$. At $r=3$ the hierarchy
+$B_{0..4}$ descends only from $3.375$ to $3.108$ and never approaches $2$.
+Theorem~\ref{thm:C} is never violated; it is the informativeness, not the
+validity, of the bound that degrades. This is the operational content of
+Theorem~\ref{thm:H} and is reported as a limitation of the method.
+
+Conditioning is quantified rather than asserted: in a model with atoms at $2$
+and $200$ the pencil is numerically singular at 60 digits and requires roughly
+86 to resolve, against the 16 of double precision. High-order Hankel bounds
+must not be reported from double-precision arithmetic.
+
+\section{Obstruction to Weak-Gravity inference}
+
+The estimator and every hierarchy bound are invariant under
+$\nu\mapsto Z\nu$ for $Z>0$. The normalised geometry therefore cannot fix
+$g|q|\Mpl/m$: shape determines the mass scale, while the magnitude carries
+$g^{2}q^{2}$ and the density of charged states. Positivity alone cannot yield
+the Weak Gravity Conjecture; a non-homogeneous gravitational input is required.
+
+With one supplied explicitly --- a species bound $N\Lambda^{2}\le\kappa\Mpl^{2}$
+\cite{dvali_species_2007}, a quantified strong-breaking threshold
+$\delta_{\mathrm{obs}}(1/\Lambda)\ge\eta$, a heavy-tail bound $\tau$ and a
+model-error bound $\varepsilon$, all fixed in advance --- the one-species cap
+$0\le\delta_{D}\le g_{R}^{2}q^{2}/6\pi^{2}$ gives
+\begin{equation}
+\max_{i}\frac{g_{R}|q_{i}|\Mpl}{m_{i}}
+\ \ge\ \sqrt{\frac{6\pi^{2}(\eta-\tau-\varepsilon)}{\kappa}}.
+\end{equation}
+This is a proved conditional implication, not a derivation of the conjecture.
+Its content lies entirely in the hypotheses: an order-one breaking profile may
+compromise the perturbative expansion that produced the cap, $\varepsilon$
+cannot be discarded for convenience, and calibrating $\eta$ or $\kappa$ after
+seeing the spectrum would make the conclusion circular.
+
+\section{Discussion}
+
+The analytic ingredients used here are classical, and the inverse-spectral
+method is standard lattice technology. What the paper adds is that a
+generalized-symmetry observable, introduced for an entirely different purpose,
+carries a positive Laplace structure under a stated hypothesis, and that the
+structure is strong enough to bound the charged threshold and weak enough to be
+falsifiable: a measured profile violating complete monotonicity refutes
+Hypothesis~\ref{hyp:stieltjes} for that observable.
+
+The open questions are physical rather than mathematical: establishing
+Hypothesis~\ref{hyp:stieltjes} for an interacting kernel beyond leading order;
+constructing a positive label separating charged channels from massless cuts;
+and controlling spectral tails in gravitational examples. We note finally that
+Bachas' concavity bound~\cite{bachas_1986} obtains two derivative conditions on
+$V(r)$ from reflection positivity with no spectral hypothesis at all. Whether
+reflection positivity alone constrains higher derivatives of the radial
+breaking profile --- and thus whether Hypothesis~\ref{hyp:stieltjes} can be
+weakened --- we leave open.
+
+\paragraph{Reproducibility.}
+Code, data, the adversarial literature audit and a per-claim novelty matrix
+accompany this work.
+
+\input{appendix}
+
+\bibliographystyle{JHEP}
+\bibliography{references}
+
+\end{document}
