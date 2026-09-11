@@ -168,7 +168,7 @@ AUDIT = [
          read_level="standard reference",
          exact_overlap="Motivation for why one-form symmetries must break.",
          exact_difference="n/a", notes=""),
-    dict(key="baker_gravesmorris_pade", axis="classical mathematics",
+    dict(key="bakergravesmorris1996pade", axis="classical mathematics",
          claims_overlap="Pade approximants to Stieltjes series: bounds, pole interlacing, convergence.",
          equations_checked="Pade-to-Stieltjes bound theorems (classical).",
          theorem_checked="Convergence and bounding properties of Pade approximants to series of Stieltjes.",

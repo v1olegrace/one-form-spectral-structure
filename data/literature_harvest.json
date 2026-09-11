@@ -250,19 +250,5 @@
     "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"arxiv\": \"inspire\", \"inspire_id\": \"inspire\"}",
     "key": "pobylitsa_wilson_loop_inequalities_2007",
     "seed_query": "arxiv:hep-th/0702123"
-  },
-  {
-    "title": "Pade approximants",
-    "authors": "Basdevant, J.L.",
-    "year": "1968",
-    "journal": "Conf.Proc.C",
-    "volume": "680922V4P2",
-    "pages": "129",
-    "doi": "PENDING_VERIFICATION",
-    "arxiv": "PENDING_VERIFICATION",
-    "inspire_id": "1093331",
-    "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"journal\": \"inspire\", \"volume\": \"inspire\", \"pages\": \"inspire\", \"inspire_id\": \"inspire\"}",
-    "key": "baker_gravesmorris_pade",
-    "seed_query": "title:Pade Approximants"
   }
 ]

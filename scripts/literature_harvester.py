@@ -41,6 +41,9 @@ PENDING = "PENDING_VERIFICATION"
 COURTESY_DELAY = 1.0
 
 # Seeds for the adversarial audit.  Each is (label, query-kind, query).
+# NOTE: no fuzzy "title" seeds. A title query for "Pade Approximants" silently
+# resolved to Basdevant (1968), a different work; monographs are hand-entered
+# in scripts/build_bibliography.py instead, with their verification stated.
 SEEDS = [
     ("cordova_ohmori_rudelius_2022", "arxiv", "2202.05866"),
     ("basile_golmohammadi_2025", "arxiv", "2503.19628"),
@@ -60,7 +63,6 @@ SEEDS = [
     ("luscher_wolff_1990", "doi", "10.1016/0550-3213(90)90540-T"),
     ("blossier_et_al_gevp_2009", "arxiv", "0902.1265"),
     ("pobylitsa_wilson_loop_inequalities_2007", "arxiv", "hep-th/0702123"),
-    ("baker_gravesmorris_pade", "title", "Pade Approximants"),
 ]
 
 
