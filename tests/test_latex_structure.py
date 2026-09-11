@@ -28,15 +28,42 @@ def strip_comments(text):
     return re.sub(r"(?<!\\)%.*", "", text)
 
 
+def check_environment_nesting(body):
+    """Stack-based check. Returns an error string, or None if well nested.
+
+    A multiset comparison would NOT discriminate: Counter subtraction drops
+    non-positive counts, so interleaved or misordered environments pass. This
+    walks the tokens in order and requires proper nesting.
+    """
+    stack = []
+    for m in re.finditer(r"\\(begin|end)\{(\w+\*?)\}", strip_comments(body)):
+        kind, env = m.group(1), m.group(2)
+        if kind == "begin":
+            stack.append(env)
+        else:
+            if not stack:
+                return f"\\end{{{env}}} with no matching \\begin"
+            top = stack.pop()
+            if top != env:
+                return f"\\end{{{env}}} closes \\begin{{{top}}}"
+    if stack:
+        return f"unclosed environments: {stack}"
+    return None
+
+
 def test_environments_balanced():
     for name, body in sources().items():
-        body = strip_comments(body)
-        begins = re.findall(r"\\begin\{(\w+\*?)\}", body)
-        ends = re.findall(r"\\end\{(\w+\*?)\}", body)
-        from collections import Counter
-        diff = Counter(begins) - Counter(ends)
-        diff2 = Counter(ends) - Counter(begins)
-        assert not diff and not diff2, f"{name}: unbalanced {dict(diff)} / {dict(diff2)}"
+        err = check_environment_nesting(body)
+        assert err is None, f"{name}: {err}"
+
+
+def test_environment_checker_discriminates():
+    """The checker must actually fail on broken input, in all three ways."""
+    assert check_environment_nesting(r"\begin{equation}x\end{equation}") is None
+    assert check_environment_nesting(r"\begin{equation}x") is not None
+    assert check_environment_nesting(r"x\end{equation}") is not None
+    assert check_environment_nesting(
+        r"\begin{a}\begin{b}\end{a}\end{b}") is not None, "interleaving not caught"
 
 
 def test_braces_balanced():

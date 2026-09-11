@@ -8,7 +8,7 @@ Design rules
 ------------
 * Never fabricate a field.  Anything not returned by an API is written as
   ``PENDING_VERIFICATION``.
-* Cache every raw response under ``data/cache/`` so a rerun is offline and the
+* Store every raw API response under ``data/api_responses/`` so a rerun is offline and the
   provenance of each field is auditable.
 * Deduplicate on DOI, then arXiv id, then normalised title.
 * Exponential backoff, a descriptive User-Agent with contact address, and a
@@ -32,7 +32,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CACHE = ROOT / "data" / "cache"
+CACHE = ROOT / "data" / "api_responses"
 OUT_CSV = ROOT / "data" / "literature_harvest.csv"
 OUT_JSON = ROOT / "data" / "literature_harvest.json"
 

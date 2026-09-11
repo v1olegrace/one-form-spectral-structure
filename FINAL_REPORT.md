@@ -56,7 +56,7 @@ formal content.
 | 8 harvesting | structured APIs, caching, backoff, no fabricated fields | `scripts/literature_harvester.py`; 18 records; 9 fields `PENDING_VERIFICATION` |
 | 9 bibliography | academic sources only; identifiers; provenance | `paper/references.bib`; `tests/test_bibliography.py` (7 tests) |
 | 10 paper | English LaTeX, restrained, conditional abstract | `paper/paper.tex` + `appendix.tex`; 10 structural/honesty tests |
-| 11 numerics | model zoo incl. signed and tiny-weight; interval subset | 79 numerical checks across three scripts |
+| 11 numerics | model zoo incl. signed and tiny-weight; interval subset | 79 numerical checks across three scripts; **A–H, J, K done; I partial; L, M, N not implemented** |
 | 12 testing | `make test` passes | 43 tests, exit 0 |
 | 13 red team | no unresolved FATAL | `RED_TEAM_REPORT.md`: 4 FATAL all resolved |
 | 14 QA | this report | below |
@@ -152,10 +152,23 @@ Bellazzini et al. 2020, Baker–Graves-Morris.
 79 checks: `extended_analysis.py` 52 · `falsification_suite.py` 17 (0 FATAL,
 0 FAIL) · `interval_bounds.py` 10 certified, 0 failures. Plus 43 pytest tests.
 
-Coverage of the requested battery: A–G, I, K implemented; H and J are the two
-adversarial cases and behaved exactly as predicted; L/M (noise) are covered by
-the envelope perturbation trials and the author's robust-envelope checks; N
-(blind recovery) is **not implemented** — see blockers.
+Coverage of the requested battery A–N, stated exactly:
+
+| Test | Status |
+|---|---|
+| A analytic delta · B two atoms · C atom+continuum · D spinor QED · E scalar QED · F multi-species · G near-degenerate · K H3-violating (gapless) | **implemented**, all pass |
+| H tiny weight at the true threshold | **implemented**; behaved as predicted |
+| J signed measure | **implemented**; gate fires and refuses |
+| I wide dynamic range | **partial** — used only as a conditioning probe; it is *not* run through the `Gamma`/`B_K` tomography as a recovery case |
+| L synthetic data with controlled noise | **not implemented** |
+| M noisy numerical derivatives of $\Phi$ | **not implemented** |
+| N blind recovery of $M_*$ and $p$ from samples alone | **not implemented** |
+
+The envelope-perturbation trials in `interval_bounds.py` perturb *exact atomic*
+samples inside a deterministic envelope. That is adjacent to M but is neither
+synthetic noisy data (L) nor noisy differentiation of $\Phi$ (M), and it is not
+a blind recovery (N). Claiming it as coverage of L/M would be the "file created
+≠ phase complete" failure this audit exists to prevent, so it is not claimed.
 
 ## 10. Reproducibility
 
@@ -176,7 +189,8 @@ tracked; the CI guard enforces it.
    Brown–Weisberger 1979. If the latter states a spectral representation of the
    static kernel, H3 should be attributed to it.
 4. **No forward-citation search** was performed for any seed.
-5. **Test N (blind recovery) not implemented.**
+5. **Tests L, M and N not implemented** (synthetic noise, noisy
+   differentiation, blind recovery); test I is only a conditioning probe.
 6. **H3 unestablished** for an interacting kernel beyond leading order — the
    central open physics question.
 7. **LICENSE choice assumed.** MIT was written without instruction; confirm.
@@ -202,7 +216,8 @@ Scored independently, not averaged, and deliberately not inflated.
 1. Read Masjuan–Peris and Brown–Weisberger at equation level; update
    `literature_audit.csv` and, if warranted, attribute H3.
 2. Compile the paper on a machine with TeX Live; run CI once.
-3. Implement test N (blind recovery of $M_*$ and $p$ from samples alone).
+3. Implement tests L, M and N (synthetic noise, noisy differentiation, and
+   blind recovery of $M_*$ and $p$ from samples alone).
 4. Decide whether the surviving contribution supports a full paper or a letter.
 5. Attack H3 beyond leading order — that is the result that would change the
    novelty score.

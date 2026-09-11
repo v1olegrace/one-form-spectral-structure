@@ -9,8 +9,14 @@ here are genuinely certified instead:
 
 1.  **Atomic models.**  When the measure is a finite sum of atoms, the samples
     ``Phi(r) = sum_k w_k exp(-r x_k)`` are computed in mpmath interval
-    arithmetic (``mp.iv``), which encloses every rounding error.  The resulting
-    bound on ``M_*`` is a rigorous enclosure.
+    arithmetic (``mp.iv``), which encloses every rounding error.
+
+    IMPORTANT: what is enclosed is the VALUE OF THE UPPER BOUND, not ``M_*``.
+    The bound is one-sided.  A narrow enclosure sitting well above ``M_*`` is a
+    valid but uninformative bound -- the tiny-weight model certifies
+    ``M_* <= 3.0`` for a measure whose edge is 2, and that is correct, not a
+    failure.  Only when the bound saturates (a single atom) does the enclosure
+    also localize the edge.
 
 2.  **The error-envelope bound, eq. (24)-(25).**  Given interval enclosures
     ``|b_j_hat - b_j| <= eps_j`` from ANY source, the inequality
@@ -102,19 +108,25 @@ def certify_atomic_models():
         lo, hi = endpoints(enc)
         valid = lo >= mp.mpf(M_star) - mp.mpf("1e-30")
         width = hi - lo
-        _report(f"atomic bound -- {name}",
+        # NB: [lo, hi] encloses the VALUE OF THE BOUND, not M_*. The bound is
+        # one-sided (an upper bound), so an enclosure far above M_* is valid but
+        # uninformative -- which is exactly what the tiny-weight model produces.
+        _report(f"certified upper bound -- {name}",
                 "CERTIFIED" if valid else "FAILED",
-                f"M_* = {M_star} <= [{mp.nstr(lo, 12)}, {mp.nstr(hi, 12)}], "
-                f"enclosure width {mp.nstr(width, 3)}",
-                M_star=M_star, lo=mp.nstr(lo, 15), hi=mp.nstr(hi, 15))
+                f"M_* = {M_star} <= B, with B rigorously enclosed in "
+                f"[{mp.nstr(lo, 12)}, {mp.nstr(hi, 12)}] (width {mp.nstr(width, 3)}); "
+                f"slack over M_* = {mp.nstr(lo - mp.mpf(M_star), 6)}",
+                M_star=M_star, bound_lo=mp.nstr(lo, 15), bound_hi=mp.nstr(hi, 15),
+                is_enclosure_of="the upper bound B, NOT of M_*")
 
     # The single atom must be recovered EXACTLY (bound saturates the truth).
     enc = iv_two_radius_bound([(2.0, 3.0)], r=1.0, h=0.5)
     elo, ehi = endpoints(enc)
     tight = abs(ehi - mp.mpf(3)) < mp.mpf("1e-20")
-    _report("atomic bound saturates on a single atom",
+    _report("upper bound saturates on a single atom",
             "CERTIFIED" if tight else "FAILED",
-            f"enclosure [{mp.nstr(elo, 15)}, {mp.nstr(ehi, 15)}] brackets M=3 exactly")
+            f"bound enclosed in [{mp.nstr(elo, 15)}, {mp.nstr(ehi, 15)}]: the one-sided "
+            f"bound is SATURATED at M=3, so here it does localize the edge")
 
 
 # ---------------------------------------------------------------------------

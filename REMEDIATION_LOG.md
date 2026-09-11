@@ -129,7 +129,19 @@ Nothing was deleted from disk. The following were excluded from VCS via
 | `output/html/` | GENERATED | ~4.9 MB | Quarto render; not a source of truth. |
 | `output/pdf/` | GENERATED | ~2.2 MB | Convenience export. |
 
-Total excluded from VCS: ~72.9 MB. Tracked at initial commit: 18 files.
+Total excluded from VCS: ~72.9 MB. At the time of the forensics scan (before
+the first commit) 18 files were tracked; the final tree tracks 112, the growth
+being the new `paper/`, `tests/`, `scripts/`, `data/` and `data/api_responses/`
+material added during remediation.
+
+### C3a. `data/api_responses/` is tracked deliberately
+
+Raw INSPIRE/Crossref/Semantic Scholar responses (54 files) are committed so the
+bibliography and the priority audit can be rebuilt **offline** and so the
+provenance of every field is auditable. They are *inputs* to a reproducible
+derivation, not build output. The directory was originally named `data/cache/`
+and was renamed, because a directory called "cache" in a repository whose CI
+guard exists to reject caches invites exactly the wrong reading.
 
 ### C4. Interval arithmetic
 
