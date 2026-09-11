@@ -74,7 +74,15 @@ FINDINGS = [
      "reference does not address: it contains no static potential, no Wilson "
      "loop and no position-space potential."),
 
-    ("B", "arxiv:2603.28454v1", "STRICTLY_STRONGER_PRIOR", 9,
+    # NOTE ON RELATION CHOICE. An earlier version of this file recorded Raman
+    # as STRICTLY_STRONGER_PRIOR. That was wrong in an important way: Raman is
+    # not the prior, Raman is a POINTER TO the prior. Eq. (19)-(22) is
+    # Bernstein-Widder/Hausdorff (1920s-40s); eq. (120) is Kallen-Lehmann plus
+    # a subtracted dispersion relation, standard since the 1950s-60s. Citing a
+    # 2026 lecture note for either would be flagged by any referee. The relation
+    # is therefore BACKGROUND_ONLY: the work ATTESTS CLASSICALITY, it does not
+    # hold priority. references.bib must cite Widder and Kallen-Lehmann directly.
+    ("B", "arxiv:2603.28454v1", "BACKGROUND_ONLY", 9,
      "eq. (19), (20)-(21), (22)", "Sec. 2.1.2",
      "Defines exactly our Hankel hierarchy from derivatives: "
      "(H_0)_ij = (-1)^(i+j) f^(i+j)(x), (H_1)_ij = (-1)^(i+j+1) f^(i+j+1)(x), "
@@ -118,12 +126,16 @@ ABSTRACT_FINDINGS = [
      "on arbitrary integrals of the spectral density from positivity alone. "
      "Bounds are stated to be 'information-theoretically complete': for any point "
      "within the bounds there exists a consistent spectral density.",
-     "HIGH THREAT TO THEOREM E's OPTIMALITY. If the bounds are "
-     "information-theoretically complete for linear functionals of the measure, "
-     "no method -- ours included -- can do better on those functionals. Our edge "
-     "M_* is NOT a linear functional, so it is not directly covered, but this "
-     "must be addressed explicitly rather than ignored. REQUIRES EQUATION-LEVEL "
-     "READ before any optimality language is used in the paper."),
+     "HIGH THREAT TO THEOREM E's OPTIMALITY, AND THE OBVIOUS ESCAPE DOES NOT "
+     "WORK. It is tempting to reply that M_* is not a linear functional so the "
+     "completeness claim does not reach it. But nu([M_*, M]) = int_{[0,M]} dnu "
+     "IS linear, and bisecting on M answers 'is there weight below M', so a "
+     "complete bound on linear functionals reaches the edge through a FAMILY of "
+     "them. That escape will not survive a referee. Either read Lawrence at "
+     "equation level and establish where the bisection actually degrades (the "
+     "likely answer: the bound on nu([0,M]) becomes uninformative as M -> M_*, "
+     "which is precisely the Theorem H resolution question), or remove every "
+     "optimality-flavoured word about Theorem E."),
 
     ("C", "arxiv:2512.19594", "ANALOGOUS", 9, None, None,
      "Mutzel & Tilloy 2025: linear-programming extraction of the MASS GAP from a "
@@ -157,6 +169,47 @@ ABSTRACT_FINDINGS = [
      "detection limit is given, so the crossover law r_x ~ log(1/eps)/(M-mu) is "
      "not preempted in closed form -- but Theorem H must be framed as supplying "
      "the quantitative law for a known qualitative phenomenon."),
+]
+
+
+# ---------------------------------------------------------------------------
+# THE CORRECTION THAT MATTERS MOST IN THIS FILE.
+#
+# An earlier draft of WHAT_IS_ACTUALLY_NEW.md claimed:
+#
+#   "In every other setting found in this search -- amplitudes, Feynman
+#    integrals, lattice correlators -- positivity of the spectral measure is
+#    guaranteed by unitarity and reflection positivity, so the hierarchy can
+#    only ever confirm."
+#
+# THAT IS FALSE. Violation of reflection positivity in the Landau-gauge gluon
+# propagator is a STANDARD CONFINEMENT DIAGNOSTIC: one computes the temporal
+# Schwinger function, observes it go negative, and concludes the gluon is not a
+# physical asymptotic state. Using spectral positivity as a falsifiable physical
+# hypothesis tested on a Euclidean correlator is therefore established practice
+# in exactly our field.
+#
+# The search missed it through a vocabulary inversion that this project's own
+# saturation report warns about: every round searched for positivity
+# CONSTRAINTS ("reflection positivity constraints on the static potential"),
+# and none searched for positivity VIOLATION USED AS A DIAGNOSTIC. Round 18 was
+# added to repair this.
+# ---------------------------------------------------------------------------
+POSITIVITY_VIOLATION_FINDINGS = [
+    ("B", "doi:10.1103/physrevd.106.l011502", "CHALLENGES_ASSUMPTION", 9,
+     None, None,
+     "'Schwinger function, confinement, and positivity violation in pure gauge "
+     "QED' (Phys. Rev. D 106, L011502). Positivity violation of the photon "
+     "Schwinger function -- equivalently of the Kallen-Lehmann spectral density "
+     "-- is used directly as a confinement diagnostic.",
+     "REFUTES THE UNQUALIFIED FORM OF OUR STRONGEST NOVELTY CLAIM. Spectral "
+     "positivity as a FALSIFIABLE hypothesis, tested on a Euclidean correlator "
+     "of a gauge field, is established practice. The claim 'nobody else uses "
+     "positivity as a falsifier' must be withdrawn. What survives is narrower "
+     "and must be stated narrowly: the standard diagnostic is a SINGLE SIGN "
+     "CHECK (does the Schwinger function go negative), whereas our gate is the "
+     "full Hankel hierarchy, which rejects a signed measure that passes both "
+     "Phi > 0 and -Phi' > 0 and would therefore survive the standard test."),
 ]
 
 
@@ -198,7 +251,13 @@ if __name__ == "__main__":
                     " access_note='arXiv abstract page read; full text NOT read' "
                     "WHERE work_id=?", (wid,))
     con.commit()
+    con.execute("UPDATE relevance SET read_status='ABSTRACT_READ',"
+                " access_note='title+abstract via Crossref/OpenAlex; full text NOT read'"
+                " WHERE work_id='doi:10.1103/physrevd.106.l011502'")
+    con.commit()
     ok, fail = record(con)
     ok2, fail2 = record(con, ABSTRACT_FINDINGS)
+    ok3, fail3 = record(con, POSITIVITY_VIOLATION_FINDINGS)
+    ok2 += ok3; fail2 += fail3
     print(f"claims loaded: {len(CLAIMS)}; findings recorded: {ok + ok2}; "
           f"refused: {fail + fail2}")

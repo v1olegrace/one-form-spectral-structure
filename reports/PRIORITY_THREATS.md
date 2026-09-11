@@ -19,7 +19,7 @@ Read level: **EQUATION_LEVEL_READ**
 
 **Consequence.** DECISIVE FOR P0.1. The Stieltjes property of the ABELIAN vacuum polarization -- the analytic content of Corollary A1 -- is standard and is stated as a known result in a 2026 review. H3 must therefore NOT be presented as a new analytic structure at the VP level. What remains open is H3 for the NONPERTURBATIVE GAUGE-INVARIANT STATIC RESPONSE, which this reference does not address: it contains no static potential, no Wilson loop and no position-space potential.
 
-### Claim B — STRICTLY_STRONGER_PRIOR (confidence 9/10)
+### Claim B — BACKGROUND_ONLY (confidence 9/10)
 
 **Lecture Notes on Positivity Properties of Scattering Amplitudes** (2026) — `arxiv:2603.28454v1`  
 Locator: eq. (19), (20)-(21), (22) / Sec. 2.1.2  
@@ -55,6 +55,15 @@ These are recorded with relations that do NOT assert equation-level
 equivalence, because their equations have not been read. The database
 refuses to promote them until they are.
 
+### Claim B — CHALLENGES_ASSUMPTION (confidence 9/10)
+
+**Schwinger function, confinement, and positivity violation in pure gauge QED** (2022) — `doi:10.1103/physrevd.106.l011502`  
+Read level: **ABSTRACT_READ**
+
+> 'Schwinger function, confinement, and positivity violation in pure gauge QED' (Phys. Rev. D 106, L011502). Positivity violation of the photon Schwinger function -- equivalently of the Kallen-Lehmann spectral density -- is used directly as a confinement diagnostic.
+
+**Consequence.** REFUTES THE UNQUALIFIED FORM OF OUR STRONGEST NOVELTY CLAIM. Spectral positivity as a FALSIFIABLE hypothesis, tested on a Euclidean correlator of a gauge field, is established practice. The claim 'nobody else uses positivity as a falsifier' must be withdrawn. What survives is narrower and must be stated narrowly: the standard diagnostic is a SINGLE SIGN CHECK (does the Schwinger function go negative), whereas our gate is the full Hankel hierarchy, which rejects a signed measure that passes both Phi > 0 and -Phi' > 0 and would therefore survive the standard test.
+
 ### Claim C — ANALOGOUS (confidence 9/10)
 
 **Extracting quantum field theory dynamics from an approximate ground state** (2025) — `arxiv:2512.19594`  
@@ -71,7 +80,7 @@ Read level: **ABSTRACT_READ**
 
 > Lawrence 2024: recasts spectral reconstruction from Euclidean correlators as a convex optimization problem and, via Lagrange duality, obtains bounds on arbitrary integrals of the spectral density from positivity alone. Bounds are stated to be 'information-theoretically complete': for any point within the bounds there exists a consistent spectral density.
 
-**Consequence.** HIGH THREAT TO THEOREM E's OPTIMALITY. If the bounds are information-theoretically complete for linear functionals of the measure, no method -- ours included -- can do better on those functionals. Our edge M_* is NOT a linear functional, so it is not directly covered, but this must be addressed explicitly rather than ignored. REQUIRES EQUATION-LEVEL READ before any optimality language is used in the paper.
+**Consequence.** HIGH THREAT TO THEOREM E's OPTIMALITY, AND THE OBVIOUS ESCAPE DOES NOT WORK. It is tempting to reply that M_* is not a linear functional so the completeness claim does not reach it. But nu([M_*, M]) = int_{[0,M]} dnu IS linear, and bisecting on M answers 'is there weight below M', so a complete bound on linear functionals reaches the edge through a FAMILY of them. That escape will not survive a referee. Either read Lawrence at equation level and establish where the bisection actually degrades (the likely answer: the bound on nu([0,M]) becomes uninformative as M -> M_*, which is precisely the Theorem H resolution question), or remove every optimality-flavoured word about Theorem E.
 
 ### Claim H — ANALOGOUS (confidence 8/10)
 

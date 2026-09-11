@@ -54,11 +54,33 @@ That claim is defensible because it is about neither the mathematics
 about what the positivity hierarchy *means* when the measure's
 positivity is a physical hypothesis rather than a standing assumption.
 
-In every other setting found in this search — amplitudes, Feynman
-integrals, lattice correlators — positivity of the spectral measure is
-*guaranteed* by unitarity and reflection positivity, so the hierarchy
-can only ever confirm. Here it can fail, and its failure is informative.
-**That asymmetry is the contribution.**
+### Correction — an earlier draft overclaimed here, and the overclaim mattered
+
+This section previously asserted that *in every other setting found —
+amplitudes, Feynman integrals, lattice correlators — positivity is
+guaranteed, so the hierarchy can only ever confirm.* **That is false.**
+
+Violation of reflection positivity in the Landau-gauge gluon propagator
+is a standard confinement diagnostic: one computes the temporal
+Schwinger function, observes it go negative, and concludes the gluon is
+not a physical asymptotic state. There is a Phys. Rev. D paper titled
+*Schwinger function, confinement, and positivity violation in pure gauge
+QED* (106, L011502, 2022). Using spectral positivity as a falsifiable
+hypothesis tested on a Euclidean correlator is established practice in
+this exact field.
+
+The search missed it through a vocabulary inversion that this project's
+own saturation report warns about: every round searched for positivity
+*constraints*, none for positivity *violation used as a diagnostic*.
+Round 18 was added to repair it.
+
+**What survives, stated narrowly.** The standard diagnostic is a single
+sign check — does the Schwinger function go negative. Our gate is the
+full Hankel hierarchy, and the difference is demonstrable rather than
+rhetorical: the signed-measure model in the test suite satisfies Φ > 0
+and −Φ′ > 0, so it **passes the standard test**, and is rejected only at
+a₃ = −0.4715, det H₀ = −0.1839. The contribution is the depth of the
+certificate, not the idea of testing positivity.
 
 ## Second surviving claim: spectral resolution theory
 
@@ -86,7 +108,7 @@ less developed one in the manuscript.
 |---|---|
 | Novelty of the mathematics | **1** |
 | Novelty of the threshold-extraction method | **2** |
-| Novelty of the positivity-gate-as-model-check framing | **6** |
+| Novelty of the positivity-gate-as-model-check framing | **4** |
 | Novelty of the resolution trichotomy | **6** |
 | Novelty of the physical observable (one-form profile) | **7** |
 
