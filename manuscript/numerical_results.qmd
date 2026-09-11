@@ -1,0 +1,48 @@
+### Hierarquia de amostras: dados sem ruído
+
+| $r$ | $h$ | $K$ | Amostras | Limite $\mathcal B_K$ | Excesso |
+|---:|---:|---:|---:|---:|---:|
+| 1 | 0.5 | 0 | 2 | 3.22291867 | 61.146% |
+| 1 | 0.5 | 1 | 4 | 2.52211213 | 26.106% |
+| 1 | 0.5 | 2 | 6 | 2.29271287 | 14.636% |
+| 1 | 0.5 | 3 | 8 | 2.18793984 | 9.397% |
+| 1 | 0.5 | 4 | 10 | 2.13107143 | 6.554% |
+| 1 | 0.5 | 5 | 12 | 2.09668889 | 4.834% |
+| 3 | 0.5 | 0 | 2 | 2.45383450 | 22.692% |
+| 3 | 0.5 | 1 | 4 | 2.24108432 | 12.054% |
+| 3 | 0.5 | 2 | 6 | 2.15451264 | 7.726% |
+| 3 | 0.5 | 3 | 8 | 2.10878606 | 5.439% |
+| 3 | 0.5 | 4 | 10 | 2.08120906 | 4.060% |
+| 3 | 0.5 | 5 | 12 | 2.06313726 | 3.157% |
+
+### Efeito do orçamento de erro
+
+Amostras centrais iguais ao benchmark, com envelopes absolutos simultâneos de 0,5% de cada valor central; não se trata de cobertura estatística de dados experimentais. A coluna robusta usa o vetor do feixe nominal e a equação (24), sem afirmar otimização global.
+
+| $K$ | Limite nominal | Limite robusto |
+|---:|---:|---:|
+| 0 | 3.22291867 | 3.24291884 |
+| 1 | 2.52211213 | 2.63078214 |
+| 2 | 2.29271287 | 3.31501662 |
+| 3 | 2.18793984 | Sem numerador positivo |
+| 4 | 2.13107143 | Sem numerador positivo |
+| 5 | 2.09668889 | Sem numerador positivo |
+
+### Expansão de borda recalculada
+
+| $r$ | $\Gamma(r)$ | $r[\Gamma-2]$ | $r^3[\Gamma-2-3/(2r)+5/(16r^2)]$ |
+|---:|---:|---:|---:|
+| 10 | 2.147945262177666 | 1.479452622 | 1.07026217767 |
+| 20 | 2.074370499976954 | 1.48741 | 1.21399981563 |
+| 40 | 2.037325038776338 | 1.493001551 | 1.30248168565 |
+| 80 | 2.018703812866834 | 1.496305029 | 1.35218781908 |
+
+A última coluna deve convergir a $45/32=1{,}40625$. O teste compara 60 e 90 dígitos; o teste independente adicional usa $x=2\cosh u$. O cálculo anterior em $r=80$, sem extração do exponencial comum, não reproduzia esses dígitos apesar de passar o teste assintótico mais permissivo.
+
+### Identidade de Mellin: quadratura radial independente
+
+| $n$ | $c_n$ pelo perfil radial | Erro relativo à fórmula beta |
+|---:|---:|---:|
+| 1 | 0.00168868639404 | 1.27e-14 |
+| 2 | 0.000180930685076 | 2.22e-16 |
+| 3 | 2.68045459371e-05 | 6.66e-16 |

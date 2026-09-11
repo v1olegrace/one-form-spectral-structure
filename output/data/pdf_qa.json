@@ -1,0 +1,42 @@
+{
+  "pdf": "output\\pdf\\symmetry_resolved_positivity_audited.pdf",
+  "page_count": 21,
+  "word_count_approx": 8345,
+  "page_sizes_points": [
+    [
+      594.96,
+      841.92
+    ]
+  ],
+  "empty_pages": [],
+  "out_of_bounds_text_blocks": [],
+  "image_occurrences": 2,
+  "forbidden_pattern_hits": {
+    "(?<!\\w)TODO(?!\\w)": 0,
+    "(?<!\\w)TBD(?!\\w)": 0,
+    "(?<!\\w)PLACEHOLDER(?!\\w)": 0,
+    "(?<!\\w)undefined(?!\\w)": 0,
+    "(?<!\\w)NaN(?!\\w)": 0,
+    "codex-file-citation": 0,
+    "\\{\\{": 0,
+    "\\}\\}": 0
+  },
+  "required_phrase_hits": {
+    "positividade espectral com simetrias de 1-forma": true,
+    "teorema 6": true,
+    "apendice d": true,
+    "notas e referencias numeradas": true,
+    "confianca das referencias": true
+  },
+  "checks": {
+    "pdf_exists": true,
+    "page_count_at_least_15": true,
+    "all_pages_nonempty": true,
+    "all_pages_a4": true,
+    "no_out_of_bounds_text_blocks": true,
+    "no_forbidden_placeholders": true,
+    "all_required_sections_present": true,
+    "at_least_two_embedded_image_occurrences": true
+  },
+  "all_checks_pass": true
+}

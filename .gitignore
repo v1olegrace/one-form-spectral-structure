@@ -1,0 +1,24 @@
+# ---- Generated / cache / temporary: never tracked ----
+tmp/
+output/html/
+output/pdf/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.quarto/
+*_files/
+# LaTeX build products
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+paper/*.pdf
+# OS
+Thumbs.db
+.DS_Store

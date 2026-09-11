@@ -1,0 +1,7 @@
+{
+  "max_relative_ratio_formula_error": 1.8207657603852567e-14,
+  "ratios_monotone_nonincreasing": true,
+  "all_ratio_bounds_above_threshold": true,
+  "localizing_bounds_monotone_nonincreasing": true,
+  "all_localizing_bounds_above_threshold": true
+}

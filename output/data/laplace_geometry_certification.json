@@ -1,0 +1,311 @@
+{
+  "benchmark": {
+    "m": 1,
+    "q": 1,
+    "g_squared": 1,
+    "true_M_star": 2,
+    "working_dps": 30,
+    "hankel_dps": 80
+  },
+  "theorem_A_identity_chain": {
+    "vs_basile_golmohammadi": [
+      {
+        "r": "0.3",
+        "delta_ours": "0.0142070695680103744",
+        "delta_BG_eq13": "0.0142070695680103744",
+        "rel_diff": "0.0"
+      },
+      {
+        "r": "1",
+        "delta_ours": "0.00568307735720302879",
+        "delta_BG_eq13": "0.00568307735720302879",
+        "rel_diff": "0.0"
+      },
+      {
+        "r": "2.5",
+        "delta_ours": "0.000449730288704278451",
+        "delta_BG_eq13": "0.000449730288704278451",
+        "rel_diff": "1.07e-31"
+      },
+      {
+        "r": "6",
+        "delta_ours": "6.50857174745449098e-7",
+        "delta_BG_eq13": "6.50857174745449098e-7",
+        "rel_diff": "1.44e-31"
+      }
+    ],
+    "gauss_law_closure": [
+      {
+        "r": "0.5",
+        "minus_r_dq_dr": "0.0114089184977863",
+        "delta": "0.0114089184977863",
+        "rel_diff": "0.0"
+      },
+      {
+        "r": "1",
+        "minus_r_dq_dr": "0.00568307735720303",
+        "delta": "0.00568307735720303",
+        "rel_diff": "0.0"
+      },
+      {
+        "r": "3",
+        "minus_r_dq_dr": "0.000182101649559308",
+        "delta": "0.000182101649559308",
+        "rel_diff": "0.0"
+      }
+    ],
+    "derivatives_are_moments": [
+      {
+        "r": "0.7",
+        "n": 0,
+        "signed_derivative": "0.0179504929942",
+        "a_n": "0.0179504929942",
+        "rel_diff": "0.0"
+      },
+      {
+        "r": "0.7",
+        "n": 1,
+        "signed_derivative": "0.0759659626785",
+        "a_n": "0.0759659626785",
+        "rel_diff": "0.0"
+      },
+      {
+        "r": "0.7",
+        "n": 2,
+        "signed_derivative": "0.383191421336",
+        "a_n": "0.383191421336",
+        "rel_diff": "0.0"
+      },
+      {
+        "r": "0.7",
+        "n": 3,
+        "signed_derivative": "2.33073623163",
+        "a_n": "2.33073623163",
+        "rel_diff": "0.0"
+      },
+      {
+        "r": "2.0",
+        "n": 0,
+        "signed_derivative": "0.000272028962593",
+        "a_n": "0.000272028962593",
+        "rel_diff": "0.0"
+      },
+      {
+        "r": "2.0",
+        "n": 1,
+        "signed_derivative": "0.000745552034559",
+        "a_n": "0.000745552034559",
+        "rel_diff": "0.0"
+      },
+      {
+        "r": "2.0",
+        "n": 2,
+        "signed_derivative": "0.00214640939911",
+        "a_n": "0.00214640939911",
+        "rel_diff": "0.0"
+      },
+      {
+        "r": "2.0",
+        "n": 3,
+        "signed_derivative": "0.00655424197839",
+        "a_n": "0.00655424197839",
+        "rel_diff": "0.0"
+      }
+    ]
+  },
+  "lemma_4_cap": {
+    "cap_g2q2_over_6pi2": "0.0168868639404",
+    "profile": [
+      {
+        "r": "0.001",
+        "delta": "0.0168868133855",
+        "Delta": "0.9999970063"
+      },
+      {
+        "r": "0.01",
+        "delta": "0.0168819010573",
+        "Delta": "0.9997061098"
+      },
+      {
+        "r": "0.1",
+        "delta": "0.016468735312",
+        "Delta": "0.9752394151"
+      },
+      {
+        "r": "0.5",
+        "delta": "0.0114089184978",
+        "Delta": "0.6756090733"
+      },
+      {
+        "r": "1",
+        "delta": "0.0056830773572",
+        "Delta": "0.3365383518"
+      },
+      {
+        "r": "2",
+        "delta": "0.00108811585037",
+        "Delta": "0.06443563791"
+      },
+      {
+        "r": "4",
+        "delta": "2.86894888997e-5",
+        "Delta": "0.001698923435"
+      },
+      {
+        "r": "8",
+        "delta": "1.38639136363e-8",
+        "Delta": "8.209880582e-7"
+      }
+    ],
+    "Delta_decreasing": true
+  },
+  "theorem_C_gamma": {
+    "table": [
+      {
+        "mr": "0.5",
+        "Gamma_over_m": "5.2149959",
+        "Gamma_over_2m": "2.60749795",
+        "excess_percent": "160.75"
+      },
+      {
+        "mr": "1",
+        "Gamma_over_m": "3.52417539",
+        "Gamma_over_2m": "1.76208769",
+        "excess_percent": "76.2088"
+      },
+      {
+        "mr": "2",
+        "Gamma_over_m": "2.7407083",
+        "Gamma_over_2m": "1.37035415",
+        "excess_percent": "37.0354"
+      },
+      {
+        "mr": "3",
+        "Gamma_over_m": "2.49089408",
+        "Gamma_over_2m": "1.24544704",
+        "excess_percent": "24.5447"
+      },
+      {
+        "mr": "5",
+        "Gamma_over_m": "2.29443571",
+        "Gamma_over_2m": "1.14721786",
+        "excess_percent": "14.7218"
+      },
+      {
+        "mr": "10",
+        "Gamma_over_m": "2.14794526",
+        "Gamma_over_2m": "1.07397263",
+        "excess_percent": "7.39726"
+      }
+    ]
+  },
+  "theorem_D_edge_law": {
+    "table": [
+      {
+        "r": 10,
+        "Gamma": "2.147945262177666",
+        "r_times_Gamma_minus_2m": "1.479452622",
+        "two_term_prediction": "2.146875",
+        "residual": "0.00107026217767",
+        "scaled_cubic_residual": "1.07026217767"
+      },
+      {
+        "r": 20,
+        "Gamma": "2.074370499976954",
+        "r_times_Gamma_minus_2m": "1.48741",
+        "two_term_prediction": "2.07421875",
+        "residual": "0.000151749976954",
+        "scaled_cubic_residual": "1.21399981563"
+      },
+      {
+        "r": 40,
+        "Gamma": "2.037325038776338",
+        "r_times_Gamma_minus_2m": "1.493001551",
+        "two_term_prediction": "2.0373046875",
+        "residual": "2.03512763383e-5",
+        "scaled_cubic_residual": "1.30248168565"
+      },
+      {
+        "r": 80,
+        "Gamma": "2.018703812866834",
+        "r_times_Gamma_minus_2m": "1.496305029",
+        "two_term_prediction": "2.01870117187",
+        "residual": "2.64099183414e-6",
+        "scaled_cubic_residual": "1.35218781908"
+      }
+    ],
+    "residual_doubling_ratios": [
+      7.053,
+      7.457,
+      7.706
+    ]
+  },
+  "theorem_E_hankel": {
+    "mr_1": [
+      {
+        "K": 0,
+        "B_K_over_m": "3.524175386",
+        "excess_percent": "76.2088"
+      },
+      {
+        "K": 1,
+        "B_K_over_m": "2.927613911",
+        "excess_percent": "46.3807"
+      },
+      {
+        "K": 2,
+        "B_K_over_m": "2.670853683",
+        "excess_percent": "33.5427"
+      },
+      {
+        "K": 3,
+        "B_K_over_m": "2.526398167",
+        "excess_percent": "26.3199"
+      },
+      {
+        "K": 4,
+        "B_K_over_m": "2.43347061",
+        "excess_percent": "21.6735"
+      },
+      {
+        "K": 5,
+        "B_K_over_m": "2.368574136",
+        "excess_percent": "18.4287"
+      }
+    ],
+    "mr_3": [
+      {
+        "K": 0,
+        "B_K_over_m": "2.490894075",
+        "excess_percent": "24.5447"
+      },
+      {
+        "K": 1,
+        "B_K_over_m": "2.30127893",
+        "excess_percent": "15.0639"
+      },
+      {
+        "K": 2,
+        "B_K_over_m": "2.218998004",
+        "excess_percent": "10.9499"
+      },
+      {
+        "K": 3,
+        "B_K_over_m": "2.172414584",
+        "excess_percent": "8.62073"
+      },
+      {
+        "K": 4,
+        "B_K_over_m": "2.142309169",
+        "excess_percent": "7.11546"
+      },
+      {
+        "K": 5,
+        "B_K_over_m": "2.121211983",
+        "excess_percent": "6.0606"
+      }
+    ]
+  },
+  "all_checks_passed": true,
+  "failures": []
+}

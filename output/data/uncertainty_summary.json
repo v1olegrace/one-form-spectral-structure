@@ -1,0 +1,18 @@
+{
+  "seed": 20260910,
+  "draws": 100000,
+  "moment_index_n": 20,
+  "relative_sigma_each_moment": 0.005,
+  "adjacent_log_error_correlation": 0.7,
+  "true_threshold_s0": 4.0,
+  "true_ratio_Rn": 4.295454545454546,
+  "structural_excess_fraction_Rn_over_s0": 0.07386363636363646,
+  "mean_ratio_estimate": 4.295554061640739,
+  "relative_statistical_bias": 2.3167789378275572e-05,
+  "rmse_relative_to_Rn": 0.0038606442384060504,
+  "one_sided_95_coverage_for_Rn": 0.95062,
+  "one_sided_95_coverage_for_s0": 1.0,
+  "power_reject_gap_ge_1p01_Rn": 0.82201,
+  "power_reject_gap_ge_1p02_Rn": 0.9997,
+  "power_reject_gap_ge_1p05_Rn": 1.0
+}

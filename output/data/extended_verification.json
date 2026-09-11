@@ -1,0 +1,592 @@
+{
+  "symbolic": {
+    "dirac_density_series": "1 - 5*t/(24*m) + 77*t**2/(384*m**2)",
+    "cubic_coefficient": "45/(32*m**2)"
+  },
+  "quadrature": [
+    {
+      "r": "0.5",
+      "Gamma": "5.214995902975899195409",
+      "absolute_difference": "0.0"
+    },
+    {
+      "r": "1",
+      "Gamma": "3.524175385512594044956",
+      "absolute_difference": "0.0"
+    },
+    {
+      "r": "3",
+      "Gamma": "2.490894075049761889709",
+      "absolute_difference": "0.0"
+    },
+    {
+      "r": "10",
+      "Gamma": "2.147945262177666117353",
+      "absolute_difference": "0.0"
+    },
+    {
+      "r": "40",
+      "Gamma": "2.037325038776338311598",
+      "absolute_difference": "0.0"
+    },
+    {
+      "r": "80",
+      "Gamma": "2.018703812866834141676",
+      "absolute_difference": "0.0"
+    }
+  ],
+  "sampled": [
+    {
+      "r": "1",
+      "h": "0.5",
+      "K": 0,
+      "samples": 2,
+      "bound": 3.2229186699259316,
+      "excess_percent": 61.145933496296585,
+      "bound_25_digits": "3.222918669925931695861272"
+    },
+    {
+      "r": "1",
+      "h": "0.5",
+      "K": 1,
+      "samples": 4,
+      "bound": 2.52211213099427,
+      "excess_percent": 26.105606549713507,
+      "bound_25_digits": "2.522112130994270096673356"
+    },
+    {
+      "r": "1",
+      "h": "0.5",
+      "K": 2,
+      "samples": 6,
+      "bound": 2.2927128719980594,
+      "excess_percent": 14.635643599902975,
+      "bound_25_digits": "2.292712871998059500033223"
+    },
+    {
+      "r": "1",
+      "h": "0.5",
+      "K": 3,
+      "samples": 8,
+      "bound": 2.1879398422503855,
+      "excess_percent": 9.396992112519277,
+      "bound_25_digits": "2.187939842250385535841451"
+    },
+    {
+      "r": "1",
+      "h": "0.5",
+      "K": 4,
+      "samples": 10,
+      "bound": 2.131071425489873,
+      "excess_percent": 6.553571274493642,
+      "bound_25_digits": "2.131071425489872841825468"
+    },
+    {
+      "r": "1",
+      "h": "0.5",
+      "K": 5,
+      "samples": 12,
+      "bound": 2.0966888897147378,
+      "excess_percent": 4.834444485736881,
+      "bound_25_digits": "2.096688889714737625707835"
+    },
+    {
+      "r": "3",
+      "h": "0.5",
+      "K": 0,
+      "samples": 2,
+      "bound": 2.4538345030284696,
+      "excess_percent": 22.691725151423473,
+      "bound_25_digits": "2.453834503028469455850091"
+    },
+    {
+      "r": "3",
+      "h": "0.5",
+      "K": 1,
+      "samples": 4,
+      "bound": 2.241084322841312,
+      "excess_percent": 12.054216142065604,
+      "bound_25_digits": "2.241084322841312075806249"
+    },
+    {
+      "r": "3",
+      "h": "0.5",
+      "K": 2,
+      "samples": 6,
+      "bound": 2.154512644575842,
+      "excess_percent": 7.72563222879211,
+      "bound_25_digits": "2.154512644575842195839847"
+    },
+    {
+      "r": "3",
+      "h": "0.5",
+      "K": 3,
+      "samples": 8,
+      "bound": 2.1087860620026326,
+      "excess_percent": 5.439303100131621,
+      "bound_25_digits": "2.108786062002632420289124"
+    },
+    {
+      "r": "3",
+      "h": "0.5",
+      "K": 4,
+      "samples": 10,
+      "bound": 2.0812090648871022,
+      "excess_percent": 4.06045324435511,
+      "bound_25_digits": "2.081209064887102202976671"
+    },
+    {
+      "r": "3",
+      "h": "0.5",
+      "K": 5,
+      "samples": 12,
+      "bound": 2.063137259696419,
+      "excess_percent": 3.1568629848209393,
+      "bound_25_digits": "2.063137259696418786407275"
+    },
+    {
+      "r": "1",
+      "h": "1",
+      "K": 0,
+      "samples": 2,
+      "bound": 3.0393396124911365,
+      "excess_percent": 51.96698062455682,
+      "bound_25_digits": "3.039339612491136417529135"
+    },
+    {
+      "r": "1",
+      "h": "1",
+      "K": 1,
+      "samples": 4,
+      "bound": 2.3646526610671645,
+      "excess_percent": 18.23263305335822,
+      "bound_25_digits": "2.364652661067164414762403"
+    },
+    {
+      "r": "1",
+      "h": "1",
+      "K": 2,
+      "samples": 6,
+      "bound": 2.187653965522547,
+      "excess_percent": 9.382698276127348,
+      "bound_25_digits": "2.187653965522546948607167"
+    },
+    {
+      "r": "1",
+      "h": "1",
+      "K": 3,
+      "samples": 8,
+      "bound": 2.114631668127681,
+      "excess_percent": 5.731583406384038,
+      "bound_25_digits": "2.114631668127680755301027"
+    },
+    {
+      "r": "1",
+      "h": "1",
+      "K": 4,
+      "samples": 10,
+      "bound": 2.077355349689409,
+      "excess_percent": 3.867767484470436,
+      "bound_25_digits": "2.077355349689408723253508"
+    },
+    {
+      "r": "1",
+      "h": "1",
+      "K": 5,
+      "samples": 12,
+      "bound": 2.0557388103393044,
+      "excess_percent": 2.786940516965223,
+      "bound_25_digits": "2.055738810339304464260512"
+    }
+  ],
+  "robust": [
+    {
+      "K": 0,
+      "relative_absolute_envelope": "0.000001",
+      "nominal": 3.2229186699259316,
+      "robust": 3.2229226699259317,
+      "status": "finite"
+    },
+    {
+      "K": 0,
+      "relative_absolute_envelope": "0.005",
+      "nominal": 3.2229186699259316,
+      "robust": 3.2429188365950985,
+      "status": "finite"
+    },
+    {
+      "K": 1,
+      "relative_absolute_envelope": "0.000001",
+      "nominal": 2.52211213099427,
+      "robust": 2.5221338998049516,
+      "status": "finite"
+    },
+    {
+      "K": 1,
+      "relative_absolute_envelope": "0.005",
+      "nominal": 2.52211213099427,
+      "robust": 2.6307821377778073,
+      "status": "finite"
+    },
+    {
+      "K": 2,
+      "relative_absolute_envelope": "0.000001",
+      "nominal": 2.2927128719980594,
+      "robust": 2.2929166366463374,
+      "status": "finite"
+    },
+    {
+      "K": 2,
+      "relative_absolute_envelope": "0.005",
+      "nominal": 2.2927128719980594,
+      "robust": 3.3150166189554575,
+      "status": "finite"
+    },
+    {
+      "K": 3,
+      "relative_absolute_envelope": "0.000001",
+      "nominal": 2.1879398422503855,
+      "robust": 2.1905037396623226,
+      "status": "finite"
+    },
+    {
+      "K": 3,
+      "relative_absolute_envelope": "0.005",
+      "nominal": 2.1879398422503855,
+      "robust": null,
+      "status": "no_positive_numerator"
+    },
+    {
+      "K": 4,
+      "relative_absolute_envelope": "0.000001",
+      "nominal": 2.131071425489873,
+      "robust": 2.169832836714117,
+      "status": "finite"
+    },
+    {
+      "K": 4,
+      "relative_absolute_envelope": "0.005",
+      "nominal": 2.131071425489873,
+      "robust": null,
+      "status": "no_positive_numerator"
+    },
+    {
+      "K": 5,
+      "relative_absolute_envelope": "0.000001",
+      "nominal": 2.0966888897147378,
+      "robust": 2.7618883034344517,
+      "status": "finite"
+    },
+    {
+      "K": 5,
+      "relative_absolute_envelope": "0.005",
+      "nominal": 2.0966888897147378,
+      "robust": null,
+      "status": "no_positive_numerator"
+    }
+  ],
+  "mellin": [
+    {
+      "n": 1,
+      "from_radial_profile": 0.0016886863940389835,
+      "beta_formula": 0.001688686394038962,
+      "relative_difference": 1.2656542480726785e-14,
+      "outer_quad_error_estimate": 2.575896361437979e-13
+    },
+    {
+      "n": 2,
+      "from_radial_profile": 0.0001809306850756032,
+      "beta_formula": 0.00018093068507560314,
+      "relative_difference": 2.220446049250313e-16,
+      "outer_quad_error_estimate": 2.786043268780263e-12
+    },
+    {
+      "n": 3,
+      "from_radial_profile": 2.6804545937126394e-05,
+      "beta_formula": 2.6804545937126374e-05,
+      "relative_difference": 6.661338147750939e-16,
+      "outer_quad_error_estimate": 1.2435951379866004e-12
+    }
+  ],
+  "hidden": {
+    "M": 2.0,
+    "mu": 0.4,
+    "epsilon": 1e-08,
+    "T": 3.0,
+    "max_relative_window_error": 1.2051041751873496e-06,
+    "crossover": 11.512925458720229
+  },
+  "checks": [
+    {
+      "name": "Exact Dirac edge density coefficients",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exact cubic edge coefficient 45/(32 m^2)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Dyson sign: positive spectral correction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Exact broken-projector identity and -2/5 counterexample",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sector-pure state retains nonnegative left side",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Screening alone does not imply complete monotonicity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent quadrature variables r=0.5",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "Independent quadrature variables r=1",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "Independent quadrature variables r=3",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "Independent quadrature variables r=10",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "Independent quadrature variables r=40",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "Independent quadrature variables r=80",
+      "passed": true,
+      "detail": "0.0"
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=0.5 K=0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Two-radius sandwich r=1 h=0.5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.000001 K=0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.005 K=0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=0.5 K=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.000001 K=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.005 K=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=0.5 K=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.000001 K=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.005 K=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=0.5 K=3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.000001 K=3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.005 K=3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=0.5 K=4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.000001 K=4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.005 K=4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=0.5 K=5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.000001 K=5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Robust envelope or explicit no-bound eps=0.005 K=5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=3 h=0.5 K=0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Two-radius sandwich r=3 h=0.5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=3 h=0.5 K=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=3 h=0.5 K=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=3 h=0.5 K=3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=3 h=0.5 K=4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=3 h=0.5 K=5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=1 K=0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Two-radius sandwich r=1 h=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=1 K=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=1 K=2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=1 K=3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=1 K=4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sampled bound and nested spaces r=1 h=1 K=5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Two-atom finite-rank recovery K=1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent nested radial Mellin integral n=1",
+      "passed": true,
+      "detail": 1.2656542480726785e-14
+    },
+    {
+      "name": "Independent nested radial Mellin integral n=2",
+      "passed": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "name": "Independent nested radial Mellin integral n=3",
+      "passed": true,
+      "detail": 6.661338147750939e-16
+    },
+    {
+      "name": "Hidden atom absolute error envelope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hidden atom relative window formula",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Atom touching continuum has algebraic correction",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_checks_passed": true,
+  "check_count": 52,
+  "environment": {
+    "python": "3.13.7",
+    "numpy": "2.3.5",
+    "scipy": "1.15.3",
+    "mpmath": "1.3.0",
+    "sympy": "1.13.1",
+    "matplotlib": "3.10.3"
+  },
+  "scope": "Synthetic model checks; floating-point quadrature, not interval certification or experimental validation."
+}
