@@ -1,0 +1,394 @@
+"""Build the three audit ledgers from the harvested bibliography.
+
+  data/literature_audit.csv  -- adversarial priority audit, one row per paper
+  data/claims_matrix.csv     -- what survives as novel, claim by claim
+  data/theorem_status.csv    -- proof status of every formal result
+
+The literature rows carry verified metadata from data/literature_harvest.csv
+(INSPIRE/Crossref/Semantic Scholar).  The audit judgements -- overlap,
+difference, threat level -- are the auditor's, recorded here so they can be
+challenged.
+"""
+
+from __future__ import annotations
+
+import csv
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+PENDING = "PENDING_VERIFICATION"
+
+meta = {r["key"]: r for r in json.loads((DATA / "literature_harvest.json").read_text("utf-8"))}
+
+
+def M(key, field):
+    return meta.get(key, {}).get(field, PENDING)
+
+
+# ---------------------------------------------------------------------------
+# literature_audit.csv
+# ---------------------------------------------------------------------------
+AUDIT = [
+    dict(key="luscher_wolff_1990", axis="inverse spectral method",
+         claims_overlap="Variational/GEVP extraction of the lowest energy from a positive Euclidean correlator.",
+         equations_checked="Method section: variational bound on the lowest eigenvalue from a correlator matrix.",
+         theorem_checked="Variational bound; monotone approach from above.",
+         priority_threat="HIGH",
+         read_level="abstract+method via secondary sources (full text not retrieved)",
+         exact_overlap="C(t)=int e^{-Et} drho(E) with rho>=0 is the SAME object as our Phi(r)=int e^{-rx} dnu(x). The GEVP on a correlator matrix is the same generalized eigenvalue problem as our Theorem E pencil.",
+         exact_difference="Their variable is Euclidean time and their measure is the energy spectrum of an interpolating operator. Ours is a radial distance and a one-form symmetry-breaking profile. The MATHEMATICS is the same; the observable is not.",
+         notes="This is the single most important precedent. It removes any claim that Theorems C/E/G are a new method. Cited as the origin of the technique."),
+    dict(key="blossier_et_al_gevp_2009", axis="inverse spectral method",
+         claims_overlap="Rigorous one-sided bounds and the ordering of GEVP effective masses; convergence in the variational order.",
+         equations_checked="GEVP effective-mass ordering and asymptotic corrections.",
+         theorem_checked="Effective masses from the principal correlators approach the true energies from above.",
+         priority_threat="HIGH",
+         read_level="abstract + search-confirmed statements",
+         exact_overlap="Our Theorem C (Gamma decreasing, Gamma>=M_*) and Theorem E (B_{K+1}<=B_K, B_K>=M_*) are the effective-mass and GEVP monotonicity statements.",
+         exact_difference="They work at fixed discrete time separations on a lattice with statistical errors; we work in a continuous radial variable with deterministic error envelopes (Theorem G eq. 24-25).",
+         notes="Confirms that monotone one-sided bounds from a positive Laplace/Euclidean representation are standard technology."),
+    dict(key="masjuan_peris_2009", axis="threshold from vacuum-polarization moments",
+         claims_overlap="Reconstruction of the vacuum polarization from its low-energy expansion; extraction of threshold information.",
+         equations_checked="Pade approximants built from the q^2->0 Taylor coefficients of Pi(q^2); extraction of the threshold constant K^(2).",
+         theorem_checked="Pade convergence for Stieltjes functions (classical).",
+         priority_threat="HIGH",
+         read_level="abstract + metadata (equation-level reading not completed)",
+         exact_overlap="Threshold information IS extracted from the low-energy moments of the vacuum polarization. Pade approximants to a Stieltjes series are equivalent to Gaussian quadrature / orthogonal polynomials / Hankel determinants, i.e. the same classical machinery as our Theorem E.",
+         exact_difference="They estimate a threshold-expansion constant by Pade fitting in q^2; we prove a one-sided bound in a radial variable. Their observable is Pi(q^2); ours is delta(r).",
+         notes="Kills novelty of 'threshold from VP moments' as such. Equation-level reading remains PENDING; recorded honestly."),
+    dict(key="bachas_1986", axis="positivity constraints on the static potential",
+         claims_overlap="Sign conditions on derivatives of the static potential derived from Euclidean positivity.",
+         equations_checked="Concavity of the quarkonium potential: V'(r)>=0, V''(r)<=0.",
+         theorem_checked="Concavity from reflection (Osterwalder-Schrader) positivity applied to a rectangular Wilson loop.",
+         priority_threat="MEDIUM",
+         read_level="title/abstract verified via Crossref; statement confirmed via secondary literature (Pobylitsa 2007)",
+         exact_overlap="Both derive alternating-sign derivative conditions on a static Wilson-loop observable from a positivity principle.",
+         exact_difference="Bachas obtains TWO derivative conditions on V(r) from reflection positivity ALONE, with no spectral hypothesis. We obtain infinitely many conditions on delta(r)/r^2, but only under H3, which is strictly stronger than reflection positivity. Our result is therefore NOT stronger in hypothesis-free content.",
+         notes="A referee will ask what H3 buys over reflection positivity. Answer must be in the paper: H3 is the extra input, and the payoff is the threshold tomography, which two derivatives cannot give."),
+    dict(key="pobylitsa_wilson_loop_inequalities_2007", axis="positivity constraints on the static potential",
+         claims_overlap="Generalizes the Bachas inequality to non-rectangular Wilson loops.",
+         equations_checked="Not retrieved; PDF text extraction failed and HTML abstract lacks the inequalities.",
+         theorem_checked=PENDING,
+         priority_threat="LOW",
+         read_level="abstract only; full text NOT read",
+         exact_overlap="Same axis as Bachas: reflection-positivity inequalities for Wilson loops.",
+         exact_difference="Concerns loop shape rather than the spectral content of the radial profile.",
+         notes="Equation-level check PENDING_VERIFICATION. Searches for a complete-monotonicity hierarchy on V(r) in this literature returned nothing."),
+    dict(key="cordova_ohmori_rudelius_2022", axis="generalized symmetry breaking",
+         claims_overlap="Defines q(r) and the breaking parameter; motivates WGC from strong breaking below M_Pl.",
+         equations_checked="Definition of the effective one-form charge and the criterion delta_Lambda = O(1).",
+         theorem_checked="None claimed as theorem; a physical criterion.",
+         priority_threat="NONE (foundational, cited as the source of the observable)",
+         read_level="abstract + definitional equations verified",
+         exact_overlap="The observable delta is theirs. We do not claim it.",
+         exact_difference="They do not give it a spectral representation, nor use it to reconstruct a threshold.",
+         notes="Our Theorem A is a statement ABOUT their observable."),
+    dict(key="basile_golmohammadi_2025", axis="generalized symmetry breaking",
+         claims_overlap="Explicit one-loop profile for spinor/scalar QED and Calabi-Yau compactifications.",
+         equations_checked="eq. (3) definition of q(r); Sec. 2 delta_Lambda = (r/q_inf) dq/dr; eq. (13) explicit spinor-QED profile.",
+         theorem_checked="None; explicit computation.",
+         priority_threat="NONE (foundational, and our eq. (8) reproduces their eq. (13) to 1e-30)",
+         read_level="equations (3) and (13) read and numerically reproduced",
+         exact_overlap="Their eq. (13) is exactly our leading-order delta(r) for one Dirac species.",
+         exact_difference="They compute the profile; they do not invert it for the threshold, and do not observe the Laplace/complete-monotonicity structure.",
+         notes="Sign of their written delta_Lambda differs from ours by the linking orientation; their explicit result is positive and agrees with ours."),
+    dict(key="uehling_1935", axis="vacuum polarization",
+         claims_overlap="The one-loop screening correction to the Coulomb potential.",
+         equations_checked="Uehling coefficient 2 alpha/(3 pi); reproduced by our normalization.",
+         theorem_checked="n/a",
+         priority_threat="NONE",
+         read_level="coefficient verified by independent rederivation",
+         exact_overlap="The Uehling potential is a superposition of Yukawas with weight rho_J: a Laplace transform. This is classical and we do not claim it.",
+         exact_difference="We apply it to the radial derivative that defines the breaking profile.",
+         notes="Used as the calibration of all signs and 4pi factors."),
+    dict(key="wichmann_kroll_1956", axis="vacuum polarization",
+         claims_overlap="Vacuum polarization in a strong Coulomb field beyond leading order in Z alpha.",
+         equations_checked="Not required for our leading-order statement.",
+         theorem_checked="n/a",
+         priority_threat="LOW",
+         read_level="bibliographic verification only",
+         exact_overlap="Shows the linear-response kernel is not the whole story at strong source charge.",
+         exact_difference="Our H5 restricts to linear response in the source strength, which is where the two-point kernel controls the answer. Wichmann-Kroll is precisely the correction our H5 excludes.",
+         notes="Cited as the boundary of validity of H5, not as a competitor."),
+    dict(key="brown_weisberger_1979", axis="static potential formalism",
+         claims_overlap="Definition and properties of the static potential in gauge theory.",
+         equations_checked="Not retrieved at equation level.",
+         theorem_checked=PENDING,
+         priority_threat="MEDIUM",
+         read_level="bibliographic verification only; full text NOT read",
+         exact_overlap="Establishes the Wilson-loop definition of V(r) that our H2/H5 use.",
+         exact_difference="Unknown at equation level whether a spectral representation of V(r) equivalent to H3 is stated. THIS IS AN OPEN AUDIT ITEM.",
+         notes="Flagged PENDING_VERIFICATION. If they state a Stieltjes representation of the static kernel, H3 should be attributed to them."),
+    dict(key="beneke_ruizfemenia_2016", axis="threshold structure / massless cuts",
+         claims_overlap="Threshold singularities and dispersion relations in fixed-order perturbation theory.",
+         equations_checked="Footnote 1 on massless multi-photon cuts in the photon vacuum polarization.",
+         theorem_checked="n/a",
+         priority_threat="NONE (supports our limitation)",
+         read_level="footnote read",
+         exact_overlap="None.",
+         exact_difference="Used to justify why H2 (s_*>0) cannot be inferred from the electron mass in full QED.",
+         notes="Supports our negative result, not a competitor."),
+    dict(key="bellazzini_positive_moments_2020", axis="positivity / moment methods in EFT",
+         claims_overlap="Hankel/moment positivity applied to scattering amplitudes.",
+         equations_checked="Moment-cone and Hankel conditions.",
+         theorem_checked="Hankel positivity for Stieltjes moment sequences (classical).",
+         priority_threat="MEDIUM",
+         read_level="abstract + known content",
+         exact_overlap="Hankel positivity from a positive spectral measure is the shared classical core.",
+         exact_difference="Their variable is the Mandelstam s of a 2->2 amplitude; ours is a radial profile. They bound EFT coefficients; we bound a support edge.",
+         notes="Already cited in the main manuscript."),
+    dict(key="dvali_species_2007", axis="quantum gravity input",
+         claims_overlap="Species bound N Lambda^2 <~ M_Pl^2.",
+         equations_checked="Species-scale relation used as hypothesis (32).",
+         theorem_checked="n/a",
+         priority_threat="NONE",
+         read_level="statement verified",
+         exact_overlap="We import the bound as an explicit hypothesis.",
+         exact_difference="We do not derive it and do not claim it.",
+         notes="Non-homogeneous gravitational input required for eq. (33)."),
+    dict(key="arkanihamed_motl_nicolis_vafa_2006", axis="quantum gravity input",
+         claims_overlap="The Weak Gravity Conjecture itself.",
+         equations_checked="Electric WGC statement.",
+         theorem_checked="n/a", priority_threat="NONE",
+         read_level="statement verified",
+         exact_overlap="Target of the conditional implication.",
+         exact_difference="We prove only a conditional implication, not the conjecture.",
+         notes=""),
+    dict(key="gaiotto_kapustin_seiberg_willett_2015", axis="generalized symmetry breaking",
+         claims_overlap="Higher-form symmetry framework and topological surface operators.",
+         equations_checked="Definition of one-form symmetry generators.",
+         theorem_checked="n/a", priority_threat="NONE",
+         read_level="standard reference", exact_overlap="Framework.",
+         exact_difference="n/a", notes=""),
+    dict(key="harlow_ooguri_2018", axis="quantum gravity input",
+         claims_overlap="No global symmetries in quantum gravity.",
+         equations_checked="n/a", theorem_checked="n/a", priority_threat="NONE",
+         read_level="standard reference",
+         exact_overlap="Motivation for why one-form symmetries must break.",
+         exact_difference="n/a", notes=""),
+    dict(key="baker_gravesmorris_pade", axis="classical mathematics",
+         claims_overlap="Pade approximants to Stieltjes series: bounds, pole interlacing, convergence.",
+         equations_checked="Pade-to-Stieltjes bound theorems (classical).",
+         theorem_checked="Convergence and bounding properties of Pade approximants to series of Stieltjes.",
+         priority_threat="MEDIUM",
+         read_level="standard reference; specific theorem numbers PENDING_VERIFICATION",
+         exact_overlap="The equivalence Pade <-> orthogonal polynomials <-> Hankel determinants makes our Theorem E classical mathematics.",
+         exact_difference="We apply it in the radial Laplace variable to a symmetry-breaking observable.",
+         notes="We explicitly disclaim novelty of the mathematics."),
+]
+
+for row in AUDIT:
+    k = row["key"]
+    row.update(title=M(k, "title"), authors=M(k, "authors"), year=M(k, "year"),
+               journal=M(k, "journal"), doi=M(k, "doi"), arxiv=M(k, "arxiv"),
+               inspire_id=M(k, "inspire_id"),
+               backward_refs_done="partial", forward_citations_done="no")
+
+AUDIT_COLS = ["key", "title", "authors", "year", "journal", "doi", "arxiv",
+              "inspire_id", "axis", "claims_overlap", "equations_checked",
+              "theorem_checked", "priority_threat", "backward_refs_done",
+              "forward_citations_done", "read_level", "exact_overlap",
+              "exact_difference", "notes"]
+
+# ---------------------------------------------------------------------------
+# claims_matrix.csv
+# ---------------------------------------------------------------------------
+CLAIMS = [
+    dict(claim_id="C1",
+         our_claim="Under H3 the reduced one-form symmetry-breaking profile satisfies Phi(r)=delta(r)/r^2=int e^{-rx} dnu(x) with dnu>=0, exactly (not merely to leading order in g).",
+         claim_type="PHYSICS ASSEMBLY",
+         status="PROVED_CONDITIONALLY",
+         nearest_prior_work="Cordova-Ohmori-Rudelius 2022 (observable); Basile-Golmohammadi 2025 (one-loop profile); Uehling 1935 (Laplace structure of screening)",
+         overlap="Each ingredient is known separately: the observable, the Uehling Laplace structure, the Stieltjes kernel.",
+         difference="The identification of the COR/BG breaking profile as a positive Laplace transform, with the exact kernel cancellation d/dr[(1+r sqrt s)e^{-r sqrt s}]=-s r e^{-r sqrt s}, was not found in the literature searched.",
+         novelty_survives="YES (moderate confidence)",
+         evidence="Reproduces BG eq. (13) to 1e-30; Uehling coefficient 2 alpha/3 pi recovered; Gauss-law closure verified numerically.",
+         required_rewording="Must say 'exact under H3', never 'nonperturbatively true'. H3 is an assumption, not a theorem."),
+    dict(claim_id="C2",
+         our_claim="Phi is completely monotone; equivalently e^{M_* r}Phi(r) is CM iff a positive measure with that support edge exists.",
+         claim_type="CLASSICAL APPLICATION",
+         status="CLASSICAL_APPLICATION",
+         nearest_prior_work="Bernstein-Widder; Bachas 1986 (concavity of V from reflection positivity)",
+         overlap="Complete monotonicity of a Laplace transform is Bernstein-Widder. Bachas already derives two alternating-sign derivative conditions on the static potential from reflection positivity alone.",
+         difference="Applied to delta(r)/r^2 rather than V(r), and derived from H3 rather than from reflection positivity. Our hypothesis is STRONGER than Bachas's.",
+         novelty_survives="NO as mathematics; YES only as the observation that this particular observable is CM.",
+         evidence="Verified to n=3 numerically; counterexamples in the manuscript separate CM from H3.",
+         required_rewording="Must not claim to strengthen Bachas. Must state that H3 is stronger than reflection positivity."),
+    dict(claim_id="C3",
+         our_claim="Gamma(r)=-d log Phi/dr is a decreasing upper bound on M_* converging to inf supp nu (threshold tomography).",
+         claim_type="CLASSICAL APPLICATION",
+         status="CLASSICAL_APPLICATION",
+         nearest_prior_work="Lattice-QCD effective mass; Luscher-Wolff 1990; Blossier et al 2009",
+         overlap="IDENTICAL mathematics. The effective mass m_eff(t)=-d log C/dt of a positive Euclidean correlator is a monotone upper bound on the ground-state energy. This is textbook lattice technology.",
+         difference="Only the observable differs: a radial one-form breaking profile instead of a Euclidean two-point function of an interpolating operator.",
+         novelty_survives="NO as a method. The transport to this observable is the only contribution.",
+         evidence="Falsification suite tests A-K; exact recovery on atoms.",
+         required_rewording="Must be presented as importing standard spectral-tomography technology, NOT as a new inverse-spectral method."),
+    dict(claim_id="C4",
+         our_claim="Local Hankel pencil B_K(r)=lambda_min(H_1,H_0) gives M_*<=B_K, B_{K+1}<=B_K, B_K -> M_*.",
+         claim_type="CLASSICAL APPLICATION",
+         status="PROVED_CONDITIONALLY",
+         nearest_prior_work="GEVP (Luscher-Wolff, Blossier et al); Pade-to-Stieltjes theory (Baker & Graves-Morris); Masjuan-Peris 2009",
+         overlap="The GEVP hierarchy and the Pade/orthogonal-polynomial/Hankel equivalence are classical; Masjuan-Peris already extract threshold information from VP moments.",
+         difference="The convergence proof given (density of polynomials in L^2 of a measure with an exponential moment) is self-contained and avoids citing an unread theorem.",
+         novelty_survives="NO as mathematics.",
+         evidence="Exact resolution of 2-atom model at K=1; monotonicity verified; conditioning quantified (86 digits needed in the wide-dynamic-range model).",
+         required_rewording="Cite GEVP and Pade-Stieltjes explicitly as the origin."),
+    dict(claim_id="C5",
+         our_claim="A derivative-free hierarchy from equally spaced samples of Phi, with deterministic error propagation giving certified upper bounds on M_*.",
+         claim_type="PHYSICS ASSEMBLY / METHOD",
+         status="PROVED_CONDITIONALLY",
+         nearest_prior_work="Hausdorff moment problem; lattice GEVP at discrete time slices",
+         overlap="Sampling a Laplace transform at equally spaced points gives Hausdorff moments; the lattice GEVP is also evaluated at discrete separations.",
+         difference="The explicit interval/envelope bound eq. (24)-(25), uniform in the test vector v, and the refusal to report a bound when no vector gives a positive numerator.",
+         novelty_survives="PARTIAL. The error-envelope form is a modest but genuine contribution; the Hausdorff structure is classical.",
+         evidence="Verified in extended_analysis.py robust-envelope checks.",
+         required_rewording="Present as an operational variant, not a new theorem of analysis."),
+    dict(claim_id="C6",
+         our_claim="Mellin bridge: c_n = (g_R^2 Gamma_E(2n+2))^{-1} int_0^inf r^{2n-1} delta_D(r) dr.",
+         claim_type="IDENTITY",
+         status="PROVED",
+         nearest_prior_work="Standard Mellin transform of a Laplace representation",
+         overlap="Elementary Tonelli exchange; the transform pair is textbook.",
+         difference="The specific statement connecting radial moments of the breaking profile to low-energy VP moments does not appear in the searched literature.",
+         novelty_survives="YES but MINOR. It is an elementary identity, useful as a bridge.",
+         evidence="Verified numerically for n=1,2,3 by nested independent quadrature.",
+         required_rewording="Call it an identity, not a theorem of substance."),
+    dict(claim_id="C7",
+         our_claim="No uniform lower bound on M_* from a finite window without a minimum-weight assumption (Theorem H).",
+         claim_type="NO-GO",
+         status="PROVED",
+         nearest_prior_work="Ill-posedness of inverse Laplace transform; excited-state contamination in lattice QCD",
+         overlap="The phenomenon is well known qualitatively in both inverse-problem theory and lattice practice.",
+         difference="Explicit two-parameter family with a closed-form crossover radius, tied to this observable.",
+         novelty_survives="PARTIAL; the statement is standard, the explicit form is useful.",
+         evidence="Falsification test H: predicted crossover 22.758, observed transition between r=20 and r=30.",
+         required_rewording="Acknowledge it is the familiar ill-posedness, stated precisely."),
+    dict(claim_id="C8",
+         our_claim="Positivity alone cannot yield the WGC; an explicit non-homogeneous gravitational input (species bound + quantified strong breaking) gives the conditional bound (33).",
+         claim_type="CONDITIONAL IMPLICATION + NO-GO",
+         status="PROVED_CONDITIONALLY",
+         nearest_prior_work="Cordova-Ohmori-Rudelius 2022; Dvali species bound",
+         overlap="COR already argue that strong breaking below M_Pl motivates the WGC; the species bound is Dvali's.",
+         difference="The scale-invariance no-go (Z cancels in Gamma, B_K, calligraphic-B_K) is made precise, and the error budget tau, epsilon is carried explicitly.",
+         novelty_survives="PARTIAL. The no-go framing is ours; the positive implication largely follows COR.",
+         evidence="Algebraic proof in the manuscript; Lemma 4 cap proved.",
+         required_rewording="Never call this a derivation of the WGC."),
+]
+
+CLAIM_COLS = ["claim_id", "our_claim", "claim_type", "status", "nearest_prior_work",
+              "overlap", "difference", "novelty_survives", "evidence",
+              "required_rewording"]
+
+# ---------------------------------------------------------------------------
+# theorem_status.csv
+# ---------------------------------------------------------------------------
+THEOREMS = [
+    dict(theorem_id="A", statement_short="Phi(r)=delta(r)/r^2 is the Laplace transform of a positive measure nu, defined by weighted pushforward.",
+         status="PROVED_CONDITIONALLY", assumptions="H1-H5 (H3 is the substantive one); linear response in the source strength",
+         proof_location="manuscript/apendice_geometria_laplace.qmd, Teorema A",
+         external_theorem_used="Fubini-Tonelli; differentiation under the integral",
+         citation="n/a (elementary)",
+         numerical_test="falsification_suite: A(a) vs BG eq.(13) to 1e-30; Gauss-law closure",
+         unresolved_issue="H3 is unproved for an interacting kernel beyond leading order. This is the central open physics question."),
+    dict(theorem_id="A1", statement_short="Sign convention: dsigma = g^4 rho_J ds/s + O(g^6), reproducing Uehling.",
+         status="PROVED", assumptions="one-loop matter kernel; single subtraction sufficient",
+         proof_location="appendix, 'Sinal da polarizacao do vacuo', eq. (7)-(8)",
+         external_theorem_used="Kallen-Lehmann representation",
+         citation="Uehling 1935 (coefficient check)",
+         numerical_test="tests/test_sign_convention.py (discriminating: flipping the kernel sign yields dsigma<0)",
+         unresolved_issue="none"),
+    dict(theorem_id="B", statement_short="Phi completely monotone; converse via Bernstein-Widder for e^{M_* r}Phi.",
+         status="CLASSICAL_APPLICATION", assumptions="positive measure, finite transform for all r>0",
+         proof_location="appendix, Teorema B",
+         external_theorem_used="Bernstein-Widder theorem",
+         citation="Widder, The Laplace Transform (1941), Ch. IV",
+         numerical_test="falsification_suite J: CM violation detected on a signed measure",
+         unresolved_issue="Weaker in hypothesis-free content than Bachas 1986, which gets two derivative conditions from reflection positivity alone."),
+    dict(theorem_id="C", statement_short="Gamma(r)=<x>_r is a decreasing upper bound converging to inf supp nu.",
+         status="CLASSICAL_APPLICATION", assumptions="H1-H5; M_*=inf supp nu for the limit",
+         proof_location="appendix, Teorema C",
+         external_theorem_used="none beyond elementary measure theory",
+         citation="method identical to lattice effective mass: Luscher-Wolff 1990; Blossier et al 2009",
+         numerical_test="falsification_suite A,B,C,F,H,K",
+         unresolved_issue="No uniform convergence rate without a minimum-weight assumption (Theorem H)."),
+    dict(theorem_id="D", statement_short="Edge law Gamma=M_*+p/r+beta p/r^2+... ; Dirac gives 2m+3/(2r)-5/(16mr^2)+45/(32m^2r^3).",
+         status="PROVED", assumptions="edge expansion dnu/dx = C t^{p-1}[1+beta t+gamma t^2+O(t^3)]; exponential tail control",
+         proof_location="appendix, Teorema D",
+         external_theorem_used="Watson's lemma",
+         citation="NIST DLMF 2.3(ii)",
+         numerical_test="falsification_suite: spinor p=3/2 -> 1.4981, scalar p=5/2 -> 2.4904; symbolic check of the edge coefficients in extended_analysis.py",
+         unresolved_issue="none"),
+    dict(theorem_id="E", statement_short="Local Hankel pencil: M_*<=B_K, B_{K+1}<=B_K, B_K -> M_*.",
+         status="PROVED_CONDITIONALLY", assumptions="H0 positive definite (support has >K+1 points); exponential moment for the density argument",
+         proof_location="appendix, Teorema E",
+         external_theorem_used="Rayleigh-Ritz; density of polynomials in L^2 of a measure with an exponential moment",
+         citation="self-contained proof given; the density criterion is classical (Riesz/Berg-Christensen). Exact theorem number PENDING_VERIFICATION",
+         numerical_test="falsification_suite B (exact at K=1), G, H (stalls), I (conditioning)",
+         unresolved_issue="Convergence is not uniform in the spectral weight: test H shows B_K stalling at the continuum edge when the true edge carries weight 1e-12."),
+    dict(theorem_id="F", statement_short="Two-radius sandwich M_*<=Gamma(r+h)<=G_h(r)<=Gamma(r).",
+         status="PROVED", assumptions="positive nonzero measure",
+         proof_location="appendix, Teorema F",
+         external_theorem_used="mean value of a monotone function",
+         citation="n/a", numerical_test="extended_analysis.py two-radius sandwich checks",
+         unresolved_issue="none"),
+    dict(theorem_id="G", statement_short="Derivative-free sampling hierarchy from Hausdorff moments b_j=Phi(r+jh)/Phi(r).",
+         status="PROVED_CONDITIONALLY", assumptions="nonsingular pencil; compact support in y=e^{-hx}",
+         proof_location="appendix, Teorema G",
+         external_theorem_used="Hausdorff moment problem; Weierstrass approximation",
+         citation="classical; lattice GEVP is the same structure at discrete separations",
+         numerical_test="extended_analysis.py sampled-hierarchy checks K=0..5",
+         unresolved_issue="No proved ordering between B_K and the sampled hierarchy at equal order."),
+    dict(theorem_id="H", statement_short="No uniform lower bound on M_* from a finite window without minimum weight.",
+         status="PROVED", assumptions="finite observation window, finite precision",
+         proof_location="appendix, Teorema H",
+         external_theorem_used="none",
+         citation="n/a",
+         numerical_test="falsification_suite H: crossover radius predicted 22.758, observed between r=20 and r=30",
+         unresolved_issue="none"),
+    dict(theorem_id="I", statement_short="Conditional WGC-type bound max_i g|q_i|M_Pl/m_i >= sqrt(6 pi^2 (eta-tau-eps)/kappa).",
+         status="PROVED_CONDITIONALLY", assumptions="eq. (32): quantified strong breaking eta, species bound kappa, tail bound tau, model error eps, all fixed in advance",
+         proof_location="appendix, 'Consequencia gravitacional estritamente condicional'",
+         external_theorem_used="Lemma 4 cap",
+         citation="Dvali species bound; Cordova-Ohmori-Rudelius",
+         numerical_test="none (algebraic)",
+         unresolved_issue="Not a derivation of the WGC. eta and kappa are physical inputs; calibrating them after seeing the spectrum makes the conclusion circular."),
+    dict(theorem_id="L4", statement_short="One-species cap 0<=delta_D<=g^2q^2/6pi^2, saturated as r->0.",
+         status="PROVED", assumptions="one-loop Dirac density",
+         proof_location="appendix, Lema 4",
+         external_theorem_used="dominated convergence",
+         citation="coefficient matches Cordova-Ohmori-Rudelius per-species normalization",
+         numerical_test="laplace_geometry.py cap checks; Delta in [0,1] on the tested grid",
+         unresolved_issue="The r->0 limit is a limit of the one-loop coefficient, not a controlled UV extrapolation of full QED."),
+]
+
+THEOREM_COLS = ["theorem_id", "statement_short", "status", "assumptions",
+                "proof_location", "external_theorem_used", "citation",
+                "numerical_test", "unresolved_issue"]
+
+
+def write(path, cols, rows):
+    with path.open("w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=cols, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+    print(f"  {path.relative_to(ROOT)}: {len(rows)} rows")
+
+
+def main():
+    print("Building audit ledgers")
+    write(DATA / "literature_audit.csv", AUDIT_COLS, AUDIT)
+    write(DATA / "claims_matrix.csv", CLAIM_COLS, CLAIMS)
+    write(DATA / "theorem_status.csv", THEOREM_COLS, THEOREMS)
+
+    from collections import Counter
+    print("\n  priority threats:", dict(Counter(r["priority_threat"].split()[0] for r in AUDIT)))
+    print("  claim statuses  :", dict(Counter(r["status"] for r in CLAIMS)))
+    print("  novelty survives:", dict(Counter(r["novelty_survives"].split()[0] for r in CLAIMS)))
+    print("  theorem statuses:", dict(Counter(r["status"] for r in THEOREMS)))
+
+
+if __name__ == "__main__":
+    main()
