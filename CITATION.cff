@@ -8,8 +8,12 @@ abstract: >-
   charged threshold. Includes an adversarial priority audit, a per-claim
   novelty matrix, and an adversarial falsification suite.
 authors:
-  - name: "See repository history"
-date-released: "2026-09-11"
+  - family-names: "de Oliveira Cardoso"
+    given-names: "Mauro"
+    alias: "Viole"
+    affiliation: "Independent researcher, Botucatu, SP, Brazil"
+version: "0.2"
+date-released: "2026-09-21"
 license: MIT
 keywords:
   - generalized global symmetries

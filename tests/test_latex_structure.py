@@ -1,8 +1,8 @@
 """Structural validation of the LaTeX sources.
 
-No LaTeX toolchain exists in this environment (pdflatex, xelatex, lualatex,
-tectonic and latexmk are all absent), so ``make pdf`` cannot be executed and is
-NOT claimed to pass. These checks are what can be verified without a compiler:
+These checks need no TeX installation; the end-to-end clean build (no
+warnings, no bitmap fonts) is tested separately in ``test_paper_build.py``,
+which is skipped on machines without pdflatex/bibtex. Checked here:
 balanced environments and braces, resolvable cross-references, required
 structure, and the honesty constraints the audit imposes on the wording.
 """

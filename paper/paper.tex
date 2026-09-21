@@ -1,12 +1,16 @@
 \documentclass[11pt]{article}
 
 \usepackage[margin=1.05in]{geometry}
+\usepackage{microtype}
 \usepackage{amsmath,amssymb,amsthm}
 \usepackage{mathtools}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage[colorlinks=true,allcolors=blue]{hyperref}
 \usepackage[numbers,sort&compress]{natbib}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage[capitalise,noabbrev]{cleveref}
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{proposition}[theorem]{Proposition}
@@ -17,6 +21,13 @@
 \renewcommand{\thehypothesis}{H\arabic{hypothesis}}
 \theoremstyle{remark}
 \newtheorem{remark}[theorem]{Remark}
+
+% Math-mode list and footnote markers: avoids the text-companion (TS1)
+% glyphs, which would otherwise be embedded as bitmap Type 3 fonts.
+\renewcommand{\labelitemi}{$\bullet$}
+\makeatletter
+\def\@fnsymbol#1{\ensuremath{\ifcase#1\or *\or \dagger\or \ddagger\fi}}
+\makeatother
 
 \newcommand{\Mstar}{M_{*}}
 \newcommand{\Gcal}{\mathcal{G}}
@@ -29,8 +40,15 @@
 \title{\bf Spectral structure of approximate one-form symmetry breaking\\
 \large Threshold bounds from the radial breaking profile}
 
-\author{}
-\date{}
+% Author metadata. The printed name is the one indexed by arXiv/INSPIRE;
+% keep it identical across all submissions.
+\newcommand{\authorname}{Mauro de Oliveira Cardoso}
+\newcommand{\researchname}{Viole}
+\newcommand{\authoremail}{mauro.lycanwp@gmail.com}
+\author{\authorname\thanks{Research name: \researchname.
+  E-mail: \href{mailto:\authoremail}{\nolinkurl{\authoremail}}}\\[2pt]
+  \small Independent researcher, Botucatu, SP, Brazil}
+\date{\small Draft v0.2 --- \today}
 
 \begin{document}
 \maketitle
@@ -94,7 +112,8 @@ precedents on every methodological axis.
 \item Complete monotonicity of a Laplace transform is Bernstein--Widder.
       Moreover, Bachas~\cite{bachas_1986} already derives $V'\ge 0$,
       $V''\le 0$ for the static potential from reflection positivity
-      \emph{alone}. Our Hypothesis~\ref{hyp:stieltjes} is strictly stronger
+      \emph{alone}, and Seiler~\cite{seiler_1978} bounds the confining
+      potential from above by positivity arguments. Our Hypothesis~\ref{hyp:stieltjes} is strictly stronger
       than reflection positivity, so the infinite hierarchy we obtain is not an
       improvement on Bachas in hypothesis-free content.
 \item That $\Gamma(r)$ is a monotone upper bound converging to the support
@@ -106,6 +125,23 @@ precedents on every methodological axis.
       vacuum polarization, by Pad\'e approximants equivalent to the same
       Hankel machinery, is done in~\cite{masjuan_peris_2009,
       bakergravesmorris1996pade}.
+\item The Stieltjes character of the vacuum polarization and the
+      equivalence between complete monotonicity and positivity of Hankel
+      matrices of derivatives are reviewed, as background, in the lecture
+      notes~\cite{raman_2026_positivity_notes}.
+\item Rigorous spectral information from positive Euclidean data is an
+      active programme: Lanczos methods with two-sided error
+      bounds~\cite{wagman_2025_lanczos}, their block generalisation, which
+      contains the GEVP as a single iteration~\cite{hackett_wagman_2025_block_lanczos},
+      convex-duality bounds on spectral densities~\cite{lawrence_2024_lagrange_duality},
+      and mass-gap extraction from equal-time correlators by linear
+      programming~\cite{mutzel_tilloy_2025}. Our finite-window statements
+      below are to be read against these methods, not as an alternative to
+      them.
+\item The behaviour of a measure near the bottom of its support in terms of
+      its Laplace transform is studied in~\cite{hinrichs_polzer_2025}; the
+      edge law stated below is an elementary Watson-lemma statement and is
+      not claimed beyond that.
 \end{itemize}
 What remains is the assembly: the identification of the one-form breaking
 profile as a completely monotone function under a stated hypothesis, the
@@ -159,10 +195,13 @@ With $q_{\infty}=\lim_{r\to\infty}q(r)$,
 The explicit minus sign makes $\delta\ge0$ for screening: $q(r)$ decreases
 towards $q_{\infty}$. Reference~\cite{basile_golmohammadi_2025} writes
 $\delta_{\Lambda}=(r/q_{\infty})\,dq/dr$ without it, while their explicit
-result is positive; the discrepancy is the orientation of the linking surface
-and carries no physical content. We fix the convention
-by~\eqref{eq:delta} and verify agreement with their explicit expression
-numerically.
+result is positive. The difference cannot be attributed to the orientation of
+the linking surface: reversing it flips $q(r)$ and $q_{\infty}$ together and
+leaves $q'/q_{\infty}$ unchanged. We therefore treat~\eqref{eq:delta} as a
+definition, and verify numerically that our $\delta(r)$ coincides with their
+explicit one-loop expression. A line-by-line comparison with their
+potential-to-charge chain is pending; our own sign chain is derived
+independently in \cref{app:sign}.
 
 \section{Hypotheses}
 
@@ -311,7 +350,8 @@ applied separately to $\Phi$ and to $\int t\,e^{-rx}\dnu$ gives
 $\Gamma(r)=\Mstar+p/r+\beta p/r^{2}+O(r^{-3})$. For one Dirac species
 $p=3/2$ and $\Gamma=2m+3/(2r)-5/(16mr^{2})+45/(32m^{2}r^{3})+\cdots$; for a
 complex scalar $p=5/2$. The leading coefficient therefore discriminates the
-channel, and both values are confirmed numerically (Section~\ref{sec:numerics}).
+channel, and both values are confirmed numerically
+(Section~\ref{sec:numerics} and \cref{fig:hidden}, right).
 
 \section{Scope and failure modes}
 \label{sec:scope}
@@ -330,6 +370,12 @@ $\Phi=e^{-r}-\tfrac12e^{-2r}$ is positive with positive $-\Phi'$, yet
 $\Phi''<0$ for $r<\log 2$, so a screening-only diagnostic is fooled by a signed
 measure. Our numerical pipeline exploits this: a positivity gate on
 $(-1)^{n}\Phi^{(n)}$ and on $H_{0}$ fires before any bound is reported.
+Testing spectral positivity on Euclidean data is itself established practice;
+for instance, its violation in the photon Schwinger function of compact
+lattice U(1) is used as a confinement
+diagnostic~\cite{loveridge_oliveira_silva_2022}. The gate differs only in
+depth: it tests the full derivative and Hankel hierarchy rather than the sign
+of a single function.
 
 \paragraph{The first threshold need not be charged.}
 In full QED the photon vacuum polarization receives contributions from
@@ -378,18 +424,63 @@ Two adversarial tests were specified in advance.
 
 \paragraph{Signed measure.}
 For $\dnu=\delta_{1}-\tfrac12\delta_{2}$ the gate fires at
-$a_{3}(1)=-0.4715<0$ and $\det H_{0}=-0.1839<0$, and no bound is reported,
-while $\Phi>0$ and $-\Phi'>0$ both hold --- confirming that a screening-only
-test is insufficient.
+$a_{3}(1)=-0.1735<0$ and, for the $2\times2$ pencil, $\det H_{0}(1)=-0.0249<0$
+(equivalently $e^{r}a_{3}=-0.4715$ and $e^{2r}\det H_{0}=-0.1839$ in the
+rescaled normalisation $\tilde a_{n}=e^{r}a_{n}$ used by the code), and no
+bound is reported, while $\Phi>0$ and $-\Phi'>0$ both hold --- confirming
+that a screening-only test is insufficient.
 
 \paragraph{Vanishing weight at the true edge.}
-For $\dnu=10^{-12}\delta_{2}+$ continuum from $x=3$, the predicted crossover is
-$r_{\times}=22.76$. Observed: $\Gamma=3.136$ at $r=10$, $3.018$ at $r=20$,
-$2.532$ at $r=22.76$, $2.0005$ at $r=30$. At $r=3$ the hierarchy
+Take $\dnu=10^{-12}\delta_{2}+(x-3)^{1/2}e^{-(x-3)}\mathbf{1}_{x\ge3}\,dx$,
+so that $\Phi(r)=10^{-12}e^{-2r}+\Gamma_{E}(\tfrac32)(1+r)^{-3/2}e^{-3r}$.
+The two components have equal amplitude at the root of
+$10^{-12}e^{r}=\Gamma_{E}(\tfrac32)(1+r)^{-3/2}$, namely $r_{\times}=22.76$.
+This model-specific crossover is not the $t_{\times}$ of
+\cref{thm:H}, which refers to the two-exponential family used there (for the
+same $\epsilon$ it would give $27.6$); the power-law prefactor of the
+continuum shifts it. Observed: $\Gamma=3.136$ at $r=10$, $3.018$ at $r=20$,
+$2.532$ at $r=22.76$, $2.0005$ at $r=30$ (\cref{fig:hidden}). At $r=3$ the hierarchy
 $B_{0..4}$ descends only from $3.375$ to $3.108$ and never approaches $2$.
 Theorem~\ref{thm:C} is never violated; it is the informativeness, not the
 validity, of the bound that degrades. This is the operational content of
 Theorem~\ref{thm:H} and is reported as a limitation of the method.
+
+\begin{figure}[!htbp]
+\centering
+\begin{tikzpicture}
+\begin{axis}[width=0.47\textwidth,height=0.36\textwidth,
+  xlabel={$r$},ylabel={$\Gamma(r)$},xmin=0,xmax=40,ymin=1.8,ymax=4.1,
+  tick label style={font=\footnotesize},label style={font=\small},
+  legend style={font=\footnotesize,draw=none,fill=none,at={(0.04,0.09)},anchor=south west}]
+\addplot[thick,blue] table[x=r,y=Gamma]{figures/hidden_threshold.dat};
+\addlegendentry{$\Gamma(r)$}
+\addplot[dashed,gray,domain=0:40] {2};\addlegendentry{$M_{*}=2$}
+\addplot[dotted,gray,domain=0:40] {3};\addlegendentry{continuum edge}
+\draw[red,densely dashed] (axis cs:22.76,1.8) -- (axis cs:22.76,4.1);
+\end{axis}
+\end{tikzpicture}\hfill
+\begin{tikzpicture}
+\begin{axis}[width=0.47\textwidth,height=0.36\textwidth,xmode=log,
+  xlabel={$mr$},ylabel={$r(\Gamma-2m)$},ymin=1.46,ymax=1.51,
+  tick label style={font=\footnotesize},label style={font=\small},
+  legend style={font=\footnotesize,draw=none,fill=none},legend pos=south east]
+\addplot[thick,blue] table[x=r,y=rGm]{figures/dirac_edge_law.dat};
+\addlegendentry{quadrature}
+\addplot[red,densely dashed] table[x=r,y=series]{figures/dirac_edge_law.dat};
+\addlegendentry{edge law to $O(r^{-2})$}
+\addplot[dashed,gray,domain=5:300] {1.5};\addlegendentry{$p=3/2$}
+\end{axis}
+\end{tikzpicture}
+\caption{Left: hidden threshold. The logarithmic slope of the profile with
+weight $10^{-12}$ at $M_{*}=2$ sits at the continuum edge $3$ until the
+component crossover $r_{\times}=22.76$ (vertical line) and only then descends
+to $M_{*}$; it never falls below $M_{*}$. Right: edge law for one Dirac
+species, $r(\Gamma-2m)\to p=3/2$, compared with
+$\tfrac32-\tfrac{5}{16mr}+\tfrac{45}{32m^{2}r^{2}}$. Both panels are
+double-precision checks regenerated by
+\texttt{reproducibility/figure\_data.py}.}
+\label{fig:hidden}
+\end{figure}
 
 Conditioning is quantified rather than asserted: in a model with atoms at $2$
 and $200$ the pencil is numerically singular at 60 digits and requires roughly
@@ -439,13 +530,17 @@ reflection positivity alone constrains higher derivatives of the radial
 breaking profile --- and thus whether Hypothesis~\ref{hyp:stieltjes} can be
 weakened --- we leave open.
 
-\paragraph{Reproducibility.}
-Code, data, the adversarial literature audit and a per-claim novelty matrix
-accompany this work.
+\paragraph{Data and code availability.}
+All numerical results, the adversarial test suite, the literature audit and
+the per-claim novelty matrix are in the accompanying repository
+(public URL and an archived release with a persistent identifier to be
+inserted in the submitted version). The scripts distinguish
+high-precision \emph{checks} from interval-arithmetic \emph{certificates}, and
+only the latter are called certified.
 
 \input{appendix}
 
-\bibliographystyle{JHEP}
+\bibliographystyle{physofall}
 \bibliography{references}
 
 \end{document}

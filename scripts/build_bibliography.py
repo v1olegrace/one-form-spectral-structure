@@ -58,8 +58,20 @@ BOOKS = [
 TYPE_BY_JOURNAL = {"": "misc"}
 
 
+# Non-ASCII characters returned by the APIs, mapped to 7-bit LaTeX so that
+# the bibliography typesets with the default (OT1, vector Type 1) fonts and no
+# bitmap text-companion glyphs.
+UNICODE_TO_LATEX = {
+    "\u2013": "--", "\u2014": "---", "\u00f3": "{\\'o}", "\u00e9": "{\\'e}",
+    "\u00e1": "{\\'a}", "\u00ed": "{\\'i}", "\u00fc": '{\\"u}', "\u00f6": '{\\"o}',
+}
+
+
 def bib_escape(s):
-    return s.replace("&", "\\&").replace("_", "\\_")
+    s = s.replace("&", "\\&").replace("_", "\\_")
+    for uni, tex in UNICODE_TO_LATEX.items():
+        s = s.replace(uni, tex)
+    return s
 
 
 def entry_from_record(rec):
@@ -95,7 +107,9 @@ def entry_from_record(rec):
     note = f"Metadata verified via {', '.join(sorted(set(json.loads(prov).values())))}."
     if omitted:
         note += f" Omitted (not returned by any API): {', '.join(omitted)}."
-    fields.append(("note", note))
+    # Provenance goes to "annote", which standard .bst styles do not print:
+    # it documents the record without leaking into the typeset bibliography.
+    fields.append(("annote", note))
 
     body = ",\n  ".join(f"{k:14s}= {{{bib_escape(str(v))}}}" for k, v in fields)
     return f"@{etype}{{{key},\n  {body}\n}}\n"
@@ -104,6 +118,8 @@ def entry_from_record(rec):
 def entry_from_book(b):
     etype = b.pop("type")
     key = b.pop("key")
+    if "note" in b:
+        b["annote"] = b.pop("note")
     body = ",\n  ".join(f"{k:14s}= {{{v}}}" for k, v in b.items())
     return f"@{etype}{{{key},\n  {body}\n}}\n"
 
@@ -124,7 +140,7 @@ def main():
         "%\n"
         f"% {len(records)} API-verified article records; {len(BOOKS)} hand-entered monographs.\n"
         f"% {n_pending} harvested fields were PENDING_VERIFICATION and are OMITTED,\n"
-        "% never guessed. Each entry's note field records its provenance.\n\n"
+        "% never guessed. Each entry's annote field records its provenance.\n\n"
     )
 
     chunks = [header]

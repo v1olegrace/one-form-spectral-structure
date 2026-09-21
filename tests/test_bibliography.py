@@ -64,8 +64,8 @@ def test_no_pending_placeholders_written_into_entries():
     """PENDING fields must be omitted, never written as a literal placeholder."""
     for key, f in parse_entries(bib_text()).items():
         for name, val in f.items():
-            if name in ("note", "__type__"):
-                continue          # the note legitimately *mentions* omissions
+            if name in ("annote", "__type__"):
+                continue          # the annote legitimately *mentions* omissions
             assert "PENDING_VERIFICATION" not in val, (
                 f"{key}.{name} contains a placeholder instead of being omitted")
 
@@ -85,7 +85,7 @@ def test_articles_have_identifiers_and_core_fields():
 
 def test_every_entry_records_provenance():
     for key, f in parse_entries(bib_text()).items():
-        assert "note" in f and f["note"], f"{key}: no provenance note"
+        assert "annote" in f and f["annote"], f"{key}: no provenance annote"
 
 
 def test_latex_citations_resolve():
@@ -113,7 +113,10 @@ def test_high_threat_papers_are_cited():
         pytest.skip("no LaTeX sources yet")
     body = "\n".join(p.read_text(encoding="utf-8") for p in tex)
     for key in ["luscher_wolff_1990", "blossier_et_al_gevp_2009",
-                "masjuan_peris_2009", "bachas_1986"]:
+                "masjuan_peris_2009", "bachas_1986",
+                "wagman_2025_lanczos", "hackett_wagman_2025_block_lanczos",
+                "lawrence_2024_lagrange_duality", "mutzel_tilloy_2025",
+                "hinrichs_polzer_2025"]:
         assert key in body, f"HIGH/MEDIUM-threat precedent {key} is not cited"
 
 
