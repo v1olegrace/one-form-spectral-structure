@@ -2,6 +2,9 @@
 tmp/
 output/html/
 output/pdf/
+# regenerable with `python make.py certified` (needs python-flint);
+# ~4.5 MB, provenance pinned by configuration_sha256 in summary.json
+output/certified_one_loop/
 **/__pycache__/
 *.py[cod]
 .pytest_cache/
