@@ -12,6 +12,7 @@ no external dependency beyond Python:
     python make.py pdf       compile paper/paper.pdf (requires a LaTeX toolchain)
     python make.py all       numerics + audit + test
     python make.py check     report which external tools are available
+    python make.py certified generate the validated one-loop matched-data benchmark
 
 ``pdf`` reports a clear, non-zero failure if no LaTeX engine is installed
 rather than pretending to succeed.
@@ -104,9 +105,13 @@ def target_all():
     return rc
 
 
+def target_certified():
+    return run([sys.executable, "reproducibility/run_one_loop_certificates.py"])
+
+
 TARGETS = {"test": target_test, "numerics": target_numerics, "bib": target_bib,
            "audit": target_audit, "pdf": target_pdf, "all": target_all,
-           "check": target_check}
+           "check": target_check, "certified": target_certified}
 
 
 def main(argv):

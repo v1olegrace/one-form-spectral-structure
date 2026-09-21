@@ -1,11 +1,11 @@
 """Interval-certified threshold bounds.
 
-This is the ONLY module permitted to use the word "certified", and the
-distinction is substantive.
+Atomic enclosures and sampled numerical checks are distinguished below.
+Validated continuum integration is implemented in one_loop_certified.py;
+exact polynomial verification in spectral_weight_certificates.py.
 
-``mp.quad`` carries no rigorous error bound.  Anything computed by quadrature is
-therefore CHECKED, never certified, no matter how many digits agree.  Two things
-here are genuinely certified instead:
+``mp.quad`` carries no rigorous error bound. Its values are CHECKED, regardless
+of working precision. This does not apply to a validated quadrature backend.
 
 1.  **Atomic models.**  When the measure is a finite sum of atoms, the samples
     ``Phi(r) = sum_k w_k exp(-r x_k)`` are computed in mpmath interval
@@ -18,7 +18,7 @@ here are genuinely certified instead:
     failure.  Only when the bound saturates (a single atom) does the enclosure
     also localize the edge.
 
-2.  **The error-envelope bound, eq. (24)-(25).**  Given interval enclosures
+2.  **The error-envelope inequality, eq. (24)-(25).** Given valid enclosures
     ``|b_j_hat - b_j| <= eps_j`` from ANY source, the inequality
 
         M_* <= -(1/h) log[ (v'C1 v - E1(v)) / (v'C0 v + E0(v)) ]
@@ -26,7 +26,8 @@ here are genuinely certified instead:
     is a *proved deterministic inequality*, not an estimate.  It is valid
     uniformly in the test vector ``v``, so ``v`` may be chosen using the data.
     If no ``v`` yields a positive numerator, the method returns NO BOUND -- it
-    must not silently truncate.
+    must not silently truncate. The mp.mpf implementation and its 200 random
+    trials below are CHECKED, not rounding-error-controlled certificates.
 
 The sampling hierarchy used here is Theorem G: with ``y = e^{-hx}`` the samples
 ``b_j = Phi(r+jh)/Phi(r)`` are Hausdorff moments on ``[0, e^{-h M_*}]``, so
@@ -38,6 +39,7 @@ from __future__ import annotations
 
 import json
 import sys
+from fractions import Fraction
 from pathlib import Path
 
 import mpmath as mp
@@ -57,6 +59,15 @@ def endpoints(x):
     """
     lo, hi = x._mpi_
     return mp.mpf(lo), mp.mpf(hi)
+
+
+def exact_endpoints(x):
+    """Lossless rational endpoints; printed decimal summaries are approximate."""
+    def convert(raw):
+        sign, mantissa, exponent, _ = raw
+        value = Fraction((-1)**sign * mantissa)
+        return value * 2**exponent if exponent >= 0 else value / 2**(-exponent)
+    return [str(convert(raw)) for raw in x._mpi_]
 
 
 def _report(name, kind, detail, **kw):
@@ -117,6 +128,7 @@ def certify_atomic_models():
                 f"[{mp.nstr(lo, 12)}, {mp.nstr(hi, 12)}] (width {mp.nstr(width, 3)}); "
                 f"slack over M_* = {mp.nstr(lo - mp.mpf(M_star), 6)}",
                 M_star=M_star, bound_lo=mp.nstr(lo, 15), bound_hi=mp.nstr(hi, 15),
+                exact_bound_endpoints=exact_endpoints(enc), decimal_fields_are_approximate=True,
                 is_enclosure_of="the upper bound B, NOT of M_*")
 
     # The single atom must be recovered EXACTLY (bound saturates the truth).
@@ -200,7 +212,7 @@ def certify_envelope():
                 worst_ok = False
                 break
         _report(f"envelope valid under perturbation, eps_rel={eps_rel}",
-                "CERTIFIED" if worst_ok else "FAILED",
+                "CHECKED" if worst_ok else "FAILED",
                 f"{n_bounds}/200 trials returned a finite bound; "
                 f"{'all bounds >= M_*' if worst_ok else 'A BOUND FELL BELOW M_*'}",
                 eps_rel=eps_rel, n_bounds=n_bounds)
@@ -209,12 +221,13 @@ def certify_envelope():
     eps = [mp.mpf(10) * abs(x) for x in exact]
     bound, _ = envelope_bound(exact, eps, h, K)
     _report("absurd envelope yields explicit no-bound",
-            "CERTIFIED" if bound is None else "FAILED",
+            "CHECKED" if bound is None else "FAILED",
             "with eps 10x the data the procedure returns NO BOUND rather than "
             "truncating to something plausible")
 
 
 def main():
+    RESULTS.clear()
     mp.mp.dps = 40
     mp.iv.dps = 40
     print("Interval-certified bounds (mp.iv); quadrature results are elsewhere "
@@ -227,7 +240,9 @@ def main():
     (DATA / "interval_bounds.json").write_text(
         json.dumps({"results": RESULTS, "n_failed": len(failed)}, indent=2),
         encoding="utf-8")
-    print(f"\n{len(RESULTS)} certified items; failures: {len(failed)}")
+    certified = sum(r["kind"] == "CERTIFIED" for r in RESULTS)
+    checked = sum(r["kind"] == "CHECKED" for r in RESULTS)
+    print(f"\n{certified} atomic certificate items; {checked} numerical checks; failures: {len(failed)}")
     return 1 if failed else 0
 
 

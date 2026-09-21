@@ -7,6 +7,11 @@
       "M_star": 3.0,
       "bound_lo": "3.0",
       "bound_hi": "3.0",
+      "exact_bound_endpoints": [
+        "32667107224410092492483962313449748299775/10889035741470030830827987437816582766592",
+        "65334214448820184984967924626899496599553/21778071482940061661655974875633165533184"
+      ],
+      "decimal_fields_are_approximate": true,
       "is_enclosure_of": "the upper bound B, NOT of M_*"
     },
     {
@@ -16,6 +21,11 @@
       "M_star": 2.0,
       "bound_lo": "2.21284526099566",
       "bound_hi": "2.21284526099566",
+      "exact_bound_endpoints": [
+        "48191502274648739865553534109901476720155/21778071482940061661655974875633165533184",
+        "1505984446082773120798547940934421147505/680564733841876926926749214863536422912"
+      ],
+      "decimal_fields_are_approximate": true,
       "is_enclosure_of": "the upper bound B, NOT of M_*"
     },
     {
@@ -25,6 +35,11 @@
       "M_star": 2.0,
       "bound_lo": "2.00987500677037",
       "bound_hi": "2.00987500677037",
+      "exact_bound_endpoints": [
+        "10942800392304948063461827178231845977647/5444517870735015415413993718908291383296",
+        "43771201569219792253847308712927383910595/21778071482940061661655974875633165533184"
+      ],
+      "decimal_fields_are_approximate": true,
       "is_enclosure_of": "the upper bound B, NOT of M_*"
     },
     {
@@ -34,6 +49,11 @@
       "M_star": 2.0,
       "bound_lo": "2.99999999999647",
       "bound_hi": "2.99999999999647",
+      "exact_bound_endpoints": [
+        "65334214448743377767033850203548455372843/21778071482940061661655974875633165533184",
+        "65334214448743377767033850203548455372847/21778071482940061661655974875633165533184"
+      ],
+      "decimal_fields_are_approximate": true,
       "is_enclosure_of": "the upper bound B, NOT of M_*"
     },
     {
@@ -43,35 +63,35 @@
     },
     {
       "name": "envelope valid under perturbation, eps_rel=1e-10",
-      "kind": "CERTIFIED",
+      "kind": "CHECKED",
       "detail": "88/200 trials returned a finite bound; all bounds >= M_*",
       "eps_rel": "1e-10",
       "n_bounds": 88
     },
     {
       "name": "envelope valid under perturbation, eps_rel=1e-6",
-      "kind": "CERTIFIED",
+      "kind": "CHECKED",
       "detail": "88/200 trials returned a finite bound; all bounds >= M_*",
       "eps_rel": "1e-6",
       "n_bounds": 88
     },
     {
       "name": "envelope valid under perturbation, eps_rel=1e-3",
-      "kind": "CERTIFIED",
+      "kind": "CHECKED",
       "detail": "85/200 trials returned a finite bound; all bounds >= M_*",
       "eps_rel": "1e-3",
       "n_bounds": 85
     },
     {
       "name": "envelope valid under perturbation, eps_rel=1e-1",
-      "kind": "CERTIFIED",
+      "kind": "CHECKED",
       "detail": "20/200 trials returned a finite bound; all bounds >= M_*",
       "eps_rel": "1e-1",
       "n_bounds": 20
     },
     {
       "name": "absurd envelope yields explicit no-bound",
-      "kind": "CERTIFIED",
+      "kind": "CHECKED",
       "detail": "with eps 10x the data the procedure returns NO BOUND rather than truncating to something plausible"
     }
   ],
