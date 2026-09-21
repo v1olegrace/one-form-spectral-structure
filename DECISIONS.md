@@ -22,15 +22,34 @@ rascunho: ambiguidade de amostras finitas, localização com peso mínimo,
 certificados de Bernstein e o teorema de filtros polinomiais.
 
 A repartição completa, claim a claim, está em
-[`data/manuscript_comparison.csv`](data/manuscript_comparison.csv): 24 claims,
-cada um aparecendo exatamente uma vez, 15 para o paper 1 e 9 para o paper 2.
+[`data/manuscript_comparison.csv`](data/manuscript_comparison.csv): 29 claims,
+cada um aparecendo exatamente uma vez, 20 para o paper 1 e 9 para o paper 2.
 Nenhum claim foi descartado nesta etapa.
+
+### Como os claims foram enumerados
+
+Não basta varrer ambientes `\begin{theorem}`. O paper canônico enuncia
+resultados em **três** formas, e as três foram varridas:
+
+1. ambientes numerados — `thm:A`, `thm:C`, `thm:E`, `thm:H`, as cinco
+   hipóteses e a `definition` do perfil;
+2. `\paragraph{...}` dentro das seções 2 e 6 — é onde vivem a monotonicidade
+   completa, a não-equivalência com H3, o modo de falha *gapless* e os regimes
+   excluídos;
+3. o apêndice, cujos parágrafos provam C e E e enunciam a lei de borda.
+
+Cinco claims (`P1-S0`, `P1-DEF`, `P1-S1`, `P1-S2`, `P1-S3`) aparecem na matriz
+e **não constam nem de `claims_matrix.csv` nem de `theorem_status.csv`**. O
+mais importante deles é `P1-S2`, "the first threshold need not be charged": o
+modo de falha em QED completa, anunciado no TL;DR do README como um dos três
+limites explícitos do paper, mas que não tinha linha própria em nenhum registro
+anterior.
 
 ### Por que esta repartição
 
 O corte não é por dificuldade, é por **dependência do observável**. A coluna
-`class` da matriz separa os claims em PHYSICS (9) — valem por causa do
-observável de quebra de simetria de 1-forma — e MATH (15) — valem para
+`class` da matriz separa os claims em PHYSICS (13) — valem por causa do
+observável de quebra de simetria de 1-forma — e MATH (16) — valem para
 qualquer transformada de Laplace positiva.
 
 A Proposição 1 é a única do rascunho classificada como PHYSICS: ela fala do
@@ -113,9 +132,12 @@ em texto submetido, o `.tex` precisa ser recuperado com o autor.
 O claim ledger do `README.md` lista **C5** ("derivative-free sampled hierarchy
 with error envelope") como claim do paper 1. Ele não está no texto canônico.
 
-Verificado por busca literal em `paper/paper.tex` (546 linhas) e
-`paper/appendix.tex` (150 linhas): nenhuma ocorrência de `sampl`, `Hausdorff`,
-`Mellin`, `sandwich` ou `two-radius`. Os Teoremas F e G e a ponte de Mellin
+Verificado em duas passadas sobre `paper/paper.tex` (546 linhas) e
+`paper/appendix.tex` (150 linhas). Por vocabulário: nenhuma ocorrência de
+`sampl`, `Hausdorff`, `Mellin`, `sandwich` ou `two-radius`. E, porque um texto
+pode enunciar o claim sem usar essas palavras, também por conteúdo: nenhuma
+ocorrência de `b_j`, `envelope`, `equally spaced`, `derivative-free` ou
+`r+jh`. A ausência é do claim, não só do termo. Os Teoremas F e G e a ponte de Mellin
 (C6) existem apenas no rascunho pt-BR em `manuscript/`, e estão marcados como
 `paper1_ptbr_draft_only` na matriz.
 
