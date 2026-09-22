@@ -194,10 +194,20 @@ $-\Tt(p)$ and $i\,\Tt^{\dual}(p)$:
 N=\alpha\,\bigl(-\Tt(\bar p)\bigr)+\alpha'\,i\,\Tt^{\dual}(\bar p).
 \end{equation}
 Its eigenvalues are $2(\alpha+\alpha')$, $2(\alpha-\alpha')$ and $0$ with
-multiplicity four. So positivity gives only $\alpha\ge|\alpha'|$.
-CPT (Lemma~\ref{lem:cpt}) then forces $\alpha'=0$, since
-$i\,\Tt^{\dual}$ is imaginary antisymmetric.
+multiplicity four. So positivity gives only $\alpha\ge|\alpha'|$, and this
+bound holds \emph{unconditionally}. CPT (Lemma~\ref{lem:cpt}, \textsc{to read})
+then forces $\alpha'=0$, since $i\,\Tt^{\dual}$ is imaginary antisymmetric.
+The conclusion $\alpha'=0$ depends on that lemma.
 \end{proposition}
+
+\begin{remark}[The sign in Lemma~\ref{lem:cpt} is forced]
+Suppose CPT gave $\Wt_{AB}=-\Wt_{BA}$ instead. Then every diagonal entry of
+$\Wt$ would vanish, and a positive-semidefinite matrix with zero diagonal is
+zero. So for any theory with $\Wt\neq0$, the only CPT relation compatible with
+positivity is the symmetric one. What still needs a source is the existence of
+$\Theta$ and the fact that it acts on $F_A$ without mixing components, as the
+total reflection does on tensor indices.
+\end{remark}
 \begin{proof}
 Take $\bar p=(1,0,0,1)$. Its little algebra is three-dimensional: the rotation
 $J_3$ and two null translations, which mix time and space. On the quotient,
@@ -258,15 +268,31 @@ $P_{AB}(p)$, symmetric in $A\leftrightarrow B$. This freedom is \emph{not}
 constrained by positivity: $G$ and $\epsilon$, excluded from $\mu$ by
 Proposition~\ref{prop:zero}, are admissible here.
 
+\begin{lemma}[Pointwise algebra; no positivity, no measure theory]\label{lem:pointwise}
+Let $p$ be timelike and let $X$ be a complex $6\times6$ matrix whose rows and
+columns are annihilated by $p\wedge$ and which satisfies $D(\Lambda)XD(\Lambda)^{\mathsf T}=X$
+for every $\Lambda$ in the stabiliser of $p$. Then $X=c\,\Tt(p)$ for a
+number $c$.
+\end{lemma}
+\begin{proof}
+Boost to rest. By Lemma~\ref{lem:ext}, $X=\varphi_pK\varphi_p^{\mathsf T}$ with $K$
+a bilinear form on $\mathbb C^3$ invariant under $SO(3)$. The vector
+representation is absolutely irreducible, so $K=c'\,\delta$, since the
+antisymmetric candidate $\epsilon_{ijk}n^k$ would need a preferred vector. At
+rest $\Tt(\bar p)$ is the $EE$ block $-s\,\delta$.
+\end{proof}
+
 \begin{proposition}[uses W1; B imposed on the time-ordered product]\label{prop:local}
 If the time-ordered product is required to satisfy (B) in both slots, then
-$P(p)=q(p^2)\,\Tt(p)$ with $q$ a polynomial. If it is not required, $G$,
-$\epsilon$ and their multiples by powers of $p^2$ remain.
+$P(p)=q(p^2)\,\Tt(p)$ with $q$ a polynomial, of any degree. If it is not
+required, $G$, $\epsilon$ and their multiples by powers of $p^2$ remain.
 \end{proposition}
 \begin{proof}
-For timelike $p$, the covariance-plus-Bianchi part of
-Proposition~\ref{prop:massive}, which uses no positivity, gives $P(p)=c(p)\Tt(p)$
-with $c$ Lorentz invariant. Contracting with $\Tt$ and using
+Covariance of $P$ under all of $SO^+(1,3)$ gives, for $\Lambda$ fixing $p$,
+$D(\Lambda)P(p)D(\Lambda)^{\mathsf T}=P(p)$. So for each timelike $p$
+Lemma~\ref{lem:pointwise} gives $P(p)=c(p)\Tt(p)$, and covariance makes $c$ a
+Lorentz-invariant \emph{function}. It is not yet known to be a polynomial.
+Contracting with $\Tt$ and using
 $\Tt\cdot\Tt=12s^2$ gives $12s^2P(p)=N(p)\Tt(p)$. Here $N=P\cdot\Tt$ is an
 invariant polynomial, hence a polynomial in $s=p^2$. As polynomials this
 identity holds everywhere. On the cone $s=0$ and $\Tt\neq0$, so $N(0)=0$; write
@@ -282,8 +308,8 @@ here.
 \section{What this note does not establish}\label{sec:scope}
 
 \begin{itemize}
-\item \textbf{Nothing about H3.} $\mu$ is the spectral measure of $\langle
-  FF\rangle$, not the measure $\sigma$ of the static kernel $\mathcal G(Q^2)$.
+\item \textbf{Nothing about H3.} $\mu$ in~\eqref{eq:KL} is the spectral
+  measure of $\langle FF\rangle$, not the measure $\sigma$ of the static kernel $\mathcal G(Q^2)$.
   The passage through the $O(q_W^2)$ Wilson loop (Stokes, perimeter
   renormalisation, $T\to\infty$, contact terms) is the next E2 step.
 \item \textbf{No Coulomb phase} (Remark~\ref{rem:coulomb}).
@@ -311,6 +337,7 @@ Corollary~\ref{cor:K} (rows are $p\wedge v$) & & & & & \checkmark\\
 Proposition~\ref{prop:zero} ($p=0$) & \checkmark & & \checkmark & & \\
 Proposition~\ref{prop:massive} (massive) & \checkmark & & sign & & \checkmark\\
 Proposition~\ref{prop:null} (massless) & \checkmark & & bound & $\alpha'=0$ & \checkmark\\
+Lemma~\ref{lem:pointwise} (pointwise algebra) & \checkmark & & & & \checkmark\\
 Proposition~\ref{prop:local} (local terms) & \checkmark & & & & on $T$-product\\
 \bottomrule
 \end{tabular}
@@ -328,7 +355,9 @@ identically and an implementation error there would go unseen);
 the $4\to2$ reduction on the cone and its identification with $-\Tt$ and
 $i\,\Tt^{\dual}$; the eigenvalues $2(\alpha\pm\alpha')$; that the null
 stabiliser contains the two null translations; the indefiniteness at $p=0$;
-the local-term classification within a degree-$\le2$ ansatz; the dual identity;
+the local-term classification within a degree-$\le2$ ansatz (the general
+degree is covered by the proof of Proposition~\ref{prop:local}, not by the
+test); the dual identity;
 and the current relation. A deliberately broken Bianchi implementation (one
 cyclic term dropped) makes the cone, generic-timelike and local-term tests
 fail. The rest-frame test alone does not catch it, which is why the generic

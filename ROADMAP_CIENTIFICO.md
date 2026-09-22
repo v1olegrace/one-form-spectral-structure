@@ -202,6 +202,11 @@ Seja uma teoria de gauge **abeliana** em 3+1 dimensões, com matéria de carga
    domínio de convergência.
 2. **E2.3b** Classificar as estruturas tensoriais de ⟨F_{μν}F_{ρσ}⟩ e provar
    que (B) elimina a dual para p² ≠ 0. Cuidado com o ponto p² = 0.
+   **Status 22/09/2026:** feito em `notes/E2b_tensor_classification.tex`, com
+   verificação em `tests/test_e2_tensor_classification.py`. (B) elimina a dual
+   para p² > 0. **Em p² = 0, não elimina:** sobra i·T⋆, que a positividade só
+   limita (|α′| ≤ α) e que é removida pela localidade, via CPT. Três lemas
+   clássicos ainda estão marcados "to read", e a nota não foi compilada.
 3. **E2.3c** **Checagem de consistência a uma ordem:** o ρ de ⟨FF⟩ em O(e²)
    deve reproduzir dσ = g⁴ρ_J ds/s do Apêndice A. Escrever como teste
    simbólico em `tests/test_e2_one_loop.py`.
