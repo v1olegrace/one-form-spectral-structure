@@ -1,0 +1,347 @@
+\documentclass[11pt]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,booktabs}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Wt}{\widetilde W}
+\newcommand{\Tt}{T}
+\newcommand{\dual}{{\star}}
+
+\title{Admissible tensor structures of $\langle F_{\mu\nu}F_{\rho\sigma}\rangle$\\
+\large Roadmap stage E2.3b --- working note}
+\author{Mauro de Oliveira Cardoso (Viole)}
+\date{22 September 2026 --- draft, not yet compiled}
+
+\begin{document}
+\maketitle
+
+\paragraph{Status.}
+The finite-dimensional linear algebra in every proposition below is
+machine-checked in \texttt{tests/test\_e2\_tensor\_classification.py}
+(Section~\ref{sec:verification}). Those checks start from the most general
+Hermitian matrix and never assume $F=dA$. Three steps rest on classical results
+that have \emph{not} yet been read at the level of the statements used: the
+Bochner--Schwartz theorem (Lemma~\ref{lem:measure}), the CPT theorem
+(Lemma~\ref{lem:cpt}) and the covariant disintegration over orbits
+(Lemma~\ref{lem:disint}). They are marked \textsc{to read} and must not be
+cited in the paper until they have been read (roadmap, rule~2). This note makes
+\textbf{no} claim about Hypothesis~H3 or about the static response kernel; see
+Section~\ref{sec:scope}.
+
+\section{Setting}
+
+$F_{\mu\nu}(x)=-F_{\nu\mu}(x)$ is a Hermitian operator-valued tempered
+distribution. We assume:
+\begin{itemize}
+\item[(W)] the Wightman axioms for $F$: (W1) Poincar\'e covariance as a
+  $2$-form; (W2) spectral condition; (W3) positive-definite Hilbert space;
+  (W4) locality of $F$ with itself; (W5) a unique invariant vacuum $\Omega$.
+\item[(B)] the Bianchi identity as an operator identity,
+  $\partial_{[\lambda}F_{\mu\nu]}=0$ in the sense of distributions.
+\end{itemize}
+\textbf{Not assumed:} a gauge potential or $F=dA$; Maxwell's equations; a
+Coulomb phase; parity.
+
+Metric $\mathrm{diag}(+,-,-,-)$. Indices on $F$ are lower. We label the six
+independent components by $A=(\mu\nu)$, $\mu<\nu$, ordered
+$E_i=F_{0i}$ and $B_1=F_{23},B_2=F_{31},B_3=F_{12}$. The two-point function
+is $W_{AB}(x-y)=\langle\Omega,F_A(x)F_B(y)\Omega\rangle$, with Fourier transform
+$\Wt_{AB}(p)$, the sign convention chosen so that (W2) places
+$\operatorname{supp}\Wt$ in the closed forward cone $\overline V_+$. We use
+\begin{equation}
+\Tt_{\mu\nu\rho\sigma}(p)=p_\mu p_\rho g_{\nu\sigma}-p_\nu p_\rho g_{\mu\sigma}
+-p_\mu p_\sigma g_{\nu\rho}+p_\nu p_\sigma g_{\mu\rho},
+\end{equation}
+its dual on the second pair
+$(\Tt^{\dual})_{\mu\nu\rho\sigma}=\tfrac12\epsilon_{\rho\sigma}{}^{\alpha\beta}\Tt_{\mu\nu\alpha\beta}$,
+and on the first pair $({}^{\dual}\Tt)$. Two identities used below (checked):
+$\Tt_{\mu\nu\rho\sigma}\Tt^{\mu\nu\rho\sigma}=12(p^2)^2$ and
+${}^{\dual}\Tt+\Tt^{\dual}=p^2\,\epsilon$.
+
+\section{Four general facts}
+
+\begin{lemma}[Matrix-valued positive measure; uses W2, W3; \textsc{to read}: Bochner--Schwartz]\label{lem:measure}
+$\Wt$ is a tempered measure with values in Hermitian positive-semidefinite
+$6\times6$ matrices, supported in $\overline V_+$.
+\end{lemma}
+\begin{proof}[Sketch]
+For test functions $f_A$, $\|\sum_A F_A(f_A)\Omega\|^2
+=\int\overline{\hat f_A(p)}\hat f_B(p)\,d\Wt_{AB}(p)\ge0$. Hence for each
+$c\in\mathbb C^6$ the scalar distribution $\bar c_A c_B\Wt_{AB}$ is positive
+definite, and so it is a positive tempered measure. Polarisation gives the
+entries.
+\end{proof}
+
+Positivity is here a statement about the matrix of \emph{components}, with no
+metric involved. This is what makes the eigenvalue arguments below meaningful.
+
+\begin{lemma}[CPT reality; uses W1, W2, W4 via Jost's theorem; \textsc{to read}]\label{lem:cpt}
+$\Wt_{AB}(p)=\Wt_{BA}(p)$. Together with Hermiticity, $\Wt$ is real
+symmetric.
+\end{lemma}
+\begin{proof}
+The CPT operator $\Theta$ exists, is antiunitary, fixes $\Omega$, and maps
+$F_A(x)$ to $F_A(-x)$ with sign $(-1)^{2}=+1$ for a rank-$2$ tensor. Then
+$\overline{\langle\Omega,F_A(x)F_B(y)\Omega\rangle}
+=\langle\Omega,F_A(-x)F_B(-y)\Omega\rangle$. The left side equals
+$\langle\Omega,F_B(y)F_A(x)\Omega\rangle$ because $F$ is Hermitian. By
+translation invariance, $W_{AB}(\eta)=W_{BA}(\eta)$ for all $\eta$.
+\end{proof}
+Parity is \emph{not} assumed. CPT holds in parity-violating theories too.
+
+\begin{lemma}[Bianchi in momentum space; uses B]\label{lem:bianchi}
+$p_{[\lambda}\Wt_{\mu\nu],\rho\sigma}(p)=0$ and
+$p_{[\lambda}\Wt_{|\rho\sigma|,\mu\nu]}(p)=0$ as measures.
+\end{lemma}
+\begin{proof}
+Apply (B) to either field in $W_{AB}$ and Fourier-transform. Multiplying a
+tempered measure by the polynomial $p_\lambda$ is well defined.
+\end{proof}
+
+\begin{lemma}[Exterior algebra]\label{lem:ext}
+Let $p\neq0$ be a covector and $\omega$ a (complex) $2$-form. Then
+$p\wedge\omega=0$ if and only if $\omega=p\wedge v$ for some $v$, and $v$ is
+unique modulo $p$.
+\end{lemma}
+\begin{proof}
+Complete $p$ to a basis $\{p,e_1,e_2,e_3\}$ and write
+$\omega=p\wedge v+\omega'$ with $\omega'$ in the span of the $e_i\wedge e_j$.
+Then $p\wedge\omega=p\wedge\omega'$, and the $p\wedge e_i\wedge e_j$ are
+independent, so $p\wedge\omega=0$ forces $\omega'=0$.
+\end{proof}
+
+\begin{corollary}\label{cor:K}
+Let $\Wt=M\,d\tau$ with $\tau$ a dominating scalar measure (e.g.\ the trace).
+For $\tau$-a.e.\ $p\neq0$ there is a Hermitian $K(p)$ on the $3$-dimensional
+quotient $\mathbb C^4/\langle p\rangle$ with $M(p)=\varphi_p K(p)\varphi_p^\dagger$,
+where $\varphi_p(v)=p\wedge v$ is injective. Moreover $M(p)\succeq0$ if and
+only if $K(p)\succeq0$.
+\end{corollary}
+\begin{proof}
+By Lemma~\ref{lem:bianchi}, every row and every column of $M(p)$ is
+annihilated by $p\wedge$. Lemma~\ref{lem:ext} then places both in the image of
+the injective map $\varphi_p$.
+\end{proof}
+
+\begin{lemma}[Covariant disintegration; uses W1; \textsc{to read}]\label{lem:disint}
+$\overline V_+$ is the union of the orbits $\{0\}$, the hyperboloids
+$H_s=\{p^2=s,\,p^0>0\}$ ($s>0$) and the cone $C_+=\{p^2=0,\,p^0>0\}$. The
+restriction of $\Wt$ to $H:=\bigcup_{s>0}H_s$ and to $C_+$ has the form
+$\int d\kappa(s)\,D(L_p)\,N_s\,D(L_p)^{\mathsf T}\,d\Omega_s(p)$. Here
+$d\Omega_s$ is the invariant measure on the orbit, $L_p$ is a standard boost
+taking a reference point $\bar p_s$ to $p$, $\kappa\ge0$, and $N_s$ is
+invariant under the little group of $\bar p_s$.
+\end{lemma}
+\begin{proof}[Sketch]
+Since rotations act orthogonally on the component basis, the rest-frame trace
+$\tau'(E)=\int_E\operatorname{tr}\bigl[D(L_p)^{-1}M(p)D(L_p)^{-\mathsf T}\bigr]d\tau$
+is a Lorentz-invariant positive measure. It disintegrates over $s$ with the
+orbit measures. Covariance of $\Wt$ transports the density along each orbit and
+forces little-group invariance of $N_s$ for $\kappa$-a.e.\ $s$. The
+measure-theoretic details (null sets, measurable choice of $L_p$) are the part
+to be checked against a primary source.
+\end{proof}
+
+\section{The three sectors}
+
+The structure of each proof is the same. First, covariance and Bianchi reduce
+the admissible matrices to a finite list; this step uses no positivity. Then
+positivity and CPT constrain the coefficients. The two steps are kept
+separate on purpose.
+
+\subsection{$p=0$}
+
+\begin{proposition}[uses W1, W3; not B]\label{prop:zero}
+The Lorentz-invariant real symmetric matrices on $2$-forms are spanned by
+$G=g_{\mu\rho}g_{\nu\sigma}-g_{\mu\sigma}g_{\nu\rho}$ and $\epsilon$. Every
+nonzero combination $xG+y\epsilon$ has eigenvalues $\pm\sqrt{x^2+y^2}$, each
+with multiplicity three. Hence $\Wt(\{0\})=0$.
+\end{proposition}
+Indefiniteness is what excludes $G$ and $\epsilon$ from the \emph{spectral}
+measure. It does not exclude them as local terms (Section~\ref{sec:local}).
+
+\subsection{Massive sector, $p^2=s>0$}
+
+\begin{proposition}[uses W1, B; positivity only for the sign]\label{prop:massive}
+On $H$, $N_s=a(s)\cdot\bigl(-\Tt(\bar p)/s\bigr)$, i.e.
+$\Wt|_H=-\Tt(p)\,s^{-1}a(s)\,d\kappa(s)\,d\Omega_s(p)$, and $\Wt\succeq0$ there
+if and only if $a\ge0$.
+\end{proposition}
+\begin{proof}
+At rest, $\bar p=(m,0,0,0)$, the quotient $\mathbb C^4/\langle\bar p\rangle$
+is spanned by $e_1,e_2,e_3$, and $\varphi_{\bar p}(e_i)=m\,e^0\wedge e^i$: the
+\emph{electric} components. So Corollary~\ref{cor:K} already kills every row
+and column with a magnetic index. $K$ must be invariant under the little group
+$SO(3)$. An invariant Hermitian form on $\mathbb C^3$ is $a\,\delta_{ij}$,
+because the only candidate antisymmetric invariant, $i\epsilon_{ijk}n^k$, would
+need a preferred vector $n$. At rest $-\Tt(\bar p)/s$ is exactly the $EE$ block
+$\delta_{ij}$. Positivity of $M$ is positivity of $K$.
+\end{proof}
+Without (B), covariance alone admits four real structures at rest: $EE$, $BB$,
+$EB$ and $i\,EB$. The magnetic $BB$ block is the dual structure. CPT removes
+only $i\,EB$. \textbf{(B) is what removes $BB$ and $EB$} (checked: $4\to1$).
+
+\subsection{Massless sector, $p^2=0$, $p\neq0$}
+
+\begin{proposition}[uses W1, B, W3; then W4 through CPT]\label{prop:null}
+On $C_+$, covariance and (B) leave exactly two real structures,
+$-\Tt(p)$ and $i\,\Tt^{\dual}(p)$:
+\begin{equation}
+N=\alpha\,\bigl(-\Tt(\bar p)\bigr)+\alpha'\,i\,\Tt^{\dual}(\bar p).
+\end{equation}
+Its eigenvalues are $2(\alpha+\alpha')$, $2(\alpha-\alpha')$ and $0$ with
+multiplicity four. So positivity gives only $\alpha\ge|\alpha'|$.
+CPT (Lemma~\ref{lem:cpt}) then forces $\alpha'=0$, since
+$i\,\Tt^{\dual}$ is imaginary antisymmetric.
+\end{proposition}
+\begin{proof}
+Take $\bar p=(1,0,0,1)$. Its little algebra is three-dimensional: the rotation
+$J_3$ and two null translations, which mix time and space. On the quotient,
+spanned by $e_1,e_2$ and a second null vector $n$, the null translations fix
+$e_i$ modulo $p$ and send $n\mapsto n+2a^ie_i$. Invariance of $K$ under them
+kills $K^{nn}$ and $K^{in}$, so no longitudinal component survives. Invariance
+under $J_3$ leaves $K_\perp=\alpha\,\delta_{ij}+\alpha'\,i\epsilon_{ij}$. The
+covariant forms and the eigenvalues are checked exactly.
+\end{proof}
+
+\begin{remark}[The dual survives Bianchi on the cone]
+On $C_+$, $\dual(p\wedge e_1)=\pm\,p\wedge e_2$. The dual of a
+Bianchi-compatible row is therefore again Bianchi-compatible: at $p^2=0$ the
+Bianchi identity and the source-free Maxwell equation coincide. Here, and only
+here, the dual structure is removed not by (B) but by \textbf{locality}, through
+CPT. The quantities $\alpha\pm\alpha'$ are the spectral weights of the two
+helicities. Without (W4), positivity would allow a chiral massless spectral
+weight.
+\end{remark}
+
+\section{Assembled result}
+
+\begin{theorem}\label{thm:E2b}
+Under (W) and (B) there is a unique positive tempered measure $\mu$ on
+$[0,\infty)$ such that
+\begin{equation}
+\Wt_{\mu\nu\rho\sigma}(p)=2\pi\,\theta(p^0)\int_{[0,\infty)}d\mu(s)\,
+\delta(p^2-s)\,\bigl(-\Tt_{\mu\nu\rho\sigma}(p)\bigr).
+\label{eq:KL}
+\end{equation}
+Conversely, for any positive $\mu$ the right-hand side is positive
+semidefinite.
+\end{theorem}
+\begin{proof}
+Combine Lemma~\ref{lem:disint} with Propositions~\ref{prop:zero},
+\ref{prop:massive} and~\ref{prop:null}, absorbing $a(s)/s$ and $\alpha$ into
+$\mu$. Positivity of $\mu$ is equivalent to $a\ge0$ and $\alpha\ge0$.
+\end{proof}
+
+Up to the \textsc{to read} lemmas, this answers E2.3b. \textbf{Without assuming
+$F=dA$, (W) and (B) force the two-point function of $F$ into the form it would
+have if $F=dA$ for a vector field with a positive K\"all\'en--Lehmann
+measure.} The dual structure is eliminated for $p^2>0$ by (B), and for
+$p^2=0$ by locality through CPT; positivity only bounds it there.
+
+\begin{remark}[The photon weight is not forced]\label{rem:coulomb}
+$\mu(\{0\})\ge0$ is the massless weight. Nothing in (W)+(B) makes it positive.
+The free Proca field has $\mu=Z\,\delta_{m^2}$ and $\mu(\{0\})=0$. This
+confirms obligation O1 in \texttt{DECISIONS.md} (D5): a Coulomb-phase
+hypothesis (C), $\mu(\{0\})>0$, must be added explicitly.
+\end{remark}
+
+\section{Local terms}\label{sec:local}
+
+The Wightman function fixes the time-ordered two-point function only away
+from coincident points. The remaining freedom is a covariant polynomial
+$P_{AB}(p)$, symmetric in $A\leftrightarrow B$. This freedom is \emph{not}
+constrained by positivity: $G$ and $\epsilon$, excluded from $\mu$ by
+Proposition~\ref{prop:zero}, are admissible here.
+
+\begin{proposition}[uses W1; B imposed on the time-ordered product]\label{prop:local}
+If the time-ordered product is required to satisfy (B) in both slots, then
+$P(p)=q(p^2)\,\Tt(p)$ with $q$ a polynomial. If it is not required, $G$,
+$\epsilon$ and their multiples by powers of $p^2$ remain.
+\end{proposition}
+\begin{proof}
+For timelike $p$, the covariance-plus-Bianchi part of
+Proposition~\ref{prop:massive}, which uses no positivity, gives $P(p)=c(p)\Tt(p)$
+with $c$ Lorentz invariant. Contracting with $\Tt$ and using
+$\Tt\cdot\Tt=12s^2$ gives $12s^2P(p)=N(p)\Tt(p)$. Here $N=P\cdot\Tt$ is an
+invariant polynomial, hence a polynomial in $s=p^2$. As polynomials this
+identity holds everywhere. On the cone $s=0$ and $\Tt\neq0$, so $N(0)=0$; write
+$N=sN_1$ and cancel one $s$, since the polynomial ring is an integral domain.
+Repeating the argument gives $N_1(0)=0$, so $12P=q\,\Tt$ with $q$ a
+polynomial.
+\end{proof}
+In position space these are derivatives of $\delta^{4}(x-y)$. Whether and how
+they reach the static kernel, and hence the $P(Q^2)$ of the P-E2 statement,
+is part of the next step (obligations O2 and O3 in D5). It is not settled
+here.
+
+\section{What this note does not establish}\label{sec:scope}
+
+\begin{itemize}
+\item \textbf{Nothing about H3.} $\mu$ is the spectral measure of $\langle
+  FF\rangle$, not the measure $\sigma$ of the static kernel $\mathcal G(Q^2)$.
+  The passage through the $O(q_W^2)$ Wilson loop (Stokes, perimeter
+  renormalisation, $T\to\infty$, contact terms) is the next E2 step.
+\item \textbf{No Coulomb phase} (Remark~\ref{rem:coulomb}).
+\item \textbf{A link to the current, recorded for later.} If additionally
+  $\partial^\mu F_{\mu\nu}=j_\nu$ (hypothesis M), then with $\Wt=-\Tt\,a/s$ one
+  gets $p^\mu p^\alpha\Wt_{\mu\nu,\alpha\beta}=a\,(p_\nu p_\beta-s\,g_{\nu\beta})$.
+  The massive density of $F$ is then the current density,
+  $\rho_J(s)=s\,d\mu/ds$ on $(0,\infty)$, and the massless atom does not couple
+  to $j$. This has been checked algebraically but not proved at the level of
+  measures.
+\item Non-abelian theories, where $F$ is not gauge invariant, are outside the
+  scope.
+\end{itemize}
+
+\section{Where each hypothesis is used}
+
+\begin{center}
+\begin{tabular}{lccccc}
+\toprule
+Step & W1 & W2 & W3 & W4 & B\\
+\midrule
+Lemma~\ref{lem:measure} (measure) & & \checkmark & \checkmark & & \\
+Lemma~\ref{lem:cpt} (CPT reality) & \checkmark & \checkmark & & \checkmark & \\
+Corollary~\ref{cor:K} (rows are $p\wedge v$) & & & & & \checkmark\\
+Proposition~\ref{prop:zero} ($p=0$) & \checkmark & & \checkmark & & \\
+Proposition~\ref{prop:massive} (massive) & \checkmark & & sign & & \checkmark\\
+Proposition~\ref{prop:null} (massless) & \checkmark & & bound & $\alpha'=0$ & \checkmark\\
+Proposition~\ref{prop:local} (local terms) & \checkmark & & & & on $T$-product\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Machine verification}\label{sec:verification}
+
+\texttt{tests/test\_e2\_tensor\_classification.py} starts from the general
+Hermitian $6\times6$ matrix (36 real unknowns). It imposes little-group
+invariance and (B) as linear equations and computes the nullspace exactly
+(sympy). It checks:
+the $4\to1$ reduction at rest \emph{and} at the generic timelike momentum
+$(9,2,3,6)$ (at rest only $p_0\neq0$, so some cyclic Bianchi terms vanish
+identically and an implementation error there would go unseen);
+the $4\to2$ reduction on the cone and its identification with $-\Tt$ and
+$i\,\Tt^{\dual}$; the eigenvalues $2(\alpha\pm\alpha')$; that the null
+stabiliser contains the two null translations; the indefiniteness at $p=0$;
+the local-term classification within a degree-$\le2$ ansatz; the dual identity;
+and the current relation. A deliberately broken Bianchi implementation (one
+cyclic term dropped) makes the cone, generic-timelike and local-term tests
+fail. The rest-frame test alone does not catch it, which is why the generic
+momentum is there.
+
+\section*{Sources to read before any citation}
+None of these has been read in this session, and they are listed without
+theorem numbers on purpose: Streater and Wightman, \emph{PCT, Spin and
+Statistics, and All That} (CPT; positivity and measures); Jost's CPT theorem;
+Bogoliubov, Logunov and Todorov, \emph{Introduction to Axiomatic Quantum Field
+Theory} (K\"all\'en--Lehmann for tensor fields); Weinberg, \emph{The Quantum
+Theory of Fields}, vol.~I, ch.~2 (massless little group); K\"all\'en (1952)
+and Lehmann (1954). If Theorem~\ref{thm:E2b} is already stated in one of them,
+it becomes an attribution, not a result (roadmap E2.3e).
+
+\end{document}
