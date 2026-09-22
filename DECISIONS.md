@@ -127,7 +127,7 @@ em texto submetido, o `.tex` precisa ser recuperado com o autor.
 
 ## D3 — Discrepância entre o README e o paper canônico
 
-**Data:** 21/09/2026 · **Status:** ABERTA, a resolver em E3/E5
+**Data:** 21/09/2026 · **Status:** RESOLVIDA NO README em 22/09/2026 (C5 retirado do ledger do paper 1, com nota apontando para o paper 2); a decisão de importar ou não F/G/C6 para o `.tex` segue em E3/E5
 
 O claim ledger do `README.md` lista **C5** ("derivative-free sampled hierarchy
 with error envelope") como claim do paper 1. Ele não está no texto canônico.

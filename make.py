@@ -40,14 +40,19 @@ def target_test():
 
 def target_numerics():
     rc = 0
-    for script in ["reproducibility/extended_analysis.py",
-                   "reproducibility/falsification_suite.py",
-                   "reproducibility/interval_bounds.py"]:
+    # pdf_qa.py is deliberately absent: it checks the Quarto render of the
+    # non-canonical pt-BR draft, not paper/paper.tex.
+    for script, *args in [["reproducibility/analysis.py"],
+                          ["reproducibility/laplace_geometry.py"],
+                          ["reproducibility/extended_analysis.py"],
+                          ["reproducibility/falsification_suite.py"],
+                          ["reproducibility/interval_bounds.py"],
+                          ["reproducibility/figure_data.py", "--check"]]:
         path = ROOT / script
         if not path.exists():
             print(f"  skip (absent): {script}")
             continue
-        rc |= run([sys.executable, path.name], cwd=path.parent)
+        rc |= run([sys.executable, path.name, *args], cwd=path.parent)
     return rc
 
 

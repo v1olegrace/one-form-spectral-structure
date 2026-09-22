@@ -109,14 +109,15 @@ python make.py certified   # Arb-validated one-loop benchmark (needs python-flin
 python make.py check       # report toolchain availability
 ```
 
-`make.py all` runs `extended_analysis.py`, `falsification_suite.py` and
-`interval_bounds.py` only. **It does not run** `analysis.py`,
-`laplace_geometry.py`, `figure_data.py` or `pdf_qa.py`, so four `data/` files and
-two figure pairs go stale unless those are run directly:
+`make.py numerics` (and therefore `make.py all`) runs `analysis.py`,
+`laplace_geometry.py`, `extended_analysis.py`, `falsification_suite.py`,
+`interval_bounds.py` and `figure_data.py --check`, about 50 s in total.
+`pdf_qa.py` is deliberately excluded: it checks the Quarto render of the
+non-canonical pt-BR draft. To re-integrate every certified source sample
+with Arb:
 
 ```bash
-cd reproducibility && python analysis.py && python laplace_geometry.py
-python reproducibility/figure_data.py --check
+python reproducibility/verify_one_loop_output.py --reintegrate
 ```
 
 ---

@@ -40,9 +40,13 @@ the Weak Gravity Conjecture. The per-claim novelty verdict is in
 | C2 | Φ is completely monotone | classical | Bernstein–Widder; Bachas 1986 |
 | C3 | Γ = −(log Φ)′ ↓ M*, an upper bound | classical (effective mass) | Lüscher–Wolff; Blossier et al. |
 | C4 | Hankel pencil B_K ↓ M* | classical (GEVP / Padé) | Blossier et al.; Masjuan–Peris; Hackett–Wagman |
-| C5 | Derivative-free sampled hierarchy with error envelope | partial | Hausdorff problem; lattice GEVP |
 | C7 | No uniform lower bound on M* from a finite window | proved; phenomenon known | inverse-Laplace ill-posedness |
 | C8 | Positivity alone cannot fix a WGC scale | proved conditionally | COR 2022; Dvali |
+
+C5 (derivative-free sampled hierarchy) and C6 (Mellin bridge) are **not** in
+`paper/paper.tex`: they exist only in the pt-BR working draft and are assigned
+to the second, mathematical paper. See [`DECISIONS.md`](DECISIONS.md) D1/D3 and
+[`data/manuscript_comparison.csv`](data/manuscript_comparison.csv).
 
 The central open question, **does positivity imply H3, and in which regime?**,
 is stage E2 of the roadmap.
@@ -135,11 +139,16 @@ are the same ones that make ML results trustworthy.
 
 | Check | Result | Environment |
 |---|---|---|
-| Clean LaTeX build: 0 warnings, 0 overfull, 0 Type 3 fonts | ✔ | TeX Live 2023, 21 Sep 2026 |
-| `figure_data.py --check` (all numbers quoted in Sec. 7) | ✔ | NumPy 2.4 |
-| `test_latex_structure.py`, `test_bibliography.py`, `test_paper_build.py` | ✔ | same |
-| Full high-precision suite (`make.py numerics`, remaining tests) | last reported passing by the author; **not re-run in the v0.2 environment** (mpmath unavailable there) | author's machine |
+| Clean LaTeX build: 0 warnings, 0 overfull, 0 Type 3 fonts | ✔ reported | v0.2 package environment (TeX Live 2023), 21 Sep 2026 — **not reproduced since**: no LaTeX on the machine used afterwards |
+| `figure_data.py --check` (all numbers quoted in Sec. 7) | ✔ | Windows 11, NumPy 2.3.5, 21 Sep 2026 |
+| Full test suite in a **clean clone** | ✔ 86 passed, 1 skipped (`test_paper_build.py`, no LaTeX) | same; python-flint 0.9.0 installed |
+| `make.py all` (numerics + audit + tests) | ✔ exit 0 | same |
+| `make.py certified`: 288 exact weight certificates | ✔ all verified | same |
+| `verify_one_loop_output.py --reintegrate` (Arb re-integration of every source sample) | ✔ PASS, 28/28 distinct sample integrals | same, 22 Sep 2026 |
+| Without python-flint | `test_one_loop_certified.py` is skipped as a module; an independent audit run reported 73 passed, 2 skipped, consistent with that | external audit, 22 Sep 2026 |
 | CI workflow (`.github/workflows/tests.yml`) | never executed | — |
+
+Full per-artefact index of the last run: [`output/README.md`](output/README.md).
 
 ## Known limitations and open problems
 
@@ -150,9 +159,9 @@ are the same ones that make ML results trustworthy.
 - **Finite-window data cannot bound M* from below** without a minimum-weight
   assumption (Theorem H).
 - **Test gaps.** Noisy-data recovery (L), noisy differentiation (M) and blind
-  recovery (N) are not yet implemented. `interval_bounds.py` still labels
-  randomised perturbation trials as certified; this is scheduled for
-  correction in stage E4.
+  recovery (N) are not yet implemented. Randomised perturbation trials in
+  `interval_bounds.py` are now labelled `CHECKED`, not certified; moving that
+  verification into exact rational arithmetic (the rest of E4.2) is open.
 
 ## Citation
 
