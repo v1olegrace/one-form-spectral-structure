@@ -36,9 +36,40 @@ jobs:
 
       - name: Fail if generated or cache artifacts are tracked
         run: |
-          if git ls-files | grep -E '(^tmp/|chrome_profile|__pycache__|\.pytest_cache|^output/html/|^output/pdf/)'; then
+          if git ls-files | grep -E '(^tmp/|chrome_profile|__pycache__|\.pytest_cache|^output/html/|^output/pdf/|^output/certified_one_loop/)'; then
             echo "Generated/cache artifacts are tracked in version control"; exit 1
           fi
+
+  certified:
+    # Validated-continuum backend (Arb via python-flint). Without it,
+    # tests/test_one_loop_certified.py is skipped, so the plain `tests` job
+    # alone does not exercise the certification protocol.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install core + certified dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r reproducibility/requirements-certified.txt
+
+      - name: Backend present (otherwise the certified tests would silently skip)
+        run: python -c "import flint; print('python-flint', flint.__version__)"
+
+      - name: Certified tests, with any skip treated as failure
+        run: |
+          set -o pipefail
+          python -m pytest tests/test_one_loop_certified.py tests/test_spectral_weight_certificates.py -q -rs | tee pytest.out
+          if grep -q "skipped" pytest.out; then echo "certified tests were skipped"; exit 1; fi
+
+      - name: Generate the one-loop certificates
+        run: python make.py certified
+
+      - name: Independent re-verification with Arb re-integration
+        run: python reproducibility/verify_one_loop_output.py --reintegrate
 
   paper:
     runs-on: ubuntu-latest
