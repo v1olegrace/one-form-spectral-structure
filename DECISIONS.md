@@ -173,3 +173,54 @@ nesta máquina, `tests/test_paper_build.py` é pulado por esse motivo, e
 A regra 4 do roadmap exige build limpo para encerrar etapa. A tag
 `paper-v0.2` fica **deliberadamente não criada** até que `python make.py pdf`
 rode num ambiente com LaTeX.
+
+---
+
+## D5 — Obrigações de prova da P-E2 (auditoria externa de 22/09/2026)
+
+**Data:** 22/09/2026 · **Status:** ABERTA, condiciona E2.3a/b
+
+Uma auditoria independente do repositório levantou três pontos contra o
+enunciado da P-E2 no roadmap. Os três foram conferidos aqui. Não são
+contraexemplos à H3: são passos que o enunciado atual assume sem provar.
+
+**O1 — Polo de Coulomb.** A P-E2 afirma que (W), (B) e (L) dão
+𝒢 = Z/Q² + ∫dσ/(Q²+s) + P. Não dão: um campo de Proca livre satisfaz as três
+condições e não tem polo em Q² = 0 (q∞ = 0, e δ nem está definido). O
+**paper** já está correto nesse ponto, porque a H2 postula explicitamente
+"a Coulomb pole of residue g_R² > 0". A lacuna está no **roadmap**. A P-E2
+precisa de uma hipótese explícita (C) de fase de Coulomb, com resíduo positivo
+e q∞ ≠ 0. A alternativa é enunciar o teorema espectral geral e, à parte, o
+corolário para o perfil.
+
+**O2 — Do correlator ao observável.** A positividade de ⟨FF⟩ precisa ser
+transportada até o coeficiente quadrático do laço de Wilson. Isso envolve a
+projeção tensorial, o sinal da medida, os termos de contato, a renormalização
+do perímetro e o limite T → ∞. Um fato já verificado simbolicamente ajuda: no
+limite estático, ⟨E_iE_j⟩ ∝ Q_iQ_j D_E(Q²) é **longitudinal**, e o escalar
+visto pelo potencial é Q² D_E(Q²). A estrutura transversal está em ⟨B_iB_j⟩.
+O brief do Codex dizia o contrário e foi corrigido.
+
+**O3 — Subtrações versus H3.** A H3 do paper é **não subtraída**, com
+∫dσ/(μ₀²+s) < ∞. A P-E2 admite subtrações e um polinômio P(Q²). A tensão é
+menor do que o roadmap sugere. O passo 3 de E2.1 diz que "∫ρ/(s+μ²)
+diverge", mas isso vale para a densidade de corrente ρ_J, não para σ. A uma
+volta, dσ = g⁴ρ_J ds/s, e com ρ_J → constante a integral
+∫dσ/(μ₀²+s) ~ ∫ds/s² **converge**: nessa ordem a H3 não subtraída vale.
+Subtrações só se tornam necessárias se σ crescer mais que isso. É o caso do
+exemplo matemático da Proposição 1 do rascunho (dσ = ½ds), que diverge
+logaritmicamente. **A verificar na nota E2:** se a forma ressomada preserva
+essa convergência, e o que a Proposição 1 acrescenta fisicamente além dela.
+
+**Consequência para E2.3b.** A classificação tensorial deve partir do
+correlator mais geral compatível com Poincaré, paridade e antissimetria, e só
+então impor Bianchi, tratando p² = 0 e os termos de contato separadamente.
+Verificar Bianchi num tensor construído a partir de F = dA é tautológico e não
+conta como prova.
+
+**Verificação complementar feita nesta data.**
+`verify_one_loop_output.py --reintegrate` passou. Reintegrou com Arb as quatro
+chaves (tipo, r₀), e com elas **todas as 28 integrais de amostra distintas** —
+os três datasets de cada chave diferem só no ruído, que é aplicado depois da
+integração —, além dos benchmarks diretos de peso. O `source_pairs_reintegrated: 0`
+da execução anterior refletia só a ausência da flag.

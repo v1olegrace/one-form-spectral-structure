@@ -48,11 +48,22 @@ Assert, with sympy:
   `T = p_μp_ρ η_{νσ} − p_νp_ρ η_{μσ} − p_μp_σ η_{νρ} + p_νp_σ η_{μρ}` from
   `F = ∂A` and the transverse propagator; verify symbolically that `T` is
   antisymmetric in (μν) and (ρσ), symmetric under pair exchange, and satisfies
-  the Bianchi contraction `ε^{λμνκ} p_λ T_{μνρσ} = 0` (this is the algebraic
-  fact behind "(B) eliminates the dual structure").
-- (c) Static electric component: for `p = (0, **Q**)` (Euclidean),
-  `⟨E_i E_j⟩ ∝ (Q_iQ_j − Q² δ_ij)·D_E(Q²)` up to sign convention — derive and
-  assert the exact form.
+  `ε^{λμνκ} p_λ T_{μνρσ} = 0`. **Scope of this check:** `T` is built from
+  `F = dA`, so Bianchi holds by construction and this is a *consistency* test
+  of the implementation only. It does **not** show that Bianchi eliminates the
+  alternative tensor structures of a general correlator; that classification
+  (start from the most general structure allowed by the symmetries, then impose
+  Bianchi, treating `p² = 0` and contact terms separately) is E2.3b and belongs
+  to the proof note. Do not describe this test as proving it.
+- (c) Static components, Euclidean, `p = (0, **Q**)`. From the `T` above,
+  `T_{0i0j} = p_0² δ_ij + p_i p_j`, so in the static limit
+  `⟨E_i E_j⟩ ∝ Q_i Q_j · D_E(Q²)` — **longitudinal**, as it must be for a
+  Coulomb field `E = −∇φ`. The transverse structure appears in the magnetic
+  components: with `B_i = ½ ε_{iab} F_{ab}`,
+  `⟨B_i B_j⟩ ∝ (Q² δ_ij − Q_i Q_j) · D_E(Q²)`. Assert both, and assert that
+  `Q_i ⟨E_i E_j⟩ Q_j / Q² = Q² D_E(Q²)` is the scalar the static potential
+  sees. (An earlier version of this brief wrongly put the transverse structure
+  in `⟨E_i E_j⟩`; if you started from it, discard that test.)
 - (d) With the one-loop Dirac density
   `ρ_J = q²/(12π²) (1 + 2m²/s) √(1 − 4m²/s)`, the resulting `dσ = g_R⁴ρ_J ds/s`
   reproduces the Uehling prefactor `2α/3π` (q=1, g_R² = 4πα).
@@ -82,6 +93,17 @@ this in the module docstring:
   screening checks pass and only the full gate fails.
 - **T4 — pure Proca (documenting the obstruction):** assert that `q_∞ = 0`
   numerically, and that the code raises a clear error instead of dividing by it.
+  Record in the docstring *why* this case matters for E2: a free Proca field
+  satisfies Wightman positivity for `F`, the Bianchi identity and linear
+  response, yet has no Coulomb pole. So those three conditions alone cannot
+  deliver the `g_R²/Q²` term of H3 — a Coulomb-phase hypothesis is needed.
+
+Also for T2: beyond `K = 1` the two-atom Hankel matrix `H₀` loses rank. Assert
+that the code **detects the rank collapse and reports it** rather than returning
+a number for `K ≥ 2`.
+
+Build every `Φ` in C2 from `G` through the full chain; closed forms are allowed
+only as the reference the pipeline output is compared against, never as input.
 
 Use mpmath at ≥ 40 digits for the Hankel steps; label all outputs `CHECKED`.
 
