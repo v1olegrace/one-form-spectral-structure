@@ -133,7 +133,3 @@ python reproducibility/figure_data.py --check
   working draft in `manuscript/`, which is **not** the canonical manuscript.
   `pdf_qa.json` reports `all_checks_pass` against that non-canonical PDF, so it
   says nothing about `paper/paper.tex`.
-- **`interval_bounds.json` currently disagrees with the committed
-  `interval_bounds.py`.** The working tree carries the stage-E4.2 relabel of
-  randomised trials from `CERTIFIED` to `CHECKED`, plus exact rational bound
-  endpoints; script and output are both uncommitted and must land together.
