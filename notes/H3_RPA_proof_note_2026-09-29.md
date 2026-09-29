@@ -482,6 +482,57 @@ ot\equiv0$, $f$ é Stieltjes
 - **Atribuição desta nota:** pendente. "Não encontrei nas fontes pesquisadas"
   **não é prova de novidade** e não deve ser usado como tal.
 
+## 9-bis. Anterioridade do mecanismo do átomo (busca de 29/09)
+
+Esta é a terceira prioridade bibliográfica, antes não iniciada: literatura
+sobre polos criados pela ressoma de Dyson e reconstrução espectral completa.
+**Encontrei anterioridade direta do mecanismo.**
+
+### O fenômeno é conhecido
+
+**arXiv:1209.2332**, *Propagator poles and an emergent stable state below
+threshold* (leitura dirigida do texto completo em HTML).
+
+| Aspecto | O artigo | Nós |
+|---|---|---|
+| Estrutura | ressoma de um laço, $G_S=[p^2-M_0^2+2g^2\Sigma]^{-1}$ | ressoma de Dyson, $\mathcal{G}=g_R^2/(Q^2W)$ |
+| O polo | discreto, na **primeira folha** (física) | discreto, no eixo real acima do corte |
+| Origem | **não existe na teoria nua**; aparece para $g>g^*$ | não existe em $\rho_J$; aparece para $Z_3>0$ |
+| Suporte | densidade de entrada anula-se abaixo de $2m$; o polo fica **fora** dela | $\rho_J$ vive em $[4m^2,\Lambda^2]$; o átomo fica **fora**, em $s_a>\Lambda^2$ |
+| Resíduo | **positivo**, $Z=[1+2g^2\partial\Sigma/\partial x^2]^{-1}$ | **positivo**, $w=g_R^2/(s_aW'(-s_a))$ |
+| Fecho | regra de soma $Z+\int d_{\rm a.t.}=1$ restaura a normalização | regra de soma (1), $g_R^2+\int d\sigma+\sum w_a=g_R^2/Z_3$ |
+
+**Conclusão de atribuição.** *Ressoma gerar um átomo discreto fora do suporte
+da densidade de entrada, com resíduo positivo, e a completude ser restaurada
+por regra de soma espectral* — **isto é conhecido**, e não deve ser
+apresentado como descoberta do projeto. O cenário físico difere (lá um escalar
+acoplado a um limiar de dois corpos, com o polo **abaixo** do limiar; aqui o
+kernel RPA com corte rígido e o átomo **acima** do corte), mas o mecanismo e a
+forma da resolução são os mesmos. Encontrar isto **reforça** o resultado: é
+confirmação independente de que o fenômeno é real e bem entendido.
+
+O que permanece específico deste trabalho, e mesmo assim sem novidade
+estabelecida: o enunciado para **este** observável, o critério em $Z_3$ com os
+três regimes, a distinção entre fantasma spacelike e átomo timelike, e o ponto
+cego do filtro de momentos do contínuo.
+
+### Um segundo caso, só em nível de resumo
+
+**arXiv:1206.0176**, sobre o propagador do top: o resumo indica que a
+contribuição **taquiônica** à função espectral faz o propagador exato **não**
+satisfazer a representação de Källén–Lehmann, e que remover o polo taquiônico é
+necessário para recuperá-la. É o análogo do nosso fantasma spacelike quebrando
+H3. **O texto completo não foi lido** (extração do PDF falhou); registro em
+nível de resumo, o que não basta para comparar hipóteses.
+
+### Estado das três prioridades bibliográficas
+
+| Prioridade | Estado |
+|---|---|
+| 1. SSV, fonte primária | índice e errata conferidos; **numeração não confirmada** (fontes secundárias divergem entre "Teor. 6.2 e 7.3" e "Teor. 6.2 e Cor. 7.4"); livro não aberto |
+| 2. Brown–Weisberger 1979 | **não lido**; paywall APS, rota indireta não deu nível de equação |
+| 3. Polos de ressoma e reconstrução completa | **feita**; anterioridade direta encontrada acima |
+
 ## 10. Validação condicional do kernel implementada
 
 Implementação em `reproducibility/rpa_kernel_conditions.py`, separada de

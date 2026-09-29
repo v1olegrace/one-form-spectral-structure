@@ -356,11 +356,19 @@ a análise separada da fronteira.
 - Nada além de RPA: trocar $\rho_J$ pela auto-energia 1PI completa **não**
   herda a positividade de Lehmann de graça — em gauge covariante a métrica é
   indefinida.
-- Atribuição. O limite $0\le Z_3\le1$ é clássico (Källén 1952); a propriedade
-  de Stieltjes da polarização é conhecida (Raman 2026, já auditado no repo).
-  A identificação **H3 $\iff$ ausência de fantasma** não foi encontrada nas
-  fontes pesquisadas, o que não é o mesmo que ser nova. Brown–Weisberger 1979
-  segue não lido.
+- **Atribuição — e o mecanismo do átomo TEM anterioridade direta.**
+  O limite $0\le Z_3\le1$ é clássico (Källén 1952); a propriedade de Stieltjes
+  da polarização é conhecida (Raman 2026, auditado no repo). E a busca de 29/09
+  encontrou **arXiv:1209.2332**, onde a ressoma de um laço gera um polo discreto
+  na folha física, **fora do suporte da densidade de entrada**, com **resíduo
+  positivo**, e a completude é restaurada por uma **regra de soma espectral** —
+  exatamente o mecanismo do nosso átomo, em cenário físico diferente (escalar
+  abaixo do limiar, em vez de kernel RPA acima do corte). *Isto não deve ser
+  apresentado como descoberta do projeto.* Encontrá-lo reforça o resultado.
+  Também em nível de resumo, arXiv:1206.0176 relata que uma contribuição
+  **taquiônica** impede a representação de Källén–Lehmann do propagador do top
+  — análogo do nosso fantasma spacelike. Texto completo não lido.
+  Brown–Weisberger 1979 segue não lido, e a numeração de SSV não confirmada.
 
 ## 10. Extensões que valem a pena
 
