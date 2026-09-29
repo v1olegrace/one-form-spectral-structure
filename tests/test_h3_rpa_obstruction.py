@@ -191,3 +191,52 @@ def test_continuum_compatibility_and_kernel_obstruction_coexist(g2c):
     assert moments["scope"] != kernel["scope"], "the two scopes must stay distinct"
     assert "pole" not in moments["status"].lower(), \
         "moment_gate must not claim anything about poles"
+
+
+# --- 9. the measure leaves the support of the input density -----------------
+def test_resummation_creates_an_atom_above_the_cutoff(g2c):
+    """Refutes the claim that sigma stays inside supp(rho_J).
+
+    A hard cutoff leaves (L2, inf) off the cut, so W is real there and vanishes
+    exactly once when Z3 > 0. The resulting atom has positive weight, so the
+    Stieltjes positivity verdict survives -- only the SUPPORT claim was wrong.
+    """
+    atom = ga.spectral_atom(0.5 * g2c, L2)
+    assert atom is not None, "Z3 > 0 must produce exactly one atom above L2"
+    s_a, w = atom
+    assert s_a > L2, "the atom must sit OUTSIDE the input density's support"
+    assert w > 0, "positive weight: H3 positivity is not violated by the atom"
+
+    # uniqueness: W is strictly increasing on (L2, inf)
+    ts = [L2 * f for f in (1.01, 2.0, 10.0, 100.0)]
+    vals = [ga._W_above_cutoff(t, 0.5 * g2c, L2) for t in ts]
+    assert all(b > a for a, b in zip(vals, vals[1:])), "W must increase on (L2, inf)"
+
+
+def test_no_atom_when_Z3_is_negative(g2c):
+    """Z3 < 0 keeps W negative on the whole of (L2, inf): no atom there."""
+    assert ga.spectral_atom(1.5 * g2c, L2) is None
+    assert ga.ghost_root(1.5 * g2c, L2) is not None, "but the spacelike ghost is present"
+
+
+@pytest.mark.parametrize("Q2", [1.0, 10.0, 100.0, 1000.0])
+def test_reconstruction_needs_the_atom(g2c, Q2):
+    """THE test that would have caught the error: dropping the atom must fail.
+
+    The continuum-only reconstruction agrees to ~1e-8, which reads as quadrature
+    error and is not. Including the atom improves it by four orders of magnitude.
+    """
+    g2 = 0.5 * g2c
+    target = ga.G(Q2, g2, L2) - g2 / Q2
+    without = ga.reconstruct(Q2, g2, L2, include_atom=False)
+    with_atom = ga.reconstruct(Q2, g2, L2, include_atom=True)
+
+    err_without = abs(target - without) / abs(target)
+    err_with = abs(target - with_atom) / abs(target)
+
+    assert err_without > 1e-9, (
+        "the incomplete reconstruction must be measurably wrong; if this passes "
+        "the atom vanished and the analysis changed")
+    assert err_with < 1e-10, "including the atom must close the decomposition"
+    assert err_with < err_without / 100, (
+        f"the atom must dominate the residual: {err_without:.2e} -> {err_with:.2e}")

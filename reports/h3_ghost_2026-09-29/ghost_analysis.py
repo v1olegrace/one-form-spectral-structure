@@ -149,6 +149,61 @@ def density_closed_form(s, g2, L2):
     return g2**2 * _rho_scalar(s) / (s * abs(Wc)**2)
 
 
+# ------------------------------------------- discrete spectrum above the cutoff
+def _W_above_cutoff(t, g2, L2):
+    """W(Q2 = -t) for t > L2, where W is real again (no cut there)."""
+    T = np.log(L2 / S_THR)
+    I, _ = quad(lambda u: _rho_scalar(S_THR * np.exp(u)) * S_THR * np.exp(u)
+                / (t - S_THR * np.exp(u)), 0.0, T,
+                limit=400, epsabs=1e-14, epsrel=1e-12)
+    return Z3_of(g2, L2) - g2 * I
+
+
+def spectral_atom(g2, L2):
+    """The discrete atom of sigma above the hard cutoff, or None.
+
+    A hard cutoff leaves the real interval (L2, inf) outside the cut, so W is
+    real there and may vanish.  On that interval W is strictly increasing
+    (dW/dt = g2 * int rho/(t-s)^2 > 0), runs to -inf as t -> L2+ because the
+    integral diverges logarithmically at the cutoff edge, and tends to Z3 as
+    t -> inf.  Hence there is EXACTLY ONE root iff Z3 > 0, and none if Z3 <= 0.
+
+    The atom carries positive weight and sits at positive s, so it does NOT
+    violate the positive Stieltjes representation.  What it violates is the
+    claim that sigma stays inside the support of the input density: it does not.
+
+    Returns (s_atom, weight) or None.
+    """
+    if Z3_of(g2, L2) <= 0.0:
+        return None
+    lo, hi = L2 * (1 + 1e-7), L2 * 1e8
+    if not (_W_above_cutoff(lo, g2, L2) < 0 < _W_above_cutoff(hi, g2, L2)):
+        return None
+    t_a = brentq(lambda t: _W_above_cutoff(t, g2, L2), lo, hi, rtol=1e-14, maxiter=300)
+    h = t_a * 1e-7
+    dW_dQ2 = -(_W_above_cutoff(t_a + h, g2, L2)
+               - _W_above_cutoff(t_a - h, g2, L2)) / (2 * h)
+    return t_a, g2 / ((-t_a) * dW_dQ2)
+
+
+def reconstruct(Q2, g2, L2, include_atom=True):
+    """Rebuild G(Q2) - g2/Q2 from the spectral data actually present.
+
+    With include_atom=False this reproduces the INCOMPLETE reconstruction that
+    hid the atom inside what looked like quadrature error.
+    """
+    T = np.log(L2 / S_THR)
+    total, _ = quad(lambda u: density(S_THR * np.exp(u), g2, L2) * S_THR * np.exp(u)
+                    / (S_THR * np.exp(u) + Q2), 0.0, T,
+                    limit=400, epsabs=1e-18, epsrel=1e-12)
+    if include_atom:
+        atom = spectral_atom(g2, L2)
+        if atom is not None:
+            s_a, w = atom
+            total += w / (Q2 + s_a)
+    return total
+
+
 # ------------------------------------------------------- moments for the gate
 def continuum_moments(r, n_max, g2, L2):
     """a_n(r) = int s^(n/2) e^(-r sqrt s) dsigma(s), continuum part only."""

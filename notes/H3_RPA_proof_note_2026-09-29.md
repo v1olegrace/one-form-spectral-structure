@@ -116,17 +116,16 @@ modelo coincide com a forma canônica acima, com:*
 | Condição | Status |
 |---|---|
 | **(a1) Polo de Coulomb com resíduo positivo.** $\lim_{Q^2\to0}Q^2\mathcal{G}=g_R^2>0$, pois $W(0)=1$ por (4.2). | **demonstrada** (4.2) + (G); confirmada numericamente a 10 casas |
-| **(a2) Suporte em $[0,\infty)$.** $\sigma$ tem suporte em $[4m^2,\Lambda^2]\subset(0,\infty)$, pois $\rho_J\equiv0$ abaixo do limiar. | **demonstrada** por construção de $\rho_J$ |
+| **(a2) Suporte em $[0,\infty)$.** $\operatorname{supp}\sigma\subset[4m^2,\Lambda^2]\cup\{s_a\}$, com um **átomo** em $s_a>\Lambda^2$. | **CORRIGIDA em 29/09** (Prop. 4). A redação anterior afirmava $[4m^2,\Lambda^2]$ e era **falsa** |
 | **(a3) Ausência de termo constante.** $\mathcal{G}\le g_R^2/(Q^2Z_3)\to0$. | **demonstrada** acima |
-| **(a4) Momento inverso finito.** $\int d\sigma/(\mu_0^2+s)<\infty$. | **verificada numericamente**, não demonstrada em geral — ver abaixo |
+| **(a4) Momento inverso finito.** $\int d\sigma/(\mu_0^2+s)<\infty$, **incluindo o átomo**. | **demonstrada** para a densidade concreta (Prop. 5); hipótese no caso geral |
 
-*Sobre (a4).* Para o $\rho_J$ de um laço a densidade do contínuo é
-$d\sigma/ds=g_R^4\rho_J(s)/(s|W(-s-i0)|^2)$ (§6 do relatório do dia). Com
-$\rho_J$ limitada e $|W|^2$ limitada inferiormente por uma constante positiva no
-intervalo compacto $[4m^2,\Lambda^2]$, o integrando é $O(1/s^2)$ e a integral
-converge. **Isto é argumento para a densidade concreta com corte finito, não
-para $\rho_J$ mensurável arbitrária**; para o caso geral (a4) permanece
-hipótese, e é exatamente a hipótese (I) da §2 transportada para $\sigma$.
+*Sobre (a4) — uma afirmação só, não três.* A redação anterior alternava entre
+"verificada numericamente", "demonstrada para a densidade concreta" e
+"hipótese transportada". O enunciado correto é o da **Prop. 5** abaixo:
+para a densidade Dirac com corte, $\int d\sigma/(\mu_0^2+s)<\infty$ está
+**demonstrada, com o átomo incluído**. Para $\rho_J$ mensurável arbitrária
+permanece hipótese, e é a hipótese (I) da §2 transportada para $\sigma$.
 
 **Verificação numérica das quatro** ($\Lambda^2=10^6$, $g_R^2/g_c^2=0{,}5$,
 $Z_3=0{,}5$):
@@ -167,6 +166,93 @@ um polo em $Q^2=x_*>0$ é incompatível. **H3 falha**, e falha já na classe ger
 | $Z_3>0$ | não | sim | **vale** |
 | $Z_3=0$ | não | sim (constante $1/\mu$) | **falha** se $\mu<\infty$ |
 | $Z_3<0$ | sim, resíduo $<0$ | não | **falha** |
+
+## 7-bis. O espectro discreto acima do corte (correção de 29/09)
+
+**Onde eu errei.** A versão anterior de (a2) inferia
+$\operatorname{supp}\sigma\subset[4m^2,\Lambda^2]$ do fato de $\rho_J$ ter esse
+suporte. **A inferência é falsa:** a ressoma cria polos discretos fora do
+suporte da densidade de entrada.
+
+**Contraexemplo** (conferido simbolicamente, diferença exatamente $0$).
+Tome $\rho_J\equiv1$ em $[4,10]$, $g_R^2=1/(2\log(5/2))$, donde $Z_3=1/2$.
+Para $t>10$,
+$$W(-t)=\tfrac12+g_R^2\log\frac{t-10}{t-4},\qquad\text{logo } W(-14)=0,$$
+e $\operatorname{Res}_{x=-14}\mathcal{G}=10/21>0$: um **átomo em $s=14$**, acima
+do corte $10$. Não é fantasma spacelike e **não refuta a positividade**.
+Refuta a afirmação sobre o suporte.
+
+**Proposição 4 (espectro discreto, caso geral com corte rígido).** *Sob
+(P), (I), (N), (G), (D), na região real $t>\Lambda^2$ — que o corte rígido
+deixa fora do corte — vale*
+$$W(-t)=Z_3-g_R^2\!\int_{4m^2}^{\Lambda^2}\!\frac{\rho_J(s)\,ds}{t-s}.$$
+*Ali $W$ é (i) estritamente crescente, pois
+$\tfrac{d}{dt}W(-t)=g_R^2\int\rho_J/(t-s)^2\,ds>0$ por (P),(N),(G);
+(ii) $W(-t)\to-\infty$ quando $t\to(\Lambda^2)^+$, pela divergência logarítmica
+do integrando na borda; (iii) $W(-t)\to Z_3$ quando $t\to\infty$.*
+
+*Logo existe **exatamente um** zero $s_a\in(\Lambda^2,\infty)$ **se e somente
+se** $Z_3>0$, e nenhum se $Z_3\le0$. O peso do átomo é*
+$$w=\operatorname{Res}_{Q^2=-s_a}\mathcal{G}
+=\frac{g_R^2}{(-s_a)\,W'(-s_a)}\;>\;0,$$
+*pois $W'(Q^2)=-\,dW(-t)/dt<0$. O átomo tem peso positivo e $s_a>0$: **a
+representação continua positiva de Stieltjes**.* $\blacksquare$
+
+*Demonstração:* (i)–(iii) são as contas acima; existência e unicidade seguem do
+teorema do valor intermediário mais monotonicidade estrita, como na Prop. 1.
+O sinal do resíduo repete a Prop. 2 com $W'<0$ e $-s_a<0$. $\blacksquare$
+
+**Abaixo do limiar não há zero.** Para $0<t<4m^2$ tem-se $s-t>0$ em todo o
+suporte, logo $W(-t)=Z_3+g_R^2\int\rho_J/(s-t)\,ds>0$ quando $Z_3\ge0$;
+verificado também para $Z_3<0$ nos casos testados. A auditoria dos zeros de $W$
+fora do corte é portanto **completa**: região $(0,4m^2)$ sem zero, região
+$(\Lambda^2,\infty)$ com exatamente um zero sse $Z_3>0$, e o eixo spacelike
+$Q^2>0$ tratado pela Prop. 1.
+
+**A representação completa é, então:**
+$$\boxed{\;\mathcal{G}(Q^2)=\frac{g_R^2}{Q^2}
++\int_{4m^2}^{\Lambda^2}\frac{d\sigma_{\rm cont}(s)}{Q^2+s}
++\frac{w}{Q^2+s_a}\;}$$
+
+**Proposição 5 (integrabilidade, densidade concreta).** *Para a densidade
+Dirac com corte e $Z_3>0$: $\int d\sigma/(\mu_0^2+s)<\infty$.*
+*Demonstração:* a parte contínua tem densidade
+$g_R^4\rho_J(s)/(s|W(-s-i0)|^2)$ com $\rho_J$ limitada e $|W|^2$ limitada
+inferiormente por constante positiva no compacto $[4m^2,\Lambda^2]$; o
+integrando é $O(1/s^2)$ e a integral converge. O átomo acrescenta
+$w/(\mu_0^2+s_a)$, finito porque $w<\infty$ e $s_a>0$. $\blacksquare$
+
+**Verificação numérica da correção** (densidade Dirac, $\Lambda^2=10^6$,
+$g_R^2/g_c^2=0{,}5$, $Z_3=0{,}5$):
+
+- Átomo em $s_a=1{,}00000529\times10^6$, isto é $s_a/\Lambda^2=1{,}000005$;
+  peso $w=6{,}2698\times10^{-4}>0$. Único, como a Prop. 4 exige.
+- Em $g_R^2/g_c^2=1{,}5$ ($Z_3=-0{,}5$): **nenhum** átomo acima do corte, e o
+  fantasma spacelike presente. Confere com a Prop. 4.
+- **Reconstrução.** Contra $\mathcal{G}-g_R^2/Q^2$:
+
+| $Q^2$ | só contínuo | contínuo + átomo |
+|---|---|---|
+| 1 | $1{,}7\times10^{-8}$ | $1{,}4\times10^{-12}$ |
+| 10 | $2{,}8\times10^{-8}$ | $2{,}3\times10^{-12}$ |
+| 100 | $9{,}1\times10^{-8}$ | $7{,}8\times10^{-12}$ |
+| 1000 | $4{,}7\times10^{-7}$ | $4{,}2\times10^{-11}$ |
+
+**O que eu tinha chamado de "limitado pela quadratura" era o átomo omitido.**
+Incluí-lo melhora a concordância em quatro ordens de grandeza. A advertência da
+revisão estava exata: concordância numérica em alguns pontos não demonstra que
+a decomposição esteja completa.
+
+**O átomo é artefato do corte rígido.** Argumento em dois casos, analítico:
+com suporte $[4m^2,\infty)$ (regulador suave), (i) na linha de corte
+$\operatorname{Im}W(-t-i0)=\pi g_R^2\rho_J(t)>0$ para todo $t$ finito, logo
+$W$ não se anula ali; (ii) abaixo do limiar $W$ é real e positiva pelo
+argumento acima. Não sobra região real onde $W$ possa zerar, logo **não há
+átomo**: o polo migra para a folha não física, virando ressonância. É o corte
+rígido que deixa $(\Lambda^2,\infty)$ no eixo real e cria o átomo.
+*Tentei também uma checagem numérica com amortecimento exponencial; a
+quadratura de valor principal sobre doze décadas não foi confiável e **não** a
+apresento como evidência.*
 
 ## 8. Contatos e suporte
 

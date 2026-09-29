@@ -279,6 +279,35 @@ O que $Z_3<0$ produz é o polo spacelike com resíduo negativo
 negativo. A relação com o limite de Källén $0\le Z_3\le1$ é de **analogia de
 conteúdo**, e não foi demonstrada aqui para esta construção.
 
+## 8-bis. CORREÇÃO de 29/09 — a medida sai do suporte da densidade de entrada
+
+Uma revisão externa encontrou um erro na Prop. 3 da nota, e ele atinge este
+relatório. A **ressoma cria um átomo discreto fora do suporte de $\rho_J$**.
+
+Contraexemplo conferido simbolicamente: $\rho_J\equiv1$ em $[4,10]$,
+$g_R^2=1/(2\log(5/2))$, $Z_3=1/2$ dá $W(-14)=0$ com resíduo $10/21>0$ — átomo
+em $s=14$, acima do corte $10$.
+
+Para a densidade **Dirac** usada aqui o mesmo ocorre: com $\Lambda^2=10^6$ e
+$Z_3=0{,}5$ há **exatamente um** átomo em $s_a=1{,}00000529\times10^6$ com peso
+$w=6{,}2698\times10^{-4}>0$. Em $Z_3<0$ não há átomo algum.
+
+**Consequência direta para este relatório.** A concordância de $\sim10^{-8}$
+que eu havia atribuído a erro de quadratura **era o átomo omitido**: incluí-lo
+leva o resíduo a $\sim10^{-12}$, quatro ordens de grandeza melhor. A
+representação completa é
+$$\mathcal{G}=\frac{g_R^2}{Q^2}+\int\frac{d\sigma_{\rm cont}}{Q^2+s}
++\frac{w}{Q^2+s_a},\qquad s_a>\Lambda^2,\ w>0 .$$
+
+**O que NÃO muda.** O átomo tem peso positivo em $s_a>0$: a positividade de
+Stieltjes continua valendo, e os três regimes de $Z_3$ (§9) ficam de pé. O erro
+era sobre o **suporte** da medida, não sobre a positividade.
+
+**O átomo é artefato do corte rígido**, por argumento analítico em dois casos
+(Prop. 4 da nota): com suporte até o infinito não sobra região real onde $W$
+possa zerar. A checagem numérica com regulador suave não foi confiável e não é
+apresentada como evidência.
+
 ## 9. Teto do que foi estabelecido, e o que continua aberto
 
 **Estabelecido (dentro das suposições 1–6), nos três regimes separadamente:**

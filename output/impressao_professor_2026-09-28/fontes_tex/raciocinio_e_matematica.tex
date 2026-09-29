@@ -208,13 +208,13 @@ Falha só no contínuo estrito --- e eu não escondo isso.
 estritamente decrescente:
 
 \begin{center}\small
-\begin{tabular}{lll}
+\begin{tabular}{llll}
 \toprule
-Regime & Polo spacelike & H3 (sem constante) \\
+Regime & Polo spacelike & \'Atomo acima do corte & H3 (sem constante) \\
 \midrule
-$Z_3>0$ & n\~ao existe & \textbf{vale} \\
-$Z_3=0$ & n\~ao existe & \textbf{falha} se a massa total for finita \\
-$Z_3<0$ & existe, res\'iduo $<0$ & \textbf{falha} \\
+$Z_3>0$ & n\~ao existe & \textbf{sim}, um, peso $>0$ & \textbf{vale} \\
+$Z_3=0$ & n\~ao existe & --- & \textbf{falha} se a massa total for finita \\
+$Z_3<0$ & existe, res\'iduo $<0$ & n\~ao existe & \textbf{falha} \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -223,6 +223,20 @@ O polo em $Q^2>0$ \'e um estado com $s<0$ --- taquiônico. Uma fun\c{c}\~ao de
 Stieltjes n\~ao pode t\^e-lo. \textbf{Mas ausência de polo n\~ao basta:} na
 fronteira $Z_3=0$ n\~ao h\'a polo e H3 ainda falha, por um termo constante.
 A aus\^encia de polo \'e \textbf{necess\'aria, n\~ao suficiente}.
+
+\begin{alerta}{ERRO MEU, CORRIGIDO EM 29/09 --- vale contar se ele perguntar}
+Eu havia afirmado que a medida espectral fica dentro do suporte da densidade de
+entrada. \textbf{\'E falso.} A ressoma cria um \textbf{\'atomo discreto acima do
+corte}: aqui em $s_a=1{,}0000053\times10^6$ com peso $6{,}27\times10^{-4}>0$.
+
+Pior: a concord\^ancia de $10^{-8}$ que eu atribu\'ia a erro de quadratura
+\textbf{era o \'atomo omitido}. Inclu\'i-lo melhora a reconstru\c{c}\~ao em
+\textbf{quatro ordens de grandeza}. A positividade N\~AO foi afetada --- o peso
+\'e positivo ---, mas a descri\c{c}\~ao do suporte estava errada.
+
+O \'atomo \'e artefato do corte r\'igido: com regulador suave n\~ao sobra
+regi\~ao real onde ele possa aparecer.
+\end{alerta}
 
 \begin{alerta}{O QUE MAIS ME SURPREENDEU --- e eu levo isto ao professor}
 Eu esperava que a viola\c{c}\~ao aparecesse como densidade espectral negativa.
