@@ -5,7 +5,7 @@
 A one-form symmetry observable, a positivity hypothesis, and an honest account
 of exactly where the argument holds and where it stops.
 
-Manuscript: [`paper/paper.tex`](paper/paper.tex) — draft **v0.3** ·
+Manuscript: [`paper/paper.tex`](paper/paper.tex) — draft **v0.4** ·
 Research plan: [`ROADMAP_CIENTIFICO.md`](ROADMAP_CIENTIFICO.md) (pt-BR)
 
 ---
@@ -42,7 +42,7 @@ sources below in one command.
 
 ```bash
 pip install -r requirements.txt
-python make.py test        # 235 tests
+python make.py test        # 324 tests
 python make.py numerics    # regenerate every numerical result
 ```
 
@@ -59,7 +59,9 @@ W(Q²) = Z₃ + g² ∫ ρ(s) ds/(s + Q²),     Z₃ := 1 − g² ∫ ρ(s)/s ds
 ```
 
 so W(0) = 1, W(∞) = Z₃, and W is strictly decreasing. Three regimes follow,
-and the complete spectral representation differs in each:
+and the complete spectral representation differs in each. Since v0.4 this is
+stated in Appendix A of the paper; the proofs are in
+[`notes/H3_RPA_proof_note_2026-09-29.md`](notes/H3_RPA_proof_note_2026-09-29.md).
 
 | Regime | Coulomb pole | Continuum | Timelike atom | Spacelike pole | Constant | H3 (contact-free) |
 |---|---|---|---|---|---|---|
@@ -76,19 +78,20 @@ Absence of a pole is *necessary, not sufficient*.
 **The continuum density stays non-negative for every coupling.** It is
 g⁴ρ/(s|W|²) — ρ divided by a modulus squared. So a moment test on the continuum
 returns `CHECKED_COMPATIBLE` even when H3 is false. That is a scope limit of
-such tests, and a test in this repo now asserts it.
+such tests; the paper states it, and a test here asserts it.
 
 **Resummation moves the measure outside the input support.** With a hard
-cutoff, W is real again on (Λ², ∞) and vanishes exactly once when Z₃ > 0,
-producing a discrete atom with positive weight above the cutoff. This mechanism
-is **known** — see arXiv:1209.2332, where one-loop resummation produces a
-discrete physical-sheet pole outside the input support with positive residue,
-closed by a spectral sum rule. We did not discover it; we rediscovered it the
-hard way, by first getting the support claim wrong.
+cutoff, W is real again on (Λ², ∞). If the density does not vanish at the
+cutoff, as the Dirac one does not, W runs to −∞ at the edge and vanishes exactly
+once there when Z₃ > 0, producing a discrete atom with positive weight above
+the cutoff. The mechanism is **known**: Giacosa and Wolkanowski (2012,
+arXiv:1209.2332) obtain, by one-loop resummation, a physical-sheet pole outside
+the input support with positive residue, closed by a spectral sum rule. We did
+not discover it; we rediscovered it by first getting the support claim wrong.
 
-For QED at α = 1/137, Z₃ = 0.966 at Λ² = 10²⁰ and the criterion fails only near
-the Landau pole at log(Λ²/4m²) = 3π/α ≈ 1291. The bubble chain satisfies it with
-enormous margin at every physically meaningful cutoff.
+For QED at α = 1/137, Z₃ = 0.966 at Λ² = 10²⁰ m², and Z₃ vanishes only near the
+Landau pole, log(Λ²/4m²) = 3π/α ≈ 1291. Below it the bubble chain satisfies the
+hypothesis with a wide margin.
 
 ## Claim ledger
 
@@ -120,19 +123,25 @@ numerics without a rigorous bound, `CERTIFIED` means an interval enclosure or a
 proved inequality, `PENDING_VERIFICATION` is never guessed.
 
 **Measured accuracy, against an independent reference** (mpmath + an exact
-closed-form anchor, sharing no code with the production path):
+closed-form anchor, sharing no code with the production path), at Λ² = 10⁶:
 
-| Quantity | float64 vs multiprecision |
-|---|---|
-| Π̄(∞) | 2.9 × 10⁻¹⁶ |
-| log₁₀(edge distance) | 1.2 × 10⁻⁶ |
-| atom weight | 2.0 × 10⁻⁶ |
+| Quantity | g²/g²_c | before | now |
+|---|---|---|---|
+| Π̄(∞) | any | 2.9 × 10⁻¹⁶ | 2.9 × 10⁻¹⁶ |
+| log₁₀(edge distance) | 0.5 | 1.2 × 10⁻⁶ | 1.9 × 10⁻¹⁵ |
+| atom weight | 0.5 | 2.0 × 10⁻⁶ | 2.7 × 10⁻¹⁵ |
+| atom weight | 0.1 | 2.0 × 10⁻⁶ | 3.3 × 10⁻¹⁴ |
 
-The two float64 weight routes agree with each other to 4.8 × 10⁻⁹ and **both
-miss by 2 × 10⁻⁶** — they share the located root, so their agreement measured
-consistency, not accuracy. Cause isolated: the integrand has a square-root
-branch point at the upper endpoint, and QUADPACK's error estimate is optimistic
-by orders of magnitude there. Published tolerances are the measured ones.
+The "before" column is the history worth keeping. Two float64 weight routes
+agreed with each other to 4.8 × 10⁻⁹ and both missed by 2 × 10⁻⁶, because they
+consumed the same located root: agreement measured consistency, not accuracy.
+The root was found by QUADPACK on an integrand with a square-root branch point
+at the upper endpoint, where its error estimate is optimistic by orders of
+magnitude. The edge integral and its derivative have a closed form, checked
+against 50-digit quadrature to 10⁻⁴¹, and the production path now uses it for
+edge distances up to 100 Λ². The 3.3 × 10⁻¹⁴ floor at g²/g²_c = 0.1 is
+intrinsic: the distance there is 3.3 × 10⁻⁴², reached through its logarithm,
+and converting amplifies the error by |log₁₀ d| ln 10 ≈ 95.
 
 **Open, and not close to closed**: H3 beyond leading order for the interacting
 kernel; the transport ⟨FF⟩ → Wilson loop → static kernel (contact terms,
@@ -141,16 +150,14 @@ from massless cuts; **originality**, which is not established — Brown–Weisbe
 (1979) is unread behind a paywall and the Schilling–Song–Vondraček theorem
 numbering is unconfirmed (secondary sources disagree).
 
-**Continuous integration**: remote CI has now run, at commit `730bdf0`
-(run 36543772146). Two of three jobs passed — `tests` and `certified` — and the
-`paper` job built the canonical manuscript successfully but **failed** on the
-Portuguese discussion brief with `! LaTeX Error: File 'lmodern.sty' not found`.
-Cause: the workflow installs TeX Live with `--no-install-recommends`, and
-`lmodern` is a separate Debian package. The canonical paper does not use it,
-which is why only the brief broke. `lmodern` has been added to the install list;
-**that fix is reasoned from the CI log and has not been reproduced locally**,
-because no `latexmk`/`pdflatex` is installed here and Tectonic ships its own
-fonts, so it never sees this failure. The next CI run is the verification.
+**Continuous integration**: run 36543772146 at `730bdf0` failed in the `paper`
+job with `! LaTeX Error: File 'lmodern.sty' not found`, while `tests`,
+`certified` and the canonical manuscript build passed. The workflow installs
+TeX Live with `--no-install-recommends`, and `lmodern` is a separate Debian
+package that the discussion brief needs and the paper does not. With `lmodern`
+added, run 36597424208 at `6672fdb` passed all three jobs. The status of later
+commits is recorded in [`FINAL_REPORT.md`](FINAL_REPORT.md), not here, because
+a README line about CI goes stale on the next push.
 
 **Never done**: human expert review, submission.
 
@@ -161,7 +168,7 @@ python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\act
 pip install -r requirements.txt
 
 python make.py check       # report available toolchain
-python make.py test        # full suite, 235 tests
+python make.py test        # full suite, 324 tests
 python make.py numerics    # regenerate every numerical result
 python make.py audit       # rebuild audit ledgers
 python make.py pdf         # build paper/paper.pdf (needs a LaTeX engine)
@@ -205,7 +212,7 @@ reports/
   H3_GHOST_ANALYSIS_*.md      the spacelike obstruction, in full
   professor_2026-09-28/       meeting material and its number-checking script
 notes/                    proof notes and working records
-tests/                    235 tests; every one is meant to be able to fail
+tests/                    324 tests; every one is meant to be able to fail
 data/                     literature harvest with provenance, audit ledgers
 output/impressao_*/       print-ready PDFs for a meeting
 manuscript/               author's pt-BR Quarto draft -- NOT canonical, predates v0.2
@@ -236,7 +243,7 @@ These are the practices that make a theory paper's numerics trustworthy.
 7. **Provenance for literature.** Every bibliography field comes from an API
    response recorded in `data/literature_harvest.json`. Forbidden sources
    (wikis, content farms, AI summaries) fail the test suite.
-8. **Reproducibility.** Validated in a clean checkout: 235 tests pass and
+8. **Reproducibility.** Validated in a clean checkout: 324 tests pass and
    `git status` is empty after running every generator, so tracked artefacts are
    regenerated byte-for-byte from the commit.
 
@@ -263,6 +270,30 @@ evidence of anything.
   absence.
 - A resonance on the unphysical sheet was claimed from an argument that only
   excluded a real zero. Retracted; the fate of that pole is undetermined.
+- A `quadrature_ok` flag reported `True` while six non-convergence warnings
+  escaped during the same call, because the root search discarded the
+  diagnostics of the integrals it evaluated. Every evaluation in the chain now
+  reports into the result, and a non-converged chain is `PRECISION_UNCERTAIN`.
+- `ghost_root()` decided the regime from the point value of Z₃, bypassing the
+  interval discipline everything else followed, and bracketed from 10⁻⁶, which
+  can miss a small root. It now takes the shared interval decision and brackets
+  from W(0) = 1.
+- The continuum density returned the Dirac formula above the cutoff, where the
+  regulator had removed it.
+- Two tests required the code to stay imprecise: one asserted that two weight
+  routes must disagree with the reference by more than with each other. They
+  now pin the measured accuracy, and the historical failure is still shown on
+  raw QUADPACK, where it belongs.
+- `python make.py bib` does not reproduce the committed bibliography. Eight
+  cited records came from outside the harvester's seed list, and re-resolving
+  shifts some years from publication to preprint (Masjuan–Peris 2010 → 2009).
+  Running it would silently drop eight citations from the paper. Not yet fixed;
+  new records are added by appending to the harvest. CI never runs this target,
+  which is why it went unnoticed.
+- The `paper` CI job failed on the discussion brief for want of `lmodern`, a
+  risk that was visible when the job was added. Reproduced in a clean
+  `ubuntu:24.04` container with the workflow's own `apt` line: the build fails
+  with exactly the CI error without `lmodern` and passes with it.
 
 ## Citation
 

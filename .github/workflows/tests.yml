@@ -1,10 +1,9 @@
 name: tests
 
-# NOTE: this workflow has NOT been executed in the development environment,
-# which has no CI runner. It must not be scored as passing until it runs green.
-# Current verification status: README.md ("Verification status") and
-# reports/AUDIT_REMEDIATION_2026-09-23.md. FINAL_REPORT.md is a historical
-# record and is no longer the status source.
+# A run is evidence only for the commit it ran on. Recorded outcomes and the
+# commits they cover are in FINAL_REPORT.md; do not restate them here, where
+# they would go stale on the next push. The 2026-09-11 report of that name is
+# kept at reports/history/FINAL_REPORT_2026-09-11.md.
 
 on:
   push:

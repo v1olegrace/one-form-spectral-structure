@@ -1,223 +1,256 @@
-# Final Remediation Report
+# Audit report — paper v0.4
 
-Branch `remediation/priority-audit` · 8 commits · 86 files changed
-(+4526 / −120) · 2026-09-11
+29 September 2026. Starting point: `6672fdb` on `main`. The previous report of
+this name, dated 11 September, is at
+[`reports/history/FINAL_REPORT_2026-09-11.md`](reports/history/FINAL_REPORT_2026-09-11.md).
 
----
+This report records what changed, why, and how each change was checked. Where
+something could not be checked with the resources at hand it is marked
+`PENDING_VERIFICATION` rather than guessed.
 
-## Executive summary
+## 1. What changed
 
-The nine mandatory scientific corrections were **already implemented by the
-author** in a rewrite of `manuscript/apendice_geometria_laplace.qmd` that landed
-between the audit prompt and this run. That rewrite is more careful than the
-version the audit was written against: it defines $\nu$ by weighted
-pushforward, states H3 conditionally on a linear-response kernel, carries the
-explicit screening sign, separates complete monotonicity from H3 with two
-counterexamples, and adds Theorems F–H and a Mellin bridge. Remediation
-therefore **verified** each correction rather than re-litigating it, and spent
-its effort where the work was genuinely missing: falsification, priority, and
-reproducible infrastructure.
+### Code: the RPA kernel analysis
 
-Two findings dominate the outcome.
+A patch developed in a separate audit worktree was reviewed line by line and
+applied, not merged blind. It closed four gaps in the
+uncertainty discipline that the previous round claimed to have closed:
+`ghost_root()` still branched on the point value of Z₃ and bracketed from
+10⁻⁶; `kernel_diagnostic()` duplicated the decision path; the polarization
+quadrature's convergence message was discarded; and the continuum density
+returned the Dirac formula above the cutoff, where the regulator removed it.
 
-**The adversarial priority audit substantially reduced the novelty claim.** The
-lattice-QCD effective-mass and GEVP technology is mathematically identical to
-Theorems C and E — a positive Euclidean correlator, a monotone one-sided bound
-on the lowest state, a refining generalized-eigenvalue hierarchy. Threshold
-extraction from vacuum-polarization moments already exists (Masjuan–Peris,
-via the Padé–Stieltjes–Hankel equivalence). Bachas obtains two derivative
-conditions on the static potential from reflection positivity *alone*, a
-strictly weaker hypothesis than H3. Claims C2, C3 and C4 were downgraded to
-`CLASSICAL_APPLICATION`. What survives is the assembly, not the method.
+The edge integral and its derivative were moved to closed form. With
+s = 4/(1 − v²),
 
-**The two adversarial tests the author specified both behaved as predicted, and
-neither was FATAL.** The positivity gate refuses a signed measure — while a
-screening-only diagnostic is fooled by it, which is the strongest available
-argument that the infinite hierarchy is operationally useful. A measure with
-$10^{-12}$ of weight at the true edge does not produce a wrong answer; it
-produces an uninformative one until the predicted crossover radius $22.76$,
-confirmed numerically. That is now a stated limitation with Theorem H as its
-formal content.
+    I(d) = ∫₄^{L²} ρ(s)/(L² + d − s) ds
+         = C [ a(1+2/t) log(t L² (a+v)²/(4d)) − log(L²(1+v)²/4) − 4v/t ],
 
----
+with t = L² + d, v = √(1 − 4/L²), a = √(1 − 4/t), C = 1/12π², and I′(d)
+follows from d/dt[a(1+2/t)] = 12/(t³a). Both were checked against 50-digit
+tanh-sinh quadrature for L² ∈ {10, 10⁶} and d from 10⁻³⁰ to 10⁸: agreement
+10⁻⁴¹ to 10⁻⁵¹. In binary64 the error is about 10⁻¹⁶ for d ≤ 10³ L² and grows by
+cancellation to 4 × 10⁻¹³ at d = 100 L², so the quadrature takes over beyond
+that. The logarithm is taken as a sum, so d = 10⁻³⁰⁰ does not overflow.
 
-## 1. Completed phases
+Effect on the atom above the cutoff, against the independent multiprecision
+reference in `reports/h3_ghost_2026-09-29/reference_mp.py`:
 
-| Phase | Scientific acceptance criterion | Closed by |
+| g²/g²_c | quantity | before | after |
+|---|---|---|---|
+| 0.5 | log₁₀(edge distance) | 1.2 × 10⁻⁶ | 1.9 × 10⁻¹⁵ |
+| 0.5 | weight | 2.0 × 10⁻⁶ | 2.7 × 10⁻¹⁵ |
+| 0.1 | log₁₀(edge distance) | 2.1 × 10⁻⁸ | 3.4 × 10⁻¹⁶ |
+| 0.1 | weight | 2.0 × 10⁻⁶ | 3.3 × 10⁻¹⁴ |
+
+The 3.3 × 10⁻¹⁴ floor at g²/g²_c = 0.1 is intrinsic: the edge distance there is
+3.3 × 10⁻⁴², reached through its logarithm, and converting amplifies the error
+by |log₁₀ d| ln 10 ≈ 95. Part of the old residual was `brentq`'s default
+`xtol = 2e-12`, which is absolute; it is now set explicitly. The old 2 × 10⁻⁶ came
+entirely from the located root: the quadrature route for the weight, fed the
+accurate root, lands near 10⁻¹¹. The status for g²/g²_c = 0.5 is now `RESOLVED`
+because nothing in the chain fails to converge, not because a label changed.
+
+### Manuscript
+
+Version 0.3 → 0.4. Appendix A gains a paragraph on the resummed bubble chain.
+The v0.3 text ended the leading-order discussion by saying the O(g_R⁶) remainder
+is not asserted positive; that is still true at fixed order, and the paragraph
+now shows why, then states what the resummed chain gives: H3 holds for Z₃ > 0,
+fails for Z₃ < 0 through a spacelike pole of negative residue, and fails at
+Z₃ = 0 through an additive constant when the total mass is finite. Two
+consequences are stated there: the continuum density is non-negative for every
+coupling, so continuum-moment tests cannot see the failure; and a hard cutoff
+with a density nonzero at the edge produces an atom of positive weight above
+the cutoff. That mechanism is attributed to Giacosa and Wolkanowski (2012),
+where it appears in a different physical setting. The scope section now says,
+in the main text, that passing the finite-moment tests does not rule out a
+failure of the hypothesis located off the continuum. One sentence opening with
+"Moreover" was rewritten; no other prose was changed, because it did not need
+to be.
+
+The manuscript was not rewritten wholesale. A scan for the connectives on the
+editing checklist found one occurrence in `paper.tex` and none in the appendix;
+two uses of "additionally" are precise mathematical usage ("requires, in
+addition to the previous condition") and were kept.
+
+### Bibliography
+
+Giacosa–Wolkanowski 2012 was added through the provenance pipeline: INSPIRE for
+the metadata, Crossref for the page number INSPIRE lacked. The API responses are
+cached under `data/api_responses/`. Schilling–Song–Vondraček, *Bernstein
+Functions* (2nd ed., 2012), was added to the hand-entered monograph table with
+an explicit note that its theorem numbering is `PENDING_VERIFICATION`.
+
+### Discussion brief (pt-BR)
+
+`paper/professor_brief.tex` still described the Z₃ criterion as an exploratory
+note to be corrected, and quoted 169 tests. Page 6 was rewritten around the
+three regimes, the attribution of the atom, and the blind spot of continuum
+moments; pages 2 and 5 were brought up to date. Five pt-BR slips were fixed:
+"o transformado de Yukawa" (the noun is feminine), and four English terms a
+Brazilian physicist would write in Portuguese (blindagem, massa efetiva, feixe
+de matrizes, tipo espaço).
+
+A second reading of the rewritten page 6 found three imprecisions, fixed before
+commit: the table gave the atom for Z₃ > 0 without its condition (a density
+nonzero at the edge) and the failure at Z₃ = 0 without its condition (finite
+total mass); page 2 folded Z₃ < 0 and Z₃ = 0 into one clause qualified by the
+mass, which only the second needs; and the page used 𝒢 and μ without defining
+them, although it is a backup meant to be read alone, and μ means something
+else on page 3.
+
+### Tests
+
+`tests/test_text_hygiene.py` fails on any control character in the manuscript,
+the bibliography, the Markdown documents, the scripts and the print-folder
+sources, except a carriage return that begins a CRLF. It scans only files
+tracked by git: a first version scanned whatever was on disk and counted two
+private notes, so the suite reported 326 tests here and would have reported
+324 in a clean checkout. Two tests let QUADPACK's roundoff warning escape into
+the summary; one now requires the declared `IntegrationWarning` type, and the
+other, whose subject is the returned error estimate, silences it with a
+comment saying why.
+
+### Continuous integration
+
+Run 36543772146 at `730bdf0` failed in the `paper` job with
+`! LaTeX Error: File 'lmodern.sty' not found`. The workflow installs TeX Live
+with `--no-install-recommends`, and `lmodern` is a separate Debian package that
+the brief needs and the paper does not. `lmodern` was added in `6672fdb`, and
+run 36597424208 passed all three jobs.
+
+The fix was then reproduced locally, in a clean `ubuntu:24.04` container using
+the workflow's own `apt` line. Without `lmodern` the brief fails with exactly the
+CI error; with it, the brief builds. After the v0.4 changes, the final
+`pdflatex` pass reports, for both documents, zero undefined citations, zero
+undefined references and zero overfull boxes: 13 pages for the paper, 6 for the
+brief. The combined `latexmk` output shows 64 undefined citations for the paper,
+all from the first pass before BibTeX runs; the count that matters is the last
+pass.
+
+### Ledgers and governance
+
+`data/claims_matrix.csv` gains C9 (the bubble-chain reduction, with the
+novelty verdict "NO for the atom mechanism"); `data/theorem_status.csv` gains
+A-RPA. `CHANGELOG_PAPER.md`, `ROADMAP_CIENTIFICO.md` (new section E2.5 and the
+v0.4 row), `CITATION.cff` and the README were brought in line.
+
+## 2. Status of each statement
+
+| Statement | Status | Where |
 |---|---|---|
-| 0 forensics | every path classified; caches untracked; nothing deleted | `data/repository_forensics.csv` (62 rows); 72.9 MB excluded; guard in CI |
-| 1 sign convention | derived from the quadratic effective action; three checks; discriminating test | `paper/appendix.tex` §A; `tests/test_sign_convention.py` (9 tests) — flipped convention **must** give $d\sigma<0$ |
-| 2 Wilson-loop observable | no "gauge-invariant propagator" language; $r$-independence of the perimeter term stated | verified by grep; `paper/paper.tex` §2 |
-| 3 Laplace construction | exact identity under H3, separated from the perturbative expansion | Theorem 1 + Remark; kernel identity verified symbolically and numerically |
-| 4 structure | CM, $\Gamma=\langle x\rangle_r$, $\Gamma'=-\mathrm{Var}$, convergence conditions | Theorems C; 17 tests in `test_measure_and_hierarchy.py` |
-| 5 edge law | Watson applied separately to numerator and denominator; QED verified | spinor $p\to1.4981$ vs $3/2$; scalar $\to2.4904$ vs $5/2$ |
-| 6 Hankel | Rayleigh first, then bound/monotonicity, then determinacy, then edge convergence | `paper/appendix.tex` §B; conditioning quantified (86 digits needed vs 16 in float64) |
-| 7 priority audit | HIGH/MEDIUM threats identified with exact overlap and difference | `data/literature_audit.csv` (17 rows); 3 HIGH, 4 MEDIUM |
-| 8 harvesting | structured APIs, caching, backoff, no fabricated fields | `scripts/literature_harvester.py`; 18 records; 9 fields `PENDING_VERIFICATION` |
-| 9 bibliography | academic sources only; identifiers; provenance | `paper/references.bib`; `tests/test_bibliography.py` (7 tests) |
-| 10 paper | English LaTeX, restrained, conditional abstract | `paper/paper.tex` + `appendix.tex`; 10 structural/honesty tests |
-| 11 numerics | model zoo incl. signed and tiny-weight; interval subset | 79 numerical checks across three scripts; **A–H, J, K done; I partial; L, M, N not implemented** |
-| 12 testing | `make test` passes | 44 tests, exit 0 |
-| 13 red team | no unresolved FATAL | `RED_TEAM_REPORT.md`: 4 FATAL all resolved |
-| 14 QA | this report | below |
+| W = Z₃ + g²∫ρ/(s+Q²), W(0) = 1, W(∞) = Z₃, strictly decreasing | proved in scope | appendix A; note Prop. 1 |
+| Z₃ < 0: unique simple spacelike pole, residue < 0 | proved in scope | note Props. 1–2 |
+| Z₃ > 0: contact-free Stieltjes representation, Coulomb residue g_R² | proved in scope, conditional on the Stieltjes/CBF duality | appendix A; note Prop. 3 |
+| Z₃ = 0: 𝒢 → 1/μ; fails when μ < ∞ | proved in scope | note §7(b) |
+| No zeros of W off the real axis | proved in scope | note Prop. 6 |
+| One positive atom above a hard cutoff for Z₃ > 0 | proved for densities nonzero at the edge | note Prop. 4 |
+| Two spectral sum rules | proved; checked numerically to 6 × 10⁻¹⁰ and 5 × 10⁻⁹ | note §7-quater |
+| Closed form for I(d), I′(d) | derived; checked against 50-digit quadrature | this report, §1 |
+| Atom position and weight to machine precision | checked numerically, not certified | §1 table |
+| Continuum-moment tests cannot detect Z₃ < 0 | proved (density formula); demonstrated by a test | appendix A |
+| H3 for the nonperturbative Wilson-loop kernel | open | — |
+| Transport ⟨FF⟩ → Wilson loop → static kernel | open | roadmap E2.5 |
+| Irreducible O(g_R⁶) contributions | open | — |
+| Fate of the atom under a smooth regulator (resonance on another sheet) | open; a resonance claim was retracted | note §7-bis |
+| Originality of the Z₃ reduction for this kernel | not established | claims C9 |
 
-**Not complete:** `make pdf` and CI — see blockers.
+"Proved in scope" means within the stated model: ρ_J ≥ 0 not identically zero,
+finite inverse moment, g_R² > 0, the once-subtracted Dyson form. None of it is a
+statement about the interacting static response.
 
-## 2. Commits
+## 3. Verification
 
-| Hash | Subject |
+Run on the final state of the working tree, Windows 11, Python 3.13.7, portable
+Tectonic 0.17.0:
+
+| Command | Result |
 |---|---|
-| `e2859ee` | chore: initialise repository and quarantine generated artifacts |
-| `f60a459` | test: add adversarial falsification suite and spectral model zoo |
-| `dc55404` | research: adversarial priority audit finds three HIGH threats |
-| `be1ee0a` | bibliography: verified references.bib, sign-convention proof, validation tests |
-| `62be930` | manuscript: English LaTeX paper, appendix, and interval-certified bounds |
-| `18994e0` | ci: portable build driver, Makefile, workflow and repository metadata |
+| `python -m pytest tests -q -rs` | 324 passed, 0 skipped, no warnings (55 of them scan tracked text files for control characters) |
+| `python make.py numerics` | exit 0; no tracked file changed |
+| `python make.py audit` | exit 0 |
+| `python make.py certified` | exit 0 |
+| `python reproducibility/verify_one_loop_output.py --reintegrate --no-write` | PASS; cardinalities, complete comparison table, certificate-index bijection |
+| `python make.py pdf` | exit 0; 13 pages, Type0/Type1 fonts only |
+| `python reproducibility/canonical_pdf_qa.py` | PASS for v0.4; `visual_review: NOT_ASSESSED_BY_SCRIPT` |
+| clean `ubuntu:24.04` container, workflow `apt` line | brief fails without `lmodern`, builds with it; final pass clean for both documents |
 
-## 3. Principal files
+The sign-convention test was checked by mutation rather than by reading it:
+flipping the sign inside its `kernel()` makes three of its nine tests fail — the
+positive measure, the detection of the flipped convention, and the ultraviolet
+growth of the effective coupling. The six that still pass do not depend on the
+sign.
 
-**Created:** `paper/{paper.tex,appendix.tex,references.bib}`;
-`reproducibility/{spectral_models,falsification_suite,interval_bounds}.py`;
-`tests/{test_sign_convention,test_measure_and_hierarchy,test_bibliography,test_latex_structure}.py`;
-`scripts/{literature_harvester,build_bibliography,build_audit_tables}.py`;
-`data/{repository_forensics,literature_audit,claims_matrix,theorem_status,literature_harvest}.csv`;
-`make.py`, `Makefile`, `.github/workflows/tests.yml`, `README.md`,
-`REMEDIATION_LOG.md`, `RED_TEAM_REPORT.md`, `CITATION.cff`, `LICENSE`.
+Rendered pages of the paper were inspected for layout: all 13 on a contact
+sheet, pages 6, 9 and 10 at full size. The same for pages 2 and 6 of the brief.
+That is automated inspection of rendered output. It is not a human review, and
+none has taken place.
 
-**Preserved unmodified:** `manuscript/*.qmd` and
-`reproducibility/{analysis,laplace_geometry,extended_analysis,pdf_qa}.py` — the
-author's active work. `tmp/revision_before/` (their backup) is kept on disk and
-untracked.
+## 4. Errors found in this round
 
-## 4. Scientific corrections
+The ones that bear on results are also listed in the README.
 
-Corrections A–I were verified, not re-made (see `REMEDIATION_LOG.md` §B for the
-per-item disposition). The corrections **this run** contributed:
+- A `quadrature_ok` flag reported `True` while six non-convergence warnings
+  escaped from the same call. The flag was introduced in the previous round.
+- Two tests required the code to stay imprecise. They now pin the measured
+  accuracy; the historical failure is still shown on raw QUADPACK.
+- `python make.py bib` does not reproduce the committed bibliography. Eight
+  cited records came from outside the harvester's seed list, and re-resolution
+  moves some years from publication to preprint (Masjuan–Peris 2010 → 2009).
+  Running the target once during this round dropped the article count from 26
+  to 19. The change was reverted before anything was committed, and the new
+  record was appended to the harvest instead. The target itself is **not yet
+  fixed**; CI never runs it. The committed `literature_harvest.csv` and
+  `literature_harvest.json` already disagreed by the same eight records (18 rows
+  against 26); the new record was appended to both, leaving that difference as
+  it was.
+- A carriage return replaced `\r` in `\ref` inside the manuscript, and a
+  vertical tab replaced `\v` in a BibTeX author field. Both came from text
+  passed through the shell command channel of the editing environment, which
+  reduced `\\` to `\` before the content reached Python. Bash semantics do not
+  explain it: the loss was reproduced with a quoted here-document, which bash
+  passes literally. The same mechanism accounts for every escape defect earlier
+  in the project's history. Files containing backslashes are now written with
+  an editor, not through the shell. The control-character scan used to catch
+  these whitelisted carriage returns because of CRLF line endings, so a stray
+  one inside a line passed; it now flags any carriage return not immediately
+  followed by a line feed.
+- Two slips in preparing this round's commits, both caught before anything was
+  pushed. The move of the old report to `reports/history/` had been staged
+  earlier and went into the manuscript commit; it was taken out and committed
+  with this report. And `literature_harvest.json` had been rewritten with a
+  different indentation, so adding one record produced a 774-line diff; the file
+  was rewritten in its original format, and the new record carries the `added`
+  date that the other hand-appended records have.
+- A statement in the theorem ledger said H3 holds "iff Z₃ > 0". That is false in
+  general: at Z₃ = 0 with infinite mass it holds. Corrected before commit.
+- The README omitted, in its account of the atom, the condition that the density
+  not vanish at the cutoff. Added.
 
-1. **Discriminating sign test.** The historical error was $1+g^2\bar\Pi$ with
-   $\bar\Pi\ge0$. The test now asserts that the flipped convention yields a
-   negative spectral measure *and* antiscreening, so it fails if the convention
-   is ever changed inconsistently. A test checking only the correct branch would
-   pass under either convention.
-2. **Positivity gate.** No bound is reported until $(-1)^n\Phi^{(n)}>0$ and
-   $H_0\succ0$ are checked. Without it the pipeline would return a plausible
-   $M_*$ for a signed measure.
-3. **Precision requirement measured, not asserted.** Wide-dynamic-range pencils
-   are numerically singular at 60 digits and need ~86; float64 has 16.
-4. **Quadrature bug caught.** The Yukawa transform test initially used
-   tanh–sinh quadrature on a conditionally convergent oscillatory integral and
-   returned a wrong value; `quadosc` was required.
-5. **Bibliography mis-resolution caught.** A fuzzy title seed for "Padé
-   Approximants" silently resolved to Basdevant (1968) and would have entered
-   the bibliography as the Baker–Graves-Morris monograph. Title seeds removed.
+## 5. Pending
 
-## 5. Mathematical proof status
+- `PENDING_VERIFICATION` — Schilling–Song–Vondraček theorem numbering. The
+  errata sheet was read in full and touches none of the duality statements;
+  secondary sources cite the result as Thm 7.3 or as Cor 7.4. The book has not
+  been opened.
+- Brown–Weisberger (1979), Phys. Rev. D 20, 3239: not read. The APS full text is
+  behind a paywall.
+- arXiv:1206.0176 (tachyonic contribution to the top propagator): read at
+  abstract level only; not cited in the paper.
+- `make.py bib` idempotence, as above.
+- Human expert review of the manuscript and the brief.
+- The next scientific step, with its refutation and acceptance criteria, is in
+  `ROADMAP_CIENTIFICO.md`, section E2.5: a controlled case in which the
+  transport from ⟨FF⟩ to the Wilson-loop static kernel can be carried out
+  explicitly.
 
-From `data/theorem_status.csv` (11 entries): `PROVED` 5 · `PROVED_CONDITIONALLY`
-4 · `CLASSICAL_APPLICATION` 2 · `CONJECTURE`/`FAILED` 0.
+## 6. Sources examined
 
-Nothing is called a Theorem in `paper/paper.tex` without `PROVED` or
-`PROVED_CONDITIONALLY` status. Theorem E carries one `PENDING_VERIFICATION`:
-the self-contained edge-convergence argument is given in full, but the classical
-density criterion it mirrors (Riesz / Berg–Christensen) is cited without a
-theorem number, because the text was not read.
-
-## 6. Priority audit
-
-17 papers assessed. **HIGH:** Lüscher–Wolff 1990, Blossier et al. 2009,
-Masjuan–Peris 2009. **MEDIUM:** Bachas 1986, Brown–Weisberger 1979,
-Bellazzini et al. 2020, Baker–Graves-Morris.
-
-## 7. Surviving novelty
-
-| Claim | Verdict |
-|---|---|
-| C1 — the COR/BG breaking profile is an exact positive Laplace transform under H3 | **YES**, moderate confidence |
-| C6 — Mellin bridge between radial and low-energy moments | YES but minor |
-| C5 — derivative-free sampling hierarchy with deterministic error envelope | PARTIAL |
-| C7 — no uniform lower bound without minimum weight | PARTIAL (standard ill-posedness, stated precisely) |
-| C8 — scale-invariance obstruction to WGC inference | PARTIAL |
-| C2, C3, C4 — complete monotonicity, $\Gamma$ tomography, Hankel hierarchy | **NO** — classical; imported from lattice/Padé technology |
-
-## 8. Weakened or removed
-
-- "Nonperturbative" → "exact under H3", enforced by a test.
-- "CM ⟺ H3" → CM ⟺ positive Laplace representation only.
-- "New inverse-spectral method" → imported lattice technology.
-- H3 moved off the gauge propagator onto the Wilson-loop static potential.
-- Theorem B no longer presented as strengthening Bachas; the opposite is stated.
-
-## 9. Numerical validation
-
-79 checks: `extended_analysis.py` 52 · `falsification_suite.py` 17 (0 FATAL,
-0 FAIL) · `interval_bounds.py` 10 certified, 0 failures. Plus 44 pytest tests.
-
-Coverage of the requested battery A–N, stated exactly:
-
-| Test | Status |
-|---|---|
-| A analytic delta · B two atoms · C atom+continuum · D spinor QED · E scalar QED · F multi-species · G near-degenerate · K H3-violating (gapless) | **implemented**, all pass |
-| H tiny weight at the true threshold | **implemented**; behaved as predicted |
-| J signed measure | **implemented**; gate fires and refuses |
-| I wide dynamic range | **partial** — used only as a conditioning probe; it is *not* run through the `Gamma`/`B_K` tomography as a recovery case |
-| L synthetic data with controlled noise | **not implemented** |
-| M noisy numerical derivatives of $\Phi$ | **not implemented** |
-| N blind recovery of $M_*$ and $p$ from samples alone | **not implemented** |
-
-The envelope-perturbation trials in `interval_bounds.py` perturb *exact atomic*
-samples inside a deterministic envelope. That is adjacent to M but is neither
-synthetic noisy data (L) nor noisy differentiation of $\Phi$ (M), and it is not
-a blind recovery (N). Claiming it as coverage of L/M would be the "file created
-≠ phase complete" failure this audit exists to prevent, so it is not claimed.
-
-## 10. Reproducibility
-
-`python make.py numerics` and `make.py test` run clean from the tracked tree.
-Deterministic (fixed seeds), 30–200 digit arithmetic, no network needed
-(API responses cached under `data/cache/`). No generated or cache artifact is
-tracked; the CI guard enforces it.
-
-## 11. Remaining blockers
-
-1. **`make pdf` not executed.** No LaTeX engine exists here (`latexmk`,
-   `pdflatex`, `xelatex`, `lualatex`, `tectonic` all absent), and `make` is
-   absent. The target exits 2 with a clear message. Typesetting is therefore
-   **unverified**; only structural validation was possible.
-2. **CI unverified.** `.github/workflows/tests.yml` has never run.
-   `UNVERIFIED_IN_ENVIRONMENT`.
-3. **Two key papers not read at equation level:** Masjuan–Peris 2009 and
-   Brown–Weisberger 1979. If the latter states a spectral representation of the
-   static kernel, H3 should be attributed to it.
-4. **No forward-citation search** was performed for any seed.
-5. **Tests L, M and N not implemented** (synthetic noise, noisy
-   differentiation, blind recovery); test I is only a conditioning probe.
-6. **H3 unestablished** for an interacting kernel beyond leading order — the
-   central open physics question.
-7. **LICENSE choice assumed.** MIT was written without instruction; confirm.
-
-## 12. Submission-readiness scores
-
-Scored independently, not averaged, and deliberately not inflated.
-
-| Dimension | Score | Reason |
-|---|---:|---|
-| Algebraic correctness | **8** | Sign derived from the effective action with a discriminating test; Uehling, kernel identity and Gauss-law closure verified. BG eq. (13) taken as quoted from their paper rather than re-derived from their setup. |
-| Mathematical rigor | **7** | Proofs decomposed; Carleman confined to determinacy; pushforward handles atoms. One citation lacks a theorem number because the text was not read. |
-| Physical defensibility | **7** | H3 conditional and delimited; failure modes explicit and demonstrated; WGC strictly conditional. H3 itself unestablished beyond leading order. |
-| Novelty confidence | **3** | Three HIGH threats; the method is classical; three claims downgraded. One narrow observation survives. This is the honest weak point. |
-| Bibliography quality | **7** | API-verified with provenance; forbidden domains excluded and tested; a mis-resolution was caught. No forward citations; two key papers unread; monographs hand-entered. |
-| Numerical reproducibility | **8** | Deterministic, high precision, interval-certified subset, pre-registered adversarial predictions. No rigorous quadrature certificates for continuum models. |
-| Repository hygiene | **8** | Forensics ledger, atomic commits, nothing deleted, caches untracked. `manuscript/` and `paper/` now hold parallel versions; `data/cache/` is tracked (defensible, noisy). |
-| Manuscript quality | **6** | English, restrained, honest, structurally validated — but never compiled, so typesetting and length are unverified. |
-| **JHEP/PRD readiness** | **4** | No unresolved FATAL, but: narrow surviving contribution, two unread precedents, uncompiled PDF, and the central hypothesis open. Not submittable as it stands; the physics gap, not the prose, is what blocks it. |
-
-## 13. Recommended next actions
-
-1. Read Masjuan–Peris and Brown–Weisberger at equation level; update
-   `literature_audit.csv` and, if warranted, attribute H3.
-2. Compile the paper on a machine with TeX Live; run CI once.
-3. Implement tests L, M and N (synthetic noise, noisy differentiation, and
-   blind recovery of $M_*$ and $p$ from samples alone).
-4. Decide whether the surviving contribution supports a full paper or a letter.
-5. Attack H3 beyond leading order — that is the result that would change the
-   novelty score.
+| Source | What was checked | Level |
+|---|---|---|
+| Giacosa & Wolkanowski 2012, arXiv:1209.2332 | pole on the physical sheet, outside the input support, positive residue, sum rule | full text (HTML), directed reading |
+| Schilling, Song & Vondraček, *Bernstein Functions*, 2nd ed. | table of contents; errata sheet of 2022-12-02 | authors' page, primary for errata; statements secondary |
+| Raman 2026, arXiv:2603.28454 | Stieltjes property of the vacuum polarization; no resummed object, no Z₃ | full text, directed reading |
+| INSPIRE, Crossref, Semantic Scholar | metadata for the new record | API responses cached |
+| Brown & Weisberger 1979 | — | not read |
