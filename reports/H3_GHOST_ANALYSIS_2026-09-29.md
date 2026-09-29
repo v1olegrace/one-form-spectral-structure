@@ -33,7 +33,8 @@ de Stieltjes admite uma constante aditiva; a **H3 do artigo** não. Elas
 coincidem em $Z_3>0$ e divergem exatamente na fronteira $Z_3=0$. O quadro
 dos três regimes está na §9 e é o enunciado que vale.
 
-Reformulação equivalente pela dualidade de Schilling–Song–Vondraček (Teor. 7.3:
+Reformulação equivalente pela dualidade de Schilling–Song–Vondraček (numeração
+não conferida no livro; o conteúdo é:
 $f\not\equiv0$ é Stieltjes $\iff$ $1/f$ é Bernstein completa $\iff$ $zf(z)$ é
 Bernstein completa): basta decidir se $W$ é Stieltjes.
 
@@ -95,7 +96,7 @@ e $W$ é **estritamente decrescente** (a integral é decrescente em $Q^2$).
 com $b=Z_3$ e $d\sigma=g_R^2\rho_J\,ds\ge0$. Isso é Stieltjes **se e somente
 se** $b\ge0$, isto é $Z_3\ge0$.
 
-**Passo 5 — de $W$ para $\mathcal{G}$.** Por SSV 7.3, $W/g_R^2$ Stieltjes
+**Passo 5 — de $W$ para $\mathcal{G}$.** Pela dualidade SSV, $W/g_R^2$ Stieltjes
 $\Rightarrow$ $Q^2W/g_R^2=1/\mathcal{G}$ é CBF $\Rightarrow$ $\mathcal{G}$ é
 Stieltjes.
 

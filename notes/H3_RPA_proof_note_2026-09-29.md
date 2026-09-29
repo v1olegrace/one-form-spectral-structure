@@ -98,7 +98,7 @@ $Q^2\to\infty$.
 **(a) $Z_3>0$.** Por (3.1) e (N), $W\ge Z_3>0$, logo
 $0<\mathcal{G}(Q^2)\le g_R^2/(Q^2Z_3)\to0$. Além disso $W/g_R^2$ é da forma
 $b+\int d\sigma/(Q^2+s)$ com $b=Z_3/g_R^2\ge0$ e $d\sigma=\rho_J\,ds\ge0$: é
-Stieltjes. Por **SSV Teor. 7.3** ($f\not\equiv0$ Stieltjes $\iff$ $zf(z)$ é
+Stieltjes. Pela **dualidade de Schilling--Song--Vondraček** (numeração não conferida no livro, §9) ($f\not\equiv0$ Stieltjes $\iff$ $zf(z)$ é
 Bernstein completa $\iff$ $1/f$ é Bernstein completa), $Q^2W/g_R^2=1/\mathcal{G}$
 é CBF e portanto $\mathcal{G}$ é Stieltjes.
 
@@ -273,9 +273,28 @@ e **não afetam $r>0$**. As duas coisas não se confundem:
 
 ## 9. Fontes conferidas e o que permanece pendente
 
-- **SSV Teor. 7.3 e 6.2** (Schilling–Song–Vondraček, *Bernstein Functions*,
-  2ª ed.): enunciados conferidos em fonte secundária citando numeração.
-  Ressalva $f\not\equiv0$ satisfeita, pois $W(0)=1$.
+- **Schilling--Song--Vondraček, _Bernstein Functions_** (de Gruyter, Studies in
+  Mathematics 37). **Os enunciados usados NÃO foram lidos no livro.** O que foi
+  conferido na fonte primária dos autores (motapa.de), em 29/09:
+    - **Índice:** Cap. 6 = *Complete Bernstein functions* (6.1 Representação,
+      6.2 Extended complete Bernstein functions); Cap. 7 = *Properties of
+      complete Bernstein functions*; Cap. 16 = *Examples*. As numerações 6.x e
+      7.x são, portanto, **plausíveis** para os resultados citados.
+    - **Errata da 2ª ed. (data 02/12/2022), lida integralmente:** corrige as
+      pp. 6, 25, 36, 41, 57, 61, 73, 74, 77, 106, 115, 127, 218, 221, 320, 374.
+      As pp. 73/74/77 caem no Cap. 6, mas são **erros de sinal em fórmulas
+      intermediárias** da demonstração da representação e uma troca de domínio
+      (`C \ (-∞,0]` → `C \ R`). **Nenhuma correção atinge o enunciado de um
+      teorema de dualidade Stieltjes/CBF**; os únicos enunciados corrigidos são
+      Lema 4.2, Teorema 5.22 e uma referência cruzada no Cap. 8.
+    - **A NUMERAÇÃO EXATA PERMANECE INCERTA.** Fontes secundárias divergem: uma
+      cita "Teoremas 6.2 e 7.3", outra cita "Teorema 6.2 e Corolário 7.4".
+      Existem duas edições (2010, ISBN ...215304; 2012, ISBN ...252293) e elas
+      podem renumerar. **Enquanto o livro não for visto, cite o resultado pelo
+      conteúdo, não pelo número.**
+  O conteúdo usado, que é o que importa: *para $f
+ot\equiv0$, $f$ é Stieltjes
+  $\iff$ $zf(z)$ é Bernstein completa $\iff$ $1/f$ é Bernstein completa*.
 - **Källén 1952** e o limite $0\le Z_3\le1$: clássico. A relação com a presente
   construção é **analogia de conteúdo, não demonstrada aqui**.
 - **Raman 2026** (`arxiv:2603.28454v1`): contém a propriedade de Stieltjes de
