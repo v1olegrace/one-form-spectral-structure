@@ -10,6 +10,10 @@ What it established, and it was not what we expected: the two float64 weight
 routes agree with each other to ~5e-9, but BOTH differ from the multiprecision
 reference by ~2e-6.  They agreed because they share the located edge distance,
 not because either is accurate to 5e-9.
+
+The closed-form edge integral removed that shared error.  The primary weight
+is now held to 1e-13 of the reference at k = 0.5 and 1e-12 at k = 0.1; the
+finite-difference route is kept as a reported cross-check and must lose to it.
 """
 from __future__ import annotations
 
@@ -109,14 +113,19 @@ def test_primary_weight_is_accurate_and_crosschecks_are_reported():
 # --- the quadrature estimate does not bound the error -----------------------
 def test_quadpack_estimate_does_not_bound_the_integral_error():
     """The same integral, same d, in two quadratures: QUADPACK is off by ~1e-7
-    relative while requesting 1e-14, because of the endpoint branch point."""
+    relative while requesting 1e-14, because of the endpoint branch point.
+    It also warns of roundoff here; the warning is silenced because this test
+    is about the returned estimate, which is the number callers used."""
+    import warnings
     import numpy as np
-    from scipy.integrate import quad
+    from scipy.integrate import IntegrationWarning, quad
     d, top = 5.2945, L2 - ga.S_THR
     hi = np.log(top / d)
-    v64, est = quad(lambda u: ga._rho_scalar(L2 - d * np.exp(u)) * np.exp(u)
-                    / (np.exp(u) + 1.0), -40.0, hi,
-                    limit=2000, epsabs=1e-18, epsrel=1e-14)
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", IntegrationWarning)
+        v64, est = quad(lambda u: ga._rho_scalar(L2 - d * np.exp(u)) * np.exp(u)
+                        / (np.exp(u) + 1.0), -40.0, hi,
+                        limit=2000, epsabs=1e-18, epsrel=1e-14)
     with mp.workdps(50):
         vmp = mp.quad(lambda u: ref._rho(mp.mpf(L2) - mp.mpf(d) * mp.e ** u)
                       * mp.e ** u / (mp.e ** u + 1),

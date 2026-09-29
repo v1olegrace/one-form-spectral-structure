@@ -7,10 +7,12 @@ tanh-sinh quadrature, not against itself.
 from __future__ import annotations
 
 import sys
+import warnings
 from pathlib import Path
 
 import numpy as np
 import pytest
+from scipy.integrate import IntegrationWarning
 
 _A = Path(__file__).resolve().parents[1] / "reports" / "h3_ghost_2026-09-29"
 sys.path.insert(0, str(_A))
@@ -71,11 +73,16 @@ def test_closed_form_survives_edge_distances_quadrature_cannot_reach():
 
 def test_closed_form_domain_is_bounded_and_documented():
     """Beyond CLOSED_FORM_MAX_RATIO * L2 cancellation grows, so the quadrature
-    takes over there. The switch must not change W by more than rounding."""
+    takes over there. The switch must not change W by more than rounding.
+    QUADPACK reports roundoff on the far side; whatever it reports must arrive
+    as an IntegrationWarning, which is what the callers collect."""
     d = ga.CLOSED_FORM_MAX_RATIO * L2
     g2 = 0.5 * ga.g2_critical(L2)
     below = ga._W_edge(d * (1 - 1e-9), g2, L2)
-    above = ga._W_edge(d * (1 + 1e-9), g2, L2)
+    with warnings.catch_warnings(record=True) as caught:
+        warnings.simplefilter("always")
+        above = ga._W_edge(d * (1 + 1e-9), g2, L2)
+    assert all(issubclass(w.category, IntegrationWarning) for w in caught)
     assert abs(below - above) < 1e-9
 
 
