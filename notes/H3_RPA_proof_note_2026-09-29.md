@@ -243,16 +243,156 @@ Incluí-lo melhora a concordância em quatro ordens de grandeza. A advertência 
 revisão estava exata: concordância numérica em alguns pontos não demonstra que
 a decomposição esteja completa.
 
-**O átomo é artefato do corte rígido.** Argumento em dois casos, analítico:
-com suporte $[4m^2,\infty)$ (regulador suave), (i) na linha de corte
-$\operatorname{Im}W(-t-i0)=\pi g_R^2\rho_J(t)>0$ para todo $t$ finito, logo
-$W$ não se anula ali; (ii) abaixo do limiar $W$ é real e positiva pelo
-argumento acima. Não sobra região real onde $W$ possa zerar, logo **não há
-átomo**: o polo migra para a folha não física, virando ressonância. É o corte
-rígido que deixa $(\Lambda^2,\infty)$ no eixo real e cria o átomo.
-*Tentei também uma checagem numérica com amortecimento exponencial; a
-quadratura de valor principal sobre doze décadas não foi confiável e **não** a
-apresento como evidência.*
+**Sobre o regulador — três afirmações separadas, não uma.**
+
+1. **Ausência de átomo real acima de uma borda superior quando o suporte não
+   tem essa borda.** *Demonstrada.* Com suporte $[4m^2,\infty)$ não existe
+   intervalo real acima do corte: na linha de corte
+   $\operatorname{Im}W(-t-i0)=\pi g_R^2
+ho_J(t)$, e abaixo do limiar $W$ é real
+   e positiva (§7-bis). O mecanismo que produzia o átomo deixa de estar
+   disponível. **Isto exige $
+ho_J>0$ estritamente** em todo o contínuo:
+   suporte ilimitado sozinho **não** exclui lacunas nem zeros da densidade, e
+   num zero de $
+ho_J$ a parte imaginária se anula e o argumento falha ali.
+   Para a densidade Dirac, $
+ho_J(s)>0$ para todo $s>4m^2$, sem lacunas.
+2. **Ausência de polos na folha física.** *Demonstrada*, Prop. 6 abaixo,
+   incluindo o eixo spacelike e a dependência do sinal de $Z_3$.
+3. **Existência e trajetória de uma ressonância em outra folha.**
+   **NÃO demonstrada.** Exigiria definir a continuação analítica e suas folhas.
+
+Portanto o enunciado correto é apenas este:
+
+> Com densidade estritamente positiva em todo o contínuo, o mecanismo que
+> produzia o átomo na região real acima do corte deixa de estar disponível.
+> O destino desse polo sob a mudança de regulador permanece por determinar.
+
+*Uma redação anterior dizia que "o polo migra para a folha não física,
+virando ressonância". Isso não decorre do argumento apresentado: mostrar
+$\operatorname{Im}W>0$ exclui um zero naquela borda, e não estabelece
+ressonância, localização, nem a continuação analítica necessária.*
+
+*A quadratura de valor principal que tentei para checar isso numericamente
+**falhou** sobre doze décadas. Está registrada como falha e não é reutilizada
+como evidência.*
+
+## 7-ter. Ausência de zeros complexos na folha física (Prop. 6)
+
+Uma varredura numérica não substitui o argumento; ele sai direto da
+representação integral.
+
+**Proposição 6.** *Sob (P), (I), (N), (G), $W$ não tem zero fora do eixo real.*
+
+*Demonstração.* Para $z=x+iy$ com $y\neq0$ e $z$ fora do corte,
+$$\operatorname{Im}W(z)=g_R^2\!\int\rho_J(s)\,
+\operatorname{Im}\frac{1}{s+z}\,ds
+=-\,g_R^2\,y\!\int\frac{\rho_J(s)\,ds}{|s+z|^{2}} .$$
+Por (P) e (N) a integral é **estritamente positiva** e finita, logo
+$\operatorname{Im}W(z)$ tem o sinal de $-y$ e não se anula. Portanto
+$W(z)\neq0$ sempre que $y\neq0$. $\blacksquare$
+
+*(Equivalentemente: $W$ leva o semiplano superior no inferior — é
+anti-Nevanlinna —, e tais funções não têm zeros fora do eixo real.)*
+
+**Consequência: a auditoria dos zeros está completa.** Todos os zeros de $W$ são
+reais, e o eixo real se parte em quatro regiões, todas tratadas:
+
+| Região | Resultado | Onde |
+|---|---|---|
+| $Q^2>0$ (spacelike) | zero sse $Z_3<0$, único, resíduo $<0$ | Prop. 1, 2 |
+| $-4m^2<Q^2<0$ | sem zero | §7-bis |
+| $Q^2\in[-\Lambda^2,-4m^2]$ (corte) | $\operatorname{Im}W\neq0$ onde $\rho_J>0$ | Prop. 6 + estrita positividade |
+| $Q^2<-\Lambda^2$ | zero sse $Z_3>0$, único, peso $>0$ | Prop. 4 |
+
+Nenhuma outra contribuição espectral pode existir na folha física.
+
+## 7-quater. Quadro de regimes, regras de soma e protocolo do regulador
+
+### (A) Representação completa por regime
+
+| Regime | Polo de Coulomb | Contínuo | Átomo timelike | Polo spacelike | Constante | Implementação |
+|---|---|---|---|---|---|---|
+| $Z_3>0$ | $g_R^2/Q^2$, resíduo $>0$ | $d\sigma_{\rm cont}\ge0$ em $[4m^2,\Lambda^2]$ | **um**, $s_a>\Lambda^2$, $w>0$ (Prop. 4) | nenhum (Prop. 1) | nenhuma | `reconstruct` e `sum_rules` **suportam** |
+| $Z_3=0$ | idem | idem | nenhum | nenhum | $1/\mu$, $>0$ se $\mu<\infty$ | **recusam**: a constante não está implementada |
+| $Z_3<0$ | idem | idem | nenhum (Prop. 4) | **um**, resíduo $<0$ (Prop. 2) | — | **recusam**: não é representação de Stieltjes |
+
+Hipóteses em todos: (P), (I), (N), (G), (D) da §2. A completude da lista é a
+Prop. 6 mais a tabela de regiões: não há mais nada na folha física.
+`reconstruct()` levanta `ValueError` fora do subcrítico em vez de devolver um
+número que passaria por reconstrução.
+
+### (B) Regras de soma — controle global, não local
+
+Concordância em alguns $Q^2$ não vê um termo faltante; foi exatamente assim que
+o átomo se escondeu. Expandindo $z\mathcal{G}(z)=g_R^2/W(z)$ em $z\to\infty$,
+com $W=Z_3+g_R^2[\mu/z-m_1/z^2+O(z^{-3})]$, $\mu=\int\rho_J\,ds$,
+$m_1=\int s\rho_J\,ds$:
+
+$$\text{(1)}\quad g_R^2+\int d\sigma_{\rm cont}+\sum_a w_a=\frac{g_R^2}{Z_3},
+\qquad
+\text{(2)}\quad \int s\,d\sigma_{\rm cont}+\sum_a w_a s_a=\frac{g_R^4\,\mu}{Z_3^{2}} .$$
+
+Ambas verificadas simbolicamente a partir da assintótica (coeficientes de
+ordem $0$ e $1/z$ conferem exatamente). Existência dos momentos: na parte
+contínua $s\,d\sigma/ds=g_R^4\rho_J/|W|^2$ é limitada no compacto
+$[4m^2,\Lambda^2]$; o átomo contribui finitamente.
+
+**Verificação numérica** ($\Lambda^2=10^6$, $g_R^2/g_c^2=0{,}5$):
+regra (1) com erro relativo $6{,}2\times10^{-10}$, regra (2) com
+$5{,}1\times10^{-9}$. Removendo o átomo, a regra (1) piora para
+$\sim6\times10^{-5}$ — **quatro ordens acima** da precisão alcançada, e é isso
+que um teste passa a exigir.
+
+### (C) Limitações numéricas explícitas
+
+- Os erros acima são **estimativas de quadratura adaptativa**, não enclosures.
+  Rótulo `CHECKED`, nunca `CERTIFIED`.
+- **A estimativa de erro subestima o desvio real na regra (2).** O `quad`
+  reporta erro absoluto $4{,}7	imes10^{-7}$ sobre um valor $pprox8	imes10^{5}$,
+  isto é $5{,}9	imes10^{-13}$ relativo — mas o desvio observado contra o lado
+  direito é $5{,}1	imes10^{-9}$, cerca de **quatro ordens acima da estimativa**.
+  A rotina também emite `Roundoff error is detected in the extrapolation table`.
+  Portanto a estimativa do QUADPACK **não** limita o erro aqui, e as tolerâncias
+  dos testes foram fixadas pelo desvio medido, não pela estimativa. A regra (1),
+  com desvio $6{,}2	imes10^{-10}$ contra estimativa $4{,}8	imes10^{-13}$,
+  mostra a mesma tendência em grau menor.
+- **Resolução na borda.** $d=s_a-\Lambda^2$ encolhe exponencialmente com o
+  acoplamento, aproximadamente
+  $d\sim(\Lambda^2-4m^2)\exp[-Z_3/(g_R^2\rho_J(\Lambda^2))]$. A busca é feita em
+  $\log_{10}d$ e a integral usa $x=\Lambda^2-s$ seguida de $x=d\,e^u$, sem
+  cancelamento. Estados possíveis: `RESOLVED`; `RESOLVED_EDGE_UNRESOLVED`
+  (peso significativo, posição só conhecida a menos de $\epsilon$ de
+  $\Lambda^2$); e **`RuntimeError`** quando $d$ cai abaixo do binary64 —
+  *o átomo existe pela Prop. 4*, logo isso é **inconclusivo, nunca ausência**.
+  Medido: $g^2/g_c^2=0{,}5\Rightarrow d\approx5{,}3$;
+  $0{,}1\Rightarrow d\approx3{,}3\times10^{-42}$;
+  $0{,}01\Rightarrow d\approx10^{-517}$, irrepresentável.
+- **Truncamento** do corte é físico (supos. 4), não erro numérico.
+
+### (D) Protocolo do regulador — declarado antes de calcular
+
+- **Família:** $\rho_\lambda(s)=\rho_J^{(0)}(s)\,e^{-s/\lambda}$, positiva e com
+  suporte $[4m^2,\infty)$; $\lambda$ controla a suavização.
+- **Limite que recupera o corte rígido:** **não existe** nessa família — a
+  exponencial nunca produz borda dura. A comparação é entre dois reguladores,
+  não um limite.
+- **Fixo:** $m$, $q$, a forma de $\rho^{(0)}$, e a hipótese (P).
+- **Muda:** $\bar\Pi(\infty)$ e, com ele, $Z_3$.
+- **Duas comparações distintas, e elas não são a mesma:**
+  (i) mesmos parâmetros de baixa energia, deixando $Z_3$ variar;
+  (ii) mesmo $Z_3$, ajustando $g_R^2$ pela prescrição $g_R^2=(1-Z_3)/\bar\Pi_\lambda(\infty)$.
+  **Escolho (ii) como principal**, porque toda a classificação de regimes é
+  governada por $Z_3$: comparar a $Z_3$ diferente confundiria efeito de
+  regulador com mudança de regime.
+- **Resultado sob (ii), e só ele:** a região real acima de uma borda superior
+  deixa de existir, logo o mecanismo do átomo não está disponível (§7-bis,
+  afirmação 1), **desde que $\rho_\lambda>0$ estritamente** — o que vale aqui,
+  pois $\rho^{(0)}(s)>0$ para todo $s>4m^2$ e a exponencial não introduz zeros.
+  A estrutura restante (Coulomb, contínuo, regimes de $Z_3$) é inalterada.
+- **Em aberto:** o destino do polo. Ressonância exigiria a continuação analítica
+  e suas folhas, que **não** foram definidas nesta rodada.
 
 ## 8. Contatos e suporte
 

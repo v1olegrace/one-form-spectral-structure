@@ -159,49 +159,175 @@ def _W_above_cutoff(t, g2, L2):
     return Z3_of(g2, L2) - g2 * I
 
 
-def spectral_atom(g2, L2):
-    """The discrete atom of sigma above the hard cutoff, or None.
+def _W_edge(d, g2, L2):
+    """W at t = L2 + d, parametrised by the DISTANCE d > 0 to the cutoff edge.
+
+    Two substitutions keep this accurate for arbitrarily small d.  First
+    x = L2 - s turns the integral into int_0^{L2-4} rho(L2-x)/(x+d) dx, which has
+    no cancellation.  Then x = d*e^u turns it into
+
+        int rho(L2 - d e^u) * e^u/(e^u + 1) du,   u <= log((L2-4)/d),
+
+    whose integrand decays like e^u downward, so truncating at u = -40 costs
+    about e^-40.  Writing t = L2*(1+eps) instead loses the root entirely once
+    eps falls below machine epsilon, and at small coupling the atom sits
+    exponentially close to the edge.
+    """
+    top = L2 - S_THR
+    if d >= top:
+        I, _ = quad(lambda x: _rho_scalar(L2 - x) / (x + d), 0.0, top,
+                    limit=400, epsabs=1e-16, epsrel=1e-12)
+    else:
+        I, _ = quad(lambda u: _rho_scalar(L2 - d * np.exp(u)) * np.exp(u) / (np.exp(u) + 1.0),
+                    -40.0, np.log(top / d), limit=500, epsabs=1e-16, epsrel=1e-12)
+    return Z3_of(g2, L2) - g2 * I
+
+
+def spectral_atom(g2, L2, log10_d_range=(-300.0, 250.0)):
+    """The discrete atom of sigma above the hard cutoff, as a structured result.
 
     A hard cutoff leaves the real interval (L2, inf) outside the cut, so W is
-    real there and may vanish.  On that interval W is strictly increasing
-    (dW/dt = g2 * int rho/(t-s)^2 > 0), runs to -inf as t -> L2+ because the
-    integral diverges logarithmically at the cutoff edge, and tends to Z3 as
-    t -> inf.  Hence there is EXACTLY ONE root iff Z3 > 0, and none if Z3 <= 0.
+    real there.  On it W is strictly increasing (dW/dt = g2 int rho/(t-s)^2 > 0),
+    runs to -inf as t -> L2+ because the integral diverges logarithmically at the
+    edge, and tends to Z3 as t -> inf.  Hence EXACTLY ONE root iff Z3 > 0.
 
-    The atom carries positive weight and sits at positive s, so it does NOT
-    violate the positive Stieltjes representation.  What it violates is the
-    claim that sigma stays inside the support of the input density: it does not.
+    The atom carries positive weight at positive s, so it does NOT violate the
+    positive Stieltjes representation.  What it violates is the claim that sigma
+    stays inside the support of the input density.
 
-    Returns (s_atom, weight) or None.
+    The root is solved for in log10 of the EDGE DISTANCE d = s_a - L2, because
+    d shrinks exponentially as the coupling falls: roughly
+    d ~ (L2 - 4m^2) * exp(-Z3 / (g2 * rho(L2))).  Bracketing in t, or in a
+    relative offset, silently reports "no atom" at couplings of physical size.
+
+    Returns None when Z3 <= 0 (the theorem says there is no root then), else a
+    dict with keys s_atom, edge_distance, weight and status:
+
+      RESOLVED                  d found and s_atom = L2 + d is representable
+      RESOLVED_EDGE_UNRESOLVED  d found, but d < L2 * eps so s_atom rounds to L2;
+                                the WEIGHT is still meaningful, the position is
+                                only known as "within machine epsilon of L2"
+      (raises RuntimeError)     Z3 > 0 but d underflows the bracket entirely;
+                                the atom EXISTS by the theorem and this is an
+                                unresolved numerical result, never absence
     """
-    if Z3_of(g2, L2) <= 0.0:
+    z3 = Z3_of(g2, L2)
+    if z3 <= 0.0:
         return None
-    lo, hi = L2 * (1 + 1e-7), L2 * 1e8
-    if not (_W_above_cutoff(lo, g2, L2) < 0 < _W_above_cutoff(hi, g2, L2)):
-        return None
-    t_a = brentq(lambda t: _W_above_cutoff(t, g2, L2), lo, hi, rtol=1e-14, maxiter=300)
-    h = t_a * 1e-7
-    dW_dQ2 = -(_W_above_cutoff(t_a + h, g2, L2)
-               - _W_above_cutoff(t_a - h, g2, L2)) / (2 * h)
-    return t_a, g2 / ((-t_a) * dW_dQ2)
+    lo, hi = log10_d_range
+    f = lambda v: _W_edge(10.0 ** v, g2, L2)
+    f_lo, f_hi = f(lo), f(hi)
+    if not (f_lo < 0 < f_hi):
+        raise RuntimeError(
+            f"Z3={z3:.6g} > 0 guarantees exactly one atom, but its edge distance "
+            f"is outside 10^[{lo}, {hi}] (W={f_lo:.3e} .. {f_hi:.3e}). The atom "
+            "EXISTS by Proposition 4; this is UNRESOLVED, not absence. It is the "
+            "expected outcome at small coupling, where d falls below binary64.")
+    v_a = brentq(f, lo, hi, rtol=1e-15, maxiter=400)
+    d_a = 10.0 ** v_a
+    h = d_a * 1e-6
+    dW_dQ2 = -(_W_edge(d_a + h, g2, L2) - _W_edge(d_a - h, g2, L2)) / (2 * h)
+    s_a = L2 + d_a
+    return {"s_atom": s_a, "edge_distance": d_a,
+            "weight": g2 / ((-s_a) * dW_dQ2),
+            "status": "RESOLVED" if s_a > L2 else "RESOLVED_EDGE_UNRESOLVED"}
+
+
+def spectral_regime(g2, L2):
+    """Name the regime and list every term the representation needs.
+
+    Returns a dict with the regime label and the terms that MUST be present for
+    a complete reconstruction.  Nothing here is computed beyond Z3 and the atom
+    search; the classification itself is the content of Propositions 1 and 4.
+    """
+    z3 = Z3_of(g2, L2)
+    atom = spectral_atom(g2, L2)
+    if z3 > 0:
+        return {"regime": "subcritical", "Z3": z3,
+                "terms": ["coulomb_pole", "continuum", "timelike_atom"],
+                "atom": atom, "spacelike_pole": None,
+                "reconstruction_supported": True,
+                "note": "positive Stieltjes representation, no constant"}
+    if z3 == 0:
+        return {"regime": "critical", "Z3": z3,
+                "terms": ["coulomb_pole", "continuum", "additive_constant"],
+                "atom": None, "spacelike_pole": None,
+                "reconstruction_supported": False,
+                "note": "boundary: the constant 1/mu is NOT implemented here"}
+    return {"regime": "supercritical", "Z3": z3,
+            "terms": ["coulomb_pole", "continuum", "spacelike_pole_negative_residue"],
+            "atom": None, "spacelike_pole": ghost_root(g2, L2),
+            "reconstruction_supported": False,
+            "note": "a spacelike pole is not a Stieltjes term; no representation"}
 
 
 def reconstruct(Q2, g2, L2, include_atom=True):
-    """Rebuild G(Q2) - g2/Q2 from the spectral data actually present.
+    """Rebuild G(Q2) - g2/Q2 from the spectral terms actually implemented.
 
-    With include_atom=False this reproduces the INCOMPLETE reconstruction that
-    hid the atom inside what looked like quadrature error.
+    ONLY the subcritical regime (Z3 > 0) is supported.  At Z3 = 0 the additive
+    constant is not implemented; at Z3 < 0 the object is not a Stieltjes
+    representation at all.  Both REFUSE rather than returning a number that
+    would silently look like a reconstruction.
+
+    ``include_atom=False`` reproduces the INCOMPLETE reconstruction that hid the
+    atom inside what looked like quadrature error.  It is kept so a test can
+    assert that dropping the atom is detectable.
     """
+    info = spectral_regime(g2, L2)
+    if not info["reconstruction_supported"]:
+        raise ValueError(
+            f"reconstruction not implemented for the {info['regime']} regime "
+            f"(Z3={info['Z3']:.6g}): {info['note']}")
     T = np.log(L2 / S_THR)
     total, _ = quad(lambda u: density(S_THR * np.exp(u), g2, L2) * S_THR * np.exp(u)
                     / (S_THR * np.exp(u) + Q2), 0.0, T,
                     limit=400, epsabs=1e-18, epsrel=1e-12)
     if include_atom:
-        atom = spectral_atom(g2, L2)
-        if atom is not None:
-            s_a, w = atom
-            total += w / (Q2 + s_a)
+        atom = info["atom"]
+        total += atom["weight"] / (Q2 + atom["s_atom"])
     return total
+
+
+def sum_rules(g2, L2):
+    """Global weight checks.  Local agreement at a few Q2 cannot see a missing term.
+
+    From z*G(z) = g2 / W(z) and W(inf) = Z3, expanding both sides at z -> inf:
+
+        (1)  g2 + int dsigma_cont + sum_a w_a  =  g2 / Z3
+        (2)  int s dsigma_cont + sum_a w_a s_a =  g2^2 * mu / Z3^2,   mu = int rho_J ds
+
+    Moments exist because s * dsigma/ds = g2^2 rho/|W|^2 is bounded on the
+    compact support, and the atom contributes finitely.
+
+    Returned errors are ESTIMATES from adaptive quadrature, not enclosures.
+    """
+    info = spectral_regime(g2, L2)
+    if info["regime"] != "subcritical":
+        raise ValueError(f"sum rules implemented for the subcritical regime only "
+                         f"(got {info['regime']}, Z3={info['Z3']:.6g})")
+    z3 = info["Z3"]
+    atom = info["atom"]
+    s_a, w = atom["s_atom"], atom["weight"]
+    T = np.log(L2 / S_THR)
+
+    mass, mass_err = quad(lambda u: density(S_THR * np.exp(u), g2, L2) * S_THR * np.exp(u),
+                          0.0, T, limit=500, epsabs=1e-18, epsrel=1e-12)
+    first, first_err = quad(lambda u: (S_THR * np.exp(u))
+                            * density(S_THR * np.exp(u), g2, L2) * S_THR * np.exp(u),
+                            0.0, T, limit=500, epsabs=1e-16, epsrel=1e-12)
+    mu, mu_err = quad(lambda u: _rho_scalar(S_THR * np.exp(u)) * S_THR * np.exp(u),
+                      0.0, T, limit=500, epsabs=1e-15, epsrel=1e-13)
+
+    lhs1, rhs1 = g2 + mass + w, g2 / z3
+    lhs2, rhs2 = first + w * s_a, g2**2 * mu / z3**2
+    return {
+        "regime": info["regime"], "Z3": z3, "atom_s": s_a, "atom_w": w,
+        "rule1": {"lhs": lhs1, "rhs": rhs1, "rel": abs(lhs1 - rhs1) / abs(rhs1),
+                  "quad_err_estimate": mass_err},
+        "rule2": {"lhs": lhs2, "rhs": rhs2, "rel": abs(lhs2 - rhs2) / abs(rhs2),
+                  "quad_err_estimate": first_err + g2**2 * mu_err / z3**2},
+        "evidence": "CHECKED: adaptive-quadrature estimates, not interval enclosures",
+    }
 
 
 # ------------------------------------------------------- moments for the gate

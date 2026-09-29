@@ -203,13 +203,14 @@ def test_resummation_creates_an_atom_above_the_cutoff(g2c):
     """
     atom = ga.spectral_atom(0.5 * g2c, L2)
     assert atom is not None, "Z3 > 0 must produce exactly one atom above L2"
-    s_a, w = atom
-    assert s_a > L2, "the atom must sit OUTSIDE the input density's support"
-    assert w > 0, "positive weight: H3 positivity is not violated by the atom"
+    assert atom["status"] == "RESOLVED"
+    assert atom["edge_distance"] > 0, "the atom sits OUTSIDE the input support"
+    assert atom["s_atom"] > L2
+    assert atom["weight"] > 0, "positive weight: the atom does not break positivity"
 
     # uniqueness: W is strictly increasing on (L2, inf)
     ts = [L2 * f for f in (1.01, 2.0, 10.0, 100.0)]
-    vals = [ga._W_above_cutoff(t, 0.5 * g2c, L2) for t in ts]
+    vals = [ga._W_edge(t - L2, 0.5 * g2c, L2) for t in ts]
     assert all(b > a for a, b in zip(vals, vals[1:])), "W must increase on (L2, inf)"
 
 
@@ -240,3 +241,90 @@ def test_reconstruction_needs_the_atom(g2c, Q2):
     assert err_with < 1e-10, "including the atom must close the decomposition"
     assert err_with < err_without / 100, (
         f"the atom must dominate the residual: {err_without:.2e} -> {err_with:.2e}")
+
+
+# --- 10. global sum rules: local agreement cannot see a missing term --------
+def test_sum_rules_hold_and_detect_a_dropped_atom(g2c):
+    """Two identities from the z -> inf expansion of z*G(z) = g2 / W(z).
+
+        (1)  g2 + int dsigma + sum w_a = g2 / Z3
+        (2)  int s dsigma + sum w_a s_a = g2^2 mu / Z3^2,  mu = int rho_J ds
+
+    These constrain the TOTAL weight, so a forgotten contribution cannot hide
+    the way it hid behind agreement at four values of Q2.
+    """
+    g2 = 0.5 * g2c
+    r = ga.sum_rules(g2, L2)
+    assert r["regime"] == "subcritical"
+    assert r["rule1"]["rel"] < 1e-7, r["rule1"]
+    assert r["rule2"]["rel"] < 1e-6, r["rule2"]
+
+    # dropping the atom must break rule (1) far outside its achieved accuracy
+    rel_without = abs(r["rule1"]["lhs"] - r["atom_w"] - r["rule1"]["rhs"]) / r["rule1"]["rhs"]
+    assert rel_without > 100 * r["rule1"]["rel"], (
+        f"the sum rule must detect the missing atom: {rel_without:.2e} vs "
+        f"{r['rule1']['rel']:.2e}")
+
+
+@pytest.mark.parametrize("k", [0.3, 0.5, 0.8])
+def test_sum_rules_across_subcritical_couplings(g2c, k):
+    r = ga.sum_rules(k * g2c, L2)
+    assert r["rule1"]["rel"] < 1e-6 and r["rule2"]["rel"] < 1e-5
+
+
+@pytest.mark.parametrize("cutoff", [1e4, 1e6, 1e8])
+def test_sum_rules_across_cutoffs(cutoff):
+    g2 = 0.5 * ga.g2_critical(cutoff)
+    r = ga.sum_rules(g2, cutoff)
+    assert r["rule1"]["rel"] < 1e-6 and r["rule2"]["rel"] < 1e-5
+
+
+# --- 11. the numerically hard regimes --------------------------------------
+def test_small_coupling_atom_is_unresolved_never_reported_absent(g2c):
+    """At small coupling the atom approaches the edge exponentially.
+
+    d ~ (L2 - 4m^2) * exp(-Z3 / (g2 rho(L2))). The finder must degrade to an
+    explicit unresolved status or raise -- never to None, which would assert
+    absence against Proposition 4.
+    """
+    atom = ga.spectral_atom(0.1 * g2c, L2)
+    assert atom is not None and atom["status"] == "RESOLVED_EDGE_UNRESOLVED", atom
+    assert atom["weight"] > 0 and atom["edge_distance"] > 0
+
+    with pytest.raises(RuntimeError, match="UNRESOLVED, not absence"):
+        ga.spectral_atom(0.01 * g2c, L2)
+
+
+def test_supercritical_refuses_reconstruction_and_sum_rules(g2c):
+    g2 = 1.5 * g2c
+    assert ga.spectral_atom(g2, L2) is None
+    with pytest.raises(ValueError, match="supercritical"):
+        ga.reconstruct(1.0, g2, L2)
+    with pytest.raises(ValueError, match="subcritical regime only"):
+        ga.sum_rules(g2, L2)
+
+
+def test_critical_regime_refuses_because_the_constant_is_not_implemented(g2c):
+    with pytest.raises(ValueError, match="critical"):
+        ga.reconstruct(1.0, g2c, L2)
+    info = ga.spectral_regime(g2c, L2)
+    assert "additive_constant" in info["terms"]
+    assert info["reconstruction_supported"] is False
+
+
+# --- 12. the uniform counterexample, with exact position and residue --------
+def test_uniform_counterexample_exact():
+    """rho = 1 on [4,10], g2 = 1/(2 log(5/2)) gives Z3 = 1/2, an atom at s = 14
+    with residue 10/21 -- all exactly, independent of the Dirac machinery."""
+    import math
+    g2 = 1.0 / (2.0 * math.log(2.5))
+    Z3 = 1.0 - g2 * math.log(10.0 / 4.0)
+    assert Z3 == pytest.approx(0.5, abs=1e-15)
+
+    W = lambda t: Z3 + g2 * math.log((t - 10.0) / (t - 4.0))
+    assert W(14.0) == pytest.approx(0.0, abs=1e-15)
+
+    # residue of G = g2/(Q2 W(Q2)) at Q2 = -14, via dW/dQ2 at that point
+    h = 1e-6
+    dW_dQ2 = -(W(14.0 + h) - W(14.0 - h)) / (2 * h)
+    assert g2 / ((-14.0) * dW_dQ2) == pytest.approx(10.0 / 21.0, rel=1e-8)
