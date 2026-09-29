@@ -1,5 +1,46 @@
 # Changelog do manuscrito (`paper/paper.tex`)
 
+## v0.4 — 2026-09-29 — A cadeia de bolhas ressomada entra no apêndice
+
+O artigo mudou nesta versão, ao contrário da v0.3a. O PDF canônico precisa ser
+recompilado e o registro de hashes em `output/data/canonical_pdf_qa.json`
+deixa de valer para as fontes atuais.
+
+- **Apêndice A, parágrafo novo.** A v0.3 terminava a ordem líder dizendo que o
+  resto $O(g_R^6)$ não era afirmado positivo. Isso continua certo em ordem fixa,
+  e agora o texto mostra por quê: o termo de ordem $g_R^6$ se anula em $Q^2=0$,
+  cresce e decai como $1/Q^2$, e nenhuma $\int d\sigma/(Q^2+s)$ com
+  $d\sigma\ge0$ tem esse formato. A positividade é propriedade da soma. Para a
+  cadeia ressomada, frações parciais dão $W=Z_3+g_R^2\int\rho_J/(s+Q^2)$ e a
+  hipótese H3 se reduz ao sinal de $Z_3$: vale para $Z_3>0$; falha para
+  $Z_3<0$ por um polo spacelike de resíduo negativo; e falha em $Z_3=0$ por uma
+  constante aditiva quando a massa total é finita. A ausência de polo é
+  necessária e não basta.
+- **Duas consequências, também no apêndice.** A densidade do contínuo é
+  $g_R^4\rho_J/(s|W|^2)$, não negativa para qualquer acoplamento, de modo que um
+  teste feito com momentos do contínuo não vê a falha em $Z_3<0$. E, com corte
+  rígido e densidade que não se anula na borda, a medida ressomada ganha um
+  átomo de peso positivo acima do corte.
+- **Atribuição do átomo.** O mecanismo é o de Giacosa e Wolkanowski (2012,
+  arXiv:1209.2332), agora citado: ressoma produzindo polo na folha física fora
+  do espectro de entrada, com resíduo positivo e regra de soma. O artigo não o
+  apresenta como resultado próprio. A entrada bibliográfica veio do INSPIRE e do
+  Crossref pelo pipeline de proveniência, e não à mão.
+- **Dualidade Stieltjes / Bernstein completa.** Citada em
+  Schilling–Song–Vondraček (2ª ed., 2012), acrescentada à tabela de monografias
+  com a ressalva de que o número do teorema está `PENDING_VERIFICATION`: fontes
+  secundárias divergem entre Teor. 7.3 e Cor. 7.4, e o livro não foi aberto.
+- **Texto principal.** A seção de escopo agora diz explicitamente que passar nos
+  testes de momentos finitos não exclui uma falha de H3 fora do contínuo. O
+  parágrafo que discute H3 aponta para a redução por $Z_3$ no apêndice. Uma
+  frase iniciada por "Moreover" foi reescrita.
+- **QED a um laço.** $Z_3=0{,}966$ em $\Lambda^2=10^{20}\,m^2$; $Z_3$ só se anula
+  perto de $\log(\Lambda^2/4m^2)=3\pi/\alpha$, o polo de Landau do acoplamento a
+  um laço, o que coincide com a escala usual $\sim m\,e^{3\pi/2\alpha}$.
+
+Não mudou: teoremas A, C, E e H, as hipóteses H1–H5 e a conclusão de que H3
+permanece uma hipótese para o kernel físico não perturbativo.
+
 ## v0.3a — 2026-09-23 — Revisão independente por Claude (código e evidência)
 
 As fontes do artigo **não** mudaram nesta rodada: os seis hashes de

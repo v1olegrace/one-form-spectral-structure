@@ -49,6 +49,18 @@ BOOKS = [
          note="Pade approximants to series of Stieltjes: bounding properties and the "
               "equivalence with orthogonal polynomials and Hankel determinants. "
               "Cited as the classical origin of the Hankel hierarchy."),
+    dict(key="schilling_song_vondracek2012", type="book",
+         author="Schilling, Ren{\\'e} L. and Song, Renming and Vondra{\\v{c}}ek, Zoran",
+         title="Bernstein Functions: Theory and Applications", edition="2",
+         series="de Gruyter Studies in Mathematics", volume="37",
+         publisher="de Gruyter", year="2012", address="Berlin",
+         note="Duality between Stieltjes and complete Bernstein functions: f is "
+              "Stieltjes iff 1/f is complete Bernstein iff z f(z) is complete "
+              "Bernstein. Edition, series, year and ISBN 978-3-11-025229-3 taken "
+              "from the authors' errata sheet (dated 2022-12-02), read in full; no "
+              "correction there touches these statements. The statements were NOT "
+              "read in the book, and the theorem number is PENDING_VERIFICATION: "
+              "secondary sources cite it as Thm 7.3 or as Cor 7.4."),
     dict(key="dlmf", type="misc",
          author="{NIST}", title="{NIST} Digital Library of Mathematical Functions",
          howpublished="\\url{https://dlmf.nist.gov/2.3.ii}", year="2026",

@@ -48,8 +48,66 @@ so that
 \begin{equation}
 \dsig_{\mathrm{LO}}(s)=g_{R}^{4}\,\frac{\rho_{J}(s)}{s}\,ds\ \ge\ 0 ,
 \end{equation}
-which is Hypothesis~\ref{hyp:stieltjes} at leading order. The uncomputed
-$O(g_R^6)$ remainder is not asserted to be a positive measure.
+which is Hypothesis~\ref{hyp:stieltjes} at leading order. The next order does
+not inherit this. The $O(g_R^6)$ term of~\eqref{eq:expansion} is
+$g_R^6Q^2\bigl[\int\rho_J\,ds/(s(s+Q^2))\bigr]^2$, which vanishes at $Q^2=0$,
+rises and then falls like $1/Q^2$. A function $\int\dsig/(Q^2+s)$ with
+$\dsig\ge0$ is largest at $Q^2=0$, so this term is not of that form, and
+truncating~\eqref{eq:expansion} at fixed order does not preserve the
+hypothesis. Whatever positivity the chain has belongs to its sum.
+
+\paragraph{The resummed bubble chain.}
+Writing $Q^2/[s(s+Q^2)]=1/s-1/(s+Q^2)$ puts the denominator
+of~\eqref{eq:expansion} in the form
+\begin{equation}
+W(Q^2)\equiv1-g_R^2\overline{\Pi}(Q^2)
+=Z_3+g_R^2\int\frac{\rho_J(s)\,ds}{s+Q^2},
+\qquad
+Z_3\equiv1-g_R^2\int\frac{\rho_J(s)}{s}\,ds ,
+\label{eq:Wpf}
+\end{equation}
+so that $W(0)=1$, $W(Q^2)\to Z_3$ as $Q^2\to\infty$, and $W$ decreases
+strictly on $Q^2>0$ whenever $\rho_J\ge0$ does not vanish identically.
+The sign of $Z_3$ decides the outcome.
+
+If $Z_3>0$, $W/g_R^2$ is a Stieltjes function. By the duality between Stieltjes
+and complete Bernstein functions~\cite{schilling_song_vondracek2012},
+$Q^2W/g_R^2=1/\Gcal$ is then complete Bernstein and $\Gcal$ is Stieltjes. Its
+Coulomb residue is $g_R^2/W(0)=g_R^2$, and $0<\Gcal\le g_R^2/(Q^2Z_3)$ excludes
+an additive constant, so the resummed chain satisfies
+Hypothesis~\ref{hyp:stieltjes} to all orders in the chain.
+
+If $Z_3<0$, $W$ has exactly one zero, at some $Q^2_{\mathrm g}>0$. There $\Gcal$
+has a simple pole with residue $g_R^2/[Q^2_{\mathrm g}W'(Q^2_{\mathrm g})]<0$, at
+spacelike momentum, which no Stieltjes function admits.
+
+If $Z_3=0$ there is no such pole, but
+$\Gcal(Q^2)=\bigl[\int Q^2\rho_J\,ds/(s+Q^2)\bigr]^{-1}\to1/\int\rho_J\,ds$,
+a positive constant whenever that total mass is finite, and the hypothesis
+excludes a constant. The absence of a spacelike pole is therefore necessary for
+Hypothesis~\ref{hyp:stieltjes} and not sufficient.
+
+Two consequences bear on the rest of the paper. The continuum spectral density
+of the chain is $g_R^4\rho_J(s)/(s\,|W(-s-i0)|^2)$, non-negative for every
+coupling, $Z_3<0$ included. A positivity test built from moments of the
+continuum therefore cannot see the failure at $Z_3<0$, which lives in a discrete
+pole; the finite-moment conditions of Section~\ref{sec:scope} have exactly this
+limitation. Second, if $\rho_J$ is cut off sharply at $s=\Lambda^2$ and does not
+vanish there, as the Dirac density does not, then $W$ is real again for
+$Q^2<-\Lambda^2$ and, when $Z_3>0$, vanishes once in that range. The resummed
+measure then carries an atom of positive weight above the cutoff, outside the
+support of $\rho_J$. This is the mechanism studied
+in~\cite{giacosa_wolkanowski_2012}, where resummation places a pole on the
+physical sheet outside the input spectrum, with positive residue, and a
+spectral sum rule restores the normalisation. Theorem~\ref{thm:A} already
+admits atoms in $\sigma$ through~\eqref{eq:pushforward}.
+
+For the one-loop Dirac density at $\alpha=1/137$, $Z_3=0.966$ at
+$\Lambda^2=10^{20}\,m^2$, and $Z_3$ reaches zero only near
+$\log(\Lambda^2/4m^2)=3\pi/\alpha$, the Landau pole of the one-loop coupling.
+Below it the chain satisfies the hypothesis with a wide margin. None of this
+bears on the irreducible $O(g_R^6)$ contributions or on the nonperturbative
+kernel, where Hypothesis~\ref{hyp:stieltjes} remains an assumption.
 
 \paragraph{Check 1 (inverse kernel).}
 The $O(g_{R}^{4})$ coefficient in \eqref{eq:expansion} is

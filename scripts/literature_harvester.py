@@ -63,6 +63,11 @@ SEEDS = [
     ("luscher_wolff_1990", "doi", "10.1016/0550-3213(90)90540-T"),
     ("blossier_et_al_gevp_2009", "arxiv", "0902.1265"),
     ("pobylitsa_wilson_loop_inequalities_2007", "arxiv", "hep-th/0702123"),
+    # Resummation producing a discrete physical-sheet pole outside the input
+    # spectral support, positive residue, closed by a spectral sum rule. Read
+    # in full text (HTML) on 2026-09-29; cited as prior art for the atom
+    # above the hard cutoff in the resummed bubble chain.
+    ("giacosa_wolkanowski_2012", "arxiv", "1209.2332"),
 ]
 
 

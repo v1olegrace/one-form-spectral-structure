@@ -378,5 +378,20 @@
   "key": "hinrichs_polzer_2025",
   "seed_query": "arxiv:2511.02867",
   "added": "2026-09-21"
+ },
+ {
+  "title": "Propagator poles and an emergent stable state below threshold: general discussion and the E(38) state",
+  "authors": "Giacosa, Francesco; Wolkanowski, Thomas",
+  "year": "2012",
+  "journal": "Mod.Phys.Lett.A",
+  "volume": "27",
+  "pages": "1250229",
+  "doi": "10.1142/S021773231250229X",
+  "arxiv": "1209.2332",
+  "inspire_id": "1185117",
+  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"journal\": \"inspire\", \"volume\": \"inspire\", \"pages\": \"crossref\", \"doi\": \"inspire\", \"arxiv\": \"inspire\", \"inspire_id\": \"inspire\"}",
+  "key": "giacosa_wolkanowski_2012",
+  "seed_query": "arxiv:1209.2332",
+  "added": "2026-09-29"
  }
 ]

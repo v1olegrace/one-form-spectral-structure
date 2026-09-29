@@ -48,7 +48,7 @@
 \author{\authorname\thanks{Research name: \researchname.
   E-mail: \href{mailto:\authoremail}{\nolinkurl{\authoremail}}}\\[2pt]
   \small Independent researcher, Botucatu, SP, Brazil}
-\date{\small Draft v0.3 --- 23 September 2026}
+\date{\small Draft v0.4 --- 29 September 2026}
 
 \begin{document}
 \maketitle
@@ -113,7 +113,7 @@ precedents on every methodological axis.
 \item The Laplace structure of the Uehling screening correction is
       classical~\cite{uehling_1935}.
 \item Complete monotonicity of a Laplace transform is Bernstein--Widder.
-      Moreover, Bachas~\cite{bachas_1986} already derives $V'\ge 0$,
+      Bachas~\cite{bachas_1986} goes further and derives $V'\ge 0$,
       $V''\le 0$ for the static potential from reflection positivity
       \emph{alone}, and Seiler~\cite{seiler_1978} bounds the confining
       potential from above by positivity arguments. We impose
@@ -250,8 +250,9 @@ the Coulomb phase and gap in Hypothesis~\ref{hyp:gap}, and the validity of the
 probe approximation, also restrict the physics. At leading nontrivial order,
 the positive spectral contribution follows from Lehmann positivity of
 the \emph{matter} current correlator, assuming its stated subtracted dispersion
-relation (Appendix~A). Beyond that order H3 is an
-assumption about the Coulomb-phase screening function, and
+relation (Appendix~A). For the resummed bubble chain, Appendix~A reduces the
+hypothesis to the sign of the constant $Z_3$ in~\eqref{eq:Wpf}. Beyond the
+chain H3 is an assumption about the Coulomb-phase screening function, and
 Section~\ref{sec:scope} delimits where it fails. Hypothesis~\ref{hyp:probe}
 excludes precisely the strong-source corrections of
 Wichmann and Kroll~\cite{wichmann_kroll_1956}.
@@ -396,7 +397,11 @@ for instance, its violation in the photon Schwinger function of compact
 lattice U(1) is used as a confinement
 diagnostic~\cite{loveridge_oliveira_silva_2022}. Here only finitely many moments
 at selected radii are tested. Passing means compatibility with these tested
-conditions, not a positive spectral measure or a proof of H3. The tests use
+conditions, not a positive spectral measure or a proof of H3. Nor does passing
+rule out a failure of the hypothesis that sits off the continuum: in the
+resummed bubble chain of Appendix~A the continuum density stays non-negative
+even when a spacelike pole violates Hypothesis~\ref{hyp:stieltjes}, and a test
+on continuum moments cannot register it. The tests use
 high-precision arithmetic without rigorous error enclosures; near-singular
 cases are refused as unresolved. An independently established support bound
 $M$ would additionally require $H_1-MH_0\succeq0$.
