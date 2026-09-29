@@ -2,7 +2,7 @@
 
 These checks need no TeX installation; the end-to-end clean build (no
 warnings, no bitmap fonts) is tested separately in ``test_paper_build.py``,
-which is skipped on machines without pdflatex/bibtex. Checked here:
+which is skipped on machines without pdflatex/bibtex or Tectonic. Checked here:
 balanced environments and braces, resolvable cross-references, required
 structure, and the honesty constraints the audit imposes on the wording.
 """

@@ -48,7 +48,7 @@
 \author{\authorname\thanks{Research name: \researchname.
   E-mail: \href{mailto:\authoremail}{\nolinkurl{\authoremail}}}\\[2pt]
   \small Independent researcher, Botucatu, SP, Brazil}
-\date{\small Draft v0.2 --- \today}
+\date{\small Draft v0.3 --- 23 September 2026}
 
 \begin{document}
 \maketitle
@@ -62,10 +62,13 @@ basile_golmohammadi_2025}. We observe that, \emph{conditional on a positive
 Stieltjes representation of the gauge-invariant static response}
 (Hypothesis~\ref{hyp:stieltjes} below), the reduced profile
 $\Phi(r)=\delta(r)/r^{2}$ is exactly the Laplace transform of a positive
-measure $\nu$ whose support edge is the lowest threshold of the charged sector.
+measure $\nu$ whose support edge is the lowest threshold coupled to this
+observable. Identifying it with a charged-matter threshold requires additional
+channel information.
 The word ``exact'' here means exact within that hypothesis, and nothing more:
 we do \emph{not} prove that the hypothesis holds nonperturbatively, or in full
-QED, where massless multi-photon cuts obstruct it. Given the representation,
+QED. In particular, massless multi-photon cuts obstruct the positive-gap
+hypothesis, without by themselves disproving spectral positivity. Given the representation,
 standard inverse-spectral technology applies: the logarithmic slope
 $\Gamma(r)=-\partial_{r}\log\Phi$ is a monotonically decreasing upper bound on
 the threshold, and a local Hankel pencil refines it. We emphasise that this
@@ -113,8 +116,10 @@ precedents on every methodological axis.
       Moreover, Bachas~\cite{bachas_1986} already derives $V'\ge 0$,
       $V''\le 0$ for the static potential from reflection positivity
       \emph{alone}, and Seiler~\cite{seiler_1978} bounds the confining
-      potential from above by positivity arguments. Our Hypothesis~\ref{hyp:stieltjes} is strictly stronger
-      than reflection positivity, so the infinite hierarchy we obtain is not an
+      potential from above by positivity arguments. We impose
+      Hypothesis~\ref{hyp:stieltjes} as an additional spectral assumption whose
+      derivation from reflection positivity is not established here, so the
+      infinite hierarchy we obtain is not an
       improvement on Bachas in hypothesis-free content.
 \item That $\Gamma(r)$ is a monotone upper bound converging to the support
       edge, and that a generalized eigenvalue hierarchy refines it, is the
@@ -145,7 +150,7 @@ precedents on every methodological axis.
 \end{itemize}
 What remains is the assembly: the identification of the one-form breaking
 profile as a completely monotone function under a stated hypothesis, the
-resulting operational bounds on the charged threshold, and a careful account of
+resulting operational bounds on the effectively coupled threshold, and a careful account of
 where the construction fails.
 
 \section{The observable and the static response}
@@ -184,7 +189,7 @@ linear-response kernel that produces~\eqref{eq:wilson} at leading order in the
 probe strength.
 
 \begin{definition}[Breaking profile]
-With $q_{\infty}=\lim_{r\to\infty}q(r)$,
+For a nonzero probe charge, with $q_{\infty}=\lim_{r\to\infty}q(r)\neq0$,
 \begin{equation}
 \delta(r)=-\frac{r}{q_{\infty}}\,\frac{dq(r)}{dr},
 \qquad
@@ -240,9 +245,12 @@ The source is non-dynamical and infinitely heavy, and the linear-response
 relation $\tilde\varphi(\mathbf{p})=q_{W}\Gcal(Q^{2})$ holds in the regime used.
 \end{hypothesis}
 
-Hypothesis~\ref{hyp:stieltjes} is the only one with dynamical content. At order
-$g_{R}^{2}$ it is not an assumption but a consequence of Lehmann positivity of
-the \emph{matter} current correlator (Appendix~A). Beyond that order it is an
+Hypothesis~\ref{hyp:stieltjes} is the central unproved spectral input;
+the Coulomb phase and gap in Hypothesis~\ref{hyp:gap}, and the validity of the
+probe approximation, also restrict the physics. At leading nontrivial order,
+the positive spectral contribution follows from Lehmann positivity of
+the \emph{matter} current correlator, assuming its stated subtracted dispersion
+relation (Appendix~A). Beyond that order H3 is an
 assumption about the Coulomb-phase screening function, and
 Section~\ref{sec:scope} delimits where it fails. Hypothesis~\ref{hyp:probe}
 excludes precisely the strong-source corrections of
@@ -308,7 +316,8 @@ is enforced by a test that fails if the convention is changed inconsistently.
 \section{Threshold bounds}
 
 \begin{theorem}[Logarithmic slope]\label{thm:C}
-Let $\Gamma(r)=-\partial_{r}\log\Phi(r)$ and let $\langle\cdot\rangle_{r}$
+For a nonzero spectral measure $\nu$, let
+$\Gamma(r)=-\partial_{r}\log\Phi(r)$ and let $\langle\cdot\rangle_{r}$
 denote expectation under $e^{-rx}\dnu(x)/\Phi(r)$. Then
 \begin{equation}
 \Gamma(r)=\langle x\rangle_{r}\ \ge\ \Mstar,
@@ -332,8 +341,10 @@ B_{K}(r)=\lambda_{\min}(H_{1},H_{0})
 \frac{\int x\,p(x)^{2}e^{-rx}\dnu}{\int p(x)^{2}e^{-rx}\dnu}
 \ \ge\ \Mstar,
 \end{equation}
-with $B_{K+1}\le B_{K}$ and $B_{0}=\Gamma$. If in addition
-$\Mstar=\inf\supp\nu$, then $B_{K}\downarrow\Mstar$.
+with $B_{K+1}\le B_{K}$ wherever both pencils are defined, and $B_{0}=\Gamma$.
+For infinite support and $\Mstar=\inf\supp\nu$, $B_{K}\downarrow\Mstar$.
+For $L$ distinct atoms, $B_{L-1}=\inf\supp\nu$ and higher-order pencils are
+singular; they require rank reduction.
 \end{theorem}
 
 This is the GEVP hierarchy of~\cite{blossier_et_al_gevp_2009} in a radial
@@ -345,7 +356,9 @@ possessing an exponential moment. Carleman is used only for determinacy and
 is not by itself a proof of edge convergence.
 
 \paragraph{Edge law.}
-If $\dnu/dx=C\,t^{p-1}[1+\beta t+O(t^{2})]$ with $t=x-\Mstar$, Watson's lemma
+If the measure is absolutely continuous near its effective edge, with no atom
+there, and $\dnu/dx=C\,t^{p-1}[1+\beta t+O(t^{2})]$ for $C>0$, $p>0$ and
+$t=x-\Mstar$, Watson's lemma
 applied separately to $\Phi$ and to $\int t\,e^{-rx}\dnu$ gives
 $\Gamma(r)=\Mstar+p/r+\beta p/r^{2}+O(r^{-3})$. For one Dirac species
 $p=3/2$ and $\Gamma=2m+3/(2r)-5/(16mr^{2})+45/(32m^{2}r^{3})+\cdots$; for a
@@ -359,8 +372,12 @@ channel, and both values are confirmed numerically
 \paragraph{Complete monotonicity is not equivalent to
 Hypothesis~\ref{hyp:stieltjes}.}
 By Bernstein--Widder~\cite{widder1941laplace}, $e^{\Mstar r}\Phi(r)$ is
-completely monotone if and only if a positive measure with that support edge
-exists. That equivalence concerns the Laplace representation \emph{only}.
+completely monotone if and only if a positive measure supported in
+$[\Mstar,\infty)$ exists. This gives a lower bound on the support, not its
+exact infimum: $\Phi=e^{-2r}$ satisfies the condition with $\Mstar=1$ while
+its effective edge is $2$. Equality requires
+$\Mstar=\inf\supp\nu$ separately. That equivalence concerns the Laplace
+representation \emph{only}.
 Reconstructing the Stieltjes kernel~\eqref{eq:H3} additionally requires
 $\int\dnu(x)/[x^{2}(\mu_{0}^{2}+x^{2})]<\infty$: taking $\dnu=x^{3}
 \mathbf{1}_{x\ge1}dx$ gives a completely monotone $\Phi$ with a gap whose
@@ -368,14 +385,21 @@ integral diverges logarithmically. And $\Phi(r)=1/r$ is completely monotone
 with no gap at all. Screening alone is weaker still:
 $\Phi=e^{-r}-\tfrac12e^{-2r}$ is positive with positive $-\Phi'$, yet
 $\Phi''<0$ for $r<\log 2$, so a screening-only diagnostic is fooled by a signed
-measure. Our numerical pipeline exploits this: a positivity gate on
-$(-1)^{n}\Phi^{(n)}$ and on $H_{0}$ fires before any bound is reported.
+measure. Our numerical pipeline exploits finite necessary conditions: finite
+real moments with $a_0>0$, $a_n\ge0$, a numerically positive-definite $H_0$
+for a usable pencil, and a positive-semidefinite localizer $H_1$ for support
+in $[0,\infty)$. The bound routine repeats these checks on its actual input.
+A singular $H_0$ can describe a positive atomic measure; it calls for lower
+order, rank reduction or higher precision, not rejection of H3.
 Testing spectral positivity on Euclidean data is itself established practice;
 for instance, its violation in the photon Schwinger function of compact
 lattice U(1) is used as a confinement
-diagnostic~\cite{loveridge_oliveira_silva_2022}. The gate differs only in
-depth: it tests the full derivative and Hankel hierarchy rather than the sign
-of a single function.
+diagnostic~\cite{loveridge_oliveira_silva_2022}. Here only finitely many moments
+at selected radii are tested. Passing means compatibility with these tested
+conditions, not a positive spectral measure or a proof of H3. The tests use
+high-precision arithmetic without rigorous error enclosures; near-singular
+cases are refused as unresolved. An independently established support bound
+$M$ would additionally require $H_1-MH_0\succeq0$.
 
 \paragraph{The first threshold need not be charged.}
 In full QED the photon vacuum polarization receives contributions from
@@ -391,11 +415,13 @@ Fix $M>\mu\ge0$, a window $0\le t\le T$ and $0<\epsilon<1$. The normalised
 profiles $f_{0}=e^{-Mt}$ and
 $f_{\epsilon}=(1-\epsilon)e^{-Mt}+\epsilon e^{-\mu t}$ are Laplace transforms of
 positive measures with edges $M$ and $\mu$, yet
-$\sup_{[0,T]}|f_{\epsilon}-f_{0}|\le\epsilon$. Hence no lower bound on $\Mstar$
+$\sup_{[0,T]}|f_{\epsilon}-f_{0}|\le\epsilon$. Hence no strictly positive lower bound on $\Mstar$
 holds uniformly over positive measures given finite-precision data on a finite
 window.
 \end{theorem}
 
+The trivial bound $\Mstar\ge0$ remains. This is an instability statement for
+finite-precision data, not nonuniqueness from exact data on an open interval.
 Upper bounds survive; two-sided localisation of the edge does not, absent a
 minimum-weight assumption, a spectral model, or external input. The crossover
 radius is $t_{\times}=\log[(1-\epsilon)/\epsilon]/(M-\mu)$.
@@ -410,9 +436,12 @@ Hypothesis~\ref{hyp:stieltjes}.
 \section{Numerical validation}
 \label{sec:numerics}
 
-All numbers are regenerated by the scripts in \texttt{reproducibility/} at
-30--200 decimal digits. These are high-precision numerical checks, not interval
-quadrature certificates; the distinction is maintained in the code.
+The moment calculations below use 30--200 decimal digits; Figure~\ref{fig:hidden}
+uses an independent double-precision calculation. These are numerical checks,
+not interval quadrature certificates. A separate optional benchmark uses
+Arb quadrature with analytic tail bounds and exact rational weight certificates
+for specified one-loop Dirac/scalar models. It does not certify the
+perturbative truncation error or H3 in an interacting theory.
 
 Exactly solvable models are recovered exactly: a single atom gives
 $\Gamma=M$ and $B_{0}=M$; two atoms are resolved at $K=1$. For one Dirac
@@ -429,6 +458,16 @@ $a_{3}(1)=-0.1735<0$ and, for the $2\times2$ pencil, $\det H_{0}(1)=-0.0249<0$
 rescaled normalisation $\tilde a_{n}=e^{r}a_{n}$ used by the code), and no
 bound is reported, while $\Phi>0$ and $-\Phi'>0$ both hold --- confirming
 that a screening-only test is insufficient.
+
+The stronger counterexample
+$\dnu=\delta_1+e\,\delta_2-e^9\delta_{10}/1000$ has at $r=1$ the rescaled
+moments $(1.999,2.99,4.9,8)$. All four are positive and
+$\det\widetilde H_0=0.855>0$, but
+$\det\widetilde H_1=-0.09<0$. Omitting the localizer check would return
+$B_1\simeq-0.0644645$; the revised routine refuses this input.
+Conversely, $\dnu=\delta_1+\delta_2+\delta_3-10^{-6}\delta_4$ passes the
+finite tests through order $5$ at $r=1$ and fails at order $7$. It explicitly
+demonstrates why finite compatibility is not a positivity certificate.
 
 \paragraph{Vanishing weight at the true edge.}
 Take $\dnu=10^{-12}\delta_{2}+(x-3)^{1/2}e^{-(x-3)}\mathbf{1}_{x\ge3}\,dx$,
@@ -495,11 +534,24 @@ $g|q|\Mpl/m$: shape determines the mass scale, while the magnitude carries
 $g^{2}q^{2}$ and the density of charged states. Positivity alone cannot yield
 the Weak Gravity Conjecture; a non-homogeneous gravitational input is required.
 
-With one supplied explicitly --- a species bound $N\Lambda^{2}\le\kappa\Mpl^{2}$
-\cite{dvali_species_2007}, a quantified strong-breaking threshold
-$\delta_{\mathrm{obs}}(1/\Lambda)\ge\eta$, a heavy-tail bound $\tau$ and a
-model-error bound $\varepsilon$, all fixed in advance --- the one-species cap
-$0\le\delta_{D}\le g_{R}^{2}q^{2}/6\pi^{2}$ gives
+For a precise conditional implication, take $N\ge1$ light Dirac species with
+$0<m_i\le\Lambda$ and $\Lambda>0$. Assume the species bound
+$N\Lambda^{2}\le\kappa\Mpl^{2}$, $\kappa>0$~\cite{dvali_species_2007},
+and $\delta_{\mathrm{obs}}(1/\Lambda)\ge\eta$. Write the observed profile as
+the sum of the one-loop light-species contributions, a heavy contribution
+bounded above by $\tau\ge0$, and a residual bounded in absolute value by
+$\varepsilon\ge0$. All bounds are fixed in advance, with
+$\eta>\tau+\varepsilon$. For
+$R=\max_{i\le N}g_R|q_i|\Mpl/m_i$, the one-species cap
+(\cref{app:cap}) gives
+\begin{equation}
+\eta-\tau-\varepsilon
+\le\sum_{i\le N}\delta_{D,i}
+\le\frac{\sum_{i\le N}g_R^2q_i^2}{6\pi^2}
+\le\frac{R^2 N\Lambda^2}{6\pi^2\Mpl^2}
+\le\frac{\kappa R^2}{6\pi^2}.
+\end{equation}
+Thus
 \begin{equation}
 \max_{i}\frac{g_{R}|q_{i}|\Mpl}{m_{i}}
 \ \ge\ \sqrt{\frac{6\pi^{2}(\eta-\tau-\varepsilon)}{\kappa}}.
@@ -516,9 +568,11 @@ The analytic ingredients used here are classical, and the inverse-spectral
 method is standard lattice technology. What the paper adds is that a
 generalized-symmetry observable, introduced for an entirely different purpose,
 carries a positive Laplace structure under a stated hypothesis, and that the
-structure is strong enough to bound the charged threshold and weak enough to be
-falsifiable: a measured profile violating complete monotonicity refutes
-Hypothesis~\ref{hyp:stieltjes} for that observable.
+structure bounds the effectively coupled threshold. A violation of complete
+monotonicity, resolved beyond measurement and numerical errors, rules out
+the conjunction of hypotheses leading to this representation. It singles out
+H3 only if the observable definition and other hypotheses have been
+independently justified.
 
 The open questions are physical rather than mathematical: establishing
 Hypothesis~\ref{hyp:stieltjes} for an interacting kernel beyond leading order;
@@ -532,9 +586,8 @@ weakened --- we leave open.
 
 \paragraph{Data and code availability.}
 All numerical results, the adversarial test suite, the literature audit and
-the per-claim novelty matrix are in the accompanying repository
-(public URL and an archived release with a persistent identifier to be
-inserted in the submitted version). The scripts distinguish
+the per-claim novelty matrix are in the accompanying source package.
+This draft has no archived public release identifier. The scripts distinguish
 high-precision \emph{checks} from interval-arithmetic \emph{certificates}, and
 only the latter are called certified.
 

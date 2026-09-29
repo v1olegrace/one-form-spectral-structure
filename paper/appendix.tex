@@ -46,9 +46,10 @@ $g=g_{R}$ is the long-distance coupling, \eqref{eq:Kinv} becomes
 \end{equation}
 so that
 \begin{equation}
-\dsig(s)=g_{R}^{4}\,\frac{\rho_{J}(s)}{s}\,ds+O(g_{R}^{6})\ \ge\ 0 ,
+\dsig_{\mathrm{LO}}(s)=g_{R}^{4}\,\frac{\rho_{J}(s)}{s}\,ds\ \ge\ 0 ,
 \end{equation}
-which is Hypothesis~\ref{hyp:stieltjes} at leading order.
+which is Hypothesis~\ref{hyp:stieltjes} at leading order. The uncomputed
+$O(g_R^6)$ remainder is not asserted to be a positive measure.
 
 \paragraph{Check 1 (inverse kernel).}
 The $O(g_{R}^{4})$ coefficient in \eqref{eq:expansion} is
@@ -69,6 +70,18 @@ $g^{2}_{\mathrm{eff}}(Q^{2})=Q^{2}\Gcal(Q^{2})=g_{R}^{2}/[1-g_{R}^{2}
 \overline{\Pi}]$ is increasing in $Q^{2}$, so the coupling grows in the
 ultraviolet. The flipped convention gives a decreasing effective coupling,
 i.e. antiscreening --- the signature of the error.
+
+\paragraph{One-species cap.}\label{app:cap}
+For the one-loop Dirac density, put $u=4m^2/x^2\in[0,1]$ and
+$f(u)=(1+u/2)\sqrt{1-u}$. Since
+$f(u)^2=1-3u^2/4-u^3/4$, one has $0\le f(u)\le1$. Consequently
+\begin{equation}
+0\le\delta_D(r)=\frac{g_R^2q^2}{6\pi^2}r^2
+\int_{2m}^{\infty}x e^{-rx}f(4m^2/x^2)\,dx
+\le\frac{g_R^2q^2}{6\pi^2}r^2\int_0^{\infty}x e^{-rx}\,dx
+=\frac{g_R^2q^2}{6\pi^2}.
+\end{equation}
+This bounds the one-loop coefficient, not the uncomputed interacting remainder.
 
 \section{Proofs}
 \label{app:proofs}

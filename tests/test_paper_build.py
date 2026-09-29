@@ -2,7 +2,7 @@
 
 The build must be *clean*, not merely successful: no LaTeX/BibTeX warnings,
 no overfull boxes, no undefined references, and no bitmap (Type 3) fonts in
-the PDF.  Skipped, never faked, on machines without pdflatex/bibtex.
+the PDF. Skipped on machines without pdflatex/bibtex or Tectonic.
 """
 
 from __future__ import annotations
@@ -32,14 +32,18 @@ def test_figure_data_reproduces_quoted_numbers() -> None:
 
 
 def test_paper_compiles_cleanly(tmp_path: Path) -> None:
-    if not (shutil.which("pdflatex") and shutil.which("bibtex")):
-        pytest.skip("pdflatex/bibtex not installed")
+    classical = shutil.which("pdflatex") and shutil.which("bibtex")
+    tectonic = shutil.which("tectonic")
+    if not classical and not tectonic:
+        pytest.skip("pdflatex/bibtex or tectonic not installed")
     build = tmp_path / "build"
     shutil.copytree(PAPER, build)
-    for cmd in (["pdflatex", "-interaction=nonstopmode", "paper"],
-                ["bibtex", "paper"],
-                ["pdflatex", "-interaction=nonstopmode", "paper"],
-                ["pdflatex", "-interaction=nonstopmode", "paper"]):
+    commands = ([['pdflatex', '-interaction=nonstopmode', 'paper'],
+                 ['bibtex', 'paper'],
+                 ['pdflatex', '-interaction=nonstopmode', 'paper'],
+                 ['pdflatex', '-interaction=nonstopmode', 'paper']] if classical else
+                [[tectonic, '--keep-logs', '--keep-intermediates', 'paper.tex']])
+    for cmd in commands:
         res = _run(cmd, build)
         assert res.returncode == 0, f"{cmd[0]} failed:\n{res.stdout[-2000:]}"
     log = (build / "paper.log").read_text(errors="replace")
