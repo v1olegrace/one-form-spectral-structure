@@ -25,3 +25,6 @@ paper/*.pdf
 # OS
 Thumbs.db
 .DS_Store
+# Local agent settings and mixed personal archive (not research deliverables)
+.claude/
+reports/memoria_viole_2026-09-14/

@@ -1,8 +1,10 @@
 name: tests
 
 # NOTE: this workflow has NOT been executed in the development environment,
-# which has no CI runner. It is reported as UNVERIFIED_IN_ENVIRONMENT in
-# FINAL_REPORT.md and must not be scored as passing until it runs green.
+# which has no CI runner. It must not be scored as passing until it runs green.
+# Current verification status: README.md ("Verification status") and
+# reports/AUDIT_REMEDIATION_2026-09-23.md. FINAL_REPORT.md is a historical
+# record and is no longer the status source.
 
 on:
   push:
@@ -62,7 +64,7 @@ jobs:
       - name: Certified tests, with any skip treated as failure
         run: |
           set -o pipefail
-          python -m pytest tests/test_one_loop_certified.py tests/test_spectral_weight_certificates.py -q -rs | tee pytest.out
+          python -m pytest tests/test_one_loop_certified.py tests/test_one_loop_verifier.py tests/test_spectral_weight_certificates.py -q -rs | tee pytest.out
           if grep -q "skipped" pytest.out; then echo "certified tests were skipped"; exit 1; fi
 
       - name: Generate the one-loop certificates
@@ -96,3 +98,11 @@ jobs:
         with:
           name: paper
           path: paper/paper.pdf
+
+      - name: Build Portuguese discussion brief
+        run: cd paper && latexmk -pdf -interaction=nonstopmode professor_brief.tex
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: professor-brief
+          path: paper/professor_brief.pdf
