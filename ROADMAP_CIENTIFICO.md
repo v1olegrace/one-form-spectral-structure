@@ -270,6 +270,59 @@ rótulo `CHECKED_COMPATIBLE`, que significa apenas que as condições necessári
 finitas testadas passaram. O contraexemplo δ₁+δ₂+δ₃−10⁻⁶δ₄ passa em ordem 5
 e falha em ordem 7: nenhum número de testes finitos aprovados estabelece H3.
 
+### E2.5 Estado em 29/09/2026 — a cadeia de bolhas ficou fechada
+
+Das seis obrigações de E2.4, uma mudou de estado, e só em parte: a obrigação 1
+(H3 além da ordem líder) está **resolvida para a cadeia de bolhas ressomada** e
+continua aberta para o kernel interagente. As outras cinco seguem como estavam.
+
+**O que ficou demonstrado, dentro do modelo.** Com $\rho_J\ge0$ não nula,
+momento inverso finito, $g_R^2>0$ e a forma de Dyson subtraída, frações parciais
+dão $W=Z_3+g_R^2\int\rho_J/(s+Q^2)$, e H3 sem constante:
+
+| $Z_3$ | Polo spacelike | Átomo acima do corte | H3 |
+|---|---|---|---|
+| $>0$ | não | um, peso positivo (se $\rho_J$ não se anula na borda) | vale |
+| $=0$ | não | não | falha se a massa total é finita |
+| $<0$ | um, resíduo negativo | não | falha |
+
+As demonstrações estão em `notes/H3_RPA_proof_note_2026-09-29.md` (Props. 1–6)
+e o enunciado entrou no apêndice A do artigo na v0.4. Não há zeros de $W$ fora
+do eixo real (Prop. 6), então a lista de contribuições espectrais é completa, e
+duas regras de soma controlam o peso total.
+
+**O que se aprendeu que não era óbvio.** A densidade do contínuo fica positiva
+para qualquer acoplamento. Toda a falha em $Z_3<0$ está num polo discreto, e um
+teste de positividade feito com momentos do contínuo não a vê. O filtro do
+próprio projeto aprova esse caso; é limite de alcance, e o artigo passou a
+dizê-lo. Uma segunda lição foi de método: a concordância de $10^{-8}$ que
+parecia erro de quadratura era um átomo omitido, e duas rotas numéricas que
+concordavam entre si a $5\times10^{-9}$ erravam ambas $2\times10^{-6}$ porque
+consumiam a mesma raiz. A forma fechada da integral de borda levou posição e
+peso do átomo à precisão de máquina, conferida contra aritmética de 50 dígitos.
+
+**Atribuição.** O átomo não é descoberta do projeto: é o mecanismo de Giacosa e
+Wolkanowski (2012), polo na folha física fora do espectro de entrada, resíduo
+positivo, regra de soma. O limite $0\le Z_3\le1$ é de Källén. A redução de H3
+ao sinal de $Z_3$ para este kernel não apareceu nas fontes pesquisadas, o que
+não estabelece novidade; Brown–Weisberger (1979) segue não lido.
+
+**Próximo passo, com critério de aceitação.** A pergunta física continua sendo
+o transporte $\langle FF\rangle\to$ laço de Wilson $\to$ kernel estático. Um caso
+controlado em que ele possa ser feito explicitamente, antes da versão
+interagente:
+
+- *Hipótese a testar:* para um campo livre massivo acoplado linearmente à fonte,
+  o coeficiente $O(q_W^2)$ de $\log\langle W\rangle$ reproduz a medida positiva
+  de $\langle FF\rangle$ sem termos de contato em $r>0$.
+- *Observável:* $V(r)$ obtido do laço retangular $T\times r$, $T\to\infty$,
+  comparado com a transformada de Yukawa da medida de $\langle FF\rangle$.
+- *Refutação:* um termo em $r>0$ que não venha da medida — um contato que
+  sobreviva, ou dependência de $T$ que não cancele com a renormalização de
+  perímetro.
+- *Aceitação:* igualdade analítica nos dois lados, com cada troca de limite
+  justificada, e verificação numérica independente em dois valores de massa.
+
 ---
 
 ## E3 — Consolidar a contribuição original (P0)
@@ -365,6 +418,7 @@ número do texto está coberto por um `assert`.
 |---|---|---|---|
 | v0.2 | E0 | 21/09/2026 | Build limpo, autoria, números e crossover corrigidos, bibliografia saneada, Figura 1 |
 | v0.3 | Auditoria | 23/09/2026 | Filtro finito com localizador H₁, contraexemplos novos, enunciados com hipóteses explícitas, teto de uma espécie provado no apêndice, cadeia WGC condicional completa, proveniência 40/28 |
+| v0.4 | E2.5 | 29/09/2026 | Cadeia de bolhas ressomada no apêndice A (três regimes de $Z_3$, átomo acima do corte atribuído a Giacosa–Wolkanowski), limitação dos testes de momentos no texto principal, dualidade Stieltjes/Bernstein citada |
 
 O PDF entregue da v0.3 é `output/pdf/spectral_structure_v03.pdf` (12 páginas,
 compilado com Tectonic 0.17.0 portátil). Esse diretório é gitignored: o PDF
