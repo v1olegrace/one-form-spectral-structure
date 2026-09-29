@@ -309,6 +309,31 @@ era sobre o **suporte** da medida, não sobre a positividade.
 possa zerar. A checagem numérica com regulador suave não foi confiável e não é
 apresentada como evidência.
 
+## 8-ter. Completude da representação e regras de soma (29/09, 2ª rodada)
+
+**A auditoria dos zeros está fechada.** $W$ não tem zero fora do eixo real,
+porque $\operatorname{Im}W(x+iy)=-g_R^2\,y\int\rho_J/|s+z|^2$ tem o sinal de
+$-y$ e não se anula (Prop. 6 da nota). Logo todos os zeros são reais, e as
+quatro regiões do eixo real estão todas tratadas: spacelike, abaixo do limiar,
+o corte, e acima do corte. **Nenhuma outra contribuição espectral pode existir
+na folha física.** Isto sai da representação integral, não de varredura.
+
+**Controle global.** Concordância local em alguns $Q^2$ foi exatamente como o
+átomo se escondeu. Duas regras de soma, derivadas da assintótica de
+$z\mathcal{G}=g_R^2/W$:
+$$g_R^2+\int d\sigma_{\rm cont}+\sum_a w_a=\frac{g_R^2}{Z_3},\qquad
+\int s\,d\sigma_{\rm cont}+\sum_a w_a s_a=\frac{g_R^4\mu}{Z_3^2}.$$
+Verificadas com desvio relativo $6{,}2\times10^{-10}$ e $5{,}1\times10^{-9}$.
+Sem o átomo, a primeira vai a $\sim6\times10^{-5}$.
+
+**Correção de uma alegação deste relatório.** Onde se dizia que o polo "migra
+para a folha não física, virando ressonância": isso **não** foi demonstrado.
+Mostrar $\operatorname{Im}W>0$ exclui um zero naquela borda; não estabelece
+ressonância, localização nem a continuação analítica. O enunciado correto é:
+*com densidade estritamente positiva em todo o contínuo, o mecanismo que
+produzia o átomo na região real acima do corte deixa de estar disponível; o
+destino desse polo sob mudança de regulador permanece por determinar.*
+
 ## 9. Teto do que foi estabelecido, e o que continua aberto
 
 **Estabelecido (dentro das suposições 1–6), nos três regimes separadamente:**
