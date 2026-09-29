@@ -1,0 +1,254 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=20mm,headheight=14pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,array,booktabs,xcolor,fancyhdr,enumitem}
+\usepackage[most]{tcolorbox}
+\definecolor{ink}{HTML}{17334C}
+\definecolor{pale}{HTML}{EEF4F7}
+\definecolor{rust}{HTML}{A64B2A}
+\definecolor{warn}{HTML}{8A3324}
+\definecolor{palewarn}{HTML}{FBEEE9}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink} O RACIOCÍNIO E A MATEMÁTICA}
+\fancyhead[R]{\small 28.09.2026}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newtcolorbox{caixa}[1]{colback=pale,colframe=ink,boxrule=0.4pt,arc=1mm,
+ title={#1},fonttitle=\bfseries,coltitle=white,left=3mm,right=3mm,top=2mm,bottom=2mm}
+\newtcolorbox{alerta}[1]{colback=palewarn,colframe=warn,boxrule=0.4pt,arc=1mm,
+ title={#1},fonttitle=\bfseries,coltitle=white,left=3mm,right=3mm,top=2mm,bottom=2mm}
+\newcommand{\Mst}{M_*}
+
+\begin{document}
+
+{\Large\bfseries\color{ink} A matemática e o raciocínio que eu segui}\par
+{\large Do observável de simetria de 1-forma até onde o argumento trava}\par
+\vspace{1mm}
+{\small Mauro de Oliveira Cardoso (Viole) --- 28 de setembro de 2026.
+Acompanha o artigo canônico v0.3 e o resumo de seis páginas.}
+
+\vspace{2mm}\hrule\vspace{2mm}
+
+\section*{Passo 1 --- De onde eu parto}
+
+Numa teoria de Maxwell, a simetria elétrica de 1-forma mede carga através de
+uma superfície que envolve uma linha de prova. Com matéria carregada, o
+\emph{screening} faz essa carga depender do raio. Córdova, Ohmori e Rudelius
+definiram o perfil que mede essa quebra; Basile e Golmohammadi calcularam-no a
+um laço:
+\[
+  \delta(r) \;=\; -\frac{r}{q_\infty}\,\frac{dq(r)}{dr},
+  \qquad q_\infty=\lim_{r\to\infty}q(r)\neq 0 .
+\]
+\textbf{Eu não calculo esse perfil.} Isso já estava feito. Eu pergunto outra
+coisa.
+
+\begin{caixa}{A MINHA PERGUNTA}
+O \emph{formato} de $\delta(r)$ diz alguma coisa sobre o espectro da teoria?
+\end{caixa}
+
+\section*{Passo 2 --- A ideia central, numa linha}
+
+Defino o perfil reduzido $\Phi(r)=\delta(r)/r^2$. A afirmação é:
+
+\begin{caixa}{TEOREMA A (condicional)}
+Sob as hipóteses H1--H5, e em particular sob \textbf{H3},
+\[
+  \Phi(r)\;=\;\int_0^\infty e^{-rx}\,d\nu(x),\qquad \nu\ \ge\ 0,
+\]
+\emph{exatamente} --- não só em ordem líder. A borda do suporte de $\nu$,
+$\Mst=\inf\operatorname{supp}\nu$, é o menor limiar que \textbf{acopla a este
+observável}.
+\end{caixa}
+
+O mecanismo é uma identidade de núcleo: derivando
+$(1+r\sqrt{s})e^{-r\sqrt{s}}$ em $r$ sai exatamente $-s\,r\,e^{-r\sqrt{s}}$.
+O fator de Gauss cancela e sobra uma transformada de Laplace pura.
+
+\section*{Passo 3 --- Por que isso é útil}
+
+Porque transformada de Laplace de medida positiva é objeto clássico, com
+ferramentas prontas:
+
+\begin{enumerate}[leftmargin=7mm,itemsep=3pt]
+\item \textbf{Inclinação logarítmica.} $\Gamma(r)=-\partial_r\log\Phi(r)
+  =\langle x\rangle_r \ \ge\ \Mst$, e $\Gamma$ decresce em $r$. É a ``massa
+  efetiva'' da rede, numa variável radial.
+\item \textbf{Hierarquia de Hankel / GEVP.} Com os momentos
+  $a_n(r)=(-1)^n\Phi^{(n)}(r)$, monto $H_0=(a_{i+j})$, $H_1=(a_{i+j+1})$ e
+  tomo $B_K(r)=\lambda_{\min}(H_1,H_0)\ \ge\ \Mst$, com
+  $B_{K+1}\le B_K$ e $B_0=\Gamma$.
+\item \textbf{Lei de borda.} Se a densidade vai como $C t^{p-1}$ perto da
+  borda ($t=x-\Mst$), então
+  $\Gamma(r)=\Mst+p/r+\beta p/r^2+O(r^{-3})$. Para um Dirac, $p=3/2$ e
+  $\Gamma=2m+\tfrac{3}{2r}-\tfrac{5}{16mr^2}+\cdots$
+\end{enumerate}
+
+\textbf{Todas dão cotas superiores que descem até $\Mst$.} A matemática aqui é
+clássica; eu não reivindico novidade nela.
+
+\section*{Passo 4 --- Onde eu fui honesto sobre os limites}
+
+\textbf{(a) O limiar não é a massa do elétron.} $x=\sqrt{s}$ é massa invariante
+do estado intermediário. A um laço a borda é $2m$ --- um \emph{par}, não uma
+partícula.
+
+\textbf{(b) O limiar pode nem ser de matéria carregada.} Em QED completa há
+cortes multi-fóton desde $s=0$. O gap some e $\Gamma$ devolve o ínfimo do
+suporte \emph{efetivamente acoplado}, que pode ser zero. Por isso eu escrevo
+``limiar acoplado'', não ``limiar carregado''.
+
+\textbf{(c) Não existe cota inferior uniforme (Teorema H).} Este é o resultado
+que eu mais gosto porque não depende de H3. Tome
+\[
+  f_0=e^{-Mt},\qquad f_\epsilon=(1-\epsilon)e^{-Mt}+\epsilon e^{-\mu t},
+  \qquad \mu<M .
+\]
+As duas são Laplace de medidas positivas, com bordas $M$ e $\mu$, mas
+$\sup_{[0,T]}|f_\epsilon-f_0|\le\epsilon$. Com dados de precisão finita numa
+janela finita, \textbf{nenhuma cota inferior estritamente positiva} para $\Mst$
+sobrevive. A trivial $\Mst\ge0$ permanece.
+
+\begin{caixa}{O EXEMPLO CONCRETO --- ``átomo minúsculo''}
+$d\nu=10^{-12}\delta_2+(x-3)^{1/2}e^{-(x-3)}\mathbf{1}_{x\ge3}dx$.
+Até $r\approx 22{,}76$ o perfil é indistinguível de um espectro que começa em 3.
+A inclinação só cai para 2 depois disso.
+\textbf{As cotas continuam corretas --- só deixam de ser informativas.}
+\end{caixa}
+
+\textbf{(d) Positividade sozinha não dá a conjectura da gravidade fraca.}
+Há uma obstrução de escala: a positividade é invariante por reescalonamento, e
+a conjectura não é. A implicação que eu enuncio é condicional e exige insumo
+gravitacional externo, declarado antes.
+
+\section*{Passo 5 --- A hipótese H3, que é onde tudo trava}
+
+H3 diz que o kernel de resposta estática é uma função de Stieltjes:
+\[
+  \mathcal{G}(Q^2)\;=\;\frac{g_R^2}{Q^2\bigl[1-g_R^2\overline{\Pi}(Q^2)\bigr]},
+  \qquad
+  \overline{\Pi}(Q^2)=Q^2\!\int\!\frac{\rho_J(s)\,ds}{s(s+Q^2)}\ \ge\ 0 .
+\]
+
+\textbf{Em ordem líder, H3 sai de graça.} A positividade de Lehmann da corrente
+de matéria dá $\rho_J\ge0$, e daí
+$d\sigma_{\rm LO}=g_R^4\,\rho_J(s)\,ds/s\ \ge 0$. É o cálculo de Uehling; o
+coeficiente $2\alpha/3\pi$ é reproduzido.
+
+\begin{alerta}{A ORDEM SEGUINTE NÃO TEM A FORMA CERTA --- e isso importa}
+O coeficiente redutível de $O(g_R^6)$ é
+$g_R^6\,Q^2\bigl[\int\rho_J/(s(s+Q^2))\bigr]^2$. Essa função vale $0$ em
+$Q^2=0$, cresce, e decai como $1/Q^2$: tem \textbf{máximo interior}.
+Mas toda $\int d\sigma/(Q^2+s)$ com $\sigma\ge0$ e suporte longe de zero é
+\textbf{positiva em $Q^2=0$ e estritamente decrescente}.
+Logo o coeficiente de ordem fixa \textbf{não} é Stieltjes-positivo.
+\end{alerta}
+
+A saída é que a positividade só aparece no objeto \textbf{ressomado}. No modelo
+solúvel $\rho_J=Z\delta(s-s_0)$, com $c=g_R^2Z/s_0\in(0,1)$:
+\[
+  \mathcal{G}=\frac{g_R^2}{Q^2}
+   +\frac{g_R^2c/(1-c)}{Q^2+s_0/(1-c)} .
+\]
+O peso é positivo. O que acontece é que o \textbf{polo se desloca} com o
+acoplamento. Expandir em $g_R$ a $s$ fixo produz coeficientes de sinal
+alternado --- daí a aparente violação ordem a ordem.
+
+\section*{Passo 6 --- O que eu achei nesta rodada: o critério $Z_3$}
+
+Por frações parciais, $\dfrac{Q^2}{s(s+Q^2)}=\dfrac1s-\dfrac1{s+Q^2}$, logo
+\[
+  \boxed{\;1-g_R^2\overline{\Pi}(Q^2)
+   \;=\;\underbrace{\bigl[1-g_R^2\overline{\Pi}(\infty)\bigr]}_{\textstyle =:Z_3}
+   \;+\;g_R^2\!\int\!\frac{\rho_J(s)\,ds}{s+Q^2}\;}
+\]
+O lado direito é \emph{exatamente} a forma de Stieltjes. Usando a dualidade
+clássica (Schilling--Song--Vondra\v{c}ek, Teor.~7.3: $f\not\equiv0$ é Stieltjes
+$\iff$ $1/f$ é Bernstein completa $\iff$ $z f(z)$ é Bernstein completa),
+segue o critério.
+
+\begin{alerta}{CORREÇÃO DE FRONTEIRA (28/09) --- enunciar assim, não mais forte}
+\textbf{(a)} $Z_3\ge0$ caracteriza a classe \textbf{geral} de Stieltjes, que
+admite uma \emph{constante aditiva}.\\
+\textbf{(b)} A H3 do artigo é escrita \textbf{sem} essa constante, logo exige
+$\mathcal{G}\to0$. Aí vale só a \textbf{suficiência}: $Z_3>0$ dá
+$0<\mathcal{G}\le g_R^2/(Q^2Z_3)\to0$.\\
+\textbf{(c)} Na fronteira $Z_3=0$ não falha sempre: $\mathcal{G}\to1/\rho((0,\infty))$,
+então falha \emph{se e somente se} $\rho$ tem massa total finita.
+Exemplo de falha: $\rho=Z\delta(s-s_0)$ dá $\mathcal{G}=g_R^2/Q^2+g_R^2/s_0$.
+\end{alerta}
+
+\textbf{O que o critério diz sobre QED de verdade} (um laço, $\alpha=1/137$,
+unidades de $m_e$):
+
+\begin{center}\small
+\begin{tabular}{lrrl}
+\toprule
+$\Lambda/m$ & $\log(\Lambda^2/4m^2)$ & $Z_3$ & H3? \\
+\midrule
+$10^{6}$    & 26{,}2   & 0{,}980  & vale \\
+$10^{19}$   & 86{,}1   & 0{,}934  & vale (escala de Planck) \\
+$10^{100}$  & 459      & 0{,}645  & vale \\
+$e^{645}$   & 1288{,}6 & 0{,}0022 & vale, no limite \\
+$e^{700}$   & 1398{,}6 & $-0{,}083$ & \textbf{falha} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+O polo de Landau está em $\log(\Lambda^2/4m^2)=3\pi/\alpha\approx1291$.
+\textbf{Para todo cutoff fisicamente significativo, H3 vale com folga enorme.}
+Falha só no contínuo estrito --- e eu não escondo isso.
+
+\section*{Passo 7 --- Onde o argumento realmente trava}
+
+O critério acima é sobre a \textbf{cadeia de Dyson} com $\rho_J$ vindo da
+corrente de matéria \emph{não gaugeada}, onde a positividade de Lehmann é
+limpa. Isso \textbf{não} é a resposta estática não perturbativa e invariante de
+gauge. A rota séria de teoria de campos é outra:
+
+\begin{enumerate}[leftmargin=7mm,itemsep=3pt]
+\item Com axiomas de Wightman e identidade de Bianchi, \textbf{sem} supor
+  $F=dA$, o correlator $\langle F_{\mu\nu}F_{\rho\sigma}\rangle$ tem
+  representação com medida positiva. Bianchi elimina a estrutura dual para
+  $p^2>0$; em $p^2=0$ \textbf{não} elimina, e sobra um termo que só a
+  localidade, via CPT, remove. \emph{Esse lema eu ainda não li na fonte.}
+\item Transportar essa positividade até o laço de Wilson, e daí ao kernel
+  estático. \textbf{Este passo não está feito.} Envolve projeção tensorial,
+  termos de contato, renormalização de perímetro e o limite $T\to\infty$.
+\end{enumerate}
+
+Um pedaço eu verifiquei: no limite estático,
+$\langle E_iE_j\rangle=D(Q^2)\,p_ip_j$ é \textbf{puramente longitudinal}, e o
+escalar que o potencial vê é $Q^2D(Q^2)=g^2_{\rm eff}$. Isso dá uma
+reformulação útil: $\mathcal{G}$ está na classe geral de Stieltjes
+$\iff$ $g^2_{\rm eff}$ é Bernstein completa --- e $g^2_{\rm eff}$ é
+exatamente o que o correlator entrega, sem inversão nenhuma.
+
+\begin{caixa}{A PERGUNTA QUE EU LEVO AO PROFESSOR}
+Esse transporte --- do correlator $\langle FF\rangle$ para o kernel do laço de
+Wilson --- esconde alguma hipótese além da fase de Coulomb?
+\end{caixa}
+
+\section*{Passo 8 --- O que continua em aberto}
+
+\begin{itemize}[leftmargin=6mm,itemsep=2pt]
+\item H3 além da ordem líder para o kernel interagente: \textbf{não provada}.
+\item O transporte $\langle FF\rangle\to$ Wilson $\to$ kernel: \textbf{não feito}.
+\item Fase de Coulomb tem de ser hipótese explícita --- Proca satisfaz os
+  axiomas e \emph{não} tem polo de Coulomb ($q_\infty=0$, $\delta$ nem definida).
+\item Isolar canais carregados dos cortes sem massa preservando positividade.
+\item Critério $Z_3$: nota de trabalho, não promovida ao artigo; atribuição em
+  aberto (Brown--Weisberger 1979 não lido; Källén 1952 é clássico).
+\item Nenhum CI remoto executado; nenhuma revisão humana do PDF; nada submetido.
+\end{itemize}
+
+\vspace{2mm}\hrule\vspace{2mm}
+{\small\color{rust}\textbf{Resumo em uma frase.} Sob uma hipótese de
+positividade que vale em ordem líder e que eu sei caracterizar na cadeia de
+Dyson, o formato do perfil determina cotas superiores para o limiar acoplado ---
+e eu sei exatamente onde o argumento ainda não fecha.}
+
+\end{document}

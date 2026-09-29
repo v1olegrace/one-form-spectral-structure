@@ -1,0 +1,254 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=20mm,headheight=14pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,array,xcolor,fancyhdr,enumitem}
+\usepackage[most]{tcolorbox}
+\definecolor{ink}{HTML}{17334C}
+\definecolor{pale}{HTML}{EEF4F7}
+\definecolor{rust}{HTML}{A64B2A}
+\definecolor{calm}{HTML}{2E6B4F}
+\definecolor{palegreen}{HTML}{EAF3EE}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+\linespread{1.12}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{ink}\textbf{FOLHA DE FALA} --- só para mim}
+\fancyhead[R]{\small 28.09.2026}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+\newtcolorbox{say}[1]{colback=pale,colframe=ink,boxrule=0.5pt,arc=1mm,
+  title={#1},fonttitle=\bfseries,coltitle=white,left=3mm,right=3mm,top=2mm,bottom=2mm}
+\newtcolorbox{safe}[1]{colback=palegreen,colframe=calm,boxrule=0.5pt,arc=1mm,
+  title={#1},fonttitle=\bfseries,coltitle=white,left=3mm,right=3mm,top=2mm,bottom=2mm}
+\newcommand{\fala}[1]{\textit{\color{ink}``#1''}}
+
+\begin{document}
+
+{\Large\bfseries\color{ink} Folha de fala}\par
+{\large Conversa com professor --- 28 de setembro de 2026}\par
+\vspace{1mm}
+{\small\color{rust}\textbf{Esta folha é só minha. Não entrego, não mostro.}
+Posso ler dela em voz alta. Ler não é problema. Pausar não é problema.}
+
+\vspace{3mm}
+\hrule
+\vspace{3mm}
+
+\begin{safe}{SE EU SÓ CONSEGUIR DIZER UMA COISA, É ESTA}
+\fala{Eu estudo um observável de simetria de 1-forma. A minha pergunta é se
+o \emph{formato} do perfil radial diz alguma coisa sobre o espectro. A resposta
+é sim, mas \emph{condicional} a uma hipótese de positividade que eu não provei
+além da ordem líder. É sobre essa hipótese que eu queria a sua opinião.}
+\end{safe}
+
+\section*{1. Como começar}
+
+Falar devagar. Uma frase de cada vez. Pode olhar para o papel.
+
+\begin{say}{ABERTURA --- pode ler literalmente}
+\fala{Obrigado por me receber. Eu trouxe um resumo de seis páginas.
+Eu tenho dificuldade de comunicação, então às vezes eu vou ler do papel e
+às vezes vou precisar de uns segundos para formular. Se eu não responder na
+hora, é isso, não é que eu não saiba.}
+\end{say}
+
+Depois entrego o resumo impresso e digo:
+
+\begin{say}{ENTREGANDO O MATERIAL}
+\fala{São cinco páginas de conteúdo e um backup técnico no fim.
+Eu posso seguir a ordem delas, ou o senhor pode me interromper em qualquer ponto.}
+\end{say}
+
+\section*{2. O que eu falo em cada página}
+
+\textbf{Página 1 --- visão geral.}
+\begin{say}{}
+\fala{O ponto de partida é um observável de simetrias generalizadas: a linha de
+Wilson é blindada pela matéria, e a carga medida por uma esfera depende do raio.
+Eu não calculo esse perfil --- isso já foi feito a um laço por Basile e
+Golmohammadi. A minha pergunta é: o \emph{formato} dele diz o quê sobre o
+espectro? A resposta é condicional. Se o kernel de resposta estática for uma
+função de Stieltjes com medida positiva --- essa é a hipótese H3 ---, então o perfil
+dividido por $r^2$ é exatamente uma transformada de Laplace de uma medida
+positiva, e a borda dessa medida é o menor limiar que acopla ao observável.
+Daí saem cotas superiores que descem até esse limiar. Mas há dois limites que eu
+quero deixar claros desde já: primeiro, H3 não está provada além da ordem
+líder; segundo, em QED completa há cortes de fótons sem massa, então o limiar
+pode ser zero.}
+\end{say}
+
+\textbf{Página 2 --- a hipótese H3.} Esta é a página da minha pergunta principal.
+\begin{say}{}
+\fala{Tudo depende de uma hipótese: o kernel estático ser Stieltjes com medida
+positiva. Em ordem líder isso sai da positividade de Lehmann da corrente de
+matéria --- é o cálculo tipo Uehling. Além disso, duas observações. Primeiro, a
+ordem seguinte sozinha \emph{não} tem a forma certa; a positividade só aparece
+no kernel ressomado --- no modelo de um polo, o polo simplesmente se desloca.
+Segundo, numa nota de trabalho eu mostro que, para a cadeia de Dyson com
+densidade positiva, a propriedade de Stieltjes exige $Z_3>0$. Em QED isso vale
+com folga para qualquer cutoff físico e só falha no polo de Landau --- ou seja,
+no contínuo estrito falha, e eu não escondo isso. A rota realmente de QFT é
+outra: com Wightman e Bianchi, sem supor $F=dA$, o correlator de $F$ tem medida
+positiva. O que falta é o passo do correlator para o laço de Wilson.}
+\end{say}
+E então faço a pergunta:
+\begin{safe}{A PERGUNTA PRINCIPAL --- a mais importante do dia}
+\fala{Esse passo, do correlator para o laço de Wilson, esconde alguma hipótese
+além da fase de Coulomb?}
+\end{safe}
+
+\textbf{Página 3 --- o átomo minúsculo.}
+\begin{say}{}
+\fala{Esta é a página de que eu mais gosto porque é simples e não depende de H3.
+Coloco um estado em massa 2 com peso $10^{-12}$ e um contínuo a partir de 3.
+Até $r\approx 23$ o perfil é indistinguível de um espectro que começa em 3; a
+inclinação só cai para 2 depois disso. E não é falha do método: todas as cotas
+continuam corretas, só deixam de ser informativas. O teorema diz que isso é
+inevitável: com dados de precisão finita numa janela finita, não existe cota
+inferior uniforme para o limiar.}
+\end{say}
+
+\textbf{Página 4 --- o correlator de $F$.} \fala{Aqui eu classifico as estruturas
+tensoriais de $\langle FF\rangle$ sem supor $F=dA$. Bianchi elimina a estrutura
+dual para $p^2>0$. Em $p^2=0$ não elimina; sobra um termo que só a localidade,
+via CPT, remove --- e esse lema eu ainda não li na fonte.}
+
+\textbf{Página 5 --- a máquina.} \fala{Momentos, matrizes de Hankel, GEVP.
+É tecnologia clássica de rede, aplicada numa variável radial. Eu não reivindico
+novidade na matemática.}
+
+\newpage
+
+\section*{3. As cinco perguntas prováveis --- respostas curtas}
+
+\textbf{1. ``Isso não é só a Laplace de Uehling, de 1935?''}\\
+\fala{Em ordem líder, sim --- o artigo diz isso e reproduz o coeficiente
+$2\alpha/3\pi$. O que muda é o status lógico: sob H3 a representação é exata
+para o kernel inteiro. A novidade possível está na montagem para o observável
+de 1-forma e nos modos de falha, não na matemática.}
+
+\textbf{2. ``Por que o limiar não é a massa do elétron?''}\\
+\fala{Porque $x=\sqrt{s}$ é massa invariante do estado intermediário: a um laço
+a borda é $2m$, um par. E em QED completa há cortes multi-fóton desde $s=0$,
+então o gap falha e a inclinação devolve o ínfimo do suporte efetivamente
+acoplado, que pode ser zero.}
+
+\textbf{3. ``Positividade não é automática por unitariedade?''}\\
+\fala{Não para este objeto. Unitariedade dá Lehmann para correlatores num
+espaço de Hilbert positivo. O kernel estático vem do laço de Wilson, e o
+propagador de gauge em gauge covariante vive em métrica indefinida. Por isso a
+rota passa por $\langle FF\rangle$, que é gauge-invariante --- e o transporte até
+o laço de Wilson não está feito.}
+
+\textbf{4. ``E o polo de Landau?''}\\
+\fala{Para a cadeia de Dyson com densidade positiva, $Z_3>0$ é suficiente.
+Em QED a um laço isso vale para todo cutoff abaixo do polo de Landau e falha no
+contínuo estrito. Então H3 para o kernel RPA exige um cutoff físico. Eu não
+afirmo H3 para QED contínua.}
+
+\textbf{5. ``O átomo minúsculo não é o problema mal-posto de sempre?''}\\
+\fala{É, e eu digo isso no projeto. O que eu ofereço é o enunciado preciso para
+este observável e o exemplo quantitativo. Não reivindico novidade conceitual.}
+
+\section*{4. O que eu admito sem hesitar}
+
+Dizer isto é \textbf{força}, não fraqueza. Se eu admitir rápido e com clareza,
+a conversa fica melhor.
+
+\begin{itemize}[leftmargin=6mm,itemsep=2pt]
+\item H3 além da ordem líder --- \textbf{não provada}.
+\item O transporte $\langle FF\rangle\to$ laço de Wilson --- \textbf{não feito}.
+\item Fase de Coulomb precisa ser hipótese explícita (Proca mostra isso).
+\item Três lemas ainda não lidos na fonte; pode virar atribuição.
+\item Critério $Z_3$: nota de trabalho, não promovida; atribuição em aberto.
+\item Nenhum CI remoto rodou; nenhuma revisão humana do PDF; nada submetido.
+\end{itemize}
+
+\section*{5. O que eu posso defender com segurança}
+
+\begin{itemize}[leftmargin=6mm,itemsep=2pt]
+\item O Teorema A como \emph{implicação}: H1--H5 $\Rightarrow$ perfil é Laplace
+de medida positiva. Prova elementar.
+\item Ordem líder de H3 e o sinal, com teste que falha se a convenção inverter;
+coeficiente de Uehling reproduzido.
+\item Os contraexemplos, inclusive um verificável a lápis.
+\item A obstrução de escala à inferência sobre gravidade fraca.
+\item 171 testes passando; certificados exatos do benchmark.
+\end{itemize}
+
+\newpage
+
+\section*{6. Se a conversa travar --- frases prontas}
+
+Estas frases existem para eu não ficar sem resposta. Posso ler literalmente.
+
+\begin{say}{Se eu não entendi a pergunta}
+\fala{Desculpe, eu não entendi. O senhor pode reformular de outro jeito?}\par
+\fala{O senhor está perguntando sobre X ou sobre Y?}
+\end{say}
+
+\begin{say}{Se eu preciso de tempo}
+\fala{Me dá uns segundos para formular, por favor.}\par
+\fala{Deixa eu olhar a folha um instante.}
+\end{say}
+
+\begin{say}{Se eu não sei}
+\fala{Isso eu não sei. Não está fechado no projeto.}\par
+\fala{Eu não li essa fonte ainda, então não vou afirmar.}\par
+\textbf{Não inventar. Não preencher o silêncio.} ``Não sei'' é resposta completa.
+\end{say}
+
+\begin{say}{Se ele discordar e eu achar que ele está errado}
+\fala{Posso mostrar o ponto exato onde isso aparece? Está na página tal.}\par
+\fala{Eu posso estar errado. Eu prefiro verificar e voltar ao senhor do que
+responder agora.}
+\end{say}
+
+\begin{say}{Se eu me perder no meio de uma frase}
+\fala{Perdi o fio. Deixa eu recomeçar essa parte.}\par
+Voltar para a folha. Reler a frase do começo. Sem se desculpar mais de uma vez.
+\end{say}
+
+\begin{say}{Se falarem rápido demais ou vários ao mesmo tempo}
+\fala{Pode ir um pouco mais devagar, por favor?}\par
+\fala{Posso responder uma de cada vez?}
+\end{say}
+
+\begin{say}{Se eu precisar sair ou parar}
+\fala{Eu preciso de uma pausa curta, já volto.}\par
+\fala{Acho melhor a gente continuar por e-mail, eu escrevo melhor do que falo.}
+\end{say}
+
+\section*{7. As três perguntas que eu quero fazer}
+
+Se der tempo, fazer pelo menos a primeira.
+
+\begin{enumerate}[leftmargin=7mm,itemsep=3pt]
+\item \fala{A positividade de $\langle FF\rangle$ passa ao kernel do laço de
+Wilson sem hipótese além da fase de Coulomb, ou contato, perímetro e o limite
+$T\to\infty$ escondem uma parte não positiva?}
+\item \fala{Em problemas de inversão de Laplace que o senhor conhece, que tipo
+de informação a priori é considerada fisicamente legítima para recuperar uma
+cota inferior?}
+\item \fala{O senhor conhece um enunciado de livro que já dê a forma de
+Källén--Lehmann para um campo tensorial antissimétrico sem supor $F=dA$?
+Se sim, o resultado é atribuição e eu cito.}
+\end{enumerate}
+
+\section*{8. Fechamento}
+
+\begin{say}{ENCERRAR --- pode ler literalmente}
+\fala{Obrigado pelo tempo. Eu posso mandar por e-mail o artigo, o código e os
+testes. Se o senhor puder apontar uma única coisa para eu atacar primeiro,
+isso já me ajuda muito.}
+\end{say}
+
+\vspace{4mm}
+\hrule
+\vspace{2mm}
+{\small\color{rust}\textbf{Lembrete final.} Eu não preciso convencer ninguém hoje.
+Eu preciso fazer uma pergunta boa e ouvir a resposta. Já é suficiente.}
+
+\end{document}
