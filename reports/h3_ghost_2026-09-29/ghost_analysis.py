@@ -76,6 +76,52 @@ def g2_critical(L2):
     return 1.0 / P
 
 
+def _quad(f, lo, hi, **kw):
+    """quad with the convergence message kept, not discarded to the terminal.
+
+    SciPy's abserr is an ESTIMATE. When QUADPACK reports non-convergence or
+    roundoff in the extrapolation table, that estimate is not even an estimate
+    of the achieved accuracy, and any downstream "resolved" label is unearned.
+    """
+    kw.setdefault("limit", 400)
+    val, err, info, *msg = quad(f, lo, hi, full_output=1, **kw)
+    return val, err, (msg[0] if msg else None)
+
+
+def z3_interval(g2, L2):
+    """(lo, hi) for Z3 from the reported quadrature error on Pi(inf).
+
+    An ESTIMATE propagated exactly through Fraction arithmetic. It is not an
+    enclosure, and it is the only Z3 information any public function here is
+    allowed to branch on.
+    """
+    P, err, _ = _quad(lambda t: _rho_scalar(S_THR * np.exp(t)), 0.0,
+                      np.log(L2 / S_THR), epsabs=1e-13, epsrel=1e-12)
+    g, p, e = map(Fraction, (float(g2), float(P), float(abs(err))))
+    return 1 - g * (p + e), 1 - g * (p - e)
+
+
+_HYP = RPAHypotheses(nonnegative_measure=True, nonzero_measure=True,
+                     positive_support=True, finite_inverse_moment=True,
+                     positive_coupling=True, subtracted_dyson_representation=True)
+
+
+def regime_decision(g2, L2):
+    """The ONE regime decision every public function shares.
+
+    Delegates to rpa_kernel_conditions.classify_rpa_kernel so that a Z3 interval
+    straddling zero is UNRESOLVED everywhere, not only in the classifier. A point
+    estimate never decides the boundary, a slightly negative estimate never
+    proves absence of an atom, and an exact critical identity stays a separate
+    input that this numerical path cannot supply.
+    """
+    lo, hi = z3_interval(g2, L2)
+    d = classify_rpa_kernel((lo, hi), hypotheses=_HYP, total_mass="finite",
+                            interval_kind="estimated")
+    d["z3_lo"], d["z3_hi"] = float(lo), float(hi)
+    return d
+
+
 def kernel_diagnostic(g2, L2):
     """Model classification using ESTIMATED quadrature uncertainty, not a certificate.
 
@@ -183,82 +229,131 @@ def _W_edge(d, g2, L2):
     return Z3_of(g2, L2) - g2 * I
 
 
+def atom_weight_integral(d_a, L2):
+    """w_a = 1 / (s_a * int rho_J(s)/(s_a - s)^2 ds), an INDEPENDENT route.
+
+    From w = g2/((-s_a) W'(-s_a)) with W'(Q2) = -g2 int rho/(s+Q2)^2 the coupling
+    cancels, so this shares no arithmetic with the finite-difference route.
+
+    Parametrised by the EDGE DISTANCE d_a = s_a - L2. In the raw variable the
+    integrand is a spike of width ~d/L2, which adaptive quadrature walks straight
+    past: at L2 = 1e6 and d = 5.3 it returned a NEGATIVE value for a positive
+    integrand. Substituting x = L2 - s and then x = d e^u gives
+
+        int rho/(s_a-s)^2 ds = (1/d) int rho(L2 - d e^u) e^u/(1+e^u)^2 du,
+
+    whose integrand is O(1) and decays both ways, so the spike is resolved.
+    """
+    top = L2 - S_THR
+    val, err, msg = _quad(
+        lambda u: _rho_scalar(L2 - d_a * np.exp(u)) * np.exp(u) / (1.0 + np.exp(u)) ** 2,
+        -40.0, np.log(top / d_a), epsabs=1e-16, epsrel=1e-13)
+    integral = val / d_a
+    return 1.0 / ((L2 + d_a) * integral), err, msg
+
+
 def spectral_atom(g2, L2, log10_d_range=(-300.0, 250.0)):
     """The discrete atom of sigma above the hard cutoff, as a structured result.
 
     A hard cutoff leaves the real interval (L2, inf) outside the cut, so W is
-    real there.  On it W is strictly increasing (dW/dt = g2 int rho/(t-s)^2 > 0),
-    runs to -inf as t -> L2+ because the integral diverges logarithmically at the
-    edge, and tends to Z3 as t -> inf.  Hence EXACTLY ONE root iff Z3 > 0.
+    real there.  On it W is strictly increasing, runs to -inf as t -> L2+, and
+    tends to Z3.  Hence EXACTLY ONE root iff Z3 > 0 (Proposition 4).  The atom
+    has positive weight at positive s, so it does not break positivity; what it
+    breaks is the claim that sigma stays inside the support of rho_J.
 
-    The atom carries positive weight at positive s, so it does NOT violate the
-    positive Stieltjes representation.  What it violates is the claim that sigma
-    stays inside the support of the input density.
+    The regime comes from ``regime_decision``, the same interval-based call the
+    classifier uses.  A Z3 estimate that straddles zero yields UNRESOLVED here
+    too: a point estimate must not decide the boundary, and a slightly negative
+    estimate must not prove absence.
 
-    The root is solved for in log10 of the EDGE DISTANCE d = s_a - L2, because
-    d shrinks exponentially as the coupling falls: roughly
-    d ~ (L2 - 4m^2) * exp(-Z3 / (g2 * rho(L2))).  Bracketing in t, or in a
-    relative offset, silently reports "no atom" at couplings of physical size.
+    Returns None only when the regime is decidedly supercritical.  Otherwise a
+    dict with s_atom, edge_distance, weight, weight_independent, status and
+    quadrature_ok.  ``status`` separates three different things:
 
-    Returns None when Z3 <= 0 (the theorem says there is no root then), else a
-    dict with keys s_atom, edge_distance, weight and status:
+      RESOLVED                  root bracketed, position representable
+      RESOLVED_EDGE_UNRESOLVED  root found but d < L2*eps, so s_atom rounds to
+                                L2; the weight is still meaningful, the position
+                                is known only as "within machine epsilon of L2"
+      PRECISION_UNCERTAIN       a quadrature call reported non-convergence, so
+                                no precision claim is supported even though a
+                                root was located
 
-      RESOLVED                  d found and s_atom = L2 + d is representable
-      RESOLVED_EDGE_UNRESOLVED  d found, but d < L2 * eps so s_atom rounds to L2;
-                                the WEIGHT is still meaningful, the position is
-                                only known as "within machine epsilon of L2"
-      (raises RuntimeError)     Z3 > 0 but d underflows the bracket entirely;
-                                the atom EXISTS by the theorem and this is an
-                                unresolved numerical result, never absence
+    Raises RuntimeError when the regime is UNRESOLVED, or when Z3 > 0 but the
+    root is not bracketed.  Existence follows from Proposition 4, so failing to
+    locate it is an unresolved numerical result, never absence.
     """
-    z3 = Z3_of(g2, L2)
-    if z3 <= 0.0:
+    dec = regime_decision(g2, L2)
+    if dec["status"] == "SPACELIKE_POLE_DETECTED":
         return None
+    if dec["status"] != "NO_SPACELIKE_POLE":
+        raise RuntimeError(
+            f"regime is {dec['status']} (Z3 in [{dec['z3_lo']:.3e}, "
+            f"{dec['z3_hi']:.3e}]): the atom question is UNRESOLVED, not settled. "
+            "A point estimate of Z3 does not decide the boundary.")
     lo, hi = log10_d_range
-    f = lambda v: _W_edge(10.0 ** v, g2, L2)
+    msgs = []
+
+    def f(v):
+        val = _W_edge(10.0 ** v, g2, L2)
+        return val
+
     f_lo, f_hi = f(lo), f(hi)
     if not (f_lo < 0 < f_hi):
         raise RuntimeError(
-            f"Z3={z3:.6g} > 0 guarantees exactly one atom, but its edge distance "
-            f"is outside 10^[{lo}, {hi}] (W={f_lo:.3e} .. {f_hi:.3e}). The atom "
-            "EXISTS by Proposition 4; this is UNRESOLVED, not absence. It is the "
-            "expected outcome at small coupling, where d falls below binary64.")
+            f"Z3 in [{dec['z3_lo']:.3e}, {dec['z3_hi']:.3e}] is positive, so "
+            f"exactly one atom exists by Proposition 4, but its edge distance is "
+            f"outside 10^[{lo}, {hi}] (W={f_lo:.3e} .. {f_hi:.3e}). UNRESOLVED, "
+            "not absence: at small coupling d falls below binary64, which is a "
+            "limit of this float64 path, not of the mathematics.")
     v_a = brentq(f, lo, hi, rtol=1e-15, maxiter=400)
     d_a = 10.0 ** v_a
+    s_a = L2 + d_a
+
     h = d_a * 1e-6
     dW_dQ2 = -(_W_edge(d_a + h, g2, L2) - _W_edge(d_a - h, g2, L2)) / (2 * h)
-    s_a = L2 + d_a
-    return {"s_atom": s_a, "edge_distance": d_a,
-            "weight": g2 / ((-s_a) * dW_dQ2),
-            "status": "RESOLVED" if s_a > L2 else "RESOLVED_EDGE_UNRESOLVED"}
+    w_fd = g2 / ((-s_a) * dW_dQ2)
+    w_int, w_err, w_msg = atom_weight_integral(d_a, L2)
+    if w_msg:
+        msgs.append(w_msg)
+
+    ok = not msgs
+    status = "RESOLVED" if s_a > L2 else "RESOLVED_EDGE_UNRESOLVED"
+    if not ok:
+        status = "PRECISION_UNCERTAIN"
+    return {"s_atom": s_a, "edge_distance": d_a, "log10_edge_distance": v_a,
+            "weight": w_fd, "weight_independent": w_int,
+            "weight_routes_agree_rel": abs(w_fd - w_int) / abs(w_int) if w_int else None,
+            "status": status, "quadrature_ok": ok,
+            "quadrature_messages": msgs,
+            "regime": dec["status"], "z3_interval": [dec["z3_lo"], dec["z3_hi"]]}
 
 
 def spectral_regime(g2, L2):
     """Name the regime and list every term the representation needs.
 
-    Returns a dict with the regime label and the terms that MUST be present for
-    a complete reconstruction.  Nothing here is computed beyond Z3 and the atom
-    search; the classification itself is the content of Propositions 1 and 4.
+    Delegates the regime to ``regime_decision`` so classification, location and
+    reconstruction cannot disagree near the boundary.
     """
-    z3 = Z3_of(g2, L2)
-    atom = spectral_atom(g2, L2)
-    if z3 > 0:
-        return {"regime": "subcritical", "Z3": z3,
+    dec = regime_decision(g2, L2)
+    base = {"z3_interval": [dec["z3_lo"], dec["z3_hi"]], "decision": dec["status"]}
+    if dec["status"] == "NO_SPACELIKE_POLE":
+        return {**base, "regime": "subcritical",
                 "terms": ["coulomb_pole", "continuum", "timelike_atom"],
-                "atom": atom, "spacelike_pole": None,
+                "atom": spectral_atom(g2, L2), "spacelike_pole": None,
                 "reconstruction_supported": True,
                 "note": "positive Stieltjes representation, no constant"}
-    if z3 == 0:
-        return {"regime": "critical", "Z3": z3,
-                "terms": ["coulomb_pole", "continuum", "additive_constant"],
-                "atom": None, "spacelike_pole": None,
+    if dec["status"] == "SPACELIKE_POLE_DETECTED":
+        return {**base, "regime": "supercritical",
+                "terms": ["coulomb_pole", "continuum", "spacelike_pole_negative_residue"],
+                "atom": None, "spacelike_pole": ghost_root(g2, L2),
                 "reconstruction_supported": False,
-                "note": "boundary: the constant 1/mu is NOT implemented here"}
-    return {"regime": "supercritical", "Z3": z3,
-            "terms": ["coulomb_pole", "continuum", "spacelike_pole_negative_residue"],
-            "atom": None, "spacelike_pole": ghost_root(g2, L2),
+                "note": "a spacelike pole is not a Stieltjes term; no representation"}
+    return {**base, "regime": "unresolved",
+            "terms": ["coulomb_pole", "continuum", "UNDETERMINED"],
+            "atom": None, "spacelike_pole": None,
             "reconstruction_supported": False,
-            "note": "a spacelike pole is not a Stieltjes term; no representation"}
+            "note": "Z3 estimate straddles zero; the boundary case needs an exact "
+                    "identity this numerical path cannot supply"}
 
 
 def reconstruct(Q2, g2, L2, include_atom=True):
@@ -277,7 +372,7 @@ def reconstruct(Q2, g2, L2, include_atom=True):
     if not info["reconstruction_supported"]:
         raise ValueError(
             f"reconstruction not implemented for the {info['regime']} regime "
-            f"(Z3={info['Z3']:.6g}): {info['note']}")
+            f"(Z3 in {info['z3_interval']}): {info['note']}")
     T = np.log(L2 / S_THR)
     total, _ = quad(lambda u: density(S_THR * np.exp(u), g2, L2) * S_THR * np.exp(u)
                     / (S_THR * np.exp(u) + Q2), 0.0, T,
@@ -304,8 +399,10 @@ def sum_rules(g2, L2):
     info = spectral_regime(g2, L2)
     if info["regime"] != "subcritical":
         raise ValueError(f"sum rules implemented for the subcritical regime only "
-                         f"(got {info['regime']}, Z3={info['Z3']:.6g})")
-    z3 = info["Z3"]
+                         f"(got {info['regime']}, Z3 in {info['z3_interval']})")
+    # The INTERVAL decided the regime; the identity itself needs a value, and the
+    # interval is strictly positive here, so the point estimate is admissible.
+    z3 = Z3_of(g2, L2)
     atom = info["atom"]
     s_a, w = atom["s_atom"], atom["weight"]
     T = np.log(L2 / S_THR)
@@ -321,7 +418,8 @@ def sum_rules(g2, L2):
     lhs1, rhs1 = g2 + mass + w, g2 / z3
     lhs2, rhs2 = first + w * s_a, g2**2 * mu / z3**2
     return {
-        "regime": info["regime"], "Z3": z3, "atom_s": s_a, "atom_w": w,
+        "regime": info["regime"], "Z3": z3, "z3_interval": info["z3_interval"],
+        "atom_s": s_a, "atom_w": w, "atom_status": atom["status"],
         "rule1": {"lhs": lhs1, "rhs": rhs1, "rel": abs(lhs1 - rhs1) / abs(rhs1),
                   "quad_err_estimate": mass_err},
         "rule2": {"lhs": lhs2, "rhs": rhs2, "rel": abs(lhs2 - rhs2) / abs(rhs2),

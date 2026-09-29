@@ -224,10 +224,15 @@ Stieltjes n\~ao pode t\^e-lo. \textbf{Mas ausência de polo n\~ao basta:} na
 fronteira $Z_3=0$ n\~ao h\'a polo e H3 ainda falha, por um termo constante.
 A aus\^encia de polo \'e \textbf{necess\'aria, n\~ao suficiente}.
 
-\begin{caixa}{COMO EU SEI QUE N\~AO FALTA MAIS NADA}
+\begin{caixa}{COMO EU SEI QUE N\~AO FALTA TERMO ESPECTRAL \emph{NESTE MODELO}}
 Depois de achar o \'atomo esquecido, a pergunta \'obvia \'e: falta outro?
 
-\textbf{N\~ao falta.} $W$ n\~ao tem zero fora do eixo real, porque
+\textbf{Escopo da resposta:} ela vale para o \emph{modelo RPA} com as hip\'oteses
+declaradas (densidade $\ge0$ e n\~ao nula, suporte positivo, momento inverso
+finito, acoplamento positivo, representa\c{c}\~ao de Dyson subtra\'ida), e \'e sobre
+\textbf{completude da representa\c{c}\~ao}, n\~ao sobre precis\~ao da implementa\c{c}\~ao.
+
+\textbf{N\~ao falta termo.} $W$ n\~ao tem zero fora do eixo real, porque
 $\operatorname{Im}W(x+iy)=-g_R^2\,y\int\rho_J/|s+z|^2$ tem o sinal de $-y$ e
 n\~ao se anula. Ent\~ao todos os zeros s\~ao reais, e o eixo real tem quatro
 regi\~oes, todas conferidas: spacelike, abaixo do limiar, o corte, e acima do
@@ -240,6 +245,13 @@ corte. Nenhuma outra contribui\c{c}\~ao pode existir.
 Conferem a $6\times10^{-10}$ e $5\times10^{-9}$. Sem o \'atomo, a primeira
 piora para $6\times10^{-5}$. \'E o teste que pega peso esquecido --- concord\^ancia
 em alguns pontos, n\~ao.
+
+\textbf{Sobre precis\~ao, separadamente.} Comparei o caminho r\'apido com
+aritm\'etica de multiprecis\~ao e com um caso de forma fechada. O erro real \'e
+$\sim2\times10^{-6}$ na posi\c{c}\~ao e no peso do \'atomo --- bem maior que a
+toler\^ancia pedida \`a quadratura, porque o integrando tem ponto de
+ramifica\c{c}\~ao no extremo. \textbf{Completude e precis\~ao s\~ao coisas
+diferentes}, e eu s\'o sei afirmar a primeira por demonstra\c{c}\~ao.
 \end{caixa}
 
 \begin{alerta}{ERRO MEU, CORRIGIDO EM 29/09 --- vale contar se ele perguntar}

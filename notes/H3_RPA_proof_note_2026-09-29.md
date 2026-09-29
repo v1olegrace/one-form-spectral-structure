@@ -345,31 +345,68 @@ $5{,}1\times10^{-9}$. Removendo o átomo, a regra (1) piora para
 $\sim6\times10^{-5}$ — **quatro ordens acima** da precisão alcançada, e é isso
 que um teste passa a exigir.
 
-### (C) Limitações numéricas explícitas
+### (C) Limitações numéricas — medidas contra referência independente
 
-- Os erros acima são **estimativas de quadratura adaptativa**, não enclosures.
-  Rótulo `CHECKED`, nunca `CERTIFIED`.
-- **A estimativa de erro subestima o desvio real na regra (2).** O `quad`
-  reporta erro absoluto $4{,}7	imes10^{-7}$ sobre um valor $pprox8	imes10^{5}$,
-  isto é $5{,}9	imes10^{-13}$ relativo — mas o desvio observado contra o lado
-  direito é $5{,}1	imes10^{-9}$, cerca de **quatro ordens acima da estimativa**.
-  A rotina também emite `Roundoff error is detected in the extrapolation table`.
-  Portanto a estimativa do QUADPACK **não** limita o erro aqui, e as tolerâncias
-  dos testes foram fixadas pelo desvio medido, não pela estimativa. A regra (1),
-  com desvio $6{,}2	imes10^{-10}$ contra estimativa $4{,}8	imes10^{-13}$,
-  mostra a mesma tendência em grau menor.
-- **Resolução na borda.** $d=s_a-\Lambda^2$ encolhe exponencialmente com o
-  acoplamento, aproximadamente
-  $d\sim(\Lambda^2-4m^2)\exp[-Z_3/(g_R^2\rho_J(\Lambda^2))]$. A busca é feita em
-  $\log_{10}d$ e a integral usa $x=\Lambda^2-s$ seguida de $x=d\,e^u$, sem
-  cancelamento. Estados possíveis: `RESOLVED`; `RESOLVED_EDGE_UNRESOLVED`
-  (peso significativo, posição só conhecida a menos de $\epsilon$ de
-  $\Lambda^2$); e **`RuntimeError`** quando $d$ cai abaixo do binary64 —
-  *o átomo existe pela Prop. 4*, logo isso é **inconclusivo, nunca ausência**.
-  Medido: $g^2/g_c^2=0{,}5\Rightarrow d\approx5{,}3$;
-  $0{,}1\Rightarrow d\approx3{,}3\times10^{-42}$;
-  $0{,}01\Rightarrow d\approx10^{-517}$, irrepresentável.
-- **Truncamento** do corte é físico (supos. 4), não erro numérico.
+**O que mudou nesta rodada.** As tolerâncias anteriores vinham de desvios
+observados entre dois cálculos meus. Um desvio de regra de soma mede a
+**inconsistência entre os dois lados calculados**: não diz qual componente
+errou nem fornece limite de erro. Agora há referência independente
+(`reports/h3_ghost_2026-09-29/reference_mp.py`): aritmética mpmath, quadratura
+tanh-sinh, `findroot` em vez de `brentq` — nada compartilhado com o caminho de
+produção. E há uma **âncora exata**: para ρ ≡ 1 em [a,b] tudo é forma fechada.
+
+| Grandeza | float64 vs mpmath | Comentário |
+|---|---|---|
+| Π̄(∞) | **2,9×10⁻¹⁶** | precisão de máquina; não é a fonte do erro |
+| $\log_{10}d$ | **1,2×10⁻⁶** ($k=0{,}5$) | erro relativo em $d$ de $\approx2	imes10^{-6}$ |
+| peso $w$ | **2,0×10⁻⁶** (ambos os $k$) | herda o erro de $d$ |
+
+**As duas rotas float64 do peso não eram independentes.** Diferença finita e
+integral analítica concordam a $4{,}8	imes10^{-9}$, mas **ambas erram
+$2	imes10^{-6}$** contra a referência: elas consomem o mesmo $d$ localizado.
+Concordância mútua media consistência de duas fórmulas de derivada, não
+exatidão. Há teste que fixa isso.
+
+**Causa isolada.** A densidade concorda ponto a ponto a $10^{-16}$. A **mesma
+integral, mesmo $d$**, difere $1{,}65	imes10^{-7}$ relativo entre QUADPACK e
+mpmath, com `epsrel=1e-14` pedido. O integrando tem ponto de ramificação
+$\sqrt{\;}$ no extremo superior ($s	o4m^2$): tanh-sinh trata, Gauss–Kronrod
+não. Apertar `limit` de 500 para 2000, ou inserir ponto de quebra, **não muda
+nada** — o erro é sistemático. A cadeia fecha quantitativamente:
+$1{,}7	imes10^{-8}$ na integral $	o$ $8{,}3	imes10^{-8}$ em $W$ $	o$
+$1{,}2	imes10^{-6}$ em $\log_{10}d$ $	o$ $2	imes10^{-6}$ no peso.
+
+**A estimativa do QUADPACK não limita o erro.** Ela reporta $\sim10^{-14}$
+onde o erro real é $\sim10^{-7}$, e emite `Roundoff error is detected in the
+extrapolation table`. Agora esse diagnóstico **chega ao resultado**
+(`quadrature_ok`, `quadrature_messages`) em vez de ficar no terminal, e um
+resultado com aviso recebe `PRECISION_UNCERTAIN`, não `RESOLVED`.
+
+**Resolução na borda.** $d=s_a-\Lambda^2$ encolhe como
+$d\sim(\Lambda^2-4m^2)\exp[-Z_3/(g_R^2
+ho_J(\Lambda^2))]$. A busca é em
+$\log_{10}d$; a integral usa $x=\Lambda^2-s$ e depois $x=d\,e^u$.
+Medido: $k=0{,}5\Rightarrow d\approx5{,}29$;
+$k=0{,}1\Rightarrow d\approx3{,}3	imes10^{-42}$ com peso
+$w\approx3{,}87	imes10^{-46}$ — **não nulo e matematicamente necessário, mas
+numericamente desprezível**: são $10^{-42}$ do peso total, e chamá-lo de
+"significativo" foi descrição errada. Em $k=0{,}01$, $d\approx10^{-517}$ está
+fora do **binary64** — *não* fora da aritmética: mpmath e a coordenada
+logarítmica tratam esse valor sem dificuldade. A função levanta
+`RuntimeError` ali, e isso é **inconclusivo para este caminho float64**, nunca
+ausência.
+
+**Decisão de regime unificada.** `spectral_atom`, `spectral_regime`,
+`reconstruct` e `sum_rules` passam todas por `regime_decision`, que delega ao
+classificador com **intervalo** para $Z_3$. Um intervalo que atravessa zero dá
+`UNRESOLVED` em toda parte: estimativa pontual não decide a fronteira,
+estimativa levemente negativa não prova ausência de átomo, e a identidade
+crítica exata continua sendo entrada separada que este caminho numérico não
+fornece. No acoplamento crítico numérico ($k=1$) o intervalo é
+$[-6{,}3	imes10^{-13},\,+6{,}3	imes10^{-13}]$ e o resultado é `UNRESOLVED`,
+onde antes se declarava "crítico" por valor pontual.
+
+**Truncamento** do corte é físico (supos. 4), não erro numérico.
 
 ### (D) Protocolo do regulador — declarado antes de calcular
 

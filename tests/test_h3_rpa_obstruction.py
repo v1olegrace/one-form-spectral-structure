@@ -304,12 +304,21 @@ def test_supercritical_refuses_reconstruction_and_sum_rules(g2c):
         ga.sum_rules(g2, L2)
 
 
-def test_critical_regime_refuses_because_the_constant_is_not_implemented(g2c):
-    with pytest.raises(ValueError, match="critical"):
+def test_numerical_critical_point_is_unresolved_not_declared_critical(g2c):
+    """At k = 1 the Z3 ESTIMATE straddles zero, so no function may decide.
+
+    Before the regimes were unified, spectral_regime branched on z3 == 0.0 and
+    announced the critical case from a point estimate.
+    """
+    with pytest.raises(ValueError, match="unresolved"):
         ga.reconstruct(1.0, g2c, L2)
     info = ga.spectral_regime(g2c, L2)
-    assert "additive_constant" in info["terms"]
+    assert info["regime"] == "unresolved"
     assert info["reconstruction_supported"] is False
+    lo, hi = info["z3_interval"]
+    assert lo < 0 < hi, "the estimate must actually straddle zero here"
+    with pytest.raises(RuntimeError, match="UNRESOLVED"):
+        ga.spectral_atom(g2c, L2)
 
 
 # --- 12. the uniform counterexample, with exact position and residue --------
