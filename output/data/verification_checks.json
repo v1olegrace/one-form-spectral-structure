@@ -3,5 +3,8 @@
   "ratios_monotone_nonincreasing": true,
   "all_ratio_bounds_above_threshold": true,
   "localizing_bounds_monotone_nonincreasing": true,
-  "all_localizing_bounds_above_threshold": true
+  "all_localizing_bounds_above_threshold": true,
+  "localizing_gate_all_compatible": true,
+  "localizing_max_denominator_digits_required": 13,
+  "localizing_worst_float64_relative_difference": 5.901501509697482e-12
 }

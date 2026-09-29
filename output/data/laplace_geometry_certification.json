@@ -1,4 +1,6 @@
 {
+  "status": "CHECKED",
+  "scope": "multiprecision quadrature and identity checks; no interval error enclosure",
   "benchmark": {
     "m": 1,
     "q": 1,
@@ -245,64 +247,100 @@
       {
         "K": 0,
         "B_K_over_m": "3.524175386",
-        "excess_percent": "76.2088"
+        "excess_percent": "76.2088",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "0.0419925774069",
+        "min_eig_H1": "0.147989207672"
       },
       {
         "K": 1,
         "B_K_over_m": "2.927613911",
-        "excess_percent": "46.3807"
+        "excess_percent": "46.3807",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "0.00454534392273",
+        "min_eig_H1": "0.0183818782727"
       },
       {
         "K": 2,
         "B_K_over_m": "2.670853683",
-        "excess_percent": "33.5427"
+        "excess_percent": "33.5427",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "0.000737867685884",
+        "min_eig_H1": "0.00331262760888"
       },
       {
         "K": 3,
         "B_K_over_m": "2.526398167",
-        "excess_percent": "26.3199"
+        "excess_percent": "26.3199",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "0.000149481568488",
+        "min_eig_H1": "0.000724384145212"
       },
       {
         "K": 4,
         "B_K_over_m": "2.43347061",
-        "excess_percent": "21.6735"
+        "excess_percent": "21.6735",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "3.52502596827e-5",
+        "min_eig_H1": "0.000180986463"
       },
       {
         "K": 5,
         "B_K_over_m": "2.368574136",
-        "excess_percent": "18.4287"
+        "excess_percent": "18.4287",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "9.31820774541e-6",
+        "min_eig_H1": "5.00660556625e-5"
       }
     ],
     "mr_3": [
       {
         "K": 0,
         "B_K_over_m": "2.490894075",
-        "excess_percent": "24.5447"
+        "excess_percent": "24.5447",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "0.00816278319719",
+        "min_eig_H1": "0.0203326283018"
       },
       {
         "K": 1,
         "B_K_over_m": "2.30127893",
-        "excess_percent": "15.0639"
+        "excess_percent": "15.0639",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "0.000183099461443",
+        "min_eig_H1": "0.000541106661357"
       },
       {
         "K": 2,
         "B_K_over_m": "2.218998004",
-        "excess_percent": "10.9499"
+        "excess_percent": "10.9499",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "7.8435697528e-6",
+        "min_eig_H1": "2.59834313015e-5"
       },
       {
         "K": 3,
         "B_K_over_m": "2.172414584",
-        "excess_percent": "8.62073"
+        "excess_percent": "8.62073",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "4.90022153091e-7",
+        "min_eig_H1": "1.76590250021e-6"
       },
       {
         "K": 4,
         "B_K_over_m": "2.142309169",
-        "excess_percent": "7.11546"
+        "excess_percent": "7.11546",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "3.98907103979e-8",
+        "min_eig_H1": "1.53506610018e-7"
       },
       {
         "K": 5,
         "B_K_over_m": "2.121211983",
-        "excess_percent": "6.0606"
+        "excess_percent": "6.0606",
+        "gate_status": "CHECKED_COMPATIBLE",
+        "min_eig_H0": "3.96736839257e-9",
+        "min_eig_H1": "1.61011599186e-8"
       }
     ]
   },

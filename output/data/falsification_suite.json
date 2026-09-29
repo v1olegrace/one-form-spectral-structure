@@ -4,7 +4,7 @@
     {
       "test": "J signed measure -- gate",
       "status": "PASS",
-      "detail": "gate correctly refused (G1 violated: a_3(r=1.0) = -0.471518 <= 0)",
+      "detail": "gate correctly refused (G1 violated: a_3 = -0.471518; require a_0>0 and a_n>=0)",
       "prediction": "gate fires; first negative moment at n=3; det H_0<0 at K=1",
       "observed": "first negative moment at n=3"
     },
@@ -21,6 +21,34 @@
       "detail": "Phi>0 and -Phi'>0 both hold, so a screening-only test is fooled; only complete monotonicity at higher order detects the violation",
       "prediction": "screening check passes (is insufficient)",
       "observed": "True"
+    },
+    {
+      "test": "J2 positive moments and H0, indefinite H1",
+      "status": "PASS",
+      "detail": "G3 violated: H_1 has a negative eigenvalue at K=1",
+      "prediction": "H1 determinant -0.09; refuse bound",
+      "observed": "False"
+    },
+    {
+      "test": "J2 direct bound call cannot bypass gate",
+      "status": "PASS",
+      "detail": "The bound function checks its own moment data.",
+      "prediction": "raises ValueError",
+      "observed": "True"
+    },
+    {
+      "test": "J3 finite compatibility is not spectral positivity",
+      "status": "PASS",
+      "detail": "A signed measure passes through order 5 but is rejected at order 7; passing finite tests must never be called an H3 certificate.",
+      "prediction": "pass at 5, refuse at 7",
+      "observed": "order5=True, order7=False"
+    },
+    {
+      "test": "A singular positive pencil is unresolved, not a positivity violation",
+      "status": "PASS",
+      "detail": "G2 unresolved: H_0 at K=1; increase precision, reduce order or use rank reduction; not a refutation of H3",
+      "prediction": "reduce order or rank; H3 not refuted",
+      "observed": "UNRESOLVED_RANK_OR_PRECISION"
     },
     {
       "test": "H tiny weight -- continuum masquerades at small r",

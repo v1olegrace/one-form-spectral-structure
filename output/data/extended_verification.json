@@ -254,7 +254,7 @@
       "relative_absolute_envelope": "0.005",
       "nominal": 2.1879398422503855,
       "robust": null,
-      "status": "no_positive_numerator"
+      "status": "refused_no_valid_ratio"
     },
     {
       "K": 4,
@@ -268,7 +268,7 @@
       "relative_absolute_envelope": "0.005",
       "nominal": 2.131071425489873,
       "robust": null,
-      "status": "no_positive_numerator"
+      "status": "refused_no_valid_ratio"
     },
     {
       "K": 5,
@@ -282,7 +282,7 @@
       "relative_absolute_envelope": "0.005",
       "nominal": 2.0966888897147378,
       "robust": null,
-      "status": "no_positive_numerator"
+      "status": "refused_no_valid_ratio"
     }
   ],
   "mellin": [
@@ -378,6 +378,11 @@
       "detail": "0.0"
     },
     {
+      "name": "Finite moment conditions on the samples r=1 h=0.5 K=0",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
+    },
+    {
       "name": "Sampled bound and nested spaces r=1 h=0.5 K=0",
       "passed": true,
       "detail": null
@@ -398,6 +403,11 @@
       "detail": null
     },
     {
+      "name": "Finite moment conditions on the samples r=1 h=0.5 K=1",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
+    },
+    {
       "name": "Sampled bound and nested spaces r=1 h=0.5 K=1",
       "passed": true,
       "detail": null
@@ -411,6 +421,11 @@
       "name": "Robust envelope or explicit no-bound eps=0.005 K=1",
       "passed": true,
       "detail": null
+    },
+    {
+      "name": "Finite moment conditions on the samples r=1 h=0.5 K=2",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
     },
     {
       "name": "Sampled bound and nested spaces r=1 h=0.5 K=2",
@@ -428,6 +443,11 @@
       "detail": null
     },
     {
+      "name": "Finite moment conditions on the samples r=1 h=0.5 K=3",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
+    },
+    {
       "name": "Sampled bound and nested spaces r=1 h=0.5 K=3",
       "passed": true,
       "detail": null
@@ -441,6 +461,11 @@
       "name": "Robust envelope or explicit no-bound eps=0.005 K=3",
       "passed": true,
       "detail": null
+    },
+    {
+      "name": "Finite moment conditions on the samples r=1 h=0.5 K=4",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
     },
     {
       "name": "Sampled bound and nested spaces r=1 h=0.5 K=4",
@@ -458,6 +483,11 @@
       "detail": null
     },
     {
+      "name": "Finite moment conditions on the samples r=1 h=0.5 K=5",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
+    },
+    {
       "name": "Sampled bound and nested spaces r=1 h=0.5 K=5",
       "passed": true,
       "detail": null
@@ -473,6 +503,11 @@
       "detail": null
     },
     {
+      "name": "Finite moment conditions on the samples r=3 h=0.5 K=0",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
+    },
+    {
       "name": "Sampled bound and nested spaces r=3 h=0.5 K=0",
       "passed": true,
       "detail": null
@@ -483,9 +518,19 @@
       "detail": null
     },
     {
+      "name": "Finite moment conditions on the samples r=3 h=0.5 K=1",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
+    },
+    {
       "name": "Sampled bound and nested spaces r=3 h=0.5 K=1",
       "passed": true,
       "detail": null
+    },
+    {
+      "name": "Finite moment conditions on the samples r=3 h=0.5 K=2",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
     },
     {
       "name": "Sampled bound and nested spaces r=3 h=0.5 K=2",
@@ -493,9 +538,19 @@
       "detail": null
     },
     {
+      "name": "Finite moment conditions on the samples r=3 h=0.5 K=3",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
+    },
+    {
       "name": "Sampled bound and nested spaces r=3 h=0.5 K=3",
       "passed": true,
       "detail": null
+    },
+    {
+      "name": "Finite moment conditions on the samples r=3 h=0.5 K=4",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
     },
     {
       "name": "Sampled bound and nested spaces r=3 h=0.5 K=4",
@@ -503,9 +558,19 @@
       "detail": null
     },
     {
+      "name": "Finite moment conditions on the samples r=3 h=0.5 K=5",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
+    },
+    {
       "name": "Sampled bound and nested spaces r=3 h=0.5 K=5",
       "passed": true,
       "detail": null
+    },
+    {
+      "name": "Finite moment conditions on the samples r=1 h=1 K=0",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
     },
     {
       "name": "Sampled bound and nested spaces r=1 h=1 K=0",
@@ -518,9 +583,19 @@
       "detail": null
     },
     {
+      "name": "Finite moment conditions on the samples r=1 h=1 K=1",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
+    },
+    {
       "name": "Sampled bound and nested spaces r=1 h=1 K=1",
       "passed": true,
       "detail": null
+    },
+    {
+      "name": "Finite moment conditions on the samples r=1 h=1 K=2",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
     },
     {
       "name": "Sampled bound and nested spaces r=1 h=1 K=2",
@@ -528,14 +603,29 @@
       "detail": null
     },
     {
+      "name": "Finite moment conditions on the samples r=1 h=1 K=3",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
+    },
+    {
       "name": "Sampled bound and nested spaces r=1 h=1 K=3",
       "passed": true,
       "detail": null
     },
     {
+      "name": "Finite moment conditions on the samples r=1 h=1 K=4",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
+    },
+    {
       "name": "Sampled bound and nested spaces r=1 h=1 K=4",
       "passed": true,
       "detail": null
+    },
+    {
+      "name": "Finite moment conditions on the samples r=1 h=1 K=5",
+      "passed": true,
+      "detail": "CHECKED_COMPATIBLE"
     },
     {
       "name": "Sampled bound and nested spaces r=1 h=1 K=5",
@@ -579,7 +669,7 @@
     }
   ],
   "all_checks_passed": true,
-  "check_count": 52,
+  "check_count": 70,
   "environment": {
     "python": "3.13.7",
     "numpy": "2.3.5",
