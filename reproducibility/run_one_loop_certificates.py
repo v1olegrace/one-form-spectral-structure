@@ -23,7 +23,7 @@ import scipy
 from scipy.linalg import eigh
 
 from one_loop_certified import (certify_sample, certify_weight, cutoff_enclosure,
-                                interval_record, upper_mass_from_ratio)
+                                interval_record, upper_mass_from_ratio, sample_input_key)
 from spectral_weight_certificates import (normalize_sample_intervals,
                                           propose_certificate, verify_certificate)
 
@@ -169,6 +169,12 @@ def main(out):
     mp.mp.dps=70
     from spectral_models import build_models
     legacy=build_models()
+    # Provenance counters.  Each name states exactly which quadratures it
+    # counts; none of them is the total number of integrals performed.
+    source_enclosure_evaluations = 0      # certify_sample calls
+    weight_benchmark_evaluations = 0      # certify_weight calls
+    weight_benchmark_integrals = 0        # certify_weight calls that integrated
+    independent_quadrature_checks = 0     # mpmath cross-checks of the enclosures
     for kind in CONFIG['models']:
         for r0text in CONFIG['reference_radii']:
             r0=F(r0text)
@@ -176,8 +182,13 @@ def main(out):
                       t_max=CONFIG['t_max'],tolerance=CONFIG['quadrature_tolerance'],
                       max_relative_width=CONFIG['max_raw_relative_width'])
                      for j in range(CONFIG['sample_count'])]
+            source_enclosure_evaluations += len(samples)
             direct={cut:certify_weight(kind,r0,cut,bits=CONFIG['bits'],denominator=samples[0])
                     for cut in CONFIG['mass_cutoffs']}
+            weight_benchmark_evaluations += len(CONFIG['mass_cutoffs'])
+            # certify_weight returns [0,0] without integrating when cut <= 2m.
+            weight_benchmark_integrals += sum(
+                F(cut) > 2*F(CONFIG['mass']) for cut in CONFIG['mass_cutoffs'])
             # Independent high-precision check; a check, not the certificate source.
             legacy_model=legacy['D_dirac' if kind=='dirac' else 'E_scalar']
             checks=[]
@@ -189,6 +200,7 @@ def main(out):
                 if not passed:
                     raise AssertionError('Independent quadrature outside validated enclosure')
                 checks.append({'j':j,'status':'CHECKED','legacy_value':mp.nstr(value,45),'inside_enclosure':True})
+            independent_quadrature_checks += len(checks)
             for eta in CONFIG['raw_absolute_error_relative_to_reference']:
                 obs,intervals=observational_boxes(samples,eta)
                 dataid=f'{kind}_r{r0text}_noise{eta}'
@@ -237,7 +249,19 @@ def main(out):
     summary={
         'start_utc':start,'finished_utc':datetime.now(timezone.utc).isoformat(),
         'seconds':time.perf_counter()-tic,'configuration_sha256':config_hash,
-        'datasets':len(datasets),'unique_raw_integrals':40,'comparison_rows':len(rows),
+        'datasets':len(datasets),
+        'source_enclosure_evaluations':source_enclosure_evaluations,
+        'distinct_source_enclosures':len({sample_input_key(s) for d in datasets for s in d['samples']}),
+        'weight_benchmark_evaluations':weight_benchmark_evaluations,
+        'weight_benchmark_integrals':weight_benchmark_integrals,
+        'distinct_weight_benchmarks':len({(sample_input_key(d['samples'][0]),F(cut))
+                                          for d in datasets for cut in d['direct_weight_benchmarks']}),
+        'independent_quadrature_checks':independent_quadrature_checks,
+        'counter_scope':('source_enclosure_evaluations counts certify_sample calls only; '
+                         'weight_benchmark_* count the direct benchmark integrals and '
+                         'independent_quadrature_checks the mpmath cross-checks. '
+                         'No single counter is the total number of quadratures performed.'),
+        'comparison_rows':len(rows),
         'exact_weight_certificates':len(records),'all_certificates_verified':True,
         'all_direct_weight_enclosures_contained':True,
         'python':sys.version,'platform':platform.platform(),

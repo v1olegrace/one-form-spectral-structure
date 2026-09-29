@@ -33,6 +33,13 @@ def interval_record(pair):
     return {"lower": str(pair[0]), "upper": str(pair[1])}
 
 
+def sample_input_key(sample):
+    """Canonical identity of all parameters controlling a source enclosure."""
+    return (sample['kind'], *(rational(sample[k]) for k in
+            ('radius', 'mass', 'coupling2', 'charge', 't_max')),
+            sample['bits'], rational(sample['tolerance_goal']))
+
+
 def _integrand(kind, radius, mass, coupling2, charge):
     r, m, amplitude = ball(radius), ball(mass), ball(coupling2) * ball(charge)**2
     pi2 = arb.pi()**2
