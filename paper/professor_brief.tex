@@ -14,7 +14,7 @@
 \setlength{\parskip}{6pt}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small\color{ink} PERFIL RADIAL E ESTRUTURA ESPECTRAL}
-\fancyhead[R]{\small 28.09.2026}
+\fancyhead[R]{\small 29.09.2026}
 \fancyfoot[L]{\footnotesize Mauro de Oliveira Cardoso (Viole) | Material para discussão}
 \fancyfoot[R]{\thepage/6}
 \renewcommand{\headrulewidth}{0.3pt}
@@ -27,7 +27,7 @@
 \begin{document}
 \titlepageof{01 / PERGUNTA CENTRAL}{O que a forma do perfil revela?}{Da quebra de uma simetria de 1-forma ao limiar acoplado}
 Uma simetria elétrica de 1-forma permite medir carga por uma superfície que
-envolve uma linha de prova. Com matéria carregada, o screening faz a carga
+envolve uma linha de prova. Com matéria carregada, a blindagem faz a carga
 efetiva $q(r)$ depender do raio. A pergunta é: \textbf{quanto do espectro pode
 ser inferido dessa dependência?}
 \begin{panel}{O observável e sua representação condicional}
@@ -55,7 +55,7 @@ Momentos positivos $\longrightarrow$ limites superiores para o limiar
 \end{equation*}
 \textbf{Estabelecido condicionalmente.} Para medida não nula, com as condições
 de integrabilidade do artigo, $\Gamma(r)$ decresce para a borda efetiva do
-suporte. A técnica de effective mass e GEVP é clássica.
+suporte. A técnica de massa efetiva e o GEVP são clássicos.
 
 \textbf{Interpretação correta.} $\M$ é o menor limiar \emph{acoplado ao
 observável}. Identificá-lo com a menor massa carregada exige informação de
@@ -79,7 +79,7 @@ $Q^2=|\mathbf p|^2>0$, $g_R^2>0$, $s_*>0$ e
 $\int d\sigma(s)/(\mu_0^2+s)<\infty$ para alguma escala $\mu_0>0$.
 A expressão não inclui um termo polinomial de contato.
 \end{panel}
-\textbf{O que se segue.} O transformado de Yukawa e a lei de Gauss dão,
+\textbf{O que se segue.} A transformada de Yukawa e a lei de Gauss dão,
 em resposta linear,
 \begin{equation*}
  \int f(x)\,d\nu(x)=\frac{1}{g_R^2}\int s\,f(\sqrt{s})\,d\sigma(s).
@@ -104,10 +104,12 @@ renormalização de perímetro, contatos e o limite $T\to\infty$.
 são hipóteses adicionais. Um canal sem massa pode destruir o gap sem
 destruir a positividade.
 \end{panel}
-\textbf{Atualização desta rodada.} O critério exploratório $Z_3\ge0$ exige
-cuidado: a classe geral de Stieltjes permite uma constante. Há um
-contraexemplo exato à equivalência direta com H3 na fronteira $Z_3=0$
-(backup, p.~6).
+\textbf{O que ficou resolvido.} Para a cadeia de bolhas ressomada, com a
+densidade de um laço, H3 se reduz ao sinal de uma constante $Z_3$: vale
+para $Z_3>0$, falha para $Z_3<0$ e, se a massa total é finita, falha
+também em $Z_3=0$. O
+resultado está no apêndice A do artigo; o resumo e os três regimes estão
+na p.~6. Isso não toca a pergunta abaixo, que é sobre o kernel físico.
 
 \begin{panel}{Pergunta para o professor}
 Que hipóteses adicionais permitem transportar a medida positiva de
@@ -231,7 +233,7 @@ $K=L-1$; ordens seguintes são singulares e exigem redução de posto.
 
 \begin{panel}{Exemplo exato, antes de qualquer quadratura}
 Se $d\nu=w_1\delta_{m_1}+w_2\delta_{m_2}$, com $w_i>0$ e $m_1<m_2$,
-o pencil $2\times2$ ($K=1$) tem autovalores exatamente $m_1,m_2$.
+o feixe de matrizes $2\times2$ ($K=1$) tem autovalores exatamente $m_1,m_2$.
 Com dados exatos, $B_1=m_1$. Um peso minúsculo torna a extração numérica
 mal condicionada; não remove a identidade algébrica.
 \end{panel}
@@ -243,60 +245,62 @@ precisão recusa o limite; não refuta uma teoria física.
 passar por todas as verificações até certa ordem. Compatibilidade finita
 não prova a positividade global, muito menos H3.
 
-\textbf{Evidência atual.} O conjunto anterior de 169 testes passou nesta
-rodada, assim como os dois novos testes do caso limite. A reverificação
-Arb dos certificados de um laço reintegrou 28 amostras e 12 benchmarks.
-Os certificados controlam aqueles dados e desigualdades; não certificam
-QED completa nem todos os valores de GEVP do projeto.
+\textbf{Evidência atual.} Os 324 testes do repositório passam, também
+num checkout limpo, e a integração contínua remota passa nos três jobs,
+inclusive na compilação deste documento. A reverificação Arb dos
+certificados de um laço reintegra 28 amostras e 12 benchmarks. Esses
+certificados controlam aqueles dados e aquelas desigualdades; não
+certificam QED completa nem os valores de GEVP do projeto.
 \source{\texttt{paper/appendix.tex}, prova da hierarquia;
 \texttt{reproducibility/moment\_conditions.py};
 \texttt{reproducibility/verify\_one\_loop\_output.py}.}
 \newpage
-\titlepageof{06 / BACKUP TÉCNICO}{Contatos e o caso crítico}{Uma correção exata da nota exploratória de H3}
-\textbf{Modelo delimitado.} Na estrutura dispersiva considerada na nota,
-ponha $z=Q^2$ e tome uma medida de corrente de um único polo:
+\titlepageof{06 / BACKUP TÉCNICO}{A cadeia de bolhas ressomada}{Três regimes, e o que os momentos do contínuo não enxergam}
+No propagador ressomado $\mathcal G=g_R^2/(Q^2W)$, frações parciais,
+$Q^2/[s(s+Q^2)]=1/s-1/(s+Q^2)$, reescrevem o denominador:
 \begin{equation*}
- \bar\Pi(z)=\frac{Zz}{s_0(s_0+z)},\qquad
- \mathcal G(z)=\frac{g_R^2}{z[1-g_R^2\bar\Pi(z)]},\qquad
- c=\frac{g_R^2Z}{s_0}.
+ W(Q^2)=1-g_R^2\bar\Pi(Q^2)=Z_3+g_R^2\!\int\!\frac{\rho_J(s)\,ds}{s+Q^2},
+ \qquad Z_3=1-g_R^2\!\int\!\frac{\rho_J(s)}{s}\,ds .
 \end{equation*}
-Para $0<c<1$, frações parciais dão
-\begin{equation*}
- \mathcal G(z)=\frac{g_R^2}{z}
- +\frac{g_R^2c/(1-c)}{z+s_0/(1-c)}.
-\end{equation*}
-O resíduo adicional é positivo; a posição do polo é deslocada.
-\begin{panel}{A fronteira que precisa de uma ressalva}
-Em $c=1$ (isto é, $Z_3=1-c=0$),
-\begin{equation*}
- \mathcal G(z)=\frac{g_R^2}{z}+\frac{g_R^2}{s_0},\qquad
- \lim_{z\to\infty}\mathcal G(z)=\frac{g_R^2}{s_0}>0.
-\end{equation*}
-É Stieltjes na classe geral, mas não satisfaz a H3 literal, que não admite
-a constante. Sob a integrabilidade de H3, a convergência dominada obriga
-$\mathcal G(z)\to0$.
+Logo $W(0)=1$, $W(\infty)=Z_3$, e $W$ decresce estritamente. O sinal de
+$Z_3$ decide tudo. Na tabela, $\mu=\int\rho_J(s)\,ds$ é a massa total da
+densidade.
+
+\begin{center}\small
+\renewcommand{\arraystretch}{1.3}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\begin{tabular}{@{}L{1.5cm}L{3.8cm}L{5.4cm}L{4.6cm}@{}}
+\toprule
+Regime & Polo tipo espaço & Átomo acima do corte & H3 sem constante\\\midrule
+$Z_3>0$ & não há & um, de peso positivo, se $\rho_J$ não se anula na borda & vale\\
+$Z_3=0$ & não há & não há & falha se $\mu<\infty$ ($\mathcal G\to1/\mu$)\\
+$Z_3<0$ & um, resíduo negativo & não há & falha\\\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{panel}{Exemplo exato: um polo de corrente}
+Com $\bar\Pi(z)=Zz/[s_0(s_0+z)]$ e $c=g_R^2Z/s_0$, tem-se $Z_3=1-c$ e,
+para $0<c<1$,
+$\mathcal G(z)=g_R^2/z+[g_R^2c/(1-c)]/[z+s_0/(1-c)]$: resíduo positivo,
+polo deslocado. Em $c=1$ sobra $\mathcal G=g_R^2/z+g_R^2/s_0$, Stieltjes na
+classe geral mas com a constante que a H3 do artigo exclui. Ausência de
+polo é necessária, e não basta.
 \end{panel}
-\textbf{Correção necessária.} O critério exploratório $Z_3\ge0$ não pode ser
-promovido diretamente a uma equivalência com H3. É necessário excluir o
-termo constante e controlar as demais hipóteses físicas. No modelo
-dispersivo com $Z_3>0$, o limite zero é garantido por
-$0<\mathcal G(z)\le g_R^2/(zZ_3)$.
 
-\textbf{Significado físico.} Uma constante no espaço dos momentos é um
-contato na origem. Ela não contribui para $r>0$; removê-la requer declarar
-essa escolha. Não é legítimo confundir a representação com contato e a
-hipótese sem contato do artigo.
+\textbf{O que os momentos não veem.} A densidade do contínuo é
+$g_R^4\rho_J/(s|W|^2)$, positiva para qualquer acoplamento, inclusive
+$Z_3<0$. Um teste de positividade feito com momentos do contínuo aprova o
+caso em que H3 é falsa, porque a falha está num polo discreto. É um limite
+de alcance desses testes, e o artigo agora o diz.
 
-\textbf{Alcance.} Essa é uma correção algébrica do modelo exploratório.
-Não refuta a cadeia de teoremas condicionais do artigo nem resolve a ponte
-entre $\langle FF\rangle$ e o observável estático.
+\textbf{O átomo não é descoberta nossa.} Com corte rígido e densidade que
+não se anula na borda, a ressoma põe um átomo de peso positivo acima do
+corte. É o mecanismo de Giacosa e Wolkanowski (2012): polo na folha física,
+fora do espectro de entrada, com regra de soma restaurando a normalização.
 
-\begin{panel}{O próximo passo defensável}
-Formular um lema de transporte com hipóteses explícitas para contatos,
-fase de Coulomb e limite estático; verificar os fundamentos pendentes da
-classificação por setores antes de promover sua conclusão global.
-\end{panel}
-\source{\texttt{notes/H3\_attack\_2026-09-24.md}, errata de 28/09;
-\texttt{reports/H3\_BOUNDARY\_CORRECTION\_2026-09-28.md};
-\texttt{tests/test\_h3\_boundary.py}.}
+\textbf{QED a um laço.} $Z_3=0{,}966$ em $\Lambda^2=10^{20}\,m^2$; $Z_3$ só se
+anula perto do polo de Landau. Nada disso alcança o irredutível de dois
+laços nem o kernel não perturbativo.
+\source{\texttt{paper/appendix.tex}, parágrafo sobre a cadeia ressomada;
+\texttt{notes/H3\_RPA\_proof\_note\_2026-09-29.md}; arXiv:1209.2332.}
 \end{document}
