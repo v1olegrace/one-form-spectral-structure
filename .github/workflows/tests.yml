@@ -88,8 +88,13 @@ jobs:
       - name: Install TeX Live
         run: |
           sudo apt-get update
+          # lmodern is a SEPARATE Debian package. Under --no-install-recommends
+          # it is not pulled in, and professor_brief.tex dies with
+          #   ! LaTeX Error: File `lmodern.sty' not found.
+          # Run 36543772146 failed exactly there. The canonical paper does not
+          # use lmodern, which is why only the brief broke.
           sudo apt-get install -y --no-install-recommends texlive-latex-recommended \
-            texlive-latex-extra texlive-science latexmk
+            texlive-latex-extra texlive-science latexmk lmodern
 
       - name: Build paper
         run: cd paper && latexmk -pdf -interaction=nonstopmode paper.tex

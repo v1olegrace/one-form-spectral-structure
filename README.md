@@ -141,7 +141,18 @@ from massless cuts; **originality**, which is not established — Brown–Weisbe
 (1979) is unread behind a paywall and the Schilling–Song–Vondraček theorem
 numbering is unconfirmed (secondary sources disagree).
 
-**Never done**: remote CI, human expert review, submission.
+**Continuous integration**: remote CI has now run, at commit `730bdf0`
+(run 36543772146). Two of three jobs passed — `tests` and `certified` — and the
+`paper` job built the canonical manuscript successfully but **failed** on the
+Portuguese discussion brief with `! LaTeX Error: File 'lmodern.sty' not found`.
+Cause: the workflow installs TeX Live with `--no-install-recommends`, and
+`lmodern` is a separate Debian package. The canonical paper does not use it,
+which is why only the brief broke. `lmodern` has been added to the install list;
+**that fix is reasoned from the CI log and has not been reproduced locally**,
+because no `latexmk`/`pdflatex` is installed here and Tectonic ships its own
+fonts, so it never sees this failure. The next CI run is the verification.
+
+**Never done**: human expert review, submission.
 
 ## Quickstart
 
