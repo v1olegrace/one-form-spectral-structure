@@ -231,6 +231,45 @@ Seja uma teoria de gauge **abeliana** em 3+1 dimensões, com matéria de carga
 
 **Risco:** alto. **Estimativa:** 3–6 semanas de trabalho focado.
 
+### E2.4 Estado em 23/09/2026 — o que a auditoria fechou e o que não fechou
+
+A auditoria de 23/09 corrigiu enunciados, o filtro numérico e a proveniência
+dos certificados. **Nenhuma das obrigações científicas de E2 foi resolvida
+por essas correções**, e o relatório não as apresenta como resolvidas.
+Registro aqui, no estágio a que pertencem, as seis que continuam abertas:
+
+1. **H3 além da ordem líder.** Derivar H3 para o kernel físico, ou restringir
+   o domínio de aplicação com uma hipótese controlada. É E2.3a. A nota E2b
+   não conclui essa ponte, e o apêndice agora declara explicitamente que o
+   resto O(g_R⁶) não é afirmado positivo.
+2. **⟨FF⟩ → laço de Wilson → kernel estático.** Justificar laço de Wilson,
+   limite estático, termos de contato e subtrações ao transportar a medida.
+   É o passo 2 de E2.1 e o O2 de [D5](DECISIONS.md). **Obrigação prioritária.**
+3. **Isolamento de canais carregados.** Demonstrar quando se pode isolar canais
+   carregados preservando positividade. O paper já recuou de "limiar carregado"
+   para "limiar efetivamente acoplado" em v0.3; o recuo torna a lacuna visível,
+   não a fecha.
+4. **Erro perturbativo e inferência.** Quantificar o erro de truncamento e
+   controlar inferência em dados físicos desconhecidos. Envelopes sintéticos
+   determinísticos não são cobertura estatística empírica; `summary.json`
+   declara isso no próprio campo `scope`.
+5. **Leituras primárias pendentes.** Concluir as leituras antes de elevar
+   atribuições, novidade ou os lemas de E2b a verificação bibliográfica
+   concluída. Três lemas de E2.3b seguem marcados "to read". É E2.3e.
+6. **CI remoto e revisão humana.** Continuam sem execução verificada. O
+   workflow existe e nunca rodou; a inspeção visual do PDF foi feita por
+   agente, não por revisor humano.
+
+**Fronteira agora explícita (ver [D6](DECISIONS.md)).** A v0.3 deixou de
+afirmar que H3 é "estritamente mais forte" que positividade de reflexão. Com
+isso, E2.2 deixa de ser clarificação e passa a ser o núcleo: a relação entre
+as duas hipóteses é desconhecida **nas duas direções**.
+
+**O que é evidência e o que não é.** O filtro finito de momentos aprova com o
+rótulo `CHECKED_COMPATIBLE`, que significa apenas que as condições necessárias
+finitas testadas passaram. O contraexemplo δ₁+δ₂+δ₃−10⁻⁶δ₄ passa em ordem 5
+e falha em ordem 7: nenhum número de testes finitos aprovados estabelece H3.
+
 ---
 
 ## E3 — Consolidar a contribuição original (P0)
@@ -325,3 +364,11 @@ número do texto está coberto por um `assert`.
 | Versão | Etapa | Data | Conteúdo |
 |---|---|---|---|
 | v0.2 | E0 | 21/09/2026 | Build limpo, autoria, números e crossover corrigidos, bibliografia saneada, Figura 1 |
+| v0.3 | Auditoria | 23/09/2026 | Filtro finito com localizador H₁, contraexemplos novos, enunciados com hipóteses explícitas, teto de uma espécie provado no apêndice, cadeia WGC condicional completa, proveniência 40/28 |
+
+O PDF entregue da v0.3 é `output/pdf/spectral_structure_v03.pdf` (12 páginas,
+compilado com Tectonic 0.17.0 portátil). Esse diretório é gitignored: o PDF
+não está versionado. `make.py pdf` gera `paper/paper.pdf`, que é outro
+artefato. Hashes das fontes e do PDF em `output/data/canonical_pdf_qa.json`,
+reconferidos de forma independente em 23/09/2026
+(`reports/VERIFICATION_CLAUDE_2026-09-23.md`).

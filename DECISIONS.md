@@ -224,3 +224,52 @@ chaves (tipo, r₀), e com elas **todas as 28 integrais de amostra distintas** �
 os três datasets de cada chave diferem só no ruído, que é aplicado depois da
 integração —, além dos benchmarks diretos de peso. O `source_pairs_reintegrated: 0`
 da execução anterior refletia só a ausência da flag.
+
+---
+
+## D6 — A H3 deixa de ser declarada "estritamente mais forte" que a positividade de reflexão
+
+**Data:** 23/09/2026 · **Status:** FIRME quanto ao recuo; ABERTA quanto à relação real
+
+### O que mudou
+
+A v0.2 de `paper/paper.tex` dizia, na seção de precedentes:
+
+> "Our Hypothesis 3 is strictly stronger than reflection positivity, so the
+> infinite hierarchy we obtain is not an improvement on Bachas in
+> hypothesis-free content."
+
+A v0.3 diz:
+
+> "We impose Hypothesis 3 as an additional spectral assumption whose
+> derivation from reflection positivity is not established here, so the
+> infinite hierarchy we obtain is not an improvement on Bachas in
+> hypothesis-free content."
+
+### Por que
+
+A frase antiga afirmava uma relação de força entre duas hipóteses — "estritamente
+mais forte" — que o artigo não prova em lugar nenhum. Provar isso exigiria
+exatamente a implicação que a etapa E2 tem como objetivo (positividade de
+reflexão ⟹ H3), mais a demonstração de que a recíproca falha. Nenhuma das duas
+está feita. A conclusão prática da frase — que não há ganho sobre Bachas em
+conteúdo livre de hipóteses — permanece válida e foi preservada; só a
+justificativa não demonstrada saiu.
+
+Esta decisão é de **enunciado**, não de conteúdo matemático: nenhum teorema,
+prova ou resultado numérico mudou por causa dela.
+
+### O que pode revertê-la
+
+Fechar a P-E2 (ver [D5](#d5--obrigações-de-prova-da-p-e2-auditoria-externa-de-22092026)).
+Se (W), (B), (L) e uma hipótese de fase de Coulomb derem H3 como teorema, a
+relação entre as duas hipóteses passa a ser demonstrável e a frase pode voltar
+— com a direção correta, que nesse caso seria a oposta da afirmada na v0.2.
+Enquanto isso, qualquer texto que compare a força de H3 com a da positividade
+de reflexão está fazendo uma afirmação sem prova.
+
+### Consequência para o roadmap
+
+A etapa E2.2 ("Onde está a fronteira entre positividade de reflexão e H3")
+deixa de ser uma clarificação e passa a ser o conteúdo científico central: a
+fronteira não é conhecida em nenhuma das duas direções.

@@ -1,7 +1,7 @@
 # Spectral structure of approximate one-form symmetry breaking
 
 **Mauro de Oliveira Cardoso** (research name: *Viole*) · independent researcher, Botucatu, SP, Brazil
-Manuscript: [`paper/paper.tex`](paper/paper.tex) · draft **v0.2** (21 Sep 2026) · research plan: [`ROADMAP_CIENTIFICO.md`](ROADMAP_CIENTIFICO.md) (pt-BR)
+Manuscript: [`paper/paper.tex`](paper/paper.tex) · draft **v0.3** (23 Sep 2026) · research plan: [`ROADMAP_CIENTIFICO.md`](ROADMAP_CIENTIFICO.md) (pt-BR)
 
 ---
 
@@ -102,53 +102,112 @@ external `.bst` file is needed.
 These are the practices that make a theory paper's numerics trustworthy. They
 are the same ones that make ML results trustworthy.
 
-1. **Every published number comes from code that asserts it.** The test suite
-   recomputes values quoted in the text rather than snapshotting them.
-   Example: `figure_data.py --check` fails if a single quoted digit drifts.
-2. **Tests must be able to fail.** Each correctness test has a discriminating
-   twin that must fail under the wrong convention. For instance,
+1. **Benchmark numbers are recomputed.** The test suite recomputes the
+   numerical examples; `figure_data.py --check` checks the original Section 7
+   benchmarks, and the gate regressions check the additional signed examples.
+2. **Tests must be able to fail.** Discriminating cases check wrong
+   conventions and adversarial inputs. For instance,
    `test_sign_convention.py` asserts that the flipped vacuum-polarization sign
    produces a *negative* spectral measure and antiscreening. A test that
    passes under both conventions is worthless.
-3. **Gate before you estimate.** No threshold bound is reported until the
-   positivity gate passes, which requires both (−1)ⁿΦ⁽ⁿ⁾ > 0 and H₀ ≻ 0. The
-   adversarial signed measure δ₁ − ½δ₂ passes the naive screening checks
-   (Φ > 0, −Φ′ > 0), and the gate refuses it. It is the analogue of input
-   validation in front of a model.
+3. **Finite checks before derivative-based estimation, in one shared module.**
+   `reproducibility/moment_conditions.py` checks finite real moments, a₀ > 0,
+   aₙ ≥ 0, H₀ and the localizer H₁, on the moments the caller actually uses.
+   Every routine that emits a bound imports it: `falsification_suite`,
+   `laplace_geometry` (Laplace pencil), `extended_analysis` (sampled Hausdorff
+   pencil) and `analysis` (Stieltjes pencil). The caller declares which matrix
+   is the pencil *denominator* via `strict_shift`, because only that one gets
+   the strict near-singularity refusal — the two pencil orientations are
+   opposite and guarding the wrong matrix would be silent. Anything that takes
+   the logarithm of a moment ratio goes through `mass_from_log_ratio`, which
+   refuses ratios outside (0, 1] instead of returning a negative mass.
+   Rank/precision failures refuse a bound at that order; they do not refute H3.
+   `CHECKED_COMPATIBLE` means only that the finite conditions passed. A signed
+   measure with a small negative atom passes at order 5 and fails at order 7.
+   Neither this gate nor the separate interval certificates establish H3 from
+   finite data.
 4. **Precision is a measured requirement, not a default.** High-order Hankel
-   pencils are catastrophically ill-conditioned. A wide-dynamic-range model
-   needs about 86 significant digits; float64 has about 16. The pipeline
-   detects rank collapse instead of returning garbage.
+   pencils can be catastrophically ill-conditioned. The wide-dynamic-range
+   Laplace model needs about 86 significant digits; float64 has about 16, so
+   the pipeline detects rank collapse instead of returning garbage. Where the
+   requirement is mild the code now says so with a number rather than an
+   assumption: the Stieltjes pencil of `localizing_bounds.csv` needs 1 to 13
+   digits at K = 0..5, which is recorded per row together with the measured
+   float64 discrepancy (worst case 5.9e-12). Published values come from
+   extended precision either way.
 5. **Status vocabulary is enforced by module boundary:**
    - `CHECKED`: high-precision numerics, no rigorous error bound;
    - `CERTIFIED`: interval enclosure or proved inequality;
    - `PENDING_VERIFICATION`: never guessed, never silently filled.
-6. **Pre-registered adversarial tests.** The falsification suite writes its
-   predictions (for example, crossover radius r× = 22.76 for the
-   hidden-threshold model) before computing the observable.
+6. **Analytic predictions precede numerical comparisons.** The falsification
+   suite records predictions (such as crossover radius r× = 22.76) before
+   computing the corresponding observable. This is not evidence of an external,
+   independently timestamped preregistration.
 7. **Provenance for literature, too.** Every bibliography field comes from an
    API response (INSPIRE, Crossref, Semantic Scholar) recorded in
    `data/literature_harvest.json`. Manual corrections are logged per record
    in a `correction` field. Forbidden sources (wikis, content farms,
    AI-generated summaries) fail the test suite.
-8. **Determinism.** Fixed seeds, cached API responses, no network at test
-   time, and generated artefacts are never tracked except where the build
-   needs them (`paper/figures/*.dat`).
+8. **Reproducibility.** Fixed seeds and cached API responses keep numerical
+   tests offline. Selected generated data and figures are tracked for review;
+   caches and rendered documents are excluded. SVG dates and random IDs are
+   suppressed. Floating-point and optimizer outputs may vary across versions.
 
 ## Verification status (be precise about where things were run)
 
-| Check | Result | Environment |
-|---|---|---|
-| Clean LaTeX build: 0 warnings, 0 overfull, 0 Type 3 fonts | ✔ reported | v0.2 package environment (TeX Live 2023), 21 Sep 2026 — **not reproduced since**: no LaTeX on the machine used afterwards |
-| `figure_data.py --check` (all numbers quoted in Sec. 7) | ✔ | Windows 11, NumPy 2.3.5, 21 Sep 2026 |
-| Full test suite in a **clean clone** | ✔ 86 passed, 1 skipped (`test_paper_build.py`, no LaTeX) | same; python-flint 0.9.0 installed |
-| `make.py all` (numerics + audit + tests) | ✔ exit 0 | same |
-| `make.py certified`: 288 exact weight certificates | ✔ all verified | same |
-| `verify_one_loop_output.py --reintegrate` (Arb re-integration of every source sample) | ✔ PASS, 28/28 distinct sample integrals | same, 22 Sep 2026 |
-| Without python-flint | `test_one_loop_certified.py` is skipped as a module; an independent audit run reported 73 passed, 2 skipped, consistent with that | external audit, 22 Sep 2026 |
-| CI workflow (`.github/workflows/tests.yml`) | never executed | — |
+The "Re-run" column records an **independent** re-execution on 23 Sep 2026,
+separate from the run that produced the correction report. A reproduced test
+result is evidence about the code and the data binding, never about H3.
+
+> **Two agents wrote to this uncommitted working tree on 23 Sep 2026.** An
+> earlier snapshot of this table (~21:50–22:05 local) was taken while a second
+> agent was still editing, and reported 121 then 136 collected tests. The
+> "Re-run" column below is the state **after** the guard unification and the
+> verifier completion, re-measured end to end at ~22:1x local. The earlier
+> snapshot and its mtime evidence are kept at
+> [`reports/VERIFICATION_CLAUDE_2026-09-23.md`](reports/VERIFICATION_CLAUDE_2026-09-23.md)
+> (finding A0); the review that motivated the present changes is
+> [`reports/REVIEW_CLAUDE_2026-09-23.md`](reports/REVIEW_CLAUDE_2026-09-23.md).
+> A reproduced test result is evidence about the code and the data binding,
+> never about H3.
+
+| Check | Result | Re-run | Environment |
+|---|---|---|---|
+| Canonical v0.3 LaTeX/BibTeX build | ✔ no warnings or overfull boxes; no Type 3 fonts | — (paper sources unchanged; 6/6 pinned hashes still match) | Windows 11, portable Tectonic 0.17.0, 23 Sep 2026 |
+| `figure_data.py --check` | ✔ quoted benchmarks reproduced | ✔ | same; NumPy 2.3.5 |
+| Full test suite in this working tree | ✔ 121 passed, no skips with Tectonic on PATH | ✔ **169 passed, no skips** (+32 bound-guard, +16 verifier-completeness tests) | same; python-flint 0.9.0 |
+| Numerical pipeline and audit-ledger regeneration | ✔ exit 0 | ✔ exit 0 (both targets) | same |
+| `make.py certified`: 288 exact weight certificates | ✔ all verified | ✔ `configuration_sha256` unchanged | same |
+| `verify_one_loop_output.py --reintegrate` | ✔ 28/28 distinct source samples; 144 comparison rows | ✔ plus 12/12 direct weight benchmarks, cardinalities, cartesian product and certificate-index bijection | same |
+| Provenance counters name what they count | ✔ 40 source-enclosure evaluations / 28 distinct inputs | ✔ every counter recomputed by the verifier; benchmark integrals (12) and mpmath cross-checks (40) reported separately | 2 models × 2 radii × 10 samples; 6 radii shared |
+| Shared bound guard in all four pencil routines | ✔ `moment_conditions.py` | ✔ gate `CHECKED_COMPATIBLE` at every reported order | Laplace K≤5 at 80 dps; Hausdorff K≤5 at 60 dps; Stieltjes K≤5 at 120 dps |
+| PDF structural QA and visual inspection | ✔ 12 pages; all pages inspected; no clipping or overlap observed | ✔ all pinned source hashes and the PDF hash still match | `output/pdf/spectral_structure_v03.pdf` |
+| SVG regeneration | ✔ all four SVG files identical byte-for-byte on repeat | ✔ re-confirmed byte-for-byte across two consecutive `make.py numerics` runs | same software versions; not a cross-version guarantee |
+| Without optional dependencies | Certified modules skip without python-flint; PDF build test skips without a supported engine | — | no claim of full coverage in that configuration |
+| CI workflow (`.github/workflows/tests.yml`) | never executed | — | — |
+| Human expert review | never performed | — | script-based QA does not assert visual approval |
+
+**Known environment conditions.** Two things will bite a reproducer in this
+working tree, both administrative rather than scientific:
+
+- Run the suite as `python make.py test` (or `python -m pytest tests -q`).
+  A bare `python -m pytest` at the repository root **fails collection** with
+  three errors: the untracked working copy under
+  `laplace/physics_of_all_v0.2_update/tests/` has colliding test basenames and
+  a stale `__pycache__`, and the repository ships no `testpaths` configuration.
+- `output/pdf/` is gitignored, so the delivered PDF is **not** in version
+  control; `make.py pdf` writes `paper/paper.pdf` instead. The two paths have
+  distinct roles.
+- The `certified` CI job references `tests/test_one_loop_verifier.py`, and the
+  documented QA command references `reproducibility/canonical_pdf_qa.py`.
+  Both files are currently **untracked**; they must enter the index in the same
+  commit as the workflow or that job fails at collection.
 
 Full per-artefact index of the last run: [`output/README.md`](output/README.md).
+Correction details and remaining research obligations:
+[`reports/AUDIT_REMEDIATION_2026-09-23.md`](reports/AUDIT_REMEDIATION_2026-09-23.md).
+Independent re-verification record and findings (pt-BR):
+[`reports/VERIFICATION_CLAUDE_2026-09-23.md`](reports/VERIFICATION_CLAUDE_2026-09-23.md).
 
 ## Known limitations and open problems
 
@@ -156,8 +215,10 @@ Full per-artefact index of the last run: [`output/README.md`](output/README.md).
   positivity is the core question of stage E2.
 - **In full QED, massless multi-photon cuts remove the gap (H2).** The bound
   then correctly collapses to zero.
-- **Finite-window data cannot bound M* from below** without a minimum-weight
-  assumption (Theorem H).
+- **Finite-precision, finite-window data give no uniform strictly positive
+  lower bound on M*** without a minimum-weight assumption or other input
+  (Theorem H). The trivial M* ≥ 0 remains; exact interval data are a different
+  identifiability question.
 - **Test gaps.** Noisy-data recovery (L), noisy differentiation (M) and blind
   recovery (N) are not yet implemented. Randomised perturbation trials in
   `interval_bounds.py` are now labelled `CHECKED`, not certified; moving that
