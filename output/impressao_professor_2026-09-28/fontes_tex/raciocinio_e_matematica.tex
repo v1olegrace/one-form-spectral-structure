@@ -202,6 +202,51 @@ O polo de Landau está em $\log(\Lambda^2/4m^2)=3\pi/\alpha\approx1291$.
 \textbf{Para todo cutoff fisicamente significativo, H3 vale com folga enorme.}
 Falha só no contínuo estrito --- e eu não escondo isso.
 
+\section*{Passo 6b --- O mecanismo, a fronteira, e o que os momentos n\~ao veem}
+
+\textbf{Tr\^es regimes, n\~ao dois.} Como $W(0)=1$ e $W(\infty)=Z_3$, com $W$
+estritamente decrescente:
+
+\begin{center}\small
+\begin{tabular}{lll}
+\toprule
+Regime & Polo spacelike & H3 (sem constante) \\
+\midrule
+$Z_3>0$ & n\~ao existe & \textbf{vale} \\
+$Z_3=0$ & n\~ao existe & \textbf{falha} se a massa total for finita \\
+$Z_3<0$ & existe, res\'iduo $<0$ & \textbf{falha} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+O polo em $Q^2>0$ \'e um estado com $s<0$ --- taquiônico. Uma fun\c{c}\~ao de
+Stieltjes n\~ao pode t\^e-lo. \textbf{Mas ausência de polo n\~ao basta:} na
+fronteira $Z_3=0$ n\~ao h\'a polo e H3 ainda falha, por um termo constante.
+A aus\^encia de polo \'e \textbf{necess\'aria, n\~ao suficiente}.
+
+\begin{alerta}{O QUE MAIS ME SURPREENDEU --- e eu levo isto ao professor}
+Eu esperava que a viola\c{c}\~ao aparecesse como densidade espectral negativa.
+\textbf{N\~ao aparece.} A densidade do cont\'inuo \'e
+$d\sigma/ds=g_R^4\rho_J/(s|W|^2)$, manifestamente $\ge0$ para
+\emph{qualquer} acoplamento --- \'e $\rho_J$ dividida por um m\'odulo ao quadrado.
+
+Consequ\^encia: um teste de positividade baseado nos \textbf{momentos do
+cont\'inuo} aprova o caso mesmo quando H3 \'e falsa. Rodei o filtro do pr\'oprio
+projeto e ele devolve \textsc{checked\_compatible} nos dois lados da fronteira.
+N\~ao \'e defeito de implementa\c{c}\~ao: nenhum momento do cont\'inuo enxerga um
+polo discreto. A viola\c{c}\~ao inteira mora no polo.
+\end{alerta}
+
+\textbf{Evid\^encia computacional.} 211 testes passando, tamb\'em em
+\emph{checkout} limpo do reposit\'orio, com os geradores reproduzindo os
+artefatos byte a byte. As quatro condi\c{c}\~oes que identificam a
+representa\c{c}\~ao do modelo com a forma exata de H3 do artigo --- res\'iduo de
+Coulomb $g_R^2>0$, suporte fora da origem, aus\^encia de constante e momento
+inverso finito --- foram verificadas; as tr\^es primeiras demonstradas, a quarta
+demonstrada para a densidade concreta e verificada numericamente.
+Os erros de quadratura s\~ao estimativas do QUADPACK: \textbf{evid\^encia
+num\'erica}, n\~ao certifica\c{c}\~ao por intervalo.
+
 \section*{Passo 7 --- Onde o argumento realmente trava}
 
 O critério acima é sobre a \textbf{cadeia de Dyson} com $\rho_J$ vindo da
