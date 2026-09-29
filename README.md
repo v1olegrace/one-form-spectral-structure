@@ -1,36 +1,94 @@
 # Spectral structure of approximate one-form symmetry breaking
 
 **Mauro de Oliveira Cardoso** (research name: *Viole*) · independent researcher, Botucatu, SP, Brazil
-Manuscript: [`paper/paper.tex`](paper/paper.tex) · draft **v0.3** (23 Sep 2026) · research plan: [`ROADMAP_CIENTIFICO.md`](ROADMAP_CIENTIFICO.md) (pt-BR)
+
+A one-form symmetry observable, a positivity hypothesis, and an honest account
+of exactly where the argument holds and where it stops.
+
+Manuscript: [`paper/paper.tex`](paper/paper.tex) — draft **v0.3** ·
+Research plan: [`ROADMAP_CIENTIFICO.md`](ROADMAP_CIENTIFICO.md) (pt-BR)
 
 ---
 
-## TL;DR
+## What this is, in one paragraph
 
 The electric one-form symmetry of Maxwell theory is broken by charged matter.
-The breaking is measured by a radial profile δ(r), defined by Córdova,
-Ohmori and Rudelius and computed at one loop by Basile and Golmohammadi.
+The breaking is measured by a radial profile δ(r), defined by Córdova, Ohmori
+and Rudelius and computed at one loop by Basile and Golmohammadi. **We do not
+compute that profile.** We ask what its *shape* says about the spectrum.
+Conditional on a positive Stieltjes representation of the static response
+(Hypothesis **H3**), the reduced profile Φ(r) = δ(r)/r² is exactly the Laplace
+transform of a positive measure, whose support edge is the lowest threshold that
+*couples to this observable* — so standard inverse-spectral tools apply, and
+give upper bounds that descend to that threshold.
 
-**Claim.** *Conditional on* a positive Stieltjes representation of the static
-response (Hypothesis H3), the reduced profile Φ(r) = δ(r)/r² is exactly the
-Laplace transform of a positive measure. The edge of that measure's support
-is the lowest threshold the observable couples to. The profile's *shape*
-therefore carries spectral information, and standard inverse-spectral tools
-apply to it:
+**H3 is not proved beyond leading order.** Most of this repository is the work
+of finding out precisely what that costs.
 
-- the logarithmic slope, which plays the role of an effective mass;
-- the Hankel/GEVP hierarchy;
-- the edge law.
+## Start here
 
-The paper states their limits just as explicitly: a finite-window no-go, a
-failure mode for gapless (massless) channels, and a scale-invariance
-obstruction to Weak-Gravity inference.
+Compiled PDFs are **not** tracked — they are build products, rebuilt from the
+sources below in one command.
 
-**What this is not.** It is not a new inverse-Laplace method: the mathematics
-is classical, and the lattice effective-mass/GEVP technology is identical. It
-is not a proof that H3 holds beyond leading order, and not a derivation of
-the Weak Gravity Conjecture. The per-claim novelty verdict is in
-[`data/claims_matrix.csv`](data/claims_matrix.csv).
+| If you want | Read | Build it |
+|---|---|---|
+| The physics, 12 pages | [`paper/paper.tex`](paper/paper.tex) | `python make.py pdf` |
+| A six-page discussion brief (pt-BR) | [`paper/professor_brief.tex`](paper/professor_brief.tex) | `tectonic paper/professor_brief.tex` |
+| The argument and the mathematics (pt-BR) | [`output/impressao_professor_2026-09-28/fontes_tex/`](output/impressao_professor_2026-09-28/fontes_tex/) | `tectonic raciocinio_e_matematica.tex` |
+| What is proved vs. checked vs. open | [Claim ledger](#claim-ledger) and [Status](#status-be-precise-about-what-is-what) below |
+| The RPA result and how it broke twice | [`reports/H3_GHOST_ANALYSIS_2026-09-29.md`](reports/H3_GHOST_ANALYSIS_2026-09-29.md) |
+| The proofs | [`notes/H3_RPA_proof_note_2026-09-29.md`](notes/H3_RPA_proof_note_2026-09-29.md) |
+| To run everything | [Quickstart](#quickstart) |
+
+```bash
+pip install -r requirements.txt
+python make.py test        # 235 tests
+python make.py numerics    # regenerate every numerical result
+```
+
+---
+
+## The RPA result
+
+Within the Dyson/RPA structure — matter-current density ρ ≥ 0 by Lehmann
+positivity, a once-subtracted polarization, and 𝒢 = g²/(Q²·W) with
+W = 1 − g²Π̄ — one partial-fraction identity organises everything:
+
+```
+W(Q²) = Z₃ + g² ∫ ρ(s) ds/(s + Q²),     Z₃ := 1 − g² ∫ ρ(s)/s ds
+```
+
+so W(0) = 1, W(∞) = Z₃, and W is strictly decreasing. Three regimes follow,
+and the complete spectral representation differs in each:
+
+| Regime | Coulomb pole | Continuum | Timelike atom | Spacelike pole | Constant | H3 (contact-free) |
+|---|---|---|---|---|---|---|
+| **Z₃ > 0** | g²/Q², residue > 0 | dσ ≥ 0 on [4m², Λ²] | **one**, at s_a > Λ², weight > 0 | none | none | **holds** |
+| **Z₃ = 0** | same | same | none | none | 1/μ | **fails** if μ < ∞ |
+| **Z₃ < 0** | same | same | none | **one**, residue < 0 | — | **fails** |
+
+Three things are worth stating plainly, because each of them cost a correction:
+
+**H3 is not equivalent to "no ghost".** A spacelike pole obstructs it, but the
+boundary Z₃ = 0 has no pole and H3 can still fail through an additive constant.
+Absence of a pole is *necessary, not sufficient*.
+
+**The continuum density stays non-negative for every coupling.** It is
+g⁴ρ/(s|W|²) — ρ divided by a modulus squared. So a moment test on the continuum
+returns `CHECKED_COMPATIBLE` even when H3 is false. That is a scope limit of
+such tests, and a test in this repo now asserts it.
+
+**Resummation moves the measure outside the input support.** With a hard
+cutoff, W is real again on (Λ², ∞) and vanishes exactly once when Z₃ > 0,
+producing a discrete atom with positive weight above the cutoff. This mechanism
+is **known** — see arXiv:1209.2332, where one-loop resummation produces a
+discrete physical-sheet pole outside the input support with positive residue,
+closed by a spectral sum rule. We did not discover it; we rediscovered it the
+hard way, by first getting the support claim wrong.
+
+For QED at α = 1/137, Z₃ = 0.966 at Λ² = 10²⁰ and the criterion fails only near
+the Landau pole at log(Λ²/4m²) = 3π/α ≈ 1291. The bubble chain satisfies it with
+enormous margin at every physically meaningful cutoff.
 
 ## Claim ledger
 
@@ -38,198 +96,169 @@ the Weak Gravity Conjecture. The per-claim novelty verdict is in
 |---|---|---|---|
 | C1 | Under H3, Φ(r) = ∫e^{−rx}dν, ν ≥ 0, exactly | proved conditionally | Uehling; COR 2022; BG 2025 |
 | C2 | Φ is completely monotone | classical | Bernstein–Widder; Bachas 1986 |
-| C3 | Γ = −(log Φ)′ ↓ M*, an upper bound | classical (effective mass) | Lüscher–Wolff; Blossier et al. |
-| C4 | Hankel pencil B_K ↓ M* | classical (GEVP / Padé) | Blossier et al.; Masjuan–Peris; Hackett–Wagman |
-| C7 | No uniform lower bound on M* from a finite window | proved; phenomenon known | inverse-Laplace ill-posedness |
+| C3 | Γ = −(log Φ)′ ↓ M\*, an upper bound | classical (effective mass) | Lüscher–Wolff; Blossier et al. |
+| C4 | Hankel pencil B_K ↓ M\* | classical (GEVP / Padé) | Blossier et al.; Masjuan–Peris |
+| C7 | No uniform lower bound on M\* from a finite window | proved; phenomenon known | inverse-Laplace ill-posedness |
 | C8 | Positivity alone cannot fix a WGC scale | proved conditionally | COR 2022; Dvali |
 
-C5 (derivative-free sampled hierarchy) and C6 (Mellin bridge) are **not** in
-`paper/paper.tex`: they exist only in the pt-BR working draft and are assigned
-to the second, mathematical paper. See [`DECISIONS.md`](DECISIONS.md) D1/D3 and
-[`data/manuscript_comparison.csv`](data/manuscript_comparison.csv).
+Per-claim novelty verdicts: [`data/claims_matrix.csv`](data/claims_matrix.csv).
+C5 and C6 are **not** in the canonical paper — see [`DECISIONS.md`](DECISIONS.md).
 
-The central open question, **does positivity imply H3, and in which regime?**,
-is stage E2 of the roadmap.
+## Status: be precise about what is what
 
-## Repository layout
+**Proved** (within the stated hypotheses, RPA model): the partial-fraction
+identity; strict monotonicity and the endpoints of W; existence, uniqueness and
+simplicity of the spacelike zero iff Z₃ < 0, with residue < 0; existence and
+uniqueness of the timelike atom iff Z₃ > 0, with weight > 0; absence of complex
+zeros on the physical sheet; the two sum rules; the Coulomb residue, support and
+absence of a constant term for Z₃ > 0.
 
-```
-paper/                  canonical manuscript (English, LaTeX)
-  paper.tex appendix.tex
-  references.bib        GENERATED by scripts/build_bibliography.py -- do not hand-edit
-  physofall.bst         shipped BibTeX style (unsrtnat + case-preserving titles + arXiv links)
-  figures/*.dat         GENERATED plot data (pgfplots reads these at compile time)
-reproducibility/        numerical pipeline
-  spectral_models.py        model zoo: atoms + continua, positive and deliberately signed
-  falsification_suite.py    adversarial tests; predictions derived before running
-  extended_analysis.py      sampled hierarchies, Mellin bridge, edge-law tables
-  interval_bounds.py        interval-arithmetic (mpmath.iv) enclosures
-  one_loop_certified.py     validated one-loop Dirac/scalar data (Arb via python-flint)
-  spectral_weight_certificates.py  exact dual certificates on [0,1]
-  figure_data.py            NumPy-only data for Figure 1; --check asserts quoted numbers
-tests/                  pytest: sign convention, measure/hierarchy, bibliography,
-                        LaTeX structure, clean paper build, scilit integrity
-data/                   literature harvest (with provenance), audit ledgers, claims matrix
-scripts/                literature harvester and bibliography/audit builders
-manuscript/             author's working draft (pt-BR, Quarto) -- NOT canonical
-reports/                internal audits and red-team reports (historical record)
-base_cientifica/        archived source PDFs with SHA-256 manifest
-```
+**Checked numerically, not proved**: the numerical values of every table; the
+atom position and weight; the reconstruction; finite-moment compatibility.
+Vocabulary is enforced by module boundary — `CHECKED` means high-precision
+numerics without a rigorous bound, `CERTIFIED` means an interval enclosure or a
+proved inequality, `PENDING_VERIFICATION` is never guessed.
+
+**Measured accuracy, against an independent reference** (mpmath + an exact
+closed-form anchor, sharing no code with the production path):
+
+| Quantity | float64 vs multiprecision |
+|---|---|
+| Π̄(∞) | 2.9 × 10⁻¹⁶ |
+| log₁₀(edge distance) | 1.2 × 10⁻⁶ |
+| atom weight | 2.0 × 10⁻⁶ |
+
+The two float64 weight routes agree with each other to 4.8 × 10⁻⁹ and **both
+miss by 2 × 10⁻⁶** — they share the located root, so their agreement measured
+consistency, not accuracy. Cause isolated: the integrand has a square-root
+branch point at the upper endpoint, and QUADPACK's error estimate is optimistic
+by orders of magnitude there. Published tolerances are the measured ones.
+
+**Open, and not close to closed**: H3 beyond leading order for the interacting
+kernel; the transport ⟨FF⟩ → Wilson loop → static kernel (contact terms,
+perimeter renormalisation, T → ∞, the p² = 0 sector); isolating charged channels
+from massless cuts; **originality**, which is not established — Brown–Weisberger
+(1979) is unread behind a paywall and the Schilling–Song–Vondraček theorem
+numbering is unconfirmed (secondary sources disagree).
+
+**Never done**: remote CI, human expert review, submission.
 
 ## Quickstart
 
 ```bash
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt                        # mpmath, numpy, scipy, sympy, matplotlib, pytest
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
 
-python make.py check      # report available toolchain (LaTeX, packages)
-python make.py test       # full pytest suite
-python make.py numerics   # regenerate every numerical result
-python make.py pdf        # build paper/paper.pdf (TeX Live / MiKTeX)
-python reproducibility/figure_data.py --check   # NumPy-only: figure data + every number quoted in Sec. 7
+python make.py check       # report available toolchain
+python make.py test        # full suite, 235 tests
+python make.py numerics    # regenerate every numerical result
+python make.py audit       # rebuild audit ledgers
+python make.py pdf         # build paper/paper.pdf (needs a LaTeX engine)
 ```
 
-`make` targets mirror `make.py` for POSIX systems. The optional certified
-backend is installed with `pip install -r reproducibility/requirements-certified.txt`
-(python-flint) and run with `python make.py certified`.
+Optional certified backend (python-flint / Arb):
 
-**LaTeX requirements.** `pdflatex` and `bibtex` with the standard packages:
-amsmath, mathtools, pgfplots, cleveref, hyperref, natbib and microtype. No
-external `.bst` file is needed.
+```bash
+pip install -r reproducibility/requirements-certified.txt
+python make.py certified
+python reproducibility/verify_one_loop_output.py --reintegrate --no-write
+```
 
-## Engineering principles
+The RPA analysis and its independent reference:
 
-These are the practices that make a theory paper's numerics trustworthy. They
-are the same ones that make ML results trustworthy.
+```bash
+python reports/h3_ghost_2026-09-29/ghost_analysis.py   # tests, table, four figures
+python reports/h3_ghost_2026-09-29/reference_mp.py     # multiprecision reference
+```
 
-1. **Benchmark numbers are recomputed.** The test suite recomputes the
-   numerical examples; `figure_data.py --check` checks the original Section 7
-   benchmarks, and the gate regressions check the additional signed examples.
-2. **Tests must be able to fail.** Discriminating cases check wrong
-   conventions and adversarial inputs. For instance,
-   `test_sign_convention.py` asserts that the flipped vacuum-polarization sign
-   produces a *negative* spectral measure and antiscreening. A test that
-   passes under both conventions is worthless.
-3. **Finite checks before derivative-based estimation, in one shared module.**
-   `reproducibility/moment_conditions.py` checks finite real moments, a₀ > 0,
-   aₙ ≥ 0, H₀ and the localizer H₁, on the moments the caller actually uses.
-   Every routine that emits a bound imports it: `falsification_suite`,
-   `laplace_geometry` (Laplace pencil), `extended_analysis` (sampled Hausdorff
-   pencil) and `analysis` (Stieltjes pencil). The caller declares which matrix
-   is the pencil *denominator* via `strict_shift`, because only that one gets
-   the strict near-singularity refusal — the two pencil orientations are
-   opposite and guarding the wrong matrix would be silent. Anything that takes
-   the logarithm of a moment ratio goes through `mass_from_log_ratio`, which
-   refuses ratios outside (0, 1] instead of returning a negative mass.
-   Rank/precision failures refuse a bound at that order; they do not refute H3.
-   `CHECKED_COMPATIBLE` means only that the finite conditions passed. A signed
-   measure with a small negative atom passes at order 5 and fails at order 7.
-   Neither this gate nor the separate interval certificates establish H3 from
-   finite data.
-4. **Precision is a measured requirement, not a default.** High-order Hankel
-   pencils can be catastrophically ill-conditioned. The wide-dynamic-range
-   Laplace model needs about 86 significant digits; float64 has about 16, so
-   the pipeline detects rank collapse instead of returning garbage. Where the
-   requirement is mild the code now says so with a number rather than an
-   assumption: the Stieltjes pencil of `localizing_bounds.csv` needs 1 to 13
-   digits at K = 0..5, which is recorded per row together with the measured
-   float64 discrepancy (worst case 5.9e-12). Published values come from
-   extended precision either way.
-5. **Status vocabulary is enforced by module boundary:**
-   - `CHECKED`: high-precision numerics, no rigorous error bound;
-   - `CERTIFIED`: interval enclosure or proved inequality;
-   - `PENDING_VERIFICATION`: never guessed, never silently filled.
-6. **Analytic predictions precede numerical comparisons.** The falsification
-   suite records predictions (such as crossover radius r× = 22.76) before
-   computing the corresponding observable. This is not evidence of an external,
-   independently timestamped preregistration.
-7. **Provenance for literature, too.** Every bibliography field comes from an
-   API response (INSPIRE, Crossref, Semantic Scholar) recorded in
-   `data/literature_harvest.json`. Manual corrections are logged per record
-   in a `correction` field. Forbidden sources (wikis, content farms,
-   AI-generated summaries) fail the test suite.
-8. **Reproducibility.** Fixed seeds and cached API responses keep numerical
-   tests offline. Selected generated data and figures are tracked for review;
-   caches and rendered documents are excluded. SVG dates and random IDs are
-   suppressed. Floating-point and optimizer outputs may vary across versions.
+**Known environment condition.** Run the suite as `python make.py test` or
+`python -m pytest tests -q`. A bare `pytest` at the root is scoped by
+`pytest.ini`; without it, an untracked historical copy under `laplace/` collides
+on test basenames.
 
-## Verification status (be precise about where things were run)
+## Repository layout
 
-The "Re-run" column records an **independent** re-execution on 23 Sep 2026,
-separate from the run that produced the correction report. A reproduced test
-result is evidence about the code and the data binding, never about H3.
+```
+paper/                    canonical manuscript (English, LaTeX)
+  paper.tex appendix.tex  references.bib is GENERATED -- do not hand-edit
+  professor_brief.tex     six-page discussion brief (pt-BR)
+reproducibility/          numerical pipeline
+  moment_conditions.py        shared finite-moment gate, used by all four pencils
+  rpa_kernel_conditions.py    conditional RPA classifier, interval-based
+  spectral_models.py          model zoo: atoms and continua, positive and signed
+  falsification_suite.py      adversarial tests; predictions recorded before running
+  one_loop_certified.py       validated one-loop data (Arb via python-flint)
+  verify_one_loop_output.py   independent re-verification with completeness checks
+reports/
+  h3_ghost_2026-09-29/        RPA analysis, multiprecision reference, figures
+  H3_GHOST_ANALYSIS_*.md      the spacelike obstruction, in full
+  professor_2026-09-28/       meeting material and its number-checking script
+notes/                    proof notes and working records
+tests/                    235 tests; every one is meant to be able to fail
+data/                     literature harvest with provenance, audit ledgers
+output/impressao_*/       print-ready PDFs for a meeting
+manuscript/               author's pt-BR Quarto draft -- NOT canonical, predates v0.2
+```
 
-> **Two agents wrote to this uncommitted working tree on 23 Sep 2026.** An
-> earlier snapshot of this table (~21:50–22:05 local) was taken while a second
-> agent was still editing, and reported 121 then 136 collected tests. The
-> "Re-run" column below is the state **after** the guard unification and the
-> verifier completion, re-measured end to end at ~22:1x local. The earlier
-> snapshot and its mtime evidence are kept at
-> [`reports/VERIFICATION_CLAUDE_2026-09-23.md`](reports/VERIFICATION_CLAUDE_2026-09-23.md)
-> (finding A0); the review that motivated the present changes is
-> [`reports/REVIEW_CLAUDE_2026-09-23.md`](reports/REVIEW_CLAUDE_2026-09-23.md).
-> A reproduced test result is evidence about the code and the data binding,
-> never about H3.
+## How this repository is built
 
-| Check | Result | Re-run | Environment |
-|---|---|---|---|
-| Canonical v0.3 LaTeX/BibTeX build | ✔ no warnings or overfull boxes; no Type 3 fonts | — (paper sources unchanged; 6/6 pinned hashes still match) | Windows 11, portable Tectonic 0.17.0, 23 Sep 2026 |
-| `figure_data.py --check` | ✔ quoted benchmarks reproduced | ✔ | same; NumPy 2.3.5 |
-| Full test suite in this working tree | ✔ 121 passed, no skips with Tectonic on PATH | ✔ **169 passed, no skips** (+32 bound-guard, +16 verifier-completeness tests) | same; python-flint 0.9.0 |
-| Numerical pipeline and audit-ledger regeneration | ✔ exit 0 | ✔ exit 0 (both targets) | same |
-| `make.py certified`: 288 exact weight certificates | ✔ all verified | ✔ `configuration_sha256` unchanged | same |
-| `verify_one_loop_output.py --reintegrate` | ✔ 28/28 distinct source samples; 144 comparison rows | ✔ plus 12/12 direct weight benchmarks, cardinalities, cartesian product and certificate-index bijection | same |
-| Provenance counters name what they count | ✔ 40 source-enclosure evaluations / 28 distinct inputs | ✔ every counter recomputed by the verifier; benchmark integrals (12) and mpmath cross-checks (40) reported separately | 2 models × 2 radii × 10 samples; 6 radii shared |
-| Shared bound guard in all four pencil routines | ✔ `moment_conditions.py` | ✔ gate `CHECKED_COMPATIBLE` at every reported order | Laplace K≤5 at 80 dps; Hausdorff K≤5 at 60 dps; Stieltjes K≤5 at 120 dps |
-| PDF structural QA and visual inspection | ✔ 12 pages; all pages inspected; no clipping or overlap observed | ✔ all pinned source hashes and the PDF hash still match | `output/pdf/spectral_structure_v03.pdf` |
-| SVG regeneration | ✔ all four SVG files identical byte-for-byte on repeat | ✔ re-confirmed byte-for-byte across two consecutive `make.py numerics` runs | same software versions; not a cross-version guarantee |
-| Without optional dependencies | Certified modules skip without python-flint; PDF build test skips without a supported engine | — | no claim of full coverage in that configuration |
-| CI workflow (`.github/workflows/tests.yml`) | never executed | — | — |
-| Human expert review | never performed | — | script-based QA does not assert visual approval |
+These are the practices that make a theory paper's numerics trustworthy.
 
-**Known environment conditions.** Two things will bite a reproducer in this
-working tree, both administrative rather than scientific:
+1. **Tests must be able to fail.** `test_sign_convention.py` asserts that the
+   flipped vacuum-polarization sign produces a *negative* spectral measure. A
+   test that passes under both conventions is worthless.
+2. **Finite checks before derivative-based estimation.** `moment_gate` checks
+   finite real moments, a₀ > 0, aₙ ≥ 0, H₀ ≻ 0 and the localizer H₁ ⪰ 0. Rank or
+   precision failures refuse a bound; they do not refute H3.
+3. **Refuse rather than return a number.** `reconstruct()` and `sum_rules()`
+   raise outside the regime they implement. A Z₃ interval straddling zero is
+   `UNRESOLVED` in *every* entry point, not just in the classifier.
+4. **Diagnostics reach the result.** A quadrature non-convergence message
+   produces `PRECISION_UNCERTAIN`, not `RESOLVED`. Locating a root is not the
+   same as the quadrature achieving what was asked of it.
+5. **Global controls, not just local agreement.** Agreement at a few values of
+   Q² is exactly how a missing spectral atom hid for a day. Sum rules constrain
+   the total weight, and a test requires that dropping the atom breaks them.
+6. **Independent references, not self-consistency.** A deviation between two
+   sides of an identity measures inconsistency, not error. Precision claims are
+   backed by multiprecision arithmetic and an exact closed-form anchor.
+7. **Provenance for literature.** Every bibliography field comes from an API
+   response recorded in `data/literature_harvest.json`. Forbidden sources
+   (wikis, content farms, AI summaries) fail the test suite.
+8. **Reproducibility.** Validated in a clean checkout: 235 tests pass and
+   `git status` is empty after running every generator, so tracked artefacts are
+   regenerated byte-for-byte from the commit.
 
-- Run the suite as `python make.py test` (or `python -m pytest tests -q`).
-  A bare `python -m pytest` at the repository root **fails collection** with
-  three errors: the untracked working copy under
-  `laplace/physics_of_all_v0.2_update/tests/` has colliding test basenames and
-  a stale `__pycache__`, and the repository ships no `testpaths` configuration.
-- `output/pdf/` is gitignored, so the delivered PDF is **not** in version
-  control; `make.py pdf` writes `paper/paper.pdf` instead. The two paths have
-  distinct roles.
-- The `certified` CI job references `tests/test_one_loop_verifier.py`, and the
-  documented QA command references `reproducibility/canonical_pdf_qa.py`.
-  Both files are currently **untracked**; they must enter the index in the same
-  commit as the workflow or that job fails at collection.
+## Errors found and corrected, on the record
 
-Full per-artefact index of the last run: [`output/README.md`](output/README.md).
-Correction details and remaining research obligations:
-[`reports/AUDIT_REMEDIATION_2026-09-23.md`](reports/AUDIT_REMEDIATION_2026-09-23.md).
-Independent re-verification record and findings (pt-BR):
-[`reports/VERIFICATION_CLAUDE_2026-09-23.md`](reports/VERIFICATION_CLAUDE_2026-09-23.md).
+Kept deliberately, because a repository that only shows successes is not
+evidence of anything.
 
-## Known limitations and open problems
-
-- **H3 is unproved beyond leading order.** Its relation to reflection
-  positivity is the core question of stage E2.
-- **In full QED, massless multi-photon cuts remove the gap (H2).** The bound
-  then correctly collapses to zero.
-- **Finite-precision, finite-window data give no uniform strictly positive
-  lower bound on M*** without a minimum-weight assumption or other input
-  (Theorem H). The trivial M* ≥ 0 remains; exact interval data are a different
-  identifiability question.
-- **Test gaps.** Noisy-data recovery (L), noisy differentiation (M) and blind
-  recovery (N) are not yet implemented. Randomised perturbation trials in
-  `interval_bounds.py` are now labelled `CHECKED`, not certified; moving that
-  verification into exact rational arithmetic (the rest of E4.2) is open.
+- Three sibling modules emitted spectral bounds with **no gate at all**,
+  including a second function also named `hankel_bound` on the certification
+  path. Fixed by extracting `moment_conditions.py`.
+- The verifier bound what was present, not that nothing was missing: dropping a
+  comparison row *with its counter* passed every assertion. Now the table must
+  be a full cartesian product and the certificate indices a bijection.
+- H3 was identified with the **general** Stieltjes class, which admits an
+  additive constant the canonical H3 excludes. Corrected to a three-regime
+  statement.
+- The spectral measure was claimed to stay inside the input support. **False.**
+  The ~10⁻⁸ agreement attributed to quadrature was an omitted atom; including it
+  improved the reconstruction by four orders of magnitude.
+- The atom finder reported "no atom" at small coupling — asserting absence
+  against a theorem — because the edge distance shrinks exponentially. It now
+  solves in log of the edge distance and reports `UNRESOLVED` rather than
+  absence.
+- A resonance on the unphysical sheet was claimed from an argument that only
+  excluded a real zero. Retracted; the fate of that pole is undetermined.
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). Please cite the paper, not this
-repository, once it is public.
+See [`CITATION.cff`](CITATION.cff). Please cite the paper, not this repository,
+once it is public.
 
 ## License
 
-Code: MIT (see `LICENSE`). The manuscript text and figures are © the author;
-the license for the paper will be set at submission.
+Code: MIT ([`LICENSE`](LICENSE)). The manuscript text and figures are © the
+author; the license for the paper will be set at submission.
