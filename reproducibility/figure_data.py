@@ -144,6 +144,13 @@ def main() -> None:
         assert abs(sm["a3_rescaled"] + 0.4715) < 1e-4
         assert abs(sm["detH0"] + 0.0249) < 1e-4
         assert abs(sm["detH0_rescaled"] + 0.1839) < 1e-4
+        # Added audit counterexample: positive H0 but indefinite H1.
+        # det(H1-lambda H0) = .855 lambda^2 - 1.341 lambda - .09.
+        a0, a1, a2, a3 = 1.999, 2.99, 4.9, 8.0
+        assert abs(a0*a2-a1*a1-0.855) < 1e-12
+        assert abs(a1*a3-a2*a2+0.09) < 1e-12
+        invalid_bound = (1.341-math.sqrt(1.341**2+4*0.855*0.09))/(2*0.855)
+        assert abs(invalid_bound+0.0644645) < 1e-7
         big = dirac_gamma(np.array([80.0]))[0]
         assert abs(80.0 * (big - 2.0) - dirac_series(np.array([80.0]))[0]) < 1e-4
         print("all quoted values reproduced")

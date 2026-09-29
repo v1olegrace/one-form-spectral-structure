@@ -19,9 +19,10 @@ Design rules
     quadrature tolerance is then met with no relative accuracy whatsoever.
     Every model therefore returns ``exp(+r*edge) * a_n(r)`` internally and the
     scale is reinstated only in ratios, where it cancels exactly.
-3.  Models flagged ``positive = False`` are *supposed* to break the pipeline.
-    They exist so the positivity gate can be shown to fire.  A model that
-    yields a plausible ``M_star`` here is a FATAL finding, not a success.
+3.  Models flagged ``positive = False`` are deliberate counterexamples.
+    The gate never reads that flag or the ground-truth edge. Some signed
+    measures pass finite necessary conditions; the suite must distinguish
+    that limitation from a missed violation of a condition it actually tests.
 
 Nothing in this module is an interval certificate.  ``mp.quad`` carries no
 rigorous error bound; results are CHECKED, not CERTIFIED.
@@ -234,9 +235,10 @@ def build_models():
         branches=[(3.0, power_density(3.0, 1.0, 1.5), 1.5)],
         M_star=2.0,
         note="inf supp nu = 2 exactly, but the dominant spectrum sits at 3. "
-             "Theorem H predicts no uniform lower bound: the tomography must "
-             "report ~3 in any finite window and only reach 2 past the "
-             "crossover radius. Recovering 2 at small r would be the bug.",
+             "Gamma and the low-order pencils tested at moderate r stay near 3. "
+             "Theorem H excludes uniform finite-precision recovery without "
+             "extra information; it does not forbid recovery with sufficiently "
+             "precise data, higher order or a correct parametric model.",
     )
 
     # ---- CRUEL TEST 2 ----------------------------------------------------

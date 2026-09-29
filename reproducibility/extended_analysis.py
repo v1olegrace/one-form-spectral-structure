@@ -11,19 +11,24 @@ import hashlib
 import json
 import math
 import platform
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+plt.rcParams['svg.hashsalt'] = 'physics-of-all'
 import mpmath as mp
 import numpy as np
 import scipy
 from scipy.integrate import quad
 import sympy as sy
 
-from analysis import dirac_moment
+from analysis import dirac_moment, save_svg
 from laplace_geometry import scaled_moment, Gamma
+from moment_conditions import mass_from_log_ratio, moment_gate
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'output/data'
@@ -38,13 +43,34 @@ def check(name, condition, detail=None):
 
 
 def pencil(b, K):
-    c0 = mp.matrix([[b[i+j] for j in range(K+1)] for i in range(K+1)])
-    c1 = mp.matrix([[b[i+j+1] for j in range(K+1)] for i in range(K+1)])
+    """Sampled Hausdorff pencil (C_1, C_0) in y = e^{-hx}.
+
+    The shared finite necessary conditions run on the 2K+2 samples this pencil
+    actually consumes, so an unresolved pencil is refused rather than divided
+    by.  The largest eigenvalue is returned; it is an average of y over a
+    positive measure and must be handed to ``mass_from_log_ratio``.
+    """
+    a = list(b[:2*K+2])
+    if len(a) != 2*K+2:
+        raise ValueError("pencil requires exactly 2K+2 samples")
+    ok, reason, diag = moment_gate(a, strict_shift=0)
+    if not ok:
+        raise ValueError(f"No bound: {reason}")
+    c0 = mp.matrix([[a[i+j] for j in range(K+1)] for i in range(K+1)])
+    c1 = mp.matrix([[a[i+j+1] for j in range(K+1)] for i in range(K+1)])
     inv = mp.inverse(mp.cholesky(c0))
     s = inv*c1*inv.T
     eigenvalues, eigenvectors = mp.eigsy((s+s.T)/2)
     index = K
-    return eigenvalues[index], inv.T*eigenvectors[:, index], c0, c1
+    return eigenvalues[index], inv.T*eigenvectors[:, index], c0, c1, diag
+
+
+def _optional_mass(ratio, h, what):
+    """Return the mass bound, or None when the domain guard refuses the ratio."""
+    try:
+        return mass_from_log_ratio(ratio, h, what=what)
+    except ValueError:
+        return None
 
 
 def symbolic_checks():
@@ -107,8 +133,10 @@ def sampled_checks():
         b=[mp.exp(-2*j*h)*scaled_moment(0,r+j*h)/base for j in range(12)]
         previous=mp.inf
         for K in range(6):
-            L,v,c0,c1=pencil(b,K)
-            bound=-mp.log(L)/h
+            L,v,c0,c1,diag=pencil(b,K)
+            bound=mass_from_log_ratio(L,h,what=f'sampled pencil eigenvalue K={K}')
+            check(f'Finite moment conditions on the samples r={rs} h={hs} K={K}',
+                  diag['status']=='CHECKED_COMPATIBLE', diag['status'])
             check(f'Sampled bound and nested spaces r={rs} h={hs} K={K}',
                   bound>=2-mp.mpf('1e-40') and bound<=previous+mp.mpf('1e-40'))
             if K==0:
@@ -123,19 +151,21 @@ def sampled_checks():
                     e=[sum(abs(v[i]*v[j])*eps[i+j+a] for i in range(K+1) for j in range(K+1)) for a in range(2)]
                     numerator=(v.T*c1*v)[0]-e[1]
                     denominator=(v.T*c0*v)[0]+e[0]
-                    lower=numerator/denominator if numerator>0 else None
-                    safe=-mp.log(lower)/h if lower is not None else None
+                    lower=numerator/denominator if numerator>0 and denominator>0 else None
+                    safe=(_optional_mass(lower,h,f'robust envelope ratio K={K}')
+                          if lower is not None else None)
                     check(f'Robust envelope or explicit no-bound eps={frac} K={K}',
                           safe is None or (safe>=bound and safe>=2))
                     robust.append({'K':K,'relative_absolute_envelope':frac,
                                    'nominal':float(bound),'robust':float(safe) if safe is not None else None,
-                                   'status':'finite' if safe is not None else 'no_positive_numerator'})
+                                   'status':'finite' if safe is not None else 'refused_no_valid_ratio'})
     # Exact finite support: the K=1 pencil resolves two atoms.
     h=mp.mpf('0.4')
     masses=[mp.mpf('0.7'),mp.mpf('2.3')]
     b=[mp.mpf('.02')*mp.exp(-h*masses[0]*j)+mp.mpf('.98')*mp.exp(-h*masses[1]*j) for j in range(4)]
-    L,_,_,_=pencil(b,1)
-    check('Two-atom finite-rank recovery K=1', abs(-mp.log(L)/h-masses[0])<mp.mpf('1e-40'))
+    L,_,_,_,_=pencil(b,1)
+    check('Two-atom finite-rank recovery K=1',
+          abs(mass_from_log_ratio(L,h,what='two-atom pencil')-masses[0])<mp.mpf('1e-40'))
     return rows,robust
 
 
@@ -192,7 +222,7 @@ def write_outputs(results):
     ax.axhline(2,color='#8b2f3f',linestyle='--',label='Limiar do benchmark: 2')
     ax.set(xlabel='Ordem K',ylabel='Limite superior para M* (m=1)',xticks=range(6))
     ax.legend();ax.grid(alpha=.15)
-    fig.savefig(FIG/'sampled_hierarchy.png',dpi=200);fig.savefig(FIG/'sampled_hierarchy.svg');plt.close(fig)
+    fig.savefig(FIG/'sampled_hierarchy.png',dpi=200);save_svg(fig,FIG/'sampled_hierarchy.svg');plt.close(fig)
     t=np.linspace(0,20,600)
     hidden=results['hidden']
     fig,ax=plt.subplots(figsize=(7.2,4.1),layout='constrained')
@@ -203,7 +233,7 @@ def write_outputs(results):
     ax.axhline(hidden['mu'],color='#8b2f3f',linestyle='--',label='Borda verdadeira = 0,4')
     ax.set(xlabel='Raio após normalização t',ylabel='Derivada logarítmica do perfil')
     ax.legend();ax.grid(alpha=.15)
-    fig.savefig(FIG/'hidden_threshold.png',dpi=200);fig.savefig(FIG/'hidden_threshold.svg');plt.close(fig)
+    fig.savefig(FIG/'hidden_threshold.png',dpi=200);save_svg(fig,FIG/'hidden_threshold.svg');plt.close(fig)
     lines=['### Hierarquia de amostras: dados sem ruído\n',
            '| $r$ | $h$ | $K$ | Amostras | Limite $\\mathcal B_K$ | Excesso |',
            '|---:|---:|---:|---:|---:|---:|']

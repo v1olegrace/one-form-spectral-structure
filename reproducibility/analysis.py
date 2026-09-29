@@ -12,11 +12,16 @@ from __future__ import annotations
 import csv
 import json
 import math
+import sys
 from pathlib import Path
 
 import matplotlib.pyplot as plt
+import mpmath as mp
 import numpy as np
 from scipy.linalg import eigh
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from moment_conditions import conditioning_digits, moment_gate   # noqa: E402
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,6 +29,14 @@ DATA_DIR = ROOT / "output" / "data"
 FIGURE_DIR = ROOT / "output" / "figures"
 SEED = 20260910
 N_DRAWS = 100_000
+plt.rcParams['svg.hashsalt'] = 'physics-of-all'
+
+
+def save_svg(fig, path):
+    """Stable SVG metadata/IDs and whitespace for reviewable regeneration."""
+    fig.savefig(path, metadata={"Date": None})
+    path.write_text(''.join(line.rstrip() + '\n' for line in
+                            path.read_text(encoding='utf-8').splitlines()), encoding='utf-8')
 
 
 def beta(a: float, b: float) -> float:
@@ -57,11 +70,23 @@ def exact_ratio(n: int, mass: float = 1.0) -> float:
     )
 
 
-def localizing_bound(n0: int, order: int, mass: float = 1.0) -> float:
-    """Return min generalized eigenvalue of H0 v = lambda H1 v.
+def dirac_moment_mp(n: int, mass=1, charge=1):
+    """Extended-precision c_n, same closed form as ``dirac_moment``."""
 
-    H0[i,j] = c_(n0+i+j), H1[i,j] = c_(n0+i+j+1).  Positivity of
-    H0 - s0 H1 implies s0 <= lambda_min(H0,H1).
+    if n < 1:
+        raise ValueError("n must be at least 1")
+    n = int(n)
+    mass, charge = mp.mpf(mass), mp.mpf(charge)
+    half3 = mp.mpf(3) / 2
+    integral = mp.beta(n, half3) + mp.beta(n + 1, half3) / 2
+    return charge**2 * integral / (12 * mp.pi**2 * (4 * mass**2) ** n)
+
+
+def localizing_bound_float64(n0: int, order: int, mass: float = 1.0) -> float:
+    """The former double-precision route, kept only to measure its error.
+
+    Retained so that the claim "float64 is unsound for this pencil" is a
+    measured statement in ``localizing_bounds.csv`` rather than an assertion.
     """
 
     idx = np.arange(order + 1)
@@ -81,6 +106,51 @@ def localizing_bound(n0: int, order: int, mass: float = 1.0) -> float:
     h1_scaled = h1 / np.outer(scale, scale)
     eigenvalues = eigh(h0_scaled, h1_scaled, eigvals_only=True)
     return float(np.min(eigenvalues))
+
+
+def localizing_bound(n0: int, order: int, mass: float = 1.0, *, dps: int = 120,
+                     diagnostics: bool = False):
+    """Return min generalized eigenvalue of H0 v = lambda H1 v.
+
+    H0[i,j] = c_(n0+i+j), H1[i,j] = c_(n0+i+j+1).  Positivity of
+    H0 - s0 H1 implies s0 <= lambda_min(H0,H1).
+
+    PENCIL ORIENTATION.  These are Stieltjes moments with negative powers, so
+    H1 is the DENOMINATOR matrix and the one that must be resolvably positive
+    definite -- the opposite of the Laplace pencil (H_1, H_0) used in
+    ``laplace_geometry`` and ``falsification_suite``.  ``strict_shift=1`` tells
+    the shared gate which matrix to test strictly; passing the default would
+    guard the wrong one.  The bound is computed in extended precision because
+    the pencil needs far more digits than float64 provides; the double
+    precision value is returned as a diagnostic, never as the result.
+    """
+
+    with mp.workdps(dps):
+        c = [dirac_moment_mp(n0 + k, mass) for k in range(2 * order + 2)]
+        ok, reason, diag = moment_gate(list(c), strict_shift=1)
+        if not ok:
+            raise ValueError(f"No bound: {reason}")
+        n = order + 1
+        h0 = mp.matrix([[c[i + j] for j in range(n)] for i in range(n)])
+        h1 = mp.matrix([[c[i + j + 1] for j in range(n)] for i in range(n)])
+        lo, hi, digits = conditioning_digits(h1)
+        inv = mp.inverse(mp.cholesky(h1))
+        s = inv * h0 * inv.T
+        bound = min(mp.eigsy((s + s.T) / 2, eigvals_only=True))
+        if not mp.isfinite(bound) or bound <= 0:
+            raise ValueError("No bound: nonpositive or nonfinite eigenvalue; "
+                             "precision unresolved")
+        result = float(bound)
+    if not diagnostics:
+        return result
+    naive = localizing_bound_float64(n0, order, mass)
+    return result, {
+        "gate_status": diag["status"],
+        "denominator_digits_required": digits,
+        "working_dps": dps,
+        "float64_value": naive,
+        "float64_relative_difference": abs(naive / result - 1.0),
+    }
 
 
 def monte_carlo_ratio(n: int = 20, relative_sigma: float = 0.005) -> dict[str, float]:
@@ -157,13 +227,17 @@ def write_outputs() -> None:
 
     localizing_rows = []
     for order in range(0, 6):
-        bound = localizing_bound(n0=1, order=order)
+        bound, info = localizing_bound(n0=1, order=order, diagnostics=True)
         localizing_rows.append(
             {
                 "matrix_order_K": order,
                 "dimension": order + 1,
                 "upper_bound_s0": bound,
                 "bound_over_true_s0": bound / 4.0,
+                "gate_status": info["gate_status"],
+                "denominator_digits_required": info["denominator_digits_required"],
+                "working_dps": info["working_dps"],
+                "float64_relative_difference": info["float64_relative_difference"],
             }
         )
 
@@ -191,7 +265,7 @@ def write_outputs() -> None:
     ax.grid(alpha=0.22)
     ax.legend(frameon=False)
     fig.savefig(FIGURE_DIR / "dirac_ratio_convergence.png", dpi=220)
-    fig.savefig(FIGURE_DIR / "dirac_ratio_convergence.svg")
+    save_svg(fig, FIGURE_DIR / "dirac_ratio_convergence.svg")
     plt.close(fig)
 
     orders = np.array([row["matrix_order_K"] for row in localizing_rows])
@@ -205,7 +279,7 @@ def write_outputs() -> None:
     ax.grid(alpha=0.22)
     ax.legend(frameon=False)
     fig.savefig(FIGURE_DIR / "localizing_bound_convergence.png", dpi=220)
-    fig.savefig(FIGURE_DIR / "localizing_bound_convergence.svg")
+    save_svg(fig, FIGURE_DIR / "localizing_bound_convergence.svg")
     plt.close(fig)
 
     checks = {
@@ -218,8 +292,18 @@ def write_outputs() -> None:
         "all_ratio_bounds_above_threshold": bool(
             np.all(np.array([row["ratio_closed_form"] for row in ratio_rows]) >= 4.0)
         ),
-        "localizing_bounds_monotone_nonincreasing": bool(np.all(np.diff(bounds) <= 1e-10)),
-        "all_localizing_bounds_above_threshold": bool(np.all(bounds >= 1.0 - 1e-10)),
+        # Extended precision, so these no longer need a 1e-10 slack.
+        "localizing_bounds_monotone_nonincreasing": bool(np.all(np.diff(bounds) <= 0.0)),
+        "all_localizing_bounds_above_threshold": bool(np.all(bounds >= 1.0)),
+        "localizing_gate_all_compatible": all(
+            row["gate_status"] == "CHECKED_COMPATIBLE" for row in localizing_rows
+        ),
+        "localizing_max_denominator_digits_required": max(
+            row["denominator_digits_required"] for row in localizing_rows
+        ),
+        "localizing_worst_float64_relative_difference": max(
+            row["float64_relative_difference"] for row in localizing_rows
+        ),
     }
     (DATA_DIR / "verification_checks.json").write_text(
         json.dumps(checks, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

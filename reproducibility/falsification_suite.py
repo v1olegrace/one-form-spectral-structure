@@ -14,11 +14,16 @@ The positivity gate
 -------------------
 ``positivity_gate`` runs BEFORE any bound is reported.  It checks
 
-  G1  a_n(r) = (-1)^n Phi^(n)(r) > 0 for every moment order used, and
-  G2  H_0 positive definite (Cholesky succeeds).
+  G1  finite real moments, a_0 > 0 and a_n >= 0;
+  G2  H_0 numerically positive definite at the requested order;
+  G3  H_1 numerically positive semidefinite (support in [0, infinity)).
 
-If either fails the suite refuses to emit ``B_K``.  Returning a plausible
-``M_star`` for model J would be a FATAL finding about the whole programme.
+The implementation lives in ``moment_conditions.py`` and is shared with every
+other module that emits a bound, so that the filter is not a local property of
+this script.  Failure or unresolved rank/precision refuses a bound at that
+order. Passing means compatibility with these FINITE necessary conditions, not
+positivity of the underlying measure or a proof of H3. Singular positive atomic
+measures need a lower order or rank reduction; singularity does not refute H3.
 
 Nothing here is an interval certificate; see ``interval_bounds.py``.
 """
@@ -33,6 +38,8 @@ import mpmath as mp
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from spectral_models import build_models          # noqa: E402
+from moment_conditions import (moment_gate as _moment_gate,   # noqa: E402
+                               validate_request as _validate_request)
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "output" / "data"
@@ -52,35 +59,23 @@ def record(test, status, detail, prediction=None, observed=None):
 # ---------------------------------------------------------------------------
 
 def positivity_gate(model, r, n_max):
-    """Return (passed, reason, diagnostics). Runs before any bound is reported."""
-    diag = {}
-    a = [model.scaled_a(n, r) for n in range(n_max + 1)]
-    diag["moments"] = [mp.nstr(v, 8) for v in a]
-
-    for n, v in enumerate(a):
-        if v <= 0:
-            return False, f"G1 violated: a_{n}(r={r}) = {mp.nstr(v, 6)} <= 0", diag
-
-    K = (n_max - 1) // 2
-    if K >= 0:
-        H0 = mp.matrix(K + 1, K + 1)
-        for i in range(K + 1):
-            for j in range(K + 1):
-                H0[i, j] = a[i + j]
-        try:
-            mp.cholesky(H0)
-        except (ValueError, ZeroDivisionError) as exc:
-            return False, f"G2 violated: H_0 not positive definite at K={K} ({type(exc).__name__})", diag
-        det = mp.det(H0)
-        diag["det_H0"] = mp.nstr(det, 8)
-        if det <= 0:
-            return False, f"G2 violated: det H_0 = {mp.nstr(det, 6)} <= 0 at K={K}", diag
-    return True, "gate passed", diag
+    """Return finite compatibility and precision diagnostics; not an H3 proof."""
+    r = _validate_request(r, n_max, "n_max")
+    return _moment_gate([model.scaled_a(n, r) for n in range(n_max + 1)])
 
 
 def hankel_bound(model, r, K):
-    """B_K(r) = lambda_min(H_1, H_0). Caller must have passed the gate."""
+    """Conditional B_K, with mandatory checks on the actual moments used.
+
+    Even after these checks, the bound is conditional on a positive measure.
+    """
+    r = _validate_request(r, K, "K")
     a = model.moments(r, 2 * K + 2)
+    if len(a) != 2 * K + 2:
+        raise ValueError("model returned the wrong number of moments")
+    ok, reason, _ = _moment_gate(a)
+    if not ok:
+        raise ValueError(f"No bound: {reason}")
     H0 = mp.matrix(K + 1, K + 1)
     H1 = mp.matrix(K + 1, K + 1)
     for i in range(K + 1):
@@ -89,7 +84,10 @@ def hankel_bound(model, r, K):
             H1[i, j] = a[i + j + 1]
     Linv = mp.inverse(mp.cholesky(H0))
     S = Linv * H1 * Linv.T
-    return min(mp.eigsy((S + S.T) / 2, eigvals_only=True))
+    bound = min(mp.eigsy((S + S.T) / 2, eigvals_only=True))
+    if not mp.isfinite(bound) or bound < 0:
+        raise ValueError("No bound: negative or nonfinite eigenvalue; precision unresolved")
+    return bound
 
 
 # ---------------------------------------------------------------------------
@@ -130,6 +128,43 @@ def test_signed_measure(models):
            "Phi>0 and -Phi'>0 both hold, so a screening-only test is fooled; "
            "only complete monotonicity at higher order detects the violation",
            "screening check passes (is insufficient)", str(bool(screening_ok)))
+
+
+def test_finite_gate_limits(models):
+    """Discriminate the missing H1 check and finite-order false assurance."""
+    from spectral_models import Model
+
+    # Tilted weights at r=1 are exactly 1, 1, -1/1000 (up to arithmetic).
+    m = Model(name="J2 localizer", description="signed localizer counterexample",
+              atoms=[(1, 1), (mp.exp(1), 2), (-mp.exp(9)/1000, 10)],
+              M_star=1, positive=False)
+    ok, reason, _ = positivity_gate(m, 1, 3)
+    record("J2 positive moments and H0, indefinite H1",
+           "PASS" if not ok and "G3 violated" in reason else "FATAL",
+           reason, "H1 determinant -0.09; refuse bound", str(ok))
+    refused = False
+    try:
+        hankel_bound(m, 1, 1)
+    except ValueError:
+        refused = True
+    record("J2 direct bound call cannot bypass gate", "PASS" if refused else "FATAL",
+           "The bound function checks its own moment data.", "raises ValueError", str(refused))
+
+    hidden = Model(name="J3 hidden negative weight", description="finite-order limitation",
+                   atoms=[(1, 1), (1, 2), (1, 3), ("-0.000001", 4)],
+                   M_star=1, positive=False)
+    low, _, diag = positivity_gate(hidden, 1, 5)
+    high, _, _ = positivity_gate(hidden, 1, 7)
+    record("J3 finite compatibility is not spectral positivity",
+           "PASS" if low and not high and diag["status"] == "CHECKED_COMPATIBLE" else "FAIL",
+           "A signed measure passes through order 5 but is rejected at order 7; "
+           "passing finite tests must never be called an H3 certificate.",
+           "pass at 5, refuse at 7", f"order5={low}, order7={high}")
+
+    ok, reason, diag = positivity_gate(models["A_single_atom"], 1, 3)
+    record("A singular positive pencil is unresolved, not a positivity violation",
+           "PASS" if not ok and diag["status"] == "UNRESOLVED_RANK_OR_PRECISION" else "FAIL",
+           reason, "reduce order or rank; H3 not refuted", diag["status"])
 
 
 # ---------------------------------------------------------------------------
@@ -318,12 +353,14 @@ def test_multi_and_conditioning(models):
 
 
 def main():
+    RESULTS.clear()
     mp.mp.dps = DPS
     print(f"Adversarial falsification suite (dps={DPS})")
     models = build_models()
 
     print("\n== CRUEL TEST J: signed measure must be refused ==")
     test_signed_measure(models)
+    test_finite_gate_limits(models)
 
     print("\n== CRUEL TEST H: tiny weight at the true threshold ==")
     test_tiny_weight(models)
@@ -355,8 +392,9 @@ def main():
     if failed:
         print("FAILED:", [r["test"] for r in failed])
         return 1
-    print("No FATAL finding: the gate refuses signed measures, and the tiny-weight "
-          "degradation is a stated limitation rather than a violated theorem.")
+    print("No FATAL finding in the specified cases. Finite moment compatibility "
+          "does not establish spectral positivity or H3; rank and tiny-weight "
+          "limitations remain explicit.")
     return 0
 
 

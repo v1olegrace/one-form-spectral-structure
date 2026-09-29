@@ -25,7 +25,7 @@ This is the opposite pencil to analysis.py's localizing_bound(), which handles
 s_0 <= lambda_min(H_0, H_1).  Do not interchange the two routines.
 
 Usage:  python reproducibility/laplace_geometry.py
-Exit code is non-zero if any certified assertion fails.
+Exit code is non-zero if any numerical check fails.
 """
 
 from __future__ import annotations
@@ -35,6 +35,9 @@ import sys
 from pathlib import Path
 
 import mpmath as mp
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from moment_conditions import moment_gate, validate_request   # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "output" / "data"
@@ -51,7 +54,7 @@ FAILURES: list[str] = []
 
 
 def check(name: str, ok: bool, detail: str = "") -> bool:
-    """Record a certified assertion."""
+    """Record a numerical check, without an interval error certificate."""
     status = "PASS" if ok else "FAIL"
     print(f"  [{status}] {name}" + (f"  {detail}" if detail else ""))
     if not ok:
@@ -153,20 +156,35 @@ def Gamma(r):
     return scaled_moment(1, r) / scaled_moment(0, r)
 
 
-def hankel_bound(r, K):
-    """B_K(r) = lambda_min(H_1, H_0), the pencil for POSITIVE-power moments."""
+def hankel_bound(r, K, *, diagnostics=False):
+    """B_K(r) = lambda_min(H_1, H_0), the pencil for POSITIVE-power moments.
+
+    The finite necessary conditions of ``moment_conditions.moment_gate`` are
+    checked on the moments this routine actually uses, exactly as in
+    ``falsification_suite.hankel_bound``.  A refusal raises instead of emitting
+    a number: an unresolved pencil is not a threshold.  Even after the checks
+    the bound remains conditional on a positive measure, and it is CHECKED
+    rather than CERTIFIED because ``mp.quad`` carries no error enclosure.
+    """
+    r = validate_request(r, K, "K")
     a = [scaled_moment(n, r) for n in range(2 * K + 2)]
+    ok, reason, diag = moment_gate(a, strict_shift=0)
+    if not ok:
+        raise ValueError(f"No bound: {reason}")
     H0 = mp.matrix(K + 1, K + 1)
     H1 = mp.matrix(K + 1, K + 1)
     for i in range(K + 1):
         for j in range(K + 1):
             H0[i, j] = a[i + j]
             H1[i, j] = a[i + j + 1]
-    # H0 is positive definite (Thm E-i), so reduce the pencil by Cholesky.
+    # H0 passed G2 above (Thm E-i), so reduce the pencil by Cholesky.
     L_inv = mp.inverse(mp.cholesky(H0))
     S = L_inv * H1 * L_inv.T
     S = (S + S.T) / 2                      # symmetrize against round-off
-    return min(mp.eigsy(S, eigvals_only=True))
+    bound = min(mp.eigsy(S, eigvals_only=True))
+    if not mp.isfinite(bound) or bound < 0:
+        raise ValueError("No bound: negative or nonfinite eigenvalue; precision unresolved")
+    return (bound, diag) if diagnostics else bound
 
 
 # --------------------------------------------------------------------------
@@ -293,9 +311,14 @@ def certify_hankel() -> dict:
         r = mp.mpf(mr)
         rows, prev = [], None
         for K in range(6):
-            B = hankel_bound(r, K)
+            B, diag = hankel_bound(r, K, diagnostics=True)
             rows.append({"K": K, "B_K_over_m": mp.nstr(B / M, 10),
-                         "excess_percent": mp.nstr((B / M_STAR - 1) * 100, 6)})
+                         "excess_percent": mp.nstr((B / M_STAR - 1) * 100, 6),
+                         "gate_status": diag["status"],
+                         "min_eig_H0": diag["min_eig_H0"],
+                         "min_eig_H1": diag["min_eig_H1"]})
+            check(f"E  finite moment conditions hold at mr={mr}, K={K}",
+                  diag["status"] == "CHECKED_COMPATIBLE", diag["status"])
             check(f"E(ii)  B_{K}(mr={mr}) >= M_* = 2m", B >= M_STAR,
                   f"B_{K}/m={mp.nstr(B / M, 10)}")
             if prev is not None:
@@ -316,6 +339,8 @@ def main() -> int:
     print(f"working precision {WORKING_DPS} dps, Hankel precision {HANKEL_DPS} dps")
 
     results = {
+        "status": "CHECKED",
+        "scope": "multiprecision quadrature and identity checks; no interval error enclosure",
         "benchmark": {"m": 1, "q": 1, "g_squared": 1, "true_M_star": 2,
                       "working_dps": WORKING_DPS, "hankel_dps": HANKEL_DPS},
         "theorem_A_identity_chain": certify_identity_chain(),
@@ -333,9 +358,9 @@ def main() -> int:
     print(f"\nWrote {target.relative_to(ROOT)}")
 
     if FAILURES:
-        print(f"\n{len(FAILURES)} CERTIFICATION FAILURE(S): {FAILURES}")
+        print(f"\n{len(FAILURES)} NUMERICAL CHECK FAILURE(S): {FAILURES}")
         return 1
-    print("\nAll certified assertions passed.")
+    print("\nAll numerical checks passed (CHECKED, not interval-certified).")
     return 0
 
 

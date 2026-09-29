@@ -14,7 +14,7 @@ import mpmath as mp
 import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "reproducibility"))
-from spectral_models import build_models, dirac_density          # noqa: E402
+from spectral_models import Model, build_models, dirac_density   # noqa: E402
 from falsification_suite import positivity_gate, hankel_bound     # noqa: E402
 
 mp.mp.dps = 50
@@ -123,7 +123,7 @@ def test_dirac_two_term_edge_law():
 
 
 # --------------------------------------------------------------------------
-# The positivity gate must refuse H3 violations
+# Finite necessary conditions: discriminating counterexamples and refusals
 # --------------------------------------------------------------------------
 
 def test_gate_refuses_signed_measure():
@@ -145,6 +145,84 @@ def test_screening_alone_does_not_detect_the_violation():
     r = mp.mpf(1)
     assert m.scaled_a(0, r) > 0
     assert m.scaled_a(1, r) > 0
+
+
+def test_localizer_rejects_signed_measure_that_passes_old_gate():
+    with mp.workdps(60):
+        m = Model("signed", "H1 counterexample",
+                  atoms=[(1, 1), (mp.exp(1), 2), (-mp.exp(9)/1000, 10)],
+                  M_star=1, positive=False)
+        a = m.moments(1, 4)
+        assert all(v > 0 for v in a)
+        assert a[0]*a[2]-a[1]**2 > 0
+        assert abs(a[1]*a[3]-a[2]**2 + mp.mpf("0.09")) < mp.mpf("1e-50")
+        ok, reason, diag = positivity_gate(m, 1, 3)
+        assert not ok and "G3 violated" in reason
+        assert diag["status"] == "CHECKED_INCOMPATIBLE"
+        with pytest.raises(ValueError, match="G3 violated"):
+            hankel_bound(m, 1, 1)
+
+
+def test_finite_pass_does_not_certify_signed_measure_is_positive():
+    m = Model("hidden", "negative atom invisible at low order",
+              atoms=[(1, 1), (1, 2), (1, 3), ("-0.000001", 4)],
+              M_star=1, positive=False)
+    ok, _, diag = positivity_gate(m, 1, 5)
+    assert ok and diag["status"] == "CHECKED_COMPATIBLE"
+    assert not positivity_gate(m, 1, 7)[0]
+
+
+def test_singular_positive_measure_needs_lower_order_not_refutation():
+    m = MODELS["A_single_atom"]
+    ok, _, diag = positivity_gate(m, 1, 3)
+    assert not ok and diag["status"] == "UNRESOLVED_RANK_OR_PRECISION"
+    with pytest.raises(ValueError, match="unresolved"):
+        hankel_bound(m, 1, 1)
+    assert abs(hankel_bound(m, 1, 0)-3) < mp.mpf("1e-40")
+
+
+def test_atom_at_zero_has_valid_semidefinite_localizer():
+    m = Model("zero", "gapless atom", atoms=[(1, 0)], M_star=0)
+    assert positivity_gate(m, 1, 1)[0]
+    assert hankel_bound(m, 1, 0) == 0
+
+
+@pytest.mark.parametrize("value", [mp.nan, mp.inf, -mp.inf, mp.mpc(1, 1)])
+def test_nonfinite_or_complex_moments_refused(value):
+    class BadData:
+        def scaled_a(self, n, r):
+            return value if n == 1 else mp.mpf(1)
+
+        def moments(self, r, count):
+            return [self.scaled_a(n, r) for n in range(count)]
+    assert not positivity_gate(BadData(), 1, 1)[0]
+    with pytest.raises(ValueError, match="finite and real"):
+        hankel_bound(BadData(), 1, 0)
+
+
+@pytest.mark.parametrize("radius,order", [(0, 1), (-1, 1), (mp.inf, 1),
+                                         (1, -1), (1, 1.5), (1, True)])
+def test_gate_input_domain(radius, order):
+    with pytest.raises(ValueError):
+        positivity_gate(MODELS["A_single_atom"], radius, order)
+
+
+def test_even_order_checks_last_available_moment():
+    m = MODELS["B_two_atoms"]
+    assert positivity_gate(m, 1, 3)[0]
+    # H0 at K=2 is singular; ignoring a4 would incorrectly pass this request.
+    ok, _, diag = positivity_gate(m, 1, 4)
+    assert not ok and diag["status"] == "UNRESOLVED_RANK_OR_PRECISION"
+
+
+def test_precision_refusal_can_be_resolved_without_changing_measure():
+    m = MODELS["I_wide_dynamic_range"]
+    with mp.workdps(60):
+        ok, _, diag = positivity_gate(m, 1, 3)
+        assert not ok and diag["status"] == "UNRESOLVED_RANK_OR_PRECISION"
+    with mp.workdps(200):
+        assert positivity_gate(m, 1, 3)[0]
+        assert abs(hankel_bound(m, 1, 1)-2) < mp.mpf("1e-100")
 
 
 # --------------------------------------------------------------------------
