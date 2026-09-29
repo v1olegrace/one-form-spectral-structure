@@ -54,14 +54,15 @@ def test_reference_converges_with_precision(k):
 
 
 # --- the measured accuracy of the production path ---------------------------
-@pytest.mark.parametrize("k,tol_d,tol_w", [(0.5, 3e-6, 5e-6), (0.1, 1e-7, 5e-6)])
+@pytest.mark.parametrize("k,tol_d,tol_w", [(0.5, 1e-13, 1e-13), (0.1, 1e-14, 1e-12)])
 def test_float64_path_accuracy_is_what_we_measured(k, tol_d, tol_w):
-    """Pins the ACTUAL accuracy against the reference, not the requested one.
+    """Pins the accuracy of the reported quantities against the reference.
 
-    These tolerances come from comparison with multiprecision arithmetic.  They
-    are far looser than the 1e-14 asked of the quadrature, and that gap is the
-    finding: QUADPACK's error estimate does not bound the error here, because
-    the integrand has a square-root branch point at the upper endpoint.
+    Measured after the edge integral moved to closed form: log10(d) to ~2e-15
+    and the weight to ~3e-15 at k = 0.5; at k = 0.1 the weight floor is ~3e-14,
+    because d = 3.3e-42 is reached through log10(d) = -41.5 and converting
+    amplifies the error by |log10 d| ln 10 ~ 95. Tolerances carry margin over
+    those values. Before the closed form both were ~2e-6.
     """
     g2 = k * ga.g2_critical(L2)
     got = ga.spectral_atom(g2, L2)
@@ -69,28 +70,40 @@ def test_float64_path_accuracy_is_what_we_measured(k, tol_d, tol_w):
     with mp.workdps(60):
         ld_ref, w_ref = mp.re(want["log10_edge_distance"]), mp.re(want["weight"])
         rel_d = abs(mp.mpf(got["log10_edge_distance"]) - ld_ref) / abs(ld_ref)
-        rel_w = abs(mp.mpf(got["weight_independent"]) - w_ref) / abs(w_ref)
+        rel_w = abs(mp.mpf(got["weight"]) - w_ref) / abs(w_ref)
         assert rel_d < tol_d, f"log10(d) off by {rel_d}"
-        assert rel_w < tol_w, f"weight off by {rel_w}"
+        assert rel_w < tol_w, f"reported weight off by {rel_w}"
+        # The quadrature route for the weight, now fed the accurate root, lands
+        # near 1e-11. The earlier 2e-6 came entirely from the root, not from
+        # this integral. Checked loosely so an improvement here is not blocked.
+        rel_q = abs(mp.mpf(got["weight_independent"]) - w_ref) / abs(w_ref)
+        assert rel_q < 1e-9, f"quadrature weight route off by {rel_q}"
 
 
-def test_the_two_float64_routes_are_not_independent():
-    """They agree far better than either is accurate.  Record why.
+def test_primary_weight_is_accurate_and_crosschecks_are_reported():
+    """The production weight now comes from the closed-form derivative.
 
-    Both consume the same located edge distance, so their agreement measures
-    consistency of two derivative formulas, not accuracy of the result.
+    History, kept because it is the point: the earlier production path found
+    the edge distance by QUADPACK on an integrand with a square-root branch
+    point, and missed it by ~1.2e-6. Two weight routes then agreed with each
+    other to 4.8e-9 and BOTH missed the multiprecision value by 2e-6, because
+    they consumed the same located root. Their agreement measured consistency,
+    not accuracy. test_quadpack_estimate_does_not_bound_the_integral_error keeps
+    the raw form of that failure; this test no longer requires it of production.
     """
     g2 = 0.5 * ga.g2_critical(L2)
     got = ga.spectral_atom(g2, L2)
+    assert got["weight_method"] == "analytic closed form"
+    assert got["status"] == "RESOLVED" and got["quadrature_ok"]
     want = ref.dirac_reference(0.5, L2, dps=50)
     with mp.workdps(60):
         w_ref = mp.re(want["weight"])
-        agreement = mp.mpf(got["weight_routes_agree_rel"])
-        accuracy = abs(mp.mpf(got["weight_independent"]) - w_ref) / abs(w_ref)
-        assert agreement < accuracy / 50, (
-            f"mutual agreement {agreement} should be much tighter than the true "
-            f"error {accuracy}; if this ever fails the routes became independent "
-            "or the float64 path became accurate, and the note must be updated")
+        rel = abs(mp.mpf(got["weight"]) - w_ref) / abs(w_ref)
+        assert rel < 1e-13, f"primary weight off by {rel}"
+        # the cross-checks are still reported, and still weaker than the primary
+        fd = abs(mp.mpf(got["weight_finite_difference"]) - w_ref) / abs(w_ref)
+        assert fd < 1e-6, f"finite-difference cross-check off by {fd}"
+        assert rel < fd, "the analytic route must beat the finite difference"
 
 
 # --- the quadrature estimate does not bound the error -----------------------

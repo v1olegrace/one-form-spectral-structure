@@ -49,7 +49,19 @@ def test_critical_finite_mass_fails_H3_through_the_constant(g2c):
     from scipy.integrate import quad
     g2 = g2c
     assert abs(ga.Z3_of(g2, L2)) < 1e-12
-    assert ga.ghost_root(g2, L2) is None, "there must be no pole at Z3 = 0"
+
+    # "No pole at Z3 = 0" is Proposition 1, an EXACT statement. The numerical
+    # path only holds an estimate of Z3 straddling zero, so it must refuse to
+    # decide the pole rather than report absence.
+    with pytest.raises(RuntimeError, match="UNRESOLVED"):
+        ga.ghost_root(g2, L2)
+    # The exact case is demonstrated separately, through an exact identity that
+    # the caller supplies and the numerical path never manufactures.
+    from rpa_kernel_conditions import classify_rpa_kernel
+    exact = classify_rpa_kernel((0, 0), hypotheses=ga._HYP, total_mass="finite",
+                                exact_critical=True, interval_kind="exact")
+    assert exact["pole_status"] == "ABSENT"
+    assert exact["status"] == "BOUNDARY_CONSTANT_FAILURE"
 
     mu, _ = quad(lambda t: ga._rho_scalar(ga.S_THR * np.exp(t)) * ga.S_THR * np.exp(t),
                  0.0, np.log(L2 / ga.S_THR), limit=400)
@@ -142,7 +154,7 @@ def test_actual_dirac_diagnostic_propagates_quadrature_uncertainty(g2c, k, statu
 # --- 7. the path actually used to produce the published numbers -------------
 @pytest.mark.parametrize("k,z3_expected,pole_expected", [
     (0.5, +0.5, None),
-    (1.0, 0.0, None),
+    (1.0, 0.0, "UNRESOLVED"),
     (1.02, -0.02, 3.718e6),
     (1.5, -0.5, 1.773e4),
     (3.0, -2.0, 2.979e2),
@@ -154,6 +166,11 @@ def test_published_table_row_reproduces(g2c, k, z3_expected, pole_expected):
     assert z3 == pytest.approx(z3_expected, abs=1e-9)
     # the identity the reviewer asked to be checked row by row
     assert z3 == pytest.approx(1.0 - g2 / g2c, abs=1e-12)
+    if pole_expected == "UNRESOLVED":
+        # numerical critical coupling: the Z3 estimate straddles zero
+        with pytest.raises(RuntimeError, match="UNRESOLVED"):
+            ga.ghost_root(g2, L2)
+        return
     root = ga.ghost_root(g2, L2)
     if pole_expected is None:
         assert root is None

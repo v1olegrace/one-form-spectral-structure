@@ -26,11 +26,12 @@ establish H3 for the gauge-invariant nonperturbative static response.
 from __future__ import annotations
 
 import sys
+import warnings
 from fractions import Fraction
 from pathlib import Path
 
 import numpy as np
-from scipy.integrate import quad
+from scipy.integrate import quad, IntegrationWarning
 from scipy.optimize import brentq
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "reproducibility"))
@@ -55,6 +56,13 @@ def _rho_scalar(s):
     if s <= S_THR:
         return 0.0
     return PREF * (1.0 + 2.0 / s) * np.sqrt(1.0 - S_THR / s)
+
+
+def _validate_model(g2, L2):
+    if (isinstance(g2, (bool, np.bool_)) or isinstance(L2, (bool, np.bool_))
+            or not np.isfinite(g2) or g2 <= 0
+            or not np.isfinite(L2) or L2 <= S_THR):
+        raise ValueError("require finite g2 > 0 and L2 > threshold")
 
 
 def Pi_infinity(L2):
@@ -84,8 +92,25 @@ def _quad(f, lo, hi, **kw):
     of the achieved accuracy, and any downstream "resolved" label is unearned.
     """
     kw.setdefault("limit", 400)
-    val, err, info, *msg = quad(f, lo, hi, full_output=1, **kw)
-    return val, err, (msg[0] if msg else None)
+    with warnings.catch_warnings(record=True) as caught:
+        warnings.simplefilter("always", IntegrationWarning)
+        val, err, info, *msg = quad(f, lo, hi, full_output=1, **kw)
+    messages = [str(w.message) for w in caught
+                if issubclass(w.category, IntegrationWarning)]
+    messages += [str(m) for m in msg if m]
+    if not np.isfinite(val) or not np.isfinite(err):
+        messages.append("Nonfinite quadrature result or error estimate")
+    return val, err, ("; ".join(dict.fromkeys(messages)) if messages else None)
+
+
+def _z3_estimate(g2, L2):
+    _validate_model(g2, L2)
+    P, err, message = _quad(lambda t: _rho_scalar(S_THR * np.exp(t)), 0.0,
+                           np.log(L2 / S_THR), epsabs=1e-13, epsrel=1e-12)
+    if not np.isfinite(P) or not np.isfinite(err):
+        raise RuntimeError("UNRESOLVED: nonfinite polarization estimate")
+    g, p, e = map(Fraction, (float(g2), float(P), float(abs(err))))
+    return (1 - g * (p + e), 1 - g * (p - e)), err, message
 
 
 def z3_interval(g2, L2):
@@ -95,10 +120,10 @@ def z3_interval(g2, L2):
     enclosure, and it is the only Z3 information any public function here is
     allowed to branch on.
     """
-    P, err, _ = _quad(lambda t: _rho_scalar(S_THR * np.exp(t)), 0.0,
-                      np.log(L2 / S_THR), epsabs=1e-13, epsrel=1e-12)
-    g, p, e = map(Fraction, (float(g2), float(P), float(abs(err))))
-    return 1 - g * (p + e), 1 - g * (p - e)
+    interval, _, message = _z3_estimate(g2, L2)
+    if message:
+        raise RuntimeError("UNRESOLVED: polarization quadrature: " + message)
+    return interval
 
 
 _HYP = RPAHypotheses(nonnegative_measure=True, nonzero_measure=True,
@@ -115,10 +140,15 @@ def regime_decision(g2, L2):
     proves absence of an atom, and an exact critical identity stays a separate
     input that this numerical path cannot supply.
     """
-    lo, hi = z3_interval(g2, L2)
+    (lo, hi), error, message = _z3_estimate(g2, L2)
     d = classify_rpa_kernel((lo, hi), hypotheses=_HYP, total_mass="finite",
                             interval_kind="estimated")
     d["z3_lo"], d["z3_hi"] = float(lo), float(hi)
+    d["quadrature_absolute_error_estimate"] = error
+    d["quadrature_messages"] = [message] if message else []
+    if message:
+        d.update(status="UNRESOLVED", h3_status="UNRESOLVED",
+                 pole_status="UNRESOLVED", reason="Polarization quadrature did not converge")
     return d
 
 
@@ -130,19 +160,8 @@ def kernel_diagnostic(g2, L2):
     propagating the reported quadrature error. It cannot make that error rigorous.
     A numerical g2_critical never asserts the exact identity Z3=0.
     """
-    if not np.isfinite(g2) or g2 <= 0 or not np.isfinite(L2) or L2 <= S_THR:
-        raise ValueError("require finite g2 > 0 and L2 > threshold")
-    P, err = Pi_infinity(L2)
-    g, p, e = map(Fraction, (float(g2), float(P), float(err)))
-    diag = classify_rpa_kernel(
-        (1 - g * (p + e), 1 - g * (p - e)),
-        hypotheses=RPAHypotheses(
-            nonnegative_measure=True, nonzero_measure=True, positive_support=True,
-            finite_inverse_moment=True, positive_coupling=True,
-            subtracted_dyson_representation=True),
-        total_mass="finite", interval_kind="estimated")
+    diag = regime_decision(g2, L2)
     diag["model"] = "one-loop Dirac density, hard spectral cutoff, RPA"
-    diag["quadrature_absolute_error_estimate"] = err
     return diag
 
 
@@ -163,10 +182,12 @@ def G(Q2, g2, L2):
 
 def ghost_root(g2, L2, hi=1e18):
     """Locate the spacelike zero of W, or return None when there is none."""
-    z3 = Z3_of(g2, L2)
-    if z3 >= 0.0:
+    decision = regime_decision(g2, L2)
+    if decision["status"] == "NO_SPACELIKE_POLE":
         return None
-    lo = 1e-6
+    if decision["status"] != "SPACELIKE_POLE_DETECTED":
+        raise RuntimeError("UNRESOLVED: cannot decide spacelike pole from a critical estimate")
+    lo = 0.0  # W(0)=1; a fixed positive lower bound can miss a small root.
     # W(0)=1>0 and W(inf)=Z3<0, so a bracket always exists when Z3<0.
     while W(hi, g2, L2) > 0 and hi < 1e300:
         hi *= 10.0
@@ -176,14 +197,23 @@ def ghost_root(g2, L2, hi=1e18):
 # --------------------------------------------------- continuum spectral density
 def W_on_cut(s, g2, L2):
     """W(Q2 -> -s - i0) = 1 + g2 s PV int rho/(sig(sig-s)) dsig + i pi g2 rho(s)."""
+    _validate_model(g2, L2)
+    if not np.isfinite(s) or s <= 0 or s in (S_THR, L2):
+        raise ValueError("require positive s away from branch endpoints")
     f = lambda sig: _rho_scalar(sig) / sig
     pv, _ = quad(f, S_THR, L2, weight='cauchy', wvar=s, limit=400,
                  epsabs=1e-12, epsrel=1e-11)
-    return complex(1.0 + g2 * s * pv, np.pi * g2 * _rho_scalar(s))
+    imag = np.pi * g2 * _rho_scalar(s) if S_THR < s < L2 else 0.0
+    return complex(1.0 + g2 * s * pv, imag)
 
 
 def density(s, g2, L2):
     """dsigma/ds = (1/pi) Im G(-s - i0).  Should be >= 0 for every coupling."""
+    _validate_model(g2, L2)
+    if not np.isfinite(s):
+        raise ValueError("s must be finite")
+    if not S_THR < s < L2:
+        return 0.0  # Continuum only; discrete atoms are handled separately.
     Wc = W_on_cut(s, g2, L2)
     Gc = g2 / ((-s) * Wc)
     return Gc.imag / np.pi
@@ -191,6 +221,11 @@ def density(s, g2, L2):
 
 def density_closed_form(s, g2, L2):
     """Hand-derived: g2^2 rho(s) / (s |W|^2).  Cross-check on `density`."""
+    _validate_model(g2, L2)
+    if not np.isfinite(s):
+        raise ValueError("s must be finite")
+    if not S_THR < s < L2:
+        return 0.0
     Wc = W_on_cut(s, g2, L2)
     return g2**2 * _rho_scalar(s) / (s * abs(Wc)**2)
 
@@ -205,27 +240,62 @@ def _W_above_cutoff(t, g2, L2):
     return Z3_of(g2, L2) - g2 * I
 
 
+# Closed form of the edge integral, derived with s = 4/(1 - v^2).  Checked
+# against 50-digit tanh-sinh quadrature for b in {10, 1e6} and d from 1e-30 to
+# 1e8 (agreement 1e-41 .. 1e-51), and in binary64 against the same reference:
+# ~1e-16 for d <= 1e3*b ... degrading by cancellation to 4e-13 at d = 100*b and
+# 1.5e-11 at d = 1e4*b.  Beyond CLOSED_FORM_MAX_RATIO * L2 the quadrature is used,
+# where t - s >= 99*L2 makes the integrand smooth.
+CLOSED_FORM_MAX_RATIO = 100.0
+
+
+def _edge_logs(d, L2):
+    t = L2 + d
+    v = np.sqrt(1.0 - S_THR / L2)
+    a = np.sqrt(1.0 - S_THR / t)
+    # log(t b (a+v)^2 / (4d)) as a sum, so d = 1e-300 does not overflow
+    L = np.log(t) + np.log(L2) + 2.0 * np.log(a + v) - np.log(4.0) - np.log(d)
+    return t, v, a, L
+
+
+def _I_edge_closed(d, L2):
+    """int_4^{L2} rho(s)/(L2 + d - s) ds, exactly."""
+    t, v, a, L = _edge_logs(d, L2)
+    return PREF * (a * (1.0 + 2.0 / t) * L
+                   - (np.log(L2) + 2.0 * np.log(1.0 + v) - np.log(4.0))
+                   - 4.0 * v / t)
+
+
+def _dI_edge_closed(d, L2):
+    """d/dd of _I_edge_closed; equals -int rho/(t-s)^2 ds.
+
+    Uses d/dt[a(1 + 2/t)] = 12/(t^3 a), which follows from (1+2/t) - a^2 = 6/t.
+    """
+    t, v, a, L = _edge_logs(d, L2)
+    return PREF * (12.0 * L / (t ** 3 * a)
+                   + a * (1.0 + 2.0 / t) * (1.0 / t + 4.0 / (t ** 2 * a * (a + v)) - 1.0 / d)
+                   + 4.0 * v / t ** 2)
+
+
 def _W_edge(d, g2, L2):
     """W at t = L2 + d, parametrised by the DISTANCE d > 0 to the cutoff edge.
 
-    Two substitutions keep this accurate for arbitrarily small d.  First
-    x = L2 - s turns the integral into int_0^{L2-4} rho(L2-x)/(x+d) dx, which has
-    no cancellation.  Then x = d*e^u turns it into
-
-        int rho(L2 - d e^u) * e^u/(e^u + 1) du,   u <= log((L2-4)/d),
-
-    whose integrand decays like e^u downward, so truncating at u = -40 costs
-    about e^-40.  Writing t = L2*(1+eps) instead loses the root entirely once
-    eps falls below machine epsilon, and at small coupling the atom sits
-    exponentially close to the edge.
+    For d <= CLOSED_FORM_MAX_RATIO * L2 the edge integral is evaluated in closed
+    form: no quadrature, no branch-point trouble, and valid down to d = 1e-300.
+    Beyond that, adaptive quadrature in x = L2 - s, whose integrand is smooth
+    there.  The earlier all-quadrature path missed the atom position by ~1.2e-6
+    relative because the integrand has a square-root branch point at the upper
+    endpoint that QUADPACK does not resolve; that path is gone for the atom range.
     """
+    if not np.isfinite(d) or d <= 0:
+        raise ValueError("edge distance must be finite and positive")
+    if d <= CLOSED_FORM_MAX_RATIO * L2:
+        return Z3_of(g2, L2) - g2 * _I_edge_closed(d, L2)
     top = L2 - S_THR
-    if d >= top:
-        I, _ = quad(lambda x: _rho_scalar(L2 - x) / (x + d), 0.0, top,
-                    limit=400, epsabs=1e-16, epsrel=1e-12)
-    else:
-        I, _ = quad(lambda u: _rho_scalar(L2 - d * np.exp(u)) * np.exp(u) / (np.exp(u) + 1.0),
-                    -40.0, np.log(top / d), limit=500, epsabs=1e-16, epsrel=1e-12)
+    I, _, message = _quad(lambda x: _rho_scalar(L2 - x) / (x + d), 0.0, top,
+                          limit=400, epsabs=1e-16, epsrel=1e-12)
+    if message:
+        warnings.warn(message, IntegrationWarning, stacklevel=2)
     return Z3_of(g2, L2) - g2 * I
 
 
@@ -293,9 +363,18 @@ def spectral_atom(g2, L2, log10_d_range=(-300.0, 250.0)):
     lo, hi = log10_d_range
     msgs = []
 
-    def f(v):
-        val = _W_edge(10.0 ** v, g2, L2)
+    def evaluate_edge(distance):
+        with warnings.catch_warnings(record=True) as caught:
+            warnings.simplefilter("always", IntegrationWarning)
+            val = _W_edge(distance, g2, L2)
+        msgs.extend(str(w.message) for w in caught
+                    if issubclass(w.category, IntegrationWarning))
+        if not np.isfinite(val):
+            raise RuntimeError("UNRESOLVED: nonfinite edge-kernel evaluation")
         return val
+
+    def f(v):
+        return evaluate_edge(10.0 ** v)
 
     f_lo, f_hi = f(lo), f(hi)
     if not (f_lo < 0 < f_hi):
@@ -305,25 +384,44 @@ def spectral_atom(g2, L2, log10_d_range=(-300.0, 250.0)):
             f"outside 10^[{lo}, {hi}] (W={f_lo:.3e} .. {f_hi:.3e}). UNRESOLVED, "
             "not absence: at small coupling d falls below binary64, which is a "
             "limit of this float64 path, not of the mathematics.")
-    v_a = brentq(f, lo, hi, rtol=1e-15, maxiter=400)
+    # brentq stops at |dv| < xtol + rtol*|v|, and its DEFAULT xtol is 2e-12
+    # absolute: that, not the closed form, capped log10(d) at ~1e-13 relative.
+    # rtol is set to scipy's floor, 4*eps.
+    v_a = brentq(f, lo, hi, xtol=1e-300, rtol=4 * np.finfo(float).eps, maxiter=400)
     d_a = 10.0 ** v_a
     s_a = L2 + d_a
 
     h = d_a * 1e-6
-    dW_dQ2 = -(_W_edge(d_a + h, g2, L2) - _W_edge(d_a - h, g2, L2)) / (2 * h)
+    dW_dQ2 = -(evaluate_edge(d_a + h) - evaluate_edge(d_a - h)) / (2 * h)
+    if not np.isfinite(dW_dQ2) or dW_dQ2 >= 0:
+        raise RuntimeError("UNRESOLVED: atom derivative is nonfinite or has invalid sign")
     w_fd = g2 / ((-s_a) * dW_dQ2)
+    # Primary weight: analytic derivative of the closed-form edge integral,
+    # w = g2/((-s_a) W'(-s_a)) = -1/(s_a I'(d)).  No subtraction, no quadrature.
+    w_analytic = None
+    if d_a <= CLOSED_FORM_MAX_RATIO * L2:
+        dI = _dI_edge_closed(d_a, L2)
+        if np.isfinite(dI) and dI < 0:
+            w_analytic = -1.0 / (s_a * dI)
     w_int, w_err, w_msg = atom_weight_integral(d_a, L2)
     if w_msg:
         msgs.append(w_msg)
+    if not np.isfinite(w_int) or w_int <= 0:
+        msgs.append("Independent atom weight is nonfinite or nonpositive")
+    msgs = list(dict.fromkeys(msgs))
 
     ok = not msgs
     status = "RESOLVED" if s_a > L2 else "RESOLVED_EDGE_UNRESOLVED"
     if not ok:
         status = "PRECISION_UNCERTAIN"
     return {"s_atom": s_a, "edge_distance": d_a, "log10_edge_distance": v_a,
-            "weight": w_fd, "weight_independent": w_int,
+            "weight": w_analytic if w_analytic is not None else w_fd,
+            "weight_method": "analytic closed form" if w_analytic is not None
+                             else "finite difference",
+            "weight_finite_difference": w_fd, "weight_independent": w_int,
             "weight_routes_agree_rel": abs(w_fd - w_int) / abs(w_int) if w_int else None,
             "status": status, "quadrature_ok": ok,
+            "position_representable": bool(s_a > L2), "evidence": "CHECKED",
             "quadrature_messages": msgs,
             "regime": dec["status"], "z3_interval": [dec["z3_lo"], dec["z3_hi"]]}
 
@@ -356,7 +454,7 @@ def spectral_regime(g2, L2):
                     "identity this numerical path cannot supply"}
 
 
-def reconstruct(Q2, g2, L2, include_atom=True):
+def reconstruct(Q2, g2, L2, include_atom=True, *, return_diagnostics=False):
     """Rebuild G(Q2) - g2/Q2 from the spectral terms actually implemented.
 
     ONLY the subcritical regime (Z3 > 0) is supported.  At Z3 = 0 the additive
@@ -367,19 +465,35 @@ def reconstruct(Q2, g2, L2, include_atom=True):
     ``include_atom=False`` reproduces the INCOMPLETE reconstruction that hid the
     atom inside what looked like quadrature error.  It is kept so a test can
     assert that dropping the atom is detectable.
+    Use return_diagnostics=True for structured convergence status. The scalar
+    convenience result emits IntegrationWarning if any component did not converge.
     """
+    if not np.isfinite(Q2) or Q2 <= 0:
+        raise ValueError("Q2 must be finite and positive")
     info = spectral_regime(g2, L2)
     if not info["reconstruction_supported"]:
         raise ValueError(
             f"reconstruction not implemented for the {info['regime']} regime "
             f"(Z3 in {info['z3_interval']}): {info['note']}")
     T = np.log(L2 / S_THR)
-    total, _ = quad(lambda u: density(S_THR * np.exp(u), g2, L2) * S_THR * np.exp(u)
+    total, error, message = _quad(lambda u: density(S_THR * np.exp(u), g2, L2) * S_THR * np.exp(u)
                     / (S_THR * np.exp(u) + Q2), 0.0, T,
                     limit=400, epsabs=1e-18, epsrel=1e-12)
+    messages = [message] if message else []
     if include_atom:
         atom = info["atom"]
         total += atom["weight"] / (Q2 + atom["s_atom"])
+        messages.extend(atom["quadrature_messages"])
+    result = {"value": total, "status": "PRECISION_UNCERTAIN" if messages else "CHECKED",
+              "quadrature_messages": list(dict.fromkeys(messages)),
+              "outer_quadrature_error_estimate": error,
+              "error_scope": "outer integral estimate only; not a total error bound",
+              "includes_atom": bool(include_atom)}
+    if return_diagnostics:
+        return result
+    if messages:
+        warnings.warn("Reconstruction precision uncertain: " + "; ".join(result["quadrature_messages"]),
+                      IntegrationWarning, stacklevel=2)
     return total
 
 
@@ -407,17 +521,22 @@ def sum_rules(g2, L2):
     s_a, w = atom["s_atom"], atom["weight"]
     T = np.log(L2 / S_THR)
 
-    mass, mass_err = quad(lambda u: density(S_THR * np.exp(u), g2, L2) * S_THR * np.exp(u),
+    mass, mass_err, mass_msg = _quad(lambda u: density(S_THR * np.exp(u), g2, L2) * S_THR * np.exp(u),
                           0.0, T, limit=500, epsabs=1e-18, epsrel=1e-12)
-    first, first_err = quad(lambda u: (S_THR * np.exp(u))
+    first, first_err, first_msg = _quad(lambda u: (S_THR * np.exp(u))
                             * density(S_THR * np.exp(u), g2, L2) * S_THR * np.exp(u),
                             0.0, T, limit=500, epsabs=1e-16, epsrel=1e-12)
-    mu, mu_err = quad(lambda u: _rho_scalar(S_THR * np.exp(u)) * S_THR * np.exp(u),
+    mu, mu_err, mu_msg = _quad(lambda u: _rho_scalar(S_THR * np.exp(u)) * S_THR * np.exp(u),
                       0.0, T, limit=500, epsabs=1e-15, epsrel=1e-13)
 
     lhs1, rhs1 = g2 + mass + w, g2 / z3
     lhs2, rhs2 = first + w * s_a, g2**2 * mu / z3**2
+    messages = list(dict.fromkeys(atom["quadrature_messages"] +
+                                  [m for m in (mass_msg, first_msg, mu_msg) if m]))
     return {
+        "status": "PRECISION_UNCERTAIN" if messages else "CHECKED",
+        "quadrature_messages": messages,
+        "error_scope": "quadrature estimates omit root/weight and inner-integral errors; not total bounds",
         "regime": info["regime"], "Z3": z3, "z3_interval": info["z3_interval"],
         "atom_s": s_a, "atom_w": w, "atom_status": atom["status"],
         "rule1": {"lhs": lhs1, "rhs": rhs1, "rel": abs(lhs1 - rhs1) / abs(rhs1),
