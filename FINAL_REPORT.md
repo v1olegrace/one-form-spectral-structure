@@ -129,6 +129,14 @@ with `--no-install-recommends`, and `lmodern` is a separate Debian package that
 the brief needs and the paper does not. `lmodern` was added in `6672fdb`, and
 run 36597424208 passed all three jobs.
 
+Run 36823874817 at `08a7dbf`, the head of this round, on 1 October: success in
+all three jobs. `tests`: 289 passed, 3 skipped; the two modules skipped there
+need `python-flint` and run in `certified` (52 passed, where any skip counts as
+a failure), and the third skip is the PDF-build test, whose work the `paper` job
+does with `latexmk`. `paper`: structural validation 18 passed, the paper built
+at 13 pages and the brief at 6. Together the three jobs cover the 324 tests of
+the local run.
+
 The fix was then reproduced locally, in a clean `ubuntu:24.04` container using
 the workflow's own `apt` line. Without `lmodern` the brief fails with exactly the
 CI error; with it, the brief builds. After the v0.4 changes, the final
