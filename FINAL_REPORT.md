@@ -81,11 +81,45 @@ the main question; the earlier versions are kept in `versoes_anteriores/`.
   an atom error of 2 × 10⁻⁶, the atom uncredited, an unverified theorem
   number). Corrected on 1 October before this round's physics.
 
-**Verification of this round.** Full suite 352 passed, 0 skipped, no warnings;
-`tests/test_e2c_transport.py` 24 passed, with the measured rates in §9 of the
-note. Remote CI on `08a7dbf`: run 36823874817, success in all three jobs
-(details in §1, Continuous integration). The clean-checkout run and the CI run
-for this round's head are recorded below when they exist.
+**Verification of this round.** In a fresh clone of `5b1a7a6`, the head of the
+round's work: 352 passed, 0 skipped, no warnings; `make.py numerics`, `audit`
+and `certified` exit 0; the one-loop reverification passes; `git status` is
+empty afterwards. `tests/test_e2c_transport.py` alone is 24 tests, with the
+measured rates in §9 of the note. Remote CI, run 36827725535 at `5b1a7a6`:
+success in all three jobs. `tests` 317 passed and 3 skipped, the skips being
+the two `python-flint` modules, which `certified` runs, and the PDF-build test,
+whose work `paper` does; the brief built at 6 pages; the numerical
+reproducibility step reported 70 checks, all passed. (Run 36823874817 at
+`08a7dbf` had passed the same way, §1.)
+
+**CI runner pinned.** That run carried a notice that `ubuntu-latest` moves to
+Ubuntu 26 from 19 October 2026. The three jobs now run on `ubuntu-24.04`, the
+image in which the builds were reproduced locally, so a TeX Live or Python
+change does not arrive unannounced.
+
+**`make.py bib`, diagnosed but not fixed.** The defect recorded in §4 has four
+causes, found by a dry run that reads only the API cache:
+1. The INSPIRE parser takes the year from `earliest_date`, the preprint. In
+   all nine records where the committed year differs, INSPIRE's
+   `publication_info` year equals the committed one, so the rule "publication
+   year, else preprint" reproduces them without exceptions.
+2. INSPIRE's `page_start` can be the issue number: for Hackett–Wagman it is
+   `1`, while `artid` is the article number `014514`. The parser must prefer
+   `artid`.
+3. The eight records appended by hand on 21 September are not in `SEEDS` and
+   their API responses were never cached, so their recorded provenance cannot
+   be checked against the cache. Fetched today, INSPIRE confirms seven of them
+   (same papers, DOIs and publication years; title capitalisation differs).
+   Hinrichs–Polzer (arXiv:2511.02867) is not on INSPIRE, and Semantic Scholar
+   returned nothing for it, nor for any arXiv query that day.
+4. `_cached` stores a failed fetch as `raw: null`, so a transient failure,
+   such as Semantic Scholar's rate limit, becomes permanent. The responses
+   fetched for this diagnosis were deleted for that reason and are not
+   committed.
+Also, `main()` writes the JSON with `indent=2` and ASCII escapes while the
+committed file has `indent=1` and raw Unicode, and it drops the `added` field.
+A fix needs an arXiv source for records INSPIRE lacks, and a record-by-record
+review of the regenerated bibliography; it is left for a round of its own.
 
 **Pending, added in this round.** Read Bochner–Schwartz, the covariant
 disintegration and the Wightman → Schwinger continuation for a two-form field;

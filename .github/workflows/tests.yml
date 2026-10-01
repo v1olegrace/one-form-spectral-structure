@@ -4,6 +4,11 @@ name: tests
 # commits they cover are in FINAL_REPORT.md; do not restate them here, where
 # they would go stale on the next push. The 2026-09-11 report of that name is
 # kept at reports/history/FINAL_REPORT_2026-09-11.md.
+#
+# Runners are pinned to ubuntu-24.04, the image in which the paper and brief
+# builds were reproduced locally; ubuntu-latest moves to Ubuntu 26 from
+# 19 October 2026, and a TeX Live or Python change there would otherwise
+# arrive unannounced.
 
 on:
   push:
@@ -13,7 +18,7 @@ on:
 
 jobs:
   tests:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
 
@@ -45,7 +50,7 @@ jobs:
     # Validated-continuum backend (Arb via python-flint). Without it,
     # tests/test_one_loop_certified.py is skipped, so the plain `tests` job
     # alone does not exercise the certification protocol.
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -73,7 +78,7 @@ jobs:
         run: python reproducibility/verify_one_loop_output.py --reintegrate
 
   paper:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
