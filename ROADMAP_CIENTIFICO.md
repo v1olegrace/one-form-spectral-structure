@@ -323,6 +323,55 @@ interagente:
 - *Aceitação:* igualdade analítica nos dois lados, com cada troca de limite
   justificada, e verificação numérica independente em dois valores de massa.
 
+### E2.6 Estado em 01/10/2026 — o transporte em ordem linear fechou, condicionalmente
+
+O próximo passo de E2.5 foi feito, e em versão mais geral que a planejada: não
+só para o campo livre massivo, mas para qualquer ⟨FF⟩ que satisfaça E2b. A
+prova está em `notes/E2c_transport_linear_probe.md`, com 24 testes em
+`tests/test_e2c_transport.py`.
+
+**O que ficou demonstrado.** Sob W1–W3 para F (sem localidade, sem CPT, sem
+F = dA), Bianchi na função de dois pontos euclidiana *incluindo pontos
+coincidentes* (B<sub>T</sub>) e sonda linear, o potencial estático do laço de
+Wilson e o campo de uma linha estática dependem de ⟨FF⟩ só através de
+a⁽³⁾(r) = ∫dμ(s) e^{−√s r}/(4πr), com μ ≥ 0 a medida de Källén–Lehmann de E2b.
+Em r > 0 isso é a H3, com g_R² = μ({0}), a menos de um polinômio de contato, e
+dá também a relação de resposta linear da H5. Os critérios de aceitação de
+E2.5 foram cumpridos: as trocas de limite estão justificadas (Fejér,
+Riemann–Lebesgue, Tonelli) e a verificação numérica usa duas massas, mais o
+caso de Coulomb puro.
+
+**O que se aprendeu que não era óbvio.**
+- O termo helicoidal sem massa, que E2b só remove por CPT, não chega a nenhum
+  dos dois observáveis estáticos: a componente do laço plano é zero
+  identicamente, e a da linha é proporcional a p₀, que a integral no tempo
+  mata. O lema de CPT deixa de ser necessário para este passo.
+- O que (B<sub>T</sub>) exclui é a estrutura local G = δδ − δδ, e ela dá lei de
+  área: potencial linear. É a função D do modelo do vácuo estocástico
+  (Dosch–Simonov), em que D ≠ 0 confina e D₁ só dá perímetro e potencial. Em
+  teoria abeliana sem monopolos, Bianchi zera D. Isso está na revisão de
+  Di Giacomo, Dosch, Shevchenko e Simonov (2002), lida nas seções 2.1, 3.1,
+  3.2 e 4.2; as fontes primárias não foram lidas.
+- A taxa de T → ∞ não é log T/T, como eu esperava pela cauda 1/u² de a(u, r).
+  É 1/T, com o coeficiente previsto, porque as caudas se cancelam no
+  colchete que entra.
+- Consequência para a cadeia de bolhas: em Z₃ = 0 a constante 1/μ é um termo
+  de contato, δ³ na origem. A H3 literal falha, mas a conclusão do Teorema A
+  em r > 0 sobrevive. A única falha física é Z₃ < 0, e o polo tipo espaço é
+  um estado taquiônico: violação de W2, coerente com o teorema.
+
+**O que continua aberto.**
+1. Os lemas clássicos de E2b, agora só dois mais a continuação
+   Wightman → Schwinger: Bochner–Schwartz e a desintegração covariante.
+2. As fontes primárias do vácuo estocástico e uma citação de livro para o
+   potencial como superposição de Yukawas.
+3. O caso temperado geral, sem ∫dμ/(1+s) < ∞.
+4. **O(q_W⁴).** A pergunta aberta real agora é aqui: o sinal da contribuição
+   luz-luz ao potencial estático (E2.3f). A sonda linear está fechada; a não
+   linear não foi tocada.
+5. A existência da QED em 4D como teoria de Wightman não é conhecida. O
+   resultado é condicional a ela, como qualquer enunciado axiomático.
+
 ---
 
 ## E3 — Consolidar a contribuição original (P0)

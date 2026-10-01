@@ -178,7 +178,9 @@ rode num ambiente com LaTeX.
 
 ## D5 — Obrigações de prova da P-E2 (auditoria externa de 22/09/2026)
 
-**Data:** 22/09/2026 · **Status:** ABERTA, condiciona E2.3a/b
+**Data:** 22/09/2026 · **Status:** O2 fechada condicionalmente em 01/10/2026
+(nota E2c, ver o fim desta seção); O1 é a hipótese (C), mantida; O3 segue como
+estava
 
 Uma auditoria independente do repositório levantou três pontos contra o
 enunciado da P-E2 no roadmap. Os três foram conferidos aqui. Não são
@@ -224,6 +226,16 @@ chaves (tipo, r₀), e com elas **todas as 28 integrais de amostra distintas** �
 os três datasets de cada chave diferem só no ruído, que é aplicado depois da
 integração —, além dos benchmarks diretos de peso. O `source_pairs_reintegrated: 0`
 da execução anterior refletia só a ausência da flag.
+
+**Atualização de 01/10/2026 — O2.** `notes/E2c_transport_linear_probe.md` faz o
+transporte em ordem linear na sonda, com cada item da lista de O2 tratado: a
+projeção tensorial (só S₀₁,₀₁ entra no laço plano e só S₀ᵢ,₀₁ na linha), o
+sinal (ancorado em Proca e Maxwell livres construídos com F = dA), os termos de
+contato (os compatíveis com Bianchi são polinômios vezes T e não chegam a
+r > 0; o incompatível, G, dá lei de área), o perímetro (constante em r) e o
+limite T → ∞ (taxa 1/T, coeficiente medido igual ao previsto). A condição que
+O2 exigia sem nomear é Bianchi incluindo pontos coincidentes. O fechamento é
+condicional aos lemas de E2b ainda não lidos, e vale só em ordem linear.
 
 ---
 
