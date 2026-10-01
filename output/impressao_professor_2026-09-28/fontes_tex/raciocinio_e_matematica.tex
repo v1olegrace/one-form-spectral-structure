@@ -28,7 +28,7 @@
 {\large Do observável de simetria de 1-forma até onde o argumento trava}\par
 \vspace{1mm}
 {\small Mauro de Oliveira Cardoso (Viole) --- 28 de setembro de 2026,
-revisto em 1 de outubro. Acompanha o artigo canônico v0.4 e o resumo de seis
+revisto em 1 de outubro. Acompanha o artigo canônico v0.5 e o resumo de seis
 páginas.}
 
 \vspace{2mm}\hrule\vspace{2mm}
@@ -292,7 +292,7 @@ N\~ao \'e defeito de implementa\c{c}\~ao: nenhum momento do cont\'inuo enxerga u
 polo discreto. A viola\c{c}\~ao inteira mora no polo.
 \end{alerta}
 
-\textbf{Evid\^encia computacional.} 324 testes passando, tamb\'em em
+\textbf{Evid\^encia computacional.} 352 testes passando, tamb\'em em
 \emph{checkout} limpo do reposit\'orio, com os geradores num\'ericos
 reproduzindo os artefatos byte a byte. As quatro condi\c{c}\~oes que identificam a
 representa\c{c}\~ao do modelo com a forma exata de H3 do artigo --- res\'iduo de
@@ -310,49 +310,59 @@ limpa. Isso \textbf{não} é a resposta estática não perturbativa e invariante
 gauge. A rota séria de teoria de campos é outra:
 
 \begin{enumerate}[leftmargin=7mm,itemsep=3pt]
-\item Com axiomas de Wightman e identidade de Bianchi, \textbf{sem} supor
-  $F=dA$, o correlator $\langle F_{\mu\nu}F_{\rho\sigma}\rangle$ tem
-  representação com medida positiva. Bianchi elimina a estrutura dual para
-  $p^2>0$; em $p^2=0$ \textbf{não} elimina, e sobra um termo que só a
-  localidade, via CPT, remove. \emph{Esse lema eu ainda não li na fonte.}
+\item Com Wightman e Bianchi, \textbf{sem} supor $F=dA$,
+  $\langle F_{\mu\nu}F_{\rho\sigma}\rangle$ tem medida positiva. Em $p^2=0$
+  sobra um termo que só a localidade, via CPT, remove; esse lema eu não li.
 \item Transportar essa positividade até o laço de Wilson, e daí ao kernel
-  estático. \textbf{Este passo não está feito.} Envolve projeção tensorial,
-  termos de contato, renormalização de perímetro e o limite $T\to\infty$.
+  estático. \textbf{Feito em 01/10, em ordem linear na sonda} (nota E2c,
+  Proposição~7 do artigo). Envolve projeção tensorial, termos de contato,
+  renormalização de perímetro e o limite $T\to\infty$, e cada um foi tratado.
 \end{enumerate}
 
-Um pedaço eu verifiquei: no limite estático,
-$\langle E_iE_j\rangle=D(Q^2)\,p_ip_j$ é \textbf{puramente longitudinal}, e o
-escalar que o potencial vê é $Q^2D(Q^2)=g^2_{\rm eff}$. Isso dá uma
-reformulação útil: $\mathcal{G}$ está na classe geral de Stieltjes
-$\iff$ $g^2_{\rm eff}$ é Bernstein completa --- e $g^2_{\rm eff}$ é
-exatamente o que o correlator entrega, sem inversão nenhuma.
+\begin{caixa}{O QUE O TRANSPORTE MOSTROU (01/10)}
+O laço retangular só vê a componente $S_{01,01}$ de $\langle FF\rangle$, e a
+linha estática só vê $S_{0i,01}$. Nelas a estrutura positiva dá
+$p_0^2+p_1^2$ e $p_1p_i$; o termo helicoidal dá zero ou algo proporcional a
+$p_0$, que a integral no tempo mata. \textbf{Então o CPT não é necessário para
+o potencial estático.} Por Stokes, o laço vira integrais de linha; com
+$T\to\infty$ sobra
+\[
+a^{(3)}(r)=\int d\mu(s)\,\frac{e^{-\sqrt s\,r}}{4\pi r},\qquad \mu\ge0,
+\]
+que é a H3 em $r>0$. O que Bianchi nos pontos coincidentes exclui é a
+estrutura $\delta\delta-\delta\delta$, que dá \textbf{lei de área}: é a função
+$D$ do vácuo estocástico de Dosch e Simonov, não descoberta minha.
+\end{caixa}
 
 \begin{caixa}{A PERGUNTA QUE EU LEVO AO PROFESSOR}
-Esse transporte --- do correlator $\langle FF\rangle$ para o kernel do laço de
-Wilson --- esconde alguma hipótese além da fase de Coulomb?
+Em ordem linear na sonda, a H3 em $r>0$ sai de positividade de Wightman para
+$F$ e de Bianchi nos pontos coincidentes. O senhor vê alguma lacuna nesse
+passo --- na continuação de Wightman para Schwinger, ou nos termos de contato
+--- e sabe se ele já está escrito em algum lugar?
 \end{caixa}
 
 \section*{Passo 8 --- O que continua em aberto}
 
 \begin{itemize}[leftmargin=6mm,itemsep=2pt]
-\item H3 além da ordem líder para o kernel interagente: \textbf{não provada}.
-\item O transporte $\langle FF\rangle\to$ Wilson $\to$ kernel: \textbf{não feito}.
-\item Fase de Coulomb tem de ser hipótese explícita --- Proca satisfaz os
-  axiomas e \emph{não} tem polo de Coulomb ($q_\infty=0$, $\delta$ nem definida).
+\item H3 sem condições: \textbf{não provada}. Em ordem linear na sonda, segue
+  condicionalmente aos lemas clássicos da classificação (Bochner--Schwartz,
+  desintegração covariante, continuação Wightman $\to$ Schwinger), que eu não li.
+\item Além da ordem linear, em $O(q_W^4)$: o espalhamento luz-luz entra, e
+  nada aqui fixa o seu sinal. \textbf{É aqui que a pergunta aberta mora agora.}
+\item A fase de Coulomb é hipótese explícita: Proca satisfaz os axiomas e
+  não tem polo de Coulomb.
 \item Isolar canais carregados dos cortes sem massa preservando positividade.
-\item Critério $Z_3$: está no apêndice A do artigo desde a v0.4, mas só para a
-  cadeia de bolhas. O átomo é de Giacosa--Wolkanowski (2012) e o limite
-  $0\le Z_3\le1$ é de Källén (1952). A redução de H3 ao sinal de $Z_3$ eu não
-  achei nas fontes que li, o que não prova que seja nova
-  (Brown--Weisberger 1979 não lido).
+\item Critério $Z_3$: no apêndice A, só para a cadeia de bolhas. O átomo é de
+  Giacosa--Wolkanowski (2012), $0\le Z_3\le1$ é de Källén; a redução a $Z_3$
+  não achei nas fontes, o que não prova novidade (Brown--Weisberger não lido).
 \item O CI remoto roda e passa nos três jobs; mas nenhuma revisão humana do
   PDF, e nada submetido.
 \end{itemize}
 
 \vspace{2mm}\hrule\vspace{2mm}
 {\small\color{rust}\textbf{Resumo em uma frase.} Sob uma hipótese de
-positividade que vale em ordem líder e que eu sei caracterizar na cadeia de
-Dyson, o formato do perfil determina cotas superiores para o limiar acoplado ---
-e eu sei exatamente onde o argumento ainda não fecha.}
+positividade que, em ordem linear na sonda, eu sei derivar da positividade de
+$F$ e de Bianchi, o formato do perfil determina cotas superiores para o limiar
+acoplado --- e eu sei exatamente onde o argumento ainda não fecha.}
 
 \end{document}

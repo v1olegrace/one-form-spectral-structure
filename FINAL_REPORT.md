@@ -1,12 +1,98 @@
-# Audit report — paper v0.4
+# Audit report — paper v0.4 and v0.5
 
-29 September 2026. Starting point: `6672fdb` on `main`. The previous report of
-this name, dated 11 September, is at
+29 September 2026, with a second round on 1 October (§0). Starting point of
+the first round: `6672fdb` on `main`. The previous report of this name, dated
+11 September, is at
 [`reports/history/FINAL_REPORT_2026-09-11.md`](reports/history/FINAL_REPORT_2026-09-11.md).
 
 This report records what changed, why, and how each change was checked. Where
 something could not be checked with the resources at hand it is marked
 `PENDING_VERIFICATION` rather than guessed.
+
+## 0. Round of 1 October 2026 — paper v0.5
+
+Starting point `13b68f6`. Sections 1–6 below are the round of 29 September and
+are left as they were, except for one correction marked in §3.
+
+**The transport.** Obligation O2 of `DECISIONS.md` D5, the step from ⟨FF⟩ to
+the static kernel, is done at linear order in the probe:
+[`notes/E2c_transport_linear_probe.md`](notes/E2c_transport_linear_probe.md).
+Under the Wightman axioms W1–W3 for the field strength (no locality, no CPT,
+no F = dA), the Bianchi identity in the Euclidean two-point function including
+coincident points, and ∫dμ/(1+s) < ∞, the static potential and the field of a
+static line see ⟨FF⟩ only through a³(r) = ∫dμ(s)e^{−√s r}/(4πr) with μ ≥ 0.
+On r > 0 that is Hypothesis 3, with g_R² = μ({0}), up to a contact
+polynomial, and it gives the linear-response relation of Hypothesis 5. It is
+conditional on note E2b's classification, whose measure-theoretic lemmas and
+the Wightman → Schwinger continuation are unread at the level of the
+statements used. Two things came out that were not planned:
+
+- The massless helicity term that E2b removes only through CPT never reaches
+  either static observable: its component is identically zero for the planar
+  loop and proportional to p₀ for the line. CPT is not needed for this step.
+- What Bianchi at coincident points excludes is the local structure
+  δδ − δδ, which gives an area law. That is the function D of the stochastic
+  vacuum model. The review of Di Giacomo, Dosch, Shevchenko and Simonov
+  (Phys. Rept. 372, 2002) was read in full text at §2.1, §3.1, §3.2 and §4.2
+  and is cited for it; its primaries are unread. The review contains no
+  statement about positivity or a spectral representation of D₁, which is the
+  part this project adds; novelty is not established.
+
+**A second pass over the plan, before anything was written, changed four
+things:** anchor the Euclidean sign on free Proca and
+Maxwell rather than on tracked factors of i; transport the observable Theorem A
+actually uses (the sphere flux q(r), components S₀ᵢ,₀₁) and not only V(r); cite
+the D/D₁ mechanism to the stochastic vacuum model and drop a separate
+"massive dual gives an area law" result, which is the same mechanism; keep
+Hypothesis 3 a hypothesis in the paper. A rate I had predicted, log T/T in the
+Coulomb phase, was wrong: measured, it is 1/T with the coefficient the proof
+gives, because the long-distance tails cancel in the bracket that enters.
+
+**Manuscript v0.5.** Appendix A gains Proposition 7 with a proof sketch and the
+attribution; the hypotheses section announces it with its qualifications; the
+discussion's open questions become the unread lemmas and the nonlinear probe;
+at Z₃ = 0 the constant of the bubble chain is identified as a contact term, so
+Theorem A survives on r > 0 there. A guard test stopped one sentence that
+mentioned the nonperturbative kernel without a qualifier. 14 pages, no warning.
+
+**Discussion brief and study sheets.** The brief's main question asked which
+hypotheses carry the positivity of ⟨FF⟩ to the Wilson loop. The project now has
+a conditional answer, so the question became a request to check it: whether
+the professor sees a gap in the linear-probe passage, especially in the
+Wightman → Schwinger continuation or the contact terms, and whether it is
+written somewhere. Pages 1, 2 and 4 say what the transport gives and on what
+it rests, page 6 marks the Z₃ = 0 constant as a contact term, page 5 quotes
+352 tests. The speaking and reasoning sheets were changed to match, including
+the main question; the earlier versions are kept in `versoes_anteriores/`.
+
+**Errors found in this round.**
+
+- The v0.4 PDF QA record matched the committed source for one file in six.
+  It had been generated in a working copy where some sources had been
+  rewritten with LF and the rest checked out with CRLF. The v0.5 record was
+  generated from a clone with `core.autocrlf=false` and matches every blob;
+  `tests/test_pdf_qa_record.py` now enforces it, and fails on the old record.
+- A measurement in this round was wrong before it was right: `grep -c` on a CR
+  pattern, passed through the shell, reported CRLF in files that have none and
+  none in a control file that has them. Byte counts in Python settled the
+  question. The shell-quoting hazard of §4 again, in a new form.
+- The speaking and reasoning sheets in the print folder carried stale facts
+  ("no remote CI has run", 171 and 211 tests, the Z₃ criterion "a working note",
+  an atom error of 2 × 10⁻⁶, the atom uncredited, an unverified theorem
+  number). Corrected on 1 October before this round's physics.
+
+**Verification of this round.** Full suite 352 passed, 0 skipped, no warnings;
+`tests/test_e2c_transport.py` 24 passed, with the measured rates in §9 of the
+note. Remote CI on `08a7dbf`: run 36823874817, success in all three jobs
+(details in §1, Continuous integration). The clean-checkout run and the CI run
+for this round's head are recorded below when they exist.
+
+**Pending, added in this round.** Read Bochner–Schwartz, the covariant
+disintegration and the Wightman → Schwinger continuation for a two-form field;
+read the stochastic-vacuum primaries and a textbook statement of the static
+potential as a superposition of Yukawas; the general tempered case without
+∫dμ/(1+s) < ∞; and O(q_W⁴), where the sign of the light-by-light contribution
+to the static potential is now the open question.
 
 ## 1. What changed
 
@@ -197,11 +283,13 @@ Tectonic 0.17.0:
 
 The PDF QA record is the one tracked file that does not come back identical. It
 stores the absolute path and SHA-256 of the PDF it inspected, and the SHA-256 of
-each source file as checked out. The committed values are for LF line endings,
-which is what the repository holds and what Linux CI checks out; the Windows
-clone converts to CRLF, so its `paper.tex` hash differs. The README said every
-generator reproduces its output byte for byte; it now names the three that do
-and this exception.
+each source file as checked out. The repository holds LF, Linux CI checks out
+LF, and the Windows clone converts to CRLF, so its `paper.tex` hash differs.
+*Correction of 1 October:* the sentence here said the committed values were for
+LF line endings. That held for `paper.tex` only; the other five hashes in the
+v0.4 record were of CRLF files (§0). The README said every generator
+reproduces its output byte for byte; it now names the three that do and this
+exception.
 
 Earlier in the round, before the fix, the same container showed the brief
 failing without `lmodern` with exactly the CI error, and building with it.

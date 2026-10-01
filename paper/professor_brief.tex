@@ -14,7 +14,7 @@
 \setlength{\parskip}{6pt}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small\color{ink} PERFIL RADIAL E ESTRUTURA ESPECTRAL}
-\fancyhead[R]{\small 29.09.2026}
+\fancyhead[R]{\small 01.10.2026}
 \fancyfoot[L]{\footnotesize Mauro de Oliveira Cardoso (Viole) | Material para discussão}
 \fancyfoot[R]{\thepage/6}
 \renewcommand{\headrulewidth}{0.3pt}
@@ -62,9 +62,11 @@ observável}. Identificá-lo com a menor massa carregada exige informação de
 canal. No exemplo de um laço de Dirac, o limiar de par é $2m$, não $m$.
 
 \begin{panel}{Questão aberta principal}
-A QFT garante a H3 para o kernel estático invariante de gauge no regime
-pretendido? A positividade de um correlacionador de dois campos não fecha,
-sozinha, essa passagem.
+A QFT garante a H3 para o kernel estático invariante de gauge? Em ordem
+linear na sonda, sim, sob positividade de Wightman para $F$ e Bianchi
+incluindo pontos coincidentes (Proposição~7 do artigo), condicionado a lemas
+clássicos ainda não conferidos nas fontes. Além da ordem linear, em
+$O(q_W^4)$, a questão está aberta.
 \end{panel}
 \source{\texttt{paper/paper.tex}, hipóteses H1--H5 e teoremas A, C, E.
 Unidades $\hbar=c=1$; resposta linear a uma fonte infinitamente pesada.}
@@ -95,10 +97,13 @@ a autoenergia 1PI completa nem para o potencial não perturbativo.
 \begin{panel}{Três etapas que não devem ser confundidas}
 \textbf{1. Correlacionador.} Wightman, covariância de Lorentz e Bianchi
 restringem $\langle FF\rangle$. No cone de luz, a eliminação do termo
-helicoidal também usa localidade via CPT, ainda pendente de leitura na nota.
+helicoidal usa localidade via CPT, ainda pendente de leitura; para os dois
+observáveis estáticos esse termo não entra (p.~4).
 
-\textbf{2. Observável estático.} É preciso controlar o laço de Wilson,
-renormalização de perímetro, contatos e o limite $T\to\infty$.
+\textbf{2. Observável estático.} Feito em ordem linear na sonda: laço de
+Wilson, perímetro, contatos e o limite $T\to\infty$, com taxa $1/T$. O que
+Bianchi nos pontos coincidentes exclui é a estrutura que dá lei de área, a
+função $D$ do vácuo estocástico de Dosch e Simonov.
 
 \textbf{3. Regime físico.} Fase de Coulomb, resposta linear e eventual gap
 são hipóteses adicionais. Um canal sem massa pode destruir o gap sem
@@ -109,15 +114,18 @@ densidade de um laço, H3 se reduz ao sinal de uma constante $Z_3$: vale
 para $Z_3>0$, falha para $Z_3<0$ e, se a massa total é finita, falha
 também em $Z_3=0$. O
 resultado está no apêndice A do artigo; o resumo e os três regimes estão
-na p.~6. Isso não toca a pergunta abaixo, que é sobre o kernel físico.
+na p.~6. Para o kernel físico, em ordem linear na sonda, a Proposição~7 do
+mesmo apêndice deriva a H3 em $r>0$ das hipóteses do item 1, mais Bianchi
+nos pontos coincidentes.
 
 \begin{panel}{Pergunta para o professor}
-Que hipóteses adicionais permitem transportar a medida positiva de
-$\langle FF\rangle$ ao coeficiente de resposta linear do laço de Wilson,
-controlando contatos e o limite estático, sem presumir a própria H3?
+Em ordem linear na sonda, a H3 em $r>0$ sai de positividade de Wightman
+para $F$ e de Bianchi incluindo pontos coincidentes. O senhor vê alguma
+lacuna nessa passagem, em especial na continuação de Wightman para Schwinger
+ou nos termos de contato, e sabe onde ela já está escrita?
 \end{panel}
-\source{\texttt{paper/appendix.tex}; \texttt{notes/E2b\_tensor\_classification.tex};
-\texttt{reports/H3\_BOUNDARY\_CORRECTION\_2026-09-28.md}.}
+\source{\texttt{paper/appendix.tex}, Proposição 7; \texttt{notes/E2c\_transport\_linear\_probe.md};
+\texttt{notes/E2b\_tensor\_classification.tex}.}
 \newpage
 \titlepageof{03 / CONTRAEXEMPLO}{Um estado leve quase invisível}{Um limite válido pode continuar pouco informativo}
 Considere a medida positiva, em unidades fixadas pelo modelo,
@@ -203,7 +211,10 @@ Os testes não demonstram os passos de teoria de distribuições.
 
 \textbf{O que falta.} A nota marca três fundamentos como \textsc{to read}:
 Bochner--Schwartz, CPT e desintegração covariante por órbitas. A classificação
-global deve conservar essa ressalva; não é uma prova concluída de H3.
+global deve conservar essa ressalva; não é uma prova concluída de H3. Para os
+observáveis estáticos o CPT deixa de ser necessário: na componente que o laço
+plano vê, o termo $iT^\star$ é zero, e na da linha estática é proporcional a
+$p_0$, que a integral no tempo elimina.
 
 \textbf{Dois alertas.} O ponto $p=0$ não é todo o cone de luz: eliminar seu
 átomo não elimina fótons. O peso sem massa pode ser zero (Proca), portanto
@@ -245,7 +256,7 @@ precisão recusa o limite; não refuta uma teoria física.
 passar por todas as verificações até certa ordem. Compatibilidade finita
 não prova a positividade global, muito menos H3.
 
-\textbf{Evidência atual.} Os 324 testes do repositório passam, também
+\textbf{Evidência atual.} Os 352 testes do repositório passam, também
 num checkout limpo, e a integração contínua remota passa nos três jobs,
 inclusive na compilação deste documento. A reverificação Arb dos
 certificados de um laço reintegra 28 amostras e 12 benchmarks. Esses
@@ -284,7 +295,8 @@ para $0<c<1$,
 $\mathcal G(z)=g_R^2/z+[g_R^2c/(1-c)]/[z+s_0/(1-c)]$: resíduo positivo,
 polo deslocado. Em $c=1$ sobra $\mathcal G=g_R^2/z+g_R^2/s_0$, Stieltjes na
 classe geral mas com a constante que a H3 do artigo exclui. Ausência de
-polo é necessária, e não basta.
+polo é necessária, e não basta. A constante é um termo de contato, em
+$r=0$: o Teorema A continua valendo em $r>0$, e só a H3 literal falha.
 \end{panel}
 
 \textbf{O que os momentos não veem.} A densidade do contínuo é
