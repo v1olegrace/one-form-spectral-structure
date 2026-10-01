@@ -13,7 +13,7 @@
 \setlength{\parskip}{6pt}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small\color{ink} O RACIOCÍNIO E A MATEMÁTICA}
-\fancyhead[R]{\small 28.09.2026}
+\fancyhead[R]{\small 01.10.2026}
 \fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \newtcolorbox{caixa}[1]{colback=pale,colframe=ink,boxrule=0.4pt,arc=1mm,
@@ -27,16 +27,17 @@
 {\Large\bfseries\color{ink} A matemática e o raciocínio que eu segui}\par
 {\large Do observável de simetria de 1-forma até onde o argumento trava}\par
 \vspace{1mm}
-{\small Mauro de Oliveira Cardoso (Viole) --- 28 de setembro de 2026.
-Acompanha o artigo canônico v0.3 e o resumo de seis páginas.}
+{\small Mauro de Oliveira Cardoso (Viole) --- 28 de setembro de 2026,
+revisto em 1 de outubro. Acompanha o artigo canônico v0.4 e o resumo de seis
+páginas.}
 
 \vspace{2mm}\hrule\vspace{2mm}
 
 \section*{Passo 1 --- De onde eu parto}
 
 Numa teoria de Maxwell, a simetria elétrica de 1-forma mede carga através de
-uma superfície que envolve uma linha de prova. Com matéria carregada, o
-\emph{screening} faz essa carga depender do raio. Córdova, Ohmori e Rudelius
+uma superfície que envolve uma linha de prova. Com matéria carregada, a
+blindagem faz essa carga depender do raio. Córdova, Ohmori e Rudelius
 definiram o perfil que mede essa quebra; Basile e Golmohammadi calcularam-no a
 um laço:
 \[
@@ -166,7 +167,9 @@ Por frações parciais, $\dfrac{Q^2}{s(s+Q^2)}=\dfrac1s-\dfrac1{s+Q^2}$, logo
    \;+\;g_R^2\!\int\!\frac{\rho_J(s)\,ds}{s+Q^2}\;}
 \]
 O lado direito é \emph{exatamente} a forma de Stieltjes. Usando a dualidade
-clássica (Schilling--Song--Vondra\v{c}ek, Teor.~7.3: $f\not\equiv0$ é Stieltjes
+clássica (Schilling--Song--Vondra\v{c}ek, cap.~7; o número exato do teorema
+ainda não foi conferido no livro, fontes secundárias citam Teor.~7.3 ou
+Cor.~7.4: $f\not\equiv0$ é Stieltjes
 $\iff$ $1/f$ é Bernstein completa $\iff$ $z f(z)$ é Bernstein completa),
 segue o critério.
 
@@ -210,13 +213,14 @@ estritamente decrescente:
 \begin{center}\small
 \begin{tabular}{llll}
 \toprule
-Regime & Polo spacelike & \'Atomo acima do corte & H3 (sem constante) \\
+Regime & Polo tipo espa\c{c}o & \'Atomo acima do corte & H3 (sem constante) \\
 \midrule
-$Z_3>0$ & n\~ao existe & \textbf{sim}, um, peso $>0$ & \textbf{vale} \\
+$Z_3>0$ & n\~ao existe & \textbf{sim}, um, peso $>0$ (*) & \textbf{vale} \\
 $Z_3=0$ & n\~ao existe & --- & \textbf{falha} se a massa total for finita \\
 $Z_3<0$ & existe, res\'iduo $<0$ & n\~ao existe & \textbf{falha} \\
 \bottomrule
-\end{tabular}
+\end{tabular}\\[1mm]
+{\footnotesize (*) com corte r\'igido e densidade que n\~ao se anula na borda.}
 \end{center}
 
 O polo em $Q^2>0$ \'e um estado com $s<0$ --- taquiônico. Uma fun\c{c}\~ao de
@@ -235,7 +239,7 @@ finito, acoplamento positivo, representa\c{c}\~ao de Dyson subtra\'ida), e \'e s
 \textbf{N\~ao falta termo.} $W$ n\~ao tem zero fora do eixo real, porque
 $\operatorname{Im}W(x+iy)=-g_R^2\,y\int\rho_J/|s+z|^2$ tem o sinal de $-y$ e
 n\~ao se anula. Ent\~ao todos os zeros s\~ao reais, e o eixo real tem quatro
-regi\~oes, todas conferidas: spacelike, abaixo do limiar, o corte, e acima do
+regi\~oes, todas conferidas: tipo espa\c{c}o, abaixo do limiar, o corte, e acima do
 corte. Nenhuma outra contribui\c{c}\~ao pode existir.
 
 \textbf{E h\'a um controle global.} Duas \emph{regras de soma} obrigam a somar
@@ -247,11 +251,13 @@ piora para $6\times10^{-5}$. \'E o teste que pega peso esquecido --- concord\^an
 em alguns pontos, n\~ao.
 
 \textbf{Sobre precis\~ao, separadamente.} Comparei o caminho r\'apido com
-aritm\'etica de multiprecis\~ao e com um caso de forma fechada. O erro real \'e
+aritm\'etica de multiprecis\~ao e com um caso de forma fechada. O erro real era
 $\sim2\times10^{-6}$ na posi\c{c}\~ao e no peso do \'atomo --- bem maior que a
 toler\^ancia pedida \`a quadratura, porque o integrando tem ponto de
-ramifica\c{c}\~ao no extremo. \textbf{Completude e precis\~ao s\~ao coisas
-diferentes}, e eu s\'o sei afirmar a primeira por demonstra\c{c}\~ao.
+ramifica\c{c}\~ao no extremo. A integral de borda tem forma fechada; com ela o
+erro caiu para $\sim10^{-15}$, conferido contra 50 d\'igitos.
+\textbf{Completude e precis\~ao s\~ao coisas diferentes}: a primeira eu
+demonstro, a segunda eu s\'o verifico numericamente.
 \end{caixa}
 
 \begin{alerta}{ERRO MEU, CORRIGIDO EM 29/09 --- vale contar se ele perguntar}
@@ -266,6 +272,11 @@ Pior: a concord\^ancia de $10^{-8}$ que eu atribu\'ia a erro de quadratura
 
 O \'atomo \'e artefato do corte r\'igido: com regulador suave n\~ao sobra
 regi\~ao real onde ele possa aparecer.
+
+\textbf{O \'atomo n\~ao \'e descoberta minha.} \'E o mecanismo de Giacosa e
+Wolkanowski (2012, arXiv:1209.2332): a ressoma p\~oe um polo na folha f\'isica,
+fora do espectro de entrada, com res\'iduo positivo e uma regra de soma. Se ele
+perguntar, eu cito.
 \end{alerta}
 
 \begin{alerta}{O QUE MAIS ME SURPREENDEU --- e eu levo isto ao professor}
@@ -281,9 +292,9 @@ N\~ao \'e defeito de implementa\c{c}\~ao: nenhum momento do cont\'inuo enxerga u
 polo discreto. A viola\c{c}\~ao inteira mora no polo.
 \end{alerta}
 
-\textbf{Evid\^encia computacional.} 211 testes passando, tamb\'em em
-\emph{checkout} limpo do reposit\'orio, com os geradores reproduzindo os
-artefatos byte a byte. As quatro condi\c{c}\~oes que identificam a
+\textbf{Evid\^encia computacional.} 324 testes passando, tamb\'em em
+\emph{checkout} limpo do reposit\'orio, com os geradores num\'ericos
+reproduzindo os artefatos byte a byte. As quatro condi\c{c}\~oes que identificam a
 representa\c{c}\~ao do modelo com a forma exata de H3 do artigo --- res\'iduo de
 Coulomb $g_R^2>0$, suporte fora da origem, aus\^encia de constante e momento
 inverso finito --- foram verificadas; as tr\^es primeiras demonstradas, a quarta
@@ -329,9 +340,13 @@ Wilson --- esconde alguma hipótese além da fase de Coulomb?
 \item Fase de Coulomb tem de ser hipótese explícita --- Proca satisfaz os
   axiomas e \emph{não} tem polo de Coulomb ($q_\infty=0$, $\delta$ nem definida).
 \item Isolar canais carregados dos cortes sem massa preservando positividade.
-\item Critério $Z_3$: nota de trabalho, não promovida ao artigo; atribuição em
-  aberto (Brown--Weisberger 1979 não lido; Källén 1952 é clássico).
-\item Nenhum CI remoto executado; nenhuma revisão humana do PDF; nada submetido.
+\item Critério $Z_3$: está no apêndice A do artigo desde a v0.4, mas só para a
+  cadeia de bolhas. O átomo é de Giacosa--Wolkanowski (2012) e o limite
+  $0\le Z_3\le1$ é de Källén (1952). A redução de H3 ao sinal de $Z_3$ eu não
+  achei nas fontes que li, o que não prova que seja nova
+  (Brown--Weisberger 1979 não lido).
+\item O CI remoto roda e passa nos três jobs; mas nenhuma revisão humana do
+  PDF, e nada submetido.
 \end{itemize}
 
 \vspace{2mm}\hrule\vspace{2mm}

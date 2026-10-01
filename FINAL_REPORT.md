@@ -100,6 +100,15 @@ mass, which only the second needs; and the page used 𝒢 and μ without definin
 them, although it is a backup meant to be read alone, and μ means something
 else on page 3.
 
+The author's own study sheets in `output/impressao_professor_2026-09-28/fontes_tex/`
+were stale in ways that would have been said aloud: "no remote CI has run",
+"171 tests" and "211 tests", "the Z₃ criterion is a working note not promoted to
+the paper", an atom error of 2 × 10⁻⁶, and the atom called an artefact of the
+cutoff without crediting Giacosa and Wolkanowski. The reasoning sheet also
+cited "Schilling–Song–Vondraček, Thm 7.3", the very number marked
+`PENDING_VERIFICATION`; it now cites the chapter and says the number is
+unchecked. The speaking sheet gains a line for page 6 of the brief.
+
 ### Tests
 
 `tests/test_text_hygiene.py` fails on any control character in the manuscript,
@@ -162,19 +171,32 @@ statement about the interacting static response.
 
 ## 3. Verification
 
-Run on the final state of the working tree, Windows 11, Python 3.13.7, portable
+Run in a fresh clone of commit `dc0985b`, the last commit of this round before
+this section was written, on Windows 11 with Python 3.13.7 and portable
 Tectonic 0.17.0:
 
 | Command | Result |
 |---|---|
 | `python -m pytest tests -q -rs` | 324 passed, 0 skipped, no warnings (55 of them scan tracked text files for control characters) |
-| `python make.py numerics` | exit 0; no tracked file changed |
+| `python make.py numerics` | exit 0 |
 | `python make.py audit` | exit 0 |
 | `python make.py certified` | exit 0 |
 | `python reproducibility/verify_one_loop_output.py --reintegrate --no-write` | PASS; cardinalities, complete comparison table, certificate-index bijection |
+| `git status` after all of the above | empty |
 | `python make.py pdf` | exit 0; 13 pages, Type0/Type1 fonts only |
-| `python reproducibility/canonical_pdf_qa.py` | PASS for v0.4; `visual_review: NOT_ASSESSED_BY_SCRIPT` |
-| clean `ubuntu:24.04` container, workflow `apt` line | brief fails without `lmodern`, builds with it; final pass clean for both documents |
+| `python reproducibility/canonical_pdf_qa.py` | PASS for v0.4; `visual_review: NOT_ASSESSED_BY_SCRIPT` (needs the `.log`, which `make.py pdf` does not keep under Tectonic; built again with `--keep-logs`) |
+| clean `ubuntu:24.04` container, workflow `apt` line, `paper/` of that clone | `latexmk -pdf` passes for both documents; in the last pass, 0 undefined citations, 0 undefined references, 0 overfull boxes; 13 pages and 6 pages |
+
+The PDF QA record is the one tracked file that does not come back identical. It
+stores the absolute path and SHA-256 of the PDF it inspected, and the SHA-256 of
+each source file as checked out. The committed values are for LF line endings,
+which is what the repository holds and what Linux CI checks out; the Windows
+clone converts to CRLF, so its `paper.tex` hash differs. The README said every
+generator reproduces its output byte for byte; it now names the three that do
+and this exception.
+
+Earlier in the round, before the fix, the same container showed the brief
+failing without `lmodern` with exactly the CI error, and building with it.
 
 The sign-convention test was checked by mutation rather than by reading it:
 flipping the sign inside its `kernel()` makes three of its nine tests fail — the
@@ -225,6 +247,10 @@ The ones that bear on results are also listed in the README.
   date that the other hand-appended records have.
 - A statement in the theorem ledger said H3 holds "iff Z₃ > 0". That is false in
   general: at Z₃ = 0 with infinite mass it holds. Corrected before commit.
+- Two README claims were broader than the facts. "Every bibliography field
+  comes from an API response" ignored the six monographs and the DLMF, entered
+  by hand. "`git status` is empty after running every generator" ignored the PDF
+  QA record. Both now say what is true.
 - The README omitted, in its account of the atom, the condition that the density
   not vanish at the cutoff. Added.
 
