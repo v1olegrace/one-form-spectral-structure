@@ -5,7 +5,7 @@
 A one-form symmetry observable, a positivity hypothesis, and an honest account
 of exactly where the argument holds and where it stops.
 
-Manuscript: [`paper/paper.tex`](paper/paper.tex) — draft **v0.4** ·
+Manuscript: [`paper/paper.tex`](paper/paper.tex) — draft **v0.5** ·
 Research plan: [`ROADMAP_CIENTIFICO.md`](ROADMAP_CIENTIFICO.md) (pt-BR)
 
 ---
@@ -22,8 +22,11 @@ transform of a positive measure, whose support edge is the lowest threshold that
 *couples to this observable* — so standard inverse-spectral tools apply, and
 give upper bounds that descend to that threshold.
 
-**H3 is not proved beyond leading order.** Most of this repository is the work
-of finding out precisely what that costs.
+**H3 is not proved unconditionally.** At linear order in the probe it now
+follows from positivity of the field strength and the Bianchi identity
+(Appendix A, Proposition 7), through classical lemmas not yet checked against
+their sources; beyond linear order it is open. Most of this repository is the
+work of finding out precisely what each of those words costs.
 
 ## Start here
 
@@ -32,7 +35,8 @@ sources below in one command.
 
 | If you want | Read | Build it |
 |---|---|---|
-| The physics, 12 pages | [`paper/paper.tex`](paper/paper.tex) | `python make.py pdf` |
+| The physics, 14 pages | [`paper/paper.tex`](paper/paper.tex) | `python make.py pdf` |
+| How ⟨FF⟩ reaches the static kernel | [`notes/E2c_transport_linear_probe.md`](notes/E2c_transport_linear_probe.md) | `python -m pytest tests/test_e2c_transport.py` |
 | A six-page discussion brief (pt-BR) | [`paper/professor_brief.tex`](paper/professor_brief.tex) | `tectonic paper/professor_brief.tex` |
 | The argument and the mathematics (pt-BR) | [`output/impressao_professor_2026-09-28/fontes_tex/`](output/impressao_professor_2026-09-28/fontes_tex/) | `tectonic raciocinio_e_matematica.tex` |
 | What is proved vs. checked vs. open | [Claim ledger](#claim-ledger) and [Status](#status-be-precise-about-what-is-what) below |
@@ -42,7 +46,7 @@ sources below in one command.
 
 ```bash
 pip install -r requirements.txt
-python make.py test        # 324 tests
+python make.py test        # 352 tests
 python make.py numerics    # regenerate every numerical result
 ```
 
@@ -66,14 +70,16 @@ stated in Appendix A of the paper; the proofs are in
 | Regime | Coulomb pole | Continuum | Timelike atom | Spacelike pole | Constant | H3 (contact-free) |
 |---|---|---|---|---|---|---|
 | **Z₃ > 0** | g²/Q², residue > 0 | dσ ≥ 0 on [4m², Λ²] | **one**, at s_a > Λ², weight > 0 | none | none | **holds** |
-| **Z₃ = 0** | same | same | none | none | 1/μ | **fails** if μ < ∞ |
+| **Z₃ = 0** | same | same | none | none | 1/μ | **fails** if μ < ∞, by a contact term only |
 | **Z₃ < 0** | same | same | none | **one**, residue < 0 | — | **fails** |
 
 Three things are worth stating plainly, because each of them cost a correction:
 
 **H3 is not equivalent to "no ghost".** A spacelike pole obstructs it, but the
 boundary Z₃ = 0 has no pole and H3 can still fail through an additive constant.
-Absence of a pole is *necessary, not sufficient*.
+Absence of a pole is *necessary, not sufficient*. The constant is a contact
+term, supported at r = 0, so the paper's Theorem A still holds on r > 0 there;
+only the literal hypothesis fails. The genuine failure is Z₃ < 0.
 
 **The continuum density stays non-negative for every coupling.** It is
 g⁴ρ/(s|W|²) — ρ divided by a modulus squared. So a moment test on the continuum
@@ -103,6 +109,8 @@ hypothesis with a wide margin.
 | C4 | Hankel pencil B_K ↓ M\* | classical (GEVP / Padé) | Blossier et al.; Masjuan–Peris |
 | C7 | No uniform lower bound on M\* from a finite window | proved; phenomenon known | inverse-Laplace ill-posedness |
 | C8 | Positivity alone cannot fix a WGC scale | proved conditionally | COR 2022; Dvali |
+| C9 | Bubble chain: H3 holds for Z₃ > 0, fails for Z₃ < 0; at Z₃ = 0 only a contact term | proved in the model | Giacosa–Wolkanowski 2012 (atom); Källén |
+| C10 | Linear probe: ⟨FF⟩ positivity + Bianchi with contacts ⟹ H3 on r > 0 | proved conditionally | stochastic vacuum model (D vs D₁) |
 
 Per-claim novelty verdicts: [`data/claims_matrix.csv`](data/claims_matrix.csv).
 C5 and C6 are **not** in the canonical paper — see [`DECISIONS.md`](DECISIONS.md).
@@ -143,12 +151,24 @@ edge distances up to 100 Λ². The 3.3 × 10⁻¹⁴ floor at g²/g²_c = 0.1 is
 intrinsic: the distance there is 3.3 × 10⁻⁴², reached through its logarithm,
 and converting amplifies the error by |log₁₀ d| ln 10 ≈ 95.
 
-**Open, and not close to closed**: H3 beyond leading order for the interacting
-kernel; the transport ⟨FF⟩ → Wilson loop → static kernel (contact terms,
-perimeter renormalisation, T → ∞, the p² = 0 sector); isolating charged channels
-from massless cuts; **originality**, which is not established — Brown–Weisberger
-(1979) is unread behind a paywall and the Schilling–Song–Vondraček theorem
-numbering is unconfirmed (secondary sources disagree).
+**Proved conditionally (new in v0.5)**: the transport ⟨FF⟩ → Wilson loop →
+static kernel at linear order in the probe. Under the Wightman axioms for the
+field strength without locality, the Bianchi identity including coincident
+points, and ∫dμ/(1+s) < ∞, the static potential and the field of a static line
+see ⟨FF⟩ only through a³(r) = ∫dμ(s) e^{−√s r}/(4πr) with μ ≥ 0, which is H3 on
+r > 0. The massless helicity term never reaches either observable, so CPT is
+not needed; what Bianchi at coincident points excludes is the area-law
+structure of the stochastic vacuum model. The T → ∞ rate is 1/T, measured
+against its predicted coefficient. Conditional on two classical lemmas of the
+tensor classification and the Wightman → Schwinger continuation, all unread at
+the level of the statements used.
+
+**Open, and not close to closed**: those lemmas; everything beyond linear
+order in the probe, where light-by-light scattering enters with no sign
+fixed here; isolating charged channels from massless cuts; **originality**,
+which is not established — Brown–Weisberger (1979) is unread behind a paywall,
+the stochastic-vacuum primaries are unread, and the Schilling–Song–Vondraček
+theorem numbering is unconfirmed (secondary sources disagree).
 
 **Continuous integration**: run 36543772146 at `730bdf0` failed in the `paper`
 job with `! LaTeX Error: File 'lmodern.sty' not found`, while `tests`,
@@ -168,7 +188,7 @@ python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\act
 pip install -r requirements.txt
 
 python make.py check       # report available toolchain
-python make.py test        # full suite, 324 tests
+python make.py test        # full suite, 352 tests
 python make.py numerics    # regenerate every numerical result
 python make.py audit       # rebuild audit ledgers
 python make.py pdf         # build paper/paper.pdf (needs a LaTeX engine)
@@ -212,7 +232,7 @@ reports/
   H3_GHOST_ANALYSIS_*.md      the spacelike obstruction, in full
   professor_2026-09-28/       meeting material and its number-checking script
 notes/                    proof notes and working records
-tests/                    324 tests; every one is meant to be able to fail
+tests/                    352 tests; every one is meant to be able to fail
 data/                     literature harvest with provenance, audit ledgers
 output/impressao_*/       print-ready PDFs for a meeting
 manuscript/               author's pt-BR Quarto draft -- NOT canonical, predates v0.2
@@ -240,17 +260,19 @@ These are the practices that make a theory paper's numerics trustworthy.
 6. **Independent references, not self-consistency.** A deviation between two
    sides of an identity measures inconsistency, not error. Precision claims are
    backed by multiprecision arithmetic and an exact closed-form anchor.
-7. **Provenance for literature.** Every field of the 27 articles and preprints
+7. **Provenance for literature.** Every field of the 28 articles and preprints
    comes from an API response recorded in `data/literature_harvest.json`; the
    six monographs and the DLMF, which have no such record, are entered by hand
    in `scripts/build_bibliography.py`. Forbidden sources (wikis, content farms,
    AI summaries) fail the test suite.
-8. **Reproducibility.** Validated in a clean checkout: 324 tests pass, and
+8. **Reproducibility.** Validated in a clean checkout: 352 tests pass, and
    `git status` is empty after `make.py numerics`, `audit` and `certified`, so
    those artefacts are regenerated byte-for-byte from the commit. The PDF QA
    record `output/data/canonical_pdf_qa.json` is the exception by design: it
-   stores the path and hash of the PDF it inspected, and source hashes of the
-   LF checkout that Linux CI uses; a Windows checkout converts line endings.
+   stores the path and hash of the PDF it inspected. Its source hashes must be
+   those of the blobs git stores, which are LF, and
+   `tests/test_pdf_qa_record.py` fails otherwise; generate it from an LF
+   checkout, since a Windows checkout converts line endings.
 
 ## Errors found and corrected, on the record
 
@@ -289,6 +311,11 @@ evidence of anything.
   routes must disagree with the reference by more than with each other. They
   now pin the measured accuracy, and the historical failure is still shown on
   raw QUADPACK, where it belongs.
+- The v0.4 PDF QA record matched the committed source for one file in six. It
+  had been generated in a Windows working copy where some sources had been
+  rewritten with LF and the rest checked out with CRLF, and no test compared it
+  with anything. The v0.5 record comes from an LF clone and matches every blob,
+  and a test now enforces that.
 - `python make.py bib` does not reproduce the committed bibliography. Eight
   cited records came from outside the harvester's seed list, and re-resolving
   shifts some years from publication to preprint (Masjuan–Peris 2010 → 2009).

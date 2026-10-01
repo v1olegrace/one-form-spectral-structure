@@ -1,22 +1,22 @@
 {
   "status": "PASS",
-  "draft": "v0.4",
-  "pages": 13,
-  "pdf": "C:\\Users\\meyy\\Downloads\\physics of all\\output\\pdf\\spectral_structure_v04.pdf",
-  "pdf_sha256": "835f52b31770825cdfbd4d894436a22bb266b2485d869e69aba65ad382802d79",
-  "log_sha256": "60a190957760cef2f8348b87e2a92337cf114e3a6ba905c8b050dec7d668be7f",
+  "draft": "v0.5",
+  "pages": 14,
+  "pdf": "C:\\Users\\meyy\\Downloads\\physics of all\\output\\pdf\\spectral_structure_v05.pdf",
+  "pdf_sha256": "063c63376d871d8df4829a32fcf2875c105802b843cdd7e6a4f0aea14b3c2dd7",
+  "log_sha256": "0b6e22643b1fcbad8262bef8824ac2e023221add490a8682f05b6a5bc62af50a",
   "font_types": [
     "Type0",
     "Type1"
   ],
   "issues": [],
   "source_sha256": {
-    "paper\\paper.tex": "d3a012dc9c35dca82428a027a78d1e08a169e19f707932a1172d5055e11aae78",
-    "paper\\appendix.tex": "f3c54670f1e21ff9a588b0a38dc1bb42914edf6f51fbd64b2991013adf4e6dfe",
-    "paper\\references.bib": "b096258f89fe9117d301a38004483b2ca9d413082c4bc9b8e7838aca609d2933",
-    "paper\\physofall.bst": "bf75bdf569be81ebe5d0074f68f41d96c245086db02a756168219fa749b4e07b",
-    "paper\\figures\\dirac_edge_law.dat": "ec43245ad4e6bdac6cb11f43a8f60d70623cac16dad7f39e5bea8d6fd4652019",
-    "paper\\figures\\hidden_threshold.dat": "d8bc44789cda2065c6fe62cad750c10ed28a704ef6a8f9b704775e2f1d8b17ce"
+    "paper\\paper.tex": "d3bb933c6a23b6e8bce6b1ed6ab35e36cb203d613819a902229eab916c8f7818",
+    "paper\\appendix.tex": "92e92f49f91196dd3780ece911b4657a682399588911691470cc14436dc1a9ab",
+    "paper\\references.bib": "a6baa9fb0635f17a6d353dab18f39274b0a16c9cafbf005ef1e21bc65fc0ba8f",
+    "paper\\physofall.bst": "43614c4d0db7ccbe92ead9edafb146d0a99a934ad098fc5617886d58cdb4bc82",
+    "paper\\figures\\dirac_edge_law.dat": "d6673abf1525d1eb942c547d843b526ab394906609603045c2e3b6cc62f6bbc0",
+    "paper\\figures\\hidden_threshold.dat": "8435829f67d65515a21bd9a1fccb7cad025330e44839ddc3649c576792ab8b7c"
   },
   "visual_review": "NOT_ASSESSED_BY_SCRIPT",
   "scope": "PDF structure and current source inventory; not scientific validation"
