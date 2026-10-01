@@ -121,6 +121,17 @@ committed file has `indent=1` and raw Unicode, and it drops the `added` field.
 A fix needs an arXiv source for records INSPIRE lacks, and a record-by-record
 review of the regenerated bibliography; it is left for a round of its own.
 
+**Wording for a v0.5.1, recorded rather than rebuilt now** (each fix means a
+recompile, a new QA record from an LF clone and new print PDFs):
+- The bullet added to "What is and is not claimed" says Appendix A derives
+  Hypothesis 3 "from positivity of the field strength"; the Bianchi condition
+  at coincident points is only implied, and the bullet sits next to the D6
+  sentence about reflection positivity. Name the condition there.
+- Proposition 7 says $\Gcal$ "satisfies Hypothesis 3", whose display carries
+  the gap $s_*$ of Hypothesis 2. The paragraph after the proposition says the
+  gap is not implied; the proposition itself should say "with $s_*$ the bottom
+  of the support of $\mu|_{(0,\infty)}$, which may be $0$".
+
 **Pending, added in this round.** Read Bochner–Schwartz, the covariant
 disintegration and the Wightman → Schwinger continuation for a two-form field;
 read the stochastic-vacuum primaries and a textbook statement of the static
@@ -288,7 +299,7 @@ v0.4 row), `CITATION.cff` and the README were brought in line.
 | Atom position and weight to machine precision | checked numerically, not certified | §1 table |
 | Continuum-moment tests cannot detect Z₃ < 0 | proved (density formula); demonstrated by a test | appendix A |
 | H3 for the nonperturbative Wilson-loop kernel | open | — |
-| Transport ⟨FF⟩ → Wilson loop → static kernel | open | roadmap E2.5 |
+| Transport ⟨FF⟩ → Wilson loop → static kernel | open as of 29/09; closed conditionally, at linear order in the probe, on 01/10 (§0) | roadmap E2.5, E2.6; note E2c |
 | Irreducible O(g_R⁶) contributions | open | — |
 | Fate of the atom under a smooth regulator (resonance on another sheet) | open; a resonance claim was retracted | note §7-bis |
 | Originality of the Z₃ reduction for this kernel | not established | claims C9 |

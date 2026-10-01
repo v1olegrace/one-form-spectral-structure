@@ -468,6 +468,7 @@ número do texto está coberto por um `assert`.
 | v0.2 | E0 | 21/09/2026 | Build limpo, autoria, números e crossover corrigidos, bibliografia saneada, Figura 1 |
 | v0.3 | Auditoria | 23/09/2026 | Filtro finito com localizador H₁, contraexemplos novos, enunciados com hipóteses explícitas, teto de uma espécie provado no apêndice, cadeia WGC condicional completa, proveniência 40/28 |
 | v0.4 | E2.5 | 29/09/2026 | Cadeia de bolhas ressomada no apêndice A (três regimes de $Z_3$, átomo acima do corte atribuído a Giacosa–Wolkanowski), limitação dos testes de momentos no texto principal, dualidade Stieltjes/Bernstein citada |
+| v0.5 | E2.6 | 01/10/2026 | Proposição 7 no apêndice A: transporte ⟨FF⟩ → kernel estático em ordem linear na sonda, condicional aos lemas de E2b; estrutura de lei de área creditada ao vácuo estocástico (Di Giacomo et al. 2002); constante de $Z_3=0$ identificada como termo de contato; 14 páginas; registro de QA gerado de um clone LF e conferido por teste |
 
 O PDF entregue da v0.3 é `output/pdf/spectral_structure_v03.pdf` (12 páginas,
 compilado com Tectonic 0.17.0 portátil). Esse diretório é gitignored: o PDF
