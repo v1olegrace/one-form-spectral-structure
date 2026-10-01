@@ -393,5 +393,20 @@
   "key": "giacosa_wolkanowski_2012",
   "seed_query": "arxiv:1209.2332",
   "added": "2026-09-29"
+ },
+ {
+  "title": "Field correlators in QCD: Theory and applications",
+  "authors": "Di Giacomo, A.; Dosch, Hans Gunter; Shevchenko, V.I.; Simonov, Yu.A.",
+  "year": "2002",
+  "journal": "Phys.Rept.",
+  "volume": "372",
+  "pages": "319",
+  "doi": "10.1016/S0370-1573(02)00140-0",
+  "arxiv": "hep-ph/0007223",
+  "inspire_id": "530561",
+  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"crossref\", \"journal\": \"inspire\", \"volume\": \"inspire\", \"pages\": \"inspire\", \"doi\": \"inspire\", \"arxiv\": \"inspire\", \"inspire_id\": \"inspire\"}",
+  "key": "di_giacomo_dosch_shevchenko_simonov_2002",
+  "seed_query": "arxiv:hep-ph/0007223",
+  "added": "2026-10-01"
  }
 ]

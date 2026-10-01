@@ -1,5 +1,41 @@
 # Changelog do manuscrito (`paper/paper.tex`)
 
+## v0.5 — 2026-10-01 — Do ⟨FF⟩ ao kernel estático, em ordem linear na sonda
+
+O artigo mudou; o PDF canônico e o registro em
+`output/data/canonical_pdf_qa.json` foram refeitos para a v0.5.
+
+- **Apêndice A, Proposição 7 (nova).** Em ordem linear na carga da sonda, o
+  potencial estático do laço de Wilson e o campo de uma linha estática dependem
+  de ⟨FF⟩ só através de $a^{(3)}(r)=\int d\mu(s)\,e^{-\sqrt s r}/(4\pi r)$, com
+  $\mu\ge0$ a medida de Källén–Lehmann de ⟨FF⟩. Em $r>0$ isso dá as Hipóteses 3
+  e 5, com $g_R^2=\mu(\{0\})$, a menos de um polinômio de contato. As hipóteses
+  usadas são de $F$, não de um propagador de gauge: Wightman sem localidade,
+  Bianchi incluindo pontos coincidentes e $\int d\mu/(1+s)<\infty$. A prova
+  completa e 24 testes estão em `notes/E2c_transport_linear_probe.md` e
+  `tests/test_e2c_transport.py`; o apêndice traz o esboço.
+- **As Hipóteses 3 e 5 continuam hipóteses.** A classificação de ⟨FF⟩ usa
+  Bochner–Schwartz e uma desintegração covariante que ainda não foram conferidas
+  nas fontes primárias. O texto diz isso onde a proposição é anunciada.
+- **O que Bianchi nos pontos coincidentes exclui** é a estrutura local
+  $\delta\delta-\delta\delta$, que dá lei de área. É a função $D$ do modelo do
+  vácuo estocástico, creditada a Di Giacomo, Dosch, Shevchenko e Simonov
+  (Phys. Rept. 372, 2002), lida nas seções 2.1, 3.1, 3.2 e 4.2. A entrada veio
+  do INSPIRE, com o ano de publicação (2002) do Crossref, porque o INSPIRE dava
+  o ano do preprint.
+- **Cadeia de bolhas em $Z_3=0$.** A constante $1/\mu$ é um termo de contato,
+  suportado em $r=0$: a conclusão do Teorema A em $r>0$ sobrevive, e só a H3
+  literal falha. A falha genuína é $Z_3<0$, que nenhuma medida positiva em
+  $[0,\infty)$ produz.
+- **Texto principal.** A lista "What is and is not claimed" ganha o item sobre
+  o vácuo estocástico; o parágrafo depois das hipóteses anuncia a Proposição 7
+  com suas ressalvas; a discussão troca "estabelecer H3 além da ordem líder"
+  por conferir os lemas e ir além da ordem linear na sonda, onde entra o
+  espalhamento luz-luz.
+
+Não mudou: teoremas A, C, E e H, a frase sobre positividade de reflexão
+(decisão D6) e o fato de que nada se afirma em $O(q_W^4)$.
+
 ## v0.4 — 2026-09-29 — A cadeia de bolhas ressomada entra no apêndice
 
 O artigo mudou nesta versão, ao contrário da v0.3a. O PDF canônico precisa ser

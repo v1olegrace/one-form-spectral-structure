@@ -68,6 +68,12 @@ SEEDS = [
     # in full text (HTML) on 2026-09-29; cited as prior art for the atom
     # above the hard cutoff in the resummed bubble chain.
     ("giacosa_wolkanowski_2012", "arxiv", "1209.2332"),
+    # Field-strength correlators: the split into D (Bianchi-violating, string
+    # tension) and D1 (Bianchi-compatible, perimeter and potential), and D = 0
+    # in abelian theories without monopoles. Read in full text (sections 2.1,
+    # 3.1, 3.2, 4.2) on 2026-10-01; cited for the area-law structure that
+    # Bianchi on the T-product excludes in the linear-probe transport.
+    ("di_giacomo_dosch_shevchenko_simonov_2002", "arxiv", "hep-ph/0007223"),
 ]
 
 
