@@ -5,32 +5,67 @@ Working note, 1 October 2026. Roadmap obligation 2 of E2.4 (O2 of D5 in
 the Wilson loop, with the tensor projection, the sign, the contact terms, the
 perimeter and the limit T → ∞ each accounted for.
 
-**Status.** Proved here, conditionally on the classification of note E2b
-(`notes/E2b_tensor_classification.tex`), whose measure-theoretic lemmas
-(Bochner–Schwartz; covariant disintegration over orbits) and the continuation
-from Wightman to Schwinger functions have not been checked against primary
-sources. Every algebraic and numerical step is machine-checked in
-`tests/test_e2c_transport.py` (Section 9). Nothing here concerns the nonlinear
-probe, the nonabelian theory, or the existence of four-dimensional QED.
+**Status.** Proved here, conditionally on a positive Euclidean spectral
+representation of ⟨FF⟩, hypothesis (E) below. Note E2b
+(`notes/E2b_tensor_classification.tex`) derives (E) from the Wightman axioms
+only through two measure-theoretic lemmas (Bochner–Schwartz; covariant
+disintegration over orbits) and the continuation from Wightman to Schwinger
+functions, none of which has been checked against primary sources; until they
+are, (E) is a premise, not a consequence. The algebraic identities and the
+numerical steps listed in Section 9 are machine-checked in
+`tests/test_e2c_transport.py`; the distributional steps (restriction to the
+rectangle and to the half-plane, the product $\delta(p_0)/p_1$) are not.
+Nothing here concerns the probe beyond the quadratic cumulant, the nonabelian
+theory, or the existence of four-dimensional QED.
+
+**Corrections of 3 October 2026**, after the audit of 2 October
+(`reports/AUDITORIA_SEVERA_E2C_2026-10-02.md`), each checked by computation
+before it was applied:
+
+1. The boundary display of Lemma 2 carried a spurious factor 2 on both
+   bilateral integrals. The code, $C(r)$ and every number in Section 9 always
+   used the correct coefficient, so no measured value changes.
+2. The rate of Proposition 3 holds at fixed regulator and carries $q_W^2$:
+   $q_W^2C_\varepsilon(r)/T$. $C_\varepsilon$ has no limit as $\varepsilon\to0$
+   (Section 4). The audit's asymptotic coefficient $r/(2\pi^2\sqrt\varepsilon)$
+   is itself wrong; the exact one is $\sqrt\pi\,r/(4\pi^2\sqrt\varepsilon)$,
+   and the other term diverges logarithmically rather than staying finite.
+3. The area term from a local contact $c\,G$ has a slope that diverges like
+   $1/\varepsilon$: a regulated contact, not a finite string tension, and not
+   the nonlocal function $D$ of the stochastic vacuum model (Sections 7, 8).
+4. The Euclidean representation is now hypothesis (E), stated, not derived.
+5. The output is a positive Stieltjes kernel; it is the paper's Hypothesis 3
+   only with the Coulomb weight $\mu(\{0\})>0$, and the gap of Hypothesis 2 is
+   a further, separate input.
+6. "Linear order" means truncation at the quadratic cumulant. The cubic
+   cumulant vanishes only if the state is charge-conjugation invariant; the
+   connected four-field cumulant is $O(q_W^4)$, and calling it light-by-light
+   presupposes the dynamics.
 
 ## 0. The result in one paragraph
 
-Let $F$ be a two-form field obeying the Wightman axioms W1–W3 (no locality, no
-CPT, no parity), the Bianchi identity at separated points (B), and the Bianchi
-identity in the Euclidean two-point function *including coincident points*
-(B<sub>T</sub>). Then, at linear order in the probe charge (L), both the static
-potential of a Wilson loop and the field of a static line depend on the
-two-point function only through
-$$a^{(3)}(r)=\int_{[0,\infty)}d\mu(s)\,\frac{e^{-\sqrt s\,r}}{4\pi r},\qquad \mu\ge0 ,$$
-where $\mu$ is the Källén–Lehmann measure of ⟨FF⟩ from E2b. For $r>0$ this is
-Hypothesis 3 of the paper, with $g_R^2=\mu(\{0\})$ and $\sigma=\mu|_{(0,\infty)}$,
-up to a contact polynomial that does not reach $r>0$; it also gives the
-linear-response relation of Hypothesis 5. The massless helicity term that E2b
-could remove only through CPT never reaches either observable. What
-(B<sub>T</sub>) excludes is the local structure $G=\delta\delta-\delta\delta$,
-which produces an area law; that mechanism is the stochastic vacuum model's
-(Section 8). The Coulomb phase $\mu(\{0\})>0$ and the gap of Hypothesis 2 are
-not implied.
+Let the Euclidean two-point function of a two-form field $F$ have the positive
+spectral form (E) of Section 1, with Källén–Lehmann measure $\mu\ge0$; E2b
+obtains this form from the Wightman axioms W1–W3 (no locality, no CPT, no
+parity) through steps not yet checked, so here it is assumed. Let it satisfy
+the Bianchi identity *including coincident points* (B<sub>T</sub>) and
+$\int d\mu/(1+s)<\infty$ (I). Then, truncating at the quadratic cumulant in the
+probe charge (L), both the static potential of a Wilson loop and the field of
+a static line depend on the two-point function only through
+$$a^{(3)}(r)=\int_{[0,\infty)}d\mu(s)\,\frac{e^{-\sqrt s\,r}}{4\pi r},\qquad \mu\ge0 .$$
+For $r>0$ the static kernel is therefore the positive Stieltjes function
+$\int d\mu(s)/(Q^2+s)$, up to a contact polynomial that does not reach $r>0$,
+and the linear-response relation of Hypothesis 5 holds. This is Hypothesis 3
+of the paper, with $g_R^2=\mu(\{0\})$, $\sigma=\mu|_{(0,\infty)}$ and
+$s_*=\inf\operatorname{supp}\sigma$, only when the Coulomb weight
+$\mu(\{0\})$ is positive; $s_*$ may be $0$, and the gap $s_*>0$ of
+Hypothesis 2 is not implied. The massless helicity term that E2b could remove
+only through CPT never reaches either observable. What (B<sub>T</sub>)
+excludes is the local structure $G=\delta\delta-\delta\delta$; a contact
+$c\,G$ gives an area term whose regulated coefficient diverges as the
+regulator is removed, so it is not a finite string tension. The same tensor
+structure multiplies the function $D$ of the stochastic vacuum model
+(Section 8), but a local contact is not that nonlocal function.
 
 ## 1. Setting
 
@@ -46,7 +81,13 @@ $\epsilon\epsilon pp = p^2G-T^E$.
 - **(W)** W1–W3 of E2b for $F$: covariance, spectral condition, positive
   Hilbert space. Not W4 (locality), so not CPT. E2b then gives the Wightman
   function as $\int d\mu(s)\,\delta(p^2-s)\,(-T)$ with $\mu\ge0$, plus a possible
-  massless helicity term $i\alpha'T^\star$ on the cone with $\alpha\ge|\alpha'|$.
+  massless helicity term $i\alpha'T^\star$ on the cone with $\alpha\ge|\alpha'|$,
+  through the two unchecked lemmas named in the status paragraph.
+- **(E)** The Euclidean two-point function, away from coincident points, is
+  $S(p)=T^E(p)\,a(p^2)$ plus the helicity term, with $a(p^2)=\int d\mu(s)/(p^2+s)$
+  and the same $\mu\ge0$. This is what the arguments below use. Passing from
+  (W) to (E) is the Wightman → Schwinger continuation; without locality we have
+  not located a source that establishes it for this field, so (E) is a premise.
 - **(B)** The Bianchi identity at separated points, as in E2b; it removes the
   massive dual structure. It is implied by (B<sub>T</sub>) below.
 - **(I)** $\int d\mu(s)/(1+s)<\infty$. This is the integrability clause of the
@@ -57,12 +98,14 @@ $\epsilon\epsilon pp = p^2G-T^E$.
   of E2b, its local part is then $q(p^2)\,T^E(p)$ with $q$ a polynomial; $G$ and
   $\epsilon$ are excluded. When the probe is a Wilson loop of a potential with
   $F=dA$, (B<sub>T</sub>) holds identically.
-- **(L)** Linear probe: the static potential is taken from the $O(q_W^2)$
-  cumulant, the field of the line from its $O(q_W)$ term.
+- **(L)** Linear probe: the static potential is taken from the quadratic
+  cumulant of $\log\langle\mathcal W\rangle$, the field of the line from its
+  $O(q_W)$ term. The next connected cumulant is cubic; it vanishes if the state
+  is charge-conjugation invariant, and otherwise enters at $O(q_W^3)$.
 - **(C)** Coulomb phase: $\mu(\{0\})>0$. Used only for the profile, not for the
   representation.
 
-Under (W), the Euclidean two-point function away from coincident points is
+Under (E), the Euclidean two-point function away from coincident points is
 $$S(p)=T^E(p)\,a(p^2)+\text{helicity term},\qquad a(p^2)=\int\frac{d\mu(s)}{p^2+s}.$$
 
 **Sign anchor.** Free Proca of mass $m$ is a positive Wightman theory with
@@ -107,8 +150,21 @@ $|\tilde\Sigma(p_0,p_1)|^2=f_T(p_0)f_r(p_1)/(p_0^2p_1^2)$, and
 $$|\tilde\Sigma|^2\,(p_0^2+p_1^2)=\frac{f_T(p_0)}{p_0^2}f_r(p_1)+f_T(p_0)\frac{f_r(p_1)}{p_1^2},$$
 and the right side is $|\oint dx^0e^{ipx}|^2+|\oint dx^1e^{ipx}|^2$ around the
 boundary. So for $S=T^Ea$ the surface cumulant equals the Feynman-gauge line
-cumulant $\tfrac12\oint\oint dx\cdot dy\,a(x-y)$. Only parallel sides contribute:
-$$\tfrac12\oint\oint=2\int_{-T}^{T}\!du\,(T-|u|)\,[a(u,0)-a(u,r)]+2\int_{-r}^{r}\!dv\,(r-|v|)\,[a(0,v)-a(T,v)].$$
+cumulant $\tfrac12\oint\oint dx\cdot dy\,a(x-y)$. Only parallel sides contribute.
+For the two time-like sides, the two self-terms and the two cross-terms (with
+opposite orientation) give $2\int_{-T}^{T}du\,(T-|u|)[a(u,0)-a(u,r)]$ before the
+overall $\tfrac12$; the space-like sides likewise. Hence
+$$\tfrac12\oint\oint=\int_{-T}^{T}\!du\,(T-|u|)\,[a(u,0)-a(u,r)]+\int_{-r}^{r}\!dv\,(r-|v|)\,[a(0,v)-a(T,v)],$$
+or, by parity, $2\int_0^T(T-u)[\dots]\,du+2\int_0^r(r-v)[\dots]\,dv$.
+
+*Correction (3 October).* The display printed here on 1 October had a factor 2
+in front of each bilateral integral. Taken literally it gives twice the
+surface cumulant: for $a(\rho)=e^{-\rho^2}$, $T=2$, $r=0.7$, the surface
+integral and the code both give $1.4317802$, the old display $2.8635604$.
+The test compared the surface integral with the code, not with the printed
+display, so it could not see the error; a test of the display itself now
+does. Nothing downstream changes: $C(r)$ and the tables of Section 9 come
+from the code.
 
 ## 4. The static limit
 
@@ -116,12 +172,15 @@ Regulate by heat-kernel smearing, $\hat a_\varepsilon(p^2)=e^{-\varepsilon p^2}a
 which keeps the sign of every Fourier mode and makes $\hat a_\varepsilon\in L^1(\mathbb R^4)$
 under (I). Let $V_T(r)=-T^{-1}\log\langle\mathcal W\rangle$ at $O(q_W^2)$.
 
-**Proposition 3.** $\lim_{T\to\infty}V_T(r)=q_W^2\,[a^{(3)}_\varepsilon(0)-a^{(3)}_\varepsilon(r)]$,
+**Proposition 3.** At fixed $\varepsilon>0$,
+$\lim_{T\to\infty}V_{T,\varepsilon}(r)=q_W^2\,[a^{(3)}_\varepsilon(0)-a^{(3)}_\varepsilon(r)]$,
 with $a^{(3)}_\varepsilon(\mathbf r)=\int dt\,a_\varepsilon(t,\mathbf r)$, and
-$$V_T(r)-V_\infty(r)=\frac{C(r)}{T}+o(1/T),\qquad
-C(r)=-2\!\int_0^\infty\!u\,[a(u)-a(\sqrt{u^2+r^2})]\,du+2\!\int_0^r\!(r-v)\,a(v)\,dv .$$
+$$V_{T,\varepsilon}(r)-V_{\infty,\varepsilon}(r)=\frac{q_W^2\,C_\varepsilon(r)}{T}+o_\varepsilon(1/T),\qquad
+C_\varepsilon(r)=-2\!\int_0^\infty\!u\,[a_\varepsilon(u)-a_\varepsilon(\sqrt{u^2+r^2})]\,du+2\!\int_0^r\!(r-v)\,a_\varepsilon(v)\,dv .$$
 As $\varepsilon\to0$, $a^{(3)}_\varepsilon(r)\to a^{(3)}(r)=\int d\mu(s)e^{-\sqrt sr}/(4\pi r)$
-for every $r>0$, so $V(r)-V(r_0)=-q_W^2[a^{(3)}(r)-a^{(3)}(r_0)]$.
+for every $r>0$, so $V(r)-V(r_0)=-q_W^2[a^{(3)}(r)-a^{(3)}(r_0)]$. The order of
+limits is $T\to\infty$ first, then $\varepsilon\to0$; the rate is not uniform
+in $\varepsilon$ (below).
 
 *Proof.* By Lemma 2 the cumulant splits into the two terms of the display.
 In the first, $f_T(p_0)/(Tp_0^2)$ is $2\pi$ times the Fejér kernel, an
@@ -149,6 +208,22 @@ bracket the tails cancel, and $T\,(V_T-V_\infty)$ converges to the predicted
 $C(r)$ (table in Section 9). With a gap and no Coulomb weight it is constant to
 six significant digits already at $T=10$.
 
+**The rate does not survive removing the regulator.** For the pure Coulomb
+measure $\mu=\delta_0$ the regulated kernel is
+$a_\varepsilon(\rho)=(1-e^{-\rho^2/4\varepsilon})/(4\pi^2\rho^2)$, and both
+integrals in $C_\varepsilon$ can be expanded. With
+$\int_0^X(1-e^{-x^2})x^{-2}dx=\sqrt\pi-1/X+\dots$ and
+$\int_0^X(1-e^{-x^2})x^{-1}dx=\ln X+\gamma_E/2+\dots$,
+$$C_\varepsilon(r)=\frac{\sqrt\pi\,r}{4\pi^2\sqrt\varepsilon}
+-\frac{1}{\pi^2}\Bigl[\ln\frac{r}{2\sqrt\varepsilon}+\frac{\gamma_E}{2}+\frac12\Bigr]+o(1).$$
+The first integral contributes $-\tfrac{1}{2\pi^2}[\ln(r/2\sqrt\varepsilon)+\gamma_E/2]$
+and diverges logarithmically; the second carries the $1/\sqrt\varepsilon$ term.
+At $r=1$ the expansion reproduces the computed values to five decimals:
+$C_{10^{-2}}=0.20599$, $C_{10^{-3}}=1.06014$, $C_{10^{-4}}=4.01340$,
+$C_{10^{-5}}=13.60468$. So the $1/T$ rate is a statement at fixed regulator.
+The limit $V_\infty$ itself is unaffected: the divergent pieces sit in
+$a^{(3)}_\varepsilon(0)$, which is $r$-independent and drops from $V(r)-V(r_0)$.
+
 ## 5. The field of a static line
 
 **Proposition 4.** At $O(q_W)$ the field of a static line through the origin is
@@ -166,40 +241,60 @@ proportional to $p_0$ and is removed by $\delta(p_0)$. The sphere flux of
 $-\nabla a^{(3)}$ is $-4\pi r^2\,\partial_ra^{(3)}$, and
 $-4\pi r^2\partial_r[e^{-\sqrt sr}/(4\pi r)]=(1+\sqrt sr)e^{-\sqrt sr}$. ∎
 
+*Scope of this proof.* The infinite half-plane is handled formally: the
+product of $\delta(p_0)/(p_1-i0)$ with $p_1p_i\hat a$, and the replacement
+$p_1/(p_1-i0)=1$, must be defined as a distribution against a specified class
+of test functions. With the heat-kernel regulator the integrand is smooth and
+the step goes through; for a general tempered $\mu$ it is not proved here, nor
+is the independence of the half-plane for general distributions.
+
 Under (B<sub>T</sub>) violated, the $G$ component $\delta_{i1}/(ip_1)$ is not a
 gradient: it is a field concentrated on the auxiliary half-plane, a flux sheet
 whose position depends on an arbitrary choice.
 
 ## 6. Theorem
 
-**Theorem E2c.** Assume (W), (I), (B<sub>T</sub>) and (L). For every $r>0$:
+**Theorem E2c.** Assume (E), (I), (B<sub>T</sub>) and (L). For every $r>0$:
 
 1. $V(r)-V(r_0)=-q_W^2\,[a^{(3)}(r)-a^{(3)}(r_0)]$ with
    $a^{(3)}(r)=\int d\mu(s)\,e^{-\sqrt s\,r}/(4\pi r)$ and $\mu\ge0$;
 2. the field of a static line is $-q_W\nabla a^{(3)}$ up to normalisation, so the
    linear-response relation of Hypothesis 5 holds with
    $\mathcal G(Q^2)=\int d\mu(s)/(Q^2+s)$ plus a polynomial;
-3. under (C), Hypothesis 3 holds on $r>0$ with $g_R^2=\mu(\{0\})$ and
-   $d\sigma=d\mu|_{(0,\infty)}$, and Theorem A of the paper follows.
+3. under (C), Hypothesis 3 holds on $r>0$ with $g_R^2=\mu(\{0\})$,
+   $d\sigma=d\mu|_{(0,\infty)}$ and $s_*=\inf\operatorname{supp}\sigma$, which may
+   be $0$. The Laplace representation of Theorem A follows, with
+   $M_*=\sqrt{s_*}$ possibly zero: $q_\infty=q_W$ needs only dominated
+   convergence under (I), not the gap.
 
 Not used: locality W4, CPT, parity, $F=dA$, Maxwell's equations, a gauge
-choice. Not implied: the gap of Hypothesis 2, the Coulomb phase, anything at
-$O(q_W^4)$.
+choice. Used, and not derived here: (E), so the Wightman → Schwinger step.
+Not implied: the gap of Hypothesis 2, the Coulomb phase, anything beyond the
+quadratic cumulant.
 
 ## 7. What fails without each hypothesis
 
 - **Without (B<sub>T</sub>)**, the local term $c\,G$ survives. For the loop it
   adds $\tfrac12q_W^2c\,\mathrm{Area}\times\delta^2_\perp(0)$, regulated
-  $q_W^2c\,r/(8\pi\varepsilon)$: a linear potential, an area law. For the line it
-  is the flux sheet of Section 5. Checked numerically, including the exact
-  finite-$T$ correction $-\sqrt{\pi\varepsilon}/(4\pi^2\varepsilon T)$ to the slope.
+  $q_W^2c\,r/(8\pi\varepsilon)$: at fixed regulator a linear potential, an area
+  term. Its slope $\sigma_\varepsilon=q_W^2c/(8\pi\varepsilon)$ diverges as the
+  regulator is removed (measured: halving $\varepsilon$ doubles it), so a local
+  contact does not produce a finite string tension; it is a regulated contact.
+  For the line it is the flux sheet of Section 5. Checked numerically,
+  including the exact finite-$T$ correction
+  $-\sqrt{\pi\varepsilon}/(4\pi^2\varepsilon T)$ to the slope.
 - **Without (B) at separated points** (magnetic sources), the massive dual
-  structure survives; since it equals $p^2G-T^E$, it is again a $G$-type,
-  area-law term. The separated-point version is the same mechanism.
+  structure survives; since it equals $p^2G-T^E$, it carries the $G$ tensor
+  structure with a nonlocal coefficient. Whether that gives a finite area law
+  depends on the coefficient function, which is what the stochastic vacuum
+  model's $D(x^2)$ parametrises; it is not computed here.
 - **Without (C)**, e.g. free Proca, $\mu(\{0\})=0$, $q_\infty=0$, and the profile
   is undefined. This is obligation O1 of D5, unchanged.
-- **Without (L)**, the $O(q_W^4)$ cumulant (light-by-light) enters. Nothing
-  here constrains its sign.
+- **Without (L)**, the cumulant expansion continues: a connected cubic
+  cumulant at $O(q_W^3)$, absent in a charge-conjugation-invariant state, and
+  the connected four-field cumulant at $O(q_W^4)$. Identifying the latter with
+  light-by-light scattering is a statement about the dynamics, not made here.
+  Nothing here constrains its sign.
 - **Nonabelian:** $F$ is not gauge invariant and the abelian Stokes step fails.
 
 ## 8. Prior work, and what is not claimed
@@ -222,7 +317,11 @@ applications*, Phys. Rept. 372 (2002) 319, arXiv:hep-ph/0007223:
 
 So the split into a Bianchi-violating part that confines and a
 Bianchi-compatible part that does not, and the potential from the latter, are
-the stochastic vacuum model's. The primary papers cited there — Dosch, Phys.
+the stochastic vacuum model's. The comparison is structural only. There
+$D(x^2)$ is a nonlocal function with a finite correlation length, and that is
+what makes $\sigma=\tfrac12\int d^2x\,D$ finite; the local contact
+$c\,G\,\delta^{(4)}$ of Section 7 shares the tensor structure but has a
+divergent area coefficient, and is not identified with $D$. The primary papers cited there — Dosch, Phys.
 Lett. B 190 (1987) 177; Dosch and Simonov, Phys. Lett. B 205 (1988) 339;
 Simonov, Nucl. Phys. B 307 (1988) 512; Simonov, Sov. J. Nucl. Phys. 50 (1989)
 134 — have **not** been read.
@@ -241,7 +340,7 @@ primaries are unread.
 
 ## 9. Machine verification
 
-`tests/test_e2c_transport.py`, 24 tests, with the routines in
+`tests/test_e2c_transport.py`, 28 tests, with the routines in
 `reproducibility/transport_linear_probe.py`:
 
 | step | check | result |
@@ -250,16 +349,19 @@ primaries are unread.
 | Lemma 1 | the table of Section 2 | exact (sympy) |
 | Lemma 2 | surface form against the explicit boundary integrals | exact (sympy) |
 | Lemma 2, numerically | $\tfrac12\int_R\int_RS_{01,01}$ against $\tfrac12\oint\oint a$, two measures and a Gaussian | agree to $\le4\times10^{-16}$ |
+| Lemma 2, the printed display | the bilateral display of Section 3, coded literally, against the surface integral; the 1 October version | equal to $10^{-10}$; old version off by exactly 2 |
 | the check can fail | $a''$ alone in place of the in-plane Laplacian | off by > 10% |
 | Fourier slice | $\int dt\,\Delta_s=e^{-\sqrt sr}/(4\pi r)$, $s\in\{0,\tfrac14,1,9\}$, $r\in\{0.3,1,4\}$ | $\le2.2\times10^{-16}$ |
 | regulator | $a^{(3)}_\varepsilon/\text{Yukawa}=e^{\varepsilon s}$ for $r\gg\sqrt\varepsilon$ | $<10^{-9}$ |
-| Proposition 3 | $T(V_T-V_\infty)\to C(r)$, predicted $C$ | $160\,(V_{160}-V_\infty)/C=1$ to $10^{-4}$ |
+| Proposition 3 | $T(V_T-V_\infty)\to q_W^2C_\varepsilon(r)$ at fixed $\varepsilon$, $q_W^2=1$ and $2.5$ | $160\,(V_{160}-V_\infty)/(q_W^2C_\varepsilon)=1$ to $10^{-4}$ |
+| no uniform rate | $C_\varepsilon(r)$ for $\mu=\delta_0$, $r\in\{0.5,1\}$, $\varepsilon=10^{-2},10^{-3},10^{-4}$, against the expansion of Section 4 | $<10^{-4}$; the coefficient $1/(2\pi^2)$ fails |
 | Proposition 4 | $-4\pi r^2\partial_ra^{(3)}$ against the closed form | $<10^{-7}$ |
 | Section 7 | slope of the $G$ term at $T=60$ | $3.971391$ predicted and measured |
+| Section 7, divergence | the same slope at $\varepsilon=0.005$ | $7.947165$, twice the slope at $0.01$ to $2\times10^{-3}$ |
 
-Measured rates ($\varepsilon=0.02$, $q_W=1$), $T\,(V_T-V_\infty)$:
+Measured rates ($\varepsilon=0.02$ fixed, $q_W=1$), $T\,(V_T-V_\infty)$:
 
-| measure | $r$ | $T=10$ | $40$ | $160$ | $320$ | predicted $C(r)$ |
+| measure | $r$ | $T=10$ | $40$ | $160$ | $320$ | predicted $C_\varepsilon(r)$ |
 |---|---|---|---|---|---|---|
 | $\delta_0$ | 0.5 | 0.0207551 | 0.0207947 | 0.0207971 | 0.0207972 | — |
 | $0.6\,\delta_0+0.4\,\delta_1$ | 0.5 | 0.0205589 | 0.0205827 | 0.0205841 | 0.0205842 | 0.0205842 |
@@ -270,10 +372,15 @@ Measured rates ($\varepsilon=0.02$, $q_W=1$), $T\,(V_T-V_\infty)$:
 
 1. Read Bochner–Schwartz, the covariant disintegration, and the Wightman →
    Schwinger continuation for a two-form generalized free field, at the level
-   of the statements used (E2b's TO READ list minus CPT).
+   of the statements used (E2b's TO READ list minus CPT). Until then (E) is a
+   premise; without locality we have no source for the continuation.
 2. Read the SVM primaries and a textbook statement of the dispersive static
    potential; settle attribution.
-3. The general tempered case without (I): subtractions add polynomials, which
-   should still not reach $r>0$; not proved here.
-4. $O(q_W^4)$: the sign of the light-by-light contribution to the static
-   potential (roadmap E2.3f). This is where the real open question now sits.
+3. The general tempered case without (I), and the distributional steps for a
+   general $\mu$ (half-plane product, independence of the spanning surface):
+   subtractions add polynomials, which should still not reach $r>0$; not
+   proved here.
+4. Beyond the quadratic cumulant: the cubic cumulant (zero under charge
+   conjugation) and the sign of the connected four-field cumulant's
+   contribution to the static potential, which in QED is light-by-light
+   scattering (roadmap E2.3f). This is where the real open question now sits.

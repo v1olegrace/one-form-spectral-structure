@@ -5,7 +5,7 @@
 A one-form symmetry observable, a positivity hypothesis, and an honest account
 of exactly where the argument holds and where it stops.
 
-Manuscript: [`paper/paper.tex`](paper/paper.tex) — draft **v0.5** ·
+Manuscript: [`paper/paper.tex`](paper/paper.tex) — draft **v0.5.1** ·
 Research plan: [`ROADMAP_CIENTIFICO.md`](ROADMAP_CIENTIFICO.md) (pt-BR)
 
 ---
@@ -22,11 +22,14 @@ transform of a positive measure, whose support edge is the lowest threshold that
 *couples to this observable* — so standard inverse-spectral tools apply, and
 give upper bounds that descend to that threshold.
 
-**H3 is not proved unconditionally.** At linear order in the probe it now
-follows from positivity of the field strength and the Bianchi identity
-(Appendix A, Proposition 7), through classical lemmas not yet checked against
-their sources; beyond linear order it is open. Most of this repository is the
-work of finding out precisely what each of those words costs.
+**H3 is not proved unconditionally.** At linear order in the probe, the static
+kernel inherits a positive Stieltjes form from an *assumed* positive Euclidean
+spectral representation of ⟨FF⟩ obeying the Bianchi identity at coincident
+points (Appendix A, Proposition 7). That is H3 only with a Coulomb weight, and
+the gap is a separate input. Deriving the representation from the Wightman
+axioms needs lemmas and a continuation not yet checked against their sources;
+beyond the quadratic cumulant it is open. Most of this repository is the work
+of finding out precisely what each of those words costs.
 
 ## Start here
 
@@ -46,7 +49,7 @@ sources below in one command.
 
 ```bash
 pip install -r requirements.txt
-python make.py test        # 352 tests
+python make.py test        # 357 tests
 python make.py numerics    # regenerate every numerical result
 ```
 
@@ -110,7 +113,7 @@ hypothesis with a wide margin.
 | C7 | No uniform lower bound on M\* from a finite window | proved; phenomenon known | inverse-Laplace ill-posedness |
 | C8 | Positivity alone cannot fix a WGC scale | proved conditionally | COR 2022; Dvali |
 | C9 | Bubble chain: H3 holds for Z₃ > 0, fails for Z₃ < 0; at Z₃ = 0 only a contact term | proved in the model | Giacosa–Wolkanowski 2012 (atom); Källén |
-| C10 | Linear probe: ⟨FF⟩ positivity + Bianchi with contacts ⟹ H3 on r > 0 | proved conditionally | stochastic vacuum model (D vs D₁) |
+| C10 | Linear probe: positive Euclidean ⟨FF⟩ + Bianchi with contacts ⟹ positive Stieltjes kernel on r > 0 (H3 with a Coulomb weight) | proved conditionally | stochastic vacuum model (tensor split D vs D₁) |
 
 Per-claim novelty verdicts: [`data/claims_matrix.csv`](data/claims_matrix.csv).
 C5 and C6 are **not** in the canonical paper — see [`DECISIONS.md`](DECISIONS.md).
@@ -151,20 +154,27 @@ edge distances up to 100 Λ². The 3.3 × 10⁻¹⁴ floor at g²/g²_c = 0.1 is
 intrinsic: the distance there is 3.3 × 10⁻⁴², reached through its logarithm,
 and converting amplifies the error by |log₁₀ d| ln 10 ≈ 95.
 
-**Proved conditionally (new in v0.5)**: the transport ⟨FF⟩ → Wilson loop →
-static kernel at linear order in the probe. Under the Wightman axioms for the
-field strength without locality, the Bianchi identity including coincident
-points, and ∫dμ/(1+s) < ∞, the static potential and the field of a static line
-see ⟨FF⟩ only through a³(r) = ∫dμ(s) e^{−√s r}/(4πr) with μ ≥ 0, which is H3 on
-r > 0. The massless helicity term never reaches either observable, so CPT is
-not needed; what Bianchi at coincident points excludes is the area-law
-structure of the stochastic vacuum model. The T → ∞ rate is 1/T, measured
-against its predicted coefficient. Conditional on two classical lemmas of the
-tensor classification and the Wightman → Schwinger continuation, all unread at
-the level of the statements used.
+**Proved conditionally (v0.5, restated in v0.5.1)**: the transport ⟨FF⟩ →
+Wilson loop → static kernel at linear order in the probe. *Assume* the
+Euclidean two-point function of the field strength has a positive spectral
+representation with measure μ ≥ 0, ∫dμ/(1+s) < ∞, and obeys the Bianchi
+identity including coincident points. Truncating at the quadratic cumulant,
+the static potential and the field of a static line see ⟨FF⟩ only through
+a³(r) = ∫dμ(s) e^{−√s r}/(4πr), so on r > 0 the kernel is a positive Stieltjes
+function: H3 if μ({0}) > 0, with s\* possibly zero; the gap is not implied.
+The massless helicity term never reaches either observable, so CPT is not
+needed. A local contact that violates Bianchi gives an area term whose slope
+diverges as 1/ε when the regulator is removed: a regulated contact, not a
+finite string tension, and only structurally like the function D of the
+stochastic vacuum model. At fixed regulator the T → ∞ rate is q²C_ε(r)/T,
+measured against its predicted coefficient; C_ε has no limit as ε → 0. The
+representation itself is derived from the Wightman axioms only through two
+classical lemmas and the Wightman → Schwinger continuation, all unread at the
+level of the statements used, so it is an assumption.
 
-**Open, and not close to closed**: those lemmas; everything beyond linear
-order in the probe, where light-by-light scattering enters with no sign
+**Open, and not close to closed**: those lemmas; everything beyond the
+quadratic cumulant, where the connected four-field cumulant (light-by-light
+scattering, in QED) enters with no sign
 fixed here; isolating charged channels from massless cuts; **originality**,
 which is not established — Brown–Weisberger (1979) is unread behind a paywall,
 the stochastic-vacuum primaries are unread, and the Schilling–Song–Vondraček
@@ -188,7 +198,7 @@ python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\act
 pip install -r requirements.txt
 
 python make.py check       # report available toolchain
-python make.py test        # full suite, 352 tests
+python make.py test        # full suite, 357 tests
 python make.py numerics    # regenerate every numerical result
 python make.py audit       # rebuild audit ledgers
 python make.py pdf         # build paper/paper.pdf (needs a LaTeX engine)
@@ -232,7 +242,7 @@ reports/
   H3_GHOST_ANALYSIS_*.md      the spacelike obstruction, in full
   professor_2026-09-28/       meeting material and its number-checking script
 notes/                    proof notes and working records
-tests/                    352 tests; every one is meant to be able to fail
+tests/                    357 tests; every one is meant to be able to fail
 data/                     literature harvest with provenance, audit ledgers
 output/impressao_*/       print-ready PDFs for a meeting
 manuscript/               author's pt-BR Quarto draft -- NOT canonical, predates v0.2
@@ -265,7 +275,7 @@ These are the practices that make a theory paper's numerics trustworthy.
    six monographs and the DLMF, which have no such record, are entered by hand
    in `scripts/build_bibliography.py`. Forbidden sources (wikis, content farms,
    AI summaries) fail the test suite.
-8. **Reproducibility.** Validated in a clean checkout: 352 tests pass, and
+8. **Reproducibility.** Validated in a clean checkout: 357 tests pass, and
    `git status` is empty after `make.py numerics`, `audit` and `certified`, so
    those artefacts are regenerated byte-for-byte from the commit. The PDF QA
    record `output/data/canonical_pdf_qa.json` is the exception by design: it
@@ -322,6 +332,26 @@ evidence of anything.
   Running it would silently drop eight citations from the paper. Not yet fixed;
   new records are added by appending to the harvest. CI never runs this target,
   which is why it went unnoticed.
+- The E2c note printed the boundary form of its Stokes lemma with a factor 2
+  in front of each bilateral integral; taken literally, it is twice the
+  surface cumulant. The code was right, and the test compared the surface
+  integral with the code rather than with the printed display, so nothing
+  failed. A test of the display itself now does.
+- The same note stated the T → ∞ rate as C(r)/T, without the probe charge
+  squared and without saying it holds only at fixed regulator. The
+  coefficient has no limit as the regulator is removed; its exact expansion
+  for the Coulomb measure is now in the note and in a test. The audit that
+  found this proposed the coefficient r/(2π²√ε); the correct leading term is
+  √π r/(4π²√ε), with a logarithm the audit had taken to be finite.
+- v0.5 called the area term of a Bianchi-violating local contact "the
+  function D of the stochastic vacuum model". Its slope diverges like 1/ε, so
+  it is a regulated contact, not a finite string tension, and the comparison
+  with D is one of tensor structure only.
+- v0.5 said Proposition 7 derives H3 "from Wightman positivity of the field
+  strength and the Bianchi identity". The proposition assumes a positive
+  Euclidean representation, whose derivation from the Wightman axioms is
+  unchecked, and yields H3 only with a Coulomb weight; the gap is separate.
+  Restated in v0.5.1 everywhere it appeared.
 - The `paper` CI job failed on the discussion brief for want of `lmodern`, a
   risk that was visible when the job was added. Reproduced in a clean
   `ubuntu:24.04` container with the workflow's own `apt` line: the build fails

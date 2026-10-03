@@ -372,6 +372,48 @@ caso de Coulomb puro.
 5. A existência da QED em 4D como teoria de Wightman não é conhecida. O
    resultado é condicional a ela, como qualquer enunciado axiomático.
 
+### E2.7 Estado em 03/10/2026 — a auditoria de E2c e o que ela mudou
+
+A auditoria de 02/10 (`reports/AUDITORIA_SEVERA_E2C_2026-10-02.md`) achou
+erros reais na nota de 01/10. Cada um foi reproduzido por conta antes de ser
+corrigido. O resultado de E2.6 continua de pé, mas com um enunciado mais
+estreito, e esse é o que vale daqui em diante.
+
+**Corrigido.**
+- O lema de Stokes estava impresso com um fator 2 sobrando nas duas integrais
+  bilaterais. O código sempre esteve certo; o teste comparava a superfície
+  com o código, não com a fórmula impressa. Agora há um teste da fórmula.
+- A taxa $1/T$ vale a regulador fixo e carrega $q_W^2$:
+  $q_W^2C_\varepsilon(r)/T$. Para a medida de Coulomb pura,
+  $C_\varepsilon(r)=\sqrt\pi\,r/(4\pi^2\sqrt\varepsilon)-\pi^{-2}[\ln(r/2\sqrt\varepsilon)+\gamma_E/2+1/2]+o(1)$,
+  conferido até a quinta casa. A própria auditoria tinha errado esse
+  coeficiente ($1/(2\pi^2)$ no lugar de $\sqrt\pi/(4\pi^2)$) e tomado como
+  finita uma parte que diverge como logaritmo.
+- O termo de área de um contato local que viola Bianchi tem inclinação
+  $q_W^2c/(8\pi\varepsilon)$, que dobra quando $\varepsilon$ cai pela metade.
+  É contato regulado, não tensão de corda finita. A semelhança com a função $D$
+  do vácuo estocástico é só de estrutura tensorial.
+- A representação euclidiana positiva de ⟨FF⟩ virou premissa explícita (E).
+  Sem localidade, a passagem de Wightman para Schwinger não tem fonte
+  conferida.
+- O que sai é um kernel de Stieltjes positivo. É a H3 só com peso de
+  Coulomb; o gap é outra hipótese, e $s_*$ pode ser zero.
+- "Ordem linear" quer dizer truncar no cumulante quadrático. O cúbico só some
+  com simetria de conjugação de carga.
+
+**Onde.** Nota E2c (seção de correções no topo), artigo v0.5.1 (Proposição 7
+e texto em volta), resumo do professor, README, ledger C10 e teorema E2c,
+28 testes em `tests/test_e2c_transport.py`.
+
+**O que se aprendeu que não era óbvio.** Um teste que compara duas rotas
+corretas não protege o texto impresso. E uma auditoria também erra: o
+coeficiente dela precisou da mesma conferência que o nosso.
+
+**Próximo passo.** O mesmo de E2.6, item 1: localizar e ler a continuação
+Wightman → Schwinger para um campo de dois índices sem localidade. Se não
+existir, o resultado de E2c é um teorema sobre a camada euclidiana, e assim
+deve ser apresentado.
+
 ---
 
 ## E3 — Consolidar a contribuição original (P0)
@@ -469,6 +511,7 @@ número do texto está coberto por um `assert`.
 | v0.3 | Auditoria | 23/09/2026 | Filtro finito com localizador H₁, contraexemplos novos, enunciados com hipóteses explícitas, teto de uma espécie provado no apêndice, cadeia WGC condicional completa, proveniência 40/28 |
 | v0.4 | E2.5 | 29/09/2026 | Cadeia de bolhas ressomada no apêndice A (três regimes de $Z_3$, átomo acima do corte atribuído a Giacosa–Wolkanowski), limitação dos testes de momentos no texto principal, dualidade Stieltjes/Bernstein citada |
 | v0.5 | E2.6 | 01/10/2026 | Proposição 7 no apêndice A: transporte ⟨FF⟩ → kernel estático em ordem linear na sonda, condicional aos lemas de E2b; estrutura de lei de área creditada ao vácuo estocástico (Di Giacomo et al. 2002); constante de $Z_3=0$ identificada como termo de contato; 14 páginas; registro de QA gerado de um clone LF e conferido por teste |
+| v0.5.1 | E2.7 | 03/10/2026 | Correções da auditoria de E2c: representação euclidiana positiva como premissa da Proposição 7; H3 só com peso de Coulomb e $s_*$ possivelmente zero; contato de área regulado e divergente, comparação com $D$ só estrutural; truncamento no cumulante quadrático; 15 páginas |
 
 O PDF entregue da v0.3 é `output/pdf/spectral_structure_v03.pdf` (12 páginas,
 compilado com Tectonic 0.17.0 portátil). Esse diretório é gitignored: o PDF

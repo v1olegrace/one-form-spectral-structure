@@ -142,6 +142,24 @@ def test_surface_cumulant_equals_boundary_cumulant(w, s):
     assert abs(surf/line - 1) < 1e-10
 
 
+def test_the_printed_boundary_display_equals_the_surface_cumulant():
+    """Lemma 2 as printed in the note, implemented literally and compared with
+    the surface integral, not with boundary_cumulant. The 1 October display had
+    2 in front of each bilateral integral; that version is off by a factor 2."""
+    from scipy import integrate
+    T, r = 2.0, 0.7
+    a = lambda rho: math.exp(-rho*rho)
+    S = lambda rho: -math.exp(-rho*rho)*(4*rho*rho - 4)   # -(a'' + a'/rho)
+    It = integrate.quad(lambda u: (T - abs(u))*(a(abs(u)) - a(math.hypot(u, r))), -T, T,
+                        points=[0.0], epsrel=1e-13)[0]
+    Is = integrate.quad(lambda v: (r - abs(v))*(a(abs(v)) - a(math.hypot(T, v))), -r, r,
+                        points=[0.0], epsrel=1e-13)[0]
+    surf = tl.surface_cumulant(T, r, S)[0]
+    assert abs((It + Is)/surf - 1) < 1e-10
+    assert abs(surf - 1.4317801911976835) < 1e-10
+    assert abs((2*It + 2*Is)/surf - 2) < 1e-10
+
+
 def test_stokes_is_structural_and_the_check_can_fail():
     """A Gaussian, not a propagator, obeys the same identity; a wrong operator
     in place of the in-plane Laplacian does not."""
@@ -155,8 +173,9 @@ def test_stokes_is_structural_and_the_check_can_fail():
 
 # --- T -> infinity ----------------------------------------------------------------
 def test_static_limit_and_its_measured_rate():
-    """V_T(r) - V_inf(r) = C(r)/T + o(1/T), with
-    C = -2 int_0^inf u [a(u) - a(sqrt(u^2+r^2))] du + 2 int_0^r (r - v) a(v) dv.
+    """At fixed regulator, V_T(r) - V_inf(r) = q^2 C_eps(r)/T + o(1/T), with
+    C_eps = -2 int_0^inf u [a(u) - a(sqrt(u^2+r^2))] du + 2 int_0^r (r - v) a(v) dv
+    and a = a_eps in both integrals.
 
     The long-distance tails of a(u, 0) and a(u, r) cancel in the bracket, so in
     the Coulomb phase the rate is 1/T, not log T / T."""
@@ -173,6 +192,41 @@ def test_static_limit_and_its_measured_rate():
     d160 = tl.potential_T(160.0, r, a) - v_inf
     assert abs(160.0*d160/C - 1) < 1e-4
     assert abs(d40/d160 - 4.0) < 1e-2
+    # the rate carries the probe charge squared
+    q2 = 2.5
+    d160q = tl.potential_T(160.0, r, a, q2) - tl.potential_limit(r, a3, q2)
+    assert abs(160.0*d160q/(q2*C) - 1) < 1e-4
+
+
+def _C_eps(eps, r):
+    from scipy import integrate
+    a = lambda rho: tl.a_reg(rho, [1.0], [0.0], eps)
+    A = integrate.quad(lambda u: u*(a(u) - a(math.hypot(u, r))), 0, math.inf,
+                       epsrel=1e-12, limit=2000)[0]
+    B = integrate.quad(lambda v: (r - v)*a(v), 0, r, epsrel=1e-12, limit=800)[0]
+    return -2*A + 2*B
+
+
+@pytest.mark.parametrize("r", [0.5, 1.0])
+def test_the_rate_coefficient_has_no_limit_without_the_regulator(r):
+    """Pure Coulomb: C_eps(r) = sqrt(pi) r/(4 pi^2 sqrt(eps))
+    - [ln(r/(2 sqrt(eps))) + gamma/2 + 1/2]/pi^2 + o(1). The 1/T rate holds at
+    fixed regulator only. The coefficient r/(2 pi^2 sqrt(eps)) proposed in the
+    audit of 2 October is checked to fail."""
+    g = 0.5772156649015329
+    vals = {}
+    for eps in (1e-2, 1e-3, 1e-4):
+        C = _C_eps(eps, r)
+        x = r/(2*math.sqrt(eps))
+        pred = math.sqrt(math.pi)*r/(4*math.pi**2*math.sqrt(eps)) - (math.log(x) + g/2 + 0.5)/math.pi**2
+        assert abs(C - pred) < 1e-4
+        wrong = r/(2*math.pi**2*math.sqrt(eps)) - (math.log(x) + g/2 + 0.5)/math.pi**2
+        assert abs(C - wrong) > 0.01
+        vals[eps] = C
+    assert vals[1e-2] < vals[1e-3] < vals[1e-4]
+    if r == 1.0:
+        for eps, ref in ((1e-2, 0.20599), (1e-3, 1.06014), (1e-4, 4.01340)):
+            assert abs(vals[eps] - ref) < 5e-6
 
 
 def test_flux_profile_matches_theorem_A_kernel():
@@ -186,9 +240,10 @@ def test_flux_profile_matches_theorem_A_kernel():
 
 # --- what Bianchi on the T-product excludes ---------------------------------------
 def test_bianchi_violating_local_term_gives_an_area_law():
-    """A smeared G term c G h_eps (the D structure of the stochastic vacuum
-    model) adds a potential linear in r: slope q^2 c/(8 pi eps) - sqrt(pi eps)/(4 pi^2 eps T)
-    at finite T."""
+    """A smeared local G term c G h_eps adds a potential linear in r: slope
+    q^2 c/(8 pi eps) - sqrt(pi eps)/(4 pi^2 eps T) at finite T. G is the tensor
+    structure that multiplies D in the stochastic vacuum model; a local contact
+    is not D itself (next test)."""
     c, eps, T = 1.0, 0.01, 60.0
     h = lambda rho: c*tl.heat_kernel4(rho, eps)
     V = {r: tl.surface_cumulant(T, r, h)[0]/T for r in (1.5, 2.0, 3.0)}
@@ -196,3 +251,16 @@ def test_bianchi_violating_local_term_gives_an_area_law():
     for (r1, r2) in ((1.5, 2.0), (2.0, 3.0)):
         slope = (V[r2] - V[r1])/(r2 - r1)
         assert abs(slope/predicted - 1) < 1e-8
+
+
+def test_the_local_area_term_is_a_regulated_contact_not_a_tension():
+    """Halving the regulator doubles the slope of the c G term: its coefficient
+    diverges like 1/eps, so it is not a finite string tension."""
+    c, T = 1.0, 60.0
+    slopes = {}
+    for eps in (0.01, 0.005):
+        h = lambda rho: c*tl.heat_kernel4(rho, eps)
+        slopes[eps] = (tl.surface_cumulant(T, 3.0, h)[0] - tl.surface_cumulant(T, 2.0, h)[0])/T
+        predicted = tl.area_term_slope(c, eps) - math.sqrt(math.pi*eps)/(4*math.pi**2*eps*T)
+        assert abs(slopes[eps]/predicted - 1) < 1e-8
+    assert abs(slopes[0.005]/slopes[0.01] - 2) < 2e-3

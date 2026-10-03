@@ -48,7 +48,7 @@
 \author{\authorname\thanks{Research name: \researchname.
   E-mail: \href{mailto:\authoremail}{\nolinkurl{\authoremail}}}\\[2pt]
   \small Independent researcher, Botucatu, SP, Brazil}
-\date{\small Draft v0.5 --- 1 October 2026}
+\date{\small Draft v0.5.1 --- 3 October 2026}
 
 \begin{document}
 \maketitle
@@ -126,9 +126,12 @@ precedents on every methodological axis.
       respects it and yields the perimeter term and the potential, is the
       stochastic vacuum model's; in an abelian theory without magnetic
       monopoles the first part vanishes~\cite{di_giacomo_dosch_shevchenko_simonov_2002}.
-      Appendix~A uses it to derive Hypothesis~\ref{hyp:stieltjes}, at linear
-      order in the probe, from positivity of the field strength, through
-      classical lemmas we have not yet checked against primary sources.
+      Appendix~A uses the Bianchi identity, including coincident points, to
+      show that at linear order in the probe the static kernel inherits the
+      positive Stieltjes form of an assumed positive Euclidean spectral
+      representation of the field-strength two-point function. Deriving that
+      representation from the Wightman axioms rests on classical lemmas and a
+      continuation we have not yet checked against primary sources.
 \item That $\Gamma(r)$ is a monotone upper bound converging to the support
       edge, and that a generalized eigenvalue hierarchy refines it, is the
       effective-mass/GEVP technology of lattice field
@@ -261,13 +264,17 @@ the \emph{matter} current correlator, assuming its stated subtracted dispersion
 relation (Appendix~A). For the resummed bubble chain, Appendix~A reduces the
 hypothesis to the sign of the constant $Z_3$ in~\eqref{eq:Wpf}. For the
 kernel itself, at linear order in the probe,
-Proposition~\ref{prop:transport} derives Hypotheses~\ref{hyp:stieltjes}
-and~\ref{hyp:probe} on $r>0$ from Wightman positivity of the field strength
-and the Bianchi identity with its contact terms. That derivation rests on a
-classification of $\langle FF\rangle$ whose measure-theoretic lemmas we have
-not yet checked against primary sources, so both remain hypotheses in this
-version. It implies neither the Coulomb phase nor the gap, and
-Section~\ref{sec:scope} delimits where the hypothesis fails. Hypothesis~\ref{hyp:probe}
+Proposition~\ref{prop:transport} shows that on $r>0$ the static kernel is a
+positive Stieltjes function, and that the linear-response relation of
+Hypothesis~\ref{hyp:probe} holds, provided the Euclidean two-point function of
+the field strength has a positive spectral representation and obeys the
+Bianchi identity with its contact terms. With a Coulomb weight this is
+Hypothesis~\ref{hyp:stieltjes}. Obtaining that representation from Wightman
+positivity rests on a classification of $\langle FF\rangle$ and a continuation
+to Euclidean signature that we have not yet checked against primary sources,
+so both hypotheses remain hypotheses in this version. Neither the Coulomb
+phase nor the gap follows, and Section~\ref{sec:scope} delimits where the
+hypothesis fails. Hypothesis~\ref{hyp:probe}
 excludes precisely the strong-source corrections of
 Wichmann and Kroll~\cite{wichmann_kroll_1956}.
 
@@ -593,10 +600,11 @@ the conjunction of hypotheses leading to this representation. It singles out
 H3 only if the observable definition and other hypotheses have been
 independently justified.
 
-The open questions are physical rather than mathematical: checking the
-classical lemmas on which Proposition~\ref{prop:transport} rests, and going
-beyond linear order in the probe, where light-by-light scattering enters and
-nothing here fixes its sign;
+The open questions are physical rather than mathematical: deriving the
+Euclidean representation assumed in Proposition~\ref{prop:transport} from the
+Wightman axioms, and going beyond the quadratic cumulant in the probe, where
+the connected four-field cumulant enters (light-by-light scattering, in QED)
+and nothing here fixes its sign;
 constructing a positive label separating charged channels from massless cuts;
 and controlling spectral tails in gravitational examples. We note finally that
 Bachas' concavity bound~\cite{bachas_1986} obtains two derivative conditions on

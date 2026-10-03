@@ -237,6 +237,19 @@ limite T → ∞ (taxa 1/T, coeficiente medido igual ao previsto). A condição 
 O2 exigia sem nomear é Bianchi incluindo pontos coincidentes. O fechamento é
 condicional aos lemas de E2b ainda não lidos, e vale só em ordem linear.
 
+**Atualização de 03/10/2026 — O2, enunciado corrigido.** A auditoria de 02/10
+mostrou que o fechamento acima foi dito de forma larga demais. O que está
+demonstrado parte de uma representação euclidiana positiva de ⟨FF⟩, agora
+premissa explícita: sem localidade, a passagem de Wightman para Schwinger não
+tem fonte conferida. O resultado é um kernel de Stieltjes positivo em r > 0,
+que é a H3 só com peso de Coulomb; o gap é hipótese separada. A taxa 1/T vale
+a regulador fixo, com coeficiente q_W²C_ε, e C_ε não tem limite quando o
+regulador sai. O contato G dá um termo de área com inclinação que diverge como
+1/ε: não é tensão de corda, e a relação com a função D do vácuo estocástico é
+só de estrutura tensorial. A fórmula de contorno impressa tinha um fator 2 a
+mais; o código estava certo. Detalhes em ROADMAP E2.7. O2 continua fechada
+nessas condições, e só nelas.
+
 ---
 
 ## D6 — A H3 deixa de ser declarada "estritamente mais forte" que a positividade de reflexão

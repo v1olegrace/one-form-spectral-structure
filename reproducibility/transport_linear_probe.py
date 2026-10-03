@@ -133,8 +133,10 @@ def surface_cumulant(T, r, S_radial):
 def boundary_cumulant(T, r, a_radial):
     """(1/2) oint oint dx.dy a(x - y) around the same rectangle.
 
-    Parallel sides only: time-like sides 2 int_{-T}^{T} du (T-|u|)[a(u,0) - a(u,r)],
-    space-like sides 2 int_{-r}^{r} dv (r-|v|)[a(0,v) - a(T,v)].
+    Parallel sides only: time-like sides int_{-T}^{T} du (T-|u|)[a(u,0) - a(u,r)],
+    space-like sides int_{-r}^{r} dv (r-|v|)[a(0,v) - a(T,v)], each with
+    coefficient 1 after the overall 1/2.  (Before 3 October this docstring and
+    the note printed a coefficient 2; the code below was always right.)
     """
     ft = lambda u: (T - u) * (a_radial(u) - a_radial(math.hypot(u, r)))
     fs = lambda v: (r - v) * (a_radial(v) - a_radial(math.hypot(T, v)))
@@ -145,7 +147,7 @@ def boundary_cumulant(T, r, a_radial):
 
 
 def potential_T(T, r, a_radial, q2=1.0):
-    """V_T(r) = -(1/T) log W at O(q^2) = (q^2/T) * boundary_cumulant."""
+    """V_T(r) = -(1/T) log W from the quadratic cumulant = (q^2/T) * boundary_cumulant."""
     c, _ = boundary_cumulant(T, r, a_radial)
     return q2 * c / T
 
@@ -176,7 +178,10 @@ def flux_profile_numeric(r, weights, masses2, rel_step=1e-4):
     return -4.0 * math.pi * r * r * der
 
 
-# --- a local term that violates Bianchi: the D structure of the SVM ----------
+# --- a local term that violates Bianchi -----------------------------------------
+# G is the tensor structure that multiplies D(x^2) in the stochastic vacuum
+# model, but a local contact c G delta^4 is not that nonlocal function: its
+# area slope q^2 c/(8 pi eps) diverges as the regulator is removed.
 def heat_kernel4(rho, eps):
     """4D heat kernel at time eps: a smeared delta^4, integral one."""
     return math.exp(-rho * rho / (4.0 * eps)) / (16.0 * math.pi ** 2 * eps * eps)

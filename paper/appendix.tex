@@ -118,37 +118,41 @@ linear order in the probe.
 
 \paragraph{From the field strength to the static kernel.}
 The statements above concern models of the kernel. At linear order in the
-probe there is a statement about the kernel itself. It uses properties of the
-field strength $F$ rather than of a gauge propagator: the Wightman axioms of
-covariance, spectral condition and positivity for $F$, but not locality; the
-Bianchi identity in the Euclidean two-point function, \emph{including
-coincident points}; and $\int d\mu(s)/(1+s)<\infty$ for the
-K\"all\'en--Lehmann measure $\mu$ of $\langle FF\rangle$. Under the first two,
-a tensor classification of $\langle FF\rangle$ gives its Euclidean two-point
-function as
+probe there is a statement about the kernel itself, conditional on a property
+of the field strength $F$ rather than of a gauge propagator. We assume that
+the Euclidean two-point function of $F$ obeys the Bianchi identity
+\emph{including coincident points} and has the positive spectral form
 \begin{equation}
 S_{\mu\nu\rho\sigma}(p)=T^{E}_{\mu\nu\rho\sigma}(p)
 \left[\int\frac{d\mu(s)}{p^{2}+s}+q(p^{2})\right]
 +(\text{a massless helicity term}),
 \label{eq:SFF}
 \end{equation}
-with $\mu\ge0$, $q$ a polynomial, and
+with $\mu\ge0$, $\int d\mu(s)/(1+s)<\infty$, $q$ a polynomial, and
 $T^{E}_{\mu\nu\rho\sigma}=p_\mu p_\rho\delta_{\nu\sigma}-p_\nu p_\rho\delta_{\mu\sigma}
 -p_\mu p_\sigma\delta_{\nu\rho}+p_\nu p_\sigma\delta_{\mu\rho}$. Free Proca and
-free Maxwell fields, built from $F=dA$, fix the sign. The classification uses
-the Bochner--Schwartz theorem and a covariant disintegration over Lorentz
-orbits, which we have not yet checked against primary sources.
+free Maxwell fields, built from $F=dA$, satisfy it and fix the sign. A tensor
+classification of $\langle FF\rangle$ obtains the Minkowski counterpart of this
+form from the Wightman axioms of covariance, spectral condition and positivity
+for $F$, without locality; it uses the Bochner--Schwartz theorem and a
+covariant disintegration over Lorentz orbits, and reaching~\eqref{eq:SFF} needs
+in addition the continuation to Euclidean signature. We have checked none of
+these against primary sources, so~\eqref{eq:SFF} is an assumption here.
 
 \begin{proposition}\label{prop:transport}
-Assume~\eqref{eq:SFF} with $\int d\mu(s)/(1+s)<\infty$. At linear order in the
-probe charge, the static potential~\eqref{eq:wilson} and the field of a static
+Assume~\eqref{eq:SFF}, with the Bianchi identity including coincident points.
+Truncating $\log\langle W\rangle$ at the quadratic cumulant in the probe
+charge, the static potential~\eqref{eq:wilson} and the field of a static
 line depend on $\langle FF\rangle$, for $r>0$, only through
 \begin{equation}
 a^{(3)}(r)=\int_{[0,\infty)}d\mu(s)\,\frac{e^{-\sqrt{s}\,r}}{4\pi r}.
 \end{equation}
-Hence on $r>0$ the kernel $\Gcal$ satisfies Hypothesis~\ref{hyp:stieltjes}
-with $g_R^2=\mu(\{0\})$ and $\dsig=d\mu|_{(0,\infty)}$, up to a polynomial in
-$Q^2$, and the linear-response relation of Hypothesis~\ref{hyp:probe} holds.
+Hence on $r>0$ the kernel $\Gcal$ is the positive Stieltjes function
+$\int d\mu(s)/(Q^2+s)$, up to a polynomial in $Q^2$, and the linear-response
+relation of Hypothesis~\ref{hyp:probe} holds. If $\mu(\{0\})>0$, this is
+Hypothesis~\ref{hyp:stieltjes} with $g_R^2=\mu(\{0\})$,
+$\dsig=d\mu|_{(0,\infty)}$ and $s_*=\inf\supp\sigma$, which may be zero; the
+gap $s_*>0$ of Hypothesis~\ref{hyp:gap} is a separate input.
 \end{proposition}
 
 \begin{proof}[Sketch]
@@ -169,21 +173,33 @@ becomes a gradient of $a^{(3)}$, whatever half-plane is chosen, and the
 helicity term drops. The sphere flux of that gradient is
 $\mu(\{0\})+\int_{(0,\infty)}d\mu\,(1+\sqrt{s}\,r)e^{-\sqrt{s}\,r}$, the starting
 point of the proof of Theorem~\ref{thm:A}. Polynomial terms reach only $r=0$.
-A heat-kernel regulator controls the self-energies and is removed at fixed
-$r>0$.
+A heat-kernel regulator $\varepsilon$ controls the self-energies; the limit
+$T\to\infty$ is taken first, and the regulator is then removed at fixed
+$r>0$. The finite-$T$ correction is $O(1/T)$ only at fixed $\varepsilon$: its
+coefficient diverges as $\varepsilon\to0$, like $\varepsilon^{-1/2}$ for the
+pure Coulomb measure. The half-plane step uses the
+product $\delta(p_0)/(p_1-i0)$, which the regulator makes well defined; for a
+general tempered $\mu$ it has not been justified.
 \end{proof}
 
 The Bianchi identity at coincident points is what excludes the local
 structure $\delta_{\mu\rho}\delta_{\nu\sigma}-\delta_{\mu\sigma}\delta_{\nu\rho}$.
-That structure gives the loop an area term and the line a flux sheet along
-the arbitrary half-plane. It is the function $D$ of the stochastic vacuum
-model, which confines, while the part compatible with Bianchi gives the
-perimeter term and the potential; $D$ vanishes in an abelian theory without
-magnetic monopoles~\cite{di_giacomo_dosch_shevchenko_simonov_2002}. When the
-probe is the Wilson loop of a potential with $F=dA$, the identity holds
-automatically. The proposition says nothing at $O(q_W^4)$, nothing about the
-Coulomb phase $\mu(\{0\})>0$ or the gap, and nothing about whether
-four-dimensional QED exists as a theory with these properties.
+As a local contact, that structure gives the loop an area term and the line
+a flux sheet along the arbitrary half-plane. The area coefficient of a
+smeared contact of width $\sqrt\varepsilon$ is proportional to
+$1/\varepsilon$ and diverges as the regulator is removed, so a local contact
+does not produce a finite string tension. The same tensor structure multiplies
+the nonlocal function $D$ of the stochastic vacuum model, which confines,
+while the part compatible with Bianchi gives the perimeter term and the
+potential; $D$ vanishes in an abelian theory without magnetic
+monopoles~\cite{di_giacomo_dosch_shevchenko_simonov_2002}. The comparison is
+one of tensor structure only. When the probe is the Wilson loop of a
+potential with $F=dA$, the identity holds automatically. The proposition says
+nothing beyond the quadratic cumulant: a cubic cumulant is absent only in a
+charge-conjugation-invariant state, and the connected four-field cumulant
+enters at $O(q_W^4)$. It says nothing about the Coulomb phase $\mu(\{0\})>0$
+or the gap, and nothing about whether four-dimensional QED exists as a theory
+with these properties.
 
 \paragraph{Check 1 (inverse kernel).}
 The $O(g_{R}^{4})$ coefficient in \eqref{eq:expansion} is

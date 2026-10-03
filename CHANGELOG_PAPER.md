@@ -1,5 +1,41 @@
 # Changelog do manuscrito (`paper/paper.tex`)
 
+## v0.5.1 — 2026-10-03 — A Proposição 7 com o enunciado que ela sustenta
+
+Correções da auditoria de E2c de 2 de outubro
+(`reports/AUDITORIA_SEVERA_E2C_2026-10-02.md`). Cada achado foi reproduzido
+por conta antes de entrar no texto. O PDF canônico e o registro em
+`output/data/canonical_pdf_qa.json` foram refeitos para a v0.5.1.
+
+- **A representação euclidiana virou premissa.** A Proposição 7 já supunha a
+  forma $S=T^E[\int d\mu/(p^2+s)+q]$ com $\mu\ge0$; o texto em volta dizia que
+  ela saía dos axiomas de Wightman. Agora o apêndice diz que essa passagem usa
+  dois lemas e a continuação para a assinatura euclidiana, nenhum conferido, e
+  que por isso a forma é suposta.
+- **O que sai é um kernel de Stieltjes positivo.** É a Hipótese 3 só com peso
+  de Coulomb $\mu(\{0\})>0$; $s_*=\inf\operatorname{supp}\sigma$ pode ser zero,
+  e o gap da Hipótese 2 é outra entrada. Isso está no enunciado da proposição,
+  no parágrafo depois das hipóteses e no item da introdução.
+- **Lei de área.** O contato local que viola Bianchi dá um termo de área com
+  coeficiente proporcional a $1/\varepsilon$: contato regulado, não tensão de
+  corda finita. A comparação com a função $D$ do vácuo estocástico passou a
+  ser declarada como comparação de estrutura tensorial.
+- **Cumulantes.** "Ordem linear" é truncamento no cumulante quadrático. O
+  cúbico só some com conjugação de carga; o de quatro campos entra em
+  $O(q_W^4)$, e chamá-lo de luz-luz é afirmação sobre a dinâmica. Discussão e
+  observação final ajustadas.
+- **Esboço da prova.** Diz que $T\to\infty$ vem antes de remover o regulador,
+  que a correção em $1/T$ tem coeficiente divergente quando o regulador sai, e
+  que o produto $\delta(p_0)/(p_1-i0)$ da linha só está justificado com
+  regulador.
+
+Fora do artigo, na nota E2c: o fator 2 sobrando na fórmula de contorno do
+Lema 2 (o código estava certo) e a expansão exata do coeficiente da taxa para
+a medida de Coulomb. Quatro testes novos em E2c, e um caso a mais no teste de higiene de texto para o relatório da auditoria; o total vai a 357.
+
+Não mudou: o resultado da Proposição 7 sob as suas hipóteses, os teoremas A,
+C, E e H, e a cadeia de bolhas. O artigo passa de 14 para 15 páginas.
+
 ## v0.5 — 2026-10-01 — Do ⟨FF⟩ ao kernel estático, em ordem linear na sonda
 
 O artigo mudou; o PDF canônico e o registro em
