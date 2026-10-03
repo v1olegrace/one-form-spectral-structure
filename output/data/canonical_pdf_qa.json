@@ -1,18 +1,18 @@
 {
   "status": "PASS",
-  "draft": "v0.5",
-  "pages": 14,
-  "pdf": "C:\\Users\\meyy\\Downloads\\physics of all\\output\\pdf\\spectral_structure_v05.pdf",
-  "pdf_sha256": "063c63376d871d8df4829a32fcf2875c105802b843cdd7e6a4f0aea14b3c2dd7",
-  "log_sha256": "0b6e22643b1fcbad8262bef8824ac2e023221add490a8682f05b6a5bc62af50a",
+  "draft": "v0.5.1",
+  "pages": 15,
+  "pdf": "C:\\Users\\meyy\\Downloads\\physics of all\\output\\pdf\\spectral_structure_v051.pdf",
+  "pdf_sha256": "e1cdb1ef4e8e5a0ffd5068d4167bedd9c9cbf0f3d2d5fb0894a394c756ccb360",
+  "log_sha256": "385b0bde4f721737c9b54ccda2ae1715f54e503f1c6f20fe61523164be3b4123",
   "font_types": [
     "Type0",
     "Type1"
   ],
   "issues": [],
   "source_sha256": {
-    "paper\\paper.tex": "d3bb933c6a23b6e8bce6b1ed6ab35e36cb203d613819a902229eab916c8f7818",
-    "paper\\appendix.tex": "92e92f49f91196dd3780ece911b4657a682399588911691470cc14436dc1a9ab",
+    "paper\\paper.tex": "3148bd9683e1cd9dc12db96cf7020400b876c5d52689598f8cca3481ac990b44",
+    "paper\\appendix.tex": "c0531ef0303ec290d893e518c2d8f05bd062fe6256a218df015cc07ab314d017",
     "paper\\references.bib": "a6baa9fb0635f17a6d353dab18f39274b0a16c9cafbf005ef1e21bc65fc0ba8f",
     "paper\\physofall.bst": "43614c4d0db7ccbe92ead9edafb146d0a99a934ad098fc5617886d58cdb4bc82",
     "paper\\figures\\dirac_edge_law.dat": "d6673abf1525d1eb942c547d843b526ab394906609603045c2e3b6cc62f6bbc0",

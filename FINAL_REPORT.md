@@ -1,6 +1,7 @@
-# Audit report — paper v0.4 and v0.5
+# Audit report — paper v0.4, v0.5 and v0.5.1
 
-29 September 2026, with a second round on 1 October (§0). Starting point of
+29 September 2026, with rounds on 1 October (§0) and 3 October (the first
+section below). Starting point of
 the first round: `6672fdb` on `main`. The previous report of this name, dated
 11 September, is at
 [`reports/history/FINAL_REPORT_2026-09-11.md`](reports/history/FINAL_REPORT_2026-09-11.md).
@@ -8,6 +9,79 @@ the first round: `6672fdb` on `main`. The previous report of this name, dated
 This report records what changed, why, and how each change was checked. Where
 something could not be checked with the resources at hand it is marked
 `PENDING_VERIFICATION` rather than guessed.
+
+## Round of 3 October 2026 — paper v0.5.1
+
+Starting point `0becf85`. This round corrects the transport result of §0;
+where §0 and this section disagree, this section holds. In particular §0's
+"the transport … is done" is true only under the premises stated below.
+
+**What the audit of 2 October found, and what was checked.** The audit
+([`reports/AUDITORIA_SEVERA_E2C_2026-10-02.md`](reports/AUDITORIA_SEVERA_E2C_2026-10-02.md),
+committed as written) was taken as a list of claims to verify, not as a
+verdict. Each item was reproduced before anything changed.
+
+| item | audit claim | checked | outcome |
+|---|---|---|---|
+| E2c-1 | Lemma 2 display has a spurious factor 2 | surface integral 1.4317802 = code = coefficient-1 display; old display 2.8635604 | confirmed; display and docstring fixed; code unchanged |
+| E2c-2 | rate omits ε and q_W²; no uniform limit | C_ε recomputed for ε = 10⁻², …, 10⁻⁵ | confirmed; but the audit's coefficient r/(2π²√ε) is wrong (see below) |
+| E2c-3 | local area term is not a finite tension | slope measured at ε = 0.01 and 0.005: 3.971391 and 7.947165 | confirmed: doubles when ε halves |
+| E2c-4 | Wightman → Euclidean step is not established | E2b and the note re-read | confirmed as a documentary gap; (E) is now a premise |
+| E2c-5 | "positivity + Bianchi ⇒ H3" hides inputs | the paper's own H2/H3 | confirmed; H3 only with a Coulomb weight, s\* may be 0, gap separate |
+| E2c-6 | the next term need not be O(q⁴) | cumulant expansion | confirmed; odd cumulants vanish only under charge conjugation |
+
+**Where the audit was itself wrong.** For the pure Coulomb measure the two
+integrals in C_ε expand exactly:
+C_ε(r) = √π r/(4π²√ε) − π⁻²[ln(r/2√ε) + γ_E/2 + 1/2] + o(1).
+At r = 1 this reproduces the computed values to five decimals (0.20599,
+1.06014, 4.01340, 13.60468 for ε = 10⁻², …, 10⁻⁵). The audit's leading
+coefficient 1/(2π²) is off by the factor 2/√π, and the term it called finite
+diverges logarithmically. Its conclusion, that the 1/T rate holds only at
+fixed regulator, stands and is stronger.
+
+**What changed.**
+- `notes/E2c_transport_linear_probe.md`: a corrections block at the top;
+  hypothesis (E), the positive Euclidean representation, stated as a premise;
+  Lemma 2 with coefficient 1 and the reason; Proposition 3 as q_W²C_ε/T at
+  fixed ε, with the expansion above; the half-plane product marked as
+  justified only with the regulator; Theorem E2c with (E) and with s\*
+  possibly zero; §7–8 on the local contact versus the nonlocal D; §9–10
+  updated.
+- `reproducibility/transport_linear_probe.py`: docstrings only.
+- `tests/test_e2c_transport.py`: 24 → 28 tests. New: the printed display
+  against the surface integral (the old display must be off by 2); the rate
+  with q_W² = 2.5; the C_ε expansion at two radii, with the audit's
+  coefficient required to fail; the area slope doubling.
+- Paper v0.5.1 (15 pages): introduction item, the paragraph after the
+  hypotheses, the appendix paragraph, Proposition 7, its proof sketch and the
+  closing remark, the discussion.
+- Brief (6 pages), README, ledgers C10 and E2c, ROADMAP E2.7, DECISIONS D5,
+  CITATION 0.5.1, the PDF QA record.
+
+**Verification.** On a clean clone of `5ffc8b1` made with
+`core.autocrlf=false`: 357 tests passed, none skipped (Tectonic was on the
+PATH, so the paper-build test ran). `make.py numerics` and `make.py audit`
+exit 0; afterwards the only content change is the QA record, and the other
+regenerated files differ from the blobs only by CRLF, which Python on
+Windows writes into an LF clone. The paper builds in 15 pages with no LaTeX
+warning; the QA record is PASS, and every source hash equals its blob. All
+15 pages were looked at as rendered images, which is not a human review.
+The brief builds in 6 pages. The CI run is recorded below once it exists.
+
+**An error in this round, caught before commit.** The first QA record was
+generated after `make.py numerics` had rewritten the figure data with CRLF
+in the LF clone, and a later `git checkout` there used the global CRLF
+setting. Its figure hashes did not match the blobs, and
+`tests/test_pdf_qa_record.py` failed. The record was regenerated from
+sources verified byte-equal to the blobs.
+
+**Not done here.** The four files the other writer left modified on 2 October
+(`CHANGELOG_PAPER.md` and `FINAL_REPORT.md` headers,
+`reproducibility/canonical_pdf_qa.py`, `tests/test_pdf_qa_record.py`) were
+preserved in the working tree and not committed. Two of those hunks cite
+`reports/REMEDIACAO_E2C_2026-10-02.md`, which does not exist. The private
+speaking and reasoning sheets were not touched; their printed copies still
+carry the 1 October main question, which this round narrows.
 
 ## 0. Round of 1 October 2026 — paper v0.5
 
