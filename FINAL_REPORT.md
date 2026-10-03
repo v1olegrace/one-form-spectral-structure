@@ -66,7 +66,10 @@ regenerated files differ from the blobs only by CRLF, which Python on
 Windows writes into an LF clone. The paper builds in 15 pages with no LaTeX
 warning; the QA record is PASS, and every source hash equals its blob. All
 15 pages were looked at as rendered images, which is not a human review.
-The brief builds in 6 pages. The CI run is recorded below once it exists.
+The brief builds in 6 pages. CI run 37156984453 at `dee3ac3`: the tests,
+certified and paper jobs all succeeded. Its only annotations are the
+Node 20 deprecation notices for the pinned actions, already on the pending
+list.
 
 **An error in this round, caught before commit.** The first QA record was
 generated after `make.py numerics` had rewritten the figure data with CRLF
