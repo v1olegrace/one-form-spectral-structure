@@ -14,7 +14,7 @@
 \linespread{1.12}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small\color{ink}\textbf{FOLHA DE FALA} --- só para mim}
-\fancyhead[R]{\small revista em 01.10.2026}
+\fancyhead[R]{\small revista em 04.10.2026}
 \fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 
@@ -74,9 +74,9 @@ função de Stieltjes com medida positiva --- essa é a hipótese H3 ---, então
 dividido por $r^2$ é exatamente uma transformada de Laplace de uma medida
 positiva, e a borda dessa medida é o menor limiar que acopla ao observável.
 Daí saem cotas superiores que descem até esse limiar. Mas há dois limites que eu
-quero deixar claros desde já: primeiro, H3 só está derivada em ordem linear
-na sonda, e condicionalmente; segundo, em QED completa há cortes de fótons
-sem massa, então o limiar pode ser zero.}
+quero deixar claros desde já: primeiro, a forma da H3 só sai em ordem linear
+na sonda, supondo uma representação euclidiana positiva; segundo, em QED
+completa há cortes de fótons sem massa, então o limiar pode ser zero.}
 \end{say}
 
 \begin{say}{Página 2 --- a hipótese H3 (a página da minha pergunta principal)}
@@ -90,16 +90,20 @@ uma constante, $Z_3$: vale se $Z_3>0$, falha se $Z_3<0$. Isso está no apêndice
 do artigo, e o resumo está na página 6. Em QED isso vale com folga para
 qualquer cutoff físico e só falha perto do polo de Landau --- ou seja, no
 contínuo estrito falha, e eu não escondo isso. A rota realmente de QFT é
-outra: com Wightman e Bianchi, sem supor $F=dA$, o correlator de $F$ tem medida
-positiva. E o passo do correlator para o laço de Wilson eu fiz agora, em ordem
-linear na sonda: o que é preciso é Bianchi valer também nos pontos
-coincidentes. Isso depende de lemas clássicos que eu ainda não li na fonte.}
+outra. Eu suponho que a função de dois pontos euclidiana de $F$ tem
+representação espectral positiva e satisfaz Bianchi também nos pontos
+coincidentes. Com isso, em ordem linear na sonda, o laço de Wilson só enxerga
+essa medida positiva. Tirar essa representação dos axiomas de Wightman
+depende de lemas que eu ainda não li na fonte.}
 \end{say}
 E então faço a pergunta:
 \begin{safe}{A PERGUNTA PRINCIPAL --- a mais importante do dia}
-\fala{Em ordem linear na sonda, eu mostro que a H3 sai de positividade de
-Wightman para $F$ e de Bianchi nos pontos coincidentes. O senhor vê alguma
-lacuna nesse passo, e sabe se isso já está escrito em algum lugar?}
+\fala{Em ordem linear na sonda, eu mostro que: se a função de dois pontos
+euclidiana de $F$ tiver representação espectral positiva e satisfizer Bianchi
+nos pontos coincidentes, então o kernel estático tem a forma de Stieltjes
+positiva. Com peso de Coulomb, isso tem a forma da H3; o gap é outra
+hipótese. O senhor sabe se essa representação segue dos axiomas de Wightman
+sem localidade?}
 \end{safe}
 
 \begin{say}{Página 3 --- o átomo minúsculo}
@@ -168,11 +172,14 @@ Dizer isto é \textbf{força}, não fraqueza. Se eu admitir rápido e com clarez
 a conversa fica melhor.
 
 \begin{itemize}[leftmargin=6mm,itemsep=2pt]
-\item H3 sem condições --- \textbf{não provada}. Em ordem linear na sonda,
-só condicional a lemas que eu não li.
-\item O transporte $\langle FF\rangle\to$ laço de Wilson --- \textbf{feito só em
-ordem linear}. Em $O(q^4)$, luz-luz, nada.
-\item O mecanismo de lei de área não é meu: é a função $D$ de Dosch e Simonov.
+\item H3 sem condições --- \textbf{não provada}. Em ordem linear na sonda, sai
+a forma da H3 só supondo a representação euclidiana positiva; o gap é outra
+hipótese.
+\item O transporte $\langle FF\rangle\to$ laço de Wilson --- \textbf{feito só no
+termo quadrático}. O termo de quatro campos, $O(q^4)$ (em QED, luz-luz): nada.
+\item O contato que viola Bianchi tem a estrutura da função $D$ de Dosch e
+Simonov, mas a inclinação dele vai a infinito quando o regulador sai: não é
+tensão de corda. A comparação com $D$ é só de estrutura.
 \item Fase de Coulomb precisa ser hipótese explícita (Proca mostra isso).
 \item Três lemas ainda não lidos na fonte; pode virar atribuição.
 \item Critério $Z_3$: só para a cadeia de bolhas, não para o kernel físico. O
@@ -190,7 +197,7 @@ de medida positiva. Prova elementar.
 coeficiente de Uehling reproduzido.
 \item Os contraexemplos, inclusive um verificável a lápis.
 \item A obstrução de escala à inferência sobre gravidade fraca.
-\item 352 testes passando; certificados exatos do benchmark.
+\item 375 testes passando; certificados exatos do benchmark.
 \item O transporte em ordem linear, com o sinal conferido em Proca e Maxwell
 livres e o limite $T\to\infty$ medido.
 \end{itemize}
@@ -243,8 +250,9 @@ Voltar para a folha. Reler a frase do começo. Sem se desculpar mais de uma vez.
 Se der tempo, fazer pelo menos a primeira.
 
 \begin{enumerate}[leftmargin=7mm,itemsep=3pt]
-\item \fala{Além da ordem linear na sonda, em $O(q^4)$, entra o espalhamento
-luz-luz. O senhor sabe o sinal dessa contribuição ao potencial estático?}
+\item \fala{Depois do termo quadrático na sonda entra o termo conectado de
+quatro campos, $O(q^4)$, que em QED é o espalhamento luz-luz. O senhor sabe o
+sinal dessa contribuição ao potencial estático?}
 \item \fala{Em problemas de inversão de Laplace que o senhor conhece, que tipo
 de informação a priori é considerada fisicamente legítima para recuperar uma
 cota inferior?}

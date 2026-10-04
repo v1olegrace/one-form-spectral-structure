@@ -13,7 +13,7 @@
 \setlength{\parskip}{6pt}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small\color{ink} O RACIOCÍNIO E A MATEMÁTICA}
-\fancyhead[R]{\small 01.10.2026}
+\fancyhead[R]{\small 04.10.2026}
 \fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \newtcolorbox{caixa}[1]{colback=pale,colframe=ink,boxrule=0.4pt,arc=1mm,
@@ -28,8 +28,8 @@
 {\large Do observável de simetria de 1-forma até onde o argumento trava}\par
 \vspace{1mm}
 {\small Mauro de Oliveira Cardoso (Viole) --- 28 de setembro de 2026,
-revisto em 1 de outubro. Acompanha o artigo canônico v0.5 e o resumo de seis
-páginas.}
+revisto em 1 e em 4 de outubro. Acompanha o artigo canônico v0.5.2 e o resumo
+de seis páginas.}
 
 \vspace{2mm}\hrule\vspace{2mm}
 
@@ -292,7 +292,7 @@ N\~ao \'e defeito de implementa\c{c}\~ao: nenhum momento do cont\'inuo enxerga u
 polo discreto. A viola\c{c}\~ao inteira mora no polo.
 \end{alerta}
 
-\textbf{Evid\^encia computacional.} 352 testes passando, tamb\'em em
+\textbf{Evid\^encia computacional.} 375 testes passando, tamb\'em em
 \emph{checkout} limpo do reposit\'orio, com os geradores num\'ericos
 reproduzindo os artefatos byte a byte. As quatro condi\c{c}\~oes que identificam a
 representa\c{c}\~ao do modelo com a forma exata de H3 do artigo --- res\'iduo de
@@ -304,19 +304,17 @@ num\'erica}, n\~ao certifica\c{c}\~ao por intervalo.
 
 \section*{Passo 7 --- Onde o argumento realmente trava}
 
-O critério acima é sobre a \textbf{cadeia de Dyson} com $\rho_J$ vindo da
-corrente de matéria \emph{não gaugeada}, onde a positividade de Lehmann é
-limpa. Isso \textbf{não} é a resposta estática não perturbativa e invariante de
-gauge. A rota séria de teoria de campos é outra:
+O critério acima vale para a \textbf{cadeia de Dyson} (corrente de matéria
+\emph{não gaugeada}), \textbf{não} para a resposta estática não perturbativa.
+A rota séria de teoria de campos é outra:
 
 \begin{enumerate}[leftmargin=7mm,itemsep=3pt]
 \item Com Wightman e Bianchi, \textbf{sem} supor $F=dA$,
   $\langle F_{\mu\nu}F_{\rho\sigma}\rangle$ tem medida positiva. Em $p^2=0$
   sobra um termo que só a localidade, via CPT, remove; esse lema eu não li.
 \item Transportar essa positividade até o laço de Wilson, e daí ao kernel
-  estático. \textbf{Feito em 01/10, em ordem linear na sonda} (nota E2c,
-  Proposição~7 do artigo). Envolve projeção tensorial, termos de contato,
-  renormalização de perímetro e o limite $T\to\infty$, e cada um foi tratado.
+  estático. \textbf{Feito em 01/10, em ordem linear na sonda, supondo a
+  representação euclidiana positiva} (nota E2c; Proposição~7 do artigo).
 \end{enumerate}
 
 \begin{caixa}{O QUE O TRANSPORTE MOSTROU (01/10)}
@@ -329,40 +327,44 @@ $T\to\infty$ sobra
 \[
 a^{(3)}(r)=\int d\mu(s)\,\frac{e^{-\sqrt s\,r}}{4\pi r},\qquad \mu\ge0,
 \]
-que é a H3 em $r>0$. O que Bianchi nos pontos coincidentes exclui é a
-estrutura $\delta\delta-\delta\delta$, que dá \textbf{lei de área}: é a função
-$D$ do vácuo estocástico de Dosch e Simonov, não descoberta minha.
+que, com peso de Coulomb, tem a forma da H3 em $r>0$; o gap é outra
+hipótese. Bianchi nos pontos coincidentes exclui um contato local
+$\delta\delta-\delta\delta$, cujo termo de área tem inclinação infinita sem
+regulador: \textbf{não é tensão de corda}. Só a estrutura é a da função $D$
+de Dosch e Simonov, que não é descoberta minha.
 \end{caixa}
 
 \begin{caixa}{A PERGUNTA QUE EU LEVO AO PROFESSOR}
-Em ordem linear na sonda, a H3 em $r>0$ sai de positividade de Wightman para
-$F$ e de Bianchi nos pontos coincidentes. O senhor vê alguma lacuna nesse
-passo --- na continuação de Wightman para Schwinger, ou nos termos de contato
---- e sabe se ele já está escrito em algum lugar?
+Em ordem linear na sonda, eu mostro que: se a função de dois pontos
+euclidiana de $F$ tiver representação espectral positiva e satisfizer Bianchi
+nos pontos coincidentes, então o kernel estático tem a forma de Stieltjes
+positiva. Com peso de Coulomb, isso tem a forma da H3; o gap é outra
+hipótese. O senhor sabe se essa representação segue dos axiomas de Wightman
+sem localidade?
 \end{caixa}
 
 \section*{Passo 8 --- O que continua em aberto}
 
 \begin{itemize}[leftmargin=6mm,itemsep=2pt]
-\item H3 sem condições: \textbf{não provada}. Em ordem linear na sonda, segue
-  condicionalmente aos lemas clássicos da classificação (Bochner--Schwartz,
-  desintegração covariante, continuação Wightman $\to$ Schwinger), que eu não li.
-\item Além da ordem linear, em $O(q_W^4)$: o espalhamento luz-luz entra, e
-  nada aqui fixa o seu sinal. \textbf{É aqui que a pergunta aberta mora agora.}
+\item H3 sem condições: \textbf{não provada}. Em ordem linear, sai a forma da
+  H3 supondo a representação euclidiana; os lemas que a tiram dos axiomas eu
+  não li.
+\item Depois do termo quadrático: o termo conectado de quatro campos,
+  $O(q_W^4)$ (em QED, luz-luz), entra, e nada aqui fixa o seu sinal.
+  \textbf{É aqui que a pergunta aberta mora agora.}
 \item A fase de Coulomb é hipótese explícita: Proca satisfaz os axiomas e
   não tem polo de Coulomb.
 \item Isolar canais carregados dos cortes sem massa preservando positividade.
-\item Critério $Z_3$: no apêndice A, só para a cadeia de bolhas. O átomo é de
-  Giacosa--Wolkanowski (2012), $0\le Z_3\le1$ é de Källén; a redução a $Z_3$
-  não achei nas fontes, o que não prova novidade (Brown--Weisberger não lido).
-\item O CI remoto roda e passa nos três jobs; mas nenhuma revisão humana do
-  PDF, e nada submetido.
+\item Critério $Z_3$: só para a cadeia de bolhas. O átomo é de
+  Giacosa--Wolkanowski (2012); $0\le Z_3\le1$ é de Källén. Novidade não provada.
+\item Nenhuma revisão humana ainda, e nada submetido.
 \end{itemize}
 
 \vspace{2mm}\hrule\vspace{2mm}
 {\small\color{rust}\textbf{Resumo em uma frase.} Sob uma hipótese de
-positividade que, em ordem linear na sonda, eu sei derivar da positividade de
-$F$ e de Bianchi, o formato do perfil determina cotas superiores para o limiar
-acoplado --- e eu sei exatamente onde o argumento ainda não fecha.}
+positividade que, em ordem linear na sonda, sai de uma representação
+euclidiana positiva de $\langle FF\rangle$ com Bianchi, o formato do perfil
+determina cotas superiores para o limiar acoplado --- e eu sei exatamente onde
+o argumento ainda não fecha.}
 
 \end{document}
