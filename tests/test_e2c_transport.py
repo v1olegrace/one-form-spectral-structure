@@ -264,3 +264,110 @@ def test_the_local_area_term_is_a_regulated_contact_not_a_tension():
         predicted = tl.area_term_slope(c, eps) - math.sqrt(math.pi*eps)/(4*math.pi**2*eps*T)
         assert abs(slopes[eps]/predicted - 1) < 1e-8
     assert abs(slopes[0.005]/slopes[0.01] - 2) < 2e-3
+
+
+# --- Section 11: from Wightman to (E) ----------------------------------------------
+
+def _duals(metric):
+    """T and its duals on the first and second pair, indices down, for a metric."""
+    g = sp.diag(*metric)
+    gi = g.inv()
+    p = P
+
+    def T(a, b, c, e):
+        return p[a]*p[c]*g[b, e] - p[b]*p[c]*g[a, e] - p[a]*p[e]*g[b, c] + p[b]*p[e]*g[a, c]
+
+    def d2(a, b, c, e):
+        return sp.Rational(1, 2)*sum(EPS4(c, e, X, Y)*gi[X, X]*gi[Y, Y]*T(a, b, X, Y)
+                                     for X in range(4) for Y in range(4))
+
+    def d1(a, b, c, e):
+        return sp.Rational(1, 2)*sum(EPS4(a, b, X, Y)*gi[X, X]*gi[Y, Y]*T(X, Y, c, e)
+                                     for X in range(4) for Y in range(4))
+
+    p2 = sp.expand(sum(gi[i, i]*p[i]**2 for i in range(4)))
+    return T, d1, d2, p2
+
+
+PAIRS = [(a, b) for a in range(4) for b in range(4) if a < b]
+
+
+@pytest.mark.parametrize("metric", [(1, 1, 1, 1), (1, -1, -1, -1)], ids=["euclidean", "minkowski"])
+def test_the_helicity_structure_is_pair_antisymmetric_and_one_dual_on_the_cone(metric):
+    """dual1(ab,ce) = dual2(ce,ab) identically, and dual1 + dual2 = p^2 (...): so
+    X = (dual1 - dual2)/2 is antisymmetric under pair exchange (i alpha' X is
+    Hermitian) and equals either dual on the cone. T itself is pair-symmetric."""
+    T, d1, d2, p2 = _duals(metric)
+    for (a, b) in PAIRS:
+        for (c, e) in PAIRS:
+            assert sp.expand(T(a, b, c, e) - T(c, e, a, b)) == 0
+            assert sp.expand(d1(a, b, c, e) - d2(c, e, a, b)) == 0
+            s = sp.expand(d1(a, b, c, e) + d2(a, b, c, e))
+            assert sp.expand(sp.div(s, p2, *P)[1]) == 0
+
+
+X4 = sp.symbols("x0:4", real=True)
+G_E = 1/(4*sp.pi**2*sum(x**2 for x in X4))
+
+
+def _on_G(poly):
+    """A polynomial in p, read as a differential operator on the massless G."""
+    out = 0
+    for monom, coeff in sp.Poly(sp.expand(poly), *P).terms():
+        term = G_E
+        for i, k in enumerate(monom):
+            if k:
+                term = sp.diff(term, X4[i], k)
+        out += coeff*term
+    return out
+
+
+def test_a_nonlocal_helicity_term_breaks_bianchi_at_equal_times():
+    """Without locality the helicity part of the time-ordered function is
+    sign(tau) Y, Y = X(d) G. Y obeys Bianchi off the contact, but the jump adds
+    2 delta(tau) eps_{k0mn} Y_{mn,rs}(0, x), which is not zero: (B_T) excludes
+    the term."""
+    _, d1, d2, _ = _duals((1, 1, 1, 1))
+    Y = {}
+    for (m, n) in [(a, b) for a in range(4) for b in range(4)]:
+        for (r, s) in [(0, 1), (2, 3)]:
+            Y[(m, n, r, s)] = _on_G(sp.Rational(1, 2)*(d1(m, n, r, s) - d2(m, n, r, s)))
+    r2 = X4[1]**2 + X4[2]**2 + X4[3]**2
+    jump = sum(EPS4(1, 0, m, n)*Y[(m, n, 0, 1)] for m in range(4) for n in range(4))
+    jump = sp.simplify(jump.subs(X4[0], 0))
+    assert sp.simplify(jump + 2*(X4[1]**2 - X4[2]**2 - X4[3]**2)/(sp.pi**2*r2**3)) == 0
+    assert jump.subs({X4[1]: 1, X4[2]: 0, X4[3]: 0}) != 0
+    for (r, s) in [(0, 1), (2, 3)]:
+        for k in range(4):
+            smooth = sum(EPS4(k, l, m, n)*sp.diff(Y[(m, n, r, s)], X4[l])
+                         for l in range(4) for m in range(4) for n in range(4))
+            assert sp.simplify(smooth) == 0
+
+
+def test_a_sign_flip_in_tau_would_reach_the_static_line():
+    """int sign(tau) d_tau g = -2 g(0) is not zero, while int d_tau g = 0: the
+    p0 argument of Lemma 1 needs the O(4)-covariant form that (B_T) enforces."""
+    from scipy import integrate
+    x1, x2, x3 = 0.3, 0.4, 0.5
+    rr = x1*x1 + x2*x2 + x3*x3
+    g = lambda t: -2*x3/(4*math.pi**2*(t*t + rr)**2)          # d_3 G at (t, x)
+    dg = lambda t: 8*t*x3/(4*math.pi**2*(t*t + rr)**3)        # d_t of it
+    plain = integrate.quad(dg, -math.inf, math.inf)[0]
+    signed = (integrate.quad(dg, 0, math.inf)[0] - integrate.quad(dg, -math.inf, 0)[0])
+    assert abs(plain) < 1e-12
+    assert abs(signed - (-2*g(0.0))) < 1e-12 and abs(signed) > 1e-2
+
+
+def test_static_response_is_the_euclidean_integral_of_both_orderings():
+    """Zero-frequency retarded response = int dtau of the time-ordered Euclidean
+    function, with unequal spectral weights for the two orderings (no locality)."""
+    E = [0.7, 1.3, 2.9]
+    a = [0.5, 0.2, 0.9]
+    b = [0.1, 0.8, 0.3]
+    eta = 1e-9
+    retarded = sum((1j*ai/(eta + 1j*Ei) - 1j*bi/(eta - 1j*Ei)) for ai, bi, Ei in zip(a, b, E))
+    from scipy import integrate
+    euclid = (integrate.quad(lambda t: sum(ai*math.exp(-Ei*t) for ai, Ei in zip(a, E)), 0, math.inf)[0]
+              + integrate.quad(lambda t: sum(bi*math.exp(Ei*t) for bi, Ei in zip(b, E)), -math.inf, 0)[0])
+    assert abs(retarded.imag) < 1e-6
+    assert abs(retarded.real - euclid) < 1e-8

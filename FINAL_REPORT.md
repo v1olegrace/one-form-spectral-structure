@@ -1,6 +1,6 @@
 # Audit report — paper v0.4 to v0.5.2
 
-29 September 2026, with rounds on 1 October (§0) and 3 October (the two
+29 September 2026, with rounds on 1 October (§0) and 3 October (the three
 sections below). Starting point of
 the first round: `6672fdb` on `main`. The previous report of this name, dated
 11 September, is at
@@ -9,6 +9,34 @@ the first round: `6672fdb` on `main`. The previous report of this name, dated
 This report records what changed, why, and how each change was checked. Where
 something could not be checked with the resources at hand it is marked
 `PENDING_VERIFICATION` rather than guessed.
+
+## Evening of 3 October 2026 — the continuation to (E), note only
+
+The Wightman → Euclidean step for the ⟨FF⟩ two-point function, which v0.5.1
+made an explicit premise (E), was worked out in
+[`notes/E2c_transport_linear_probe.md`](notes/E2c_transport_linear_probe.md)
+§11, with four new tests (33 in that file). It is argued with symbolic checks,
+not read in a source, and no novelty is claimed.
+
+- The T^E part of E2b's Källén–Lehmann form continues to an O(4)-covariant
+  Euclidean function without locality: the two operator orderings agree
+  because T is symmetric under exchange of its index pairs and even in p.
+- The massless helicity term iα′X is antisymmetric under pair exchange
+  (checked in Euclidean and Minkowski signature), so without locality its
+  time-ordered function carries sign(τ). The jump violates the Bianchi
+  identity on the whole τ = 0 plane (18 nonzero components at x ≠ 0, one
+  closed form checked). (B_T) therefore excludes the term. In that sector
+  (B_T) is an equal-time commutativity condition, which is now stated where
+  the note lists what is "not used".
+- Hence (E) follows from E2b's form with (B_T) and (I); what remains unread is
+  E2b's form itself (Bochner–Schwartz, the covariant disintegration).
+- A first idea, that the helicity term would reach the static line only as a
+  divergence-free field, turned out not to arise under (B_T); it is recorded
+  in §11 as the consistency check it became.
+
+The paper, the brief and the professor question were not changed: they still
+say the continuation is unchecked, which is conservative. Integrating §11 is
+left for a version that has been reviewed.
 
 ## Review of 3 October 2026 — paper v0.5.2
 
@@ -58,7 +86,8 @@ before the new record; with the record, they pass. `make.py bib` exits 0 and
 leaves its three outputs unchanged. The paper builds in 15 pages with no
 LaTeX warning; the QA record is PASS for v0.5.2 and every source hash equals
 its blob. The changed pages (Proposition 7, the references) were looked at as
-images. The CI run is recorded below once it exists.
+images. CI run 37170774622 at `4fd7923`: the tests (now including the offline
+bibliography check), certified and paper jobs all succeeded on the v7 actions.
 
 **Not changed.** The professor question and the private sheets. The four
 hunks left by the other writer on 2 October stay uncommitted.

@@ -417,6 +417,45 @@ Wightman → Schwinger para um campo de dois índices sem localidade. Se não
 existir, o resultado de E2c é um teorema sobre a camada euclidiana, e assim
 deve ser apresentado.
 
+### E2.8 Estado em 03/10/2026, à noite — a passagem de Wightman para (E)
+
+O próximo passo de E2.7 foi feito por conta, não por leitura. Está na seção 11
+da nota E2c, com quatro testes novos. É argumento com verificação simbólica,
+não prova lida em fonte, e não se reivindica novidade: a continuação de uma
+função de dois pontos a partir da forma de Källén–Lehmann deve estar em livro.
+
+**O que se mostrou.**
+- A parte $T$ continua para o euclidiano sem localidade. As duas ordens de
+  operadores dão a mesma função, porque $T$ é simétrico na troca dos pares de
+  índices e par em $p$. O resultado é $O(4)$-covariante, com a mesma medida
+  $\mu\ge0$.
+- O termo de helicidade sem massa ($i\alpha'X$, permitido pela positividade
+  quando $|\alpha'|\le\alpha$) é *antissimétrico* na troca dos pares. Isso foi
+  conferido nas métricas euclidiana e de Minkowski. Na função ordenada no
+  tempo ele ganha um fator $\operatorname{sign}(\tau)$. O salto em $\tau=0$ viola
+  Bianchi no plano inteiro $\tau=0$: 18 componentes não nulas em
+  $\mathbf x\neq0$, com forma fechada conferida.
+- Logo a hipótese (B<sub>T</sub>) exclui esse termo. Nesse setor, (B<sub>T</sub>)
+  é uma condição de comutatividade a tempos iguais, e faz o papel que o CPT
+  faria. A frase "não usa localidade nem CPT" continua certa como lista de
+  hipóteses, com essa ressalva escrita.
+- A representação euclidiana (E) deixa de ser premissa: ela sai da forma de
+  Källén–Lehmann de E2b mais (B<sub>T</sub>) e (I).
+- A função euclidiana ordenada no tempo é o objeto certo também sem
+  localidade: a resposta retardada em frequência zero é a integral em $\tau$
+  dessa função, só com o espectro das duas ordens.
+
+**O que se aprendeu que não era óbvio.** Eu ia escrever que o termo de
+helicidade, sem localidade, chegaria à linha estática só como um campo de
+rotacional, sem fluxo. A conta de Bianchi em $\tau=0$ mostrou que essa
+situação nem existe sob (B<sub>T</sub>). A dependência da superfície e a
+violação de Bianchi aparecem juntas, como devem.
+
+**O que continua aberto.** Os dois lemas de E2b (Bochner–Schwartz e a
+desintegração covariante). Uma fonte de livro para a continuação. O
+artigo, o resumo e a pergunta ao professor ainda dizem que a continuação não
+foi conferida; isso fica para a próxima versão, depois de revisão.
+
 ---
 
 ## E3 — Consolidar a contribuição original (P0)
