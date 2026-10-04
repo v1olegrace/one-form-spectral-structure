@@ -1,7 +1,7 @@
-# Audit report — paper v0.4, v0.5 and v0.5.1
+# Audit report — paper v0.4 to v0.5.2
 
-29 September 2026, with rounds on 1 October (§0) and 3 October (the first
-section below). Starting point of
+29 September 2026, with rounds on 1 October (§0) and 3 October (the two
+sections below). Starting point of
 the first round: `6672fdb` on `main`. The previous report of this name, dated
 11 September, is at
 [`reports/history/FINAL_REPORT_2026-09-11.md`](reports/history/FINAL_REPORT_2026-09-11.md).
@@ -9,6 +9,59 @@ the first round: `6672fdb` on `main`. The previous report of this name, dated
 This report records what changed, why, and how each change was checked. Where
 something could not be checked with the resources at hand it is marked
 `PENDING_VERIFICATION` rather than guessed.
+
+## Review of 3 October 2026 — paper v0.5.2
+
+A second pass over v0.5.1, the same day, looking for errors rather than
+adding results. Starting point `4f9bdb3`.
+
+**Found and fixed.**
+- *s\* in Proposition 7.* v0.5.1 said the kernel "is Hypothesis 3 with
+  s\* = inf supp σ, which may be zero". In the paper s\* is introduced by
+  Hypothesis 2 as positive, so the sentence contradicted the hypotheses it
+  cites. Proposition 7 now gives the *form* of Hypothesis 3, the integral
+  starting at inf supp σ, and says that this limit being positive is the gap
+  of Hypothesis 2, which does not follow. The note, README, brief, ledgers,
+  roadmap and D5 were aligned. The brief's first panel had answered "yes" to
+  "does QFT guarantee H3?"; it now says the form of H3 follows and the gap
+  stays separate.
+- *README.* "The physics, 14 pages" — 15 since v0.5.1.
+- *The note.* The rate paragraph named C(r) where it is C_ε(r); the sentence
+  on the static limit said the C_ε divergences "sit in a³_ε(0)", which
+  conflated the finite-T coefficient with the self-energy; Proposition 4 used
+  the Coulomb weight without saying so. The claim that q∞ = q_W needs no gap
+  was checked: for r ≥ 1, (1+√s r)e^{−√s r} ≤ C/(1+s), integrable by (I).
+- *`make.py bib`.* It did not reproduce the committed bibliography (eight
+  cited records outside the seed list and uncached; preprint years from
+  INSPIRE; article numbers lost to page_start; failed fetches cached; the
+  JSON rewritten in another format without its hand fields; the CSV missing
+  eight rows). It now verifies offline that every value is returned by the
+  API its provenance names, or is a hand correction whose note quotes it, and
+  writes nothing otherwise. A note that only names a field no longer covers
+  any value: a test changes a documented year and expects a failure. CI runs
+  the target and fails on any diff. The request header carried the author's
+  e-mail; it now points to the repository.
+- *Two bibliography errors, found by that check.* Banks–Seiberg was printed
+  with its preprint year 2010 instead of 2011 (Phys. Rev. D 83, 084019); an
+  uncited entry had page "3" instead of article number 035003. Two titles and
+  one author list had been entered by hand on 21 September in a form no API
+  returns; they now carry the API values. Every change is in the record's
+  correction note, with the date.
+- *CI actions.* checkout, setup-python and upload-artifact move from the
+  Node 20 majors to v7, which run on Node 24 (checked in each tag's
+  `action.yml`; the release notes' breaking changes do not touch the inputs
+  used here).
+
+**Verification.** On a clean clone of `1a28d15` with `core.autocrlf=false`:
+370 tests collected, 368 passed and the 2 QA-record tests failed as expected
+before the new record; with the record, they pass. `make.py bib` exits 0 and
+leaves its three outputs unchanged. The paper builds in 15 pages with no
+LaTeX warning; the QA record is PASS for v0.5.2 and every source hash equals
+its blob. The changed pages (Proposition 7, the references) were looked at as
+images. The CI run is recorded below once it exists.
+
+**Not changed.** The professor question and the private sheets. The four
+hunks left by the other writer on 2 October stay uncommitted.
 
 ## Round of 3 October 2026 — paper v0.5.1
 
