@@ -283,7 +283,8 @@ whose position depends on an arbitrary choice.
 Not used: locality W4, CPT, parity, $F=dA$, Maxwell's equations, a gauge
 choice. One qualification: in the massless helicity sector, (B<sub>T</sub>) is
 itself an equal-time commutativity condition, and it does the work CPT would
-have done (Section 11). (E) follows from E2b's form and (B<sub>T</sub>)
+have done (Section 11). It does so through its separated-point content on the
+plane $\tau=0$, not through the coincident-point clause, which excludes $G$. (E) follows from E2b's form and (B<sub>T</sub>)
 (Section 11); E2b's form rests on two unread lemmas. Not implied: the gap of
 Hypothesis 2, the Coulomb phase, anything beyond the quadratic cumulant.
 
@@ -454,9 +455,16 @@ $\epsilon\partial S$. That coefficient is not zero: 18 of its components are
 nonzero at $\mathbf x\neq0$, for instance
 $\epsilon_{10\mu\nu}X_{\mu\nu,01}(\partial)G\,\big|_{\tau=0}=-2(x_1^2-x_2^2-x_3^2)/(\pi^2|\mathbf x|^6)$.
 (B<sub>T</sub>) asks Bianchi on all of $\mathbb R^4$, so it forces $\alpha'=0$.
-In Minkowski language the jump is the equal-time commutator of the magnetic
-field with $F$: (B<sub>T</sub>) contains, in this sector, the equal-time
-locality that CPT would otherwise have supplied.
+Which part of (B<sub>T</sub>) does this matters. The jump sits at
+$\tau=0$, $\mathbf x\neq0$: Euclidean points *separated* from the origin. So
+the helicity term is excluded by Euclidean Bianchi for the time-ordered
+function at separated points on the plane $\tau=0$. The Wightman Bianchi
+identity at separated points, (B), does not exclude it, since $Y$ satisfies
+it. The coincident-point clause of (B<sub>T</sub>) is what excludes the
+contact $G$ (Section 7); it plays no part here. In Minkowski language the
+jump is the equal-time commutator of the magnetic field with $F$:
+(B<sub>T</sub>) contains, in this sector, the equal-time locality that CPT
+would otherwise have supplied.
 
 **Consistency.** Had the helicity term survived, its time-ordered function
 would reach the static line: $\int d\tau\,\operatorname{sign}(\tau)\,\partial_\tau g=-2g(0)\neq0$,

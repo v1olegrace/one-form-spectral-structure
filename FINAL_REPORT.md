@@ -36,7 +36,14 @@ not read in a source, and no novelty is claimed.
 
 The paper, the brief and the professor question were not changed: they still
 say the continuation is unchecked, which is conservative. Integrating §11 is
-left for a version that has been reviewed.
+left for a version that has been reviewed. CI run 37171386302 at `bb8c6ed`:
+all three jobs succeeded.
+
+A precision added afterwards: the jump sits at τ = 0, x ≠ 0, so the term is
+excluded by Euclidean Bianchi at *separated* points on that plane. The
+Wightman Bianchi identity at separated points does not exclude it, and the
+coincident-point clause of (B_T) plays no part here; it is what excludes the
+contact G. §11, the theorem's qualification and D5 now say so.
 
 ## Review of 3 October 2026 — paper v0.5.2
 
