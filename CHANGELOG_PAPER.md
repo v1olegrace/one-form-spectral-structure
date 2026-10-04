@@ -1,5 +1,29 @@
 # Changelog do manuscrito (`paper/paper.tex`)
 
+## v0.5.2 — 2026-10-03 — Revisão: o s* da Proposição 7 e a bibliografia conferida
+
+Revisão adversarial da v0.5.1, no mesmo dia. O PDF canônico e o registro em
+`output/data/canonical_pdf_qa.json` foram refeitos para a v0.5.2.
+
+- **Proposição 7 e o s\*.** A v0.5.1 dizia que o resultado é a Hipótese 3
+  "com $s_*=\inf\operatorname{supp}\sigma$, que pode ser zero". No artigo,
+  porém, $s_*$ nasce na Hipótese 2 já positivo. Agora a proposição diz que,
+  com peso de Coulomb, o kernel tem a *forma* da Hipótese 3, com a integral
+  começando em $\inf\operatorname{supp}\sigma$, e que esse limite ser positivo
+  é o gap da Hipótese 2, que não decorre dela. O parágrafo depois das
+  hipóteses diz o mesmo.
+- **Bibliografia.** `make.py bib` agora confere, sem rede, que cada valor do
+  harvest é o que a API citada na procedência devolve, ou uma correção à mão
+  cuja nota cita o valor. Refazê-lo achou dois erros: Banks–Seiberg estava
+  impresso com o ano do preprint (2010) em vez do ano da revista (2011, Phys.
+  Rev. D 83, 084019), e uma entrada não citada tinha página "3" em vez do
+  número de artigo 035003. Os títulos de Hackett–Wagman e de Lawrence e o
+  formato de autor de Hinrichs–Polzer passam a ser os valores que as APIs
+  devolvem; a forma anterior não vinha de nenhuma API.
+
+Não mudou: o conteúdo matemático da Proposição 7, os teoremas A, C, E e H. O
+artigo continua com 15 páginas.
+
 ## v0.5.1 — 2026-10-03 — A Proposição 7 com o enunciado que ela sustenta
 
 Correções da auditoria de E2c de 2 de outubro

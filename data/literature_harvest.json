@@ -75,7 +75,7 @@
  {
   "title": "Symmetries and Strings in Field Theory and Gravity",
   "authors": "Banks, Tom; Seiberg, Nathan",
-  "year": "2010",
+  "year": "2011",
   "journal": "Phys.Rev.D",
   "volume": "83",
   "pages": "084019",
@@ -84,7 +84,8 @@
   "inspire_id": "880647",
   "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"journal\": \"inspire\", \"volume\": \"inspire\", \"pages\": \"crossref\", \"doi\": \"inspire\", \"arxiv\": \"inspire\", \"inspire_id\": \"inspire\"}",
   "key": "banks_seiberg_2010",
-  "seed_query": "arxiv:1011.5120"
+  "seed_query": "arxiv:1011.5120",
+  "correction": "2026-10-03: year 2010 (preprint) -> 2011 (journal year, Phys. Rev. D 83 (2011) 084019); missed by the corrections of 2026-09-21. Key unchanged for stability."
  },
  {
   "title": "The String landscape, black holes and gravity as the weakest force",
@@ -107,14 +108,14 @@
   "year": "2023",
   "journal": "Rev.Mod.Phys.",
   "volume": "95",
-  "pages": "3",
+  "pages": "035003",
   "doi": "10.1103/RevModPhys.95.035003",
   "arxiv": "2201.08380",
   "inspire_id": "2694332",
   "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"journal volume\", \"journal\": \"inspire\", \"volume\": \"inspire\", \"pages\": \"inspire\", \"doi\": \"inspire\", \"arxiv\": \"inspire\", \"inspire_id\": \"inspire\"}",
   "key": "harlow_heidenreich_reece_rudelius_2022",
   "seed_query": "arxiv:2201.08380",
-  "correction": "2026-09-21: year 2022 (preprint) -> 2023 (journal year, Rev. Mod. Phys. 95 (2023)). Key unchanged for stability."
+  "correction": "2026-09-21: year 2022 (preprint) -> 2023 (journal year, Rev. Mod. Phys. 95 (2023)). Key unchanged for stability. | 2026-10-03: pages 3 -> 035003, the article number (Rev. Mod. Phys. 95 (2023) 035003); the old value came from page_start."
  },
  {
   "title": "Concavity of the quarkonium potential",
@@ -268,11 +269,12 @@
   "pages": "PENDING_VERIFICATION",
   "doi": "PENDING_VERIFICATION",
   "arxiv": "2603.28454",
-  "inspire_id": "PENDING_VERIFICATION",
-  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"arxiv\": \"inspire\"}",
+  "inspire_id": "3137200",
+  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"arxiv\": \"inspire\", \"inspire_id\": \"inspire\"}",
   "key": "raman_2026_positivity_notes",
   "seed_query": "arxiv:2603.28454",
-  "added": "2026-09-21"
+  "added": "2026-09-21",
+  "correction": "2026-10-03: inspire_id filled from the cached INSPIRE response."
  },
  {
   "title": "Lanczos Algorithm, the Transfer Matrix, and the Signal-to-Noise Problem",
@@ -283,14 +285,15 @@
   "pages": "241901",
   "doi": "10.1103/pcvc-734h",
   "arxiv": "2406.20009",
-  "inspire_id": "PENDING_VERIFICATION",
-  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"journal\": \"inspire\", \"volume\": \"inspire\", \"pages\": \"inspire\", \"doi\": \"inspire\", \"arxiv\": \"inspire\"}",
+  "inspire_id": "2803123",
+  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"journal\": \"inspire\", \"volume\": \"inspire\", \"pages\": \"inspire\", \"doi\": \"inspire\", \"arxiv\": \"inspire\", \"inspire_id\": \"inspire\"}",
   "key": "wagman_2025_lanczos",
   "seed_query": "arxiv:2406.20009",
-  "added": "2026-09-21"
+  "added": "2026-09-21",
+  "correction": "2026-10-03: inspire_id filled from the cached INSPIRE response."
  },
  {
-  "title": "Block Lanczos Algorithm for Lattice QCD Spectroscopy and Matrix Elements",
+  "title": "Block Lanczos algorithm for lattice QCD spectroscopy and matrix elements",
   "authors": "Hackett, Daniel C.; Wagman, Michael L.",
   "year": "2025",
   "journal": "Phys.Rev.D",
@@ -298,14 +301,15 @@
   "pages": "014514",
   "doi": "10.1103/fp74-q35q",
   "arxiv": "2412.04444",
-  "inspire_id": "PENDING_VERIFICATION",
-  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"journal\": \"inspire\", \"volume\": \"inspire\", \"pages\": \"inspire\", \"doi\": \"inspire\", \"arxiv\": \"inspire\"}",
+  "inspire_id": "2856227",
+  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"journal\": \"inspire\", \"volume\": \"inspire\", \"pages\": \"inspire\", \"doi\": \"inspire\", \"arxiv\": \"inspire\", \"inspire_id\": \"inspire\"}",
   "key": "hackett_wagman_2025_block_lanczos",
   "seed_query": "arxiv:2412.04444",
-  "added": "2026-09-21"
+  "added": "2026-09-21",
+  "correction": "2026-10-03: title set to the INSPIRE value; the title-case form entered on 2026-09-21 is returned by none of the APIs. | 2026-10-03: inspire_id filled from the cached INSPIRE response."
  },
  {
-  "title": "Model-Free Spectral Reconstruction via Lagrange Duality",
+  "title": "Model-free spectral reconstruction via Lagrange duality",
   "authors": "Lawrence, Scott",
   "year": "2024",
   "journal": "PENDING_VERIFICATION",
@@ -313,11 +317,12 @@
   "pages": "PENDING_VERIFICATION",
   "doi": "PENDING_VERIFICATION",
   "arxiv": "2408.11766",
-  "inspire_id": "PENDING_VERIFICATION",
-  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"arxiv\": \"inspire\"}",
+  "inspire_id": "2820228",
+  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"arxiv\": \"inspire\", \"inspire_id\": \"inspire\"}",
   "key": "lawrence_2024_lagrange_duality",
   "seed_query": "arxiv:2408.11766",
-  "added": "2026-09-21"
+  "added": "2026-09-21",
+  "correction": "2026-10-03: title set to the INSPIRE value; the title-case form entered on 2026-09-21 is returned by none of the APIs. | 2026-10-03: inspire_id filled from the cached INSPIRE response."
  },
  {
   "title": "Extracting quantum field theory dynamics from an approximate ground state",
@@ -328,11 +333,12 @@
   "pages": "PENDING_VERIFICATION",
   "doi": "PENDING_VERIFICATION",
   "arxiv": "2512.19594",
-  "inspire_id": "PENDING_VERIFICATION",
-  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"arxiv\": \"inspire\"}",
+  "inspire_id": "3094673",
+  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"arxiv\": \"inspire\", \"inspire_id\": \"inspire\"}",
   "key": "mutzel_tilloy_2025",
   "seed_query": "arxiv:2512.19594",
-  "added": "2026-09-21"
+  "added": "2026-09-21",
+  "correction": "2026-10-03: inspire_id filled from the cached INSPIRE response."
  },
  {
   "title": "Schwinger function, confinement, and positivity violation in pure gauge QED",
@@ -343,11 +349,12 @@
   "pages": "L011502",
   "doi": "10.1103/PhysRevD.106.L011502",
   "arxiv": "2203.00676",
-  "inspire_id": "PENDING_VERIFICATION",
-  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"journal\": \"inspire\", \"volume\": \"inspire\", \"pages\": \"inspire\", \"doi\": \"inspire\", \"arxiv\": \"inspire\"}",
+  "inspire_id": "2040486",
+  "provenance": "{\"title\": \"inspire\", \"authors\": \"inspire\", \"year\": \"inspire\", \"journal\": \"inspire\", \"volume\": \"inspire\", \"pages\": \"inspire\", \"doi\": \"inspire\", \"arxiv\": \"inspire\", \"inspire_id\": \"inspire\"}",
   "key": "loveridge_oliveira_silva_2022",
   "seed_query": "arxiv:2203.00676",
-  "added": "2026-09-21"
+  "added": "2026-09-21",
+  "correction": "2026-10-03: inspire_id filled from the cached INSPIRE response."
  },
  {
   "title": "Upper bound on the color-confining potential",
@@ -358,15 +365,16 @@
   "pages": "482",
   "doi": "10.1103/PhysRevD.18.482",
   "arxiv": "PENDING_VERIFICATION",
-  "inspire_id": "PENDING_VERIFICATION",
-  "provenance": "{\"title\": \"crossref\", \"authors\": \"crossref\", \"year\": \"crossref\", \"journal\": \"crossref\", \"volume\": \"crossref\", \"pages\": \"crossref\", \"doi\": \"crossref\"}",
+  "inspire_id": "135816",
+  "provenance": "{\"title\": \"crossref\", \"authors\": \"crossref\", \"year\": \"crossref\", \"journal\": \"inspire\", \"volume\": \"crossref\", \"pages\": \"inspire\", \"doi\": \"inspire\", \"inspire_id\": \"inspire\"}",
   "key": "seiler_1978",
   "seed_query": "doi:10.1103/PhysRevD.18.482",
-  "added": "2026-09-21"
+  "added": "2026-09-21",
+  "correction": "2026-10-03: provenance re-derived from the cached API responses: journal crossref->inspire, pages crossref->inspire, doi crossref->inspire. | 2026-10-03: inspire_id filled from the cached INSPIRE response."
  },
  {
   "title": "Wiener-Type Theorems for the Laplace Transform. With Applications to Ground State Problems",
-  "authors": "Hinrichs, Benjamin; Polzer, Steffen",
+  "authors": "Benjamin Hinrichs; Steffen Polzer",
   "year": "2025",
   "journal": "PENDING_VERIFICATION",
   "volume": "PENDING_VERIFICATION",
@@ -377,7 +385,8 @@
   "provenance": "{\"title\": \"semantic_scholar\", \"authors\": \"semantic_scholar\", \"year\": \"semantic_scholar\", \"arxiv\": \"semantic_scholar\"}",
   "key": "hinrichs_polzer_2025",
   "seed_query": "arxiv:2511.02867",
-  "added": "2026-09-21"
+  "added": "2026-09-21",
+  "correction": "2026-10-03: authors set to the Semantic Scholar value, the only API with this record; the 'Last, First' form entered on 2026-09-21 was a hand reformatting."
  },
  {
   "title": "Propagator poles and an emergent stable state below threshold: general discussion and the E(38) state",

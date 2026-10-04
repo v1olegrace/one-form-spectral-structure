@@ -34,9 +34,10 @@ before it was applied:
    $1/\varepsilon$: a regulated contact, not a finite string tension, and not
    the nonlocal function $D$ of the stochastic vacuum model (Sections 7, 8).
 4. The Euclidean representation is now hypothesis (E), stated, not derived.
-5. The output is a positive Stieltjes kernel; it is the paper's Hypothesis 3
-   only with the Coulomb weight $\mu(\{0\})>0$, and the gap of Hypothesis 2 is
-   a further, separate input.
+5. The output is a positive Stieltjes kernel. It has the form of the paper's
+   Hypothesis 3 only with the Coulomb weight $\mu(\{0\})>0$, with the integral
+   starting at $\inf\operatorname{supp}\sigma$; that this lower limit is
+   positive is the gap of Hypothesis 2, a further, separate input.
 6. "Linear order" means truncation at the quadratic cumulant. The cubic
    cumulant vanishes only if the state is charge-conjugation invariant; the
    connected four-field cumulant is $O(q_W^4)$, and calling it light-by-light
@@ -55,11 +56,11 @@ a static line depend on the two-point function only through
 $$a^{(3)}(r)=\int_{[0,\infty)}d\mu(s)\,\frac{e^{-\sqrt s\,r}}{4\pi r},\qquad \mu\ge0 .$$
 For $r>0$ the static kernel is therefore the positive Stieltjes function
 $\int d\mu(s)/(Q^2+s)$, up to a contact polynomial that does not reach $r>0$,
-and the linear-response relation of Hypothesis 5 holds. This is Hypothesis 3
-of the paper, with $g_R^2=\mu(\{0\})$, $\sigma=\mu|_{(0,\infty)}$ and
-$s_*=\inf\operatorname{supp}\sigma$, only when the Coulomb weight
-$\mu(\{0\})$ is positive; $s_*$ may be $0$, and the gap $s_*>0$ of
-Hypothesis 2 is not implied. The massless helicity term that E2b could remove
+and the linear-response relation of Hypothesis 5 holds. This has the form of
+Hypothesis 3 of the paper, with $g_R^2=\mu(\{0\})$, $\sigma=\mu|_{(0,\infty)}$
+and the integral starting at $\inf\operatorname{supp}\sigma$, only when the
+Coulomb weight $\mu(\{0\})$ is positive. That lower limit may be $0$; the gap
+of Hypothesis 2, which makes it positive, is not implied. The massless helicity term that E2b could remove
 only through CPT never reaches either observable. What (B<sub>T</sub>)
 excludes is the local structure $G=\delta\delta-\delta\delta$; a contact
 $c\,G$ gives an area term whose regulated coefficient diverges as the
@@ -205,7 +206,7 @@ origin, which vanish at every $r>0$ as $\varepsilon\to0$.
 **Measured.** I had expected a $\log T/T$ rate in the Coulomb phase, from the
 $1/u^2$ tail of $a(u,r)$ taken alone. The computation says otherwise: in the
 bracket the tails cancel, and $T\,(V_T-V_\infty)$ converges to the predicted
-$C(r)$ (table in Section 9). With a gap and no Coulomb weight it is constant to
+$C_\varepsilon(r)$ (table in Section 9). With a gap and no Coulomb weight it is constant to
 six significant digits already at $T=10$.
 
 **The rate does not survive removing the regulator.** For the pure Coulomb
@@ -221,14 +222,17 @@ and diverges logarithmically; the second carries the $1/\sqrt\varepsilon$ term.
 At $r=1$ the expansion reproduces the computed values to five decimals:
 $C_{10^{-2}}=0.20599$, $C_{10^{-3}}=1.06014$, $C_{10^{-4}}=4.01340$,
 $C_{10^{-5}}=13.60468$. So the $1/T$ rate is a statement at fixed regulator.
-The limit $V_\infty$ itself is unaffected: the divergent pieces sit in
-$a^{(3)}_\varepsilon(0)$, which is $r$-independent and drops from $V(r)-V(r_0)$.
+The static potential is unaffected: $V_{\infty,\varepsilon}(r)-V_{\infty,\varepsilon}(r_0)$
+converges as $\varepsilon\to0$, because the only divergent piece of
+$V_{\infty,\varepsilon}$, the self-energy $a^{(3)}_\varepsilon(0)$, does not
+depend on $r$.
 
 ## 5. The field of a static line
 
 **Proposition 4.** At $O(q_W)$ the field of a static line through the origin is
 a gradient, $\langle E_i(\mathbf x)\rangle\propto q_W\,\partial_ia^{(3)}(\mathbf x)$,
-independent of the half-plane chosen to span it. Its flux through a sphere is
+independent of the half-plane chosen to span it. Under (C), its flux through a
+sphere, normalised by its limit at infinity, is
 $$\frac{q(r)}{q_W}=\frac{1}{\mu(\{0\})}\Bigl[\mu(\{0\})+\int_{(0,\infty)}d\mu(s)\,(1+\sqrt s\,r)\,e^{-\sqrt s\,r}\Bigr],$$
 which is the formula from which the paper's Theorem A starts, with
 $g_R^2=\mu(\{0\})$ and $q_\infty=q_W$.
@@ -261,11 +265,12 @@ whose position depends on an arbitrary choice.
 2. the field of a static line is $-q_W\nabla a^{(3)}$ up to normalisation, so the
    linear-response relation of Hypothesis 5 holds with
    $\mathcal G(Q^2)=\int d\mu(s)/(Q^2+s)$ plus a polynomial;
-3. under (C), Hypothesis 3 holds on $r>0$ with $g_R^2=\mu(\{0\})$,
-   $d\sigma=d\mu|_{(0,\infty)}$ and $s_*=\inf\operatorname{supp}\sigma$, which may
-   be $0$. The Laplace representation of Theorem A follows, with
-   $M_*=\sqrt{s_*}$ possibly zero: $q_\infty=q_W$ needs only dominated
-   convergence under (I), not the gap.
+3. under (C), the representation of Hypothesis 3 holds on $r>0$ with
+   $g_R^2=\mu(\{0\})$, $d\sigma=d\mu|_{(0,\infty)}$ and the integral starting at
+   $\inf\operatorname{supp}\sigma$, which may be $0$; Hypothesis 2 asks it to
+   be positive. The Laplace representation of Theorem A follows, with
+   $M_*=(\inf\operatorname{supp}\sigma)^{1/2}$ possibly zero: $q_\infty=q_W$
+   needs only dominated convergence under (I), not the gap.
 
 Not used: locality W4, CPT, parity, $F=dA$, Maxwell's equations, a gauge
 choice. Used, and not derived here: (E), so the Wightman → Schwinger step.

@@ -242,7 +242,8 @@ mostrou que o fechamento acima foi dito de forma larga demais. O que está
 demonstrado parte de uma representação euclidiana positiva de ⟨FF⟩, agora
 premissa explícita: sem localidade, a passagem de Wightman para Schwinger não
 tem fonte conferida. O resultado é um kernel de Stieltjes positivo em r > 0,
-que é a H3 só com peso de Coulomb; o gap é hipótese separada. A taxa 1/T vale
+que tem a forma da H3 só com peso de Coulomb; o gap, que torna positivo o
+fundo do suporte, é hipótese separada. A taxa 1/T vale
 a regulador fixo, com coeficiente q_W²C_ε, e C_ε não tem limite quando o
 regulador sai. O contato G dá um termo de área com inclinação que diverge como
 1/ε: não é tensão de corda, e a relação com a função D do vácuo estocástico é

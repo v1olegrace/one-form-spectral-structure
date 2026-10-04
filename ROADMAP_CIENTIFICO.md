@@ -396,8 +396,11 @@ estreito, e esse é o que vale daqui em diante.
 - A representação euclidiana positiva de ⟨FF⟩ virou premissa explícita (E).
   Sem localidade, a passagem de Wightman para Schwinger não tem fonte
   conferida.
-- O que sai é um kernel de Stieltjes positivo. É a H3 só com peso de
-  Coulomb; o gap é outra hipótese, e $s_*$ pode ser zero.
+- O que sai é um kernel de Stieltjes positivo. Com peso de Coulomb, tem a
+  forma da H3, com a integral começando no fundo do suporte; que esse fundo
+  seja positivo é o gap da H2, outra hipótese. (A primeira redação de hoje
+  dizia "$s_*$ pode ser zero", o que choca com a H2, onde $s_*$ nasce
+  positivo; corrigido na v0.5.2.)
 - "Ordem linear" quer dizer truncar no cumulante quadrático. O cúbico só some
   com simetria de conjugação de carga.
 
@@ -512,6 +515,7 @@ número do texto está coberto por um `assert`.
 | v0.4 | E2.5 | 29/09/2026 | Cadeia de bolhas ressomada no apêndice A (três regimes de $Z_3$, átomo acima do corte atribuído a Giacosa–Wolkanowski), limitação dos testes de momentos no texto principal, dualidade Stieltjes/Bernstein citada |
 | v0.5 | E2.6 | 01/10/2026 | Proposição 7 no apêndice A: transporte ⟨FF⟩ → kernel estático em ordem linear na sonda, condicional aos lemas de E2b; estrutura de lei de área creditada ao vácuo estocástico (Di Giacomo et al. 2002); constante de $Z_3=0$ identificada como termo de contato; 14 páginas; registro de QA gerado de um clone LF e conferido por teste |
 | v0.5.1 | E2.7 | 03/10/2026 | Correções da auditoria de E2c: representação euclidiana positiva como premissa da Proposição 7; H3 só com peso de Coulomb e $s_*$ possivelmente zero; contato de área regulado e divergente, comparação com $D$ só estrutural; truncamento no cumulante quadrático; 15 páginas |
+| v0.5.2 | E2.7 | 03/10/2026 | Revisão: a Proposição 7 dá a *forma* da H3, com a integral começando no fundo do suporte, e o gap $s_*>0$ fica na H2 (a v0.5.1 dizia "$s_*$ pode ser zero", em choque com a H2); bibliografia refeita por uma rotina que confere cada valor na API citada: Banks–Seiberg passa a 2011 (ano da revista), dois títulos e um formato de autor vêm da API; 15 páginas |
 
 O PDF entregue da v0.3 é `output/pdf/spectral_structure_v03.pdf` (12 páginas,
 compilado com Tectonic 0.17.0 portátil). Esse diretório é gitignored: o PDF

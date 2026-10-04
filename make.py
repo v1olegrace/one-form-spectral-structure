@@ -7,7 +7,7 @@ no external dependency beyond Python:
 
     python make.py test      run the full test suite
     python make.py numerics  regenerate all numerical results and figures
-    python make.py bib       re-harvest metadata and rebuild references.bib
+    python make.py bib       verify the harvest offline, then rebuild references.bib
     python make.py audit     rebuild the audit ledgers
     python make.py pdf       compile paper/paper.pdf (requires a LaTeX toolchain)
     python make.py all       numerics + audit + test
@@ -57,9 +57,13 @@ def target_numerics():
 
 
 def target_bib():
+    """Offline.  Verify every harvested record against the cached API
+    responses, then rebuild references.bib from the harvest.  Network steps
+    are explicit: scripts/literature_harvester.py --fetch / --add."""
     rc = run([sys.executable, "scripts/literature_harvester.py"])
-    rc |= run([sys.executable, "scripts/build_bibliography.py"])
-    return rc
+    if rc:
+        return rc
+    return run([sys.executable, "scripts/build_bibliography.py"])
 
 
 def target_audit():

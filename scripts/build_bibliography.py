@@ -136,9 +136,9 @@ def entry_from_book(b):
     return f"@{etype}{{{key},\n  {body}\n}}\n"
 
 
-def main():
+def render():
+    """The full text of references.bib, from the committed harvest."""
     records = json.loads(HARVEST.read_text(encoding="utf-8"))
-    OUT.parent.mkdir(parents=True, exist_ok=True)
 
     n_pending = sum(1 for r in records for v in r.values() if v == PENDING)
     header = (
@@ -159,11 +159,30 @@ def main():
     chunks += [entry_from_record(r) for r in records]
     chunks.append("\n% ---- Monographs and reference works (hand-entered) ----\n\n")
     chunks += [entry_from_book(dict(b)) for b in BOOKS]
+    return "\n".join(chunks), len(records), n_pending
 
-    OUT.write_text("\n".join(chunks), encoding="utf-8")
-    print(f"wrote {OUT.relative_to(ROOT)}: {len(records)} articles + {len(BOOKS)} books")
+
+def main(argv=None):
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--check", action="store_true",
+                    help="compare with the committed file instead of writing it")
+    args = ap.parse_args(argv)
+    text, n_records, n_pending = render()
+    if args.check:
+        current = OUT.read_bytes().replace(b"\r\n", b"\n").decode("utf-8") if OUT.exists() else ""
+        if current != text:
+            print(f"{OUT.relative_to(ROOT)} is not what the harvest produces; run without --check")
+            return 1
+        print(f"{OUT.relative_to(ROOT)} matches the harvest")
+        return 0
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    # LF on every platform: the file is committed with LF line endings.
+    OUT.write_text(text, encoding="utf-8", newline="\n")
+    print(f"wrote {OUT.relative_to(ROOT)}: {n_records} articles + {len(BOOKS)} books")
     print(f"{n_pending} fields omitted as PENDING_VERIFICATION")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

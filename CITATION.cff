@@ -12,7 +12,7 @@ authors:
     given-names: "Mauro"
     alias: "Viole"
     affiliation: "Independent researcher, Botucatu, SP, Brazil"
-version: "0.5.1"
+version: "0.5.2"
 date-released: "2026-10-03"
 license: MIT
 keywords:

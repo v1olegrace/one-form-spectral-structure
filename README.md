@@ -5,7 +5,7 @@
 A one-form symmetry observable, a positivity hypothesis, and an honest account
 of exactly where the argument holds and where it stops.
 
-Manuscript: [`paper/paper.tex`](paper/paper.tex) — draft **v0.5.1** ·
+Manuscript: [`paper/paper.tex`](paper/paper.tex) — draft **v0.5.2** ·
 Research plan: [`ROADMAP_CIENTIFICO.md`](ROADMAP_CIENTIFICO.md) (pt-BR)
 
 ---
@@ -25,9 +25,10 @@ give upper bounds that descend to that threshold.
 **H3 is not proved unconditionally.** At linear order in the probe, the static
 kernel inherits a positive Stieltjes form from an *assumed* positive Euclidean
 spectral representation of ⟨FF⟩ obeying the Bianchi identity at coincident
-points (Appendix A, Proposition 7). That is H3 only with a Coulomb weight, and
-the gap is a separate input. Deriving the representation from the Wightman
-axioms needs lemmas and a continuation not yet checked against their sources;
+points (Appendix A, Proposition 7). With a Coulomb weight it has the form of
+H3, the integral starting at the bottom of the spectral support; that this is
+positive, the gap, is a separate input. Deriving the representation from the
+Wightman axioms needs lemmas and a continuation not yet checked against their sources;
 beyond the quadratic cumulant it is open. Most of this repository is the work
 of finding out precisely what each of those words costs.
 
@@ -38,7 +39,7 @@ sources below in one command.
 
 | If you want | Read | Build it |
 |---|---|---|
-| The physics, 14 pages | [`paper/paper.tex`](paper/paper.tex) | `python make.py pdf` |
+| The physics, 15 pages | [`paper/paper.tex`](paper/paper.tex) | `python make.py pdf` |
 | How ⟨FF⟩ reaches the static kernel | [`notes/E2c_transport_linear_probe.md`](notes/E2c_transport_linear_probe.md) | `python -m pytest tests/test_e2c_transport.py` |
 | A six-page discussion brief (pt-BR) | [`paper/professor_brief.tex`](paper/professor_brief.tex) | `tectonic paper/professor_brief.tex` |
 | The argument and the mathematics (pt-BR) | [`output/impressao_professor_2026-09-28/fontes_tex/`](output/impressao_professor_2026-09-28/fontes_tex/) | `tectonic raciocinio_e_matematica.tex` |
@@ -113,7 +114,7 @@ hypothesis with a wide margin.
 | C7 | No uniform lower bound on M\* from a finite window | proved; phenomenon known | inverse-Laplace ill-posedness |
 | C8 | Positivity alone cannot fix a WGC scale | proved conditionally | COR 2022; Dvali |
 | C9 | Bubble chain: H3 holds for Z₃ > 0, fails for Z₃ < 0; at Z₃ = 0 only a contact term | proved in the model | Giacosa–Wolkanowski 2012 (atom); Källén |
-| C10 | Linear probe: positive Euclidean ⟨FF⟩ + Bianchi with contacts ⟹ positive Stieltjes kernel on r > 0 (H3 with a Coulomb weight) | proved conditionally | stochastic vacuum model (tensor split D vs D₁) |
+| C10 | Linear probe: positive Euclidean ⟨FF⟩ + Bianchi with contacts ⟹ positive Stieltjes kernel on r > 0 (the form of H3, given a Coulomb weight) | proved conditionally | stochastic vacuum model (tensor split D vs D₁) |
 
 Per-claim novelty verdicts: [`data/claims_matrix.csv`](data/claims_matrix.csv).
 C5 and C6 are **not** in the canonical paper — see [`DECISIONS.md`](DECISIONS.md).
@@ -161,7 +162,8 @@ representation with measure μ ≥ 0, ∫dμ/(1+s) < ∞, and obeys the Bianchi
 identity including coincident points. Truncating at the quadratic cumulant,
 the static potential and the field of a static line see ⟨FF⟩ only through
 a³(r) = ∫dμ(s) e^{−√s r}/(4πr), so on r > 0 the kernel is a positive Stieltjes
-function: H3 if μ({0}) > 0, with s\* possibly zero; the gap is not implied.
+function: the form of H3 if μ({0}) > 0, with the integral starting at
+inf supp σ, possibly zero; the gap, which makes it positive, is not implied.
 The massless helicity term never reaches either observable, so CPT is not
 needed. A local contact that violates Bianchi gives an area term whose slope
 diverges as 1/ε when the regulator is removed: a regulated contact, not a
@@ -271,10 +273,12 @@ These are the practices that make a theory paper's numerics trustworthy.
    sides of an identity measures inconsistency, not error. Precision claims are
    backed by multiprecision arithmetic and an exact closed-form anchor.
 7. **Provenance for literature.** Every field of the 28 articles and preprints
-   comes from an API response recorded in `data/literature_harvest.json`; the
-   six monographs and the DLMF, which have no such record, are entered by hand
-   in `scripts/build_bibliography.py`. Forbidden sources (wikis, content farms,
-   AI summaries) fail the test suite.
+   in `data/literature_harvest.json` is returned by the API its provenance
+   names, in a cached response under `data/api_responses/`, or is a hand
+   correction whose note quotes the value; `python make.py bib` checks this
+   offline and CI runs it. The six monographs and the DLMF, which have no such
+   record, are entered by hand in `scripts/build_bibliography.py`. Forbidden
+   sources (wikis, content farms, AI summaries) fail the test suite.
 8. **Reproducibility.** Validated in a clean checkout: 357 tests pass, and
    `git status` is empty after `make.py numerics`, `audit` and `certified`, so
    those artefacts are regenerated byte-for-byte from the commit. The PDF QA
@@ -326,12 +330,17 @@ evidence of anything.
   rewritten with LF and the rest checked out with CRLF, and no test compared it
   with anything. The v0.5 record comes from an LF clone and matches every blob,
   and a test now enforces that.
-- `python make.py bib` does not reproduce the committed bibliography. Eight
-  cited records came from outside the harvester's seed list, and re-resolving
-  shifts some years from publication to preprint (Masjuan–Peris 2010 → 2009).
-  Running it would silently drop eight citations from the paper. Not yet fixed;
-  new records are added by appending to the harvest. CI never runs this target,
-  which is why it went unnoticed.
+- `python make.py bib` did not reproduce the committed bibliography. Eight
+  cited records came from outside the harvester's seed list, with no cached
+  response; INSPIRE years were preprint years and article numbers were lost to
+  `page_start`; failed fetches were cached and blocked retries; and a run
+  rewrote the JSON in another format without its hand fields. Running it would
+  silently have dropped eight citations. Fixed on 3 October: the target now
+  verifies offline that every value is returned by the API its provenance
+  names, or is a hand correction whose note quotes it, and writes nothing
+  otherwise; CI runs it. Rebuilding it exposed two wrong entries: Banks–Seiberg
+  was printed with its preprint year 2010 instead of 2011, and an uncited
+  entry had page "3" instead of article number 035003.
 - The E2c note printed the boundary form of its Stokes lemma with a factor 2
   in front of each bilateral integral; taken literally, it is twice the
   surface cumulant. The code was right, and the test compared the surface
