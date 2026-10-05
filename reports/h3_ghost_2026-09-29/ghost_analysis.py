@@ -581,7 +581,14 @@ def run_tests(verbose=True):
 
     # ---- T2: ghost exists iff Z3 < 0; location diverges as Z3 -> 0^-
     assert ghost_root(0.5 * g2c, L2) is None
-    assert ghost_root(g2c, L2) is None                     # Z3 = 0 exactly
+    # At the numerically critical coupling Z3 = 0 only to quadrature accuracy,
+    # and the finder must refuse rather than assert the exact identity.
+    try:
+        ghost_root(g2c, L2)
+    except RuntimeError as exc:
+        assert "UNRESOLVED" in str(exc)
+    else:
+        raise AssertionError("ghost_root must refuse at the numerically critical coupling")
     roots = {}
     for k in (1.02, 1.1, 1.5, 3.0):
         q = ghost_root(k * g2c, L2)
