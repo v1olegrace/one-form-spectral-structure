@@ -322,7 +322,9 @@ Hypothesis 2, the Coulomb phase, anything beyond the quadratic cumulant.
   cumulant at $O(q_W^3)$, absent in a charge-conjugation-invariant state, and
   the connected four-field cumulant at $O(q_W^4)$. Identifying the latter with
   light-by-light scattering is a statement about the dynamics, not made here.
-  Nothing here constrains its sign.
+  Note E3 (`notes/E3_nonlinear_probe_EH.md`) computes it in the
+  Euler–Heisenberg effective theory for smooth sources of radius $R\gg1/m$,
+  where its sign is fixed; point probes remain open.
 - **Nonabelian:** $F$ is not gauge invariant and the abelian Stokes step fails.
 
 ## 8. Prior work, and what is not claimed
@@ -413,9 +415,11 @@ Measured rates ($\varepsilon=0.02$ fixed, $q_W=1$), $T\,(V_T-V_\infty)$:
    subtractions add polynomials, which should still not reach $r>0$; not
    proved here.
 4. Beyond the quadratic cumulant: the cubic cumulant (zero under charge
-   conjugation) and the sign of the connected four-field cumulant's
-   contribution to the static potential, which in QED is light-by-light
-   scattering (roadmap E2.3f). This is where the real open question now sits.
+   conjugation) and the connected four-field cumulant, which in QED is
+   light-by-light scattering (roadmap E2.3f). Note E3 settles its sign in the
+   Euler–Heisenberg effective theory for smooth sources (5 October); for point
+   probes the coefficient is set by the full light-by-light kernel and is not
+   computed.
 
 ## 11. From Wightman to (E), for this two-point function (3–5 October)
 
