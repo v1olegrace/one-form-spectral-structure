@@ -10,6 +10,25 @@ This report records what changed, why, and how each change was checked. Where
 something could not be checked with the resources at hand it is marked
 `PENDING_VERIFICATION` rather than guessed.
 
+## 5 October 2026 — the static Wilson loop at O(q⁴), effective theory
+
+New note `notes/E3_nonlinear_probe_EH.md`, module
+`reproducibility/nonlinear_probe_eh.py`, 18 tests in
+`tests/test_e3_nonlinear_probe.py`, ledger row E3. A derivation of 4 October
+was redone by a different numerical route (bipolar Gauss–Legendre quadrature
+instead of closed forms) and against two sources read for the purpose: Dunne,
+arXiv:hep-th/0406216, eq. (1.9), for c = e⁴/(360π²m⁴), and Frolov,
+arXiv:1111.2303v5, eq. (13), for the single-source tail. In the
+Euler–Heisenberg theory, for smooth sources of radius R ≫ 1/m, the energy at
+fixed free charge is −c∫|E₀|⁴; the universal term is
+−c q₁q₂(q₁² + q₂²)/(80π³r⁵), whose Z³ part for (Ze, −e) is Frolov's
+2α(Zα)³/(225π m⁴r⁵); the leading large-r term is a polarizability −A/r⁴ with
+A > 0; there is no r⁻³ term. At finite probe charge the profile gains
+Φ_NL = −8α³q_W²/(45π m⁴r⁶) and changes sign at r_x = 11.57/m for q_W = 1, with
+the paper's one-loop measure. Theorem A is untouched. Two sentences of the
+paper (the r-independence of the probe subtraction, and "nothing here fixes
+its sign") are queued for the next version. Point probes are not computed.
+
 ## 5 October 2026 — section 11 corrected after an independent re-derivation
 
 An independent automated re-derivation of note E2c §11 (4 October; not a

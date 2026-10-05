@@ -481,6 +481,36 @@ A seção 11 da nota foi reescrita com essa leitura. As contas técnicas
 confirmadas. A mesma frase sobre o laço de Wilson está no apêndice do artigo
 e entra na correção da próxima versão.
 
+### E2.9 Estado em 05/10/2026 — O(q_W⁴) na teoria efetiva de Euler–Heisenberg
+
+A tarefa E2.3f foi feita na teoria efetiva, para fontes lisas de raio
+R ≫ 1/m. Nota: `notes/E3_nonlinear_probe_EH.md`; testes:
+`tests/test_e3_nonlinear_probe.py` (18). Fontes lidas: Dunne, eq. (1.9), e
+Frolov, eq. (13).
+
+- A energia a carga livre fixa é −c∫|E₀|⁴, com c = e⁴/(360π²m⁴). O sinal é
+  negativo; a conta ingênua de T₀₀ dá +3c∫|E₀|⁴ e está errada.
+- Termo universal: −c q₁q₂(q₁² + q₂²)/(80π³r⁵), repulsivo para ±q. Para
+  (Ze, −e), a parte em Z³ é a cauda de Wichmann–Kroll 2α(Zα)³/(225π m⁴r⁵),
+  igual à eq. (13) de Frolov.
+- Termo de polarizabilidade: −A/r⁴, com A > 0 proporcional às
+  autoenergias. Atrai, e domina o universal por um fator de cerca de 5r/R.
+  Não há termo r⁻³, e o setor q₁²q₂² não tem r⁻⁵.
+- O perfil a carga finita ganha Φ_NL = −8α³q_W²/(45π m⁴r⁶), negativo e sem
+  gap. Com a medida de um laço do próprio artigo, Φ troca de sinal em
+  r_x = 11,57/m para q_W = 1. Os limites q_W → 0 e r → ∞ não comutam. O
+  Teorema A não muda: ele trata o coeficiente linear.
+
+**O que isso muda no artigo (próxima versão).** Duas frases. "A subtração da
+autoenergia da sonda não depende de r" vale só em ordem quadrática. "Nada aqui
+fixa o sinal" do cumulante de quatro campos deixa de valer na teoria efetiva.
+
+**O que continua aberto.** Sondas pontuais (R → 0): o coeficiente de −A/r⁴
+vem do kernel luz-luz completo e não foi calculado. Contagem de potências
+sugere um contínuo de três fótons sem limiar na função de dois pontos do fóton
+em ordem α⁴; se existir, o suporte de σ chega a zero e a H2 vale só em ordem
+baixa. Isso não foi calculado.
+
 ---
 
 ## E3 — Consolidar a contribuição original (P0)
