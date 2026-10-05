@@ -249,9 +249,11 @@ regulador sai. O contato G dá um termo de área com inclinação que diverge co
 1/ε: não é tensão de corda, e a relação com a função D do vácuo estocástico é
 só de estrutura tensorial. A fórmula de contorno impressa tinha um fator 2 a
 mais; o código estava certo. Detalhes em ROADMAP E2.7. O2 continua fechada
-nessas condições, e só nelas. À noite, a premissa euclidiana deixou de ser
-premissa: ela sai da forma de Källén–Lehmann de E2b mais Bianchi euclidiano
-(ROADMAP E2.8, nota E2c §11). Faltam os dois lemas de E2b.
+nessas condições, e só nelas. À noite, a parte $T$ da premissa euclidiana
+passou a sair da forma de Källén–Lehmann de E2b sem localidade; o termo de
+helicidade é excluído por Bianchi euclidiano a tempos iguais, o que nesse
+setor é localidade de dois pontos (ROADMAP E2.8 e sua correção de 05/10, nota
+E2c §11). A premissa mudou de lugar, não sumiu. Faltam os dois lemas de E2b.
 
 ---
 

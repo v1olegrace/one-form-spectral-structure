@@ -6,13 +6,15 @@ the Wilson loop, with the tensor projection, the sign, the contact terms, the
 perimeter and the limit T → ∞ each accounted for.
 
 **Status.** Proved here, conditionally on a positive Euclidean spectral
-representation of ⟨FF⟩, hypothesis (E) below. Section 11 (added later on
-3 October) derives (E) from the Källén–Lehmann form of note E2b
-(`notes/E2b_tensor_classification.tex`) and (B<sub>T</sub>): the continuation
-of this two-point function needs no locality, and (B<sub>T</sub>) excludes the
-massless helicity term. What remains unchecked against primary sources is
-E2b's form itself, through two measure-theoretic lemmas (Bochner–Schwartz;
-covariant disintegration over orbits). The algebraic identities and the
+representation of ⟨FF⟩, hypothesis (E) below. Section 11 (3–5 October)
+derives the $T$ part of (E) from the Källén–Lehmann form of note E2b
+(`notes/E2b_tensor_classification.tex`) without locality, because that part
+is automatically two-point local. The massless helicity term is excluded only
+by (B<sub>T</sub>), whose content on the plane $\tau=0$ is, given E2b's form,
+two-point locality in that sector: the premise has moved from (E) into
+(B<sub>T</sub>), not disappeared. E2b's form itself rests on two
+measure-theoretic lemmas (Bochner–Schwartz; covariant disintegration over
+orbits) not yet checked against primary sources. The algebraic identities and the
 numerical steps listed in Section 9 are machine-checked in
 `tests/test_e2c_transport.py`; the distributional steps (restriction to the
 rectangle and to the half-plane, the product $\delta(p_0)/p_1$) are not.
@@ -34,8 +36,9 @@ before it was applied:
 3. The area term from a local contact $c\,G$ has a slope that diverges like
    $1/\varepsilon$: a regulated contact, not a finite string tension, and not
    the nonlocal function $D$ of the stochastic vacuum model (Sections 7, 8).
-4. The Euclidean representation is now hypothesis (E), stated. Later the same
-   day, Section 11 derived it from E2b's form and (B<sub>T</sub>).
+4. The Euclidean representation is now hypothesis (E), stated. Section 11
+   derives its $T$ part from E2b's form; the helicity part is excluded by
+   (B<sub>T</sub>), which in that sector amounts to two-point locality.
 5. The output is a positive Stieltjes kernel. It has the form of the paper's
    Hypothesis 3 only with the Coulomb weight $\mu(\{0\})>0$, with the integral
    starting at $\inf\operatorname{supp}\sigma$; that this lower limit is
@@ -49,9 +52,10 @@ before it was applied:
 
 Let the Euclidean two-point function of a two-form field $F$ have the positive
 spectral form (E) of Section 1, with Källén–Lehmann measure $\mu\ge0$.
-Section 11 obtains (E) from E2b's form under the Wightman axioms W1–W3 (no
-locality, no CPT, no parity) together with (B<sub>T</sub>); E2b's form rests on
-two lemmas not yet checked. Let it satisfy
+Section 11 obtains the $T$ part of (E) from E2b's form under the Wightman
+axioms W1–W3 (no locality, no CPT, no parity); the helicity part is excluded by
+(B<sub>T</sub>), which on $\tau=0$ amounts to two-point locality in that
+sector. E2b's form rests on two lemmas not yet checked. Let it satisfy
 the Bianchi identity *including coincident points* (B<sub>T</sub>) and
 $\int d\mu/(1+s)<\infty$ (I). Then, truncating at the quadratic cumulant in the
 probe charge (L), both the static potential of a Wilson loop and the field of
@@ -91,9 +95,10 @@ $\epsilon\epsilon pp = p^2G-T^E$.
   $S(p)=T^E(p)\,a(p^2)$ plus the helicity term, with $a(p^2)=\int d\mu(s)/(p^2+s)$
   and the same $\mu\ge0$. This is what the arguments below use. Passing from
   (W) to (E) is the Wightman → Schwinger continuation. Section 11 does it for
-  this two-point function: the $T^E$ part needs no locality, and
-  (B<sub>T</sub>) excludes the helicity term, whose time-ordered function
-  would change sign at $\tau=0$.
+  this two-point function: the $T^E$ part needs no locality, because it is
+  automatically two-point local; the helicity term, whose time-ordered
+  function would change sign at $\tau=0$, is excluded by (B<sub>T</sub>), and
+  that exclusion is two-point locality in that sector.
 - **(B)** The Bianchi identity at separated points, as in E2b; it removes the
   massive dual structure. It is implied by (B<sub>T</sub>) below.
 - **(I)** $\int d\mu(s)/(1+s)<\infty$. This is the integrability clause of the
@@ -101,9 +106,12 @@ $\epsilon\epsilon pp = p^2G-T^E$.
   $a^{(3)}$ in $\mathbb R^3$.
 - **(B<sub>T</sub>)** The Euclidean two-point function satisfies Bianchi in both
   slots as a distribution on all of $\mathbb R^4$. By Proposition "local terms"
-  of E2b, its local part is then $q(p^2)\,T^E(p)$ with $q$ a polynomial; $G$ and
+  of E2b, its local part is then $q(p^2)\,T^E(p)$ with $q$ a polynomial (assuming
+  the extension to the origin is $O(4)$-covariant; Section 11); $G$ and
   $\epsilon$ are excluded. When the probe is a Wilson loop of a potential with
-  $F=dA$, (B<sub>T</sub>) holds identically.
+  $F=dA$, (B<sub>T</sub>) holds identically for $d\langle TAA\rangle d$; it
+  holds for the time-ordered function of $F$ on the plane $\tau=0$ only if the
+  potential is equal-time local, as in a local covariant gauge (Section 11).
 - **(L)** Linear probe: the static potential is taken from the quadratic
   cumulant of $\log\langle\mathcal W\rangle$, the field of the line from its
   $O(q_W)$ term. The next connected cumulant is cubic; it vanishes if the state
@@ -147,8 +155,11 @@ vanishes identically, nor the line, because the component is proportional to
 $p_0$ and the line integrates over all time. CPT is therefore not needed for
 either static observable. The local term $\epsilon$ never reaches them. (This
 reads the helicity term as an $O(4)$-covariant part of (E). Section 11 shows
-that without locality it is not covariant, and that (B<sub>T</sub>) excludes
-it; the conclusion stands, for that reason.)
+that without locality it is not covariant. For the loop the conclusion holds
+regardless, since the component vanishes identically. For the line it holds
+because (B<sub>T</sub>) excludes the term, and that exclusion is two-point
+locality in this sector; so CPT is not used as an axiom, but its consequence
+here is assumed.)
 
 ## 3. Stokes for the rectangle
 
@@ -280,11 +291,12 @@ whose position depends on an arbitrary choice.
    $M_*=(\inf\operatorname{supp}\sigma)^{1/2}$ possibly zero: $q_\infty=q_W$
    needs only dominated convergence under (I), not the gap.
 
-Not used: locality W4, CPT, parity, $F=dA$, Maxwell's equations, a gauge
-choice. One qualification: in the massless helicity sector, (B<sub>T</sub>) is
-itself an equal-time commutativity condition, and it does the work CPT would
-have done (Section 11). It does so through its separated-point content on the
-plane $\tau=0$, not through the coincident-point clause, which excludes $G$. (E) follows from E2b's form and (B<sub>T</sub>)
+Not assumed as axioms: locality W4, CPT, parity, $F=dA$, Maxwell's equations,
+a gauge choice. Qualification: the only consequence of W4 and CPT for this
+two-point function, $\alpha'=0$, *is* assumed, as the content of
+(B<sub>T</sub>) at separated points on the plane $\tau=0$ (Section 11); the
+coincident-point clause of (B<sub>T</sub>) excludes $G$ and fixes the contact
+at the origin. The $T$ part of (E) follows from E2b's form without locality
 (Section 11); E2b's form rests on two unread lemmas. Not implied: the gap of
 Hypothesis 2, the Coulomb phase, anything beyond the quadratic cumulant.
 
@@ -405,83 +417,111 @@ Measured rates ($\varepsilon=0.02$ fixed, $q_W=1$), $T\,(V_T-V_\infty)$:
    contribution to the static potential, which in QED is light-by-light
    scattering (roadmap E2.3f). This is where the real open question now sits.
 
-## 11. From Wightman to (E), for this two-point function (3 October)
+## 11. From Wightman to (E), for this two-point function (3–5 October)
 
 Argued here with symbolic checks, not read in a source; the two-point
 continuation from a Källén–Lehmann form is presumably textbook material, and
-no novelty is claimed. Tests: `tests/test_e2c_transport.py`, the four tests
-under "Section 11".
+no novelty is claimed. Tests: `tests/test_e2c_transport.py`, the tests under
+"Section 11". An independent re-derivation on 4 October confirmed the
+technical steps and corrected the framing; this version carries those
+corrections (paragraph "Status" at the end).
 
-**The object.** The static observables are built from the Euclidean
-time-ordered function. That this is the right object without locality is a
-spectral statement: with $A(t)$ and $B$ the two operators and the connected
-spectral sums $\langle A(t)B\rangle=\sum_na_ne^{-iE_nt}$,
+**What the spectral sums fix, and what they do not.** With $A(t)$, $B$ two
+operators and the connected spectral sums $\langle A(t)B\rangle=\sum_na_ne^{-iE_nt}$,
 $\langle BA(t)\rangle=\sum_nb_ne^{iE_nt}$, $E_n>0$, the zero-frequency retarded
 response is $i\int_0^\infty dt\,\langle[A(t),B]\rangle=\sum_n(a_n+b_n)/E_n$, and
 so is $\int_0^\infty d\tau\sum_na_ne^{-E_n\tau}+\int_{-\infty}^0d\tau\sum_nb_ne^{E_n\tau}$.
-Only the two orderings and the spectral condition enter; locality does not.
+This identifies the static response with the time-ordered Euclidean function
+*away from* $\tau=0$ only. The object the theorem integrates, $T^Ea$, differs
+from that $\theta$-split function by a non-covariant contact
+$\propto\delta(\tau)\delta^{(3)}(\mathbf x)$ of weight $\int d\mu$; for free
+Maxwell, the $\tau$-integral of the $\theta$-split $(0i,0j)$ block is purely
+transverse, and the longitudinal Coulomb response sits in that contact. Under
+(I) alone, $\int d\mu$ may be infinite. So spectral data do not fix the object
+at $\tau=0$: the coincident-point clause of (B<sub>T</sub>), that is, the
+covariant prescription, does.
 
-**The $T$ part needs no locality.** In E2b's form the Wightman function
+**The $T$ part.** In E2b's form the Wightman function
 $W_{\mu\nu,\rho\sigma}(x)=\langle F_{\mu\nu}(x)F_{\rho\sigma}(0)\rangle$ has a
 part $\int d\mu(s)\,T_{\mu\nu\rho\sigma}(\partial)\,W_s(x)$, with $W_s$ the free
-two-point function of mass$^2$ $s$. The time-ordered Euclidean function is the
+two-point function of mass$^2$ $s$. The time-ordered function is the
 continuation of $W_{\mu\nu,\rho\sigma}(x)$ for $\tau>0$ and of
-$\langle F_{\rho\sigma}(0)F_{\mu\nu}(x)\rangle=W_{\rho\sigma,\mu\nu}(-x)$ for $\tau<0$.
-$T$ is symmetric under exchange of its index pairs and even in $p$, and
-$W_s(\pm x)$ continue to the same Euclidean propagator $\Delta_s(x_E)$. The two
-halves therefore join into one $O(4)$-covariant function,
-$T^E(\partial)\int d\mu(s)\Delta_s(x_E)$ at $x_E\neq0$, with the same $\mu\ge0$;
-the integral converges at $x_E\neq0$ for any tempered $\mu$ because
-$\Delta_s$ decays like $e^{-\sqrt s|x_E|}$. Its Fourier transform is
-$T^E(p)\int d\mu/(p^2+s)$ up to terms supported at $x_E=0$, which (B<sub>T</sub>)
-restricts to $q(p^2)T^E$ through E2b's proposition on local terms. This is (E)
-for the $T$ part, without locality.
+$\langle F_{\rho\sigma}(0)F_{\mu\nu}(x)\rangle=W_{\rho\sigma,\mu\nu}(-x)$ for
+$\tau<0$ (translation invariance only). $T$ is symmetric under exchange of its
+index pairs and even in $p$, and $W_s(\pm x)$ continue to the same Euclidean
+propagator. The two halves join into one $O(4)$-covariant function,
+$T^E(\partial)\int d\mu(s)\Delta_s(x_E)$ at $x_E\neq0$, with the same $\mu\ge0$
+and the sign of the Proca anchor (checked on all components, massless and
+massive). The integral converges at $x_E\neq0$ for any tempered $\mu$. This
+part needs no locality *because it is automatically two-point local*: its
+commutator is $T(\partial)$ acting on the Pauli–Jordan function, which
+vanishes at spacelike separation for every mass.
 
-**The helicity part is excluded by (B<sub>T</sub>).** The massless term
-$i\alpha'X\,\delta(p^2)$, with $X=\tfrac12(T^{\star(1)}-T^{\star(2)})$ the
-difference of the duals on the first and second pair, is allowed by Wightman
-positivity when $|\alpha'|\le\alpha$. Two identities, checked in Euclidean and
-in Minkowski signature: $T^{\star(1)}_{ab,ce}=T^{\star(2)}_{ce,ab}$, and
-$T^{\star(1)}+T^{\star(2)}=p^2\times(\dots)$. The first makes $X$
-*antisymmetric* under exchange of the pairs, which is what makes $i\alpha'X$
-Hermitian; the second makes $X$ equal to $T^{\star(1)}=-T^{\star(2)}$ on the
-cone, so it is E2b's $T^\star$ there. The $\tau<0$ half then enters with the opposite sign: the helicity
-part of the time-ordered function is $\operatorname{sign}(\tau)\,Y(x_E)$ with
-$Y=i\alpha'X(\partial)G$ and $G$ the massless propagator, and it is not
-$O(4)$-covariant. $Y$ obeys Bianchi at $x_E\neq0$, but the jump of
-$\operatorname{sign}(\tau)$ adds
-$2\delta(\tau)\,\epsilon_{\kappa0\mu\nu}Y_{\mu\nu,\rho\sigma}(0,\mathbf x)$ to
-$\epsilon\partial S$. That coefficient is not zero: 18 of its components are
-nonzero at $\mathbf x\neq0$, for instance
-$\epsilon_{10\mu\nu}X_{\mu\nu,01}(\partial)G\,\big|_{\tau=0}=-2(x_1^2-x_2^2-x_3^2)/(\pi^2|\mathbf x|^6)$.
-(B<sub>T</sub>) asks Bianchi on all of $\mathbb R^4$, so it forces $\alpha'=0$.
-Which part of (B<sub>T</sub>) does this matters. The jump sits at
-$\tau=0$, $\mathbf x\neq0$: Euclidean points *separated* from the origin. So
-the helicity term is excluded by Euclidean Bianchi for the time-ordered
-function at separated points on the plane $\tau=0$. The Wightman Bianchi
-identity at separated points, (B), does not exclude it, since $Y$ satisfies
-it. The coincident-point clause of (B<sub>T</sub>) is what excludes the
-contact $G$ (Section 7); it plays no part here. In Minkowski language the
-jump is the equal-time commutator of the magnetic field with $F$:
-(B<sub>T</sub>) contains, in this sector, the equal-time locality that CPT
-would otherwise have supplied.
+**The helicity part.** The massless term $i\alpha'X\,\delta(p^2)$, with
+$X=\tfrac12(T^{\star(1)}-T^{\star(2)})$, is allowed by Wightman positivity
+when $|\alpha'|\le\alpha$ (at $\bar p=(1,0,0,1)$ the nonzero eigenvalues are
+$2(\alpha\pm\alpha')$, as E2b states). Two identities, checked in Euclidean
+and Minkowski signature: $T^{\star(1)}_{ab,ce}=T^{\star(2)}_{ce,ab}$ and
+$T^{\star(1)}+T^{\star(2)}=p^2\epsilon$. The first makes $X$ antisymmetric
+under exchange of the pairs, which is what makes $i\alpha'X$ Hermitian; the
+second makes $X=T^{\star(1)}=-T^{\star(2)}$ on the cone, so $X$ is E2b's
+$T^\star$ up to the sign convention of $\alpha'$. Without locality the
+$\tau<0$ half enters with the opposite sign: the helicity part of the
+time-ordered function is $\alpha'\operatorname{sign}(\tau)\,X^E(\partial)G$
+(real coefficient after the Wick rotation), with $G$ the massless propagator,
+and it is not $O(4)$-covariant. $X^E(\partial)G$ obeys Bianchi at $x_E\neq0$,
+but the jump of $\operatorname{sign}(\tau)$ adds
+$2\delta(\tau)\,\epsilon_{\kappa0\mu\nu}X^E_{\mu\nu,\rho\sigma}(\partial)G(0,\mathbf x)$
+to $\epsilon\partial S$. That coefficient is not zero: in Minkowski language
+it is the equal-time commutator $\langle[B_k(0,\mathbf x),E_j(0)]\rangle$,
+proportional to $\alpha'(r^2\delta_{kj}-2x_kx_j)/r^6$, nine independent
+components per slot ($\langle[B,B]\rangle=0$); one of them is
+$\epsilon_{10\mu\nu}X^E_{\mu\nu,01}(\partial)G\,\big|_{\tau=0}=-2(x_1^2-x_2^2-x_3^2)/(\pi^2|\mathbf x|^6)$.
+The $T$ part gives no jump, because its commutator vanishes at every
+spacelike point.
 
-**Consistency.** Had the helicity term survived, its time-ordered function
-would reach the static line: $\int d\tau\,\operatorname{sign}(\tau)\,\partial_\tau g=-2g(0)\neq0$,
-while $\int d\tau\,\partial_\tau g=0$. The result is a curl field around the
-line, $(0,\partial_3\Psi,-\partial_2\Psi)$, which depends on the spanning
-half-plane, so the observable would depend on the surface. Surface
-independence at fixed boundary is what (B<sub>T</sub>) guarantees
-(Section 1). The violation of (B<sub>T</sub>) at $\tau=0$ and the surface
-dependence appear together, as they must. Such a field is azimuthal about
-the line and carries no flux through spheres centred on it, so even then
-$q(r)$ would not change; but under (B<sub>T</sub>) the question does not
-arise.
+**What (B<sub>T</sub>) then assumes.** Read on the time-ordered function at
+separated points of the plane $\tau=0$, (B<sub>T</sub>) forces $\alpha'=0$. Given
+E2b's form, $\alpha'=0$ is equivalent to two-point locality of $F$ and to the
+CPT reality of $\tilde W$ (pair-symmetric $T$, pair-antisymmetric $X$). So
+the content of (B<sub>T</sub>) on $\tau=0$ *is* two-point locality in this
+sector: neither W4 nor the CPT theorem is assumed as an axiom, but their only
+consequence for this two-point function is assumed, as part of
+(B<sub>T</sub>). The premise has moved from (E) into (B<sub>T</sub>); it has not
+disappeared. The Wightman Bianchi identity at separated points, (B), does not
+exclude the term. The coincident-point clause of (B<sub>T</sub>) is what fixes
+the contact of the first paragraph and excludes $G$ (Section 7).
 
-**Consequence.** (E) is no longer a separate premise: it follows from (W)
-through E2b's Källén–Lehmann form, together with (B<sub>T</sub>) and (I).
-What remains unread is E2b's form itself, that is, Bochner–Schwartz and the
-covariant disintegration. "Not used: locality, CPT" in Section 6 stays true
-as a statement about hypotheses, with one qualification. In the massless
-helicity sector, (B<sub>T</sub>) is itself an equal-time commutativity
-condition.
+**The Wilson-loop justification of (B<sub>T</sub>).** Section 1 says that for the
+Wilson loop of a potential with $F=dA$, (B<sub>T</sub>) holds identically. That
+is a statement about $d\langle TAA\rangle d$, which differs from the
+time-ordered function of $F$ by $\delta(\tau)$ terms on $\tau=0$; these are
+nonlocal in $\mathbf x$ unless the potential's equal-time commutators vanish at
+$\mathbf x\neq0$. A free Coulomb-gauge vector with helicity weights
+$\alpha\pm\alpha'$ makes the point: its $\langle FF\rangle$ has exactly E2b's form
+with a helicity term $\propto\alpha'$, its Wilson-loop object obeys Bianchi
+identically, and its time-ordered $\langle FF\rangle$ violates Bianchi on
+$\tau=0$. So a Wilson loop supplies the $\tau=0$ content of (B<sub>T</sub>) only
+when the potential is itself equal-time local, as in a local covariant gauge.
+
+**If the term survived.** Its time-ordered function would reach the static
+line: $\int d\tau\,\operatorname{sign}(\tau)\,\partial_\tau g=-2g(0)\neq0$, while
+$\int d\tau\,\partial_\tau g=0$. The result is a field
+$(0,\partial_3\Psi,-\partial_2\Psi)$ that depends on the spanning half-plane and
+is azimuthal about the line, so it carries no flux through spheres centred on
+it. The violation of (B<sub>T</sub>) on $\tau=0$ and the surface dependence appear
+together, as they must. The loop component of the helicity structure
+vanishes identically, whatever its time dependence, so the static potential
+never sees it.
+
+**Status.** Section 11 derives (E) for the $T$ part from E2b's Källén–Lehmann
+form (two lemmas still unread) and (I), without locality, because that part is
+automatically two-point local. The massless helicity term is excluded only by
+(B<sub>T</sub>) read on the time-ordered Schwinger function off the origin, whose
+content on $\tau=0$ is, given E2b's form, equivalent to two-point locality
+($\alpha'=0$, CPT reality). The premise has moved from (E) into (B<sub>T</sub>)
+rather than disappeared, and a Wilson loop of a potential supplies it only if
+that potential is itself equal-time local. Two points remain open here: that
+the terms supported at the origin are $O(4)$-covariant (or, if not, that
+non-covariant Bianchi-compatible polynomials still do not reach $r>0$), and a
+textbook statement of the continuation.

@@ -10,6 +10,29 @@ This report records what changed, why, and how each change was checked. Where
 something could not be checked with the resources at hand it is marked
 `PENDING_VERIFICATION` rather than guessed.
 
+## 5 October 2026 — section 11 corrected after an independent re-derivation
+
+An independent automated re-derivation of note E2c §11 (4 October; not a
+human review; verdict: holds with fixes) confirmed the technical steps: the pair antisymmetry of the helicity
+structure, the sign(τ) of its time-ordered function without locality, the
+nonzero jump on τ = 0, the Wick rotation of the T part against the Proca
+anchor, and the hermiticity condition α ≥ |α′|. It found the framing
+overstated in three ways, now corrected in §11, the status lines, §0, §1, the
+Theorem, ROADMAP E2.8 and D5:
+- the T part of (E) follows without locality because it is automatically
+  two-point local; the helicity term is excluded by (B_T) read on τ = 0,
+  which given E2b's form is two-point locality (α′ = 0, CPT reality). The
+  premise moved from (E) into (B_T); it did not disappear;
+- the spectral identity fixes the time-ordered function only away from τ = 0;
+  a contact of weight ∫dμ, which (I) does not make finite, is fixed by the
+  coincident-point clause of (B_T);
+- a Wilson loop of a potential supplies (B_T) on τ = 0 only if the potential
+  is equal-time local; a free Coulomb-gauge vector with helicity weights
+  α ± α′ is a counterexample to the unqualified sentence.
+The same unqualified sentence is in the paper's appendix; it is queued for the
+next paper version. The study-sheet LEIA-ME line that told the author to say
+locality was not used was corrected the same day.
+
 ## Evening of 3 October 2026 — the continuation to (E), note only
 
 The Wightman → Euclidean step for the ⟨FF⟩ two-point function, which v0.5.1

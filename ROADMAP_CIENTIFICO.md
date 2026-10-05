@@ -456,6 +456,31 @@ desintegração covariante). Uma fonte de livro para a continuação. O
 artigo, o resumo e a pergunta ao professor ainda dizem que a continuação não
 foi conferida; isso fica para a próxima versão, depois de revisão.
 
+**Correção de 05/10 (verificação independente de 04/10).** Duas frases acima
+exageram, e valem com esta leitura:
+- "(E) deixa de ser premissa" vale só para a parte $T$, que não precisa de
+  localidade porque é automaticamente local na função de dois pontos. O termo
+  de helicidade é excluído por (B<sub>T</sub>) lida a tempos iguais, e isso,
+  dada a forma de E2b, *é* localidade nesse setor ($\alpha'=0$, equivalente à
+  realidade CPT). A premissa mudou de (E) para (B<sub>T</sub>); não sumiu.
+- "A frase 'não usa localidade nem CPT' continua certa": como lista de
+  axiomas, sim; mas a única consequência de W4 e CPT para essa função de dois
+  pontos é suposta dentro de (B<sub>T</sub>).
+- A identidade espectral fixa a função ordenada só fora de $\tau=0$. O que
+  separa o objeto do teorema da resposta retardada é um contato de peso
+  $\int d\mu$, fixado pela cláusula de pontos coincidentes de (B<sub>T</sub>),
+  e que (I) sozinha não torna finito.
+- O laço de Wilson de um potencial só garante (B<sub>T</sub>) a tempos iguais
+  se o potencial for local a tempos iguais. Um vetor livre no gauge de Coulomb
+  com pesos de helicidade $\alpha\pm\alpha'$ mostra o contrário.
+- Detalhes menores: o coeficiente euclidiano é $\alpha'$, não $i\alpha'$; são
+  nove componentes independentes por fatia, todas $\langle[B_k,E_j]\rangle$.
+
+A seção 11 da nota foi reescrita com essa leitura. As contas técnicas
+(antissimetria, salto em $\tau=0$, rotação de Wick, sinal de Proca) foram
+confirmadas. A mesma frase sobre o laço de Wilson está no apêndice do artigo
+e entra na correção da próxima versão.
+
 ---
 
 ## E3 — Consolidar a contribuição original (P0)
