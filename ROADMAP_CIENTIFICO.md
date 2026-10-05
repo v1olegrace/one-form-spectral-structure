@@ -506,10 +506,9 @@ autoenergia da sonda não depende de r" vale só em ordem quadrática. "Nada aqu
 fixa o sinal" do cumulante de quatro campos deixa de valer na teoria efetiva.
 
 **O que continua aberto.** Sondas pontuais (R → 0): o coeficiente de −A/r⁴
-vem do kernel luz-luz completo e não foi calculado. Contagem de potências
-sugere um contínuo de três fótons sem limiar na função de dois pontos do fóton
-em ordem α⁴; se existir, o suporte de σ chega a zero e a H2 vale só em ordem
-baixa. Isso não foi calculado.
+vem do kernel luz-luz completo e não foi calculado. O gap é outra questão: o
+artigo já diz, citando Beneke e Ruiz-Femenía, que na QED completa os cortes
+de vários fótons começam em s = 0.
 
 ---
 

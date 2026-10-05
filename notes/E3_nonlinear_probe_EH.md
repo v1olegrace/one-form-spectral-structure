@@ -161,11 +161,12 @@ is still isolated exactly: q(r) is odd in q_W, so
   Euler–Heisenberg (relative O(α)), O(c²) terms (order q⁶), loops inside the
   effective theory.
 - Non-spherical, deformable or overlapping sources; the nonabelian case.
-- Outside this note, and not computed: power counting suggests that the photon
-  two-point function of QED has a three-photon continuum starting at s = 0 at
-  order α⁴, allowed by charge conjugation. If so, the support of σ
-  reaches zero with a tiny positive weight, positivity survives, and the gap
-  of Hypothesis 2 holds only at low order. This is not established.
+- Outside this note: the gap. The paper already states, citing Beneke and
+  Ruiz-Femenía (footnote 1 of arXiv:1606.02434), that massless multi-photon
+  cuts of the photon vacuum polarization start at s = 0 in full QED, so
+  Hypothesis 2 cannot be inferred from the electron mass. That concerns the
+  linear kernel at higher order in α, not the probe charge, and nothing here
+  changes it.
 
 ## 9. Tests
 
