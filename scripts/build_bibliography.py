@@ -12,6 +12,7 @@ and was not checked.
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -60,7 +61,14 @@ BOOKS = [
               "from the authors' errata sheet (dated 2022-12-02), read in full; no "
               "correction there touches these statements. The statements were NOT "
               "read in the book, and the theorem number is PENDING_VERIFICATION: "
-              "secondary sources cite it as Thm 7.3 or as Cor 7.4."),
+              "secondary sources cite it as Thm 7.3 or as Cor 7.4. "
+              "Update 2026-10-23: the publisher's preview of this edition "
+              "(api.pageplace.de, SHA-256 e8a981a018288ed2701dcfa05cff8c9139bc9764f6da56b9a0a537ce246aa429) "
+              "was read on printed pp. 16-18: Definition 2.1, Theorem 2.2 with its "
+              "proof (closure under pointwise limits) and Remarks 2.3-2.4. Its "
+              "cross-references name the reciprocal duality Theorem 7.3 and the "
+              "half-plane characterization Corollary 7.4; their statements and "
+              "proofs remain unread."),
     dict(key="dlmf", type="misc",
          author="{NIST}", title="{NIST} Digital Library of Mathematical Functions",
          howpublished="\\url{https://dlmf.nist.gov/2.3.ii}", year="2026",
@@ -80,10 +88,17 @@ UNICODE_TO_LATEX = {
 
 
 def bib_escape(s):
-    s = s.replace("&", "\\&").replace("_", "\\_")
+    # % would comment out the rest of the line and # is a macro parameter. A
+    # backslash or $ stays: API titles carry inline mathematics.
+    for char in "&_%#":
+        s = s.replace(char, "\\" + char)
     for uni, tex in UNICODE_TO_LATEX.items():
         s = s.replace(uni, tex)
     return s
+
+
+# A DOI goes unescaped into a URL command, so only DOI syntax is accepted.
+DOI = re.compile(r"10\.\d{4,9}/[-._;()/:<>A-Za-z0-9]+")
 
 
 def entry_from_record(rec):
@@ -102,6 +117,8 @@ def entry_from_record(rec):
                                ("journal", "journal"), ("volume", "volume"),
                                ("pages", "pages"), ("doi", "doi")]:
         v = rec.get(rec_name, PENDING)
+        if bib_name == "doi" and v and v != PENDING and not DOI.fullmatch(v):
+            raise ValueError(f"{rec['key']}: {v!r} is not a DOI")
         if v and v != PENDING:
             fields.append((bib_name, v))
         else:
@@ -123,7 +140,8 @@ def entry_from_record(rec):
     # it documents the record without leaking into the typeset bibliography.
     fields.append(("annote", note))
 
-    body = ",\n  ".join(f"{k:14s}= {{{bib_escape(str(v))}}}" for k, v in fields)
+    # The style typesets a DOI with \doi, a URL command, where \_ would print literally.
+    body = ",\n  ".join(f"{k:14s}= {{{str(v) if k == 'doi' else bib_escape(str(v))}}}" for k, v in fields)
     return f"@{etype}{{{key},\n  {body}\n}}\n"
 
 

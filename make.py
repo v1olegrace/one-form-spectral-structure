@@ -35,23 +35,26 @@ def run(cmd, cwd=ROOT):
 
 
 def target_test():
-    return run([sys.executable, "-m", "pytest", "tests", "-q"])
+    return run([sys.executable, "-m", "pytest", "tests", "-q", "-rs"])
 
 
 def target_numerics():
     rc = 0
     # pdf_qa.py is deliberately absent: it checks the Quarto render of the
     # non-canonical pt-BR draft, not paper/paper.tex.
-    for script, *args in [["reproducibility/analysis.py"],
+    scripts = [["reproducibility/analysis.py"],
                           ["reproducibility/laplace_geometry.py"],
                           ["reproducibility/extended_analysis.py"],
                           ["reproducibility/falsification_suite.py"],
                           ["reproducibility/interval_bounds.py"],
-                          ["reproducibility/figure_data.py", "--check"]]:
+                          ["reproducibility/figure_data.py", "--check"]]
+    missing = [script for script, *args in scripts if not (ROOT / script).is_file()]
+    if missing:
+        for script in missing:
+            print(f"  ERROR: required numerical generator is absent: {script}")
+        return 2
+    for script, *args in scripts:
         path = ROOT / script
-        if not path.exists():
-            print(f"  skip (absent): {script}")
-            continue
         rc |= run([sys.executable, path.name, *args], cwd=path.parent)
     return rc
 
@@ -67,7 +70,11 @@ def target_bib():
 
 
 def target_audit():
-    return run([sys.executable, "scripts/build_audit_tables.py"])
+    """Rebuild the audit ledgers, then refuse a stale claim graph (.agent/claims.json)."""
+    rc = run([sys.executable, "scripts/build_audit_tables.py"])
+    if rc:
+        return rc
+    return run([sys.executable, "scripts/build_claim_graph.py", "--check"])
 
 
 def target_pdf():
@@ -84,7 +91,8 @@ def target_pdf():
     if engine == "latexmk":
         return run([engine, "-pdf", "-interaction=nonstopmode", "paper.tex"], cwd=paper)
     if engine == "tectonic":
-        return run([engine, "paper.tex"], cwd=paper)
+        # keep paper.log: reproducibility/canonical_pdf_qa.py reads it
+        return run([engine, "--keep-logs", "paper.tex"], cwd=paper)
     rc = run([engine, "-interaction=nonstopmode", "paper.tex"], cwd=paper)
     rc |= run(["bibtex", "paper"], cwd=paper)
     rc |= run([engine, "-interaction=nonstopmode", "paper.tex"], cwd=paper)

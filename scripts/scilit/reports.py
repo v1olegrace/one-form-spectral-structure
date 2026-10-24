@@ -207,6 +207,11 @@ def what_is_new(con):
         "Corollary A1 is now known to be textbook. It does, however, identify two",
         "specific claims at ~6/10 that were previously buried.",
     ]
+    # Hand-written updates (equation-level reads) live in their own file, so a
+    # regeneration keeps them; the published report is this text plus that file.
+    addendum = REPORTS / "WHAT_IS_ACTUALLY_NEW_ADDENDUM.md"
+    if addendum.exists():
+        L += [""] + addendum.read_text(encoding="utf-8").rstrip("\n").split("\n")
     return _w("WHAT_IS_ACTUALLY_NEW.md", L)
 
 

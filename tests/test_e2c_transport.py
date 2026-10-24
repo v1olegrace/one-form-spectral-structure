@@ -371,3 +371,45 @@ def test_static_response_is_the_euclidean_integral_of_both_orderings():
               + integrate.quad(lambda t: sum(bi*math.exp(Ei*t) for bi, Ei in zip(b, E)), -math.inf, 0)[0])
     assert abs(retarded.imag) < 1e-6
     assert abs(retarded.real - euclid) < 1e-8
+
+
+@pytest.mark.parametrize("masses2", [[0.0], [0.0, 1.7]])
+def test_closed_current_time_limit_including_coulomb_and_connectors(masses2):
+    """Direct 4D derivatives approach the two opposite static source fields."""
+    import numpy as np
+    x, n, R = np.array([0.6, 0.4, 0.3]), np.array([1.0, 0.0, 0.0]), 3.0
+    weights = [1.0] if len(masses2) == 1 else [0.7, 0.3]
+
+    def reference(y):
+        rr = np.linalg.norm(y)
+        return y * tl.flux_profile(rr, weights, masses2) / (4 * math.pi * rr ** 3)
+
+    target = reference(x) - reference(x - R * n)
+    errors = [np.linalg.norm(tl.rectangle_current_field(T, R, n, x, weights, masses2) - target)
+              for T in (10.0, 80.0)]
+    assert errors[1] < errors[0] / 20
+    assert errors[1] < 1e-6
+
+
+def test_return_source_removal_is_orientation_independent():
+    import numpy as np
+    x = np.array([0.6, 0.4, 0.3])
+    rr = np.linalg.norm(x)
+    target = x / (4 * math.pi * rr ** 3)
+    for direction in ([1, 0, 0], [0, 1, 1]):
+        errors = [np.linalg.norm(tl.rectangle_current_field(300, R, direction, x, [1], [0]) - target)
+                  for R in (10, 30)]
+        assert errors[1] < errors[0] / 7
+        assert errors[1] < 1e-4
+
+
+def test_positive_coulomb_measure_does_not_imply_a_gap():
+    """Independent integral for mu=delta0+1_(0,1) ds; positive tail edge is zero."""
+    from scipy import integrate
+    for r in (0.2, 2.0, 20.0):
+        phi = integrate.quad(lambda m: 2 * m ** 3 * math.exp(-r * m), 0, 1)[0]
+        moment = integrate.quad(lambda m: 2 * m ** 4 * math.exp(-r * m), 0, 1)[0]
+        assert tl.gapless_uniform_phi(r) == pytest.approx(phi, rel=1e-12)
+        assert tl.gapless_uniform_gamma(r) == pytest.approx(moment / phi, rel=1e-12)
+    assert tl.gapless_uniform_phi(100) * 100 ** 4 == pytest.approx(12.0, rel=1e-12)
+    assert tl.gapless_uniform_gamma(100) == pytest.approx(0.04, rel=1e-12)

@@ -1,0 +1,42 @@
+{
+ "task": "R5 window error control: sources read",
+ "date": "2026-10-23",
+ "reader": "Claude (automated agent)",
+ "sources": [
+  {
+   "key": "dicus_kao_repko_1998",
+   "arxiv": "hep-ph/9709415",
+   "file": "tmp\\claude_e4_control_2026-10-23\\literature\\dicus_kao_repko_hep-ph_9709415.pdf",
+   "sha256": "d49ae05e3d9c47afbff20c3df9da55712c2fb879c4fa3ae9077297818ada1af0",
+   "read": "eqs. (1), (2), (10)-(15); Tables I-III; note [10]",
+   "depth": "EQUATION_LEVEL_READ",
+   "used_for": "on-shell check of the omega^4 and omega^6 amplitudes (exact agreement); full cross section (Table III) against our unexpanded amplitude; their omega^8 column is found to be a factor 2 above ours (see note E4, Section 10.1)"
+  },
+  {
+   "key": "laporta_jentschura_2024",
+   "arxiv": "2403.07127",
+   "file": "tmp\\claude_e4_control_2026-10-23\\literature\\laporta_jentschura_2403.07127.pdf",
+   "sha256": "46d9b8bfd7760b6d85017b73410abedb79389c18124675d7ba93a0a5d765474c",
+   "read": "eqs. (19), (28), (52)-(55); Sect. G comparison with the literature",
+   "depth": "EQUATION_LEVEL_READ",
+   "used_for": "irreducible two-loop pair density, eq. (55); limits pi^2/4 at threshold and 1/4 at high energy checked numerically"
+  },
+  {
+   "key": "baikov_maier_marquard_2013",
+   "arxiv": "1307.6105",
+   "file": "tmp\\claude_e4_control_2026-10-23\\literature\\baikov_maier_marquard_1307.6105.pdf",
+   "sha256": "b52399966effab9be2dda6d8862079f5cdb2b9a58191686875031c7bfc1887e3",
+   "read": "Sect. 2.1 (low-energy expansion, singlet remark after eq. (6))",
+   "depth": "EQUATION_LEVEL_READ (targeted)",
+   "used_for": "novelty search: singlet four-loop moments are given to z^3 only; the three-photon log enters at z^4"
+  }
+ ],
+ "searches": [
+  "three-photon cut / photon spectral function / s^4 / four-loop",
+  "four-loop QED VP low-energy expansion singlet q^8 log",
+  "Maier Marquard fourth moment (arXiv:1710.03724, QCD heavy quark, not read)",
+  "light-by-light low-energy omega^8 cross section",
+  "Kallen-Sabry spectral function closed form"
+ ],
+ "novelty": "No published QED coefficient of the low-s three-photon density found; UNRESOLVED (searches are not exhaustive)."
+}

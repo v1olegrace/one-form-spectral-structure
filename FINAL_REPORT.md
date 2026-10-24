@@ -1,4 +1,209 @@
-# Audit report — paper v0.4 to v0.5.2
+# Audit report — paper v0.4 to v0.5.8
+
+## Repository audit and fixes before the commit, 24 October 2026
+
+The user pasted an audit protocol with three axes, physical, mathematical and
+engineering, and four phases. Four read-only reviewers each examined one
+lens, and every finding was then checked against the code. The user then
+asked for all of them to be resolved before any commit. Record:
+`.agent/reports/R11.md`.
+
+- **Claim statuses.** C4 and C8 disagreed between the catalog, README and
+  claims_matrix. Theorem E now reads PROVED_CONDITIONALLY everywhere: its
+  proof is in the appendix, and the result is classical. C8 now carries both
+  parts, the no-go (proved) and the species-bound implication (proved
+  conditionally). A test enforces agreement for every claim.
+- **Numerics.** `laplace_geometry.Phi` was off by 3.6e-6 for r ≥ 20/m,
+  because mp.quad stops on an absolute error. It now integrates relative to
+  exp(-2mr). The certification outputs moved only in 1e-31 diagnostics.
+- **QA and CI.**
+  - PDF QA now counts font and dotted-package warnings.
+  - CI fails if the clean-build test is skipped.
+  - CI installs exact versions from `constraints.txt`.
+  - The token is read-only, and actions are pinned to commits.
+  - The CI changes are unverified until a remote run.
+- **Literature pipeline.**
+  - Empty or partial API records can no longer enter the harvest.
+  - DKR has API-verified metadata.
+  - BibTeX escapes `%` and `#`, and DOIs are validated.
+  - scilit sends no personal address unless SCILIT_CONTACT is set; its
+    cache keys are unchanged.
+- **Tests.**
+  - In-repo `importorskip` calls are plain imports.
+  - The loose certificate test is tightened.
+  - `figure_data --check` refuses `-O`.
+  - The ghost self-checks run in pytest, with mpmath's global precision
+    restored after them.
+- **An independent benchmark.** Abdul Hameed–Chaubey–Shao,
+  arXiv:2604.00099, 2026, read at equation level with its ancillary
+  low-energy amplitudes.
+  - Our box equals their one-loop expansion from ω⁴ to ω¹⁴, to 4×10⁻¹⁶.
+  - Their two-loop terms give exactly 25/4 and 1955/396, Ritus's
+    coefficients in our combinations.
+  - This settles the DKR ω⁸ factor 2 and confirms the two-loop factor
+    25555/2502.
+  - The user's other session found the agreement first; it was re-derived
+    here independently. The paper cites the work.
+- **Left to the user.**
+  - Agent refs and stale worktrees, which belong to other tools.
+  - The study notebook's 43 MB of images.
+
+## The O(α⁵) three-photon term, 24 October 2026
+
+Record: `.agent/reports/R8.md`; note E4, Section 11. The predictions were
+written before computing.
+
+- **Why two-loop EH suffices.** Below 4m² the O(α⁵) three-photon cut is the
+  interference of the one- and two-loop vertices. At leading order in s it
+  is fixed by Ritus's two-loop Euler–Heisenberg coefficients, 40/9 and
+  1315/252 in units of α/π. These were read in Dunne's review and in
+  Ravndal. Dunne–Schubert's self-dual closed form checks them: it gives 25/4
+  for 4c₁ − c₂.
+- **The leading three-photon coefficient** gains the factor
+  1 + (1555/153)α/π, i.e. +2.36%. The rate weights the invariants as
+  5(a−b)² + 3(a+b)²; at one loop this gives the 17 of 17/11 664 000.
+- **γγ → γγ.** The same machinery gives σ ∝ 2(a−b)² + (a+b)² and the
+  factor 1 + (25555/2502)α/π. Dicus–Kao–Repko's note [10] gives
+  186685/17514. That is exactly the same expression with one sign reversed,
+  and it was the basis of the earlier 0.015/m estimate.
+- **Radii.** r_Γ = 20.636/m and r_× = 22.554/m; compact probes move by the
+  same 0.013/m. The uncomputed O(α⁵) parts of the later series coefficients,
+  and higher orders, are estimated at about 0.003/m in all and are not bounded.
+- **The truncation envelope (R9; note E4, Section 12).**
+  - *The bound.* An analytic bound on the truncated amplitude: 0 ≤ R ≤ 1/4
+    in the Feynman form, a convexity bound on ∫Rⁿ, trace bounds, and
+    Cauchy–Schwarz for the density. Every constant was checked against the
+    code, and the bound against the unexpanded amplitude, where it is about
+    5000 times the true remainder.
+  - *The data.* The order-22 products reproduce the series to 2×10⁻¹⁵.
+  - *The result.* The spectral truncation is bounded for s ≤ 1.5m². Above
+    that, a factor-two assumption covers 0.04% of Φ₃γ. Together they move the
+    radii by less than 3×10⁻⁴/m, replacing the 0.002/m estimate.
+  - *Status.* Float64, CHECKED, not certified.
+- **DKR at ω⁸.** Their effective Lagrangians, eqs. (13)–(15), give our ω⁴
+  and ω⁶ amplitudes exactly and twice our ω⁸. Heinzl–King–Mercuri-Baron
+  (2025) requote eq. (15) without a check. DKR's own full cross section
+  supports our value. If the factor is theirs, it entered their ω⁸
+  expansion before both Table II and eq. (15) (CHECKED, not established).
+
+Paper v0.5.8. Nothing committed or pushed. Still not READY_FOR_EXPERT_REVIEW.
+
+## Final local integration, 23 October 2026
+
+R7 supersedes the error-bound wording in the historical R5 summary below.
+The E4 roots are CHECKED for the six-term spectral series cut at 4m².
+The assumed high-s envelope is unproved; neither 0.002/m nor a fixed-sign
+physical interval is certified. The new amplitude expansion uses float64;
+the leading EH route alone retains its independent exact rational calculation.
+The semantic comparator now refuses nonfinite values and enforces eight actual
+binary64 steps. The notebook is being integrated with all 60 catalog entries.
+Final commands, source hashes and remaining gates:
+`reports/FINISH_CLAUDE_2026-10-23.md`.
+
+## Controlling the error of the E4 window, 23 October 2026, evening
+
+A second review (`reports/NEXT_STEPS_E4_REVIEW_2026-10-23.md`) asked for the
+error of the E4 window to be controlled. Records: `.agent/reports/R4.md` and
+`R5.md`.
+
+- **The full one-loop γ*→3γ amplitude** (new module
+  `three_photon_amplitude.py`). Checks:
+  - Ward identity on every leg;
+  - EH limit with absolute normalization −2/15;
+  - the on-shell ω⁴ and ω⁶ amplitudes of Dicus–Kao–Repko, exactly;
+  - their full cross section, within 0.5% at seven energies.
+
+  Their ω⁸ column is twice ours, and their own full cross section supports
+  ours.
+- **The three-photon density.** It now carries the series in s/4m² to s⁹,
+  with first coefficient 1.88. The tail rises by 15% at r = 20/m.
+- **Two radii, with the pair channel at O(α²).** r_Γ = 20.65/m, where
+  Γ = 2m, and r_× = 22.57/m, where the pair and three-photon terms are equal.
+  The numerical error is below 0.002/m; higher orders in α are estimated at
+  0.015/m and not bounded.
+- **The window is not universal.** For compact probes of radius 10/m it
+  moves out by about 8/m. For q = e, the probe's own EH tail ends it near
+  11.6/m.
+
+Paper v0.5.6. Nothing committed or pushed. Still not READY_FOR_EXPERT_REVIEW.
+
+## Corrections after an independent review, and the QED window, 23 October 2026
+
+Another agent reviewed the v0.5.4 hand-back
+(`reports/INDEPENDENT_REVIEW_CLAUDE_2026-10-23.md`). Claude made the
+corrections in this tree as the only writer; the records are
+`.agent/reports/R0.md` to `R3.md`.
+
+- **Numbers.** Two CHECKED effective masses were wrong in the fifth
+  decimal: Gamma_Gauss(300/m) = 2.00752 and Gamma_ball(50/m) = 2.03647. The
+  cause was mpmath's absolute stopping rule. The integrands are now rescaled,
+  and a guard refuses unresolved results.
+- **Hypothesis.** The finite-probe lemma needs rho >= 0. It is a sufficient
+  condition, not a necessary one.
+- **Regularity.** The polynomial probe is C1, not smooth.
+- **Critical case.** Z3 = 0 now has a proof (Proposition 3b): G - 1/mu is
+  positive Stieltjes.
+- **New (note E4).** The QED three-photon density for s << m^2 is
+  (17/11664000)(alpha/pi)^4 s^4/m^8, by two independent routes. For the
+  linear coefficient, the pair threshold controls the profile only out to
+  r = 20.7/m (CHECKED).
+
+Paper v0.5.5. Nothing was committed or pushed. Not READY_FOR_EXPERT_REVIEW:
+remote CI, the Brown–Weisberger read and human review are still outstanding.
+
+## Continuation of the Codex plan, 23 October 2026
+
+A Codex session executed tasks P0–P4 of a 15-task audit plan
+(`.agent/plan.yaml`) and stopped at its usage limit. Claude closed the P1/P2
+records and executed P5–P14. Reports are in `.agent/reports/`; the
+summary and the hostile review are in
+`reports/SCIENTIFIC_AUDIT_FINAL_2026-10-22.md`.
+
+- **Retracted.** The generic RPA atom statements, using two exact
+  counterexamples.
+- **New proofs.** A direct proof of the Stieltjes property without the
+  unread SSV theorem. The static-line field as a conserved-current limit.
+  An exterior lemma for finite probes. A two-sided first-order EH energy
+  bound for arbitrary sources.
+- **New checks.** A Gaussian probe has Gamma below the threshold. Matched EH
+  crossovers with the Dirac measure.
+- **Credits read at equation level.** Benedetti–Casini–Magán for the
+  tensor form; Masjuan–Peris for the Hankel falsifier.
+
+Paper v0.5.4 has 16 pages. 469 tests pass in a clean-room snapshot of the
+candidate with the repository-local Tectonic; the working tree has 466,
+because three new files are still untracked. Nothing was committed or pushed. The candidate is not
+READY_FOR_EXPERT_REVIEW: remote CI, the Brown–Weisberger read and human
+review are outstanding.
+
+## Delivery completed locally, 5 October 2026
+
+The latest Claude thesis was completed as a separate research edition in
+`output/tese_2026-10-05/`. Its bibliography and annexes are resolved, and its
+scientific qualifications are aligned with note E3 and paper v0.5.3. The
+full local suite passed: 397 tests, no skips. Numerics, audit, certificates,
+Arb re-integration and offline bibliography idempotence passed. The current
+execution record is `reports/CONCLUSAO_CLAUDE_2026-10-05.md`; earlier counts
+below are historical. The remote green run at the base SHA does not validate
+these local patches. No human expert review or publication occurred.
+
+## Local adversarial revision, 2 October 2026
+
+The earlier sections below are a historical record, not verification of the
+current working tree. The local patches begun on 2 October were preserved
+and finished in `reports/CONCLUSAO_CLAUDE_2026-10-05.md`; the previously
+referenced remediation report of 2 October was never delivered. In particular, the earlier wording
+"the transport is done" must not be read as an unconditional derivation from
+Wightman positivity: the Euclidean representation and distributional steps
+require explicit assumptions or further verification. The local area term
+has a regulator-dependent divergent coefficient; identifying it with a
+finite physical string tension or with the nonlocal stochastic-vacuum
+function D is not justified by that calculation.
+
+The earlier Claude attempt stopped with a session-limit error after creating
+a status file. That attempt delivered no verified corrections. Later
+commits and the present local completion must be assessed from their actual
+files and checks. No human review, publication, or history rewrite is implied.
 
 29 September 2026, with rounds on 1 October (§0) and 3 October (the three
 sections below). Starting point of
@@ -13,7 +218,7 @@ something could not be checked with the resources at hand it is marked
 ## 5 October 2026 — the static Wilson loop at O(q⁴), effective theory
 
 New note `notes/E3_nonlinear_probe_EH.md`, module
-`reproducibility/nonlinear_probe_eh.py`, 18 tests in
+`reproducibility/nonlinear_probe_eh.py`, 19 tests in
 `tests/test_e3_nonlinear_probe.py`, ledger row E3. A derivation of 4 October
 was redone by a different numerical route (bipolar Gauss–Legendre quadrature
 instead of closed forms) and against two sources read for the purpose: Dunne,

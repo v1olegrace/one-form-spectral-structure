@@ -194,3 +194,56 @@ def area_term_slope(c, eps, q2=1.0):
     V -> (q^2/2) c r /(4 pi eps).
     """
     return q2 * c / (8.0 * math.pi * eps)
+
+
+def rectangle_current_field(T, return_distance, direction, point, weights, masses2):
+    """Field at t=0 of a closed rectangular current, away from its support.
+
+    The forward temporal side is at the origin, the return side at R*n,
+    and the spatial connectors are at times +-T. This is a zero-width
+    benchmark of the smooth conserved currents constructed in E2c Section 12.
+    It integrates derivatives of the 4D Green function directly; it does not
+    insert a delta(p0)/(p1-i0) product or use the static Yukawa formula.
+    """
+    w, s = _check_measure(weights, masses2)
+    n = np.asarray(direction, dtype=float)
+    x = np.asarray(point, dtype=float)
+    if T <= 0 or return_distance <= 0 or n.shape != (3,) or x.shape != (3,):
+        raise ValueError("positive T and return distance and three-vectors required")
+    norm = np.linalg.norm(n)
+    if norm == 0 or not np.isfinite(norm):
+        raise ValueError("direction must be finite and nonzero")
+    n = n / norm
+    ret = x - return_distance * n
+    if np.linalg.norm(x) == 0 or np.linalg.norm(ret) == 0:
+        raise ValueError("observation must avoid both temporal sides")
+
+    def radial_derivative_over_r(t, y):
+        rho = math.sqrt(t * t + float(y @ y))
+        value = 0.0
+        for wk, sk in zip(w, s):
+            if sk == 0:
+                value -= wk / (2.0 * math.pi ** 2 * rho ** 4)
+            else:
+                value -= wk * sk * special.kv(2, math.sqrt(sk) * rho) / (4.0 * math.pi ** 2 * rho ** 2)
+        return value
+
+    # -grad A0, then +d0 Ai from the two remote spatial connectors.
+    time_integral = integrate.quad_vec(
+        lambda t: -2.0 * (x * radial_derivative_over_r(t, x)
+                          - ret * radial_derivative_over_r(t, ret)),
+        0.0, T, epsabs=1e-12, epsrel=1e-11)[0]
+    connector = integrate.quad(
+        lambda ell: -2.0 * T * radial_derivative_over_r(T, x - ell * n),
+        0.0, return_distance, epsabs=1e-12, epsrel=1e-11)[0]
+    return time_integral + n * connector
+
+
+def gapless_uniform_phi(r):
+    """Exact model mu=delta_0 + 1_(0,1)(s) ds: Phi = 12 P(4,r)/r^4."""
+    return 12.0 * special.gammainc(4, r) / r ** 4
+
+
+def gapless_uniform_gamma(r):
+    """Effective mass for that same model; tends to 4/r, hence to zero."""
+    return (4.0 / r) * special.gammainc(5, r) / special.gammainc(4, r)

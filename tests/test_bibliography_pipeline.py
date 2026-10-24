@@ -86,6 +86,19 @@ def test_references_bib_is_what_the_harvest_produces():
     assert text == _committed("paper/references.bib")
 
 
+def test_a_doi_is_not_escaped():
+    """The style sets DOIs with \\doi, a URL command, where \\_ would print literally."""
+    entry = bb.entry_from_record({"key": "k", "title": "A_b & c", "doi": "10.1142/9789812775344_0014",
+                                  "journal": "J", "provenance": '{"doi": "crossref"}'})
+    assert "{10.1142/9789812775344_0014}" in entry and "{A\\_b \\& c}" in entry
+    entry = bb.entry_from_record({"key": "k", "title": "100% of #1, $\\alpha$", "doi": "10.1000/x",
+                                  "journal": "J", "provenance": '{"doi": "crossref"}'})
+    assert "{100\\% of \\#1, $\\alpha$}" in entry
+    with pytest.raises(ValueError, match="not a DOI"):
+        bb.entry_from_record({"key": "k", "doi": "10.1000/x} \\input{evil", "journal": "J",
+                              "provenance": '{"doi": "crossref"}'})
+
+
 def test_inspire_takes_the_journal_year_and_the_article_number():
     """Banks-Seiberg is Phys. Rev. D 83 (2011) 084019; the preprint is 2010."""
     rec = lh.inspire("arxiv", "1011.5120")
@@ -113,3 +126,36 @@ def test_offline_mode_reports_a_missing_cache(tmp_path, monkeypatch):
 
 def test_no_personal_address_in_request_headers():
     assert "@" not in lh.UA and "mailto" not in lh.UA
+
+
+def _inspire_hit(metadata, monkeypatch):
+    import json
+    payload = {"raw": json.dumps({"hits": {"hits": [{"metadata": metadata}]}})}
+    monkeypatch.setattr(lh, "_cached", lambda key, fetch: payload)
+    return lh.inspire("arxiv", "0000.00003")
+
+
+def test_missing_inspire_fields_stay_pending_whole(monkeypatch):
+    """No earliest_date gives a PENDING year, not 'PEND'; a nameless author voids the author field."""
+    rec = _inspire_hit({"titles": [{"title": "T"}], "authors": [{"full_name": "A, B."}, {}]}, monkeypatch)
+    assert rec["year"] == lh.PENDING and rec["authors"] == lh.PENDING
+    rec = _inspire_hit({"titles": [{"title": "T"}], "earliest_date": "2001-03-30",
+                        "authors": [{"full_name": "A, B."}, {"full_name": "C, D."}]}, monkeypatch)
+    assert rec["year"] == "2001" and rec["authors"] == "A, B.; C, D."
+    merged = lh.merge(rec, {"source_api": "crossref", "year": "2002"})
+    assert merged["year"] == "2001"
+
+
+def test_a_seed_no_api_answered_is_neither_added_nor_verified(monkeypatch):
+    import json
+    empty = lh.merge(None, None)
+    assert json.loads(empty["provenance"]) == {}
+    monkeypatch.setattr(lh, "SEEDS", [("ghost_seed", "arxiv", "9999.99999")])
+    monkeypatch.setattr(lh, "load_committed", lambda: [])
+    monkeypatch.setattr(lh, "derive", lambda *a, **k: dict(empty, key="ghost_seed", seed_query="arxiv:9999.99999"))
+    written = []
+    monkeypatch.setattr(lh, "write_outputs", lambda records: written.append(list(records)))
+    lh.add_new()
+    assert written == [[]]
+    problems = lh.verify(records=[dict(empty, key="ghost_seed", seed_query="arxiv:9999.99999")], quiet=True)
+    assert any("no field comes from an API" in p for p in problems)

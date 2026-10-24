@@ -2,9 +2,12 @@
 
 Three separate obligations, all enforced here:
 
-  binding      every stored record is recomputed from the declared inputs and
-               the inputs themselves are tied to configuration.json;
+  binding      certificate arithmetic, result inventories and aggregates are
+               recomputed from inputs tied to configuration.json. Floating
+               proposal diagnostics are not themselves certificates;
   completeness the comparison table covers datasets x degrees x cutoffs, the
+               datasets cover configured models x radii x noise levels, all
+               hierarchy prefixes and effective-mass pairs are present, the
                certificate indices are a bijection, and every provenance
                counter in summary.json is recomputed.  Presence alone is not
                enough: a silently dropped row must be refused;
@@ -20,12 +23,79 @@ from pathlib import Path
 import argparse
 import hashlib
 import json
+import math
+
+import numpy as np
+from scipy.linalg import eigh
 
 from one_loop_certified import (certify_sample, certify_weight, cutoff_enclosure,
                                 upper_mass_from_ratio, sample_input_key)
 from run_one_loop_certificates import (pair,quadratic_interval,observational_boxes,
                                        moment_weight_baseline)
 from spectral_weight_certificates import verify_certificate
+
+
+def verify_hierarchy_record(record, intervals, spacing, order):
+    """Recheck the fixed rational vector and the reason for its outcome.
+
+    The floating eigenvector proposes a test vector; exact interval arithmetic
+    supplies the proof. We do not require the proposal to be reproducible bit
+    for bit across LAPACK versions. A vectorless solver refusal is rechecked
+    separately and never produces a certified bound.
+    """
+    n=order+1
+    assert len(intervals)==2*n
+    if 'vector' not in record:
+        assert record=={'status':'NO_BOUND',
+                        'reason':'midpoint pencil not positive definite'}
+        mids=[float((lo+hi)/2) for lo,hi in intervals]
+        c0=np.array([[mids[i+j] for j in range(n)] for i in range(n)])
+        c1=np.array([[mids[i+j+1] for j in range(n)] for i in range(n)])
+        try:
+            eigh(c1,c0)
+        except np.linalg.LinAlgError:
+            return
+        raise AssertionError('Unjustified midpoint-pencil refusal')
+    assert record['order']==order
+    vector=[F(x) for x in record['vector']]
+    assert len(vector)==n
+    assert math.isfinite(record['nominal_eigenvalue'])
+    num=quadratic_interval(vector,intervals,1)
+    den=quadratic_interval(vector,intervals)
+    assert num==pair(record['numerator']) and den==pair(record['denominator'])
+    fields={'vector','numerator','denominator','nominal_eigenvalue','order','status'}
+    if num[0]<=0 or den[0]<=0:
+        reason='uncertainty does not certify positive numerator and denominator'
+    elif not 0<num[0]/den[1]<=1:
+        reason='ratio outside valid range'
+    else:
+        ratio=num[0]/den[1]
+        assert record['status']=='CERTIFIED_UPPER_BOUND'
+        assert F(record['ratio_lower'])==ratio
+        assert F(record['upper_mass'])==upper_mass_from_ratio(ratio,spacing)
+        assert record['scope']=='one-sided support-edge upper bound from a fixed rational test vector'
+        assert set(record)==fields|{'ratio_lower','upper_mass','scope'}
+        return
+    assert record['status']=='NO_BOUND' and record['reason']==reason
+    assert set(record)==fields|{'reason'}
+
+
+def verified_effective_mass(intervals, spacing):
+    """Rebuild all adjacent-pair results and their advertised minimum."""
+    records=[]
+    for j,(a,b) in enumerate(zip(intervals,intervals[1:])):
+        if a[0]<=0 or b[0]<=0:
+            records.append({'j':j,'status':'NO_BOUND',
+                            'reason':'nonpositive sample lower endpoint'})
+        elif not 0<b[0]/a[1]<=1:
+            records.append({'j':j,'status':'NO_BOUND','reason':'ratio outside valid range'})
+        else:
+            ratio=b[0]/a[1]
+            records.append({'j':j,'status':'CERTIFIED_UPPER_BOUND',
+                            'ratio_lower':str(ratio),
+                            'upper_mass':str(upper_mass_from_ratio(ratio,spacing))})
+    successful=[F(x['upper_mass']) for x in records if x['status']=='CERTIFIED_UPPER_BOUND']
+    return {'pairs':records,'best_upper_mass':str(min(successful)) if successful else None}
 
 
 def verify(out,reintegrate=False,write_result=True):
@@ -41,6 +111,18 @@ def verify(out,reintegrate=False,write_result=True):
     certificates=load('weight_certificates.json')
     summary=load('summary.json')
     assert hashlib.sha256((out/'configuration.json').read_bytes()).hexdigest()==summary['configuration_sha256']
+    for field in ('models','reference_radii','raw_absolute_error_relative_to_reference',
+                  'degrees','mass_cutoffs'):
+        assert config[field] and len(config[field])==len(set(config[field]))
+    assert F(config['spacing'])>0
+    assert all(type(degree) is int and degree>0 and degree%2==1
+               and degree<config['sample_count'] for degree in config['degrees'])
+    expected_datasets={(kind,radius,noise) for kind in config['models']
+                       for radius in config['reference_radii']
+                       for noise in config['raw_absolute_error_relative_to_reference']}
+    actual_datasets=[(d['kind'],d['r0'],d['noise']) for d in datasets]
+    assert len(actual_datasets)==len(expected_datasets) and set(actual_datasets)==expected_datasets, \
+        'Configured dataset inventory is incomplete or duplicated'
     byid={d['id']:d for d in datasets}
     assert len(byid)==len(datasets)
     reintegrated=set()
@@ -49,6 +131,7 @@ def verify(out,reintegrate=False,write_result=True):
     benchmark_records={}
     benchmark_reruns={}
     for d in datasets:
+        assert d['id']==f"{d['kind']}_r{d['r0']}_noise{d['noise']}"
         assert d['kind'] in config['models']
         assert d['r0'] in config['reference_radii']
         assert F(d['spacing']) == F(config['spacing'])
@@ -88,8 +171,9 @@ def verify(out,reintegrate=False,write_result=True):
                     benchmark_reruns[identity]=certify_weight(d['kind'],d['r0'],cutoff,
                         bits=config['bits'],denominator=d['samples'][0])
                 assert benchmark_reruns[identity] == truth
-        assert {c['j'] for c in d['independent_checks']} == set(range(config['sample_count']))
-        assert all(c['inside_enclosure'] for c in d['independent_checks'])
+        assert [c['j'] for c in d['independent_checks']] == list(range(config['sample_count']))
+        assert all(c['inside_enclosure'] is True and c['status']=='CHECKED'
+                   for c in d['independent_checks'])
         if reintegrate:
             reintegrated.add(key)
 
@@ -120,12 +204,16 @@ def verify(out,reintegrate=False,write_result=True):
     assert summary['positive_weight_lower_rows'] == sum(F(x['weight_lower']) > 0 for x in rows)
     assert summary['hierarchy_no_bound_rows'] == sum(
         x['sampled_hierarchy']['status'] == 'NO_BOUND' for x in rows)
+    assert summary['all_certificates_verified'] is True
+    assert summary['all_direct_weight_enclosures_contained'] is True
 
     for record in certificates:
         verify_certificate(record)
     for row in rows:
         d=byid[row['dataset_id']]
+        assert row['available_samples']==row['degree']+1
         boxes=[pair(x) for x in d['moment_intervals'][:row['available_samples']]]
+        assert len(boxes)==row['available_samples']
         zlo,zhi=cutoff_enclosure(row['mass_cutoff'],d['spacing'],bits=config['bits'])
         stored_zlo,stored_zhi=pair(row['cutoff_y'])
         assert stored_zlo <= zlo <= zhi <= stored_zhi
@@ -137,29 +225,19 @@ def verify(out,reintegrate=False,write_result=True):
             assert record['bound']==row[f'weight_{kind}']
         assert row['truth']==d['direct_weight_benchmarks'][row['mass_cutoff']]
         assert F(row['weight_lower']) <= F(row['truth']['lower']) <= F(row['truth']['upper']) <= F(row['weight_upper'])
+        assert F(row['weight_width'])==F(row['weight_upper'])-F(row['weight_lower'])
         assert row['moment_weight_baseline']==moment_weight_baseline(boxes,stored_zlo,stored_zhi)
-        for record in row['hierarchy_all_orders']:
-            if 'vector' not in record:
-                assert record['status']=='NO_BOUND'
-                continue
-            vector=[F(x) for x in record['vector']]
-            num=quadratic_interval(vector,boxes,1)
-            den=quadratic_interval(vector,boxes)
-            assert num==pair(record['numerator']) and den==pair(record['denominator'])
-            if record['status']=='CERTIFIED_UPPER_BOUND':
-                assert num[0]>0 and den[0]>0
-                ratio=num[0]/den[1]
-                assert F(record['ratio_lower'])==ratio
-                assert F(record['upper_mass'])==upper_mass_from_ratio(ratio,d['spacing'])
+        max_order=(row['degree']-1)//2
+        assert len(row['hierarchy_all_orders'])==max_order+1, 'Hierarchy order inventory is incomplete'
+        for order,record in enumerate(row['hierarchy_all_orders']):
+            verify_hierarchy_record(record,boxes[:2*order+2],d['spacing'],order)
+        assert row['sampled_hierarchy']==row['hierarchy_all_orders'][-1], \
+            'Sampled hierarchy summary is not bound to the highest-order record'
         successful=[x for x in row['hierarchy_all_orders'] if x['status']=='CERTIFIED_UPPER_BOUND']
         best=min(successful,key=lambda x:F(x['upper_mass'])) if successful else None
         assert best==row['hierarchy_best_available']
-        for record in row['effective_mass']['pairs']:
-            if record['status']=='CERTIFIED_UPPER_BOUND':
-                j=record['j']
-                ratio=boxes[j+1][0]/boxes[j][1]
-                assert F(record['ratio_lower'])==ratio
-                assert F(record['upper_mass'])==upper_mass_from_ratio(ratio,d['spacing'])
+        assert row['effective_mass']==verified_effective_mass(boxes,d['spacing']), \
+            'Effective-mass pairs or summary do not match the available samples'
     result={'status':'PASS','data_sets_checked':len(datasets),'weight_certificates_checked':len(certificates),
             'comparison_rows_checked':len(rows),'source_pairs_reintegrated':len(reintegrated),
             'distinct_source_samples_checked':len(source_records),
@@ -168,6 +246,8 @@ def verify(out,reintegrate=False,write_result=True):
             'weight_benchmarks_reintegrated':len(benchmark_reruns),
             'cardinalities_checked':True,
             'comparison_table_complete':True,
+            'configured_dataset_inventory_complete':True,
+            'hierarchy_and_effective_summaries_bound':True,
             'certificate_index_bijection':True,
             'scope':'exact proof/data binding; Arb quadrature if requested; not general QED certification'}
     print(json.dumps(result,indent=2))

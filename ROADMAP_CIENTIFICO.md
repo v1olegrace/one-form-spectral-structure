@@ -478,14 +478,19 @@ exageram, e valem com esta leitura:
 
 A seção 11 da nota foi reescrita com essa leitura. As contas técnicas
 (antissimetria, salto em $\tau=0$, rotação de Wick, sinal de Proca) foram
-confirmadas. A mesma frase sobre o laço de Wilson está no apêndice do artigo
-e entra na correção da próxima versão.
+confirmadas. A frase sobre o laço de Wilson foi qualificada no apêndice da
+v0.5.3: $F=dA$ sozinho não garante a identidade do produto ordenado a tempos
+iguais; são necessárias localidade a tempos iguais e uma prescrição de
+contatos compatível.
 
 ### E2.9 Estado em 05/10/2026 — O(q_W⁴) na teoria efetiva de Euler–Heisenberg
 
-A tarefa E2.3f foi feita na teoria efetiva, para fontes lisas de raio
-R ≫ 1/m. Nota: `notes/E3_nonlinear_probe_EH.md`; testes:
-`tests/test_e3_nonlinear_probe.py` (18). Fontes lidas: Dunne, eq. (1.9), e
+A tarefa E2.3f foi calculada no termo local da teoria efetiva. A aplicação
+controlada exige campos fracos e escala de variação muito maior que 1/m,
+inclusive nas bordas; bolas uniformes e cascas finas são benchmarks desse
+termo, sem controle de operadores de derivadas na borda.
+Nota: `notes/E3_nonlinear_probe_EH.md`; testes:
+`tests/test_e3_nonlinear_probe.py` (19). Fontes lidas: Dunne, eq. (1.9), e
 Frolov, eq. (13).
 
 - A energia a carga livre fixa é −c∫|E₀|⁴, com c = e⁴/(360π²m⁴). O sinal é
@@ -497,18 +502,102 @@ Frolov, eq. (13).
   autoenergias. Atrai, e domina o universal por um fator de cerca de 5r/R.
   Não há termo r⁻³, e o setor q₁²q₂² não tem r⁻⁵.
 - O perfil a carga finita ganha Φ_NL = −8α³q_W²/(45π m⁴r⁶), negativo e sem
-  gap. Com a medida de um laço do próprio artigo, Φ troca de sinal em
-  r_x = 11,57/m para q_W = 1. Os limites q_W → 0 e r → ∞ não comutam. O
-  Teorema A não muda: ele trata o coeficiente linear.
+  gap. Somado formalmente ao perfil linear pontual de um laço, Φ troca de
+  sinal em r_x = 11,57/m para q_W = 1. O matching para uma mesma fonte
+  extensa não foi feito. Os limites do log-derivado Γ não comutam nesse
+  benchmark; os dois limites de Φ são zero. A combinação de cargas h e 2h
+  cancela o cúbico, mas deixa erro O(h⁴) na resposta linear se houver termo
+  quíntico. O Teorema A não muda: ele trata o coeficiente linear.
 
-**O que isso muda no artigo (próxima versão).** Duas frases. "A subtração da
-autoenergia da sonda não depende de r" vale só em ordem quadrática. "Nada aqui
-fixa o sinal" do cumulante de quatro campos deixa de valer na teoria efetiva.
+**Integração na v0.5.3.** As autoenergias isoladas subtraídas continuam
+independentes de r para fontes rígidas; −A/r⁴ é interação mista. O artigo
+delimita a ponte potencial–fluxo à resposta linear e distingue os sinais
+dos setores calculados em EH do sinal de um cumulante geral de quatro campos.
 
 **O que continua aberto.** Sondas pontuais (R → 0): o coeficiente de −A/r⁴
 vem do kernel luz-luz completo e não foi calculado. O gap é outra questão: o
 artigo já diz, citando Beneke e Ruiz-Femenía, que na QED completa os cortes
 de vários fótons começam em s = 0.
+
+### E2.10 Estado em 23/10/2026 — sondas finitas e auditoria do Codex concluída
+
+Continuação do plano P0–P14 do Codex (`.agent/plan.yaml`), que parou por
+limite de uso; os relatórios estão em `.agent/reports/`.
+
+- **RPA.** A Proposição 4 genérica e a completude genérica foram RETRATADAS,
+  com dois contraexemplos exatos. A representação de Stieltjes para $Z_3>0$
+  agora tem prova direta, sem o SSV: aproximação atômica positiva, depois
+  truncamento e limite vago. O átomo perto do limiar concorda com uma
+  referência independente de 60/90 dígitos.
+- **Transporte.** O campo da linha é o limite ordenado de correntes
+  conservadas suaves (nota E2c, §12). A igualdade com toda extensão de
+  semiplano continua ABERTA.
+- **Tensor.** A forma de Källén–Lehmann de ⟨FF⟩ e a exclusão do termo de cone
+  de luz são de Benedetti–Casini–Magán (2023, §3, lido no nível de equação).
+- **Sondas finitas (nota E3, §11).**
+  - *Provado:* fora de uma sonda radial compacta, o perfil é
+    $\int e^{-rx}F\,d\nu$, com a mesma borda.
+  - *Verificado:* para uma sonda gaussiana, $\Gamma$ cai abaixo de $2m$.
+  - *Verificado:* com a medida de Dirac, os cruzamentos casados ficam em
+    55,91/m (gaussiana), 20,48/m (bola) e 18,95/m (perfil compacto suave).
+  - *Provado na teoria local:* cota de energia de dois lados para fontes
+    arbitrárias.
+
+**O que continua aberto.** O passo de Wightman para Euclides; sondas
+pontuais além da ordem quadrática; um resto de $V(r)$ que decaia com $r$; o
+isolamento de canais carregados frente aos cortes sem massa; Brown–Weisberger
+e o enunciado do SSV, que seguem sem leitura.
+
+### E2.11 Estado em 23/10/2026, à tarde — revisão independente e a janela QED
+
+Outro agente revisou a entrega da v0.5.4 e encontrou quatro problemas,
+corrigidos aqui (`.agent/reports/R0.md`).
+
+- **Números.** Dois valores CHECKED estavam errados na quinta casa, porque
+  o `mp.quad` para num erro *absoluto*: $\Gamma_{\rm Gauss}(300/m)=2{,}00752$
+  e $\Gamma_{\rm bola}(50/m)=2{,}03647$. Os cruzamentos não mudaram.
+- **Hipótese.** O lema exterior precisa de $\rho\ge0$; uma densidade com
+  sinal dá $F<0$. É condição suficiente, não necessária.
+- **Regularidade.** O perfil polinomial é $C^1$, não suave.
+- **Caso crítico $Z_3=0$.** $\mathcal G-1/\mu$ é Stieltjes positiva,
+  Proposição 3b, provada como limite subcrítico.
+
+**Novo (nota E4).** O corte de três fótons da QED acrescenta
+$d\nu=\frac{17}{11\,664\,000}(\alpha/\pi)^4s^4/m^8\,ds$ para $s\ll m^2$.
+Duas rotas independentes concordam exatamente. Daí
+$\Phi_{3\gamma}\simeq\frac{238}{225}(\alpha/\pi)^4/(m^8r^{10})$. Para o
+coeficiente linear, o limiar $2m$ controla o perfil, com $\Gamma\ge2m$, só
+até $r\approx20{,}7/m$ (CHECKED; um fator 2 no coeficiente desloca o raio em
+$0{,}4/m$). O isolamento de canais carregados frente aos cortes sem massa
+deixa de ser só qualitativo em QED. Continua aberto em geral.
+
+### E2.12 Estado em 23/10/2026, à noite — o erro da janela E4
+
+Resposta à revisão `reports/NEXT_STEPS_E4_REVIEW_2026-10-23.md`
+(`.agent/reports/R5.md`).
+
+- **Amplitude completa.** A amplitude completa de um loop γ*→3γ foi
+  implementada e checada em várias frentes:
+  - Ward em todas as pernas;
+  - normalização EH $-2/15$;
+  - Dicus–Kao–Repko em $\omega^4$ e $\omega^6$, exatos;
+  - a seção de choque completa deles, dentro de 0,5%.
+
+  A coluna $\omega^8$ de DKR está dobrada.
+- **Densidade.** Fica
+  $\rho/(Ks^4)=1+1{,}877u+2{,}457u^2+2{,}793u^3+2{,}960u^4+3{,}018u^5$,
+  com $u=s/4m^2$, e converge até o limiar.
+- **Janela, com o par em $O(\alpha^2)$:**
+  - $r_\Gamma=20{,}65/m$, onde $\Gamma=2m$;
+  - $r_\times=22{,}57/m$, onde par e três fótons se igualam;
+  - erro numérico menor que $0{,}002/m$;
+  - ordens superiores estimadas em $0{,}015/m$.
+- **Sondas.** Com $a=10/m$ os raios se deslocam cerca de $8/m$. Para carga
+  $e$, a cauda EH fecha a janela em $11{,}6/m$.
+
+**Continua aberto.** O termo $O(\alpha^5)$ do corte de três fótons, que é só
+estimado. A densidade de três fótons acima de $4m^2$. A novidade do
+coeficiente QED.
 
 ---
 
@@ -609,6 +698,12 @@ número do texto está coberto por um `assert`.
 | v0.5 | E2.6 | 01/10/2026 | Proposição 7 no apêndice A: transporte ⟨FF⟩ → kernel estático em ordem linear na sonda, condicional aos lemas de E2b; estrutura de lei de área creditada ao vácuo estocástico (Di Giacomo et al. 2002); constante de $Z_3=0$ identificada como termo de contato; 14 páginas; registro de QA gerado de um clone LF e conferido por teste |
 | v0.5.1 | E2.7 | 03/10/2026 | Correções da auditoria de E2c: representação euclidiana positiva como premissa da Proposição 7; H3 só com peso de Coulomb e $s_*$ possivelmente zero; contato de área regulado e divergente, comparação com $D$ só estrutural; truncamento no cumulante quadrático; 15 páginas |
 | v0.5.2 | E2.7 | 03/10/2026 | Revisão: a Proposição 7 dá a *forma* da H3, com a integral começando no fundo do suporte, e o gap $s_*>0$ fica na H2 (a v0.5.1 dizia "$s_*$ pode ser zero", em choque com a H2); bibliografia refeita por uma rotina que confere cada valor na API citada: Banks–Seiberg passa a 2011 (ano da revista), dois títulos e um formato de autor vêm da API; 15 páginas |
+| v0.5.3 | E2.7/E3 | 05/10/2026 | Localidade a tempos iguais e prescrição de contatos explicitadas; subtração de energias isoladas e alcance dos benchmarks EH corrigidos; QA das fontes atuais; 15 páginas; 397 testes passaram sem omissões. Tese concluída em edição de pesquisa separada, com 84 páginas. |
+| v0.5.4 | E2.10 | 23/10/2026 | Sondas finitas: lema exterior e contraexemplo gaussiano; linha estática por correntes conservadas; prova direta da cadeia de bolhas sem o SSV, condição de borda do átomo; créditos lidos a Benedetti–Casini–Magán e Masjuan–Peris; 16 páginas; 469 testes passaram no snapshot candidato, sem omissões. |
+| v0.5.5 | E2.11 | 23/10/2026 | Correções da revisão independente: dois Γ na quinta casa (parada absoluta do mp.quad), ρ ≥ 0 explícito nas sondas finitas, perfil C¹, Proposição 3b para Z₃ = 0; nova janela QED do limiar (nota E4): dν₃γ = (17/11 664 000)(α/π)⁴s⁴/m⁸ ds por duas rotas, Γ ≥ 2m só até 20,7/m. |
+| v0.5.6 | E2.12 | 23/10/2026 | Erro da janela E4: amplitude completa γ*→3γ (Ward, EH −2/15, DKR ω⁴/ω⁶ e seção completa), série da densidade até s⁹, par em O(α²) (Laporta–Jentschura); r_Γ = 20,65/m e r_× = 22,57/m; sondas de raio 10/m deslocam ~8/m; texto separa os dois critérios. |
+| v0.5.7 | E2.12 | 23/10/2026 | Fechamento local (Codex, R7): raios E4 descritos como resultados do modelo de seis termos com corte em 4m²; 0,002/m é estimativa sob hipótese, não cota; comparador do CI recusa valores não finitos; guardas de domínio; caderno de estudo integrado aos 60 itens. |
+| v0.5.8 | E2.13 | 24/10/2026 | Termo O(α⁵) do coeficiente de três fótons (nota E4, §11): coeficientes de dois loops de Ritus, conferidos pela forma fechada autodual, dão o fator 1 + (1555/153)α/π; para γγ, 25555/2502, e o 186685/17514 de DKR é a mesma expressão com um sinal trocado; r_Γ = 20,64/m e r_× = 22,55/m; demais ordens em α estimadas em ~0,003/m. Envoltória analítica do truncamento (nota E4, §12): cota em s ≤ 1,5m², efeito nos raios < 3×10⁻⁴/m; lagrangiana ω⁸ de DKR com o mesmo fator 2 da Tabela II deles. |
 
 O PDF entregue da v0.3 é `output/pdf/spectral_structure_v03.pdf` (12 páginas,
 compilado com Tectonic 0.17.0 portátil). Esse diretório é gitignored: o PDF

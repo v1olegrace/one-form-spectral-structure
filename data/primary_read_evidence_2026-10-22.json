@@ -1,0 +1,136 @@
+{
+ "date": "2026-10-23",
+ "reader": "Claude (automated agent); no human review",
+ "source_dir": "tmp/scientific_execution_2026-10-22/literature",
+ "records": [
+  {
+   "key": "benedetti_casini_magan_2023",
+   "arxiv": "2212.11291",
+   "file": "benedetti_casini_magan_2212.11291.pdf",
+   "depth": "EQUATION_LEVEL_READ",
+   "locations": [
+    "3.2",
+    "3.6",
+    "3.10",
+    "3.14",
+    "3.17-3.20 and following paragraph",
+    "3.24-3.25"
+   ],
+   "relation": [
+    "IDENTICAL",
+    "CHALLENGES_NOVELTY"
+   ],
+   "claims": [
+    "C10",
+    "E2b"
+   ],
+   "sha256": "1ff94d7d179917d5d9f445a856a26b1534c0ff1c2d5b605a944746c1e938eb31"
+  },
+  {
+   "key": "masjuan_peris_2009",
+   "arxiv": "0903.0294",
+   "file": "masjuan_peris_0903.0294.pdf",
+   "depth": "EQUATION_LEVEL_READ",
+   "locations": [
+    "11",
+    "12",
+    "13",
+    "14"
+   ],
+   "relation": [
+    "SAME_MATHEMATICS_DIFFERENT_OBSERVABLE",
+    "CHALLENGES_NOVELTY"
+   ],
+   "claims": [
+    "C1",
+    "C3",
+    "C7"
+   ],
+   "sha256": "ae4f039f50b5e2e0a74653a3b43af15bd599f167749814abba8ea111872ee2a6"
+  },
+  {
+   "key": "giacosa_wolkanowski_2012",
+   "arxiv": "1209.2332",
+   "file": "giacosa_wolkanowski_1209.2332.pdf",
+   "depth": "EQUATION_LEVEL_READ",
+   "locations": [
+    "6",
+    "7",
+    "8",
+    "normalisation sentence p. 2"
+   ],
+   "relation": [
+    "ANALOGOUS"
+   ],
+   "claims": [
+    "C9"
+   ],
+   "sha256": "1858117e3a77fa501f4f0d47c7975888e328d44ce2b842ecdfc2e60e21adf65d"
+  },
+  {
+   "key": "lawrence_2024_lagrange_duality",
+   "arxiv": "2408.11766",
+   "file": "lawrence_2408.11766.pdf",
+   "depth": "ABSTRACT_READ",
+   "locations": [
+    "abstract",
+    "introduction pp. 1-2"
+   ],
+   "relation": [
+    "BACKGROUND"
+   ],
+   "claims": [
+    "C4"
+   ],
+   "sha256": "c11ce9bf635ffd9804cfbf4976dd6d322cfd82b2ad16eeb5ee4e14809518819d"
+  },
+  {
+   "key": "mutzel_tilloy_2025",
+   "arxiv": "2512.19594",
+   "file": "mutzel_tilloy_2512.19594.pdf",
+   "depth": "EQUATION_LEVEL_READ",
+   "locations": [
+    "2",
+    "3",
+    "4",
+    "Bootstrapping the mass gap, p. 4"
+   ],
+   "relation": [
+    "ANALOGOUS",
+    "BACKGROUND"
+   ],
+   "claims": [
+    "C4",
+    "C7"
+   ],
+   "sha256": "75efd5b57ec0bc790a27c19ca1afa96ffc5d332c60f882adc4aabea66b5abb22"
+  },
+  {
+   "key": "schilling_song_vondracek2012",
+   "file": "ssv_errata_2012.pdf",
+   "depth": "TITLE_ONLY",
+   "locations": [
+    "table of contents (OCR)",
+    "author errata 2022-12-02"
+   ],
+   "relation": [
+    "BACKGROUND"
+   ],
+   "claims": [
+    "appendix Stieltjes/CBF duality"
+   ],
+   "status": "UNRESOLVED",
+   "sha256": "a5867b56cce33c0815bf643c48f4d486f1f7d9e6bfa88f517c28ef9a0f81ed61"
+  },
+  {
+   "key": "brown_weisberger_1979",
+   "file": null,
+   "depth": "ABSTRACT_READ",
+   "locations": [],
+   "relation": [],
+   "claims": [],
+   "status": "UNRESOLVED",
+   "access": "APS 403, APS harvest 401, ADS 403"
+  }
+ ]
+}

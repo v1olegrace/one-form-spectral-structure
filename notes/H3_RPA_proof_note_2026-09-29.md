@@ -6,6 +6,14 @@ verificação discriminado na seção 9.
 **Escopo: modelo RPA/Dyson.** Não trata do kernel físico definido pelo laço de
 Wilson; ver §8 e a discussão no relatório do dia.
 
+**Correção de domínio, 23/10/2026.** A existência do átomo acima do corte
+exige uma condição na borda, e lacunas internas podem conter outros átomos.
+As afirmações genéricas anteriores sobre esses dois pontos foram refutadas;
+os contraexemplos exatos e o enunciado corrigido estão na §7-bis. As tabelas
+de completude abaixo referem-se à densidade concreta de Dirac, contínua e
+estritamente positiva no interior do suporte, com limite positivo à esquerda
+da borda superior. Positividade e corte finito, sozinhos, não bastam.
+
 ---
 
 ## 1. Definições
@@ -98,9 +106,74 @@ $Q^2\to\infty$.
 **(a) $Z_3>0$.** Por (3.1) e (N), $W\ge Z_3>0$, logo
 $0<\mathcal{G}(Q^2)\le g_R^2/(Q^2Z_3)\to0$. Além disso $W/g_R^2$ é da forma
 $b+\int d\sigma/(Q^2+s)$ com $b=Z_3/g_R^2\ge0$ e $d\sigma=\rho_J\,ds\ge0$: é
-Stieltjes. Pela **dualidade de Schilling--Song--Vondraček** (numeração não conferida no livro, §9) ($f\not\equiv0$ Stieltjes $\iff$ $zf(z)$ é
-Bernstein completa $\iff$ $1/f$ é Bernstein completa), $Q^2W/g_R^2=1/\mathcal{G}$
-é CBF e portanto $\mathcal{G}$ é Stieltjes.
+Stieltjes. A dualidade Stieltjes/Bernstein de Schilling--Song--Vondraček
+forneceria uma rota geral (a numeração e o enunciado primário ainda não foram
+conferidos, §9). Para $Z_3>0$, a prova por aproximação atômica abaixo
+estabelece a representação diretamente, sem depender dessa referência ainda
+não lida. Ela vale primeiro com corte finito e depois, por truncamento, com
+suporte ilimitado sob (I).
+
+**Prova direta por aproximação positiva, corte finito.** Escreva
+$a=4m^2>0$, $b=\Lambda^2$, $c=g_R^2$ e
+$\tau(ds)=\rho_J(s)\,ds/s$. Por (I), $\tau$ é finita em $[a,b]$.
+Escolha partições com diâmetro máximo tendendo a zero; substitua a massa de
+$\tau$ em cada célula por um átomo em um ponto dessa célula. As medidas
+$\tau_n$ são positivas, têm exatamente a mesma massa total que $\tau$ e
+convergem fracamente a ela. Defina $\eta_n(ds)=s\tau_n(ds)$ e
+$$W_n(z)=Z_3+c\int\frac{\eta_n(ds)}{s+z},\qquad
+G_n(z)=\frac{c}{zW_n(z)}.$$
+Então $W_n(0)=Z_3+c\tau_n([a,b])=1$ e o mesmo $Z_3>0$ é preservado para
+todo $n$. Para $x>0$, os integrandos são contínuos e limitados em $[a,b]$,
+portanto $W_n(x)\to W(x)$ e $G_n(x)\to\mathcal G(x)$, pois $W_n(x)\ge Z_3$.
+
+Para cada medida atômica finita, ordene seus pontos distintos
+$a\le s_1<\cdots<s_N\le b$, com massas $m_j>0$ de $\eta_n$.
+Em cada lacuna $(s_j,s_{j+1})$, a função
+$$F_n(t)=W_n(-t)=Z_3+c\sum_j\frac{m_j}{s_j-t}$$
+é estritamente crescente de $-\infty$ a $+\infty$. Em $(s_N,\infty)$ ela
+cresce de $-\infty$ a $Z_3>0$. Há assim $N$ zeros positivos, simples; não há
+zero em $(0,s_1)$, pois $F_n(t)=1+ct\int\tau_n(ds)/(s-t)>1$.
+O numerador de $W_n$ tem grau $N$, de modo que estes são todos os zeros.
+A decomposição racional em frações parciais dá
+$$G_n(x)=\frac c x+\sum_{j=1}^{N}\frac{w_{nj}}{x+t_{nj}},
+\qquad w_{nj}=\frac{c}{(-t_{nj})W_n'(-t_{nj})}>0.$$
+Não há polinômio, pois $G_n(x)\sim c/(Z_3 x)$ no infinito. Comparando esse
+coeficiente com a decomposição,
+$$\sum_jw_{nj}=\frac c{Z_3}-c.$$
+Os polos que ficam entre os $s_j$ estão em $[a,b]$. O polo superior também
+satisfaz o limite abaixo se $t\le b$. Se $t>b$, a equação do zero e
+$\eta_n([a,b])\le b\tau([a,b])$ dão
+$$Z_3=c\int\frac{\eta_n(ds)}{t-s}
+\le\frac{c b\tau([a,b])}{t-b},
+\qquad t\le b+\frac{c b\tau([a,b])}{Z_3}=\frac b{Z_3}.$$
+Logo as medidas $\sigma_n=\sum_jw_{nj}\delta_{t_{nj}}$ têm massa fixa finita
+e suporte no mesmo compacto $[a,b/Z_3]$. Pela compacidade fraca das medidas
+positivas de massa limitada num compacto, existe uma subsequência com limite
+positivo $\sigma$. Para cada $x>0$, $1/(x+s)$ é contínua nesse compacto;
+passando ao limite na decomposição,
+$$\mathcal G(x)=\frac c x+\int_{a}^{b/Z_3}\frac{\sigma(ds)}{x+s}.$$
+Isso estabelece existência da representação positiva, suporte positivo,
+ausência de constante e momento inverso finito. Não pressupõe densidade de
+saída absolutamente contínua nem ausência de átomos em lacunas. A prova
+requer $Z_3>0$ e corte finito. $\blacksquare$
+
+**Suporte ilimitado (23/10/2026).** Suponha só (I), $\int\rho_J/s<\infty$, e
+$Z_3>0$. Para $b>a$, trunque $\rho_J$ em $[a,b]$. Então
+$Z_3(b)=1-c\int_a^b\rho_J/s\ge Z_3>0$, e a prova acima dá
+$G_b(x)=c/x+\int\sigma_b(ds)/(x+s)$ com $\sigma_b\ge0$ suportada em
+$[a,\infty)$. Sua massa é $c/Z_3(b)-c\le c/Z_3-c$, limitada uniformemente.
+Para $x>0$,
+$$W_b(x)=1-cx\int_a^b\frac{\rho_J(s)\,ds}{s(s+x)}\ \longrightarrow\ W(x)\ge Z_3$$
+por convergência monótona, logo $G_b(x)\to\mathcal G(x)$. Pelo teorema de
+Helly existe uma subsequência $\sigma_{b_k}$ com limite vago $\sigma\ge0$ em
+$[a,\infty)$. Como $s\mapsto1/(x+s)$ é contínua e se anula no infinito,
+$\int\sigma_{b_k}(ds)/(x+s)\to\int\sigma(ds)/(x+s)$. Daí
+$\mathcal G(x)=c/x+\int\sigma(ds)/(x+s)$, com $\sigma$ de massa finita.
+
+Massa pode escapar para o infinito no limite; isso não afeta a
+representação. Assim a dualidade de Schilling–Song–Vondraček não é usada em
+nenhum caso com $Z_3>0$. O caso crítico $Z_3=0$ é tratado em (b) abaixo, por
+um limite de acoplamentos subcríticos. $\blacksquare$
 
 **Pertencer à classe de Stieltjes ainda não é a H3 do artigo.** A H3 canônica
 é a forma específica
@@ -116,16 +189,19 @@ modelo coincide com a forma canônica acima, com:*
 | Condição | Status |
 |---|---|
 | **(a1) Polo de Coulomb com resíduo positivo.** $\lim_{Q^2\to0}Q^2\mathcal{G}=g_R^2>0$, pois $W(0)=1$ por (4.2). | **demonstrada** (4.2) + (G); confirmada numericamente a 10 casas |
-| **(a2) Suporte em $[0,\infty)$.** $\operatorname{supp}\sigma\subset[4m^2,\Lambda^2]\cup\{s_a\}$, com um **átomo** em $s_a>\Lambda^2$. | **CORRIGIDA em 29/09** (Prop. 4). A redação anterior afirmava $[4m^2,\Lambda^2]$ e era **falsa** |
+| **(a2) Suporte em $[0,\infty)$.** O suporte é positivo; para a densidade concreta de Dirac, $\operatorname{supp}\sigma\subset[4m^2,\Lambda^2]\cup\{s_a\}$, com um átomo em $s_a>\Lambda^2$. | **CORRIGIDA em 23/10** (Prop. 4): no caso genérico, a existência depende da borda e lacunas internas podem conter outros átomos. |
 | **(a3) Ausência de termo constante.** $\mathcal{G}\le g_R^2/(Q^2Z_3)\to0$. | **demonstrada** acima |
-| **(a4) Momento inverso finito.** $\int d\sigma/(\mu_0^2+s)<\infty$, **incluindo o átomo**. | **demonstrada** para a densidade concreta (Prop. 5); hipótese no caso geral |
+| **(a4) Momento inverso finito.** $\int d\sigma/(\mu_0^2+s)<\infty$, incluindo todas as partes da medida. | Segue da massa finita da medida construída em (a); a Prop. 5 dá outra verificação para a densidade concreta. |
 
 *Sobre (a4) — uma afirmação só, não três.* A redação anterior alternava entre
 "verificada numericamente", "demonstrada para a densidade concreta" e
 "hipótese transportada". O enunciado correto é o da **Prop. 5** abaixo:
 para a densidade Dirac com corte, $\int d\sigma/(\mu_0^2+s)<\infty$ está
-**demonstrada, com o átomo incluído**. Para $\rho_J$ mensurável arbitrária
-permanece hipótese, e é a hipótese (I) da §2 transportada para $\sigma$.
+**demonstrada, com o átomo incluído**. No caso genérico com corte finito e
+$Z_3>0$, a construção acima produz uma medida positiva de massa
+$c/Z_3-c<\infty$, logo seu momento inverso é finito. Não se identifica a
+medida de saída com $\rho_J(s)\,ds$ nem se transporta (I) por uma igualdade
+entre elas.
 
 **Verificação numérica das quatro** ($\Lambda^2=10^6$, $g_R^2/g_c^2=0{,}5$,
 $Z_3=0{,}5$):
@@ -157,6 +233,79 @@ integral inversa diverge nesse limite a acoplamento fixo, invalidando (I).
 Isso não se aplica a toda medida positiva de massa infinita: por exemplo,
 $\rho(s)=s^{-1/2}$ em $[1,\infty)$ tem massa infinita e integral inversa finita.)
 
+O limite acima só identifica a constante. Que $\mathcal G-1/\mu$ seja uma
+função de Stieltjes positiva precisa de prova. A prova abaixo foi completada
+em 23/10/2026, a partir da revisão independente
+`reports/INDEPENDENT_RPA_TRANSPORT_REVIEW_2026-10-23.md`.
+
+**Proposição 3b (PROVADA).** *Seja $\eta=\rho_J\,ds$ uma medida positiva não
+nula em $[a,\infty)$, $a>0$, com $T=\int\eta(ds)/s<\infty$ (I), e seja
+$c_*=1/T$ o acoplamento crítico, em que $Z_3=0$. Então*
+$$G_*(x)=\frac{c_*}x+\frac1\mu+\int_a^\infty\frac{\sigma(ds)}{x+s},\qquad
+\sigma\ge0,\qquad\int\frac{\sigma(ds)}{1+s}<\infty,\qquad
+\mu=\eta([a,\infty))\le\infty,$$
+*com $1/\infty=0$.*
+
+*Prova.* Para $c<c_*$, $Z_3=1-cT>0$, e a prova acima, com suporte ilimitado,
+dá $G_c(x)=c/(xW_c(x))=c/x+\int_a^\infty\sigma_c(ds)/(x+s)$ com
+$\sigma_c\ge0$. Tome $c_n\uparrow c_*$. Para cada $x>0$, $W_{c_n}(x)$ é afim
+em $c_n$ e converge a $W_*(x)=c_*\int\eta(ds)/(s+x)>0$. Logo
+$G_{c_n}(x)\to G_*(x)=\bigl[\int x\,\eta(ds)/(s+x)\bigr]^{-1}$, finito. As
+medidas $\lambda_n=\sigma_{c_n}/(1+s)$ têm massa $G_{c_n}(1)-c_n$, que
+converge, e portanto são limitadas. No compacto $K=[a,\infty]$, uma
+subsequência converge fracamente a $\lambda\ge0$. Ponha
+$\beta=\lambda(\{\infty\})$ e $\sigma=(1+s)\lambda$ em $[a,\infty)$. Para
+$x>0$, $(1+s)/(x+s)$ é contínua em $K$ e vale $1$ no infinito, então
+$$G_*(x)=\frac{c_*}x+\beta+\int_a^\infty\frac{\sigma(ds)}{x+s}.$$
+Para $x\ge1$ esse núcleo fica em $[0,1]$ e tende a zero em cada $s$ finito.
+Por convergência dominada contra $\lambda$, $\beta=\lim_{x\to\infty}G_*(x)$,
+que é $1/\mu$ pelo limite monótono acima. Por convergência dominada contra
+$\eta/s$, $xG_*(x)\to c_*$ quando $x\to0$, e o resíduo de Coulomb é
+$c_*=g_R^2$. O suporte em $[a,\infty)$ e o momento inverso finito passam ao
+limite. $\blacksquare$
+
+Logo, se $\mu<\infty$, $\mathcal G-1/\mu$ é uma função de Stieltjes positiva
+sem constante. A constante é um termo de contato, suportado em $r=0$, e a
+conclusão do Teorema A em $r>0$ vale. Se $\mu=\infty$, $\beta=0$ e o próprio
+$\mathcal G$ satisfaz H3.
+
+*Interpretação, válida em geral:* a massa de $\sigma_c/(1+s)$ que escapa
+para o infinito quando $c\uparrow c_*$ vira a constante. *A forma dessa massa
+depende do suporte.*
+
+- **Corte duro com valor positivo na borda.** Abaixo de $c_*$ existe um
+  átomo superior isolado em $t_c$, com peso $w_c$. Quando $c\uparrow c_*$,
+  $t_c\to\infty$ e $w_c/(x+t_c)\to1/\mu$ (verificado para
+  $\eta=1_{[4,10]}$).
+- **Suporte ilimitado.** Não há intervalo acima do suporte, nem átomo
+  isolado. Para $\eta=e^{-s}ds$ em $[1,\infty)$, a massa que escapa é uma
+  ressonância de $\sigma_c$ embutida no contínuo, em
+  $s_0\approx c/(eZ_3)$, com largura $\propto e^{-s_0}$. Seu peso dividido
+  por $1+s_0$ vale $1{,}972$, $2{,}638$ e $2{,}710$ para
+  $c/c_*=0{,}9$, $0{,}99$ e $0{,}999$, e tende a $1/\mu=e$ (CHECKED;
+  `.agent/reports/R5.md`).
+
+A prova acima não usa nenhuma das duas imagens.
+
+É o fenômeno da observação de Schilling–Song–Vondraček, 2.ª ed. (2012),
+p. 18: em geral as constantes $b_n$ não convergem a $b$. O Teorema 2.2(iii)
+do mesmo livro, lido com prova nas pp. 16–17 da prévia da editora, dá o
+fechamento da classe por limites pontuais. A prova acima não depende dele.
+
+*Verificação (CHECKED).* Para $\eta=1_{[4,10]}ds$, temos $c_*=1/\log(5/2)$ e
+$\mu=6$.
+
+- $W_*(-t)=c_*\log\frac{t-10}{t-4}<0$ para todo $t>10$, então não há átomo
+  superior.
+- A diferença $G_*-c_*/x-1/6$ coincide com $\int\sigma(ds)/(x+s)$, onde
+  $\sigma(s)=1/\bigl(s[\log^2\frac{10-s}{s-4}+\pi^2]\bigr)$, a $10^{-30}$ em
+  $x=0{,}01$, $1$, $10$ e $1000$.
+- Abaixo de $c_*$, $w_c/t_c=0{,}16631$ para $1-c/c_*=10^{-3}$ e $0{,}1666663$
+  para $10^{-6}$.
+
+Teste: `tests/test_rpa_general_support.py`,
+`test_critical_limit_moves_the_upper_atom_into_the_constant`.
+
 **(c) $Z_3<0$.** Prop. 1 e 2 dão polo simples em $x_*\in(0,\infty)$ com resíduo
 negativo. Uma função de Stieltjes é analítica em $\mathbb{C}\setminus(-\infty,0]$;
 um polo em $Q^2=x_*>0$ é incompatível. **H3 falha**, e falha já na classe geral.
@@ -164,7 +313,7 @@ um polo em $Q^2=x_*>0$ é incompatível. **H3 falha**, e falha já na classe ger
 | Regime | Polo | Classe geral | H3 (sem constante) |
 |---|---|---|---|
 | $Z_3>0$ | não | sim | **vale** |
-| $Z_3=0$ | não | sim (constante $1/\mu$) | **falha** se $\mu<\infty$ |
+| $Z_3=0$ | não | sim, com constante $1/\mu$ (Prop. 3b) | **falha** se $\mu<\infty$; vale para $\mathcal G-1/\mu$ |
 | $Z_3<0$ | sim, resíduo $<0$ | não | **falha** |
 
 ## 7-bis. O espectro discreto acima do corte (correção de 29/09)
@@ -182,34 +331,65 @@ e $\operatorname{Res}_{x=-14}\mathcal{G}=10/21>0$: um **átomo em $s=14$**, acim
 do corte $10$. Não é fantasma spacelike e **não refuta a positividade**.
 Refuta a afirmação sobre o suporte.
 
-**Proposição 4 (espectro discreto, caso geral com corte rígido).** *Sob
+**Proposição 4 (critério de borda, caso geral com corte rígido).** *Sob
 (P), (I), (N), (G), (D), na região real $t>\Lambda^2$ — que o corte rígido
 deixa fora do corte — vale*
 $$W(-t)=Z_3-g_R^2\!\int_{4m^2}^{\Lambda^2}\!\frac{\rho_J(s)\,ds}{t-s}.$$
-*Ali $W$ é (i) estritamente crescente, pois
-$\tfrac{d}{dt}W(-t)=g_R^2\int\rho_J/(t-s)^2\,ds>0$ por (P),(N),(G);
-(ii) $W(-t)\to-\infty$ quando $t\to(\Lambda^2)^+$, pela divergência logarítmica
-do integrando na borda; (iii) $W(-t)\to Z_3$ quando $t\to\infty$.*
-
-*Logo existe **exatamente um** zero $s_a\in(\Lambda^2,\infty)$ **se e somente
-se** $Z_3>0$, e nenhum se $Z_3\le0$. O peso do átomo é*
+*Ali $W(-t)$ é estritamente crescente, pois
+$\tfrac{d}{dt}W(-t)=g_R^2\int\rho_J/(t-s)^2\,ds>0$ por (P),(N),(G).
+Defina $A_b:=\int_{4m^2}^{b}\rho_J(s)/(b-s)\,ds\in(0,\infty]$,
+$b=\Lambda^2$. Por convergência monótona e dominação, respectivamente,*
+$$\lim_{t\downarrow b}W(-t)=Z_3-g_R^2 A_b,
+\qquad\lim_{t\to\infty}W(-t)=Z_3.$$
+*Existe exatamente um zero em $(b,\infty)$ se e somente se
+$Z_3>0$ e $Z_3-g_R^2 A_b<0$. Caso contrário não existe zero nesse intervalo
+aberto. Em particular, a condição adicional $A_b=\infty$ recupera a
+equivalência «um átomo acima do corte se e somente se $Z_3>0$».
+Ela vale se $\rho_J$ tem limite positivo à esquerda em $b$, como a densidade
+de Dirac com corte rígido $b>4m^2$. O peso de qualquer zero acima do corte é*
 $$w=\operatorname{Res}_{Q^2=-s_a}\mathcal{G}
 =\frac{g_R^2}{(-s_a)\,W'(-s_a)}\;>\;0,$$
 *pois $W'(Q^2)=-\,dW(-t)/dt<0$. O átomo tem peso positivo e $s_a>0$: **a
 representação continua positiva de Stieltjes**.* $\blacksquare$
 
-*Demonstração:* (i)–(iii) são as contas acima; existência e unicidade seguem do
-teorema do valor intermediário mais monotonicidade estrita, como na Prop. 1.
+*Demonstração:* os limites e a monotonicidade são as contas acima; existência
+e unicidade seguem do teorema do valor intermediário mais monotonicidade
+estrita. Se um limite for zero, a monotonicidade estrita mantém o sinal
+correspondente em todo o intervalo aberto. Um possível átomo exatamente na
+borda quando $Z_3=g_R^2 A_b$ exige análise própria, e não está classificado
+por este enunciado sobre $(b,\infty)$.
 O sinal do resíduo repete a Prop. 2 com $W'<0$ e $-s_a<0$. $\blacksquare$
 
-**Abaixo do limiar não há zero.** Para $0<t<4m^2$ tem-se $s-t>0$ em todo o
-suporte, logo $W(-t)=Z_3+g_R^2\int\rho_J/(s-t)\,ds>0$ quando $Z_3\ge0$;
-verificado também para $Z_3<0$ nos casos testados. A auditoria dos zeros de $W$
-fora do corte é portanto **completa**: região $(0,4m^2)$ sem zero, região
-$(\Lambda^2,\infty)$ com exatamente um zero sse $Z_3>0$, e o eixo spacelike
-$Q^2>0$ tratado pela Prop. 1.
+**Contraexemplo exato à generalidade anterior.** Tome
+$\rho_J(s)=(10-s)\mathbf1_{[4,10]}(s)$ e $g_R^2=1/100$.
+Então $\overline\Pi(\infty)=10\log(5/2)-6$, $A_{10}=6$ e
+$$Z_3=1-\frac{10\log(5/2)-6}{100}>0,
+\qquad\lim_{t\downarrow10}W(-t)=1-\frac{\log(5/2)}{10}>0.$$
+A positividade segue, por exemplo, de $0<\log(5/2)<3/2$.
+Logo não existe átomo acima de $10$, apesar de $Z_3>0$. O fato de haver
+corte rígido não força divergência na borda quando a densidade ali se anula.
 
-**A representação completa é, então:**
+**Lacunas internas: um segundo contraexemplo exato.** Tome
+$\rho_J=\mathbf1_{[4,5]}+\mathbf1_{[9,10]}$ e
+$g_R^2=1/\log(25/18)$. Aqui $Z_3=0$, mas na lacuna $(5,9)$,
+$$W(-7)=g_R^2\left[\log\frac23+\log\frac32\right]=0,
+\quad\int\frac{\rho_J(s)}{(7-s)^2}\,ds=\frac13,
+\quad w=\frac1{7(1/3)}=\frac37.$$
+Há portanto um átomo positivo em $s=7$ no regime crítico. Mais geralmente,
+em cada componente aberta do complemento do suporte, $W(-t)$ é
+estritamente crescente e tem no máximo um zero, com peso positivo para
+$t>0$; existência depende dos sinais dos limites da componente. O sinal de
+$Z_3$ não exclui átomos em lacunas internas. O limite crítico $1/\mu$ no
+infinito e a ausência de polo spacelike permanecem válidos.
+
+**Abaixo do limiar não há zero.** Para $0<t<4m^2$ tem-se $s-t>0$ em todo o
+suporte. Usando a subtração, para qualquer sinal de $Z_3$,
+$$W(-t)=1+g_R^2 t\int\frac{\rho_J(s)}{s(s-t)}\,ds>1.$$
+A classificação por essas três regiões é completa para a densidade concreta
+de Dirac sem lacunas. No caso genérico deve-se examinar também cada lacuna,
+as bordas e eventuais zeros da densidade no suporte.
+
+**Para a densidade concreta de Dirac e $Z_3>0$, a representação completa é:**
 $$\boxed{\;\mathcal{G}(Q^2)=\frac{g_R^2}{Q^2}
 +\int_{4m^2}^{\Lambda^2}\frac{d\sigma_{\rm cont}(s)}{Q^2+s}
 +\frac{w}{Q^2+s_a}\;}$$
@@ -258,8 +438,9 @@ ho_J>0$ estritamente** em todo o contínuo:
 ho_J$ a parte imaginária se anula e o argumento falha ali.
    Para a densidade Dirac, $
 ho_J(s)>0$ para todo $s>4m^2$, sem lacunas.
-2. **Ausência de polos na folha física.** *Demonstrada*, Prop. 6 abaixo,
-   incluindo o eixo spacelike e a dependência do sinal de $Z_3$.
+2. **Ausência de zeros não reais na folha física.** *Demonstrada*, Prop. 6
+   abaixo. Os polos reais precisam da classificação separada: no eixo
+   spacelike dependem de $Z_3$, e lacunas internas exigem análise própria.
 3. **Existência e trajetória de uma ressonância em outra folha.**
    **NÃO demonstrada.** Exigiria definir a continuação analítica e suas folhas.
 
@@ -296,8 +477,9 @@ $W(z)\neq0$ sempre que $y\neq0$. $\blacksquare$
 *(Equivalentemente: $W$ leva o semiplano superior no inferior — é
 anti-Nevanlinna —, e tais funções não têm zeros fora do eixo real.)*
 
-**Consequência: a auditoria dos zeros está completa.** Todos os zeros de $W$ são
-reais, e o eixo real se parte em quatro regiões, todas tratadas:
+**Consequência para a densidade concreta de Dirac.** Todos os zeros de $W$
+são reais. A seguinte lista usa ainda positividade estrita no interior do
+suporte e o limite positivo na borda superior:
 
 | Região | Resultado | Onde |
 |---|---|---|
@@ -306,7 +488,9 @@ reais, e o eixo real se parte em quatro regiões, todas tratadas:
 | $Q^2\in[-\Lambda^2,-4m^2]$ (corte) | $\operatorname{Im}W\neq0$ onde $\rho_J>0$ | Prop. 6 + estrita positividade |
 | $Q^2<-\Lambda^2$ | zero sse $Z_3>0$, único, peso $>0$ | Prop. 4 |
 
-Nenhuma outra contribuição espectral pode existir na folha física.
+No caso genérico, a Prop. 6 exclui apenas zeros não reais: não exclui átomos
+em lacunas nem contribuições em bordas ou zeros da densidade. A completude
+da representação acima é restrita à densidade concreta de Dirac.
 
 ## 7-quater. Quadro de regimes, regras de soma e protocolo do regulador
 
@@ -318,8 +502,10 @@ Nenhuma outra contribuição espectral pode existir na folha física.
 | $Z_3=0$ | idem | idem | nenhum | nenhum | $1/\mu$, $>0$ se $\mu<\infty$ | **recusam**: a constante não está implementada |
 | $Z_3<0$ | idem | idem | nenhum (Prop. 4) | **um**, resíduo $<0$ (Prop. 2) | — | **recusam**: não é representação de Stieltjes |
 
-Hipóteses em todos: (P), (I), (N), (G), (D) da §2. A completude da lista é a
-Prop. 6 mais a tabela de regiões: não há mais nada na folha física.
+Hipóteses desta tabela: (P), (I), (N), (G), (D) da §2 **e a densidade concreta
+de Dirac com corte rígido**, sem lacunas internas e com limite positivo na
+borda superior. Não é uma tabela de contagem de átomos para densidades
+positivas arbitrárias; os dois contraexemplos da §7-bis refutam essa extensão.
 `reconstruct()` levanta `ValueError` fora do subcrítico em vez de devolver um
 número que passaria por reconstrução.
 
@@ -499,7 +685,7 @@ threshold* (leitura dirigida do texto completo em HTML).
 | O polo | discreto, na **primeira folha** (física) | discreto, no eixo real acima do corte |
 | Origem | **não existe na teoria nua**; aparece para $g>g^*$ | não existe em $\rho_J$; aparece para $Z_3>0$ |
 | Suporte | densidade de entrada anula-se abaixo de $2m$; o polo fica **fora** dela | $\rho_J$ vive em $[4m^2,\Lambda^2]$; o átomo fica **fora**, em $s_a>\Lambda^2$ |
-| Resíduo | **positivo**, $Z=[1+2g^2\partial\Sigma/\partial x^2]^{-1}$ | **positivo**, $w=g_R^2/(s_aW'(-s_a))$ |
+| Resíduo | **positivo**, $Z=[1+2g^2\partial\Sigma/\partial x^2]^{-1}$ | **positivo**, $w=g_R^2/[(-s_a)W'(-s_a)]$ |
 | Fecho | regra de soma $Z+\int d_{\rm a.t.}=1$ restaura a normalização | regra de soma (1), $g_R^2+\int d\sigma+\sum w_a=g_R^2/Z_3$ |
 
 **Conclusão de atribuição.** *Ressoma gerar um átomo discreto fora do suporte

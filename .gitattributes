@@ -1,0 +1,4 @@
+# Frozen study editions bind exact bytes, including original line endings.
+# Normalizing an archived source would invalidate its recorded SHA-256.
+study/releases/** -text
+study/assets/** -text

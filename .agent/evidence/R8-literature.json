@@ -1,0 +1,52 @@
+{
+ "task": "R8 the O(alpha^5) term of the leading three-photon coefficient: sources read",
+ "date": "2026-10-24",
+ "reader": "Claude (automated agent)",
+ "handling": "Downloaded from arxiv.org into separate empty directories; TeX read in memory from the e-print archive by a script kept outside them (python -I); nothing extracted or executed.",
+ "sources": [
+  {
+   "key": "dunne_2004",
+   "arxiv": "hep-th/0406216",
+   "files": {
+    "tmp\\claude_resume_2026-10-24\\literature\\hep-th_0406216\\pdf\\paper.pdf": "39346f65275c30862df303859dd7091b79ccd228433cebe05539dfb2fa357a22",
+    "tmp\\claude_resume_2026-10-24\\literature\\hep-th_0406216\\src\\eprint.bin": "f009ceef93577f1c36c12247452315ac1b4e07632b7e0bb89cc99c1d95b70741"
+   },
+   "read": "eqs. (1.9), (4.11), (4.15), (6.2)-(6.6)",
+   "depth": "EQUATION_LEVEL_READ",
+   "used_for": "one-loop normalization (1.9); Ritus's two-loop weak-field coefficients (4.11): 40/9 and 1315/252 relative to one loop; magnetic expansion (4.15) gives 40/9 independently; self-dual closed forms (6.2), (6.6) give 25/4 for 4c1 - c2, which fixes 1315/252 given 40/9"
+  },
+  {
+   "key": "ravndal_1997",
+   "arxiv": "hep-ph/9708449",
+   "files": {
+    "tmp\\claude_resume_2026-10-24\\literature\\hep-ph_9708449\\pdf\\paper.pdf": "d90f34e03942b033a5d40c541edf1b1ce5dcdb6b83ab2d929f893e3e8ea62787",
+    "tmp\\claude_resume_2026-10-24\\literature\\hep-ph_9708449\\src\\eprint.bin": "1ddd6575c45d09d8170d2c13b9c2bcf89559c34fbaad83544cbf6eb36da4b3f5"
+   },
+   "read": "Section 3, the display after Fig. 3",
+   "depth": "EQUATION_LEVEL_READ (targeted)",
+   "used_for": "states (FF)^2 -> (1 + 40 alpha/9 pi)(FF)^2 and (FF~)^2 -> (1 + 1315 alpha/252 pi)(FF~)^2, from Ritus, confirmed by Reuter-Schmidt-Schubert; gives no cross-section factor"
+  },
+  {
+   "key": "reuter_schmidt_schubert_1997",
+   "arxiv": "hep-th/9610191",
+   "files": {
+    "tmp\\claude_resume_2026-10-24\\literature\\hep-th_9610191\\pdf\\paper.pdf": "265bae58710214df15e00f8a6aefcb7e4599a413aad4d08456d896be2e50a0e4",
+    "tmp\\claude_resume_2026-10-24\\literature\\hep-th_9610191\\src\\eprint.bin": "abd505938e4acc639360f9e7636058c63635a2338cfea693ac8142cdab5cd69c"
+   },
+   "read": "searched for the weak-field coefficients",
+   "depth": "TARGETED_SEARCH",
+   "used_for": "gives the two-loop magnetic-field integral representation (eqs. Gammascalrenorm, Gammaspinrenorm in the TeX), not the quartic coefficients; not used for numbers"
+  }
+ ],
+ "re_read": [
+  {
+   "key": "dicus_kao_repko_1998",
+   "arxiv": "hep-ph/9709415",
+   "file": "tmp\\claude_e4_control_2026-10-23\\literature\\dicus_kao_repko_hep-ph_9709415.pdf",
+   "sha256": "d49ae05e3d9c47afbff20c3df9da55712c2fb879c4fa3ae9077297818ada1af0",
+   "read": "note [10]; Eqs. (1), (10), (12)",
+   "finding": "their two-loop factor 186685/17514 for the unpolarized cross section equals 2 d2 - (40/139)(d1 - d2); the weights computed here give 2 d2 + (40/139)(d1 - d2) = 25555/2502 (note E4, Section 11.3)"
+  }
+ ],
+ "not_read": "Ritus's original papers (Sov. Phys. JETP 1975; Proc. Lebedev Inst. 168) are not available; the coefficients rest on the quotations above and the self-dual check."
+}

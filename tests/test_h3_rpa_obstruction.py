@@ -354,3 +354,17 @@ def test_uniform_counterexample_exact():
     h = 1e-6
     dW_dQ2 = -(W(14.0 + h) - W(14.0 - h)) / (2 * h)
     assert g2 / ((-14.0) * dW_dQ2) == pytest.approx(10.0 / 21.0, rel=1e-8)
+
+
+def test_ghost_analysis_self_checks_still_hold():
+    """run_tests (T1-T6) had no caller outside __main__ and drifted once (78b637c); it runs here now.
+
+    It sets mpmath's global precision to 30 digits (ghost_analysis.py:743), so the
+    precision is restored for the tests that follow."""
+    import mpmath
+    saved = mpmath.mp.prec
+    try:
+        result = ga.run_tests(verbose=False)
+    finally:
+        mpmath.mp.prec = saved
+    assert result["g2c"] > 0 and len(result["roots"]) == 4

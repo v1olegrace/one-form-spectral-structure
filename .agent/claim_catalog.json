@@ -1,0 +1,1749 @@
+{
+  "claims": [
+    {
+      "claim_id": "H1",
+      "text": "The unitary QFT setting is an explicit applicability premise, not a proof of H3.",
+      "source": "paper/paper.tex",
+      "anchor": "\\label{hyp:qft}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Positivity alone does not verify applicability."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "hypothesis",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "H2",
+      "text": "A Coulomb phase and positive spectral gap are separate physical inputs.",
+      "source": "paper/paper.tex",
+      "anchor": "\\label{hyp:gap}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Positivity alone does not verify applicability."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "hypothesis",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "H3",
+      "text": "The contact-free positive static Stieltjes representation is assumed outside the proved model scope.",
+      "source": "paper/paper.tex",
+      "anchor": "\\label{hyp:stieltjes}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Positivity alone does not verify applicability."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "hypothesis",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "H4",
+      "text": "The stated spectral growth/integrability is an explicit regularity premise.",
+      "source": "paper/paper.tex",
+      "anchor": "\\label{hyp:growth}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Positivity alone does not verify applicability."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "hypothesis",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "H5",
+      "text": "The source-to-potential response is restricted to the linear coefficient in probe charge.",
+      "source": "paper/paper.tex",
+      "anchor": "\\label{hyp:probe}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Positivity alone does not verify applicability."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "hypothesis",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "DEF-PROFILE",
+      "text": "The breaking profile is defined with an explicit minus sign; orientation changes cannot explain a sign discrepancy.",
+      "source": "paper/paper.tex",
+      "anchor": "\\begin{definition}[Breaking profile]",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED",
+      "proof_location": "paper/paper.tex definition and sign discussion",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "q_infinity=0 makes the normalized profile undefined."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "definition",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "A",
+      "text": "The weighted pushforward gives a positive Laplace representation including atoms.",
+      "source": "paper/paper.tex",
+      "anchor": "\\label{thm:A}",
+      "depends_on": {
+        "hypotheses": [
+          "H1",
+          "H2",
+          "H3",
+          "H4",
+          "H5"
+        ],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "paper/paper.tex proof of Theorem A",
+      "code_location": [
+        "reproducibility/laplace_geometry.py"
+      ],
+      "tests": [
+        "tests/test_measure_and_hierarchy.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "No unconditional H3 conclusion.",
+        "No density substitution for atoms."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": "C1",
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "A-EXACT-SCOPE",
+      "text": "Exactness is within the hypotheses and linear-response coefficient, not full nonperturbative QED.",
+      "source": "paper/paper.tex",
+      "anchor": "\\begin{remark}",
+      "depends_on": {
+        "hypotheses": [
+          "H1",
+          "H2",
+          "H3",
+          "H4",
+          "H5"
+        ],
+        "lemmas": [
+          "A"
+        ],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "paper/paper.tex remark after Theorem A",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "C",
+      "text": "The effective mass is a decreasing upper bound and converges to the effective support infimum.",
+      "source": "paper/paper.tex",
+      "anchor": "\\label{thm:C}",
+      "depends_on": {
+        "hypotheses": [
+          "H3",
+          "H4"
+        ],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CLASSICAL",
+      "proof_location": "paper/appendix.tex proof of C",
+      "code_location": [
+        "reproducibility/laplace_geometry.py"
+      ],
+      "tests": [
+        "tests/test_measure_and_hierarchy.py"
+      ],
+      "literature_precedent": [
+        {
+          "key": "luscher_wolff_1990",
+          "relation": "SAME_MATHEMATICS_DIFFERENT_OBSERVABLE",
+          "reading_depth": "ABSTRACT_READ",
+          "evidence": "Primary proof-level source reading remains a documented obligation."
+        }
+      ],
+      "novelty_status": "CLASSICAL",
+      "known_failure_modes": [
+        "A declared support lower bound need not equal the coupled edge."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": "C3",
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "E",
+      "text": "The local Hankel pencil gives decreasing upper bounds; edge convergence needs polynomial density and correct rank.",
+      "source": "paper/paper.tex",
+      "anchor": "\\label{thm:E}",
+      "depends_on": {
+        "hypotheses": [
+          "H3",
+          "H4"
+        ],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "paper/appendix.tex proof of E",
+      "code_location": [
+        "reproducibility/moment_conditions.py",
+        "reproducibility/laplace_geometry.py"
+      ],
+      "tests": [
+        "tests/test_bound_guards.py",
+        "tests/test_measure_and_hierarchy.py"
+      ],
+      "literature_precedent": [
+        {
+          "key": "luscher_wolff_1990",
+          "relation": "SAME_MATHEMATICS_DIFFERENT_OBSERVABLE",
+          "reading_depth": "ABSTRACT_READ",
+          "evidence": "Primary proof-level source reading remains a documented obligation."
+        }
+      ],
+      "novelty_status": "CLASSICAL",
+      "known_failure_modes": [
+        "Rank loss is not a new bound.",
+        "Finite compatibility does not establish H3."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Status aligned with the audit ledger on 2026-10-24 (R11): the appendix gives a self-contained proof under H0 positive definite and an exponential moment, so PROVED_CONDITIONALLY; the result is classical (GEVP, Pade-Stieltjes), recorded in novelty_status.",
+      "readme_claim_id": "C4",
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "H",
+      "text": "No strictly positive uniform lower edge bound follows from finite-precision finite-window data without extra weight assumptions.",
+      "source": "paper/paper.tex",
+      "anchor": "\\label{thm:H}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED",
+      "proof_location": "paper/paper.tex two-atom witness",
+      "code_location": [
+        "reproducibility/falsification_suite.py"
+      ],
+      "tests": [
+        "tests/test_measure_and_hierarchy.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Exact data on an open interval is a different uniqueness question."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": "C7",
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "T-RECTANGLE",
+      "text": "An assumed Euclidean positive two-point representation and contact Bianchi give regulated quadratic rectangle transport with ordered limits.",
+      "source": "paper/appendix.tex",
+      "anchor": "\\label{prop:transport}",
+      "depends_on": {
+        "hypotheses": [
+          "EUCLIDEAN-SFF",
+          "BIANCHI-T",
+          "SPECTRAL-I",
+          "QUADRATIC-PROBE"
+        ],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "notes/E2c_transport_linear_probe.md rectangle proof; source-limit refinement recorded separately",
+      "code_location": [
+        "reproducibility/transport_linear_probe.py"
+      ],
+      "tests": [
+        "tests/test_e2c_transport.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Not a derivation from the full Wightman axioms.",
+        "No positive gap implied."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": "C10",
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "SCOPE-PRIOR",
+      "text": "The analytic machinery is classical; a specific assembly for this observable is the candidate contribution.",
+      "source": "paper/paper.tex",
+      "anchor": "\\paragraph{What is and is not claimed.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CLASSICAL",
+      "proof_location": "paper/paper.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [
+        {
+          "key": "benedetti_casini_magan_2023",
+          "relation": "IDENTICAL",
+          "reading_depth": "EQUATION_LEVEL_READ",
+          "evidence": "Kallen-Lehmann form of <FF> for closed forms."
+        },
+        {
+          "key": "masjuan_peris_2009",
+          "relation": "CHALLENGES_NOVELTY",
+          "reading_depth": "EQUATION_LEVEL_READ",
+          "evidence": "eqs. (12)-(14): negative Hankel determinant falsifies the Stieltjes property of a fixed-order term."
+        }
+      ],
+      "novelty_status": "CLASSICAL",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Reviewed by Claude, 2026-10-23 (P9).",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "STATIC-OBS",
+      "text": "The constrained observable is the heavy-source static Wilson response at quadratic probe order.",
+      "source": "paper/paper.tex",
+      "anchor": "\\paragraph{Static potential, not a ``gauge-invariant propagator''.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "paper/paper.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "EDGE",
+      "text": "Watson-type edge asymptotics require the displayed local edge expansion and tail assumptions.",
+      "source": "paper/paper.tex",
+      "anchor": "\\paragraph{Edge law.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CLASSICAL",
+      "proof_location": "paper/paper.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "CLASSICAL",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "CM-GATE",
+      "text": "Finite Hankel/localizer compatibility is necessary and can miss off-continuum H3 failures.",
+      "source": "paper/paper.tex",
+      "anchor": "\\paragraph{Complete monotonicity is not equivalent to\nHypothesis~\\ref{hyp:stieltjes}.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CHECKED_COMPATIBLE",
+      "proof_location": "paper/paper.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "CHANNEL",
+      "text": "A charged-matter threshold is not identified without channel information; massless cuts can lower the coupled edge to zero.",
+      "source": "paper/paper.tex",
+      "anchor": "\\paragraph{The first threshold need not be charged.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "paper/paper.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "depends_on": {
+        "hypotheses": [
+          "H3",
+          "H4",
+          "H5"
+        ],
+        "lemmas": [
+          "A",
+          "C",
+          "E"
+        ],
+        "numerical_results": []
+      },
+      "code_location": [
+        "reproducibility/nonlinear_probe_eh.py"
+      ],
+      "tests": [
+        "tests/test_e3_nonlinear_probe.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "UNRESOLVED (no targeted precedent search)",
+      "known_failure_modes": [
+        "Non-compact probe charge tails.",
+        "Signed sources: F >= 1 fails (unit-charge witness with F(4) = -1.2579)."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Reviewed by Claude, 2026-10-23 (R0, after the independent review of the hand-back).",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": [],
+      "claim_id": "FINITE-PROBE",
+      "text": "Outside a non-negative, compactly supported radial probe the profile is the Laplace transform of F nu with 1 <= F <= sinh(xa)/(xa); Theorems C and E hold on r > a with the same support edge. This is a sufficient condition, not a necessary one.",
+      "source": "paper/paper.tex",
+      "anchor": "\\paragraph{Finite probes.}",
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "notes/E3_nonlinear_probe_EH.md Section 11.1 (Newton's shell theorem for each Yukawa component)"
+    },
+    {
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": [
+          "gaussian_dirac_phi_lin",
+          "gaussian_dirac_phi_lin_momentum"
+        ]
+      },
+      "code_location": [
+        "reproducibility/nonlinear_probe_eh.py"
+      ],
+      "tests": [
+        "tests/test_e3_nonlinear_probe.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Quadrature without interval enclosure; two independent routes agree to 1e-9 in Gamma.",
+        "mp.quad stops on an absolute error estimate; far-tail values were wrong until the integrands were rescaled (23 October; R0 evidence)."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Reviewed by Claude, 2026-10-23 (R0, after the independent review of the hand-back).",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": [],
+      "claim_id": "FINITE-PROBE-GAUSS",
+      "text": "For a Gaussian probe of width 10/m in the one-loop Dirac model, Gamma(50/m) = 0.932 m < 2m: the threshold bound fails for this probe with a non-compact charge tail.",
+      "source": "paper/paper.tex",
+      "anchor": "Without compact support the\nrepresentation, and with it the bound, can fail.",
+      "status": "CHECKED",
+      "proof_location": "notes/E3_nonlinear_probe_EH.md Section 11.2"
+    },
+    {
+      "claim_id": "EXCLUDED",
+      "text": "Other dimensions, Higgs/confining phases and globally antiscreening responses require separate analysis.",
+      "source": "paper/paper.tex",
+      "anchor": "\\paragraph{Other excluded regimes.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "paper/paper.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "SIGNED",
+      "text": "Explicit signed measures pass weak screening or low-order checks and fail stronger positivity diagnostics.",
+      "source": "paper/paper.tex",
+      "anchor": "\\paragraph{Signed measure.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CHECKED",
+      "proof_location": "paper/paper.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "HIDDEN",
+      "text": "A tiny low-mass atom can remain invisible over the sampled range despite valid upper bounds.",
+      "source": "paper/paper.tex",
+      "anchor": "\\paragraph{Vanishing weight at the true edge.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CHECKED",
+      "proof_location": "paper/paper.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "AVAILABILITY",
+      "text": "Numerical checks, interval certificates and an archived public release are distinct evidence categories.",
+      "source": "paper/paper.tex",
+      "anchor": "\\paragraph{Data and code availability.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED",
+      "proof_location": "paper/paper.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "RPA",
+      "text": "The three Z3 regimes determine contact-free Stieltjes membership within the positive-density Dyson model; at Z3 = 0, G - 1/mu is a positive Stieltjes function with Coulomb residue g_R^2.",
+      "source": "paper/appendix.tex",
+      "anchor": "\\paragraph{The resummed bubble chain.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "paper/appendix.tex headed paragraph; notes/H3_RPA_proof_note_2026-09-29.md direct proof by positive atomic approximation and truncation (no use of the SSV duality), and Proposition 3b (critical case as a limit of subcritical couplings)",
+      "code_location": [],
+      "tests": [
+        "tests/test_h3_rpa_obstruction.py",
+        "tests/test_rpa_general_support.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Reviewed by Claude, 2026-10-23 (R0, after the independent review of the hand-back).",
+      "readme_claim_id": "C9",
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "SFF-ASSUMPTION",
+      "text": "The Euclidean positive representation is an explicit premise with unverified general axiomatic derivation.",
+      "source": "paper/appendix.tex",
+      "anchor": "\\paragraph{From the field strength to the static kernel.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "paper/appendix.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [
+        {
+          "key": "benedetti_casini_magan_2023",
+          "relation": "IDENTICAL",
+          "reading_depth": "EQUATION_LEVEL_READ",
+          "evidence": "JHEP06(2023)095 section 3: (3.6), (3.10), (3.17)-(3.20), (3.24)-(3.25); Kallen-Lehmann form of a closed two-form and exclusion of the light-cone term by spatial commutativity."
+        }
+      ],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Reviewed by Claude, 2026-10-23 (P9). Tensor form credited to BCM; measure-theoretic lemmas and continuation remain unread.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "SIGN-INV",
+      "text": "Changing the polarization denominator sign changes the leading spectral correction to negative.",
+      "source": "paper/appendix.tex",
+      "anchor": "\\paragraph{Check 1 (inverse kernel).}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED",
+      "proof_location": "paper/appendix.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "SIGN-UEHLING",
+      "text": "The chosen one-loop normalization reproduces the Uehling coefficient.",
+      "source": "paper/appendix.tex",
+      "anchor": "\\paragraph{Check 2 (Uehling).}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED",
+      "proof_location": "paper/appendix.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "SIGN-SCREEN",
+      "text": "The selected sign gives increasing ultraviolet effective coupling; the flipped sign gives antiscreening.",
+      "source": "paper/appendix.tex",
+      "anchor": "\\paragraph{Check 3 (screening).}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED",
+      "proof_location": "paper/appendix.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "CAP",
+      "text": "The one-loop Dirac coefficient is bounded by g?q?/(6pi?); this is not a full-QED ultraviolet bound.",
+      "source": "paper/appendix.tex",
+      "anchor": "\\paragraph{One-species cap.}\\label{app:cap}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED",
+      "proof_location": "paper/appendix.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "PROOF-C",
+      "text": "The exponential tilt gives the variance identity and support-edge limit.",
+      "source": "paper/appendix.tex",
+      "anchor": "\\paragraph{Theorem~\\ref{thm:C}.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CLASSICAL",
+      "proof_location": "paper/appendix.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [
+        {
+          "key": "luscher_wolff_1990",
+          "relation": "SAME_MATHEMATICS_DIFFERENT_OBSERVABLE",
+          "reading_depth": "ABSTRACT_READ",
+          "evidence": "Primary proof-level source reading remains a documented obligation."
+        }
+      ],
+      "novelty_status": "CLASSICAL",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "PROOF-E-BOUND",
+      "text": "Rayleigh-Ritz and inclusion of polynomial subspaces prove bound and monotonicity.",
+      "source": "paper/appendix.tex",
+      "anchor": "\\paragraph{Theorem~\\ref{thm:E}, bound and monotonicity.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CLASSICAL",
+      "proof_location": "paper/appendix.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [
+        {
+          "key": "luscher_wolff_1990",
+          "relation": "SAME_MATHEMATICS_DIFFERENT_OBSERVABLE",
+          "reading_depth": "ABSTRACT_READ",
+          "evidence": "Primary proof-level source reading remains a documented obligation."
+        }
+      ],
+      "novelty_status": "CLASSICAL",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "PROOF-E-CONV",
+      "text": "Polynomial density with an exponential moment proves edge convergence; Carleman alone is insufficient.",
+      "source": "paper/appendix.tex",
+      "anchor": "\\paragraph{Theorem~\\ref{thm:E}, convergence.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CLASSICAL",
+      "proof_location": "paper/appendix.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [
+        {
+          "key": "luscher_wolff_1990",
+          "relation": "SAME_MATHEMATICS_DIFFERENT_OBSERVABLE",
+          "reading_depth": "ABSTRACT_READ",
+          "evidence": "Primary proof-level source reading remains a documented obligation."
+        }
+      ],
+      "novelty_status": "CLASSICAL",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "EDGE-PROOF",
+      "text": "Watson-type edge asymptotics require the displayed local edge expansion and tail assumptions.",
+      "source": "paper/appendix.tex",
+      "anchor": "\\paragraph{Edge law.}",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CLASSICAL",
+      "proof_location": "paper/appendix.tex headed paragraph",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "CLASSICAL",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "RPA-ATOM",
+      "text": "The unique above-cutoff positive atom requires a nonvanishing upper edge and contiguous positive input support in the Dirac package.",
+      "source": "paper/appendix.tex",
+      "anchor": "Second, if $\\rho_J$ is cut off sharply",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [
+          "RPA"
+        ],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "notes/H3_RPA_proof_note_2026-09-29.md corrected endpoint criterion",
+      "code_location": [
+        "reports/h3_ghost_2026-09-29/ghost_analysis.py"
+      ],
+      "tests": [
+        "tests/test_rpa_general_support.py"
+      ],
+      "literature_precedent": [
+        {
+          "key": "giacosa_wolkanowski_2012",
+          "relation": "ANALOGOUS",
+          "reading_depth": "EQUATION_LEVEL_READ",
+          "evidence": "arXiv1209.2332 eqs7-8; pole/residue/spectral normalization, different observable."
+        }
+      ],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Endpoint-vanishing density may have no upper atom.",
+        "Internal gaps can host additional atoms."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "RPA-CRITICAL",
+      "text": "At exact Z3=0, finite total input mass produces an additive constant; absence of ghost does not suffice for contact-free H3.",
+      "source": "paper/appendix.tex",
+      "anchor": "If $Z_3=0$ there is no such pole",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [
+          "RPA"
+        ],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "paper/appendix.tex critical asymptotic",
+      "code_location": [],
+      "tests": [
+        "tests/test_h3_boundary.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "RPA-CONTINUUM",
+      "text": "The continuum density remains nonnegative at supercritical coupling and cannot detect the spacelike pole.",
+      "source": "paper/appendix.tex",
+      "anchor": "The continuum spectral density",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [
+          "RPA"
+        ],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "paper/appendix.tex modulus-squared discontinuity formula",
+      "code_location": [],
+      "tests": [
+        "tests/test_h3_rpa_obstruction.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "T-LINE",
+      "text": "The static-line field is defined as the ordered limit (T, then R, then delta) of smooth compact conserved currents with a non-negative mollifier; it equals -q_W grad a3 on r>0, independent of return direction and mollifier.",
+      "source": "paper/appendix.tex",
+      "anchor": "For the\nline, take a charge smeared by a non-negative, compactly supported radial\nmollifier",
+      "depends_on": {
+        "hypotheses": [
+          "EUCLIDEAN-SFF",
+          "BIANCHI-T",
+          "SPECTRAL-I",
+          "QUADRATIC-PROBE"
+        ],
+        "lemmas": [
+          "T-RECTANGLE"
+        ],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "notes/E2c_transport_linear_probe.md Section 12",
+      "code_location": [
+        "reproducibility/transport_linear_probe.py"
+      ],
+      "tests": [
+        "tests/test_e2c_transport.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "A quantum Wilson-line operator is not constructed."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Reviewed by Claude, 2026-10-23 (R0, after the independent review of the hand-back).",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Reviewed by Claude, 2026-10-23 (P9).",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": [],
+      "claim_id": "T-LINE-SHARP",
+      "text": "Equality of the conserved-current field with every sharp half-plane extension, i.e. a meaning for delta(p0)/(p1-i0) for general mu, is not established.",
+      "source": "paper/appendix.tex",
+      "anchor": "We do not claim\nthat every sharp half-plane extension gives the same field.",
+      "status": "OPEN",
+      "proof_location": ""
+    },
+    {
+      "claim_id": "T-GAP",
+      "text": "Euclidean positivity and a Coulomb atom do not establish a positive gap.",
+      "source": "paper/appendix.tex",
+      "anchor": "That\nthis lower limit is positive",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED",
+      "proof_location": "mu=delta0+1_(0,1)ds counterexample in tensor/transport audit",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "CERT-ONELOOP",
+      "text": "One-loop Arb integrals, analytic tails and exact rational inequalities certify only the declared benchmark.",
+      "source": "paper/paper.tex",
+      "anchor": "A separate optional benchmark uses",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CERTIFIED",
+      "proof_location": "",
+      "code_location": [
+        "reproducibility/one_loop_certified.py",
+        "reproducibility/spectral_weight_certificates.py"
+      ],
+      "tests": [
+        "tests/test_one_loop_certified.py",
+        "tests/test_spectral_weight_certificates.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Does not certify interacting remainder or H3."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "NUM-HEADLINES",
+      "text": "The displayed continuum, hidden-edge and conditioning numbers are numerical checks without rigorous enclosures.",
+      "source": "paper/paper.tex",
+      "anchor": "The moment calculations below use",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CHECKED",
+      "proof_location": "",
+      "code_location": [
+        "reproducibility/falsification_suite.py",
+        "reproducibility/figure_data.py"
+      ],
+      "tests": [
+        "tests/test_paper_build.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "WGC-NOGO",
+      "text": "Normalization-invariant shape bounds cannot determine the coupling-to-mass gravitational ratio from positivity alone.",
+      "source": "paper/paper.tex",
+      "anchor": "The estimator and every hierarchy bound are invariant",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED",
+      "proof_location": "paper/paper.tex positive measure scaling argument",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": "C8",
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "WGC-CONDITIONAL",
+      "text": "The displayed species-bound implication is conditional on the stated one-loop cap and fixed nonhomogeneous gravitational/error inputs.",
+      "source": "paper/paper.tex",
+      "anchor": "For a precise conditional implication",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [
+          "CAP"
+        ],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "paper/paper.tex inequality chain",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Input calibration after seeing the spectrum is circular.",
+        "Uncontrolled perturbative remainder invalidates applicability."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Linked to README C8 on 2026-10-24 (R11): C8 states the no-go (WGC-NOGO, PROVED) and this conditional implication.",
+      "readme_claim_id": "C8",
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "ABS-OBS",
+      "text": "The observable was introduced and calculated in prior generalized-symmetry work.",
+      "source": "paper/paper.tex",
+      "anchor": "The electric one-form symmetry of Maxwell theory is broken by charged matter,",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "SUPPORTED_BY_LITERATURE",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "abstract"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "ABS-LAPLACE",
+      "text": "The positive Laplace representation is conditional on H3.",
+      "source": "paper/paper.tex",
+      "anchor": "We observe that, \\emph{conditional on a positive",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "abstract"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "ABS-CHARGED",
+      "text": "Charged-channel identification needs additional information.",
+      "source": "paper/paper.tex",
+      "anchor": "Identifying it with a charged-matter threshold requires additional",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "abstract"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "ABS-NONPERT",
+      "text": "No proof of H3 in full QED or nonperturbatively is supplied.",
+      "source": "paper/paper.tex",
+      "anchor": "we do \\emph{not} prove that the hypothesis holds nonperturbatively",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "abstract"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "ABS-GAP",
+      "text": "Massless cuts obstruct the assumed positive gap without by themselves disproving positivity.",
+      "source": "paper/paper.tex",
+      "anchor": "massless multi-photon cuts obstruct the positive-gap",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "SUPPORTED_BY_LITERATURE",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "abstract"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "ABS-TOOLS",
+      "text": "Effective-mass/GEVP/Pad? mathematics is classical.",
+      "source": "paper/paper.tex",
+      "anchor": "standard inverse-spectral technology applies",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "CLASSICAL",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [
+        {
+          "key": "luscher_wolff_1990",
+          "relation": "SAME_MATHEMATICS_DIFFERENT_OBSERVABLE",
+          "reading_depth": "ABSTRACT_READ",
+          "evidence": "Primary proof-level source reading remains a documented obligation."
+        }
+      ],
+      "novelty_status": "CLASSICAL",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "abstract"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "ABS-NOGO",
+      "text": "The finite-window impossibility and normalization obstruction delimit the proposed application.",
+      "source": "paper/paper.tex",
+      "anchor": "a no-go showing that no uniform lower bound",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "abstract"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "DISC-ASSEMBLY",
+      "text": "The candidate contribution is an application to a generalized-symmetry observable under a spectral hypothesis.",
+      "source": "paper/paper.tex",
+      "anchor": "The analytic ingredients used here are classical",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "discussion"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "DISC-FALSIFY",
+      "text": "A resolved monotonicity violation falsifies the conjunction of premises; H3 alone is isolated only if other premises are independently established.",
+      "source": "paper/paper.tex",
+      "anchor": "A violation of complete",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "discussion"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "DISC-AXIOMS",
+      "text": "Deriving the Euclidean representation from Wightman axioms remains an explicit open step.",
+      "source": "paper/paper.tex",
+      "anchor": "The open questions are physical rather than mathematical",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "discussion"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "DISC-EH",
+      "text": "The local EH calculation is source-model dependent; for the non-negative compact probes computed (uniform ball, C1 polynomial profile) the matched first-order exterior profile changes sign at a radius set by the 2m threshold (CHECKED), and the first-order energy has a two-sided remainder bound for arbitrary sources (PROVED, local theory); it does not settle a general four-field cumulant or point-probe matching.",
+      "source": "paper/paper.tex",
+      "anchor": "A separate Euler--Heisenberg calculation",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "PROVED_CONDITIONALLY",
+      "proof_location": "notes/E3_nonlinear_probe_EH.md Sections 10-11",
+      "code_location": [],
+      "tests": [
+        "tests/test_e3_nonlinear_probe.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Reviewed by Claude, 2026-10-23 (R0, after the independent review of the hand-back).",
+      "readme_claim_id": null,
+      "surfaces": [
+        "discussion"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "DISC-CHANNEL",
+      "text": "A positive charged-channel label and controlled gravitational tails remain open.",
+      "source": "paper/paper.tex",
+      "anchor": "constructing a positive label separating charged channels",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "discussion"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "DISC-RP",
+      "text": "Higher radial-profile derivatives from reflection positivity alone remain open.",
+      "source": "paper/paper.tex",
+      "anchor": "Whether\nreflection positivity alone constrains higher derivatives",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [],
+        "numerical_results": []
+      },
+      "status": "OPEN",
+      "proof_location": "",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": null,
+      "surfaces": [
+        "discussion"
+      ],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "CM-LAPLACE",
+      "text": "A positive Laplace transform is completely monotone under the stated finiteness hypotheses.",
+      "source": "paper/paper.tex",
+      "anchor": "\\paragraph{Complete monotonicity is not equivalent to",
+      "depends_on": {
+        "hypotheses": [
+          "H3",
+          "H4"
+        ],
+        "lemmas": [
+          "A"
+        ],
+        "numerical_results": []
+      },
+      "status": "CLASSICAL",
+      "proof_location": "Bernstein-Widder and direct differentiation under H4",
+      "code_location": [],
+      "tests": [],
+      "literature_precedent": [],
+      "novelty_status": "CLASSICAL",
+      "known_failure_modes": [
+        "The converse does not identify an entire static kernel without other premises."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Preserve the stated scope; evidence changes status only after review.",
+      "readme_claim_id": "C2",
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "QED-3GAMMA-WINDOW",
+      "text": "In QED the three-photon cut adds d nu = (17/11664000)(alpha/pi)^4 s^4/m^8 ds for s << m^2, by two independent routes, with nu the 1PI density at the order kept; Phi_3gamma ~ (238/225)(alpha/pi)^4/(m^8 r^10) is a large-r asymptotic statement.",
+      "source": "paper/paper.tex",
+      "anchor": "The three-photon cut enters at $O(\\alpha^{4})$",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [
+          "C"
+        ],
+        "numerical_results": [
+          "route_a_coefficient",
+          "route_b_coefficient",
+          "window"
+        ]
+      },
+      "status": "CHECKED",
+      "proof_location": "notes/E4_three_photon_window.md Sections 3-8",
+      "code_location": [
+        "reproducibility/three_photon_window.py"
+      ],
+      "tests": [
+        "tests/test_three_photon_window.py"
+      ],
+      "literature_precedent": [
+        "groote_pivovarov_2001 (QCD analogue and the s^4 law)",
+        "beneke_ruizfemenia_2016 (onset of the s = 0 cut at O(alpha^4))"
+      ],
+      "novelty_status": "UNRESOLVED (five targeted searches in R5, not exhaustive)",
+      "known_failure_modes": [
+        "This entry describes the leading-only model. The s^5 term and two-loop pair density were computed later (QED-3GAMMA-FULL); the spectral remainder and higher alpha orders remain unbounded."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Reviewed by Claude, 2026-10-23 (R2; wording revised in R5 after the E4 review).",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "QED-3GAMMA-FULL",
+      "text": "A floating-point expansion of the one-loop gamma* -> 3 gamma amplitude gives six low-energy density terms to s^9, with c1/c0 numerically agreeing with 335/714. The two-loop Euler-Heisenberg coefficients multiply the leading coefficient by 1 + (1555/153) alpha/pi, its full O(alpha^5) term. With cutoff s=4m^2, that factor and the O(alpha^2) pair channel, the model has r_Gamma=20.64/m and r_x=22.55/m. These are CHECKED model roots. An analytic envelope evaluated in float64 bounds the spectral truncation for s <= 1.5 m^2; with the model assumed right within a factor 2 above that, the truncation moves the radii by less than 3e-4/m. Higher perturbative orders are not bounded.",
+      "source": "paper/paper.tex",
+      "anchor": "The full one-loop\namplitude adds a series in",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [
+          "C"
+        ],
+        "numerical_results": [
+          "box",
+          "density_series_coefficients",
+          "three_photon_two_loop",
+          "amplitude_envelope",
+          "truncation_moment_bounds",
+          "window"
+        ]
+      },
+      "status": "CHECKED",
+      "proof_location": "notes/E4_three_photon_window.md Sections 10, 11 and 12",
+      "code_location": [
+        "reproducibility/three_photon_amplitude.py",
+        "reproducibility/three_photon_window.py"
+      ],
+      "tests": [
+        "tests/test_three_photon_amplitude.py",
+        "tests/test_three_photon_window.py",
+        "tests/test_three_photon_envelope.py"
+      ],
+      "literature_precedent": [
+        "dicus_kao_repko_1998 (on-shell check; their omega^8 column is a factor 2 above ours; their two-loop factor has one sign reversed)",
+        "abdulhameed_chaubey_shao_2026 (independent on-shell expansion: equal to our box to omega^14, and two-loop ratios 25/4 and 1955/396 equal to Ritus's coefficients)",
+        "laporta_jentschura_2024 (two-loop pair density)",
+        "dunne_2004 (Ritus's two-loop Euler-Heisenberg coefficients, eq. (4.11); self-dual check, eqs. (6.2) and (6.6))"
+      ],
+      "novelty_status": "UNRESOLVED (five targeted searches, not exhaustive)",
+      "known_failure_modes": [
+        "O(alpha^5) parts of the s^5-s^9 coefficients, O(alpha^6) and O(alpha^3) pair corrections estimated, not bounded.",
+        "Ritus's two-loop coefficients are read in a review and in Ravndal, not in Ritus's papers; they are checked by the self-dual closed form.",
+        "Off-shell structures are checked by the Ward identity and the EH limit only; on-shell ones also by DKR to omega^6 and by Abdul Hameed-Chaubey-Shao 2026 to omega^14.",
+        "The truncation envelope covers s <= 1.5 m^2 only and is evaluated in float64, not interval-certified; above 1.5 m^2 the six-term model is assumed right within a factor 2 (0.04% of Phi_3gamma at r_Gamma)."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Added by Claude, 2026-10-23 (R5); O(alpha^5) leading term added 2026-10-24 (R8); truncation envelope added the same day (R9).",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    },
+    {
+      "claim_id": "QED-WINDOW-PROBES",
+      "text": "Within the truncated-series model, a compact ball of radius 10/m moves both linear-response radii outward by about 8/m. For charge e the local EH comparison closes the window near 11.6/m in the formal point benchmark (20.49/m for the ball); three-photon dominance comes first only for charges of order 1e-4 e or smaller. Spectral and EFT remainders are not uniformly bounded.",
+      "source": "paper/paper.tex",
+      "anchor": "The window is not universal.",
+      "depends_on": {
+        "hypotheses": [],
+        "lemmas": [
+          "FINITE-PROBE"
+        ],
+        "numerical_results": [
+          "window",
+          "profile_moments"
+        ]
+      },
+      "status": "CHECKED",
+      "proof_location": "notes/E4_three_photon_window.md Section 10.5",
+      "code_location": [
+        "reproducibility/three_photon_amplitude.py",
+        "reproducibility/nonlinear_probe_eh.py"
+      ],
+      "tests": [
+        "tests/test_three_photon_amplitude.py"
+      ],
+      "literature_precedent": [],
+      "novelty_status": "NOT_ESTABLISHED",
+      "known_failure_modes": [
+        "Local EH tail at first order in c; sharp ball boundary has no derivative control."
+      ],
+      "confidence_in_status": "HIGH_WITHIN_EXPLICIT_SCOPE",
+      "action_required": "Added by Claude, 2026-10-23 (R5).",
+      "readme_claim_id": null,
+      "surfaces": [],
+      "role": "claim",
+      "historical_inspiration": []
+    }
+  ]
+}

@@ -135,6 +135,8 @@ def main() -> None:
     print("signed measure at r=1:", {k: round(v, 4) for k, v in sm.items()})
 
     if args.check:
+        if not __debug__:   # under -O every check below would vanish
+            raise SystemExit("figure_data.py --check relies on assertions; do not run it with python -O")
         assert abs(rx - 22.7583) < 1e-3
         quoted = {10.0: 3.136, 20.0: 3.018, rx: 2.532, 30.0: 2.0005}
         for r, v in quoted.items():

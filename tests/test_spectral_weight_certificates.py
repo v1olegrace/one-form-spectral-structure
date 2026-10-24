@@ -53,8 +53,12 @@ def test_uniform_continuum_is_enclosed():
     data = [(F(1, j + 1), F(1, j + 1)) for j in range(7)]
     lower = certificates.propose_certificate(data, F(3, 5), 6)
     upper = certificates.propose_certificate(data, F(3, 5), 6, kind="upper")
-    assert 0 < F(lower["bound"]) <= F(2, 5)
-    assert F(2, 5) <= F(upper["bound"]) < 1
+    # The computed bounds are 0.2146 and 0.5954 around the true 2/5; a loss of
+    # tightness, not only the trivial 0/1 fallback, must fail.
+    assert F(21, 100) < F(lower["bound"]) <= F(2, 5)
+    assert F(2, 5) <= F(upper["bound"]) < F(60, 100)
+    for record in (lower, upper):
+        assert certificates.verify_certificate(record)["valid"]
 
 
 @pytest.mark.parametrize("kind", ["lower", "upper"])

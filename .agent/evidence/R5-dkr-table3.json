@@ -1,0 +1,52 @@
+{
+ "task": "R5: full one-loop gamma gamma -> gamma gamma against Dicus-Kao-Repko Table III",
+ "method": "reproducibility/three_photon_amplitude.py box(full=True), simplex rules 12^3 and 16^3 (identical to 1e-6), 16-point Gauss in cos(theta)",
+ "rows": [
+  {
+   "omega_over_m": 0.25,
+   "sigma_full_over_sigma_EH_ours": 1.016249,
+   "R1_ours": 0.984,
+   "R1_DKR": 0.983
+  },
+  {
+   "omega_over_m": 0.35,
+   "sigma_full_over_sigma_EH_ours": 1.036948,
+   "R1_ours": 0.9644,
+   "R1_DKR": 0.966
+  },
+  {
+   "omega_over_m": 0.45,
+   "sigma_full_over_sigma_EH_ours": 1.07335,
+   "R1_ours": 0.9317,
+   "R1_DKR": 0.931
+  },
+  {
+   "omega_over_m": 0.55,
+   "sigma_full_over_sigma_EH_ours": 1.135927,
+   "R1_ours": 0.8803,
+   "R1_DKR": 0.876
+  },
+  {
+   "omega_over_m": 0.65,
+   "sigma_full_over_sigma_EH_ours": 1.244615,
+   "R1_ours": 0.8035,
+   "R1_DKR": 0.799
+  },
+  {
+   "omega_over_m": 0.75,
+   "sigma_full_over_sigma_EH_ours": 1.443904,
+   "R1_ours": 0.6926,
+   "R1_DKR": 0.692
+  },
+  {
+   "omega_over_m": 0.85,
+   "sigma_full_over_sigma_EH_ours": 1.863217,
+   "R1_ours": 0.5367,
+   "R1_DKR": 0.537
+  }
+ ],
+ "series_ours": "sigma = (1/45^2) alpha^4 omega^6/(pi m^8) [973/5 + (128/3) w^2 + 123.39747 w^4 + ...]",
+ "series_DKR_eq12": "[973/5 + (128/3) w^2 + (409792/1715) w^4]",
+ "omega8_helicity_amplitudes": "ours = exactly 1/2 of DKR Table II T8 for ++++, ++--, +-+- at z = 0 and 0.5",
+ "conclusion": "agreement within 0.5% at all seven energies, both signs, no trend; doubling our omega^8 amplitudes would shift sigma by 2.4% (0.45) and about 9% (0.65). CHECKED, not established."
+}

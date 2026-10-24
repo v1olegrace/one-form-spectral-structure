@@ -40,6 +40,12 @@ from rpa_kernel_conditions import RPAHypotheses, classify_rpa_kernel
 
 S_THR = 4.0                      # threshold s = 4 m^2, in units m = 1
 PREF = 1.0 / (12.0 * np.pi**2)   # one-loop Dirac prefactor, q = 1
+# The general closed form subtracts O(sqrt(b-4)) terms to recover an
+# O((b-4)^1.5) integral. Use a scaled threshold variable in this domain.
+NARROW_SUPPORT_RATIO = 1.0e-2
+# Diagnostic consistency thresholds, not rigorous accuracy bounds.
+WEIGHT_FD_REL_TOL = 1.0e-5
+WEIGHT_INTEGRAL_REL_TOL = 1.0e-7
 
 
 # ----------------------------------------------------------------- densities
@@ -66,11 +72,34 @@ def _validate_model(g2, L2):
 
 
 def Pi_infinity(L2):
-    """int_{4}^{L2} rho(s)/s ds, via s = 4 e^t so the log range is tamed."""
+    """Inverse moment: log variable on broad support, scaled v near threshold."""
+    if _narrow_support(L2):
+        val, err, message = _pi_threshold(L2)
+        if message:
+            warnings.warn(message, IntegrationWarning, stacklevel=2)
+        return val, err
     T = np.log(L2 / S_THR)
     val, err = quad(lambda t: _rho_scalar(S_THR * np.exp(t)), 0.0, T,
                     limit=400, epsabs=1e-13, epsrel=1e-12)
     return val, err
+
+
+def _narrow_support(L2):
+    return 0 < (L2 - S_THR) / L2 < NARROW_SUPPORT_RATIO
+
+
+def _pi_threshold(L2):
+    """Scaled integral with v=sqrt((s-4)/s)=v_b*u, avoiding 1-4/s.
+
+    The quadrature acts on an O(1) integrand; multiplying by v_b^3 only
+    afterwards avoids an absolute-error tolerance overwhelming the answer.
+    """
+    vb2 = (L2 - S_THR) / L2
+    scale = vb2 ** 1.5 / (12.0 * np.pi ** 2)
+    val, err, message = _quad(
+        lambda u: (3.0 - vb2 * u * u) * u * u / (1.0 - vb2 * u * u),
+        0.0, 1.0, epsabs=1e-13, epsrel=1e-12)
+    return scale * val, scale * err, message
 
 
 def Z3_of(g2, L2):
@@ -105,8 +134,11 @@ def _quad(f, lo, hi, **kw):
 
 def _z3_estimate(g2, L2):
     _validate_model(g2, L2)
-    P, err, message = _quad(lambda t: _rho_scalar(S_THR * np.exp(t)), 0.0,
-                           np.log(L2 / S_THR), epsabs=1e-13, epsrel=1e-12)
+    if _narrow_support(L2):
+        P, err, message = _pi_threshold(L2)
+    else:
+        P, err, message = _quad(lambda t: _rho_scalar(S_THR * np.exp(t)), 0.0,
+                               np.log(L2 / S_THR), epsabs=1e-13, epsrel=1e-12)
     if not np.isfinite(P) or not np.isfinite(err):
         raise RuntimeError("UNRESOLVED: nonfinite polarization estimate")
     g, p, e = map(Fraction, (float(g2), float(P), float(abs(err))))
@@ -277,11 +309,61 @@ def _dI_edge_closed(d, L2):
                    + 4.0 * v / t ** 2)
 
 
+def _I_edge_threshold(d, L2):
+    """Narrow-support edge integral: exact endpoint logarithm + smooth residual.
+
+    Subtract rho(b) before integration. With s=4/(1-v_b^2*u^2),
+    rho(s)-rho(b) has an explicit factor (1-u), so the logarithmic endpoint
+    is integrated analytically without cancellation in the density itself.
+    Scaling by d/top when d>=top keeps the remaining quadrature O(1).
+    """
+    top = L2 - S_THR
+    vb2 = top / L2
+    rho_b = np.sqrt(vb2) * (3.0 - vb2) / (24.0 * np.pi ** 2)
+    r = d / top
+
+    def residual(u):
+        den = 1.0 - vb2 * u * u
+        x = (1.0 - u) * (1.0 + u) / den
+        factor = ((1.0 - u) * (3.0 - vb2 * (u * u + u + 1.0))
+                  / (3.0 - vb2) * 2.0 * (1.0 - vb2) * u / den ** 2)
+        return factor / (1.0 + x / r) if r >= 1.0 else factor / (r + x)
+
+    val, _, message = _quad(residual, 0.0, 1.0, epsabs=1e-13, epsrel=1e-12)
+    if message:
+        warnings.warn(message, IntegrationWarning, stacklevel=2)
+    if r >= 1.0:
+        return rho_b / r * (r * np.log1p(1.0 / r) - val)
+    return rho_b * (np.log1p(1.0 / r) - val)
+
+
+def _threshold_derivative_integral(d, L2):
+    """Positive derivative integral on narrow support when d>=b-4.
+
+    The transformed denominator is bounded below by one after scaling by d.
+    This is a smooth quadrature, not the subtractive closed-form derivative.
+    """
+    top = L2 - S_THR
+    vb2 = top / L2
+
+    def shape(u):
+        den = 1.0 - vb2 * u * u
+        gap_over_d = top / d * (1.0 - u) * (1.0 + u) / den
+        return ((3.0 - vb2 * u * u) * u * u
+                / (den ** 2 * (1.0 + gap_over_d) ** 2))
+
+    val, err, msg = _quad(shape, 0.0, 1.0, epsabs=1e-13, epsrel=1e-12)
+    scale = vb2 ** 1.5 / (3.0 * np.pi ** 2) / d / d
+    return scale * val, scale * err, msg
+
+
 def _W_edge(d, g2, L2):
     """W at t = L2 + d, parametrised by the DISTANCE d > 0 to the cutoff edge.
 
-    For d <= CLOSED_FORM_MAX_RATIO * L2 the edge integral is evaluated in closed
-    form: no quadrature, no branch-point trouble, and valid down to d = 1e-300.
+    On narrow support a scaled threshold variable with an exact endpoint
+    logarithm avoids cancellation. Otherwise, for d <= CLOSED_FORM_MAX_RATIO
+    * L2 the edge integral is evaluated in closed form and remains finite down
+    to d = 1e-300.
     Beyond that, adaptive quadrature in x = L2 - s, whose integrand is smooth
     there.  The earlier all-quadrature path missed the atom position by ~1.2e-6
     relative because the integrand has a square-root branch point at the upper
@@ -289,6 +371,8 @@ def _W_edge(d, g2, L2):
     """
     if not np.isfinite(d) or d <= 0:
         raise ValueError("edge distance must be finite and positive")
+    if _narrow_support(L2):
+        return Z3_of(g2, L2) - g2 * _I_edge_threshold(d, L2)
     if d <= CLOSED_FORM_MAX_RATIO * L2:
         return Z3_of(g2, L2) - g2 * _I_edge_closed(d, L2)
     top = L2 - S_THR
@@ -315,8 +399,19 @@ def atom_weight_integral(d_a, L2):
     whose integrand is O(1) and decays both ways, so the spike is resolved.
     """
     top = L2 - S_THR
+    if _narrow_support(L2) and d_a >= top:
+        integral, err, msg = _threshold_derivative_integral(d_a, L2)
+        return 1.0 / ((L2 + d_a) * integral), err, msg
+
+    def density_at_gap(x):
+        # (s-4)/s is stable even when b is only one ulp above threshold.
+        if _narrow_support(L2):
+            vb2 = max(0.0, (top - x) / (L2 - x))
+            return np.sqrt(vb2) * (3.0 - vb2) / (24.0 * np.pi ** 2)
+        return _rho_scalar(L2 - x)
+
     val, err, msg = _quad(
-        lambda u: _rho_scalar(L2 - d_a * np.exp(u)) * np.exp(u) / (1.0 + np.exp(u)) ** 2,
+        lambda u: density_at_gap(d_a * np.exp(u)) * np.exp(u) / (1.0 + np.exp(u)) ** 2,
         -40.0, np.log(top / d_a), epsabs=1e-16, epsrel=1e-13)
     integral = val / d_a
     return 1.0 / ((L2 + d_a) * integral), err, msg
@@ -325,7 +420,8 @@ def atom_weight_integral(d_a, L2):
 def spectral_atom(g2, L2, log10_d_range=(-300.0, 250.0)):
     """The discrete atom of sigma above the hard cutoff, as a structured result.
 
-    A hard cutoff leaves the real interval (L2, inf) outside the cut, so W is
+    The Dirac density has a nonzero left limit at L2. The hard cutoff leaves
+    the real interval (L2, inf) outside the cut, so W is
     real there.  On it W is strictly increasing, runs to -inf as t -> L2+, and
     tends to Z3.  Hence EXACTLY ONE root iff Z3 > 0 (Proposition 4).  The atom
     has positive weight at positive s, so it does not break positivity; what it
@@ -347,6 +443,10 @@ def spectral_atom(g2, L2, log10_d_range=(-300.0, 250.0)):
       PRECISION_UNCERTAIN       a quadrature call reported non-convergence, so
                                 no precision claim is supported even though a
                                 root was located
+
+    Route disagreement above the declared consistency thresholds also gives
+    PRECISION_UNCERTAIN and a reason. Passing those diagnostics is not an
+    accuracy bound; independent multiprecision comparisons are still needed.
 
     Raises RuntimeError when the regime is UNRESOLVED, or when Z3 > 0 but the
     root is not bracketed.  Existence follows from Proposition 4, so failing to
@@ -399,7 +499,7 @@ def spectral_atom(g2, L2, log10_d_range=(-300.0, 250.0)):
     # Primary weight: analytic derivative of the closed-form edge integral,
     # w = g2/((-s_a) W'(-s_a)) = -1/(s_a I'(d)).  No subtraction, no quadrature.
     w_analytic = None
-    if d_a <= CLOSED_FORM_MAX_RATIO * L2:
+    if not _narrow_support(L2) and d_a <= CLOSED_FORM_MAX_RATIO * L2:
         dI = _dI_edge_closed(d_a, L2)
         if np.isfinite(dI) and dI < 0:
             w_analytic = -1.0 / (s_a * dI)
@@ -408,6 +508,20 @@ def spectral_atom(g2, L2, log10_d_range=(-300.0, 250.0)):
         msgs.append(w_msg)
     if not np.isfinite(w_int) or w_int <= 0:
         msgs.append("Independent atom weight is nonfinite or nonpositive")
+    weight = w_analytic if w_analytic is not None else w_fd
+    weight_method = "analytic closed form" if w_analytic is not None else "finite difference"
+    if _narrow_support(L2) and d_a >= L2 - S_THR:
+        weight, weight_method = w_int, "scaled threshold integral"
+    fd_rel = abs(w_fd - weight) / abs(weight) if weight else np.inf
+    int_rel = abs(w_int - weight) / abs(weight) if weight else np.inf
+    if not np.isfinite(weight) or weight <= 0:
+        msgs.append("Primary atom weight is nonfinite or nonpositive")
+    if not np.isfinite(fd_rel) or fd_rel > WEIGHT_FD_REL_TOL:
+        msgs.append(f"Finite-difference weight disagrees with primary: {fd_rel:.3e} "
+                    f"> {WEIGHT_FD_REL_TOL:.3e}")
+    if not np.isfinite(int_rel) or int_rel > WEIGHT_INTEGRAL_REL_TOL:
+        msgs.append(f"Integral weight disagrees with primary: {int_rel:.3e} "
+                    f"> {WEIGHT_INTEGRAL_REL_TOL:.3e}")
     msgs = list(dict.fromkeys(msgs))
 
     ok = not msgs
@@ -415,11 +529,12 @@ def spectral_atom(g2, L2, log10_d_range=(-300.0, 250.0)):
     if not ok:
         status = "PRECISION_UNCERTAIN"
     return {"s_atom": s_a, "edge_distance": d_a, "log10_edge_distance": v_a,
-            "weight": w_analytic if w_analytic is not None else w_fd,
-            "weight_method": "analytic closed form" if w_analytic is not None
-                             else "finite difference",
+            "weight": weight, "weight_method": weight_method,
             "weight_finite_difference": w_fd, "weight_independent": w_int,
             "weight_routes_agree_rel": abs(w_fd - w_int) / abs(w_int) if w_int else None,
+            "weight_fd_primary_rel": fd_rel, "weight_integral_primary_rel": int_rel,
+            "weight_consistency_tolerances": {"finite_difference": WEIGHT_FD_REL_TOL,
+                                              "integral": WEIGHT_INTEGRAL_REL_TOL},
             "status": status, "quadrature_ok": ok,
             "position_representable": bool(s_a > L2), "evidence": "CHECKED",
             "quadrature_messages": msgs,
