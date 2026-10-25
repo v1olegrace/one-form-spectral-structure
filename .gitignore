@@ -37,8 +37,9 @@ base_cientifica/
 output/tese_*/
 output/impressao_*/*.pdf
 reports/review_*/
-# Agent coordination files; the verification records in .agent/reports and
-# the cited evidence in .agent/evidence are tracked.
+# Agent coordination files. The verification records in .agent/reports and
+# the computation evidence in .agent/evidence (scripts, data, literature
+# records) are tracked; test-run records stay local (.agent/reports/README.md).
 .agent/plan.yaml
 .agent/TAKEOVER_*.md
 .agent/CONTINUATION_*.md

@@ -37,7 +37,10 @@ computation; they are reproduced in `.agent/reports/R2.md`.
 - *Novelty* — UNRESOLVED. Groote and Pivovarov give the QCD analogue and the
   $s^4$ law. Beneke and Ruiz-Femenía state that the QED cut from $s=0$ enters
   at $O(\alpha^4)$. Five targeted searches (Section 10.7) found no published
-  QED coefficient in this normalization. That is not a proof of novelty.
+  QED coefficient in this normalization. Abdul Hameed–Chaubey–Shao (2026)
+  has only on-shell amplitudes: it checks our box but is not a precedent for
+  the density. The fermion-loop $Z\to3\gamma$ literature, which has the same
+  off-shell vertex, was not searched. None of this proves novelty.
 
 ## 1. Question
 
@@ -508,6 +511,21 @@ The closest results:
   heavy-quark case (abstract only; not read).
 
 Novelty is UNRESOLVED; the searches are not exhaustive.
+
+Two later points (24 October 2026):
+
+- **Abdul Hameed, Chaubey and Shao (arXiv:2604.00099), read in R11.**
+  - They expand the on-shell four-photon amplitudes at low energy.
+  - They have no off-shell photon, no three-photon cut and no
+    vacuum-polarization density.
+  - Their work checks our box on shell (Section 10.1). It is not a
+    precedent for the density.
+- **Not searched: the fermion-loop amplitude for $Z\to3\gamma$.**
+  - Only the vector coupling contributes there. By $C$-parity the axial
+    part drops out with three photons.
+  - So it is the $\gamma^*(q^2)\to3\gamma$ vertex at $q^2=M_Z^2$.
+  - Its heavy-fermion limit is our low-$s$ expansion. A width computed in
+    that limit would fix the leading coefficient up to normalization.
 
 ### 10.8 Sources read for this section
 

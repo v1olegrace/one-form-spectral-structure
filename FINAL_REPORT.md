@@ -1,5 +1,25 @@
 # Audit report — paper v0.4 to v0.5.8
 
+## Research audit after the commit, 24 October 2026
+
+A read-through of commit 7654a1c found three record defects. The paper did
+not change.
+
+- **Commit state.** The v0.5.8 summary below still said nothing was
+  committed. It now names the local commit.
+- **Run records.** Ten agent reports and one review cite test-run records that
+  are not in the repository, such as `.agent/evidence/R8-baseline-full-tests.json`. Those
+  records hold absolute local paths, so they stay out. The reports quote
+  their counts. `.agent/reports/README.md` now states this convention, and the
+  `.gitignore` comment no longer says that all cited evidence is tracked.
+- **E4 novelty after arXiv:2604.00099.**
+  - That preprint has only on-shell four-photon amplitudes. So it covers our
+    check of the box, not the off-shell three-photon density.
+  - The novelty verdict stays UNRESOLVED.
+  - There is a gap: fermion-loop Z → 3γ amplitudes were not searched. Their
+    heavy-fermion limit contains the same off-shell vertex.
+  - Note E4, the claim catalog and the ledgers now say so.
+
 ## Repository audit and fixes before the commit, 24 October 2026
 
 The user pasted an audit protocol with three axes, physical, mathematical and
@@ -86,7 +106,8 @@ written before computing.
   supports our value. If the factor is theirs, it entered their ω⁸
   expansion before both Table II and eq. (15) (CHECKED, not established).
 
-Paper v0.5.8. Nothing committed or pushed. Still not READY_FOR_EXPERT_REVIEW.
+Paper v0.5.8, committed locally as 7654a1c on branch `thesis/v0.5.8`. Not
+pushed, so remote CI has not run on it. Still not READY_FOR_EXPERT_REVIEW.
 
 ## Final local integration, 23 October 2026
 

@@ -1648,7 +1648,7 @@
         "groote_pivovarov_2001 (QCD analogue and the s^4 law)",
         "beneke_ruizfemenia_2016 (onset of the s = 0 cut at O(alpha^4))"
       ],
-      "novelty_status": "UNRESOLVED (five targeted searches in R5, not exhaustive)",
+      "novelty_status": "UNRESOLVED (five targeted searches in R5, not exhaustive; the fermion-loop Z -> 3 gamma literature, the same off-shell vertex at q^2 = M_Z^2, was not searched)",
       "known_failure_modes": [
         "This entry describes the leading-only model. The s^5 term and two-loop pair density were computed later (QED-3GAMMA-FULL); the spectral remainder and higher alpha orders remain unbounded."
       ],
@@ -1695,7 +1695,7 @@
         "laporta_jentschura_2024 (two-loop pair density)",
         "dunne_2004 (Ritus's two-loop Euler-Heisenberg coefficients, eq. (4.11); self-dual check, eqs. (6.2) and (6.6))"
       ],
-      "novelty_status": "UNRESOLVED (five targeted searches, not exhaustive)",
+      "novelty_status": "UNRESOLVED (five targeted searches in R5, not exhaustive; arXiv:2604.00099 has on-shell amplitudes only, a check of the box and not a precedent for the density; the fermion-loop Z -> 3 gamma literature, the same off-shell vertex at q^2 = M_Z^2, was not searched)",
       "known_failure_modes": [
         "O(alpha^5) parts of the s^5-s^9 coefficients, O(alpha^6) and O(alpha^3) pair corrections estimated, not bounded.",
         "Ritus's two-loop coefficients are read in a review and in Ravndal, not in Ritus's papers; they are checked by the self-dual closed form.",
