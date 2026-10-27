@@ -51,7 +51,7 @@ sources below in one command.
 
 ```bash
 pip install -r requirements.txt -c constraints.txt   # exact versions the guards were checked with
-python make.py test        # 570 tests once the new files are tracked
+python make.py test        # full suite, 570 tests
 python make.py numerics    # regenerate every numerical result
 ```
 
@@ -372,11 +372,11 @@ These are the practices that make a theory paper's numerics trustworthy.
    record, are entered by hand in `scripts/build_bibliography.py`. Forbidden
    sources (wikis, content farms, AI summaries) fail the test suite.
 8. **Reproducibility.** Historical clean-checkout checks are recorded in
-   `FINAL_REPORT.md`. The current local completion (24 October, v0.5.8) passed 570
-   tests in a clean-room snapshot of the candidate on Windows (569 and one
-   skip without TeX on Ubuntu 24.04), including the paper build
-   with the repository-local Tectonic on PATH, plus `make.py numerics`, `audit`, `certified` and Arb
-   re-integration. This working tree includes local patches. The PDF QA
+   `FINAL_REPORT.md`. Version 0.5.8 (24 October) passed 570 tests in a
+   clean-room snapshot of the committed tree on Windows, including the paper
+   build with the repository-local Tectonic on PATH. On Ubuntu 24.04 without
+   TeX, 569 passed and one was skipped. Both also ran `make.py numerics`,
+   `audit`, `certified` and the Arb re-integration. The PDF QA
    record `output/data/canonical_pdf_qa.json` is the exception by design: it
    stores the path and hash of the PDF and build log it inspected. Its source
    hashes describe the current files, normalizing CRLF to LF and preserving

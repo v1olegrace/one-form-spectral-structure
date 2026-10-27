@@ -1,5 +1,39 @@
 # Audit report — paper v0.4 to v0.5.8
 
+## First remote run of v0.5.8, 27 October 2026
+
+The branch `thesis/v0.5.8` was pushed, and `main` was left unchanged. The
+workflow runs on push only for `main` and `remediation/**`, so it was started
+by hand (workflow_dispatch).
+
+CI run 40488237655 at `4e70e47`, which is 7654a1c plus the record fixes below.
+All three jobs succeeded, with no annotations.
+
+- **tests:** 512 passed, 3 skipped. The skipped modules are the certified
+  tests and the paper build, which the other two jobs run and fail on any
+  skip.
+- **certified:** 75 passed. The one-loop certificates were generated, and the
+  Arb re-integration passed.
+- **paper:** 18 structural checks passed. The clean-build gate passed, so the
+  final log has no warning, overfull box or undefined reference. The paper
+  has 17 pages and the brief 6.
+
+This is the first remote check of what R11 left unverified: the
+commit-pinned actions, the `constraints.txt` installs and the clean-build
+gate.
+
+Still not READY_FOR_EXPERT_REVIEW. Outstanding:
+- the Brown–Weisberger read;
+- Ritus's two-loop papers, read at the source;
+- the fermion-loop Z → 3γ search (note E4, Section 10.7);
+- either a bound on E4's remaining orders, or E4's quantitative conclusions
+  limited to what is computed;
+- human review.
+
+A general proof of H3 is not on this list. The paper is conditional on H3
+by design, and its abstract says H3 is not proved in full QED. That proof is
+later research.
+
 ## Research audit after the commit, 24 October 2026
 
 A read-through of commit 7654a1c found three record defects. The paper did
@@ -106,8 +140,9 @@ written before computing.
   supports our value. If the factor is theirs, it entered their ω⁸
   expansion before both Table II and eq. (15) (CHECKED, not established).
 
-Paper v0.5.8, committed locally as 7654a1c on branch `thesis/v0.5.8`. Not
-pushed, so remote CI has not run on it. Still not READY_FOR_EXPERT_REVIEW.
+Paper v0.5.8, committed as 7654a1c on branch `thesis/v0.5.8`. For its first
+remote run (27 October), see the top of this report. Still not
+READY_FOR_EXPERT_REVIEW.
 
 ## Final local integration, 23 October 2026
 
