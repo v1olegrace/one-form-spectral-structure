@@ -1,0 +1,21 @@
+{
+ "task": "R11 side item: independent benchmark of the four-photon box and of the R8 two-loop coefficients",
+ "date": "2026-10-24",
+ "reader": "Claude (automated agent)",
+ "handling": "Downloaded into an empty directory; TeX and ancillary .wl files read in memory as text (python -I); nothing executed.",
+ "source": {
+  "key": "abdulhameed_chaubey_shao_2026",
+  "arxiv": "2604.00099",
+  "files": {
+   "tmp\\claude_resume_2026-10-24\\literature\\2604.00099\\src\\eprint.bin": "871a3e3a7e4e0c1407c034ea20a18469ffe0a1ba689be1b808540c3e3937b6d7",
+   "tmp\\claude_resume_2026-10-24\\literature\\2604.00099\\pdf\\paper.pdf": "8bbc73dc86d2088eff3dcad61172363394c8971ed191d038c59ee0852c7b815a"
+  },
+  "read": "eq. (22) and the relation M^(1,0)/M^(0,1) = alpha_s C_F/(alpha Q_f^2); ancillary anc/Amp1L_LE.wl and anc/Amp2L_LE.wl",
+  "depth": "EQUATION_LEVEL_READ"
+ },
+ "results": {
+  "one_loop": "our box's polarization-summed bilinears of the lambda^4..lambda^14 coefficients equal theirs at cos(theta) = -0.6, 0, 0.3, 0.8 to 4.3e-16 (normalization exactly 1); omega^8 included, so DKR's omega^8 column (twice ours) is not confirmed",
+  "two_loop": "leading two-loop/one-loop ratios, QED (alpha_s C_F -> alpha): ++++ gives 25/4, --++ gives 1955/396, equal to the R8 combinations of Ritus's 40/9 and 1315/252"
+ },
+ "prompted_by": "reports/review_2026-10-24/check_eq22.py, written by the user's other session (Astra); not run here; this is an independent re-check"
+}

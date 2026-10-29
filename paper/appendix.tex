@@ -54,7 +54,10 @@ $g_R^6Q^2\bigl[\int\rho_J\,ds/(s(s+Q^2))\bigr]^2$, which vanishes at $Q^2=0$,
 rises and then falls like $1/Q^2$. A function $\int\dsig/(Q^2+s)$ with
 $\dsig\ge0$ is largest at $Q^2=0$, so this term is not of that form, and
 truncating~\eqref{eq:expansion} at fixed order does not preserve the
-hypothesis. Whatever positivity the chain has belongs to its sum.
+hypothesis. Whatever positivity the chain has belongs to its sum. The same
+phenomenon is known for the heavy-quark vacuum polarization, where a negative
+Hankel determinant of Taylor coefficients shows that the
+$O(\alpha_s^2)$ term alone is not Stieltjes~\cite[eqs.~(12)--(14)]{masjuan_peris_2009}.
 
 \paragraph{The resummed bubble chain.}
 Writing $Q^2/[s(s+Q^2)]=1/s-1/(s+Q^2)$ puts the denominator
@@ -70,12 +73,20 @@ so that $W(0)=1$, $W(Q^2)\to Z_3$ as $Q^2\to\infty$, and $W$ decreases
 strictly on $Q^2>0$ whenever $\rho_J\ge0$ does not vanish identically.
 The sign of $Z_3$ decides the outcome.
 
-If $Z_3>0$, $W/g_R^2$ is a Stieltjes function. By the duality between Stieltjes
-and complete Bernstein functions~\cite{schilling_song_vondracek2012},
-$Q^2W/g_R^2=1/\Gcal$ is then complete Bernstein and $\Gcal$ is Stieltjes. Its
-Coulomb residue is $g_R^2/W(0)=g_R^2$, and $0<\Gcal\le g_R^2/(Q^2Z_3)$ excludes
-an additive constant, so the resummed chain satisfies
-Hypothesis~\ref{hyp:stieltjes} to all orders in the chain.
+If $Z_3>0$, $W/g_R^2$ is a Stieltjes function, and so is $\Gcal$. This is an
+instance of the duality between Stieltjes and complete Bernstein functions
+treated in~\cite{schilling_song_vondracek2012}; the argument we use does not
+depend on it. With a finite cutoff $\Lambda$, replace $\rho_J(s)\,ds/s$ by
+positive atomic measures of the same total mass converging weakly to it. For
+each, $W$ has only simple real zeros, one in each gap between atoms and one
+above the last, so the partial fractions of $\Gcal$ have positive residues at
+poles in $[4m^2,\Lambda^2/Z_3]$. A weakly convergent subsequence of these pole
+measures gives the representation. For unbounded support, truncate $\rho_J$,
+which keeps $Z_3>0$, and take a vague limit; the masses stay bounded by
+$g_R^2/Z_3$. Both steps are in the source package. The Coulomb residue is
+$g_R^2/W(0)=g_R^2$, and $0<\Gcal\le g_R^2/(Q^2Z_3)$ excludes an additive
+constant, so the resummed chain satisfies Hypothesis~\ref{hyp:stieltjes} to
+all orders in the chain.
 
 If $Z_3<0$, $W$ has exactly one zero, at some $Q^2_{\mathrm g}>0$. There $\Gcal$
 has a simple pole with residue $g_R^2/[Q^2_{\mathrm g}W'(Q^2_{\mathrm g})]<0$, at
@@ -85,10 +96,15 @@ If $Z_3=0$ there is no such pole, but
 $\Gcal(Q^2)=\bigl[\int Q^2\rho_J\,ds/(s+Q^2)\bigr]^{-1}\to1/\int\rho_J\,ds$,
 a positive constant whenever that total mass is finite, and the hypothesis
 excludes a constant. The absence of a spacelike pole is therefore necessary for
-Hypothesis~\ref{hyp:stieltjes} and not sufficient. The constant is a contact
-term, supported at $r=0$ in position space, so the conclusion of
-Theorem~\ref{thm:A} on $r>0$ survives at $Z_3=0$; only the literal hypothesis
-fails. The failure at $Z_3<0$ is genuine: no positive measure on $[0,\infty)$
+Hypothesis~\ref{hyp:stieltjes} and not sufficient. What remains after the
+constant is subtracted is a positive Stieltjes function with Coulomb residue
+$g_R^2$. To see this, let the coupling increase to its critical value: the
+subcritical representations converge, and in a weak limit of their measures
+on $[4m^2,\infty]$ the mass that escapes to infinity becomes the constant
+(source package; compare~\cite[Thm.~2.2]{schilling_song_vondracek2012}). The
+constant is a contact term, supported at $r=0$ in position space, so the
+conclusion of Theorem~\ref{thm:A} on $r>0$ survives at $Z_3=0$; only the
+literal hypothesis fails. The failure at $Z_3<0$ is genuine: no positive measure on $[0,\infty)$
 produces a pole at spacelike momentum, so there the chain is not the
 two-point function of any theory satisfying the assumptions of
 Proposition~\ref{prop:transport}.
@@ -98,11 +114,15 @@ of the chain is $g_R^4\rho_J(s)/(s\,|W(-s-i0)|^2)$, non-negative for every
 coupling, $Z_3<0$ included. A positivity test built from moments of the
 continuum therefore cannot see the failure at $Z_3<0$, which lives in a discrete
 pole; the finite-moment conditions of Section~\ref{sec:scope} have exactly this
-limitation. Second, if $\rho_J$ is cut off sharply at $s=\Lambda^2$ and does not
-vanish there, as the Dirac density does not, then $W$ is real again for
+limitation. Second, if $\rho_J$ is cut off sharply at $s=\Lambda^2$ with a
+positive left limit there, as the Dirac density has, then $W$ is real again for
 $Q^2<-\Lambda^2$ and, when $Z_3>0$, vanishes once in that range. The resummed
 measure then carries an atom of positive weight above the cutoff, outside the
-support of $\rho_J$. This is the mechanism studied
+support of $\rho_J$. The edge condition is needed:
+$\rho_J=(10-s)\mathbf 1_{[4,10]}$ with $g_R^2=1/100$ has $Z_3>0$ and no zero
+above the cutoff. Gaps inside the support of $\rho_J$ can carry further atoms,
+at $Z_3=0$ included; the source package gives exact examples of both. This is
+the mechanism studied
 in~\cite{giacosa_wolkanowski_2012}, where resummation places a pole on the
 physical sheet outside the input spectrum, with positive residue, and a
 spectral sum rule restores the normalisation. Theorem~\ref{thm:A} already
@@ -131,19 +151,24 @@ S_{\mu\nu\rho\sigma}(p)=T^{E}_{\mu\nu\rho\sigma}(p)
 with $\mu\ge0$, $\int d\mu(s)/(1+s)<\infty$, $q$ a polynomial, and
 $T^{E}_{\mu\nu\rho\sigma}=p_\mu p_\rho\delta_{\nu\sigma}-p_\nu p_\rho\delta_{\mu\sigma}
 -p_\mu p_\sigma\delta_{\nu\rho}+p_\nu p_\sigma\delta_{\mu\rho}$. Free Proca and
-free Maxwell fields, built from $F=dA$, satisfy it and fix the sign. A tensor
-classification of $\langle FF\rangle$ obtains the Minkowski counterpart of this
-form from the Wightman axioms of covariance, spectral condition and positivity
-for $F$, without locality; it uses the Bochner--Schwartz theorem and a
-covariant disintegration over Lorentz orbits, and reaching~\eqref{eq:SFF} needs
-in addition the continuation to Euclidean signature. We have checked none of
-these against primary sources, so~\eqref{eq:SFF} is an assumption here.
+free Maxwell fields, built from $F=dA$, satisfy it and fix the sign. The
+Minkowski counterpart of this form is the K\"all\'en--Lehmann decomposition of
+the two-point function of a closed form field given
+in~\cite[Sect.~3]{benedetti_casini_magan_2023}. There the additional
+light-cone structure is excluded by spatial commutativity. The source package
+obtains the same form without locality, up to that light-cone term, using
+the Bochner--Schwartz theorem and a covariant disintegration over Lorentz
+orbits. Reaching~\eqref{eq:SFF} needs in addition the continuation to
+Euclidean signature. We have not checked these measure-theoretic steps or
+the continuation against primary sources, so~\eqref{eq:SFF} is an assumption
+here.
 
 \begin{proposition}\label{prop:transport}
 Assume~\eqref{eq:SFF}, with the Bianchi identity including coincident points.
 Truncating $\log\langle W\rangle$ at the quadratic cumulant in the probe
 charge, the static potential~\eqref{eq:wilson} and the field of a static
-line depend on $\langle FF\rangle$, for $r>0$, only through
+line, defined below as a limit of smooth conserved currents, depend on
+$\langle FF\rangle$, for $r>0$, only through
 \begin{equation}
 a^{(3)}(r)=\int_{[0,\infty)}d\mu(s)\,\frac{e^{-\sqrt{s}\,r}}{4\pi r}.
 \end{equation}
@@ -169,18 +194,28 @@ sides tend through the Fej\'er kernel to $q_W^2[a^{(3)}(0)-a^{(3)}(r)]$, and
 the space-like sides contribute $O(1/T)$. The value at $p_0=0$ is the Fourier
 slice $\int dt\,a(t,\mathbf r)$, and
 $\int dt\,\sqrt{s}K_1(\sqrt{s}|x|)/(4\pi^2|x|)=e^{-\sqrt{s}r}/(4\pi r)$. For the
-line, the half-plane contributes $\delta(p_0)/p_1$, so the $T^E$ component
-becomes a gradient of $a^{(3)}$, whatever half-plane is chosen, and the
-helicity term drops. The sphere flux of that gradient is
+line, take a charge smeared by a non-negative, compactly supported radial
+mollifier $\rho_\delta$, with a return charge at distance $R$ and spatial connectors at
+times near $\pm T$, smoothed in time. This is a smooth compact conserved
+current $J_\nu=\partial_\mu\Sigma_{\mu\nu}$, and contracting $T^E$ with $\Sigma$
+gives the curl of $a*J$. Away from the sources the connectors contribute
+$O(T^{-3})$, and the return charge drops out as $R\to\infty$. The field is then
+$-q_W\nabla(a^{(3)}*\rho_\delta)$, and $\delta\to0$ gives $-q_W\nabla a^{(3)}$
+on $r>0$, independent of the return direction and of the mollifier. The
+helicity structure drops in the static limit. At fixed $\delta$, Newton's
+theorem for each Yukawa component gives, outside the mollifier, the flux below
+with $d\mu(s)$ replaced by $F_\delta(\sqrt s)\,d\mu(s)$, $F_\delta\ge1$: the
+same support, already before $\delta\to0$. The sphere flux of that gradient is
 $\mu(\{0\})+\int_{(0,\infty)}d\mu\,(1+\sqrt{s}\,r)e^{-\sqrt{s}\,r}$, the starting
 point of the proof of Theorem~\ref{thm:A}. Polynomial terms reach only $r=0$.
 A heat-kernel regulator $\varepsilon$ controls the self-energies; the limit
 $T\to\infty$ is taken first, and the regulator is then removed at fixed
 $r>0$. The finite-$T$ correction is $O(1/T)$ only at fixed $\varepsilon$: its
 coefficient diverges as $\varepsilon\to0$, like $\varepsilon^{-1/2}$ for the
-pure Coulomb measure. The half-plane step uses the
-product $\delta(p_0)/(p_1-i0)$, which the regulator makes well defined; for a
-general tempered $\mu$ it has not been justified.
+pure Coulomb measure. The current construction replaces a formal half-plane
+argument whose product $\delta(p_0)/(p_1-i0)$ heat smearing does not justify:
+the momentum kernel keeps its Coulomb singularity at $p=0$. We do not claim
+that every sharp half-plane extension gives the same field.
 \end{proof}
 
 The Bianchi identity at coincident points is what excludes the local
@@ -195,7 +230,11 @@ while the part compatible with Bianchi gives the perimeter term and the
 potential; $D$ vanishes in an abelian theory without magnetic
 monopoles~\cite{di_giacomo_dosch_shevchenko_simonov_2002}. The comparison is
 one of tensor structure only. When the probe is the Wilson loop of a
-potential with $F=dA$, the identity holds automatically. The proposition says
+potential with $F=dA$, the field Bianchi identity holds. For the ordered
+two-point function it must also hold distributionally across equal times;
+equal-time locality of the potential and a compatible contact prescription
+are needed. The identity $F=dA$ alone does not establish that premise.
+The proposition says
 nothing beyond the quadratic cumulant: a cubic cumulant is absent only in a
 charge-conjugation-invariant state, and the connected four-field cumulant
 enters at $O(q_W^4)$. It says nothing about the Coulomb phase $\mu(\{0\})>0$

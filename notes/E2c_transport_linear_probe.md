@@ -5,7 +5,8 @@ Working note, 1 October 2026. Roadmap obligation 2 of E2.4 (O2 of D5 in
 the Wilson loop, with the tensor projection, the sign, the contact terms, the
 perimeter and the limit T → ∞ each accounted for.
 
-**Status.** Proved here, conditionally on a positive Euclidean spectral
+**Status (scope corrected 23 October 2026).** The regulated rectangle result
+is proved conditionally on a positive Euclidean spectral
 representation of ⟨FF⟩, hypothesis (E) below. Section 11 (3–5 October)
 derives the $T$ part of (E) from the Källén–Lehmann form of note E2b
 (`notes/E2b_tensor_classification.tex`) without locality, because that part
@@ -16,8 +17,9 @@ two-point locality in that sector: the premise has moved from (E) into
 measure-theoretic lemmas (Bochner–Schwartz; covariant disintegration over
 orbits) not yet checked against primary sources. The algebraic identities and the
 numerical steps listed in Section 9 are machine-checked in
-`tests/test_e2c_transport.py`; the distributional steps (restriction to the
-rectangle and to the half-plane, the product $\delta(p_0)/p_1$) are not.
+`tests/test_e2c_transport.py`. Section 12 constructs the point-source field
+as an ordered limit of smooth conserved currents. It does not define the
+unregularised product $\delta(p_0)/(p_1-i0)$ or construct a quantum line operator.
 Nothing here concerns the probe beyond the quadratic cumulant, the nonabelian
 theory, or the existence of four-dimensional QED.
 
@@ -67,8 +69,10 @@ and the linear-response relation of Hypothesis 5 holds. This has the form of
 Hypothesis 3 of the paper, with $g_R^2=\mu(\{0\})$, $\sigma=\mu|_{(0,\infty)}$
 and the integral starting at $\inf\operatorname{supp}\sigma$, only when the
 Coulomb weight $\mu(\{0\})$ is positive. That lower limit may be $0$; the gap
-of Hypothesis 2, which makes it positive, is not implied. The massless helicity term that E2b could remove
-only through CPT never reaches either observable. What (B<sub>T</sub>)
+of Hypothesis 2, which makes it positive, is not implied. The point-source
+field here uses the current prescription of Section 12. A nonlocal ordered
+helicity term can reach the line field, but has zero centred sphere flux
+and zero loop component (Section 11); (B<sub>T</sub>) excludes it. What (B<sub>T</sub>)
 excludes is the local structure $G=\delta\delta-\delta\delta$; a contact
 $c\,G$ gives an area term whose regulated coefficient diverges as the
 regulator is removed, so it is not a finite string tension. The same tensor
@@ -150,8 +154,9 @@ loop involves only $S_{01,01}$, the line only $S_{0i,01}$.
 | $\epsilon$ | $0$ | $0$ | $0$ |
 | dual $p^2G-T^E$ | $p_2^2+p_3^2$ | — | — |
 
-**Lemma 1.** The helicity term does not reach the loop, because the component
-vanishes identically, nor the line, because the component is proportional to
+**Lemma 1 (covariant tensor projection).** An $O(4)$-covariant helicity tensor
+does not reach the loop, because the component
+vanishes identically, nor the static slice of the line, because the component is proportional to
 $p_0$ and the line integrates over all time. CPT is therefore not needed for
 either static observable. The local term $\epsilon$ never reaches them. (This
 reads the helicity term as an $O(4)$-covariant part of (E). Section 11 shows
@@ -248,7 +253,8 @@ depend on $r$.
 
 ## 5. The field of a static line
 
-**Proposition 4.** At $O(q_W)$ the field of a static line through the origin is
+**Proposition 4 (with the current prescription of Section 12).** At $O(q_W)$
+the point-source field through the origin is
 a gradient, $\langle E_i(\mathbf x)\rangle\propto q_W\,\partial_ia^{(3)}(\mathbf x)$,
 independent of the half-plane chosen to span it. Under (C), its flux through a
 sphere, normalised by its limit at infinity, is
@@ -264,12 +270,14 @@ proportional to $p_0$ and is removed by $\delta(p_0)$. The sphere flux of
 $-\nabla a^{(3)}$ is $-4\pi r^2\,\partial_ra^{(3)}$, and
 $-4\pi r^2\partial_r[e^{-\sqrt sr}/(4\pi r)]=(1+\sqrt sr)e^{-\sqrt sr}$. ∎
 
-*Scope of this proof.* The infinite half-plane is handled formally: the
+*Scope of this Fourier argument.* The infinite half-plane is handled formally: the
 product of $\delta(p_0)/(p_1-i0)$ with $p_1p_i\hat a$, and the replacement
 $p_1/(p_1-i0)=1$, must be defined as a distribution against a specified class
-of test functions. With the heat-kernel regulator the integrand is smooth and
-the step goes through; for a general tempered $\mu$ it is not proved here, nor
-is the independence of the half-plane for general distributions.
+of test functions. Heat smearing makes the position-space kernel smooth;
+its momentum kernel still has a Coulomb singularity at $p=0$, so smearing
+alone does not justify that product. Section 12 proves the stated field by
+an ordered conserved-current limit under (I), without using the product.
+Equivalence to every possible sharp half-plane extension remains unproved.
 
 Under (B<sub>T</sub>) violated, the $G$ component $\delta_{i1}/(ip_1)$ is not a
 gradient: it is a field concentrated on the auxiliary half-plane, a flux sheet
@@ -277,7 +285,10 @@ whose position depends on an arbitrary choice.
 
 ## 6. Theorem
 
-**Theorem E2c.** Assume (E), (I), (B<sub>T</sub>) and (L). For every $r>0$:
+**Theorem E2c (specified observables).** Assume (E), (I), (B<sub>T</sub>) and
+(L). Take the rectangle potential by Section 4's ordered regulator limit
+and the source field by Section 12's conserved-current prescription. For
+every $r>0$:
 
 1. $V(r)-V(r_0)=-q_W^2\,[a^{(3)}(r)-a^{(3)}(r_0)]$ with
    $a^{(3)}(r)=\int d\mu(s)\,e^{-\sqrt s\,r}/(4\pi r)$ and $\mu\ge0$;
@@ -529,3 +540,113 @@ that potential is itself equal-time local. Two points remain open here: that
 the terms supported at the origin are $O(4)$-covariant (or, if not, that
 non-covariant Bianchi-compatible polynomials still do not reach $r>0$), and a
 textbook statement of the continuation.
+
+## 12. A conserved-current definition of the point-source field (23 October 2026)
+
+**Result: PROVED_CONDITIONALLY on (E), (I), (B<sub>T</sub>), (L), for the
+prescription below.** This replaces the formal half-plane multiplication
+in Proposition 4. It constructs a linear response, not a renormalised
+quantum Wilson-line operator.
+
+Choose a nonnegative radial $\rho\in C_c^\infty(\mathbb R^3)$ of integral one,
+$\rho_\delta(x)=\delta^{-3}\rho(x/\delta)$, a unit vector $n$, and a return
+distance $R$. Put
+$$h_{R,\delta}(x)=n\int_0^R\rho_\delta(x-\ell n)d\ell,
+\qquad \operatorname{div}h_{R,\delta}=\rho_\delta(x)-\rho_\delta(x-Rn).$$
+Let $\chi\in C_c^\infty(\mathbb R)$ equal one on $[-1,1]$, vanish outside
+$[-2,2]$, and set $\chi_T(t)=\chi(t/T)$. The smooth compact current
+$$J_0=\chi_T(t)[\rho_\delta(x)-\rho_\delta(x-Rn)],\qquad
+J_i=-\chi'_T(t)h_{R,\delta,i}(x)$$
+is conserved, since the two divergences cancel exactly. It is the boundary
+of the smooth surface current with $\Sigma_{0i}=-\chi_T h_i$ and
+$\Sigma_{i0}=-\Sigma_{0i}$, using $J_\nu=\partial_\mu\Sigma_{\mu\nu}$.
+Thus Bianchi and integration by parts act on compact test functions before
+any limit. Contracting $T^E a$ with $\Sigma$ is exactly the curl of the
+auxiliary convolution $A_\mu=a*J_\mu$; this auxiliary $A$ does not assume an
+operator potential. At $t=0$ take
+$E_i=\partial_0 A_i-\partial_i A_0$, with the source charge factor $q_W$.
+
+**Kernel estimates, including the Coulomb mode.** Under (I), the positive
+kernel $a(x)=\int\Delta_s(x)d\mu(s)$ is locally integrable in four
+dimensions. Indeed $\int_{|x|<L}\Delta_s(x)dx$ is bounded for $0\le s\le1$
+by the massless integral, and for $s\ge1$ by $\int\Delta_s=1/s$.
+For every $d>0$ and derivative order $k$, its ordinary derivatives satisfy
+$$|\partial^k a(x)|\le C_{k,d}(1+|x|)^{-2-k}\quad (|x|\ge d).$$
+To see the bound, differentiate
+$\Delta_s(x)=\sqrt{s}K_1(\sqrt{s}|x|)/(4\pi^2|x|)$ (or its heat integral).
+For $s\le1$ the dimensionless Bessel factors are bounded and
+$\mu([0,1])<\infty$. For $s>1$, multiply the Bessel factors by $(1+s)$:
+their exponential decrease, with $|x|\ge d$, bounds that product uniformly;
+the remaining measure is $d\mu/(1+s)$. The same argument in three dimensions
+gives $|\partial^k a^{(3)}(x)|\le C_{k,d}(1+|x|)^{-1-k}$ away from zero.
+No mass gap is used.
+
+**Ordered limits and proof.** Fix $\delta,R$ and a compact observation set
+disjoint from both source balls. The derivatives in the temporal sides
+are dominated by an integrable $C(1+|t|)^{-3}$, uniformly on that set.
+Dominated convergence gives
+$$\lim_{T\to\infty}E_i(0,x)
+=-q_W\partial_i\{a^{(3)}*\rho_\delta(x)
+                 -a^{(3)}*\rho_\delta(x-Rn)\}.$$
+The connectors have $|t|\ge T$. Their contribution is bounded by
+$C_{R,\delta}\sup_{|t|\ge T}|\partial_0a(t,y)|
+\int|\chi'_T(t)|dt=O_{R,\delta}(T^{-3})$ and vanishes. The exact exponent
+is only an upper bound; no uniform rate in $R$ or $\delta$ is asserted.
+Now send $R\to\infty$ at fixed $\delta$: the three-dimensional gradient
+bound removes the return source locally uniformly. Finally
+$\delta\to0$ gives $-q_W\nabla a^{(3)}(x)$ locally uniformly on
+$\mathbb R^3\setminus\{0\}$. These limits are independent of $n$,
+$\chi$ and the chosen radial mollifier. A smooth bounded-length connector
+path at fixed $R$ gives the same result by the same endpoint estimate.
+
+An optional heat regulator may be removed at fixed finite smooth current
+before these limits, since it is an approximate identity in tempered
+distributions. It is unnecessary for the off-source estimates above.
+This does not interchange the regulator and time limits of the *quadratic
+self-energy* in Section 4: for the rectangle energy one still takes
+$T\to\infty$ before heat removal and subtracts the separation-independent
+self-energy. No perimeter energy is present in this one-point field limit.
+
+**Contacts.** The allowed polynomial $q(p^2)T^E$ contracts to derivatives
+of $J$. At an observation point outside the two source balls, with the
+connectors at remote times, these distributions have disjoint support and
+vanish. Therefore they do not reach the limiting field at $x\ne0$.
+Finite source width matters: a contact can act inside its source ball.
+The Bianchi-violating $G$ term is outside the hypotheses.
+
+**Finite smearing (23 October 2026).** Take $\rho_\delta$ radial. After the
+first two limits the field at fixed $\delta$ is
+$-q_W\nabla(a^{(3)}*\rho_\delta)$. Outside the mollifier ball, Newton's shell
+theorem for each Yukawa component (note E3, Section 11.1) gives
+$a^{(3)}*\rho_\delta=\int d\mu(s)\,F_\delta(\sqrt s)\,e^{-\sqrt s r}/(4\pi r)$,
+with $1\le F_\delta(x)\le\sinh(x\delta_0)/(x\delta_0)$, where $\delta_0$ is
+the support radius. So at every finite smearing the profile outside the
+mollifier is the Laplace transform of $F_\delta\,d\nu$, with the same support
+edge and the same Coulomb weight. Since $F_\delta\to1$ locally uniformly,
+Theorem A and the threshold bounds hold before the last limit, not only after
+it. A mollifier without compact support loses this form. Note E3, Section
+11.2, shows that a Gaussian probe's effective mass then drops below $M_*$
+(CHECKED).
+
+**Verification and remaining boundary.** The code's
+`rectangle_current_field` integrates the two temporal sides and both
+connectors directly with differentiated four-dimensional propagators.
+Tests check the ordered limits for a Coulomb atom and a Coulomb-plus-massive
+measure, and two return directions. These are CHECKED benchmarks of the
+proof, not its justification. An arbitrary raw sharp half-plane product,
+an equality of all possible line-extension prescriptions, the existence
+of an interacting Wilson-line operator, and a Wightman-to-Schwinger theorem
+under exactly E2b's axioms remain UNRESOLVED.
+
+## 13. Exact positive, Coulombic, gapless witness
+
+Take $d\mu(s)=\delta_0(ds)+\mathbf1_{(0,1)}(s)ds$. It obeys (I), is
+positive and has Coulomb weight one. Its Stieltjes kernel is
+$$\mathcal G(z)=\frac1z+\log\frac{z+1}{z}\quad(z>0).$$
+Its massive spectral support has infimum zero, and
+$$\Phi(r)=2\int_0^1 M^3e^{-rM}dM
+=\frac{12}{r^4}\left[1-e^{-r}\left(1+r+\frac{r^2}{2}+\frac{r^3}{6}\right)\right],
+\qquad \Gamma(r)\sim\frac4r\to0.$$
+Thus positive spectral transport plus a Coulomb pole does not prove a
+positive massive edge. This is an exact counterexample within the assumed
+spectral class; it makes no assertion about the full QED spectral density.

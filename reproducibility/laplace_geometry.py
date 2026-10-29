@@ -97,8 +97,16 @@ def _panels(r=None):
 
 
 def edge_integral(fun, r=None):
-    """Integrate fun(x) over x in [2m, inf) with the edge-softening substitution."""
-    return mp.quad(lambda t: 2 * t * fun(2 * M + t**2), _panels(r))
+    """Integrate fun(x) over x in [2m, inf) with the edge-softening substitution.
+
+    With r given, fun carries exp(-r x). The factor exp(-2mr) is taken out
+    before quadrature: mp.quad stops on an absolute error, and the unscaled
+    integrand came out wrong in the sixth digit for r >= 20.
+    """
+    if r is None:
+        return mp.quad(lambda t: 2 * t * fun(2 * M + t**2), _panels(r))
+    scale = mp.e ** (-2 * M * r)
+    return scale * mp.quad(lambda t: 2 * t * fun(2 * M + t**2) / scale, _panels(r))
 
 
 def a_moment(n, r):

@@ -137,3 +137,58 @@ def test_canonical_id_prefers_identifiers_over_titles():
     assert sdb.canonical_id(doi="10.1/A", title="t") == "doi:10.1/a"
     assert sdb.canonical_id(arxiv="2501.00001", title="t") == "arxiv:2501.00001"
     assert sdb.canonical_id(title="Pade Approximants").startswith("fuzzy:")
+
+
+# --- the API client: no personal address by default, cache replayable offline --
+from scilit import sources as src  # noqa: E402
+
+
+def _captured_search(monkeypatch):
+    urls = []
+    monkeypatch.setattr(src, "fetch", lambda url, *a, **k: urls.append(url) or {"results": [], "meta": {}})
+    src.oa_search("spectral representation of the static quark potential")
+    return urls[0]
+
+
+def test_cache_keys_are_unchanged_and_the_cached_response_replays(monkeypatch):
+    """The key is the SHA-256 of the URL as built, as before 24 October 2026."""
+    import hashlib
+    url = _captured_search(monkeypatch)
+    key = hashlib.sha256(url.encode()).hexdigest()[:24]
+    assert (src.CACHE / f"openalex_{key}.json").is_file()
+
+
+def test_no_contact_address_is_sent_unless_the_user_sets_one(monkeypatch):
+    monkeypatch.setattr(src, "CONTACT", "")
+    url = _captured_search(monkeypatch)
+    out = src._outgoing(url)
+    assert "mailto" not in out and "@" not in out and "@" not in src._user_agent()
+    assert src._outgoing("https://api.crossref.org/works/10.1/x?mailto=" + src._KEY_CONTACT) \
+        == "https://api.crossref.org/works/10.1/x"
+    with pytest.raises(src.FetchError):
+        src._outgoing("https://api.unpaywall.org/v2/10.1/x?email=" + src._KEY_CONTACT)
+    monkeypatch.setattr(src, "CONTACT", "someone@example.org")
+    assert "mailto=someone@example.org" in src._outgoing(url) and "someone@example.org" in src._user_agent()
+
+
+def test_redirects_and_retry_after_are_bounded():
+    assert src._same_origin("https://api.openalex.org/works", "https://api.openalex.org/works?page=2")
+    assert not src._same_origin("https://api.openalex.org/works", "https://evil.example/works")
+    assert not src._same_origin("https://api.crossref.org/w", "http://api.crossref.org/w")
+    assert src._same_origin("http://export.arxiv.org/api/query", "http://export.arxiv.org/api/query")
+    assert src._retry_delay("100000", 2.0) == src.MAX_RETRY_AFTER
+    assert src._retry_delay("3", 2.0) == 3.0 and src._retry_delay(None, 2.0) == 2.0
+
+
+def test_what_is_new_regenerates_with_its_hand_written_addendum(monkeypatch):
+    """The report is generated from data/literature.db plus a hand-maintained addendum (R11)."""
+    import re
+    import sqlite3
+    from scilit import reports
+    out = {}
+    monkeypatch.setattr(reports, "_w", lambda name, lines: out.setdefault(name, "\n".join(lines) + "\n"))
+    db = Path(__file__).resolve().parents[1] / "data" / "literature.db"
+    reports.what_is_new(sqlite3.connect(f"file:{db.as_posix()}?mode=ro", uri=True))
+    committed = (reports.REPORTS / "WHAT_IS_ACTUALLY_NEW.md").read_text(encoding="utf-8").replace("\r\n", "\n")
+    undated = lambda text: re.sub(r"^Generated \d{4}-\d{2}-\d{2}\.", "Generated DATE.", text, flags=re.M)
+    assert undated(out["WHAT_IS_ACTUALLY_NEW.md"]) == undated(committed)

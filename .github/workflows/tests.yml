@@ -10,10 +10,13 @@ name: tests
 # 19 October 2026, and a TeX Live or Python change there would otherwise
 # arrive unannounced.
 #
-# Actions are pinned to the majors that run on Node 24 (checkout, setup-python
-# and upload-artifact v7, checked on 2026-10-03 in each tag's action.yml);
-# the v4/v5 majors ran on Node 20, which the runners now force onto Node 24
-# with a deprecation notice.
+# Actions are the majors that run on Node 24 (checkout, setup-python and
+# upload-artifact v7, checked on 2026-10-03 in each tag's action.yml); the
+# v4/v5 majors ran on Node 20, which the runners now force onto Node 24 with a
+# deprecation notice. Each is pinned to the commit its v7 tag pointed to on
+# 2026-10-24 (git ls-remote), so a moved tag cannot change what runs.
+# Python packages are installed with constraints.txt, the exact versions of the
+# verified clean rooms, so a new numpy or scipy cannot move the numerical guards.
 
 on:
   push:
@@ -21,29 +24,56 @@ on:
   pull_request:
   workflow_dispatch:
 
+# The token only reads the repository; no step pushes or publishes.
+permissions:
+  contents: read
+
 jobs:
   tests:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
 
-      - uses: actions/setup-python@v7
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
         with:
           python-version: '3.13'
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m pip install -c constraints.txt pip
+          pip install -r requirements.txt -c constraints.txt
 
       - name: Test suite
-        run: python -m pytest tests -q
+        run: python -m pytest tests -q -rs
 
       - name: Numerical reproducibility (no network)
-        run: python make.py numerics
+        # Byte-level guard on deterministic outputs only. Rendered figures depend
+        # on the matplotlib version and system fonts, and extended_verification.json
+        # records package versions and QUADPACK error estimates. A clean-room run
+        # with numpy 2.5.4, scipy 1.18.1 and matplotlib 3.11.2 changed exactly
+        # these and nothing else (.agent/reports/P13.md).
+        # The four files below hold float64 values whose last digits depend on the
+        # platform: Windows and Ubuntu 24.04, with the same packages, differed in
+        # float64 round-off diagnostics and by 1 ulp in a Monte Carlo RMSE
+        # (.agent/reports/R6.md). They are compared on scientific content instead.
+        # Python's csv module writes CRLF on every platform while the committed
+        # files are LF, so line endings are ignored (R6, Ubuntu 24.04).
+        run: |
+          python make.py numerics
+          git diff --ignore-cr-at-eol --exit-code -- output/data ':(exclude)output/data/extended_verification.json' ':(exclude)output/data/localizing_bounds.csv' ':(exclude)output/data/uncertainty_summary.json' ':(exclude)output/data/verification_checks.json' manuscript/numerical_results.qmd paper/figures
+          args=""
+          for f in extended_verification.json localizing_bounds.csv uncertainty_summary.json verification_checks.json; do
+            git show "HEAD:output/data/$f" > "$RUNNER_TEMP/base_$f"
+            args="$args $RUNNER_TEMP/base_$f output/data/$f"
+          done
+          python scripts/compare_numerical_outputs.py $args
 
       - name: Audit ledgers rebuild cleanly
-        run: python make.py audit
+        run: |
+          python make.py audit
+          git diff --ignore-cr-at-eol --exit-code -- data/literature_audit.csv data/claims_matrix.csv data/theorem_status.csv
 
       - name: Bibliography reproduces the committed files (offline)
         run: |
@@ -62,15 +92,17 @@ jobs:
     # alone does not exercise the certification protocol.
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-python@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
         with:
           python-version: '3.13'
 
       - name: Install core + certified dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r reproducibility/requirements-certified.txt
+          python -m pip install -c constraints.txt pip
+          pip install -r reproducibility/requirements-certified.txt -c constraints.txt
 
       - name: Backend present (otherwise the certified tests would silently skip)
         run: python -c "import flint; print('python-flint', flint.__version__)"
@@ -90,11 +122,13 @@ jobs:
   paper:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-python@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
         with:
           python-version: '3.13'
-      - run: pip install pytest
+      - run: pip install -c constraints.txt pytest
 
       - name: LaTeX structural validation
         run: python -m pytest tests/test_latex_structure.py tests/test_bibliography.py -q
@@ -110,10 +144,18 @@ jobs:
           sudo apt-get install -y --no-install-recommends texlive-latex-recommended \
             texlive-latex-extra texlive-science latexmk lmodern
 
+      - name: Clean build gate (any warning, overfull box or undefined reference fails)
+        # latexmk below exits 0 on warnings, and the tests job has no TeX, so
+        # test_paper_compiles_cleanly would otherwise always be skipped.
+        run: |
+          set -o pipefail
+          python -m pytest tests/test_paper_build.py::test_paper_compiles_cleanly -q -rs | tee paper_build.out
+          if grep -q "skipped" paper_build.out; then echo "the clean-build test was skipped"; exit 1; fi
+
       - name: Build paper
         run: cd paper && latexmk -pdf -interaction=nonstopmode paper.tex
 
-      - uses: actions/upload-artifact@v7
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
         with:
           name: paper
           path: paper/paper.pdf
@@ -121,7 +163,7 @@ jobs:
       - name: Build Portuguese discussion brief
         run: cd paper && latexmk -pdf -interaction=nonstopmode professor_brief.tex
 
-      - uses: actions/upload-artifact@v7
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
         with:
           name: professor-brief
           path: paper/professor_brief.pdf

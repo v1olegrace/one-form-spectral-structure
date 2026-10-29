@@ -303,3 +303,56 @@ de reflexão está fazendo uma afirmação sem prova.
 A etapa E2.2 ("Onde está a fronteira entre positividade de reflexão e H3")
 deixa de ser uma clarificação e passa a ser o conteúdo científico central: a
 fronteira não é conhecida em nenhuma das duas direções.
+
+## D7 — Escopo do Paper 1 depois das leituras e da extensão de 23/10/2026
+
+**Data:** 23/10/2026. Tarefa P11 do plano `.agent/plan.yaml`, executada por
+Claude depois que a sessão do Codex parou por limite de uso.
+
+### Decisão
+
+O Paper 1 continua sendo a nota física condicional. A cadeia é:
+
+- H3 (e, na ordem linear da sonda, a Proposição 7) leva ao Teorema A;
+- daí vêm as cotas clássicas C e E, creditadas como clássicas;
+- depois os modos de falha explícitos.
+
+Entra **um** parágrafo novo, "Finite probes", em "Scope and failure modes".
+Ele entra porque é um modo de falha do próprio observável: a cota de limiar
+só vale fora de uma sonda de suporte compacto. Para uma nuvem gaussiana, a
+própria cauda de carga da sonda empurra Γ abaixo do limiar.
+
+Ficam fora do Paper 1, nas notas do pacote:
+
+- os cruzamentos Euler–Heisenberg casados com a medida de Dirac;
+- a cota de energia por dualidade convexa;
+- a rede de verificação;
+- a extensão por truncamento da prova RPA.
+
+A discussão só os menciona em duas frases.
+
+### Créditos que mudam o texto
+
+- A forma de Källén–Lehmann de ⟨FF⟩ e a exclusão do termo de cone de luz
+  são de Benedetti–Casini–Magán (JHEP06(2023)095, §3). A classificação
+  tensorial E2b não é contribuição.
+- O uso de um determinante de Hankel negativo para refutar o caráter de
+  Stieltjes de um termo de ordem fixa é de Masjuan–Peris (eqs. 12–14).
+
+### O que fica para o Paper 2
+
+Sem mudança em relação a D1:
+
+- ambiguidade com amostras finitas;
+- certificados de Bernstein;
+- filtros polinomiais;
+- toda a maquinaria de problema inverso que não depende do observável.
+
+### O que pode reverter D7
+
+- Um precedente lido no nível de equação para o lema exterior das sondas
+  finitas tiraria a afirmação de novidade (que hoje não é feita), mas não o
+  parágrafo.
+- Uma prova de que a cauda gaussiana não afeta o observável definido pela
+  linha de Wilson pontual tornaria o parágrafo uma observação de
+  regularização, não de física.

@@ -27,4 +27,23 @@ Thumbs.db
 .DS_Store
 # Local agent settings and mixed personal archive (not research deliverables)
 .claude/
+.playwright-mcp/
+# Kept on disk, outside the thesis repository (decided 24 October 2026):
+# the pedagogical study notebook, personal archives, thesis build outputs,
+# personal meeting PDFs and review scratch folders.
+study/
+laplace/
+base_cientifica/
+output/tese_*/
+output/impressao_*/*.pdf
+reports/review_*/
+# Agent coordination files. The verification records in .agent/reports and
+# the computation evidence in .agent/evidence (scripts, data, literature
+# records) are tracked; test-run records stay local (.agent/reports/README.md).
+.agent/plan.yaml
+.agent/TAKEOVER_*.md
+.agent/CONTINUATION_*.md
+.agent/ASTRA_DIAGNOSIS.md
+.agent/continue_after_review.ps1
+.agent/run_step.py
 reports/memoria_viole_2026-09-14/

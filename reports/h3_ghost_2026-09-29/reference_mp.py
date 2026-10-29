@@ -92,6 +92,64 @@ def dirac_reference(k, L2, dps=60):
                 "residual_W_at_root": W_edge(d), "dps": dps}
 
 
+def dirac_reference_inputs(g2, L2, dps=60):
+    """Independent threshold-variable reference at the supplied exact inputs.
+
+    A Python float is converted directly to mp.mpf, preserving its binary
+    value. In particular this does not replace a stored production coupling
+    by an idealized ratio k/P. Unlike the production endpoint-log subtraction,
+    this integrates the density and its positive derivative directly in
+    u=v/v_b. It is intended for atoms a resolvable distance from the edge;
+    the older log-gap reference remains useful for tiny distances at b=1e6.
+    Increasing dps is evidence of numerical convergence, not certification.
+    """
+    with mp.workdps(dps):
+        g2, b = mp.mpf(g2), mp.mpf(L2)
+        if g2 <= 0 or b <= 4:
+            raise ValueError("require g2>0 and cutoff>4")
+        vb = mp.sqrt((b - 4) / b)
+
+        def s(u):
+            return 4 / (1 - (vb * u) ** 2)
+
+        def measure(u):
+            return ((3 - (vb * u) ** 2) * (vb * u) ** 2 * vb
+                    / (3 * mp.pi ** 2 * (1 - (vb * u) ** 2) ** 2))
+
+        p = mp.quad(lambda u: measure(u) / s(u), [0, 1])
+        z3 = 1 - g2 * p
+        if z3 <= 0:
+            return {"Z3": z3, "atom": None, "g2": g2, "L2": b, "dps": dps}
+
+        def f(v):
+            d = mp.power(10, v)
+            return z3 - g2 * mp.quad(lambda u: measure(u) / (b + d - s(u)), [0, 1])
+
+        hi = mp.log10(b)
+        for _ in range(1000):
+            if f(hi) > 0:
+                break
+            hi += 1
+        else:
+            raise RuntimeError("UNRESOLVED: independent upper bracket")
+        lo = hi - 1
+        for _ in range(1000):
+            if f(lo) < 0:
+                break
+            lo -= 1
+        else:
+            raise RuntimeError("UNRESOLVED: independent lower bracket")
+        v = mp.findroot(f, (lo, hi), solver="secant", tol=mp.power(10, -dps + 10))
+        d = mp.power(10, v)
+        t = b + d
+        j = mp.quad(lambda u: measure(u) / (t - s(u)) ** 2, [0, 1])
+        return {"Z3": z3, "g2": g2, "L2": b, "Pi_infinity": p,
+                "edge_distance": d, "log10_edge_distance": v,
+                "s_atom": t, "weight": 1 / (t * j),
+                "residual_W_at_root": f(v), "dps": dps,
+                "input_contract": "supplied values; Python floats preserved exactly"}
+
+
 def convergence_table(k, L2, dps_list=(30, 40, 60)):
     """Same case at increasing precision: the value must settle, not just exist."""
     out = []

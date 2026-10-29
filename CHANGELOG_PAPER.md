@@ -1,5 +1,210 @@
 # Changelog do manuscrito (`paper/paper.tex`)
 
+## v0.5.8 — 2026-10-24 — O termo O(α⁵) do coeficiente de três fótons
+
+Registro em `.agent/reports/R8.md`; nota E4, §11. As previsões foram
+registradas antes de calcular.
+
+- **O termo O(α⁵).** Abaixo de 4m², o corte de três fótons em O(α⁵) é a
+  interferência dos vértices de um e de dois loops. Na ordem dominante em s,
+  ele é fixado pelos coeficientes de Euler–Heisenberg de dois loops de
+  Ritus: 40/9 e 1315/252, em unidades de α/π. Eles foram lidos em Dunne
+  (hep-th/0406216, eq. (4.11)) e em Ravndal. A forma fechada autodual
+  (Dunne eqs. (6.2) e (6.6)) os confirma, pois dá 25/4 para 4c₁ − c₂.
+- **Fator do coeficiente dominante:** 1 + (1555/153)α/π, isto é, +2,36%. A
+  densidade pondera os invariantes como 5(a−b)² + 3(a+b)².
+- **Para γγ→γγ, o fator é 1 + (25555/2502)α/π.** O fator 186685/17514 de
+  Dicus–Kao–Repko (nota [10]) é a mesma expressão com um sinal trocado. Ele
+  era a base da estimativa anterior de 0,015/m.
+- **Raios.** O parágrafo "The first threshold need not be charged" passa a
+  dar r_Γ ≈ 20,64/m e r_× ≈ 22,55/m, com o fator incluído; os dois raios
+  entram 0,013/m. As demais ordens em α são estimadas em cerca de 0,003/m,
+  somando linearmente as linhas da nota E4, §11.5, sem cota.
+- **Bibliografia.** Nova referência `dunne_2004`, com metadados obtidos por
+  API e registrados no harvester. O gerador deixa de escapar `_` no campo
+  `doi`, porque o estilo compõe o DOI como URL e o `\_` aparecia literalmente.
+- **Envoltória do truncamento** (R9; nota E4, §12).
+  - *A cota.* É analítica e avaliada em float64; cada constante foi
+    conferida no código.
+  - *Os dados.* Os produtos até a ordem 22 reproduzem a série a 2×10⁻¹⁵.
+  - *O resultado.* A cota limita o truncamento espectral para s ≤ 1,5m².
+    Acima disso, uma hipótese de fator 2 cobre 0,04% de Φ₃γ. Juntas, as duas
+    partes mudam os raios em menos de 3×10⁻⁴/m. O texto do artigo substitui
+    "the spectral remainder is not uniformly bounded".
+- **Confirmação independente** (Abdul Hameed–Chaubey–Shao, arXiv:2604.00099,
+  nova referência `abdulhameed_chaubey_shao_2026`). O nosso box coincide com a
+  expansão de baixa energia publicada deles de ω⁴ a ω¹⁴, a 4×10⁻¹⁶. As
+  amplitudes de dois loops deles dão exatamente 25/4 e 1955/396, os
+  coeficientes de Ritus nas combinações que usamos. O artigo ganha uma frase
+  com essa citação. Com isso, o fator 2 em ω⁸ e o sinal trocado na nota [10]
+  são de DKR.
+- **Referências só no arXiv.** O estilo (`physofall.bst`) não imprimia o
+  identificador arXiv nem o DOI de entradas `@misc`. Seis referências do
+  artigo (Pobylitsa, Raman, Lawrence, Mutzel–Tilloy, Hinrichs–Polzer e Abdul
+  Hameed et al.) saíam sem como serem encontradas; agora mostram
+  `arXiv:NNNN.NNNNN`.
+- **DKR em ω⁸.** As lagrangianas efetivas deles, eqs. (13)–(15), dão
+  exatamente as nossas amplitudes ω⁴ e ω⁶ e o dobro da ω⁸. A seção de choque
+  completa deles apoia o nosso valor. Se o fator é deles, entrou na expansão
+  ω⁸ antes da Tabela II e da eq. (15), e a citação de 2025 (Heinzl et al.,
+  L₄,₄) o repete (CHECKED, não estabelecido).
+
+## v0.5.7 — 2026-10-23 — Fechamento local e alcance do erro E4
+
+- Os raios E4 são resultados do modelo de seis termos até s^9, com corte em
+  4m². Três avaliações da amplitude completa não limitam o resto num intervalo;
+  0,002/m é uma estimativa sob uma hipótese adicional, não uma cota verificada.
+- A expansão nova usa float64/complex128; a reconstrução racional de c1/c0 e
+  seis razões sucessivas não demonstram uma fração exata nem raio de convergência.
+- Comparador do CI recusa infinitos/NaN e aplica oito passos binary64 de fato.
+- Guardas de domínio para os momentos de sondas e caderno integrado aos 60 itens.
+
+## v0.5.6 — 2026-10-23 — Estudo numérico do erro da janela E4
+
+Resposta à revisão `reports/NEXT_STEPS_E4_REVIEW_2026-10-23.md`. Registros
+em `.agent/reports/R4.md` e `R5.md`; as previsões foram registradas antes de
+calcular.
+
+- **Amplitude completa de um loop γ*→3γ** (nota E4, §10; novo módulo
+  `reproducibility/three_photon_amplitude.py`). Os parâmetros de Feynman somam
+  as seis ordenações, e os traços de Dirac são calculados uma única vez.
+  Checagens:
+  - identidade de Ward em todas as pernas, inclusive a virtual;
+  - simetria de Bose;
+  - limite EH com normalização absoluta $-2/15$, que não é entrada do
+    cálculo;
+  - amplitudes on-shell de Dicus–Kao–Repko em $\omega^4$ e $\omega^6$,
+    exatas;
+  - seção de choque completa contra a Tabela III deles, dentro de 0,5% em
+    sete energias.
+
+  A coluna $\omega^8$ deles é o dobro da nossa, e a própria seção de choque
+  completa deles apoia o nosso valor (CHECKED).
+- **Densidade de três fótons além de $s^4$.** Série em $s/4m^2$ com
+  coeficientes 1,877 ($c_1/c_0=335/714$), 2,457, 2,793, 2,960, 3,018. A
+  amplitude não expandida em $s=1,2,3$ confirma a série com sua cauda.
+- **Par em $O(\alpha^2)$.** Usa a densidade de dois loops de
+  Laporta–Jentschura, eq. (55). Não se soma um fator de Sommerfeld separado.
+- **Dois raios no artigo.** O parágrafo "The first threshold need not be
+  charged" agora separa os dois critérios:
+  - $\Gamma\ge2m$ até $r_\Gamma\approx20{,}65/m$;
+  - o par domina o perfil até $r_\times\approx22{,}57/m$;
+  - entre os dois, o par ainda domina $\Phi$, mas $\Gamma<2m$.
+
+  O texto também declara que $\nu$ é a densidade 1PI na ordem adotada, e que
+  a forma $s^4$ é assintótica em $r$ grande. As ordens superiores em $\alpha$
+  são estimadas em $0{,}015/m$, sem cota.
+- **Sondas.** Com o fator exterior completo, uma bola de raio $10/m$ desloca
+  os raios em cerca de $8/m$. Para carga $e$, a cauda EH da própria sonda
+  fecha a janela perto de $11{,}6/m$. A cauda de três fótons vem antes só
+  abaixo de $q\approx10^{-4}e$.
+- **RPA.** A imagem do "átomo que escapa" fica restrita ao corte duro com
+  borda positiva. Com suporte ilimitado, como $\eta=e^{-s}ds$, a massa escapa
+  por uma ressonância embutida no contínuo (CHECKED).
+- **Novas referências:** Laporta–Jentschura (2024).
+- **Versão:** v0.5.6.
+
+## v0.5.5 — 2026-10-23 — Correções da revisão independente e a janela QED do limiar
+
+Uma revisão independente da entrega da v0.5.4, feita por outro agente
+(`reports/INDEPENDENT_REVIEW_CLAUDE_2026-10-23.md`), encontrou os problemas
+corrigidos abaixo. Registros: `.agent/reports/R0.md`, `R1.md` e `R2.md`.
+
+- **Dois números errados na quinta casa.** São CHECKED, não aparecem no
+  artigo, estão na nota E3 e nos testes.
+  - $\Gamma_{\rm Gauss}(300/m)$: era $2{,}00755$, o correto é $2{,}00752$.
+  - $\Gamma_{\rm bola}(50/m)$: era $2{,}03646$, o correto é $2{,}03647$.
+  - **Causa:** o `mp.quad` para quando a estimativa de erro fica abaixo de
+    um limiar *absoluto*. Integrandos da ordem de $e^{-200}$ eram integrados
+    no nível mais grosso, de forma estável e errada.
+  - **Correção:** os integrandos são divididos por uma cota a priori, e uma
+    guarda recusa erro relativo grande.
+  - Os três raios de cruzamento e $\Gamma(50/m)=0{,}932$ da gaussiana não
+    mudaram.
+- **Sondas finitas.**
+  - O artigo agora declara $\rho\ge0$; sem isso $F\ge1$ falha. Uma
+    densidade com sinal e carga total 1 tem $F(4)=-1{,}258$.
+  - A frase da v0.5.4 "as cotas exigem suporte compacto" superestimava.
+    Suporte compacto com $\rho\ge0$ é condição suficiente; não se afirma que
+    seja necessária.
+  - O molificador da linha é declarado não negativo.
+  - O perfil $(1-u^2/a^2)^2$ é $C^1$, não suave.
+- **Caso crítico $Z_3=0$.**
+  - A afirmação de que $\mathcal G-1/\mu$ é Stieltjes positiva não tinha
+    prova. Agora tem: Proposição 3b da nota RPA, por um limite de
+    acoplamentos subcríticos. A massa que escapa para o infinito vira a
+    constante. É CHECKED em $\eta=1_{[4,10]}$.
+  - O apêndice ganha uma frase. O Teorema 2.2 de Schilling–Song–Vondraček,
+    lido com prova na prévia da editora, é citado só para comparação.
+- **Novo: a janela QED do limiar de pares** (nota E4; parágrafo "The first
+  threshold need not be charged").
+  - O corte de três fótons acrescenta
+    $d\nu=\frac{17}{11\,664\,000}(\alpha/\pi)^4s^4/m^8\,ds$ para $s\ll m^2$.
+  - Duas rotas concordam exatamente: o corte de três corpos a partir do
+    vértice de Euler–Heisenberg, e o resultado de QCD de Groote–Pivovarov
+    com o mapa abeliano. O mapa leva um fator 16, porque a fonte se acopla às
+    quatro pernas.
+  - Para o coeficiente linear, $\Gamma\ge2m$ só até $r\approx20{,}7/m$
+    (CHECKED).
+  - Nova referência: Groote–Pivovarov (2001).
+- **Versão:** v0.5.5.
+
+## v0.5.4 — 2026-10-23 — Sondas finitas, créditos lidos e a linha por correntes conservadas
+
+Continuação do plano P0–P14 do Codex (`.agent/plan.yaml`), interrompido por
+limite de uso; relatórios em `.agent/reports/`.
+
+- **Sondas finitas (novo parágrafo em "Scope and failure modes").**
+  - Fora de uma sonda radial de suporte compacto, o perfil é a transformada
+    de Laplace de $F\nu$, com $1\le F\le\sinh(xa)/(xa)$. A borda e os
+    teoremas C e E valem em $r>a$ (nota E3, §11.1).
+  - Para uma nuvem gaussiana de largura $10/m$, a cauda da própria sonda
+    domina e $\Gamma(50/m)=0{,}932\,m<2m$ (CHECKED, duas rotas independentes).
+    As cotas exigem suporte compacto.
+- **Proposição 7.** O campo da linha estática passa a ser definido como
+  limite ordenado de correntes conservadas suaves (nota E2c, §12). A prova
+  dizia que o regulador tornava $\delta(p_0)/(p_1-i0)$ bem definido; isso
+  não se sustenta, porque o núcleo em momento mantém a singularidade de
+  Coulomb.
+- **Cadeia de bolhas.**
+  - $\mathcal G$ Stieltjes para $Z_3>0$ agora tem prova direta, por
+    aproximação atômica positiva e truncamento, sem depender do enunciado do
+    SSV, que não foi lido no nível de teorema.
+  - O átomo acima do corte exige limite positivo na borda, com
+    contraexemplo exato.
+  - Lacunas internas podem ter átomos.
+  - A falha em ordem fixa recebe o crédito de Masjuan–Peris.
+- **Créditos lidos no nível de equação.**
+  - Benedetti–Casini–Magán (JHEP06(2023)095, §3): a forma de
+    Källén–Lehmann de $\langle FF\rangle$ e a exclusão do termo de cone de
+    luz.
+  - Masjuan–Peris (eqs. 12–14): o determinante de Hankel como falsificador.
+- **Discussão.** A extensão Euler–Heisenberg casada para sondas compactas
+  e a cota de energia para fontes arbitrárias.
+
+Não mudou: os teoremas A, C, E e H e as hipóteses H1–H5.
+
+PDF: 16 páginas; registro estrutural PASS (`output/data/canonical_pdf_qa.json`),
+sem avisos de LaTeX. Suíte: 469 testes no snapshot candidato. São 466
+na árvore de trabalho, onde três arquivos novos ainda não são rastreados e o
+teste de higiene roda por arquivo rastreado.
+
+## v0.5.3 — 2026-10-05 — Alcance da sonda e Bianchi a tempos iguais
+
+- O produto ordenado precisa de localidade a tempos iguais e prescrição de
+  contatos compatível; $F=dA$ sozinho não garante essa premissa.
+- A subtração das energias isoladas continua independente de r. Interações
+  mistas podem depender da separação e da forma da fonte; a ponte usada
+  no artigo é de resposta linear.
+- A discussão distingue os sinais dos setores EH calculados do sinal de
+  um cumulante geral; bolas/cascas são benchmarks do termo local.
+- QA compara o inventário completo de fontes atuais, normalizando só CRLF
+  para LF; o teste de hash funciona sem PyMuPDF.
+
+PDF: 15 páginas; registro estrutural PASS. Os 397 testes passaram sem
+omissões; numerics, audit, certified, reintegração Arb e duas execuções de
+bib passaram. Relatório: `reports/CONCLUSAO_CLAUDE_2026-10-05.md`.
+
 ## v0.5.2 — 2026-10-03 — Revisão: o s* da Proposição 7 e a bibliografia conferida
 
 Revisão adversarial da v0.5.1, no mesmo dia. O PDF canônico e o registro em
@@ -59,6 +264,22 @@ a medida de Coulomb. Quatro testes novos em E2c, e um caso a mais no teste de hi
 
 Não mudou: o resultado da Proposição 7 sob as suas hipóteses, os teoremas A,
 C, E e H, e a cadeia de bolhas. O artigo passa de 14 para 15 páginas.
+
+## Revisão local da v0.5 — 2026-10-02 — Auditoria adversarial
+
+Rodada ainda não publicada. O registro de correções e verificações desta
+rodada não foi entregue naquela data. A conclusão atual está em
+`reports/CONCLUSAO_CLAUDE_2026-10-05.md`; os números e afirmações
+da entrada histórica abaixo não substituem esse registro. A auditoria exige
+separar o resultado sob uma representação euclidiana assumida da derivação
+dessa representação a partir de axiomas de Wightman, e distinguir o contato
+de área divergente de uma tensão física finita.
+
+O controle do PDF agora compara o registro de QA com as fontes do diretório
+de trabalho, normalizando somente CRLF para LF. Assim, uma alteração local
+é detectada antes de commit; comparar apenas com `HEAD` deixava esse caso
+passar. Um teste verifica que diferenças de conteúdo e CR isolado continuam
+sendo detectadas.
 
 ## v0.5 — 2026-10-01 — Do ⟨FF⟩ ao kernel estático, em ordem linear na sonda
 

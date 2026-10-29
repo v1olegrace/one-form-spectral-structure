@@ -223,3 +223,20 @@ def test_validate_request_is_shared():
     assert validate_request(mp.mpf(2), 3, "K") == 2
     with pytest.raises(ValueError):
         validate_request(mp.mpf(2), 0, "n_max")
+
+
+def test_laplace_geometry_measure_is_the_shared_dirac_density():
+    """The certification keeps its own copy of the one-loop density; it must equal spectral_models'."""
+    import spectral_models
+    shared = spectral_models.dirac_density(m=laplace_geometry.M, q=laplace_geometry.Q, g2=laplace_geometry.G2)
+    for x in ("1.5", "2", "2.000001", "2.3", "3.7", "40"):
+        x = mp.mpf(x)
+        assert laplace_geometry.dnu_density(x) == shared(x)
+
+
+def test_laplace_geometry_profile_is_relative_at_large_r():
+    """a_0(r) = Phi(r) used to stop on mp.quad's absolute error: 3.6e-6 wrong at r >= 20."""
+    for r in (20, 50, 200):
+        r = mp.mpf(r)
+        scaled = mp.e ** (-2 * laplace_geometry.M * r) * laplace_geometry.scaled_moment(0, r)
+        assert abs(laplace_geometry.Phi(r) / scaled - 1) < mp.mpf("1e-12")

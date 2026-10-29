@@ -1,23 +1,25 @@
 {
   "status": "PASS",
-  "draft": "v0.5.2",
-  "pages": 15,
-  "pdf": "C:\\Users\\meyy\\Downloads\\physics of all\\output\\pdf\\spectral_structure_v052.pdf",
-  "pdf_sha256": "1773f4e96d17e1de737df674c899433d0aa7d2917756af166cd45269a13c4e8d",
-  "log_sha256": "ad6b3fda042d89729f37231bb480ba8c3c8eb2c79a2c4999d3615ddd356c9dd2",
+  "draft": "v0.5.8",
+  "pages": 17,
+  "pdf": "paper/paper.pdf",
+  "pdf_sha256": "c98fa2280c94273e3bf00988f9bb19835c329a291f49a2010af2391573031849",
+  "log": "paper/paper.log",
+  "log_sha256": "3e57c89bb4760a97c9029f403c9819aa8cc6017fad0177ef66ef927e5d5fda18",
   "font_types": [
     "Type0",
     "Type1"
   ],
   "issues": [],
+  "source_hash_normalization": "CRLF to LF; all other bytes preserved",
   "source_sha256": {
-    "paper\\paper.tex": "9b61ab07b58fc752088fe86497924070af0e9f81d078171e3bb0ff0474a4a1ac",
-    "paper\\appendix.tex": "17c80e54d6070da7d3eefdd14010e041def936d58308a0adebdb4fcbd158365a",
-    "paper\\references.bib": "bd240629f5e994e83516c77f15a5c8f4dcd67e67d09e84eaf37df4f834fc8323",
-    "paper\\physofall.bst": "43614c4d0db7ccbe92ead9edafb146d0a99a934ad098fc5617886d58cdb4bc82",
-    "paper\\figures\\dirac_edge_law.dat": "d6673abf1525d1eb942c547d843b526ab394906609603045c2e3b6cc62f6bbc0",
-    "paper\\figures\\hidden_threshold.dat": "8435829f67d65515a21bd9a1fccb7cad025330e44839ddc3649c576792ab8b7c"
+    "paper/paper.tex": "6ff25a22a25cabe5d33d645f1eec9da76e98dee29849e85d154e8ee635308dd6",
+    "paper/appendix.tex": "b60b561aa217c43958e12cb884bdca2171cd9f9f9934ada73d16ae081d22ffb0",
+    "paper/references.bib": "4de898cd26e73961f1a3af3b3a739006eb881779adfb615c49987a65f3f44418",
+    "paper/physofall.bst": "3675d82b98c4ed948c87e3db375872a0735a309c7d03b85bf8b874bf35f4ba92",
+    "paper/figures/dirac_edge_law.dat": "d6673abf1525d1eb942c547d843b526ab394906609603045c2e3b6cc62f6bbc0",
+    "paper/figures/hidden_threshold.dat": "8435829f67d65515a21bd9a1fccb7cad025330e44839ddc3649c576792ab8b7c"
   },
   "visual_review": "NOT_ASSESSED_BY_SCRIPT",
-  "scope": "PDF structure and current source inventory; not scientific validation"
+  "scope": "PDF structure and current source inventory; caller must pair these with a fresh build; not scientific validation"
 }

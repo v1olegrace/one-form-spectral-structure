@@ -25,9 +25,11 @@ import pytest
 _A = Path(__file__).resolve().parents[1] / "reports" / "h3_ghost_2026-09-29"
 sys.path.insert(0, str(_A))
 
-mp = pytest.importorskip("mpmath")
-ga = pytest.importorskip("ghost_analysis")
-ref = pytest.importorskip("reference_mp")
+# Required: mpmath is in requirements.txt and both modules live in this repository.
+# A missing or broken module must fail, never skip the whole file in silence.
+import mpmath as mp  # noqa: E402
+import ghost_analysis as ga  # noqa: E402
+import reference_mp as ref  # noqa: E402
 
 L2 = 1.0e6
 
@@ -108,6 +110,55 @@ def test_primary_weight_is_accurate_and_crosschecks_are_reported():
         fd = abs(mp.mpf(got["weight_finite_difference"]) - w_ref) / abs(w_ref)
         assert fd < 1e-6, f"finite-difference cross-check off by {fd}"
         assert rel < fd, "the analytic route must beat the finite difference"
+
+
+@pytest.mark.parametrize("cutoff,coupling", [
+    # Exact stored binary64 inputs from the failed production case. Never
+    # replace this coupling by 0.5/P after fixing P itself.
+    (4.000000001, 1.4980896034514396e16),
+    (4.000001, None),
+    (4.01, None),
+])
+def test_narrow_support_atom_matches_reference_at_identical_inputs(cutoff, coupling):
+    g2 = coupling if coupling is not None else 0.5 * ga.g2_critical(cutoff)
+    got = ga.spectral_atom(g2, cutoff)
+    want = ref.dirac_reference_inputs(g2, cutoff, dps=60)
+    assert got["status"] == "RESOLVED", got
+    assert got["evidence"] == "CHECKED"
+    assert got["weight_method"] == "scaled threshold integral"
+    with mp.workdps(80):
+        assert want["g2"] == mp.mpf(g2)
+        assert want["L2"] == mp.mpf(cutoff)
+        for key in ("s_atom", "weight"):
+            relative = abs(mp.mpf(got[key]) - want[key]) / abs(want[key])
+            assert relative < mp.mpf("2e-13"), (key, relative)
+
+
+def test_narrow_support_reference_settles_at_60_and_90_digits():
+    b, g = 4.000000001, 1.4980896034514396e16
+    low = ref.dirac_reference_inputs(g, b, dps=60)
+    high = ref.dirac_reference_inputs(g, b, dps=90)
+    with mp.workdps(100):
+        for key in ("s_atom", "weight", "Pi_infinity"):
+            relative = abs(low[key] - high[key]) / abs(high[key])
+            assert relative < mp.mpf("1e-45"), (key, relative)
+        assert abs(high["s_atom"] - mp.mpf("7.999942181093057387211043335")) < mp.mpf("1e-26")
+
+
+def test_narrow_support_polarization_is_scaled_before_quadrature():
+    # The former epsabs=1e-13 dominated an integral of order 1e-17, and
+    # evaluating sqrt(1-4/s) lost relative precision before integration.
+    b = 4.000000001
+    g = 0.5 * ga.g2_critical(b)
+    want = ref.dirac_reference_inputs(g, b, dps=60)
+    p, estimate = ga.Pi_infinity(b)
+    with mp.workdps(80):
+        assert abs(mp.mpf(p) - want["Pi_infinity"]) / want["Pi_infinity"] < mp.mpf("1e-14")
+    assert estimate / p < 1e-12
+    # A critical numerical coupling still does not supply an exact identity.
+    assert ga.regime_decision(ga.g2_critical(b), b)["status"] == "UNRESOLVED"
+    with pytest.raises(RuntimeError, match="UNRESOLVED"):
+        ga.spectral_atom(ga.g2_critical(b), b)
 
 
 # --- the quadrature estimate does not bound the error -----------------------

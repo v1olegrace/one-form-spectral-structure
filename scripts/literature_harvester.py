@@ -104,6 +104,31 @@ SEEDS = [
     # 3.1, 3.2, 4.2) on 2026-10-01; cited for the area-law structure that
     # Bianchi on the T-product excludes in the linear-probe transport.
     ("di_giacomo_dosch_shevchenko_simonov_2002", "arxiv", "hep-ph/0007223"),
+    # Closed-form-field two-point tensor spectra, closure and positivity:
+    # primary section 3 read in the October 2026 transport audit.
+    ("benedetti_casini_magan_2023", "arxiv", "2212.11291"),
+    # Heavy-quark induced current and the s^4 three-gluon spectrum below
+    # threshold; sections 2-4 read at equation level on 2026-10-23 and mapped
+    # to the QED three-photon density (note E4).
+    ("groote_pivovarov_2001", "arxiv", "hep-ph/0103313"),
+    # Closed form of the irreducible two-loop (Kallen-Sabry) spectral density,
+    # eq. (55), read at equation level on 2026-10-23; the O(alpha^2) pair term
+    # of the E4 window.
+    ("laporta_jentschura_2024", "arxiv", "2403.07127"),
+    # Review of the Euler-Heisenberg Lagrangians: eq. (1.9) at one loop, Ritus's
+    # two-loop weak-field coefficients (4.11), and the self-dual closed forms
+    # (6.2) and (6.6) that check them; read at equation level on 2026-10-24 for
+    # the O(alpha^5) three-photon term of note E4, Section 11.
+    ("dunne_2004", "arxiv", "hep-th/0406216"),
+    # Low-energy expansion of the photon-photon amplitude: Tables II-III, eqs.
+    # (13)-(15) and note [10], read at equation level on 2026-10-23/24 as the
+    # check source of note E4, Sections 10.1 and 11.3 (not cited in the paper).
+    ("dicus_kao_repko_1998", "arxiv", "hep-ph/9709415"),
+    # One- and two-loop light-by-light helicity amplitudes; eq. (22) and the
+    # low-energy ancillary files read on 2026-10-24. Our box equals their one-loop
+    # expansion to omega^14, and their two-loop terms give Ritus's coefficients
+    # (note E4, Sections 10.1 and 11.2).
+    ("abdulhameed_chaubey_shao_2026", "arxiv", "2604.00099"),
 ]
 
 # Records whose committed fields cannot be re-derived from any cached API
@@ -183,11 +208,15 @@ def inspire(kind, value, missing=None):
         return None
     md = hits[0]["metadata"]
     pub = (md.get("publication_info") or [{}])[0]
-    authors = [a.get("full_name", PENDING) for a in md.get("authors", [])]
+    names = [a.get("full_name") for a in md.get("authors", [])]
+    # One author without a name leaves the whole field unverified; it must not
+    # become a list with the sentinel inside it.
+    authors = names if names and all(names) else []
     # The year of the journal publication when there is one; the preprint
     # date (earliest_date) otherwise.  An article number (artid) is the page
     # for journals that use one; page_start is then 1 or absent.
-    year = pub.get("year") or str(md.get("earliest_date", PENDING))[:4]
+    date = md.get("earliest_date")
+    year = pub.get("year") or (str(date)[:4] if date else PENDING)
     pages = pub.get("artid") or pub.get("page_start") or PENDING
     return {
         "source_api": "inspire",
@@ -401,6 +430,9 @@ def verify(records=None, quiet=False):
             if not quiet:
                 print(f"  {key:44s} MANUAL: {MANUAL[key]}")
             continue
+        if not json.loads(rec.get("provenance", "{}")):
+            problems.append(f"{key}: no field comes from an API")
+            continue
         missing = []
         by_api = {r["source_api"]: r for r in api_records(kind, value, missing) if r}
         used = set(json.loads(rec.get("provenance", "{}")).values()) & set(API_NAMES)
@@ -451,6 +483,9 @@ def add_new():
         if label in have:
             continue
         rec = derive(label, kind, value)
+        if not json.loads(rec["provenance"]):
+            print(f"  {label}: no API answered (offline or failed fetch); not added")
+            continue
         if _signature(rec) in sigs:
             print(f"  {label}: duplicate of an existing record, skipped")
             continue

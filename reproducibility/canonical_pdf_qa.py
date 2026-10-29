@@ -12,16 +12,33 @@ import json
 from pathlib import Path
 import re
 
-import fitz
-
 ROOT = Path(__file__).resolve().parents[1]
+# Log lines that fail QA. "LaTeX Font Warning" and packages with dotted names
+# ("pdftex.def") count as warnings too.
+LOG_ISSUE = re.compile(r'^(?:LaTeX(?: \w+)?|Package [\w.-]+) Warning.*$|^Overfull.*$|^!.*$', re.M)
 
 
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def _shown(path):
+    """A path inside the repository as repository-relative POSIX text; a record must
+    not carry a machine's absolute path."""
+    try:
+        return path.resolve().relative_to(ROOT).as_posix()
+    except ValueError:
+        return str(path.resolve())
+
+
+def source_digest(path):
+    """Hash current source content with checkout CRLF normalized to repository LF."""
+    return hashlib.sha256(path.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
+
+
 def inspect(pdf, log, report, render_dir=None):
+    import fitz
+
     doc = fitz.open(pdf)
     text = '\n'.join(page.get_text() for page in doc)
     paper_source = (ROOT/'paper/paper.tex').read_text(encoding='utf-8')
@@ -44,8 +61,7 @@ def inspect(pdf, log, report, render_dir=None):
             if x0 < -1 or y0 < -1 or x1 > page.rect.width+1 or y1 > page.rect.height+1:
                 issues.append(f'Text outside page {number}: {block[:4]}')
     log_text = log.read_text(encoding='utf-8', errors='replace')
-    log_issues = re.findall(r'^(?:LaTeX|Package \w+) Warning.*$|^Overfull.*$|^!.*$',
-                           log_text, re.M)
+    log_issues = LOG_ISSUE.findall(log_text)
     issues.extend(log_issues)
     bibliography_log = log.with_suffix('.blg')
     if not bibliography_log.exists():
@@ -61,11 +77,14 @@ def inspect(pdf, log, report, render_dir=None):
     sources.extend(sorted((ROOT/'paper/figures').glob('*.dat')))
     result = {
         'status': 'PASS' if not issues else 'FAIL', 'draft': version,
-        'pages': len(doc), 'pdf': str(pdf.resolve()), 'pdf_sha256': digest(pdf),
-        'log_sha256': digest(log), 'font_types': font_types, 'issues': issues,
-        'source_sha256': {str(p.relative_to(ROOT)): digest(p) for p in sources},
+        'pages': len(doc), 'pdf': _shown(pdf), 'pdf_sha256': digest(pdf),
+        'log': _shown(log), 'log_sha256': digest(log),
+        'font_types': font_types, 'issues': issues,
+        'source_hash_normalization': 'CRLF to LF; all other bytes preserved',
+        'source_sha256': {p.relative_to(ROOT).as_posix(): source_digest(p) for p in sources},
         'visual_review': 'NOT_ASSESSED_BY_SCRIPT',
-        'scope': 'PDF structure and current source inventory; not scientific validation',
+        'scope': ('PDF structure and current source inventory; caller must pair '
+                  'these with a fresh build; not scientific validation'),
     }
     report.parent.mkdir(parents=True, exist_ok=True)
     report.write_text(json.dumps(result, indent=2)+'\n', encoding='utf-8')

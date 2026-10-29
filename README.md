@@ -5,7 +5,7 @@
 A one-form symmetry observable, a positivity hypothesis, and an honest account
 of exactly where the argument holds and where it stops.
 
-Manuscript: [`paper/paper.tex`](paper/paper.tex) — draft **v0.5.2** ·
+Manuscript: [`paper/paper.tex`](paper/paper.tex) — draft **v0.5.8** ·
 Research plan: [`ROADMAP_CIENTIFICO.md`](ROADMAP_CIENTIFICO.md) (pt-BR)
 
 ---
@@ -50,8 +50,8 @@ sources below in one command.
 | To run everything | [Quickstart](#quickstart) |
 
 ```bash
-pip install -r requirements.txt
-python make.py test        # 395 tests
+pip install -r requirements.txt -c constraints.txt   # exact versions the guards were checked with
+python make.py test        # full suite, 570 tests
 python make.py numerics    # regenerate every numerical result
 ```
 
@@ -111,11 +111,11 @@ hypothesis with a wide margin.
 | C1 | Under H3, Φ(r) = ∫e^{−rx}dν, ν ≥ 0, exactly | proved conditionally | Uehling; COR 2022; BG 2025 |
 | C2 | Φ is completely monotone | classical | Bernstein–Widder; Bachas 1986 |
 | C3 | Γ = −(log Φ)′ ↓ M\*, an upper bound | classical (effective mass) | Lüscher–Wolff; Blossier et al. |
-| C4 | Hankel pencil B_K ↓ M\* | classical (GEVP / Padé) | Blossier et al.; Masjuan–Peris |
+| C4 | Hankel pencil B_K ↓ M\* | proved conditionally; the result is classical (GEVP / Padé) | Blossier et al.; Masjuan–Peris (also the Hankel-determinant falsifier, eqs. 12–14) |
 | C7 | No uniform lower bound on M\* from a finite window | proved; phenomenon known | inverse-Laplace ill-posedness |
-| C8 | Positivity alone cannot fix a WGC scale | proved conditionally | COR 2022; Dvali |
-| C9 | Bubble chain: H3 holds for Z₃ > 0, fails for Z₃ < 0; at Z₃ = 0 only a contact term | proved in the model | Giacosa–Wolkanowski 2012 (atom); Källén |
-| C10 | Linear probe: positive Euclidean ⟨FF⟩ + Bianchi with contacts ⟹ positive Stieltjes kernel on r > 0 (the form of H3, given a Coulomb weight) | proved conditionally | stochastic vacuum model (tensor split D vs D₁) |
+| C8 | Positivity alone cannot fix a WGC scale; a species bound gives a conditional one | proved (the no-go); proved conditionally (the species-bound implication) | COR 2022; Dvali |
+| C9 | Bubble chain: H3 holds for Z₃ > 0, fails for Z₃ < 0; at Z₃ = 0 only a contact term; the atom above a hard cutoff needs a positive edge value | proved in the model | Giacosa–Wolkanowski 2012 (atom); Källén |
+| C10 | Linear probe: positive Euclidean ⟨FF⟩ + Bianchi with contacts ⟹ positive Stieltjes kernel on r > 0 (the form of H3, given a Coulomb weight) | proved conditionally | stochastic vacuum model (tensor split D vs D₁); Benedetti–Casini–Magán 2023 (the ⟨FF⟩ Källén–Lehmann form) |
 
 Per-claim novelty verdicts: [`data/claims_matrix.csv`](data/claims_matrix.csv).
 C5 and C6 are **not** in the canonical paper — see [`DECISIONS.md`](DECISIONS.md).
@@ -165,8 +165,9 @@ the static potential and the field of a static line see ⟨FF⟩ only through
 a³(r) = ∫dμ(s) e^{−√s r}/(4πr), so on r > 0 the kernel is a positive Stieltjes
 function: the form of H3 if μ({0}) > 0, with the integral starting at
 inf supp σ, possibly zero; the gap, which makes it positive, is not implied.
-The massless helicity term never reaches either observable, so CPT is not
-needed. A local contact that violates Bianchi gives an area term whose slope
+The massless helicity term is excluded by the ordered Bianchi premise,
+whose equal-time content imposes two-point locality in that sector. A local
+contact that violates Bianchi gives an area term whose slope
 diverges as 1/ε when the regulator is removed: a regulated contact, not a
 finite string tension, and only structurally like the function D of the
 stochastic vacuum model. At fixed regulator the T → ∞ rate is q²C_ε(r)/T,
@@ -176,21 +177,96 @@ classical lemmas and the Wightman → Schwinger continuation, all unread at the
 level of the statements used, so it is an assumption.
 
 **Beyond the quadratic cumulant, in the effective theory** (note E3): for
-smooth sources of radius R ≫ 1/m, the Euler–Heisenberg O(q⁴) term of the
-static energy is fixed in sign — a polarizability term −A/r⁴ with A > 0 leads
+rigid spherical sources, the local Euler–Heisenberg O(q⁴) energy at fixed
+charge is −c∫|E₀|⁴. Its interaction has distinct sectors: a
+polarizability term −A/r⁴ with A > 0 leads
 at large r, the universal term is −c q₁q₂(q₁² + q₂²)/(80π³r⁵), and its Z³ part
-is Frolov's Wichmann–Kroll tail. At finite probe charge the profile gains a
-negative, gapless −8α³q_W²/(45π m⁴r⁶), so it is not completely monotone at
-large r: the limits q_W → 0 and r → ∞ do not commute. Theorem A, which concerns
-the linear coefficient, is untouched.
+agrees with Frolov's single-source tail. Balls and thin shells are benchmarks
+of the local term; a controlled EFT application requires the field to vary
+on scales much larger than 1/m, including at the boundary. The formal sum of
+the point-source one-loop profile and the negative EH exterior tail
+−8α³q_W²/(45π m⁴r⁶) changes sign. This benchmark does not match both terms to
+one extended source or determine the point-probe answer. Its log-derivative
+has noncommuting small-charge and large-radius limits; Φ itself tends to zero
+in both orders. Theorem A concerns the linear coefficient and is untouched.
+
+**Extended probes** (note E3, Section 11, 23 October).
+
+- *Proved:* outside a non-negative radial probe of compact support, the
+  linear profile is ∫e^{−rx}F(x)dν with 1 ≤ F ≤ sinh(xa)/(xa). The edge and
+  the bounds of Theorems C and E survive at every finite probe radius. This
+  is a sufficient condition: a signed source can give F < 0.
+- *Checked:* for a Gaussian probe (width 10/m) the probe's own charge tail
+  dominates, and Γ(50/m) = 0.932m < 2m by two independent quadratures. So
+  the bounds can fail without compact support; not every such source fails.
+- *Checked:* with the one-loop Dirac measure, the matched first-order
+  profile changes sign at 55.91/m (Gaussian), 20.48/m (ball of radius
+  10/m) and 18.95/m (a C¹ polynomial profile).
+- *Corrected (23 October, independent review):* mpmath's quadrature stops on
+  an absolute error estimate. Two far-tail effective masses were wrong in the
+  fifth decimal, Γ_Gauss(300/m) = 2.00752 and Γ_ball(50/m) = 2.03647. The
+  integrands are now rescaled first; the crossover radii did not move.
+- *Proved (local theory):* 0 ≤ U_c − U₀ + c∫|D₀|⁴ ≤ 8c²∫|D₀|⁶ for arbitrary
+  sources, by convex duality.
+
+**The QED window of the pair threshold** (note E4, 23 October).
+
+- *The coefficient.* In QED the three-photon cut enters at O(α⁴) and starts
+  at s = 0. For s ≪ m² it adds dν = (17/11 664 000)(α/π)⁴ s⁴/m⁸ ds. Two
+  routes agree exactly: the Euler–Heisenberg three-body cut, and the abelian
+  form of Groote–Pivovarov's QCD result.
+- *The full one-loop amplitude.* It adds a series in s/4m² with first
+  coefficient 1.88 (c₁/c₀ numerically agrees with 335/714), which raises the tail by 15% at
+  r = 20/m. Checks:
+  - Ward identity on every leg;
+  - the EH normalization −2/15;
+  - Dicus–Kao–Repko's on-shell amplitudes at ω⁴ and ω⁶;
+  - their full cross section, within 0.5% at seven energies.
+
+  Their ω⁸ column is a factor 2 above ours, and their own full cross section
+  supports our value.
+- *Two loops* (note E4, Section 11, 24 October). Ritus's two-loop
+  Euler–Heisenberg coefficients raise the leading three-photon coefficient
+  by the factor 1 + (1555/153)α/π, a 2.36% increase. A self-dual closed form
+  checks the coefficients. The same weights give 1 + (25555/2502)α/π for
+  γγ → γγ. Dicus–Kao–Repko's 186685/17514 is that expression with one sign
+  reversed.
+- *Two radii in the truncated model for the linear coefficient*, using six
+  three-photon series terms up to s = 4m², the two-loop factor on the leading
+  one, and the pair channel at O(α²). Γ ≥ 2m only out to r_Γ ≈ 20.64/m, and
+  the pair term exceeds the three-photon term out to r_× ≈ 22.55/m. Between
+  them the pair still dominates Φ, yet Γ < 2m. The two-loop factor moves both
+  radii in by 0.013/m. The remaining orders in α are estimated at about
+  0.003/m and are not bounded (CHECKED model results, not a certified QED
+  window).
+- *The truncation envelope* (note E4, Section 12). An analytic bound on the
+  truncated amplitude is evaluated in float64; it is about 5000 times the
+  true remainder. With the products to order 22 it bounds the spectral
+  truncation for s ≤ 1.5m². Above that the six-term model is assumed right
+  within a factor of two, a range carrying 0.04% of Φ₃γ. The truncation then
+  moves the radii by less than 3×10⁻⁴/m.
+- *An independent benchmark* (Abdul Hameed–Chaubey–Shao, arXiv:2604.00099).
+  Our four-photon box equals their published one-loop low-energy expansion
+  at every order from ω⁴ to ω¹⁴, to 4×10⁻¹⁶. Their two-loop amplitudes give
+  exactly Ritus's coefficients in the combinations we use (25/4 and
+  1955/396). So the ω⁸ factor of 2 is Dicus–Kao–Repko's, as is the sign
+  reversal in their two-loop factor. Their effective Lagrangian for ω⁸,
+  requoted in 2025, carries the same factor.
+- *Not universal.* Outside a ball of radius 10/m both radii move out by
+  about 8/m. For a probe of charge e, the probe's own Euler–Heisenberg tail
+  ends the window near 11.6/m; the three-photon tail comes first only below
+  q ≈ 10⁻⁴ e.
 
 **Open, and not close to closed**: those lemmas; point probes beyond the
 quadratic cumulant, where the light-by-light kernel at distances of order 1/m
 sets the coefficient and nothing here computes it; isolating charged channels
 from massless cuts; **originality**,
 which is not established — Brown–Weisberger (1979) is unread behind a paywall,
-the stochastic-vacuum primaries are unread, and the Schilling–Song–Vondraček
-theorem numbering is unconfirmed (secondary sources disagree).
+the stochastic-vacuum primaries are unread. Of Schilling–Song–Vondraček
+only Chapter 2's definition and closure theorem are read; the duality
+(Theorem 7.3) is unread, and the RPA proof does not use it. The tensor classification of ⟨FF⟩ is prior art
+(Benedetti–Casini–Magán 2023, read at equation level; see
+[`reports/LITERATURE_READS_2026-10-22.md`](reports/LITERATURE_READS_2026-10-22.md)).
 
 **Continuous integration**: run 36543772146 at `730bdf0` failed in the `paper`
 job with `! LaTeX Error: File 'lmodern.sty' not found`, while `tests`,
@@ -207,10 +283,10 @@ a README line about CI goes stale on the next push.
 
 ```bash
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements.txt -c constraints.txt
 
 python make.py check       # report available toolchain
-python make.py test        # full suite, 395 tests
+python make.py test        # full suite, 570 tests
 python make.py numerics    # regenerate every numerical result
 python make.py audit       # rebuild audit ledgers
 python make.py pdf         # build paper/paper.pdf (needs a LaTeX engine)
@@ -254,8 +330,14 @@ reports/
   H3_GHOST_ANALYSIS_*.md      the spacelike obstruction, in full
   professor_2026-09-28/       meeting material and its number-checking script
 notes/                    proof notes and working records
-tests/                    395 tests; every one is meant to be able to fail
+tests/                    570 tests; every one is meant to be able to fail
 data/                     literature harvest with provenance, audit ledgers
+                          (literature.db, literature_master.csv, citation_edges.csv,
+                          the parquet file and ../knowledge_graph.graphml are frozen
+                          snapshots of the September 2026 scilit search, not
+                          regenerated by make or CI; reports/WHAT_IS_ACTUALLY_NEW.md is
+                          regenerated from literature.db with a hand-written addendum,
+                          checked by tests/test_scilit_integrity.py)
 output/impressao_*/       print-ready PDFs for a meeting
 manuscript/               author's pt-BR Quarto draft -- NOT canonical, predates v0.2
 ```
@@ -282,22 +364,25 @@ These are the practices that make a theory paper's numerics trustworthy.
 6. **Independent references, not self-consistency.** A deviation between two
    sides of an identity measures inconsistency, not error. Precision claims are
    backed by multiprecision arithmetic and an exact closed-form anchor.
-7. **Provenance for literature.** Every field of the 28 articles and preprints
+7. **Provenance for literature.** Every field of the 31 articles and preprints
    in `data/literature_harvest.json` is returned by the API its provenance
    names, in a cached response under `data/api_responses/`, or is a hand
    correction whose note quotes the value; `python make.py bib` checks this
    offline and CI runs it. The six monographs and the DLMF, which have no such
    record, are entered by hand in `scripts/build_bibliography.py`. Forbidden
    sources (wikis, content farms, AI summaries) fail the test suite.
-8. **Reproducibility.** Validated in a clean checkout: 395 tests run (one is
-   skipped when Tectonic is absent) and
-   `git status` is empty after `make.py numerics`, `audit` and `certified`, so
-   those artefacts are regenerated byte-for-byte from the commit. The PDF QA
+8. **Reproducibility.** Historical clean-checkout checks are recorded in
+   `FINAL_REPORT.md`. Version 0.5.8 (24 October) passed 570 tests in a
+   clean-room snapshot of the committed tree on Windows, including the paper
+   build with the repository-local Tectonic on PATH. On Ubuntu 24.04 without
+   TeX, 569 passed and one was skipped. Both also ran `make.py numerics`,
+   `audit`, `certified` and the Arb re-integration. The PDF QA
    record `output/data/canonical_pdf_qa.json` is the exception by design: it
-   stores the path and hash of the PDF it inspected. Its source hashes must be
-   those of the blobs git stores, which are LF, and
-   `tests/test_pdf_qa_record.py` fails otherwise; generate it from an LF
-   checkout, since a Windows checkout converts line endings.
+   stores the path and hash of the PDF and build log it inspected. Its source
+   hashes describe the current files, normalizing CRLF to LF and preserving
+   all other bytes. `tests/test_pdf_qa_record.py` checks the full inventory
+   and fails on content edits. Regenerate the record immediately after a fresh
+   build using that build's PDF and log explicitly.
 
 ## Errors found and corrected, on the record
 

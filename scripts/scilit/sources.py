@@ -5,7 +5,8 @@ LEGAL AND ETHICAL CONSTRAINTS -- these are hard requirements, not preferences:
   * Official APIs only.  No HTML scraping where an API exists.
   * No paywall circumvention, no authentication bypass, no rate-limit evasion.
   * No downloading of copyright-protected books.
-  * Polite-pool identification (mailto / User-Agent) on every request.
+  * A User-Agent naming the project on every request; a contact address
+    (polite pool) only when the user sets SCILIT_CONTACT.
   * Conservative self-imposed rate limits, well under each service's published
     ceiling, with exponential backoff on 429/5xx.
   * For paywalled works: metadata only (ISBN/DOI/edition/TOC when public), plus
@@ -20,6 +21,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import time
 import urllib.error
 import urllib.parse
@@ -31,10 +33,48 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 CACHE = ROOT / "data" / "api_responses"
 
-# Identify the client. OpenAlex and Crossref give faster, more reliable service
-# to requests that carry a contact address ("polite pool").
-CONTACT = "mauro.lycanwp@gmail.com"
-UA = f"scilit-harvester/1.0 (research use; mailto:{CONTACT})"
+# Contact address. OpenAlex and Crossref serve requests that carry one faster
+# ("polite pool"), and Unpaywall requires one. It is sent only when the user
+# sets SCILIT_CONTACT; by default no personal address leaves the machine.
+CONTACT = os.environ.get("SCILIT_CONTACT", "").strip()
+REPO = "https://github.com/v1olegrace/one-form-spectral-structure"
+# Cache keys are SHA-256 of the request URL as built below. Every URL recorded
+# before 24 October 2026 carried this address, so it stays in the key and the
+# cache replays offline. _outgoing() replaces or drops it before any request.
+_KEY_CONTACT = "mauro.lycanwp@gmail.com"
+MAX_RETRY_AFTER = 120.0          # seconds; a server cannot stall the harvest longer
+
+
+def _user_agent():
+    return f"scilit-harvester/1.0 (research use; {REPO}" + (f"; mailto:{CONTACT})" if CONTACT else ")")
+
+
+def _outgoing(url):
+    """The URL actually requested: the key's address replaced by CONTACT, or dropped."""
+    for name in ("mailto", "email"):
+        token = f"{name}={_KEY_CONTACT}"
+        if token not in url:
+            continue
+        if CONTACT:
+            url = url.replace(token, f"{name}={urllib.parse.quote(CONTACT, safe='@')}")
+        elif name == "email":
+            raise FetchError("this service requires a contact address; set SCILIT_CONTACT")
+        else:
+            url = url.replace("&" + token, "").replace("?" + token + "&", "?").replace("?" + token, "")
+    return url
+
+
+def _same_origin(requested, served):
+    """Same host, and no downgrade from https (export.arxiv.org is queried over http)."""
+    a, b = urllib.parse.urlparse(requested), urllib.parse.urlparse(served)
+    return a.netloc == b.netloc and not (a.scheme == "https" and b.scheme != "https")
+
+
+def _retry_delay(retry_after, default):
+    """Seconds to wait after 429/5xx: the server's Retry-After, capped, or the backoff."""
+    if retry_after and retry_after.isdigit():
+        return min(float(retry_after), MAX_RETRY_AFTER)
+    return default
 
 # Self-imposed minimum seconds between calls, per host. Deliberately slower than
 # each service's published limit.
@@ -81,23 +121,29 @@ def fetch(url, con=None, source="", query="", round_no=None, parse="json",
         raw = path.read_text(encoding="utf-8")
     else:
         host = urllib.parse.urlparse(url).netloc
+        target = _outgoing(url)
+        headers = {"User-Agent": _user_agent(), "Accept": "application/json, text/xml;q=0.8"}
+        if CONTACT:
+            headers["From"] = CONTACT
         delay = 2.0
         for attempt in range(max_retries):
             _throttle(host)
-            req = urllib.request.Request(url, headers={
-                "User-Agent": UA, "Accept": "application/json, text/xml;q=0.8",
-                "From": CONTACT})
+            req = urllib.request.Request(target, headers=headers)
             try:
                 with urllib.request.urlopen(req, timeout=60) as resp:
+                    final = urllib.parse.urlparse(resp.geturl())
+                    if not _same_origin(url, resp.geturl()):
+                        # Never cache a payload served from somewhere else.
+                        raise FetchError(f"redirected to {final.scheme}://{final.netloc} for {url}")
                     raw = resp.read().decode("utf-8", errors="replace")
                     status = str(resp.status)
                 break
             except urllib.error.HTTPError as exc:
                 status = f"HTTP {exc.code}"
                 if exc.code in (429, 500, 502, 503, 504) and attempt < max_retries - 1:
-                    # Honour Retry-After when the service supplies it.
+                    # Honour Retry-After when the service supplies it, up to a cap.
                     ra = exc.headers.get("Retry-After") if exc.headers else None
-                    time.sleep(float(ra) if ra and ra.isdigit() else delay)
+                    time.sleep(_retry_delay(ra, delay))
                     delay *= 2
                     continue
                 raise FetchError(f"{status} for {url}") from exc
@@ -215,7 +261,7 @@ def oa_search(query, con=None, round_no=None, per_page=50, pages=1,
             filt += "," + extra_filter
         url = (f"{OA}/works?filter={urllib.parse.quote(filt, safe=':,')}"
                f"&per-page={per_page}&cursor={urllib.parse.quote(cursor)}"
-               f"&select={OA_FIELDS}&mailto={CONTACT}")
+               f"&select={OA_FIELDS}&mailto={_KEY_CONTACT}")
         try:
             data = fetch(url, con, "openalex", f"search:{query}", round_no)
         except FetchError:
@@ -238,7 +284,7 @@ def oa_cited_by(openalex_id, con=None, round_no=None, per_page=100, pages=3):
     for _ in range(pages):
         url = (f"{OA}/works?filter=cites:{openalex_id}&per-page={per_page}"
                f"&cursor={urllib.parse.quote(cursor)}&select={OA_FIELDS}"
-               f"&mailto={CONTACT}")
+               f"&mailto={_KEY_CONTACT}")
         try:
             data = fetch(url, con, "openalex", f"cites:{openalex_id}", round_no)
         except FetchError:
@@ -258,7 +304,7 @@ def oa_by_ids(openalex_ids, con=None, round_no=None, via="references"):
     for i in range(0, len(ids), 50):
         chunk = "|".join(ids[i:i + 50])
         url = (f"{OA}/works?filter=openalex_id:{chunk}&per-page=50"
-               f"&select={OA_FIELDS}&mailto={CONTACT}")
+               f"&select={OA_FIELDS}&mailto={_KEY_CONTACT}")
         try:
             data = fetch(url, con, "openalex", f"ids:{chunk[:60]}", round_no)
         except FetchError:
@@ -269,7 +315,7 @@ def oa_by_ids(openalex_ids, con=None, round_no=None, via="references"):
 
 
 def oa_by_doi(doi, con=None, round_no=None):
-    url = f"{OA}/works/doi:{urllib.parse.quote(doi)}?select={OA_FIELDS}&mailto={CONTACT}"
+    url = f"{OA}/works/doi:{urllib.parse.quote(doi)}?select={OA_FIELDS}&mailto={_KEY_CONTACT}"
     try:
         return oa_normalize(fetch(url, con, "openalex", f"doi:{doi}", round_no),
                             via=f"doi_lookup:{doi}", round_no=round_no)
@@ -322,7 +368,7 @@ def arxiv_search(query, con=None, round_no=None, max_results=50, start=0):
 # ---------------------------------------------------------------------------
 
 def crossref_by_doi(doi, con=None, round_no=None):
-    url = f"https://api.crossref.org/works/{urllib.parse.quote(doi)}?mailto={CONTACT}"
+    url = f"https://api.crossref.org/works/{urllib.parse.quote(doi)}?mailto={_KEY_CONTACT}"
     try:
         msg = fetch(url, con, "crossref", f"doi:{doi}", round_no)["message"]
     except (FetchError, KeyError, json.JSONDecodeError):
@@ -517,7 +563,7 @@ def inspire_bibtex(recid, con=None):
 # ---------------------------------------------------------------------------
 
 def unpaywall(doi, con=None, round_no=None):
-    url = f"https://api.unpaywall.org/v2/{urllib.parse.quote(doi)}?email={CONTACT}"
+    url = f"https://api.unpaywall.org/v2/{urllib.parse.quote(doi)}?email={_KEY_CONTACT}"
     try:
         d = fetch(url, con, "unpaywall", f"doi:{doi}", round_no)
     except (FetchError, json.JSONDecodeError):

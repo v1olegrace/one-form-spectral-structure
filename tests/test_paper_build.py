@@ -29,6 +29,8 @@ def test_figure_data_reproduces_quoted_numbers() -> None:
     res = _run([sys.executable, "reproducibility/figure_data.py", "--check"], ROOT)
     assert res.returncode == 0, res.stdout + res.stderr
     assert "all quoted values reproduced" in res.stdout
+    optimized = _run([sys.executable, "-O", "reproducibility/figure_data.py", "--check"], ROOT)
+    assert optimized.returncode != 0 and "all quoted values reproduced" not in optimized.stdout
 
 
 def test_paper_compiles_cleanly(tmp_path: Path) -> None:
@@ -47,8 +49,8 @@ def test_paper_compiles_cleanly(tmp_path: Path) -> None:
         res = _run(cmd, build)
         assert res.returncode == 0, f"{cmd[0]} failed:\n{res.stdout[-2000:]}"
     log = (build / "paper.log").read_text(errors="replace")
-    problems = re.findall(r"^(?:LaTeX|Package \w+) Warning.*$|^Overfull.*$|^!.*$",
-                          log, re.M)
+    from reproducibility.canonical_pdf_qa import LOG_ISSUE   # the canonical QA's pattern
+    problems = LOG_ISSUE.findall(log)
     assert not problems, problems
     blg = (build / "paper.blg").read_text(errors="replace")
     assert "Warning--" not in blg, blg

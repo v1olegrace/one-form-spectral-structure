@@ -1,0 +1,44 @@
+{
+ "task": "R2 three-photon window: primary and secondary reads",
+ "date": "2026-10-23",
+ "reader": "Claude (automated agent)",
+ "sources": [
+  {
+   "key": "groote_pivovarov_2001",
+   "arxiv": "hep-ph/0103313",
+   "file": "tmp\\review_claude_2026-10-23\\literature\\groote_pivovarov_0103313.pdf",
+   "sha256": "6e5c1b346bb05e513aacc6389c2a20c829f9a74b932c67dac8b82a602a01b246",
+   "read": "sections 2.1-2.2 eqs (1)-(12); 3.1 eqs (13)-(15); 4.1 eqs (22)-(32)",
+   "depth": "EQUATION_LEVEL_READ",
+   "used_for": "QCD coefficient C_g = 17 dd/243000 (alpha_s/pi)^3, normalization eq (22); route B"
+  },
+  {
+   "key": "portoles_ruizfemenia_2001",
+   "arxiv": "hep-ph/0107324",
+   "file": "tmp\\review_claude_2026-10-23\\literature\\portoles_ruizfemenia_0107324.pdf",
+   "sha256": "5169a45081ea303d495c94b635c813fafdaf782c7d6a94256f5df3aa995d037b",
+   "read": "eqs (1)-(9), (11), footnote 2",
+   "depth": "EQUATION_LEVEL_READ",
+   "used_for": "same QCD coefficient in the normalization Pi_GP/(12 pi^2), by a different Fourier route"
+  },
+  {
+   "key": "gamberg_kalbfleisch_milton_1999",
+   "arxiv": "hep-ph/9906526",
+   "file": "tmp\\claude_review_fix_2026-10-23\\literature\\gamberg_kalbfleisch_milton_hep-ph_9906526.pdf",
+   "sha256": "2e6ab5cae7efd97eb99a0351c07bcff7ad5d92f6f5cd58e1b99acec948d694de",
+   "read": "eqs (41)-(43)",
+   "depth": "EQUATION_LEVEL_READ (secondary for the cross section; cites its Ref. [37])",
+   "used_for": "check of the EH four-photon amplitude: dsigma/dOmega = 139 alpha^4 omega^6 (3+cos^2)^2/(32400 pi^2 m^8), sigma = 973 alpha^4 omega^6/(10125 pi m^8)"
+  },
+  {
+   "key": "beneke_ruizfemenia_2016",
+   "arxiv": "1606.02434",
+   "file": "tmp\\claude_review_fix_2026-10-23\\literature\\beneke_ruizfemenia_1606.02434.pdf",
+   "sha256": "c1bc8bfd78b7416c6a07ae62eeff8a485656e2394de24d759d91febaae26dda2",
+   "read": "footnote 1, eqs (7)-(8), footnote 6",
+   "depth": "EQUATION_LEVEL_READ",
+   "used_for": "three-photon cut from s = 0 enters at O(alpha^4); positronium poles rho_Pi = sum m^2 alpha^4/n^3 delta(s - M_n^2)"
+  }
+ ],
+ "not_found": "No published QED coefficient of the low-s three-photon density in this normalization was found by two standard web searches; novelty UNRESOLVED."
+}

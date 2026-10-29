@@ -48,7 +48,7 @@
 \author{\authorname\thanks{Research name: \researchname.
   E-mail: \href{mailto:\authoremail}{\nolinkurl{\authoremail}}}\\[2pt]
   \small Independent researcher, Botucatu, SP, Brazil}
-\date{\small Draft v0.5.2 --- 3 October 2026}
+\date{\small Draft v0.5.8 --- 24 October 2026}
 
 \begin{document}
 \maketitle
@@ -129,9 +129,13 @@ precedents on every methodological axis.
       Appendix~A uses the Bianchi identity, including coincident points, to
       show that at linear order in the probe the static kernel inherits the
       positive Stieltjes form of an assumed positive Euclidean spectral
-      representation of the field-strength two-point function. Deriving that
-      representation from the Wightman axioms rests on classical lemmas and a
-      continuation we have not yet checked against primary sources.
+      representation of the field-strength two-point function. The
+      K\"all\'en--Lehmann form of that two-point function for a closed form
+      field, with the extra light-cone structure excluded by spatial
+      commutativity, is derived in~\cite{benedetti_casini_magan_2023}; we do
+      not claim it. Deriving the Euclidean representation from the Wightman
+      axioms also rests on measure-theoretic lemmas and a continuation that we
+      have not checked against primary sources.
 \item That $\Gamma(r)$ is a monotone upper bound converging to the support
       edge, and that a generalized eigenvalue hierarchy refines it, is the
       effective-mass/GEVP technology of lattice field
@@ -140,7 +144,10 @@ precedents on every methodological axis.
 \item Extracting threshold information from the low-energy moments of the
       vacuum polarization, by Pad\'e approximants equivalent to the same
       Hankel machinery, is done in~\cite{masjuan_peris_2009,
-      bakergravesmorris1996pade}.
+      bakergravesmorris1996pade}. Masjuan and Peris also use a negative Hankel
+      determinant of Taylor coefficients to show that a fixed-order term is
+      not Stieltjes; the falsifying use of the hierarchy is therefore not new
+      either.
 \item The Stieltjes character of the vacuum polarization and the
       equivalence between complete monotonicity and positivity of Hankel
       matrices of derivatives are reviewed, as background, in the lecture
@@ -190,9 +197,12 @@ The object we constrain is the static potential between heavy probes,
 V(r)=-\lim_{T\to\infty}\frac{1}{T}\log\langle W(C_{r\times T})\rangle,
 \label{eq:wilson}
 \end{equation}
-up to the probe self-energy (perimeter) subtraction. That subtraction is
-$r$-independent, so it drops from $dV/dr$ and \emph{a fortiori} from every
-quantity below; no scheme ambiguity enters. We deliberately avoid any
+up to subtraction of the energies of the isolated probes, which is
+$r$-independent for fixed rigid sources. At quadratic order in the probe
+charge it drops from $dV/dr$ and the linear-response quantities below.
+Beyond that order, mixed interactions can depend on the source profile and
+on $r$ even after the isolated energies have been subtracted; the
+potential-to-flux relation used here must then be rederived. We deliberately avoid any
 appeal to a ``gauge-invariant gauge-field propagator'': the spectral positivity
 of a gauge propagator in a covariant gauge is not a gauge-invariant statement.
 Let $\Gcal(Q^{2})$ denote the three-dimensional Fourier transform of the
@@ -271,9 +281,11 @@ the field strength has a positive spectral representation and obeys the
 Bianchi identity with its contact terms. With a Coulomb weight it has the form
 of Hypothesis~\ref{hyp:stieltjes}, its integral starting at the bottom of the
 spectral support. Obtaining that representation from Wightman
-positivity rests on a classification of $\langle FF\rangle$ and a continuation
-to Euclidean signature that we have not yet checked against primary sources,
-so both hypotheses remain hypotheses in this version. Neither the Coulomb
+positivity rests on a classification of $\langle FF\rangle$, given at the
+level of tensor structures in~\cite{benedetti_casini_magan_2023}, and on a
+continuation to Euclidean signature, whose measure-theoretic steps we have
+not checked against primary sources. Both hypotheses therefore remain
+hypotheses in this version. Neither the Coulomb
 phase nor the gap follows, and Section~\ref{sec:scope} delimits where the
 hypothesis fails. Hypothesis~\ref{hyp:probe}
 excludes precisely the strong-source corrections of
@@ -435,7 +447,61 @@ $s=0$~\cite{beneke_ruizfemenia_2016}. Hypothesis~\ref{hyp:gap} with
 $s_{*}>0$ therefore cannot be inferred from the electron mass.
 Theorem~\ref{thm:C} returns the infimum of the \emph{effectively coupled}
 support; if that is zero, the bound is zero. A gapless model confirms this
-numerically.
+numerically. The three-photon cut enters at $O(\alpha^{4})$, and for
+$s=x^{2}\ll m^{2}$ its vertex is the Euler--Heisenberg term, which gives
+$\dnu=\frac{17}{11\,664\,000}(\alpha/\pi)^{4}(s^{4}/m^{8})\,ds$. Here, at the
+order kept, $\nu$ is the one-particle-irreducible spectral density. Two routes
+agree on this coefficient: the three-body cut, and the abelian form of the
+heavy-quark result of~\cite{groote_pivovarov_2001}. The full one-loop
+amplitude adds a series in $s/4m^{2}$ whose first coefficient is $1.88$. It
+raises the large-$r$ tail
+$\Phi_{3\gamma}\simeq\frac{238}{225}(\alpha/\pi)^{4}/(m^{8}r^{10})$ by $15\%$
+at $r=20/m$. The two-loop Euler--Heisenberg
+coefficients~\cite{dunne_2004} multiply the leading coefficient by
+$1+\frac{1555}{153}\frac{\alpha}{\pi}$, its full $O(\alpha^{5})$ correction.
+On shell, the amplitude to $O(\omega^{14})$ and both two-loop coefficients agree
+with the independent low-energy expansion of~\cite{abdulhameed_chaubey_shao_2026}.
+With the pair channel at
+$O(\alpha^{2})$~\cite{laporta_jentschura_2024} and the three-photon series
+truncated at $s^{9}$ and cut off at $4m^{2}$, the model for the linear coefficient
+has two radii. $\Gamma\ge2m$ holds out to $r_\Gamma\approx20.64/m$, and the
+pair term exceeds the three-photon term out to $r_\times\approx22.55/m$; the
+$O(\alpha^{5})$ factor moves both in by $0.013/m$.
+Between them the pair term still dominates $\Phi$, being twelve times larger
+at $21/m$, yet $\Gamma<2m$. Beyond $r_\times$, $\Gamma$ falls towards $10/r$.
+An analytic envelope of the truncated amplitude, evaluated in floating
+point, bounds the spectral truncation for $s\le1.5\,m^{2}$. With the series
+assumed right within a factor of two above that, a range carrying $0.04\%$ of
+$\Phi_{3\gamma}$, the truncation moves the radii by less than $3\times10^{-4}/m$.
+The remaining orders in $\alpha$ are estimated at about $0.003/m$, not bounded
+(source package, note E4). The window is not universal. Outside a ball of
+radius $10/m$ both radii move outwards by about $8/m$. For a probe of charge
+$e$, the Euler--Heisenberg tail of the probe's own field ends the window near
+$11.6/m$; the three-photon tail comes first only below $q\approx10^{-4}e$.
+
+\paragraph{Finite probes.}
+Theorem~\ref{thm:A} concerns a point-like line. Suppose instead the probe
+charge is spread radially, with a non-negative density $\rho$ of unit total
+charge, within a radius $a$.
+Outside the probe each Yukawa component of the kernel is then multiplied by
+Newton's factor for a spherical shell, so for $r>a$
+\begin{equation}
+\Phi_{a}(r)=\int e^{-rx}F(x)\,\dnu(x),\qquad
+F(x)=\int\rho(\mathbf u)\,\frac{\sinh xu}{xu}\,d^{3}u,\qquad
+1\le F(x)\le\frac{\sinh xa}{xa}.
+\end{equation}
+On $r>a$, Theorems~\ref{thm:C} and~\ref{thm:E} hold with $\nu$ replaced by
+$F\nu$, which has the same support; the growth condition carries over because
+$F(x)\le e^{xa}$. Both bounds on $F$ use $\rho\ge0$: a signed density of unit
+total charge can give $F<0$ at some $x$. Without compact support the
+representation, and with it the bound, can fail. Take a Gaussian charge cloud
+of width $R=10/m$ in the one-loop Dirac model, and subtract the probe's own
+Maxwell flux, without which $\Phi$ is negative there. The vacuum polarization
+around the probe's tail still dominates the profile, and
+$\Gamma(50/m)=0.932\,m<2m$; two independent quadratures agree on this value.
+Non-negative radial charge of compact support is therefore a sufficient
+condition for the bounds to hold outside the probe; we do not claim it is
+necessary (source package, note E3).
 
 \begin{theorem}[No uniform lower bound]\label{thm:H}
 Fix $M>\mu\ge0$, a window $0\le t\le T$ and $0<\epsilon<1$. The normalised
@@ -603,9 +669,21 @@ independently justified.
 
 The open questions are physical rather than mathematical: deriving the
 Euclidean representation assumed in Proposition~\ref{prop:transport} from the
-Wightman axioms, and going beyond the quadratic cumulant in the probe, where
-the connected four-field cumulant enters (light-by-light scattering, in QED)
-and nothing here fixes its sign;
+Wightman axioms, and extending the result beyond the quadratic cumulant in
+the probe, where the connected four-field cumulant enters (light-by-light
+scattering, in QED). A separate Euler--Heisenberg calculation in the source
+package determines the leading local fixed-charge energy and the signs of
+its interaction sectors for specified rigid spherical sources. Its sharp
+ball and shell examples are benchmarks of the local term; a controlled
+application also requires slow variation at the source boundary. For the
+non-negative compactly supported probes computed there, a uniform ball and a
+$C^1$ polynomial profile, the matched first-order exterior profile changes
+sign at a finite radius set by the $2m$ threshold. That profile is the
+one-loop linear term plus the leading Euler--Heisenberg tail. In the local
+theory the first-order energy has a two-sided remainder bound for arbitrary
+sources.
+None of this fixes the sign of a general four-field cumulant or supplies the
+matching for point probes. The other open questions are
 constructing a positive label separating charged channels from massless cuts;
 and controlling spectral tails in gravitational examples. We note finally that
 Bachas' concavity bound~\cite{bachas_1986} obtains two derivative conditions on

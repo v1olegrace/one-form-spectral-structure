@@ -20,7 +20,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "reproducibility"))
 
 import ghost_analysis as ga  # noqa: E402  (required source; absence must fail)
 
-mp = pytest.importorskip("mpmath")
+import mpmath as mp  # noqa: E402  (in requirements.txt; absence must fail)
+
 L2 = 1.0e6
 
 
@@ -173,3 +174,29 @@ def test_reconstruction_reports_precision_uncertain_on_injected_failure(monkeypa
     bad = ga.reconstruct(1.0, g2, L2, return_diagnostics=True)
     assert bad["status"] == "PRECISION_UNCERTAIN"
     assert any("injected" in m for m in bad["quadrature_messages"])
+
+
+def test_large_weight_route_disagreement_cannot_be_resolved(monkeypatch):
+    g2 = 0.5 * ga.g2_critical(L2)
+    real = ga.atom_weight_integral
+
+    def wrong_integral_weight(d, b):
+        weight, error, message = real(d, b)
+        return 2 * weight, error, message
+
+    monkeypatch.setattr(ga, "atom_weight_integral", wrong_integral_weight)
+    got = ga.spectral_atom(g2, L2)
+    assert got["status"] == "PRECISION_UNCERTAIN"
+    assert got["quadrature_ok"] is False
+    assert got["weight_integral_primary_rel"] > 0.9
+    assert any("Integral weight disagrees" in m for m in got["quadrature_messages"])
+
+
+def test_corrupted_analytic_derivative_is_caught_by_other_routes(monkeypatch):
+    g2 = 0.5 * ga.g2_critical(L2)
+    real = ga._dI_edge_closed
+    monkeypatch.setattr(ga, "_dI_edge_closed", lambda d, b: 100 * real(d, b))
+    got = ga.spectral_atom(g2, L2)
+    assert got["status"] == "PRECISION_UNCERTAIN"
+    assert got["weight_fd_primary_rel"] > 90
+    assert any("Finite-difference weight disagrees" in m for m in got["quadrature_messages"])
